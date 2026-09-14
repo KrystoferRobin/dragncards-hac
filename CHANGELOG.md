@@ -2,10 +2,33 @@
 
 All notable changes to this project will be documented in this file.
 
-The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
-and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
+
+Entries below **[Unreleased]** are the Toybox fork of [seastan/dragncards](https://github.com/seastan/dragncards). Older `0.3.x` notes are leftover from the original Spades tree this engine grew out of.
 
 ## [Unreleased]
+
+### Added
+
+- Toybox club instance: invite-only sign-up (`DRAGN_INVITE_CODE`), alias + password accounts (no inbox), and log-in by alias.
+- Haven LFG webhook (`HAVEN_LFG_WEBHOOK_URL`) so looking-for-game posts can land in club chat with a link back (`DRAGNCARDS_PUBLIC_URL`).
+- Same-origin card art: plugins store relative image paths, the frontend prefixes `/cards/`, and host nginx maps that onto the fileshare. Plugin files do not publish a public image host.
+- `keywordReminders` glossary under the giant card preview for terms found in printed text.
+- Lobby deck editor at `/deck-editor/:pluginId` (catalog, plaintext import, start-a-table).
+- Shared browse HUD (2D and 3D), lobby banner/logo slots, and author credit on the plugin list.
+- Conversion toolchain under `plugins/scripts/` (Lackey, OCTGN, GEMP, live-table dumps, HEX / L5R / LoN / FoW and others) plus `collect_hosted_images.py`.
+- First-pass club plugins (Lackey / OCTGN / GEMP / catalog conversions), live-table snapshots, and an in-tree LotR LCG definition. Most are raw card databases, not finished public plugins. They will not load on stock DragnCards.
+- Table chat as a right-edge slide-out overlay (2D and 3D). Hidden except for a tab; hover peeks, click pins, click again hides. New chat pulses the tab while it is closed.
+
+### Changed
+
+- README describes the Toybox fork, plugin maturity, compatibility with upstream, and credits.
+- Public site URL for LFG / websocket origin is configured with `DRAGNCARDS_PUBLIC_URL` instead of a hardcoded host. Local `/cards/` proxy is opt-in via `REACT_APP_CARDS_ORIGIN`.
+- Create / update / delete of a plugin is author-only (or admin).
+
+### Fixed
+
+- Image-path helpers rewrite leftover absolute Toybox `/cards/` URLs to same-origin paths without storing a hostname in the repo.
 
 ## [0.3.4] - 2020-03-16
 
@@ -63,8 +86,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 Initial release. Rough, but playable with 4 people.
 
-[unreleased]: https://github.com/mreishus/spades/compare/v0.3.4...HEAD
-[0.3.3]: https://github.com/mreishus/spades/compare/v0.3.3...v0.3.4
+[unreleased]: https://github.com/KrystoferRobin/dragncards-hac/compare/v0.3.4...HEAD
+[0.3.4]: https://github.com/mreishus/spades/compare/v0.3.3...v0.3.4
 [0.3.3]: https://github.com/mreishus/spades/compare/v0.3.2...v0.3.3
 [0.3.2]: https://github.com/mreishus/spades/compare/v0.3.1...v0.3.2
 [0.3.1]: https://github.com/mreishus/spades/compare/v0.3.0...v0.3.1
