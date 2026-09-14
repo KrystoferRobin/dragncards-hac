@@ -1,0 +1,29 @@
+.plugin-lobby-grid {
+  display: grid;
+  grid-template-columns: 15rem minmax(0, 1fr) 15rem;
+  gap: 1.25rem;
+  align-items: start;
+}
+
+.plugin-lobby-side {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  min-width: 0;
+}
+
+.plugin-lobby-side-btn {
+  width: 100%;
+  line-height: 1.25;
+  word-break: break-word;
+}
+
+.plugin-lobby-main {
+  min-width: 0;
+}
+
+@media (max-width: 900px) {
+  .plugin-lobby-grid {
+    grid-template-columns: 1fr;
+  }
+}

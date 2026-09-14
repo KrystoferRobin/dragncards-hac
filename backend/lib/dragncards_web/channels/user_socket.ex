@@ -15,6 +15,7 @@ defmodule DragnCardsWeb.UserSocket do
   channel "chat:*", DragnCardsWeb.ChatChannel
   # LFG (Looking for Game)
   channel "lfg:*", DragnCardsWeb.LfgChannel
+  channel "tournament:*", DragnCardsWeb.TournamentChannel
 
   # Socket params are passed from the client and can
   # be used to verify and authenticate a user. After

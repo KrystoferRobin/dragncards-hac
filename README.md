@@ -34,7 +34,26 @@ On top of upstream DragnCards (including the 3D table):
 - **Keyword reminders.** `keywordReminders` in the game definition: hovering a card shows glossary text under the giant preview for terms found in the printed text.
 - **Lobby deck editor.** `/deck-editor/:pluginId` — catalog, plaintext import, and start-a-table from a built deck, outside the in-room deckbuilder.
 - **Table UI.** Shared browse HUD (2D and 3D), lobby banner/logo slots, author credit on the plugin list, and table-region polish used by the club plugins.
+- **Lobby reference links.** `tutorialUrl` still becomes the Tutorial button. Extra lobby buttons (rulebook, glossary, videos, …) come from `referenceLinks` in `jsons/main.json`, up to eight total:
+
+  ```json
+  "tutorialUrl": "https://example.com/how-to-play",
+  "referenceLinks": [
+    { "label": "Rulebook", "url": "https://example.com/rules.pdf" },
+    { "label": "Glossary", "url": "https://example.com/glossary" }
+  ]
+  ```
+
+  Numbered keys also work: `"referenceLink1Url"` + `"referenceLink1Label"`, through 8.
 - **Author-only plugin edits.** Create / update / delete is the plugin author (or an admin), not any logged-in user.
+- **Tournaments.** Club admins can open one event per plugin. The plugin list pins that game and stamps a gold trophy on the logo. A gold Join tournament button sits above Create Room. The lobby tracks registration, pairings, and table links; the host can kick/ban (recorded as losses) or end the event early. Haven can announce the opening, optional round/finalist lines, and the winner. Match table size comes from `playerCountMenu`; limited formats require `game_def.limited`. Run `mix ecto.migrate` so the `tournaments` tables exist (backend start also runs this via `ecto.setup`).
+- **Limited play.** Plugins can ship a `limited` object in `jsons/` (see Wyvern) for sealed, booster draft, and sealed draft. Packs are generated on the server. Create Room grows a format picker when the plugin defines products. After picks, a lite deck editor builds from that player's pool plus a leftover Card Pool tab. The host can start with whoever is seated, including a solo table for testing.
+  - `setProperty` / `rarityProperty` — face fields used to fill packs (Wyvern: `set`, `rarity`).
+  - `rarityNormalize` plus `Common-3`-style suffixes map onto slot codes `C` / `U` / `R` / `M`.
+  - `defaultSpread` / `setSpreads` — `{ count, rarities }` slots. Rarities are tried in order if a bin is empty.
+  - `products` — `kind: "booster"` (set + spread) or `kind: "starter"` (random slots plus `from: "fixed"` card lists).
+  - `passDirection` — `clockwise` (First→Second→…→First) or `alternate`.
+  - Tag plugin precons with `"sealed": true`. User decks can be marked sealed-legal in the deck editor.
 - **Conversion toolchain.** Python (and a few JS) importers under `plugins/scripts/` for Lackey, OCTGN, GEMP, live-table dumps, and game-specific catalogs (HEX, L5R, Legends of Norrath, Force of Will, and others), plus `collect_hosted_images.py` to download art, rename it, and rewrite paths.
 
 Card art, reference dumps, and third-party conversion sources stay off GitHub (`/images/`, `/references/`, live-dump JSON). This repo is the engine plus plugin *definitions*.
@@ -122,6 +141,8 @@ Tested on Ubuntu 22.04 / 24.04 Server. Copy `.env.example` to `.env` next to `co
 docker compose up -d backend
 # First time: create a user in the DB. Alias "dev_user", password "password"
 docker compose exec backend mix run /app/priv/create_user.exs
+# Pending migrations (limited deck fields, tournaments):
+docker compose exec backend mix ecto.migrate
 
 docker compose run --rm --service-ports frontend
 ```

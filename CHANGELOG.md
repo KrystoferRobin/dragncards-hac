@@ -19,16 +19,22 @@ Entries below **[Unreleased]** are the Toybox fork of [seastan/dragncards](https
 - Conversion toolchain under `plugins/scripts/` (Lackey, OCTGN, GEMP, live-table dumps, HEX / L5R / LoN / FoW and others) plus `collect_hosted_images.py`.
 - First-pass club plugins (Lackey / OCTGN / GEMP / catalog conversions), live-table snapshots, and an in-tree LotR LCG definition. Most are raw card databases, not finished public plugins. They will not load on stock DragnCards.
 - Table chat as a right-edge slide-out overlay (2D and 3D). Hidden except for a tab; hover peeks, click pins, click again hides. New chat pulses the tab while it is closed.
+- Plugin lobby reference buttons: `tutorialUrl` plus up to eight extra links from `referenceLinks` (or `referenceLinkNUrl` / `referenceLinkNLabel`) in `main.json`.
+- Tournaments (club admin): one open event per plugin, Haven announce, lobby registration, pairings with private match tables, winner report, kick/ban (counts as losses), early end. Plugin list pins open events with a trophy. Match size follows `playerCountMenu`. Two-loss-out auto-advances; Swiss/elim structures are stored for later pairing math.
+- Limited play (sealed, draft, sealed draft): plugin `limited` recipes, server-side booster/starter generation, pick-and-pass overlay, then a lite deck editor with leftover Card Pool. Wyvern ships the first example. The host can start with whoever is seated; empty seats are left out of the pod.
 
 ### Changed
 
 - README describes the Toybox fork, plugin maturity, compatibility with upstream, and credits.
 - Public site URL for LFG / websocket origin is configured with `DRAGNCARDS_PUBLIC_URL` instead of a hardcoded host. Local `/cards/` proxy is opt-in via `REACT_APP_CARDS_ORIGIN`.
 - Create / update / delete of a plugin is author-only (or admin).
+- Plugin lobby layout: notes and rooms in the center, Create Room + Looking for Game stacked on the right (same width), tutorial and extra links stacked on the left. Removed the unused "Email me new LFG posts" toggle.
 
 ### Fixed
 
 - Image-path helpers rewrite leftover absolute Toybox `/cards/` URLs to same-origin paths without storing a hostname in the repo.
+- My Plugins list sends the session token. After plugin create/update/delete became author-only, the unauthenticated list request 401'd and the page looked empty.
+- Limited draft overlay shows a full-size card preview on hover so pack cards can be read.
 
 ## [0.3.4] - 2020-03-16
 

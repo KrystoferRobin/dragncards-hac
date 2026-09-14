@@ -600,6 +600,10 @@ const processInputsIntoGameDefinition = (inputs) => {
     backgroundUrl: inputs.backgroundUrl || "",
     bannerUrl: inputs.bannerUrl || "",
     logoUrl: inputs.logoUrl || "",
+    tutorialUrl: inputs.tutorialUrl || "",
+    referenceLinks: (inputs.referenceLinks || [])
+      .map((item) => ({ label: (item?.label || "").trim(), url: (item?.url || "").trim() }))
+      .filter((item) => item.url),
   };
 
   return gameDefinition;

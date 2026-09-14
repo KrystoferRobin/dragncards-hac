@@ -160,5 +160,11 @@ defmodule DragnCardsWeb.MyPluginsControllerTest do
       names = Jason.decode!(conn.resp_body)["my_plugins"] |> Enum.map(& &1["name"])
       assert names == ["attacker plugin"]
     end
+
+    test "an anonymous request is rejected", ctx do
+      conn = get(ctx.conn, "/api/myplugins/#{ctx.owner.id}")
+
+      assert conn.status == 401
+    end
   end
 end

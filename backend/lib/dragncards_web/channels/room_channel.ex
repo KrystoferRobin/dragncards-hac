@@ -156,6 +156,18 @@ defmodule DragnCardsWeb.RoomChannel do
     {:reply, {:ok, "game_action"}, socket}
   end
 
+  def handle_in("limited_start", _payload, %{assigns: %{room_slug: room_slug, user_id: user_id}} = socket) do
+    limited_channel_action(socket, room_slug, user_id, fn -> GameUIServer.limited_start(room_slug, user_id) end)
+  end
+
+  def handle_in("limited_pick", %{"databaseId" => database_id}, %{assigns: %{room_slug: room_slug, user_id: user_id}} = socket) do
+    limited_channel_action(socket, room_slug, user_id, fn -> GameUIServer.limited_pick(room_slug, user_id, database_id) end)
+  end
+
+  def handle_in("limited_commit_deck", %{"load_list" => load_list}, %{assigns: %{room_slug: room_slug, user_id: user_id}} = socket) do
+    limited_channel_action(socket, room_slug, user_id, fn -> GameUIServer.limited_commit_deck(room_slug, user_id, load_list) end)
+  end
+
 
   def handle_in(
     "save_replay",
@@ -468,6 +480,22 @@ defmodule DragnCardsWeb.RoomChannel do
     broadcast!(socket, "send_alert", payload)
 
     {:noreply, socket}
+  end
+
+  defp limited_channel_action(socket, room_slug, user_id, fun) do
+    old_state = GameUIServer.state(room_slug)
+
+    case fun.() do
+      {:ok, _new} ->
+        notify_update(socket, room_slug, user_id, old_state, "limited")
+        {:reply, :ok, socket}
+
+      {:error, reason} ->
+        {:reply, {:error, %{reason: reason}}, socket}
+
+      false ->
+        {:reply, {:error, %{reason: "Room is gone."}}, socket}
+    end
   end
 
   defp push_room_unavailable(socket) do

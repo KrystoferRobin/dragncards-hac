@@ -1,7 +1,7 @@
 import React, { useEffect, useMemo, useReducer, useState } from "react";
 import { Redirect, useHistory, useLocation } from "react-router-dom";
 import useProfile from "../../hooks/useProfile";
-import useDataApi from "../../hooks/useDataApi";
+import useAuthDataApi from "../../hooks/useAuthDataApi";
 import axios from "axios";
 import { EditPluginModal } from "./editplugin/EditPluginModal";
 import * as moment from 'moment';
@@ -103,8 +103,10 @@ export const MyPlugins = () => {
   const showTutorial = queryParams.get("showTutorial") === "true";
   const [runTutorial, setRunTutorial] = useState(false);
 
-  const { data, isLoading, isError, doFetchUrl, doFetchHash } = useDataApi(
-    "/be/api/myplugins/"+user?.id,
+  // Must send the session token: /api/myplugins is behind :api_protected, so
+  // the unauthenticated fetch used to 401 and the list rendered empty.
+  const { data, isError, doFetchUrl, doFetchHash } = useAuthDataApi(
+    user?.id ? "/be/api/myplugins/"+user.id : "/be/api/myplugins/0",
     null
   );
 
@@ -201,9 +203,12 @@ export const MyPlugins = () => {
         </LobbyButton>
       </div>
 
-      {data?.my_plugins.map((plugin, index) => (
+      {isError && (
+        <div className="text-red-400 text-sm mb-2">Could not load your plugins. Try signing in again.</div>
+      )}
+      {data?.my_plugins?.map((plugin, index) => (
         <MyPluginEntry
-          key={index}
+          key={plugin.id ?? index}
           plugin={plugin}
           setSelectedPlugin={setSelectedPlugin}
           setShowEditModal={setShowEditModal}

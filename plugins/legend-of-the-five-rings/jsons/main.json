@@ -1,7 +1,14 @@
 {
   "pluginName": "Legend of the Five Rings",
   "author": "Kamisasori Toshokan / Oracle of the Void / Sun and Moon / L5R DB",
-  "tutorialUrl": "https://www.hwstn.com/sunandmoon/",
+  "referenceLinks": [
+    { "label": "Video", "url": "https://www.youtube.com/watch?v=RG7WiGfdJJ4&list=PLXs8sV77EdBD_T6aJioMudNo77Z_NYbcT" },
+    { "label": "Card Oracle", "url": "https://oracleofthevoid.com/" },
+    { "label": "Basic", "url": "/cards/legend-of-the-five-rings/_plugin/Rulebook-L5R-TwentyFestivals-Basic.pdf" },
+    { "label": "Advanced", "url": "/cards/legend-of-the-five-rings/_plugin/Rulebook-L5R-TwentyFestivals-Advanced.pdf" },
+    { "label": "Comprehensive", "url": "/cards/legend-of-the-five-rings/_plugin/Rulebook-L5R-TwentyFestivals-Comprehensive.pdf" }
+  ],
+
   "announcements": [
     "AEG Legend of the Five Rings CCG (not the FFG LCG). Ivory-shaped table for 2–8, shortcuts only — no rules engine.",
     "Your seat stays at the bottom. Look at another player to put them across the table. Holdings sit below the provinces.",

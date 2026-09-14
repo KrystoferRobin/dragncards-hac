@@ -10,7 +10,8 @@ defmodule DragnCardsWeb.PluginsView do
 
   defp display_author(_), do: nil
 
-  def render("index.json", %{plugins: plugins}) do
+  def render("index.json", %{plugins: plugins} = assigns) do
+    open = Map.get(assigns, :open_tournaments, %{})
     %{data: Enum.map(plugins, fn plugin ->
       {
         author_id,
@@ -46,7 +47,8 @@ defmodule DragnCardsWeb.PluginsView do
         banner_url: banner_url,
         logo_url: logo_url,
         count_24hr: if count_24hr == nil do 0 else count_24hr end,
-        count_30d: if count_30d == nil do 0 else count_30d end
+        count_30d: if count_30d == nil do 0 else count_30d end,
+        open_tournament_id: Map.get(open, plugin_id)
       }
     end)}
     #%{data: render_many(plugins, PluginsView, "plugin.json")} # This wasn't working for some reason
@@ -70,8 +72,12 @@ defmodule DragnCardsWeb.PluginsView do
       tutorial_url,
       banner_url,
       logo_url,
-      author
+      author,
+      lobby_links,
+      limited,
+      match_player_counts
     } = plugin
+    open = DragnCards.Tournaments.open_for_plugin(plugin_id)
     %{data:
       %{
         id: plugin_id,
@@ -86,7 +92,15 @@ defmodule DragnCardsWeb.PluginsView do
         announcements: announcements,
         tutorial_url: tutorial_url,
         banner_url: banner_url,
-        logo_url: logo_url
+        logo_url: logo_url,
+        lobby_links: lobby_links,
+        limited: limited,
+        match_player_counts: match_player_counts,
+        open_tournament: if open do
+          %{id: open.id, slug: open.slug, name: open.name, status: open.status}
+        else
+          nil
+        end
       }
     }
   end

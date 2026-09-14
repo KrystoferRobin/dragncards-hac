@@ -20,6 +20,11 @@ export const DeckEditorCurrent = ({
   saveCurrentDeck,
   deleteCurrentDeck,
   setDeckPublic,
+  setSealedLegal,
+  showSealedToggle,
+  hidePublic,
+  extraSpawnGroups,
+  hideAllGroups,
   playDeck,
   playLabel,
   cardDb,
@@ -29,7 +34,7 @@ export const DeckEditorCurrent = ({
   numChanges,
 }) => {
   const [showAllGroups, setShowAllGroups] = useState(false);
-  const common = gameDef?.deckbuilder?.spawnGroups || [];
+  const common = [...(gameDef?.deckbuilder?.spawnGroups || []), ...(extraSpawnGroups || [])];
 
   const allGroups = () => {
     const groups = [];
@@ -49,7 +54,7 @@ export const DeckEditorCurrent = ({
     return groups;
   };
 
-  const spawnGroups = showAllGroups ? allGroups() : common;
+  const spawnGroups = showAllGroups && !hideAllGroups ? allGroups() : common;
 
   useEffect(() => {
     if (currentGroupId || !spawnGroups[0]) return;
@@ -111,14 +116,26 @@ export const DeckEditorCurrent = ({
         <button type="button" className="px-2 py-1 border border-gray-500 rounded hover:bg-gray-600" title="Export" onClick={exportCurrentDeck}>
           <FontAwesomeIcon icon={faDownload} />
         </button>
-        <button
-          type="button"
-          className={`px-2 py-1 border rounded hover:bg-gray-600 ${currentDeck.public ? "bg-red-800 border-red-500" : "border-gray-500"}`}
-          title={currentDeck.public ? "Make private" : "Make public"}
-          onClick={() => setDeckPublic(!currentDeck.public)}
-        >
-          <FontAwesomeIcon icon={faShare} />
-        </button>
+        {showSealedToggle && (
+          <button
+            type="button"
+            className={`px-2 py-1 text-xs border rounded hover:bg-gray-600 ${(currentDeck.formats || []).includes("sealed") ? "bg-green-800 border-green-500" : "border-gray-500"}`}
+            title={(currentDeck.formats || []).includes("sealed") ? "Remove sealed-legal tag" : "Mark sealed-legal"}
+            onClick={() => setSealedLegal(!((currentDeck.formats || []).includes("sealed")))}
+          >
+            Sealed
+          </button>
+        )}
+        {!hidePublic && (
+          <button
+            type="button"
+            className={`px-2 py-1 border rounded hover:bg-gray-600 ${currentDeck.public ? "bg-red-800 border-red-500" : "border-gray-500"}`}
+            title={currentDeck.public ? "Make private" : "Make public"}
+            onClick={() => setDeckPublic(!currentDeck.public)}
+          >
+            <FontAwesomeIcon icon={faShare} />
+          </button>
+        )}
         <button type="button" className="px-2 py-1 border border-gray-500 rounded hover:bg-gray-600" title="Delete" onClick={deleteCurrentDeck}>
           <FontAwesomeIcon icon={faTrash} />
         </button>
@@ -138,6 +155,7 @@ export const DeckEditorCurrent = ({
             </button>
           );
         })}
+        {!hideAllGroups && (
         <button
           type="button"
           className="px-2 py-1 text-xs text-gray-400 hover:text-white"
@@ -145,6 +163,7 @@ export const DeckEditorCurrent = ({
         >
           {showAllGroups ? "Common tabs" : "All groups"}
         </button>
+        )}
       </div>
       <div className="flex-1 min-h-0 overflow-auto px-2 pb-2">
         {tabItems.length === 0 && (

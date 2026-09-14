@@ -45,6 +45,8 @@ defmodule DragnCards.Decks do
         plugin_id: d.plugin_id,
         load_list: d.load_list,
         public: d.public,
+        formats: d.formats,
+        limited_session_id: d.limited_session_id,
         author_id: d.author_id,
         author_alias: u.alias,
         author_supporter_level: u.supporter_level

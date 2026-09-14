@@ -135,6 +135,18 @@ defmodule DragnCardsWeb.Router do
     post("/lfg/:post_id/respond", LfgController, :respond)
     delete("/lfg/:post_id/respond", LfgController, :cancel_response)
 
+    # Tournaments
+    get("/tournaments/plugin/:plugin_id", TournamentController, :open_for_plugin)
+    get("/tournaments/:id", TournamentController, :show)
+    post("/tournaments", TournamentController, :create)
+    post("/tournaments/:id/register", TournamentController, :register)
+    post("/tournaments/:id/unregister", TournamentController, :unregister)
+    post("/tournaments/:id/start", TournamentController, :start)
+    post("/tournaments/:id/next_round", TournamentController, :next_round)
+    post("/tournaments/:id/cancel", TournamentController, :cancel)
+    post("/tournaments/:id/kick", TournamentController, :kick)
+    post("/tournaments/:id/report", TournamentController, :report)
+
   end
 
   # scope "/api/v1", DragnCardsWeb.API.V1, as: :api_v1 do

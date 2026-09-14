@@ -18,6 +18,7 @@ export const Z_INDEX = {
   "TopBarHover": 4e3,
   "DeveloperModal": 1e4,
   "Hotkeys": 2e4,
+  "Limited": 2.5e4,
   "DropdownMenu": 5e4,
   "Modal": 1e5,
   "CardImage": 1e6,

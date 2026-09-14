@@ -7,7 +7,7 @@
   require Logger
   import Ecto.Query
   alias ElixirSense.Log
-  alias DragnCardsGame.{Groups, Game, PlayerData, GameVariables, Evaluate, AutomationRules, TempTokens, PluginCache}
+  alias DragnCardsGame.{Groups, Game, PlayerData, GameVariables, Evaluate, AutomationRules, TempTokens, PluginCache, Limited}
   alias DragnCards.{Repo, Replay, Users, Plugins}
 
   @type t :: Map.t()
@@ -63,7 +63,34 @@
   def new(room_slug, user_id, game_def, options) do
     IO.puts("Making new Game")
     player_count_menu = game_def["playerCountMenu"]
-    default_player_count_info = Enum.at(player_count_menu, 0)
+    requested_players =
+      cond do
+        is_integer(options["numPlayers"]) -> options["numPlayers"]
+        is_binary(options["numPlayers"]) ->
+          case Integer.parse(options["numPlayers"]) do
+            {int, _} -> int
+            :error -> nil
+          end
+        true ->
+          case get_in(options, ["limited", "numPlayers"]) do
+            n when is_integer(n) -> n
+            n when is_binary(n) ->
+              case Integer.parse(n) do
+                {int, _} -> int
+                :error -> nil
+              end
+            _ -> nil
+          end
+      end
+    default_player_count_info =
+      cond do
+        is_integer(requested_players) ->
+          Enum.find(player_count_menu, fn info -> info["numPlayers"] == requested_players end) ||
+            Enum.at(player_count_menu, 0)
+
+        true ->
+          Enum.at(player_count_menu, 0)
+      end
     max_num_players =
       player_count_menu
       |> Enum.max_by(& &1["numPlayers"])
@@ -174,6 +201,15 @@
     end)
 
     Logger.debug("Set game settings")
+    game = Limited.init_game(game, options)
+    game =
+      if options["tournamentId"] do
+        game
+        |> Map.put("tournamentId", options["tournamentId"])
+        |> Map.put("tournamentMatchId", options["tournamentMatchId"])
+      else
+        game
+      end
     game
   end
 

@@ -2,6 +2,7 @@
   "preBuiltDecks": {
     "worldChamp1995": {
       "label": "1995 World Champ Deck",
+      "sealed": true,
       "cards": [
         {
           "databaseId": "02Kingdom_K070",
@@ -232,6 +233,7 @@
     },
     "themeHelp": {
       "label": "Theme Deck: Help",
+      "sealed": true,
       "cards": [
         {
           "databaseId": "02Kingdom_K057",
@@ -432,6 +434,7 @@
     },
     "themeNativeTerrain": {
       "label": "Theme Deck: Native Terrain",
+      "sealed": true,
       "cards": [
         {
           "databaseId": "02Kingdom_K111",

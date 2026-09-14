@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { RotatingLines } from "react-loader-spinner";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faStar as faStarO } from "@fortawesome/free-regular-svg-icons";
-import { faChevronRight, faStar as faStarS } from "@fortawesome/free-solid-svg-icons";
+import { faChevronRight, faStar as faStarS, faTrophy } from "@fortawesome/free-solid-svg-icons";
 import moment from "moment";
 import { useSiteL10n } from "../../hooks/useSiteL10n";
 import { useHistory } from "react-router-dom";
@@ -25,23 +25,29 @@ const CoverImage = ({ src, className, style, alt = "" }) => {
   );
 };
 
-const LogoSlot = ({ src }) => {
+const LogoSlot = ({ src, tournamentOpen }) => {
   const [failed, setFailed] = useState(!src);
-  if (!src || failed) {
-    return (
-      <div className="relative z-10 flex-shrink-0 flex items-center justify-center px-2">
-        <FontAwesomeIcon size="2x" icon={faChevronRight}/>
-      </div>
-    );
-  }
   return (
-    <div className="relative z-10 self-stretch aspect-square flex-shrink-0 overflow-hidden my-2 mr-2">
-      <img
-        src={src}
-        alt=""
-        className="absolute inset-0 w-full h-full object-contain pointer-events-none"
-        onError={() => setFailed(true)}
-      />
+    <div className="relative z-10 self-stretch aspect-square flex-shrink-0 my-2 mr-2">
+      {src && !failed ? (
+        <div className="absolute inset-0 overflow-hidden">
+          <img
+            src={src}
+            alt=""
+            className="absolute inset-0 w-full h-full object-contain pointer-events-none"
+            onError={() => setFailed(true)}
+          />
+        </div>
+      ) : (
+        <div className="absolute inset-0 flex items-center justify-center px-2">
+          <FontAwesomeIcon size="2x" icon={faChevronRight}/>
+        </div>
+      )}
+      {tournamentOpen && (
+        <div className="absolute -top-1 -right-1 z-20 text-yellow-400 drop-shadow" title="Tournament open">
+          <FontAwesomeIcon icon={faTrophy} />
+        </div>
+      )}
     </div>
   );
 };
@@ -89,6 +95,9 @@ export const PluginsTable = ({ plugins, hrefForPlugin }) => {
   };
 
   const sortedPlugins = plugins ? [...plugins].sort((a, b) => {
+    const aOpen = a.open_tournament_id ? 1 : 0;
+    const bOpen = b.open_tournament_id ? 1 : 0;
+    if (aOpen !== bOpen) return bOpen - aOpen;
     const aFav = favorites[a.id] ? 1 : 0;
     const bFav = favorites[b.id] ? 1 : 0;
     return bFav - aFav;
@@ -147,7 +156,7 @@ export const PluginsTable = ({ plugins, hrefForPlugin }) => {
                     <div className="text-xs">{siteL10n("Author:") + " " + pluginDisplayAuthor(plugin)}</div>
                     <div className="text-xs">{siteL10n("Games in 24hr/30d:") + " " + plugin.count_24hr + "/" + plugin.count_30d}</div>
                   </div>
-                  <LogoSlot src={logoUrl} />
+                  <LogoSlot src={logoUrl} tournamentOpen={Boolean(plugin.open_tournament_id)} />
                 </div>
               )
             })}

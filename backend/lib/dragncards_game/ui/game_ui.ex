@@ -1073,7 +1073,8 @@ defmodule DragnCardsGame.GameUI do
   end
 
   def get_user_id_from_player_n(game, player_n) do
-    game["playerInfo"][player_n]["id"]
+    get_in(game, ["playerInfo", player_n, "id"]) ||
+      get_in(game, ["playerData", player_n, "user_id"])
   end
 
   def get_alias_n(game) do

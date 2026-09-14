@@ -1,0 +1,148 @@
+.limited-overlay {
+  position: absolute;
+  inset: 0;
+  z-index: 25000;
+  background: rgba(8, 10, 14, 0.94);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+}
+
+.limited-overlay-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.6rem 1rem;
+  border-bottom: 1px solid #374151;
+  flex-shrink: 0;
+}
+
+.limited-overlay-body {
+  flex: 1;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+  padding: 0.75rem;
+  overflow: hidden;
+}
+
+.limited-fan {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  gap: 0.35rem;
+  min-height: 18%;
+  padding-bottom: 0.5rem;
+}
+
+.limited-pack {
+  flex: 1;
+  min-height: 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  justify-content: center;
+  gap: 0.5rem;
+  overflow: auto;
+}
+
+.limited-card {
+  width: 7.5rem;
+  cursor: pointer;
+  border-radius: 0.4rem;
+  overflow: hidden;
+  border: 2px solid transparent;
+  background: #111;
+  flex-shrink: 0;
+}
+
+.limited-card:hover,
+.limited-card.is-pending {
+  border-color: #b91c1c;
+}
+
+.limited-card img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.limited-card-name {
+  font-size: 0.7rem;
+  padding: 0.2rem 0.3rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.limited-prompt {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.55);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.limited-prompt-card {
+  background: #1f2937;
+  border: 1px solid #4b5563;
+  border-radius: 0.6rem;
+  padding: 1rem;
+  width: min(22rem, 92vw);
+  text-align: center;
+}
+
+.limited-prompt-card button {
+  margin: 0.4rem;
+  padding: 0.4rem 1rem;
+  border-radius: 0.3rem;
+  border: 1px solid #9ca3af;
+  background: #374151;
+  color: #fff;
+}
+
+.limited-prompt-card button.yes {
+  background: #991b1b;
+  border-color: #ef4444;
+}
+
+.limited-hover {
+  position: fixed;
+  top: 1%;
+  display: flex;
+  flex-direction: column;
+  max-height: 98dvh;
+  pointer-events: none;
+}
+
+.limited-hover img {
+  border-radius: 5%;
+  box-shadow: 0 0 50px 20px black;
+  display: block;
+}
+
+.limited-hover-reminders {
+  margin-top: 0.7dvh;
+  background: #242526;
+  border: 1px solid #474a4d;
+  border-radius: 8px;
+  padding: 1dvh 1.2dvh;
+  max-height: 28dvh;
+  overflow: hidden;
+  box-shadow: 0 0 50px 20px black;
+  color: #dadce1;
+  font-size: 1.55dvh;
+  line-height: 1.35;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.7dvh;
+}
+
+.limited-hover-reminder-name {
+  font-weight: 700;
+  color: #e8eaed;
+  margin-bottom: 0.15dvh;
+}

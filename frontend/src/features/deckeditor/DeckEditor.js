@@ -29,6 +29,9 @@ export const DeckEditor = ({
   onStartTable,
   onClose,
   headerLeft,
+  pool,
+  sessionId,
+  onCommit,
 }) => {
   const user = useProfile();
   const authOptions = useAuthOptions();
@@ -36,7 +39,13 @@ export const DeckEditor = ({
   const cardDb = plugin?.card_db || {};
   const pluginId = plugin?.id;
   const language = user?.language || "English";
-  const spawnGroups = gameDef?.deckbuilder?.spawnGroups || [];
+  const spawnGroups = useMemo(() => {
+    const groups = [...(gameDef?.deckbuilder?.spawnGroups || [])];
+    if (mode === "limited" && !groups.some((g) => g.loadGroupId === "playerNCardPool")) {
+      groups.push({ loadGroupId: "playerNCardPool", label: "Card Pool" });
+    }
+    return groups;
+  }, [gameDef, mode]);
 
   const [currentDeck, setCurrentDeck] = useState({});
   const [currentGroupId, setCurrentGroupId] = useState(spawnGroups[0]?.loadGroupId);
@@ -97,6 +106,8 @@ export const DeckEditor = ({
         plugin_id: pluginId,
         load_list: normalizeList(loadList),
         public: false,
+        formats: mode === "limited" ? ["limited"] : [],
+        limited_session_id: mode === "limited" ? sessionId || null : null,
       },
     };
     const res = await axios.post("/be/api/v1/decks", updateData, authOptions);
@@ -133,7 +144,65 @@ export const DeckEditor = ({
     refreshDecks();
   };
 
+  const setSealedLegal = async (val) => {
+    const formats = new Set(currentDeck.formats || []);
+    if (val) formats.add("sealed");
+    else formats.delete("sealed");
+    const next = { ...currentDeck, formats: [...formats] };
+    setCurrentDeck(next);
+    await axios.patch(`/be/api/v1/decks/${currentDeck.id}`, { deck: next }, authOptions);
+    refreshDecks();
+    setStatus(val ? "Marked sealed-legal." : "Removed sealed tag.");
+  };
+
+  const limitedModify = (loadListItem, existingIndex = null) => {
+    if (!currentDeck?.id) return;
+    const poolGroup = "playerNCardPool";
+    const deckCopy = { ...currentDeck, load_list: [...(currentDeck.load_list || [])] };
+    const id = loadListItem.databaseId;
+    const bump = (groupId, delta) => {
+      const idx = deckCopy.load_list.findIndex((item) => item.databaseId === id && item.loadGroupId === groupId);
+      if (idx >= 0) {
+        deckCopy.load_list[idx] = {
+          ...deckCopy.load_list[idx],
+          quantity: deckCopy.load_list[idx].quantity + delta,
+        };
+        if (deckCopy.load_list[idx].quantity <= 0) deckCopy.load_list.splice(idx, 1);
+      } else if (delta > 0) {
+        deckCopy.load_list.push({
+          databaseId: id,
+          quantity: delta,
+          loadGroupId: groupId,
+          _name: loadListItem._name || cardName(cardDb, id),
+        });
+      }
+    };
+
+    if (existingIndex != null) {
+      const item = deckCopy.load_list[existingIndex];
+      if (!item || item.loadGroupId === poolGroup) return;
+      const removeQty = Math.min(Math.abs(loadListItem.quantity || 1), item.quantity || 0);
+      if (removeQty <= 0) return;
+      bump(item.loadGroupId, -removeQty);
+      bump(poolGroup, removeQty);
+    } else {
+      const toGroup = loadListItem.loadGroupId || currentGroupId;
+      if (!toGroup || toGroup === poolGroup) return;
+      const poolItem = deckCopy.load_list.find((item) => item.databaseId === id && item.loadGroupId === poolGroup);
+      const move = Math.min(Math.abs(loadListItem.quantity || 1), poolItem?.quantity || 0);
+      if (move <= 0) return;
+      bump(poolGroup, -move);
+      bump(toGroup, move);
+    }
+    setCurrentDeck(deckCopy);
+    setNumChanges((n) => n + 1);
+  };
+
   const modifyDeckList = (loadListItem, existingIndex = null) => {
+    if (mode === "limited") {
+      limitedModify(loadListItem, existingIndex);
+      return;
+    }
     if (!currentDeck?.id) {
       createNewDeck([loadListItem]);
       return;
@@ -234,12 +303,42 @@ export const DeckEditor = ({
   const playDeck = async () => {
     if (!currentDeck?.id) return;
     await saveCurrentDeck(false);
+    if (mode === "limited" && onCommit) {
+      onCommit(currentDeck);
+      return;
+    }
     if (mode === "table" && onPlayAtTable) {
       onPlayAtTable(currentDeck);
       return;
     }
     if (onStartTable) onStartTable(currentDeck);
   };
+
+  useEffect(() => {
+    if (mode !== "limited" || !user?.id || currentDeck?.id || !pool?.length) return;
+    const list = pool.map((item) => ({
+      databaseId: item.databaseId,
+      quantity: item.quantity,
+      loadGroupId: "playerNCardPool",
+    }));
+    createNewDeck(list, "Limited pool");
+  }, [mode, user?.id, pool, currentDeck?.id]);
+
+  const remainingById = useMemo(() => {
+    if (mode !== "limited") return null;
+    const rem = {};
+    (currentDeck.load_list || []).forEach((item) => {
+      if (item.loadGroupId === "playerNCardPool") {
+        rem[item.databaseId] = (rem[item.databaseId] || 0) + (item.quantity || 0);
+      }
+    });
+    return rem;
+  }, [mode, currentDeck]);
+
+  const allowedIds = useMemo(() => {
+    if (mode !== "limited") return null;
+    return (pool || []).map((item) => item.databaseId);
+  }, [mode, pool]);
 
   if (!gameDef?.deckbuilder) {
     return (
@@ -264,20 +363,24 @@ export const DeckEditor = ({
         <div className="font-semibold truncate">{gameDef.pluginName || plugin?.name}</div>
         <div className="flex-1" />
         {status && <span className="text-xs text-gray-400">{status}</span>}
-        <button type="button" className="px-2 py-1 text-sm border border-gray-500 rounded hover:bg-gray-700" onClick={handleUrlImport}>
-          Import URL
-        </button>
-        <button
-          type="button"
-          className="px-2 py-1 text-sm border border-gray-500 rounded hover:bg-gray-700"
-          onClick={() => setPlaintextOpen(true)}
-        >
-          Import text
-        </button>
-        <label className="px-2 py-1 text-sm border border-gray-500 rounded hover:bg-gray-700 cursor-pointer">
-          Import .o8d
-          <input type="file" accept=".o8d" hidden onChange={handleO8d} />
-        </label>
+        {mode !== "limited" && (
+          <>
+            <button type="button" className="px-2 py-1 text-sm border border-gray-500 rounded hover:bg-gray-700" onClick={handleUrlImport}>
+              Import URL
+            </button>
+            <button
+              type="button"
+              className="px-2 py-1 text-sm border border-gray-500 rounded hover:bg-gray-700"
+              onClick={() => setPlaintextOpen(true)}
+            >
+              Import text
+            </button>
+            <label className="px-2 py-1 text-sm border border-gray-500 rounded hover:bg-gray-700 cursor-pointer">
+              Import .o8d
+              <input type="file" accept=".o8d" hidden onChange={handleO8d} />
+            </label>
+          </>
+        )}
         {onClose && (
           <button type="button" className="px-2 py-1 text-sm border border-gray-500 rounded hover:bg-gray-700" onClick={onClose}>
             Close
@@ -285,23 +388,25 @@ export const DeckEditor = ({
         )}
       </div>
       <div className="flex flex-1 min-h-0">
-        <DeckEditorSidebar
-          myDecks={myDecks}
-          currentDeck={currentDeck}
-          setCurrentDeck={(deck) => {
-            setCurrentDeck(deck);
-            setNumChanges(0);
-          }}
-          createNewDeck={createNewDeck}
-          importLoadList={mergeImportedList}
-          loadPrecon={loadPrecon}
-          preconEntries={preconEntries}
-          gameDef={gameDef}
-          language={language}
-          filters={filters}
-          setFilters={setFilters}
-          filterColumns={visibleColumns}
-        />
+        {mode !== "limited" && (
+          <DeckEditorSidebar
+            myDecks={myDecks}
+            currentDeck={currentDeck}
+            setCurrentDeck={(deck) => {
+              setCurrentDeck(deck);
+              setNumChanges(0);
+            }}
+            createNewDeck={createNewDeck}
+            importLoadList={mergeImportedList}
+            loadPrecon={loadPrecon}
+            preconEntries={preconEntries}
+            gameDef={gameDef}
+            language={language}
+            filters={filters}
+            setFilters={setFilters}
+            filterColumns={visibleColumns}
+          />
+        )}
         <div className="flex flex-col flex-1 min-w-0 min-h-0">
           <DeckEditorCurrent
             currentDeck={currentDeck}
@@ -312,8 +417,13 @@ export const DeckEditor = ({
             saveCurrentDeck={() => saveCurrentDeck(true)}
             deleteCurrentDeck={deleteCurrentDeck}
             setDeckPublic={setDeckPublic}
+            setSealedLegal={setSealedLegal}
+            showSealedToggle={mode !== "limited"}
+            hidePublic={mode === "limited"}
+            extraSpawnGroups={mode === "limited" ? [{ loadGroupId: "playerNCardPool", label: "Card Pool" }] : []}
+            hideAllGroups={mode === "limited"}
             playDeck={playDeck}
-            playLabel={mode === "table" ? "Load onto table" : "Start a table"}
+            playLabel={mode === "limited" ? "Commit to table" : mode === "table" ? "Load onto table" : "Start a table"}
             cardDb={cardDb}
             gameDef={gameDef}
             language={language}
@@ -332,6 +442,8 @@ export const DeckEditor = ({
             modifyDeckList={modifyDeckList}
             setHoverCard={setHoverCard}
             filters={filters}
+            allowedIds={allowedIds}
+            remainingById={remainingById}
           />
         </div>
       </div>

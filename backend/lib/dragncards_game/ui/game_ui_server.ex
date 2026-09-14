@@ -6,7 +6,7 @@ defmodule DragnCardsGame.GameUIServer do
   @timeout :timer.minutes(60)
 
   require Logger
-  alias DragnCardsGame.{GameUI, GameRegistry, User, PlayerInfo, Evaluate}
+  alias DragnCardsGame.{GameUI, GameRegistry, User, PlayerInfo, Evaluate, Limited}
   alias DragnCards.{Rooms.RoomLog, Users}
 
   def is_player(gameui, user_id) do
@@ -132,6 +132,18 @@ defmodule DragnCardsGame.GameUIServer do
   @spec set_spectator(String.t(), integer, String.t(), integer) :: GameUI.t()
   def set_spectator(game_name, user_id, spectator_user_id, value) do
     game_exists?(game_name) && GenServer.call(via_tuple(game_name), {:set_spectator, user_id, spectator_user_id, value})
+  end
+
+  def limited_start(game_name, user_id) do
+    game_exists?(game_name) && GenServer.call(via_tuple(game_name), {:limited_start, user_id})
+  end
+
+  def limited_pick(game_name, user_id, database_id) do
+    game_exists?(game_name) && GenServer.call(via_tuple(game_name), {:limited_pick, user_id, database_id})
+  end
+
+  def limited_commit_deck(game_name, user_id, load_list) do
+    game_exists?(game_name) && GenServer.call(via_tuple(game_name), {:limited_commit_deck, user_id, load_list}, 30_000)
   end
 
   @doc """
@@ -350,6 +362,25 @@ defmodule DragnCardsGame.GameUIServer do
     |> save_and_reply()
   end
 
+  def handle_call({:limited_start, user_id}, _from, gameui) do
+    limited_reply(Limited.start(gameui, user_id), gameui)
+  end
+
+  def handle_call({:limited_pick, user_id, database_id}, _from, gameui) do
+    limited_reply(Limited.pick(gameui, user_id, database_id), gameui)
+  end
+
+  def handle_call({:limited_commit_deck, user_id, load_list}, _from, gameui) do
+    case Limited.commit_deck(gameui, user_id, load_list) do
+      {:ok, new_gameui} = ok ->
+        maybe_notify_tournament_commit(new_gameui, user_id)
+        limited_reply(ok, gameui)
+
+      other ->
+        limited_reply(other, gameui)
+    end
+  end
+
   def handle_call({:set_spectator, _user_id, spectator_user_id, value}, _from, gameui) do
     try do
       # Verify that spectator_user_id is in gameui["sockets"]
@@ -410,6 +441,37 @@ defmodule DragnCardsGame.GameUIServer do
   end
 
   defp save_and_reply(new_gameui) do
+    persist_gameui(new_gameui)
+    {:reply, new_gameui, new_gameui, new_gameui["cachedTimeout"] || @timeout}
+  end
+
+  defp limited_reply({:ok, new_gameui}, _old) do
+    persist_gameui(new_gameui)
+    {:reply, {:ok, new_gameui}, new_gameui, new_gameui["cachedTimeout"] || @timeout}
+  end
+
+  defp limited_reply({:error, reason}, gameui) do
+    {:reply, {:error, reason}, gameui, gameui["cachedTimeout"] || @timeout}
+  end
+
+  defp maybe_notify_tournament_commit(gameui, user_id) do
+    tid =
+      get_in(gameui, ["game", "tournamentId"]) ||
+        get_in(gameui, ["game", "limited", "tournamentId"]) ||
+        get_in(gameui, ["options", "tournamentId"])
+
+    if tid do
+      player_n = GameUI.get_player_n_by_user_id(gameui, user_id)
+      pool = get_in(gameui, ["game", "limited", "private", player_n, "pool"]) || []
+      load_list = get_in(gameui, ["game", "limited", "private", player_n, "committedLoadList"]) || []
+
+      Task.start(fn ->
+        DragnCards.Tournaments.record_limited_commit(tid, user_id, pool, load_list)
+      end)
+    end
+  end
+
+  defp persist_gameui(new_gameui) do
     Task.start(fn ->
       GameRegistry.update(new_gameui["roomSlug"], new_gameui)
     end)
@@ -417,8 +479,6 @@ defmodule DragnCardsGame.GameUIServer do
     spawn_link(fn ->
       :ets.insert(:game_uis, {new_gameui["roomSlug"], new_gameui})
     end)
-
-    {:reply, new_gameui, new_gameui, new_gameui["cachedTimeout"] || @timeout}
   end
 
   # timeout/1

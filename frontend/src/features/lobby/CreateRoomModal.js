@@ -1,11 +1,11 @@
 import React, { useState } from "react";
 import { Redirect } from "react-router";
-import Select from 'react-select'
 import axios from "axios";
 import ReactModal from "react-modal";
 import Button from "../../components/basic/Button";
 import useProfile from "../../hooks/useProfile";
 import { PleaseLogIn } from "./PleaseLogIn";
+import { LimitedRoomSetup } from "../limited/LimitedRoomSetup";
 
 ReactModal.setAppElement("#root");
 
@@ -20,16 +20,9 @@ export const CreateRoomModal = ({
   const [isError, setIsError] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
   const [roomSlugCreated, setRoomSlugCreated] = useState(null);
+  const [limited, setLimited] = useState(null);
   const myUser = useProfile();
   const myUserID = myUser?.id;
-
-  const options = [
-    { value: 'public', label: 'Public' },
-    { value: 'private', label: 'Private' },
-  ]
-  if (myUser?.playtester) options.push({ value: 'playtest', label: 'Playtest' });
-
-  console.log("Rendering CreateRoomModal", {isOpen, isLoggedIn, closeModal, replayUuid, plugin})
 
   const createRoom = async (privacyType) => {
     const data = { 
@@ -44,12 +37,9 @@ export const CreateRoomModal = ({
         plugin_name: plugin.name,
         replay_uuid: replayUuid,
         external_data: externalData,
-
-//        ringsdb_info: ringsDbInfo,
-//        load_shuffle: loadShuffle,
+        limited: limited && limited.mode && limited.mode !== "constructed" ? limited : null,
       }
     };
-    console.log("Creating Room",data)
     setIsLoading(true);
     setIsError(false);
     try {
@@ -70,6 +60,8 @@ export const CreateRoomModal = ({
     return <Redirect push to={`/room/${roomSlugCreated}`} />;
   }
 
+  const wide = Boolean(plugin?.limited);
+
   return (
     <ReactModal
       closeTimeoutMS={200}
@@ -82,13 +74,16 @@ export const CreateRoomModal = ({
         overlay: {
         },
         content: {
-          width: '300px',
+          width: wide ? "420px" : "300px",
         }
       }}>
 
       <h1 className="mb-2">Create Room</h1>
       {isLoggedIn ?
         <div className="mb-4">
+          {plugin?.limited && (
+            <LimitedRoomSetup plugin={plugin} value={limited} onChange={setLimited} />
+          )}
           <Button onClick={() => createRoom("public")} className="mt-2" disabled={isLoading}>
             Public
           </Button>

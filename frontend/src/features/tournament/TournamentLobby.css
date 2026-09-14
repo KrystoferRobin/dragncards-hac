@@ -1,0 +1,58 @@
+.tournament-gold-btn {
+  background: linear-gradient(180deg, #e8c547, #b8860b);
+  color: #1a1408;
+  font-weight: 700;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+}
+
+.tournament-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.tournament-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+  color: #fff;
+}
+
+.tournament-table {
+  width: 100%;
+  font-size: 0.9rem;
+  border-collapse: collapse;
+}
+
+.tournament-table th,
+.tournament-table td {
+  text-align: left;
+  padding: 0.35rem 0.4rem;
+  border-bottom: 1px solid #374151;
+}
+
+.tournament-match {
+  background: rgba(31, 41, 55, 0.7);
+  border: 1px solid #4b5563;
+  border-radius: 0.4rem;
+  padding: 0.5rem 0.7rem;
+  margin-bottom: 0.4rem;
+  font-size: 0.9rem;
+}
+
+@media (max-width: 800px) {
+  .tournament-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.plugin-lobby-tournament-btn {
+  background: linear-gradient(180deg, #e8c547, #b8860b);
+  color: #1a1408;
+  font-weight: 700;
+}
+
+.plugin-lobby-tournament-btn:hover {
+  filter: brightness(1.05);
+}

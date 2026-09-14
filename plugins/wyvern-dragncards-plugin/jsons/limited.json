@@ -1,0 +1,53 @@
+{
+  "limited": {
+    "setProperty": "set",
+    "rarityProperty": "rarity",
+    "rarityNormalize": {
+      "Common": "C",
+      "Uncommon": "U",
+      "Rare": "R",
+      "Mythic": "M"
+    },
+    "passDirection": "clockwise",
+    "defaultSpread": {
+      "slots": [
+        { "count": 8, "rarities": ["C"] },
+        { "count": 3, "rarities": ["U", "C"] },
+        { "count": 1, "rarities": ["R", "U", "C"] }
+      ]
+    },
+    "products": {
+      "kingdom-booster": {
+        "label": "Kingdom Booster",
+        "kind": "booster",
+        "set": "02Kingdom"
+      },
+      "phoenix-booster": {
+        "label": "Phoenix Booster",
+        "kind": "booster",
+        "set": "03Phoenix"
+      },
+      "chameleon-booster": {
+        "label": "Chameleon Booster",
+        "kind": "booster",
+        "set": "04Chameleon"
+      },
+      "kingdom-starter": {
+        "label": "Kingdom Starter (random + fixed Wyvern)",
+        "kind": "starter",
+        "slots": [
+          { "count": 10, "rarities": ["C", "U", "R"], "set": "02Kingdom" },
+          {
+            "from": "fixed",
+            "cards": [{ "databaseId": "02Kingdom_K001", "quantity": 1 }]
+          }
+        ]
+      }
+    },
+    "defaults": {
+      "draftBoosters": [{ "productId": "kingdom-booster", "count": 4 }],
+      "sealedProducts": [{ "kind": "prebuilt", "id": "worldChamp1995" }],
+      "sealedDraftBoosters": [{ "productId": "kingdom-booster", "count": 3 }]
+    }
+  }
+}

@@ -67,6 +67,50 @@ const autoRunSchema = {
 };
 
 export const getGameDefSchema = (gameDef) => {
+    const limitedSlotSchema = {
+      "_description_": "A pack slot: random rarity draw, or from:fixed card list.",
+      "_type_": "object",
+      "count": { "_type_": "integer" },
+      "rarities": {
+        "_description_": "Try these slot codes in order if a bin is empty.",
+        "_type_": "array",
+        "_itemSchema_": { "_type_": "string" }
+      },
+      "set": { "_type_": "string" },
+      "from": { "_type_": "string" },
+      "cards": {
+        "_type_": "array",
+        "_itemSchema_": {
+          "_type_": "object",
+          "databaseId": { "_type_": "string" },
+          "quantity": { "_type_": "integer" }
+        }
+      }
+    };
+    const limitedSpreadSchema = {
+      "_description_": "Pack recipe: ordered slots.",
+      "_type_": "object",
+      "slots": {
+        "_type_": "array",
+        "_itemSchema_": limitedSlotSchema
+      }
+    };
+    const limitedDraftRowSchema = {
+      "_description_": "How many of a named booster to open.",
+      "_type_": "object",
+      "productId": { "_type_": "string" },
+      "id": { "_type_": "string" },
+      "count": { "_type_": "integer" }
+    };
+    const limitedSealedRowSchema = {
+      "_description_": "Awarded sealed product: prebuilt deck, public deck, or named product.",
+      "_type_": "object",
+      "kind": { "_type_": "string" },
+      "id": { "_type_": "string" },
+      "productId": { "_type_": "string" },
+      "count": { "_type_": "integer" }
+    };
+
     return ({
       "_description_": "The game definition schema",
       "_type_": "object",
@@ -81,8 +125,84 @@ export const getGameDefSchema = (gameDef) => {
         "_type_": "string",
       },
       "tutorialUrl": {
-        "_description_": "The URL of the tutorial",
+        "_description_": "Lobby button labeled Tutorial. Still supported; extra lobby buttons go in referenceLinks (max 8 buttons including Tutorial).",
         "_type_": "string",
+      },
+      "referenceLinks": {
+        "_description_": "Extra lobby buttons (rulebook, glossary, videos, etc.). Each item is {label, url}. Combined with tutorialUrl, at most 8 buttons are shown.",
+        "_type_": "array",
+        "_itemSchema_": {
+          "_description_": "A lobby reference link",
+          "_type_": "object",
+          "label": {
+            "_description_": "Button text",
+            "_type_": "string",
+            "_required_": true
+          },
+          "url": {
+            "_description_": "https:// link to a site, PDF, or video",
+            "_type_": "string",
+            "_required_": true
+          }
+        }
+      },
+      "limited": {
+        "_description_": "Optional sealed / draft / sealed-draft recipes. Omit this key to keep constructed-only rooms.",
+        "_type_": "object",
+        "setProperty": {
+          "_description_": "Face-A field used to match a product's set (default set).",
+          "_type_": "string",
+        },
+        "rarityProperty": {
+          "_description_": "Face-A field used to fill rarity slots (default rarity).",
+          "_type_": "string",
+        },
+        "rarityNormalize": {
+          "_description_": "Map printed rarity strings onto slot codes such as C, U, R, M. Values like Common-3 also collapse to Common then C.",
+          "_type_": "object",
+          "_itemSchema_": { "_type_": "string" }
+        },
+        "passDirection": {
+          "_description_": "clockwise: First→Second→…→First. alternate: reverse after each pack.",
+          "_type_": "string",
+        },
+        "defaultSpread": limitedSpreadSchema,
+        "setSpreads": {
+          "_description_": "Per-set pack recipes keyed by set code.",
+          "_type_": "object",
+          "_itemSchema_": limitedSpreadSchema
+        },
+        "products": {
+          "_description_": "Named booster or starter recipes the host can pick. Key is the product id.",
+          "_type_": "object",
+          "_itemSchema_": {
+            "_type_": "object",
+            "label": { "_type_": "string", "_required_": true },
+            "kind": { "_type_": "string" },
+            "set": { "_type_": "string" },
+            "spread": limitedSpreadSchema,
+            "slots": {
+              "_type_": "array",
+              "_itemSchema_": limitedSlotSchema
+            }
+          }
+        },
+        "defaults": {
+          "_description_": "Suggested products when creating a limited room.",
+          "_type_": "object",
+          "draftBoosters": {
+            "_type_": "array",
+            "_itemSchema_": limitedDraftRowSchema
+          },
+          "sealedProducts": {
+            "_type_": "array",
+            "_itemSchema_": limitedSealedRowSchema
+          },
+          "sealedDraftBoosters": {
+            "_type_": "array",
+            "_itemSchema_": limitedDraftRowSchema
+          }
+        }
       },
       "playerCountMenu": {
         "_description_": "The player count menu settings",
@@ -1516,6 +1636,10 @@ export const getGameDefSchema = (gameDef) => {
           },
           "hideFromSearch": {
             "_description_": "Whether the deck should be hidden from the pre-built search menu",
+            "_type_": "boolean",
+          },
+          "sealed": {
+            "_description_": "If true, this pre-built deck can be awarded as a sealed product in limited play.",
             "_type_": "boolean",
           }
         }

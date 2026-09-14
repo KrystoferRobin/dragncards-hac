@@ -24,6 +24,29 @@ export const builderGroupTypeValue = (label) => {
   return (label || "aside").replace(/\s+/g, "");
 };
 
+const loadReferenceLinks = (gameDef) => {
+  const fromArray = Array.isArray(gameDef?.referenceLinks) ? gameDef.referenceLinks : [];
+  const numbered = [];
+  for (let i = 1; i <= 8; i += 1) {
+    const url = gameDef?.[`referenceLink${i}Url`] || gameDef?.[`referencelink${i}Url`];
+    if (!url) continue;
+    numbered.push({
+      label: gameDef?.[`referenceLink${i}Label`] || gameDef?.[`referencelink${i}Label`] || "",
+      url,
+    });
+  }
+  const merged = [...fromArray, ...numbered]
+    .map((item) => ({ label: item?.label || "", url: item?.url || "" }))
+    .filter((item) => item.label || item.url);
+  while (merged.length < 8) merged.push({ label: "", url: "" });
+  return merged.slice(0, 8);
+};
+
+const savedReferenceLinks = (links) =>
+  (links || [])
+    .map((item) => ({ label: (item?.label || "").trim(), url: (item?.url || "").trim() }))
+    .filter((item) => item.url);
+
 const parsePercentNumber = (value) => {
   if (typeof value === "number" && Number.isFinite(value)) return value;
   const text = String(value ?? "").trim();
@@ -135,6 +158,8 @@ export const gameDefToBuilderInputs = (plugin) => {
     backgroundUrl: gameDef.backgroundUrl || "",
     bannerUrl: gameDef.bannerUrl || "",
     logoUrl: gameDef.logoUrl || "",
+    tutorialUrl: gameDef.tutorialUrl || "",
+    referenceLinks: loadReferenceLinks(gameDef),
     minPlayers: playerCounts.length ? Math.min(...playerCounts) : 2,
     maxPlayers: playerCounts.length ? Math.max(...playerCounts) : 2,
     cardDb,
@@ -359,6 +384,8 @@ export const applyBuilderInputsToGameDef = (sourceGameDef, inputs) => {
     backgroundUrl: inputs.backgroundUrl ?? source.backgroundUrl ?? "",
     bannerUrl: inputs.bannerUrl ?? source.bannerUrl ?? "",
     logoUrl: inputs.logoUrl ?? source.logoUrl ?? "",
+    tutorialUrl: inputs.tutorialUrl ?? source.tutorialUrl ?? "",
+    referenceLinks: savedReferenceLinks(inputs.referenceLinks),
     cardTypes,
     cardBacks,
     groups: applyGroups(source.groups, inputs.groups),

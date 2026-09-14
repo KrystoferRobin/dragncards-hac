@@ -21,13 +21,13 @@ defmodule DragnCardsWeb.PluginsController do
       0
     end
     plugins = Plugins.list_plugins_info(user_id)
-    render(conn, "index.json", plugins: plugins)
+    render(conn, "index.json", plugins: plugins, open_tournaments: DragnCards.Tournaments.open_by_plugin_id())
     #json(conn, %{plugins: nil})
   end
 
   def get_visible_plugins(conn, %{"user_id" => user_id}) do
     plugins = Plugins.list_plugins_info(user_id)
-    render(conn, "index.json", plugins: plugins)
+    render(conn, "index.json", plugins: plugins, open_tournaments: DragnCards.Tournaments.open_by_plugin_id())
   end
 
   @spec show(Conn.t(), map()) :: Conn.t()

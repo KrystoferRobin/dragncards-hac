@@ -34,6 +34,8 @@ export const DeckEditorCatalog = ({
   modifyDeckList,
   setHoverCard,
   filters,
+  allowedIds,
+  remainingById,
 }) => {
   const deckbuilder = gameDef?.deckbuilder || {};
   const defaultProps = useMemo(() => defaultVisibleColumnProps(gameDef), [gameDef]);
@@ -51,11 +53,16 @@ export const DeckEditorCatalog = ({
   const dragRef = useRef(null);
 
   const allIds = useMemo(() => {
-    return Object.keys(cardDb || {}).filter((cardId) => {
+    const ids = Object.keys(cardDb || {}).filter((cardId) => {
       const qty = cardDb[cardId]?.A?.deckbuilderQuantity;
       return qty === undefined || qty === null || parseInt(qty, 10) !== 0;
     });
-  }, [cardDb]);
+    if (allowedIds) {
+      const allow = new Set(allowedIds);
+      return ids.filter((id) => allow.has(id));
+    }
+    return ids;
+  }, [cardDb, allowedIds]);
 
   const filteredIds = useMemo(() => {
     return allIds.filter((cardId) => matchesFilters(cardDb[cardId], filters));
@@ -171,8 +178,11 @@ export const DeckEditorCatalog = ({
 
   const addCard = (cardId, quantity) => {
     if (!currentGroupId) return;
+    const max = remainingById ? remainingById[cardId] || 0 : Infinity;
+    const addQty = Math.min(quantity, max);
+    if (addQty <= 0) return;
     const sideA = cardDb[cardId]?.A;
-    modifyDeckList(makeLoadListItem(cardId, quantity, currentGroupId, sideA?.name, cardDb[cardId]?.author_id));
+    modifyDeckList(makeLoadListItem(cardId, addQty, currentGroupId, sideA?.name, cardDb[cardId]?.author_id));
   };
 
   const divider = "border-r border-gray-600";

@@ -21,6 +21,7 @@ defmodule DragnCardsWeb.API.V1.GameController do
       "pluginId" => params["game_options"]["plugin_id"],
       "pluginVersion" => params["game_options"]["plugin_version"],
       "pluginName" => params["game_options"]["plugin_name"],
+      "limited" => params["game_options"]["limited"],
     }
 
     # Force refresh plugin cache when creating a new room

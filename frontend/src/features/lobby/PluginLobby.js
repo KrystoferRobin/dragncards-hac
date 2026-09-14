@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { useHistory } from "react-router-dom";
 import CreateRoomModal from "./CreateRoomModal";
+import { CreateTournamentModal } from "../tournament/CreateTournamentModal";
 import LobbyTable from "./LobbyTable";
 import useProfile from "../../hooks/useProfile";
 import useIsLoggedIn from "../../hooks/useIsLoggedIn";
@@ -12,7 +13,25 @@ import { faArrowLeft } from "@fortawesome/free-solid-svg-icons";
 import axios from "axios";
 import LfgSection from "./LfgSection";
 import { pluginDisplayAuthor } from "./pluginDisplayAuthor";
+import "./PluginLobby.css";
+import "../tournament/TournamentLobby.css";
 
+const openLobbyLink = (url) => {
+  let href = (url || "").trim();
+  if (!href) return;
+  if (!/^https?:\/\//i.test(href) && !href.startsWith("/")) {
+    href = "https://" + href;
+  }
+  window.open(href, "_blank", "noopener,noreferrer");
+};
+
+const pluginLobbyLinks = (plugin) => {
+  if (Array.isArray(plugin?.lobby_links) && plugin.lobby_links.length > 0) {
+    return plugin.lobby_links.slice(0, 8);
+  }
+  const tutorial = (plugin?.tutorial_url || "").trim();
+  return tutorial ? [{ label: "Tutorial", url: tutorial }] : [];
+};
 
 export const PluginLobby = () => {
   const isLoggedIn = useIsLoggedIn();
@@ -31,37 +50,33 @@ export const PluginLobby = () => {
   const pluginId = parseInt(pluginStr);
 
   const getPlugin = async () => {
-    console.log("PluginLobby 0")
     try {
       const res = await axios.get(`/be/api/plugins/visible/${pluginId}/${user?.id ? user.id : 0}`);
-      console.log("PluginLobby res", res);
       setPlugin(res.data.data);
     } catch (err) {
       console.log("PluginLobby err", err);
     }
     setIsLoading(false);
-
   }
 
-  // If user.id changes, reset plugins list
   useEffect(() => {
     getPlugin();
   }, [user]);
 
-  console.log("Rendering PluginLobby", plugin)
   useEffect(() => {
-    const url = window.location.href;
-    if (url.includes("/load/")) {
+    const href = window.location.href;
+    if (href.includes("/load/")) {
       const loadIndex = splitUrl.findIndex((e) => e === "load")
       setReplayUuid(splitUrl[loadIndex + 1]);
       setShowModal("createRoom");
     }
-    if (url.includes("/external/")) {
+    if (href.includes("/external/")) {
       const externalIndex = splitUrl.findIndex((e) => e === "external")
-      const externalDomain = splitUrl[externalIndex + 1];
-      const externalType = splitUrl[externalIndex + 2];
-      const externalId = splitUrl[externalIndex + 3];
-      setExternalData({domain: externalDomain, type: externalType, id: externalId})
+      setExternalData({
+        domain: splitUrl[externalIndex + 1],
+        type: splitUrl[externalIndex + 2],
+        id: splitUrl[externalIndex + 3],
+      });
       setShowModal("createRoom");
     }
   }, []);
@@ -78,10 +93,10 @@ export const PluginLobby = () => {
     }
   }
 
-  return (
-    <LobbyContainer maxWidth="1100px">
+  const links = pluginLobbyLinks(plugin);
 
-      {/* Header: back button + plugin name */}
+  return (
+    <LobbyContainer maxWidth="1200px">
       <div className="flex items-center text-white text-xl mb-4">
         <div className="mr-2" style={{width: "50px", height: "50px"}}>
           <LobbyButton onClick={()=>history.push("/lobby")}>
@@ -94,53 +109,57 @@ export const PluginLobby = () => {
         </div>
       </div>
 
-      {/* Two-column layout: rooms table (left/main), sidebar (right) */}
-      <div className="flex gap-8" style={{flexWrap: "wrap"}}>
-        {/* Main column: action buttons + rooms table */}
-        <div className="flex-1" style={{minWidth: "320px"}}>
-          <div className="flex gap-2 mb-3">
-            {plugin?.tutorial_url && (
-              <button
-                onClick={() => window.open(plugin?.tutorial_url, '_blank')}
-                className="bg-gray-600-30 hover:bg-red-600-30 text-white rounded-lg text-lg flex-1 py-4"
-              >
-                Tutorial
-              </button>
-            )}
+      <div className="plugin-lobby-grid">
+        <div className="plugin-lobby-side">
+          {links.map((link, index) => (
             <button
-              onClick={() => handleCreateRoomClick()}
-              className="bg-gray-600-30 hover:bg-red-600-30 text-white rounded-lg text-lg flex-1 py-4"
+              key={`${link.url}-${index}`}
+              type="button"
+              onClick={() => openLobbyLink(link.url)}
+              className="plugin-lobby-side-btn bg-gray-600-30 hover:bg-red-600-30 text-white rounded-lg text-lg py-4"
+              title={link.url}
             >
-              {isLoggedIn ? "Create Room" : "Log in to create a room"}
+              {link.label || "Link"}
             </button>
-          </div>
+          ))}
+        </div>
+
+        <div className="plugin-lobby-main">
           <Announcements plugin={plugin}/>
           <div className="mt-3">
             <LobbyTable plugin={plugin}/>
           </div>
         </div>
 
-        {/* Vertical separator */}
-        <div style={{width: "1px", backgroundColor: "rgba(255,255,255,0.15)"}} className="hidden md:block" />
-
-        {/* Sidebar: LFG */}
-        <div className="lfg-sidebar">
+        <div className="plugin-lobby-side">
+          {plugin?.open_tournament?.id && (
+            <button
+              type="button"
+              onClick={() => history.push(`/tournament/${plugin.open_tournament.id}`)}
+              className="plugin-lobby-side-btn plugin-lobby-tournament-btn rounded-lg text-lg py-4"
+            >
+              {plugin.open_tournament.status === "registration" ? "Join tournament" : "Tournament lobby"}
+            </button>
+          )}
+          {user?.admin && !plugin?.open_tournament?.id && (
+            <button
+              type="button"
+              onClick={() => isLoggedIn ? setShowModal("createTournament") : history.push("/login")}
+              className="plugin-lobby-side-btn plugin-lobby-tournament-btn rounded-lg text-lg py-4"
+            >
+              Create tournament
+            </button>
+          )}
+          <button
+            type="button"
+            onClick={() => handleCreateRoomClick()}
+            className="plugin-lobby-side-btn bg-gray-600-30 hover:bg-red-600-30 text-white rounded-lg text-lg py-4"
+          >
+            {isLoggedIn ? "Create Room" : "Log in to create a room"}
+          </button>
           <LfgSection plugin={plugin}/>
         </div>
       </div>
-      <style>{`
-        .lfg-sidebar {
-          width: 100%;
-          min-width: 320px;
-        }
-        @media (min-width: 768px) {
-          .lfg-sidebar {
-            width: 450px;
-            max-width: 450px;
-            flex-shrink: 0;
-          }
-        }
-      `}</style>
 
       <CreateRoomModal
         isOpen={showModal === "createRoom"}
@@ -148,6 +167,11 @@ export const PluginLobby = () => {
         closeModal={() => setShowModal(null)}
         replayUuid={replayUuid}
         externalData={externalData}
+        plugin={plugin}
+      />
+      <CreateTournamentModal
+        isOpen={showModal === "createTournament"}
+        closeModal={() => setShowModal(null)}
         plugin={plugin}
       />
     </LobbyContainer>

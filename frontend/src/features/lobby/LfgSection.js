@@ -6,7 +6,6 @@ import useIsLoggedIn from "../../hooks/useIsLoggedIn";
 import useChannel from "../../hooks/useChannel";
 import { useAuthOptions } from "../../hooks/useAuthOptions";
 import { Link } from "react-router-dom";
-import { ToggleSwitch } from "../engine/AutomationModal";
 import Button from "../../components/basic/Button";
 import UserName from "../user/UserName";
 
@@ -217,7 +216,6 @@ export const LfgSection = ({ plugin }) => {
   const [showCreateForm, setShowCreateForm] = useState(false);
   const [joinPostId, setJoinPostId] = useState(null);
   const [joinSlot, setJoinSlot] = useState(null);
-  const [subscribed, setSubscribed] = useState(false);
   const [error, setError] = useState(null);
   const [showHowItWorks, setShowHowItWorks] = useState(false);
 
@@ -246,20 +244,6 @@ export const LfgSection = ({ plugin }) => {
     };
     fetchPosts();
   }, [pluginId]);
-
-  // Fetch subscription status
-  useEffect(() => {
-    if (!pluginId || !isLoggedIn) return;
-    const fetchSub = async () => {
-      try {
-        const res = await axios.get(`/be/api/v1/lfg/subscribe/${pluginId}`, authOptions);
-        setSubscribed(res.data.subscribed);
-      } catch (err) {
-        console.log("LFG sub status error", err);
-      }
-    };
-    fetchSub();
-  }, [pluginId, isLoggedIn]);
 
   // Channel subscription for real-time updates
   const onChannelMessage = useCallback(
@@ -345,20 +329,6 @@ export const LfgSection = ({ plugin }) => {
     }
   };
 
-  const handleToggleSubscribe = async () => {
-    try {
-      if (subscribed) {
-        await axios.delete(`/be/api/v1/lfg/subscribe/${pluginId}`, authOptions);
-        setSubscribed(false);
-      } else {
-        await axios.post(`/be/api/v1/lfg/subscribe/${pluginId}`, {}, authOptions);
-        setSubscribed(true);
-      }
-    } catch (err) {
-      console.log("LFG subscribe error", err);
-    }
-  };
-
   const hasJoined = (post) => {
     return post.responses?.some((r) => r.user_id === myUser?.id);
   };
@@ -374,15 +344,9 @@ export const LfgSection = ({ plugin }) => {
   };
 
   return (
-    <div className="w-full mt-4">
+    <div className="w-full">
       <div className="flex items-center justify-between mb-2">
         <h2 className="text-white text-lg">Looking for Game</h2>
-        {isLoggedIn && (
-          <div className="text-white text-sm flex items-center gap-2">
-            <span>Email me new LFG posts</span>
-            <ToggleSwitch checked={subscribed} onChange={handleToggleSubscribe} />
-          </div>
-        )}
       </div>
 
       <button
@@ -646,10 +610,10 @@ export const LfgSection = ({ plugin }) => {
               <strong className="text-white">Join someone else's post:</strong> See a post that fits your schedule? Click "Join" and pick the earliest time you can start.
             </p>
             <p>
-              <strong className="text-white">Automatic room creation:</strong> Once enough players have joined, a confirmation email will be sent out confirming the start time. Then, 5 minutes before the start time, a game room will be automatically created and another email will be sent out with a link to join.
+              <strong className="text-white">Automatic room creation:</strong> Once enough players have joined, the start time is confirmed. Then, 5 minutes before the start time, a game room will be automatically created and a link will be posted.
             </p>
             <p>
-              <strong className="text-white">New post notifications:</strong> Toggle "Email me new LFG posts" to get notified when someone posts a new LFG for this game. You can unsubscribe at any time.
+              <strong className="text-white">New post notifications:</strong> New LFG posts can be announced in club chat via the Haven webhook. There is no email subscription on this page.
             </p>
             <p>
               <strong className="text-white">Time windows:</strong> Posts expire automatically once the available window has passed. All times are shown in the time zone listed in your profile settings.

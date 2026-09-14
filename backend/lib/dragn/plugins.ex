@@ -101,9 +101,49 @@ defmodule DragnCards.Plugins do
       p.game_def["tutorialUrl"],
       p.game_def["bannerUrl"],
       p.game_def["logoUrl"],
-      p.game_def["author"]
+      p.game_def["author"],
+      p.game_def
     }
-    Repo.one(query)
+
+    case Repo.one(query) do
+      nil ->
+        nil
+
+      {
+        author_id,
+        author_alias,
+        plugin_id,
+        name,
+        version,
+        num_favorites,
+        public,
+        updated_at,
+        announcements,
+        tutorial_url,
+        banner_url,
+        logo_url,
+        author,
+        game_def
+      } ->
+        {
+          author_id,
+          author_alias,
+          plugin_id,
+          name,
+          version,
+          num_favorites,
+          public,
+          updated_at,
+          announcements,
+          tutorial_url,
+          banner_url,
+          logo_url,
+          author,
+          lobby_links(game_def),
+          limited_info(game_def),
+          match_player_counts(game_def)
+        }
+    end
   end
 
   def list_plugins do
@@ -249,5 +289,148 @@ defmodule DragnCards.Plugins do
   """
   def change_plugin(%Plugin{} = plugin, attrs \\ %{}) do
     Plugin.changeset(plugin, attrs)
+  end
+
+  @max_lobby_links 8
+
+  @doc """
+  Lobby buttons from main.json: `tutorialUrl` (label Tutorial) plus up to eight
+  extra links from `referenceLinks` and/or `referenceLinkNUrl` + `referenceLinkNLabel`.
+  """
+  def lobby_links(game_def) when is_map(game_def) do
+    tutorial = trim_link(get_def(game_def, "tutorialUrl"))
+
+    acc =
+      if tutorial do
+        [%{"label" => "Tutorial", "url" => tutorial}]
+      else
+        []
+      end
+
+    acc
+    |> Kernel.++(links_from_array(get_def(game_def, "referenceLinks")))
+    |> Kernel.++(links_from_numbered(game_def))
+    |> Enum.reject(&(&1["url"] in [nil, ""]))
+    |> Enum.uniq_by(& &1["url"])
+    |> Enum.take(@max_lobby_links)
+  end
+
+  def lobby_links(_), do: []
+
+  def limited_info(game_def) when is_map(game_def) do
+    case game_def["limited"] do
+      %{} = lim ->
+        products =
+          Enum.map(lim["products"] || %{}, fn {id, product} ->
+            %{
+              "id" => id,
+              "label" => product["label"] || id,
+              "kind" => product["kind"] || "booster",
+              "set" => product["set"]
+            }
+          end)
+
+        sealed_decks =
+          (game_def["preBuiltDecks"] || %{})
+          |> Enum.filter(fn {_id, deck} -> deck["sealed"] == true end)
+          |> Enum.map(fn {id, deck} ->
+            %{"id" => id, "label" => deck["label"] || id, "kind" => "prebuilt"}
+          end)
+
+        %{
+          "passDirection" => lim["passDirection"] || "clockwise",
+          "products" => products,
+          "defaults" => lim["defaults"] || %{},
+          "sealedDecks" => sealed_decks
+        }
+
+      _ ->
+        nil
+    end
+  end
+
+  def limited_info(_), do: nil
+
+  def match_player_counts(game_def) when is_map(game_def) do
+    (game_def["playerCountMenu"] || [])
+    |> Enum.map(& &1["numPlayers"])
+    |> Enum.filter(&is_integer/1)
+    |> Enum.uniq()
+    |> Enum.sort()
+  end
+
+  def match_player_counts(_), do: []
+
+  defp links_from_array(list) when is_list(list) do
+    Enum.flat_map(list, &normalize_link/1)
+  end
+
+  defp links_from_array(_), do: []
+
+  defp links_from_numbered(game_def) do
+    Enum.flat_map(1..@max_lobby_links, fn i ->
+      url =
+        trim_link(
+          get_def(game_def, "referenceLink#{i}Url") ||
+            get_def(game_def, "referencelink#{i}Url")
+        )
+
+      label =
+        get_def(game_def, "referenceLink#{i}Label") ||
+          get_def(game_def, "referencelink#{i}Label") ||
+          "Link #{i}"
+
+      if url do
+        text =
+          case label do
+            l when is_binary(l) -> String.trim(l)
+            _ -> ""
+          end
+
+        [%{"label" => fallback_label(text, i), "url" => url}]
+      else
+        link = get_def(game_def, "referenceLink#{i}") || get_def(game_def, "referencelink#{i}")
+        normalize_link(link)
+      end
+    end)
+  end
+
+  defp normalize_link(%{"url" => url} = link), do: wrap_link(url, link["label"])
+  defp normalize_link(%{url: url} = link), do: wrap_link(url, Map.get(link, :label) || Map.get(link, "label"))
+  defp normalize_link([url, label]), do: wrap_link(url, label)
+  defp normalize_link(url) when is_binary(url), do: wrap_link(url, nil)
+  defp normalize_link(_), do: []
+
+  defp wrap_link(url, label) do
+    url = trim_link(url)
+
+    if url do
+      text =
+        case label do
+          l when is_binary(l) -> String.trim(l)
+          _ -> ""
+        end
+
+      [%{"label" => fallback_label(text, 1), "url" => url}]
+    else
+      []
+    end
+  end
+
+  defp fallback_label("", i), do: "Link #{i}"
+  defp fallback_label("nil", i), do: "Link #{i}"
+  defp fallback_label(label, _i), do: label
+
+  defp trim_link(nil), do: nil
+
+  defp trim_link(url) do
+    case url |> to_string() |> String.trim() do
+      "" -> nil
+      trimmed -> trimmed
+    end
+  end
+
+  defp get_def(map, key) when is_binary(key) do
+    Map.get(map, key)
   end
 end

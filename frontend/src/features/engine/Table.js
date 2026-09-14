@@ -6,6 +6,8 @@ import { useLayout } from "./hooks/useLayout";
 import { GiantCard } from "./GiantCard";
 import { FadeTextPlayer } from "./FadeTextPlayer";
 import { TableChat } from "./TableChat";
+import { LimitedOverlay } from "../limited/LimitedOverlay";
+import { TournamentMatchBar } from "../tournament/TournamentMatchBar";
 import { TopBar } from "./TopBar";
 import { SpawnExistingCardModal } from "./SpawnExistingCardModal";
 import { SpawnCustomCardModal } from "./SpawnCustomCardModal";
@@ -66,7 +68,7 @@ export const Table = React.memo(({onDragEnd}) => {
   console.log('Rendering Table', playerN);
 
   useEffect(() => {
-    if (!loadedADeck && isHost && gameDef?.loadPreBuiltOnNewGame) {
+    if (!loadedADeck && isHost && gameDef?.loadPreBuiltOnNewGame && !game?.limited) {
       dispatch(setShowModal("prebuilt_deck"));
     }
   }, [loadedADeck]);
@@ -138,6 +140,8 @@ export const Table = React.memo(({onDragEnd}) => {
             }
             <TableChat/>
             <FadeTextPlayer/>
+            <TournamentMatchBar/>
+            <LimitedOverlay/>
           </div>
           {/* Touch Bar */}
           {touchMode && <div className="relative w-full" style={{height: "12%"}}>

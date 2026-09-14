@@ -44,6 +44,12 @@ const basicKeys = [
     type: "text",
     placeholder: "/cards/{game}/_plugin/logo2.jpg",
   },
+  {
+    key: "tutorialUrl",
+    label: "Tutorial URL",
+    type: "text",
+    placeholder: "https://… (lobby button labeled Tutorial)",
+  },
 ];
 
 export const GameBasics = ({ inputs, setInputs }) => {
@@ -73,6 +79,40 @@ export const GameBasics = ({ inputs, setInputs }) => {
           </label>
         </div>
       ))}
+      <div className="mt-4 text-sm text-gray-300 p-1">
+        Extra lobby buttons (rulebook, glossary, videos). Up to 8 including Tutorial.
+        {Array.from({ length: 8 }).map((_, index) => {
+          const row = (inputs.referenceLinks || [])[index] || { label: "", url: "" };
+          return (
+            <div key={index} className="flex gap-2 mt-1">
+              <input
+                type="text"
+                placeholder={`Label ${index + 1}`}
+                value={row.label || ""}
+                onChange={(e) => {
+                  const next = [...(inputs.referenceLinks || [])];
+                  while (next.length < 8) next.push({ label: "", url: "" });
+                  next[index] = { ...next[index], label: e.target.value };
+                  setInputs((prev) => ({ ...prev, referenceLinks: next.slice(0, 8) }));
+                }}
+                className="w-1/3 bg-gray-800 text-white border border-gray-600 rounded px-2 py-1"
+              />
+              <input
+                type="text"
+                placeholder="https://…"
+                value={row.url || ""}
+                onChange={(e) => {
+                  const next = [...(inputs.referenceLinks || [])];
+                  while (next.length < 8) next.push({ label: "", url: "" });
+                  next[index] = { ...next[index], url: e.target.value };
+                  setInputs((prev) => ({ ...prev, referenceLinks: next.slice(0, 8) }));
+                }}
+                className="flex-1 bg-gray-800 text-white border border-gray-600 rounded px-2 py-1"
+              />
+            </div>
+          );
+        })}
+      </div>
       {inputs.backgroundUrl && (
         <div className="mt-4">
           <img

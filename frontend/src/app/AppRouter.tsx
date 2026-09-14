@@ -15,6 +15,7 @@ import DoResetPassword from "../features/auth/DoResetPassword";
 import ConfirmEmail from "../features/auth/ConfirmEmail";
 import { MyPlugins } from "../features/myplugins/MyPlugins";
 import PluginLobby from "../features/lobby/PluginLobby";
+import TournamentLobby from "../features/tournament/TournamentLobby";
 import LayoutGenerator from "../features/myplugins/LayoutGenerator";
 import PluginBuilder from "../features/myplugins/pluginbuilder/PluginBuilder";
 import AdminPage from "../features/admin/AdminPage";
@@ -38,6 +39,7 @@ const AppRouter: React.FC = () => {
         <Route path="/auth/patreon" component={Profile} />
         <Route path="/newroom" component={Lobby} />
         <Route path="/plugin" component={PluginLobby} />
+        <Route path="/tournament/:id" component={TournamentLobby} />
         <Route path="/layout-generator" component={LayoutGenerator} />
         <Route path="/plugin-builder" component={PluginBuilder} />
         <Route

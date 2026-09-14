@@ -32,7 +32,8 @@ See [../README.md](../README.md) for the `/cards/` convention.
 - Gold starts at 25 (**G** / **T** to gain/spend, or use the top-bar counter)
 - **1** / **2** add green/red strength counters
 - Terrain, treasure, and hidden actions can be attached onto battlefield cards
-- Three Lackey sample decks are in the pre-built deck menu
+- Three Lackey sample decks are in the pre-built deck menu (tagged `sealed` for limited play)
+- `jsons/limited.json` defines Kingdom / Phoenix / Chameleon boosters and a sample starter for sealed, draft, and sealed draft
 
 Nothing enforces payment, legal attacks, or battle math. Drag cards, flip them, and count gold yourself.
 
