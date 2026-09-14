@@ -3,7 +3,6 @@ import { Browse } from "./Browse";
 import "../../css/custom-misc.css"; 
 import { TableRegion } from "./TableRegion";
 import { useLayout } from "./hooks/useLayout";
-import { TableChat } from "./TableChat";
 import { TableButton } from "./TableButton";
 import { TextBox } from "./TextBox";
 import { Prompts } from "./Prompts";
@@ -65,7 +64,6 @@ export const TableLayout = React.memo(({onDragEnd}) => {
         })
       }
         
-      <TableChat region={layout.chat}/>
       <Prompts/>
       <Alert/>
       <Status/>

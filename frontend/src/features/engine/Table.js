@@ -5,6 +5,7 @@ import Dnc3DTable from "../engine-dnc3d/Dnc3DTable";
 import { useLayout } from "./hooks/useLayout";
 import { GiantCard } from "./GiantCard";
 import { FadeTextPlayer } from "./FadeTextPlayer";
+import { TableChat } from "./TableChat";
 import { TopBar } from "./TopBar";
 import { SpawnExistingCardModal } from "./SpawnExistingCardModal";
 import { SpawnCustomCardModal } from "./SpawnCustomCardModal";
@@ -135,6 +136,7 @@ export const Table = React.memo(({onDragEnd}) => {
                 />
               : <TableLayout onDragEnd={onDragEnd}/>
             }
+            <TableChat/>
             <FadeTextPlayer/>
           </div>
           {/* Touch Bar */}

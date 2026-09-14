@@ -20,7 +20,6 @@ import { Alert } from '../engine/Alert';
 import { Prompts } from '../engine/Prompts';
 import { Tokens } from '../engine/Tokens';
 import { MultiSelectOverlay } from '../engine/MultiSelectOverlay';
-import { Dnc3DHudChat } from './Dnc3DHudChat';
 import { Dnc3DHudBrowse } from './Dnc3DHudBrowse';
 import { Dnc3DTokenExtrudeFilter } from './Dnc3DTokenExtrudeFilter';
 import { FadeTextCard } from '../engine/FadeTextCard';
@@ -583,7 +582,6 @@ export default function Dnc3DTable({
     <div className="dnc3d-stage">
       {TOKEN_EXTRUDE && <Dnc3DTokenExtrudeFilter />}
       <div className="dnc3d-tilt" ref={tiltRef} />
-      {game && <Dnc3DHudChat />}
       {game && <Dnc3DHudBrowse onFilterChange={handleBrowseFilterChange} />}
       {/* Player prompts — self-contained draggable overlay (reads visible prompts
           from Redux, renders null when there are none). Positioned relative to
