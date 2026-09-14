@@ -3,7 +3,7 @@
   "author": "LackeyCCG bttactics2",
   "tutorialUrl": "https://www.knightsoftheinnersphere.com/lackey/bttactics2/docs/btccg_unofficial_faq_2025.pdf",
   "backgroundUrl": "",
-  "bannerUrl": "https://toybox.hundredacre.club/cards/battletech-tactics-2/_plugin/banner.jpg",
-  "logoUrl": "https://toybox.hundredacre.club/cards/battletech-tactics-2/_plugin/logo.jpg",
+  "bannerUrl": "/cards/battletech-tactics-2/_plugin/banner.jpg",
+  "logoUrl": "/cards/battletech-tactics-2/_plugin/logo.jpg",
   "loadPreBuiltOnNewGame": false
 }

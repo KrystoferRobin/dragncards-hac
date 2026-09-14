@@ -26,7 +26,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "scripts"))
-from image_names import TOYBOX_PREFIX, card_rel_path, folder_slug, lobby_art_rel, pascal, stamp_lobby_art, toybox_url  # noqa: E402
+from image_names import TOYBOX_PREFIX, clear_image_url_prefix, card_rel_path, folder_slug, lobby_art_rel, pascal, stamp_lobby_art, toybox_url  # noqa: E402
 from l5r_keywords import reminder_glossary  # noqa: E402
 from l5r_l5rdb import fetch_l5rdb  # noqa: E402
 from lackey_tabletop import (  # noqa: E402
@@ -1491,7 +1491,7 @@ def write_plugin_jsons(cards: list[dict[str, str]], decks: dict, menu: dict, bac
     dump_json(main_path, main_payload)
     if "bannerUrl" not in main_payload or "logoUrl" not in main_payload:
         stamp_lobby_art(jsons, FOLDER)
-    dump_json(jsons / "imageUrlPrefix.json", {"imageUrlPrefix": {"Default": TOYBOX_PREFIX}})
+    clear_image_url_prefix(jsons)
     dump_json(jsons / "cardBacks.json", {"cardBacks": {
         key: {"width": 0.72, "height": 1.0, "imageUrl": rel} for key, rel in backs.items()
     }})

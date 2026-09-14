@@ -72,7 +72,7 @@
       "numPlayers": 2
     }
   ],
-  "backgroundUrl": "https://toybox.hundredacre.club/cards/wars-trading-card-game/_plugin/WARSTradingCardGame-Background.webp",
+  "backgroundUrl": "/cards/wars-trading-card-game/_plugin/WARSTradingCardGame-Background.webp",
   "clearTableOptions": [
     {
       "actionList": [
@@ -189,6 +189,6 @@
     }
   ],
   "touchBar": [],
-  "bannerUrl": "https://toybox.hundredacre.club/cards/wars-trading-card-game/_plugin/banner.jpg",
-  "logoUrl": "https://toybox.hundredacre.club/cards/wars-trading-card-game/_plugin/logo.jpg"
+  "bannerUrl": "/cards/wars-trading-card-game/_plugin/banner.jpg",
+  "logoUrl": "/cards/wars-trading-card-game/_plugin/logo.jpg"
 }

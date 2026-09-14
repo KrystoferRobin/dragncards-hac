@@ -262,32 +262,32 @@
     "token": [
       {
         "key": "1",
-        "label": "icon(https://toybox.hundredacre.club/cards/arkham-horror-living-card-game/_plugin/ArkhamHorrorLivingCardGame-TokenResource.webp)",
+        "label": "icon(/cards/arkham-horror-living-card-game/_plugin/ArkhamHorrorLivingCardGame-TokenResource.webp)",
         "tokenType": "resource"
       },
       {
         "key": "2",
-        "label": "icon(https://toybox.hundredacre.club/cards/arkham-horror-living-card-game/_plugin/ArkhamHorrorLivingCardGame-TokenClue.webp)",
+        "label": "icon(/cards/arkham-horror-living-card-game/_plugin/ArkhamHorrorLivingCardGame-TokenClue.webp)",
         "tokenType": "clue"
       },
       {
         "key": "3",
-        "label": "icon(https://toybox.hundredacre.club/cards/arkham-horror-living-card-game/_plugin/ArkhamHorrorLivingCardGame-TokenDoom.webp)",
+        "label": "icon(/cards/arkham-horror-living-card-game/_plugin/ArkhamHorrorLivingCardGame-TokenDoom.webp)",
         "tokenType": "doom"
       },
       {
         "key": "4",
-        "label": "icon(https://toybox.hundredacre.club/cards/arkham-horror-living-card-game/_plugin/ArkhamHorrorLivingCardGame-TokenDamage.webp)",
+        "label": "icon(/cards/arkham-horror-living-card-game/_plugin/ArkhamHorrorLivingCardGame-TokenDamage.webp)",
         "tokenType": "damage"
       },
       {
         "key": "5",
-        "label": "icon(https://toybox.hundredacre.club/cards/arkham-horror-living-card-game/_plugin/ArkhamHorrorLivingCardGame-TokenHorror.webp)",
+        "label": "icon(/cards/arkham-horror-living-card-game/_plugin/ArkhamHorrorLivingCardGame-TokenHorror.webp)",
         "tokenType": "horror"
       },
       {
         "key": "6",
-        "label": "icon(https://toybox.hundredacre.club/cards/arkham-horror-living-card-game/_plugin/ArkhamHorrorLivingCardGame-TokenFreeze.webp)",
+        "label": "icon(/cards/arkham-horror-living-card-game/_plugin/ArkhamHorrorLivingCardGame-TokenFreeze.webp)",
         "tokenType": "freeze"
       }
     ]

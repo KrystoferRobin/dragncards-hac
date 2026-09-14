@@ -23,6 +23,7 @@ import sys
 sys.path.insert(0, str(ROOT / "scripts"))
 from image_names import (  # noqa: E402
     TOYBOX_PREFIX,
+    clear_image_url_prefix,
     plugin_art_rel,
     stamp_lobby_art,
     toybox_url,
@@ -486,7 +487,7 @@ def write_plugin_jsons(cards: list[dict[str, str]], decks: dict, menu: dict, bac
     dump_json(jsons / "announcements.json", {"announcements": [
         "INWO tabletop: load a standalone or One Big Deck. Plots to Plot Deck, groups to Group Deck, Illuminati to Lead. Rules are reminders, not enforced.",
     ]})
-    dump_json(jsons / "imageUrlPrefix.json", {"imageUrlPrefix": {"Default": TOYBOX_PREFIX}})
+    clear_image_url_prefix(jsons)
     dump_json(jsons / "cardBacks.json", {"cardBacks": {
         key: {"width": 0.72, "height": 1.0, "imageUrl": url} for key, url in backs.items()
     }})

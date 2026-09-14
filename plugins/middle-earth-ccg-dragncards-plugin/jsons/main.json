@@ -3,7 +3,7 @@
   "author": "LackeyCCG meccg",
   "tutorialUrl": "https://www.chrisvos.com/meuk/lackey/meccg/rules/Simplified_Rules.pdf",
   "backgroundUrl": "",
-  "bannerUrl": "https://toybox.hundredacre.club/cards/middle-earth-ccg/_plugin/banner.jpg",
-  "logoUrl": "https://toybox.hundredacre.club/cards/middle-earth-ccg/_plugin/logo.jpg",
+  "bannerUrl": "/cards/middle-earth-ccg/_plugin/banner.jpg",
+  "logoUrl": "/cards/middle-earth-ccg/_plugin/logo.jpg",
   "loadPreBuiltOnNewGame": false
 }

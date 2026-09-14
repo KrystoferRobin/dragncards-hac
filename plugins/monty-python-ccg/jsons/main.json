@@ -7,6 +7,6 @@
     "D = draw. Discard goes to the Dead Cart."
   ],
   "loadPreBuiltOnNewGame": false,
-  "bannerUrl": "https://toybox.hundredacre.club/cards/monty-python-ccg/_plugin/banner2.jpg",
-  "logoUrl": "https://toybox.hundredacre.club/cards/monty-python-ccg/_plugin/logo2.jpg"
+  "bannerUrl": "/cards/monty-python-ccg/_plugin/banner2.jpg",
+  "logoUrl": "/cards/monty-python-ccg/_plugin/logo2.jpg"
 }

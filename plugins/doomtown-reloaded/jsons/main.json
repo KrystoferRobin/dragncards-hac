@@ -7,6 +7,6 @@
     "D = draw to Play Hand. P = pull to Draw Hand. Outfits and Legends load to their rows. No rules engine."
   ],
   "loadPreBuiltOnNewGame": false,
-  "bannerUrl": "https://toybox.hundredacre.club/cards/doomtown-reloaded/_plugin/banner2.jpg",
-  "logoUrl": "https://toybox.hundredacre.club/cards/doomtown-reloaded/_plugin/logo2.jpg"
+  "bannerUrl": "/cards/doomtown-reloaded/_plugin/banner2.jpg",
+  "logoUrl": "/cards/doomtown-reloaded/_plugin/logo2.jpg"
 }

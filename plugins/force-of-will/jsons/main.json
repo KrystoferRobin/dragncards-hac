@@ -7,7 +7,7 @@
     "D = draw. T = draw a magic stone. R = recover all. F = flip / judgment. L = life +100. X = graveyard."
   ],
   "loadPreBuiltOnNewGame": false,
-  "backgroundUrl": "https://toybox.hundredacre.club/cards/force-of-will/_plugin/ForceOfWill-Background.png",
-  "bannerUrl": "https://toybox.hundredacre.club/cards/force-of-will/_plugin/banner2.jpg",
-  "logoUrl": "https://toybox.hundredacre.club/cards/force-of-will/_plugin/logo2.jpg"
+  "backgroundUrl": "/cards/force-of-will/_plugin/ForceOfWill-Background.png",
+  "bannerUrl": "/cards/force-of-will/_plugin/banner2.jpg",
+  "logoUrl": "/cards/force-of-will/_plugin/logo2.jpg"
 }

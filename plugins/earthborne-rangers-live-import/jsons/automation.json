@@ -2367,7 +2367,7 @@
             [
               "SET",
               "/cardById/$CARD_ID/sides/A/imageUrl",
-              "https://toybox.hundredacre.club/cards/earthborne-rangers/uncommon-wisdom/{{$CARD.sides.A.databaseId}}.jpg"
+              "/cards/earthborne-rangers/uncommon-wisdom/{{$CARD.sides.A.databaseId}}.jpg"
             ]
           ]
         ]

@@ -140,18 +140,31 @@ export const getVisibleFace = (card, playerN) => {
   else return null;
 }
   
-// Resolves an image url that may either be a full url or just a suffix that needs
-// a prefix from gameDef.imageUrlPrefix. Returns the url for the given language
+// Same-origin card art. Plugins store TSV paths like `{game}/{set}/Card.jpg`
+// and omit imageUrlPrefix so the GitHub copy does not advertise the host.
+export const DEFAULT_IMAGE_URL_PREFIX = "/cards/";
+
+export const isCompleteImageUrl = (src) => {
+  if (!src) return false;
+  return /^https?:\/\//i.test(src) || src.startsWith("//") || src.startsWith("/");
+};
+
+export const imageUrlPrefixFor = (gameDef, language) => {
+  const prefixes = gameDef?.imageUrlPrefix;
+  if (language && prefixes?.[language]) return prefixes[language];
+  if (prefixes?.Default) return prefixes.Default;
+  return DEFAULT_IMAGE_URL_PREFIX;
+};
+
+// Resolves an image url that may either be a full url, a same-origin /cards/
+// path, or a suffix that needs a prefix. Returns the url for the given language
 // along with the Default-language url to fall back on if it fails to load.
 export const applyImageUrlPrefix = (srcBase, gameDef, language) => {
   if (!srcBase) return {src: null, default: null};
-  // Full url. Nothing to do here.
-  if (srcBase.startsWith('http')) return {src: srcBase, default: null};
-  // Just a suffix. Let's see if we have a prefix for this language.
-  const srcDefault = gameDef?.imageUrlPrefix?.Default ? gameDef.imageUrlPrefix.Default + srcBase : null;
-  const srcLanguage = gameDef?.imageUrlPrefix?.[language] ? gameDef.imageUrlPrefix[language] + srcBase : null;
-  if (srcLanguage) return {src: srcLanguage, default: srcDefault};
-  else return {src: srcDefault, default: srcDefault};
+  if (isCompleteImageUrl(srcBase)) return {src: srcBase, default: null};
+  const srcDefault = imageUrlPrefixFor(gameDef, null) + srcBase;
+  const srcLanguage = imageUrlPrefixFor(gameDef, language) + srcBase;
+  return {src: srcLanguage, default: srcDefault};
 }
 
 export const getVisibleFaceSrc = (visibleFace, user, gameDef) => {

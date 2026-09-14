@@ -2,12 +2,12 @@
   "topBarCounters": {
     "player": [
       {
-        "imageUrl": "https://toybox.hundredacre.club/cards/war-of-the-ring-card-game/_plugin/WarOfTheRingCardGame-TokenRingBlue.png",
+        "imageUrl": "/cards/war-of-the-ring-card-game/_plugin/WarOfTheRingCardGame-TokenRingBlue.png",
         "label": "id:ringTokens",
         "playerProperty": "ringTokens"
       },
       {
-        "imageUrl": "https://toybox.hundredacre.club/cards/war-of-the-ring-card-game/_plugin/WarOfTheRingCardGame-TokenHandSize.png",
+        "imageUrl": "/cards/war-of-the-ring-card-game/_plugin/WarOfTheRingCardGame-TokenHandSize.png",
         "label": "id:handSize",
         "playerProperty": "handSize"
       }
@@ -15,7 +15,7 @@
     "shared": [
       {
         "gameProperty": "roundNumber",
-        "imageUrl": "https://toybox.hundredacre.club/cards/war-of-the-ring-card-game/_plugin/WarOfTheRingCardGame-TokenTime.png",
+        "imageUrl": "/cards/war-of-the-ring-card-game/_plugin/WarOfTheRingCardGame-TokenTime.png",
         "label": "id:round"
       },
       {
@@ -30,7 +30,7 @@
       },
       {
         "gameProperty": "corruptionScore",
-        "imageUrl": "https://toybox.hundredacre.club/cards/war-of-the-ring-card-game/_plugin/WarOfTheRingCardGame-TokenCorruption.png",
+        "imageUrl": "/cards/war-of-the-ring-card-game/_plugin/WarOfTheRingCardGame-TokenCorruption.png",
         "label": "id:corruptionScore"
       }
     ]

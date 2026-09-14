@@ -4678,7 +4678,7 @@
               [
                 "SET",
                 "/cardById/$TARGET_ID/sides/B/imageUrl",
-                "https://toybox.hundredacre.club/cards/arkham-horror-living-card-game/_plugin/ArkhamHorrorLivingCardGame-CardbackEncounterSideways.webp"
+                "/cards/arkham-horror-living-card-game/_plugin/ArkhamHorrorLivingCardGame-CardbackEncounterSideways.webp"
               ]
             ]
           ]

@@ -7,6 +7,6 @@
     "D = draw. X-Files load facedown to the X-File pile. Agents load to the Agents row."
   ],
   "loadPreBuiltOnNewGame": false,
-  "bannerUrl": "https://toybox.hundredacre.club/cards/x-files-ccg/_plugin/banner2.jpg",
-  "logoUrl": "https://toybox.hundredacre.club/cards/x-files-ccg/_plugin/logo2.jpg"
+  "bannerUrl": "/cards/x-files-ccg/_plugin/banner2.jpg",
+  "logoUrl": "/cards/x-files-ccg/_plugin/logo2.jpg"
 }

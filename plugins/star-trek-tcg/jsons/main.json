@@ -7,6 +7,6 @@
     "D = draw. E = exhaust. K / R = ready. P = XC +1. X = discard."
   ],
   "loadPreBuiltOnNewGame": false,
-  "bannerUrl": "https://toybox.hundredacre.club/cards/star-trek-tcg/_plugin/banner2.jpg",
-  "logoUrl": "https://toybox.hundredacre.club/cards/star-trek-tcg/_plugin/logo2.jpg"
+  "bannerUrl": "/cards/star-trek-tcg/_plugin/banner2.jpg",
+  "logoUrl": "/cards/star-trek-tcg/_plugin/logo2.jpg"
 }

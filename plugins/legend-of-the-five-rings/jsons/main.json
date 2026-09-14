@@ -8,7 +8,7 @@
     "Empty provinces refill face-down from dynasty. The × on a province marks it destroyed so it stays empty. Flipping a dynasty Event shouts EVENT and deals another facedown card into that province — negotiate what the Event does. F on a Favor box claims the Imperial Favor in your clan's art (V does the same). Dynasty starts the turn: unbow and flip your provinces. D fate, R unbow + flip, Y refill, B bow, U straighten, F flip, I dishonor/honor."
   ],
   "loadPreBuiltOnNewGame": false,
-  "backgroundUrl": "https://toybox.hundredacre.club/cards/legend-of-the-five-rings/_plugin/LegendOfTheFiveRings-Background.jpg",
-  "bannerUrl": "https://toybox.hundredacre.club/cards/legend-of-the-five-rings/_plugin/banner.jpg",
-  "logoUrl": "https://toybox.hundredacre.club/cards/legend-of-the-five-rings/_plugin/logo.jpg"
+  "backgroundUrl": "/cards/legend-of-the-five-rings/_plugin/LegendOfTheFiveRings-Background.jpg",
+  "bannerUrl": "/cards/legend-of-the-five-rings/_plugin/banner.jpg",
+  "logoUrl": "/cards/legend-of-the-five-rings/_plugin/logo.jpg"
 }

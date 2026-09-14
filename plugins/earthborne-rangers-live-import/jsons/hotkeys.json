@@ -132,62 +132,62 @@
     "token": [
       {
         "key": "1",
-        "label": "icon(https://toybox.hundredacre.club/cards/earthborne-rangers/_plugin/EarthborneRangers-TokenHarm.png)",
+        "label": "icon(/cards/earthborne-rangers/_plugin/EarthborneRangers-TokenHarm.png)",
         "tokenType": "harm"
       },
       {
         "key": "2",
-        "label": "icon(https://toybox.hundredacre.club/cards/earthborne-rangers/_plugin/EarthborneRangers-TokenProgress.png)",
+        "label": "icon(/cards/earthborne-rangers/_plugin/EarthborneRangers-TokenProgress.png)",
         "tokenType": "progress"
       },
       {
         "key": "3",
-        "label": "icon(https://toybox.hundredacre.club/cards/earthborne-rangers/_plugin/EarthborneRangers-TokenGeneral.png)",
+        "label": "icon(/cards/earthborne-rangers/_plugin/EarthborneRangers-TokenGeneral.png)",
         "tokenType": "general"
       },
       {
         "key": "4",
-        "label": "icon(https://toybox.hundredacre.club/cards/earthborne-rangers/_plugin/EarthborneRangers-TokenGeneral2.png)",
+        "label": "icon(/cards/earthborne-rangers/_plugin/EarthborneRangers-TokenGeneral2.png)",
         "tokenType": "general2"
       },
       {
         "key": "6",
-        "label": "icon(https://toybox.hundredacre.club/cards/earthborne-rangers/_plugin/EarthborneRangers-TokenAwareness2.png)",
+        "label": "icon(/cards/earthborne-rangers/_plugin/EarthborneRangers-TokenAwareness2.png)",
         "tokenType": "awareness"
       },
       {
         "key": "7",
-        "label": "icon(https://toybox.hundredacre.club/cards/earthborne-rangers/_plugin/EarthborneRangers-TokenSpirit2.png)",
+        "label": "icon(/cards/earthborne-rangers/_plugin/EarthborneRangers-TokenSpirit2.png)",
         "tokenType": "spirit"
       },
       {
         "key": "8",
-        "label": "icon(https://toybox.hundredacre.club/cards/earthborne-rangers/_plugin/EarthborneRangers-TokenFitness2.png)",
+        "label": "icon(/cards/earthborne-rangers/_plugin/EarthborneRangers-TokenFitness2.png)",
         "tokenType": "fitness"
       },
       {
         "key": "9",
-        "label": "icon(https://toybox.hundredacre.club/cards/earthborne-rangers/_plugin/EarthborneRangers-TokenFocus2.png)",
+        "label": "icon(/cards/earthborne-rangers/_plugin/EarthborneRangers-TokenFocus2.png)",
         "tokenType": "focus"
       },
       {
         "key": "6",
-        "label": "icon(https://toybox.hundredacre.club/cards/earthborne-rangers/_plugin/EarthborneRangers-TokenAwareness2.png)",
+        "label": "icon(/cards/earthborne-rangers/_plugin/EarthborneRangers-TokenAwareness2.png)",
         "tokenType": "awareness2"
       },
       {
         "key": "7",
-        "label": "icon(https://toybox.hundredacre.club/cards/earthborne-rangers/_plugin/EarthborneRangers-TokenSpirit2.png)",
+        "label": "icon(/cards/earthborne-rangers/_plugin/EarthborneRangers-TokenSpirit2.png)",
         "tokenType": "spirit2"
       },
       {
         "key": "8",
-        "label": "icon(https://toybox.hundredacre.club/cards/earthborne-rangers/_plugin/EarthborneRangers-TokenFitness2.png)",
+        "label": "icon(/cards/earthborne-rangers/_plugin/EarthborneRangers-TokenFitness2.png)",
         "tokenType": "fitness2"
       },
       {
         "key": "9",
-        "label": "icon(https://toybox.hundredacre.club/cards/earthborne-rangers/_plugin/EarthborneRangers-TokenFocus2.png)",
+        "label": "icon(/cards/earthborne-rangers/_plugin/EarthborneRangers-TokenFocus2.png)",
         "tokenType": "focus2"
       }
     ]

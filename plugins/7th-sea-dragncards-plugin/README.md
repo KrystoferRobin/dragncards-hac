@@ -4,7 +4,7 @@ Dumb (no rules enforcement) 1v1 table plugin converted from the OCTGN **7th Sea*
 
 The lobby name is **7th Sea**. Card images are served from the toybox default image host:
 
-`https://toybox.hundredacre.club/cards/7th-sea/{set}/{Game}-{Set}-{Cardname}.ext`
+`/cards/7th-sea/{set}/{Game}-{Set}-{Cardname}.ext`
 
 See [../README.md](../README.md) for the `/cards/` convention.
 
@@ -27,7 +27,7 @@ images/7th-sea/_plugin/7thSea-cardback.jpg
 becomes
 
 ```
-https://toybox.hundredacre.club/cards/7th-sea/iron-shadow/7thSea-IronShadow-AndareDeCastillo.jpg
+/cards/7th-sea/iron-shadow/7thSea-IronShadow-AndareDeCastillo.jpg
 ```
 
 OCTGN originals are left in place. A GUID→new-path map is at `images/7th-sea/_manifest.tsv`.

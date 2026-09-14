@@ -14,7 +14,7 @@ from pathlib import Path
 ROOT = Path(r"C:\Users\chris\Documents\e-Sword\dragncards")
 sys.path.insert(0, str(ROOT / "scripts"))
 sys.path.insert(0, str(Path(__file__).resolve().parents[2] / "scripts"))
-from image_names import TOYBOX_PREFIX, lobby_art_urls, plugin_art_rel, toybox_url  # noqa: E402
+from image_names import TOYBOX_PREFIX, clear_image_url_prefix, lobby_art_urls, plugin_art_rel, toybox_url  # noqa: E402
 
 LACKEY_DIR = Path(r"C:\Users\chris\Documents\e-Sword\tests\LackeyCCG\plugins\MyLittlePonyKayou")
 PLUGIN_DIR = ROOT / "my-little-pony-dragncards-plugin"
@@ -600,7 +600,7 @@ def main() -> int:
     write_json("cardBacks.json", make_card_backs())
     write_json("browse.json", make_browse(cards))
     write_json("main.json", make_main())
-    write_json("imageUrlPrefix.json", {"imageUrlPrefix": {"Default": TOYBOX_PREFIX}})
+    clear_image_url_prefix(JSONS_DIR)
     prebuilts, menu, deck_errors = make_prebuilts(cards)
     errors.extend(deck_errors)
     write_json("preBuiltDecks.json", prebuilts)

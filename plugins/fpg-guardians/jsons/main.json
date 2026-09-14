@@ -7,6 +7,6 @@
     "D = draw. A = draw adventure. G = roll a d6. Guardians load to Starting; Adventure cards load to the Adventure deck."
   ],
   "loadPreBuiltOnNewGame": false,
-  "bannerUrl": "https://toybox.hundredacre.club/cards/fpg-guardians/_plugin/banner2.jpg",
-  "logoUrl": "https://toybox.hundredacre.club/cards/fpg-guardians/_plugin/logo2.jpg"
+  "bannerUrl": "/cards/fpg-guardians/_plugin/banner2.jpg",
+  "logoUrl": "/cards/fpg-guardians/_plugin/logo2.jpg"
 }

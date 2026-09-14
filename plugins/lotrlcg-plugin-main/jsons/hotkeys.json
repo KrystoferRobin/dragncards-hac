@@ -1,17 +1,17 @@
 {
     "hotkeys": {
         "token": [
-            {"key": "1", "tokenType": "resource", "label": "icon(https://toybox.hundredacre.club/cards/lord-of-the-rings-lcg/_plugin/LordOfTheRingsLcg-TokenResource.png)"},
-            {"key": "2", "tokenType": "progress", "label": "icon(https://toybox.hundredacre.club/cards/lord-of-the-rings-lcg/_plugin/LordOfTheRingsLcg-TokenProgress.png)"},
-            {"key": "3", "tokenType": "damage", "label": "icon(https://toybox.hundredacre.club/cards/lord-of-the-rings-lcg/_plugin/LordOfTheRingsLcg-TokenDamage.png)"},
-            {"key": "4", "tokenType": "time", "label": "icon(https://toybox.hundredacre.club/cards/lord-of-the-rings-lcg/_plugin/LordOfTheRingsLcg-TokenTime.png)"},
-            {"key": "5", "tokenType": "willpower", "label": "icon(https://toybox.hundredacre.club/cards/lord-of-the-rings-lcg/_plugin/LordOfTheRingsLcg-TokenWillpower.png)"},
-            {"key": "5", "tokenType": "threat", "label": "icon(https://toybox.hundredacre.club/cards/lord-of-the-rings-lcg/_plugin/LordOfTheRingsLcg-TokenThreat.png)"},
-            {"key": "6", "tokenType": "attack", "label": "icon(https://toybox.hundredacre.club/cards/lord-of-the-rings-lcg/_plugin/LordOfTheRingsLcg-TokenAttack.png)"},
-            {"key": "7", "tokenType": "defense", "label": "icon(https://toybox.hundredacre.club/cards/lord-of-the-rings-lcg/_plugin/LordOfTheRingsLcg-TokenDefense.png)"},
-            {"key": "8", "tokenType": "hitPoints", "label": "icon(https://toybox.hundredacre.club/cards/lord-of-the-rings-lcg/_plugin/LordOfTheRingsLcg-TokenHitPoints.png)"},
-            {"key": "8", "tokenType": "questPoints", "label": "icon(https://toybox.hundredacre.club/cards/lord-of-the-rings-lcg/_plugin/LordOfTheRingsLcg-TokenQuestPoints.png)"},
-            {"key": "9", "tokenType": "engagementCost", "label": "icon(https://toybox.hundredacre.club/cards/lord-of-the-rings-lcg/_plugin/LordOfTheRingsLcg-TokenEngagementCost.png)"}
+            {"key": "1", "tokenType": "resource", "label": "icon(/cards/lord-of-the-rings-lcg/_plugin/LordOfTheRingsLcg-TokenResource.png)"},
+            {"key": "2", "tokenType": "progress", "label": "icon(/cards/lord-of-the-rings-lcg/_plugin/LordOfTheRingsLcg-TokenProgress.png)"},
+            {"key": "3", "tokenType": "damage", "label": "icon(/cards/lord-of-the-rings-lcg/_plugin/LordOfTheRingsLcg-TokenDamage.png)"},
+            {"key": "4", "tokenType": "time", "label": "icon(/cards/lord-of-the-rings-lcg/_plugin/LordOfTheRingsLcg-TokenTime.png)"},
+            {"key": "5", "tokenType": "willpower", "label": "icon(/cards/lord-of-the-rings-lcg/_plugin/LordOfTheRingsLcg-TokenWillpower.png)"},
+            {"key": "5", "tokenType": "threat", "label": "icon(/cards/lord-of-the-rings-lcg/_plugin/LordOfTheRingsLcg-TokenThreat.png)"},
+            {"key": "6", "tokenType": "attack", "label": "icon(/cards/lord-of-the-rings-lcg/_plugin/LordOfTheRingsLcg-TokenAttack.png)"},
+            {"key": "7", "tokenType": "defense", "label": "icon(/cards/lord-of-the-rings-lcg/_plugin/LordOfTheRingsLcg-TokenDefense.png)"},
+            {"key": "8", "tokenType": "hitPoints", "label": "icon(/cards/lord-of-the-rings-lcg/_plugin/LordOfTheRingsLcg-TokenHitPoints.png)"},
+            {"key": "8", "tokenType": "questPoints", "label": "icon(/cards/lord-of-the-rings-lcg/_plugin/LordOfTheRingsLcg-TokenQuestPoints.png)"},
+            {"key": "9", "tokenType": "engagementCost", "label": "icon(/cards/lord-of-the-rings-lcg/_plugin/LordOfTheRingsLcg-TokenEngagementCost.png)"}
         ],
         "game": [
             {"key": "D", "actionList": "drawCard", "label": "id:drawACard"},

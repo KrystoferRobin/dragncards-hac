@@ -7,6 +7,6 @@
     "D = draw to Play Hand. P = pull to Draw Hand. Outfits load to the Outfit row."
   ],
   "loadPreBuiltOnNewGame": false,
-  "bannerUrl": "https://toybox.hundredacre.club/cards/doomtown/_plugin/banner2.jpg",
-  "logoUrl": "https://toybox.hundredacre.club/cards/doomtown/_plugin/logo2.jpg"
+  "bannerUrl": "/cards/doomtown/_plugin/banner2.jpg",
+  "logoUrl": "/cards/doomtown/_plugin/logo2.jpg"
 }

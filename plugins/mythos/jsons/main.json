@@ -7,6 +7,6 @@
     "D = draw. R = ready all. T = rotate. X = discard. 6 = d6. 0 = d20. Y/U = Sanity. O/P = Action Points."
   ],
   "loadPreBuiltOnNewGame": false,
-  "bannerUrl": "https://toybox.hundredacre.club/cards/mythos/_plugin/banner.jpg",
-  "logoUrl": "https://toybox.hundredacre.club/cards/mythos/_plugin/logo.jpg"
+  "bannerUrl": "/cards/mythos/_plugin/banner.jpg",
+  "logoUrl": "/cards/mythos/_plugin/logo.jpg"
 }

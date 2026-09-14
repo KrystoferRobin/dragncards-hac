@@ -63,8 +63,8 @@
     "Regroup"
   ],
   "touchBar": [],
-  "bannerUrl": "https://toybox.hundredacre.club/cards/lord-of-the-rings-ccg/_plugin/banner.jpg",
-  "logoUrl": "https://toybox.hundredacre.club/cards/lord-of-the-rings-ccg/_plugin/logo.jpg",
+  "bannerUrl": "/cards/lord-of-the-rings-ccg/_plugin/banner.jpg",
+  "logoUrl": "/cards/lord-of-the-rings-ccg/_plugin/logo.jpg",
   "clearTableOptions": [
     {
       "actionList": [

@@ -7,6 +7,6 @@
     "D = draw main. T = draw a character into play. M = Mana +1. Character cards use the character back."
   ],
   "loadPreBuiltOnNewGame": false,
-  "bannerUrl": "https://toybox.hundredacre.club/cards/legend-of-mana-ccg/_plugin/banner2.jpg",
-  "logoUrl": "https://toybox.hundredacre.club/cards/legend-of-mana-ccg/_plugin/logo2.jpg"
+  "bannerUrl": "/cards/legend-of-mana-ccg/_plugin/banner2.jpg",
+  "logoUrl": "/cards/legend-of-mana-ccg/_plugin/logo2.jpg"
 }

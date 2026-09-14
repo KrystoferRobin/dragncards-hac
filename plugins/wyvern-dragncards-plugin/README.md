@@ -4,7 +4,7 @@ Dumb (no rules enforcement) table plugin converted from the LackeyCCG Wyvern plu
 
 After `collect_hosted_images.py`, card images resolve from:
 
-`https://toybox.hundredacre.club/cards/wyvern/{set}/{Game}-{Set}-{Cardname}.ext`
+`/cards/wyvern/{set}/{Game}-{Set}-{Cardname}.ext`
 
 See [../README.md](../README.md) for the `/cards/` convention.
 

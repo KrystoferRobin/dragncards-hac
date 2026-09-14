@@ -2,7 +2,7 @@
   "pluginName": "Lord of the Rings LCG",
   "author": "seastan",
   "tutorialUrl": "https://youtu.be/vslX0A5wu7Y",
-  "backgroundUrl": "https://toybox.hundredacre.club/cards/lord-of-the-rings-lcg/_plugin/LordOfTheRingsLcg-Background.jpg",
-  "bannerUrl": "https://toybox.hundredacre.club/cards/lord-of-the-rings-lcg/_plugin/banner.jpg",
-  "logoUrl": "https://toybox.hundredacre.club/cards/lord-of-the-rings-lcg/_plugin/logo.jpg"
+  "backgroundUrl": "/cards/lord-of-the-rings-lcg/_plugin/LordOfTheRingsLcg-Background.jpg",
+  "bannerUrl": "/cards/lord-of-the-rings-lcg/_plugin/banner.jpg",
+  "logoUrl": "/cards/lord-of-the-rings-lcg/_plugin/logo.jpg"
 }

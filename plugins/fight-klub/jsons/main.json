@@ -6,6 +6,6 @@
     "D = draw. R = refresh all. T = activate. I = invert. X = discard."
   ],
   "loadPreBuiltOnNewGame": false,
-  "bannerUrl": "https://toybox.hundredacre.club/cards/fight-klub/_plugin/banner2.jpg",
-  "logoUrl": "https://toybox.hundredacre.club/cards/fight-klub/_plugin/logo2.jpg"
+  "bannerUrl": "/cards/fight-klub/_plugin/banner2.jpg",
+  "logoUrl": "/cards/fight-klub/_plugin/logo2.jpg"
 }

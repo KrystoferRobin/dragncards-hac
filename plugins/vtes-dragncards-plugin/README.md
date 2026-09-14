@@ -4,7 +4,7 @@ Dumb (no rules enforcement) table plugin converted from the KRCG LackeyCCG VTES 
 
 After `collect_hosted_images.py`, card images resolve from:
 
-`https://toybox.hundredacre.club/cards/vampire-the-eternal-struggle/{set}/{Game}-{Set}-{Cardname}.ext`
+`/cards/vampire-the-eternal-struggle/{set}/{Game}-{Set}-{Cardname}.ext`
 
 See [../README.md](../README.md) for the `/cards/` convention.
 

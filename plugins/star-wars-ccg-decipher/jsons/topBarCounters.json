@@ -2,7 +2,7 @@
   "topBarCounters": {
     "player": [
       {
-        "imageUrl": "https://toybox.hundredacre.club/cards/star-wars-ccg/_plugin/StarWarsCcg-CardbackLight.png",
+        "imageUrl": "/cards/star-wars-ccg/_plugin/StarWarsCcg-CardbackLight.png",
         "label": "id:force",
         "playerProperty": "force"
       }

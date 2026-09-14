@@ -4,7 +4,7 @@ import { useFormatLabelsInText } from "./MessageLine";
 import { useCardDb } from "../engine/hooks/useCardDb";
 import { useGameDefinition } from "../engine/hooks/useGameDefinition";
 import useProfile from "../../hooks/useProfile";
-import { getPlayerIColor } from "../engine/functions/common";
+import { getPlayerIColor, imageUrlPrefixFor, isCompleteImageUrl } from "../engine/functions/common";
 
 const CardLinkWithHover = ({ label, imageUrl }) => {
   const [mousePos, setMousePos] = useState(null);
@@ -55,7 +55,7 @@ const isValidUrl = (url) => {
 const resolveCardImage = (cardDb, urlPrefix, dbId, side) => {
   const imageUrl = cardDb?.[dbId]?.[side]?.imageUrl;
   if (!imageUrl) return null;
-  return imageUrl.startsWith("http") ? imageUrl : urlPrefix + imageUrl;
+  return isCompleteImageUrl(imageUrl) ? imageUrl : urlPrefix + imageUrl;
 };
 
 const splitByTokens = (text) => {
@@ -106,7 +106,7 @@ const renderToken = (token, key, { cardDb, cardById, urlPrefix, defaultImgHeight
       if (!imageUrl) {
         return <span key={key}>[unknown card]</span>;
       }
-      const fullUrl = imageUrl.startsWith("http") ? imageUrl : urlPrefix + imageUrl;
+      const fullUrl = isCompleteImageUrl(imageUrl) ? imageUrl : urlPrefix + imageUrl;
       if (!isValidUrl(fullUrl)) {
         return <span key={key}>[invalid image url]</span>;
       }
@@ -133,7 +133,7 @@ const renderToken = (token, key, { cardDb, cardById, urlPrefix, defaultImgHeight
     const card = cardById?.[gameCardId];
     const imageUrl = card?.sides?.[side]?.imageUrl;
     const fullUrl = imageUrl
-      ? (imageUrl.startsWith("http") ? imageUrl : urlPrefix + imageUrl)
+      ? (isCompleteImageUrl(imageUrl) ? imageUrl : urlPrefix + imageUrl)
       : null;
     const cardName = card?.sides?.[side]?.name || gameCardId;
 
@@ -262,10 +262,7 @@ export const useRichText = () => {
   const user = useProfile();
   const language = user?.language || "English";
 
-  const urlPrefix =
-    gameDef?.imageUrlPrefix?.[language] ||
-    gameDef?.imageUrlPrefix?.Default ||
-    "";
+  const urlPrefix = imageUrlPrefixFor(gameDef, language);
 
   return (text, options = {}) => {
     if (!text) return null;

@@ -37,7 +37,7 @@
       "English": "Player 2 Eliminated"
     },
     "defenseRedIcon": {
-      "English": "icon(https://toybox.hundredacre.club/cards/war-of-the-ring-card-game/_plugin/WarOfTheRingCardGame-TokenDefenseRed.png)"
+      "English": "icon(/cards/war-of-the-ring-card-game/_plugin/WarOfTheRingCardGame-TokenDefenseRed.png)"
     },
     "step-3.3": {
       "English": "3.3: Discard defending cards to subtract more icons"
@@ -109,7 +109,7 @@
       "English": "Hand"
     },
     "attackRedIcon": {
-      "English": "icon(https://toybox.hundredacre.club/cards/war-of-the-ring-card-game/_plugin/WarOfTheRingCardGame-TokenAttackRed.png)"
+      "English": "icon(/cards/war-of-the-ring-card-game/_plugin/WarOfTheRingCardGame-TokenAttackRed.png)"
     },
     "labelMarkAsShadowVictory": {
       "English": "Mark as Shadow Victory"
@@ -133,7 +133,7 @@
       "English": "Player 3 Deck"
     },
     "corruptionIcon": {
-      "English": "icon(https://toybox.hundredacre.club/cards/war-of-the-ring-card-game/_plugin/WarOfTheRingCardGame-TokenCorruption.png)"
+      "English": "icon(/cards/war-of-the-ring-card-game/_plugin/WarOfTheRingCardGame-TokenCorruption.png)"
     },
     "activeLocation2": {
       "English": "Active Location 2"
@@ -148,7 +148,7 @@
       "English": "Path Deck 3B"
     },
     "pathRedIcon": {
-      "English": "icon(https://toybox.hundredacre.club/cards/war-of-the-ring-card-game/_plugin/WarOfTheRingCardGame-TokenPathRed.png)"
+      "English": "icon(/cards/war-of-the-ring-card-game/_plugin/WarOfTheRingCardGame-TokenPathRed.png)"
     },
     "player6Cycled": {
       "English": "Player 6 Cycled"
@@ -562,7 +562,7 @@
       "English": "Shadow 1"
     },
     "pathBlueIcon": {
-      "English": "icon(https://toybox.hundredacre.club/cards/war-of-the-ring-card-game/_plugin/WarOfTheRingCardGame-TokenPathBlue.png)"
+      "English": "icon(/cards/war-of-the-ring-card-game/_plugin/WarOfTheRingCardGame-TokenPathBlue.png)"
     },
     "freePeoples3": {
       "English": "Free Peoples 3"
@@ -589,7 +589,7 @@
       "English": "All Hands Visible"
     },
     "defenseBlueIcon": {
-      "English": "icon(https://toybox.hundredacre.club/cards/war-of-the-ring-card-game/_plugin/WarOfTheRingCardGame-TokenDefenseBlue.png)"
+      "English": "icon(/cards/war-of-the-ring-card-game/_plugin/WarOfTheRingCardGame-TokenDefenseBlue.png)"
     },
     "location5": {
       "English": "Location5"
@@ -619,7 +619,7 @@
       "English": "SP Scoring Area"
     },
     "attackBlueIcon": {
-      "English": "icon(https://toybox.hundredacre.club/cards/war-of-the-ring-card-game/_plugin/WarOfTheRingCardGame-TokenAttackBlue.png)"
+      "English": "icon(/cards/war-of-the-ring-card-game/_plugin/WarOfTheRingCardGame-TokenAttackBlue.png)"
     },
     "pathDeck8": {
       "English": "Path Deck 8"

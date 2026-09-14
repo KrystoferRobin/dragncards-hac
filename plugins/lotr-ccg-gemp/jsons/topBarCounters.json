@@ -2,7 +2,7 @@
   "topBarCounters": {
     "player": [
       {
-        "imageUrl": "https://toybox.hundredacre.club/cards/lord-of-the-rings-ccg/_plugin/LordOfTheRingsTcg-CardbackNormal.jpg",
+        "imageUrl": "/cards/lord-of-the-rings-ccg/_plugin/LordOfTheRingsTcg-CardbackNormal.jpg",
         "label": "id:twilight",
         "playerProperty": "twilight"
       }

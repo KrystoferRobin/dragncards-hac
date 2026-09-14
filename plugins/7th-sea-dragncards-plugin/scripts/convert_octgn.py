@@ -16,7 +16,7 @@ from collections import Counter
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[2] / "scripts"))
-from image_names import TOYBOX_PREFIX, stamp_lobby_art  # noqa: E402
+from image_names import TOYBOX_PREFIX, clear_image_url_prefix, stamp_lobby_art  # noqa: E402
 
 OCTGN_GAME = Path(r"C:\Games\octgn\Data\GameDatabase\844ed56c-2048-41a6-97b0-3515185e1634")
 OCTGN_IMAGES = Path(r"C:\Games\octgn\Data\ImageDatabase\844ed56c-2048-41a6-97b0-3515185e1634")
@@ -525,7 +525,7 @@ def main() -> int:
     write_json("cardTypes.json", make_card_types(cards))
     write_json("cardBacks.json", make_card_backs())
     write_json("browse.json", make_browse(cards))
-    write_json("imageUrlPrefix.json", {"imageUrlPrefix": {"Default": TOYBOX_PREFIX}})
+    clear_image_url_prefix(JSONS_DIR)
     prebuilts, menu = make_seas_deck()
     write_json("preBuiltDecks.json", prebuilts)
     write_json("deckMenu.json", menu)

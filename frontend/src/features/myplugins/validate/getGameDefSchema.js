@@ -1851,7 +1851,7 @@ export const getGameDefSchema = (gameDef) => {
         }
       },
       "imageUrlPrefix": {
-        "_description_": "Object describing the prefix to add to image URLs (both card images and cardBacks images). The [key] is the language. This can be used to reduce character count in the TSV if many URLs contain a similar prefix. It can be used for localization if your images are hosted in such a way that the the URLs for the same card in different languages have the same suffix but different prefix. Example: {'Default': 'https://hostingsite.com/English/', 'English': 'https://hostingsite.com/English/', 'French': 'https://hostingsite.com/French/'}",
+        "_description_": "Optional prefix for card and card-back imageUrls that do not start with http or /. If omitted, the table uses /cards/. Language keys are for localized art hosts. Example: {'Default': '/cards/', 'French': 'https://hostingsite.com/French/'}",
         "_type_": "object",
         "_itemSchema_": {
           "_description_": "The image URL prefix",

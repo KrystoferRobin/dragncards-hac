@@ -24,7 +24,7 @@ ROOT = Path(__file__).resolve().parents[1]
 import sys
 
 sys.path.insert(0, str(ROOT / "scripts"))
-from image_names import TOYBOX_PREFIX, plugin_art_rel, stamp_lobby_art, toybox_url  # noqa: E402
+from image_names import TOYBOX_PREFIX, clear_image_url_prefix, plugin_art_rel, stamp_lobby_art, toybox_url  # noqa: E402
 
 LACKEY = Path("/Applications/LackeyCCG/plugins/magic")
 OUT = ROOT / "magic"
@@ -517,7 +517,7 @@ def write_plugin_jsons(cards: list[dict[str, str]], decks: dict, menu: dict, bac
     dump_json(jsons / "announcements.json", {"announcements": [
         "Magic tabletop: load a deck, draw, tap. Commander and emblem slots start hidden — use Cmd/Emblem on the right edge to show both players' slots.",
     ]})
-    dump_json(jsons / "imageUrlPrefix.json", {"imageUrlPrefix": {"Default": TOYBOX_PREFIX}})
+    clear_image_url_prefix(jsons)
     dump_json(jsons / "cardBacks.json", {"cardBacks": {"default": {"width": 0.72, "height": 1.0, "imageUrl": back_rel}}})
     dump_json(jsons / "cardTypes.json", {"cardTypes": {
         name: {"width": 0.72, "height": 1.0, "tokens": ["green", "red", "blue"]} for name in types

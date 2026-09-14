@@ -11,4 +11,13 @@ module.exports = function (app) {
       pathRewrite: { "^/be": "" },
     })
   );
+  // Same-origin /cards/ paths in plugins. Local webpack has no nginx, so
+  // borrow toybox (or REACT_APP_CARDS_ORIGIN) for art.
+  app.use(
+    "/cards",
+    createProxyMiddleware({
+      target: process.env.REACT_APP_CARDS_ORIGIN || "https://toybox.hundredacre.club",
+      changeOrigin: true,
+    })
+  );
 };

@@ -1,6 +1,7 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTrash, faPlus, faInfoCircle } from "@fortawesome/free-solid-svg-icons";
+import { applyImageUrlPrefix } from "../../../engine/functions/common";
 
 export const Tokens = ({ inputs, setInputs }) => {
   const tokens = inputs.tokens || [];
@@ -53,10 +54,7 @@ export const Tokens = ({ inputs, setInputs }) => {
         {(() => {
           const firstCardId = Object.keys(inputs.cardDb || {})[0];
           const rawImage = firstCardId && inputs.cardDb[firstCardId]?.A?.imageUrl;
-          const prefix = inputs.imageUrlPrefix?.Default || inputs.imageUrlPrefix?.English || "";
-          const cardImage = rawImage && !/^https?:\/\//i.test(rawImage) && prefix
-            ? `${prefix.replace(/\/?$/, "/")}${rawImage.replace(/^\//, "")}`
-            : rawImage;
+          const cardImage = applyImageUrlPrefix(rawImage, inputs, null).src;
           return cardImage ? (
             <img
               src={cardImage}

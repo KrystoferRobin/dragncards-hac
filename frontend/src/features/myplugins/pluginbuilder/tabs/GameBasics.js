@@ -36,13 +36,13 @@ const basicKeys = [
     key: "bannerUrl",
     label: "Lobby Banner URL",
     type: "text",
-    placeholder: "https://toybox.hundredacre.club/cards/{game}/_plugin/banner.jpg",
+    placeholder: "/cards/{game}/_plugin/banner2.jpg",
   },
   {
     key: "logoUrl",
     label: "Lobby Logo URL",
     type: "text",
-    placeholder: "https://toybox.hundredacre.club/cards/{game}/_plugin/logo.jpg",
+    placeholder: "/cards/{game}/_plugin/logo2.jpg",
   },
 ];
 

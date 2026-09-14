@@ -7,6 +7,6 @@
     "D = draw. E = turn. K / R = unturn. P = Power +1. X = smoke. G = d20."
   ],
   "loadPreBuiltOnNewGame": false,
-  "bannerUrl": "https://toybox.hundredacre.club/cards/shadowfist/_plugin/banner2.jpg",
-  "logoUrl": "https://toybox.hundredacre.club/cards/shadowfist/_plugin/logo2.jpg"
+  "bannerUrl": "/cards/shadowfist/_plugin/banner2.jpg",
+  "logoUrl": "/cards/shadowfist/_plugin/logo2.jpg"
 }

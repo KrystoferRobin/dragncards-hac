@@ -2,14 +2,14 @@
 
 Official-style LotR LCG plugin (automation included). Card art is hosted on toybox after `collect_hosted_images.py`. Relative TSV / card-back paths plus `imageUrlPrefix` resolve to:
 
-`https://toybox.hundredacre.club/cards/lord-of-the-rings-lcg/{set}/{Game}-{Set}-{Cardname}.ext`
+`/cards/lord-of-the-rings-lcg/{set}/{Game}-{Set}-{Cardname}.ext`
 
 See [../README.md](../README.md) for the `/cards/` convention.
 
 Lobby listing art (add the files when you have them):
 
-- `https://toybox.hundredacre.club/cards/lord-of-the-rings-lcg/_plugin/banner.jpg`
-- `https://toybox.hundredacre.club/cards/lord-of-the-rings-lcg/_plugin/logo.jpg`
+- `/cards/lord-of-the-rings-lcg/_plugin/banner.jpg`
+- `/cards/lord-of-the-rings-lcg/_plugin/logo.jpg`
 
 ## Contents
 

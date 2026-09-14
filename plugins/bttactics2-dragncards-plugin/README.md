@@ -4,7 +4,7 @@ Dumb (no rules enforcement) 1v1 table plugin converted from the LackeyCCG **btta
 
 After `collect_hosted_images.py`, card images resolve from:
 
-`https://toybox.hundredacre.club/cards/battletech-tactics-2/{set}/{Game}-{Set}-{Cardname}.ext`
+`/cards/battletech-tactics-2/{set}/{Game}-{Set}-{Cardname}.ext`
 
 See [../README.md](../README.md) for the `/cards/` convention.
 

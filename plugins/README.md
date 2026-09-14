@@ -1,34 +1,35 @@
 # DragnCards plugins — image hosting
 
-Toybox serves card art at **`/cards/`**. Host nginx aliases that path onto the `images/` tree (`compose.yml`, `nginx/toybox.hundredacre.club`). Do not put a `cards/` folder inside `images/`, and do not put `cards/` in TSV or card-back relative paths.
+Card art is served at **`/cards/`** on the same host as the table. Nginx aliases that path onto the `images/` tree. Do not put a `cards/` folder inside `images/`, and do not put `cards/` in TSV or card-back relative paths.
+
+Plugins do **not** store a public host. The frontend prepends `/cards/` to any card or card-back `imageUrl` that does not already start with `http` or `/`.
 
 ## Resolved URL
 
 ```
-https://toybox.hundredacre.club/cards/{game}/{set}/{Game}-{Set}-{Cardname}.ext
+/cards/{game}/{set}/{Game}-{Set}-{Cardname}.ext
 ```
 
-Example: `https://toybox.hundredacre.club/cards/my-little-pony/_plugin/MyLittlePony-CardbackDefault.jpg`
+Example: `/cards/my-little-pony/_plugin/MyLittlePony-CardbackDefault.jpg`
 
 | Piece | What it stores | Example |
 | --- | --- | --- |
-| `jsons/imageUrlPrefix.json` | Host + `/cards/` | `https://toybox.hundredacre.club/cards/` |
 | `tsvs/cards.tsv` `imageUrl` | Relative path only | `my-little-pony/bp01/MyLittlePony-BP01-TwilightSparkleBP011.jpg` |
 | `jsons/cardBacks.json` `imageUrl` | Relative path only | `my-little-pony/_plugin/MyLittlePony-CardbackDefault.jpg` |
-| Token / background / lobby banner & logo | **Full** URL (DragnCards does not prefix these) | `https://toybox.hundredacre.club/cards/my-little-pony/_plugin/MyLittlePony-TokenGreen.png` |
+| Token / background / lobby banner & logo | Same-origin path (engine does not prefix these) | `/cards/my-little-pony/_plugin/MyLittlePony-TokenGreen.png` |
+
+Do not add `jsons/imageUrlPrefix.json`. A host prefix in the plugin is how someone maps every TSV path onto your fileshare.
 
 Lobby listing art in `jsons/main.json` is always these two files in the game’s `_plugin` folder (drop them in when you have art):
 
-- `bannerUrl` → `https://toybox.hundredacre.club/cards/{game}/_plugin/banner2.jpg` — card background, cover-scaled at ~50% opacity
-- `logoUrl` → `https://toybox.hundredacre.club/cards/{game}/_plugin/logo2.jpg` — full-opacity icon in a square slot on the right
+- `bannerUrl` → `/cards/{game}/_plugin/banner2.jpg` — card background, cover-scaled at ~50% opacity
+- `logoUrl` → `/cards/{game}/_plugin/logo2.jpg` — full-opacity icon in a square slot on the right
 
 Converters stamp those URLs via `stamp_lobby_art()`. Do not PascalCase-rename `banner2.jpg` / `logo2.jpg`.
 
-DragnCards prepends `imageUrlPrefix` to any card or card-back `imageUrl` that does not start with `http`. That is why the TSV stays game-relative: prefix + path is the public URL.
-
 ## Why not `cards/` in the TSV?
 
-The files on disk are `images/{game}/{set}/...`. Nginx maps `/cards/` → that `images/` root. A TSV path of `cards/my-little-pony/...` plus this prefix would 404 as `/cards/cards/my-little-pony/...`.
+The files on disk are `images/{game}/{set}/...`. Nginx maps `/cards/` → that `images/` root. A TSV path of `cards/my-little-pony/...` plus the `/cards/` prefix would 404 as `/cards/cards/my-little-pony/...`.
 
 ## Pipeline
 
@@ -58,11 +59,11 @@ That writes split `jsons/` + `tsvs/cards.tsv` from the compiled `game_def`/`card
    python scripts/collect_hosted_images.py lotrlcg-plugin-main
    ```
 
-   Downloads remote art into `images/{game}/{set}/Game-Set-Cardname`, rewrites TSV/card backs to relative paths, writes `imageUrlPrefix` to `https://toybox.hundredacre.club/cards/`, and gives tokens/backgrounds full `/cards/` URLs. `--retarget` only rewrites already-collected plugins (no download).
+   Downloads remote art into `images/{game}/{set}/Game-Set-Cardname`, rewrites TSV/card backs to relative paths, and gives tokens/backgrounds/lobby art `/cards/...` paths. `--retarget` only rewrites already-collected plugins (no download).
 3. Copy `images/{game}/` onto the toybox image docroot (`/fileshare/services/dragncards/images/` on the host).
 4. Validate, then Load Game Definition + Upload card database.
 
-Shared helpers live in `scripts/image_names.py` (`TOYBOX_PREFIX`, `card_rel_path`, `plugin_art_rel`, `rewrite_toybox_url`). Converters and the collector must import that prefix — do not hardcode the host without `/cards/`.
+Shared helpers live in `scripts/image_names.py` (`TOYBOX_PREFIX` is `/cards/`, `card_rel_path`, `plugin_art_rel`, `rewrite_toybox_url`).
 
 ## Upload to toybox
 

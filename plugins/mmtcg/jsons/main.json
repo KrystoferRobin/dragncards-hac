@@ -7,6 +7,6 @@
     "D = draw. U = power up (top of deck facedown). M = 1 damage (mill to discard)."
   ],
   "loadPreBuiltOnNewGame": false,
-  "bannerUrl": "https://toybox.hundredacre.club/cards/mmtcg/_plugin/banner2.jpg",
-  "logoUrl": "https://toybox.hundredacre.club/cards/mmtcg/_plugin/logo2.jpg"
+  "bannerUrl": "/cards/mmtcg/_plugin/banner2.jpg",
+  "logoUrl": "/cards/mmtcg/_plugin/logo2.jpg"
 }

@@ -7,6 +7,6 @@
     "D = draw. A = Action Token +1. Manes load to the Mane row; Problems load to the Problem Deck."
   ],
   "loadPreBuiltOnNewGame": false,
-  "bannerUrl": "https://toybox.hundredacre.club/cards/mlp-ccg/_plugin/banner2.jpg",
-  "logoUrl": "https://toybox.hundredacre.club/cards/mlp-ccg/_plugin/logo2.jpg"
+  "bannerUrl": "/cards/mlp-ccg/_plugin/banner2.jpg",
+  "logoUrl": "/cards/mlp-ccg/_plugin/logo2.jpg"
 }

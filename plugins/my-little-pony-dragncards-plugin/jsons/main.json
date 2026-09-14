@@ -2,8 +2,8 @@
   "pluginName": "My Little Pony (Kayou)",
   "author": "Kayou",
   "tutorialUrl": "",
-  "backgroundUrl": "https://toybox.hundredacre.club/cards/my-little-pony/_plugin/MyLittlePony-Background.jpg",
-  "bannerUrl": "https://toybox.hundredacre.club/cards/my-little-pony/_plugin/banner.jpg",
-  "logoUrl": "https://toybox.hundredacre.club/cards/my-little-pony/_plugin/logo.jpg",
+  "backgroundUrl": "/cards/my-little-pony/_plugin/MyLittlePony-Background.jpg",
+  "bannerUrl": "/cards/my-little-pony/_plugin/banner.jpg",
+  "logoUrl": "/cards/my-little-pony/_plugin/logo.jpg",
   "loadPreBuiltOnNewGame": false
 }

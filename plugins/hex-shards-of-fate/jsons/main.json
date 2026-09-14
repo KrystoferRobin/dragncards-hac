@@ -7,7 +7,7 @@
     "D draw. R ready all. S shuffle. E exhaust. U ready. X crypt. V void. Champion / Resources / Troops / Support."
   ],
   "loadPreBuiltOnNewGame": false,
-  "backgroundUrl": "https://toybox.hundredacre.club/cards/hex-shards-of-fate/_plugin/HexShardsOfFate-Background.jpg",
-  "bannerUrl": "https://toybox.hundredacre.club/cards/hex-shards-of-fate/_plugin/banner2.jpg",
-  "logoUrl": "https://toybox.hundredacre.club/cards/hex-shards-of-fate/_plugin/logo2.jpg"
+  "backgroundUrl": "/cards/hex-shards-of-fate/_plugin/HexShardsOfFate-Background.jpg",
+  "bannerUrl": "/cards/hex-shards-of-fate/_plugin/banner2.jpg",
+  "logoUrl": "/cards/hex-shards-of-fate/_plugin/logo2.jpg"
 }

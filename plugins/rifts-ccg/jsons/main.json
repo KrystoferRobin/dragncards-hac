@@ -7,6 +7,6 @@
     "D = draw. R = ready all. X = discard. Nation cards load to the Nation row."
   ],
   "loadPreBuiltOnNewGame": false,
-  "bannerUrl": "https://toybox.hundredacre.club/cards/rifts-ccg/_plugin/banner2.jpg",
-  "logoUrl": "https://toybox.hundredacre.club/cards/rifts-ccg/_plugin/logo2.jpg"
+  "bannerUrl": "/cards/rifts-ccg/_plugin/banner2.jpg",
+  "logoUrl": "/cards/rifts-ccg/_plugin/logo2.jpg"
 }

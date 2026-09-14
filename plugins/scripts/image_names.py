@@ -1,12 +1,11 @@
 """Shared Game-Set-Cardname path helpers for toybox image hosting.
 
-Host nginx maps /cards/ onto the images/ tree (see compose.yml and
-nginx/toybox.hundredacre.club). Plugin TSV / cardBack paths stay
-{game}/{set}/{Game}-{Set}-{Cardname}.ext — do not put cards/ in those
-relative paths. imageUrlPrefix and any absolute token/background/lobby URL
-must use TOYBOX_PREFIX so the resolved URL is:
+Host nginx maps /cards/ onto the images/ tree (see compose.yml). Plugin TSV /
+cardBack paths stay {game}/{set}/{Game}-{Set}-{Cardname}.ext — do not put
+cards/ in those relative paths. The frontend prepends /cards/ when a path
+does not already start with / or http, so plugins do not store a host.
 
-  https://toybox.hundredacre.club/cards/{game}/{set}/{Game}-{Set}-{Cardname}.ext
+Token / background / lobby URLs are same-origin /cards/... paths.
 """
 
 from __future__ import annotations
@@ -16,10 +15,12 @@ import re
 from pathlib import Path
 
 TOYBOX_HOST = "https://toybox.hundredacre.club"
-TOYBOX_PREFIX = f"{TOYBOX_HOST}/cards/"
+TOYBOX_PREFIX = "/cards/"
 _TOYBOX_ROOTS = (
     f"{TOYBOX_HOST}/",
     "http://toybox.hundredacre.club/",
+    "https://toybox.hundredacre.club/cards/",
+    "http://toybox.hundredacre.club/cards/",
 )
 
 
@@ -106,7 +107,7 @@ def toybox_url(rel: str) -> str:
 
 
 def rewrite_toybox_url(url: str) -> str:
-    """Insert /cards/ after the toybox host. Leave relative paths and other hosts alone."""
+    """Turn a toybox host URL into a same-origin /cards/ path. Leave other hosts alone."""
     url = (url or "").strip()
     if not url:
         return url
@@ -117,3 +118,12 @@ def rewrite_toybox_url(url: str) -> str:
                 rest = rest[len("cards/") :]
             return TOYBOX_PREFIX + rest
     return url
+
+
+def clear_image_url_prefix(jsons_dir: Path) -> None:
+    """Plugins rely on the frontend /cards/ default; do not store a host prefix."""
+    path = Path(jsons_dir) / "imageUrlPrefix.json"
+    try:
+        path.unlink()
+    except FileNotFoundError:
+        pass

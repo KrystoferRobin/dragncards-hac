@@ -81,7 +81,7 @@
       "numPlayers": 2
     }
   ],
-  "backgroundUrl": "https://toybox.hundredacre.club/cards/war-of-the-ring-card-game/_plugin/WarOfTheRingCardGame-Background.jpg",
+  "backgroundUrl": "/cards/war-of-the-ring-card-game/_plugin/WarOfTheRingCardGame-Background.jpg",
   "clearTableOptions": [
     {
       "actionList": [
@@ -173,49 +173,49 @@
       {
         "actionType": "token",
         "id": "incrementBlueAttack",
-        "imageUrl": "https://toybox.hundredacre.club/cards/war-of-the-ring-card-game/_plugin/WarOfTheRingCardGame-TokenAttackBlue.png",
+        "imageUrl": "/cards/war-of-the-ring-card-game/_plugin/WarOfTheRingCardGame-TokenAttackBlue.png",
         "label": "",
         "tokenType": "attackBlue"
       },
       {
         "actionType": "token",
         "id": "incrementBlueDefense",
-        "imageUrl": "https://toybox.hundredacre.club/cards/war-of-the-ring-card-game/_plugin/WarOfTheRingCardGame-TokenDefenseBlue.png",
+        "imageUrl": "/cards/war-of-the-ring-card-game/_plugin/WarOfTheRingCardGame-TokenDefenseBlue.png",
         "label": "",
         "tokenType": "defenseBlue"
       },
       {
         "actionType": "token",
         "id": "incrementRedAttack",
-        "imageUrl": "https://toybox.hundredacre.club/cards/war-of-the-ring-card-game/_plugin/WarOfTheRingCardGame-TokenAttackRed.png",
+        "imageUrl": "/cards/war-of-the-ring-card-game/_plugin/WarOfTheRingCardGame-TokenAttackRed.png",
         "label": "",
         "tokenType": "attackRed"
       },
       {
         "actionType": "token",
         "id": "incrementRedDefense",
-        "imageUrl": "https://toybox.hundredacre.club/cards/war-of-the-ring-card-game/_plugin/WarOfTheRingCardGame-TokenDefenseRed.png",
+        "imageUrl": "/cards/war-of-the-ring-card-game/_plugin/WarOfTheRingCardGame-TokenDefenseRed.png",
         "label": "",
         "tokenType": "defenseRed"
       },
       {
         "actionType": "token",
         "id": "incrementBluePath",
-        "imageUrl": "https://toybox.hundredacre.club/cards/war-of-the-ring-card-game/_plugin/WarOfTheRingCardGame-TokenPathBlue.png",
+        "imageUrl": "/cards/war-of-the-ring-card-game/_plugin/WarOfTheRingCardGame-TokenPathBlue.png",
         "label": "",
         "tokenType": "pathBlue"
       },
       {
         "actionType": "token",
         "id": "incrementRedPath",
-        "imageUrl": "https://toybox.hundredacre.club/cards/war-of-the-ring-card-game/_plugin/WarOfTheRingCardGame-TokenPathRed.png",
+        "imageUrl": "/cards/war-of-the-ring-card-game/_plugin/WarOfTheRingCardGame-TokenPathRed.png",
         "label": "",
         "tokenType": "pathRed"
       },
       {
         "actionType": "token",
         "id": "incrementCorruption",
-        "imageUrl": "https://toybox.hundredacre.club/cards/war-of-the-ring-card-game/_plugin/WarOfTheRingCardGame-TokenCorruption.png",
+        "imageUrl": "/cards/war-of-the-ring-card-game/_plugin/WarOfTheRingCardGame-TokenCorruption.png",
         "label": "",
         "tokenType": "corruption"
       },
@@ -301,6 +301,6 @@
       }
     ]
   ],
-  "bannerUrl": "https://toybox.hundredacre.club/cards/war-of-the-ring-card-game/_plugin/banner.jpg",
-  "logoUrl": "https://toybox.hundredacre.club/cards/war-of-the-ring-card-game/_plugin/logo.jpg"
+  "bannerUrl": "/cards/war-of-the-ring-card-game/_plugin/banner.jpg",
+  "logoUrl": "/cards/war-of-the-ring-card-game/_plugin/logo.jpg"
 }

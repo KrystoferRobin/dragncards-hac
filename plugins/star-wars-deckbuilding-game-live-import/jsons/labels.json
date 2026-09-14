@@ -1,7 +1,7 @@
 {
   "labels": {
     "attackModifierIcon": {
-      "English": "icon(https://toybox.hundredacre.club/cards/star-wars-deckbuilding-game/_plugin/StarWarsDeckbuildingGame-TokenAttackModifier.png)"
+      "English": "icon(/cards/star-wars-deckbuilding-game/_plugin/StarWarsDeckbuildingGame-TokenAttackModifier.png)"
     },
     "attackOnCard": {
       "English": "Attack on card"
@@ -19,7 +19,7 @@
       "English": "Damage"
     },
     "damageIcon": {
-      "English": "icon(https://toybox.hundredacre.club/cards/star-wars-deckbuilding-game/_plugin/StarWarsDeckbuildingGame-TokenDamage.png)"
+      "English": "icon(/cards/star-wars-deckbuilding-game/_plugin/StarWarsDeckbuildingGame-TokenDamage.png)"
     },
     "discard": {
       "English": "Discard"

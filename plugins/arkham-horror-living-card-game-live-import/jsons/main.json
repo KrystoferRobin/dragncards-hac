@@ -79,7 +79,7 @@
       "numPlayers": 4
     }
   ],
-  "backgroundUrl": "https://toybox.hundredacre.club/cards/arkham-horror-living-card-game/_plugin/ArkhamHorrorLivingCardGame-Background.webp",
+  "backgroundUrl": "/cards/arkham-horror-living-card-game/_plugin/ArkhamHorrorLivingCardGame-Background.webp",
   "clearTableOptions": [
     {
       "actionList": [
@@ -300,42 +300,42 @@
       {
         "actionType": "token",
         "id": "incrementResource",
-        "imageUrl": "https://toybox.hundredacre.club/cards/arkham-horror-living-card-game/_plugin/ArkhamHorrorLivingCardGame-TokenResource.webp",
+        "imageUrl": "/cards/arkham-horror-living-card-game/_plugin/ArkhamHorrorLivingCardGame-TokenResource.webp",
         "label": "",
         "tokenType": "resource"
       },
       {
         "actionType": "token",
         "id": "incrementClue",
-        "imageUrl": "https://toybox.hundredacre.club/cards/arkham-horror-living-card-game/_plugin/ArkhamHorrorLivingCardGame-TokenClue.webp",
+        "imageUrl": "/cards/arkham-horror-living-card-game/_plugin/ArkhamHorrorLivingCardGame-TokenClue.webp",
         "label": "",
         "tokenType": "clue"
       },
       {
         "actionType": "token",
         "id": "incrementDoom",
-        "imageUrl": "https://toybox.hundredacre.club/cards/arkham-horror-living-card-game/_plugin/ArkhamHorrorLivingCardGame-TokenDoom.webp",
+        "imageUrl": "/cards/arkham-horror-living-card-game/_plugin/ArkhamHorrorLivingCardGame-TokenDoom.webp",
         "label": "",
         "tokenType": "doom"
       },
       {
         "actionType": "token",
         "id": "incrementDamage",
-        "imageUrl": "https://toybox.hundredacre.club/cards/arkham-horror-living-card-game/_plugin/ArkhamHorrorLivingCardGame-TokenDamage.webp",
+        "imageUrl": "/cards/arkham-horror-living-card-game/_plugin/ArkhamHorrorLivingCardGame-TokenDamage.webp",
         "label": "",
         "tokenType": "damage"
       },
       {
         "actionType": "token",
         "id": "incrementHorror",
-        "imageUrl": "https://toybox.hundredacre.club/cards/arkham-horror-living-card-game/_plugin/ArkhamHorrorLivingCardGame-TokenHorror.webp",
+        "imageUrl": "/cards/arkham-horror-living-card-game/_plugin/ArkhamHorrorLivingCardGame-TokenHorror.webp",
         "label": "",
         "tokenType": "horror"
       },
       {
         "actionType": "token",
         "id": "incrementFreeze",
-        "imageUrl": "https://toybox.hundredacre.club/cards/arkham-horror-living-card-game/_plugin/ArkhamHorrorLivingCardGame-TokenFreeze.webp",
+        "imageUrl": "/cards/arkham-horror-living-card-game/_plugin/ArkhamHorrorLivingCardGame-TokenFreeze.webp",
         "label": "",
         "tokenType": "freeze"
       },
@@ -409,6 +409,6 @@
       }
     ]
   ],
-  "bannerUrl": "https://toybox.hundredacre.club/cards/arkham-horror-living-card-game/_plugin/banner.jpg",
-  "logoUrl": "https://toybox.hundredacre.club/cards/arkham-horror-living-card-game/_plugin/logo.jpg"
+  "bannerUrl": "/cards/arkham-horror-living-card-game/_plugin/banner.jpg",
+  "logoUrl": "/cards/arkham-horror-living-card-game/_plugin/logo.jpg"
 }

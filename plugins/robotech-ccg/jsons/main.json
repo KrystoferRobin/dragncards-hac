@@ -7,6 +7,6 @@
     "D = draw. R = ready all. T = spend (rotate 90). K = ready one. X = discard. 1/2 = green/red counters."
   ],
   "loadPreBuiltOnNewGame": false,
-  "bannerUrl": "https://toybox.hundredacre.club/cards/robotech-ccg/_plugin/banner.jpg",
-  "logoUrl": "https://toybox.hundredacre.club/cards/robotech-ccg/_plugin/logo.png"
+  "bannerUrl": "/cards/robotech-ccg/_plugin/banner.jpg",
+  "logoUrl": "/cards/robotech-ccg/_plugin/logo.png"
 }

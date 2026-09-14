@@ -3,7 +3,7 @@
   "author": "LackeyCCG Redemption",
   "tutorialUrl": "",
   "backgroundUrl": "",
-  "bannerUrl": "https://toybox.hundredacre.club/cards/redemption/_plugin/banner.jpg",
-  "logoUrl": "https://toybox.hundredacre.club/cards/redemption/_plugin/logo.jpg",
+  "bannerUrl": "/cards/redemption/_plugin/banner.jpg",
+  "logoUrl": "/cards/redemption/_plugin/logo.jpg",
   "loadPreBuiltOnNewGame": false
 }

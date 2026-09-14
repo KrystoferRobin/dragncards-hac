@@ -157,6 +157,6 @@
     }
   ],
   "touchBar": [],
-  "bannerUrl": "https://toybox.hundredacre.club/cards/star-wars-ccg/_plugin/banner.jpg",
-  "logoUrl": "https://toybox.hundredacre.club/cards/star-wars-ccg/_plugin/logo.jpg"
+  "bannerUrl": "/cards/star-wars-ccg/_plugin/banner.jpg",
+  "logoUrl": "/cards/star-wars-ccg/_plugin/logo.jpg"
 }

@@ -7,6 +7,6 @@
     "D = draw. Y = one day closer to Christmas. Locales and starting locales load to their rows."
   ],
   "loadPreBuiltOnNewGame": false,
-  "bannerUrl": "https://toybox.hundredacre.club/cards/nightmare-before-christmas/_plugin/banner2.jpg",
-  "logoUrl": "https://toybox.hundredacre.club/cards/nightmare-before-christmas/_plugin/logo2.jpg"
+  "bannerUrl": "/cards/nightmare-before-christmas/_plugin/banner2.jpg",
+  "logoUrl": "/cards/nightmare-before-christmas/_plugin/logo2.jpg"
 }

@@ -3,7 +3,7 @@
   "author": "LackeyCCG Anachronism",
   "tutorialUrl": "",
   "backgroundUrl": "",
-  "bannerUrl": "https://toybox.hundredacre.club/cards/anachronism/_plugin/banner.jpg",
-  "logoUrl": "https://toybox.hundredacre.club/cards/anachronism/_plugin/logo.jpg",
+  "bannerUrl": "/cards/anachronism/_plugin/banner.jpg",
+  "logoUrl": "/cards/anachronism/_plugin/logo.jpg",
   "loadPreBuiltOnNewGame": false
 }

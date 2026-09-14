@@ -24,6 +24,7 @@ sys.path.insert(0, str(ROOT / "scripts"))
 from image_names import (  # noqa: E402
     TOYBOX_PREFIX,
     card_rel_path,
+    clear_image_url_prefix,
     plugin_art_rel,
     stamp_lobby_art,
     toybox_url,
@@ -621,7 +622,7 @@ def write_plugin_jsons(cards: list[dict[str, str]], decks: dict, menu: dict) -> 
             ]
         },
     )
-    dump_json(jsons / "imageUrlPrefix.json", {"imageUrlPrefix": {"Default": TOYBOX_PREFIX}})
+    clear_image_url_prefix(jsons)
     dump_json(
         jsons / "cardBacks.json",
         {

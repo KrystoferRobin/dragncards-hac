@@ -7,6 +7,6 @@
     "D = draw plot. G = draw group. R = ready all. T = rotate. X = discard. 1 = action. 2–5 = white/blue/green/yellow links."
   ],
   "loadPreBuiltOnNewGame": false,
-  "bannerUrl": "https://toybox.hundredacre.club/cards/inwo/_plugin/banner.jpg",
-  "logoUrl": "https://toybox.hundredacre.club/cards/inwo/_plugin/logo.jpg"
+  "bannerUrl": "/cards/inwo/_plugin/banner.jpg",
+  "logoUrl": "/cards/inwo/_plugin/logo.jpg"
 }

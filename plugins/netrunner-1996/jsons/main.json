@@ -7,6 +7,6 @@
     "D = draw from R&D / Stack. B = Bits +1. One player Corp, one Runner — you keep the sides."
   ],
   "loadPreBuiltOnNewGame": false,
-  "bannerUrl": "https://toybox.hundredacre.club/cards/netrunner-1996/_plugin/banner2.jpg",
-  "logoUrl": "https://toybox.hundredacre.club/cards/netrunner-1996/_plugin/logo2.jpg"
+  "bannerUrl": "/cards/netrunner-1996/_plugin/banner2.jpg",
+  "logoUrl": "/cards/netrunner-1996/_plugin/logo2.jpg"
 }

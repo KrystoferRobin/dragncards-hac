@@ -314,7 +314,7 @@
       "numPlayers": 4
     }
   ],
-  "backgroundUrl": "https://toybox.hundredacre.club/cards/marvel-champions/_plugin/MarvelChampions-Background.jpg",
+  "backgroundUrl": "/cards/marvel-champions/_plugin/MarvelChampions-Background.jpg",
   "clearTableOptions": [
     {
       "actionList": [
@@ -396,49 +396,49 @@
       {
         "actionType": "token",
         "id": "incrementDamage",
-        "imageUrl": "https://toybox.hundredacre.club/cards/marvel-champions/_plugin/MarvelChampions-TokenDamage.svg",
+        "imageUrl": "/cards/marvel-champions/_plugin/MarvelChampions-TokenDamage.svg",
         "label": "",
         "tokenType": "damage"
       },
       {
         "actionType": "token",
         "id": "incrementThreat",
-        "imageUrl": "https://toybox.hundredacre.club/cards/marvel-champions/_plugin/MarvelChampions-TokenThreat.svg",
+        "imageUrl": "/cards/marvel-champions/_plugin/MarvelChampions-TokenThreat.svg",
         "label": "",
         "tokenType": "threat"
       },
       {
         "actionType": "token",
         "id": "incrementGeneric",
-        "imageUrl": "https://toybox.hundredacre.club/cards/marvel-champions/_plugin/MarvelChampions-TokenGeneric.svg",
+        "imageUrl": "/cards/marvel-champions/_plugin/MarvelChampions-TokenGeneric.svg",
         "label": "",
         "tokenType": "generic"
       },
       {
         "actionType": "token",
         "id": "incrementAcceleration",
-        "imageUrl": "https://toybox.hundredacre.club/cards/marvel-champions/_plugin/MarvelChampions-TokenAcceleration.svg",
+        "imageUrl": "/cards/marvel-champions/_plugin/MarvelChampions-TokenAcceleration.svg",
         "label": "",
         "tokenType": "acceleration"
       },
       {
         "actionType": "token",
         "id": "incrementConfused",
-        "imageUrl": "https://toybox.hundredacre.club/cards/marvel-champions/_plugin/MarvelChampions-TokenConfused.svg",
+        "imageUrl": "/cards/marvel-champions/_plugin/MarvelChampions-TokenConfused.svg",
         "label": "",
         "tokenType": "confused"
       },
       {
         "actionType": "token",
         "id": "incrementStunned",
-        "imageUrl": "https://toybox.hundredacre.club/cards/marvel-champions/_plugin/MarvelChampions-TokenStunned.svg",
+        "imageUrl": "/cards/marvel-champions/_plugin/MarvelChampions-TokenStunned.svg",
         "label": "",
         "tokenType": "stunned"
       },
       {
         "actionType": "token",
         "id": "incrementTough",
-        "imageUrl": "https://toybox.hundredacre.club/cards/marvel-champions/_plugin/MarvelChampions-TokenTough.svg",
+        "imageUrl": "/cards/marvel-champions/_plugin/MarvelChampions-TokenTough.svg",
         "label": "",
         "tokenType": "tough"
       },
@@ -596,6 +596,6 @@
       }
     ]
   ],
-  "bannerUrl": "https://toybox.hundredacre.club/cards/marvel-champions/_plugin/banner.jpg",
-  "logoUrl": "https://toybox.hundredacre.club/cards/marvel-champions/_plugin/logo.jpg"
+  "bannerUrl": "/cards/marvel-champions/_plugin/banner.jpg",
+  "logoUrl": "/cards/marvel-champions/_plugin/logo.jpg"
 }

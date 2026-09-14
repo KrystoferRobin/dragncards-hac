@@ -7,6 +7,6 @@
     "D = draw. R = ready all. I = rotate 180. X = discard. 1/2/3 = +10 / +30 / +100 damage. C = flip a coin."
   ],
   "loadPreBuiltOnNewGame": false,
-  "bannerUrl": "https://toybox.hundredacre.club/cards/sailor-moon-tcg/_plugin/banner2.jpg",
-  "logoUrl": "https://toybox.hundredacre.club/cards/sailor-moon-tcg/_plugin/logo2.jpg"
+  "bannerUrl": "/cards/sailor-moon-tcg/_plugin/banner2.jpg",
+  "logoUrl": "/cards/sailor-moon-tcg/_plugin/logo2.jpg"
 }

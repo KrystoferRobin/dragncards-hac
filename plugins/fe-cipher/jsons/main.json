@@ -7,6 +7,6 @@
     "D = draw. U = support. O = add orb. T = take orb. E = tap. K / R = untap. X = retreat. G = d6."
   ],
   "loadPreBuiltOnNewGame": false,
-  "bannerUrl": "https://toybox.hundredacre.club/cards/fe-cipher/_plugin/banner2.jpg",
-  "logoUrl": "https://toybox.hundredacre.club/cards/fe-cipher/_plugin/logo2.jpg"
+  "bannerUrl": "/cards/fe-cipher/_plugin/banner2.jpg",
+  "logoUrl": "/cards/fe-cipher/_plugin/logo2.jpg"
 }

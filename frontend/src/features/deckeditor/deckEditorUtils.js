@@ -1,3 +1,5 @@
+import { applyImageUrlPrefix } from "../engine/functions/common";
+
 export const makeLoadListItem = (databaseId, quantity, loadGroupId, cardName = null, authorId = null) => {
   const item = { databaseId, quantity, loadGroupId };
   if (cardName) item._name = cardName;
@@ -99,13 +101,8 @@ export const localizeLabel = (gameDef, language, label) => {
 
 export const resolveCardImageUrl = (gameDef, language, imageUrl) => {
   if (!imageUrl) return { src: null, fallback: null };
-  if (String(imageUrl).startsWith("http")) return { src: imageUrl, fallback: imageUrl };
-  const prefixDefault = gameDef?.imageUrlPrefix?.Default || "";
-  const prefixLang = language && gameDef?.imageUrlPrefix?.[language] ? gameDef.imageUrlPrefix[language] : "";
-  return {
-    src: prefixLang ? prefixLang + imageUrl : prefixDefault + imageUrl,
-    fallback: prefixDefault + imageUrl,
-  };
+  const resolved = applyImageUrlPrefix(imageUrl, gameDef, language);
+  return { src: resolved.src, fallback: resolved.default || resolved.src };
 };
 
 export const cardName = (cardDb, databaseId) =>

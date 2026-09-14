@@ -311,7 +311,7 @@
       "numPlayers": 2
     }
   ],
-  "backgroundUrl": "https://toybox.hundredacre.club/cards/earthborne-rangers/_plugin/EarthborneRangers-Background.jpg",
+  "backgroundUrl": "/cards/earthborne-rangers/_plugin/EarthborneRangers-Background.jpg",
   "clearTableOptions": [
     {
       "actionList": [
@@ -406,21 +406,21 @@
       {
         "actionType": "token",
         "id": "incrementProgress",
-        "imageUrl": "https://toybox.hundredacre.club/cards/earthborne-rangers/_plugin/EarthborneRangers-TokenProgress.png",
+        "imageUrl": "/cards/earthborne-rangers/_plugin/EarthborneRangers-TokenProgress.png",
         "label": "",
         "tokenType": "progress"
       },
       {
         "actionType": "token",
         "id": "incrementHarm",
-        "imageUrl": "https://toybox.hundredacre.club/cards/earthborne-rangers/_plugin/EarthborneRangers-TokenHarm.png",
+        "imageUrl": "/cards/earthborne-rangers/_plugin/EarthborneRangers-TokenHarm.png",
         "label": "",
         "tokenType": "harm"
       },
       {
         "actionType": "token",
         "id": "incrementGeneral",
-        "imageUrl": "https://toybox.hundredacre.club/cards/earthborne-rangers/_plugin/EarthborneRangers-TokenGeneral.png",
+        "imageUrl": "/cards/earthborne-rangers/_plugin/EarthborneRangers-TokenGeneral.png",
         "label": "",
         "tokenType": "general"
       },
@@ -433,28 +433,28 @@
       {
         "actionType": "token",
         "id": "incrementAwareness",
-        "imageUrl": "https://toybox.hundredacre.club/cards/earthborne-rangers/_plugin/EarthborneRangers-TokenAwareness2.png",
+        "imageUrl": "/cards/earthborne-rangers/_plugin/EarthborneRangers-TokenAwareness2.png",
         "label": "",
         "tokenType": "awareness"
       },
       {
         "actionType": "token",
         "id": "incrementSpirit",
-        "imageUrl": "https://toybox.hundredacre.club/cards/earthborne-rangers/_plugin/EarthborneRangers-TokenSpirit2.png",
+        "imageUrl": "/cards/earthborne-rangers/_plugin/EarthborneRangers-TokenSpirit2.png",
         "label": "",
         "tokenType": "spirit"
       },
       {
         "actionType": "token",
         "id": "incrementFitness",
-        "imageUrl": "https://toybox.hundredacre.club/cards/earthborne-rangers/_plugin/EarthborneRangers-TokenFitness2.png",
+        "imageUrl": "/cards/earthborne-rangers/_plugin/EarthborneRangers-TokenFitness2.png",
         "label": "",
         "tokenType": "fitness"
       },
       {
         "actionType": "token",
         "id": "incrementFocus",
-        "imageUrl": "https://toybox.hundredacre.club/cards/earthborne-rangers/_plugin/EarthborneRangers-TokenFocus2.png",
+        "imageUrl": "/cards/earthborne-rangers/_plugin/EarthborneRangers-TokenFocus2.png",
         "label": "",
         "tokenType": "focus"
       },
@@ -576,6 +576,6 @@
       }
     ]
   ],
-  "bannerUrl": "https://toybox.hundredacre.club/cards/earthborne-rangers/_plugin/banner.jpg",
-  "logoUrl": "https://toybox.hundredacre.club/cards/earthborne-rangers/_plugin/logo.jpg"
+  "bannerUrl": "/cards/earthborne-rangers/_plugin/banner.jpg",
+  "logoUrl": "/cards/earthborne-rangers/_plugin/logo.jpg"
 }

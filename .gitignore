@@ -58,6 +58,8 @@ plugins/live_dumps/
 .DS_Store
 **/.DS_Store
 **/.venv/
+**/__pycache__/
+*.pyc
 **/.env
 !.env.example
 !**/.env.example

@@ -7,7 +7,7 @@
     "Missions snap onto the shared spaceline (center row). Attach ships and personnel underneath a mission. D = draw. Y = probe. L = seed missions onto the line. 1/2/3 = yellow / countdown / black."
   ],
   "loadPreBuiltOnNewGame": false,
-  "backgroundUrl": "https://toybox.hundredacre.club/cards/star-trek-ccg-1e/_plugin/StarTrekCcg1e-Background.jpg",
-  "bannerUrl": "https://toybox.hundredacre.club/cards/star-trek-ccg-1e/_plugin/banner.jpg",
-  "logoUrl": "https://toybox.hundredacre.club/cards/star-trek-ccg-1e/_plugin/logo.jpg"
+  "backgroundUrl": "/cards/star-trek-ccg-1e/_plugin/StarTrekCcg1e-Background.jpg",
+  "bannerUrl": "/cards/star-trek-ccg-1e/_plugin/banner.jpg",
+  "logoUrl": "/cards/star-trek-ccg-1e/_plugin/logo.jpg"
 }

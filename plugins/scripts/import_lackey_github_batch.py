@@ -18,7 +18,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "scripts"))
-from image_names import TOYBOX_PREFIX, lobby_art_rel, stamp_lobby_art, toybox_url  # noqa: E402
+from image_names import TOYBOX_PREFIX, clear_image_url_prefix, lobby_art_rel, stamp_lobby_art, toybox_url  # noqa: E402
 from lackey_tabletop import (  # noqa: E402
     copy_plugin_art,
     dump_json,
@@ -1339,7 +1339,7 @@ def write_plugin_jsons(game: dict, cards: list[dict[str, str]], decks: dict, men
         "loadPreBuiltOnNewGame": False,
     })
     stamp_lobby_art(jsons, folder)
-    dump_json(jsons / "imageUrlPrefix.json", {"imageUrlPrefix": {"Default": TOYBOX_PREFIX}})
+    clear_image_url_prefix(jsons)
     dump_json(jsons / "cardBacks.json", {"cardBacks": {
         key: {"width": 0.72, "height": 1.0, "imageUrl": rel}
         for key, rel in backs.items()

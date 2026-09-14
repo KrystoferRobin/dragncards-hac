@@ -21,7 +21,7 @@ ROOT = Path(__file__).resolve().parents[1]
 import sys
 
 sys.path.insert(0, str(ROOT / "scripts"))
-from image_names import TOYBOX_PREFIX, plugin_art_rel, stamp_lobby_art, toybox_url  # noqa: E402
+from image_names import TOYBOX_PREFIX, clear_image_url_prefix, plugin_art_rel, stamp_lobby_art, toybox_url  # noqa: E402
 
 LACKEY = Path("/Applications/LackeyCCG/plugins/startrek1e")
 OUT = ROOT / "star-trek-ccg-1e"
@@ -693,7 +693,7 @@ def write_plugin_jsons(cards: list[dict[str, str]], decks: dict, menu: dict) -> 
             ]
         },
     )
-    dump_json(jsons / "imageUrlPrefix.json", {"imageUrlPrefix": {"Default": TOYBOX_PREFIX}})
+    clear_image_url_prefix(jsons)
     dump_json(
         jsons / "cardBacks.json",
         {

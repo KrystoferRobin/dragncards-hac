@@ -18,7 +18,7 @@
       "numPlayers": 2
     }
   ],
-  "backgroundUrl": "https://toybox.hundredacre.club/cards/star-wars-deckbuilding-game/_plugin/StarWarsDeckbuildingGame-Background.jpg",
+  "backgroundUrl": "/cards/star-wars-deckbuilding-game/_plugin/StarWarsDeckbuildingGame-Background.jpg",
   "clearTableOptions": [
     {
       "actionList": [
@@ -86,6 +86,6 @@
     [],
     []
   ],
-  "bannerUrl": "https://toybox.hundredacre.club/cards/star-wars-deckbuilding-game/_plugin/banner.jpg",
-  "logoUrl": "https://toybox.hundredacre.club/cards/star-wars-deckbuilding-game/_plugin/logo.jpg"
+  "bannerUrl": "/cards/star-wars-deckbuilding-game/_plugin/banner.jpg",
+  "logoUrl": "/cards/star-wars-deckbuilding-game/_plugin/logo.jpg"
 }

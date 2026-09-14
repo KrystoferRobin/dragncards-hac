@@ -4,7 +4,7 @@ Dumb (no rules enforcement) 1v1 table plugin converted from the LackeyCCG **MyLi
 
 `pluginName` is **My Little Pony**. Card images are hosted on toybox after `collect_hosted_images.py` rewrites the Dropbox URLs. Relative TSV / card-back paths plus `imageUrlPrefix` resolve to:
 
-`https://toybox.hundredacre.club/cards/my-little-pony/{set}/{Game}-{Set}-{Cardname}.ext`
+`/cards/my-little-pony/{set}/{Game}-{Set}-{Cardname}.ext`
 
 See [../README.md](../README.md) for the `/cards/` convention.
 

@@ -7,6 +7,6 @@
     "D = draw. R = ready all. V = War Experience +1."
   ],
   "loadPreBuiltOnNewGame": false,
-  "bannerUrl": "https://toybox.hundredacre.club/cards/gundam-ms-war-ccg/_plugin/banner2.jpg",
-  "logoUrl": "https://toybox.hundredacre.club/cards/gundam-ms-war-ccg/_plugin/logo2.jpg"
+  "bannerUrl": "/cards/gundam-ms-war-ccg/_plugin/banner2.jpg",
+  "logoUrl": "/cards/gundam-ms-war-ccg/_plugin/logo2.jpg"
 }

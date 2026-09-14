@@ -70,8 +70,8 @@ services:
       - DANGEROUSLY_DISABLE_HOST_CHECK=true
       - WDS_SOCKET_PORT=0
   # Card art is served by host nginx (toybox /cards/), not this stack.
-  # Drop files in ${DRAGNCARDS_DATA}/images/ then set the plugin's
-  # imageUrlPrefix to https://toybox.hundredacre.club/cards/
+  # Drop files in ${DRAGNCARDS_DATA}/images/. Plugin imageUrls stay relative;
+  # the frontend prefixes /cards/.
 
 volumes:
   pgdata:

@@ -1,12 +1,9 @@
 #!/usr/bin/env python3
-"""Download hosted plugin art into images/{game}/{set}/Game-Set-Cardname and retarget plugins at toybox.
+"""Download hosted plugin art into images/{game}/{set}/Game-Set-Cardname and retarget plugins.
 
-Resolved card URLs are prefix + relative path:
-
-  https://toybox.hundredacre.club/cards/{game}/{set}/{Game}-{Set}-{Cardname}.ext
-
-TSV / cardBack imageUrl values stay {game}/... (no cards/ in the relative path).
-Pass --retarget to rewrite already-collected plugins without downloading.
+Resolved card URLs are /cards/ + relative path. TSV / cardBack imageUrl values
+stay {game}/... (no cards/ in the relative path). Pass --retarget to rewrite
+already-collected plugins without downloading.
 """
 
 from __future__ import annotations
@@ -30,6 +27,7 @@ from image_names import (  # noqa: E402
     TOYBOX_PREFIX,
     apply_lobby_art,
     card_rel_path,
+    clear_image_url_prefix,
     ext_from_url,
     folder_slug,
     pascal,
@@ -301,6 +299,8 @@ def is_remote_source(url: str) -> bool:
     url = ensure_https(url)
     if not url.startswith(("http://", "https://")):
         return False
+    if url.startswith("/"):
+        return False
     if "toybox.hundredacre.club" in url:
         return False
     if "dragncards-core.s3" in url and not _allow_s3:
@@ -314,21 +314,24 @@ def resolve_card_url(url: str, prefix: str) -> str:
     if not url:
         return ""
     url = ensure_https(url) if url.startswith(("http://", "https://", "//")) else url
-    if url.startswith(("http://", "https://")):
+    if url.startswith(("http://", "https://", "/")):
         return url
     prefix = (prefix or "").strip()
     if not prefix:
         return url
-    return ensure_https(prefix.rstrip("/") + "/" + url.lstrip("/"))
+    joined = prefix.rstrip("/") + "/" + url.lstrip("/")
+    if joined.startswith("/"):
+        return joined
+    return ensure_https(joined)
 
 
 def plugin_image_prefix(plugin_dir: Path) -> str:
     path = plugin_dir / "jsons" / "imageUrlPrefix.json"
     if not path.exists():
-        return ""
+        return "/cards/"
     payload = load_json(path)
     prefixes = payload.get("imageUrlPrefix") or {}
-    return (prefixes.get("Default") or prefixes.get("English") or "").strip()
+    return (prefixes.get("Default") or prefixes.get("English") or "/cards/").strip()
 
 
 SKIP_ROOT_DIRS = {"scripts", "images", "uploaded", "live_dumps"}
@@ -426,29 +429,37 @@ def dump_json(path: Path, payload: dict) -> None:
 def rewrite_json_image_urls(obj: object) -> bool:
     changed = False
     if isinstance(obj, dict):
-        for key, value in obj.items():
-            if key in {"imageUrl", "backgroundUrl", "bannerUrl", "logoUrl"} and isinstance(value, str):
-                rewritten = rewrite_toybox_url(value)
+        for key, value in list(obj.items()):
+            if isinstance(value, str):
+                rewritten = value.replace("https://toybox.hundredacre.club/cards/", "/cards/")
+                rewritten = rewritten.replace("http://toybox.hundredacre.club/cards/", "/cards/")
+                rewritten = rewrite_toybox_url(rewritten) if key in {
+                    "imageUrl", "backgroundUrl", "bannerUrl", "logoUrl", "zoomImageUrl", "imageUrlHq"
+                } else rewritten
                 if rewritten != value:
                     obj[key] = rewritten
                     changed = True
             elif rewrite_json_image_urls(value):
                 changed = True
     elif isinstance(obj, list):
-        for item in obj:
-            if rewrite_json_image_urls(item):
+        for i, item in enumerate(obj):
+            if isinstance(item, str):
+                rewritten = item.replace("https://toybox.hundredacre.club/cards/", "/cards/")
+                rewritten = rewritten.replace("http://toybox.hundredacre.club/cards/", "/cards/")
+                if rewritten != item:
+                    obj[i] = rewritten
+                    changed = True
+            elif rewrite_json_image_urls(item):
                 changed = True
     return changed
 
 
 def retarget_plugin(plugin_dir: Path, folder: str | None = None, tsv_name: str = "cards.tsv", prefix_languages: list[str] | None = None) -> None:
-    """Point a collected plugin at https://toybox.hundredacre.club/cards/."""
+    """Point a collected plugin at same-origin /cards/ paths (no host prefix file)."""
+    del prefix_languages  # language-specific hosts used to be copied; art is same-origin now
     jsons = plugin_dir / "jsons"
     jsons.mkdir(parents=True, exist_ok=True)
-    prefixes = {"Default": TOYBOX_PREFIX}
-    for lang in prefix_languages or []:
-        prefixes[lang] = TOYBOX_PREFIX
-    dump_json(jsons / "imageUrlPrefix.json", {"imageUrlPrefix": prefixes})
+    clear_image_url_prefix(jsons)
     if folder:
         main_path = jsons / "main.json"
         if main_path.exists():

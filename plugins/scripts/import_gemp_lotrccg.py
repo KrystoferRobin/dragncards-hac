@@ -17,6 +17,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 from import_gemp_prebuilts import write_lotr_prebuilts
+from image_names import clear_image_url_prefix
 
 ROOT = Path(__file__).resolve().parents[1]
 GEMP = ROOT / "lotrccg-gemp-conversion" / "gemp-lotr-master" / "gemp-lotr"
@@ -623,10 +624,7 @@ def write_plugin_jsons() -> None:
             }
         },
     )
-    dump_json(
-        jsons / "imageUrlPrefix.json",
-        {"imageUrlPrefix": {"Default": "https://toybox.hundredacre.club/cards/"}},
-    )
+    clear_image_url_prefix(jsons)
     dump_json(
         jsons / "main.json",
         {

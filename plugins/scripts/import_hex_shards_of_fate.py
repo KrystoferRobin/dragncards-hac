@@ -36,7 +36,7 @@ from hex_catalog import (  # noqa: E402
 from hex_compose import compose_back, compose_lobby  # noqa: E402
 from hex_mse_style import stamp_jobs  # noqa: E402
 from hex_rules import load_keywords, reminder_glossary, rules_cards, write_rules_md  # noqa: E402
-from image_names import TOYBOX_PREFIX, card_rel_path, stamp_lobby_art, toybox_url  # noqa: E402
+from image_names import TOYBOX_PREFIX, clear_image_url_prefix, card_rel_path, stamp_lobby_art, toybox_url  # noqa: E402
 from lackey_tabletop import (  # noqa: E402
     dump_json,
     group_types,
@@ -144,7 +144,7 @@ def write_plugin_jsons(
         },
     )
     stamp_lobby_art(jsons, FOLDER)
-    dump_json(jsons / "imageUrlPrefix.json", {"imageUrlPrefix": {"Default": TOYBOX_PREFIX}})
+    clear_image_url_prefix(jsons)
     dump_json(
         jsons / "cardBacks.json",
         {"cardBacks": {key: {"width": 0.72, "height": 1.0, "imageUrl": rel} for key, rel in backs.items()}},

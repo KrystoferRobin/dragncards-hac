@@ -2,12 +2,12 @@
   "topBarCounters": {
     "player": [
       {
-        "imageUrl": "https://toybox.hundredacre.club/cards/star-wars-deckbuilding-game/_plugin/StarWarsDeckbuildingGame-TokenResource.png",
+        "imageUrl": "/cards/star-wars-deckbuilding-game/_plugin/StarWarsDeckbuildingGame-TokenResource.png",
         "label": "Resources",
         "playerProperty": "resources"
       },
       {
-        "imageUrl": "https://toybox.hundredacre.club/cards/star-wars-deckbuilding-game/_plugin/StarWarsDeckbuildingGame-TokenBaseicon.png",
+        "imageUrl": "/cards/star-wars-deckbuilding-game/_plugin/StarWarsDeckbuildingGame-TokenBaseicon.png",
         "label": "Score",
         "playerProperty": "score"
       }
@@ -15,7 +15,7 @@
     "shared": [
       {
         "gameProperty": "roundNumber",
-        "imageUrl": "https://toybox.hundredacre.club/cards/star-wars-deckbuilding-game/_plugin/StarWarsDeckbuildingGame-TokenRound.png",
+        "imageUrl": "/cards/star-wars-deckbuilding-game/_plugin/StarWarsDeckbuildingGame-TokenRound.png",
         "label": "id:round"
       }
     ]

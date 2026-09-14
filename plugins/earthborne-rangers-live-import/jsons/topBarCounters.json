@@ -2,7 +2,7 @@
   "topBarCounters": {
     "player": [
       {
-        "imageUrl": "https://toybox.hundredacre.club/cards/earthborne-rangers/_plugin/EarthborneRangers-TokenRebalanced.png",
+        "imageUrl": "/cards/earthborne-rangers/_plugin/EarthborneRangers-TokenRebalanced.png",
         "label": "id:rebalanced",
         "playerProperty": "rebalanced"
       }
@@ -10,7 +10,7 @@
     "shared": [
       {
         "gameProperty": "roundNumber",
-        "imageUrl": "https://toybox.hundredacre.club/cards/earthborne-rangers/_plugin/EarthborneRangers-TokenRound.png",
+        "imageUrl": "/cards/earthborne-rangers/_plugin/EarthborneRangers-TokenRound.png",
         "label": "id:round"
       }
     ]

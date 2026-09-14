@@ -18,6 +18,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 from import_gemp_prebuilts import write_swccg_prebuilts
+from image_names import clear_image_url_prefix
 
 ROOT = Path(__file__).resolve().parents[1]
 GEMP = ROOT / "star-wars-decipher" / "gemp-swccg"
@@ -440,7 +441,7 @@ def customize_copied_jsons() -> None:
         },
     )
 
-    dump_json(jsons / "imageUrlPrefix.json", {"imageUrlPrefix": {"Default": "https://toybox.hundredacre.club/cards/"}})
+    clear_image_url_prefix(jsons)
 
     menu = load_json(jsons / "cardMenu.json")
     menu["cardMenu"]["options"] = [

@@ -7,6 +7,6 @@
     "D = draw. R = ready all. L / H = Level / HP +1. P = feed pet (top of deck facedown)."
   ],
   "loadPreBuiltOnNewGame": false,
-  "bannerUrl": "https://toybox.hundredacre.club/cards/maple-story/_plugin/banner2.jpg",
-  "logoUrl": "https://toybox.hundredacre.club/cards/maple-story/_plugin/logo2.jpg"
+  "bannerUrl": "/cards/maple-story/_plugin/banner2.jpg",
+  "logoUrl": "/cards/maple-story/_plugin/logo2.jpg"
 }

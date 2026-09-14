@@ -7,7 +7,7 @@
     "D draw. R ready all. S shuffle. E exert. U ready. X discard. Drop units onto quests. Power / Light / Shadow live in the top bar."
   ],
   "loadPreBuiltOnNewGame": false,
-  "backgroundUrl": "https://toybox.hundredacre.club/cards/legends-of-norrath/_plugin/LegendsOfNorrath-Background.jpg",
-  "bannerUrl": "https://toybox.hundredacre.club/cards/legends-of-norrath/_plugin/banner2.jpg",
-  "logoUrl": "https://toybox.hundredacre.club/cards/legends-of-norrath/_plugin/logo2.jpg"
+  "backgroundUrl": "/cards/legends-of-norrath/_plugin/LegendsOfNorrath-Background.jpg",
+  "bannerUrl": "/cards/legends-of-norrath/_plugin/banner2.jpg",
+  "logoUrl": "/cards/legends-of-norrath/_plugin/logo2.jpg"
 }

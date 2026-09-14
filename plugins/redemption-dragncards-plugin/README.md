@@ -4,7 +4,7 @@ Dumb (no rules enforcement) table plugin converted from the LackeyCCG Redemption
 
 After `collect_hosted_images.py`, card images resolve from:
 
-`https://toybox.hundredacre.club/cards/redemption/{set}/{Game}-{Set}-{Cardname}.ext`
+`/cards/redemption/{set}/{Game}-{Set}-{Cardname}.ext`
 
 See [../README.md](../README.md) for the `/cards/` convention.
 
