@@ -301,7 +301,7 @@ def is_remote_source(url: str) -> bool:
         return False
     if url.startswith("/"):
         return False
-    if "toybox.hundredacre.club" in url:
+    if rewrite_toybox_url(url).startswith("/"):
         return False
     if "dragncards-core.s3" in url and not _allow_s3:
         return False
@@ -431,11 +431,7 @@ def rewrite_json_image_urls(obj: object) -> bool:
     if isinstance(obj, dict):
         for key, value in list(obj.items()):
             if isinstance(value, str):
-                rewritten = value.replace("https://toybox.hundredacre.club/cards/", "/cards/")
-                rewritten = rewritten.replace("http://toybox.hundredacre.club/cards/", "/cards/")
-                rewritten = rewrite_toybox_url(rewritten) if key in {
-                    "imageUrl", "backgroundUrl", "bannerUrl", "logoUrl", "zoomImageUrl", "imageUrlHq"
-                } else rewritten
+                rewritten = rewrite_toybox_url(value)
                 if rewritten != value:
                     obj[key] = rewritten
                     changed = True
@@ -444,8 +440,7 @@ def rewrite_json_image_urls(obj: object) -> bool:
     elif isinstance(obj, list):
         for i, item in enumerate(obj):
             if isinstance(item, str):
-                rewritten = item.replace("https://toybox.hundredacre.club/cards/", "/cards/")
-                rewritten = rewritten.replace("http://toybox.hundredacre.club/cards/", "/cards/")
+                rewritten = rewrite_toybox_url(item)
                 if rewritten != item:
                     obj[i] = rewritten
                     changed = True

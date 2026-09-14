@@ -133,7 +133,7 @@ def write_plugin_jsons(
         jsons / "main.json",
         {
             "pluginName": "HEX: Shards of Fate",
-            "author": "Hundred Acre Club / Cryptozoic",
+            "author": "Toybox / Cryptozoic",
             "tutorialUrl": "",
             "announcements": [
                 "HEX: Shards of Fate, final client 1.1.0.086. Faces stamped from client chrome + portraits. Shortcuts only.",
@@ -519,7 +519,7 @@ def stamp_plugin_cards(
     *,
     workers: int,
 ) -> int:
-    """Write MSE-chrome JPEGs onto the existing toybox-relative paths."""
+    """Write MSE-chrome JPEGs onto the existing Toybox-relative paths."""
     used: dict[str, int] = {}
     jobs: list[tuple[dict[str, str], str, str | None]] = []
     urls: list[str] = []

@@ -3,7 +3,7 @@
   "author": "OCTGN / Db0, trimm · images from dtdb.co",
   "tutorialUrl": "https://dtdb.co",
   "announcements": [
-    "Tabletop plugin from OCTGN Doomtown Reloaded. Faces collected once from dtdb.co onto toybox — the site is not hotlinked.",
+    "Tabletop plugin from OCTGN Doomtown Reloaded. Faces collected once from dtdb.co onto Toybox — the site is not hotlinked.",
     "D = draw to Play Hand. P = pull to Draw Hand. Outfits and Legends load to their rows. No rules engine."
   ],
   "loadPreBuiltOnNewGame": false,

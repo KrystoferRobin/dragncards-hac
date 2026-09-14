@@ -50,7 +50,7 @@ plugins/hex-shards-of-fate/.venv/bin/python plugins/scripts/import_hex_shards_of
 ```
 
 That overwrites `plugins/images/hex-shards-of-fate/{set}/*.jpg` in place. DragnCards
-keeps the same TSV `imageUrl`s; live table needs those files rsynced to toybox.
+keeps the same TSV `imageUrl`s; live table needs those files rsynced to Toybox.
 
 ## Rebuild
 

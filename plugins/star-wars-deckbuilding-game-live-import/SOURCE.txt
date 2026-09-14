@@ -6,7 +6,7 @@ Official version: 53
 repo_url:
 
 This is a compiled snapshot (merged game_def + card_db), not original source files.
-Collected 2026-09-12: card art, backs, tokens, and top-bar icons retargeted to toybox.
+Collected 2026-09-12: card art, backs, tokens, and top-bar icons retargeted to Toybox.
 The official force-tracker card back URL 403s; used the Force Tracker card art instead.
 Drop banner.jpg and logo.jpg into images/star-wars-deckbuilding-game/_plugin/ before Load Game Definition.
 Art lives under images/star-wars-deckbuilding-game/{core_set,clone_wars,mandalorian,other}/.

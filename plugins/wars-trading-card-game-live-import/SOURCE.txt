@@ -6,4 +6,4 @@ Official version: 174
 repo_url: https://github.com/warstcgpc/dragncards-warstcg-plugin
 
 This is a compiled snapshot (merged game_def + card_db), not original source files.
-Run collect_hosted_images.py --allow-s3 on this folder so art lives on toybox.
+Run collect_hosted_images.py --allow-s3 on this folder so art lives on Toybox.

@@ -1,6 +1,6 @@
 Built 2026-09-12 19:47 UTC from OCTGN Doomtown Reloaded + dtdb.co.
-Source: /Volumes/Expand/ai-projects/hundredacreclub/tcg-engines/dragncards-main/plugins/octgn/doomtown-reloaded-NO-IMAGES
-Art: https://dtdb.co/api/cards → /images/cards/en/{code}.jpg (collected onto toybox, not hotlinked).
+Source: tcg-engines/dragncards-main/plugins/octgn/doomtown-reloaded-NO-IMAGES
+Art: https://dtdb.co/api/cards → /images/cards/en/{code}.jpg (collected onto Toybox, not hotlinked).
 Author credit: OCTGN / Db0, trimm. Image host: DoomtownDB (dtdb.co).
 
 Tabletop plugin only — OCTGN scripts were not ported.

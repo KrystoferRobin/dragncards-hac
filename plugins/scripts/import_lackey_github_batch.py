@@ -1562,7 +1562,7 @@ def write_plugin_art(game: dict, lackey: Path) -> dict[str, str]:
         try:
             req = urllib.request.Request(
                 remote,
-                headers={"User-Agent": "HundredAcreClub/1.0 (private tabletop image collect; +https://hundredacre.club)"},
+                headers={"User-Agent": "Toybox/1.0 (private tabletop image collect)"},
             )
             dest.write_bytes(urllib.request.urlopen(req, timeout=45).read())
             fallback = str(dest)
@@ -1576,7 +1576,7 @@ def write_plugin_art(game: dict, lackey: Path) -> dict[str, str]:
         try:
             req = urllib.request.Request(
                 remote,
-                headers={"User-Agent": "HundredAcreClub/1.0 (private tabletop image collect; +https://hundredacre.club)"},
+                headers={"User-Agent": "Toybox/1.0 (private tabletop image collect)"},
             )
             dest.write_bytes(urllib.request.urlopen(req, timeout=45).read())
             backs[key] = copy_plugin_art(dest, IMAGES, game["folder"], game["pascal"], f"cardback-{key}")

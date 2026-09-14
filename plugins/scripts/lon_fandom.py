@@ -11,7 +11,7 @@ from collections import Counter
 from pathlib import Path
 
 API = "https://lon.fandom.com/api.php"
-UA = "HundredAcreClub-LoN/1.0 (private kitchen-table plugin; +https://lon.fandom.com)"
+UA = "Toybox-LoN/1.0 (private kitchen-table plugin; +https://lon.fandom.com)"
 SKIP_NAME = re.compile(r"(icon|inline|oathbound|forsworn|logo|template|wiki)", re.I)
 SET_ALIASES = {
     "oathbound": "Oathbound",

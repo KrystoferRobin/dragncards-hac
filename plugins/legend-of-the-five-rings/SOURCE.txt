@@ -1,5 +1,5 @@
 Built 2026-09-13 16:53 UTC from Twenty Festivals / Emerald SnM XML, Oracle of the Void, and L5R DB.
-Official XML: /Volumes/Expand/ai-projects/hundredacreclub/tcg-engines/dragncards-main/plugins/LegendOfTheFiveRings/Twenty Festivals Arc (Full)/database.xml
+Official XML: tcg-engines/dragncards-main/plugins/LegendOfTheFiveRings/Twenty Festivals Arc (Full)/database.xml
 Art: largest same-card local file (Master when present), then Oracle master for weak/missing scans.
 Playmats / lobby: Sun and Moon clan backgrounds. Card back: Lackey L5R HQ.
 Community Onyx / Shattered Empire / Chaos Reigns sets included. Tabletop only — no rules engine.

@@ -1130,7 +1130,7 @@ def main() -> int:
             [
                 f"Built {datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M UTC')} from LackeyCCG CoC_LCG.",
                 f"Source: {LACKEY}",
-                "Art: GitHub Tragic-zz/lackey-CoCLCG raw cards/ (localized to toybox).",
+                "Art: GitHub Tragic-zz/lackey-CoCLCG raw cards/ (localized to Toybox).",
                 "Author credit: Lackey / Tragic-zz",
                 "",
                 "Tabletop plugin only — Lackey has no rules engine to port.",

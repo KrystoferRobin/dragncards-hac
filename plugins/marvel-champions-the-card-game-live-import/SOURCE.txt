@@ -6,6 +6,6 @@ Official version: 241
 repo_url:
 
 This is a compiled snapshot (merged game_def + card_db), not original source files.
-Collected 2026-09-12: card art, backs, SVG tokens, and top-bar icons retargeted to toybox.
+Collected 2026-09-12: card art, backs, SVG tokens, and top-bar icons retargeted to Toybox.
 Drop banner.jpg and logo.jpg into images/marvel-champions/_plugin/ before Load Game Definition.
 Art lives under images/marvel-champions/ (hero/villain set folders; empty-set cards under official/).

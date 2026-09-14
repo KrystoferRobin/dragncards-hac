@@ -50,7 +50,7 @@ PLACEHOLDER_REL = f"{FOLDER}/missing/{PASCAL}-Missing-NoArt.png"
 ORACLE_FETCH = "https://api.oracleofthevoid.com/oracle-fetch?table=l5r&cardid={id}"
 ORACLE_IMAGE = "https://images.oracleofthevoid.com/l5r/{hash}/printing_{cardid}_{printingid}_{size}.jpg"
 LACKEY_BACK = "https://lackeyccg.com/l5r/high/cardback.jpg"
-USER_AGENT = "HundredAcreClub/1.0 (private tabletop image collect; +https://hundredacre.club)"
+USER_AGENT = "Toybox/1.0 (private tabletop image collect)"
 ORACLE_MAX_ID = 16000
 ORACLE_WORKERS = 10
 # Pack scans / Oracle "details" below this lose to a same-card Master or Oracle master.

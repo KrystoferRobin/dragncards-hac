@@ -1,5 +1,5 @@
 Built 2026-09-12 19:12 UTC from OCTGN doomtown.
-Source: /Volumes/Expand/ai-projects/hundredacreclub/tcg-engines/dragncards-main/plugins/octgn/doomtown
+Source: tcg-engines/dragncards-main/plugins/octgn/doomtown
 Art: extracted Sets/ plus Sets/*/Cards
 Author credit: OCTGN / Db0, jbeast
 

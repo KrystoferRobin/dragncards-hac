@@ -12,12 +12,15 @@ module.exports = function (app) {
     })
   );
   // Same-origin /cards/ paths in plugins. Local webpack has no nginx, so
-  // borrow toybox (or REACT_APP_CARDS_ORIGIN) for art.
-  app.use(
-    "/cards",
-    createProxyMiddleware({
-      target: process.env.REACT_APP_CARDS_ORIGIN || "https://toybox.hundredacre.club",
-      changeOrigin: true,
-    })
-  );
+  // optionally proxy to a host that already serves /cards/.
+  const cardsOrigin = process.env.REACT_APP_CARDS_ORIGIN;
+  if (cardsOrigin) {
+    app.use(
+      "/cards",
+      createProxyMiddleware({
+        target: cardsOrigin,
+        changeOrigin: true,
+      })
+    );
+  }
 };

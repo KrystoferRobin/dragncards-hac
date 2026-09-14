@@ -2,7 +2,7 @@
 
 Dumb (no rules enforcement) 1v1 table plugin converted from the OCTGN **7th Sea** game definition.
 
-The lobby name is **7th Sea**. Card images are served from the toybox default image host:
+The lobby name is **7th Sea**. Card images are served from the Toybox `/cards/` prefix:
 
 `/cards/7th-sea/{set}/{Game}-{Set}-{Cardname}.ext`
 
@@ -12,10 +12,10 @@ See [../README.md](../README.md) for the `/cards/` convention.
 
 - `jsons/` — game definition
 - `tsvs/cards.tsv` — 1,677 cards (OCTGN GUIDs kept as `databaseId`)
-- `../images/7th-sea/` — renamed/reorganized art ready to copy onto toybox
+- `../images/7th-sea/` — renamed/reorganized art ready to copy onto Toybox
 - `scripts/convert_octgn.py` — regenerates TSV, groups, layouts, and the image tree
 
-## Upload images to toybox
+## Upload images to Toybox
 
 Copy the whole `images/` tree onto the Apache/httpd docroot used by DragnCards (compose default is `./images` → `/usr/local/apache2/htdocs`):
 

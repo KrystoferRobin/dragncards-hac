@@ -1,5 +1,5 @@
 Built 2026-09-12 19:10 UTC from OCTGN netrunner.
-Source: /Volumes/Expand/ai-projects/hundredacreclub/tcg-engines/dragncards-main/plugins/octgn/netrunner
+Source: tcg-engines/dragncards-main/plugins/octgn/netrunner
 Art: extracted Sets/ plus netrunner-1996_image_pack.o8c
 Author credit: OCTGN / Db0, toon
 

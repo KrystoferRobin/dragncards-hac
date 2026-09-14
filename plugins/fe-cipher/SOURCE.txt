@@ -1,6 +1,6 @@
 Built 2026-09-12 20:36 UTC from LackeyCCG FECipher0.
 Source: /Users/krystoferrobin/Downloads/lackeyplugins/FECipher0
-Art: Dropbox CardImageURLs from the FECipher0 Lackey plugin (collected onto toybox, not hotlinked).
+Art: Dropbox CardImageURLs from the FECipher0 Lackey plugin (collected onto Toybox, not hotlinked).
 Author credit: Lackey / retrop
 
 Tabletop plugin only — Lackey has no rules engine to port.

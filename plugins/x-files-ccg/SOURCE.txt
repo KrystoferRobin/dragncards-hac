@@ -1,5 +1,5 @@
 Built 2026-09-12 19:10 UTC from OCTGN x-files.
-Source: /Volumes/Expand/ai-projects/hundredacreclub/tcg-engines/dragncards-main/plugins/octgn/x-files
+Source: tcg-engines/dragncards-main/plugins/octgn/x-files
 Art: x-files-ccg_image_pack.o8c
 Author credit: OCTGN / StormyWaters2021
 

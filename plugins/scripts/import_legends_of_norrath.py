@@ -144,7 +144,7 @@ def write_plugin_jsons(cards: list[dict[str, str]], decks: dict, menu: dict, bac
         jsons / "main.json",
         {
             "pluginName": "Legends of Norrath",
-            "author": "Hundred Acre Club / Sony Online Entertainment",
+            "author": "Toybox / Sony Online Entertainment",
             "tutorialUrl": "",
             "announcements": [
                 "SOE Legends of Norrath (the EQ CCG), May 2013 client through Debt of the Ratonga. Faces are composited from the client's frames + portraits + text. Shortcuts only. Drakkinshard is not in this dump.",

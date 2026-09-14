@@ -315,7 +315,7 @@ export const pluginSaveErrorMessage = (err, fallback) => {
   if (status === 401) return "You are not signed in. Please sign in and try again.";
   if (status === 403) return "You are not the author of this plugin, so you cannot edit it.";
   if (status === 413) {
-    return "Card database is too large for the server to accept in one request. Try again after the toybox upload limit is raised, or upload fewer TSV files.";
+    return "Card database is too large for the server to accept in one request. Try again after the Toybox upload limit is raised, or upload fewer TSV files.";
   }
   const serverMessage = err?.response?.data?.error?.message || err?.response?.data?.error;
   if (typeof serverMessage === "string") return serverMessage;

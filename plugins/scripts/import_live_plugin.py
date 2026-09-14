@@ -206,7 +206,7 @@ def write_source(path: Path, dump: dict, dump_path: Path) -> None:
         f"repo_url: {dump.get('repo_url') or ''}",
         "",
         "This is a compiled snapshot (merged game_def + card_db), not original source files.",
-        "Run collect_hosted_images.py --allow-s3 on this folder so art lives on toybox.",
+        "Run collect_hosted_images.py --allow-s3 on this folder so art lives on Toybox.",
         "",
     ]
     path.write_text("\n".join(lines), encoding="utf-8")
@@ -276,7 +276,7 @@ def main() -> int:
     print()
     print("Next:")
     print(f"  python plugins/scripts/collect_hosted_images.py --allow-s3 {out.name}")
-    print("Then rsync images/{game}/ to toybox and Load Game Definition + Upload card database.")
+    print("Then rsync images/{game}/ to Toybox and Load Game Definition + Upload card database.")
     return 0
 
 

@@ -7,5 +7,5 @@ Author credit: GEMP / lotrtcgpc.net
 Tabletop plugin only — GEMP's Java rules engine is not ported.
 TSV rows: 3964  cards missing a constructed image URL: 0
 Drop banner.jpg and logo.jpg into images/lord-of-the-rings-ccg/_plugin/.
-Collected 2026-09-11: card art + back retargeted to toybox.
+Collected 2026-09-11: card art + back retargeted to Toybox.
 Prebuilts: 52 GEMP starter packs (draw deck + adventure deck sites).

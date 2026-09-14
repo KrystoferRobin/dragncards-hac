@@ -15,7 +15,7 @@ import urllib.parse
 import urllib.request
 from pathlib import Path
 
-USER_AGENT = "HundredAcreClub/1.0 (private tabletop collect; +https://hundredacre.club)"
+USER_AGENT = "Toybox/1.0 (private tabletop collect)"
 L5RDB_ORIGIN = "https://l5rdb.vercel.app"
 PAGE = 1000
 

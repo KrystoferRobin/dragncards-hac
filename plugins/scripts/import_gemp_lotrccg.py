@@ -17,7 +17,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 from import_gemp_prebuilts import write_lotr_prebuilts
-from image_names import clear_image_url_prefix
+from image_names import clear_image_url_prefix, toybox_url
 
 ROOT = Path(__file__).resolve().parents[1]
 GEMP = ROOT / "lotrccg-gemp-conversion" / "gemp-lotr-master" / "gemp-lotr"
@@ -654,8 +654,8 @@ def write_plugin_jsons() -> None:
             "tutorialUrl": "https://wiki.lotrtcgpc.net/",
             "phaseOrder": ["Fellowship", "Shadow", "Maneuver", "Archery", "Assignment", "Skirmish", "Regroup"],
             "touchBar": [],
-            "bannerUrl": "https://toybox.hundredacre.club/cards/lord-of-the-rings-ccg/_plugin/banner.jpg",
-            "logoUrl": "https://toybox.hundredacre.club/cards/lord-of-the-rings-ccg/_plugin/logo.jpg",
+            "bannerUrl": toybox_url("lord-of-the-rings-ccg/_plugin/banner.jpg"),
+            "logoUrl": toybox_url("lord-of-the-rings-ccg/_plugin/logo.jpg"),
             "clearTableOptions": load_json(SWCCG / "jsons" / "main.json")["clearTableOptions"],
             "closeRoomOptions": [
                 {

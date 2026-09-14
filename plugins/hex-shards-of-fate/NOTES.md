@@ -29,11 +29,11 @@ plugins/hex-shards-of-fate/.venv/bin/python plugins/scripts/import_hex_shards_of
 ```
 
 Smoke a handful first with `--faces-only --limit 20`. Live table still needs the
-JPEGs rsynced to toybox; this repo does not rsync on its own.
+JPEGs rsynced to Toybox; this repo does not rsync on its own.
 
 Hovering a card on the table shows the big preview plus a small glossary pane
 under it for keywords found in that card's text (`jsons/keywordReminders.json`).
-Needs the toybox frontend that ships GiantCard reminders, and a HEX game-definition reload.
+Needs the Toybox frontend that ships GiantCard reminders, and a HEX game-definition reload.
 
 See `mse/README.md`. Portraits stay in `_art/`. Lobby / card back still use homemade compose.
 

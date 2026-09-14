@@ -1,7 +1,7 @@
 Built 2026-09-12 21:45 UTC from FoWind / official Force of Will tables.
 Text: plugins/ForceOfWill/cards.json
 Art index: plugins/ForceOfWill/cards_fow.json
-Faces: FoWind S3 (fowsim) and TCG Arena token images, collected onto toybox.
+Faces: FoWind S3 (fowsim) and TCG Arena token images, collected onto Toybox.
 Card back: FoWind S3 pack art. Missing ABC/promo faces use a local placeholder.
 Lobby logo: official fowtcg.com. Banner: TCG Arena FoW menu art. Playmat: Masterpiece 03.
 Starred alternate ids reuse the unstarred FoWind face.

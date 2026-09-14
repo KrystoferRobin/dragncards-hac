@@ -18,7 +18,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 from import_gemp_prebuilts import write_swccg_prebuilts
-from image_names import clear_image_url_prefix
+from image_names import clear_image_url_prefix, toybox_url
 
 ROOT = Path(__file__).resolve().parents[1]
 GEMP = ROOT / "star-wars-decipher" / "gemp-swccg"
@@ -350,8 +350,8 @@ def customize_copied_jsons() -> None:
         "Load a Reserve deck, put starting locations on the location row, deploy your Objective, then Activate.",
     ]
     main.pop("backgroundUrl", None)
-    main["bannerUrl"] = "https://toybox.hundredacre.club/cards/star-wars-ccg/_plugin/banner.jpg"
-    main["logoUrl"] = "https://toybox.hundredacre.club/cards/star-wars-ccg/_plugin/logo.jpg"
+    main["bannerUrl"] = toybox_url("star-wars-ccg/_plugin/banner.jpg")
+    main["logoUrl"] = toybox_url("star-wars-ccg/_plugin/logo.jpg")
     main["defaultActions"] = [
         action
         for action in main.get("defaultActions") or []

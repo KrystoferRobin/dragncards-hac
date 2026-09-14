@@ -1,6 +1,6 @@
 Built 2026-09-12 02:53 UTC from LackeyCCG CoC_LCG.
 Source: /Applications/LackeyCCG/plugins/CoC_LCG
-Art: GitHub Tragic-zz/lackey-CoCLCG raw cards/ (localized to toybox).
+Art: GitHub Tragic-zz/lackey-CoCLCG raw cards/ (localized to Toybox).
 Author credit: Lackey / Tragic-zz
 
 Tabletop plugin only — Lackey has no rules engine to port.

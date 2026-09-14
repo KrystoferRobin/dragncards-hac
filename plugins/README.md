@@ -35,7 +35,7 @@ The files on disk are `images/{game}/{set}/...`. Nginx maps `/cards/` → that `
 
 ### Live table dump (official site)
 
-If you are already sitting at a public table and want a club copy (so toybox hosts the art instead of hotlinking):
+If you are already sitting at a public table and want a club copy (so Toybox hosts the art instead of hotlinking):
 
 1. Wait until the table finishes loading (cards on screen).
 2. Brave → DevTools (`Cmd+Option+I`) → Console. Paste `plugins/scripts/dump_live_plugin.js`. It downloads `{pluginName}-live-dump.json`.
@@ -60,14 +60,14 @@ That writes split `jsons/` + `tsvs/cards.tsv` from the compiled `game_def`/`card
    ```
 
    Downloads remote art into `images/{game}/{set}/Game-Set-Cardname`, rewrites TSV/card backs to relative paths, and gives tokens/backgrounds/lobby art `/cards/...` paths. `--retarget` only rewrites already-collected plugins (no download).
-3. Copy `images/{game}/` onto the toybox image docroot (`/fileshare/services/dragncards/images/` on the host).
+3. Copy `images/{game}/` onto the Toybox image docroot (`/fileshare/services/dragncards/images/` on the host).
 4. Validate, then Load Game Definition + Upload card database.
 
 Shared helpers live in `scripts/image_names.py` (`TOYBOX_PREFIX` is `/cards/`, `card_rel_path`, `plugin_art_rel`, `rewrite_toybox_url`).
 
-## Upload to toybox
+## Upload to Toybox
 
-1. Copy `images/{game}/` onto the toybox image docroot
+1. Copy `images/{game}/` onto the Toybox image docroot
 2. My Plugins → Load Game Definition → every file in `jsons/`
 3. Upload card database → `tsvs/cards.tsv`
 4. Optional: `author` in `jsons/main.json` is the lobby credit. If it is missing, the uploader's name is shown. Reload the game definition after changing it.

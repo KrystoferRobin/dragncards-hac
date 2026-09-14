@@ -1,5 +1,5 @@
 Built 2026-09-12 19:10 UTC from OCTGN mlp-ccg.
-Source: /Volumes/Expand/ai-projects/hundredacreclub/tcg-engines/dragncards-main/plugins/octgn/mlp-ccg
+Source: tcg-engines/dragncards-main/plugins/octgn/mlp-ccg
 Art: extracted Sets/ plus MLP CCG - All Sets (2019).o8c
 Author credit: OCTGN / Gabby Gums, GameMasterLuna
 

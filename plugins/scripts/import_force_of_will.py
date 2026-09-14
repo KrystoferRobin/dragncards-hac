@@ -98,7 +98,7 @@ PREFIX_CLUSTER = (
     ("TAT", "Alice"),
 )
 SKIP_PREFIXES = ("ABC-BG", "ABC-RD", "ABC-RG", "ABC-WD", "ABC-WB")
-USER_AGENT = "HundredAcreClub/1.0 (private tabletop image collect; +https://hundredacre.club)"
+USER_AGENT = "Toybox/1.0 (private tabletop image collect)"
 
 COLUMNS = [
     "databaseId",

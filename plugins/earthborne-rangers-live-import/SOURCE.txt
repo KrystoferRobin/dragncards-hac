@@ -6,6 +6,6 @@ Official version: 68
 repo_url:
 
 This is a compiled snapshot (merged game_def + card_db), not original source files.
-Collected 2026-09-12: card art, backs, tokens, Uncommon Wisdom alts, and top-bar icons retargeted to toybox.
+Collected 2026-09-12: card art, backs, tokens, Uncommon Wisdom alts, and top-bar icons retargeted to Toybox.
 Drop banner.jpg and logo.jpg into images/earthborne-rangers/_plugin/ before Load Game Definition.
 Art lives under images/earthborne-rangers/ grouped by pack_code (Core, LoA, SoV, …).

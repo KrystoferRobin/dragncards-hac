@@ -1210,7 +1210,7 @@ def main() -> int:
             [
                 f"Built {datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M UTC')} from LackeyCCG startrek1e.",
                 f"Source: {LACKEY}",
-                "Art: GitHub eberlems/startrek1e playable setimages/general (localized to toybox).",
+                "Art: GitHub eberlems/startrek1e playable setimages/general (localized to Toybox).",
                 "Author credit: Lackey / eberlems",
                 "",
                 "Tabletop plugin only — Lackey has no rules engine to port.",

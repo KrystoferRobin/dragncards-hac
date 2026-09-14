@@ -6,4 +6,4 @@ Official version: 33
 repo_url: https://github.com/morvael/dragncards-arkhamhorrorlcg-plugin
 
 This is a compiled snapshot (merged game_def + card_db), not original source files.
-Collected 2026-09-11: card art + tokens retargeted to toybox. Drop banner.jpg and logo.jpg into images/arkham-horror-living-card-game/_plugin/ before Load Game Definition.
+Collected 2026-09-11: card art + tokens retargeted to Toybox. Drop banner.jpg and logo.jpg into images/arkham-horror-living-card-game/_plugin/ before Load Game Definition.

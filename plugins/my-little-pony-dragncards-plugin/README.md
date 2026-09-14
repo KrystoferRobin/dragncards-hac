@@ -2,7 +2,7 @@
 
 Dumb (no rules enforcement) 1v1 table plugin converted from the LackeyCCG **MyLittlePonyKayou** plugin (Kayou MLP TCG, BP01/BP02/SD01/PR).
 
-`pluginName` is **My Little Pony**. Card images are hosted on toybox after `collect_hosted_images.py` rewrites the Dropbox URLs. Relative TSV / card-back paths plus `imageUrlPrefix` resolve to:
+`pluginName` is **My Little Pony**. Card images are hosted on Toybox after `collect_hosted_images.py` rewrites the Dropbox URLs. Relative TSV / card-back paths plus `imageUrlPrefix` resolve to:
 
 `/cards/my-little-pony/{set}/{Game}-{Set}-{Cardname}.ext`
 
@@ -17,7 +17,7 @@ See [../README.md](../README.md) for the `/cards/` convention.
 
 ## Upload
 
-1. Copy `images/my-little-pony/` onto the toybox image docroot (public URL prefix is `/cards/`)
+1. Copy `images/my-little-pony/` onto the Toybox image docroot (public URL prefix is `/cards/`)
 2. My Plugins → Load Game Definition → every file in `jsons/`
 3. Upload card database → `tsvs/cards.tsv`
 4. Create/update the plugin, keep it private while testing

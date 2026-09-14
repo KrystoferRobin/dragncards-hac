@@ -1,4 +1,4 @@
-# DragnCards on toybox.hundredacre.club
+# DragnCards — Toybox
 #
 # Card art (the bulky bit) on the big drives — nginx serves it at /cards/:
 #   /fileshare/services/dragncards/images
@@ -50,8 +50,8 @@ services:
       - DRAGN_INVITE_CODE=${DRAGN_INVITE_CODE:-changeme}
       # Haven Bots webhook URL. New LFG posts land in that chat with a link back here.
       - HAVEN_LFG_WEBHOOK_URL=${HAVEN_LFG_WEBHOOK_URL:-}
-      # Public site URL for LFG link-backs (nginx vhost toybox.hundredacre.club).
-      - DRAGNCARDS_PUBLIC_URL=${DRAGNCARDS_PUBLIC_URL:-https://toybox.hundredacre.club}
+      # Public site URL for LFG link-backs (set DRAGNCARDS_PUBLIC_URL in .env).
+      - DRAGNCARDS_PUBLIC_URL=${DRAGNCARDS_PUBLIC_URL:-}
   frontend:
     image: node:20
     depends_on: 
@@ -64,12 +64,12 @@ services:
     working_dir: /app
     environment:
       - REACT_APP_BE_HOSTNAME=backend
-      # Relative socket so the browser uses wss://toybox…/be/socket (not localhost:4000).
+      # Relative socket so the browser uses wss://<host>/be/socket (not localhost:4000).
       - REACT_APP_WS_URL=/be/socket
       - HOST=0.0.0.0
       - DANGEROUSLY_DISABLE_HOST_CHECK=true
       - WDS_SOCKET_PORT=0
-  # Card art is served by host nginx (toybox /cards/), not this stack.
+  # Card art is served by host nginx (Toybox /cards/), not this stack.
   # Drop files in ${DRAGNCARDS_DATA}/images/. Plugin imageUrls stay relative;
   # the frontend prefixes /cards/.
 

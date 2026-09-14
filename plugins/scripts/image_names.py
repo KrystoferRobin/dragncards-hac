@@ -1,4 +1,4 @@
-"""Shared Game-Set-Cardname path helpers for toybox image hosting.
+"""Shared Game-Set-Cardname path helpers for Toybox image hosting.
 
 Host nginx maps /cards/ onto the images/ tree (see compose.yml). Plugin TSV /
 cardBack paths stay {game}/{set}/{Game}-{Set}-{Cardname}.ext — do not put
@@ -13,15 +13,10 @@ from __future__ import annotations
 import json
 import re
 from pathlib import Path
+from urllib.parse import urlparse
 
-TOYBOX_HOST = "https://toybox.hundredacre.club"
+
 TOYBOX_PREFIX = "/cards/"
-_TOYBOX_ROOTS = (
-    f"{TOYBOX_HOST}/",
-    "http://toybox.hundredacre.club/",
-    "https://toybox.hundredacre.club/cards/",
-    "http://toybox.hundredacre.club/cards/",
-)
 
 
 def folder_slug(name: str) -> str:
@@ -107,17 +102,18 @@ def toybox_url(rel: str) -> str:
 
 
 def rewrite_toybox_url(url: str) -> str:
-    """Turn a toybox host URL into a same-origin /cards/ path. Leave other hosts alone."""
+    """Turn an absolute Toybox /cards/ URL into a same-origin path. Leave other hosts alone."""
     url = (url or "").strip()
     if not url:
         return url
-    for root in _TOYBOX_ROOTS:
-        if url.startswith(root):
-            rest = url[len(root) :]
-            if rest.startswith("cards/"):
-                rest = rest[len("cards/") :]
-            return TOYBOX_PREFIX + rest
-    return url
+    parsed = urlparse(url)
+    host = (parsed.netloc or "").lower()
+    if parsed.scheme not in {"http", "https"} or "toybox" not in host:
+        return url
+    rest = parsed.path.lstrip("/")
+    if rest.startswith("cards/"):
+        rest = rest[len("cards/") :]
+    return TOYBOX_PREFIX + rest
 
 
 def clear_image_url_prefix(jsons_dir: Path) -> None:

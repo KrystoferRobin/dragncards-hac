@@ -33,7 +33,7 @@ from import_octgn_batch import (  # noqa: E402
 OCTGN = ROOT / "octgn" / "doomtown-reloaded-NO-IMAGES"
 DTDB_CARDS = "https://dtdb.co/api/cards"
 DTDB_HOST = "https://dtdb.co"
-USER_AGENT = "HundredAcreClub/1.0 (private tabletop image collect; +https://hundredacre.club)"
+USER_AGENT = "Toybox/1.0 (private tabletop image collect)"
 
 GAME = {
     "id": "doomtown-reloaded",
@@ -96,7 +96,7 @@ GAME = {
         ("nightfall", "Nightfall"),
     ],
     "announcements": [
-        "Tabletop plugin from OCTGN Doomtown Reloaded. Faces collected once from dtdb.co onto toybox — the site is not hotlinked.",
+        "Tabletop plugin from OCTGN Doomtown Reloaded. Faces collected once from dtdb.co onto Toybox — the site is not hotlinked.",
         "D = draw to Play Hand. P = pull to Draw Hand. Outfits and Legends load to their rows. No rules engine.",
     ],
     "card_back": "Card/back.jpg",
@@ -306,7 +306,7 @@ def main() -> int:
         "\n".join([
             f"Built {datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M UTC')} from OCTGN Doomtown Reloaded + dtdb.co.",
             f"Source: {OCTGN}",
-            "Art: https://dtdb.co/api/cards → /images/cards/en/{code}.jpg (collected onto toybox, not hotlinked).",
+            "Art: https://dtdb.co/api/cards → /images/cards/en/{code}.jpg (collected onto Toybox, not hotlinked).",
             "Author credit: OCTGN / Db0, trimm. Image host: DoomtownDB (dtdb.co).",
             "",
             "Tabletop plugin only — OCTGN scripts were not ported.",

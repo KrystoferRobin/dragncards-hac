@@ -1,6 +1,6 @@
 Built 2026-09-12 03:06 UTC from LackeyCCG startrek1e.
 Source: /Applications/LackeyCCG/plugins/startrek1e
-Art: GitHub eberlems/startrek1e playable setimages/general (localized to toybox).
+Art: GitHub eberlems/startrek1e playable setimages/general (localized to Toybox).
 Author credit: Lackey / eberlems
 
 Tabletop plugin only — Lackey has no rules engine to port.
