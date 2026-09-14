@@ -30,7 +30,7 @@ On top of upstream DragnCards (including the 3D table):
 
 - **Club auth.** Sign-up is invite-code only (`DRAGN_INVITE_CODE`). Accounts are alias + password; the backend synthesizes a local email. Log in with the alias, not an inbox.
 - **Haven LFG.** New looking-for-game posts can hit a Haven/Discord-style webhook (`HAVEN_LFG_WEBHOOK_URL`) with a link back to the table (`DRAGNCARDS_PUBLIC_URL`).
-- **Same-origin card art.** Plugins store *relative* image paths. The frontend prefixes `/cards/`. Host nginx maps that onto the fileshare (`/fileshare/services/dragncards/images/` on Toybox). Plugin JSON/TSV does **not** publish the public image host, so GitHub is not a map of the fileshare. Details: [`plugins/README.md`](plugins/README.md).
+- **Same-origin card art.** Plugins store *relative* image paths. The frontend prefixes `/cards/`. Host nginx maps that onto the fileshare (example `/dragncards/images/` on host). Plugin JSON/TSV does **not** publish the public image host, so GitHub is not a map of the fileshare. Details: [`plugins/README.md`](plugins/README.md).
 - **Keyword reminders.** `keywordReminders` in the game definition: hovering a card shows glossary text under the giant preview for terms found in the printed text.
 - **Lobby deck editor.** `/deck-editor/:pluginId` — catalog, plaintext import, and start-a-table from a built deck, outside the in-room deckbuilder.
 - **Table UI.** Shared browse HUD (2D and 3D), lobby banner/logo slots, author credit on the plugin list, and table-region polish used by the club plugins.
