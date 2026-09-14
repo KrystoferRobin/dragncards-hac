@@ -1,0 +1,302 @@
+{
+  "groups": {
+    "sharedSetAside": {
+      "groupType": "aside",
+      "label": "Set Aside",
+      "tableLabel": "Set Aside",
+      "onCardEnter": {
+        "controller": "shared"
+      }
+    },
+    "sharedGroups": {
+      "groupType": "deck",
+      "label": "Shared Groups",
+      "tableLabel": "Shared Groups",
+      "onCardEnter": {
+        "controller": "shared",
+        "deckGroupId": "sharedGroups"
+      }
+    },
+    "sharedPlots": {
+      "groupType": "deck",
+      "label": "Shared Plots",
+      "tableLabel": "Shared Plots",
+      "onCardEnter": {
+        "controller": "shared",
+        "deckGroupId": "sharedPlots"
+      }
+    },
+    "player1GroupDeck": {
+      "groupType": "deck",
+      "label": "Player 1 Group Deck",
+      "tableLabel": "Group Deck",
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1GroupDeck",
+        "discardGroupId": "player1Discard"
+      }
+    },
+    "player1PlotDeck": {
+      "groupType": "deck",
+      "label": "Player 1 Plot Deck",
+      "tableLabel": "Plot Deck",
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1PlotDeck",
+        "discardGroupId": "player1Discard"
+      }
+    },
+    "player1Lead": {
+      "groupType": "lead",
+      "label": "Player 1 Lead",
+      "tableLabel": "Lead",
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1GroupDeck",
+        "discardGroupId": "player1Discard"
+      },
+      "canHaveAttachments": true
+    },
+    "player1Discard": {
+      "groupType": "discard",
+      "label": "Player 1 Discard",
+      "tableLabel": "Discard",
+      "onCardEnter": {
+        "controller": "player1",
+        "discardGroupId": "player1Discard"
+      }
+    },
+    "player1Removed": {
+      "groupType": "removed",
+      "label": "Player 1 Removed",
+      "tableLabel": "Removed",
+      "onCardEnter": {
+        "controller": "player1",
+        "discardGroupId": "player1Discard"
+      }
+    },
+    "player1Hand": {
+      "groupType": "hand",
+      "label": "Player 1 Hand",
+      "tableLabel": "Hand",
+      "onCardEnter": {
+        "controller": "player1",
+        "discardGroupId": "player1Discard"
+      }
+    },
+    "player1Play": {
+      "groupType": "inPlay",
+      "label": "Player 1 Power Structure",
+      "tableLabel": "Power Structure",
+      "onCardEnter": {
+        "controller": "player1",
+        "discardGroupId": "player1Discard"
+      },
+      "canHaveAttachments": true
+    },
+    "player2GroupDeck": {
+      "groupType": "deck",
+      "label": "Player 2 Group Deck",
+      "tableLabel": "Group Deck",
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2GroupDeck",
+        "discardGroupId": "player2Discard"
+      }
+    },
+    "player2PlotDeck": {
+      "groupType": "deck",
+      "label": "Player 2 Plot Deck",
+      "tableLabel": "Plot Deck",
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2PlotDeck",
+        "discardGroupId": "player2Discard"
+      }
+    },
+    "player2Lead": {
+      "groupType": "lead",
+      "label": "Player 2 Lead",
+      "tableLabel": "Lead",
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2GroupDeck",
+        "discardGroupId": "player2Discard"
+      },
+      "canHaveAttachments": true
+    },
+    "player2Discard": {
+      "groupType": "discard",
+      "label": "Player 2 Discard",
+      "tableLabel": "Discard",
+      "onCardEnter": {
+        "controller": "player2",
+        "discardGroupId": "player2Discard"
+      }
+    },
+    "player2Removed": {
+      "groupType": "removed",
+      "label": "Player 2 Removed",
+      "tableLabel": "Removed",
+      "onCardEnter": {
+        "controller": "player2",
+        "discardGroupId": "player2Discard"
+      }
+    },
+    "player2Hand": {
+      "groupType": "hand",
+      "label": "Player 2 Hand",
+      "tableLabel": "Hand",
+      "onCardEnter": {
+        "controller": "player2",
+        "discardGroupId": "player2Discard"
+      }
+    },
+    "player2Play": {
+      "groupType": "inPlay",
+      "label": "Player 2 Power Structure",
+      "tableLabel": "Power Structure",
+      "onCardEnter": {
+        "controller": "player2",
+        "discardGroupId": "player2Discard"
+      },
+      "canHaveAttachments": true
+    },
+    "player3GroupDeck": {
+      "groupType": "deck",
+      "label": "Player 3 Group Deck",
+      "tableLabel": "Group Deck",
+      "onCardEnter": {
+        "controller": "player3",
+        "deckGroupId": "player3GroupDeck",
+        "discardGroupId": "player3Discard"
+      }
+    },
+    "player3PlotDeck": {
+      "groupType": "deck",
+      "label": "Player 3 Plot Deck",
+      "tableLabel": "Plot Deck",
+      "onCardEnter": {
+        "controller": "player3",
+        "deckGroupId": "player3PlotDeck",
+        "discardGroupId": "player3Discard"
+      }
+    },
+    "player3Lead": {
+      "groupType": "lead",
+      "label": "Player 3 Lead",
+      "tableLabel": "Lead",
+      "onCardEnter": {
+        "controller": "player3",
+        "deckGroupId": "player3GroupDeck",
+        "discardGroupId": "player3Discard"
+      },
+      "canHaveAttachments": true
+    },
+    "player3Discard": {
+      "groupType": "discard",
+      "label": "Player 3 Discard",
+      "tableLabel": "Discard",
+      "onCardEnter": {
+        "controller": "player3",
+        "discardGroupId": "player3Discard"
+      }
+    },
+    "player3Removed": {
+      "groupType": "removed",
+      "label": "Player 3 Removed",
+      "tableLabel": "Removed",
+      "onCardEnter": {
+        "controller": "player3",
+        "discardGroupId": "player3Discard"
+      }
+    },
+    "player3Hand": {
+      "groupType": "hand",
+      "label": "Player 3 Hand",
+      "tableLabel": "Hand",
+      "onCardEnter": {
+        "controller": "player3",
+        "discardGroupId": "player3Discard"
+      }
+    },
+    "player3Play": {
+      "groupType": "inPlay",
+      "label": "Player 3 Power Structure",
+      "tableLabel": "Power Structure",
+      "onCardEnter": {
+        "controller": "player3",
+        "discardGroupId": "player3Discard"
+      },
+      "canHaveAttachments": true
+    },
+    "player4GroupDeck": {
+      "groupType": "deck",
+      "label": "Player 4 Group Deck",
+      "tableLabel": "Group Deck",
+      "onCardEnter": {
+        "controller": "player4",
+        "deckGroupId": "player4GroupDeck",
+        "discardGroupId": "player4Discard"
+      }
+    },
+    "player4PlotDeck": {
+      "groupType": "deck",
+      "label": "Player 4 Plot Deck",
+      "tableLabel": "Plot Deck",
+      "onCardEnter": {
+        "controller": "player4",
+        "deckGroupId": "player4PlotDeck",
+        "discardGroupId": "player4Discard"
+      }
+    },
+    "player4Lead": {
+      "groupType": "lead",
+      "label": "Player 4 Lead",
+      "tableLabel": "Lead",
+      "onCardEnter": {
+        "controller": "player4",
+        "deckGroupId": "player4GroupDeck",
+        "discardGroupId": "player4Discard"
+      },
+      "canHaveAttachments": true
+    },
+    "player4Discard": {
+      "groupType": "discard",
+      "label": "Player 4 Discard",
+      "tableLabel": "Discard",
+      "onCardEnter": {
+        "controller": "player4",
+        "discardGroupId": "player4Discard"
+      }
+    },
+    "player4Removed": {
+      "groupType": "removed",
+      "label": "Player 4 Removed",
+      "tableLabel": "Removed",
+      "onCardEnter": {
+        "controller": "player4",
+        "discardGroupId": "player4Discard"
+      }
+    },
+    "player4Hand": {
+      "groupType": "hand",
+      "label": "Player 4 Hand",
+      "tableLabel": "Hand",
+      "onCardEnter": {
+        "controller": "player4",
+        "discardGroupId": "player4Discard"
+      }
+    },
+    "player4Play": {
+      "groupType": "inPlay",
+      "label": "Player 4 Power Structure",
+      "tableLabel": "Power Structure",
+      "onCardEnter": {
+        "controller": "player4",
+        "discardGroupId": "player4Discard"
+      },
+      "canHaveAttachments": true
+    }
+  }
+}

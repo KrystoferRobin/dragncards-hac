@@ -1,0 +1,10 @@
+{
+  "gameProperties": {
+    "daysUntilChristmas": {
+      "label": "Days Until Christmas",
+      "type": "integer",
+      "default": 12,
+      "min": 0
+    }
+  }
+}

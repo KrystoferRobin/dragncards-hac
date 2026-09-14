@@ -1,0 +1,136 @@
+{
+  "pluginName": "Lord of the Rings TCG",
+  "author": "GEMP / lotrtcgpc.net",
+  "defaultActions": [
+    {
+      "actionList": "damageCard",
+      "condition": [
+        "AND",
+        [
+          "EQUAL",
+          "$ACTIVE_CARD.rotation",
+          0
+        ],
+        "$ACTIVE_CARD.inPlay"
+      ],
+      "label": "id:damage"
+    },
+    {
+      "actionList": "damageCard",
+      "condition": [
+        "AND",
+        [
+          "EQUAL",
+          "$ACTIVE_CARD.rotation",
+          90
+        ],
+        "$ACTIVE_CARD.inPlay"
+      ],
+      "label": "id:damage"
+    }
+  ],
+  "announcements": [
+    "Decipher LOTR TCG tabletop from GEMP card data. Not a rules engine.",
+    "D draw · S starting hand · T/R twilight · W wound · L discard · K dead pile.",
+    "Load draw deck to Deck. Sites go on the Adventure Path (or Adventure Deck first)."
+  ],
+  "playerCountMenu": [
+    {
+      "label": "2",
+      "layoutId": "default",
+      "numPlayers": 2
+    }
+  ],
+  "stepReminderRegex": [],
+  "stepOrder": [
+    "1.0",
+    "2.0",
+    "3.0",
+    "4.0",
+    "5.0",
+    "6.0",
+    "7.0"
+  ],
+  "loadPreBuiltOnNewGame": false,
+  "tutorialUrl": "https://wiki.lotrtcgpc.net/",
+  "phaseOrder": [
+    "Fellowship",
+    "Shadow",
+    "Maneuver",
+    "Archery",
+    "Assignment",
+    "Skirmish",
+    "Regroup"
+  ],
+  "touchBar": [],
+  "bannerUrl": "https://toybox.hundredacre.club/cards/lord-of-the-rings-ccg/_plugin/banner.jpg",
+  "logoUrl": "https://toybox.hundredacre.club/cards/lord-of-the-rings-ccg/_plugin/logo.jpg",
+  "clearTableOptions": [
+    {
+      "actionList": [
+        "SET",
+        "/victoryState",
+        "Player 1 Full Win"
+      ],
+      "label": "id:player1Victory"
+    },
+    {
+      "actionList": [
+        "SET",
+        "/victoryState",
+        "Player 2 Full Win"
+      ],
+      "label": "id:player2Victory"
+    },
+    {
+      "actionList": [
+        "SET",
+        "/victoryState",
+        "Player 1 Modified Win"
+      ],
+      "label": "id:player1modifiedVictory"
+    },
+    {
+      "actionList": [
+        "SET",
+        "/victoryState",
+        "Player 2 Modified Win"
+      ],
+      "label": "id:player2modifiedVictory"
+    },
+    {
+      "actionList": [
+        "SET",
+        "/victoryState",
+        "Incomplete"
+      ],
+      "label": "id:markasIncomplete"
+    }
+  ],
+  "closeRoomOptions": [
+    {
+      "actionList": [
+        "SET",
+        "/victoryState",
+        "Player1 LOTR TCG Win"
+      ],
+      "label": "id:player1Victory"
+    },
+    {
+      "actionList": [
+        "SET",
+        "/victoryState",
+        "Player2 LOTR TCG Win"
+      ],
+      "label": "id:player2Victory"
+    },
+    {
+      "actionList": [
+        "SET",
+        "/victoryState",
+        "Incomplete"
+      ],
+      "label": "id:markasIncomplete"
+    }
+  ]
+}

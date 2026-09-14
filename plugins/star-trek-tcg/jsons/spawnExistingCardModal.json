@@ -1,0 +1,19 @@
+{
+  "spawnExistingCardModal": {
+    "columnProperties": [
+      "name",
+      "type",
+      "subtype",
+      "rarity",
+      "packName"
+    ],
+    "loadGroupIds": [
+      "player1Deck",
+      "player1Starting",
+      "player1Episode",
+      "player1Challenges",
+      "player1Hand",
+      "player2Hand"
+    ]
+  }
+}

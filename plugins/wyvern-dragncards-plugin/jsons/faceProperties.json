@@ -1,0 +1,13 @@
+{
+  "faceProperties": {
+    "gold": {"label": "Gold", "type": "integer", "default": 0},
+    "set": {"label": "Set", "type": "string", "default": ""},
+    "number": {"label": "Number", "type": "integer", "default": 0},
+    "rarity": {"label": "Rarity", "type": "string", "default": ""},
+    "text": {"label": "Text", "type": "string", "default": ""},
+    "lore": {"label": "Lore", "type": "string", "default": ""},
+    "strength": {"label": "Strength", "type": "string", "default": ""},
+    "strengthModifier": {"label": "Strength Modifier", "type": "string", "default": ""},
+    "loadGroupId": {"label": "Load Group", "type": "string", "default": ""}
+  }
+}

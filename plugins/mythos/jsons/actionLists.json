@@ -1,0 +1,264 @@
+{
+  "actionLists": {
+    "drawDeck": [
+      [
+        "COND",
+        [
+          "GROUP_EMPTY",
+          "{{$PLAYER_N}}Deck"
+        ],
+        [
+          "LOG",
+          "{{$ALIAS_N}} tried to draw from an empty deck."
+        ],
+        [
+          "TRUE"
+        ],
+        [
+          [
+            "MOVE_STACKS",
+            "{{$PLAYER_N}}Deck",
+            "{{$PLAYER_N}}Hand",
+            1,
+            "bottom"
+          ],
+          [
+            "LOG",
+            "{{$ALIAS_N}} drew a card."
+          ]
+        ]
+      ]
+    ],
+    "shuffleDeck": [
+      [
+        "SHUFFLE_GROUP",
+        "{{$PLAYER_N}}Deck"
+      ],
+      [
+        "LOG",
+        "{{$ALIAS_N}} shuffled their deck."
+      ]
+    ],
+    "readyAll": [
+      [
+        "FOR_EACH_KEY_VAL",
+        "$CARD_ID",
+        "$CARD",
+        "$GAME.cardById",
+        [
+          "COND",
+          [
+            "EQUAL",
+            "$CARD.controller",
+            "$PLAYER_N"
+          ],
+          [
+            "SET",
+            "/cardById/{{$CARD_ID}}/rotation",
+            0
+          ]
+        ]
+      ],
+      [
+        "LOG",
+        "{{$ALIAS_N}} readied all their cards."
+      ]
+    ],
+    "rotateCard": [
+      [
+        "SET",
+        "/cardById/$ACTIVE_CARD_ID/rotation",
+        90
+      ],
+      [
+        "LOG",
+        "{{$ALIAS_N}} rotated {{$ACTIVE_FACE.name}}."
+      ]
+    ],
+    "unrotateCard": [
+      [
+        "SET",
+        "/cardById/$ACTIVE_CARD_ID/rotation",
+        0
+      ],
+      [
+        "LOG",
+        "{{$ALIAS_N}} unrotated {{$ACTIVE_FACE.name}}."
+      ]
+    ],
+    "flipCoin": [
+      [
+        "VAR",
+        "$FLIP",
+        [
+          "RANDOM_INT",
+          0,
+          1
+        ]
+      ],
+      [
+        "COND",
+        [
+          "EQUAL",
+          "$FLIP",
+          0
+        ],
+        [
+          "LOG",
+          "{{$ALIAS_N}} flipped a coin: Heads."
+        ],
+        [
+          "TRUE"
+        ],
+        [
+          "LOG",
+          "{{$ALIAS_N}} flipped a coin: Tails."
+        ]
+      ]
+    ],
+    "rollD6": [
+      [
+        "VAR",
+        "$D1",
+        [
+          "RANDOM_INT",
+          1,
+          6
+        ]
+      ],
+      [
+        "LOG",
+        "{{$ALIAS_N}} rolled 1d6: {{$D1}}."
+      ]
+    ],
+    "rollD20": [
+      [
+        "VAR",
+        "$D1",
+        [
+          "RANDOM_INT",
+          1,
+          20
+        ]
+      ],
+      [
+        "LOG",
+        "{{$ALIAS_N}} rolled 1d20: {{$D1}}."
+      ]
+    ],
+    "increaseSanity": [
+      [
+        "INCREASE_VAL",
+        "/playerData/$PLAYER_N/sanity",
+        1
+      ],
+      [
+        "LOG",
+        "{{$ALIAS_N}} gained 1 Sanity."
+      ]
+    ],
+    "decreaseSanity": [
+      [
+        "COND",
+        [
+          "GREATER_THAN",
+          "$GAME.playerData.$PLAYER_N.sanity",
+          0
+        ],
+        [
+          [
+            "DECREASE_VAL",
+            "/playerData/$PLAYER_N/sanity",
+            1
+          ],
+          [
+            "LOG",
+            "{{$ALIAS_N}} lost 1 Sanity."
+          ]
+        ],
+        [
+          "TRUE"
+        ],
+        [
+          "LOG",
+          "{{$ALIAS_N}} has no Sanity left."
+        ]
+      ]
+    ],
+    "increaseAP": [
+      [
+        "INCREASE_VAL",
+        "/playerData/$PLAYER_N/actionPoints",
+        1
+      ],
+      [
+        "LOG",
+        "{{$ALIAS_N}} gained 1 AP."
+      ]
+    ],
+    "decreaseAP": [
+      [
+        "COND",
+        [
+          "GREATER_THAN",
+          "$GAME.playerData.$PLAYER_N.actionPoints",
+          0
+        ],
+        [
+          [
+            "DECREASE_VAL",
+            "/playerData/$PLAYER_N/actionPoints",
+            1
+          ],
+          [
+            "LOG",
+            "{{$ALIAS_N}} spent 1 AP."
+          ]
+        ],
+        [
+          "TRUE"
+        ],
+        [
+          "LOG",
+          "{{$ALIAS_N}} has no APs to spend."
+        ]
+      ]
+    ],
+    "flipCard": [
+      [
+        "FLIP",
+        "$ACTIVE_CARD_ID"
+      ]
+    ],
+    "discardCard": [
+      [
+        "DISCARD",
+        "$ACTIVE_CARD_ID"
+      ]
+    ],
+    "detachCard": [
+      [
+        "DETACH",
+        "$ACTIVE_CARD_ID"
+      ]
+    ],
+    "shuffleIntoDeck": [
+      [
+        "SHUFFLE_INTO_DECK",
+        "$ACTIVE_CARD_ID"
+      ]
+    ],
+    "toStory": [
+      [
+        "MOVE_CARD",
+        "$ACTIVE_CARD_ID",
+        "{{$PLAYER_N}}Story",
+        0
+      ],
+      [
+        "LOG",
+        "{{$ALIAS_N}} moved a card to Story."
+      ]
+    ]
+  }
+}

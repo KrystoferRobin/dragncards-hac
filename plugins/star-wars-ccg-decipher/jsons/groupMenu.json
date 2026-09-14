@@ -1,0 +1,45 @@
+{
+  "groupMenu": {
+    "moveToGroupIds": [
+      "playerNReserve",
+      "playerNForce",
+      "playerNLost",
+      "playerNHand",
+      "playerNUsed"
+    ],
+    "options": [
+      {
+        "actionList": "menuactivateEnergy",
+        "label": "id:menuactivateEnergy"
+      },
+      {
+        "actionList": "menuPayEnergy",
+        "label": "id:menuPayEnergy"
+      },
+      {
+        "actionList": "drawoneCard",
+        "label": "id:drawonecard"
+      },
+      {
+        "actionList": "menureservetoLost",
+        "label": "id:menureservetoLost"
+      },
+      {
+        "actionList": "menuactivetoLost",
+        "label": "id:menuactivetoLost"
+      },
+      {
+        "actionList": "menuusedtoLost",
+        "label": "id:menuusedtoLost"
+      },
+      {
+        "actionList": "drawstartingHand",
+        "label": "id:drawstartinghand"
+      },
+      {
+        "actionList": "sendusedtoReserve",
+        "label": "id:sendusedtoReserve"
+      }
+    ]
+  }
+}

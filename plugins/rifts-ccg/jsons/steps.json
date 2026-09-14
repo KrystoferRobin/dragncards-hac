@@ -1,0 +1,31 @@
+{
+  "steps": {
+    "readyStep": {
+      "phaseId": "ready",
+      "label": "Ready"
+    },
+    "drawStep": {
+      "phaseId": "draw",
+      "label": "Draw"
+    },
+    "playStep": {
+      "phaseId": "play",
+      "label": "Play Cards"
+    },
+    "attackStep": {
+      "phaseId": "attack",
+      "label": "Attack"
+    },
+    "endStep": {
+      "phaseId": "end",
+      "label": "End Turn"
+    }
+  },
+  "stepOrder": [
+    "readyStep",
+    "drawStep",
+    "playStep",
+    "attackStep",
+    "endStep"
+  ]
+}

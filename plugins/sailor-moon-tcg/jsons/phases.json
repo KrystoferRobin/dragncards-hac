@@ -1,0 +1,31 @@
+{
+  "phases": {
+    "draw": {
+      "label": "Draw",
+      "height": "20%"
+    },
+    "play": {
+      "label": "Play",
+      "height": "20%"
+    },
+    "use": {
+      "label": "Use",
+      "height": "20%"
+    },
+    "attack": {
+      "label": "Attack",
+      "height": "20%"
+    },
+    "discard": {
+      "label": "Discard / Balance",
+      "height": "20%"
+    }
+  },
+  "phaseOrder": [
+    "draw",
+    "play",
+    "use",
+    "attack",
+    "discard"
+  ]
+}

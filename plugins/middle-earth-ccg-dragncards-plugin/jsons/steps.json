@@ -1,0 +1,11 @@
+{
+  "steps": {
+    "untapStep": {"phaseId": "untap", "label": "Untap"},
+    "organizationStep": {"phaseId": "organization", "label": "Organization"},
+    "longEventStep": {"phaseId": "longEvent", "label": "Long-Event"},
+    "movementHazardStep": {"phaseId": "movementHazard", "label": "Movement-Hazard"},
+    "siteStep": {"phaseId": "site", "label": "Site"},
+    "endStep": {"phaseId": "end", "label": "End of Turn"}
+  },
+  "stepOrder": ["untapStep", "organizationStep", "longEventStep", "movementHazardStep", "siteStep", "endStep"]
+}

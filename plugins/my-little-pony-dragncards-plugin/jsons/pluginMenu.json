@@ -1,0 +1,15 @@
+{
+  "pluginMenu": {
+    "options": [
+      {"label": "Draw", "actionList": "drawDeck"},
+      {"label": "Add scene", "actionList": "addScene"},
+      {"label": "Shuffle deck", "actionList": "shuffleDeck"},
+      {"label": "Shuffle scene deck", "actionList": "shuffleSceneDeck"},
+      {"label": "Untap all", "actionList": "untapAll"},
+      {"label": "Add plan", "actionList": "addPlan"},
+      {"label": "Take plan", "actionList": "takePlan"},
+      {"label": "Plans to table", "actionList": "plansToTable"},
+      {"label": "Roll 1d6", "actionList": "roll1d6"}
+    ]
+  }
+}

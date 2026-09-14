@@ -1,0 +1,156 @@
+{
+  "cardTypes": {
+    "Ad": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "green",
+        "red"
+      ]
+    },
+    "Adversary": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "green",
+        "red"
+      ]
+    },
+    "Castle": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "green",
+        "red"
+      ]
+    },
+    "Castle, Special Castle": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "green",
+        "red"
+      ]
+    },
+    "Event": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "green",
+        "red"
+      ]
+    },
+    "Event, Permanent Event": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "green",
+        "red"
+      ]
+    },
+    "Item": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "green",
+        "red"
+      ]
+    },
+    "Joke": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "green",
+        "red"
+      ]
+    },
+    "Knight": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "green",
+        "red"
+      ]
+    },
+    "Land": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "green",
+        "red"
+      ]
+    },
+    "Land, Special Land": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "green",
+        "red"
+      ]
+    },
+    "Page": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "green",
+        "red"
+      ]
+    },
+    "Permanent Taunt, Taunt": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "green",
+        "red"
+      ]
+    },
+    "Persona": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "green",
+        "red"
+      ]
+    },
+    "Questions Three": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "green",
+        "red"
+      ]
+    },
+    "Song": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "green",
+        "red"
+      ]
+    },
+    "Taunt": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "green",
+        "red"
+      ]
+    },
+    "Village": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "green",
+        "red"
+      ]
+    },
+    "Village, Special Village": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "green",
+        "red"
+      ]
+    }
+  }
+}

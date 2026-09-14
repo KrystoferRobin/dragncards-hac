@@ -1,0 +1,9 @@
+{
+  "cardBacks": {
+    "default": {
+      "width": 0.72,
+      "height": 1.0,
+      "imageUrl": "netrunner-1996/_plugin/Netrunner1996-CardbackDefault.jpg"
+    }
+  }
+}

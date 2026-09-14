@@ -1,0 +1,71 @@
+{
+  "groupTypes": {
+    "deck": {
+      "canHaveAttachments": false,
+      "canHaveTokens": false,
+      "onCardEnter": {
+        "currentSide": "B",
+        "inPlay": false,
+        "rotation": 0
+      },
+      "shuffleOnLoad": true
+    },
+    "discard": {
+      "canHaveAttachments": false,
+      "canHaveTokens": false,
+      "onCardEnter": {
+        "currentSide": "A",
+        "inPlay": false,
+        "rotation": 0
+      },
+      "shuffleOnLoad": false
+    },
+    "hand": {
+      "canHaveAttachments": false,
+      "canHaveTokens": false,
+      "onCardEnter": {
+        "currentSide": "B",
+        "inPlay": false,
+        "rotation": 0
+      },
+      "shuffleOnLoad": false
+    },
+    "inPlay": {
+      "canHaveAttachments": true,
+      "canHaveTokens": true,
+      "onCardEnter": {
+        "currentSide": "A",
+        "inPlay": true
+      },
+      "shuffleOnLoad": false
+    },
+    "nonFlippingPile": {
+      "canHaveAttachments": false,
+      "canHaveTokens": false,
+      "onCardEnter": {
+        "inPlay": false,
+        "rotation": 0
+      },
+      "shuffleOnLoad": true
+    },
+    "outOfPlay": {
+      "canHaveAttachments": true,
+      "canHaveTokens": true,
+      "onCardEnter": {
+        "currentSide": "A",
+        "inPlay": false
+      },
+      "shuffleOnLoad": false
+    },
+    "scored": {
+      "canHaveAttachments": false,
+      "canHaveTokens": true,
+      "onCardEnter": {
+        "currentSide": "A",
+        "inPlay": false,
+        "rotation": 0
+      },
+      "shuffleOnLoad": false
+    }
+  }
+}

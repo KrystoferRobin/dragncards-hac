@@ -1,0 +1,21 @@
+{
+  "steps": {
+    "startStep": {
+      "phaseId": "start",
+      "label": "Start of Turn"
+    },
+    "actionsStep": {
+      "phaseId": "actions",
+      "label": "Actions"
+    },
+    "endStep": {
+      "phaseId": "end",
+      "label": "End of Turn"
+    }
+  },
+  "stepOrder": [
+    "startStep",
+    "actionsStep",
+    "endStep"
+  ]
+}

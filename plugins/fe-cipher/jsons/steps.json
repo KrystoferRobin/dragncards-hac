@@ -1,0 +1,31 @@
+{
+  "steps": {
+    "startStep": {
+      "phaseId": "start",
+      "label": "Start"
+    },
+    "bondStep": {
+      "phaseId": "bond",
+      "label": "Bond"
+    },
+    "deployStep": {
+      "phaseId": "deploy",
+      "label": "Deploy"
+    },
+    "actionStep": {
+      "phaseId": "action",
+      "label": "Action"
+    },
+    "endStep": {
+      "phaseId": "end",
+      "label": "End"
+    }
+  },
+  "stepOrder": [
+    "startStep",
+    "bondStep",
+    "deployStep",
+    "actionStep",
+    "endStep"
+  ]
+}

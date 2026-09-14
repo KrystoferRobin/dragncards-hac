@@ -1,0 +1,100 @@
+{
+  "faceProperties": {
+    "AWA": {
+      "default": null,
+      "type": "integer"
+    },
+    "FIT": {
+      "default": null,
+      "type": "integer"
+    },
+    "FOC": {
+      "default": null,
+      "type": "integer"
+    },
+    "SPI": {
+      "default": null,
+      "type": "integer"
+    },
+    "UncommonWisdom": {
+      "default": false,
+      "type": "boolean"
+    },
+    "connectedLocations": {
+      "default": null,
+      "type": "list"
+    },
+    "connectedPaths": {
+      "default": null,
+      "type": "list"
+    },
+    "cost": {
+      "default": null,
+      "type": "integer"
+    },
+    "generic_token": {
+      "default": null,
+      "type": "integer"
+    },
+    "harm_threshold": {
+      "default": null,
+      "type": "integer"
+    },
+    "is_unique": {
+      "default": false,
+      "type": "boolean"
+    },
+    "pack_name": {
+      "default": "",
+      "type": "string"
+    },
+    "position": {
+      "default": null,
+      "type": "string"
+    },
+    "presence": {
+      "default": null,
+      "type": "integer"
+    },
+    "progress_threshold": {
+      "default": null,
+      "type": "integer"
+    },
+    "quantity": {
+      "default": 0,
+      "type": "integer"
+    },
+    "reveal": {
+      "default": null,
+      "type": "string"
+    },
+    "scaleGenericTokenPerPlayer": {
+      "default": false,
+      "type": "boolean"
+    },
+    "scaleHarmThresholdPerPlayer": {
+      "default": false,
+      "type": "boolean"
+    },
+    "scaleProgressThresholdPerPlayer": {
+      "default": false,
+      "type": "boolean"
+    },
+    "set": {
+      "default": "",
+      "type": "string"
+    },
+    "sphere_name": {
+      "default": "",
+      "type": "string"
+    },
+    "text": {
+      "default": null,
+      "type": "string"
+    },
+    "traits": {
+      "default": "",
+      "type": "string"
+    }
+  }
+}

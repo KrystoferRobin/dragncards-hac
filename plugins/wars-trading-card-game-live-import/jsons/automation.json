@@ -1,0 +1,301 @@
+{
+  "automation": {
+    "cards": {},
+    "gameRules": {
+      "phaseText": {
+        "_comment": "Display fade text for each phase",
+        "condition": true,
+        "inheritFrom": "stepTrigger",
+        "priority": 10,
+        "then": [
+          "COND",
+          [
+            "EQUAL",
+            "$GAME.stepId",
+            "1.0"
+          ],
+          [
+            [
+              "FADE_TEXT_GAME",
+              "Activate Phase"
+            ],
+            [
+              "UPDATE_LAYOUT",
+              "/layout/textBoxes/roundAdvancement/label",
+              "Activate Energy up to Icons on your side of Locations +1. Arrow-Down for Next."
+            ]
+          ],
+          [
+            "EQUAL",
+            "$GAME.stepId",
+            "2.1"
+          ],
+          [
+            [
+              "FADE_TEXT_GAME",
+              "Control Phase"
+            ],
+            [
+              "UPDATE_LAYOUT",
+              "/layout/textBoxes/roundAdvancement/label",
+              "Drain opponent for their energy icons at locations you control. Arrow-Down for Next."
+            ]
+          ],
+          [
+            "EQUAL",
+            "$GAME.stepId",
+            "3.1"
+          ],
+          [
+            [
+              "FADE_TEXT_GAME",
+              "Deploy Phase"
+            ],
+            [
+              "UPDATE_LAYOUT",
+              "/layout/textBoxes/roundAdvancement/label",
+              "Play cards from your hand. No limit. Arrow-Down for Next."
+            ]
+          ],
+          [
+            "EQUAL",
+            "$GAME.stepId",
+            "4.1"
+          ],
+          [
+            [
+              "FADE_TEXT_GAME",
+              "Battle Phase"
+            ],
+            [
+              "UPDATE_LAYOUT",
+              "/layout/textBoxes/roundAdvancement/label",
+              "Pay 1 Energy to start battle at a Location you both have units/ships at. Arrow-Down for Next."
+            ]
+          ],
+          [
+            "EQUAL",
+            "$GAME.stepId",
+            "4.2"
+          ],
+          [
+            "UPDATE_LAYOUT",
+            "/layout/textBoxes/roundAdvancement/label",
+            "Play interrupts/use activated abilities. Arrow-Down for Next."
+          ],
+          [
+            "EQUAL",
+            "$GAME.stepId",
+            "4.3"
+          ],
+          [
+            "UPDATE_LAYOUT",
+            "/layout/textBoxes/roundAdvancement/label",
+            "Both Players total Tactics. If total >4, draw Battle Destiny. Arrow-Down for Next."
+          ],
+          [
+            "EQUAL",
+            "$GAME.stepId",
+            "4.4"
+          ],
+          [
+            "UPDATE_LAYOUT",
+            "/layout/textBoxes/roundAdvancement/label",
+            "Play interrupts/use activated abilities. Arrow-Down for Next."
+          ],
+          [
+            "EQUAL",
+            "$GAME.stepId",
+            "4.5"
+          ],
+          [
+            "UPDATE_LAYOUT",
+            "/layout/textBoxes/roundAdvancement/label",
+            "Both players cause attrition equal to Battle Destiny. Arrow-Down for Next."
+          ],
+          [
+            "EQUAL",
+            "$GAME.stepId",
+            "4.6"
+          ],
+          [
+            "UPDATE_LAYOUT",
+            "/layout/textBoxes/roundAdvancement/label",
+            "Play interrupts/use activated abilities. Arrow-Down for Next."
+          ],
+          [
+            "EQUAL",
+            "$GAME.stepId",
+            "4.7"
+          ],
+          [
+            "UPDATE_LAYOUT",
+            "/layout/textBoxes/roundAdvancement/label",
+            "Both Players total power of Units/Ships at Location + Battle Destiny. Higher wins. Difference = Casualties. Arrow-Down for Next."
+          ],
+          [
+            "EQUAL",
+            "$GAME.stepId",
+            "4.8"
+          ],
+          [
+            "UPDATE_LAYOUT",
+            "/layout/textBoxes/roundAdvancement/label",
+            "Play interrupts/use activated abilities. Arrow-Down for Next."
+          ],
+          [
+            "EQUAL",
+            "$GAME.stepId",
+            "4.9"
+          ],
+          [
+            "UPDATE_LAYOUT",
+            "/layout/textBoxes/roundAdvancement/label",
+            "Losing Player loses Energy equal to Casualties. May reduce by damaging units/ships. Arrow-Down for Next."
+          ],
+          [
+            "EQUAL",
+            "$GAME.stepId",
+            "4.10"
+          ],
+          [
+            "UPDATE_LAYOUT",
+            "/layout/textBoxes/roundAdvancement/label",
+            "Play interrupts/use activated abilities. Arrow-Down for Next."
+          ],
+          [
+            "EQUAL",
+            "$GAME.stepId",
+            "4.11"
+          ],
+          [
+            [
+              "FADE_TEXT_GAME",
+              "Battle Phase: End of Battle"
+            ],
+            [
+              "UPDATE_LAYOUT",
+              "/layout/textBoxes/roundAdvancement/label",
+              "All Damaged Cards to Lost Pile. Arrow-Up to Step 4.1 to start another Battle Phase or Arrow-Down for Next Phase."
+            ]
+          ],
+          [
+            "EQUAL",
+            "$GAME.stepId",
+            "5.1"
+          ],
+          [
+            [
+              "FADE_TEXT_GAME",
+              "Move Phase"
+            ],
+            [
+              "UPDATE_LAYOUT",
+              "/layout/textBoxes/roundAdvancement/label",
+              "Pay 1 Energy to perform a Movement Action for ship/unit. May perform multiple moves. Arrow-Down for Next."
+            ]
+          ],
+          [
+            "EQUAL",
+            "$GAME.stepId",
+            "6.1"
+          ],
+          [
+            [
+              "FADE_TEXT_GAME",
+              "Draw Phase"
+            ],
+            [
+              "UPDATE_LAYOUT",
+              "/layout/textBoxes/roundAdvancement/label",
+              "Draw cards from Active Pile one at a time. No limit. Arrow-Down for Next."
+            ]
+          ],
+          [
+            "EQUAL",
+            "$GAME.stepId",
+            "7.1"
+          ],
+          [
+            [
+              "FADE_TEXT_GAME",
+              "End of Turn Phase"
+            ],
+            [
+              "UPDATE_LAYOUT",
+              "/layout/textBoxes/roundAdvancement/label",
+              "End Turn. Hotkey E to move Used Pile to bottom of Reserve. Arrow-Down for Next."
+            ]
+          ]
+        ]
+      },
+      "player1EnergyUpdater": {
+        "_comment": "Compact update for Player1 Energy",
+        "condition": true,
+        "inheritFrom": "player1deckTrigger",
+        "priority": 10,
+        "then": [
+          [
+            "SET",
+            "/playerData/player1/energy",
+            [
+              "ADD",
+              [
+                "LENGTH",
+                "$GAME.groupById.player1Reserve.stackIds"
+              ],
+              [
+                "LENGTH",
+                "$GAME.groupById.player1Active.stackIds"
+              ],
+              [
+                "LENGTH",
+                "$GAME.groupById.player1Used.stackIds"
+              ]
+            ]
+          ]
+        ]
+      },
+      "player1deckTrigger": {
+        "_comment": "Abstract class to watch Deck Count Changes",
+        "abstract": true,
+        "listenTo": [
+          "$GAME.groupById.player1Reserve.stackIds",
+          "$GAME.groupById.player1Active.stackIds",
+          "$GAME.groupById.player1Used.stackIds"
+        ],
+        "type": "trigger"
+      },
+      "stepTrigger": {
+        "_comment": "Abstract class to trigger game step effects",
+        "abstract": true,
+        "listenTo": [
+          "/stepId"
+        ],
+        "type": "trigger"
+      }
+    },
+    "postLoadActionList": [
+      [
+        "LOG",
+        "{{$PLAYER_N}} loaded some cards."
+      ]
+    ],
+    "postNewGameActionList": [
+      [
+        "LOG",
+        "A new game was created."
+      ],
+      [
+        "PROMPT",
+        "player1",
+        "welcome1"
+      ],
+      [
+        "PROMPT",
+        "player2",
+        "welcome1"
+      ]
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "groupMenu": {
+    "moveToGroupIds": [
+      "playerNHand",
+      "playerNArtifacts",
+      "playerNLandOfRedemption",
+      "playerNBanished",
+      "playerNTokens",
+      "sharedSetAside"
+    ],
+    "options": []
+  }
+}

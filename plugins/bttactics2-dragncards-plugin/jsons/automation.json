@@ -1,0 +1,7 @@
+{
+  "automation": {
+    "postNewGameActionList": [
+      ["LOG", "BT Tactics 2 table created. Load a 60-card deck, shuffle, draw 5. No rules are enforced."]
+    ]
+  }
+}

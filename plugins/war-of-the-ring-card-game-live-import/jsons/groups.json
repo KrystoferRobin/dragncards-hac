@@ -1,0 +1,1133 @@
+{
+  "groups": {
+    "sharedPathDeck5B": {
+      "canHaveAttachments": false,
+      "groupType": "deck",
+      "label": "id:pathDeck5B",
+      "onCardEnter": {
+        "deckGroupId": "sharedPathDeck5B"
+      },
+      "shuffleOnLoad": false,
+      "tableLabel": "id:pathDeck5B"
+    },
+    "player4Cycled": {
+      "canHaveAttachments": false,
+      "groupType": "nonFlippingPile",
+      "label": "id:player4Cycled",
+      "onCardEnter": {
+        "bonusApplied": false,
+        "controller": "player4",
+        "cycleGroupId": "player4Cycled",
+        "deckGroupId": "player4Deck",
+        "eliminateGroupId": "player4Eliminated",
+        "peeking": {}
+      },
+      "tableLabel": "id:cycled"
+    },
+    "sharedActiveLocation4": {
+      "activeBlueGroupId": "sharedActiveBlue4",
+      "activeRedGroupId": "sharedActiveRed4",
+      "canHaveAttachments": true,
+      "groupType": "inPlay",
+      "label": "id:activeLocation4",
+      "onCardEnter": {
+        "locationIndex": 4
+      },
+      "onCardLeave": {
+        "locationIndex": null
+      },
+      "tableLabel": "id:location4"
+    },
+    "sharedSetAsidePile1": {
+      "canHaveAttachments": true,
+      "groupType": "deck",
+      "label": "id:setAsidePile1",
+      "onCardEnter": {},
+      "tableLabel": "id:setAsidePile1"
+    },
+    "player2Eliminated": {
+      "canHaveAttachments": false,
+      "groupType": "nonFlippingPile",
+      "label": "id:player2Eliminated",
+      "onCardEnter": {
+        "bonusApplied": false,
+        "peeking": {}
+      },
+      "tableLabel": "id:eliminated"
+    },
+    "sharedActiveBlue2": {
+      "canHaveAttachments": true,
+      "color": "blue",
+      "groupType": "inPlay",
+      "label": "id:activeFreePeoples2",
+      "onCardEnter": {
+        "locationGroupId": "sharedActiveLocation2",
+        "locationIndex": 2
+      },
+      "onCardLeave": {
+        "isSupported": false,
+        "isSupporting": false,
+        "locationGroupId": null,
+        "locationIndex": null
+      },
+      "tableLabel": "id:freePeoples2"
+    },
+    "sharedActiveBlue4": {
+      "canHaveAttachments": true,
+      "color": "blue",
+      "groupType": "inPlay",
+      "label": "id:activeFreePeoples4",
+      "onCardEnter": {
+        "locationGroupId": "sharedActiveLocation4",
+        "locationIndex": 4
+      },
+      "onCardLeave": {
+        "isSupported": false,
+        "isSupporting": false,
+        "locationGroupId": null,
+        "locationIndex": null
+      },
+      "tableLabel": "id:freePeoples4"
+    },
+    "player6Hand": {
+      "canHaveAttachments": false,
+      "groupType": "hand",
+      "label": "id:player6Hand",
+      "onCardEnter": {
+        "bonusApplied": false,
+        "controller": "player6",
+        "peeking": {
+          "player6": true
+        }
+      },
+      "tableLabel": "id:hand"
+    },
+    "sharedPathDeck2A": {
+      "canHaveAttachments": false,
+      "groupType": "deck",
+      "label": "id:pathDeck2A",
+      "onCardEnter": {
+        "deckGroupId": "sharedPathDeck2A"
+      },
+      "shuffleOnLoad": false,
+      "tableLabel": "id:pathDeck2A"
+    },
+    "player3Eliminated": {
+      "canHaveAttachments": false,
+      "groupType": "nonFlippingPile",
+      "label": "id:player3Eliminated",
+      "onCardEnter": {
+        "bonusApplied": false,
+        "peeking": {}
+      },
+      "tableLabel": "id:eliminated"
+    },
+    "sharedActiveRed2": {
+      "canHaveAttachments": true,
+      "color": "red",
+      "groupType": "inPlay",
+      "label": "id:activeShadow2",
+      "onCardEnter": {
+        "locationGroupId": "sharedActiveLocation2",
+        "locationIndex": 2
+      },
+      "onCardLeave": {
+        "isSupported": false,
+        "isSupporting": false,
+        "locationGroupId": null,
+        "locationIndex": null
+      },
+      "tableLabel": "id:shadow2"
+    },
+    "player4Eliminated": {
+      "canHaveAttachments": false,
+      "groupType": "nonFlippingPile",
+      "label": "id:player4Eliminated",
+      "onCardEnter": {
+        "bonusApplied": false,
+        "peeking": {}
+      },
+      "tableLabel": "id:eliminated"
+    },
+    "player5Reserve": {
+      "canHaveAttachments": true,
+      "groupType": "inPlay",
+      "label": "id:player5Reserve",
+      "onCardEnter": {},
+      "tableLabel": "id:p5Reserve"
+    },
+    "player3Cycled": {
+      "canHaveAttachments": false,
+      "groupType": "nonFlippingPile",
+      "label": "id:player3Cycled",
+      "onCardEnter": {
+        "bonusApplied": false,
+        "controller": "player3",
+        "cycleGroupId": "player3Cycled",
+        "deckGroupId": "player3Deck",
+        "eliminateGroupId": "player3Eliminated",
+        "peeking": {}
+      },
+      "tableLabel": "id:cycled"
+    },
+    "sharedPathDeck6": {
+      "canHaveAttachments": false,
+      "groupType": "deck",
+      "label": "id:pathDeck6",
+      "onCardEnter": {
+        "deckGroupId": "sharedPathDeck6"
+      },
+      "shuffleOnLoad": false,
+      "tableLabel": "id:pathDeck6"
+    },
+    "sharedActiveLocation1": {
+      "activeBlueGroupId": "sharedActiveBlue1",
+      "activeRedGroupId": "sharedActiveRed1",
+      "canHaveAttachments": true,
+      "groupType": "inPlay",
+      "label": "id:activeLocation1",
+      "onCardEnter": {
+        "locationIndex": 1
+      },
+      "onCardLeave": {
+        "locationIndex": null
+      },
+      "tableLabel": "id:location1"
+    },
+    "player5Vault": {
+      "canHaveAttachments": false,
+      "groupType": "deck",
+      "label": "id:player5Vault",
+      "onCardEnter": {
+        "bonusApplied": false,
+        "controller": "player5",
+        "cycleGroupId": "player5Cycled",
+        "deckGroupId": "player5Deck",
+        "eliminateGroupId": "player5Eliminated"
+      },
+      "onCardLeave": {
+        "controller": "player5"
+      },
+      "shuffleOnLoad": false,
+      "tableLabel": "id:deck"
+    },
+    "player3Deck": {
+      "canHaveAttachments": false,
+      "groupType": "deck",
+      "label": "id:player3Deck",
+      "onCardEnter": {
+        "bonusApplied": false,
+        "controller": "player3",
+        "cycleGroupId": "player3Cycled",
+        "deckGroupId": "player3Deck",
+        "eliminateGroupId": "player3Eliminated"
+      },
+      "onCardLeave": {
+        "controller": "player3"
+      },
+      "shuffleOnLoad": true,
+      "tableLabel": "id:deck"
+    },
+    "sharedPathDeck9B": {
+      "canHaveAttachments": false,
+      "groupType": "deck",
+      "label": "id:pathDeck9B",
+      "onCardEnter": {
+        "deckGroupId": "sharedPathDeck9B"
+      },
+      "shuffleOnLoad": false,
+      "tableLabel": "id:pathDeck9B"
+    },
+    "sharedPathDeck5": {
+      "canHaveAttachments": false,
+      "groupType": "deck",
+      "label": "id:pathDeck5",
+      "onCardEnter": {
+        "deckGroupId": "sharedPathDeck5"
+      },
+      "shuffleOnLoad": false,
+      "tableLabel": "id:pathDeck5"
+    },
+    "player6Cycled": {
+      "canHaveAttachments": false,
+      "groupType": "nonFlippingPile",
+      "label": "id:player6Cycled",
+      "onCardEnter": {
+        "bonusApplied": false,
+        "controller": "player6",
+        "cycleGroupId": "player6Cycled",
+        "deckGroupId": "player6Deck",
+        "eliminateGroupId": "player6Eliminated",
+        "peeking": {}
+      },
+      "tableLabel": "id:cycled"
+    },
+    "sharedActiveBlue5": {
+      "canHaveAttachments": true,
+      "color": "blue",
+      "groupType": "inPlay",
+      "label": "id:activeFreePeoples5",
+      "onCardEnter": {
+        "locationGroupId": "sharedActiveLocation5",
+        "locationIndex": 5
+      },
+      "onCardLeave": {
+        "isSupported": false,
+        "isSupporting": false,
+        "locationGroupId": null,
+        "locationIndex": null
+      },
+      "tableLabel": "id:freePeoples5"
+    },
+    "sharedSetAsideHand": {
+      "canHaveAttachments": true,
+      "groupType": "deck",
+      "label": "id:setAsideHand",
+      "onCardEnter": {},
+      "tableLabel": "id:setAsideHand"
+    },
+    "sharedPathDeck8B": {
+      "canHaveAttachments": false,
+      "groupType": "deck",
+      "label": "id:pathDeck8B",
+      "onCardEnter": {
+        "deckGroupId": "sharedPathDeck8B"
+      },
+      "shuffleOnLoad": false,
+      "tableLabel": "id:pathDeck8B"
+    },
+    "player3Hand": {
+      "canHaveAttachments": false,
+      "groupType": "hand",
+      "label": "id:player3Hand",
+      "onCardEnter": {
+        "controller": "player3",
+        "peeking": {
+          "player3": true
+        }
+      },
+      "tableLabel": "id:hand"
+    },
+    "player6Vault": {
+      "canHaveAttachments": false,
+      "groupType": "deck",
+      "label": "id:player6Vault",
+      "onCardEnter": {
+        "bonusApplied": false,
+        "controller": "player6",
+        "cycleGroupId": "player6Cycled",
+        "deckGroupId": "player6Deck",
+        "eliminateGroupId": "player6Eliminated"
+      },
+      "onCardLeave": {
+        "controller": "player6"
+      },
+      "shuffleOnLoad": false,
+      "tableLabel": "id:deck"
+    },
+    "sharedPathDeck1A": {
+      "canHaveAttachments": false,
+      "groupType": "deck",
+      "label": "id:pathDeck1A",
+      "onCardEnter": {
+        "deckGroupId": "sharedPathDeck1A"
+      },
+      "shuffleOnLoad": false,
+      "tableLabel": "id:pathDeck1A"
+    },
+    "player1Eliminated": {
+      "canHaveAttachments": false,
+      "groupType": "nonFlippingPile",
+      "label": "id:player1Eliminated",
+      "onCardEnter": {
+        "bonusApplied": false,
+        "peeking": {}
+      },
+      "tableLabel": "id:eliminated"
+    },
+    "sharedActiveLocation5": {
+      "activeBlueGroupId": "sharedActiveBlue5",
+      "activeRedGroupId": "sharedActiveRed5",
+      "canHaveAttachments": true,
+      "groupType": "inPlay",
+      "label": "id:activeLocation5",
+      "onCardEnter": {
+        "locationIndex": 5
+      },
+      "onCardLeave": {
+        "locationIndex": null
+      },
+      "tableLabel": "id:location5"
+    },
+    "sharedPathDeck3B": {
+      "canHaveAttachments": false,
+      "groupType": "deck",
+      "label": "id:pathDeck3B",
+      "onCardEnter": {
+        "deckGroupId": "sharedPathDeck3B"
+      },
+      "shuffleOnLoad": false,
+      "tableLabel": "id:pathDeck3B"
+    },
+    "player6Reserve": {
+      "canHaveAttachments": true,
+      "groupType": "inPlay",
+      "label": "id:player6Reserve",
+      "onCardEnter": {},
+      "tableLabel": "id:p6Reserve"
+    },
+    "player4Deck": {
+      "canHaveAttachments": false,
+      "groupType": "deck",
+      "label": "id:player4Deck",
+      "onCardEnter": {
+        "bonusApplied": false,
+        "controller": "player4",
+        "cycleGroupId": "player4Cycled",
+        "deckGroupId": "player4Deck",
+        "eliminateGroupId": "player4Eliminated"
+      },
+      "onCardLeave": {
+        "controller": "player4"
+      },
+      "shuffleOnLoad": true,
+      "tableLabel": "id:deck"
+    },
+    "sharedPathDeck7A": {
+      "canHaveAttachments": false,
+      "groupType": "deck",
+      "label": "id:pathDeck7A",
+      "onCardEnter": {
+        "deckGroupId": "sharedPathDeck7A"
+      },
+      "shuffleOnLoad": false,
+      "tableLabel": "id:pathDeck7A"
+    },
+    "sharedActiveRed5": {
+      "canHaveAttachments": true,
+      "color": "red",
+      "groupType": "inPlay",
+      "label": "id:activeShadow5",
+      "onCardEnter": {
+        "locationGroupId": "sharedActiveLocation5",
+        "locationIndex": 5
+      },
+      "onCardLeave": {
+        "isSupported": false,
+        "isSupporting": false,
+        "locationGroupId": null,
+        "locationIndex": null
+      },
+      "tableLabel": "id:shadow5"
+    },
+    "player5Eliminated": {
+      "canHaveAttachments": false,
+      "groupType": "nonFlippingPile",
+      "label": "id:player5Eliminated",
+      "onCardEnter": {
+        "bonusApplied": false,
+        "peeking": {}
+      },
+      "tableLabel": "id:eliminated"
+    },
+    "sharedActiveRed6": {
+      "canHaveAttachments": true,
+      "color": "red",
+      "groupType": "inPlay",
+      "label": "id:activeShadow6",
+      "onCardEnter": {
+        "locationGroupId": "sharedActiveLocation6",
+        "locationIndex": 6
+      },
+      "onCardLeave": {
+        "isSupported": false,
+        "isSupporting": false,
+        "locationIndex": null
+      },
+      "tableLabel": "id:shadow6"
+    },
+    "sharedActiveRedPath": {
+      "canHaveAttachments": true,
+      "color": "red",
+      "groupType": "inPlay",
+      "label": "id:activeShadowPath",
+      "onCardEnter": {
+        "locationGroupId": "sharedActivePath",
+        "locationIndex": 1
+      },
+      "onCardLeave": {
+        "locationGroupId": null,
+        "locationIndex": null
+      },
+      "tableLabel": "id:shadowPath"
+    },
+    "player2Vault": {
+      "canHaveAttachments": false,
+      "groupType": "deck",
+      "label": "id:player2Vault",
+      "onCardEnter": {
+        "bonusApplied": false,
+        "controller": "player2",
+        "cycleGroupId": "player2Cycled",
+        "deckGroupId": "player2Deck",
+        "eliminateGroupId": "player2Eliminated"
+      },
+      "onCardLeave": {
+        "controller": "player2"
+      },
+      "shuffleOnLoad": false,
+      "tableLabel": "id:deck"
+    },
+    "sharedPathDeck9A": {
+      "canHaveAttachments": false,
+      "groupType": "deck",
+      "label": "id:pathDeck9",
+      "onCardEnter": {
+        "deckGroupId": "sharedPathDeck9A"
+      },
+      "shuffleOnLoad": false,
+      "tableLabel": "id:pathDeck9"
+    },
+    "sharedActivePath": {
+      "activeBlueGroupId": "sharedActiveBluePath",
+      "canHaveAttachments": true,
+      "groupType": "inPlay",
+      "label": "id:activePath",
+      "onCardEnter": {
+        "locationIndex": 1
+      },
+      "onCardLeave": {
+        "locationIndex": null
+      },
+      "tableLabel": "id:locationPath"
+    },
+    "sharedActiveBluePath": {
+      "canHaveAttachments": true,
+      "color": "blue",
+      "groupType": "inPlay",
+      "label": "id:activeFreePeoplesPath",
+      "onCardEnter": {
+        "locationGroupId": "sharedActivePath",
+        "locationIndex": 1
+      },
+      "onCardLeave": {
+        "isSupported": false,
+        "isSupporting": false,
+        "locationGroupId": null,
+        "locationIndex": null
+      },
+      "tableLabel": "id:freePeoplesPath"
+    },
+    "player4Hand": {
+      "canHaveAttachments": false,
+      "groupType": "hand",
+      "label": "id:player4Hand",
+      "onCardEnter": {
+        "controller": "player4",
+        "peeking": {
+          "player4": true
+        }
+      },
+      "tableLabel": "id:hand"
+    },
+    "sharedPathDeck3": {
+      "canHaveAttachments": false,
+      "groupType": "deck",
+      "label": "id:pathDeck3",
+      "onCardEnter": {
+        "deckGroupId": "sharedPathDeck3"
+      },
+      "shuffleOnLoad": false,
+      "tableLabel": "id:pathDeck3"
+    },
+    "player1Reserve": {
+      "canHaveAttachments": true,
+      "groupType": "inPlay",
+      "label": "id:player1Reserve",
+      "onCardEnter": {},
+      "tableLabel": "id:p1Reserve"
+    },
+    "sharedPathDeck5A": {
+      "canHaveAttachments": false,
+      "groupType": "deck",
+      "label": "id:pathDeck5A",
+      "onCardEnter": {
+        "deckGroupId": "sharedPathDeck5A"
+      },
+      "shuffleOnLoad": false,
+      "tableLabel": "id:pathDeck5A"
+    },
+    "sharedPathDeck6A": {
+      "canHaveAttachments": false,
+      "groupType": "deck",
+      "label": "id:pathDeck6A",
+      "onCardEnter": {
+        "deckGroupId": "sharedPathDeck6A"
+      },
+      "shuffleOnLoad": false,
+      "tableLabel": "id:pathDeck6A"
+    },
+    "sharedActiveLocation3": {
+      "activeBlueGroupId": "sharedActiveBlue3",
+      "activeRedGroupId": "sharedActiveRed3",
+      "canHaveAttachments": true,
+      "groupType": "inPlay",
+      "label": "id:activeLocation3",
+      "onCardEnter": {
+        "locationIndex": 3
+      },
+      "onCardLeave": {
+        "locationIndex": null
+      },
+      "tableLabel": "id:location3"
+    },
+    "player3Vault": {
+      "canHaveAttachments": false,
+      "groupType": "deck",
+      "label": "id:player3Vault",
+      "onCardEnter": {
+        "bonusApplied": false,
+        "controller": "player3",
+        "cycleGroupId": "player3Cycled",
+        "deckGroupId": "player3Deck",
+        "eliminateGroupId": "player3Eliminated"
+      },
+      "onCardLeave": {
+        "controller": "player3"
+      },
+      "shuffleOnLoad": false,
+      "tableLabel": "id:deck"
+    },
+    "player5Deck": {
+      "canHaveAttachments": false,
+      "groupType": "deck",
+      "label": "id:player5Deck",
+      "onCardEnter": {
+        "bonusApplied": false,
+        "controller": "player5",
+        "cycleGroupId": "player5Cycled",
+        "deckGroupId": "player5Deck",
+        "eliminateGroupId": "player5Eliminated"
+      },
+      "onCardLeave": {
+        "controller": "player5"
+      },
+      "shuffleOnLoad": true,
+      "tableLabel": "id:deck"
+    },
+    "sharedPathDeck9": {
+      "canHaveAttachments": false,
+      "groupType": "deck",
+      "label": "id:pathDeck9",
+      "onCardEnter": {
+        "deckGroupId": "sharedPathDeck9"
+      },
+      "shuffleOnLoad": false,
+      "tableLabel": "id:pathDeck9"
+    },
+    "sharedPathDeck7B": {
+      "canHaveAttachments": false,
+      "groupType": "deck",
+      "label": "id:pathDeck7B",
+      "onCardEnter": {
+        "deckGroupId": "sharedPathDeck7B"
+      },
+      "shuffleOnLoad": false,
+      "tableLabel": "id:pathDeck7B"
+    },
+    "sharedPathDeck4": {
+      "canHaveAttachments": false,
+      "groupType": "deck",
+      "label": "id:pathDeck4",
+      "onCardEnter": {
+        "deckGroupId": "sharedPathDeck4"
+      },
+      "shuffleOnLoad": false,
+      "tableLabel": "id:pathDeck4"
+    },
+    "sharedPathDeck2B": {
+      "canHaveAttachments": false,
+      "groupType": "deck",
+      "label": "id:pathDeck2B",
+      "onCardEnter": {
+        "deckGroupId": "sharedPathDeck2B"
+      },
+      "shuffleOnLoad": false,
+      "tableLabel": "id:pathDeck2B"
+    },
+    "player2Hand": {
+      "canHaveAttachments": false,
+      "groupType": "hand",
+      "label": "id:player2Hand",
+      "onCardEnter": {
+        "controller": "player2",
+        "peeking": {
+          "player2": true
+        }
+      },
+      "tableLabel": "id:hand"
+    },
+    "sharedScoringBlue": {
+      "canHaveAttachments": false,
+      "groupType": "scored",
+      "label": "id:freePeoplesScoringArea",
+      "onCardEnter": {},
+      "tableLabel": "id:freePeoplesScoringArea"
+    },
+    "sharedActiveBlue1": {
+      "canHaveAttachments": true,
+      "color": "blue",
+      "groupType": "inPlay",
+      "label": "id:activeFreePeoples1",
+      "onCardEnter": {
+        "locationGroupId": "sharedActiveLocation1",
+        "locationIndex": 1
+      },
+      "onCardLeave": {
+        "isSupported": false,
+        "isSupporting": false,
+        "locationGroupId": null,
+        "locationIndex": null
+      },
+      "tableLabel": "id:freePeoples1"
+    },
+    "sharedActiveBlue3": {
+      "canHaveAttachments": true,
+      "color": "blue",
+      "groupType": "inPlay",
+      "label": "id:activeFreePeoples3",
+      "onCardEnter": {
+        "locationGroupId": "sharedActiveLocation3",
+        "locationIndex": 3
+      },
+      "onCardLeave": {
+        "isSupported": false,
+        "isSupporting": false,
+        "locationGroupId": null,
+        "locationIndex": null
+      },
+      "tableLabel": "id:freePeoples3"
+    },
+    "player6Eliminated": {
+      "canHaveAttachments": false,
+      "groupType": "nonFlippingPile",
+      "label": "id:player6Eliminated",
+      "onCardEnter": {
+        "bonusApplied": false,
+        "peeking": {}
+      },
+      "tableLabel": "id:eliminated"
+    },
+    "player6Deck": {
+      "canHaveAttachments": false,
+      "groupType": "deck",
+      "label": "id:player6Deck",
+      "onCardEnter": {
+        "bonusApplied": false,
+        "controller": "player6",
+        "cycleGroupId": "player6Cycled",
+        "deckGroupId": "player6Deck",
+        "eliminateGroupId": "player6Eliminated"
+      },
+      "onCardLeave": {
+        "controller": "player6"
+      },
+      "shuffleOnLoad": true,
+      "tableLabel": "id:deck"
+    },
+    "player2Deck": {
+      "canHaveAttachments": false,
+      "groupType": "deck",
+      "label": "id:player2Deck",
+      "onCardEnter": {
+        "bonusApplied": false,
+        "controller": "player2",
+        "cycleGroupId": "player2Cycled",
+        "deckGroupId": "player2Deck",
+        "eliminateGroupId": "player2Eliminated"
+      },
+      "onCardLeave": {
+        "controller": "player2"
+      },
+      "shuffleOnLoad": true,
+      "tableLabel": "id:deck"
+    },
+    "sharedPathDeck4A": {
+      "canHaveAttachments": false,
+      "groupType": "deck",
+      "label": "id:pathDeck4A",
+      "onCardEnter": {
+        "deckGroupId": "sharedPathDeck4A"
+      },
+      "shuffleOnLoad": false,
+      "tableLabel": "id:pathDeck4A"
+    },
+    "player1Deck": {
+      "canHaveAttachments": false,
+      "groupType": "deck",
+      "label": "id:player1Deck",
+      "onCardEnter": {
+        "bonusApplied": false,
+        "controller": "player1",
+        "cycleGroupId": "player1Cycled",
+        "deckGroupId": "player1Deck",
+        "eliminateGroupId": "player1Eliminated"
+      },
+      "onCardLeave": {
+        "controller": "player1"
+      },
+      "shuffleOnLoad": true,
+      "tableLabel": "id:deck"
+    },
+    "sharedActiveLocation2": {
+      "activeBlueGroupId": "sharedActiveBlue2",
+      "activeRedGroupId": "sharedActiveRed2",
+      "canHaveAttachments": true,
+      "groupType": "inPlay",
+      "label": "id:activeLocation2",
+      "onCardEnter": {
+        "locationIndex": 2
+      },
+      "onCardLeave": {
+        "locationIndex": null
+      },
+      "tableLabel": "id:location2"
+    },
+    "sharedPathDeck3A": {
+      "canHaveAttachments": false,
+      "groupType": "deck",
+      "label": "id:pathDeck3A",
+      "onCardEnter": {
+        "deckGroupId": "sharedPathDeck3A"
+      },
+      "shuffleOnLoad": false,
+      "tableLabel": "id:pathDeck3A"
+    },
+    "sharedPathDeck8": {
+      "canHaveAttachments": false,
+      "groupType": "deck",
+      "label": "id:pathDeck8",
+      "onCardEnter": {
+        "deckGroupId": "sharedPathDeck8"
+      },
+      "shuffleOnLoad": false,
+      "tableLabel": "id:pathDeck8"
+    },
+    "player2Cycled": {
+      "canHaveAttachments": false,
+      "groupType": "nonFlippingPile",
+      "label": "id:player2Cycled",
+      "onCardEnter": {
+        "bonusApplied": false,
+        "controller": "player2",
+        "cycleGroupId": "player2Cycled",
+        "deckGroupId": "player2Deck",
+        "eliminateGroupId": "player2Eliminated",
+        "peeking": {}
+      },
+      "tableLabel": "id:cycled"
+    },
+    "player2Reserve": {
+      "canHaveAttachments": true,
+      "groupType": "inPlay",
+      "label": "id:player2Reserve",
+      "onCardEnter": {},
+      "tableLabel": "id:p2Reserve"
+    },
+    "sharedPathDeck2": {
+      "canHaveAttachments": false,
+      "groupType": "deck",
+      "label": "id:pathDeck2",
+      "onCardEnter": {
+        "deckGroupId": "sharedPathDeck2"
+      },
+      "shuffleOnLoad": false,
+      "tableLabel": "id:pathDeck2"
+    },
+    "player4Vault": {
+      "canHaveAttachments": false,
+      "groupType": "deck",
+      "label": "id:player4Vault",
+      "onCardEnter": {
+        "bonusApplied": false,
+        "controller": "player4",
+        "cycleGroupId": "player4Cycled",
+        "deckGroupId": "player4Deck",
+        "eliminateGroupId": "player4Eliminated"
+      },
+      "onCardLeave": {
+        "controller": "player4"
+      },
+      "shuffleOnLoad": false,
+      "tableLabel": "id:deck"
+    },
+    "sharedActiveRed4": {
+      "canHaveAttachments": true,
+      "color": "red",
+      "groupType": "inPlay",
+      "label": "id:activeShadow4",
+      "onCardEnter": {
+        "locationGroupId": "sharedActiveLocation4",
+        "locationIndex": 4
+      },
+      "onCardLeave": {
+        "isSupported": false,
+        "isSupporting": false,
+        "locationGroupId": null,
+        "locationIndex": null
+      },
+      "tableLabel": "id:shadow4"
+    },
+    "player1Cycled": {
+      "canHaveAttachments": false,
+      "groupType": "nonFlippingPile",
+      "label": "id:player1Cycled",
+      "onCardEnter": {
+        "bonusApplied": false,
+        "controller": "player1",
+        "cycleGroupId": "player1Cycled",
+        "deckGroupId": "player1Deck",
+        "eliminateGroupId": "player1Eliminated",
+        "peeking": {}
+      },
+      "tableLabel": "id:cycled"
+    },
+    "sharedActiveLocation6": {
+      "activeBlueGroupId": "sharedActiveBlue6",
+      "activeRedGroupId": "sharedActiveRed6",
+      "canHaveAttachments": true,
+      "groupType": "inPlay",
+      "label": "id:activeLocation6",
+      "onCardEnter": {
+        "locationIndex": 6
+      },
+      "onCardLeave": {
+        "locationIndex": null
+      },
+      "tableLabel": "id:location6"
+    },
+    "sharedAside": {
+      "canHaveAttachments": true,
+      "groupType": "discard",
+      "label": "id:aside",
+      "onCardEnter": {},
+      "tableLabel": "id:aside"
+    },
+    "player5Hand": {
+      "canHaveAttachments": false,
+      "groupType": "hand",
+      "label": "id:player5Hand",
+      "onCardEnter": {
+        "controller": "player5",
+        "peeking": {
+          "player5": true
+        }
+      },
+      "tableLabel": "id:hand"
+    },
+    "player1Vault": {
+      "canHaveAttachments": false,
+      "groupType": "deck",
+      "label": "id:player1Vault",
+      "onCardEnter": {
+        "bonusApplied": false,
+        "controller": "player1",
+        "cycleGroupId": "player1Cycled",
+        "deckGroupId": "player1Deck",
+        "eliminateGroupId": "player1Eliminated"
+      },
+      "onCardLeave": {
+        "controller": "player1"
+      },
+      "shuffleOnLoad": false,
+      "tableLabel": "id:deck"
+    },
+    "sharedPathDeck8A": {
+      "canHaveAttachments": false,
+      "groupType": "deck",
+      "label": "id:pathDeck8A",
+      "onCardEnter": {
+        "deckGroupId": "sharedPathDeck8A"
+      },
+      "shuffleOnLoad": false,
+      "tableLabel": "id:pathDeck8A"
+    },
+    "sharedPathDeck1B": {
+      "canHaveAttachments": false,
+      "groupType": "deck",
+      "label": "id:pathDeck1B",
+      "onCardEnter": {
+        "deckGroupId": "sharedPathDeck1B"
+      },
+      "shuffleOnLoad": false,
+      "tableLabel": "id:pathDeck1B"
+    },
+    "player4Reserve": {
+      "canHaveAttachments": true,
+      "groupType": "inPlay",
+      "label": "id:player4Reserve",
+      "onCardEnter": {},
+      "tableLabel": "id:p4Reserve"
+    },
+    "sharedPathDeck4B": {
+      "canHaveAttachments": false,
+      "groupType": "deck",
+      "label": "id:pathDeck4B",
+      "onCardEnter": {
+        "deckGroupId": "sharedPathDeck4B"
+      },
+      "shuffleOnLoad": false,
+      "tableLabel": "id:pathDeck4B"
+    },
+    "sharedSetAsidePile2": {
+      "canHaveAttachments": true,
+      "groupType": "deck",
+      "label": "id:setAsidePile2",
+      "onCardEnter": {},
+      "tableLabel": "id:setAsidePile2"
+    },
+    "sharedBattlegroundRed": {
+      "canHaveAttachments": false,
+      "groupType": "deck",
+      "label": "id:shadowBattlegroundDeck",
+      "onCardEnter": {
+        "controller": "shared",
+        "deckGroupId": "sharedBattlegroundRed"
+      },
+      "shuffleOnLoad": false,
+      "tableLabel": ""
+    },
+    "player3Reserve": {
+      "canHaveAttachments": true,
+      "groupType": "inPlay",
+      "label": "id:player3Reserve",
+      "onCardEnter": {},
+      "tableLabel": "id:p3Reserve"
+    },
+    "sharedActiveBlue6": {
+      "canHaveAttachments": true,
+      "color": "blue",
+      "groupType": "inPlay",
+      "label": "id:activeFreePeoples6",
+      "onCardEnter": {
+        "locationGroupId": "sharedActiveLocation6",
+        "locationIndex": 6
+      },
+      "onCardLeave": {
+        "isSupported": false,
+        "isSupporting": false,
+        "locationGroupId": null,
+        "locationIndex": null
+      },
+      "tableLabel": "id:freePeoples6"
+    },
+    "sharedBattlegroundBlue": {
+      "canHaveAttachments": false,
+      "groupType": "deck",
+      "label": "id:freePeoplesBattlegroundDeck",
+      "onCardEnter": {
+        "controller": "shared",
+        "deckGroupId": "sharedBattlegroundRed"
+      },
+      "shuffleOnLoad": false,
+      "tableLabel": ""
+    },
+    "sharedPathDeck1": {
+      "canHaveAttachments": false,
+      "groupType": "deck",
+      "label": "id:pathDeck1",
+      "onCardEnter": {
+        "deckGroupId": "sharedPathDeck1"
+      },
+      "shuffleOnLoad": false,
+      "tableLabel": "id:pathDeck1"
+    },
+    "sharedPathDeck6B": {
+      "canHaveAttachments": false,
+      "groupType": "deck",
+      "label": "id:pathDeck6B",
+      "onCardEnter": {
+        "deckGroupId": "sharedPathDeck6B"
+      },
+      "shuffleOnLoad": false,
+      "tableLabel": "id:pathDeck6B"
+    },
+    "sharedScoringRed": {
+      "canHaveAttachments": false,
+      "groupType": "scored",
+      "label": "id:shadowScoringArea",
+      "onCardEnter": {},
+      "tableLabel": "id:shadowScoringArea"
+    },
+    "sharedPathDeck7": {
+      "canHaveAttachments": false,
+      "groupType": "deck",
+      "label": "id:pathDeck7",
+      "onCardEnter": {
+        "deckGroupId": "sharedPathDeck7"
+      },
+      "shuffleOnLoad": false,
+      "tableLabel": "id:pathDeck7"
+    },
+    "player5Cycled": {
+      "canHaveAttachments": false,
+      "groupType": "nonFlippingPile",
+      "label": "id:player5Cycled",
+      "onCardEnter": {
+        "bonusApplied": false,
+        "controller": "player5",
+        "cycleGroupId": "player5Cycled",
+        "deckGroupId": "player5Deck",
+        "eliminateGroupId": "player5Eliminated",
+        "peeking": {}
+      },
+      "tableLabel": "id:cycled"
+    },
+    "player1Hand": {
+      "canHaveAttachments": false,
+      "groupType": "hand",
+      "label": "id:player1Hand",
+      "onCardEnter": {
+        "controller": "player1",
+        "peeking": {
+          "player1": true
+        }
+      },
+      "tableLabel": "id:hand"
+    },
+    "sharedActiveRed3": {
+      "canHaveAttachments": true,
+      "color": "red",
+      "groupType": "inPlay",
+      "label": "id:activeShadow3",
+      "onCardEnter": {
+        "locationGroupId": "sharedActiveLocation3",
+        "locationIndex": 3
+      },
+      "onCardLeave": {
+        "isSupported": false,
+        "isSupporting": false,
+        "locationGroupId": null,
+        "locationIndex": null
+      },
+      "tableLabel": "id:shadow3"
+    },
+    "sharedActiveRed1": {
+      "canHaveAttachments": true,
+      "color": "red",
+      "groupType": "inPlay",
+      "label": "id:activeShadow1",
+      "onCardEnter": {
+        "locationGroupId": "sharedActiveLocation1",
+        "locationIndex": 1
+      },
+      "onCardLeave": {
+        "isSupported": false,
+        "isSupporting": false,
+        "locationGroupId": null,
+        "locationIndex": null
+      },
+      "tableLabel": "id:shadow1"
+    }
+  }
+}

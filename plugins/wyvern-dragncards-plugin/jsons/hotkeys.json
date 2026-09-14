@@ -1,0 +1,21 @@
+{
+  "hotkeys": {
+    "game": [
+      {"key": "D", "actionList": "drawTreasure", "label": "Draw from Treasure Horde"},
+      {"key": "L", "actionList": "drawDragon", "label": "Draw from Dragon Lair"},
+      {"key": "G", "actionList": "increaseGold", "label": "Gain 1 gold"},
+      {"key": "T", "actionList": "decreaseGold", "label": "Spend 1 gold"},
+      {"key": "I", "actionList": "flipCoin", "label": "Flip a coin"}
+    ],
+    "card": [
+      {"key": "F", "actionList": ["FLIP", "$ACTIVE_CARD_ID"], "label": "Flip card"},
+      {"key": "X", "actionList": ["DISCARD", "$ACTIVE_CARD_ID"], "label": "Discard"},
+      {"key": "A", "actionList": ["DETACH", "$ACTIVE_CARD_ID"], "label": "Detach"},
+      {"key": "H", "actionList": ["SHUFFLE_INTO_DECK", "$ACTIVE_CARD_ID"], "label": "Shuffle into deck"}
+    ],
+    "token": [
+      {"key": "1", "tokenType": "green", "label": "Green counter"},
+      {"key": "2", "tokenType": "red", "label": "Red counter"}
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "phases": {
+    "play": {
+      "label": "Play",
+      "height": "33%"
+    },
+    "combat": {
+      "label": "Combat",
+      "height": "33%"
+    },
+    "quest": {
+      "label": "Quest",
+      "height": "33%"
+    }
+  },
+  "phaseOrder": [
+    "play",
+    "combat",
+    "quest"
+  ]
+}

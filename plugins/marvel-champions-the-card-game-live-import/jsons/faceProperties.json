@@ -1,0 +1,88 @@
+{
+  "faceProperties": {
+    "acceleration": {
+      "default": null,
+      "type": "integer"
+    },
+    "accelerationFixed": {
+      "default": null,
+      "type": "integer"
+    },
+    "accelerationScaling": {
+      "default": null,
+      "type": "integer"
+    },
+    "alterEgoHandSizeModifier": {
+      "default": null,
+      "type": "integer"
+    },
+    "amplify": {
+      "default": null,
+      "type": "integer"
+    },
+    "crisis": {
+      "default": null,
+      "type": "integer"
+    },
+    "globalHandSizeModifier": {
+      "default": null,
+      "type": "integer"
+    },
+    "handSize": {
+      "default": null,
+      "type": "integer"
+    },
+    "hazard": {
+      "default": null,
+      "type": "integer"
+    },
+    "heroHandSizeModifier": {
+      "default": null,
+      "type": "integer"
+    },
+    "hitPointsFixed": {
+      "default": null,
+      "type": "integer"
+    },
+    "hitPointsScaling": {
+      "default": null,
+      "type": "integer"
+    },
+    "identityHitPointsModifier": {
+      "default": null,
+      "type": "integer"
+    },
+    "nemesisMinion": {
+      "default": false,
+      "type": "boolean"
+    },
+    "permanent": {
+      "default": false,
+      "type": "boolean"
+    },
+    "starting": {
+      "default": false,
+      "type": "boolean"
+    },
+    "startingThreatFixed": {
+      "default": null,
+      "type": "integer"
+    },
+    "startingThreatScaling": {
+      "default": null,
+      "type": "integer"
+    },
+    "toughness": {
+      "default": false,
+      "type": "boolean"
+    },
+    "uses": {
+      "default": null,
+      "type": "integer"
+    },
+    "victory": {
+      "default": null,
+      "type": "integer"
+    }
+  }
+}

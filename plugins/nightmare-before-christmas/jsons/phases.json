@@ -1,0 +1,21 @@
+{
+  "phases": {
+    "start": {
+      "label": "Start",
+      "height": "33%"
+    },
+    "turn": {
+      "label": "Player Turn",
+      "height": "33%"
+    },
+    "end": {
+      "label": "End",
+      "height": "33%"
+    }
+  },
+  "phaseOrder": [
+    "start",
+    "turn",
+    "end"
+  ]
+}

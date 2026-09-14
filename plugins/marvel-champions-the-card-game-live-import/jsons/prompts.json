@@ -1,0 +1,1624 @@
+{
+  "prompts": {
+    "collector2Choice": {
+      "args": [
+        "$PLAYER"
+      ],
+      "message": "Collector II (When Revealed): Choose to either put the top card of your deck into The Collection or take 3 damage.",
+      "options": [
+        {
+          "code": [
+            [
+              "DEFINE",
+              "$CARD",
+              "$GAME.groupById.{{$PLAYER}}Deck.parentCards.[0]"
+            ],
+            [
+              "MOVE_CARD",
+              "$CARD.id",
+              "sharedOutOfPlay",
+              -1
+            ],
+            [
+              "LOG",
+              "{{$GAME.playerInfo.$PLAYER.alias}} put the top card of their deck into The Collection."
+            ]
+          ],
+          "label": "Put Top Card into The Collection"
+        },
+        {
+          "code": [
+            [
+              "DECREASE_VAL",
+              "/playerData/{{$PLAYER}}/hitPoints",
+              3
+            ],
+            [
+              "LOG",
+              "{{$GAME.playerInfo.$PLAYER.alias}} took 3 damage from Collector II."
+            ]
+          ],
+          "label": "Take 3 Damage"
+        }
+      ]
+    },
+    "darkBeastEnvironmentChoice": {
+      "args": [
+        "$PLAYER"
+      ],
+      "message": "Dark Beast setup: Choose a set-aside Setting environment to reveal and shuffle into the encounter deck:",
+      "options": [
+        {
+          "code": [
+            [
+              "ACTION_LIST",
+              "darkBeastLoadRandom"
+            ]
+          ],
+          "hotkey": "1",
+          "label": "Reveal 1 Random Environment (Recommended)"
+        },
+        {
+          "code": [
+            [
+              "PROMPT",
+              "$PLAYER",
+              "darkBeastPickEnvironment",
+              "$PLAYER"
+            ]
+          ],
+          "hotkey": "2",
+          "label": "Pick Environment Interactively"
+        },
+        {
+          "code": [
+            [
+              "LOG",
+              "Dark Beast setup: Manual environment choice selected. Setting sets remain in Out of Play."
+            ]
+          ],
+          "hotkey": "3",
+          "label": "I'll Choose Manually (Skip)"
+        }
+      ]
+    },
+    "darkBeastPickEnvironment": {
+      "args": [
+        "$PLAYER"
+      ],
+      "message": "Dark Beast setup: Choose the starting Setting environment:",
+      "options": [
+        {
+          "code": [
+            [
+              "ACTION_LIST",
+              "darkBeastLoadSavageLand"
+            ]
+          ],
+          "hotkey": "1",
+          "label": "The Savage Land"
+        },
+        {
+          "code": [
+            [
+              "ACTION_LIST",
+              "darkBeastLoadGenosha"
+            ]
+          ],
+          "hotkey": "2",
+          "label": "Genosha"
+        },
+        {
+          "code": [
+            [
+              "ACTION_LIST",
+              "darkBeastLoadBlueMoon"
+            ]
+          ],
+          "hotkey": "3",
+          "label": "Blue Area of the Moon"
+        }
+      ]
+    },
+    "discardVictoryChoice": {
+      "args": [
+        "$PLAYER",
+        "$CARD_ID"
+      ],
+      "message": "This card has the Victory keyword. Where would you like to place it?",
+      "options": [
+        {
+          "code": [
+            [
+              "SET",
+              "/cardById/$CARD_ID/rotation",
+              0
+            ],
+            [
+              "SET",
+              "/cardById/$CARD_ID/tokens",
+              {}
+            ],
+            [
+              "MOVE_CARD",
+              "$CARD_ID",
+              "sharedVictoryDisplay",
+              -1
+            ],
+            [
+              "LOG",
+              "{{$GAME.playerInfo.$PLAYER.alias}} placed {{$GAME.cardById.$CARD_ID.currentFace.name}} in the Victory Display."
+            ]
+          ],
+          "hotkey": "1",
+          "label": "Victory Display"
+        },
+        {
+          "code": [
+            [
+              "VAR",
+              "$DISC_CARD",
+              "$GAME.cardById.$CARD_ID"
+            ],
+            [
+              "SET",
+              "/cardById/$CARD_ID/rotation",
+              0
+            ],
+            [
+              "SET",
+              "/cardById/$CARD_ID/tokens",
+              {}
+            ],
+            [
+              "MOVE_CARD",
+              "$CARD_ID",
+              "$DISC_CARD.discardGroupId",
+              0
+            ],
+            [
+              "LOG",
+              "{{$GAME.playerInfo.$PLAYER.alias}} discarded {{$DISC_CARD.currentFace.name}} to the discard pile."
+            ]
+          ],
+          "hotkey": "2",
+          "label": "Discard Pile"
+        }
+      ]
+    },
+    "importMc4dbDeck": {
+      "args": [],
+      "input": {
+        "type": "text"
+      },
+      "message": "Paste an mc4db deck URL (e.g., https://mc4db.merlindumesnil.net/decklist/view/1)",
+      "options": [
+        {
+          "code": [
+            "ACTION_LIST",
+            "importMc4dbDeck"
+          ],
+          "hotkey": "Enter",
+          "label": "Import Deck"
+        },
+        {
+          "hotkey": "Escape",
+          "label": "Cancel"
+        }
+      ]
+    },
+    "spiralPickModular1": {
+      "args": [
+        "$PLAYER"
+      ],
+      "message": "Spiral setup: Choose your 1st modular set:",
+      "options": [
+        {
+          "code": [
+            [
+              "LOAD_CARDS",
+              "Crime (Modular)"
+            ],
+            [
+              "PROMPT",
+              "$PLAYER",
+              "spiralPickModular2",
+              "$PLAYER",
+              "Crime"
+            ]
+          ],
+          "hotkey": "1",
+          "label": "Crime"
+        },
+        {
+          "code": [
+            [
+              "LOAD_CARDS",
+              "Fantasy (Modular)"
+            ],
+            [
+              "PROMPT",
+              "$PLAYER",
+              "spiralPickModular2",
+              "$PLAYER",
+              "Fantasy"
+            ]
+          ],
+          "hotkey": "2",
+          "label": "Fantasy"
+        },
+        {
+          "code": [
+            [
+              "LOAD_CARDS",
+              "Horror (Modular)"
+            ],
+            [
+              "PROMPT",
+              "$PLAYER",
+              "spiralPickModular2",
+              "$PLAYER",
+              "Horror"
+            ]
+          ],
+          "hotkey": "3",
+          "label": "Horror"
+        },
+        {
+          "code": [
+            [
+              "LOAD_CARDS",
+              "Sci-Fi (Modular)"
+            ],
+            [
+              "PROMPT",
+              "$PLAYER",
+              "spiralPickModular2",
+              "$PLAYER",
+              "Sci-Fi"
+            ]
+          ],
+          "hotkey": "4",
+          "label": "Sci-Fi"
+        },
+        {
+          "code": [
+            [
+              "LOAD_CARDS",
+              "Sitcom (Modular)"
+            ],
+            [
+              "PROMPT",
+              "$PLAYER",
+              "spiralPickModular2",
+              "$PLAYER",
+              "Sitcom"
+            ]
+          ],
+          "hotkey": "5",
+          "label": "Sitcom"
+        },
+        {
+          "code": [
+            [
+              "LOAD_CARDS",
+              "Western (Modular)"
+            ],
+            [
+              "PROMPT",
+              "$PLAYER",
+              "spiralPickModular2",
+              "$PLAYER",
+              "Western"
+            ]
+          ],
+          "hotkey": "6",
+          "label": "Western"
+        }
+      ]
+    },
+    "spiralPickModular2": {
+      "args": [
+        "$PLAYER",
+        "$SET1"
+      ],
+      "message": "Spiral setup: Choose your 2nd modular set (1st: {{$SET1}}):",
+      "options": [
+        {
+          "code": [
+            [
+              "LOAD_CARDS",
+              "Crime (Modular)"
+            ],
+            [
+              "PROMPT",
+              "$PLAYER",
+              "spiralPickModular3",
+              "$PLAYER",
+              "$SET1",
+              "Crime"
+            ]
+          ],
+          "hotkey": "1",
+          "label": "Crime"
+        },
+        {
+          "code": [
+            [
+              "LOAD_CARDS",
+              "Fantasy (Modular)"
+            ],
+            [
+              "PROMPT",
+              "$PLAYER",
+              "spiralPickModular3",
+              "$PLAYER",
+              "$SET1",
+              "Fantasy"
+            ]
+          ],
+          "hotkey": "2",
+          "label": "Fantasy"
+        },
+        {
+          "code": [
+            [
+              "LOAD_CARDS",
+              "Horror (Modular)"
+            ],
+            [
+              "PROMPT",
+              "$PLAYER",
+              "spiralPickModular3",
+              "$PLAYER",
+              "$SET1",
+              "Horror"
+            ]
+          ],
+          "hotkey": "3",
+          "label": "Horror"
+        },
+        {
+          "code": [
+            [
+              "LOAD_CARDS",
+              "Sci-Fi (Modular)"
+            ],
+            [
+              "PROMPT",
+              "$PLAYER",
+              "spiralPickModular3",
+              "$PLAYER",
+              "$SET1",
+              "Sci-Fi"
+            ]
+          ],
+          "hotkey": "4",
+          "label": "Sci-Fi"
+        },
+        {
+          "code": [
+            [
+              "LOAD_CARDS",
+              "Sitcom (Modular)"
+            ],
+            [
+              "PROMPT",
+              "$PLAYER",
+              "spiralPickModular3",
+              "$PLAYER",
+              "$SET1",
+              "Sitcom"
+            ]
+          ],
+          "hotkey": "5",
+          "label": "Sitcom"
+        },
+        {
+          "code": [
+            [
+              "LOAD_CARDS",
+              "Western (Modular)"
+            ],
+            [
+              "PROMPT",
+              "$PLAYER",
+              "spiralPickModular3",
+              "$PLAYER",
+              "$SET1",
+              "Western"
+            ]
+          ],
+          "hotkey": "6",
+          "label": "Western"
+        }
+      ]
+    },
+    "spiralPickModular3": {
+      "args": [
+        "$PLAYER",
+        "$SET1",
+        "$SET2"
+      ],
+      "message": "Spiral setup: Choose your 3rd modular set (chosen: {{$SET1}}, {{$SET2}}):",
+      "options": [
+        {
+          "code": [
+            [
+              "LOAD_CARDS",
+              "Crime (Modular)"
+            ],
+            [
+              "ACTION_LIST",
+              "spiralFinishShowDeck"
+            ]
+          ],
+          "hotkey": "1",
+          "label": "Crime"
+        },
+        {
+          "code": [
+            [
+              "LOAD_CARDS",
+              "Fantasy (Modular)"
+            ],
+            [
+              "ACTION_LIST",
+              "spiralFinishShowDeck"
+            ]
+          ],
+          "hotkey": "2",
+          "label": "Fantasy"
+        },
+        {
+          "code": [
+            [
+              "LOAD_CARDS",
+              "Horror (Modular)"
+            ],
+            [
+              "ACTION_LIST",
+              "spiralFinishShowDeck"
+            ]
+          ],
+          "hotkey": "3",
+          "label": "Horror"
+        },
+        {
+          "code": [
+            [
+              "LOAD_CARDS",
+              "Sci-Fi (Modular)"
+            ],
+            [
+              "ACTION_LIST",
+              "spiralFinishShowDeck"
+            ]
+          ],
+          "hotkey": "4",
+          "label": "Sci-Fi"
+        },
+        {
+          "code": [
+            [
+              "LOAD_CARDS",
+              "Sitcom (Modular)"
+            ],
+            [
+              "ACTION_LIST",
+              "spiralFinishShowDeck"
+            ]
+          ],
+          "hotkey": "5",
+          "label": "Sitcom"
+        },
+        {
+          "code": [
+            [
+              "LOAD_CARDS",
+              "Western (Modular)"
+            ],
+            [
+              "ACTION_LIST",
+              "spiralFinishShowDeck"
+            ]
+          ],
+          "hotkey": "6",
+          "label": "Western"
+        }
+      ]
+    },
+    "spiralSetupModularChoice": {
+      "args": [
+        "$PLAYER"
+      ],
+      "message": "Spiral requires 3 modular encounter sets from MojoMania to build the Show Deck. How would you like to choose them?",
+      "options": [
+        {
+          "code": [
+            [
+              "ACTION_LIST",
+              "spiralLoadRandomModulars"
+            ]
+          ],
+          "hotkey": "1",
+          "label": "Load 3 Random Modular Sets"
+        },
+        {
+          "code": [
+            [
+              "PROMPT",
+              "$PLAYER",
+              "spiralPickModular1",
+              "$PLAYER"
+            ]
+          ],
+          "hotkey": "2",
+          "label": "Pick 3 Modular Sets Interactively"
+        },
+        {
+          "code": [
+            [
+              "LOG",
+              "Spiral setup: Manual modular selection chosen. Please load 3 modular sets from the menu."
+            ]
+          ],
+          "hotkey": "3",
+          "label": "I'll Choose Manually (Stop Setup)"
+        }
+      ]
+    },
+    "thunderboltsPickModular1": {
+      "args": [
+        "$PLAYER"
+      ],
+      "message": "Thunderbolts setup: Choose modular set #1 (total {{ADD $GAME.numPlayers 1}} needed):",
+      "options": [
+        {
+          "code": [
+            [
+              "LOAD_CARDS",
+              "Gravitational Pull (Modular)"
+            ],
+            [
+              "COND",
+              [
+                "GREATER_THAN",
+                [
+                  "ADD",
+                  "$GAME.numPlayers",
+                  1
+                ],
+                1
+              ],
+              [
+                [
+                  "PROMPT",
+                  "$PLAYER",
+                  "thunderboltsPickModular2",
+                  "$PLAYER"
+                ]
+              ],
+              true,
+              [
+                [
+                  "ACTION_LIST",
+                  "thunderboltsFinishSetup"
+                ]
+              ]
+            ]
+          ],
+          "hotkey": "1",
+          "label": "Gravitational Pull"
+        },
+        {
+          "code": [
+            [
+              "LOAD_CARDS",
+              "Hard Sound (Modular)"
+            ],
+            [
+              "COND",
+              [
+                "GREATER_THAN",
+                [
+                  "ADD",
+                  "$GAME.numPlayers",
+                  1
+                ],
+                1
+              ],
+              [
+                [
+                  "PROMPT",
+                  "$PLAYER",
+                  "thunderboltsPickModular2",
+                  "$PLAYER"
+                ]
+              ],
+              true,
+              [
+                [
+                  "ACTION_LIST",
+                  "thunderboltsFinishSetup"
+                ]
+              ]
+            ]
+          ],
+          "hotkey": "2",
+          "label": "Hard Sound"
+        },
+        {
+          "code": [
+            [
+              "LOAD_CARDS",
+              "Pale Little Spider (Modular)"
+            ],
+            [
+              "COND",
+              [
+                "GREATER_THAN",
+                [
+                  "ADD",
+                  "$GAME.numPlayers",
+                  1
+                ],
+                1
+              ],
+              [
+                [
+                  "PROMPT",
+                  "$PLAYER",
+                  "thunderboltsPickModular2",
+                  "$PLAYER"
+                ]
+              ],
+              true,
+              [
+                [
+                  "ACTION_LIST",
+                  "thunderboltsFinishSetup"
+                ]
+              ]
+            ]
+          ],
+          "hotkey": "3",
+          "label": "Pale Little Spider"
+        },
+        {
+          "code": [
+            [
+              "LOAD_CARDS",
+              "Power of the Atom (Modular)"
+            ],
+            [
+              "COND",
+              [
+                "GREATER_THAN",
+                [
+                  "ADD",
+                  "$GAME.numPlayers",
+                  1
+                ],
+                1
+              ],
+              [
+                [
+                  "PROMPT",
+                  "$PLAYER",
+                  "thunderboltsPickModular2",
+                  "$PLAYER"
+                ]
+              ],
+              true,
+              [
+                [
+                  "ACTION_LIST",
+                  "thunderboltsFinishSetup"
+                ]
+              ]
+            ]
+          ],
+          "hotkey": "4",
+          "label": "Power of the Atom"
+        },
+        {
+          "code": [
+            [
+              "LOAD_CARDS",
+              "Supersonic (Modular)"
+            ],
+            [
+              "COND",
+              [
+                "GREATER_THAN",
+                [
+                  "ADD",
+                  "$GAME.numPlayers",
+                  1
+                ],
+                1
+              ],
+              [
+                [
+                  "PROMPT",
+                  "$PLAYER",
+                  "thunderboltsPickModular2",
+                  "$PLAYER"
+                ]
+              ],
+              true,
+              [
+                [
+                  "ACTION_LIST",
+                  "thunderboltsFinishSetup"
+                ]
+              ]
+            ]
+          ],
+          "hotkey": "5",
+          "label": "Supersonic"
+        },
+        {
+          "code": [
+            [
+              "LOAD_CARDS",
+              "The Leaper (Modular)"
+            ],
+            [
+              "COND",
+              [
+                "GREATER_THAN",
+                [
+                  "ADD",
+                  "$GAME.numPlayers",
+                  1
+                ],
+                1
+              ],
+              [
+                [
+                  "PROMPT",
+                  "$PLAYER",
+                  "thunderboltsPickModular2",
+                  "$PLAYER"
+                ]
+              ],
+              true,
+              [
+                [
+                  "ACTION_LIST",
+                  "thunderboltsFinishSetup"
+                ]
+              ]
+            ]
+          ],
+          "hotkey": "6",
+          "label": "The Leaper"
+        }
+      ]
+    },
+    "thunderboltsPickModular2": {
+      "args": [
+        "$PLAYER"
+      ],
+      "message": "Thunderbolts setup: Choose modular set #2 (total {{ADD $GAME.numPlayers 1}} needed):",
+      "options": [
+        {
+          "code": [
+            [
+              "LOAD_CARDS",
+              "Gravitational Pull (Modular)"
+            ],
+            [
+              "COND",
+              [
+                "GREATER_THAN",
+                [
+                  "ADD",
+                  "$GAME.numPlayers",
+                  1
+                ],
+                2
+              ],
+              [
+                [
+                  "PROMPT",
+                  "$PLAYER",
+                  "thunderboltsPickModular3",
+                  "$PLAYER"
+                ]
+              ],
+              true,
+              [
+                [
+                  "ACTION_LIST",
+                  "thunderboltsFinishSetup"
+                ]
+              ]
+            ]
+          ],
+          "hotkey": "1",
+          "label": "Gravitational Pull"
+        },
+        {
+          "code": [
+            [
+              "LOAD_CARDS",
+              "Hard Sound (Modular)"
+            ],
+            [
+              "COND",
+              [
+                "GREATER_THAN",
+                [
+                  "ADD",
+                  "$GAME.numPlayers",
+                  1
+                ],
+                2
+              ],
+              [
+                [
+                  "PROMPT",
+                  "$PLAYER",
+                  "thunderboltsPickModular3",
+                  "$PLAYER"
+                ]
+              ],
+              true,
+              [
+                [
+                  "ACTION_LIST",
+                  "thunderboltsFinishSetup"
+                ]
+              ]
+            ]
+          ],
+          "hotkey": "2",
+          "label": "Hard Sound"
+        },
+        {
+          "code": [
+            [
+              "LOAD_CARDS",
+              "Pale Little Spider (Modular)"
+            ],
+            [
+              "COND",
+              [
+                "GREATER_THAN",
+                [
+                  "ADD",
+                  "$GAME.numPlayers",
+                  1
+                ],
+                2
+              ],
+              [
+                [
+                  "PROMPT",
+                  "$PLAYER",
+                  "thunderboltsPickModular3",
+                  "$PLAYER"
+                ]
+              ],
+              true,
+              [
+                [
+                  "ACTION_LIST",
+                  "thunderboltsFinishSetup"
+                ]
+              ]
+            ]
+          ],
+          "hotkey": "3",
+          "label": "Pale Little Spider"
+        },
+        {
+          "code": [
+            [
+              "LOAD_CARDS",
+              "Power of the Atom (Modular)"
+            ],
+            [
+              "COND",
+              [
+                "GREATER_THAN",
+                [
+                  "ADD",
+                  "$GAME.numPlayers",
+                  1
+                ],
+                2
+              ],
+              [
+                [
+                  "PROMPT",
+                  "$PLAYER",
+                  "thunderboltsPickModular3",
+                  "$PLAYER"
+                ]
+              ],
+              true,
+              [
+                [
+                  "ACTION_LIST",
+                  "thunderboltsFinishSetup"
+                ]
+              ]
+            ]
+          ],
+          "hotkey": "4",
+          "label": "Power of the Atom"
+        },
+        {
+          "code": [
+            [
+              "LOAD_CARDS",
+              "Supersonic (Modular)"
+            ],
+            [
+              "COND",
+              [
+                "GREATER_THAN",
+                [
+                  "ADD",
+                  "$GAME.numPlayers",
+                  1
+                ],
+                2
+              ],
+              [
+                [
+                  "PROMPT",
+                  "$PLAYER",
+                  "thunderboltsPickModular3",
+                  "$PLAYER"
+                ]
+              ],
+              true,
+              [
+                [
+                  "ACTION_LIST",
+                  "thunderboltsFinishSetup"
+                ]
+              ]
+            ]
+          ],
+          "hotkey": "5",
+          "label": "Supersonic"
+        },
+        {
+          "code": [
+            [
+              "LOAD_CARDS",
+              "The Leaper (Modular)"
+            ],
+            [
+              "COND",
+              [
+                "GREATER_THAN",
+                [
+                  "ADD",
+                  "$GAME.numPlayers",
+                  1
+                ],
+                2
+              ],
+              [
+                [
+                  "PROMPT",
+                  "$PLAYER",
+                  "thunderboltsPickModular3",
+                  "$PLAYER"
+                ]
+              ],
+              true,
+              [
+                [
+                  "ACTION_LIST",
+                  "thunderboltsFinishSetup"
+                ]
+              ]
+            ]
+          ],
+          "hotkey": "6",
+          "label": "The Leaper"
+        }
+      ]
+    },
+    "thunderboltsPickModular3": {
+      "args": [
+        "$PLAYER"
+      ],
+      "message": "Thunderbolts setup: Choose modular set #3 (total {{ADD $GAME.numPlayers 1}} needed):",
+      "options": [
+        {
+          "code": [
+            [
+              "LOAD_CARDS",
+              "Gravitational Pull (Modular)"
+            ],
+            [
+              "COND",
+              [
+                "GREATER_THAN",
+                [
+                  "ADD",
+                  "$GAME.numPlayers",
+                  1
+                ],
+                3
+              ],
+              [
+                [
+                  "PROMPT",
+                  "$PLAYER",
+                  "thunderboltsPickModular4",
+                  "$PLAYER"
+                ]
+              ],
+              true,
+              [
+                [
+                  "ACTION_LIST",
+                  "thunderboltsFinishSetup"
+                ]
+              ]
+            ]
+          ],
+          "hotkey": "1",
+          "label": "Gravitational Pull"
+        },
+        {
+          "code": [
+            [
+              "LOAD_CARDS",
+              "Hard Sound (Modular)"
+            ],
+            [
+              "COND",
+              [
+                "GREATER_THAN",
+                [
+                  "ADD",
+                  "$GAME.numPlayers",
+                  1
+                ],
+                3
+              ],
+              [
+                [
+                  "PROMPT",
+                  "$PLAYER",
+                  "thunderboltsPickModular4",
+                  "$PLAYER"
+                ]
+              ],
+              true,
+              [
+                [
+                  "ACTION_LIST",
+                  "thunderboltsFinishSetup"
+                ]
+              ]
+            ]
+          ],
+          "hotkey": "2",
+          "label": "Hard Sound"
+        },
+        {
+          "code": [
+            [
+              "LOAD_CARDS",
+              "Pale Little Spider (Modular)"
+            ],
+            [
+              "COND",
+              [
+                "GREATER_THAN",
+                [
+                  "ADD",
+                  "$GAME.numPlayers",
+                  1
+                ],
+                3
+              ],
+              [
+                [
+                  "PROMPT",
+                  "$PLAYER",
+                  "thunderboltsPickModular4",
+                  "$PLAYER"
+                ]
+              ],
+              true,
+              [
+                [
+                  "ACTION_LIST",
+                  "thunderboltsFinishSetup"
+                ]
+              ]
+            ]
+          ],
+          "hotkey": "3",
+          "label": "Pale Little Spider"
+        },
+        {
+          "code": [
+            [
+              "LOAD_CARDS",
+              "Power of the Atom (Modular)"
+            ],
+            [
+              "COND",
+              [
+                "GREATER_THAN",
+                [
+                  "ADD",
+                  "$GAME.numPlayers",
+                  1
+                ],
+                3
+              ],
+              [
+                [
+                  "PROMPT",
+                  "$PLAYER",
+                  "thunderboltsPickModular4",
+                  "$PLAYER"
+                ]
+              ],
+              true,
+              [
+                [
+                  "ACTION_LIST",
+                  "thunderboltsFinishSetup"
+                ]
+              ]
+            ]
+          ],
+          "hotkey": "4",
+          "label": "Power of the Atom"
+        },
+        {
+          "code": [
+            [
+              "LOAD_CARDS",
+              "Supersonic (Modular)"
+            ],
+            [
+              "COND",
+              [
+                "GREATER_THAN",
+                [
+                  "ADD",
+                  "$GAME.numPlayers",
+                  1
+                ],
+                3
+              ],
+              [
+                [
+                  "PROMPT",
+                  "$PLAYER",
+                  "thunderboltsPickModular4",
+                  "$PLAYER"
+                ]
+              ],
+              true,
+              [
+                [
+                  "ACTION_LIST",
+                  "thunderboltsFinishSetup"
+                ]
+              ]
+            ]
+          ],
+          "hotkey": "5",
+          "label": "Supersonic"
+        },
+        {
+          "code": [
+            [
+              "LOAD_CARDS",
+              "The Leaper (Modular)"
+            ],
+            [
+              "COND",
+              [
+                "GREATER_THAN",
+                [
+                  "ADD",
+                  "$GAME.numPlayers",
+                  1
+                ],
+                3
+              ],
+              [
+                [
+                  "PROMPT",
+                  "$PLAYER",
+                  "thunderboltsPickModular4",
+                  "$PLAYER"
+                ]
+              ],
+              true,
+              [
+                [
+                  "ACTION_LIST",
+                  "thunderboltsFinishSetup"
+                ]
+              ]
+            ]
+          ],
+          "hotkey": "6",
+          "label": "The Leaper"
+        }
+      ]
+    },
+    "thunderboltsPickModular4": {
+      "args": [
+        "$PLAYER"
+      ],
+      "message": "Thunderbolts setup: Choose modular set #4 (total {{ADD $GAME.numPlayers 1}} needed):",
+      "options": [
+        {
+          "code": [
+            [
+              "LOAD_CARDS",
+              "Gravitational Pull (Modular)"
+            ],
+            [
+              "COND",
+              [
+                "GREATER_THAN",
+                [
+                  "ADD",
+                  "$GAME.numPlayers",
+                  1
+                ],
+                4
+              ],
+              [
+                [
+                  "PROMPT",
+                  "$PLAYER",
+                  "thunderboltsPickModular5",
+                  "$PLAYER"
+                ]
+              ],
+              true,
+              [
+                [
+                  "ACTION_LIST",
+                  "thunderboltsFinishSetup"
+                ]
+              ]
+            ]
+          ],
+          "hotkey": "1",
+          "label": "Gravitational Pull"
+        },
+        {
+          "code": [
+            [
+              "LOAD_CARDS",
+              "Hard Sound (Modular)"
+            ],
+            [
+              "COND",
+              [
+                "GREATER_THAN",
+                [
+                  "ADD",
+                  "$GAME.numPlayers",
+                  1
+                ],
+                4
+              ],
+              [
+                [
+                  "PROMPT",
+                  "$PLAYER",
+                  "thunderboltsPickModular5",
+                  "$PLAYER"
+                ]
+              ],
+              true,
+              [
+                [
+                  "ACTION_LIST",
+                  "thunderboltsFinishSetup"
+                ]
+              ]
+            ]
+          ],
+          "hotkey": "2",
+          "label": "Hard Sound"
+        },
+        {
+          "code": [
+            [
+              "LOAD_CARDS",
+              "Pale Little Spider (Modular)"
+            ],
+            [
+              "COND",
+              [
+                "GREATER_THAN",
+                [
+                  "ADD",
+                  "$GAME.numPlayers",
+                  1
+                ],
+                4
+              ],
+              [
+                [
+                  "PROMPT",
+                  "$PLAYER",
+                  "thunderboltsPickModular5",
+                  "$PLAYER"
+                ]
+              ],
+              true,
+              [
+                [
+                  "ACTION_LIST",
+                  "thunderboltsFinishSetup"
+                ]
+              ]
+            ]
+          ],
+          "hotkey": "3",
+          "label": "Pale Little Spider"
+        },
+        {
+          "code": [
+            [
+              "LOAD_CARDS",
+              "Power of the Atom (Modular)"
+            ],
+            [
+              "COND",
+              [
+                "GREATER_THAN",
+                [
+                  "ADD",
+                  "$GAME.numPlayers",
+                  1
+                ],
+                4
+              ],
+              [
+                [
+                  "PROMPT",
+                  "$PLAYER",
+                  "thunderboltsPickModular5",
+                  "$PLAYER"
+                ]
+              ],
+              true,
+              [
+                [
+                  "ACTION_LIST",
+                  "thunderboltsFinishSetup"
+                ]
+              ]
+            ]
+          ],
+          "hotkey": "4",
+          "label": "Power of the Atom"
+        },
+        {
+          "code": [
+            [
+              "LOAD_CARDS",
+              "Supersonic (Modular)"
+            ],
+            [
+              "COND",
+              [
+                "GREATER_THAN",
+                [
+                  "ADD",
+                  "$GAME.numPlayers",
+                  1
+                ],
+                4
+              ],
+              [
+                [
+                  "PROMPT",
+                  "$PLAYER",
+                  "thunderboltsPickModular5",
+                  "$PLAYER"
+                ]
+              ],
+              true,
+              [
+                [
+                  "ACTION_LIST",
+                  "thunderboltsFinishSetup"
+                ]
+              ]
+            ]
+          ],
+          "hotkey": "5",
+          "label": "Supersonic"
+        },
+        {
+          "code": [
+            [
+              "LOAD_CARDS",
+              "The Leaper (Modular)"
+            ],
+            [
+              "COND",
+              [
+                "GREATER_THAN",
+                [
+                  "ADD",
+                  "$GAME.numPlayers",
+                  1
+                ],
+                4
+              ],
+              [
+                [
+                  "PROMPT",
+                  "$PLAYER",
+                  "thunderboltsPickModular5",
+                  "$PLAYER"
+                ]
+              ],
+              true,
+              [
+                [
+                  "ACTION_LIST",
+                  "thunderboltsFinishSetup"
+                ]
+              ]
+            ]
+          ],
+          "hotkey": "6",
+          "label": "The Leaper"
+        }
+      ]
+    },
+    "thunderboltsPickModular5": {
+      "args": [
+        "$PLAYER"
+      ],
+      "message": "Thunderbolts setup: Choose modular set #5 (total {{ADD $GAME.numPlayers 1}} needed):",
+      "options": [
+        {
+          "code": [
+            [
+              "LOAD_CARDS",
+              "Gravitational Pull (Modular)"
+            ],
+            [
+              "ACTION_LIST",
+              "thunderboltsFinishSetup"
+            ]
+          ],
+          "hotkey": "1",
+          "label": "Gravitational Pull"
+        },
+        {
+          "code": [
+            [
+              "LOAD_CARDS",
+              "Hard Sound (Modular)"
+            ],
+            [
+              "ACTION_LIST",
+              "thunderboltsFinishSetup"
+            ]
+          ],
+          "hotkey": "2",
+          "label": "Hard Sound"
+        },
+        {
+          "code": [
+            [
+              "LOAD_CARDS",
+              "Pale Little Spider (Modular)"
+            ],
+            [
+              "ACTION_LIST",
+              "thunderboltsFinishSetup"
+            ]
+          ],
+          "hotkey": "3",
+          "label": "Pale Little Spider"
+        },
+        {
+          "code": [
+            [
+              "LOAD_CARDS",
+              "Power of the Atom (Modular)"
+            ],
+            [
+              "ACTION_LIST",
+              "thunderboltsFinishSetup"
+            ]
+          ],
+          "hotkey": "4",
+          "label": "Power of the Atom"
+        },
+        {
+          "code": [
+            [
+              "LOAD_CARDS",
+              "Supersonic (Modular)"
+            ],
+            [
+              "ACTION_LIST",
+              "thunderboltsFinishSetup"
+            ]
+          ],
+          "hotkey": "5",
+          "label": "Supersonic"
+        },
+        {
+          "code": [
+            [
+              "LOAD_CARDS",
+              "The Leaper (Modular)"
+            ],
+            [
+              "ACTION_LIST",
+              "thunderboltsFinishSetup"
+            ]
+          ],
+          "hotkey": "6",
+          "label": "The Leaper"
+        }
+      ]
+    },
+    "thunderboltsSetupModularChoice": {
+      "args": [
+        "$PLAYER"
+      ],
+      "message": "Thunderbolts setup: Apprehending Rogue Agents requires {{$GAME.numPlayers}} + 1 (total {{$GAME.numPlayers + 1}}) Thunderbolt modular sets. How would you like to choose them?",
+      "options": [
+        {
+          "code": [
+            [
+              "ACTION_LIST",
+              "thunderboltsLoadRandomSets"
+            ]
+          ],
+          "hotkey": "1",
+          "label": "Load Random Modular Sets (Recommended)"
+        },
+        {
+          "code": [
+            [
+              "PROMPT",
+              "$PLAYER",
+              "thunderboltsPickModular1",
+              "$PLAYER"
+            ]
+          ],
+          "hotkey": "2",
+          "label": "Pick Modular Sets Interactively"
+        },
+        {
+          "code": [
+            [
+              "LOG",
+              "Thunderbolts setup: Manual modular selection chosen. Please load modular sets from the menu."
+            ]
+          ],
+          "hotkey": "3",
+          "label": "I'll Choose Manually (Skip)"
+        }
+      ]
+    }
+  }
+}

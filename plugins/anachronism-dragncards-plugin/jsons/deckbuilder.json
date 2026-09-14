@@ -1,0 +1,20 @@
+{
+  "deckbuilder": {
+    "addButtons": [1],
+    "columns": [
+      {"propName": "name", "label": "Name"},
+      {"propName": "type", "label": "Type"},
+      {"propName": "culture", "label": "Culture"},
+      {"propName": "initiative", "label": "Init"},
+      {"propName": "life", "label": "Life"},
+      {"propName": "speed", "label": "Speed"},
+      {"propName": "experience", "label": "Exp"},
+      {"propName": "damage", "label": "Dmg"},
+      {"propName": "text", "label": "Text"}
+    ],
+    "spawnGroups": [
+      {"loadGroupId": "playerNWarrior", "label": "My Warrior"},
+      {"loadGroupId": "playerNPool", "label": "My Support Pool"}
+    ]
+  }
+}

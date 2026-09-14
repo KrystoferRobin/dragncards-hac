@@ -1,0 +1,44 @@
+{
+  "automation": {
+    "postNewGameActionList": [
+      [
+        "LOG",
+        "Legends of Norrath table created. Load an Oathbound starter or build a 50-card deck plus avatar and four quests. No rules are enforced."
+      ]
+    ],
+    "postLoadActionList": [
+      [
+        "SHUFFLE_GROUP",
+        "{{$PLAYER_N}}Deck"
+      ],
+      [
+        "COND",
+        [
+          "GROUP_EMPTY",
+          "{{$PLAYER_N}}Deck"
+        ],
+        [
+          "LOG",
+          "{{$ALIAS_N}} has an empty deck."
+        ],
+        [
+          "TRUE"
+        ],
+        [
+          [
+            "MOVE_STACKS",
+            "{{$PLAYER_N}}Deck",
+            "{{$PLAYER_N}}Hand",
+            5,
+            "bottom"
+          ]
+        ]
+      ],
+      [
+        "LOG",
+        "{{$ALIAS_N}} shuffled and drew five."
+      ]
+    ],
+    "gameRules": {}
+  }
+}

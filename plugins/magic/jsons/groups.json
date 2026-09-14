@@ -1,0 +1,396 @@
+{
+  "groups": {
+    "sharedSetAside": {
+      "groupType": "aside",
+      "label": "Set Aside",
+      "tableLabel": "Set Aside",
+      "onCardEnter": {
+        "controller": "shared"
+      }
+    },
+    "player1Deck": {
+      "groupType": "deck",
+      "label": "Player 1 Library",
+      "tableLabel": "Library",
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1Deck",
+        "discardGroupId": "player1Graveyard"
+      }
+    },
+    "player1Graveyard": {
+      "groupType": "discard",
+      "label": "Player 1 Graveyard",
+      "tableLabel": "Graveyard",
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1Deck",
+        "discardGroupId": "player1Graveyard"
+      }
+    },
+    "player1Exile": {
+      "groupType": "exile",
+      "label": "Player 1 Exile",
+      "tableLabel": "Exile",
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1Deck",
+        "discardGroupId": "player1Graveyard"
+      }
+    },
+    "player1Hand": {
+      "groupType": "hand",
+      "label": "Player 1 Hand",
+      "tableLabel": "Hand",
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1Deck",
+        "discardGroupId": "player1Graveyard",
+        "currentSide": "B",
+        "peeking": {
+          "player1": true
+        }
+      }
+    },
+    "player1Play": {
+      "groupType": "inPlay",
+      "label": "Player 1 Battlefield",
+      "tableLabel": "Battlefield",
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1Deck",
+        "discardGroupId": "player1Graveyard"
+      },
+      "canHaveAttachments": true
+    },
+    "player1Command": {
+      "groupType": "command",
+      "label": "Player 1 Command",
+      "tableLabel": "Command",
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1Deck",
+        "discardGroupId": "player1Graveyard"
+      },
+      "canHaveAttachments": true
+    },
+    "player1Emblem": {
+      "groupType": "command",
+      "label": "Player 1 Emblems",
+      "tableLabel": "Emblems",
+      "onCardEnter": {
+        "controller": "player1",
+        "discardGroupId": "player1Graveyard"
+      },
+      "canHaveAttachments": false
+    },
+    "player1Tokens": {
+      "groupType": "inPlay",
+      "label": "Player 1 Tokens",
+      "tableLabel": "Tokens",
+      "onCardEnter": {
+        "controller": "player1",
+        "discardGroupId": "player1Graveyard"
+      },
+      "canHaveAttachments": true
+    },
+    "player1Sideboard": {
+      "groupType": "aside",
+      "label": "Player 1 Sideboard",
+      "tableLabel": "Sideboard",
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1Deck",
+        "discardGroupId": "player1Graveyard"
+      }
+    },
+    "player2Deck": {
+      "groupType": "deck",
+      "label": "Player 2 Library",
+      "tableLabel": "Library",
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2Deck",
+        "discardGroupId": "player2Graveyard"
+      }
+    },
+    "player2Graveyard": {
+      "groupType": "discard",
+      "label": "Player 2 Graveyard",
+      "tableLabel": "Graveyard",
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2Deck",
+        "discardGroupId": "player2Graveyard"
+      }
+    },
+    "player2Exile": {
+      "groupType": "exile",
+      "label": "Player 2 Exile",
+      "tableLabel": "Exile",
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2Deck",
+        "discardGroupId": "player2Graveyard"
+      }
+    },
+    "player2Hand": {
+      "groupType": "hand",
+      "label": "Player 2 Hand",
+      "tableLabel": "Hand",
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2Deck",
+        "discardGroupId": "player2Graveyard",
+        "currentSide": "B",
+        "peeking": {
+          "player2": true
+        }
+      }
+    },
+    "player2Play": {
+      "groupType": "inPlay",
+      "label": "Player 2 Battlefield",
+      "tableLabel": "Battlefield",
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2Deck",
+        "discardGroupId": "player2Graveyard"
+      },
+      "canHaveAttachments": true
+    },
+    "player2Command": {
+      "groupType": "command",
+      "label": "Player 2 Command",
+      "tableLabel": "Command",
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2Deck",
+        "discardGroupId": "player2Graveyard"
+      },
+      "canHaveAttachments": true
+    },
+    "player2Emblem": {
+      "groupType": "command",
+      "label": "Player 2 Emblems",
+      "tableLabel": "Emblems",
+      "onCardEnter": {
+        "controller": "player2",
+        "discardGroupId": "player2Graveyard"
+      },
+      "canHaveAttachments": false
+    },
+    "player2Tokens": {
+      "groupType": "inPlay",
+      "label": "Player 2 Tokens",
+      "tableLabel": "Tokens",
+      "onCardEnter": {
+        "controller": "player2",
+        "discardGroupId": "player2Graveyard"
+      },
+      "canHaveAttachments": true
+    },
+    "player2Sideboard": {
+      "groupType": "aside",
+      "label": "Player 2 Sideboard",
+      "tableLabel": "Sideboard",
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2Deck",
+        "discardGroupId": "player2Graveyard"
+      }
+    },
+    "player3Deck": {
+      "groupType": "deck",
+      "label": "Player 3 Library",
+      "tableLabel": "Library",
+      "onCardEnter": {
+        "controller": "player3",
+        "deckGroupId": "player3Deck",
+        "discardGroupId": "player3Graveyard"
+      }
+    },
+    "player3Graveyard": {
+      "groupType": "discard",
+      "label": "Player 3 Graveyard",
+      "tableLabel": "Graveyard",
+      "onCardEnter": {
+        "controller": "player3",
+        "deckGroupId": "player3Deck",
+        "discardGroupId": "player3Graveyard"
+      }
+    },
+    "player3Exile": {
+      "groupType": "exile",
+      "label": "Player 3 Exile",
+      "tableLabel": "Exile",
+      "onCardEnter": {
+        "controller": "player3",
+        "deckGroupId": "player3Deck",
+        "discardGroupId": "player3Graveyard"
+      }
+    },
+    "player3Hand": {
+      "groupType": "hand",
+      "label": "Player 3 Hand",
+      "tableLabel": "Hand",
+      "onCardEnter": {
+        "controller": "player3",
+        "deckGroupId": "player3Deck",
+        "discardGroupId": "player3Graveyard",
+        "currentSide": "B",
+        "peeking": {
+          "player3": true
+        }
+      }
+    },
+    "player3Play": {
+      "groupType": "inPlay",
+      "label": "Player 3 Battlefield",
+      "tableLabel": "Battlefield",
+      "onCardEnter": {
+        "controller": "player3",
+        "deckGroupId": "player3Deck",
+        "discardGroupId": "player3Graveyard"
+      },
+      "canHaveAttachments": true
+    },
+    "player3Command": {
+      "groupType": "command",
+      "label": "Player 3 Command",
+      "tableLabel": "Command",
+      "onCardEnter": {
+        "controller": "player3",
+        "deckGroupId": "player3Deck",
+        "discardGroupId": "player3Graveyard"
+      },
+      "canHaveAttachments": true
+    },
+    "player3Emblem": {
+      "groupType": "command",
+      "label": "Player 3 Emblems",
+      "tableLabel": "Emblems",
+      "onCardEnter": {
+        "controller": "player3",
+        "discardGroupId": "player3Graveyard"
+      },
+      "canHaveAttachments": false
+    },
+    "player3Tokens": {
+      "groupType": "inPlay",
+      "label": "Player 3 Tokens",
+      "tableLabel": "Tokens",
+      "onCardEnter": {
+        "controller": "player3",
+        "discardGroupId": "player3Graveyard"
+      },
+      "canHaveAttachments": true
+    },
+    "player3Sideboard": {
+      "groupType": "aside",
+      "label": "Player 3 Sideboard",
+      "tableLabel": "Sideboard",
+      "onCardEnter": {
+        "controller": "player3",
+        "deckGroupId": "player3Deck",
+        "discardGroupId": "player3Graveyard"
+      }
+    },
+    "player4Deck": {
+      "groupType": "deck",
+      "label": "Player 4 Library",
+      "tableLabel": "Library",
+      "onCardEnter": {
+        "controller": "player4",
+        "deckGroupId": "player4Deck",
+        "discardGroupId": "player4Graveyard"
+      }
+    },
+    "player4Graveyard": {
+      "groupType": "discard",
+      "label": "Player 4 Graveyard",
+      "tableLabel": "Graveyard",
+      "onCardEnter": {
+        "controller": "player4",
+        "deckGroupId": "player4Deck",
+        "discardGroupId": "player4Graveyard"
+      }
+    },
+    "player4Exile": {
+      "groupType": "exile",
+      "label": "Player 4 Exile",
+      "tableLabel": "Exile",
+      "onCardEnter": {
+        "controller": "player4",
+        "deckGroupId": "player4Deck",
+        "discardGroupId": "player4Graveyard"
+      }
+    },
+    "player4Hand": {
+      "groupType": "hand",
+      "label": "Player 4 Hand",
+      "tableLabel": "Hand",
+      "onCardEnter": {
+        "controller": "player4",
+        "deckGroupId": "player4Deck",
+        "discardGroupId": "player4Graveyard",
+        "currentSide": "B",
+        "peeking": {
+          "player4": true
+        }
+      }
+    },
+    "player4Play": {
+      "groupType": "inPlay",
+      "label": "Player 4 Battlefield",
+      "tableLabel": "Battlefield",
+      "onCardEnter": {
+        "controller": "player4",
+        "deckGroupId": "player4Deck",
+        "discardGroupId": "player4Graveyard"
+      },
+      "canHaveAttachments": true
+    },
+    "player4Command": {
+      "groupType": "command",
+      "label": "Player 4 Command",
+      "tableLabel": "Command",
+      "onCardEnter": {
+        "controller": "player4",
+        "deckGroupId": "player4Deck",
+        "discardGroupId": "player4Graveyard"
+      },
+      "canHaveAttachments": true
+    },
+    "player4Emblem": {
+      "groupType": "command",
+      "label": "Player 4 Emblems",
+      "tableLabel": "Emblems",
+      "onCardEnter": {
+        "controller": "player4",
+        "discardGroupId": "player4Graveyard"
+      },
+      "canHaveAttachments": false
+    },
+    "player4Tokens": {
+      "groupType": "inPlay",
+      "label": "Player 4 Tokens",
+      "tableLabel": "Tokens",
+      "onCardEnter": {
+        "controller": "player4",
+        "discardGroupId": "player4Graveyard"
+      },
+      "canHaveAttachments": true
+    },
+    "player4Sideboard": {
+      "groupType": "aside",
+      "label": "Player 4 Sideboard",
+      "tableLabel": "Sideboard",
+      "onCardEnter": {
+        "controller": "player4",
+        "deckGroupId": "player4Deck",
+        "discardGroupId": "player4Graveyard"
+      }
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "groupMenu": {
+    "moveToGroupIds": [
+      "playerNDeck",
+      "playerNSmoked",
+      "playerNHand",
+      "playerNPlay",
+      "playerNSites",
+      "playerNEdges",
+      "playerNBurned",
+      "playerNToasted",
+      "playerNMisc",
+      "playerN+1Play",
+      "sharedSetAside"
+    ],
+    "options": []
+  }
+}

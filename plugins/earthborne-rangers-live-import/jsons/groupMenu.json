@@ -1,0 +1,45 @@
+{
+  "groupMenu": {
+    "moveToGroupIds": [
+      "sharedPathDeck",
+      "sharedPathDiscard",
+      "sharedPathDeck2",
+      "sharedPathDiscard2",
+      "player1Deck",
+      "player2Deck",
+      "player3Deck",
+      "player4Deck"
+    ],
+    "options": [
+      {
+        "actionList": "shuffleGroupIntoDeck",
+        "label": "id:shuffleGroupIntoDeck"
+      },
+      {
+        "actionList": "discardGroup",
+        "label": "id:discardGroup"
+      },
+      {
+        "actionList": [
+          "SEARCH_NEXT_TYPE",
+          "$ACTIVE_GROUP_ID",
+          "Being"
+        ],
+        "label": "id:searchNextBeing"
+      },
+      {
+        "actionList": [
+          "SEARCH_NEXT_TYPE",
+          "$ACTIVE_GROUP_ID",
+          "Feature"
+        ],
+        "label": "id:searchNextFeature"
+      }
+    ],
+    "suppress": [
+      "Browse",
+      "Look at top",
+      "Set Visibility"
+    ]
+  }
+}

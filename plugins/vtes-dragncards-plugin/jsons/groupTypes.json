@@ -1,0 +1,124 @@
+{
+  "groupTypes": {
+    "library": {
+      "canHaveAttachments": false,
+      "canHaveTokens": false,
+      "shuffleOnLoad": true,
+      "onCardEnter": {
+        "currentSide": "B",
+        "inPlay": false,
+        "rotation": 0
+      }
+    },
+    "crypt": {
+      "canHaveAttachments": false,
+      "canHaveTokens": false,
+      "shuffleOnLoad": true,
+      "onCardEnter": {
+        "currentSide": "B",
+        "inPlay": false,
+        "rotation": 0
+      }
+    },
+    "hand": {
+      "canHaveAttachments": false,
+      "canHaveTokens": false,
+      "shuffleOnLoad": false,
+      "onCardEnter": {
+        "currentSide": "A",
+        "inPlay": false,
+        "rotation": 0
+      }
+    },
+    "ashHeap": {
+      "canHaveAttachments": false,
+      "canHaveTokens": false,
+      "shuffleOnLoad": false,
+      "onCardEnter": {
+        "currentSide": "A",
+        "inPlay": false,
+        "rotation": 0
+      }
+    },
+    "removed": {
+      "canHaveAttachments": false,
+      "canHaveTokens": false,
+      "shuffleOnLoad": false,
+      "onCardEnter": {
+        "currentSide": "A",
+        "inPlay": false,
+        "rotation": 0
+      }
+    },
+    "uncontrolled": {
+      "canHaveAttachments": false,
+      "canHaveTokens": true,
+      "shuffleOnLoad": false,
+      "onCardEnter": {
+        "currentSide": "A",
+        "inPlay": false,
+        "rotation": 0
+      }
+    },
+    "ready": {
+      "canHaveAttachments": true,
+      "canHaveTokens": true,
+      "shuffleOnLoad": false,
+      "onCardEnter": {
+        "currentSide": "A",
+        "inPlay": true,
+        "rotation": 0
+      }
+    },
+    "torpor": {
+      "canHaveAttachments": true,
+      "canHaveTokens": true,
+      "shuffleOnLoad": false,
+      "onCardEnter": {
+        "currentSide": "A",
+        "inPlay": true,
+        "rotation": 0
+      }
+    },
+    "masters": {
+      "canHaveAttachments": false,
+      "canHaveTokens": true,
+      "shuffleOnLoad": false,
+      "onCardEnter": {
+        "currentSide": "A",
+        "inPlay": true,
+        "rotation": 0
+      }
+    },
+    "tokens": {
+      "canHaveAttachments": false,
+      "canHaveTokens": false,
+      "shuffleOnLoad": false,
+      "onCardEnter": {
+        "currentSide": "A",
+        "inPlay": false,
+        "rotation": 0
+      }
+    },
+    "aside": {
+      "canHaveAttachments": false,
+      "canHaveTokens": false,
+      "shuffleOnLoad": false,
+      "onCardEnter": {
+        "currentSide": "A",
+        "inPlay": false,
+        "rotation": 0
+      }
+    },
+    "edge": {
+      "canHaveAttachments": false,
+      "canHaveTokens": false,
+      "shuffleOnLoad": false,
+      "onCardEnter": {
+        "currentSide": "A",
+        "inPlay": true,
+        "rotation": 0
+      }
+    }
+  }
+}

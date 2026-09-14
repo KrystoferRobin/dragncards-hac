@@ -1,0 +1,17 @@
+{
+  "groupMenu": {
+    "moveToGroupIds": [
+      "playerNDeck",
+      "playerNDiscard",
+      "playerNHand",
+      "playerNStarting",
+      "playerNPlay",
+      "playerNEpisode",
+      "playerNChallenges",
+      "playerNRemoved",
+      "playerN+1Play",
+      "sharedSetAside"
+    ],
+    "options": []
+  }
+}

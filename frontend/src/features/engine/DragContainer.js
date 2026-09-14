@@ -22,6 +22,16 @@ let draggableClientRect = null;
 const ARROW_STROKE_WIDTH_VH = 0.9;
 const getArrowStrokeWidth = () => (window.innerHeight * ARROW_STROKE_WIDTH_VH) / 100;
 
+const isProvinceGroupId = (groupId) => /Province[1-4]$/.test(groupId || "");
+
+const refillIfProvinceEmptied = (doActionList, fromGroupId, toGroupId) => {
+  if (!fromGroupId || fromGroupId === toGroupId || !isProvinceGroupId(fromGroupId)) return;
+  doActionList(
+    ["REFILL_PROVINCE", fromGroupId],
+    `Refill empty province ${fromGroupId}`
+  );
+};
+
 const getAfterDragName = (game, stackId, destGroupId, allowFlip) => {
   const stack = game.stackById[stackId];
   const cardIds = stack?.cardIds;
@@ -265,6 +275,7 @@ export const DragContainer = React.memo(({}) => {
         ["LOG", "$ALIAS_N", " attached ", afterDragName, " from ", "$GAME.groupById."+origGroupId+".label", " to ", ["FACEUP_NAME_FROM_STACK_ID", destStackId], "."],
         ["MOVE_STACK", origStackId, destGroupId, stackIndex, {"combine": result.combine.direction, "allowFlip": allowFlip}],
       ], `Combined ${afterDragName} with ${card0.sides.A.name}`);
+      refillIfProvinceEmptied(doActionList, origGroupId, destGroupId);
     }
     
     // Dragged somewhere
@@ -294,6 +305,7 @@ export const DragContainer = React.memo(({}) => {
           ]
         ]
       ], `Moved ${afterDragName} (stackId ${origStackId}) from ${origGroup.label} to ${destGroup.label}`);
+      refillIfProvinceEmptied(doActionList, origGroupId, destGroupId);
       dispatch(setGroupById(newGroupById));
     }
     if (gameDef?.automation?.postDragAndDropActionList) {

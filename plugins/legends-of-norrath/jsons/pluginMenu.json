@@ -1,0 +1,18 @@
+{
+  "pluginMenu": {
+    "options": [
+      {
+        "label": "Draw",
+        "actionList": "drawDeck"
+      },
+      {
+        "label": "Ready all",
+        "actionList": "readyAll"
+      },
+      {
+        "label": "Shuffle deck",
+        "actionList": "shuffleDeck"
+      }
+    ]
+  }
+}

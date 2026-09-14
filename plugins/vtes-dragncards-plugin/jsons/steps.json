@@ -1,0 +1,10 @@
+{
+  "steps": {
+    "unlockStep": {"phaseId": "unlock", "label": "Unlock"},
+    "masterStep": {"phaseId": "master", "label": "Master"},
+    "minionStep": {"phaseId": "minion", "label": "Minion"},
+    "influenceStep": {"phaseId": "influence", "label": "Influence"},
+    "discardStep": {"phaseId": "discard", "label": "Discard"}
+  },
+  "stepOrder": ["unlockStep", "masterStep", "minionStep", "influenceStep", "discardStep"]
+}

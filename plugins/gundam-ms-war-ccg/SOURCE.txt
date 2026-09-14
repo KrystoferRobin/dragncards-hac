@@ -1,0 +1,8 @@
+Built 2026-09-12 17:33 UTC from LackeyCCG GundamMSWarCCG.
+Source: /Users/krystoferrobin/Downloads/lackeyplugins/GundamMSWarCCG
+Art: https://github.com/wishmstr/GundamMSWarCCG raw setimages.
+Author credit: Lackey / wishmstr
+
+Tabletop plugin only — Lackey has no rules engine to port.
+TSV rows: 304  skipped (no image URL or duplicate): 0
+Prebuilts: 2 Lackey decks.

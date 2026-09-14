@@ -1,0 +1,53 @@
+{
+  "cardMenu": {
+    "moveToGroupIds": [
+      "playerNHand",
+      "playerNDeck",
+      "playerNDiscard",
+      "playerNPlay",
+      "playerNSeed",
+      "playerNMissions",
+      "playerNSites",
+      "playerNTent",
+      "playerNTactics",
+      "playerNRemoved",
+      "playerN+1Play",
+      "sharedSpaceline",
+      "sharedSetAside"
+    ],
+    "options": [
+      {
+        "label": "To spaceline",
+        "actionList": "moveToSpaceline"
+      },
+      {
+        "label": "Rotate 90",
+        "actionList": "rotate90"
+      },
+      {
+        "label": "Rotate 180",
+        "actionList": "rotate180"
+      },
+      {
+        "label": "Straighten",
+        "actionList": "readyCard"
+      },
+      {
+        "label": "Flip",
+        "actionList": "flipCard"
+      },
+      {
+        "label": "Discard",
+        "actionList": "discardCard"
+      },
+      {
+        "label": "Detach",
+        "actionList": "detachCard"
+      },
+      {
+        "label": "Shuffle into deck",
+        "actionList": "shuffleIntoDeck"
+      }
+    ]
+  }
+}

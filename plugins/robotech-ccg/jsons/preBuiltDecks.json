@@ -1,0 +1,1299 @@
+{
+  "preBuiltDecks": {
+    "azonia-s-forces-starter-deck": {
+      "label": "Azonia's Forces Starter Deck",
+      "cards": [
+        {
+          "databaseId": "robotech_MS035FuelLeak.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_MS036Showdown.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_MS037SpaceFold.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_MS038Azonia.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_MS039FemaleZentraediOfficer.png",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_MS040FemaleZentraediPilot.png",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_MS041FemaleZentraediWarrior.png",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_MS042Miriya.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_MS043Quadrano.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_MS044QuadranoAce.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_MS045QuadranoBasher.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_MS046QuadranoBlitz.png",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_MS047QuadranoBurn.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_MS048QuadranoCounterStrike.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_MS049QuadranoFirstStrike.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_MS050QuadranoKamikaze.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_MS051QuadranoMiriya.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_MS052QuadranoOverkill.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_MS053QuadranoRecall.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_MS054QuadranoSmasher.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_MS055QuadranoThrasher.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_MS056QuadranoVX.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_MS057CommandShipAzonia.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_MS058DestroyerResupply.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_MS059DestroyerSupport.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        }
+      ]
+    },
+    "blue-squadron-starter-deck": {
+      "label": "Blue Squadron Starter Deck",
+      "cards": [
+        {
+          "databaseId": "robotech_MS060DisableMecha.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_MS061EvasiveManeuver.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_MS062FokkersFeint.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_MS063InDisguise.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_MS064Mutiny.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_MS065Repair.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_MS066ReturntoCarrierBay.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_MS067WeddingBells.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_MS068Bobby.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_MS069DanaSterling.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_MS070MaxSterlingCommander.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_MS071MiriyaMrsSterling.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_MS072PilotBlueSquadron.png",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_MS073ArmoredBattloidUpgrade.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_MS074VF1A.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_MS075VF1ACollateralDamage.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_MS076VF1AImmobilize.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_MS077VF1ARefuel.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_MS078VF1AUnlockable.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_MS079VF1D.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_MS080VF1J.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_MS081VF1JBattloidIntercept.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_MS082VF1JBlitzkrieg.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_MS083VF1JMaxSterlingBooster.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_MS084VF1JMiriyaBooster.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        }
+      ]
+    },
+    "breetai-s-forces-starter-deck": {
+      "label": "Breetai's Forces Starter Deck",
+      "cards": [
+        {
+          "databaseId": "robotech_MS085EscapeCapsule.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_MS086Infiltrate.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_MS087ManualOverideBeam.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_MS088MassiveBombardment.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_MS089Breetai.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_MS090Bron.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_MS091Exedore.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_MS092Khonda.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_MS093Rico.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_MS094ZentraediGuard.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_MS095Battlepod5DP.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_MS096Battlepod7DP.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_MS097Battlepod9DP.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_MS098BattlepodBlockable.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_MS099BattlepodDestructible.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_MS100FighterPodBlockable.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_MS101FighterPodDestruction.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_MS102HeavyArtilleryDestructive.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_MS103LightArtilleryCounterStrike.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_MS104OfficersBattlepodDestruction.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_MS105OfficersBattlepodDestroyer.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_MS106PoweredArmorMaleCannon.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_MS107PoweredArmorMaleDefender.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_MS108Carrier.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_MS109Destroyer.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_MS110FlagshipBreetai.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_MS111ReconPod.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_MS112ReEntryPod.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_MS113Scoutship.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        }
+      ]
+    },
+    "macross-starter-deck": {
+      "label": "Macross Starter Deck",
+      "cards": [
+        {
+          "databaseId": "robotech_MS001Transform.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_MS002AccuracyofFire.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_MS003BenDixonCorporal.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_MS004MaxSterlingCorporal.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_MS005RickHunterLieutenant.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_MS006CatsEyeRecon.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_MS007ArmoredBattloid.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_MS008VF1ABenDixon.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_MS009VF1AIntercept.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_MS010VF1AMaxSterling.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_MS011VF1AReturn.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_MS012VF1DTrainer.png",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_MS013VF1JAttack.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_MS014VF1JIntercept.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_MS015VF1JRecover.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_MS016VF1JRickHunter.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_MS017VF1JSpeed.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_MS018VF1SIntercept.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_MS019MassiveBarrage.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_MS020Gerao.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_MS021Grel.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_MS022Khyron.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_MS023ZentraediPilot.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_MS024ZentraediWarrior.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_MS025PoweredArmorMale.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_MS026BattlepodCannonFodder.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_MS027BattlepodExpendable.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_MS028BattlepodGroup.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_MS029BattlepodHeavyArtillery.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_MS030BattlepodLightArtillery.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_MS031BattlepodSwarm.png",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_MS032FighterPod.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_MS033OfficersBattlepod.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_MS034ReconBattlepod.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        }
+      ]
+    },
+    "new-generation-starter-deck": {
+      "label": "New Generation Starter Deck",
+      "cards": [
+        {
+          "databaseId": "robotech_NG001NeutronSMissiles.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_NG002TheftbyBalloon.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_NG003AnnieLaBelle.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_NG004LancerLieutenant.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_NG005Lunk.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_NG006Rand.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_NG007Rook.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_NG008ScottBernardLtCmdr.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_NG009SynchroCannon.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_NG010CycloneVR038L.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_NG011CycloneVR041H.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_NG012AlphaVFA6H.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_NG013AlphaVFA6HScott.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_NG014AlphaVFA6I.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_NG015AlphaVFA6ILancer.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_NG016AlphaVFA6Z.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_NG017AlphaVFA6ZRook.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_NG018BetaVFB9.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_NG019ShadowDrone.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_NG020ShadowFighter.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_NG021GarfishclassCruiser.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_NG022HorizonTclassCombatDropship.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_NG023SDF4.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_NG024EnemyOccupation.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_NG025Metamorphosis.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_NG026SymphonyofLight.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_NG027Transmutation.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_NG028Ariel.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_NG029Corg.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_NG030InvidPilot.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_NG031Sera.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_NG032TheRegess.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_NG033InvidHive.png",
+          "quantity": 1,
+          "loadGroupId": "sharedLocations"
+        },
+        {
+          "databaseId": "robotech_NG034ReflexPoint.png",
+          "quantity": 1,
+          "loadGroupId": "sharedLocations"
+        },
+        {
+          "databaseId": "robotech_NG035Enforcer.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_NG036EnforcerLeader.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_NG037InvidCommander.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_NG038InvidCommanderCorg.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_NG039InvidCommanderSera.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_NG040Scout.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_NG041ScoutFighter.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_NG042ScoutInterceptor.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_NG043Shocktrooper.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_NG044Soldier.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_NG045Trooper.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_NG046InvidCarrier.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        }
+      ]
+    },
+    "robotech-masters-starter-deck": {
+      "label": "Robotech Masters Starter Deck",
+      "cards": [
+        {
+          "databaseId": "robotech_RM001Clothesline.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_RM002AngeleoDanteSergeant.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_RM003BowieGrantPrivate.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_RM004DanaSterlingLieutenant.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_RM005LouieNicholsCorporal.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_RM006MarieCrystalLieutenant.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_RM007NovaSatoriLieutenant.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_RM008RolfEmersonGeneral.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_RM009SeanPhillipsPrivate.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_RM010MonumentCity.png",
+          "quantity": 1,
+          "loadGroupId": "sharedLocations"
+        },
+        {
+          "databaseId": "robotech_RM011ChimeraFighter.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_RM012SylphidInterceptor.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_RM013GMPRobot.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_RM014VeritechAGAC.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_RM015VeritechAGACMarieCrystal.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_RM016VeritechLogan.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_RM017VeritechLoganMarieCrystal.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_RM018VeritechHovertank.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_RM019VeritechHovertankBowieGrant.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_RM020VeritechHovertankDanaSterling.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_RM021VeritechHovertankSeanPhillips.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_RM022VeritechHovertankAngeloDante.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_RM023VeritechHovertankLouieNichols.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_RM024TokugawaclassBattleship.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_RM025TristarclassLargeCruiser.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_RM026Allegra.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_RM027Musica.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_RM028Octavia.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_RM029RobotechMastersCloneSoldiers.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_RM030RobotechMastersElders.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_RM031ZorPrime.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_RM032ProtocultureMatrix.png",
+          "quantity": 1,
+          "loadGroupId": "sharedLocations"
+        },
+        {
+          "databaseId": "robotech_RM033BioroidArmoredFighter.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_RM034BioroidArmoredFighterGroup.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_RM035BioroidArmoredFighterRecurrence.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_RM036BioroidArmoredFighterTriumvirate.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_RM037BioroidCommander.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_RM038BioroidCommanderRecurrence.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_RM039BioroidCommanderSacrifice.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_RM040BioroidCommanderZorPrime.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_RM041BioroidSoldier.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_RM042BioroidSoldierTriumvirate.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_RM043BioroidSubcommander.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_RM044-BioroidSubcommanderExchange.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_RM045BioroidSubcommanderRecurrence.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_RM046Triumvaroid.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_RM047TirolianHeavyCruiser.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_RM048TirolianMothership.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_RM049TirolianTransportAttacker.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        }
+      ]
+    },
+    "sdf-1-starter-deck": {
+      "label": "SDF-1 Starter Deck",
+      "cards": [
+        {
+          "databaseId": "robotech_MS114DaedelusAttack.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_MS115Homecoming.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_MS116IWantYou.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_MS117MinmeiSings.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_MS118OmniDirectionalBarrierOverload.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_MS119OmniDirectionalBarrierSystem.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_MS120RickHunterSpaceWalk.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_MS121SDF1SpaceFold.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_MS122AdmiralHAyes.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_MS123ClaudiaGrant.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_MS124EmilLang.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_MS125HenryGlovalCaptain.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_MS126KimYoung.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_MS127LisaHayes.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_MS128Minmei.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_MS129PilotSkullSquadron.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_MS130RickHunterCorporal.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_MS131RoyFokkerLtCmdr.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_MS132SammiePorter.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_MS133VanessaLeeds.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_MS134AlaskaBase.png",
+          "quantity": 1,
+          "loadGroupId": "sharedLocations"
+        },
+        {
+          "databaseId": "robotech_MS135MacrossIsland.png",
+          "quantity": 1,
+          "loadGroupId": "sharedLocations"
+        },
+        {
+          "databaseId": "robotech_MS136DestructoidDefender.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_MS137DestroidMonster.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_MS138DestroidMonsterVessel.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_MS139DestroidPhalanx.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_MS140DestroidPhalanxVessel.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_MS141DestroidSpartanArmor.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_MS142DestroidSpartan.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_MS143DestroidTomahawk.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_MS144GhostFighter.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_MS146LancerSpaceDrone.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_MS145LancerSpaceDroneVessel.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_MS147VF1AAmmoShortage.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_MS148VF1DRescuer.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_MS149VF1DTandem.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_MS150VF1JGuardianTransformer.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_MS151VF1S.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_MS152VF1SSkullLeader.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_MS153VF1SSkullLeaderBooster.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_MS154ARMD1.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_MS155OberthclassDestroyer.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_MS156SDF1Barrier.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "robotech_MS157SDF1MainCannon.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "browse": {
+    "filterPropertySideA": "type",
+    "filterValuesSideA": [
+      "Character",
+      "Event",
+      "Item",
+      "Main Character",
+      "Scene",
+      "Story"
+    ],
+    "textPropertiesSideA": [
+      "name",
+      "text",
+      "keywords",
+      "set",
+      "cost",
+      "inspiration",
+      "subtitle"
+    ]
+  }
+}

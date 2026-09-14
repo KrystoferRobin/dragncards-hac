@@ -1,0 +1,17 @@
+{
+  "groupMenu": {
+    "moveToGroupIds": [
+      "playerNDeck",
+      "playerNDiscard",
+      "playerNBootHill",
+      "playerNHand",
+      "playerNDrawHand",
+      "playerNOutfit",
+      "playerNStarting",
+      "playerNPlay",
+      "playerN+1Play",
+      "sharedSetAside"
+    ],
+    "options": []
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "pluginName": "Call of Cthulhu LCG",
+  "author": "Lackey / Tragic-zz",
+  "tutorialUrl": "https://github.com/Tragic-zz/lackey-CoCLCG",
+  "announcements": [
+    "Tabletop plugin from the Lackey Call of Cthulhu LCG set. No rules engine — Draw, Refresh, story draws, and tokens are shortcuts.",
+    "Load a story deck plus Starting Domains from Menu → Load. D = draw. R = refresh all. Y = draw a story. T = exhaust. I = insane. 1/2/3/4 = success / struggle / wound / drain."
+  ],
+  "loadPreBuiltOnNewGame": false,
+  "backgroundUrl": "https://toybox.hundredacre.club/cards/call-of-cthulhu-lcg/_plugin/CallOfCthulhuLcg-Background.jpg",
+  "bannerUrl": "https://toybox.hundredacre.club/cards/call-of-cthulhu-lcg/_plugin/banner2.jpg",
+  "logoUrl": "https://toybox.hundredacre.club/cards/call-of-cthulhu-lcg/_plugin/logo.jpg"
+}

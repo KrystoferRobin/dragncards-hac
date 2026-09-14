@@ -1,0 +1,584 @@
+{
+  "preBuiltDecks": {
+    "japanese-starter-01-mw": {
+      "label": "Japanese Starter 01 MW",
+      "cards": [
+        {
+          "databaseId": "Set1_thunderbolt",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Set1_darkaxestump",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Set1_energybolt",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Set1_jrnecki",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Set1_lioner",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Set1_magicclaw",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Set1_octopus",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Set1_peachmonkey",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Set1_sidequest",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Set1_zetagray",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Set1_yetipepe",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Set1_battleshield",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Set1_fireboar",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Set1_greenmushroom",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Set1_grizzly",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Set1_jryeti",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Set1_pepe",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Set1_sentinel",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Set1_theninedragons",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Set1_wildboar",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Set1_maya",
+          "quantity": 1,
+          "loadGroupId": "playerNStarting"
+        },
+        {
+          "databaseId": "Set1_sherman",
+          "quantity": 1,
+          "loadGroupId": "playerNStarting"
+        }
+      ]
+    },
+    "japanese-starter-02-bt": {
+      "label": "Japanese Starter 02 BT",
+      "cards": [
+        {
+          "databaseId": "Set1_drake",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Set1_arrowblow",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Set1_curseeye",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Set1_greentrixter",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Set1_hornedmushroom",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Set1_jrboogie",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Set1_soularrow",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Set1_stirge",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Set1_tweeter",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Set1_bloodslain",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Set1_cico",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Set1_coconutknife",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Set1_croco",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Set1_krappy",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Set1_krip",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Set1_kumbithrowingstar",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Set1_lorang",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Set1_propelly",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Set1_redsnail",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Set1_nixie",
+          "quantity": 1,
+          "loadGroupId": "playerNStarting"
+        },
+        {
+          "databaseId": "Set1_ivan",
+          "quantity": 1,
+          "loadGroupId": "playerNStarting"
+        }
+      ]
+    },
+    "starter-deck-01-thief": {
+      "label": "Starter Deck 01 Thief",
+      "cards": [
+        {
+          "databaseId": "Set1_cico",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Set1_coconutknife",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Set1_croco",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Set1_darkshadow",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Set1_emeraldearrings",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Set1_krappy",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Set1_krip",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Set1_lorang",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Set1_propelly",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Set1_redsnail",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Set1_battleshield",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Set1_blockgolem",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Set1_fireboar",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Set1_greenmushroom",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Set1_grizzly",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Set1_jryeti",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Set1_pepe",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Set1_ribbonpig",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Set1_sentinel",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Set1_theninedragons",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Set1_wildboar",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Set1_yetipepe",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Set1_ivan",
+          "quantity": 1,
+          "loadGroupId": "playerNStarting"
+        },
+        {
+          "databaseId": "Set1_sherman",
+          "quantity": 1,
+          "loadGroupId": "playerNStarting"
+        }
+      ]
+    },
+    "starter-deck-02-bowman": {
+      "label": "Starter Deck 02 Bowman",
+      "cards": [
+        {
+          "databaseId": "Set1_arrowblow",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Set1_battlebow",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Set1_curseeye",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Set1_greentrixter",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Set1_hornedmushroom",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Set1_jrboogie",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Set1_powerknockback",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Set1_soularrow",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Set1_stirge",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Set1_blockgolem",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Set1_fireboar",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Set1_greenmushroom",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Set1_grizzly",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Set1_jryeti",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Set1_officerskeleton",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Set1_pepe",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Set1_resting",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Set1_ribbonpig",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Set1_sentinel",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Set1_wildboar",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Set1_yetipepe",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Set1_nixie",
+          "quantity": 1,
+          "loadGroupId": "playerNStarting"
+        },
+        {
+          "databaseId": "Set1_sherman",
+          "quantity": 1,
+          "loadGroupId": "playerNStarting"
+        }
+      ]
+    },
+    "starter-deck-03-magician": {
+      "label": "Starter Deck 03 Magician",
+      "cards": [
+        {
+          "databaseId": "Set1_bellflowerroot",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Set1_darkaxestump",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Set1_energybolt",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Set1_jrnecki",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Set1_lioner",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Set1_magicclaw",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Set1_octopus",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Set1_zetagray",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Set1_blockgolem",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Set1_fireboar",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Set1_greenmushroom",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Set1_grizzly",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Set1_jryeti",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Set1_pepe",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Set1_resting",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Set1_ribbonpig",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Set1_sentinel",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Set1_wildboar",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Set1_yetipepe",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Set1_maya",
+          "quantity": 1,
+          "loadGroupId": "playerNStarting"
+        },
+        {
+          "databaseId": "Set1_sherman",
+          "quantity": 1,
+          "loadGroupId": "playerNStarting"
+        }
+      ]
+    }
+  }
+}

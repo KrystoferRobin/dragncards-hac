@@ -1,0 +1,81 @@
+{
+  "hotkeys": {
+    "card": [
+      {
+        "actionList": [
+          "FLIP",
+          "$ACTIVE_CARD_ID"
+        ],
+        "key": "F",
+        "label": "Flip Card"
+      },
+      {
+        "actionList": [
+          "DETACH",
+          "$ACTIVE_CARD_ID"
+        ],
+        "key": "C",
+        "label": "Detach"
+      },
+      {
+        "actionList": [
+          "SHUFFLE_INTO_DECK",
+          "$ACTIVE_CARD_ID"
+        ],
+        "key": "H",
+        "label": "Shuffle Into Deck"
+      },
+      {
+        "actionList": [
+          "SEND_TO_DISCARD",
+          "$ACTIVE_CARD_ID"
+        ],
+        "key": "L",
+        "label": "Discard"
+      },
+      {
+        "actionList": [
+          "SEND_TO_DEAD"
+        ],
+        "key": "K",
+        "label": "Dead Pile"
+      },
+      {
+        "actionList": "damageCard",
+        "key": "W",
+        "label": "Wound / Heal"
+      }
+    ],
+    "game": [
+      {
+        "actionList": [
+          "DRAW_ONE_CARD"
+        ],
+        "key": "D",
+        "label": "Draw from Deck"
+      },
+      {
+        "actionList": [
+          "DRAW_STARTING_HAND"
+        ],
+        "key": "S",
+        "label": "Draw starting hand (8)"
+      },
+      {
+        "actionList": [
+          "ADD_TWILIGHT"
+        ],
+        "key": "T",
+        "label": "Add 1 twilight"
+      },
+      {
+        "actionList": [
+          "REMOVE_TWILIGHT"
+        ],
+        "key": "R",
+        "label": "Remove 1 twilight"
+      }
+    ],
+    "token": []
+  }
+}

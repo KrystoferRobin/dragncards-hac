@@ -1,0 +1,38 @@
+{
+  "pluginMenu": {
+    "options": [
+      {
+        "label": "Draw",
+        "actionList": "drawDeck"
+      },
+      {
+        "label": "Shuffle deck",
+        "actionList": "shuffleDeck"
+      },
+      {
+        "label": "Ready all",
+        "actionList": "readyAll"
+      },
+      {
+        "label": "Flip coin",
+        "actionList": "flipCoin"
+      },
+      {
+        "label": "Resources +1",
+        "actionList": "increase_resources"
+      },
+      {
+        "label": "Resources -1",
+        "actionList": "decrease_resources"
+      },
+      {
+        "label": "Conspiracy +1",
+        "actionList": "increase_conspiracy"
+      },
+      {
+        "label": "Conspiracy -1",
+        "actionList": "decrease_conspiracy"
+      }
+    ]
+  }
+}

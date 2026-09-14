@@ -1,0 +1,23 @@
+{
+  "topBarCounters": {
+    "shared": [
+      {
+        "label": "Round",
+        "imageUrl": "",
+        "gameProperty": "roundNumber"
+      }
+    ],
+    "player": [
+      {
+        "label": "Resources",
+        "imageUrl": "",
+        "playerProperty": "resourceLocations"
+      },
+      {
+        "label": "Recruit",
+        "imageUrl": "",
+        "playerProperty": "recruit"
+      }
+    ]
+  }
+}

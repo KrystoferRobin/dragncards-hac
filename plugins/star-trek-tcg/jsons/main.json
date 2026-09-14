@@ -1,0 +1,12 @@
+{
+  "pluginName": "Star Trek TCG",
+  "author": "Lackey / ericbsmith42",
+  "tutorialUrl": "https://github.com/ericbsmith42/LackeyCCG-StarTrekTCG",
+  "announcements": [
+    "Tabletop plugin from the Lackey Star Trek TCG set (Decipher 2000 — not CCG 1E). No rules engine — Core, Episode, Challenges, and XC are shortcuts.",
+    "D = draw. E = exhaust. K / R = ready. P = XC +1. X = discard."
+  ],
+  "loadPreBuiltOnNewGame": false,
+  "bannerUrl": "https://toybox.hundredacre.club/cards/star-trek-tcg/_plugin/banner2.jpg",
+  "logoUrl": "https://toybox.hundredacre.club/cards/star-trek-tcg/_plugin/logo2.jpg"
+}

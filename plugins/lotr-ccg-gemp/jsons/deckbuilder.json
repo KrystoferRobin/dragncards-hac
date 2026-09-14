@@ -1,0 +1,57 @@
+{
+  "deckbuilder": {
+    "addButtons": [
+      1
+    ],
+    "colorKey": "culture",
+    "colorValues": {
+      "Gondor": "#4B81D7",
+      "Rohan": "#C4A35A",
+      "Elven": "#57B01A",
+      "Dwarven": "#8B6914",
+      "Gandalf": "#C9A227",
+      "Shire": "#6B8F3C",
+      "Gollum": "#7A6F5D",
+      "Sauron": "#4A0E0E",
+      "Ringwraith": "#2B2B2B",
+      "Moria": "#5C4A3A",
+      "Isengard": "#3D5C3A",
+      "Raider": "#8B3A2A",
+      "Dunland": "#6E4B2A",
+      "Men": "#8A6A4A",
+      "Orc": "#3F4A2A",
+      "Uruk-hai": "#4A3020",
+      "Wraith": "#333333",
+      "Free Peoples": "#4B81D7",
+      "Shadow": "#AC1714"
+    },
+    "columns": [
+      {
+        "label": "Name",
+        "propName": "name"
+      },
+      {
+        "label": "Type",
+        "propName": "type"
+      },
+      {
+        "label": "Culture",
+        "propName": "culture"
+      },
+      {
+        "label": "Set",
+        "propName": "packName"
+      },
+      {
+        "label": "Twilight",
+        "propName": "twilight"
+      }
+    ],
+    "spawnGroups": [
+      {
+        "label": "id:myDeck",
+        "loadGroupId": "playerNDeck"
+      }
+    ]
+  }
+}

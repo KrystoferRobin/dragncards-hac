@@ -1,0 +1,24 @@
+{
+  "cardProperties": {
+    "committed": {
+      "default": false,
+      "type": "boolean"
+    },
+    "exhausted": {
+      "default": false,
+      "type": "boolean"
+    },
+    "extraResources": {
+      "default": 0,
+      "type": "integer"
+    },
+    "moved": {
+      "default": false,
+      "type": "boolean"
+    },
+    "preventRefresh": {
+      "default": false,
+      "type": "boolean"
+    }
+  }
+}

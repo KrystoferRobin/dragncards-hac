@@ -1,0 +1,16 @@
+Built 2026-09-11 22:48 UTC from LackeyCCG magic.
+Source: /Applications/LackeyCCG/plugins/magic
+Art: HTTPS hotlink to magicplugin.normalitycomics.com/cardimages/ (not downloaded).
+Author credit: Lackey / normalitycomics
+
+Tabletop plugin only — Lackey has no rules engine to port.
+TSV rows: 68802  remote art URLs: 68802
+Prebuilts: 3 Lackey challenge decks.
+Commander/emblem slots toggle for both players via Cmd/Emblem (layout standard ↔ commander).
+
+Card database is split into five TSVs (same header). Upload all five at once:
+  cards-01-core-premodern.tsv  12975 cards  (Core sets + premodern expansions)
+  cards-02-modern-early.tsv  10523 cards  (Modern expansions (early files))
+  cards-03-modern-late.tsv  13551 cards  (Modern expansions 3 + modern-only)
+  cards-04-commander.tsv  13432 cards  (Commander products)
+  cards-05-special-reprints-tokens.tsv  18321 cards  (Supplemental, reprints, promos, silver-border, tokens)

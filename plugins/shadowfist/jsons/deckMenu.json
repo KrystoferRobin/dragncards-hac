@@ -1,0 +1,111 @@
+{
+  "deckMenu": {
+    "subMenus": [
+      {
+        "label": "Lackey Decks",
+        "deckLists": [
+          {
+            "deckListId": "10-000-bullets-architects",
+            "label": "10,000 Bullets — Architects"
+          },
+          {
+            "deckListId": "10-000-bullets-ascended",
+            "label": "10,000 Bullets — Ascended"
+          },
+          {
+            "deckListId": "10-000-bullets-dragons",
+            "label": "10,000 Bullets — Dragons"
+          },
+          {
+            "deckListId": "10-000-bullets-guiding-hand",
+            "label": "10,000 Bullets — Guiding Hand"
+          },
+          {
+            "deckListId": "10-000-bullets-jammers",
+            "label": "10,000 Bullets — Jammers"
+          },
+          {
+            "deckListId": "10-000-bullets-lotus",
+            "label": "10,000 Bullets — Lotus"
+          },
+          {
+            "deckListId": "10-000-bullets-monarchs",
+            "label": "10,000 Bullets — Monarchs"
+          },
+          {
+            "deckListId": "10-000-bullets-purists",
+            "label": "10,000 Bullets — Purists"
+          },
+          {
+            "deckListId": "back-for-seconds-jammers",
+            "label": "Back for Seconds — Jammers"
+          },
+          {
+            "deckListId": "back-for-seconds-monarchs",
+            "label": "Back for Seconds — Monarchs"
+          },
+          {
+            "deckListId": "combat-in-kowloon-ascended",
+            "label": "Combat in Kowloon — Ascended"
+          },
+          {
+            "deckListId": "combat-in-kowloon-dragons",
+            "label": "Combat in Kowloon — Dragons"
+          },
+          {
+            "deckListId": "combat-in-kowloon-guiding-hand",
+            "label": "Combat in Kowloon — Guiding Hand"
+          },
+          {
+            "deckListId": "combat-in-kowloon-lotus",
+            "label": "Combat in Kowloon — Lotus"
+          },
+          {
+            "deckListId": "year-of-the-dragon-architects",
+            "label": "Year of the Dragon — Architects"
+          },
+          {
+            "deckListId": "year-of-the-dragon-ascended",
+            "label": "Year of the Dragon — Ascended"
+          },
+          {
+            "deckListId": "year-of-the-dragon-dragons",
+            "label": "Year of the Dragon — Dragons"
+          },
+          {
+            "deckListId": "year-of-the-dragon-guiding-hand",
+            "label": "Year of the Dragon — Guiding Hand"
+          },
+          {
+            "deckListId": "year-of-the-dragon-lotus",
+            "label": "Year of the Dragon — Lotus"
+          },
+          {
+            "deckListId": "year-of-the-goat-ascended",
+            "label": "Year of the Goat — Ascended"
+          },
+          {
+            "deckListId": "year-of-the-goat-dragons",
+            "label": "Year of the Goat — Dragons"
+          },
+          {
+            "deckListId": "year-of-the-goat-guiding-hand",
+            "label": "Year of the Goat — Guiding Hand"
+          },
+          {
+            "deckListId": "year-of-the-goat-jammers",
+            "label": "Year of the Goat — Jammers"
+          },
+          {
+            "deckListId": "year-of-the-goat-lotus",
+            "label": "Year of the Goat — Lotus"
+          },
+          {
+            "deckListId": "year-of-the-goat-monarchs",
+            "label": "Year of the Goat — Monarchs"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "cardMenu": {
+    "moveToGroupIds": [
+      "playerNHand",
+      "playerNDeck",
+      "playerNDiscard",
+      "playerNPlay",
+      "playerNStarting",
+      "playerNLocations",
+      "playerNJkp",
+      "playerN+1Play",
+      "sharedSetAside"
+    ],
+    "options": [
+      {
+        "label": "Rotate 180",
+        "actionList": "rotateCard"
+      },
+      {
+        "label": "Ready",
+        "actionList": "readyCard"
+      },
+      {
+        "label": "Flip",
+        "actionList": "flipCard"
+      },
+      {
+        "label": "Discard",
+        "actionList": "discardCard"
+      },
+      {
+        "label": "Detach",
+        "actionList": "detachCard"
+      },
+      {
+        "label": "Shuffle into deck",
+        "actionList": "shuffleIntoDeck"
+      }
+    ]
+  }
+}

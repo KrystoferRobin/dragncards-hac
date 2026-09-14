@@ -1,0 +1,487 @@
+{
+  "labels": {
+    "encounter2Deck": {
+      "English": "Encounter Deck 2"
+    },
+    "player1Discard2": {
+      "English": "Player 1 2nd Discard"
+    },
+    "player4Play2": {
+      "English": "Player 4 Play Area 2"
+    },
+    "round": {
+      "English": "round"
+    },
+    "villain": {
+      "English": "Villain"
+    },
+    "mainSchemeDiscard": {
+      "English": "Main Scheme Discard"
+    },
+    "loadRequired": {
+      "English": "Automatically Load Required Modular Sets"
+    },
+    "player4OutOfPlay": {
+      "English": "Player 4 Out Of Play"
+    },
+    "player2Engaged": {
+      "English": "Player 2 Engaged Area"
+    },
+    "detachCard": {
+      "English": "Detach Card"
+    },
+    "beginningPhase": {
+      "English": "Beginning"
+    },
+    "standardIII": {
+      "English": "Standard III"
+    },
+    "player2Play3": {
+      "English": "Player 2 Play Area 3"
+    },
+    "player1Play2": {
+      "English": "Player 1 Play Area 2"
+    },
+    "player3Play1": {
+      "English": "Player 3 Play Area 1"
+    },
+    "player3Deck": {
+      "English": "Player 3 Deck"
+    },
+    "dealSecondFacedownTouch": {
+      "English": "Deal From Enc. Deck 2"
+    },
+    "dealSecondFacedown": {
+      "English": "Deal Second Encounter Card"
+    },
+    "flip": {
+      "English": "Flip Card"
+    },
+    "dealEncounterFacedown": {
+      "English": "Deal Encounter Card"
+    },
+    "dealEncounterFacedownTouch": {
+      "English": "Deal From Enc. Deck"
+    },
+    "player4Deck2": {
+      "English": "Player 4 2nd Deck"
+    },
+    "classification": {
+      "English": "classification"
+    },
+    "type": {
+      "English": "type"
+    },
+    "step-2.5": {
+      "English": "Pass the first player token and end the round."
+    },
+    "campaignDeck": {
+      "English": "Campaign Deck"
+    },
+    "accelerationToken": {
+      "English": "acceleration"
+    },
+    "labelMarkAsDefeat": {
+      "English": "Defeat"
+    },
+    "shuffle": {
+      "English": "Shuffle"
+    },
+    "step-2.3": {
+      "English": "Deal one encounter card to each player."
+    },
+    "playerEndPhase": {
+      "English": "Player End Phase / Start Villain Phase"
+    },
+    "player1Deck2": {
+      "English": "Player 1 2nd Deck"
+    },
+    "playArea": {
+      "English": "Play Area"
+    },
+    "outOfPlay": {
+      "English": "Out Of Play"
+    },
+    "player2OutOfPlay": {
+      "English": "Player 2 Out Of Play"
+    },
+    "player3Hand": {
+      "English": "Player 3 Hand"
+    },
+    "setSideB": {
+      "English": "Set Side B"
+    },
+    "villainEncounterPhase": {
+      "English": "Villain Encounter Phase"
+    },
+    "player2Deck2": {
+      "English": "Player 2 2nd Deck"
+    },
+    "villainDeck": {
+      "English": "Villain Deck"
+    },
+    "player4Discard2": {
+      "English": "Player 4 2nd Discard"
+    },
+    "dealEncounterFaceup": {
+      "English": "Deal Encounter Card Faceup"
+    },
+    "setSideC": {
+      "English": "Set Side C"
+    },
+    "player1Identity": {
+      "English": "Player 1 Identity"
+    },
+    "player3Engaged": {
+      "English": "Player 3 Engaged Area"
+    },
+    "player4Event": {
+      "English": "Player 4 Current Event"
+    },
+    "player3NemesisSet": {
+      "English": "Player 3 Nemesis Set"
+    },
+    "villainEndPhaseTouch": {
+      "English": "End Villain Phase"
+    },
+    "player4Deck": {
+      "English": "Player 4 Deck"
+    },
+    "player1Engaged": {
+      "English": "Player 1 Engaged Area"
+    },
+    "engaged": {
+      "English": "Engaged"
+    },
+    "loadRecommends": {
+      "English": "Automatically Load Recommended Modular Sets"
+    },
+    "setSideA": {
+      "English": "Set Side A"
+    },
+    "encounter3Deck": {
+      "English": "Third Encounter Deck"
+    },
+    "standardSet": {
+      "English": "Standard Set"
+    },
+    "toggleEncounterDeck2": {
+      "English": "Toggle Second Encounter Deck"
+    },
+    "player4Play4": {
+      "English": "Player 4 Play Area 4"
+    },
+    "handSize": {
+      "English": "Hand Size"
+    },
+    "player3Discard": {
+      "English": "Player 3 Discard"
+    },
+    "playerEndPhaseTouch": {
+      "English": "End Player Phase"
+    },
+    "player2Discard2": {
+      "English": "Player 2 2nd Discard"
+    },
+    "standard3Player": {
+      "English": "3 Players"
+    },
+    "exhaust": {
+      "English": "Exhaust"
+    },
+    "expertII": {
+      "English": "Expert II"
+    },
+    "discardRandom": {
+      "English": "Discard Random Card"
+    },
+    "villainPhase": {
+      "English": "Villain"
+    },
+    "player1Discard": {
+      "English": "Player 1 Discard"
+    },
+    "player3Deck2": {
+      "English": "Player 3 2nd Deck"
+    },
+    "confusedToken": {
+      "English": "confused"
+    },
+    "victoryDisplay": {
+      "English": "Victory Display"
+    },
+    "shadowsOfThePast": {
+      "English": "Shadows of the Past"
+    },
+    "drawCard": {
+      "English": "Draw Card"
+    },
+    "player4Hand": {
+      "English": "Player 4 Hand"
+    },
+    "player4NemesisSet": {
+      "English": "Player 4 Nemesis Set"
+    },
+    "player1OutOfPlay": {
+      "English": "Player 1 Out Of Play"
+    },
+    "stunnedToken": {
+      "English": "stunned"
+    },
+    "flipButton": {
+      "English": "Flip"
+    },
+    "zeroTokens": {
+      "English": "Remove All Tokens"
+    },
+    "infinityGauntletDeck": {
+      "English": "Infinity Gauntlet Deck"
+    },
+    "mode": {
+      "English": "Mode"
+    },
+    "thwart": {
+      "English": "Thwart"
+    },
+    "loadMode": {
+      "English": "Automatically Load Standard/Expert Sets"
+    },
+    "discardRandomButton": {
+      "English": "Discard Random"
+    },
+    "labelMarkAsVictory": {
+      "English": "Victory"
+    },
+    "standardII": {
+      "English": "Standard II"
+    },
+    "labelMarkAsIncomplete": {
+      "English": "Incomplete"
+    },
+    "player2Hand": {
+      "English": "Player 2 Hand"
+    },
+    "player4Play3": {
+      "English": "Player 4 Play Area 3"
+    },
+    "player3Discard2": {
+      "English": "Player 3 2nd Discard"
+    },
+    "encounterDeck": {
+      "English": "Encounter Deck"
+    },
+    "standardPVP": {
+      "English": "Standard PVP"
+    },
+    "player4Discard": {
+      "English": "Player 4 Discard"
+    },
+    "step-2.2": {
+      "English": "The villain activates once per player, along with any eligible minions"
+    },
+    "mulliganDrawHand": {
+      "English": "Mulligan / Draw Up to Hand Size"
+    },
+    "encounterPhase": {
+      "English": "Encounter Phase"
+    },
+    "player4Engaged": {
+      "English": "Player 4 Engaged Area"
+    },
+    "discard": {
+      "English": "Discard"
+    },
+    "player3OutOfPlay": {
+      "English": "Player 3 Out Of Play"
+    },
+    "player2Play4": {
+      "English": "Player 2 Play Area 4"
+    },
+    "step-0.0": {
+      "English": "Beginning of Round"
+    },
+    "threatToken": {
+      "English": "threat"
+    },
+    "standard": {
+      "English": "Standard"
+    },
+    "mainScheme": {
+      "English": "Main Scheme"
+    },
+    "player4Play1": {
+      "English": "Player 4 Play Area 1"
+    },
+    "readyAll": {
+      "English": "Ready All"
+    },
+    "ready": {
+      "English": "Ready Card"
+    },
+    "step-2.1": {
+      "English": "Place threat on the main scheme."
+    },
+    "player2Deck": {
+      "English": "Player 2 Deck"
+    },
+    "damage": {
+      "English": "Damage"
+    },
+    "dealSecondFaceup": {
+      "English": "Deal Second Encounter Card Faceup"
+    },
+    "player1Deck": {
+      "English": "Player 1 Deck"
+    },
+    "player3Event": {
+      "English": "Player 3 Current Event"
+    },
+    "step-1.2": {
+      "English": "End of Player Phase"
+    },
+    "myDeck": {
+      "English": "My Deck"
+    },
+    "player2Discard": {
+      "English": "Player 2 Discard"
+    },
+    "engagedArea": {
+      "English": "Engaged Area"
+    },
+    "encounter2Discard": {
+      "English": "Encounter Discard 2"
+    },
+    "step-1.1": {
+      "English": "Player Turn"
+    },
+    "expert": {
+      "English": "Expert"
+    },
+    "player3Play4": {
+      "English": "Player 3 Play Area 4"
+    },
+    "endPhase": {
+      "English": "End"
+    },
+    "shuffleIntoDeck": {
+      "English": "Shuffle Into Deck"
+    },
+    "heroHandSizeModifier": {
+      "English": "Hero Hand Size Modifier"
+    },
+    "standard4Player": {
+      "English": "4 Players"
+    },
+    "villainDiscard": {
+      "English": "Villain Discard"
+    },
+    "villainEndPhase": {
+      "English": "Villain End Phase / Start Player Phase"
+    },
+    "player2NemesisSet": {
+      "English": "Player 2 Nemesis Set"
+    },
+    "exhaustReady": {
+      "English": "Exhaust / Ready"
+    },
+    "hitPoints": {
+      "English": "Hit Points"
+    },
+    "dealThirdFaceup": {
+      "English": "Deal Third Encounter Card Faceup"
+    },
+    "dealThirdFacedown": {
+      "English": "Deal Third Encounter Card"
+    },
+    "playerPhase": {
+      "English": "Player"
+    },
+    "player1Play1": {
+      "English": "Player 1 Play Area 1"
+    },
+    "standard1Player": {
+      "English": "1 Player"
+    },
+    "player1Play3": {
+      "English": "Player 1 Play Area 3"
+    },
+    "removeAllTokens": {
+      "English": "Remove All Tokens"
+    },
+    "player3Play2": {
+      "English": "Player 3 Play Area 2"
+    },
+    "player1NemesisSet": {
+      "English": "Player 1 Nemesis Set"
+    },
+    "infinityGauntletDiscard": {
+      "English": "Infinity Gauntlet Discard"
+    },
+    "drawHand": {
+      "English": "Draw Up to Hand Size"
+    },
+    "toughToken": {
+      "English": "tough"
+    },
+    "standard2Player": {
+      "English": "2 Players"
+    },
+    "villainHitPoints": {
+      "English": "Villain Hit Points"
+    },
+    "damageToken": {
+      "English": "damage"
+    },
+    "expertSet": {
+      "English": "Expert Set"
+    },
+    "player1Play4": {
+      "English": "Player 1 Play Area 4"
+    },
+    "mainSchemeDeck": {
+      "English": "Main Scheme Deck"
+    },
+    "step-0.1": {
+      "English": "End of Round"
+    },
+    "dealBoostCard": {
+      "English": "Deal Boost Card"
+    },
+    "encounterDiscard": {
+      "English": "Encounter Discard"
+    },
+    "dealThirdFacedownTouch": {
+      "English": "Deal From Enc. Deck 3"
+    },
+    "name": {
+      "English": "name"
+    },
+    "alterEgoHandSizeModifier": {
+      "English": "Alter-Ego Hand Size Modifier"
+    },
+    "player2Play2": {
+      "English": "Player 2 Play Area 2"
+    },
+    "player2Event": {
+      "English": "Player 2 Current Event"
+    },
+    "player1Hand": {
+      "English": "Player 1 Hand"
+    },
+    "genericToken": {
+      "English": "generic"
+    },
+    "step-2.4": {
+      "English": "Reveal encounter cards."
+    },
+    "player1Event": {
+      "English": "Player 1 Current Event"
+    },
+    "player3Play3": {
+      "English": "Player 3 Play Area 3"
+    },
+    "player2Play1": {
+      "English": "Player 2 Play Area 1"
+    }
+  }
+}

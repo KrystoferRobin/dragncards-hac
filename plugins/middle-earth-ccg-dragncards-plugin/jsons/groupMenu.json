@@ -1,0 +1,17 @@
+{
+  "groupMenu": {
+    "moveToGroupIds": [
+      "playerNHand",
+      "playerNCompany",
+      "playerNSite",
+      "playerNEvents",
+      "playerNDiscard",
+      "playerNOutOfPlay",
+      "playerNSideboard",
+      "playerNLocationDeck",
+      "playerNDeck",
+      "sharedSetAside"
+    ],
+    "options": []
+  }
+}

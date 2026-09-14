@@ -1,0 +1,42 @@
+{
+  "deckbuilder": {
+    "addButtons": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "columns": [
+      {
+        "propName": "name",
+        "label": "Name"
+      },
+      {
+        "propName": "type",
+        "label": "Type"
+      },
+      {
+        "propName": "color",
+        "label": "Color"
+      },
+      {
+        "propName": "strength",
+        "label": "Str"
+      },
+      {
+        "propName": "packName",
+        "label": "Set"
+      }
+    ],
+    "spawnGroups": [
+      {
+        "loadGroupId": "playerNDeck",
+        "label": "My Deck"
+      },
+      {
+        "loadGroupId": "playerNNetNavi",
+        "label": "My NetNavi"
+      }
+    ]
+  }
+}

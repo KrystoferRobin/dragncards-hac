@@ -1,0 +1,12 @@
+{
+  "pluginName": "My Little Pony CCG",
+  "author": "OCTGN / Gabby Gums, GameMasterLuna",
+  "tutorialUrl": "https://discord.gg/QkGx4FT",
+  "announcements": [
+    "Tabletop plugin from the OCTGN My Little Pony CCG set. No rules engine — Mane, Problem Deck, Points, and Action Tokens are shortcuts.",
+    "D = draw. A = Action Token +1. Manes load to the Mane row; Problems load to the Problem Deck."
+  ],
+  "loadPreBuiltOnNewGame": false,
+  "bannerUrl": "https://toybox.hundredacre.club/cards/mlp-ccg/_plugin/banner2.jpg",
+  "logoUrl": "https://toybox.hundredacre.club/cards/mlp-ccg/_plugin/logo2.jpg"
+}

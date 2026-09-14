@@ -1,0 +1,32 @@
+{
+  "phases": {
+    "Activate": {
+      "height": "10.0%",
+      "label": "id:Activate"
+    },
+    "Battle": {
+      "height": "40.0%",
+      "label": "id:Battle"
+    },
+    "Control": {
+      "height": "10.0%",
+      "label": "id:Control"
+    },
+    "Deploy": {
+      "height": "10.0%",
+      "label": "id:Deploy"
+    },
+    "Draw": {
+      "height": "10.0%",
+      "label": "id:Draw"
+    },
+    "End": {
+      "height": "10.0%",
+      "label": "id:End"
+    },
+    "Move": {
+      "height": "10.0%",
+      "label": "id:Move"
+    }
+  }
+}

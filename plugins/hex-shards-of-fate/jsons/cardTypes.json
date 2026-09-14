@@ -1,0 +1,100 @@
+{
+  "cardTypes": {
+    "Artifact": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "plus",
+        "damage"
+      ]
+    },
+    "Bane": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "plus",
+        "damage"
+      ]
+    },
+    "Basic Action": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "plus",
+        "damage"
+      ]
+    },
+    "Champion": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "plus",
+        "damage"
+      ]
+    },
+    "Choice": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "plus",
+        "damage"
+      ]
+    },
+    "Constant": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "plus",
+        "damage"
+      ]
+    },
+    "Mod": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "plus",
+        "damage"
+      ]
+    },
+    "Quick Action": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "plus",
+        "damage"
+      ]
+    },
+    "Resource": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "plus",
+        "damage"
+      ]
+    },
+    "Rules": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "plus",
+        "damage"
+      ]
+    },
+    "Troop": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "plus",
+        "damage"
+      ]
+    },
+    "Troop Artifact": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "plus",
+        "damage"
+      ]
+    }
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "hotkeys": {
+    "game": [
+      {
+        "key": "D",
+        "actionList": "drawDeck",
+        "label": "Draw"
+      },
+      {
+        "key": "S",
+        "actionList": "shuffleDeck",
+        "label": "Shuffle deck"
+      },
+      {
+        "key": "R",
+        "actionList": "readyAll",
+        "label": "Refresh all"
+      },
+      {
+        "key": "Y",
+        "actionList": "drawStory",
+        "label": "Draw story"
+      },
+      {
+        "key": "B",
+        "actionList": "increaseStories",
+        "label": "Story +1"
+      },
+      {
+        "key": "N",
+        "actionList": "decreaseStories",
+        "label": "Story -1"
+      },
+      {
+        "key": "M",
+        "actionList": "mulligan",
+        "label": "Mulligan"
+      }
+    ],
+    "card": [
+      {
+        "key": "T",
+        "actionList": "exhaustCard",
+        "label": "Exhaust"
+      },
+      {
+        "key": "I",
+        "actionList": "insaneCard",
+        "label": "Insane"
+      },
+      {
+        "key": "K",
+        "actionList": "readyCard",
+        "label": "Refresh"
+      },
+      {
+        "key": "F",
+        "actionList": [
+          "FLIP",
+          "$ACTIVE_CARD_ID"
+        ],
+        "label": "Flip"
+      },
+      {
+        "key": "X",
+        "actionList": [
+          "DISCARD",
+          "$ACTIVE_CARD_ID"
+        ],
+        "label": "Discard"
+      },
+      {
+        "key": "A",
+        "actionList": [
+          "DETACH",
+          "$ACTIVE_CARD_ID"
+        ],
+        "label": "Detach"
+      },
+      {
+        "key": "H",
+        "actionList": [
+          "SHUFFLE_INTO_DECK",
+          "$ACTIVE_CARD_ID"
+        ],
+        "label": "Shuffle into deck"
+      }
+    ],
+    "token": [
+      {
+        "key": "1",
+        "tokenType": "success",
+        "label": "Success token"
+      },
+      {
+        "key": "2",
+        "tokenType": "struggle",
+        "label": "Struggle token"
+      },
+      {
+        "key": "3",
+        "tokenType": "wound",
+        "label": "Wound"
+      },
+      {
+        "key": "4",
+        "tokenType": "drain",
+        "label": "Drain"
+      }
+    ]
+  }
+}

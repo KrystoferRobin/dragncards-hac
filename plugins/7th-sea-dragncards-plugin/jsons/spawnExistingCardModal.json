@@ -1,0 +1,15 @@
+{
+  "spawnExistingCardModal": {
+    "columnProperties": ["name", "type", "faction", "set"],
+    "loadGroupIds": [
+      "playerNDeck",
+      "playerNHand",
+      "playerNCrew",
+      "playerNShip",
+      "playerNCaptain",
+      "playerNAdventures",
+      "playerNDiscard",
+      "sharedSetAside"
+    ]
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "hotkeys": {
+    "card": [
+      {
+        "actionList": [
+          "FLIP_CARD",
+          "$ACTIVE_CARD"
+        ],
+        "key": "L",
+        "label": "id:flip"
+      },
+      {
+        "actionList": [
+          "DISCARD_CARD",
+          "$ACTIVE_CARD"
+        ],
+        "key": "X",
+        "label": "id:discard"
+      },
+      {
+        "actionList": [
+          "EXILE_CARD",
+          "$ACTIVE_CARD"
+        ],
+        "key": "E",
+        "label": "id:exileCard"
+      },
+      {
+        "actionList": [
+          "ATTACK_WITH_CARD",
+          "$ACTIVE_CARD"
+        ],
+        "key": "A",
+        "label": "id:attackWithCard"
+      },
+      {
+        "actionList": [
+          "ATTACK_ON_CARD",
+          "$ACTIVE_CARD"
+        ],
+        "key": "S",
+        "label": "id:attackOnCard"
+      },
+      {
+        "actionList": [
+          "BUY_CARD",
+          "$ACTIVE_CARD"
+        ],
+        "key": "B",
+        "label": "id:buyCard"
+      },
+      {
+        "actionList": [
+          "PLAY_CARD",
+          "$ACTIVE_CARD"
+        ],
+        "key": "W",
+        "label": "id:playCard"
+      }
+    ],
+    "game": [
+      {
+        "actionList": "drawCard",
+        "key": "D",
+        "label": "id:drawCard"
+      },
+      {
+        "actionList": [
+          "END_TURN",
+          "$PLAYER_N"
+        ],
+        "key": "Shift+D",
+        "label": "id:endTurn"
+      },
+      {
+        "actionList": [
+          "PLAY_ALL_CARDS",
+          "$PLAYER_N"
+        ],
+        "key": "Shift+W",
+        "label": "id:playAllCards"
+      },
+      {
+        "actionList": [
+          "GAIN_N_FORCE",
+          "$PLAYER_N",
+          1
+        ],
+        "key": "F",
+        "label": "id:gain1Force"
+      }
+    ],
+    "token": [
+      {
+        "key": "1",
+        "label": "id:damageIcon",
+        "tokenType": "damage"
+      },
+      {
+        "key": "2",
+        "label": "id:attackModifierIcon",
+        "tokenType": "attackModifier"
+      },
+      {
+        "key": "3",
+        "label": "id:hpModifierIcon",
+        "tokenType": "hpModifier"
+      }
+    ]
+  }
+}

@@ -1,0 +1,267 @@
+{
+  "layouts": {
+    "standard": {
+      "cardSize": 16,
+      "chat": {
+        "height": "20%",
+        "left": "70%",
+        "top": "80%",
+        "width": "30%"
+      },
+      "regions": {
+        "playerN+1Base": {
+          "direction": "horizontal",
+          "disableDroppableAttachments": true,
+          "groupId": "{playerN+1}Base",
+          "height": "20%",
+          "left": "80%",
+          "top": "0%",
+          "type": "pile",
+          "width": "10%"
+        },
+        "playerN+1Deck": {
+          "direction": "horizontal",
+          "disableDroppableAttachments": true,
+          "groupId": "{playerN+1}Deck",
+          "height": "20%",
+          "left": "60%",
+          "top": "0%",
+          "type": "pile",
+          "width": "10%"
+        },
+        "playerN+1Discard": {
+          "direction": "horizontal",
+          "disableDroppableAttachments": true,
+          "groupId": "{playerN+1}Discard",
+          "height": "20%",
+          "left": "70%",
+          "top": "0%",
+          "type": "pile",
+          "width": "10%"
+        },
+        "playerN+1Hand": {
+          "direction": "horizontal",
+          "disableDroppableAttachments": true,
+          "groupId": "{playerN+1}Hand",
+          "height": "20%",
+          "left": "0%",
+          "showMenu": true,
+          "style": {
+            "background": "rgba(0, 0, 0, 0.3)"
+          },
+          "top": "0%",
+          "type": "fan",
+          "width": "60%"
+        },
+        "playerN+1Play": {
+          "direction": "horizontal",
+          "disableDroppableAttachments": true,
+          "groupId": "{playerN+1}Play",
+          "height": "20%",
+          "left": "0%",
+          "top": "20%",
+          "type": "row",
+          "width": "80%"
+        },
+        "playerN+1VictoryPile": {
+          "direction": "horizontal",
+          "disableDroppableAttachments": true,
+          "groupId": "{playerN+1}VictoryPile",
+          "height": "20%",
+          "left": "90%",
+          "top": "0%",
+          "type": "pile",
+          "width": "10%"
+        },
+        "playerNBase": {
+          "direction": "horizontal",
+          "disableDroppableAttachments": true,
+          "groupId": "{playerN}Base",
+          "height": "20%",
+          "left": "80%",
+          "top": "60%",
+          "type": "pile",
+          "width": "10%"
+        },
+        "playerNDeck": {
+          "direction": "horizontal",
+          "disableDroppableAttachments": true,
+          "groupId": "{playerN}Deck",
+          "height": "20%",
+          "left": "50%",
+          "top": "80%",
+          "type": "pile",
+          "width": "10%"
+        },
+        "playerNDiscard": {
+          "direction": "horizontal",
+          "disableDroppableAttachments": true,
+          "groupId": "{playerN}Discard",
+          "height": "20%",
+          "left": "60%",
+          "top": "80%",
+          "type": "pile",
+          "width": "10%"
+        },
+        "playerNHand": {
+          "direction": "horizontal",
+          "disableDroppableAttachments": true,
+          "groupId": "{playerN}Hand",
+          "height": "20%",
+          "left": "0%",
+          "showMenu": true,
+          "style": {
+            "background": "rgba(0, 0, 0, 0.3)"
+          },
+          "top": "80%",
+          "type": "fan",
+          "width": "50%"
+        },
+        "playerNPlay": {
+          "direction": "horizontal",
+          "disableDroppableAttachments": true,
+          "groupId": "{playerN}Play",
+          "height": "20%",
+          "left": "0%",
+          "top": "60%",
+          "type": "row",
+          "width": "80%"
+        },
+        "playerNVictoryPile": {
+          "direction": "horizontal",
+          "disableDroppableAttachments": true,
+          "groupId": "{playerN}VictoryPile",
+          "height": "20%",
+          "left": "90%",
+          "top": "60%",
+          "type": "pile",
+          "width": "10%"
+        },
+        "sharedExiled": {
+          "direction": "vertical",
+          "disableDroppableAttachments": true,
+          "groupId": "sharedExiled",
+          "height": "40%",
+          "left": "90%",
+          "top": "20%",
+          "type": "fan",
+          "visible": false,
+          "width": "10%"
+        },
+        "sharedGalaxyDeck": {
+          "direction": "horizontal",
+          "disableDroppableAttachments": true,
+          "groupId": "sharedGalaxyDeck",
+          "height": "20%",
+          "left": "10%",
+          "top": "40%",
+          "type": "pile",
+          "width": "10%"
+        },
+        "sharedGalaxyDiscard": {
+          "direction": "horizontal",
+          "disableDroppableAttachments": true,
+          "groupId": "sharedGalaxyDiscard",
+          "height": "20%",
+          "left": "0%",
+          "top": "40%",
+          "type": "pile",
+          "width": "10%"
+        },
+        "sharedGalaxyRow": {
+          "direction": "horizontal",
+          "disableDroppableAttachments": true,
+          "groupId": "sharedGalaxyRow",
+          "height": "20%",
+          "left": "20%",
+          "top": "40%",
+          "type": "row",
+          "width": "60%"
+        },
+        "sharedOuterRimPilotDeck": {
+          "direction": "horizontal",
+          "disableDroppableAttachments": true,
+          "groupId": "sharedOuterRimPilotDeck",
+          "height": "20%",
+          "left": "80%",
+          "top": "40%",
+          "type": "pile",
+          "width": "10%"
+        },
+        "sharedRules": {
+          "direction": "vertical",
+          "disableDroppableAttachments": true,
+          "groupId": "sharedRules",
+          "height": "40%",
+          "left": "90%",
+          "top": "20%",
+          "type": "fan",
+          "visible": false,
+          "width": "10%"
+        },
+        "sharedTracker": {
+          "direction": "vertical",
+          "disableDroppableAttachments": true,
+          "groupId": "sharedTracker",
+          "height": "40%",
+          "left": "90%",
+          "top": "20%",
+          "type": "row",
+          "width": "10%"
+        }
+      },
+      "rowSpacing": 3,
+      "showRotationOfActiveCard": [
+        180
+      ],
+      "tableButtons": {
+        "endTurnSuggestion": {
+          "actionList": [
+            "END_TURN",
+            "$PLAYER_N"
+          ],
+          "height": "4%",
+          "label": "No resources, attack, or cards in hand remaining. Click here or use Shift+D to end turn.",
+          "left": "5%",
+          "top": "88%",
+          "visible": false,
+          "width": "40%"
+        },
+        "exiled": {
+          "actionList": [
+            "SHOW_SIDE_REGION",
+            "sharedExiled"
+          ],
+          "height": "3%",
+          "label": "Exiled",
+          "left": "94%",
+          "top": "59%",
+          "width": "3%"
+        },
+        "rules": {
+          "actionList": [
+            "SHOW_SIDE_REGION",
+            "sharedRules"
+          ],
+          "height": "3%",
+          "label": "Rules",
+          "left": "97%",
+          "top": "59%",
+          "width": "3%"
+        },
+        "tracker": {
+          "actionList": [
+            "SHOW_SIDE_REGION",
+            "sharedTracker"
+          ],
+          "height": "3%",
+          "label": "Tracker",
+          "left": "90%",
+          "top": "59%",
+          "width": "4%"
+        }
+      },
+      "textBoxes": {}
+    }
+  }
+}

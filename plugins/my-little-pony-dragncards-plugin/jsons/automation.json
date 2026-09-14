@@ -1,0 +1,7 @@
+{
+  "automation": {
+    "postNewGameActionList": [
+      ["LOG", "My Little Pony table created. Load a starter, shuffle Deck and Scene Deck, then play. No rules are enforced."]
+    ]
+  }
+}

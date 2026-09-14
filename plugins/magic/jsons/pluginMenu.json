@@ -1,0 +1,54 @@
+{
+  "pluginMenu": {
+    "options": [
+      {
+        "label": "Draw",
+        "actionList": "drawDeck"
+      },
+      {
+        "label": "Shuffle library",
+        "actionList": "shuffleDeck"
+      },
+      {
+        "label": "Untap all",
+        "actionList": "untapAll"
+      },
+      {
+        "label": "Tap all",
+        "actionList": "tapAll"
+      },
+      {
+        "label": "Mill",
+        "actionList": "mill"
+      },
+      {
+        "label": "Play commander",
+        "actionList": "playCommand"
+      },
+      {
+        "label": "Toggle commander / emblem slots",
+        "actionList": "toggleCommanderSlots"
+      },
+      {
+        "label": "Life +1",
+        "actionList": "increaseLife"
+      },
+      {
+        "label": "Life -1",
+        "actionList": "decreaseLife"
+      },
+      {
+        "label": "Roll d6",
+        "actionList": "rollD6"
+      },
+      {
+        "label": "Roll d20",
+        "actionList": "rollD20"
+      },
+      {
+        "label": "Flip a coin",
+        "actionList": "flipCoin"
+      }
+    ]
+  }
+}

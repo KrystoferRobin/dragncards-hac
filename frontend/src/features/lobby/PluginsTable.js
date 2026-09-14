@@ -9,8 +9,44 @@ import { useHistory } from "react-router-dom";
 import useProfile from "../../hooks/useProfile";
 import { useAuthOptions } from "../../hooks/useAuthOptions";
 import Axios from "axios";
+import { pluginDisplayAuthor } from "./pluginDisplayAuthor";
 
-export const PluginsTable = ({ plugins }) => {
+const CoverImage = ({ src, className, style, alt = "" }) => {
+  const [failed, setFailed] = useState(false);
+  if (!src || failed) return null;
+  return (
+    <img
+      src={src}
+      alt={alt}
+      className={className}
+      style={style}
+      onError={() => setFailed(true)}
+    />
+  );
+};
+
+const LogoSlot = ({ src }) => {
+  const [failed, setFailed] = useState(!src);
+  if (!src || failed) {
+    return (
+      <div className="relative z-10 flex-shrink-0 flex items-center justify-center px-2">
+        <FontAwesomeIcon size="2x" icon={faChevronRight}/>
+      </div>
+    );
+  }
+  return (
+    <div className="relative z-10 self-stretch aspect-square flex-shrink-0 overflow-hidden my-2 mr-2">
+      <img
+        src={src}
+        alt=""
+        className="absolute inset-0 w-full h-full object-contain pointer-events-none"
+        onError={() => setFailed(true)}
+      />
+    </div>
+  );
+};
+
+export const PluginsTable = ({ plugins, hrefForPlugin }) => {
   const siteL10n = useSiteL10n();
   const history = useHistory();
   const user = useProfile();
@@ -20,7 +56,6 @@ export const PluginsTable = ({ plugins }) => {
     () => user?.favorite_plugins || {}
   );
 
-  // Sync favorites when user profile loads or updates (e.g. after page refresh)
   useEffect(() => {
     const loaded = user?.favorite_plugins;
     if (loaded) {
@@ -47,44 +82,54 @@ export const PluginsTable = ({ plugins }) => {
     });
   };
 
-  // Check if plugin is less than a week old
   const isNewPlugin = (createdAt) => {
     if (!createdAt) return false;
     const weekAgo = moment().subtract(7, 'days');
     return moment(createdAt).isAfter(weekAgo);
   };
 
-  // Sort plugins so favorites appear first, preserving relative order within each group
   const sortedPlugins = plugins ? [...plugins].sort((a, b) => {
     const aFav = favorites[a.id] ? 1 : 0;
     const bFav = favorites[b.id] ? 1 : 0;
     return bFav - aFav;
   }) : plugins;
 
-  const trClass = "relative mb-2 h-full w-full flex items-center text-white no-underline select-none rounded-lg w-full bg-gray-600-30 hover:bg-red-600-30"
-
   return (
         <div className="w-full">
-          {plugins == null ?      
+          {plugins == null ?
             <div className="flex justify-center">
               <RotatingLines
                 height={100}
                 width={100}
                 strokeColor="white"/>
-            </div> 
+            </div>
             :
-            <table className="w-full">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
             {sortedPlugins?.map((plugin) => {
               const isFavorite = !!favorites[plugin.id];
+              const bannerUrl = plugin.banner_url;
+              const logoUrl = plugin.logo_url;
               return(
-                <tr key={plugin.id} className={trClass} onClick={() => history.push("/plugin/"+plugin.id)}>
-                  {/* New plugin badge */}
+                <div
+                  key={plugin.id}
+                  className="relative min-h-24 w-full flex items-center text-white no-underline select-none rounded-lg overflow-hidden cursor-pointer bg-gray-600-30 hover:bg-red-600-30"
+                  onClick={() => history.push(hrefForPlugin ? hrefForPlugin(plugin) : "/plugin/"+plugin.id)}
+                >
+                  <CoverImage
+                    src={bannerUrl}
+                    alt=""
+                    className="absolute inset-0 w-full h-full object-cover pointer-events-none"
+                    style={{ opacity: 0.5 }}
+                  />
                   {isNewPlugin(plugin.inserted_at) && (
                     <div className="absolute left-0 top-0 bg-red-600 text-white text-xs font-bold px-2 rounded-br-lg rounded-tl-lg shadow-lg z-10">
                        New
                     </div>
                   )}
-                  <div className="relative m-4">
+                  <div
+                    className="relative z-10 flex-1 min-w-0 m-4 pr-1"
+                    style={{ textShadow: "0 1px 2px rgba(0,0,0,0.85)" }}
+                  >
                     <div className="text-xl inline">
                       {user && <FontAwesomeIcon
                         className="cursor-pointer mr-2"
@@ -99,22 +144,15 @@ export const PluginsTable = ({ plugins }) => {
                       {plugin.name}
                     </div>
                     <div className="text-xs">{siteL10n("Last update:") + " " + moment.utc(plugin.updated_at).local().format("YYYY-MM-DD HH:mm:ss")}</div>
-                    <div className="text-xs">{siteL10n("Author:") + " " + plugin.author_alias}</div>
+                    <div className="text-xs">{siteL10n("Author:") + " " + pluginDisplayAuthor(plugin)}</div>
                     <div className="text-xs">{siteL10n("Games in 24hr/30d:") + " " + plugin.count_24hr + "/" + plugin.count_30d}</div>
                   </div>
-                  <div className="absolute right-0 flex items-center p-4">
-                    <a className="text-white" target="_blank" onClick={() => {}}>
-                      <FontAwesomeIcon size="2x" icon={faChevronRight}/>
-                    </a>
-                  </div>
-
-                </tr>
+                  <LogoSlot src={logoUrl} />
+                </div>
               )
             })}
-            </table>
+            </div>
           }
-          <div>
-        </div>
       </div>
   );
 };

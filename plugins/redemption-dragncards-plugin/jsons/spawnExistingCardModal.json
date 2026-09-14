@@ -1,0 +1,21 @@
+{
+  "spawnExistingCardModal": {
+    "columnProperties": ["name", "type", "brigade", "set"],
+    "loadGroupIds": [
+      "playerNDeck",
+      "playerNHand",
+      "playerNReserve",
+      "playerNGoodTerritory",
+      "playerNEvilTerritory",
+      "playerNLandOfBondage",
+      "playerNBattleEnhancements",
+      "playerNBattle",
+      "playerNArtifacts",
+      "playerNDiscard",
+      "playerNLandOfRedemption",
+      "playerNBanished",
+      "playerNTokens",
+      "sharedSetAside"
+    ]
+  }
+}

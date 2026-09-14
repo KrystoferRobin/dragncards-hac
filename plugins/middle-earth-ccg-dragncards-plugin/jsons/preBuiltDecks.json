@@ -1,0 +1,3814 @@
+{
+  "preBuiltDecks": {
+    "challengedeckAHeroStewardsOfGondorSarumanOrcTrollHazards": {
+      "label": "A Hero: Stewards of Gondor",
+      "cards": [
+        {
+          "databaseId": "Wizards_Saruman",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Wizards_Theoden",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Wizards_Peath",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Dragons_Ioreth",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Wizards_Haldir",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Wizards_Balin",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Wizards_Glamdring",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Wizards_HauberkofBrightMail",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Wizards_KnightsofDolAmroth",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Wizards_MenofAnfalas",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Wizards_MenofAnorien",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Wizards_MenofLebennin",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Wizards_PalantirofOrthanc",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Wizards_RangersofIthilien",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Wizards_SaplingoftheWhiteTree",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Wizards_ScrollofIsildur",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Wizards_Treebeard",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Dragons_AndForthHeHastened",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Wizards_Concealment",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Wizards_DarkQuarrels",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Wizards_Dodge",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Wizards_GreatShip",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Wizards_HalflingStrength",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Dragons_MarvelsTold",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "DarkMinions_SmokeRings",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Wizards_Stealth",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Wizards_BertBurat",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Wizards_TomTuma",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Wizards_WilliamWuluag",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Dragons_Hobgoblins",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "DarkMinions_LittleSnuffler",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Wizards_Orcguard",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Wizards_Orclieutenant",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Wizards_Orcwarband",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Wizards_Orcwatch",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "AgainstShadow_AloneandUnadvised",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "DarkMinions_AnUnexpectedOutpost",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Wizards_ChokingShadows",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Wizards_DoorsofNight",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Wizards_MinionsStir",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Wizards_Twilight",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "DarkMinions_TwoorThreeTribesPresent",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Wizards_Adrazar",
+          "quantity": 1,
+          "loadGroupId": "playerNCompany"
+        },
+        {
+          "databaseId": "Wizards_HornofAnor",
+          "quantity": 1,
+          "loadGroupId": "playerNCompany"
+        },
+        {
+          "databaseId": "Wizards_Anborn",
+          "quantity": 1,
+          "loadGroupId": "playerNCompany"
+        },
+        {
+          "databaseId": "Promo_FattyBolger",
+          "quantity": 1,
+          "loadGroupId": "playerNCompany"
+        },
+        {
+          "databaseId": "Dragons_Cram",
+          "quantity": 1,
+          "loadGroupId": "playerNCompany"
+        },
+        {
+          "databaseId": "Wizards_GlorfindelII",
+          "quantity": 1,
+          "loadGroupId": "playerNCompany"
+        },
+        {
+          "databaseId": "Wizards_SamGamgee",
+          "quantity": 1,
+          "loadGroupId": "playerNCompany"
+        },
+        {
+          "databaseId": "Wizards_DolAmroth",
+          "quantity": 1,
+          "loadGroupId": "playerNLocationDeck"
+        },
+        {
+          "databaseId": "Wizards_Edhellond",
+          "quantity": 2,
+          "loadGroupId": "playerNLocationDeck"
+        },
+        {
+          "databaseId": "Wizards_Edoras",
+          "quantity": 1,
+          "loadGroupId": "playerNLocationDeck"
+        },
+        {
+          "databaseId": "Wizards_GlitteringCaves",
+          "quantity": 1,
+          "loadGroupId": "playerNLocationDeck"
+        },
+        {
+          "databaseId": "Wizards_HennethAnnun",
+          "quantity": 1,
+          "loadGroupId": "playerNLocationDeck"
+        },
+        {
+          "databaseId": "Wizards_Isengard",
+          "quantity": 1,
+          "loadGroupId": "playerNLocationDeck"
+        },
+        {
+          "databaseId": "Dragons_IsleoftheUlond",
+          "quantity": 1,
+          "loadGroupId": "playerNLocationDeck"
+        },
+        {
+          "databaseId": "Wizards_LondGalen",
+          "quantity": 1,
+          "loadGroupId": "playerNLocationDeck"
+        },
+        {
+          "databaseId": "Wizards_Lorien",
+          "quantity": 2,
+          "loadGroupId": "playerNLocationDeck"
+        },
+        {
+          "databaseId": "Wizards_MinasTirith",
+          "quantity": 1,
+          "loadGroupId": "playerNLocationDeck"
+        },
+        {
+          "databaseId": "Wizards_Moria",
+          "quantity": 1,
+          "loadGroupId": "playerNLocationDeck"
+        },
+        {
+          "databaseId": "Wizards_Pelargir",
+          "quantity": 1,
+          "loadGroupId": "playerNLocationDeck"
+        },
+        {
+          "databaseId": "Wizards_Rivendell",
+          "quantity": 2,
+          "loadGroupId": "playerNLocationDeck"
+        },
+        {
+          "databaseId": "Wizards_Tolfalas",
+          "quantity": 1,
+          "loadGroupId": "playerNLocationDeck"
+        },
+        {
+          "databaseId": "Wizards_Wellinghall",
+          "quantity": 1,
+          "loadGroupId": "playerNLocationDeck"
+        },
+        {
+          "databaseId": "Wizards_Alatar",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "Wizards_AlignPalantir",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "Dragons_ManyTurnsandDoublings",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "WhiteHand_PromptingsofWisdom",
+          "quantity": 2,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "DarkMinions_RebuildtheTown",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "Wizards_RidersofRohan",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "Wizards_Vanishment",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "Wizards_TheWhiteTree",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "Dragons_WizardUncloaked",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "Wizards_WizardsLaughter",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "Wizards_CallofHome",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "Dragons_EarcaraxeAhunt",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "LidlessEye_InciteDefenders",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "Wizards_MusterDisperses",
+          "quantity": 3,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "LidlessEye_Rebeltalk",
+          "quantity": 2,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "Wizards_Twilight",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        }
+      ]
+    },
+    "challengedeckBHeroReleaseThePrisonersAlatarCorruptionUndeadHazards": {
+      "label": "B Hero: Release the Prisoners",
+      "cards": [
+        {
+          "databaseId": "Wizards_Alatar",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Wizards_Balin",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Wizards_Beretar",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Wizards_Bofur",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Wizards_Elrohir",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Wizards_GildorInglorion",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Wizards_Haldir",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Wizards_BookofMazarbul",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Wizards_Goldberry",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Wizards_Gollum",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Wizards_Orcrist",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Wizards_RangersoftheNorth",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Wizards_RescuePrisoners",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Wizards_ScrollofIsildur",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Wizards_SwordofGondolin",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "DarkMinions_TheWindlordFoundMe",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Wizards_TheCockCrows",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "DarkMinions_CrownofFlowers",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Wizards_DarkQuarrels",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Wizards_Dodge",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Wizards_Escape",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Wizards_GatesofMorning",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Dragons_ManyTurnsandDoublings",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Wizards_Muster",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Wizards_RiskyBlow",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "AgainstShadow_SafefromtheShadow",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Wizards_Vilya",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Wizards_Barrowwight",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "DarkMinions_ChillDouser",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Wizards_Corpsecandle",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Wizards_Slayer",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "DarkMinions_StirringBones",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "AgainstShadow_AloneandUnadvised",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "LidlessEye_CovetousThoughts",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Dragons_Dragonsickness",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "LidlessEye_LureofExpedience2",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "LidlessEye_LureofNature2",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "DarkMinions_TheMoonIsDead",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Wizards_Twilight",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Wizards_Elrond",
+          "quantity": 1,
+          "loadGroupId": "playerNCompany"
+        },
+        {
+          "databaseId": "Dragons_Cram",
+          "quantity": 1,
+          "loadGroupId": "playerNCompany"
+        },
+        {
+          "databaseId": "Wizards_Elladan",
+          "quantity": 1,
+          "loadGroupId": "playerNCompany"
+        },
+        {
+          "databaseId": "Wizards_Erkenbrand",
+          "quantity": 1,
+          "loadGroupId": "playerNCompany"
+        },
+        {
+          "databaseId": "Wizards_ShieldofIronboundAsh",
+          "quantity": 1,
+          "loadGroupId": "playerNCompany"
+        },
+        {
+          "databaseId": "Wizards_Orophin",
+          "quantity": 1,
+          "loadGroupId": "playerNCompany"
+        },
+        {
+          "databaseId": "Wizards_Barrowdowns",
+          "quantity": 1,
+          "loadGroupId": "playerNLocationDeck"
+        },
+        {
+          "databaseId": "Wizards_BlueMountainDwarfhold",
+          "quantity": 1,
+          "loadGroupId": "playerNLocationDeck"
+        },
+        {
+          "databaseId": "Wizards_Bree",
+          "quantity": 1,
+          "loadGroupId": "playerNLocationDeck"
+        },
+        {
+          "databaseId": "Wizards_CarnDum",
+          "quantity": 1,
+          "loadGroupId": "playerNLocationDeck"
+        },
+        {
+          "databaseId": "Wizards_Goblingate",
+          "quantity": 1,
+          "loadGroupId": "playerNLocationDeck"
+        },
+        {
+          "databaseId": "Wizards_GreyHavens",
+          "quantity": 2,
+          "loadGroupId": "playerNLocationDeck"
+        },
+        {
+          "databaseId": "Wizards_Isengard",
+          "quantity": 1,
+          "loadGroupId": "playerNLocationDeck"
+        },
+        {
+          "databaseId": "Wizards_Lorien",
+          "quantity": 2,
+          "loadGroupId": "playerNLocationDeck"
+        },
+        {
+          "databaseId": "Wizards_LossadanCairn",
+          "quantity": 1,
+          "loadGroupId": "playerNLocationDeck"
+        },
+        {
+          "databaseId": "Wizards_Moria",
+          "quantity": 1,
+          "loadGroupId": "playerNLocationDeck"
+        },
+        {
+          "databaseId": "Wizards_MountGram",
+          "quantity": 1,
+          "loadGroupId": "playerNLocationDeck"
+        },
+        {
+          "databaseId": "Wizards_MountGundabad",
+          "quantity": 1,
+          "loadGroupId": "playerNLocationDeck"
+        },
+        {
+          "databaseId": "Wizards_OldForest",
+          "quantity": 1,
+          "loadGroupId": "playerNLocationDeck"
+        },
+        {
+          "databaseId": "Wizards_Rivendell",
+          "quantity": 2,
+          "loadGroupId": "playerNLocationDeck"
+        },
+        {
+          "databaseId": "Dragons_ZarakDum",
+          "quantity": 1,
+          "loadGroupId": "playerNLocationDeck"
+        },
+        {
+          "databaseId": "Wizards_BlueMountainDwarves",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "Wizards_DarkQuarrels",
+          "quantity": 2,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "DarkMinions_ForewarnedIsForearmed",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "Wizards_GreatshieldofRohan",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "Dragons_MarvelsTold",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "WhiteHand_PromptingsofWisdom",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "Wizards_TheCockCrows",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "Wizards_Radagast",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "Wizards_Ambusher",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "Wizards_CorsairsofUmbar",
+          "quantity": 2,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "LidlessEye_FoolishWords2",
+          "quantity": 2,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "Wizards_Ghosts",
+          "quantity": 2,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "Wizards_TheRingsBetrayal",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "DarkMinions_SeizedbyTerror",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "Wizards_Twilight",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "LidlessEye_VeilsFlungAway",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        }
+      ]
+    },
+    "challengedeckCHeroDwarvenQuestPallandoAnimalHazards": {
+      "label": "C Hero: Dwarven Quest",
+      "cards": [
+        {
+          "databaseId": "Wizards_Balin",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Wizards_Celeborn",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Wizards_Fili",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Wizards_GildorInglorion",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Wizards_BoromirII",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Wizards_Pallando",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Dragons_BowofDragonhorn",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Wizards_BookofMazarbul",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Wizards_DurinsAxe",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Dragons_EnrunedShield",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Wizards_Gollum",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Wizards_HauberkofBrightMail",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Wizards_IronHillDwarves",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Dragons_MagicalHarp",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Wizards_MenofDorwinion",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Wizards_Quickbeam",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Dragons_Wormsbane",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Wizards_AFriendorThree",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Dragons_BountyoftheHoard",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Wizards_Concealment",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Wizards_Fellowship",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Wizards_Greatroad",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "DarkMinions_HundredsofButterflies",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Dragons_MarvelsTold",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Dragons_NotatHome",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Wizards_RiskyBlow",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "DarkMinions_SmokeRings",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Dragons_ThrorsMap",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "DarkMinions_TheDwarvesAreuponYou",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Wizards_LuckySearch",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Wizards_GiantSpiders",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Dragons_LesserSpiders",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Promo_Neekerbreekers",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Wizards_Wargs",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Wizards_WatcherintheWater",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Dragons_CaveWorm",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "AgainstShadow_FullofFrothandRage",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Wizards_River",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Wizards_WakeofWar",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Wizards_Twilight",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "LidlessEye_DespairoftheHeart2",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "DarkMinions_SeizedbyTerror",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Wizards_ThorinII",
+          "quantity": 1,
+          "loadGroupId": "playerNCompany"
+        },
+        {
+          "databaseId": "Dragons_Cram",
+          "quantity": 2,
+          "loadGroupId": "playerNCompany"
+        },
+        {
+          "databaseId": "Wizards_Kili",
+          "quantity": 1,
+          "loadGroupId": "playerNCompany"
+        },
+        {
+          "databaseId": "Wizards_Dori",
+          "quantity": 1,
+          "loadGroupId": "playerNCompany"
+        },
+        {
+          "databaseId": "Wizards_Gloin",
+          "quantity": 1,
+          "loadGroupId": "playerNCompany"
+        },
+        {
+          "databaseId": "Wizards_Oin",
+          "quantity": 1,
+          "loadGroupId": "playerNCompany"
+        },
+        {
+          "databaseId": "Wizards_BlueMountainDwarves",
+          "quantity": 1,
+          "loadGroupId": "playerNLocationDeck"
+        },
+        {
+          "databaseId": "Dragons_BuhrWidu",
+          "quantity": 1,
+          "loadGroupId": "playerNLocationDeck"
+        },
+        {
+          "databaseId": "Wizards_CavesofUlund",
+          "quantity": 1,
+          "loadGroupId": "playerNLocationDeck"
+        },
+        {
+          "databaseId": "Wizards_DeadMarshes",
+          "quantity": 1,
+          "loadGroupId": "playerNLocationDeck"
+        },
+        {
+          "databaseId": "Wizards_Goblingate",
+          "quantity": 1,
+          "loadGroupId": "playerNLocationDeck"
+        },
+        {
+          "databaseId": "Wizards_GreyHavens",
+          "quantity": 2,
+          "loadGroupId": "playerNLocationDeck"
+        },
+        {
+          "databaseId": "Wizards_IronHillDwarfhold",
+          "quantity": 1,
+          "loadGroupId": "playerNLocationDeck"
+        },
+        {
+          "databaseId": "Wizards_TheLonelyMountain",
+          "quantity": 1,
+          "loadGroupId": "playerNLocationDeck"
+        },
+        {
+          "databaseId": "Wizards_Lorien",
+          "quantity": 2,
+          "loadGroupId": "playerNLocationDeck"
+        },
+        {
+          "databaseId": "Wizards_Moria",
+          "quantity": 1,
+          "loadGroupId": "playerNLocationDeck"
+        },
+        {
+          "databaseId": "Dragons_OvirHollow",
+          "quantity": 1,
+          "loadGroupId": "playerNLocationDeck"
+        },
+        {
+          "databaseId": "Wizards_Rivendell",
+          "quantity": 2,
+          "loadGroupId": "playerNLocationDeck"
+        },
+        {
+          "databaseId": "Wizards_SarnGoriwing",
+          "quantity": 1,
+          "loadGroupId": "playerNLocationDeck"
+        },
+        {
+          "databaseId": "Wizards_ShrelKain",
+          "quantity": 1,
+          "loadGroupId": "playerNLocationDeck"
+        },
+        {
+          "databaseId": "Wizards_Wellinghall",
+          "quantity": 1,
+          "loadGroupId": "playerNLocationDeck"
+        },
+        {
+          "databaseId": "Wizards_BlueMountainDwarves",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "Wizards_GatesofMorning",
+          "quantity": 2,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "Dragons_MarvelsTold",
+          "quantity": 2,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "Dragons_NotatHome",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "WhiteHand_PromptingsofWisdom",
+          "quantity": 2,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "Wizards_TheOldThrush",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "Wizards_Saruman",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "LidlessEye_CovetousThoughts",
+          "quantity": 2,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "Dragons_FoolishWords",
+          "quantity": 2,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "Wizards_Ghosts",
+          "quantity": 3,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "Wizards_LostinFreedomains",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "Wizards_MusterDisperses",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "Wizards_Twilight",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        }
+      ]
+    },
+    "challengedeckDHeroBargainBetweenFriendsRadagastManHazards": {
+      "label": "D Hero: Bargain Between Friends",
+      "cards": [
+        {
+          "databaseId": "Wizards_Celeborn",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Wizards_Haldir",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Wizards_Hama",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Dragons_Brand",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Wizards_Elrohir",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Wizards_Thranduil",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Wizards_Radagast",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Wizards_Beornings",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "AgainstShadow_BowoftheGaladhrim",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Wizards_Easterlings",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Wizards_IronHillDwarves",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Wizards_MenofDorwinion",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "DarkMinions_NobleHound",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "WhiteHand_NobleSteed",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Wizards_Orcrist",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Wizards_TorqueofHues",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Wizards_Woodelves",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Dragons_AndForthHeHastened",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Wizards_DarkQuarrels",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Dragons_FlatteraFoe",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "DarkMinions_ForewarnedIsForearmed",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Dragons_MarvelsTold",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Wizards_Muster",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Wizards_NewFriendship",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Wizards_RiskyBlow",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Wizards_Vanishment",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Wizards_Abductor",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Wizards_Ambusher",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Wizards_Assassin",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Wizards_Brigands",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Wizards_CorsairsofUmbar",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Wizards_Ghosts",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "LidlessEye_LawlessMen",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "LidlessEye_SellswordsBetweenCharters",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "AgainstShadow_StoutMenofGondor",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "AgainstShadow_AloneandUnadvised",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "DarkMinions_RankuponRank",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "DarkMinions_SeizedbyTerror",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "LidlessEye_ThriceOutnumbered",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "LidlessEye_TidingsofBoldSpies",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Wizards_Twilight",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Wizards_Beorn",
+          "quantity": 1,
+          "loadGroupId": "playerNCompany"
+        },
+        {
+          "databaseId": "Promo_BlackArrow",
+          "quantity": 1,
+          "loadGroupId": "playerNCompany"
+        },
+        {
+          "databaseId": "Wizards_Gimli",
+          "quantity": 1,
+          "loadGroupId": "playerNCompany"
+        },
+        {
+          "databaseId": "Wizards_Legolas",
+          "quantity": 1,
+          "loadGroupId": "playerNCompany"
+        },
+        {
+          "databaseId": "Dragons_Cram",
+          "quantity": 1,
+          "loadGroupId": "playerNCompany"
+        },
+        {
+          "databaseId": "Wizards_Halbarad",
+          "quantity": 1,
+          "loadGroupId": "playerNCompany"
+        },
+        {
+          "databaseId": "Wizards_BeornsHouse",
+          "quantity": 1,
+          "loadGroupId": "playerNLocationDeck"
+        },
+        {
+          "databaseId": "Dragons_BuhrWidu",
+          "quantity": 1,
+          "loadGroupId": "playerNLocationDeck"
+        },
+        {
+          "databaseId": "Dragons_Dale",
+          "quantity": 1,
+          "loadGroupId": "playerNLocationDeck"
+        },
+        {
+          "databaseId": "Wizards_DeadMarshes",
+          "quantity": 1,
+          "loadGroupId": "playerNLocationDeck"
+        },
+        {
+          "databaseId": "Wizards_EasterlingCamp",
+          "quantity": 1,
+          "loadGroupId": "playerNLocationDeck"
+        },
+        {
+          "databaseId": "Wizards_Edhellond",
+          "quantity": 2,
+          "loadGroupId": "playerNLocationDeck"
+        },
+        {
+          "databaseId": "AgainstShadow_GobelMirlond",
+          "quantity": 1,
+          "loadGroupId": "playerNLocationDeck"
+        },
+        {
+          "databaseId": "Wizards_IronHillDwarfhold",
+          "quantity": 1,
+          "loadGroupId": "playerNLocationDeck"
+        },
+        {
+          "databaseId": "Wizards_Lorien",
+          "quantity": 2,
+          "loadGroupId": "playerNLocationDeck"
+        },
+        {
+          "databaseId": "Wizards_Moria",
+          "quantity": 1,
+          "loadGroupId": "playerNLocationDeck"
+        },
+        {
+          "databaseId": "AgainstShadow_Raiderhold",
+          "quantity": 1,
+          "loadGroupId": "playerNLocationDeck"
+        },
+        {
+          "databaseId": "Wizards_Rhosgobel",
+          "quantity": 1,
+          "loadGroupId": "playerNLocationDeck"
+        },
+        {
+          "databaseId": "Wizards_Rivendell",
+          "quantity": 2,
+          "loadGroupId": "playerNLocationDeck"
+        },
+        {
+          "databaseId": "Wizards_ShrelKain",
+          "quantity": 1,
+          "loadGroupId": "playerNLocationDeck"
+        },
+        {
+          "databaseId": "Wizards_ThranduilsHalls",
+          "quantity": 1,
+          "loadGroupId": "playerNLocationDeck"
+        },
+        {
+          "databaseId": "Wizards_DarkQuarrels",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "DarkMinions_ForewarnedIsForearmed",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "Wizards_Gandalf",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "Wizards_GatesofMorning",
+          "quantity": 2,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "AgainstShadow_GlamourofSurpassingExcellance",
+          "quantity": 2,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "Wizards_GreatshieldofRohan",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "Dragons_MarvelsTold",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "Dragons_MenofDale",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "WhiteHand_PromptingsofWisdom",
+          "quantity": 2,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "AgainstShadow_Waineasterlings",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "Wizards_WizardsLaughter",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "Wizards_CorsairsofUmbar",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "LidlessEye_Horselords",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "Dragons_ItangastAhunt",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "Dragons_ScorbaAhunt",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "DarkMinions_SeizedbyTerror",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "Wizards_Twilight",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        }
+      ]
+    },
+    "challengedeckEHeroReturnOfTheKingGandalfGeneralCreatureHazards": {
+      "label": "E Hero: Return of the King",
+      "cards": [
+        {
+          "databaseId": "Wizards_Gandalf",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Wizards_Beretar",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Wizards_Bergil",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Wizards_BoromirII",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Wizards_Forlong",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Wizards_Imrahil",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Wizards_Thranduil",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Wizards_Glamdring",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Wizards_HauberkofBrightMail",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Wizards_LesserRing",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Wizards_MagicRingofStealth",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Wizards_Narsil",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "WhiteHand_NobleSteed",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Wizards_Quickbeam",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Wizards_RangersofIthilien",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Wizards_ReturnoftheKing",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Wizards_SwordofGondolin",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Wizards_TowerGuardofMinasTirith",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Wizards_BeautifulGoldRing",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Wizards_Concealment",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Wizards_DarkQuarrels",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Wizards_Dodge",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Dragons_MarvelsTold",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "DarkMinions_SmokeRings",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Wizards_Stealth",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Wizards_ThoroughSearch",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Wizards_Ambusher",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Dragons_CaveWorm",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Wizards_Cavedrake",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Wizards_CorsairsofUmbar",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "LidlessEye_EntinSearchoftheEntwives",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Wizards_Ghosts",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Dragons_Marshdrake",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Wizards_Pukelmen",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Dragons_Raindrake",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "LidlessEye_SellswordsBetweenCharters",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Dragons_FoolishWords",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "LidlessEye_LureofExpedience2",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "LidlessEye_NothingtoEatorDrink",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "AgainstShadow_PowerBuiltbyWaiting",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Dragons_SearchingEye",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "LidlessEye_TidingsofBoldSpies",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Wizards_Twilight",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Wizards_AragornII",
+          "quantity": 1,
+          "loadGroupId": "playerNCompany"
+        },
+        {
+          "databaseId": "Wizards_Arwen",
+          "quantity": 1,
+          "loadGroupId": "playerNCompany"
+        },
+        {
+          "databaseId": "Wizards_Starglass",
+          "quantity": 1,
+          "loadGroupId": "playerNCompany"
+        },
+        {
+          "databaseId": "Wizards_Faramir",
+          "quantity": 1,
+          "loadGroupId": "playerNCompany"
+        },
+        {
+          "databaseId": "Wizards_Elfstone",
+          "quantity": 1,
+          "loadGroupId": "playerNCompany"
+        },
+        {
+          "databaseId": "Wizards_Annalena",
+          "quantity": 1,
+          "loadGroupId": "playerNCompany"
+        },
+        {
+          "databaseId": "Wizards_BanditLair",
+          "quantity": 1,
+          "loadGroupId": "playerNLocationDeck"
+        },
+        {
+          "databaseId": "Dragons_BuhrWidu",
+          "quantity": 1,
+          "loadGroupId": "playerNLocationDeck"
+        },
+        {
+          "databaseId": "Wizards_DeadMarshes",
+          "quantity": 1,
+          "loadGroupId": "playerNLocationDeck"
+        },
+        {
+          "databaseId": "Wizards_DolAmroth",
+          "quantity": 1,
+          "loadGroupId": "playerNLocationDeck"
+        },
+        {
+          "databaseId": "Wizards_Edhellond",
+          "quantity": 2,
+          "loadGroupId": "playerNLocationDeck"
+        },
+        {
+          "databaseId": "Wizards_Edoras",
+          "quantity": 1,
+          "loadGroupId": "playerNLocationDeck"
+        },
+        {
+          "databaseId": "Wizards_GladdenFields",
+          "quantity": 1,
+          "loadGroupId": "playerNLocationDeck"
+        },
+        {
+          "databaseId": "DarkMinions_HaudhinGwanur",
+          "quantity": 1,
+          "loadGroupId": "playerNLocationDeck"
+        },
+        {
+          "databaseId": "Wizards_HennethAnnun",
+          "quantity": 1,
+          "loadGroupId": "playerNLocationDeck"
+        },
+        {
+          "databaseId": "Wizards_Isengard",
+          "quantity": 1,
+          "loadGroupId": "playerNLocationDeck"
+        },
+        {
+          "databaseId": "Wizards_Lorien",
+          "quantity": 2,
+          "loadGroupId": "playerNLocationDeck"
+        },
+        {
+          "databaseId": "Wizards_MinasTirith",
+          "quantity": 1,
+          "loadGroupId": "playerNLocationDeck"
+        },
+        {
+          "databaseId": "Wizards_Moria",
+          "quantity": 1,
+          "loadGroupId": "playerNLocationDeck"
+        },
+        {
+          "databaseId": "Wizards_Rivendell",
+          "quantity": 2,
+          "loadGroupId": "playerNLocationDeck"
+        },
+        {
+          "databaseId": "Wizards_Wellinghall",
+          "quantity": 1,
+          "loadGroupId": "playerNLocationDeck"
+        },
+        {
+          "databaseId": "Wizards_DarkQuarrels",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "Wizards_GatesofMorning",
+          "quantity": 2,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "Wizards_KnightsofDolAmroth",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "Dragons_MarvelsTold",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "Wizards_Pallando",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "WhiteHand_PromptingsofWisdom",
+          "quantity": 2,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "Wizards_RidersofRohan",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "AgainstShadow_AloneandUnadvised",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "Dragons_BairanaxAhunt",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "Wizards_CorsairsofUmbar",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "Dragons_FoolishWords",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "Wizards_Ghosts",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "LidlessEye_InciteDefenders",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "Wizards_MusterDisperses",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "LidlessEye_NothingtoEatorDrink",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "Dragons_SearchingEye",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "LidlessEye_SonsofKings",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "Wizards_Twilight",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        }
+      ]
+    },
+    "challengedeckFMinionSpiesAndTraitorsAdunaphelDrakeHazards": {
+      "label": "F Minion: Spies and Traitors",
+      "cards": [
+        {
+          "databaseId": "LidlessEye_AdunapheltheRingwraith",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "LidlessEye_Eradan",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "LidlessEye_Layos",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "LidlessEye_NevidoSmod",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "LidlessEye_OrcCaptain",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "AgainstShadow_Perchen",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "AgainstShadow_DwarvenRingofThelorsTribe2",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "AgainstShadow_DwarvenRingofThrarsTribe2",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "LidlessEye_RedBookofWestmarch2",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "LidlessEye_Stinker",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "LidlessEye_ThatsBeenHeardBeforeTonight",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "LidlessEye_ToSatisfytheQuestioner",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "LidlessEye_WosesoftheErynVorn2",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "LidlessEye_ANicePlacetoHide",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "LidlessEye_BadetoRule",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "LidlessEye_BytheRingwraithsWord",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "LidlessEye_DeeperShadow",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "AgainstShadow_JoinWithThatPower",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "LidlessEye_TheLeastofGoldRings",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "LidlessEye_NotSlayNeedlessly",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "LidlessEye_OrcQuarrels",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "LidlessEye_Ruse",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "LidlessEye_SecretsofTheirForging",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "AgainstShadow_TokenstoShow",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "LidlessEye_WeighAllThingstoaNicety",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "AgainstShadow_Wellpreserved",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "LidlessEye_CaveWorm2",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "LidlessEye_Cavedrake2",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "LidlessEye_Marshdrake2",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "DarkMinions_NamelessThing",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Dragons_Raindrake",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "LidlessEye_Slayer2",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "LidlessEye_TrueFiredrake2",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "DarkMinions_AnUnexpectedOutpost",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "LidlessEye_DoorsofNight2",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Dragons_FromthePitsofAngband",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Dragons_SearchingEye",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "AgainstShadow_SummonsfromLongSleep",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "LidlessEye_Twilight2",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "LidlessEye_Ciryaher",
+          "quantity": 1,
+          "loadGroupId": "playerNCompany"
+        },
+        {
+          "databaseId": "LidlessEye_FoulsmellingPaste",
+          "quantity": 1,
+          "loadGroupId": "playerNCompany"
+        },
+        {
+          "databaseId": "Wizards_OstinEdhil",
+          "quantity": 1,
+          "loadGroupId": "playerNCompany"
+        },
+        {
+          "databaseId": "LidlessEye_Ostisen",
+          "quantity": 1,
+          "loadGroupId": "playerNCompany"
+        },
+        {
+          "databaseId": "LidlessEye_Asternak",
+          "quantity": 1,
+          "loadGroupId": "playerNCompany"
+        },
+        {
+          "databaseId": "LidlessEye_BlazonoftheEye",
+          "quantity": 1,
+          "loadGroupId": "playerNCompany"
+        },
+        {
+          "databaseId": "LidlessEye_Dogrib",
+          "quantity": 1,
+          "loadGroupId": "playerNCompany"
+        },
+        {
+          "databaseId": "AgainstShadow_Mionid",
+          "quantity": 1,
+          "loadGroupId": "playerNCompany"
+        },
+        {
+          "databaseId": "LidlessEye_Luitprand",
+          "quantity": 1,
+          "loadGroupId": "playerNCompany"
+        },
+        {
+          "databaseId": "LidlessEye_BagEnd2",
+          "quantity": 1,
+          "loadGroupId": "playerNLocationDeck"
+        },
+        {
+          "databaseId": "LidlessEye_BanditLair2",
+          "quantity": 1,
+          "loadGroupId": "playerNLocationDeck"
+        },
+        {
+          "databaseId": "LidlessEye_Baraddur2",
+          "quantity": 1,
+          "loadGroupId": "playerNLocationDeck"
+        },
+        {
+          "databaseId": "LidlessEye_BeornsHouse2",
+          "quantity": 1,
+          "loadGroupId": "playerNLocationDeck"
+        },
+        {
+          "databaseId": "LidlessEye_CarnDum2",
+          "quantity": 2,
+          "loadGroupId": "playerNLocationDeck"
+        },
+        {
+          "databaseId": "LidlessEye_DimrillDale2",
+          "quantity": 1,
+          "loadGroupId": "playerNLocationDeck"
+        },
+        {
+          "databaseId": "LidlessEye_DolGuldur2",
+          "quantity": 2,
+          "loadGroupId": "playerNLocationDeck"
+        },
+        {
+          "databaseId": "AgainstShadow_EaglesEyrie2",
+          "quantity": 1,
+          "loadGroupId": "playerNLocationDeck"
+        },
+        {
+          "databaseId": "LidlessEye_Edoras2",
+          "quantity": 1,
+          "loadGroupId": "playerNLocationDeck"
+        },
+        {
+          "databaseId": "LidlessEye_Goblingate2",
+          "quantity": 1,
+          "loadGroupId": "playerNLocationDeck"
+        },
+        {
+          "databaseId": "LidlessEye_Moria2",
+          "quantity": 1,
+          "loadGroupId": "playerNLocationDeck"
+        },
+        {
+          "databaseId": "LidlessEye_ThranduilsHalls2",
+          "quantity": 1,
+          "loadGroupId": "playerNLocationDeck"
+        },
+        {
+          "databaseId": "LidlessEye_TheWorthyHills2",
+          "quantity": 1,
+          "loadGroupId": "playerNLocationDeck"
+        },
+        {
+          "databaseId": "WhiteHand_CreptAlongCleverly",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "LidlessEye_GoblinsofGoblingate",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "LidlessEye_OrcQuarrels",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "LidlessEye_OrcsofMoria",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "WhiteHand_PiercingAllShadows",
+          "quantity": 2,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "LidlessEye_PoisonousDespair",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "AgainstShadow_RegimentofBlackCrows",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "LidlessEye_SuddenCall",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "LidlessEye_VoicesofMalice",
+          "quantity": 2,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "LidlessEye_Ambusher2",
+          "quantity": 3,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "Dragons_ItangastAhunt",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "LidlessEye_LureofNature2",
+          "quantity": 2,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "Dragons_Sanddrake",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "LidlessEye_Twilight2",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "Dragons_TrueColddrake",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        }
+      ]
+    },
+    "challengedeckGMinionMaraudingBroodOfUgliesDwarWolfHazards": {
+      "label": "G Minion: Marauding Brood of Uglies",
+      "cards": [
+        {
+          "databaseId": "LidlessEye_DwartheRingwraith",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "AgainstShadow_Burat",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "LidlessEye_OrcCaptain",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "LidlessEye_OrcVeteran",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "LidlessEye_Shagrat",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "AgainstShadow_Tuma",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "AgainstShadow_Wuluag",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Promo_TheArkenstone2",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "LidlessEye_BlackMace",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "LidlessEye_BurningRickCotandTree",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "LidlessEye_GleamingGoldRing",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "LidlessEye_GreyMountainGoblins",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "LidlessEye_HighHelm",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "LidlessEye_Iceorcs",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "LidlessEye_OrcsofGundabad",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "AgainstShadow_RegimentofBlackCrows",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "LidlessEye_BadetoRule",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "LidlessEye_BoldThrust",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "WhiteHand_CreptAlongCleverly",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "LidlessEye_Diversion",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "LidlessEye_IllReportYou",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "LidlessEye_SwarmofBats",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "LidlessEye_SwiftStrokes",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Dragons_ThrorsMap",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "LidlessEye_UnderHisBlow",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "LidlessEye_Ambusher2",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "LidlessEye_DireWolves2",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "LidlessEye_GiantSpiders2",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "LidlessEye_Wargs2",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "LidlessEye_WatcherintheWater2",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Wizards_Wolves",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "DarkMinions_AnUnexpectedOutpost",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "LidlessEye_DoorsofNight2",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "AgainstShadow_FullofFrothandRage",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "LidlessEye_SearchingEye2",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "LidlessEye_StayHerAppetite",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "LidlessEye_Twilight2",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "LidlessEye_WakeofWar2",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "LidlessEye_LieutenantofMorgul",
+          "quantity": 1,
+          "loadGroupId": "playerNCompany"
+        },
+        {
+          "databaseId": "LidlessEye_Muzgash",
+          "quantity": 1,
+          "loadGroupId": "playerNCompany"
+        },
+        {
+          "databaseId": "LidlessEye_Lagduf",
+          "quantity": 1,
+          "loadGroupId": "playerNCompany"
+        },
+        {
+          "databaseId": "LidlessEye_FoulsmellingPaste",
+          "quantity": 2,
+          "loadGroupId": "playerNCompany"
+        },
+        {
+          "databaseId": "LidlessEye_Radbug",
+          "quantity": 1,
+          "loadGroupId": "playerNCompany"
+        },
+        {
+          "databaseId": "LidlessEye_TrosHesnef",
+          "quantity": 1,
+          "loadGroupId": "playerNCompany"
+        },
+        {
+          "databaseId": "LidlessEye_CarnDum2",
+          "quantity": 2,
+          "loadGroupId": "playerNLocationDeck"
+        },
+        {
+          "databaseId": "LidlessEye_CavesofUlund2",
+          "quantity": 1,
+          "loadGroupId": "playerNLocationDeck"
+        },
+        {
+          "databaseId": "LidlessEye_Dale2",
+          "quantity": 1,
+          "loadGroupId": "playerNLocationDeck"
+        },
+        {
+          "databaseId": "AgainstShadow_DancingSpire2",
+          "quantity": 1,
+          "loadGroupId": "playerNLocationDeck"
+        },
+        {
+          "databaseId": "LidlessEye_DolGuldur2",
+          "quantity": 2,
+          "loadGroupId": "playerNLocationDeck"
+        },
+        {
+          "databaseId": "AgainstShadow_GoldHill2",
+          "quantity": 1,
+          "loadGroupId": "playerNLocationDeck"
+        },
+        {
+          "databaseId": "LidlessEye_Gondmaeglom2",
+          "quantity": 1,
+          "loadGroupId": "playerNLocationDeck"
+        },
+        {
+          "databaseId": "AgainstShadow_Irerock2",
+          "quantity": 1,
+          "loadGroupId": "playerNLocationDeck"
+        },
+        {
+          "databaseId": "LidlessEye_TheLonelyMountain2",
+          "quantity": 1,
+          "loadGroupId": "playerNLocationDeck"
+        },
+        {
+          "databaseId": "LidlessEye_MinasMorgul2",
+          "quantity": 2,
+          "loadGroupId": "playerNLocationDeck"
+        },
+        {
+          "databaseId": "LidlessEye_Moria2",
+          "quantity": 1,
+          "loadGroupId": "playerNLocationDeck"
+        },
+        {
+          "databaseId": "LidlessEye_MountGundabad2",
+          "quantity": 1,
+          "loadGroupId": "playerNLocationDeck"
+        },
+        {
+          "databaseId": "LidlessEye_Raiderhold2",
+          "quantity": 1,
+          "loadGroupId": "playerNLocationDeck"
+        },
+        {
+          "databaseId": "LidlessEye_MinorRing",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "LidlessEye_OrcQuarrels",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "LidlessEye_OrcsofMoria",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "AgainstShadow_OrdersfromLugburz",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "WhiteHand_PiercingAllShadows",
+          "quantity": 2,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "AgainstShadow_RegimentofBlackCrows",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "LidlessEye_SableShield",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "LidlessEye_SuddenCall",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "LidlessEye_VoicesofMalice",
+          "quantity": 2,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "Dragons_EarcaraxeAhunt",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "LidlessEye_FoolishWords2",
+          "quantity": 2,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "DarkMinions_NamelessThing",
+          "quantity": 2,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "LidlessEye_Rebeltalk",
+          "quantity": 2,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "LidlessEye_StenchofMordor",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "LidlessEye_Twilight2",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        }
+      ]
+    },
+    "challengedeckHMinionStealthyTribeHoarmurathUndeadHazards": {
+      "label": "H Minion: Stealthy Tribe",
+      "cards": [
+        {
+          "databaseId": "LidlessEye_HoarmuraththeRingwraith",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "WhiteHand_IllfavouredFellow",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "WhiteHand_SlySoutherner",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "LidlessEye_OrcTracker",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Promo_TheArkenstone2",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "WhiteHand_BlastingFire",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "AgainstShadow_GreatLordofGoblingate",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "LidlessEye_HighHelm",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "LidlessEye_OrcsofMoria",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "LidlessEye_SableShield",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "LidlessEye_ScrollofIsildur2",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "LidlessEye_Snagahai",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "LidlessEye_Stinker",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "WhiteHand_VileFumes",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "LidlessEye_Warwolf",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "LidlessEye_ANicePlacetoHide",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "LidlessEye_BadetoRule",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "WhiteHand_CreptAlongCleverly",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "LidlessEye_OrcQuarrels",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "AgainstShadow_RecordsUnread",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "LidlessEye_Sneakin",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "LidlessEye_Barrowwight2",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "DarkMinions_ChillDouser",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "LidlessEye_Ghouls2",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "LidlessEye_StirringBones2",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "DarkMinions_WispofPaleSheen",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "DarkMinions_AnUnexpectedOutpost",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Wizards_ChokingShadows",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "LidlessEye_DoorsofNight2",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "DarkMinions_ExhalationofDecay",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "DarkMinions_TheMoonIsDead",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "LidlessEye_PlagueofWights",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "AgainstShadow_PowerBuiltbyWaiting",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "LidlessEye_Twilight2",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "LidlessEye_Gorbag",
+          "quantity": 1,
+          "loadGroupId": "playerNCompany"
+        },
+        {
+          "databaseId": "LidlessEye_BlazonoftheEye",
+          "quantity": 1,
+          "loadGroupId": "playerNCompany"
+        },
+        {
+          "databaseId": "LidlessEye_Grishnakh",
+          "quantity": 1,
+          "loadGroupId": "playerNCompany"
+        },
+        {
+          "databaseId": "LidlessEye_Ufthak",
+          "quantity": 1,
+          "loadGroupId": "playerNCompany"
+        },
+        {
+          "databaseId": "LidlessEye_StrangeRations",
+          "quantity": 1,
+          "loadGroupId": "playerNCompany"
+        },
+        {
+          "databaseId": "WhiteHand_Lugdush",
+          "quantity": 1,
+          "loadGroupId": "playerNCompany"
+        },
+        {
+          "databaseId": "WhiteHand_IllfavouredFellow",
+          "quantity": 1,
+          "loadGroupId": "playerNCompany"
+        },
+        {
+          "databaseId": "LidlessEye_Baraddur2",
+          "quantity": 1,
+          "loadGroupId": "playerNLocationDeck"
+        },
+        {
+          "databaseId": "LidlessEye_CarnDum2",
+          "quantity": 2,
+          "loadGroupId": "playerNLocationDeck"
+        },
+        {
+          "databaseId": "LidlessEye_CavesofUlund2",
+          "quantity": 1,
+          "loadGroupId": "playerNLocationDeck"
+        },
+        {
+          "databaseId": "LidlessEye_DeadMarshes2",
+          "quantity": 1,
+          "loadGroupId": "playerNLocationDeck"
+        },
+        {
+          "databaseId": "LidlessEye_DolGuldur2",
+          "quantity": 2,
+          "loadGroupId": "playerNLocationDeck"
+        },
+        {
+          "databaseId": "LidlessEye_Goblingate2",
+          "quantity": 1,
+          "loadGroupId": "playerNLocationDeck"
+        },
+        {
+          "databaseId": "LidlessEye_MinasMorgul2",
+          "quantity": 2,
+          "loadGroupId": "playerNLocationDeck"
+        },
+        {
+          "databaseId": "LidlessEye_Moria2",
+          "quantity": 1,
+          "loadGroupId": "playerNLocationDeck"
+        },
+        {
+          "databaseId": "LidlessEye_MountDoom2",
+          "quantity": 1,
+          "loadGroupId": "playerNLocationDeck"
+        },
+        {
+          "databaseId": "LidlessEye_MountGram2",
+          "quantity": 1,
+          "loadGroupId": "playerNLocationDeck"
+        },
+        {
+          "databaseId": "LidlessEye_MountGundabad2",
+          "quantity": 1,
+          "loadGroupId": "playerNLocationDeck"
+        },
+        {
+          "databaseId": "LidlessEye_SarnGoriwing2",
+          "quantity": 1,
+          "loadGroupId": "playerNLocationDeck"
+        },
+        {
+          "databaseId": "LidlessEye_ShelobsLair2",
+          "quantity": 1,
+          "loadGroupId": "playerNLocationDeck"
+        },
+        {
+          "databaseId": "LidlessEye_BlackMace",
+          "quantity": 2,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "WhiteHand_CreptAlongCleverly",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "LidlessEye_FellRider",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "LidlessEye_OrcQuarrels",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "LidlessEye_OrcsofGundabad",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "WhiteHand_PiercingAllShadows",
+          "quantity": 2,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "LidlessEye_SuddenCall",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "LidlessEye_VoicesofMalice",
+          "quantity": 2,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "LidlessEye_Ambusher2",
+          "quantity": 3,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "LidlessEye_FoolishWords2",
+          "quantity": 2,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "LidlessEye_Ghosts2",
+          "quantity": 2,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "LidlessEye_StenchofMordor",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "LidlessEye_Twilight2",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        }
+      ]
+    },
+    "challengedeckIMinionMorgulRallyingCryWitchKingRoadblockHazards": {
+      "label": "I Minion: Morgul Rallying Cry",
+      "cards": [
+        {
+          "databaseId": "LidlessEye_TheWitchking",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "LidlessEye_OrcCaptain",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "LidlessEye_OrcTracker",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "LidlessEye_OrcBrawler",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "AgainstShadow_Asdriags",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "WhiteHand_BlastingFire",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "AgainstShadow_GreatBats",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "AgainstShadow_HelmofFear",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "LidlessEye_Nurniags2",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "LidlessEye_OrcsoftheAshMountains",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "LidlessEye_OrcsofUdun",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "LidlessEye_PalantirofMinasTirith2",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "LidlessEye_ThatAintNoSecret",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "LidlessEye_Urukhai",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "WhiteHand_VileFumes",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "LidlessEye_AwaitingtheCall",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "LidlessEye_FellRider",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "LidlessEye_GiftsasGivenofOld",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "AgainstShadow_RecordsUnread",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "LidlessEye_UnderHisBlow",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "LidlessEye_VoicesofMalice",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "LidlessEye_WeighAllThingstoaNicety",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "LidlessEye_Ambusher2",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "LidlessEye_Ghosts2",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Dragons_Raindrake",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "LidlessEye_Slayer2",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "LidlessEye_TrueFiredrake2",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "DarkMinions_AnUnexpectedOutpost",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "LidlessEye_DoorsofNight2",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "LidlessEye_LongWinter2",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "LidlessEye_LureofNature2",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Wizards_Snowstorm",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "LidlessEye_Twilight2",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Dragons_WitheredLands",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "LidlessEye_OrcCaptain",
+          "quantity": 2,
+          "loadGroupId": "playerNCompany"
+        },
+        {
+          "databaseId": "WhiteHand_IllfavouredFellow",
+          "quantity": 1,
+          "loadGroupId": "playerNCompany"
+        },
+        {
+          "databaseId": "LidlessEye_HorsemanintheNight",
+          "quantity": 1,
+          "loadGroupId": "playerNCompany"
+        },
+        {
+          "databaseId": "LidlessEye_BlazonoftheEye",
+          "quantity": 2,
+          "loadGroupId": "playerNCompany"
+        },
+        {
+          "databaseId": "LidlessEye_OrcVeteran",
+          "quantity": 1,
+          "loadGroupId": "playerNCompany"
+        },
+        {
+          "databaseId": "LidlessEye_OrcBrawler",
+          "quantity": 1,
+          "loadGroupId": "playerNCompany"
+        },
+        {
+          "databaseId": "LidlessEye_Baraddur2",
+          "quantity": 1,
+          "loadGroupId": "playerNLocationDeck"
+        },
+        {
+          "databaseId": "LidlessEye_CarnDum2",
+          "quantity": 2,
+          "loadGroupId": "playerNLocationDeck"
+        },
+        {
+          "databaseId": "LidlessEye_CirithGorgor2",
+          "quantity": 1,
+          "loadGroupId": "playerNLocationDeck"
+        },
+        {
+          "databaseId": "LidlessEye_CirithUngol2",
+          "quantity": 1,
+          "loadGroupId": "playerNLocationDeck"
+        },
+        {
+          "databaseId": "LidlessEye_DeadMarshes2",
+          "quantity": 1,
+          "loadGroupId": "playerNLocationDeck"
+        },
+        {
+          "databaseId": "LidlessEye_DolGuldur2",
+          "quantity": 2,
+          "loadGroupId": "playerNLocationDeck"
+        },
+        {
+          "databaseId": "LidlessEye_MinasMorgul2",
+          "quantity": 2,
+          "loadGroupId": "playerNLocationDeck"
+        },
+        {
+          "databaseId": "LidlessEye_MinasTirith2",
+          "quantity": 1,
+          "loadGroupId": "playerNLocationDeck"
+        },
+        {
+          "databaseId": "LidlessEye_Moria2",
+          "quantity": 1,
+          "loadGroupId": "playerNLocationDeck"
+        },
+        {
+          "databaseId": "LidlessEye_MountDoom2",
+          "quantity": 1,
+          "loadGroupId": "playerNLocationDeck"
+        },
+        {
+          "databaseId": "LidlessEye_NurniagCamp2",
+          "quantity": 1,
+          "loadGroupId": "playerNLocationDeck"
+        },
+        {
+          "databaseId": "LidlessEye_SarnGoriwing2",
+          "quantity": 1,
+          "loadGroupId": "playerNLocationDeck"
+        },
+        {
+          "databaseId": "LidlessEye_ShelobsLair2",
+          "quantity": 1,
+          "loadGroupId": "playerNLocationDeck"
+        },
+        {
+          "databaseId": "AgainstShadow_AbovetheAbyss",
+          "quantity": 2,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "LidlessEye_BlackTrolls",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "WhiteHand_CreptAlongCleverly",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "LidlessEye_LastChildofUngoliant",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "LidlessEye_SuddenCall",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "LidlessEye_VoicesofMalice",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "AgainstShadow_AloneandUnadvised",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "Wizards_CorsairsofUmbar",
+          "quantity": 2,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "Dragons_CruelCaradhras",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "Dragons_EarcaraxeAhunt",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "Wizards_FoulFumes",
+          "quantity": 2,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "LidlessEye_Ghosts2",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "DarkMinions_NamelessThing",
+          "quantity": 2,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "Dragons_ScathaAhunt",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "LidlessEye_StenchofMordor",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "LidlessEye_Twilight2",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        }
+      ]
+    },
+    "challengedeckJMinionSeducingNationsOfMenIndurCorruptionGeneralCreatureHazards": {
+      "label": "J Minion: Seducing Nations of Men",
+      "cards": [
+        {
+          "databaseId": "LidlessEye_IndurtheRingwraith",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "WhiteHand_IllfavouredFellow",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "LidlessEye_Jerrek",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "LidlessEye_NevidoSmod",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "LidlessEye_OrcCaptain",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Promo_TheArkenstone2",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "LidlessEye_Balchoth",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "AgainstShadow_CorsairsofRhun",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "LidlessEye_Easterlings2",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "AgainstShadow_Haradrim",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "LidlessEye_HighHelm",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "LidlessEye_PalantirofOrthanc2",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "LidlessEye_ScrollofIsildur2",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "LidlessEye_Southrons2",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "LidlessEye_Stinker",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "AgainstShadow_Waineasterlings",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "LidlessEye_BadetoRule",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "LidlessEye_BoldThrust",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "LidlessEye_BytheRingwraithsWord",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "LidlessEye_CrookedPromptings",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "WhiteHand_CreptAlongCleverly",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "LidlessEye_OrcQuarrels",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "LidlessEye_ReadytoHisWill",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "AgainstShadow_TheTormentedEarth",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "LidlessEye_VoicesofMalice",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "AgainstShadow_SecretBook",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "LidlessEye_CaveWorm2",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "LidlessEye_Corpsecandle2",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "LidlessEye_Ghosts2",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "LidlessEye_Marshdrake2",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "LidlessEye_SellswordsBetweenCharters",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "LidlessEye_Slayer2",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "AgainstShadow_AloneandUnadvised",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "LidlessEye_CovetousThoughts",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Dragons_Dragonsickness",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "LidlessEye_LureofExpedience2",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "LidlessEye_LureofNature2",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "LidlessEye_LureoftheSenses2",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "LidlessEye_Twilight2",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "LidlessEye_WearinessoftheHeart2",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "LidlessEye_TheMouth",
+          "quantity": 1,
+          "loadGroupId": "playerNCompany"
+        },
+        {
+          "databaseId": "LidlessEye_StrangeRations",
+          "quantity": 1,
+          "loadGroupId": "playerNCompany"
+        },
+        {
+          "databaseId": "LidlessEye_HorsemanintheNight",
+          "quantity": 1,
+          "loadGroupId": "playerNCompany"
+        },
+        {
+          "databaseId": "LidlessEye_BlazonoftheEye",
+          "quantity": 1,
+          "loadGroupId": "playerNCompany"
+        },
+        {
+          "databaseId": "LidlessEye_Hador",
+          "quantity": 1,
+          "loadGroupId": "playerNCompany"
+        },
+        {
+          "databaseId": "LidlessEye_Odoacer",
+          "quantity": 1,
+          "loadGroupId": "playerNCompany"
+        },
+        {
+          "databaseId": "LidlessEye_Baraddur2",
+          "quantity": 1,
+          "loadGroupId": "playerNLocationDeck"
+        },
+        {
+          "databaseId": "LidlessEye_CavesofUlund2",
+          "quantity": 1,
+          "loadGroupId": "playerNLocationDeck"
+        },
+        {
+          "databaseId": "LidlessEye_DolGuldur2",
+          "quantity": 2,
+          "loadGroupId": "playerNLocationDeck"
+        },
+        {
+          "databaseId": "LidlessEye_EasterlingCamp2",
+          "quantity": 1,
+          "loadGroupId": "playerNLocationDeck"
+        },
+        {
+          "databaseId": "LidlessEye_Goblingate2",
+          "quantity": 1,
+          "loadGroupId": "playerNLocationDeck"
+        },
+        {
+          "databaseId": "LidlessEye_Gondmaeglom2",
+          "quantity": 1,
+          "loadGroupId": "playerNLocationDeck"
+        },
+        {
+          "databaseId": "LidlessEye_Isengard2",
+          "quantity": 1,
+          "loadGroupId": "playerNLocationDeck"
+        },
+        {
+          "databaseId": "LidlessEye_MinasMorgul2",
+          "quantity": 2,
+          "loadGroupId": "playerNLocationDeck"
+        },
+        {
+          "databaseId": "LidlessEye_Moria2",
+          "quantity": 1,
+          "loadGroupId": "playerNLocationDeck"
+        },
+        {
+          "databaseId": "LidlessEye_MountGundabad2",
+          "quantity": 1,
+          "loadGroupId": "playerNLocationDeck"
+        },
+        {
+          "databaseId": "LidlessEye_Raiderhold2",
+          "quantity": 1,
+          "loadGroupId": "playerNLocationDeck"
+        },
+        {
+          "databaseId": "LidlessEye_SouthronOasis2",
+          "quantity": 1,
+          "loadGroupId": "playerNLocationDeck"
+        },
+        {
+          "databaseId": "LidlessEye_TheWindThrone2",
+          "quantity": 1,
+          "loadGroupId": "playerNLocationDeck"
+        },
+        {
+          "databaseId": "WhiteHand_CreptAlongCleverly",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "LidlessEye_FocusPalantir",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "AgainstShadow_GreatBats",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "LidlessEye_GreyMountainGoblins",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "AgainstShadow_HoldRebuiltandRepaired",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "LidlessEye_OrcsofGundabad",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "LidlessEye_PoisonousDespair",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "WhiteHand_PiercingAllShadows",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "AgainstShadow_RegimentofBlackCrows",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "LidlessEye_SkiesofFire",
+          "quantity": 2,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "LidlessEye_SuddenCall",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "LidlessEye_VoicesofMalice",
+          "quantity": 2,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "LidlessEye_CovetousThoughts",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "LidlessEye_LostinFreedomains2",
+          "quantity": 2,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "LidlessEye_River2",
+          "quantity": 2,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "LidlessEye_Twilight2",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        }
+      ]
+    }
+  }
+}

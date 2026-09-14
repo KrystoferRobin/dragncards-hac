@@ -1,0 +1,40 @@
+{
+  "deckbuilder": {
+    "addButtons": [
+      1
+    ],
+    "colorKey": "side",
+    "colorValues": {
+      "LIGHT": "#4B81D7",
+      "DARK": "#AC1714"
+    },
+    "columns": [
+      {
+        "label": "Name",
+        "propName": "name"
+      },
+      {
+        "label": "Type",
+        "propName": "type"
+      },
+      {
+        "label": "Side",
+        "propName": "side"
+      },
+      {
+        "label": "Set",
+        "propName": "packName"
+      },
+      {
+        "label": "Destiny",
+        "propName": "destiny"
+      }
+    ],
+    "spawnGroups": [
+      {
+        "label": "id:myDeck",
+        "loadGroupId": "playerNReserve"
+      }
+    ]
+  }
+}

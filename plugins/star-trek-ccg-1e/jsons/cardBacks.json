@@ -1,0 +1,14 @@
+{
+  "cardBacks": {
+    "default": {
+      "width": 0.72,
+      "height": 1.0,
+      "imageUrl": "star-trek-ccg-1e/_plugin/StarTrekCcg1e-CardbackDefault.jpg"
+    },
+    "spawned": {
+      "width": 0.72,
+      "height": 1.0,
+      "imageUrl": "star-trek-ccg-1e/_plugin/StarTrekCcg1e-CardbackSpawned.jpg"
+    }
+  }
+}

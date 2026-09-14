@@ -1,0 +1,208 @@
+{
+  "groups": {
+    "sharedSetAside": {
+      "groupType": "aside",
+      "label": "Set Aside",
+      "tableLabel": "Set Aside",
+      "onCardEnter": {
+        "controller": "shared"
+      }
+    },
+    "player1Deck": {
+      "groupType": "deck",
+      "label": "Player 1 Deck",
+      "tableLabel": "Deck",
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1Deck",
+        "discardGroupId": "player1Graveyard"
+      }
+    },
+    "player1StoneDeck": {
+      "groupType": "deck",
+      "label": "Player 1 Magic Stone Deck",
+      "tableLabel": "Magic Stone Deck",
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1StoneDeck",
+        "discardGroupId": "player1Graveyard"
+      }
+    },
+    "player1Graveyard": {
+      "groupType": "discard",
+      "label": "Player 1 Graveyard",
+      "tableLabel": "Graveyard",
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1Deck",
+        "discardGroupId": "player1Graveyard"
+      }
+    },
+    "player1Hand": {
+      "groupType": "hand",
+      "label": "Player 1 Hand",
+      "tableLabel": "Hand",
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1Deck",
+        "discardGroupId": "player1Graveyard"
+      }
+    },
+    "player1Ruler": {
+      "groupType": "inPlay",
+      "label": "Player 1 Ruler",
+      "tableLabel": "Ruler",
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1Deck",
+        "discardGroupId": "player1Graveyard",
+        "inPlay": true
+      },
+      "canHaveAttachments": true
+    },
+    "player1Stones": {
+      "groupType": "inPlay",
+      "label": "Player 1 Magic Stones",
+      "tableLabel": "Magic Stones",
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1StoneDeck",
+        "discardGroupId": "player1Graveyard",
+        "inPlay": true
+      },
+      "canHaveAttachments": true
+    },
+    "player1Play": {
+      "groupType": "inPlay",
+      "label": "Player 1 Field",
+      "tableLabel": "Field",
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1Deck",
+        "discardGroupId": "player1Graveyard",
+        "inPlay": true
+      },
+      "canHaveAttachments": true
+    },
+    "player1Standby": {
+      "groupType": "inPlay",
+      "label": "Player 1 Chant-Standby",
+      "tableLabel": "Chant-Standby",
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1Deck",
+        "discardGroupId": "player1Graveyard",
+        "inPlay": true
+      },
+      "canHaveAttachments": true
+    },
+    "player1Removed": {
+      "groupType": "aside",
+      "label": "Player 1 Removed / Extra",
+      "tableLabel": "Removed / Extra",
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1Deck",
+        "discardGroupId": "player1Graveyard"
+      }
+    },
+    "player2Deck": {
+      "groupType": "deck",
+      "label": "Player 2 Deck",
+      "tableLabel": "Deck",
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2Deck",
+        "discardGroupId": "player2Graveyard"
+      }
+    },
+    "player2StoneDeck": {
+      "groupType": "deck",
+      "label": "Player 2 Magic Stone Deck",
+      "tableLabel": "Magic Stone Deck",
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2StoneDeck",
+        "discardGroupId": "player2Graveyard"
+      }
+    },
+    "player2Graveyard": {
+      "groupType": "discard",
+      "label": "Player 2 Graveyard",
+      "tableLabel": "Graveyard",
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2Deck",
+        "discardGroupId": "player2Graveyard"
+      }
+    },
+    "player2Hand": {
+      "groupType": "hand",
+      "label": "Player 2 Hand",
+      "tableLabel": "Hand",
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2Deck",
+        "discardGroupId": "player2Graveyard"
+      }
+    },
+    "player2Ruler": {
+      "groupType": "inPlay",
+      "label": "Player 2 Ruler",
+      "tableLabel": "Ruler",
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2Deck",
+        "discardGroupId": "player2Graveyard",
+        "inPlay": true
+      },
+      "canHaveAttachments": true
+    },
+    "player2Stones": {
+      "groupType": "inPlay",
+      "label": "Player 2 Magic Stones",
+      "tableLabel": "Magic Stones",
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2StoneDeck",
+        "discardGroupId": "player2Graveyard",
+        "inPlay": true
+      },
+      "canHaveAttachments": true
+    },
+    "player2Play": {
+      "groupType": "inPlay",
+      "label": "Player 2 Field",
+      "tableLabel": "Field",
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2Deck",
+        "discardGroupId": "player2Graveyard",
+        "inPlay": true
+      },
+      "canHaveAttachments": true
+    },
+    "player2Standby": {
+      "groupType": "inPlay",
+      "label": "Player 2 Chant-Standby",
+      "tableLabel": "Chant-Standby",
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2Deck",
+        "discardGroupId": "player2Graveyard",
+        "inPlay": true
+      },
+      "canHaveAttachments": true
+    },
+    "player2Removed": {
+      "groupType": "aside",
+      "label": "Player 2 Removed / Extra",
+      "tableLabel": "Removed / Extra",
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2Deck",
+        "discardGroupId": "player2Graveyard"
+      }
+    }
+  }
+}

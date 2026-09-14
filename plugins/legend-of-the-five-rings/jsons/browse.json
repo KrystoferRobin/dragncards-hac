@@ -1,0 +1,26 @@
+{
+  "browse": {
+    "filterPropertySideA": "type",
+    "filterValuesSideA": [
+      "Ancestor",
+      "Celestial",
+      "Event",
+      "Follower",
+      "Holding",
+      "Item",
+      "Personality",
+      "Region",
+      "Ring",
+      "Sensei",
+      "Spell",
+      "Strategy"
+    ],
+    "textPropertiesSideA": [
+      "name",
+      "packName",
+      "clan",
+      "legal",
+      "text"
+    ]
+  }
+}

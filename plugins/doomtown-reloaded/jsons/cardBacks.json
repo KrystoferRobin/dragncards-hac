@@ -1,0 +1,9 @@
+{
+  "cardBacks": {
+    "default": {
+      "width": 0.72,
+      "height": 1.0,
+      "imageUrl": "doomtown-reloaded/_plugin/DoomtownReloaded-CardbackDefault.jpg"
+    }
+  }
+}

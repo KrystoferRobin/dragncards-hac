@@ -1,0 +1,23 @@
+{
+  "cardMenu": {
+    "moveToGroupIds": [
+      "playerNHand",
+      "playerNUnits",
+      "playerNResources",
+      "playerNCommands",
+      "playerNScrapheap",
+      "playerNRemoved",
+      "playerNSideboard",
+      "playerNStockpile",
+      "sharedSetAside"
+    ],
+    "options": [
+      {"label": "Flip", "actionList": "flipCard"},
+      {"label": "Tap", "actionList": "tapCard"},
+      {"label": "Untap", "actionList": "untapCard"},
+      {"label": "Scrap", "actionList": "discardCard"},
+      {"label": "Detach", "actionList": "detachCard"},
+      {"label": "Shuffle into stockpile", "actionList": "shuffleIntoDeck"}
+    ]
+  }
+}

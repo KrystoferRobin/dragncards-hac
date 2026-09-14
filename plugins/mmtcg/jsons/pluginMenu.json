@@ -1,0 +1,30 @@
+{
+  "pluginMenu": {
+    "options": [
+      {
+        "label": "Draw",
+        "actionList": "drawDeck"
+      },
+      {
+        "label": "Shuffle deck",
+        "actionList": "shuffleDeck"
+      },
+      {
+        "label": "Ready all",
+        "actionList": "readyAll"
+      },
+      {
+        "label": "Flip coin",
+        "actionList": "flipCoin"
+      },
+      {
+        "label": "Power up",
+        "actionList": "powerUp"
+      },
+      {
+        "label": "1 damage (mill)",
+        "actionList": "millDamage"
+      }
+    ]
+  }
+}

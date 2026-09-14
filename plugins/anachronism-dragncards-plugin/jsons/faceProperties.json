@@ -1,0 +1,16 @@
+{
+  "faceProperties": {
+    "set": {"label": "Set", "type": "string", "default": ""},
+    "culture": {"label": "Culture", "type": "string", "default": ""},
+    "element": {"label": "Element", "type": "string", "default": ""},
+    "traits": {"label": "Traits", "type": "string", "default": ""},
+    "initiative": {"label": "Initiative", "type": "integer", "default": 0},
+    "life": {"label": "Life", "type": "integer", "default": 0},
+    "speed": {"label": "Speed", "type": "integer", "default": 0},
+    "experience": {"label": "Experience", "type": "integer", "default": 0},
+    "damage": {"label": "Damage", "type": "integer", "default": 0},
+    "setNumbers": {"label": "Set Number", "type": "string", "default": ""},
+    "text": {"label": "Text", "type": "string", "default": ""},
+    "loadGroupId": {"label": "Load Group", "type": "string", "default": ""}
+  }
+}

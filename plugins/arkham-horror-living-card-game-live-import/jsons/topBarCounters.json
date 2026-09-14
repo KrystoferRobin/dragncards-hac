@@ -1,0 +1,23 @@
+{
+  "topBarCounters": {
+    "player": [
+      {
+        "imageUrl": "https://toybox.hundredacre.club/cards/arkham-horror-living-card-game/_plugin/ArkhamHorrorLivingCardGame-TokenResource.webp",
+        "label": "id:resourcesCounter",
+        "playerProperty": "resources"
+      },
+      {
+        "imageUrl": "https://toybox.hundredacre.club/cards/arkham-horror-living-card-game/_plugin/ArkhamHorrorLivingCardGame-TokenAction.webp",
+        "label": "id:actionsTakenCounter",
+        "playerProperty": "actionsTaken"
+      }
+    ],
+    "shared": [
+      {
+        "gameProperty": "roundNumber",
+        "imageUrl": "https://toybox.hundredacre.club/cards/arkham-horror-living-card-game/_plugin/ArkhamHorrorLivingCardGame-TokenFreeze.webp",
+        "label": "id:roundCounter"
+      }
+    ]
+  }
+}

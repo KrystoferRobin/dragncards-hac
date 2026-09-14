@@ -1,0 +1,12 @@
+{
+  "pluginName": "Mythos",
+  "author": "Lackey / Sillywiz04",
+  "tutorialUrl": "https://github.com/Sillywiz04/Mythos",
+  "announcements": [
+    "Tabletop plugin from the Lackey Mythos set. No rules engine — Sanity, APs, Story, and Investigator piles are shortcuts.",
+    "D = draw. R = ready all. T = rotate. X = discard. 6 = d6. 0 = d20. Y/U = Sanity. O/P = Action Points."
+  ],
+  "loadPreBuiltOnNewGame": false,
+  "bannerUrl": "https://toybox.hundredacre.club/cards/mythos/_plugin/banner.jpg",
+  "logoUrl": "https://toybox.hundredacre.club/cards/mythos/_plugin/logo.jpg"
+}

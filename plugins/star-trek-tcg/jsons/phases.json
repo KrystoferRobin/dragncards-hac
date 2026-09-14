@@ -1,0 +1,36 @@
+{
+  "phases": {
+    "discard": {
+      "label": "Discard",
+      "height": "16%"
+    },
+    "draw": {
+      "label": "Draw",
+      "height": "16%"
+    },
+    "crew": {
+      "label": "Crew",
+      "height": "16%"
+    },
+    "episode": {
+      "label": "Episode",
+      "height": "16%"
+    },
+    "resolution": {
+      "label": "Resolution",
+      "height": "16%"
+    },
+    "change": {
+      "label": "Change Player",
+      "height": "16%"
+    }
+  },
+  "phaseOrder": [
+    "discard",
+    "draw",
+    "crew",
+    "episode",
+    "resolution",
+    "change"
+  ]
+}

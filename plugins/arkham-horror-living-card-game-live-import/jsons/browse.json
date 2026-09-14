@@ -1,0 +1,17 @@
+{
+  "browse": {
+    "filterPropertySideA": "type",
+    "filterValuesSideA": [
+      "Asset",
+      "Enemy",
+      "Event",
+      "Skill",
+      "Treachery"
+    ],
+    "textPropertiesSideA": [
+      "name",
+      "faction",
+      "traits"
+    ]
+  }
+}

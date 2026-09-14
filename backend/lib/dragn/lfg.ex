@@ -8,7 +8,7 @@ defmodule DragnCards.Lfg do
 
   alias DragnCards.Repo
   alias DragnCards.Lfg.{LfgPost, LfgResponse, LfgSubscription}
-  alias DragnCards.{Users, Mailer, UserEmail}
+  alias DragnCards.{Users, HavenWebhook}
   alias DragnCardsWeb.Endpoint
   alias DragnCardsUtil.NameGenerator
   alias DragnCardsGame.GameUISupervisor
@@ -121,9 +121,9 @@ defmodule DragnCards.Lfg do
         end
 
         try do
-          notify_subscribers(post, user)
+          HavenWebhook.notify_lfg(post, user)
         rescue
-          e -> Logger.error("Failed to notify LFG subscribers: #{inspect(e)}")
+          e -> Logger.error("Failed to notify Haven LFG webhook: #{inspect(e)}")
         end
 
         {:ok, post}
@@ -217,7 +217,6 @@ defmodule DragnCards.Lfg do
           |> Ecto.Changeset.change(%{status: "open", confirmed_start_time: nil})
           |> Repo.update()
 
-          # Email all parties that the game is un-confirmed
           notify_game_unconfirmed(post)
         end
 
@@ -371,98 +370,8 @@ defmodule DragnCards.Lfg do
     Endpoint.broadcast!("lfg:#{plugin_id}", "lfg_update", %{posts: posts})
   end
 
-  defp notify_subscribers(post, poster_user) do
-    plugin = Repo.get(DragnCards.Plugins.Plugin, post.plugin_id)
-    plugin_name = if plugin, do: plugin.name, else: "Unknown"
-    poster_alias = Users.get_alias(poster_user.id)
-
-    subscriptions =
-      from(s in LfgSubscription,
-        where: s.plugin_id == ^post.plugin_id,
-        where: s.user_id != ^post.user_id
-      )
-      |> Repo.all()
-
-    Enum.each(subscriptions, fn sub ->
-      user = Users.get_user(sub.user_id)
-
-      if user && user.email do
-        try do
-          UserEmail.lfg_new_post(user, poster_alias, plugin_name, post)
-          |> Mailer.deliver()
-        rescue
-          e -> Logger.error("Failed to send LFG notification email: #{inspect(e)}")
-        end
-      end
-    end)
-  end
-
-  defp notify_game_confirmed(post, confirmed_start_time) do
-    plugin = Repo.get(DragnCards.Plugins.Plugin, post.plugin_id)
-    plugin_name = if plugin, do: plugin.name, else: "Unknown"
-
-    all_user_ids = get_all_party_user_ids(post)
-
-    Enum.each(all_user_ids, fn uid ->
-      user = Users.get_user(uid)
-
-      if user && user.email do
-        try do
-          UserEmail.lfg_game_confirmed(user, plugin_name, confirmed_start_time, post)
-          |> Mailer.deliver()
-        rescue
-          e -> Logger.error("Failed to send game confirmed email: #{inspect(e)}")
-        end
-      end
-    end)
-  end
-
-  defp notify_game_unconfirmed(post) do
-    all_user_ids = get_all_party_user_ids(post)
-
-    Enum.each(all_user_ids, fn uid ->
-      user = Users.get_user(uid)
-
-      if user && user.email do
-        try do
-          plugin = Repo.get(DragnCards.Plugins.Plugin, post.plugin_id)
-          plugin_name = if plugin, do: plugin.name, else: "Unknown"
-
-          UserEmail.lfg_game_confirmed(user, plugin_name, nil, post)
-          |> Mailer.deliver()
-        rescue
-          e -> Logger.error("Failed to send game unconfirmed email: #{inspect(e)}")
-        end
-      end
-    end)
-  end
-
-  defp notify_room_ready(post, room_slug, plugin) do
-    plugin_name = if plugin, do: plugin.name, else: "Unknown"
-    all_user_ids = get_all_party_user_ids(post)
-
-    Enum.each(all_user_ids, fn uid ->
-      user = Users.get_user(uid)
-
-      if user && user.email do
-        try do
-          UserEmail.lfg_room_ready(user, plugin_name, room_slug)
-          |> Mailer.deliver()
-        rescue
-          e -> Logger.error("Failed to send room ready email: #{inspect(e)}")
-        end
-      end
-    end)
-  end
-
-  defp get_all_party_user_ids(post) do
-    response_user_ids =
-      from(r in LfgResponse,
-        where: r.lfg_post_id == ^post.id,
-        select: r.user_id
-      )
-      |> Repo.all()
-
-    [post.user_id | response_user_ids] |> Enum.uniq()
-  end
+  # Club accounts have no mailbox. Table fill / room-ready stay in the LFG UI.
+  defp notify_game_confirmed(_post, _confirmed_start_time), do: :ok
+  defp notify_game_unconfirmed(_post), do: :ok
+  defp notify_room_ready(_post, _room_slug, _plugin), do: :ok
 end

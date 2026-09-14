@@ -1,0 +1,19 @@
+{
+  "groupMenu": {
+    "moveToGroupIds": [
+      "playerNHand",
+      "playerNDeck",
+      "playerNDiscard",
+      "playerNPlay",
+      "playerNDomains",
+      "playerNWon",
+      "playerN+1Play",
+      "playerN+1Domains",
+      "playerN+1Won",
+      "sharedStories",
+      "sharedStoryDeck",
+      "sharedSetAside"
+    ],
+    "options": []
+  }
+}

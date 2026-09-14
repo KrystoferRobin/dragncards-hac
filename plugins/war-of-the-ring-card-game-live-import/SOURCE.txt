@@ -1,0 +1,10 @@
+Imported 2026-09-11 04:22 UTC from a live DragnCards table dump.
+Dump file: WotR_Card_Game-live-dump.json
+Official plugin id: 3
+Official name: WotR Card Game
+Official version: 8
+repo_url: https://github.com/seastan/dragncards-wotr-plugin
+
+This is a compiled snapshot (merged game_def + card_db), not original source files.
+Collected 2026-09-11: card art + tokens retargeted to toybox. Drop banner.jpg and logo.jpg into images/war-of-the-ring-card-game/_plugin/ before Load Game Definition.
+Missing on official S3 (also 403 live): Fas Blue Rules 3, Fas Red Rules 3.

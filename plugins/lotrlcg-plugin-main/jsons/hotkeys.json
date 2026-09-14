@@ -1,0 +1,57 @@
+{
+    "hotkeys": {
+        "token": [
+            {"key": "1", "tokenType": "resource", "label": "icon(https://toybox.hundredacre.club/cards/lord-of-the-rings-lcg/_plugin/LordOfTheRingsLcg-TokenResource.png)"},
+            {"key": "2", "tokenType": "progress", "label": "icon(https://toybox.hundredacre.club/cards/lord-of-the-rings-lcg/_plugin/LordOfTheRingsLcg-TokenProgress.png)"},
+            {"key": "3", "tokenType": "damage", "label": "icon(https://toybox.hundredacre.club/cards/lord-of-the-rings-lcg/_plugin/LordOfTheRingsLcg-TokenDamage.png)"},
+            {"key": "4", "tokenType": "time", "label": "icon(https://toybox.hundredacre.club/cards/lord-of-the-rings-lcg/_plugin/LordOfTheRingsLcg-TokenTime.png)"},
+            {"key": "5", "tokenType": "willpower", "label": "icon(https://toybox.hundredacre.club/cards/lord-of-the-rings-lcg/_plugin/LordOfTheRingsLcg-TokenWillpower.png)"},
+            {"key": "5", "tokenType": "threat", "label": "icon(https://toybox.hundredacre.club/cards/lord-of-the-rings-lcg/_plugin/LordOfTheRingsLcg-TokenThreat.png)"},
+            {"key": "6", "tokenType": "attack", "label": "icon(https://toybox.hundredacre.club/cards/lord-of-the-rings-lcg/_plugin/LordOfTheRingsLcg-TokenAttack.png)"},
+            {"key": "7", "tokenType": "defense", "label": "icon(https://toybox.hundredacre.club/cards/lord-of-the-rings-lcg/_plugin/LordOfTheRingsLcg-TokenDefense.png)"},
+            {"key": "8", "tokenType": "hitPoints", "label": "icon(https://toybox.hundredacre.club/cards/lord-of-the-rings-lcg/_plugin/LordOfTheRingsLcg-TokenHitPoints.png)"},
+            {"key": "8", "tokenType": "questPoints", "label": "icon(https://toybox.hundredacre.club/cards/lord-of-the-rings-lcg/_plugin/LordOfTheRingsLcg-TokenQuestPoints.png)"},
+            {"key": "9", "tokenType": "engagementCost", "label": "icon(https://toybox.hundredacre.club/cards/lord-of-the-rings-lcg/_plugin/LordOfTheRingsLcg-TokenEngagementCost.png)"}
+        ],
+        "game": [
+            {"key": "D", "actionList": "drawCard", "label": "id:drawACard"},
+            {"key": "E", "actionList": "revealEncounter", "label": "id:revealEncounterCard"},
+            {"key": "Shift+E", "actionList": "revealEncounterFacedown", "label": "id:revealFacedownEncounterCard"},
+            {"key": "K", "actionList": "revealSecondary", "label": "id:revealCardFromSecondEncounterDeck"},
+            {"key": "Shift+K", "actionList": "revealSecondaryFacedown", "label": "id:revealFacedownCardFromSecondEncounterDeck"},
+            {"key": "M", "actionList": "toggleMap", "label": "id:toggleTheMap"},
+            {"key": ",", "actionList": "toggleExtra", "label": "id:toggleExtra"},
+            {"key": "Shift+M", "actionList": "mulligan", "label": "id:mulligan"},
+            {"key": "W", "actionList": ["DO_ADVANCE_BUTTON"], "label": "id:advanceThroughRoundStopAtTriggers"},
+            {"key": "Z", "actionList": ["RESOLVE_QUEST"], "label": "id:resolveTheQuest"},
+            {"key": "G", "actionList": ["RESOLVE_ENGAGEMENT_CHECKS"], "label": "id:resolveEngagementChecks"},
+            {"key": "Shift+N", "actionList": "skipToNextPlanningPhase", "label": "id:skipToNextPlanningPhase"},
+            {"key": "Shift+S", "actionList": "skipToDealShadowsStep", "label": "id:skipToDealShadowsStep"},
+            {"key": "Shift+R", "actionList": "skipToRefreshPhase", "label": "id:skipToRefreshPhase"},
+            {"key": "Shift+O", "actionList": "calculateScore", "label": "id:calculateScore"},
+            {"key": "Shift+S", "actionList": "skipToDealShadowsStep", "label": "id:dealAllShadowCards"},
+            {"key": "Shift+X", "actionList": "skipToDiscardShadowsStep", "label": "id:discardAllShadowCards"},
+            {"key": "U", "actionList": "increaseThreat", "label": "id:raiseThreatBy1"},
+            {"key": "J", "actionList": "decreaseThreat", "label": "id:reduceThreatBy1"},
+            {"key": "Shift+U", "actionList": "raiseAllThreat", "label": "id:raiseThreatBy1ForAllPlayers"},
+            {"key": "Shift+J", "actionList": "reduceAllThreat", "label": "id:reduceThreatBy1ForAllPlayers"},
+            {"key": "Shift+D", "actionList": "drawNextSeat", "label": "id:drawCardOnBehalfOfNextEmptySeat"},
+            {"key": "Shift+H", "actionList": "discardRandomFromHand", "label": "id:discardRandomCardFromHand"}
+        ],
+        "card": [
+            {"key": "A", "actionList": "hotkeyA", "label": "id:exhaustReadyIfLocationMakeActive"},
+            {"key": "F", "actionList": "flipCard", "label": "id:flip"},
+            {"key": "C", "actionList": "detach", "label": "id:detach"},
+            {"key": "H", "actionList": "shuffleIntoDeck", "label": "id:shuffleIntoOwnerSDeck"},
+            {"key": "Q", "actionList": "toggleCommit", "label": "id:commitUncommitFromQuest"},
+            {"key": "Shift+Q", "actionList": "toggleCommitWithoutExhausting", "label": "id:commitUncommitFromQuestWithoutExhaustingReadying"},
+            {"key": "S", "actionList": "dealShadow", "label": "id:dealShadowCard"},
+            {"key": "V", "actionList": "addToVictoryDisplay", "label": "id:addToVictoryDisplay"},
+            {"key": "X", "actionList": ["DISCARD_CARD", "$ACTIVE_CARD"], "label": "id:discardOrAdvance"},
+            //{"key": "Shift+C", "actionList": "discardOtherCardsInStack", "label": "id:discardAllOtherCardsInThisCardSStack"},
+            {"key": "B", "actionList": "sendToBack", "label": "id:sendAttachmentToBackOfStack"},
+            {"key": "Shift+B", "actionList": "moveToBottomOfDeck", "label": "id:moveToBottomOfOriginDeck"},
+            {"key": "Shift+T", "actionList": "swapWithTop", "label": "id:swapWithTop"}
+        ]
+    }
+}

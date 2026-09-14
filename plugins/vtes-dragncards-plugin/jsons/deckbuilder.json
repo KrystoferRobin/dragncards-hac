@@ -1,0 +1,21 @@
+{
+  "deckbuilder": {
+    "addButtons": [1, 2, 3, 4],
+    "columns": [
+      {"propName": "name", "label": "Name"},
+      {"propName": "type", "label": "Type"},
+      {"propName": "clan", "label": "Clan"},
+      {"propName": "group", "label": "Grp"},
+      {"propName": "capacity", "label": "Cap"},
+      {"propName": "discipline", "label": "Disc"},
+      {"propName": "set", "label": "Set"},
+      {"propName": "text", "label": "Text"}
+    ],
+    "spawnGroups": [
+      {"loadGroupId": "playerNLibrary", "label": "My Library"},
+      {"loadGroupId": "playerNCrypt", "label": "My Crypt"},
+      {"loadGroupId": "playerNHand", "label": "My Hand"},
+      {"loadGroupId": "playerNTokens", "label": "My Tokens"}
+    ]
+  }
+}

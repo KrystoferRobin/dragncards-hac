@@ -1,0 +1,17 @@
+{
+  "spawnExistingCardModal": {
+    "columnProperties": [
+      "name",
+      "type",
+      "combat",
+      "wits",
+      "packName"
+    ],
+    "loadGroupIds": [
+      "player1Deck",
+      "player1Extra",
+      "player1Hand",
+      "player2Hand"
+    ]
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "faceProperties": {
+    "scare": {
+      "label": "Scare Threshold",
+      "type": "string",
+      "default": ""
+    },
+    "rarity": {
+      "label": "Rarity",
+      "type": "string",
+      "default": ""
+    },
+    "text": {
+      "label": "CardText",
+      "type": "string",
+      "default": ""
+    },
+    "packName": {
+      "label": "Set",
+      "type": "string",
+      "default": ""
+    },
+    "set": {
+      "label": "Lackey Set",
+      "type": "string",
+      "default": ""
+    },
+    "loadGroupId": {
+      "label": "Load Group",
+      "type": "string",
+      "default": ""
+    }
+  }
+}

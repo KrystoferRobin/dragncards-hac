@@ -1,0 +1,1949 @@
+{
+  "preBuiltDecks": {
+    "faith-fear-law-dogs": {
+      "label": "Faith & Fear - Law Dogs",
+      "cards": [
+        {
+          "databaseId": "b6cfa257-5898-4f1a-968c-8f36956f499b",
+          "quantity": 1,
+          "loadGroupId": "playerNOutfit"
+        },
+        {
+          "databaseId": "da32c302-02de-4a5b-89c4-8227dba9f3c7",
+          "quantity": 1,
+          "loadGroupId": "playerNStarting"
+        },
+        {
+          "databaseId": "5167ca6e-657d-4d96-a72b-247b2298abf9",
+          "quantity": 1,
+          "loadGroupId": "playerNStarting"
+        },
+        {
+          "databaseId": "36c80330-39fc-4fdc-8736-4c8d47758063",
+          "quantity": 1,
+          "loadGroupId": "playerNStarting"
+        },
+        {
+          "databaseId": "fb5f0076-bbb3-486e-9420-02084643592b",
+          "quantity": 1,
+          "loadGroupId": "playerNStarting"
+        },
+        {
+          "databaseId": "a806a33f-8bb2-4a47-9bdc-f3dc7d2058ea",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "460fcab1-be68-41f1-90bf-41ee11aa17c4",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "07c1a52a-fcdc-4775-b42c-f352465942da",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "b4442f8d-71d0-4d12-9000-4df27ea78643",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "2c51b78f-b130-4663-9c78-0cc69a20a059",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "e0434a23-02b1-406b-a683-0b230b73111d",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "77df4257-28e1-4865-8d20-5e0087fcd8d5",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "8d8fa80c-580b-44b3-8e66-b89392299200",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "e22efbb0-e796-4c72-9793-23ed7635dfce",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "cbb6be72-e387-4742-99cb-b5681e88de82",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "631a3c9a-b970-47f5-a196-c078ad913d56",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "077d03fd-1509-43a2-8844-c2bd8d62b837",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "6203abc7-7882-4718-a361-33cf1cf90df0",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "6b01cb98-4ae3-4b6e-b7d1-29fe035c9e2d",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "38b1ca04-c236-4d51-80dd-1c283957095e",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "6560b478-c5fe-4717-a2d1-40ef7c6effa6",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "949e9f9d-bc65-4486-b115-a1d364aaae0d",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "27d3649c-fdcf-4b40-83ec-d7d04543cefe",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "d340ff50-aec3-4800-a993-c76c954c34a9",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "519a9e2e-56e9-42a2-8cda-64d1a7cd934f",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "c5bf5c92-9d15-42fa-aacf-67163913518a",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "4bd2615b-6a1b-465e-a16d-923fd77ee443",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "fa907076-61c7-4f1f-b9a4-87a1df59bfae",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "cdc1e1d2-d985-400f-ab3c-f91744619eed",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "9ef9abea-373c-4265-b7fc-3d8391095f64",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "75e35d17-de1e-457f-88e0-42e2bc9301bc",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "ec741b63-8ac4-4b5a-9767-9854e05b91c3",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "2ad321e1-eaa0-4984-bdd0-a8d088045588",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "57528427-b65a-4056-9fea-082bba8ef4a9",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "74fbc995-aeca-4026-a4f4-682684e6feb1",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "6409f8c3-8fcc-4b31-96e6-96318f629230",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "9687ab08-0ae9-4a15-8304-6e9797edc87e",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "a23d36e0-8231-49e7-bbc4-4e56c179b045",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "a0c826bd-311f-4918-aeeb-9c2a14b176c3",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        }
+      ]
+    },
+    "faith-fear-mcc": {
+      "label": "Faith & Fear - MCC",
+      "cards": [
+        {
+          "databaseId": "6db17405-bbd3-4c0c-b00f-b89991925291",
+          "quantity": 1,
+          "loadGroupId": "playerNOutfit"
+        },
+        {
+          "databaseId": "826655e8-00b7-43ae-a3fb-4cea781176ad",
+          "quantity": 1,
+          "loadGroupId": "playerNStarting"
+        },
+        {
+          "databaseId": "03341e26-42b4-4545-897e-8626de5e3dd7",
+          "quantity": 1,
+          "loadGroupId": "playerNStarting"
+        },
+        {
+          "databaseId": "7d2d0bb3-f477-4076-8739-9479911b95a6",
+          "quantity": 1,
+          "loadGroupId": "playerNStarting"
+        },
+        {
+          "databaseId": "5a2cbed4-9d68-4c5d-acb6-93e2d25b268f",
+          "quantity": 1,
+          "loadGroupId": "playerNStarting"
+        },
+        {
+          "databaseId": "36c80330-39fc-4fdc-8736-4c8d47758063",
+          "quantity": 1,
+          "loadGroupId": "playerNStarting"
+        },
+        {
+          "databaseId": "bc4af72b-b53c-44ef-858b-04d33e1e6a4b",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "c20de5e3-daea-4dce-a8ce-eaa5349c8187",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "498d4eca-db79-40db-9a42-cc053abcfc43",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "452fd385-a516-45d9-8408-8628f4788fa5",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "aa1dec3f-9913-4bf1-bbcd-5d29457f6a80",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "a8546fc6-be73-41eb-b33a-62b2b8158696",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "40302c3e-668e-474f-a2ae-7ab1bbdf9d63",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "a23d36e0-8231-49e7-bbc4-4e56c179b045",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "f149dcc9-44a4-4399-8786-62d2496559e4",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "a2b5195e-4d31-41e9-8407-c40ce54cc334",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "33b97a88-5b7f-4073-8e30-5c66da9060c5",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "cb15bd27-76a2-48db-b324-99589b14982b",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "077d03fd-1509-43a2-8844-c2bd8d62b837",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "36c91361-cab3-4988-bed2-2c3401746695",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "c57efc28-77d3-492b-81ad-f3c5ce130041",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "95b9d8df-a95d-4b5e-aeed-98f8e99ca5a5",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "949e9f9d-bc65-4486-b115-a1d364aaae0d",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "84e33474-5247-4969-b7d1-e335b720a566",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "45438749-ab3b-4f88-adb3-8c3cc65cfd54",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "fa907076-61c7-4f1f-b9a4-87a1df59bfae",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "75e35d17-de1e-457f-88e0-42e2bc9301bc",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "0eeba3c3-792a-4d39-879a-aab77b0f3981",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "9cba89ca-5a3f-4dad-aff0-91d62581dc31",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "3029937b-17cc-4c87-a109-9888747f3134",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "cdc1e1d2-d985-400f-ab3c-f91744619eed",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "cd378a50-f1c7-4a1f-a99d-80436806feea",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "d9586ca6-50bc-446e-aa3b-fc84b0545dcd",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "4bd2615b-6a1b-465e-a16d-923fd77ee443",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "1f230385-e07c-43e2-a205-79547ce18380",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "a0c826bd-311f-4918-aeeb-9c2a14b176c3",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "ff26cca7-830f-440a-90cd-08e32c629d7e",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "b999405d-e2ca-4703-beda-67f9697fc977",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        }
+      ]
+    },
+    "faith-fear-sloane": {
+      "label": "Faith & Fear - Sloane",
+      "cards": [
+        {
+          "databaseId": "5669e37c-fab7-4954-acb8-7f841ca7a762",
+          "quantity": 1,
+          "loadGroupId": "playerNOutfit"
+        },
+        {
+          "databaseId": "933eccf1-ad0d-4153-8381-a23c6de97a60",
+          "quantity": 1,
+          "loadGroupId": "playerNStarting"
+        },
+        {
+          "databaseId": "cd99ead2-3b50-4989-8331-59f76b5edb0b",
+          "quantity": 1,
+          "loadGroupId": "playerNStarting"
+        },
+        {
+          "databaseId": "dfb10d22-9e8f-4031-9249-50cd13ee7203",
+          "quantity": 1,
+          "loadGroupId": "playerNStarting"
+        },
+        {
+          "databaseId": "28b5d3c7-bb58-4b63-aae5-659e86fee876",
+          "quantity": 1,
+          "loadGroupId": "playerNStarting"
+        },
+        {
+          "databaseId": "84e33474-5247-4969-b7d1-e335b720a566",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "6560b478-c5fe-4717-a2d1-40ef7c6effa6",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "55257be5-9428-4699-8df6-9b397f9fe258",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "8ed33c69-c79e-4ced-a180-3fe57bf0d25d",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "a9b3a2b8-9f22-474d-b35a-59a380c0921f",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "c8453a00-e4f9-4dbe-922c-3daf79586cef",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "6b01cb98-4ae3-4b6e-b7d1-29fe035c9e2d",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "e686782d-1d7c-464d-82ed-910fcaa2945d",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "25787651-53b5-456e-bb42-8f38fd7b3caf",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "fcc6f54f-e9d1-40a6-9870-1be438eeef12",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "0b1ae36c-6359-4871-b34b-16808e639243",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "4827d51e-458b-4945-8242-ddfd2fdd9821",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "5c5b6579-a2de-419d-b531-6d08c1eba77d",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "1a3e8af5-302b-47e5-8c30-901b8ed995bc",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "cc2092bd-b575-4a26-8e96-aa13f8736d75",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "8649f082-f7cd-414d-b360-9b1b72f6172b",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "ef91b1f5-46b8-4246-8e58-401a39ebbf6f",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "9a18cd02-63dd-4381-ba9f-49d80fac935a",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "546a4107-75f3-49f6-84a1-4396ca3c61c1",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "7bb386d8-73a0-4d31-bbd1-5204fcde0302",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "2dbddcbc-d228-451d-8cde-32b65abe769e",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "3c904ee6-15de-4478-8837-61e394bb31ee",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "dfd2d635-4b88-4cea-9939-14deec3896cf",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "5d610a44-7f13-4333-a941-ee5e1fa2fb37",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "57528427-b65a-4056-9fea-082bba8ef4a9",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "7779228b-f33c-4c36-ae90-17fdf54cd142",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "36c80330-39fc-4fdc-8736-4c8d47758063",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "6656eabf-4a69-4854-950d-f30d7771c4ae",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        }
+      ]
+    },
+    "faith-fear-t4r": {
+      "label": "Faith & Fear - T4R",
+      "cards": [
+        {
+          "databaseId": "d5ed8e5d-c9f9-4e9e-8bc9-48da7c938045",
+          "quantity": 1,
+          "loadGroupId": "playerNOutfit"
+        },
+        {
+          "databaseId": "6a4d1a94-7e29-465e-9a41-f78389ef49cf",
+          "quantity": 3,
+          "loadGroupId": "playerNStarting"
+        },
+        {
+          "databaseId": "36c80330-39fc-4fdc-8736-4c8d47758063",
+          "quantity": 1,
+          "loadGroupId": "playerNStarting"
+        },
+        {
+          "databaseId": "1ff5d90e-e801-4199-80bc-7313bc8cf99e",
+          "quantity": 1,
+          "loadGroupId": "playerNStarting"
+        },
+        {
+          "databaseId": "ac681d62-c7df-469f-8ac6-80816c781136",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "f94631b0-20f6-492b-b732-e36b816e523f",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "8272e52f-aa01-403e-9ea4-0408bdcf3fdc",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "18e06cc3-eb57-451a-ba28-18665727999d",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "1aa58444-fccc-4121-ac6c-482fd48e4b8e",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "03c50bb2-d027-4d02-b8b6-4bc542dceddb",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "91863a08-01d9-4b7e-9eff-0bb62826f433",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "e6db104b-d882-41c5-9285-84ed77a74eac",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "6a4d1a94-7e29-465e-9a41-f78389ef49cf",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "ecfa0567-5576-427f-a829-a049e817f4b0",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "2ad321e1-eaa0-4984-bdd0-a8d088045588",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "2cd7a17c-ce6a-4ffd-92b0-06fe310c7d6c",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "e11367a5-6fad-40a4-b22a-a2571eb7c330",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "b5fbbe61-aba3-4de7-b501-4feb1f9cf203",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "1f6dc79e-65ad-4727-bf8e-1c42eee98fe1",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "f138c8f1-00cc-4ca4-b145-e9c5105dc76a",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "0eeba3c3-792a-4d39-879a-aab77b0f3981",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "7a949a25-df55-47e3-9d6e-674b51cc0f0f",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "0ab4453e-e9bd-4899-96e1-1eb6757ecd94",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "45438749-ab3b-4f88-adb3-8c3cc65cfd54",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "90b3fbde-2834-4c49-9577-1d8723feadd4",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "bf1c8173-843a-4a20-be3b-f4ae650cfdd2",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "b072a22f-6c55-441f-8cce-4351038ed15c",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "c5bf5c92-9d15-42fa-aacf-67163913518a",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "a8843dcd-cd66-4f38-b6a9-12fbf5fd8bba",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "077d03fd-1509-43a2-8844-c2bd8d62b837",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "0857fa1d-c061-4606-bb55-4736edcfd2e9",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "0482af4d-f834-4f73-88fc-9f57e44c465a",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "c27e60e9-8450-4e6e-9c2e-73d19caec7c1",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "fa907076-61c7-4f1f-b9a4-87a1df59bfae",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "546a4107-75f3-49f6-84a1-4396ca3c61c1",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        }
+      ]
+    },
+    "intermediate-4th-ring": {
+      "label": "Intermediate - 4th Ring",
+      "cards": [
+        {
+          "databaseId": "4137ced8-eb93-4ca6-9253-240b46b15886",
+          "quantity": 1,
+          "loadGroupId": "playerNOutfit"
+        },
+        {
+          "databaseId": "d9a3a80d-deef-47a7-9a5a-e1c7e0109697",
+          "quantity": 1,
+          "loadGroupId": "playerNStarting"
+        },
+        {
+          "databaseId": "d677fa1e-61f3-422a-9b95-745692c7b800",
+          "quantity": 1,
+          "loadGroupId": "playerNStarting"
+        },
+        {
+          "databaseId": "1aa58444-fccc-4121-ac6c-482fd48e4b8e",
+          "quantity": 1,
+          "loadGroupId": "playerNStarting"
+        },
+        {
+          "databaseId": "03341e26-42b4-4545-897e-8626de5e3dd7",
+          "quantity": 1,
+          "loadGroupId": "playerNStarting"
+        },
+        {
+          "databaseId": "abb271cf-7cbb-4a15-bd45-0458366c6f65",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "2419a7fc-569e-43bc-b5b7-360d41133e0c",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "b072a22f-6c55-441f-8cce-4351038ed15c",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "03c50bb2-d027-4d02-b8b6-4bc542dceddb",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "e6db104b-d882-41c5-9285-84ed77a74eac",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "91863a08-01d9-4b7e-9eff-0bb62826f433",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "6d31cb7e-a409-4256-8bba-26778de6c5f4",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "2871b5b3-fd14-40d1-90e5-f7ea4dae30ba",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "f149dcc9-44a4-4399-8786-62d2496559e4",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "077d03fd-1509-43a2-8844-c2bd8d62b837",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "335662d9-0d7c-430e-a556-11693385f5aa",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "18866ac8-9a24-45d7-8f67-df20afdc2dbb",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "452fd385-a516-45d9-8408-8628f4788fa5",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "37d550e3-6bb5-4744-a544-fcbba0153780",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "9ef9abea-373c-4265-b7fc-3d8391095f64",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "6656eabf-4a69-4854-950d-f30d7771c4ae",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "7a949a25-df55-47e3-9d6e-674b51cc0f0f",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "72853004-7ce4-4d66-a486-fc28bb87a048",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "0eeba3c3-792a-4d39-879a-aab77b0f3981",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "6560b478-c5fe-4717-a2d1-40ef7c6effa6",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "84e33474-5247-4969-b7d1-e335b720a566",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "45438749-ab3b-4f88-adb3-8c3cc65cfd54",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "a8843dcd-cd66-4f38-b6a9-12fbf5fd8bba",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "d340ff50-aec3-4800-a993-c76c954c34a9",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "75e35d17-de1e-457f-88e0-42e2bc9301bc",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "597ff0fc-a578-4215-9c6d-c5452d387870",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "bf1c8173-843a-4a20-be3b-f4ae650cfdd2",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "f9714fff-14d9-433c-b2cc-05068006c388",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "cf239340-c794-4a91-a241-e3cbafec2f6e",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "0ab4453e-e9bd-4899-96e1-1eb6757ecd94",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "efaf839b-f06f-4aff-982b-a99ae00f340c",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "0482af4d-f834-4f73-88fc-9f57e44c465a",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "1b4e7dec-5ff8-4407-9932-30ffd30c91fe",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        }
+      ]
+    },
+    "intermediate-law-dogs": {
+      "label": "Intermediate - Law Dogs",
+      "cards": [
+        {
+          "databaseId": "e6bee3e6-0ccd-40e6-a447-28cb032b7448",
+          "quantity": 1,
+          "loadGroupId": "playerNOutfit"
+        },
+        {
+          "databaseId": "ab7172e2-0e3f-408d-81ec-afb478385cfe",
+          "quantity": 1,
+          "loadGroupId": "playerNStarting"
+        },
+        {
+          "databaseId": "2e81c214-539a-4b49-b2d0-69258204b240",
+          "quantity": 1,
+          "loadGroupId": "playerNStarting"
+        },
+        {
+          "databaseId": "fb5f0076-bbb3-486e-9420-02084643592b",
+          "quantity": 1,
+          "loadGroupId": "playerNStarting"
+        },
+        {
+          "databaseId": "5d610a44-7f13-4333-a941-ee5e1fa2fb37",
+          "quantity": 1,
+          "loadGroupId": "playerNStarting"
+        },
+        {
+          "databaseId": "65d4cd16-fc61-4412-8a39-a6ad384fa766",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "9c2ec4f0-65cf-4408-81ff-b377e37f7ecb",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "27d3649c-fdcf-4b40-83ec-d7d04543cefe",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "44946fbc-1bc0-4a1a-9a55-6138b795bfc8",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "567d93e7-2497-4ddb-aa04-01c927f00bc8",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "2af1e511-ca73-4f12-a1ae-9a7a340738da",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "97061219-899d-4db0-b4a2-ab59bd651df6",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "e22efbb0-e796-4c72-9793-23ed7635dfce",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "022097bf-7e34-4b78-b7ca-3d60ca13eddd",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "a914540e-8564-44a4-b4cf-64f9f392218b",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "2dbddcbc-d228-451d-8cde-32b65abe769e",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "fcc6f54f-e9d1-40a6-9870-1be438eeef12",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "9ead8579-7077-45e4-a44d-cf284f55b3e5",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "2ae1a463-0106-426c-b9fd-6bb22df27aff",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "498d4eca-db79-40db-9a42-cc053abcfc43",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "aced4a1e-d5c9-423d-8d47-892c19c6a859",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "1a3e8af5-302b-47e5-8c30-901b8ed995bc",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "5cd89aa8-b973-4fa6-be81-087b5e369ed4",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "fd307ab6-2c39-438c-8b2e-b6ffd74b15bc",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "460fcab1-be68-41f1-90bf-41ee11aa17c4",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "1536769f-42f4-4840-9360-96d2e7e3f366",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "00a45909-a052-457d-a71b-119e415c03c7",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "d4133356-c738-4b89-82ac-9a6d5e35a744",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "9c4f6a3b-70e0-40d8-adde-e26c4e5eab12",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "972201b6-4fc1-44ed-8ed0-a16b1d609265",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "7378c899-a9c3-46d4-8d68-f452c9640734",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "94c55a0c-1599-4eee-8699-ad9c63e375a1",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "b999405d-e2ca-4703-beda-67f9697fc977",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "232f0a41-2ef5-47a0-9c32-6ccb8eb3c84e",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "3c904ee6-15de-4478-8837-61e394bb31ee",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "a9b3a2b8-9f22-474d-b35a-59a380c0921f",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "b4442f8d-71d0-4d12-9000-4df27ea78643",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "fa907076-61c7-4f1f-b9a4-87a1df59bfae",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        }
+      ]
+    },
+    "intermediate-morgan-cattle-company": {
+      "label": "Intermediate - Morgan Cattle Company",
+      "cards": [
+        {
+          "databaseId": "4f21000a-fb64-4e4b-8e8a-1c5d588dc577",
+          "quantity": 1,
+          "loadGroupId": "playerNOutfit"
+        },
+        {
+          "databaseId": "d9586ca6-50bc-446e-aa3b-fc84b0545dcd",
+          "quantity": 1,
+          "loadGroupId": "playerNStarting"
+        },
+        {
+          "databaseId": "feb37a5b-a95c-4c03-92e0-acd27d7a3ef3",
+          "quantity": 1,
+          "loadGroupId": "playerNStarting"
+        },
+        {
+          "databaseId": "03341e26-42b4-4545-897e-8626de5e3dd7",
+          "quantity": 1,
+          "loadGroupId": "playerNStarting"
+        },
+        {
+          "databaseId": "0c0087d0-6356-44a4-8237-15f86573716a",
+          "quantity": 1,
+          "loadGroupId": "playerNStarting"
+        },
+        {
+          "databaseId": "c263b2ff-3d4b-4beb-aa3b-d4e1f72e56ff",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "f8437fa5-c088-41b2-b6c9-2060f69ec7be",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "8e50a03b-b42c-4207-9d0d-7a144ad31e3b",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "0c0087d0-6356-44a4-8237-15f86573716a",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "c57efc28-77d3-492b-81ad-f3c5ce130041",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "f64c8b68-0d63-4f5d-a898-f38576024f75",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "cb15bd27-76a2-48db-b324-99589b14982b",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "4ad6e3d4-3c6c-43a4-a612-293586609150",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "335662d9-0d7c-430e-a556-11693385f5aa",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "f149dcc9-44a4-4399-8786-62d2496559e4",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "36c91361-cab3-4988-bed2-2c3401746695",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "ecfa0567-5576-427f-a829-a049e817f4b0",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "c20de5e3-daea-4dce-a8ce-eaa5349c8187",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "40302c3e-668e-474f-a2ae-7ab1bbdf9d63",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "239ef52d-12a1-47b6-8838-28a8c021a251",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "aa1dec3f-9913-4bf1-bbcd-5d29457f6a80",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "9e712f98-1a8b-4137-997e-e61e6549102c",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "ff6f51e6-ab2f-4fb9-8670-1715b278cc8c",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "20376d1c-4d9a-42ce-8b34-a95a175f1623",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "2ad321e1-eaa0-4984-bdd0-a8d088045588",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "2cd7a17c-ce6a-4ffd-92b0-06fe310c7d6c",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "ec741b63-8ac4-4b5a-9767-9854e05b91c3",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "69ccb375-f660-4d91-a405-2103b578f100",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "75e35d17-de1e-457f-88e0-42e2bc9301bc",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "fa907076-61c7-4f1f-b9a4-87a1df59bfae",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "45438749-ab3b-4f88-adb3-8c3cc65cfd54",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "08d1664d-5d98-4093-88c3-e93b0c6cc84f",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "d340ff50-aec3-4800-a993-c76c954c34a9",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "6560b478-c5fe-4717-a2d1-40ef7c6effa6",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "0672772c-7380-4b36-be78-1c7b23b3d950",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "3a1296d2-79f5-4a8a-9ea3-cabc4564e9eb",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "b5fbbe61-aba3-4de7-b501-4feb1f9cf203",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "d7e770dd-793f-4a53-a404-e3873a762ad1",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "3029937b-17cc-4c87-a109-9888747f3134",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "1b4e7dec-5ff8-4407-9932-30ffd30c91fe",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        }
+      ]
+    },
+    "intermediate-sloane-s-gang": {
+      "label": "Intermediate - Sloane's Gang",
+      "cards": [
+        {
+          "databaseId": "f7b4b246-da6f-44e4-9eee-46bb8bfb931a",
+          "quantity": 1,
+          "loadGroupId": "playerNOutfit"
+        },
+        {
+          "databaseId": "8ed33c69-c79e-4ced-a180-3fe57bf0d25d",
+          "quantity": 1,
+          "loadGroupId": "playerNStarting"
+        },
+        {
+          "databaseId": "3bd5addb-ac4e-45aa-9971-bd445222344e",
+          "quantity": 1,
+          "loadGroupId": "playerNStarting"
+        },
+        {
+          "databaseId": "28b5d3c7-bb58-4b63-aae5-659e86fee876",
+          "quantity": 1,
+          "loadGroupId": "playerNStarting"
+        },
+        {
+          "databaseId": "d677fa1e-61f3-422a-9b95-745692c7b800",
+          "quantity": 1,
+          "loadGroupId": "playerNStarting"
+        },
+        {
+          "databaseId": "dfd2d635-4b88-4cea-9939-14deec3896cf",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "d9d621f3-1905-4a99-8f5a-f1feb9639a64",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "fa1e44a1-2064-4d70-8286-854d80b50da2",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "e686782d-1d7c-464d-82ed-910fcaa2945d",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "8209b72a-15c4-440b-9ad7-8614a9d2f452",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "5d610a44-7f13-4333-a941-ee5e1fa2fb37",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "f95140da-3b72-4210-95fb-bfe7efe2cca4",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "c3638e9f-f664-43a6-abe0-645aab082455",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "9a18cd02-63dd-4381-ba9f-49d80fac935a",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "5c5b6579-a2de-419d-b531-6d08c1eba77d",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "b61dc1ab-393c-4827-a6ec-4f9ffb870491",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "7779228b-f33c-4c36-ae90-17fdf54cd142",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "cc2092bd-b575-4a26-8e96-aa13f8736d75",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "b3140484-bfe8-4eb4-963f-27e8d9334b8a",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "1950bc30-abf5-4ed4-b20a-e56bb4032de0",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "0c41f0c4-2491-4723-8cf9-d8ab3e071e05",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "e11367a5-6fad-40a4-b22a-a2571eb7c330",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "1f230385-e07c-43e2-a205-79547ce18380",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "1536769f-42f4-4840-9360-96d2e7e3f366",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "8649f082-f7cd-414d-b360-9b1b72f6172b",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "9aa68e21-1eee-4d44-993e-dd8cf60ed613",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "c8453a00-e4f9-4dbe-922c-3daf79586cef",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "80d43d02-7885-4e2e-98e5-62ba2b189155",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "677bbf45-1f98-49aa-b8cc-b63b8f3d5146",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "ac681d62-c7df-469f-8ac6-80816c781136",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "232f0a41-2ef5-47a0-9c32-6ccb8eb3c84e",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "9fe6ced8-a97c-49e8-8806-0ba465f535f6",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "57528427-b65a-4056-9fea-082bba8ef4a9",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "b999405d-e2ca-4703-beda-67f9697fc977",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "b4442f8d-71d0-4d12-9000-4df27ea78643",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "ed26a010-8947-456f-b8f7-2741e083b54a",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        }
+      ]
+    },
+    "learn2play-law-dogs": {
+      "label": "Learn2Play - Law Dogs",
+      "cards": [
+        {
+          "databaseId": "ab7172e2-0e3f-408d-81ec-afb478385cfe",
+          "quantity": 1,
+          "loadGroupId": "playerNStarting"
+        },
+        {
+          "databaseId": "2e81c214-539a-4b49-b2d0-69258204b240",
+          "quantity": 1,
+          "loadGroupId": "playerNStarting"
+        },
+        {
+          "databaseId": "03341e26-42b4-4545-897e-8626de5e3dd7",
+          "quantity": 1,
+          "loadGroupId": "playerNStarting"
+        },
+        {
+          "databaseId": "fb5f0076-bbb3-486e-9420-02084643592b",
+          "quantity": 1,
+          "loadGroupId": "playerNStarting"
+        },
+        {
+          "databaseId": "65d4cd16-fc61-4412-8a39-a6ad384fa766",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "9c2ec4f0-65cf-4408-81ff-b377e37f7ecb",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "e22efbb0-e796-4c72-9793-23ed7635dfce",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "27d3649c-fdcf-4b40-83ec-d7d04543cefe",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "44946fbc-1bc0-4a1a-9a55-6138b795bfc8",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "567d93e7-2497-4ddb-aa04-01c927f00bc8",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "2af1e511-ca73-4f12-a1ae-9a7a340738da",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "5d610a44-7f13-4333-a941-ee5e1fa2fb37",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "97061219-899d-4db0-b4a2-ab59bd651df6",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "022097bf-7e34-4b78-b7ca-3d60ca13eddd",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "a914540e-8564-44a4-b4cf-64f9f392218b",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "2dbddcbc-d228-451d-8cde-32b65abe769e",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "ac681d62-c7df-469f-8ac6-80816c781136",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "fcc6f54f-e9d1-40a6-9870-1be438eeef12",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "9ead8579-7077-45e4-a44d-cf284f55b3e5",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "2ae1a463-0106-426c-b9fd-6bb22df27aff",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "57763c43-994c-4682-ab8d-d8d732fe915e",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "498d4eca-db79-40db-9a42-cc053abcfc43",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "aced4a1e-d5c9-423d-8d47-892c19c6a859",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "1536769f-42f4-4840-9360-96d2e7e3f366",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "8649f082-f7cd-414d-b360-9b1b72f6172b",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "1a3e8af5-302b-47e5-8c30-901b8ed995bc",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "972201b6-4fc1-44ed-8ed0-a16b1d609265",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "7378c899-a9c3-46d4-8d68-f452c9640734",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "94c55a0c-1599-4eee-8699-ad9c63e375a1",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "b999405d-e2ca-4703-beda-67f9697fc977",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "232f0a41-2ef5-47a0-9c32-6ccb8eb3c84e",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "3c904ee6-15de-4478-8837-61e394bb31ee",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "a9b3a2b8-9f22-474d-b35a-59a380c0921f",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "fa907076-61c7-4f1f-b9a4-87a1df59bfae",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "45438749-ab3b-4f88-adb3-8c3cc65cfd54",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "08d1664d-5d98-4093-88c3-e93b0c6cc84f",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "452fd385-a516-45d9-8408-8628f4788fa5",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "5cd89aa8-b973-4fa6-be81-087b5e369ed4",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "fd307ab6-2c39-438c-8b2e-b6ffd74b15bc",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "e6bee3e6-0ccd-40e6-a447-28cb032b7448",
+          "quantity": 1,
+          "loadGroupId": "playerNOutfit"
+        }
+      ]
+    },
+    "learn2play-sloane-s-gang": {
+      "label": "Learn2Play - Sloane's Gang",
+      "cards": [
+        {
+          "databaseId": "f7b4b246-da6f-44e4-9eee-46bb8bfb931a",
+          "quantity": 1,
+          "loadGroupId": "playerNOutfit"
+        },
+        {
+          "databaseId": "8ed33c69-c79e-4ced-a180-3fe57bf0d25d",
+          "quantity": 1,
+          "loadGroupId": "playerNStarting"
+        },
+        {
+          "databaseId": "5d610a44-7f13-4333-a941-ee5e1fa2fb37",
+          "quantity": 1,
+          "loadGroupId": "playerNStarting"
+        },
+        {
+          "databaseId": "077d03fd-1509-43a2-8844-c2bd8d62b837",
+          "quantity": 1,
+          "loadGroupId": "playerNStarting"
+        },
+        {
+          "databaseId": "dfd2d635-4b88-4cea-9939-14deec3896cf",
+          "quantity": 1,
+          "loadGroupId": "playerNStarting"
+        },
+        {
+          "databaseId": "28b5d3c7-bb58-4b63-aae5-659e86fee876",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "d9d621f3-1905-4a99-8f5a-f1feb9639a64",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "3bd5addb-ac4e-45aa-9971-bd445222344e",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "8209b72a-15c4-440b-9ad7-8614a9d2f452",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "335662d9-0d7c-430e-a556-11693385f5aa",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "fa1e44a1-2064-4d70-8286-854d80b50da2",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "e686782d-1d7c-464d-82ed-910fcaa2945d",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "c3638e9f-f664-43a6-abe0-645aab082455",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "d677fa1e-61f3-422a-9b95-745692c7b800",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "d9a3a80d-deef-47a7-9a5a-e1c7e0109697",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "b3140484-bfe8-4eb4-963f-27e8d9334b8a",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "0c41f0c4-2491-4723-8cf9-d8ab3e071e05",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "9a18cd02-63dd-4381-ba9f-49d80fac935a",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "1536769f-42f4-4840-9360-96d2e7e3f366",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "5c5b6579-a2de-419d-b531-6d08c1eba77d",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "b5fbbe61-aba3-4de7-b501-4feb1f9cf203",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "1f230385-e07c-43e2-a205-79547ce18380",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "b61dc1ab-393c-4827-a6ec-4f9ffb870491",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "7779228b-f33c-4c36-ae90-17fdf54cd142",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "fcc6f54f-e9d1-40a6-9870-1be438eeef12",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "6656eabf-4a69-4854-950d-f30d7771c4ae",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "452fd385-a516-45d9-8408-8628f4788fa5",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "9aa68e21-1eee-4d44-993e-dd8cf60ed613",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "c8453a00-e4f9-4dbe-922c-3daf79586cef",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "80d43d02-7885-4e2e-98e5-62ba2b189155",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "efaf839b-f06f-4aff-982b-a99ae00f340c",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "6560b478-c5fe-4717-a2d1-40ef7c6effa6",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "232f0a41-2ef5-47a0-9c32-6ccb8eb3c84e",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "9fe6ced8-a97c-49e8-8806-0ba465f535f6",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "57528427-b65a-4056-9fea-082bba8ef4a9",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "2ad321e1-eaa0-4984-bdd0-a8d088045588",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "b4442f8d-71d0-4d12-9000-4df27ea78643",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "b999405d-e2ca-4703-beda-67f9697fc977",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "0eeba3c3-792a-4d39-879a-aab77b0f3981",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "a8843dcd-cd66-4f38-b6a9-12fbf5fd8bba",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "ed26a010-8947-456f-b8f7-2741e083b54a",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "69ccb375-f660-4d91-a405-2103b578f100",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        }
+      ]
+    }
+  }
+}

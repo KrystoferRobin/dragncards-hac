@@ -1,0 +1,9 @@
+Built 2026-09-12 20:36 UTC from LackeyCCG FECipher0.
+Source: /Users/krystoferrobin/Downloads/lackeyplugins/FECipher0
+Art: Dropbox CardImageURLs from the FECipher0 Lackey plugin (collected onto toybox, not hotlinked).
+Author credit: Lackey / retrop
+
+Tabletop plugin only — Lackey has no rules engine to port.
+TSV rows: 3983  skipped (no image URL or duplicate): 0
+Prebuilts: 12 Lackey decks.
+Official faces in this Lackey set are the JP SAMPLE scans. Custom sets (AD01, HZ, BZ, …) are included.

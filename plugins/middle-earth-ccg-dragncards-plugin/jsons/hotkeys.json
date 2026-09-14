@@ -1,0 +1,25 @@
+{
+  "hotkeys": {
+    "game": [
+      {"key": "D", "actionList": "drawDeck", "label": "Draw"},
+      {"key": "S", "actionList": "shuffleDeck", "label": "Shuffle deck"},
+      {"key": "U", "actionList": "untapAll", "label": "Untap all"},
+      {"key": "R", "actionList": "roll1d6", "label": "Roll 1d6"},
+      {"key": "C", "actionList": "discardTop", "label": "Discard top of deck"},
+      {"key": "L", "actionList": "shuffleLocationDeck", "label": "Shuffle location deck"}
+    ],
+    "card": [
+      {"key": "T", "actionList": "tapCard", "label": "Tap"},
+      {"key": "K", "actionList": "untapCard", "label": "Untap"},
+      {"key": "O", "actionList": "rotateCard", "label": "Rotate 180"},
+      {"key": "F", "actionList": ["FLIP", "$ACTIVE_CARD_ID"], "label": "Flip card"},
+      {"key": "X", "actionList": ["DISCARD", "$ACTIVE_CARD_ID"], "label": "Discard"},
+      {"key": "A", "actionList": ["DETACH", "$ACTIVE_CARD_ID"], "label": "Detach"},
+      {"key": "H", "actionList": ["SHUFFLE_INTO_DECK", "$ACTIVE_CARD_ID"], "label": "Shuffle into deck"}
+    ],
+    "token": [
+      {"key": "1", "tokenType": "green", "label": "Green counter"},
+      {"key": "2", "tokenType": "red", "label": "Red counter"}
+    ]
+  }
+}

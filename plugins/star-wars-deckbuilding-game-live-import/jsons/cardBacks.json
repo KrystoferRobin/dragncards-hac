@@ -1,0 +1,29 @@
+{
+  "cardBacks": {
+    "card": {
+      "height": 1,
+      "imageUrl": "star-wars-deckbuilding-game/_plugin/StarWarsDeckbuildingGame-CardbackCard.png",
+      "width": 0.72
+    },
+    "empireBase": {
+      "height": 0.72,
+      "imageUrl": "star-wars-deckbuilding-game/_plugin/StarWarsDeckbuildingGame-CardbackEmpireBase.png",
+      "width": 1
+    },
+    "mandalorian": {
+      "height": 1,
+      "imageUrl": "star-wars-deckbuilding-game/_plugin/StarWarsDeckbuildingGame-CardbackMandalorian.jpg",
+      "width": 0.72
+    },
+    "rebelBase": {
+      "height": 0.72,
+      "imageUrl": "star-wars-deckbuilding-game/_plugin/StarWarsDeckbuildingGame-CardbackRebelBase.png",
+      "width": 1
+    },
+    "tracker": {
+      "height": 3,
+      "imageUrl": "star-wars-deckbuilding-game/_plugin/StarWarsDeckbuildingGame-CardbackTracker.png",
+      "width": 1
+    }
+  }
+}

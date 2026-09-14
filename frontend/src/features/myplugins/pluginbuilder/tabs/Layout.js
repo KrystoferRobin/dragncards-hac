@@ -17,6 +17,8 @@ function expandPlayerGroups(baseGroups, maxPlayers) {
 
   const newOptions = [];
   for (const suffix of suffixes) {
+    newOptions.push(`playerS${suffix}`);
+    newOptions.push(`playerL${suffix}`);
     for (let i = 0; i < maxPlayers; i++) {
       newOptions.push(`{playerN${i === 0 ? "" : "+" + i}}${suffix}`);
     }
@@ -81,7 +83,7 @@ export const LayoutRectangle = ({
 }) => {
   return (
     <Rnd
-      key={rect.id}
+      key={`${rect.id}-${Math.round(rect.x || 0)}-${Math.round(rect.y || 0)}-${Math.round(rect.width || 0)}-${Math.round(rect.height || 0)}`}
       size={{ width: rect.width, height: rect.height }}
       default={{
         x: rect.x ?? 0,
@@ -115,7 +117,7 @@ export const LayoutRectangle = ({
         />
 
         <div className="flex gap-1 mb-1">
-          {['free', 'row', 'pile'].map((type) => (
+          {['free', 'row', 'pile', 'fan'].map((type) => (
             <label
               key={type}
               className={`px-2 py-1 border rounded cursor-pointer ${rect.type === type ? 'bg-gray-300' : 'bg-white'}`}
@@ -226,14 +228,34 @@ export default function Layout({ inputs, setInputs }) {
         const height = canvas.offsetHeight;
         const rowHeight = height / numRows;
         setGridSnap([width * 0.01, rowHeight * 0.10]);
-        setInputs((prev) => ({
-          ...prev,
-          layout: {
-            ...prev.layout,
-            canvasWidth: width,
-            canvasHeight: height
-          }
-        }));
+        setInputs((prev) => {
+          const prevW = prev.layout?.canvasWidth || width;
+          const prevH = prev.layout?.canvasHeight || height;
+          const scaleX = prevW ? width / prevW : 1;
+          const scaleY = prevH ? height / prevH : 1;
+          const shouldScale =
+            prev.layout?.rectangles?.length &&
+            prevW &&
+            prevH &&
+            (Math.abs(scaleX - 1) > 0.01 || Math.abs(scaleY - 1) > 0.01);
+          return {
+            ...prev,
+            layout: {
+              ...prev.layout,
+              canvasWidth: width,
+              canvasHeight: height,
+              rectangles: shouldScale
+                ? prev.layout.rectangles.map((rect) => ({
+                    ...rect,
+                    x: rect.x * scaleX,
+                    y: rect.y * scaleY,
+                    width: rect.width * scaleX,
+                    height: rect.height * scaleY,
+                  }))
+                : prev.layout?.rectangles,
+            },
+          };
+        });
       }
     };
 

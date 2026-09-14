@@ -1,0 +1,11 @@
+{
+  "phases": {
+    "untap": {"label": "1 Untap", "height": "16%"},
+    "draw": {"label": "2 Draw", "height": "16%"},
+    "repair": {"label": "3 Repair & Reload", "height": "17%"},
+    "deploy": {"label": "4 Deploy", "height": "17%"},
+    "missions": {"label": "5 Missions", "height": "17%"},
+    "end": {"label": "6 End of Turn", "height": "17%"}
+  },
+  "phaseOrder": ["untap", "draw", "repair", "deploy", "missions", "end"]
+}

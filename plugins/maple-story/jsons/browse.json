@@ -1,0 +1,16 @@
+{
+  "browse": {
+    "filterPropertySideA": "type",
+    "filterValuesSideA": [
+      "Character",
+      "Item",
+      "Monster",
+      "Tactic"
+    ],
+    "textPropertiesSideA": [
+      "name",
+      "packName",
+      "text"
+    ]
+  }
+}

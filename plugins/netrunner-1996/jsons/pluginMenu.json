@@ -1,0 +1,66 @@
+{
+  "pluginMenu": {
+    "options": [
+      {
+        "label": "Draw",
+        "actionList": "drawDeck"
+      },
+      {
+        "label": "Shuffle deck",
+        "actionList": "shuffleDeck"
+      },
+      {
+        "label": "Ready all",
+        "actionList": "readyAll"
+      },
+      {
+        "label": "Flip coin",
+        "actionList": "flipCoin"
+      },
+      {
+        "label": "Actions +1",
+        "actionList": "increase_actions"
+      },
+      {
+        "label": "Actions -1",
+        "actionList": "decrease_actions"
+      },
+      {
+        "label": "Bits +1",
+        "actionList": "increase_bits"
+      },
+      {
+        "label": "Bits -1",
+        "actionList": "decrease_bits"
+      },
+      {
+        "label": "Agenda Points +1",
+        "actionList": "increase_agendaPoints"
+      },
+      {
+        "label": "Agenda Points -1",
+        "actionList": "decrease_agendaPoints"
+      },
+      {
+        "label": "Tags +1",
+        "actionList": "increase_tags"
+      },
+      {
+        "label": "Tags -1",
+        "actionList": "decrease_tags"
+      },
+      {
+        "label": "Memory +1",
+        "actionList": "increase_memory"
+      },
+      {
+        "label": "Memory -1",
+        "actionList": "decrease_memory"
+      },
+      {
+        "label": "Roll d6",
+        "actionList": "rollD6"
+      }
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "cardMenu": {
+    "moveToGroupIds": [
+      "playerNDeck",
+      "playerNAdventure",
+      "playerNDiscard",
+      "playerNHand",
+      "playerNStarting",
+      "playerNPlay",
+      "playerNCreaturePen",
+      "playerNStorage",
+      "playerNReinforce",
+      "playerN+1Play",
+      "sharedSetAside"
+    ],
+    "options": [
+      {
+        "label": "Ready",
+        "actionList": "readyCard"
+      },
+      {
+        "label": "Exert",
+        "actionList": "spendCard"
+      },
+      {
+        "label": "Rotate 180",
+        "actionList": "invertCard"
+      },
+      {
+        "label": "Flip",
+        "actionList": "flipCard"
+      },
+      {
+        "label": "Discard",
+        "actionList": "discardCard"
+      },
+      {
+        "label": "Detach",
+        "actionList": "detachCard"
+      },
+      {
+        "label": "Shuffle into deck",
+        "actionList": "shuffleIntoDeck"
+      }
+    ]
+  }
+}

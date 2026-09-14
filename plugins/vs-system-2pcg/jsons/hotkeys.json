@@ -1,0 +1,102 @@
+{
+  "hotkeys": {
+    "game": [
+      {
+        "key": "D",
+        "actionList": "drawDeck",
+        "label": "Draw"
+      },
+      {
+        "key": "S",
+        "actionList": "shuffleDeck",
+        "label": "Shuffle deck"
+      },
+      {
+        "key": "R",
+        "actionList": "readyAll",
+        "label": "Ready all"
+      },
+      {
+        "key": "B",
+        "actionList": "increaseRecruit",
+        "label": "Recruit +1"
+      },
+      {
+        "key": "N",
+        "actionList": "decreaseRecruit",
+        "label": "Recruit -1"
+      },
+      {
+        "key": "L",
+        "actionList": "increaseResource",
+        "label": "Resource +1"
+      }
+    ],
+    "card": [
+      {
+        "key": "T",
+        "actionList": "spendCard",
+        "label": "Exert"
+      },
+      {
+        "key": "K",
+        "actionList": "readyCard",
+        "label": "Ready"
+      },
+      {
+        "key": "F",
+        "actionList": [
+          "FLIP",
+          "$ACTIVE_CARD_ID"
+        ],
+        "label": "Flip"
+      },
+      {
+        "key": "X",
+        "actionList": [
+          "DISCARD",
+          "$ACTIVE_CARD_ID"
+        ],
+        "label": "KO"
+      },
+      {
+        "key": "A",
+        "actionList": [
+          "DETACH",
+          "$ACTIVE_CARD_ID"
+        ],
+        "label": "Detach"
+      },
+      {
+        "key": "H",
+        "actionList": [
+          "SHUFFLE_INTO_DECK",
+          "$ACTIVE_CARD_ID"
+        ],
+        "label": "Shuffle into deck"
+      }
+    ],
+    "token": [
+      {
+        "key": "1",
+        "tokenType": "wound",
+        "label": "Wound"
+      },
+      {
+        "key": "2",
+        "tokenType": "xp",
+        "label": "XP"
+      },
+      {
+        "key": "3",
+        "tokenType": "plus",
+        "label": "+1/+1"
+      },
+      {
+        "key": "4",
+        "tokenType": "minus",
+        "label": "-1/-1"
+      }
+    ]
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "steps": {
+    "E1": {
+      "label": "id:step-E1",
+      "phaseId": "Enemy"
+    },
+    "E2": {
+      "label": "id:step-E2",
+      "phaseId": "Enemy"
+    },
+    "E3": {
+      "label": "id:step-E3",
+      "phaseId": "Enemy"
+    },
+    "E4": {
+      "label": "id:step-E4",
+      "phaseId": "Enemy"
+    },
+    "I1": {
+      "label": "id:step-I1",
+      "phaseId": "Investigation"
+    },
+    "I2": {
+      "label": "id:step-I2",
+      "phaseId": "Investigation"
+    },
+    "I2.1": {
+      "label": "id:step-I2.1",
+      "phaseId": "Investigation"
+    },
+    "I2.2": {
+      "label": "id:step-I2.2",
+      "phaseId": "Investigation"
+    },
+    "I2.E": {
+      "label": "id:step-I2.E",
+      "phaseId": "Investigation"
+    },
+    "I3": {
+      "label": "id:step-I3",
+      "phaseId": "Investigation"
+    },
+    "M1": {
+      "label": "id:step-M1",
+      "phaseId": "Mythos"
+    },
+    "M2": {
+      "label": "id:step-M2",
+      "phaseId": "Mythos"
+    },
+    "M3": {
+      "label": "id:step-M3",
+      "phaseId": "Mythos"
+    },
+    "M4": {
+      "label": "id:step-M4",
+      "phaseId": "Mythos"
+    },
+    "M5": {
+      "label": "id:step-M5",
+      "phaseId": "Mythos"
+    },
+    "U1": {
+      "label": "id:step-U1",
+      "phaseId": "Upkeep"
+    },
+    "U2": {
+      "label": "id:step-U2",
+      "phaseId": "Upkeep"
+    },
+    "U3": {
+      "label": "id:step-U3",
+      "phaseId": "Upkeep"
+    },
+    "U4": {
+      "label": "id:step-U4",
+      "phaseId": "Upkeep"
+    },
+    "U5": {
+      "label": "id:step-U5",
+      "phaseId": "Upkeep"
+    },
+    "U6": {
+      "label": "id:step-U6",
+      "phaseId": "Upkeep"
+    },
+    "W1": {
+      "label": "id:step-W1",
+      "phaseId": "Mythos"
+    },
+    "W2": {
+      "label": "id:step-W2",
+      "phaseId": "Investigation"
+    },
+    "W3": {
+      "label": "id:step-W3",
+      "phaseId": "Investigation"
+    },
+    "W4": {
+      "label": "id:step-W4",
+      "phaseId": "Enemy"
+    },
+    "W5": {
+      "label": "id:step-W5",
+      "phaseId": "Enemy"
+    },
+    "W6": {
+      "label": "id:step-W6",
+      "phaseId": "Upkeep"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "steps": {
+    "assignStep": {
+      "phaseId": "assign",
+      "label": "Assign"
+    },
+    "investigateStep": {
+      "phaseId": "investigate",
+      "label": "Investigate"
+    },
+    "combatStep": {
+      "phaseId": "combat",
+      "label": "Combat"
+    }
+  },
+  "stepOrder": [
+    "assignStep",
+    "investigateStep",
+    "combatStep"
+  ]
+}

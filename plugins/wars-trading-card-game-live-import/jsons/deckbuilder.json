@@ -1,0 +1,43 @@
+{
+  "deckbuilder": {
+    "addButtons": [
+      1
+    ],
+    "colorKey": "faction",
+    "colorValues": {
+      "Earther": "#57B01A",
+      "Gongen": "#AC1714",
+      "Maverick": "#F6B028",
+      "Quay": "#5433A6",
+      "Shi": "#4B81D7"
+    },
+    "columns": [
+      {
+        "label": "Name",
+        "propName": "name"
+      },
+      {
+        "label": "Type",
+        "propName": "type"
+      },
+      {
+        "label": "Number In Pack",
+        "propName": "numberInPack"
+      },
+      {
+        "label": "Faction",
+        "propName": "faction"
+      },
+      {
+        "label": "Pack Name",
+        "propName": "packName"
+      }
+    ],
+    "spawnGroups": [
+      {
+        "label": "id:myDeck",
+        "loadGroupId": "playerNReserve"
+      }
+    ]
+  }
+}

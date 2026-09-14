@@ -1,0 +1,17 @@
+{
+  "topBarCounters": {
+    "shared": [
+      {
+        "label": "Round",
+        "imageUrl": "",
+        "gameProperty": "roundNumber"
+      },
+      {
+        "label": "Attack",
+        "imageUrl": "",
+        "gameProperty": "attackBonus"
+      }
+    ],
+    "player": []
+  }
+}

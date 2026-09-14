@@ -1,0 +1,10 @@
+Built 2026-09-12 02:53 UTC from LackeyCCG CoC_LCG.
+Source: /Applications/LackeyCCG/plugins/CoC_LCG
+Art: GitHub Tragic-zz/lackey-CoCLCG raw cards/ (localized to toybox).
+Author credit: Lackey / Tragic-zz
+
+Tabletop plugin only — Lackey has no rules engine to port.
+TSV rows: 1601  missing image URLs: 0
+Prebuilts: 7 story decks + starting domains.
+Domain markers are not in the Lackey GitHub dump; those ten faces are generated locally.
+Lobby banner is the Lackey Cthulhu table background; logo is bot.jpg.

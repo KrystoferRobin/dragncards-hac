@@ -1,0 +1,54 @@
+{
+  "cardTypes": {
+    "ASSET": {
+      "height": 1,
+      "tokens": [],
+      "width": 0.72
+    },
+    "CHARACTER": {
+      "height": 1,
+      "tokens": [],
+      "width": 0.72
+    },
+    "INTERRUPT": {
+      "height": 1,
+      "tokens": [],
+      "width": 0.72
+    },
+    "NOBOT": {
+      "height": 1,
+      "tokens": [],
+      "width": 0.72
+    },
+    "ORDER": {
+      "height": 1,
+      "tokens": [],
+      "width": 0.72
+    },
+    "SECTOR": {
+      "height": 1,
+      "tokens": [],
+      "width": 0.72
+    },
+    "SHIP": {
+      "height": 1,
+      "tokens": [],
+      "width": 0.72
+    },
+    "SITE": {
+      "height": 0.72,
+      "tokens": [],
+      "width": 1
+    },
+    "VEHICLE": {
+      "height": 1,
+      "tokens": [],
+      "width": 0.72
+    },
+    "WEAPON": {
+      "height": 1,
+      "tokens": [],
+      "width": 0.72
+    }
+  }
+}

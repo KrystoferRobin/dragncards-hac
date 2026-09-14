@@ -1,0 +1,182 @@
+mse version: 2.1.2
+game: hex
+stylesheet: standard
+set info:
+	title: HEX layout check
+card:
+	name: Starshield
+	card_type: Quick Action
+	subtype: 
+	cost: 1
+	threshold: Diamond
+	text: The next time target troop would be dealt damage this game, prevent it.
+	flavor: 
+	attack: 0
+	defense: 0
+	rarity: Common
+	faction: Neutral
+	pve: no
+	unique: no
+	immortal: no
+	art: art-01.png
+card:
+	name: Lord Benjamin, the Wise
+	card_type: Troop
+	subtype: Human Mage
+	cost: 2
+	threshold: Sapphire
+	text:
+		Flight
+		When this deals damage to an opposing champion, look at the top three cards of your deck. Put a revealed Human into your hand. Put the remaining cards into your deck.
+	flavor: "Ignorant beliefs are stains upon the mind."
+	attack: 1
+	defense: 1
+	rarity: Rare
+	faction: Neutral
+	pve: no
+	unique: yes
+	immortal: no
+	art: art-02.png
+card:
+	name: Emberspire Witch
+	card_type: Troop
+	subtype: Witch
+	cost: 2
+	threshold: Ruby 2
+	text:
+		Swiftstrike
+		Champions can't gain health.
+	flavor: The witch of the Emberspire fuels her magic by extracting the souls of those she tortures.
+	attack: 2
+	defense: 2
+	rarity: Rare
+	faction: Neutral
+	pve: no
+	unique: no
+	immortal: no
+	art: art-03.png
+card:
+	name: Ash Harpy
+	card_type: Troop
+	subtype: Harpy
+	cost: 6
+	threshold: Ruby 2
+	text:
+		Flight, Speed, Rage 4
+		Deathcry - Deal 3 damage to all opposing champions and troops.
+	flavor: Harpies are born from the consuming ashes of fire and fury.
+	attack: 0
+	defense: 4
+	rarity: Rare
+	faction: Neutral
+	pve: no
+	unique: no
+	immortal: no
+	art: art-04.png
+card:
+	name: Absolute Power
+	card_type: Basic Action
+	subtype: 
+	cost: 8
+	threshold: Sapphire 3
+	text: Draw any number of cards.
+	flavor: "Absolute power only corrupts those who want to be corrupted." -Archmage Wrenlocke
+	attack: 0
+	defense: 0
+	rarity: Legendary
+	faction: Neutral
+	pve: no
+	unique: no
+	immortal: no
+	art: art-05.png
+card:
+	name: Blood Shard
+	card_type: Resource
+	subtype: Standard
+	cost: 0
+	threshold: 
+	text:
+		Gain <sym>blood</sym>.
+		Gain a charge.
+	flavor: 
+	attack: 0
+	defense: 0
+	rarity: Land
+	faction: 
+	pve: no
+	unique: no
+	immortal: no
+	art: art-06.png
+card:
+	name: Talysen's Memorial
+	card_type: Resource
+	subtype: 
+	cost: 0
+	threshold: 
+	text:
+		Gain a charge.
+		If you control a Valorous troop, create a Valor and put it into your hand.
+	flavor: 
+	attack: 0
+	defense: 0
+	rarity: Rare
+	faction: 
+	pve: no
+	unique: no
+	immortal: no
+	art: art-07.png
+card:
+	name: Goreseeker
+	card_type: Troop
+	subtype: Orc Warrior
+	cost: 5
+	threshold: Ruby 2
+	text:
+		Swiftstrike, Rage 1
+		(When this attacks, it gets +1<sym>atk</sym>/+0<sym>def</sym>.)
+		At the end of your turn, this gets +1<sym>atk</sym> for each troop that died this turn.
+	flavor: The fighting floor of the gladiatorial arena is covered in small holes. The orcs believe the blood of those that are vanquished in gladiatorial combat drip down into these holes to feed their Mountain God.
+	attack: 3
+	defense: 2
+	rarity: Uncommon
+	faction: Neutral
+	pve: no
+	unique: no
+	immortal: no
+	art: art-08.png
+card:
+	name: The Triumvirate
+	card_type: Troop
+	subtype: Human Trinity
+	cost: 9
+	threshold: Diamond, Ruby, Sapphire
+	text:
+		Flight, Speed, Steadfast
+		When The Triumvirate attacks, draw three cards, then gain 3 health for each card in your hand, then this deals 3 damage to each opposing champion and troop.
+	flavor: The joined strength of power, wisdom, and courage into a single force is more powerful than any sacred relic or golden goddess.
+	attack: 9
+	defense: 9
+	rarity: Land
+	faction: Neutral
+	pve: no
+	unique: yes
+	immortal: no
+	art: art-09.png
+card:
+	name: Zoltog
+	card_type: Troop
+	subtype: Orc Ranger
+	cost: 4
+	threshold: Ruby 2
+	text:
+		When an Orc troop you control deals damage to a champion, summon a Savage Raider.
+		Orcs you control have +1<sym>atk</sym>/+1<sym>def</sym>.
+	flavor: "The raiders I command bring me what I want. And today, I want all that the sun's light can touch." -Zoltog
+	attack: 4
+	defense: 4
+	rarity: Legendary
+	faction: Neutral
+	pve: no
+	unique: yes
+	immortal: no
+	art: art-10.png

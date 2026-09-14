@@ -1,0 +1,26 @@
+{
+  "phases": {
+    "preliminary": {
+      "label": "Preliminary",
+      "height": "25%"
+    },
+    "attack": {
+      "label": "Attack",
+      "height": "25%"
+    },
+    "strategic": {
+      "label": "Strategic",
+      "height": "25%"
+    },
+    "recuperation": {
+      "label": "Recuperation",
+      "height": "25%"
+    }
+  },
+  "phaseOrder": [
+    "preliminary",
+    "attack",
+    "strategic",
+    "recuperation"
+  ]
+}

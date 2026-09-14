@@ -1,0 +1,79 @@
+{
+  "deckbuilder": {
+    "addButtons": [
+      1,
+      2
+    ],
+    "colorKey": "faction",
+    "colorValues": {
+      "Guardian.": "#0070C0",
+      "Guardian. Mystic.": "#C0C000",
+      "Guardian. Mystic. Survivor.": "#C0C000",
+      "Guardian. Rogue.": "#C0C000",
+      "Guardian. Rogue. Survivor.": "#C0C000",
+      "Guardian. Seeker.": "#C0C000",
+      "Guardian. Seeker. Mystic.": "#C0C000",
+      "Guardian. Survivor.": "#C0C000",
+      "Mystic.": "#9A6EBC",
+      "Mystic. Guardian.": "#C0C000",
+      "Mystic. Survivor.": "#C0C000",
+      "Mythos.": "#000000",
+      "Neutral.": "#606060",
+      "Rogue.": "#00B050",
+      "Rogue. Mystic.": "#C0C000",
+      "Rogue. Survivor.": "#C0C000",
+      "Seeker.": "#E28700",
+      "Seeker. Mystic.": "#C0C000",
+      "Seeker. Rogue.": "#C0C000",
+      "Seeker. Rogue. Mystic.": "#C0C000",
+      "Seeker. Rogue. Survivor.": "#C0C000",
+      "Seeker. Survivor.": "#C0C000",
+      "Survivor.": "#FF0000",
+      "Survivor. Seeker.": "#C0C000"
+    },
+    "columns": [
+      {
+        "label": "id:dbName",
+        "propName": "name"
+      },
+      {
+        "label": "id:dbFaction",
+        "propName": "faction"
+      },
+      {
+        "label": "id:dbType",
+        "propName": "type"
+      },
+      {
+        "label": "id:dbTraits",
+        "propName": "traits"
+      },
+      {
+        "label": "id:dbPack",
+        "propName": "packName"
+      },
+      {
+        "label": "id:dbNumber",
+        "propName": "numberInPack"
+      },
+      {
+        "label": "id:dbTabooName",
+        "propName": "tabooName"
+      }
+    ],
+    "spawnGroups": [
+      {
+        "label": "id:dbMyInvestigator",
+        "loadGroupId": "playerNInvestigator"
+      },
+      {
+        "label": "id:dbMyDeck",
+        "loadGroupId": "playerNDeck"
+      },
+      {
+        "label": "id:dbMySideDeck",
+        "loadGroupId": "playerNSideDeck"
+      }
+    ]
+  }
+}

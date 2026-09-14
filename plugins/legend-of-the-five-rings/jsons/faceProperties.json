@@ -1,0 +1,99 @@
+{
+  "faceProperties": {
+    "zoomImageUrl": {
+      "label": "Preview art",
+      "type": "string",
+      "default": ""
+    },
+    "clan": {
+      "label": "Clan",
+      "type": "string",
+      "default": ""
+    },
+    "legal": {
+      "label": "Legality",
+      "type": "string",
+      "default": ""
+    },
+    "cost": {
+      "label": "Gold cost",
+      "type": "string",
+      "default": ""
+    },
+    "focus": {
+      "label": "Focus",
+      "type": "string",
+      "default": ""
+    },
+    "force": {
+      "label": "Force",
+      "type": "string",
+      "default": ""
+    },
+    "chi": {
+      "label": "Chi",
+      "type": "string",
+      "default": ""
+    },
+    "personalHonor": {
+      "label": "Personal honor",
+      "type": "string",
+      "default": ""
+    },
+    "honorReq": {
+      "label": "Honor req",
+      "type": "string",
+      "default": ""
+    },
+    "goldProduction": {
+      "label": "Gold production",
+      "type": "string",
+      "default": ""
+    },
+    "provinceStrength": {
+      "label": "Province strength",
+      "type": "string",
+      "default": ""
+    },
+    "startingHonor": {
+      "label": "Starting honor",
+      "type": "string",
+      "default": ""
+    },
+    "rarity": {
+      "label": "Rarity",
+      "type": "string",
+      "default": ""
+    },
+    "artist": {
+      "label": "Artist",
+      "type": "string",
+      "default": ""
+    },
+    "flavour": {
+      "label": "Flavor",
+      "type": "string",
+      "default": ""
+    },
+    "text": {
+      "label": "Text",
+      "type": "string",
+      "default": ""
+    },
+    "packName": {
+      "label": "Set",
+      "type": "string",
+      "default": ""
+    },
+    "set": {
+      "label": "Set code",
+      "type": "string",
+      "default": ""
+    },
+    "loadGroupId": {
+      "label": "Load group",
+      "type": "string",
+      "default": ""
+    }
+  }
+}

@@ -9,6 +9,12 @@ const basicKeys = [
     placeholder: "Enter plugin name",
   },
   {
+    key: "author",
+    label: "Author (lobby credit)",
+    type: "text",
+    placeholder: "Original author or community. Leave blank to show you.",
+  },
+  {
     key: "minPlayers",
     label: "Minimum Players",
     type: "number",
@@ -25,6 +31,18 @@ const basicKeys = [
     label: "Background Image URL",
     type: "text",
     placeholder: "Enter background image URL",
+  },
+  {
+    key: "bannerUrl",
+    label: "Lobby Banner URL",
+    type: "text",
+    placeholder: "https://toybox.hundredacre.club/cards/{game}/_plugin/banner.jpg",
+  },
+  {
+    key: "logoUrl",
+    label: "Lobby Logo URL",
+    type: "text",
+    placeholder: "https://toybox.hundredacre.club/cards/{game}/_plugin/logo.jpg",
   },
 ];
 

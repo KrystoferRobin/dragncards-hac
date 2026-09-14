@@ -1,0 +1,21 @@
+{
+  "spawnExistingCardModal": {
+    "columnProperties": [
+      "name",
+      "type",
+      "packName",
+      "health",
+      "vp"
+    ],
+    "loadGroupIds": [
+      "player1Deck",
+      "player1Play",
+      "player1Starting",
+      "player1Locations",
+      "player1Jkp",
+      "player1Hand",
+      "player2Deck",
+      "player2Play"
+    ]
+  }
+}

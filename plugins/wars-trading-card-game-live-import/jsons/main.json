@@ -1,0 +1,194 @@
+{
+  "pluginName": "WARS Trading Card Game",
+  "author": "usmcgeek",
+  "defaultActions": [
+    {
+      "actionList": "invertCard",
+      "condition": [
+        "AND",
+        [
+          "EQUAL",
+          "$ACTIVE_CARD.currentSide",
+          "A"
+        ],
+        "$ACTIVE_CARD.inPlay",
+        [
+          "MAP_HAS_KEY",
+          "$ACTIVE_CARD.sides",
+          "C"
+        ]
+      ],
+      "label": "id:invert"
+    },
+    {
+      "actionList": "invertCard",
+      "condition": [
+        "AND",
+        [
+          "EQUAL",
+          "$ACTIVE_CARD.currentSide",
+          "C"
+        ],
+        "$ACTIVE_CARD.inPlay"
+      ],
+      "label": "id:invert"
+    },
+    {
+      "actionList": "damageCard",
+      "condition": [
+        "AND",
+        [
+          "EQUAL",
+          "$ACTIVE_CARD.rotation",
+          0
+        ],
+        "$ACTIVE_CARD.inPlay"
+      ],
+      "label": "id:damage"
+    },
+    {
+      "actionList": "damageCard",
+      "condition": [
+        "AND",
+        [
+          "EQUAL",
+          "$ACTIVE_CARD.rotation",
+          90
+        ],
+        "$ACTIVE_CARD.inPlay"
+      ],
+      "label": "id:damage"
+    }
+  ],
+  "announcements": [
+    "Make sure to visit the Tutorial Page for Rules and Tips.",
+    "2026-03-09: Deck/Energy Counter at Topbar in Progress.",
+    "2026-03-06: Plugin created."
+  ],
+  "playerCountMenu": [
+    {
+      "label": "2",
+      "layoutId": "default",
+      "numPlayers": 2
+    }
+  ],
+  "backgroundUrl": "https://toybox.hundredacre.club/cards/wars-trading-card-game/_plugin/WARSTradingCardGame-Background.webp",
+  "clearTableOptions": [
+    {
+      "actionList": [
+        "SET",
+        "/victoryState",
+        "Player 1 Full Win"
+      ],
+      "label": "id:player1Victory"
+    },
+    {
+      "actionList": [
+        "SET",
+        "/victoryState",
+        "Player 2 Full Win"
+      ],
+      "label": "id:player2Victory"
+    },
+    {
+      "actionList": [
+        "SET",
+        "/victoryState",
+        "Player 1 Modified Win"
+      ],
+      "label": "id:player1modifiedVictory"
+    },
+    {
+      "actionList": [
+        "SET",
+        "/victoryState",
+        "Player 2 Modified Win"
+      ],
+      "label": "id:player2modifiedVictory"
+    },
+    {
+      "actionList": [
+        "SET",
+        "/victoryState",
+        "Incomplete"
+      ],
+      "label": "id:markasIncomplete"
+    }
+  ],
+  "stepReminderRegex": [],
+  "stepOrder": [
+    "1.0",
+    "2.1",
+    "3.1",
+    "4.1",
+    "4.2",
+    "4.3",
+    "4.4",
+    "4.5",
+    "4.6",
+    "4.7",
+    "4.8",
+    "4.9",
+    "4.10",
+    "4.11",
+    "5.1",
+    "6.1",
+    "7.0"
+  ],
+  "loadPreBuiltOnNewGame": false,
+  "tutorialUrl": "https://warstcg.org/dragncards-tutorial/",
+  "phaseOrder": [
+    "Activate",
+    "Control",
+    "Deploy",
+    "Battle",
+    "Move",
+    "Draw",
+    "End"
+  ],
+  "closeRoomOptions": [
+    {
+      "actionList": [
+        "SET",
+        "/victoryState",
+        "Player1 WARS TCG Full Win"
+      ],
+      "label": "id:player1Victory"
+    },
+    {
+      "actionList": [
+        "SET",
+        "/victoryState",
+        "Player2 WARS TCG Full Win"
+      ],
+      "label": "id:player2Victory"
+    },
+    {
+      "actionList": [
+        "SET",
+        "/victoryState",
+        "Player1 WARS TCG Modified Win"
+      ],
+      "label": "id:player1modifiedVictory"
+    },
+    {
+      "actionList": [
+        "SET",
+        "/victoryState",
+        "Player2 WARS TCG Modified Win"
+      ],
+      "label": "id:player2modifiedVictory"
+    },
+    {
+      "actionList": [
+        "SET",
+        "/victoryState",
+        "Incomplete"
+      ],
+      "label": "id:markasIncomplete"
+    }
+  ],
+  "touchBar": [],
+  "bannerUrl": "https://toybox.hundredacre.club/cards/wars-trading-card-game/_plugin/banner.jpg",
+  "logoUrl": "https://toybox.hundredacre.club/cards/wars-trading-card-game/_plugin/logo.jpg"
+}

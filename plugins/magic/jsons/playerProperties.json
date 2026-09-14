@@ -1,0 +1,9 @@
+{
+  "playerProperties": {
+    "life": {
+      "label": "Life",
+      "type": "integer",
+      "default": 20
+    }
+  }
+}

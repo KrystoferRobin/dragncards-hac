@@ -1,0 +1,44 @@
+{
+  "cardTypes": {
+    "Asset": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "green",
+        "red"
+      ]
+    },
+    "Base Unit": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "green",
+        "red"
+      ]
+    },
+    "Event": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "green",
+        "red"
+      ]
+    },
+    "Field Unit": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "green",
+        "red"
+      ]
+    },
+    "Nation Card": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "green",
+        "red"
+      ]
+    }
+  }
+}

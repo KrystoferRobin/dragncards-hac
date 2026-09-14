@@ -1,0 +1,21 @@
+{
+  "phases": {
+    "assign": {
+      "label": "Assign",
+      "height": "33%"
+    },
+    "investigate": {
+      "label": "Investigate",
+      "height": "33%"
+    },
+    "combat": {
+      "label": "Combat",
+      "height": "33%"
+    }
+  },
+  "phaseOrder": [
+    "assign",
+    "investigate",
+    "combat"
+  ]
+}

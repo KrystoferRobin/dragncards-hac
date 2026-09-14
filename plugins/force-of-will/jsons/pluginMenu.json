@@ -1,0 +1,46 @@
+{
+  "pluginMenu": {
+    "options": [
+      {
+        "label": "Draw",
+        "actionList": "drawDeck"
+      },
+      {
+        "label": "Draw magic stone",
+        "actionList": "drawStone"
+      },
+      {
+        "label": "Shuffle deck",
+        "actionList": "shuffleDeck"
+      },
+      {
+        "label": "Shuffle stone deck",
+        "actionList": "shuffleStone"
+      },
+      {
+        "label": "Recover all",
+        "actionList": "readyAll"
+      },
+      {
+        "label": "Life +100",
+        "actionList": "increase_life_100"
+      },
+      {
+        "label": "Life -100",
+        "actionList": "decrease_life_100"
+      },
+      {
+        "label": "Life +500",
+        "actionList": "increase_life_500"
+      },
+      {
+        "label": "Life -500",
+        "actionList": "decrease_life_500"
+      },
+      {
+        "label": "Flip coin",
+        "actionList": "flipCoin"
+      }
+    ]
+  }
+}

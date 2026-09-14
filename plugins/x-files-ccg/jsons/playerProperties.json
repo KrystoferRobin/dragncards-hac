@@ -1,0 +1,16 @@
+{
+  "playerProperties": {
+    "resources": {
+      "label": "Resources",
+      "type": "integer",
+      "default": 0,
+      "min": 0
+    },
+    "conspiracy": {
+      "label": "Conspiracy",
+      "type": "integer",
+      "default": 0,
+      "min": 0
+    }
+  }
+}

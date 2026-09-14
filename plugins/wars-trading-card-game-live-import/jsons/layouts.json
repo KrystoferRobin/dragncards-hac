@@ -1,0 +1,208 @@
+{
+  "layouts": {
+    "default": {
+      "cardSize": 11,
+      "chat": {
+        "height": "40%",
+        "left": "80%",
+        "top": "30%",
+        "width": "20%"
+      },
+      "regions": {
+        "Player1Active": {
+          "direction": "horizontal",
+          "groupId": "player1Active",
+          "height": "14.3%",
+          "left": "68.0%",
+          "top": "85.7%",
+          "type": "pile",
+          "width": "9.0%"
+        },
+        "Player1Used": {
+          "direction": "horizontal",
+          "groupId": "player1Used",
+          "height": "14.3%",
+          "left": "83.0%",
+          "top": "71.4%",
+          "type": "pile",
+          "width": "12.0%"
+        },
+        "Player2Active": {
+          "direction": "horizontal",
+          "groupId": "player2Active",
+          "height": "14.3%",
+          "left": "67.0%",
+          "top": "0.0%",
+          "type": "pile",
+          "width": "10.0%"
+        },
+        "Player2Used": {
+          "direction": "horizontal",
+          "groupId": "player2Used",
+          "height": "14.3%",
+          "left": "83.0%",
+          "top": "14.3%",
+          "type": "pile",
+          "width": "12.0%"
+        },
+        "player1Hand": {
+          "direction": "horizontal",
+          "groupId": "player1Hand",
+          "height": "14.0%",
+          "left": "0.0%",
+          "top": "85.6%",
+          "type": "row",
+          "width": "62.3%"
+        },
+        "player1Lost": {
+          "direction": "horizontal",
+          "groupId": "player1Lost",
+          "height": "14.3%",
+          "left": "90.0%",
+          "top": "85.7%",
+          "type": "pile",
+          "width": "10.0%"
+        },
+        "player1PlayArea": {
+          "cardSizeFactor": 0.8,
+          "direction": "horizontal",
+          "groupId": "player1PlayArea",
+          "height": "30.6%",
+          "left": "0.0%",
+          "top": "55.0%",
+          "type": "free",
+          "width": "71%"
+        },
+        "player1Reserve": {
+          "direction": "horizontal",
+          "groupId": "player1Reserve",
+          "height": "14.3%",
+          "left": "79.0%",
+          "top": "85.7%",
+          "type": "pile",
+          "width": "10.0%"
+        },
+        "player2Hand": {
+          "direction": "horizontal",
+          "groupId": "player2Hand",
+          "height": "14.0%",
+          "left": "0.0%",
+          "top": "0.0%",
+          "type": "row",
+          "width": "62.3%"
+        },
+        "player2Lost": {
+          "direction": "horizontal",
+          "groupId": "player2Lost",
+          "height": "14.3%",
+          "left": "90.0%",
+          "top": "0.0%",
+          "type": "pile",
+          "width": "10.0%"
+        },
+        "player2PlayArea": {
+          "cardSizeFactor": 0.8,
+          "direction": "horizontal",
+          "groupId": "player2PlayArea",
+          "height": "30.6%",
+          "left": "0.0%",
+          "top": "14.0%",
+          "type": "free",
+          "width": "71%"
+        },
+        "player2Reserve": {
+          "direction": "horizontal",
+          "groupId": "player2Reserve",
+          "height": "14.3%",
+          "left": "79.0%",
+          "top": "0.0%",
+          "type": "pile",
+          "width": "10.0%"
+        },
+        "sharedLocations": {
+          "cardSizeFactor": 0.8,
+          "direction": "horizontal",
+          "groupId": "sharedLocations",
+          "height": "10%",
+          "left": "0.0%",
+          "style": {
+            "background": "rgba(0, 0, 0, 0.3)"
+          },
+          "top": "44.6%",
+          "type": "free",
+          "width": "71%"
+        },
+        "sharedStack": {
+          "direction": "vertical",
+          "groupId": "sharedStack",
+          "height": "64.5%",
+          "left": "73%",
+          "style": {
+            "background": "rgba(0, 0, 0, 0.3)"
+          },
+          "top": "16.8%",
+          "type": "free",
+          "width": "7%"
+        }
+      },
+      "rowSpacing": 3,
+      "tableButtons": {
+        "p1endTurnSuggestion": {
+          "actionList": [
+            "P1END_TURN"
+          ],
+          "height": "4%",
+          "label": "Player1 EndTurn.",
+          "left": "91%",
+          "top": "76%",
+          "visible": true,
+          "width": "9%"
+        },
+        "p1startTurn": {
+          "actionList": [
+            "P1START_TURN"
+          ],
+          "height": "4%",
+          "label": "Player1 StartTurn.",
+          "left": "91%",
+          "top": "71%",
+          "visible": true,
+          "width": "9%"
+        },
+        "p2endTurnSuggestion": {
+          "actionList": [
+            "P2END_TURN"
+          ],
+          "height": "4%",
+          "label": "Player2 EndTurn.",
+          "left": "91%",
+          "top": "25%",
+          "visible": true,
+          "width": "9%"
+        },
+        "p2startTurn": {
+          "actionList": [
+            "P2START_TURN"
+          ],
+          "height": "4%",
+          "label": "Player2 StartTurn.",
+          "left": "91%",
+          "top": "20%",
+          "visible": true,
+          "width": "9%"
+        }
+      },
+      "testBorders": false,
+      "textBoxes": {
+        "roundAdvancement": {
+          "height": "3%",
+          "label": "Menu->Load to load player decks.",
+          "left": "0%",
+          "top": "0%",
+          "visible": true,
+          "width": "100%"
+        }
+      }
+    }
+  }
+}

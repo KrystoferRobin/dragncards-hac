@@ -4,6 +4,7 @@ defmodule DragnCardsWeb.MyPluginsController do
 
   alias DragnCards.{Plugins, Plugins.Plugin, Repo, UserPluginPermission, Rooms.RoomLog, Decks.Deck, Plugins.CustomCardDb}
   alias DragnCardsGame.PluginCache
+  alias DragnCardsUtil.{Merger, TsvProcess}
 
   action_fallback DragnCardsWeb.FallbackController
 
@@ -41,6 +42,7 @@ defmodule DragnCardsWeb.MyPluginsController do
   @spec create(Conn.t(), map()) :: Conn.t()
   #def create(conn, %{"user" => user}) do
   def create(conn, %{"plugin" => plugin_params}) do
+    plugin_params = maybe_inflate_card_db(plugin_params)
     case Plugins.create_plugin(plugin_params) do
       {:ok, plugin} ->
         conn
@@ -55,6 +57,7 @@ defmodule DragnCardsWeb.MyPluginsController do
   # Update: Update plugin
   @spec update(Conn.t(), map()) :: Conn.t()
   def update(conn, %{"plugin" => plugin_params}) do
+    plugin_params = maybe_inflate_card_db(plugin_params)
     plugin_id = plugin_params["id"]
     plugin = Plugins.get_plugin!(plugin_id)
     case Plugins.update_plugin(plugin, plugin_params) do
@@ -104,4 +107,31 @@ defmodule DragnCardsWeb.MyPluginsController do
     end
   end
 
+  # Browser posts raw TSV text (~20MB for Magic) instead of the expanded card_db JSON (~55MB).
+  defp maybe_inflate_card_db(%{"card_db_tsvs" => tsvs} = params) when is_list(tsvs) and tsvs != [] do
+    game_def = params["game_def"] || %{}
+
+    card_db =
+      Enum.reduce(tsvs, %{}, fn tsv, acc ->
+        rows = tsv_to_rows(tsv)
+        Merger.deep_merge([acc, TsvProcess.process_rows(game_def, rows)])
+      end)
+
+    params
+    |> Map.put("card_db", card_db)
+    |> Map.drop(["card_db_tsvs", "card_db_tsv"])
+  end
+
+  defp maybe_inflate_card_db(%{"card_db_tsv" => tsv} = params) when is_binary(tsv) and tsv != "" do
+    maybe_inflate_card_db(Map.put(params, "card_db_tsvs", [tsv]))
+  end
+
+  defp maybe_inflate_card_db(params), do: params
+
+  defp tsv_to_rows(tsv) when is_binary(tsv) do
+    tsv
+    |> String.split(["\r\n", "\n"])
+    |> Enum.reject(&(&1 == ""))
+    |> Enum.map(&String.split(&1, "\t"))
+  end
 end

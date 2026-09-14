@@ -1,0 +1,59 @@
+{
+  "faceProperties": {
+    "rarity": {
+      "label": "Rarity",
+      "type": "string",
+      "default": ""
+    },
+    "cost": {
+      "label": "Cost",
+      "type": "string",
+      "default": ""
+    },
+    "klass": {
+      "label": "Class",
+      "type": "string",
+      "default": ""
+    },
+    "traits": {
+      "label": "Type",
+      "type": "string",
+      "default": ""
+    },
+    "range": {
+      "label": "Range",
+      "type": "string",
+      "default": ""
+    },
+    "attack": {
+      "label": "Attack",
+      "type": "string",
+      "default": ""
+    },
+    "support": {
+      "label": "Support",
+      "type": "string",
+      "default": ""
+    },
+    "text": {
+      "label": "Skill#1",
+      "type": "string",
+      "default": ""
+    },
+    "packName": {
+      "label": "Set",
+      "type": "string",
+      "default": ""
+    },
+    "set": {
+      "label": "Lackey Set",
+      "type": "string",
+      "default": ""
+    },
+    "loadGroupId": {
+      "label": "Load Group",
+      "type": "string",
+      "default": ""
+    }
+  }
+}

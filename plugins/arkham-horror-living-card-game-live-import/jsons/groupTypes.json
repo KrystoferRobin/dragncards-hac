@@ -1,0 +1,316 @@
+{
+  "groupTypes": {
+    "aside": {
+      "canHaveAttachments": false,
+      "canHaveTokens": false,
+      "shuffleOnLoad": false
+    },
+    "chaosBag": {
+      "canHaveAttachments": false,
+      "canHaveTokens": false,
+      "shuffleOnLoad": false
+    },
+    "deck": {
+      "canHaveAttachments": false,
+      "canHaveTokens": false,
+      "menuOptions": [
+        {
+          "actionList": "drawCard",
+          "label": "id:drawCardMenu"
+        },
+        {
+          "actionList": "shuffleDeck",
+          "label": "id:shuffleDeckMenu"
+        },
+        {
+          "actionList": "shuffleDeckTop",
+          "label": "id:shuffleDeckTopMenu"
+        },
+        {
+          "actionList": "lookAtTopCards",
+          "label": "id:lookAtTopCardsMenu"
+        },
+        {
+          "actionList": "shuffleIntoEncounterDeck",
+          "label": "id:shuffleIntoEncounterDeckMenu"
+        }
+      ],
+      "shuffleOnLoad": false
+    },
+    "deckE": {
+      "canHaveAttachments": false,
+      "canHaveTokens": false,
+      "menuOptions": [
+        {
+          "actionList": "drawCard",
+          "label": "id:drawCardMenu"
+        },
+        {
+          "actionList": "shuffleDeck",
+          "label": "id:shuffleDeckMenu"
+        },
+        {
+          "actionList": "shuffleDeckTop",
+          "label": "id:shuffleDeckTopMenu"
+        },
+        {
+          "actionList": "lookAtTopCards",
+          "label": "id:lookAtTopCardsMenu"
+        }
+      ],
+      "shuffleOnLoad": false
+    },
+    "deckP": {
+      "canHaveAttachments": false,
+      "canHaveTokens": false,
+      "menuOptions": [
+        {
+          "actionList": "drawCard",
+          "label": "id:drawPlayerCardMenu"
+        },
+        {
+          "actionList": "shuffleDeck",
+          "label": "id:shuffleDeckMenu"
+        },
+        {
+          "actionList": "shuffleDeckTop",
+          "label": "id:shuffleDeckTopMenu"
+        },
+        {
+          "actionList": "lookAtTopCards",
+          "label": "id:lookAtTopCardsMenu"
+        }
+      ],
+      "shuffleOnLoad": false
+    },
+    "deckS": {
+      "canHaveAttachments": false,
+      "canHaveTokens": false,
+      "menuOptions": [
+        {
+          "actionList": "drawCard",
+          "label": "id:drawEncounterCardMenu"
+        },
+        {
+          "actionList": "shuffleDeck",
+          "label": "id:shuffleDeckMenu"
+        },
+        {
+          "actionList": "shuffleDeckTop",
+          "label": "id:shuffleDeckTopMenu"
+        },
+        {
+          "actionList": "lookAtTopCards",
+          "label": "id:lookAtTopCardsMenu"
+        }
+      ],
+      "shuffleOnLoad": false
+    },
+    "discard": {
+      "canHaveAttachments": false,
+      "canHaveTokens": false,
+      "menuOptions": [
+        {
+          "actionList": "shuffleDiscardIntoDeck",
+          "label": "id:shuffleDiscardIntoDeckMenu"
+        }
+      ],
+      "shuffleOnLoad": false
+    },
+    "discardP": {
+      "canHaveAttachments": false,
+      "canHaveTokens": false,
+      "menuOptions": [
+        {
+          "actionList": "browseAside",
+          "label": "id:browseAsideMenu"
+        },
+        {
+          "actionList": "browseRemoved",
+          "label": "id:browseRemovedMenu"
+        },
+        {
+          "actionList": "browseExiled",
+          "label": "id:browseExiledMenu"
+        },
+        {
+          "actionList": "browseSideDeck",
+          "label": "id:browseSideDeckMenu"
+        },
+        {
+          "actionList": "shuffleDiscardIntoDeck",
+          "label": "id:shuffleDiscardIntoDeckMenu"
+        }
+      ],
+      "shuffleOnLoad": false
+    },
+    "discardS": {
+      "canHaveAttachments": false,
+      "canHaveTokens": false,
+      "menuOptions": [
+        {
+          "actionList": "browseRemoved",
+          "label": "id:browseRemovedMenu"
+        },
+        {
+          "actionList": "shuffleDiscardIntoDeck",
+          "label": "id:shuffleDiscardIntoDeckMenu"
+        }
+      ],
+      "shuffleOnLoad": false
+    },
+    "exiled": {
+      "canHaveAttachments": false,
+      "canHaveTokens": false,
+      "shuffleOnLoad": false
+    },
+    "hand": {
+      "canHaveAttachments": false,
+      "canHaveTokens": false,
+      "menuOptions": [
+        {
+          "actionList": "discardRandomCardsFromHand",
+          "label": "id:discardRandomCardsFromHandMenu"
+        },
+        {
+          "actionList": "selectRandomCardsInHand",
+          "label": "id:selectRandomCardsInHandMenu"
+        }
+      ],
+      "shuffleOnLoad": false
+    },
+    "inPlay": {
+      "canHaveAttachments": true,
+      "canHaveTokens": true,
+      "shuffleOnLoad": false
+    },
+    "inPlayS": {
+      "canHaveAttachments": true,
+      "canHaveTokens": true,
+      "menuOptions": [
+        {
+          "actionList": "browseSideboard",
+          "label": "id:browseSideboardMenu"
+        },
+        {
+          "actionList": "browseOffMap",
+          "label": "id:browseOffMapMenu"
+        },
+        {
+          "actionList": "browseNotInPlay",
+          "label": "id:browseNotInPlayMenu"
+        },
+        {
+          "actionList": "browseVictoryDisplay",
+          "label": "id:browseVictoryDisplayMenu"
+        },
+        {
+          "actionList": "browseTokens",
+          "label": "id:browseTokensMenu"
+        }
+      ],
+      "shuffleOnLoad": false
+    },
+    "inPlayV": {
+      "canHaveAttachments": true,
+      "canHaveTokens": true,
+      "menuOptions": [
+        {
+          "actionList": "revealChaosToken",
+          "label": "id:revealChaosTokenMenu"
+        },
+        {
+          "actionList": "nameChaosToken",
+          "label": "id:nameChaosTokenMenu"
+        },
+        {
+          "actionList": "addCurseToken",
+          "label": "id:addCurseTokenMenu"
+        },
+        {
+          "actionList": "removeCurseToken",
+          "label": "id:removeCurseTokenMenu"
+        },
+        {
+          "actionList": "addBlessToken",
+          "label": "id:addBlessTokenMenu"
+        },
+        {
+          "actionList": "removeBlessToken",
+          "label": "id:removeBlessTokenMenu"
+        },
+        {
+          "actionList": "browseChaosBag",
+          "label": "id:browseChaosBagMenu"
+        },
+        {
+          "actionList": "discardVoid",
+          "label": "id:discardVoidMenu"
+        }
+      ],
+      "shuffleOnLoad": false
+    },
+    "outOfPlay": {
+      "canHaveAttachments": true,
+      "canHaveTokens": true,
+      "shuffleOnLoad": false
+    },
+    "outOfPlayV": {
+      "canHaveAttachments": true,
+      "canHaveTokens": true,
+      "menuOptions": [
+        {
+          "actionList": "calculateVP",
+          "label": "id:calculateVPMenu"
+        }
+      ],
+      "shuffleOnLoad": false
+    },
+    "pile": {
+      "canHaveAttachments": false,
+      "canHaveTokens": false,
+      "menuOptions": [
+        {
+          "actionList": "shuffleDeck",
+          "label": "id:shufflePileMenu"
+        },
+        {
+          "actionList": "shuffleIntoEncounterDeck",
+          "label": "id:shuffleIntoEncounterDeckMenu"
+        }
+      ],
+      "shuffleOnLoad": false
+    },
+    "removed": {
+      "canHaveAttachments": false,
+      "canHaveTokens": false,
+      "shuffleOnLoad": false
+    },
+    "selection": {
+      "canHaveAttachments": false,
+      "canHaveTokens": false,
+      "shuffleOnLoad": false
+    },
+    "sideDeck": {
+      "canHaveAttachments": false,
+      "canHaveTokens": false,
+      "shuffleOnLoad": false
+    },
+    "story": {
+      "canHaveAttachments": true,
+      "canHaveTokens": true,
+      "menuOptions": [
+        {
+          "actionList": "advanceStory",
+          "label": "id:advanceStoryMenu"
+        }
+      ],
+      "shuffleOnLoad": false
+    },
+    "tokens": {
+      "canHaveAttachments": false,
+      "canHaveTokens": false,
+      "shuffleOnLoad": false
+    }
+  }
+}

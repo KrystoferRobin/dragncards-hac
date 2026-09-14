@@ -76,6 +76,10 @@ export const getGameDefSchema = (gameDef) => {
         "_type_": "string",
         "_required_": true
       },
+      "author": {
+        "_description_": "Credit shown in the lobby. If omitted, the uploading user is shown.",
+        "_type_": "string",
+      },
       "tutorialUrl": {
         "_description_": "The URL of the tutorial",
         "_type_": "string",
@@ -109,6 +113,14 @@ export const getGameDefSchema = (gameDef) => {
       },
       "backgroundUrl": {
         "_description_": "The URL of the background image",
+        "_type_": "string",
+      },
+      "bannerUrl": {
+        "_description_": "Lobby card banner. Shown behind the plugin listing at about 50% opacity.",
+        "_type_": "string",
+      },
+      "logoUrl": {
+        "_description_": "Lobby card logo. Shown at full opacity on the right side of the plugin listing, scaled to the card height.",
         "_type_": "string",
       },
       "loadPreBuiltOnNewGame": {
@@ -1066,6 +1078,14 @@ export const getGameDefSchema = (gameDef) => {
             "_description_": "The label text",
             "_type_": "string",
           }
+        }
+      },
+      "keywordReminders": {
+        "_description_": "Optional glossary shown under the GiantCard hover preview. The [key] is the keyword as printed on cards; the value is the reminder text. Terms found in the visible face's text are listed below the art.",
+        "_type_": "object",
+        "_itemSchema_": {
+          "_description_": "Reminder text for this keyword",
+          "_type_": "string",
         }
       },
       "layouts": {

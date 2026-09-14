@@ -5,6 +5,7 @@ import useProfile from "../../hooks/useProfile";
 import useIsLoggedIn from "../../hooks/useIsLoggedIn";
 import { useHistory } from "react-router-dom";
 import { setObservingPlayerN } from "../store/playerUiSlice";
+import { lookedPlayerId } from "./functions/formatGroupId";
 import BroadcastContext from "../../contexts/BroadcastContext";
 import { TopBarUserCounter } from "./TopBarUserCounter";
 import { useGameDefinition } from "./hooks/useGameDefinition";
@@ -43,6 +44,13 @@ export const TopBarUser = React.memo(({ playerI }: { playerI: string }) => {
   const gameDef = useGameDefinition();
   const history = useHistory();
   const observingPlayerN = useSelector((state: any) => state?.playerUi?.observingPlayerN);
+  const seatedPlayerN = useSelector((state: any) => state?.playerUi?.playerN);
+  const numPlayers = useSelector((state: any) => state?.gameUi?.game?.numPlayers);
+  const layoutRegions = useSelector((state: any) => {
+    const seat = seatedPlayerN || observingPlayerN;
+    return state?.gameUi?.game?.playerData?.[seat]?.layout?.regions
+      || state?.gameUi?.game?.layout?.regions;
+  });
   const playerInfo = useSelector((state: any) => state?.gameUi?.playerInfo);
   const playerDataPlayerN = useSelector((state: any) => state?.gameUi?.game?.playerData?.[playerI]);
   const firstPlayer = useSelector((state: any) => state?.gameUi?.game?.firstPlayer);
@@ -56,7 +64,9 @@ export const TopBarUser = React.memo(({ playerI }: { playerI: string }) => {
 
   const sittingUserId = playerInfo[playerI]?.id;
   const isMe = sittingUserId && sittingUserId === myUserId;
-  const isObserving = observingPlayerN === playerI;
+  const usesLookSeat = JSON.stringify(layoutRegions || {}).includes("playerL");
+  const lookTarget = lookedPlayerId(seatedPlayerN, observingPlayerN, numPlayers);
+  const isObserving = usesLookSeat ? lookTarget === playerI : observingPlayerN === playerI;
 
   // If not observing anyone, observe yourself
   if (!observingPlayerN && isMe) dispatch(setObservingPlayerN(playerI));

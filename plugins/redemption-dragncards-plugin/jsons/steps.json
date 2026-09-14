@@ -1,0 +1,11 @@
+{
+  "steps": {
+    "drawStep": {"phaseId": "draw", "label": "Draw"},
+    "upkeepStep": {"phaseId": "upkeep", "label": "Upkeep"},
+    "prepStep": {"phaseId": "prep", "label": "Prep"},
+    "battleStep": {"phaseId": "battle", "label": "Battle"},
+    "discardStep": {"phaseId": "discard", "label": "Discard"},
+    "endStep": {"phaseId": "end", "label": "End"}
+  },
+  "stepOrder": ["drawStep", "upkeepStep", "prepStep", "battleStep", "discardStep", "endStep"]
+}

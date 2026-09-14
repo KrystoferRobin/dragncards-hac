@@ -1,0 +1,428 @@
+{
+  "cardTypes": {
+    "Addition": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "green",
+        "red"
+      ]
+    },
+    "Addition / Addition: Field": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "green",
+        "red"
+      ]
+    },
+    "Addition / Rune": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "green",
+        "red"
+      ]
+    },
+    "Addition:Field": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "green",
+        "red"
+      ]
+    },
+    "Addition:J/Resonator": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "green",
+        "red"
+      ]
+    },
+    "Addition:Resonator": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "green",
+        "red"
+      ]
+    },
+    "Basic J-Ruler": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "green",
+        "red"
+      ]
+    },
+    "Basic Magic Stone": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "green",
+        "red"
+      ]
+    },
+    "Basic Magic Stone / Darkness Magic Stone": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "green",
+        "red"
+      ]
+    },
+    "Basic Magic Stone / Fire Magic Stone": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "green",
+        "red"
+      ]
+    },
+    "Basic Magic Stone / Light Magic Stone": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "green",
+        "red"
+      ]
+    },
+    "Basic Magic Stone / Water Magic Stone": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "green",
+        "red"
+      ]
+    },
+    "Basic Magic Stone / Wind Magic Stone": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "green",
+        "red"
+      ]
+    },
+    "Basic Ruler": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "green",
+        "red"
+      ]
+    },
+    "Chant": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "green",
+        "red"
+      ]
+    },
+    "Chant / Flame": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "green",
+        "red"
+      ]
+    },
+    "Chant / Master Rune": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "green",
+        "red"
+      ]
+    },
+    "Chant / Regalia": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "green",
+        "red"
+      ]
+    },
+    "Chant / Rune": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "green",
+        "red"
+      ]
+    },
+    "Chant / Rune / Master Rune": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "green",
+        "red"
+      ]
+    },
+    "Chant/Master Rune": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "green",
+        "red"
+      ]
+    },
+    "Chant/Rune": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "green",
+        "red"
+      ]
+    },
+    "Extension Rule": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "green",
+        "red"
+      ]
+    },
+    "J-Ruler": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "green",
+        "red"
+      ]
+    },
+    "Magic Stone": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "green",
+        "red"
+      ]
+    },
+    "Master Rune": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "green",
+        "red"
+      ]
+    },
+    "Order": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "green",
+        "red"
+      ]
+    },
+    "Paradoxical / Addition": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "green",
+        "red"
+      ]
+    },
+    "Paradoxical / Chant": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "green",
+        "red"
+      ]
+    },
+    "Paradoxical / Regalia": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "green",
+        "red"
+      ]
+    },
+    "Paradoxical / Resonator": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "green",
+        "red"
+      ]
+    },
+    "Regalia": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "green",
+        "red"
+      ]
+    },
+    "Regalia (Shift)": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "green",
+        "red"
+      ]
+    },
+    "Regalia / Resonator": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "green",
+        "red"
+      ]
+    },
+    "Resonator": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "green",
+        "red"
+      ]
+    },
+    "Resonator (Shift)": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "green",
+        "red"
+      ]
+    },
+    "Resonator (Stranger)": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "green",
+        "red"
+      ]
+    },
+    "Ruler": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "green",
+        "red"
+      ]
+    },
+    "Rune": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "green",
+        "red"
+      ]
+    },
+    "Special Magic Stone": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "green",
+        "red"
+      ]
+    },
+    "Special Magic Stone / Fire Magic Stone / Water Magic Stone": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "green",
+        "red"
+      ]
+    },
+    "Special Magic Stone / Fire Magic Stone / Wind Magic Stone": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "green",
+        "red"
+      ]
+    },
+    "Special Magic Stone / Light Magic Stone / Wind Magic Stone": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "green",
+        "red"
+      ]
+    },
+    "Special Magic Stone / True Magic Stone": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "green",
+        "red"
+      ]
+    },
+    "Special Magic Stone / Water Magic Stone / Darkness Magic Stone": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "green",
+        "red"
+      ]
+    },
+    "Special Magic Stone / Water Magic Stone / Wind Magic Stone": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "green",
+        "red"
+      ]
+    },
+    "Special Magic Stone / Wind Magic Stone / Darkness Magic Stone": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "green",
+        "red"
+      ]
+    },
+    "Spell:Chant": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "green",
+        "red"
+      ]
+    },
+    "Spell:Chant-Instant": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "green",
+        "red"
+      ]
+    },
+    "Spell:Chant-Standby": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "green",
+        "red"
+      ]
+    },
+    "Sub-Ruler": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "green",
+        "red"
+      ]
+    },
+    "Token": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "green",
+        "red"
+      ]
+    },
+    "Warden": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "green",
+        "red"
+      ]
+    }
+  }
+}

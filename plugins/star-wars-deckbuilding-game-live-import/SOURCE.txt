@@ -1,0 +1,12 @@
+Imported 2026-09-12 15:17 UTC from a live DragnCards table dump.
+Dump file: live_dumps/Star_Wars_Deckbuilding_Game-live-dump.json
+Official plugin id: 32
+Official name: Star Wars Deckbuilding Game
+Official version: 53
+repo_url:
+
+This is a compiled snapshot (merged game_def + card_db), not original source files.
+Collected 2026-09-12: card art, backs, tokens, and top-bar icons retargeted to toybox.
+The official force-tracker card back URL 403s; used the Force Tracker card art instead.
+Drop banner.jpg and logo.jpg into images/star-wars-deckbuilding-game/_plugin/ before Load Game Definition.
+Art lives under images/star-wars-deckbuilding-game/{core_set,clone_wars,mandalorian,other}/.

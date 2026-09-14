@@ -142,10 +142,6 @@ export const Profile: React.FC<Props> = () => {
         <div style={{display: "grid", gridTemplateColumns: "auto 1fr", gap: "6px 16px"}}>
           <span style={labelStyle}>Account created</span>
           <span style={valueStyle}>{insertedAbsolute} ({insertedRelative})</span>
-          <span style={labelStyle}>Email</span>
-          <span style={valueStyle}>{user.email}</span>
-          <span style={labelStyle}>Email confirmed</span>
-          <span style={valueStyle}>{user.email_confirmed_at != null ? "Yes" : "No"}</span>
         </div>
         {user.email_confirmed_at == null && <div className="mt-3"><RecaptchaForm/></div>}
       </div>

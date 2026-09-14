@@ -1,0 +1,11 @@
+{
+  "steps": {
+    "untapStep": {"phaseId": "untap", "label": "Untap"},
+    "drawStep": {"phaseId": "draw", "label": "Draw"},
+    "repairStep": {"phaseId": "repair", "label": "Repair & Reload"},
+    "deployStep": {"phaseId": "deploy", "label": "Deploy"},
+    "missionsStep": {"phaseId": "missions", "label": "Missions"},
+    "endStep": {"phaseId": "end", "label": "End of Turn"}
+  },
+  "stepOrder": ["untapStep", "drawStep", "repairStep", "deployStep", "missionsStep", "endStep"]
+}

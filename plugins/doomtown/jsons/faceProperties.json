@@ -1,0 +1,84 @@
+{
+  "faceProperties": {
+    "rank": {
+      "label": "Rank",
+      "type": "string",
+      "default": ""
+    },
+    "suit": {
+      "label": "Suit",
+      "type": "string",
+      "default": ""
+    },
+    "cost": {
+      "label": "Cost",
+      "type": "string",
+      "default": ""
+    },
+    "upkeep": {
+      "label": "Upkeep",
+      "type": "string",
+      "default": ""
+    },
+    "production": {
+      "label": "Production",
+      "type": "string",
+      "default": ""
+    },
+    "bullets": {
+      "label": "Bullets",
+      "type": "string",
+      "default": ""
+    },
+    "drawType": {
+      "label": "Draw Type",
+      "type": "string",
+      "default": ""
+    },
+    "influence": {
+      "label": "Influence",
+      "type": "string",
+      "default": ""
+    },
+    "control": {
+      "label": "Control",
+      "type": "string",
+      "default": ""
+    },
+    "outfit": {
+      "label": "Outfit",
+      "type": "string",
+      "default": ""
+    },
+    "rarity": {
+      "label": "Rarity",
+      "type": "string",
+      "default": ""
+    },
+    "ghostRock": {
+      "label": "Ghost Rock",
+      "type": "string",
+      "default": ""
+    },
+    "text": {
+      "label": "Text",
+      "type": "string",
+      "default": ""
+    },
+    "packName": {
+      "label": "Set",
+      "type": "string",
+      "default": ""
+    },
+    "set": {
+      "label": "OCTGN Set",
+      "type": "string",
+      "default": ""
+    },
+    "loadGroupId": {
+      "label": "Load Group",
+      "type": "string",
+      "default": ""
+    }
+  }
+}

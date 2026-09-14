@@ -1,0 +1,754 @@
+{
+  "preBuiltDecks": {
+    "luke-cage-2-origins2016": {
+      "label": "Luke Cage(2 Origins2016)",
+      "cards": [
+        {
+          "databaseId": "A-Force_Miss_America_SC",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "A-Force_She-Hulk_SC",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "The Defenders_MODOK_SC",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "The Defenders_Punisher_SC",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "The Defenders_Iron_Fist_SC",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "THE MARVEL BATTLES_Adam_Warlock_SC",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "THE MARVEL BATTLES_Drax_SC",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "THE MARVEL BATTLES_Yondu_SC",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "THE MARVEL BATTLES_Cosmo_SC",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "THE MARVEL BATTLES_Iron_Man_SC",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "The Defenders_Shock_To_The_System_PT",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "The Defenders_Super_Senses_PT",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "The Defenders_Hidden_Weapons_PT",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "THE MARVEL BATTLES_Even_The_Odds_PT",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "THE MARVEL BATTLES_Training_Ground_L",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "THE MARVEL BATTLES_Fortress_L",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "THE MARVEL BATTLES_Academy_L",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "The Defenders_Sanctum_Sanctorum_L",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "THE MARVEL BATTLES_Knowhere_L",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "The Defenders_Luke_Cage_L1",
+          "quantity": 1,
+          "loadGroupId": "playerNMain"
+        },
+        {
+          "databaseId": "The Defenders_Luke_Cage_L2",
+          "quantity": 1,
+          "loadGroupId": "playerNMain"
+        }
+      ]
+    },
+    "magneto-4-origins2016": {
+      "label": "Magneto(4 Origins2016)",
+      "cards": [
+        {
+          "databaseId": "The Defenders_Hellstrom_SC",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "The Defenders_Electro_SC",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "The Defenders_Helmut_Zemo_SC",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "THE MARVEL BATTLES_Juggernaut_SC",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "THE MARVEL BATTLES_Thanos_SC",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "THE MARVEL BATTLES_Dormammu_SC",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "THE MARVEL BATTLES_Abomination_SC",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "THE MARVEL BATTLES_Sabretooth_SC",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "THE MARVEL BATTLES_Ronan_SC",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "THE MARVEL BATTLES_Cosmo_SC",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "The Defenders_Shock_To_The_System_PT",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "The Defenders_Fair_And_Balanced_PT",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "The Defenders_Fisk_Tower_L",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "THE MARVEL BATTLES_Fortress_L",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "THE MARVEL BATTLES_Academy_L",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "THE MARVEL BATTLES_Laboratory_L",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "THE MARVEL BATTLES_The_Vault_L",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "THE MARVEL BATTLES_Magneto_L1",
+          "quantity": 1,
+          "loadGroupId": "playerNMain"
+        },
+        {
+          "databaseId": "THE MARVEL BATTLES_Magneto_L2",
+          "quantity": 1,
+          "loadGroupId": "playerNMain"
+        }
+      ]
+    },
+    "star-lord-gencon-2015-6th": {
+      "label": "Star-Lord(Gencon 2015,6th)",
+      "cards": [
+        {
+          "databaseId": "THE MARVEL BATTLES_Cosmo_SC",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "THE MARVEL BATTLES_Yondu_SC",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "THE MARVEL BATTLES_Mantis_SC",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "THE MARVEL BATTLES_Gamora_SC",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "THE MARVEL BATTLES_Red_Skull_SC",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "THE MARVEL BATTLES_Sabretooth_SC",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "THE MARVEL BATTLES_Nova_SC",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "THE MARVEL BATTLES_Groot_SC",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "THE MARVEL BATTLES_Abomination_SC",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "THE MARVEL BATTLES_Drax_SC",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "THE MARVEL BATTLES_Magneto_SC",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "THE MARVEL BATTLES_Dormammu_SC",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "THE MARVEL BATTLES_Thanos_SC",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "THE MARVEL BATTLES_Adam_Warlock_SC",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "THE MARVEL BATTLES_Find_Cover_PT",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "THE MARVEL BATTLES_Even_The_Odds_PT",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "THE MARVEL BATTLES_Give'Em_A_Lift_PT",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "THE MARVEL BATTLES_Training_Ground_L",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "THE MARVEL BATTLES_Academy_L",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "THE MARVEL BATTLES_Knowhere_L",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "THE MARVEL BATTLES_The_Vault_L",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "THE MARVEL BATTLES_Star-Lord_L1",
+          "quantity": 1,
+          "loadGroupId": "playerNMain"
+        },
+        {
+          "databaseId": "THE MARVEL BATTLES_Star-Lord_L2",
+          "quantity": 1,
+          "loadGroupId": "playerNMain"
+        }
+      ]
+    },
+    "storm-gencon2015-4th": {
+      "label": "Storm(Gencon2015,4th)",
+      "cards": [
+        {
+          "databaseId": "THE MARVEL BATTLES_Yondu_SC",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "THE MARVEL BATTLES_Agent_Venom_SC",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "THE MARVEL BATTLES_Namor_SC",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "THE MARVEL BATTLES_DareDevil_SC",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "THE MARVEL BATTLES_Rocket_SC",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "THE MARVEL BATTLES_Deadpool_SC",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "THE MARVEL BATTLES_Storm_SC",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "THE MARVEL BATTLES_Even_The_Odds_PT",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "THE MARVEL BATTLES_Open_Fire_PT",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "THE MARVEL BATTLES_Give'Em_A_Lift_PT",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "THE MARVEL BATTLES_Squad_Tactics_PT",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "THE MARVEL BATTLES_Fortress_L",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "THE MARVEL BATTLES_Training_Ground_L",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "THE MARVEL BATTLES_Laboratory_L",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "THE MARVEL BATTLES_School_For_Gifted_Youngsters_L",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "THE MARVEL BATTLES_Knowhere_L",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "THE MARVEL BATTLES_Storm_L1",
+          "quantity": 1,
+          "loadGroupId": "playerNMain"
+        },
+        {
+          "databaseId": "THE MARVEL BATTLES_Storm_L2",
+          "quantity": 1,
+          "loadGroupId": "playerNMain"
+        }
+      ]
+    },
+    "thanos-1-origins2016": {
+      "label": "Thanos(1 Origins2016)",
+      "cards": [
+        {
+          "databaseId": "A-Force_Goblin_Queen_SC",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "A-Force_Singularity_SC",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "A-Force_Wasp_SC",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "The Defenders_Punisher_SC",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "THE MARVEL BATTLES_Adam_Warlock_SC",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "THE MARVEL BATTLES_Yondu_SC",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "THE MARVEL BATTLES_Cosmo_SC",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "THE MARVEL BATTLES_Iceman_SC",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "THE MARVEL BATTLES_Iron_Man_SC",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "THE MARVEL BATTLES_Trickster_God_PT",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "A-Force_Madripoor_L",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "THE MARVEL BATTLES_Training_Ground_L",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "THE MARVEL BATTLES_Laboratory_L",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "THE MARVEL BATTLES_Fortress_L",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "THE MARVEL BATTLES_Academy_L",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "THE MARVEL BATTLES_The_Vault_L",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "THE MARVEL BATTLES_Knowhere_L",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "THE MARVEL BATTLES_Thanos_L1",
+          "quantity": 1,
+          "loadGroupId": "playerNMain"
+        },
+        {
+          "databaseId": "THE MARVEL BATTLES_Thanos_L2",
+          "quantity": 1,
+          "loadGroupId": "playerNMain"
+        },
+        {
+          "databaseId": "A-Force_Demon_Goblin_SC",
+          "quantity": 4,
+          "loadGroupId": "playerNMain"
+        }
+      ]
+    },
+    "thanos-gencon2015-1st": {
+      "label": "Thanos(Gencon2015,1st)",
+      "cards": [
+        {
+          "databaseId": "THE MARVEL BATTLES_Yondu_SC",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "THE MARVEL BATTLES_Cosmo_SC",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "THE MARVEL BATTLES_Mystique_SC",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "THE MARVEL BATTLES_Mantis_SC",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "THE MARVEL BATTLES_Doctor_Octopus_SC",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "THE MARVEL BATTLES_Sabretooth_SC",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "THE MARVEL BATTLES_Groot_SC",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "THE MARVEL BATTLES_Iron_Man_SC",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "THE MARVEL BATTLES_Drax_SC",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "THE MARVEL BATTLES_Adam_Warlock_SC",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "THE MARVEL BATTLES_Dormammu_SC",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "THE MARVEL BATTLES_Gamora_SC",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "THE MARVEL BATTLES_Savage_Surprise_PT",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "THE MARVEL BATTLES_Even_The_Odds_PT",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "THE MARVEL BATTLES_The_Vault_L",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "THE MARVEL BATTLES_Laboratory_L",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "THE MARVEL BATTLES_Fortress_L",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "THE MARVEL BATTLES_Training_Ground_L",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "THE MARVEL BATTLES_Academy_L",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "THE MARVEL BATTLES_Thanos_L1",
+          "quantity": 1,
+          "loadGroupId": "playerNMain"
+        },
+        {
+          "databaseId": "THE MARVEL BATTLES_Thanos_L2",
+          "quantity": 1,
+          "loadGroupId": "playerNMain"
+        }
+      ]
+    },
+    "the-dragon-3rd-gencon2016": {
+      "label": "The Dragon(3rd,Gencon2016)",
+      "cards": [
+        {
+          "databaseId": "THE MARVEL BATTLES_Fortress_L",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Aliens_LV-426_L",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Aliens_Space_L",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Aliens_Ovomorph_SC",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Aliens_Call_SC",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Aliens_Kane_SC",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Aliens_Leaping_Xenomorph_SC",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Aliens_Acid_Blood_Xenomorph_SC",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "A-Force_Black_Cat_SC",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Aliens_The_Newborn_SC",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Aliens_The_Perfect_Organism_SC",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Aliens_The_Queen_SC",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Aliens_Build_The_Hive_PT",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Aliens_Chestburst_PT",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "THE MARVEL BATTLES_Find_Cover_PT",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "The Defenders_Shock_To_The_System_PT",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Aliens_Spook_PT",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Aliens_The_Dragon_L1",
+          "quantity": 1,
+          "loadGroupId": "playerNMain"
+        },
+        {
+          "databaseId": "Aliens_The_Dragon_L2",
+          "quantity": 1,
+          "loadGroupId": "playerNMain"
+        },
+        {
+          "databaseId": "Aliens_Facehugger_Token_SC",
+          "quantity": 4,
+          "loadGroupId": "playerNMain"
+        },
+        {
+          "databaseId": "Aliens_Extended_Incubation",
+          "quantity": 1,
+          "loadGroupId": "playerNMain"
+        }
+      ]
+    }
+  }
+}

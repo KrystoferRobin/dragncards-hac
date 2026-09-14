@@ -1,0 +1,162 @@
+{
+  "pluginName": "Star Wars CCG",
+  "author": "GEMP / starwarsccg.org",
+  "defaultActions": [
+    {
+      "actionList": "damageCard",
+      "condition": [
+        "AND",
+        [
+          "EQUAL",
+          "$ACTIVE_CARD.rotation",
+          0
+        ],
+        "$ACTIVE_CARD.inPlay"
+      ],
+      "label": "id:damage"
+    },
+    {
+      "actionList": "damageCard",
+      "condition": [
+        "AND",
+        [
+          "EQUAL",
+          "$ACTIVE_CARD.rotation",
+          90
+        ],
+        "$ACTIVE_CARD.inPlay"
+      ],
+      "label": "id:damage"
+    }
+  ],
+  "announcements": [
+    "Tabletop plugin from GEMP card data. Rules are reminders + pile shortcuts, not a rules engine.",
+    "A = activate Force (Reserve → Force). P = use Force (Force → Used). D = draw from Force. Y = destiny to Stack.",
+    "Load a Reserve deck, put starting locations on the location row, deploy your Objective, then Activate."
+  ],
+  "playerCountMenu": [
+    {
+      "label": "2",
+      "layoutId": "default",
+      "numPlayers": 2
+    }
+  ],
+  "clearTableOptions": [
+    {
+      "actionList": [
+        "SET",
+        "/victoryState",
+        "Player 1 Full Win"
+      ],
+      "label": "id:player1Victory"
+    },
+    {
+      "actionList": [
+        "SET",
+        "/victoryState",
+        "Player 2 Full Win"
+      ],
+      "label": "id:player2Victory"
+    },
+    {
+      "actionList": [
+        "SET",
+        "/victoryState",
+        "Player 1 Modified Win"
+      ],
+      "label": "id:player1modifiedVictory"
+    },
+    {
+      "actionList": [
+        "SET",
+        "/victoryState",
+        "Player 2 Modified Win"
+      ],
+      "label": "id:player2modifiedVictory"
+    },
+    {
+      "actionList": [
+        "SET",
+        "/victoryState",
+        "Incomplete"
+      ],
+      "label": "id:markasIncomplete"
+    }
+  ],
+  "stepReminderRegex": [],
+  "stepOrder": [
+    "1.0",
+    "2.1",
+    "3.1",
+    "4.1",
+    "4.2",
+    "4.3",
+    "4.4",
+    "4.5",
+    "4.6",
+    "4.7",
+    "4.8",
+    "4.9",
+    "4.10",
+    "4.11",
+    "5.1",
+    "6.1",
+    "7.0"
+  ],
+  "loadPreBuiltOnNewGame": false,
+  "tutorialUrl": "https://www.starwarsccg.org/",
+  "phaseOrder": [
+    "Activate",
+    "Control",
+    "Deploy",
+    "Battle",
+    "Move",
+    "Draw",
+    "End"
+  ],
+  "closeRoomOptions": [
+    {
+      "actionList": [
+        "SET",
+        "/victoryState",
+        "Player1 Star Wars CCG Full Win"
+      ],
+      "label": "id:player1Victory"
+    },
+    {
+      "actionList": [
+        "SET",
+        "/victoryState",
+        "Player2 Star Wars CCG Full Win"
+      ],
+      "label": "id:player2Victory"
+    },
+    {
+      "actionList": [
+        "SET",
+        "/victoryState",
+        "Player1 Star Wars CCG Modified Win"
+      ],
+      "label": "id:player1modifiedVictory"
+    },
+    {
+      "actionList": [
+        "SET",
+        "/victoryState",
+        "Player2 Star Wars CCG Modified Win"
+      ],
+      "label": "id:player2modifiedVictory"
+    },
+    {
+      "actionList": [
+        "SET",
+        "/victoryState",
+        "Incomplete"
+      ],
+      "label": "id:markasIncomplete"
+    }
+  ],
+  "touchBar": [],
+  "bannerUrl": "https://toybox.hundredacre.club/cards/star-wars-ccg/_plugin/banner.jpg",
+  "logoUrl": "https://toybox.hundredacre.club/cards/star-wars-ccg/_plugin/logo.jpg"
+}

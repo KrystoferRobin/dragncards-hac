@@ -1,0 +1,44 @@
+{
+  "deckMenu": {
+    "subMenus": [
+      {
+        "label": "Story Decks",
+        "deckLists": [
+          {
+            "deckListId": "lcg-core-stories",
+            "label": "LCG Core Stories"
+          },
+          {
+            "deckListId": "lcg-secrets-of-arkham-stories",
+            "label": "LCG Secrets of Arkham Stories"
+          },
+          {
+            "deckListId": "lcg-ancient-relics-stories",
+            "label": "LCG Ancient Relics Stories"
+          },
+          {
+            "deckListId": "ccg-arkham-edition-stories",
+            "label": "CCG Arkham Edition Stories"
+          },
+          {
+            "deckListId": "ccg-eldritch-edition-stories",
+            "label": "CCG Eldritch Edition Stories"
+          },
+          {
+            "deckListId": "all-stories",
+            "label": "All Stories"
+          }
+        ]
+      },
+      {
+        "label": "Starting Pieces",
+        "deckLists": [
+          {
+            "deckListId": "starting-domains",
+            "label": "Starting Domains (3)"
+          }
+        ]
+      }
+    ]
+  }
+}

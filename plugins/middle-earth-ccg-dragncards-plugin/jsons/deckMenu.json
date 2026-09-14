@@ -1,0 +1,56 @@
+{
+  "deckMenu": {
+    "subMenus": [
+      {
+        "label": "Hero Challenge Decks",
+        "deckLists": [
+          {
+            "label": "A Hero: Stewards of Gondor",
+            "deckListId": "challengedeckAHeroStewardsOfGondorSarumanOrcTrollHazards"
+          },
+          {
+            "label": "B Hero: Release the Prisoners",
+            "deckListId": "challengedeckBHeroReleaseThePrisonersAlatarCorruptionUndeadHazards"
+          },
+          {
+            "label": "C Hero: Dwarven Quest",
+            "deckListId": "challengedeckCHeroDwarvenQuestPallandoAnimalHazards"
+          },
+          {
+            "label": "D Hero: Bargain Between Friends",
+            "deckListId": "challengedeckDHeroBargainBetweenFriendsRadagastManHazards"
+          },
+          {
+            "label": "E Hero: Return of the King",
+            "deckListId": "challengedeckEHeroReturnOfTheKingGandalfGeneralCreatureHazards"
+          }
+        ]
+      },
+      {
+        "label": "Minion Challenge Decks",
+        "deckLists": [
+          {
+            "label": "F Minion: Spies and Traitors",
+            "deckListId": "challengedeckFMinionSpiesAndTraitorsAdunaphelDrakeHazards"
+          },
+          {
+            "label": "G Minion: Marauding Brood of Uglies",
+            "deckListId": "challengedeckGMinionMaraudingBroodOfUgliesDwarWolfHazards"
+          },
+          {
+            "label": "H Minion: Stealthy Tribe",
+            "deckListId": "challengedeckHMinionStealthyTribeHoarmurathUndeadHazards"
+          },
+          {
+            "label": "I Minion: Morgul Rallying Cry",
+            "deckListId": "challengedeckIMinionMorgulRallyingCryWitchKingRoadblockHazards"
+          },
+          {
+            "label": "J Minion: Seducing Nations of Men",
+            "deckListId": "challengedeckJMinionSeducingNationsOfMenIndurCorruptionGeneralCreatureHazards"
+          }
+        ]
+      }
+    ]
+  }
+}

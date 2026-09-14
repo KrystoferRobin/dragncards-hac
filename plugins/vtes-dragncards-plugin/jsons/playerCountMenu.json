@@ -1,0 +1,39 @@
+{
+  "playerCountMenu": [
+    {
+      "label": "2",
+      "numPlayers": 2,
+      "layoutId": "default"
+    },
+    {
+      "label": "3",
+      "numPlayers": 3,
+      "layoutId": "table3"
+    },
+    {
+      "label": "4",
+      "numPlayers": 4,
+      "layoutId": "table4"
+    },
+    {
+      "label": "5",
+      "numPlayers": 5,
+      "layoutId": "table5"
+    },
+    {
+      "label": "6",
+      "numPlayers": 6,
+      "layoutId": "table6"
+    },
+    {
+      "label": "7",
+      "numPlayers": 7,
+      "layoutId": "table7"
+    },
+    {
+      "label": "8",
+      "numPlayers": 8,
+      "layoutId": "table8"
+    }
+  ]
+}

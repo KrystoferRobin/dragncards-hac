@@ -1,0 +1,25 @@
+{
+  "spawnExistingCardModal": {
+    "columnProperties": [
+      "name",
+      "type",
+      "archetype",
+      "faction",
+      "attack",
+      "health",
+      "packName"
+    ],
+    "loadGroupIds": [
+      "player1Deck",
+      "player1Hand",
+      "player1Avatar",
+      "player1Quest1",
+      "player1Quest2",
+      "player1Quest3",
+      "player1Quest4",
+      "player1Abilities",
+      "player1Items",
+      "player1Play"
+    ]
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "actionLists": {
+    "drawCard": [
+      ["COND",
+        ["GROUP_EMPTY", "{{$PLAYER_N}}Deck"],
+        ["LOG", "{{$ALIAS_N}} tried to draw from an empty deck."],
+        ["TRUE"],
+        [
+          ["MOVE_STACKS", "{{$PLAYER_N}}Deck", "{{$PLAYER_N}}Hand", 1, "bottom"],
+          ["LOG", "{{$ALIAS_N}} drew a card."]
+        ]
+      ]
+    ],
+    "drawEight": [
+      ["COND",
+        ["GROUP_EMPTY", "{{$PLAYER_N}}Deck"],
+        ["LOG", "{{$ALIAS_N}} tried to draw from an empty deck."],
+        ["TRUE"],
+        [
+          ["MOVE_STACKS", "{{$PLAYER_N}}Deck", "{{$PLAYER_N}}Hand", 8, "bottom"],
+          ["LOG", "{{$ALIAS_N}} drew 8 cards."]
+        ]
+      ]
+    ],
+    "shuffleDeck": [
+      ["SHUFFLE_GROUP", "{{$PLAYER_N}}Deck"],
+      ["LOG", "{{$ALIAS_N}} shuffled their deck."]
+    ],
+    "revealTop": [
+      ["COND",
+        ["GROUP_EMPTY", "{{$PLAYER_N}}Deck"],
+        ["LOG", "{{$ALIAS_N}} has no deck to reveal."],
+        ["TRUE"],
+        [
+          ["MOVE_STACKS", "{{$PLAYER_N}}Deck", "{{$PLAYER_N}}GoodTerritory", 1, "bottom"],
+          ["LOG", "{{$ALIAS_N}} revealed the top card of their deck to Good Territory."]
+        ]
+      ]
+    ],
+    "roll1d6": [
+      ["VAR", "$D1", ["RANDOM_INT", 1, 6]],
+      ["LOG", "{{$ALIAS_N}} rolled 1d6: {{$D1}}."],
+      ["FADE_TEXT_GAME", "{{$ALIAS_N}} 1d6: {{$D1}}"]
+    ],
+    "flipCoin": [
+      ["VAR", "$FLIP", ["RANDOM_INT", 0, 1]],
+      ["COND",
+        ["EQUAL", "$FLIP", 0],
+        [
+          ["LOG", "{{$ALIAS_N}} flipped a coin: Heads."],
+          ["FADE_TEXT_GAME", "{{$ALIAS_N}} Heads"]
+        ],
+        ["TRUE"],
+        [
+          ["LOG", "{{$ALIAS_N}} flipped a coin: Tails."],
+          ["FADE_TEXT_GAME", "{{$ALIAS_N}} Tails"]
+        ]
+      ]
+    ],
+    "increaseSouls": [
+      ["INCREASE_VAL", "/playerData/$PLAYER_N/redeemedSouls", 1],
+      ["LOG", "{{$ALIAS_N}} gained 1 Redeemed Soul."]
+    ],
+    "decreaseSouls": [
+      ["COND",
+        ["GREATER_THAN", "$GAME.playerData.$PLAYER_N.redeemedSouls", 0],
+        [
+          ["DECREASE_VAL", "/playerData/$PLAYER_N/redeemedSouls", 1],
+          ["LOG", "{{$ALIAS_N}} lost 1 Redeemed Soul."]
+        ],
+        ["TRUE"],
+        ["LOG", "{{$ALIAS_N}} is already at 0 Redeemed Souls."]
+      ]
+    ],
+    "flipCard": [
+      ["FLIP", "$ACTIVE_CARD_ID"]
+    ],
+    "discardCard": [
+      ["DISCARD", "$ACTIVE_CARD_ID"]
+    ],
+    "detachCard": [
+      ["DETACH", "$ACTIVE_CARD_ID"]
+    ],
+    "shuffleIntoDeck": [
+      ["SHUFFLE_INTO_DECK", "$ACTIVE_CARD_ID"]
+    ],
+    "meekify": [
+      ["SET", "/cardById/$ACTIVE_CARD_ID/rotation", 180],
+      ["LOG", "{{$ALIAS_N}} meekified {{$ACTIVE_FACE.name}}."]
+    ],
+    "unmeekify": [
+      ["SET", "/cardById/$ACTIVE_CARD_ID/rotation", 0],
+      ["LOG", "{{$ALIAS_N}} un-meekified {{$ACTIVE_FACE.name}}."]
+    ]
+  }
+}

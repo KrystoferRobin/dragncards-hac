@@ -1,0 +1,84 @@
+{
+  "cardBacks": {
+    "AtS Rulebook": {
+      "height": 1.25,
+      "imageUrl": "war-of-the-ring-card-game/_plugin/WarOfTheRingCardGame-CardbackAtSRulebook.jpg",
+      "width": 1
+    },
+    "FaS Rulebook": {
+      "height": 1.25,
+      "imageUrl": "war-of-the-ring-card-game/_plugin/WarOfTheRingCardGame-CardbackFaSRulebook.jpg",
+      "width": 1
+    },
+    "Free Peoples Battleground": {
+      "height": 1,
+      "imageUrl": "war-of-the-ring-card-game/_plugin/WarOfTheRingCardGame-CardbackFreePeoplesBattleground.jpg",
+      "width": 1.44
+    },
+    "Free Peoples Card": {
+      "height": 1,
+      "imageUrl": "war-of-the-ring-card-game/_plugin/WarOfTheRingCardGame-CardbackFreePeoplesCard.jpg",
+      "width": 0.72
+    },
+    "Path 1": {
+      "height": 1,
+      "imageUrl": "war-of-the-ring-card-game/_plugin/WarOfTheRingCardGame-CardbackPath1.jpg",
+      "width": 1.44
+    },
+    "Path 2": {
+      "height": 1,
+      "imageUrl": "war-of-the-ring-card-game/_plugin/WarOfTheRingCardGame-CardbackPath2.jpg",
+      "width": 1.44
+    },
+    "Path 3": {
+      "height": 1,
+      "imageUrl": "war-of-the-ring-card-game/_plugin/WarOfTheRingCardGame-CardbackPath3.jpg",
+      "width": 1.44
+    },
+    "Path 4": {
+      "height": 1,
+      "imageUrl": "war-of-the-ring-card-game/_plugin/WarOfTheRingCardGame-CardbackPath4.jpg",
+      "width": 1.44
+    },
+    "Path 5": {
+      "height": 1,
+      "imageUrl": "war-of-the-ring-card-game/_plugin/WarOfTheRingCardGame-CardbackPath5.jpg",
+      "width": 1.44
+    },
+    "Path 6": {
+      "height": 1,
+      "imageUrl": "war-of-the-ring-card-game/_plugin/WarOfTheRingCardGame-CardbackPath6.jpg",
+      "width": 1.44
+    },
+    "Path 7": {
+      "height": 1,
+      "imageUrl": "war-of-the-ring-card-game/_plugin/WarOfTheRingCardGame-CardbackPath7.jpg",
+      "width": 1.44
+    },
+    "Path 8": {
+      "height": 1,
+      "imageUrl": "war-of-the-ring-card-game/_plugin/WarOfTheRingCardGame-CardbackPath8.jpg",
+      "width": 1.44
+    },
+    "Path 9": {
+      "height": 1,
+      "imageUrl": "war-of-the-ring-card-game/_plugin/WarOfTheRingCardGame-CardbackPath9.jpg",
+      "width": 1.44
+    },
+    "Rulebook": {
+      "height": 1.25,
+      "imageUrl": "war-of-the-ring-card-game/_plugin/WarOfTheRingCardGame-CardbackRulebook.jpg",
+      "width": 1
+    },
+    "Shadow Battleground": {
+      "height": 1,
+      "imageUrl": "war-of-the-ring-card-game/_plugin/WarOfTheRingCardGame-CardbackShadowBattleground.jpg",
+      "width": 1.44
+    },
+    "Shadow Card": {
+      "height": 1,
+      "imageUrl": "war-of-the-ring-card-game/_plugin/WarOfTheRingCardGame-CardbackShadowCard.jpg",
+      "width": 0.72
+    }
+  }
+}

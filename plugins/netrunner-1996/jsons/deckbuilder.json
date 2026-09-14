@@ -1,0 +1,42 @@
+{
+  "deckbuilder": {
+    "addButtons": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "columns": [
+      {
+        "propName": "name",
+        "label": "Name"
+      },
+      {
+        "propName": "type",
+        "label": "Type"
+      },
+      {
+        "propName": "player",
+        "label": "Side"
+      },
+      {
+        "propName": "cost",
+        "label": "Cost"
+      },
+      {
+        "propName": "packName",
+        "label": "Set"
+      }
+    ],
+    "spawnGroups": [
+      {
+        "loadGroupId": "playerNDeck",
+        "label": "My Deck"
+      },
+      {
+        "loadGroupId": "playerNHiddenArchives",
+        "label": "My HiddenArchives"
+      }
+    ]
+  }
+}

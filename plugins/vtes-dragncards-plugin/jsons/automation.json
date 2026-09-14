@@ -1,0 +1,10 @@
+{
+  "automation": {
+    "postNewGameActionList": [
+      ["LOG", "VTES table created. Load a precon, shuffle library and crypt, draw 7, draw 4 crypt. Pool starts at 30. No rules are enforced."],
+      ["LOAD_CARDS", [
+        {"databaseId": "edge", "loadGroupId": "sharedEdge", "quantity": 1}
+      ]]
+    ]
+  }
+}

@@ -1,0 +1,7526 @@
+{
+  "prompts": {
+    "child_of_the_watch": {
+      "args": [
+        "$CARD"
+      ],
+      "message": "Choose to have Child of the Watch gain 1 attack, 1 resource, or 1 force.",
+      "options": [
+        {
+          "code": [
+            [
+              "LOG",
+              "└── Added 1 attack until the end of the round."
+            ],
+            [
+              "INCREASE_VAL",
+              "/cardById/{{$CARD.id}}/tokens/attackModifier",
+              1
+            ],
+            [
+              "FADE_TEXT_CARD",
+              "$CARD.id",
+              "+1 token:attackModifier"
+            ]
+          ],
+          "hotkey": "1",
+          "label": "Gain 1 Attack"
+        },
+        {
+          "code": [
+            [
+              "LOG",
+              "└── Gained 1 resource."
+            ],
+            [
+              "INCREASE_VAL",
+              "/playerData/{{$CARD.controller}}/resources",
+              1
+            ],
+            [
+              "FADE_TEXT_PLAYER",
+              "$CARD.controller",
+              "+1 token:resource"
+            ]
+          ],
+          "hotkey": "2",
+          "label": "Gain 1 Resource"
+        },
+        {
+          "code": [
+            [
+              "LOG",
+              "└── Gained 1 force."
+            ],
+            [
+              "GAIN_N_FORCE",
+              "$CARD.controller",
+              1
+            ]
+          ],
+          "hotkey": "3",
+          "label": "Gain 1 Force"
+        }
+      ]
+    },
+    "cw_g39": {
+      "args": [
+        "$CARD"
+      ],
+      "message": "Choose to have Zam Wesell gain 2 attack, 2 resources, or 2 force.",
+      "options": [
+        {
+          "code": [
+            [
+              "LOG",
+              "└── Added 2 attack."
+            ],
+            [
+              "INCREASE_VAL",
+              "/cardById/{{$CARD.id}}/tokens/attackModifier",
+              2
+            ],
+            [
+              "FADE_TEXT_CARD",
+              "$CARD.id",
+              "+2 token:attackModifier"
+            ]
+          ],
+          "hotkey": "1",
+          "label": "Gain 2 Attack"
+        },
+        {
+          "code": [
+            [
+              "LOG",
+              "└── Gained 2 resources."
+            ],
+            [
+              "INCREASE_VAL",
+              "/playerData/{{$CARD.controller}}/resources",
+              2
+            ],
+            [
+              "FADE_TEXT_PLAYER",
+              "$CARD.controller",
+              "+2 token:resource"
+            ]
+          ],
+          "hotkey": "2",
+          "label": "Gain 2 Resources"
+        },
+        {
+          "code": [
+            [
+              "LOG",
+              "└── Gained 2 force."
+            ],
+            [
+              "GAIN_N_FORCE",
+              "$CARD.controller",
+              2
+            ]
+          ],
+          "hotkey": "3",
+          "label": "Gain 2 Force"
+        }
+      ]
+    },
+    "playACard": {
+      "args": [],
+      "message": "To play a card, hover over it and press W. To play all the cards in your hand at once, use Shift+W. Press \"Next\" when you've done this and would like to learn how to buy a card.",
+      "options": [
+        {
+          "code": [
+            "PROMPT",
+            "$PLAYER_N",
+            "buyACard"
+          ],
+          "label": "Next"
+        }
+      ]
+    },
+    "cw_g18_return": {
+      "args": [
+        "$CARD"
+      ],
+      "input": {
+        "autoSubmit": {
+          "code": [
+            [
+              "VAR",
+              "$TARGET_CARD_ID",
+              "$PROMPT_INPUT.[0]"
+            ],
+            [
+              "VAR",
+              "$TARGET_CARD",
+              "$GAME.cardById.{{$TARGET_CARD_ID}}"
+            ],
+            [
+              "COND",
+              [
+                "EQUAL",
+                "$TARGET_CARD.id",
+                "$CARD.id"
+              ],
+              [
+                "LOG",
+                "└── Cannot select AT-TE itself."
+              ],
+              [
+                "NOT_EQUAL",
+                "$TARGET_CARD.controller",
+                "$CARD.controller"
+              ],
+              [
+                "LOG",
+                "└── Selected card is not yours."
+              ],
+              [
+                "NOT_EQUAL",
+                "$TARGET_CARD.inPlay",
+                true
+              ],
+              [
+                "LOG",
+                "└── Selected card is not in play."
+              ],
+              [
+                "TRUE"
+              ],
+              [
+                [
+                  "LOG",
+                  "└── Placed {{$TARGET_CARD.currentFace.name}} on top of your deck."
+                ],
+                [
+                  "MOVE_CARD",
+                  "$TARGET_CARD_ID",
+                  "{{$CARD.controller}}Deck",
+                  0
+                ],
+                [
+                  "SET",
+                  "/cardById/$CARD.id/rotation",
+                  -20
+                ]
+              ]
+            ]
+          ],
+          "numCards": 1
+        },
+        "type": "selectCards"
+      },
+      "message": "Select another unit you have in play to place on top of your deck.",
+      "options": [
+        {
+          "code": [
+            [
+              "SET",
+              "/cardById/$CARD.id/rotation",
+              -20
+            ]
+          ],
+          "label": "Cancel"
+        }
+      ]
+    },
+    "cw_scs3_purchase": {
+      "args": [
+        "$CARD"
+      ],
+      "input": {
+        "autoSubmit": {
+          "code": [
+            [
+              "VAR",
+              "$TARGET_CARD_ID",
+              "$PROMPT_INPUT.[0]"
+            ],
+            [
+              "VAR",
+              "$TARGET_CARD",
+              "$GAME.cardById.{{$TARGET_CARD_ID}}"
+            ],
+            [
+              "COND",
+              [
+                "NOT_EQUAL",
+                "$TARGET_CARD.groupId",
+                "sharedExiled"
+              ],
+              [
+                "LOG",
+                "└── Selected card is not in your exile pile."
+              ],
+              [
+                "NOT",
+                [
+                  "IN_STRING",
+                  "$TARGET_CARD.currentFace.traits",
+                  "Droid."
+                ]
+              ],
+              [
+                "LOG",
+                "└── Selected card is not a Droid."
+              ],
+              [
+                "TRUE"
+              ],
+              [
+                [
+                  "STOP_LOOKING",
+                  "$CARD.controller"
+                ],
+                [
+                  "BUY_CARD",
+                  "$TARGET_CARD"
+                ],
+                [
+                  "SET",
+                  "/cardById/$CARD.id/rotation",
+                  -20
+                ]
+              ]
+            ]
+          ],
+          "numCards": 1
+        },
+        "type": "selectCards"
+      },
+      "message": "Select a Droid from your exile pile to purchase as if it were in the galaxy row.",
+      "options": [
+        {
+          "code": [
+            [
+              "STOP_LOOKING",
+              "$CARD.controller"
+            ]
+          ],
+          "label": "Cancel"
+        }
+      ]
+    },
+    "cw_g4_select_exile": {
+      "args": [
+        "$CARD"
+      ],
+      "input": {
+        "autoSubmit": {
+          "code": [
+            [
+              "VAR",
+              "$EXILE_CARD_ID",
+              "$PROMPT_INPUT.[0]"
+            ],
+            [
+              "VAR",
+              "$EXILE_CARD",
+              "$GAME.cardById.{{$EXILE_CARD_ID}}"
+            ],
+            [
+              "COND",
+              [
+                "NOT_EQUAL",
+                "$EXILE_CARD.groupId",
+                "sharedExiled"
+              ],
+              [
+                "LOG",
+                "└── Selected card is not in your exile pile."
+              ],
+              [
+                "EQUAL",
+                "$EXILE_CARD.currentFace.isStarter",
+                true
+              ],
+              [
+                "LOG",
+                "└── Selected card is a starter card and cannot be used."
+              ],
+              [
+                "TRUE"
+              ],
+              [
+                [
+                  "VAR",
+                  "$ROW_CARD_ID",
+                  "$GAME.cardById.{{$CARD.id}}.tokens.swapCardId"
+                ],
+                [
+                  "LOG",
+                  "└── Swapping exile card into the galaxy row."
+                ],
+                [
+                  "MOVE_FROM_GALAXY_ROW",
+                  "$ROW_CARD_ID",
+                  "sharedGalaxyDiscard"
+                ],
+                [
+                  "MOVE_CARD",
+                  "$EXILE_CARD_ID",
+                  "sharedGalaxyRow",
+                  0
+                ],
+                [
+                  "STOP_LOOKING",
+                  "$CARD.controller"
+                ],
+                [
+                  "SET",
+                  "/cardById/$CARD.id/rotation",
+                  -20
+                ]
+              ]
+            ]
+          ],
+          "numCards": 1
+        },
+        "type": "selectCards"
+      },
+      "message": "Select a non-starter card from your exile pile to put into the galaxy row.",
+      "options": [
+        {
+          "code": [
+            [
+              "STOP_LOOKING",
+              "$CARD.controller"
+            ],
+            [
+              "SET",
+              "/cardById/$CARD.id/rotation",
+              -20
+            ]
+          ],
+          "label": "Cancel"
+        }
+      ]
+    },
+    "ecs1_ability": {
+      "args": [
+        "$CARD"
+      ],
+      "input": {
+        "autoSubmit": {
+          "code": [
+            [
+              "VAR",
+              "$CARD_ID",
+              "$PROMPT_INPUT.[0]"
+            ],
+            [
+              "VAR",
+              "$SELECTED_CARD",
+              "$GAME.cardById.{{$CARD_ID}}"
+            ],
+            [
+              "COND",
+              [
+                "NOT_EQUAL",
+                "$SELECTED_CARD.groupId",
+                "{{$CARD.controller}}Hand"
+              ],
+              [
+                "LOG",
+                "└── Selected card is not in your hand."
+              ],
+              [
+                "TRUE"
+              ],
+              [
+                [
+                  "LOG",
+                  "└── Gozanti Cruiser's ability: Discard 1 card to draw 1 card."
+                ],
+                [
+                  "DISCARD_CARD",
+                  "$SELECTED_CARD"
+                ],
+                [
+                  "DRAW_CARD",
+                  1,
+                  "$CARD.controller"
+                ]
+              ]
+            ]
+          ],
+          "numCards": 1
+        },
+        "type": "selectCards"
+      },
+      "message": "Discard 1 card from your hand to draw 1 card.",
+      "options": [
+        {
+          "label": "Discard (select a card)"
+        },
+        {
+          "label": "Cancel"
+        }
+      ]
+    },
+    "cw_rb4_reveal": {
+      "args": [
+        "$CARD",
+        "$TOP_CARD"
+      ],
+      "message": "You revealed the top card of your deck. You may discard it.",
+      "options": [
+        {
+          "code": [
+            [
+              "LOG",
+              "└── Discarded {{$TOP_CARD.sides.A.name}} from the top of the deck."
+            ],
+            [
+              "DISCARD_CARD",
+              "$TOP_CARD"
+            ]
+          ],
+          "hotkey": "1",
+          "label": "Discard it"
+        },
+        {
+          "code": [
+            [
+              "SET",
+              "/cardById/{{$TOP_CARD.id}}/currentSide",
+              "B"
+            ],
+            [
+              "LOG",
+              "└── Kept the card on top of the deck."
+            ]
+          ],
+          "hotkey": "2",
+          "label": "Keep it on top"
+        }
+      ]
+    },
+    "attackWithCard": {
+      "args": [],
+      "message": "To attack with a card, hover over it and press A. It will gain a green border, indicating it is part of the attack. You can attack with multiple cards by repeating this process. To remove a card from the attack, hover over it and press A again. Press \"Next\" when you'd like to learn how to target a card.",
+      "options": [
+        {
+          "code": [
+            "PROMPT",
+            "$PLAYER_N",
+            "attackOnCard"
+          ],
+          "label": "Next"
+        }
+      ]
+    },
+    "cw_scs1_exile": {
+      "args": [
+        "$CARD"
+      ],
+      "input": {
+        "autoSubmit": {
+          "code": [
+            [
+              "VAR",
+              "$TARGET_CARD_ID",
+              "$PROMPT_INPUT.[0]"
+            ],
+            [
+              "VAR",
+              "$TARGET_CARD",
+              "$GAME.cardById.{{$TARGET_CARD_ID}}"
+            ],
+            [
+              "COND",
+              [
+                "NOT_EQUAL",
+                "$TARGET_CARD.groupId",
+                "sharedGalaxyRow"
+              ],
+              [
+                "LOG",
+                "└── Selected card is not in the galaxy row."
+              ],
+              [
+                "NOT_EQUAL",
+                "$TARGET_CARD.currentFace.faction",
+                "Separatist"
+              ],
+              [
+                "LOG",
+                "└── Selected card is not a Separatist card."
+              ],
+              [
+                "TRUE"
+              ],
+              [
+                [
+                  "LOG",
+                  "└── Exiled {{$TARGET_CARD.currentFace.name}} and repaired 2 damage."
+                ],
+                [
+                  "MOVE_FROM_GALAXY_ROW",
+                  "$TARGET_CARD_ID",
+                  "sharedExiled"
+                ],
+                [
+                  "REPAIR_DAMAGE",
+                  "$CARD.controller",
+                  2
+                ],
+                [
+                  "SET",
+                  "/cardById/$CARD.id/rotation",
+                  -20
+                ]
+              ]
+            ]
+          ],
+          "numCards": 1
+        },
+        "type": "selectCards"
+      },
+      "message": "Select a Separatist card from the galaxy row to exile. If you do, repair 2 damage from your base.",
+      "options": [
+        {
+          "code": [
+            [
+              "SET",
+              "/cardById/$CARD.id/rotation",
+              -20
+            ]
+          ],
+          "label": "Cancel"
+        }
+      ]
+    },
+    "g23_swap": {
+      "args": [
+        "$CARD",
+        "$TOP_CARD_ID"
+      ],
+      "input": {
+        "autoSubmit": {
+          "code": [
+            [
+              "VAR",
+              "$ROW_CARD_ID",
+              "$PROMPT_INPUT.[0]"
+            ],
+            [
+              "VAR",
+              "$ROW_CARD",
+              "$GAME.cardById.{{$ROW_CARD_ID}}"
+            ],
+            [
+              "COND",
+              [
+                "NOT_EQUAL",
+                "$ROW_CARD.groupId",
+                "sharedGalaxyRow"
+              ],
+              [
+                "LOG",
+                "└── Selected card is not in the galaxy row."
+              ],
+              [
+                "TRUE"
+              ],
+              [
+                [
+                  "LOG",
+                  "└── Swapping {{$ROW_CARD.sides.A.name}} with top card of galaxy deck."
+                ],
+                [
+                  "VAR",
+                  "$ROW_INDEX",
+                  "$ROW_CARD.stackIndex"
+                ],
+                [
+                  "MOVE_CARD",
+                  "$TOP_CARD_ID",
+                  "sharedGalaxyRow",
+                  "$ROW_INDEX"
+                ],
+                [
+                  "MOVE_CARD",
+                  "$ROW_CARD_ID",
+                  "sharedGalaxyDeck",
+                  0
+                ],
+                [
+                  "STOP_LOOKING",
+                  "$CARD.controller"
+                ]
+              ]
+            ]
+          ],
+          "numCards": 1
+        },
+        "type": "selectCards"
+      },
+      "message": "Select a card from the galaxy row to swap with the top card of the galaxy deck.",
+      "options": [
+        {
+          "code": [
+            [
+              "STOP_LOOKING",
+              "$CARD.controller"
+            ]
+          ],
+          "label": "Cancel"
+        }
+      ]
+    },
+    "g30_select": {
+      "args": [
+        "$CARD"
+      ],
+      "input": {
+        "autoSubmit": {
+          "code": [
+            [
+              "VAR",
+              "$TARGET_CARD_ID",
+              "$PROMPT_INPUT.[0]"
+            ],
+            [
+              "VAR",
+              "$TARGET_CARD",
+              "$GAME.cardById.{{$TARGET_CARD_ID}}"
+            ],
+            [
+              "COND",
+              [
+                "NOT_EQUAL",
+                "$TARGET_CARD.groupId",
+                "sharedGalaxyRow"
+              ],
+              [
+                "LOG",
+                "└── Selected card is not in the galaxy row."
+              ],
+              [
+                "NOT_EQUAL",
+                "$TARGET_CARD.currentFace.faction",
+                "Empire"
+              ],
+              [
+                "LOG",
+                "└── Selected card is not an Empire card."
+              ],
+              [
+                "TRUE"
+              ],
+              [
+                [
+                  "LOG",
+                  "└── Added {{$TARGET_CARD.currentFace.name}} to hand."
+                ],
+                [
+                  "MOVE_FROM_GALAXY_ROW",
+                  "$TARGET_CARD_ID",
+                  "{{$CARD.controller}}Hand"
+                ],
+                [
+                  "SET",
+                  "/cardById/{{$TARGET_CARD_ID}}/exileAtEndOfTurn",
+                  true
+                ],
+                [
+                  "SET",
+                  "/cardById/$CARD.id/rotation",
+                  -20
+                ],
+                [
+                  "STOP_LOOKING",
+                  "$CARD.controller"
+                ]
+              ]
+            ]
+          ],
+          "numCards": 1
+        },
+        "type": "selectCards"
+      },
+      "message": "Select an Empire card from the galaxy row to add to your hand. You must exile it at end of turn.",
+      "options": [
+        {
+          "code": [
+            "STOP_LOOKING",
+            "$CARD.controller"
+          ],
+          "label": "Cancel"
+        }
+      ]
+    },
+    "millennium_falcon_bounty": {
+      "args": [
+        "$PLAYER"
+      ],
+      "input": {
+        "autoSubmit": {
+          "code": [
+            [
+              "VAR",
+              "$TARGET_CARD_ID",
+              "$PROMPT_INPUT.[0]"
+            ],
+            [
+              "VAR",
+              "$TARGET_CARD",
+              "$GAME.cardById.{{$TARGET_CARD_ID}}"
+            ],
+            [
+              "VAR",
+              "$PLAYER_FACTION",
+              [
+                "GET_FACTION",
+                "$PLAYER"
+              ]
+            ],
+            [
+              "COND",
+              [
+                "NOT_EQUAL",
+                "$TARGET_CARD.groupId",
+                "sharedGalaxyRow"
+              ],
+              [
+                "LOG",
+                "└── Selected card is not in the galaxy row."
+              ],
+              [
+                "NOT_EQUAL",
+                "$TARGET_CARD.currentFace.faction",
+                "$PLAYER_FACTION"
+              ],
+              [
+                "LOG",
+                "└── Selected card is not a {{$PLAYER_FACTION}} card."
+              ],
+              [
+                "TRUE"
+              ],
+              [
+                [
+                  "LOG",
+                  "└── Purchased {{$TARGET_CARD.currentFace.name}} for free."
+                ],
+                [
+                  "GOT_PURCHASED",
+                  "$TARGET_CARD"
+                ],
+                [
+                  "MOVE_FROM_GALAXY_ROW",
+                  "$TARGET_CARD_ID",
+                  "{{$PLAYER}}Discard"
+                ],
+                [
+                  "STOP_LOOKING",
+                  "$PLAYER"
+                ]
+              ]
+            ]
+          ],
+          "numCards": 1
+        },
+        "type": "selectCards"
+      },
+      "message": "Select a card of your faction from the galaxy row to purchase for free.",
+      "options": [
+        {
+          "code": [
+            [
+              "STOP_LOOKING",
+              "$PLAYER"
+            ]
+          ],
+          "label": "Cancel"
+        }
+      ]
+    },
+    "g36": {
+      "args": [
+        "$CARD"
+      ],
+      "message": "Choose to have Lobot gain 2 attack, 2 resources, or 2 force.",
+      "options": [
+        {
+          "code": [
+            [
+              "LOG",
+              "└── Added 2 attack."
+            ],
+            [
+              "INCREASE_VAL",
+              "/cardById/{{$CARD.id}}/tokens/attackModifier",
+              2
+            ],
+            [
+              "FADE_TEXT_CARD",
+              "$CARD.id",
+              "+2 token:attackModifier"
+            ]
+          ],
+          "hotkey": "1",
+          "label": "Gain 2 Attack"
+        },
+        {
+          "code": [
+            [
+              "LOG",
+              "└── Gained 2 resources."
+            ],
+            [
+              "INCREASE_VAL",
+              "/playerData/{{$CARD.controller}}/resources",
+              2
+            ],
+            [
+              "FADE_TEXT_PLAYER",
+              "$CARD.controller",
+              "+2 token:resource"
+            ]
+          ],
+          "hotkey": "2",
+          "label": "Gain 2 Resources"
+        },
+        {
+          "code": [
+            [
+              "LOG",
+              "└── Gained 2 force."
+            ],
+            [
+              "GAIN_N_FORCE",
+              "$CARD.controller",
+              2
+            ]
+          ],
+          "hotkey": "3",
+          "label": "Gain 2 Force"
+        }
+      ]
+    },
+    "selectNewBase": {
+      "args": [
+        "$PLAYER_I"
+      ],
+      "input": {
+        "autoSubmit": {
+          "code": [
+            [
+              "LOG",
+              "{{$ALIAS_N}} selected a new base: ",
+              "$GAME.cardById.{{$PROMPT_INPUT.[0]}}.sides.A.name",
+              "."
+            ],
+            [
+              "MOVE_CARD",
+              "$PROMPT_INPUT.[0]",
+              "{{$PLAYER_I}}Base",
+              0
+            ],
+            [
+              "STOP_LOOKING",
+              "$PLAYER_I"
+            ],
+            [
+              "START_TURN",
+              "$PLAYER_I"
+            ]
+          ],
+          "numCards": 1
+        },
+        "type": "selectCards"
+      },
+      "message": "Select a new base.",
+      "options": [
+        {
+          "hotkey": "X",
+          "label": "Cancel"
+        }
+      ]
+    },
+    "g44_discard": {
+      "args": [
+        "$CARD"
+      ],
+      "input": {
+        "autoSubmit": {
+          "code": [
+            [
+              "VAR",
+              "$DISCARD_CARD_ID",
+              "$PROMPT_INPUT.[0]"
+            ],
+            [
+              "VAR",
+              "$DISCARD_CARD",
+              "$GAME.cardById.{{$DISCARD_CARD_ID}}"
+            ],
+            [
+              "COND",
+              [
+                "NOT_EQUAL",
+                "$DISCARD_CARD.groupId",
+                "{{$PLAYER_N}}Hand"
+              ],
+              [
+                "LOG",
+                "└── Selected card is not in your hand."
+              ],
+              [
+                "TRUE"
+              ],
+              [
+                [
+                  "LOG",
+                  "└── Discarded {{$DISCARD_CARD.currentFace.name}}."
+                ],
+                [
+                  "DISCARD_CARD_ID",
+                  "$DISCARD_CARD_ID"
+                ],
+                [
+                  "SET",
+                  "/cardById/$CARD.id/rotation",
+                  -20
+                ]
+              ]
+            ]
+          ],
+          "numCards": 1
+        },
+        "type": "selectCards"
+      },
+      "message": "Select a card from your hand to discard."
+    },
+    "g25_discard": {
+      "args": [
+        "$CARD"
+      ],
+      "input": {
+        "autoSubmit": {
+          "code": [
+            [
+              "VAR",
+              "$TARGET_CARD_ID",
+              "$PROMPT_INPUT.[0]"
+            ],
+            [
+              "VAR",
+              "$TARGET_CARD",
+              "$GAME.cardById.{{$TARGET_CARD_ID}}"
+            ],
+            [
+              "COND",
+              [
+                "NOT_EQUAL",
+                "$TARGET_CARD.groupId",
+                "sharedGalaxyRow"
+              ],
+              [
+                "LOG",
+                "└── Selected card is not in the galaxy row."
+              ],
+              [
+                "TRUE"
+              ],
+              [
+                [
+                  "LOG",
+                  "└── Discarded {{$TARGET_CARD.currentFace.name}} from the galaxy row."
+                ],
+                [
+                  "MOVE_FROM_GALAXY_ROW",
+                  "$TARGET_CARD.id",
+                  "sharedGalaxyDiscard"
+                ]
+              ]
+            ]
+          ],
+          "numCards": 1
+        },
+        "type": "selectCards"
+      },
+      "message": "Select a card from the galaxy row to discard.",
+      "options": [
+        {
+          "label": "Discard (select a card)"
+        },
+        {
+          "label": "Skip"
+        }
+      ]
+    },
+    "exileUpto1": {
+      "args": [],
+      "input": {
+        "autoSubmit": {
+          "code": [
+            [
+              "EXILE_CARD_IDS",
+              "$PROMPT_INPUT"
+            ],
+            [
+              "STOP_LOOKING",
+              "$PLAYER_N"
+            ]
+          ],
+          "numCards": 1
+        },
+        "type": "selectCards"
+      },
+      "message": "Select up to 1 card from your hand or discard to exile.",
+      "options": [
+        {
+          "code": [
+            "STOP_LOOKING",
+            "$PLAYER_N"
+          ],
+          "label": "Cancel"
+        }
+      ]
+    },
+    "cw_g34_select": {
+      "args": [
+        "$CARD"
+      ],
+      "input": {
+        "autoSubmit": {
+          "code": [
+            [
+              "VAR",
+              "$TARGET_CARD_ID",
+              "$PROMPT_INPUT.[0]"
+            ],
+            [
+              "VAR",
+              "$TARGET_CARD",
+              "$GAME.cardById.{{$TARGET_CARD_ID}}"
+            ],
+            [
+              "COND",
+              [
+                "NOT_EQUAL",
+                "$TARGET_CARD.groupId",
+                "{{$CARD.controller}}Discard"
+              ],
+              [
+                "LOG",
+                "└── Selected card is not in your discard pile."
+              ],
+              [
+                "NOT_EQUAL",
+                "$TARGET_CARD.currentFace.faction",
+                "Neutral"
+              ],
+              [
+                "LOG",
+                "└── Selected card is not a neutral card."
+              ],
+              [
+                "NOT_EQUAL",
+                "$TARGET_CARD.currentFace.type",
+                "Unit"
+              ],
+              [
+                "LOG",
+                "└── Selected card is not a unit."
+              ],
+              [
+                "TRUE"
+              ],
+              [
+                [
+                  "LOG",
+                  "└── Added {{$TARGET_CARD.currentFace.name}} to hand."
+                ],
+                [
+                  "MOVE_CARD",
+                  "$TARGET_CARD_ID",
+                  "{{$CARD.controller}}Hand",
+                  0
+                ],
+                [
+                  "COND",
+                  [
+                    "IN_STRING",
+                    "$TARGET_CARD.currentFace.traits",
+                    "Bounty Hunter."
+                  ],
+                  [
+                    [
+                      "LOG",
+                      "└── It is a Bounty Hunter. It gains 2 attack while attacking a galaxy row target this turn."
+                    ],
+                    [
+                      "INCREASE_VAL",
+                      "/cardById/{{$TARGET_CARD_ID}}/tokens/attackModifier",
+                      2
+                    ]
+                  ]
+                ],
+                [
+                  "STOP_LOOKING",
+                  "$CARD.controller"
+                ],
+                [
+                  "SET",
+                  "/cardById/$CARD.id/rotation",
+                  -20
+                ]
+              ]
+            ]
+          ],
+          "numCards": 1
+        },
+        "type": "selectCards"
+      },
+      "message": "Select a neutral unit from your discard pile to add to your hand. If it is a Bounty Hunter, it gains 2 attack while attacking a galaxy row target this turn.",
+      "options": [
+        {
+          "code": [
+            [
+              "STOP_LOOKING",
+              "$CARD.controller"
+            ],
+            [
+              "SET",
+              "/cardById/$CARD.id/rotation",
+              -20
+            ]
+          ],
+          "label": "Skip"
+        }
+      ]
+    },
+    "cw_g20_trooper": {
+      "args": [
+        "$CARD"
+      ],
+      "input": {
+        "autoSubmit": {
+          "code": [
+            [
+              "VAR",
+              "$TARGET_CARD_ID",
+              "$PROMPT_INPUT.[0]"
+            ],
+            [
+              "VAR",
+              "$TARGET_CARD",
+              "$GAME.cardById.{{$TARGET_CARD_ID}}"
+            ],
+            [
+              "COND",
+              [
+                "NOT_EQUAL",
+                "$TARGET_CARD.groupId",
+                "{{$CARD.controller}}Discard"
+              ],
+              [
+                "LOG",
+                "└── Selected card is not in your discard pile."
+              ],
+              [
+                "NOT",
+                [
+                  "IN_STRING",
+                  "$TARGET_CARD.currentFace.traits",
+                  "Trooper."
+                ]
+              ],
+              [
+                [
+                  "LOG",
+                  "└── Selected card is not a Trooper."
+                ],
+                [
+                  "PROMPT",
+                  "$CARD.controller",
+                  "cw_g20_trooper",
+                  "$CARD"
+                ]
+              ],
+              [
+                "TRUE"
+              ],
+              [
+                [
+                  "COND",
+                  [
+                    "IS_FORCE_WITH_YOU",
+                    "$CARD.controller"
+                  ],
+                  [
+                    [
+                      "LOG",
+                      "└── The Force is with you. Added {{$TARGET_CARD.currentFace.name}} to hand."
+                    ],
+                    [
+                      "MOVE_CARD",
+                      "$TARGET_CARD_ID",
+                      "{{$CARD.controller}}Hand",
+                      0
+                    ]
+                  ],
+                  [
+                    "TRUE"
+                  ],
+                  [
+                    [
+                      "LOG",
+                      "└── Placed {{$TARGET_CARD.currentFace.name}} on top of your deck."
+                    ],
+                    [
+                      "MOVE_CARD",
+                      "$TARGET_CARD_ID",
+                      "{{$CARD.controller}}Deck",
+                      0
+                    ]
+                  ]
+                ],
+                [
+                  "STOP_LOOKING",
+                  "$CARD.controller"
+                ],
+                [
+                  "SET",
+                  "/cardById/$CARD.id/rotation",
+                  -20
+                ]
+              ]
+            ]
+          ],
+          "numCards": 1
+        },
+        "type": "selectCards"
+      },
+      "message": "Select a Trooper from your discard pile to place on top of your deck (or hand if the Force is with you).",
+      "options": [
+        {
+          "code": [
+            [
+              "STOP_LOOKING",
+              "$CARD.controller"
+            ],
+            [
+              "SET",
+              "/cardById/$CARD.id/rotation",
+              -20
+            ]
+          ],
+          "label": "Skip"
+        }
+      ]
+    },
+    "g9_select": {
+      "args": [
+        "$CARD"
+      ],
+      "input": {
+        "autoSubmit": {
+          "code": [
+            [
+              "VAR",
+              "$TARGET_CARD_ID",
+              "$PROMPT_INPUT.[0]"
+            ],
+            [
+              "VAR",
+              "$TARGET_CARD",
+              "$GAME.cardById.{{$TARGET_CARD_ID}}"
+            ],
+            [
+              "VAR",
+              "$OPPONENT",
+              "player2"
+            ],
+            [
+              "COND",
+              [
+                "EQUAL",
+                "$CARD.controller",
+                "player2"
+              ],
+              [
+                "UPDATE_VAR",
+                "$OPPONENT",
+                "player1"
+              ]
+            ],
+            [
+              "COND",
+              [
+                "NOT_EQUAL",
+                "$TARGET_CARD.groupId",
+                "{{$OPPONENT}}Hand"
+              ],
+              [
+                "LOG",
+                "└── Selected card is not in opponent's hand."
+              ],
+              [
+                "TRUE"
+              ],
+              [
+                [
+                  "LOG",
+                  "└── Placed {{$TARGET_CARD.currentFace.name}} on top of opponent's deck."
+                ],
+                [
+                  "MOVE_CARD",
+                  "$TARGET_CARD_ID",
+                  "{{$OPPONENT}}Deck",
+                  0
+                ],
+                [
+                  "SET",
+                  "/cardById/$CARD.id/rotation",
+                  -20
+                ],
+                [
+                  "STOP_LOOKING",
+                  "$CARD.controller"
+                ]
+              ]
+            ]
+          ],
+          "numCards": 1
+        },
+        "type": "selectCards"
+      },
+      "message": "Select a card from opponent's hand to place on top of their deck.",
+      "options": [
+        {
+          "code": [
+            [
+              "SET",
+              "/cardById/$CARD.id/rotation",
+              -20
+            ],
+            [
+              "STOP_LOOKING",
+              "$CARD.controller"
+            ]
+          ],
+          "label": "Cancel"
+        }
+      ]
+    },
+    "cw_g32_destroy": {
+      "args": [
+        "$CARD"
+      ],
+      "input": {
+        "autoSubmit": {
+          "code": [
+            [
+              "VAR",
+              "$TARGET_CARD_ID",
+              "$PROMPT_INPUT.[0]"
+            ],
+            [
+              "VAR",
+              "$TARGET_CARD",
+              "$GAME.cardById.{{$TARGET_CARD_ID}}"
+            ],
+            [
+              "VAR",
+              "$OPPONENT",
+              [
+                "NEXT_PLAYER",
+                "$CARD.controller"
+              ]
+            ],
+            [
+              "COND",
+              [
+                "NOT_EQUAL",
+                "$TARGET_CARD.controller",
+                "$OPPONENT"
+              ],
+              [
+                "LOG",
+                "└── Selected card is not your opponent's."
+              ],
+              [
+                "NOT_EQUAL",
+                "$TARGET_CARD.currentFace.type",
+                "CapitalShip"
+              ],
+              [
+                "LOG",
+                "└── Selected card is not a capital ship."
+              ],
+              [
+                "NOT_EQUAL",
+                "$TARGET_CARD.inPlay",
+                true
+              ],
+              [
+                "LOG",
+                "└── Selected card is not in play."
+              ],
+              [
+                "TRUE"
+              ],
+              [
+                [
+                  "LOG",
+                  "└── Destroyed {{$TARGET_CARD.currentFace.name}}."
+                ],
+                [
+                  "DESTROY_CARD",
+                  "$TARGET_CARD"
+                ],
+                [
+                  "STOP_LOOKING",
+                  "$CARD.controller"
+                ],
+                [
+                  "SET",
+                  "/cardById/$CARD.id/rotation",
+                  -20
+                ]
+              ]
+            ]
+          ],
+          "numCards": 1
+        },
+        "type": "selectCards"
+      },
+      "message": "Select a capital ship your opponent has in play to destroy.",
+      "options": [
+        {
+          "code": [
+            [
+              "STOP_LOOKING",
+              "$CARD.controller"
+            ],
+            [
+              "SET",
+              "/cardById/$CARD.id/rotation",
+              -20
+            ]
+          ],
+          "label": "Cancel"
+        }
+      ]
+    },
+    "g13_choice": {
+      "args": [
+        "$CARD"
+      ],
+      "message": "B-Wing: Choose to discard 1 card from your hand, or B-Wing gains 2 attack.",
+      "options": [
+        {
+          "code": [
+            [
+              "LOG",
+              "└── Chose to discard 1 card."
+            ],
+            [
+              "PROMPT",
+              "$PLAYER_N",
+              "g13_discard",
+              "$CARD"
+            ]
+          ],
+          "hotkey": "1",
+          "label": "Discard 1 card"
+        },
+        {
+          "code": [
+            [
+              "LOG",
+              "└── {{$ALIAS_N}} chose to let B-Wing gain 2 attack."
+            ],
+            [
+              "INCREASE_VAL",
+              "/cardById/{{$CARD.id}}/tokens/attackModifier",
+              2
+            ],
+            [
+              "FADE_TEXT_CARD",
+              "$CARD.id",
+              "+2 token:attackModifier"
+            ],
+            [
+              "SET",
+              "/cardById/$CARD.id/rotation",
+              -20
+            ]
+          ],
+          "hotkey": "2",
+          "label": "B-Wing gains 2 attack"
+        }
+      ]
+    },
+    "cw_g27_choice": {
+      "args": [
+        "$CARD",
+        "$TOP_CARD"
+      ],
+      "message": "You revealed the top card of your deck. If it is a Jedi, you may draw it. If it is not, you may discard it.",
+      "options": [
+        {
+          "code": [
+            [
+              "COND",
+              [
+                "IN_STRING",
+                "$TOP_CARD.sides.A.traits",
+                "Jedi."
+              ],
+              [
+                [
+                  "LOG",
+                  "└── Drew {{$TOP_CARD.sides.A.name}} (Jedi)."
+                ],
+                [
+                  "DRAW_CARD",
+                  1,
+                  "$CARD.controller"
+                ]
+              ],
+              [
+                "TRUE"
+              ],
+              [
+                [
+                  "LOG",
+                  "└── Card is not a Jedi, cannot draw it."
+                ],
+                [
+                  "SET",
+                  "/cardById/{{$TOP_CARD.id}}/currentSide",
+                  "B"
+                ]
+              ]
+            ]
+          ],
+          "hotkey": "1",
+          "label": "Draw it (Jedi only)"
+        },
+        {
+          "code": [
+            [
+              "COND",
+              [
+                "NOT",
+                [
+                  "IN_STRING",
+                  "$TOP_CARD.sides.A.traits",
+                  "Jedi."
+                ]
+              ],
+              [
+                [
+                  "LOG",
+                  "└── Discarded {{$TOP_CARD.sides.A.name}} (not a Jedi)."
+                ],
+                [
+                  "DISCARD_CARD",
+                  "$TOP_CARD"
+                ]
+              ],
+              [
+                "TRUE"
+              ],
+              [
+                [
+                  "LOG",
+                  "└── Card is a Jedi, cannot discard it here."
+                ],
+                [
+                  "SET",
+                  "/cardById/{{$TOP_CARD.id}}/currentSide",
+                  "B"
+                ]
+              ]
+            ]
+          ],
+          "hotkey": "2",
+          "label": "Discard it (non-Jedi only)"
+        },
+        {
+          "code": [
+            [
+              "SET",
+              "/cardById/{{$TOP_CARD.id}}/currentSide",
+              "B"
+            ],
+            [
+              "LOG",
+              "└── Left card on top of deck."
+            ]
+          ],
+          "hotkey": "3",
+          "label": "Leave on top"
+        }
+      ]
+    },
+    "cw_g37_choice": {
+      "args": [
+        "$CARD_ID"
+      ],
+      "message": "Jar Jar Binks: Spend 2 resources to gain 1 force and place him in your opponent's discard pile?",
+      "options": [
+        {
+          "code": [
+            [
+              "VAR",
+              "$CARD",
+              "$GAME.cardsById.$CARD_ID"
+            ],
+            [
+              "COND",
+              [
+                "GREATER_THAN",
+                "$GAME.playerData.{{$CARD.controller}}.resources",
+                1
+              ],
+              [
+                [
+                  "LOG",
+                  "└── Spent 2 resources. Gained 1 force. Placed Jar Jar in opponent's discard."
+                ],
+                [
+                  "DECREASE_VAL",
+                  "/playerData/{{$CARD.controller}}/resources",
+                  2
+                ],
+                [
+                  "GAIN_N_FORCE",
+                  "$CARD.controller",
+                  1
+                ],
+                [
+                  "VAR",
+                  "$OPPONENT",
+                  [
+                    "NEXT_PLAYER",
+                    "$CARD.controller"
+                  ]
+                ],
+                [
+                  "MOVE_CARD",
+                  "$CARD.id",
+                  "{{$OPPONENT}}Discard",
+                  0
+                ]
+              ],
+              [
+                "TRUE"
+              ],
+              [
+                "LOG",
+                "└── Not enough resources to pay for Jar Jar Binks's ability."
+              ]
+            ]
+          ],
+          "hotkey": "1",
+          "label": "Spend 2 resources"
+        },
+        {
+          "hotkey": "2",
+          "label": "Skip"
+        }
+      ]
+    },
+    "rb2_purchase": {
+      "args": [
+        "$CARD"
+      ],
+      "input": {
+        "autoSubmit": {
+          "code": [
+            [
+              "VAR",
+              "$TARGET_CARD_ID",
+              "$PROMPT_INPUT.[0]"
+            ],
+            [
+              "VAR",
+              "$TARGET_CARD",
+              "$GAME.cardById.{{$TARGET_CARD_ID}}"
+            ],
+            [
+              "COND",
+              [
+                "NOT_EQUAL",
+                "$TARGET_CARD.groupId",
+                "sharedGalaxyRow"
+              ],
+              [
+                "LOG",
+                "└── Selected card is not in the galaxy row."
+              ],
+              [
+                "AND",
+                [
+                  "NOT_EQUAL",
+                  "$TARGET_CARD.currentFace.faction",
+                  "Rebel"
+                ],
+                [
+                  "NOT_EQUAL",
+                  "$TARGET_CARD.currentFace.faction",
+                  "Neutral"
+                ]
+              ],
+              [
+                "LOG",
+                "└── Selected card is not Rebel or Neutral faction."
+              ],
+              [
+                "TRUE"
+              ],
+              [
+                [
+                  "LOG",
+                  "└── Purchased {{$TARGET_CARD.currentFace.name}} for free."
+                ],
+                [
+                  "MOVE_FROM_GALAXY_ROW",
+                  "$TARGET_CARD.id",
+                  "{{$CARD.controller}}Hand"
+                ]
+              ]
+            ]
+          ],
+          "numCards": 1
+        },
+        "type": "selectCards"
+      },
+      "message": "Choose a Rebel or neutral card from the galaxy row to purchase for free.",
+      "options": [
+        {
+          "label": "Purchase (select a card)"
+        },
+        {
+          "label": "Skip"
+        }
+      ]
+    },
+    "the_mandalorian_select": {
+      "args": [
+        "$CARD"
+      ],
+      "input": {
+        "autoSubmit": {
+          "code": [
+            [
+              "VAR",
+              "$TARGET_CARD_ID",
+              "$PROMPT_INPUT.[0]"
+            ],
+            [
+              "VAR",
+              "$TARGET_CARD",
+              "$GAME.cardById.{{$TARGET_CARD_ID}}"
+            ],
+            [
+              "COND",
+              [
+                "NOT_EQUAL",
+                "$TARGET_CARD.groupId",
+                "{{$CARD.controller}}Discard"
+              ],
+              [
+                "LOG",
+                "└── Selected card is not in your discard pile."
+              ],
+              [
+                "TRUE"
+              ],
+              [
+                [
+                  "SET",
+                  "/cardById/{{$CARD.id}}/tokens/selectedDiscardCardId",
+                  "$TARGET_CARD_ID"
+                ],
+                [
+                  "STOP_LOOKING",
+                  "$CARD.controller"
+                ],
+                [
+                  "PROMPT",
+                  "$CARD.controller",
+                  "the_mandalorian_place",
+                  "$CARD"
+                ]
+              ]
+            ]
+          ],
+          "numCards": 1
+        },
+        "type": "selectCards"
+      },
+      "message": "Select a card from your discard pile. Place it on top of your deck or exile it.",
+      "options": [
+        {
+          "code": [
+            [
+              "STOP_LOOKING",
+              "$CARD.controller"
+            ]
+          ],
+          "label": "Skip"
+        }
+      ]
+    },
+    "g4_discard": {
+      "args": [
+        "$CARD"
+      ],
+      "input": {
+        "autoSubmit": {
+          "code": [
+            [
+              "VAR",
+              "$DISCARD_CARD_ID",
+              "$PROMPT_INPUT.[0]"
+            ],
+            [
+              "VAR",
+              "$DISCARD_CARD",
+              "$GAME.cardById.{{$DISCARD_CARD_ID}}"
+            ],
+            [
+              "COND",
+              [
+                "NOT_EQUAL",
+                "$DISCARD_CARD.groupId",
+                "{{$PLAYER_N}}Hand"
+              ],
+              [
+                "LOG",
+                "└── Selected card is not in your hand."
+              ],
+              [
+                "TRUE"
+              ],
+              [
+                [
+                  "LOG",
+                  "└── Discarded {{$DISCARD_CARD.currentFace.name}}."
+                ],
+                [
+                  "DISCARD_CARD_ID",
+                  "$DISCARD_CARD_ID"
+                ],
+                [
+                  "SET",
+                  "/cardById/$CARD.id/rotation",
+                  -20
+                ]
+              ]
+            ]
+          ],
+          "numCards": 1
+        },
+        "type": "selectCards"
+      },
+      "message": "Select a card from your hand to discard."
+    },
+    "free_card_bounty": {
+      "args": [
+        "$PLAYER"
+      ],
+      "input": {
+        "autoSubmit": {
+          "code": [
+            [
+              "VAR",
+              "$TARGET_CARD_ID",
+              "$PROMPT_INPUT.[0]"
+            ],
+            [
+              "VAR",
+              "$TARGET_CARD",
+              "$GAME.cardById.{{$TARGET_CARD_ID}}"
+            ],
+            [
+              "COND",
+              [
+                "NOT_EQUAL",
+                "$TARGET_CARD.groupId",
+                "sharedGalaxyRow"
+              ],
+              [
+                [
+                  "LOG",
+                  "└── Selected card is not in the galaxy row."
+                ]
+              ],
+              [
+                "TRUE"
+              ],
+              [
+                [
+                  "LOG",
+                  "└── Purchased {{$TARGET_CARD.currentFace.name}} for free."
+                ],
+                [
+                  "GOT_PURCHASED",
+                  "$TARGET_CARD"
+                ],
+                [
+                  "STOP_LOOKING",
+                  "$PLAYER"
+                ]
+              ]
+            ]
+          ],
+          "numCards": 1
+        },
+        "type": "selectCards"
+      },
+      "message": "Select any card in the galaxy row to purchase for free.",
+      "options": [
+        {
+          "code": [
+            [
+              "STOP_LOOKING",
+              "$PLAYER"
+            ]
+          ],
+          "label": "Cancel"
+        }
+      ]
+    },
+    "cw_g1_exile": {
+      "args": [
+        "$CARD"
+      ],
+      "input": {
+        "autoSubmit": {
+          "code": [
+            [
+              "VAR",
+              "$TARGET_CARD_ID",
+              "$PROMPT_INPUT.[0]"
+            ],
+            [
+              "VAR",
+              "$TARGET_CARD",
+              "$GAME.cardById.{{$TARGET_CARD_ID}}"
+            ],
+            [
+              "COND",
+              [
+                "NOT_EQUAL",
+                "$TARGET_CARD.groupId",
+                "sharedGalaxyRow"
+              ],
+              [
+                "LOG",
+                "└── Selected card is not in the galaxy row."
+              ],
+              [
+                "NOT_EQUAL",
+                "$TARGET_CARD.currentFace.faction",
+                "Separatist"
+              ],
+              [
+                "LOG",
+                "└── Selected card is not a Separatist card."
+              ],
+              [
+                "TRUE"
+              ],
+              [
+                [
+                  "LOG",
+                  "└── Exiled {{$TARGET_CARD.currentFace.name}} and gained 2 resources."
+                ],
+                [
+                  "MOVE_FROM_GALAXY_ROW",
+                  "$TARGET_CARD_ID",
+                  "sharedExiled"
+                ],
+                [
+                  "GAIN_N_RESOURCES",
+                  "$CARD.controller",
+                  2
+                ],
+                [
+                  "SET",
+                  "/cardById/$CARD.id/rotation",
+                  -20
+                ]
+              ]
+            ]
+          ],
+          "numCards": 1
+        },
+        "type": "selectCards"
+      },
+      "message": "Select a Separatist card from the galaxy row to exile. If you do, gain 2 resources.",
+      "options": [
+        {
+          "code": [
+            [
+              "SET",
+              "/cardById/$CARD.id/rotation",
+              -20
+            ]
+          ],
+          "label": "Skip"
+        }
+      ]
+    },
+    "eb7_choose": {
+      "args": [
+        "$CARD"
+      ],
+      "input": {
+        "autoSubmit": {
+          "code": [
+            [
+              "VAR",
+              "$DISCARD_CARD_ID",
+              "$PROMPT_INPUT.[0]"
+            ],
+            [
+              "VAR",
+              "$DISCARD_CARD",
+              "$GAME.cardById.{{$DISCARD_CARD_ID}}"
+            ],
+            [
+              "LOG",
+              "└── Discarding {{$DISCARD_CARD.sides.A.name}} from the top of the galaxy deck."
+            ],
+            [
+              "MOVE_CARD",
+              "$DISCARD_CARD_ID",
+              "sharedGalaxyDiscard",
+              0
+            ]
+          ],
+          "numCards": 1
+        },
+        "type": "selectCards"
+      },
+      "message": "Select a card to discard. The other will be kept on top of the galaxy deck.",
+      "options": [
+        {
+          "code": [
+            [
+              "STOP_LOOKING",
+              "$CARD.controller"
+            ]
+          ],
+          "label": "Cancel"
+        }
+      ]
+    },
+    "g13_discard": {
+      "args": [
+        "$CARD"
+      ],
+      "input": {
+        "autoSubmit": {
+          "code": [
+            [
+              "VAR",
+              "$DISCARD_CARD_ID",
+              "$PROMPT_INPUT.[0]"
+            ],
+            [
+              "VAR",
+              "$DISCARD_CARD",
+              "$GAME.cardById.{{$DISCARD_CARD_ID}}"
+            ],
+            [
+              "COND",
+              [
+                "NOT_EQUAL",
+                "$DISCARD_CARD.groupId",
+                "{{$PLAYER_N}}Hand"
+              ],
+              [
+                "LOG",
+                "└── Selected card is not in your hand."
+              ],
+              [
+                "TRUE"
+              ],
+              [
+                [
+                  "LOG",
+                  "└── Discarded {{$DISCARD_CARD.currentFace.name}}."
+                ],
+                [
+                  "DISCARD_CARD_ID",
+                  "$DISCARD_CARD_ID"
+                ],
+                [
+                  "SET",
+                  "/cardById/$CARD.id/rotation",
+                  -20
+                ]
+              ]
+            ]
+          ],
+          "numCards": 1
+        },
+        "type": "selectCards"
+      },
+      "message": "Select a card from your hand to discard."
+    },
+    "g1_damage": {
+      "args": [
+        "$CARD"
+      ],
+      "input": {
+        "autoSubmit": {
+          "code": [
+            [
+              "VAR",
+              "$TARGET_CARD_ID",
+              "$PROMPT_INPUT.[0]"
+            ],
+            [
+              "VAR",
+              "$TARGET_CARD",
+              "$GAME.cardById.{{$TARGET_CARD_ID}}"
+            ],
+            [
+              "VAR",
+              "$OPPONENT",
+              [
+                "NEXT_PLAYER",
+                "$CARD.controller"
+              ]
+            ],
+            [
+              "COND",
+              [
+                "NOT_EQUAL",
+                "$TARGET_CARD.controller",
+                "$OPPONENT"
+              ],
+              [
+                "LOG",
+                "└── Selected card is not your opponent's."
+              ],
+              [
+                "AND",
+                [
+                  "NOT_EQUAL",
+                  "$TARGET_CARD.groupId",
+                  "{{$OPPONENT}}Base"
+                ],
+                [
+                  "NOT_EQUAL",
+                  "$TARGET_CARD.currentFace.type",
+                  "CapitalShip"
+                ]
+              ],
+              [
+                "LOG",
+                "└── Selected card is not a base or capital ship."
+              ],
+              [
+                "TRUE"
+              ],
+              [
+                [
+                  "LOG",
+                  "└── Dealt 2 damage to {{$TARGET_CARD.currentFace.name}}."
+                ],
+                [
+                  "INCREASE_VAL",
+                  "/cardById/{{$TARGET_CARD.id}}/tokens/damage",
+                  2
+                ],
+                [
+                  "FADE_TEXT_CARD",
+                  "$TARGET_CARD.id",
+                  "+2 token:damage"
+                ],
+                [
+                  "EXILE_CARD",
+                  "$CARD"
+                ]
+              ]
+            ]
+          ],
+          "numCards": 1
+        },
+        "type": "selectCards"
+      },
+      "message": "Deal 2 damage to your opponent's base or a capital ship they have in play.",
+      "options": [
+        {
+          "label": "Deal damage (select a card)"
+        },
+        {
+          "label": "Cancel"
+        }
+      ]
+    },
+    "g45_bounty_hunter": {
+      "args": [
+        "$CARD"
+      ],
+      "input": {
+        "autoSubmit": {
+          "code": [
+            [
+              "VAR",
+              "$TARGET_CARD_ID",
+              "$PROMPT_INPUT.[0]"
+            ],
+            [
+              "VAR",
+              "$TARGET_CARD",
+              "$GAME.cardById.{{$TARGET_CARD_ID}}"
+            ],
+            [
+              "COND",
+              [
+                "NOT_EQUAL",
+                "$TARGET_CARD.groupId",
+                "{{$CARD.controller}}Discard"
+              ],
+              [
+                "LOG",
+                "└── Selected card is not in your discard pile."
+              ],
+              [
+                "NOT",
+                [
+                  "IN_STRING",
+                  "$TARGET_CARD.currentFace.traits",
+                  "Bounty Hunter."
+                ]
+              ],
+              [
+                "LOG",
+                "└── Selected card is not a Bounty Hunter."
+              ],
+              [
+                "TRUE"
+              ],
+              [
+                [
+                  "LOG",
+                  "└── Added {{$TARGET_CARD.currentFace.name}} to hand."
+                ],
+                [
+                  "MOVE_CARD",
+                  "$TARGET_CARD.id",
+                  "{{$CARD.controller}}Hand",
+                  0
+                ],
+                [
+                  "STOP_LOOKING",
+                  "$CARD.controller"
+                ],
+                [
+                  "SET",
+                  "/cardById/$CARD.id/rotation",
+                  -20
+                ]
+              ]
+            ]
+          ],
+          "numCards": 1
+        },
+        "type": "selectCards"
+      },
+      "message": "Select a Bounty Hunter from your discard pile to add to your hand.",
+      "options": [
+        {
+          "label": "Add to hand (select a card)"
+        },
+        {
+          "code": [
+            [
+              "STOP_LOOKING",
+              "$CARD.controller"
+            ]
+          ],
+          "label": "Skip"
+        }
+      ]
+    },
+    "selectFaction_p2_rebel": {
+      "args": [],
+      "message": "Player 1 chose Rebel Alliance. Player 2, choose your faction:",
+      "options": [
+        {
+          "code": [
+            [
+              "SET",
+              "/player2Faction",
+              "Empire"
+            ],
+            [
+              "SET",
+              "/playerData/player2/label",
+              "Galactic Empire"
+            ],
+            [
+              "PROMPT",
+              "player1",
+              "selectBasesToWin"
+            ]
+          ],
+          "label": "Galactic Empire"
+        },
+        {
+          "code": [
+            [
+              "SET",
+              "/player2Faction",
+              "Republic"
+            ],
+            [
+              "SET",
+              "/playerData/player2/label",
+              "Galactic Republic"
+            ],
+            [
+              "PROMPT",
+              "player1",
+              "selectBasesToWin"
+            ]
+          ],
+          "label": "Galactic Republic"
+        },
+        {
+          "code": [
+            [
+              "SET",
+              "/player2Faction",
+              "Separatist"
+            ],
+            [
+              "SET",
+              "/playerData/player2/label",
+              "Separatist Alliance"
+            ],
+            [
+              "PROMPT",
+              "player1",
+              "selectBasesToWin"
+            ]
+          ],
+          "label": "Separatist Alliance"
+        },
+        {
+          "code": [
+            [
+              "SET",
+              "/player2Faction",
+              "Mandalorian"
+            ],
+            [
+              "SET",
+              "/playerData/player2/label",
+              "The Mandalorian"
+            ],
+            [
+              "PROMPT",
+              "player1",
+              "selectBasesToWin"
+            ]
+          ],
+          "label": "The Mandalorian"
+        }
+      ]
+    },
+    "gauntlet_dropship_trooper": {
+      "args": [
+        "$CARD"
+      ],
+      "input": {
+        "autoSubmit": {
+          "code": [
+            [
+              "VAR",
+              "$TARGET_CARD_ID",
+              "$PROMPT_INPUT.[0]"
+            ],
+            [
+              "VAR",
+              "$TARGET_CARD",
+              "$GAME.cardById.{{$TARGET_CARD_ID}}"
+            ],
+            [
+              "COND",
+              [
+                "NOT_EQUAL",
+                "$TARGET_CARD.groupId",
+                "{{$CARD.controller}}Deck"
+              ],
+              [
+                "LOG",
+                "└── Selected card is not in your deck."
+              ],
+              [
+                "NOT",
+                [
+                  "IN_STRING",
+                  "$TARGET_CARD.currentFace.traits",
+                  "Trooper."
+                ]
+              ],
+              [
+                "LOG",
+                "└── Selected card is not a Trooper."
+              ],
+              [
+                "TRUE"
+              ],
+              [
+                [
+                  "LOG",
+                  "└── Added {{$TARGET_CARD.currentFace.name}} to hand."
+                ],
+                [
+                  "MOVE_CARD",
+                  "$TARGET_CARD_ID",
+                  "{{$CARD.controller}}Hand",
+                  0
+                ],
+                [
+                  "STOP_LOOKING",
+                  "$CARD.controller"
+                ],
+                [
+                  "SET",
+                  "/cardById/$CARD.id/rotation",
+                  -20
+                ]
+              ]
+            ]
+          ],
+          "numCards": 1
+        },
+        "type": "selectCards"
+      },
+      "message": "Select a revealed Trooper from the top 5 cards of your deck to add to your hand.",
+      "options": [
+        {
+          "code": [
+            [
+              "LOG",
+              "└── No Trooper found in top 5 cards."
+            ],
+            [
+              "STOP_LOOKING",
+              "$CARD.controller"
+            ],
+            [
+              "SET",
+              "/cardById/$CARD.id/rotation",
+              -20
+            ]
+          ],
+          "label": "Skip (no Trooper)"
+        }
+      ]
+    },
+    "rb8_select_discard": {
+      "args": [
+        "$CARD"
+      ],
+      "input": {
+        "autoSubmit": {
+          "code": [
+            [
+              "VAR",
+              "$DISCARD_CARD_ID",
+              "$PROMPT_INPUT.[0]"
+            ],
+            [
+              "VAR",
+              "$DISCARD_CARD",
+              "$GAME.cardById.{{$DISCARD_CARD_ID}}"
+            ],
+            [
+              "VAR",
+              "$ROW_CARD_ID",
+              "$GAME.cardById.{{$CARD.id}}.tokens.swapCardId"
+            ],
+            [
+              "COND",
+              [
+                "NOT_EQUAL",
+                "$DISCARD_CARD.groupId",
+                "sharedGalaxyDiscard"
+              ],
+              [
+                "LOG",
+                "└── Selected card is not in the galaxy discard pile."
+              ],
+              [
+                "NOT_EQUAL",
+                "$DISCARD_CARD.currentFace.faction",
+                "Rebel"
+              ],
+              [
+                "LOG",
+                "└── Selected card is not a Rebel card."
+              ],
+              [
+                "TRUE"
+              ],
+              [
+                [
+                  "LOG",
+                  "└── Swapping {{$DISCARD_CARD.currentFace.name}} into the galaxy row."
+                ],
+                [
+                  "MOVE_FROM_GALAXY_ROW",
+                  "$ROW_CARD_ID",
+                  "sharedGalaxyDiscard"
+                ],
+                [
+                  "MOVE_CARD",
+                  "$DISCARD_CARD_ID",
+                  "sharedGalaxyRow",
+                  0
+                ],
+                [
+                  "GAIN_N_RESOURCES",
+                  "$CARD.controller",
+                  1
+                ],
+                [
+                  "STOP_LOOKING",
+                  "$CARD.controller"
+                ]
+              ]
+            ]
+          ],
+          "numCards": 1
+        },
+        "type": "selectCards"
+      },
+      "message": "Select a Rebel card from the galaxy discard pile to add to the galaxy row.",
+      "options": [
+        {
+          "code": [
+            [
+              "STOP_LOOKING",
+              "$CARD.controller"
+            ]
+          ],
+          "label": "Cancel"
+        }
+      ]
+    },
+    "gameOver": {
+      "args": [
+        "$MESSAGE"
+      ],
+      "message": "{{$MESSAGE}}",
+      "options": [
+        {
+          "code": [],
+          "hotkey": "Enter",
+          "label": "OK"
+        }
+      ]
+    },
+    "cw_g24_facedown": {
+      "args": [
+        "$CARD",
+        "$TOP_CARD"
+      ],
+      "message": "Turn the revealed card facedown.",
+      "options": [
+        {
+          "code": [
+            [
+              "SET",
+              "/cardById/{{$TOP_CARD.id}}/currentSide",
+              "B"
+            ]
+          ],
+          "hotkey": "1",
+          "label": "Turn facedown"
+        }
+      ]
+    },
+    "ncs1_ability": {
+      "args": [
+        "$CARD"
+      ],
+      "input": {
+        "autoSubmit": {
+          "code": [
+            [
+              "VAR",
+              "$CARD_ID",
+              "$PROMPT_INPUT.[0]"
+            ],
+            [
+              "VAR",
+              "$SELECTED_CARD",
+              "$GAME.cardById.{{$CARD_ID}}"
+            ],
+            [
+              "COND",
+              [
+                "NOT_EQUAL",
+                "$SELECTED_CARD.groupId",
+                "{{$CARD.controller}}Hand"
+              ],
+              [
+                "LOG",
+                "└── Selected card is not in your hand."
+              ],
+              [
+                "TRUE"
+              ],
+              [
+                [
+                  "LOG",
+                  "└── C-ROC Cruiser's ability: Discard 1 card to repair 3 damage."
+                ],
+                [
+                  "DISCARD_CARD",
+                  "$SELECTED_CARD"
+                ],
+                [
+                  "REPAIR_DAMAGE",
+                  "$CARD.controller",
+                  3
+                ],
+                [
+                  "SET",
+                  "/cardById/$CARD.id/rotation",
+                  -20
+                ]
+              ]
+            ]
+          ],
+          "numCards": 1
+        },
+        "type": "selectCards"
+      },
+      "message": "Discard 1 card from your hand to repair 3 damage from your base.",
+      "options": [
+        {
+          "label": "Cancel"
+        }
+      ]
+    },
+    "the_mandalorian_place": {
+      "args": [
+        "$CARD"
+      ],
+      "message": "Place the selected card on top of your deck or exile it.",
+      "options": [
+        {
+          "code": [
+            [
+              "VAR",
+              "$TARGET_CARD_ID",
+              "$GAME.cardById.{{$CARD.id}}.tokens.selectedDiscardCardId"
+            ],
+            [
+              "VAR",
+              "$TARGET_CARD",
+              "$GAME.cardById.{{$TARGET_CARD_ID}}"
+            ],
+            [
+              "LOG",
+              "└── Placed {{$TARGET_CARD.currentFace.name}} on top of deck."
+            ],
+            [
+              "MOVE_CARD",
+              "$TARGET_CARD_ID",
+              "{{$CARD.controller}}Deck",
+              0
+            ]
+          ],
+          "hotkey": "1",
+          "label": "Place on top of deck"
+        },
+        {
+          "code": [
+            [
+              "VAR",
+              "$TARGET_CARD_ID",
+              "$GAME.cardById.{{$CARD.id}}.tokens.selectedDiscardCardId"
+            ],
+            [
+              "VAR",
+              "$TARGET_CARD",
+              "$GAME.cardById.{{$TARGET_CARD_ID}}"
+            ],
+            [
+              "LOG",
+              "└── Exiled {{$TARGET_CARD.currentFace.name}}."
+            ],
+            [
+              "EXILE_CARD",
+              "$TARGET_CARD"
+            ]
+          ],
+          "hotkey": "2",
+          "label": "Exile it"
+        }
+      ]
+    },
+    "cw_g12_exile": {
+      "args": [
+        "$CARD"
+      ],
+      "input": {
+        "autoSubmit": {
+          "code": [
+            [
+              "VAR",
+              "$TARGET_CARD_ID",
+              "$PROMPT_INPUT.[0]"
+            ],
+            [
+              "VAR",
+              "$TARGET_CARD",
+              "$GAME.cardById.{{$TARGET_CARD_ID}}"
+            ],
+            [
+              "COND",
+              [
+                "NOT_EQUAL",
+                "$TARGET_CARD.groupId",
+                "sharedGalaxyRow"
+              ],
+              [
+                "LOG",
+                "└── Selected card is not in the galaxy row."
+              ],
+              [
+                "NOT_EQUAL",
+                "$TARGET_CARD.currentFace.faction",
+                "Separatist"
+              ],
+              [
+                "LOG",
+                "└── Selected card is not a Separatist card."
+              ],
+              [
+                "TRUE"
+              ],
+              [
+                [
+                  "LOG",
+                  "└── Exiled {{$TARGET_CARD.currentFace.name}}."
+                ],
+                [
+                  "MOVE_FROM_GALAXY_ROW",
+                  "$TARGET_CARD_ID",
+                  "sharedExiled"
+                ],
+                [
+                  "SET",
+                  "/cardById/$CARD.id/rotation",
+                  -20
+                ],
+                [
+                  "VAR",
+                  "$OPPONENT",
+                  [
+                    "NEXT_PLAYER",
+                    "$CARD.controller"
+                  ]
+                ],
+                [
+                  "LOOK_AT",
+                  "$CARD.controller",
+                  "{{$OPPONENT}}Play",
+                  -1,
+                  true
+                ],
+                [
+                  "PROMPT",
+                  "$CARD.controller",
+                  "cw_g12_damage",
+                  "$CARD"
+                ]
+              ]
+            ]
+          ],
+          "numCards": 1
+        },
+        "type": "selectCards"
+      },
+      "message": "Select a Separatist card from the galaxy row to exile. If you do, you may deal 3 damage to a capital ship your opponent has in play.",
+      "options": [
+        {
+          "code": [
+            [
+              "SET",
+              "/cardById/$CARD.id/rotation",
+              -20
+            ]
+          ],
+          "label": "Skip"
+        }
+      ]
+    },
+    "cw_sb10_purchase": {
+      "args": [
+        "$CARD"
+      ],
+      "input": {
+        "autoSubmit": {
+          "code": [
+            [
+              "VAR",
+              "$TARGET_CARD_ID",
+              "$PROMPT_INPUT.[0]"
+            ],
+            [
+              "VAR",
+              "$TARGET_CARD",
+              "$GAME.cardById.{{$TARGET_CARD_ID}}"
+            ],
+            [
+              "COND",
+              [
+                "NOT_EQUAL",
+                "$TARGET_CARD.groupId",
+                "sharedGalaxyRow"
+              ],
+              [
+                "LOG",
+                "└── Selected card is not in the galaxy row."
+              ],
+              [
+                "AND",
+                [
+                  "NOT_EQUAL",
+                  "$TARGET_CARD.currentFace.faction",
+                  "Separatist"
+                ],
+                [
+                  "NOT_EQUAL",
+                  "$TARGET_CARD.currentFace.faction",
+                  "Neutral"
+                ]
+              ],
+              [
+                "LOG",
+                "└── Selected card is not Separatist or Neutral faction."
+              ],
+              [
+                "TRUE"
+              ],
+              [
+                [
+                  "LOG",
+                  "└── Purchased {{$TARGET_CARD.currentFace.name}} for free."
+                ],
+                [
+                  "MOVE_FROM_GALAXY_ROW",
+                  "$TARGET_CARD.id",
+                  "{{$CARD.controller}}Hand"
+                ]
+              ]
+            ]
+          ],
+          "numCards": 1
+        },
+        "type": "selectCards"
+      },
+      "message": "Choose a Separatist or neutral card from the galaxy row to purchase for free.",
+      "options": [
+        {
+          "label": "Purchase (select a card)"
+        },
+        {
+          "label": "Skip"
+        }
+      ]
+    },
+    "g29_trooper": {
+      "args": [
+        "$CARD"
+      ],
+      "input": {
+        "autoSubmit": {
+          "code": [
+            [
+              "VAR",
+              "$TARGET_CARD_ID",
+              "$PROMPT_INPUT.[0]"
+            ],
+            [
+              "VAR",
+              "$TARGET_CARD",
+              "$GAME.cardById.{{$TARGET_CARD_ID}}"
+            ],
+            [
+              "COND",
+              [
+                "NOT_EQUAL",
+                "$TARGET_CARD.groupId",
+                "{{$CARD.controller}}Discard"
+              ],
+              [
+                "LOG",
+                "└── Selected card is not in your discard pile."
+              ],
+              [
+                "NOT",
+                [
+                  "IN_STRING",
+                  "$TARGET_CARD.currentFace.traits",
+                  "Trooper."
+                ]
+              ],
+              [
+                "LOG",
+                "└── Selected card is not a Trooper."
+              ],
+              [
+                "TRUE"
+              ],
+              [
+                [
+                  "LOG",
+                  "└── Added {{$TARGET_CARD.currentFace.name}} to hand."
+                ],
+                [
+                  "MOVE_CARD",
+                  "$TARGET_CARD.id",
+                  "{{$CARD.controller}}Hand",
+                  0
+                ],
+                [
+                  "STOP_LOOKING",
+                  "$CARD.controller"
+                ],
+                [
+                  "SET",
+                  "/cardById/$CARD.id/rotation",
+                  -20
+                ]
+              ]
+            ]
+          ],
+          "numCards": 1
+        },
+        "type": "selectCards"
+      },
+      "message": "Select a Trooper from your discard pile to add to your hand.",
+      "options": [
+        {
+          "label": "Add to hand (select a card)"
+        },
+        {
+          "code": [
+            [
+              "STOP_LOOKING",
+              "$CARD.controller"
+            ]
+          ],
+          "label": "Skip"
+        }
+      ]
+    },
+    "cw_g29_discard": {
+      "args": [
+        "$CARD",
+        "$TOP_CARD"
+      ],
+      "message": "You revealed the top card of your deck. You may discard it.",
+      "options": [
+        {
+          "code": [
+            [
+              "LOG",
+              "└── Discarded {{$TOP_CARD.sides.A.name}}."
+            ],
+            [
+              "DISCARD_CARD",
+              "$TOP_CARD"
+            ]
+          ],
+          "hotkey": "1",
+          "label": "Discard it"
+        },
+        {
+          "code": [
+            [
+              "LOG",
+              "└── Kept card on top of deck."
+            ]
+          ],
+          "hotkey": "2",
+          "label": "Keep on top"
+        }
+      ]
+    },
+    "cw_sb8_droid": {
+      "args": [
+        "$CARD"
+      ],
+      "input": {
+        "autoSubmit": {
+          "code": [
+            [
+              "VAR",
+              "$TARGET_CARD_ID",
+              "$PROMPT_INPUT.[0]"
+            ],
+            [
+              "VAR",
+              "$TARGET_CARD",
+              "$GAME.cardById.{{$TARGET_CARD_ID}}"
+            ],
+            [
+              "COND",
+              [
+                "NOT_EQUAL",
+                "$TARGET_CARD.groupId",
+                "{{$CARD.controller}}Discard"
+              ],
+              [
+                "LOG",
+                "└── Selected card is not in your discard pile."
+              ],
+              [
+                "NOT",
+                [
+                  "IN_STRING",
+                  "$TARGET_CARD.currentFace.traits",
+                  "Droid."
+                ]
+              ],
+              [
+                "LOG",
+                "└── Selected card is not a Droid."
+              ],
+              [
+                "LESS_THAN",
+                "$GAME.playerData.{{$CARD.controller}}.resources",
+                "$TARGET_CARD.currentFace.cost"
+              ],
+              [
+                "LOG",
+                "└── Not enough resources to purchase this Droid."
+              ],
+              [
+                "TRUE"
+              ],
+              [
+                [
+                  "VAR",
+                  "$CARD_COST",
+                  "$TARGET_CARD.currentFace.cost"
+                ],
+                [
+                  "LOG",
+                  "└── Spent {{$CARD_COST}} resources to add {{$TARGET_CARD.currentFace.name}} to hand."
+                ],
+                [
+                  "DECREASE_VAL",
+                  "/playerData/{{$CARD.controller}}/resources",
+                  "$CARD_COST"
+                ],
+                [
+                  "MOVE_CARD",
+                  "$TARGET_CARD_ID",
+                  "{{$CARD.controller}}Hand",
+                  0
+                ],
+                [
+                  "STOP_LOOKING",
+                  "$CARD.controller"
+                ],
+                [
+                  "SET",
+                  "/cardById/$CARD.id/rotation",
+                  -20
+                ]
+              ]
+            ]
+          ],
+          "numCards": 1
+        },
+        "type": "selectCards"
+      },
+      "message": "Select a Droid from your discard pile. You will spend resources equal to its cost to add it to your hand.",
+      "options": [
+        {
+          "code": [
+            [
+              "STOP_LOOKING",
+              "$CARD.controller"
+            ]
+          ],
+          "label": "Cancel"
+        }
+      ]
+    },
+    "cw_g7_discard": {
+      "args": [
+        "$CARD"
+      ],
+      "input": {
+        "autoSubmit": {
+          "code": [
+            [
+              "VAR",
+              "$TARGET_CARD_ID",
+              "$PROMPT_INPUT.[0]"
+            ],
+            [
+              "VAR",
+              "$TARGET_CARD",
+              "$GAME.cardById.{{$TARGET_CARD_ID}}"
+            ],
+            [
+              "COND",
+              [
+                "NOT_EQUAL",
+                "$TARGET_CARD.groupId",
+                "sharedGalaxyRow"
+              ],
+              [
+                "LOG",
+                "└── Selected card is not in the galaxy row."
+              ],
+              [
+                "NOT_EQUAL",
+                "$TARGET_CARD.currentFace.faction",
+                "Neutral"
+              ],
+              [
+                "LOG",
+                "└── Selected card is not a neutral card."
+              ],
+              [
+                "TRUE"
+              ],
+              [
+                [
+                  "LOG",
+                  "└── Discarded {{$TARGET_CARD.currentFace.name}} from the galaxy row."
+                ],
+                [
+                  "MOVE_FROM_GALAXY_ROW",
+                  "$TARGET_CARD_ID",
+                  "sharedGalaxyDiscard"
+                ],
+                [
+                  "SET",
+                  "/cardById/$CARD.id/rotation",
+                  -20
+                ],
+                [
+                  "COND",
+                  [
+                    "IS_FORCE_WITH_YOU",
+                    "$CARD.controller"
+                  ],
+                  [
+                    [
+                      "LOG",
+                      "└── The Force is with you. You may replace it with a Separatist card from the galaxy discard."
+                    ],
+                    [
+                      "LOOK_AT",
+                      "$CARD.controller",
+                      "sharedGalaxyDiscard",
+                      -1,
+                      true
+                    ],
+                    [
+                      "PROMPT",
+                      "$CARD.controller",
+                      "cw_g7_replace",
+                      "$CARD"
+                    ]
+                  ]
+                ]
+              ]
+            ]
+          ],
+          "numCards": 1
+        },
+        "type": "selectCards"
+      },
+      "message": "Select a neutral card from the galaxy row to discard.",
+      "options": [
+        {
+          "code": [
+            [
+              "SET",
+              "/cardById/$CARD.id/rotation",
+              -20
+            ]
+          ],
+          "label": "Cancel"
+        }
+      ]
+    },
+    "cw_rs3": {
+      "args": [
+        "$CARD"
+      ],
+      "message": "Choose to have Jedi Knight gain 1 attack, 1 resource, or 1 force.",
+      "options": [
+        {
+          "code": [
+            [
+              "LOG",
+              "└── Added 1 attack until the end of the round."
+            ],
+            [
+              "INCREASE_VAL",
+              "/cardById/{{$CARD.id}}/tokens/attackModifier",
+              1
+            ],
+            [
+              "FADE_TEXT_CARD",
+              "$CARD.id",
+              "+1 token:attackModifier"
+            ]
+          ],
+          "hotkey": "1",
+          "label": "Gain 1 Attack"
+        },
+        {
+          "code": [
+            [
+              "LOG",
+              "└── Gained 1 resource."
+            ],
+            [
+              "INCREASE_VAL",
+              "/playerData/{{$CARD.controller}}/resources",
+              1
+            ],
+            [
+              "FADE_TEXT_PLAYER",
+              "$CARD.controller",
+              "+1 token:resource"
+            ]
+          ],
+          "hotkey": "2",
+          "label": "Gain 1 Resource"
+        },
+        {
+          "code": [
+            [
+              "LOG",
+              "└── Gained 1 force."
+            ],
+            [
+              "GAIN_N_FORCE",
+              "$CARD.controller",
+              1
+            ]
+          ],
+          "hotkey": "3",
+          "label": "Gain 1 Force"
+        }
+      ]
+    },
+    "cw_g16_swap": {
+      "args": [
+        "$ABILITY_CARD",
+        "$TOP_CARD"
+      ],
+      "input": {
+        "autoSubmit": {
+          "code": [
+            [
+              "VAR",
+              "$DISCARD_CARD_ID",
+              "$PROMPT_INPUT.[0]"
+            ],
+            [
+              "VAR",
+              "$DISCARD_CARD",
+              "$GAME.cardById.{{$DISCARD_CARD_ID}}"
+            ],
+            [
+              "COND",
+              [
+                "NOT_EQUAL",
+                "$DISCARD_CARD.groupId",
+                "{{$CARD.controller}}Discard"
+              ],
+              [
+                [
+                  "LOG",
+                  "└── Selected card is not in your discard pile."
+                ],
+                [
+                  "PROMPT",
+                  "$CARD.controller",
+                  "cw_g16_swap",
+                  "$CARD",
+                  "$TOP_CARD"
+                ]
+              ],
+              [
+                "TRUE"
+              ],
+              [
+                [
+                  "LOG",
+                  "└── Swapped {{$DISCARD_CARD.sides.A.name}} with {{$TOP_CARD.sides.A.name}}."
+                ],
+                [
+                  "MOVE_CARD",
+                  "$TOP_CARD.id",
+                  "{{$CARD.controller}}Discard",
+                  0
+                ],
+                [
+                  "MOVE_CARD",
+                  "$DISCARD_CARD_ID",
+                  "{{$CARD.controller}}Deck",
+                  0
+                ],
+                [
+                  "STOP_LOOKING",
+                  "$CARD.controller"
+                ]
+              ]
+            ]
+          ],
+          "numCards": 1
+        },
+        "type": "selectCards"
+      },
+      "message": "The Force is with you. Select a card from your discard pile to swap with the top card of your deck.",
+      "options": [
+        {
+          "code": [
+            [
+              "LOG",
+              "└── Kept the top card of the deck."
+            ],
+            [
+              "STOP_LOOKING",
+              "$CARD.controller"
+            ]
+          ],
+          "label": "Keep top card"
+        }
+      ]
+    },
+    "cw_g28_facedown": {
+      "args": [
+        "$CARD",
+        "$TOP_CARD"
+      ],
+      "message": "The revealed card is not a Jedi or Trooper. Turn it facedown.",
+      "options": [
+        {
+          "code": [
+            [
+              "SET",
+              "/cardById/{{$TOP_CARD.id}}/currentSide",
+              "B"
+            ]
+          ],
+          "hotkey": "1",
+          "label": "Turn facedown"
+        }
+      ]
+    },
+    "selectFaction_p2_empire": {
+      "args": [],
+      "message": "Player 1 chose Galactic Empire. Player 2, choose your faction:",
+      "options": [
+        {
+          "code": [
+            [
+              "SET",
+              "/player2Faction",
+              "Rebel"
+            ],
+            [
+              "SET",
+              "/playerData/player2/label",
+              "Rebel Alliance"
+            ],
+            [
+              "PROMPT",
+              "player1",
+              "selectBasesToWin"
+            ]
+          ],
+          "label": "Rebel Alliance"
+        },
+        {
+          "code": [
+            [
+              "SET",
+              "/player2Faction",
+              "Republic"
+            ],
+            [
+              "SET",
+              "/playerData/player2/label",
+              "Galactic Republic"
+            ],
+            [
+              "PROMPT",
+              "player1",
+              "selectBasesToWin"
+            ]
+          ],
+          "label": "Galactic Republic"
+        },
+        {
+          "code": [
+            [
+              "SET",
+              "/player2Faction",
+              "Separatist"
+            ],
+            [
+              "SET",
+              "/playerData/player2/label",
+              "Separatist Alliance"
+            ],
+            [
+              "PROMPT",
+              "player1",
+              "selectBasesToWin"
+            ]
+          ],
+          "label": "Separatist Alliance"
+        },
+        {
+          "code": [
+            [
+              "SET",
+              "/player2Faction",
+              "Mandalorian"
+            ],
+            [
+              "SET",
+              "/playerData/player2/label",
+              "The Mandalorian"
+            ],
+            [
+              "PROMPT",
+              "player1",
+              "selectBasesToWin"
+            ]
+          ],
+          "label": "The Mandalorian"
+        }
+      ]
+    },
+    "g12_discard": {
+      "args": [],
+      "input": {
+        "autoSubmit": {
+          "code": [
+            [
+              "VAR",
+              "$CARD_ID",
+              "$PROMPT_INPUT.[0]"
+            ],
+            [
+              "VAR",
+              "$CARD",
+              "$GAME.cardById.{{$CARD_ID}}"
+            ],
+            [
+              "DISCARD_CARD",
+              "$CARD"
+            ]
+          ],
+          "numCards": 1
+        },
+        "type": "selectCards"
+      },
+      "message": "Cassian Andor defeated a target. Discard 1 card from your hand.",
+      "options": [
+        {
+          "label": "Discard (select a card)"
+        }
+      ]
+    },
+    "restartGame": {
+      "args": [
+        "$MESSAGE"
+      ],
+      "message": "$MESSAGE",
+      "options": [
+        {
+          "hotkey": "K",
+          "label": "OK"
+        },
+        {
+          "code": [
+            [
+              "LOG",
+              "{{$ALIAS_N}} has requested a rematch."
+            ],
+            [
+              "SET",
+              "/playerData/$PLAYER_N/wantsRematch",
+              true
+            ],
+            [
+              "COND",
+              [
+                "AND",
+                [
+                  "EQUAL",
+                  "$GAME.playerData.player1.wantsRematch",
+                  true
+                ],
+                [
+                  "EQUAL",
+                  "$GAME.playerData.player2.wantsRematch",
+                  true
+                ]
+              ],
+              [
+                "RESET_GAME"
+              ]
+            ]
+          ],
+          "hotkey": "R",
+          "label": "Ask for rematch"
+        }
+      ]
+    },
+    "rb8_select_row": {
+      "args": [
+        "$CARD"
+      ],
+      "input": {
+        "autoSubmit": {
+          "code": [
+            [
+              "VAR",
+              "$ROW_CARD_ID",
+              "$PROMPT_INPUT.[0]"
+            ],
+            [
+              "VAR",
+              "$ROW_CARD",
+              "$GAME.cardById.{{$ROW_CARD_ID}}"
+            ],
+            [
+              "COND",
+              [
+                "NOT_EQUAL",
+                "$ROW_CARD.groupId",
+                "sharedGalaxyRow"
+              ],
+              [
+                "LOG",
+                "└── Selected card is not in the galaxy row."
+              ],
+              [
+                "TRUE"
+              ],
+              [
+                [
+                  "LOG",
+                  "└── Selected {{$ROW_CARD.currentFace.name}} to remove from the galaxy row."
+                ],
+                [
+                  "SET",
+                  "/cardById/{{$CARD.id}}/tokens/swapCardId",
+                  "$ROW_CARD_ID"
+                ],
+                [
+                  "STOP_LOOKING",
+                  "$CARD.controller"
+                ],
+                [
+                  "LOOK_AT",
+                  "$CARD.controller",
+                  "sharedGalaxyDiscard",
+                  -1,
+                  true
+                ],
+                [
+                  "PROMPT",
+                  "$CARD.controller",
+                  "rb8_select_discard",
+                  "$CARD"
+                ]
+              ]
+            ]
+          ],
+          "numCards": 1
+        },
+        "type": "selectCards"
+      },
+      "message": "Select a card from the galaxy row to swap out.",
+      "options": [
+        {
+          "code": [
+            [
+              "STOP_LOOKING",
+              "$CARD.controller"
+            ]
+          ],
+          "label": "Cancel"
+        }
+      ]
+    },
+    "bo_katan_select": {
+      "args": [
+        "$CARD"
+      ],
+      "input": {
+        "autoSubmit": {
+          "code": [
+            [
+              "VAR",
+              "$TARGET_CARD_ID",
+              "$PROMPT_INPUT.[0]"
+            ],
+            [
+              "VAR",
+              "$TARGET_CARD",
+              "$GAME.cardById.{{$TARGET_CARD_ID}}"
+            ],
+            [
+              "COND",
+              [
+                "NOT_EQUAL",
+                "$TARGET_CARD.groupId",
+                "{{$CARD.controller}}Discard"
+              ],
+              [
+                "LOG",
+                "└── Selected card is not in your discard pile."
+              ],
+              [
+                "NOT_EQUAL",
+                "$TARGET_CARD.currentFace.faction",
+                "Mandalorian"
+              ],
+              [
+                "LOG",
+                "└── Selected card is not a Mandalorian card."
+              ],
+              [
+                "TRUE"
+              ],
+              [
+                [
+                  "LOG",
+                  "└── Added {{$TARGET_CARD.currentFace.name}} to hand."
+                ],
+                [
+                  "MOVE_CARD",
+                  "$TARGET_CARD_ID",
+                  "{{$CARD.controller}}Hand",
+                  0
+                ],
+                [
+                  "STOP_LOOKING",
+                  "$CARD.controller"
+                ],
+                [
+                  "SET",
+                  "/cardById/$CARD.id/rotation",
+                  -20
+                ]
+              ]
+            ]
+          ],
+          "numCards": 1
+        },
+        "type": "selectCards"
+      },
+      "message": "Select a Mandalorian card in your discard pile to add to your hand.",
+      "options": [
+        {
+          "code": [
+            [
+              "STOP_LOOKING",
+              "$CARD.controller"
+            ],
+            [
+              "SET",
+              "/cardById/$CARD.id/rotation",
+              -20
+            ]
+          ],
+          "label": "Skip (no Mandalorian card)"
+        }
+      ]
+    },
+    "attackOnCard": {
+      "args": [],
+      "message": "To target a card with your attackers, hover over it and press S. It will take the damage, and your attackers will gain a red border, indicating that they can no longer attack. Press \"Next\" when you'd like to learn how to end your turn.",
+      "options": [
+        {
+          "code": [
+            "PROMPT",
+            "$PLAYER_N",
+            "endTurn"
+          ],
+          "label": "Next"
+        }
+      ]
+    },
+    "cw_ss3": {
+      "args": [
+        "$CARD"
+      ],
+      "message": "Choose to have Dark Side Agent gain 1 attack, 1 resource, or 1 force.",
+      "options": [
+        {
+          "code": [
+            [
+              "LOG",
+              "└── Added 1 attack until the end of the round."
+            ],
+            [
+              "INCREASE_VAL",
+              "/cardById/{{$CARD.id}}/tokens/attackModifier",
+              1
+            ],
+            [
+              "FADE_TEXT_CARD",
+              "$CARD.id",
+              "+1 token:attackModifier"
+            ]
+          ],
+          "hotkey": "1",
+          "label": "Gain 1 Attack"
+        },
+        {
+          "code": [
+            [
+              "LOG",
+              "└── Gained 1 resource."
+            ],
+            [
+              "INCREASE_VAL",
+              "/playerData/{{$CARD.controller}}/resources",
+              1
+            ],
+            [
+              "FADE_TEXT_PLAYER",
+              "$CARD.controller",
+              "+1 token:resource"
+            ]
+          ],
+          "hotkey": "2",
+          "label": "Gain 1 Resource"
+        },
+        {
+          "code": [
+            [
+              "LOG",
+              "└── Gained 1 force."
+            ],
+            [
+              "GAIN_N_FORCE",
+              "$CARD.controller",
+              1
+            ]
+          ],
+          "hotkey": "3",
+          "label": "Gain 1 Force"
+        }
+      ]
+    },
+    "g14_select": {
+      "args": [
+        "$CARD"
+      ],
+      "input": {
+        "autoSubmit": {
+          "code": [
+            [
+              "VAR",
+              "$TARGET_CARD_ID",
+              "$PROMPT_INPUT.[0]"
+            ],
+            [
+              "VAR",
+              "$TARGET_CARD",
+              "$GAME.cardById.{{$TARGET_CARD_ID}}"
+            ],
+            [
+              "COND",
+              [
+                "NOT_EQUAL",
+                "$TARGET_CARD.groupId",
+                "sharedGalaxyRow"
+              ],
+              [
+                "LOG",
+                "└── Selected card is not in the galaxy row."
+              ],
+              [
+                "NOT_EQUAL",
+                "$TARGET_CARD.currentFace.faction",
+                "Rebel"
+              ],
+              [
+                "LOG",
+                "└── Selected card is not a Rebel card."
+              ],
+              [
+                "TRUE"
+              ],
+              [
+                [
+                  "LOG",
+                  "└── Purchased {{$TARGET_CARD.currentFace.name}} for free."
+                ],
+                [
+                  "GOT_PURCHASED",
+                  "$TARGET_CARD"
+                ],
+                [
+                  "COND",
+                  [
+                    "IS_FORCE_WITH_YOU",
+                    "$CARD.controller"
+                  ],
+                  [
+                    [
+                      "LOG",
+                      "└── The Force is with you, placing card on top of your deck."
+                    ],
+                    [
+                      "MOVE_CARD",
+                      "$TARGET_CARD_ID",
+                      "{{$CARD.controller}}Deck",
+                      0
+                    ]
+                  ]
+                ],
+                [
+                  "SET",
+                  "/cardById/{{$CARD.id}}/rotation",
+                  -20
+                ],
+                [
+                  "STOP_LOOKING",
+                  "$CARD.controller"
+                ]
+              ]
+            ]
+          ],
+          "numCards": 1
+        },
+        "type": "selectCards"
+      },
+      "message": "Select a Rebel card from the galaxy row to purchase for free.",
+      "options": [
+        {
+          "code": [
+            [
+              "STOP_LOOKING",
+              "$CARD.controller"
+            ]
+          ],
+          "label": "Cancel"
+        }
+      ]
+    },
+    "rs3": {
+      "args": [
+        "$CARD"
+      ],
+      "message": "Choose to have Temple Guardian gain 1 attack, 1 resource, or 1 force.",
+      "options": [
+        {
+          "code": [
+            [
+              "LOG",
+              "└── ",
+              "Added 1 attack until the end of the round."
+            ],
+            [
+              "INCREASE_VAL",
+              "/cardById/{{$CARD.id}}/tokens/attackModifier",
+              1
+            ],
+            [
+              "FADE_TEXT_CARD",
+              "$CARD.id",
+              "+1 token:attackModifier"
+            ]
+          ],
+          "hotkey": "1",
+          "label": "Gain 1 Attack"
+        },
+        {
+          "code": [
+            [
+              "LOG",
+              "└── ",
+              "Gained 1 resource."
+            ],
+            [
+              "INCREASE_VAL",
+              "/playerData/{{$CARD.controller}}/resources",
+              1
+            ],
+            [
+              "FADE_TEXT_PLAYER",
+              "$CARD.controller",
+              "+1 token:resource"
+            ]
+          ],
+          "hotkey": "2",
+          "label": "Gain 1 Resource"
+        },
+        {
+          "code": [
+            [
+              "LOG",
+              "└── ",
+              "Gained 1 force."
+            ],
+            [
+              "GAIN_N_FORCE",
+              "$CARD.controller",
+              1
+            ]
+          ],
+          "hotkey": "3",
+          "label": "Gain 1 Force"
+        }
+      ]
+    },
+    "cw_g3_enemy": {
+      "args": [
+        "$CARD"
+      ],
+      "input": {
+        "autoSubmit": {
+          "code": [
+            [
+              "VAR",
+              "$TARGET_CARD_ID",
+              "$PROMPT_INPUT.[0]"
+            ],
+            [
+              "VAR",
+              "$TARGET_CARD",
+              "$GAME.cardById.{{$TARGET_CARD_ID}}"
+            ],
+            [
+              "VAR",
+              "$MY_FACTION",
+              [
+                "GET_FACTION",
+                "$CARD.controller"
+              ]
+            ],
+            [
+              "COND",
+              [
+                "NOT_EQUAL",
+                "$TARGET_CARD.groupId",
+                "sharedGalaxyRow"
+              ],
+              [
+                "LOG",
+                "└── Selected card is not in the galaxy row."
+              ],
+              [
+                "OR",
+                [
+                  "EQUAL",
+                  "$TARGET_CARD.currentFace.faction",
+                  "$MY_FACTION"
+                ],
+                [
+                  "EQUAL",
+                  "$TARGET_CARD.currentFace.faction",
+                  "Neutral"
+                ]
+              ],
+              [
+                "LOG",
+                "└── Selected card is not an enemy card."
+              ],
+              [
+                "TRUE"
+              ],
+              [
+                [
+                  "LOG",
+                  "└── Discarding {{$TARGET_CARD.currentFace.name}} from galaxy row."
+                ],
+                [
+                  "MOVE_FROM_GALAXY_ROW",
+                  "$TARGET_CARD_ID",
+                  "sharedGalaxyDiscard"
+                ],
+                [
+                  "SET",
+                  "/cardById/$CARD.id/rotation",
+                  -20
+                ]
+              ]
+            ]
+          ],
+          "numCards": 1
+        },
+        "type": "selectCards"
+      },
+      "message": "The Force is with you. Select 1 enemy unit from the galaxy row to also discard.",
+      "options": [
+        {
+          "code": [
+            [
+              "SET",
+              "/cardById/$CARD.id/rotation",
+              -20
+            ]
+          ],
+          "label": "Skip"
+        }
+      ]
+    },
+    "tutorial": {
+      "args": [],
+      "message": "Welcome to Star Wars: The Deckbuilding Game in DragnCards. Would you like a tutorial to help you through your first round? The tutorial assumes you know the rules of the game and just need help with the controls.",
+      "options": [
+        {
+          "code": [
+            "PROMPT",
+            "$PLAYER_N",
+            "playACard"
+          ],
+          "label": "Yes, start the tutorial"
+        },
+        {
+          "label": "Skip tutorial this time"
+        },
+        {
+          "dontShowAgain": true,
+          "label": "Skip tutorial forever"
+        }
+      ]
+    },
+    "g33_purchase": {
+      "args": [
+        "$CARD"
+      ],
+      "input": {
+        "autoSubmit": {
+          "code": [
+            [
+              "VAR",
+              "$TARGET_CARD_ID",
+              "$PROMPT_INPUT.[0]"
+            ],
+            [
+              "VAR",
+              "$TARGET_CARD",
+              "$GAME.cardById.{{$TARGET_CARD_ID}}"
+            ],
+            [
+              "COND",
+              [
+                "NOT_EQUAL",
+                "$TARGET_CARD.groupId",
+                "sharedGalaxyDiscard"
+              ],
+              [
+                "LOG",
+                "└── Selected card is not in the galaxy discard pile."
+              ],
+              [
+                "TRUE"
+              ],
+              [
+                [
+                  "STOP_LOOKING",
+                  "$CARD.controller"
+                ],
+                [
+                  "BUY_CARD",
+                  "$TARGET_CARD"
+                ],
+                [
+                  "EXILE_CARD",
+                  "$CARD"
+                ]
+              ]
+            ]
+          ],
+          "numCards": 1
+        },
+        "type": "selectCards"
+      },
+      "message": "Purchase a card from the galaxy discard pile as if it were in the galaxy row.",
+      "options": [
+        {
+          "code": [
+            [
+              "STOP_LOOKING",
+              "$CARD.controller"
+            ]
+          ],
+          "label": "Cancel"
+        }
+      ]
+    },
+    "eb2_purchase": {
+      "args": [
+        "$CARD"
+      ],
+      "input": {
+        "autoSubmit": {
+          "code": [
+            [
+              "VAR",
+              "$TARGET_CARD_ID",
+              "$PROMPT_INPUT.[0]"
+            ],
+            [
+              "VAR",
+              "$TARGET_CARD",
+              "$GAME.cardById.{{$TARGET_CARD_ID}}"
+            ],
+            [
+              "COND",
+              [
+                "NOT_EQUAL",
+                "$TARGET_CARD.groupId",
+                "sharedGalaxyRow"
+              ],
+              [
+                "LOG",
+                "└── Selected card is not in the galaxy row."
+              ],
+              [
+                "AND",
+                [
+                  "NOT_EQUAL",
+                  "$TARGET_CARD.currentFace.faction",
+                  "Empire"
+                ],
+                [
+                  "NOT_EQUAL",
+                  "$TARGET_CARD.currentFace.faction",
+                  "Neutral"
+                ]
+              ],
+              [
+                "LOG",
+                "└── Selected card is not Empire or Neutral faction."
+              ],
+              [
+                "TRUE"
+              ],
+              [
+                [
+                  "LOG",
+                  "└── Purchased {{$TARGET_CARD.currentFace.name}} for free and added it to their hand."
+                ],
+                [
+                  "MOVE_FROM_GALAXY_ROW",
+                  "$TARGET_CARD.id",
+                  "{{$CARD.controller}}Hand"
+                ]
+              ]
+            ]
+          ],
+          "numCards": 1
+        },
+        "type": "selectCards"
+      },
+      "message": "Choose an Empire or neutral card from the galaxy row to purchase for free.",
+      "options": [
+        {
+          "label": "Skip"
+        }
+      ]
+    },
+    "g16_destroy": {
+      "args": [
+        "$CARD"
+      ],
+      "input": {
+        "autoSubmit": {
+          "code": [
+            [
+              "VAR",
+              "$TARGET_CARD_ID",
+              "$PROMPT_INPUT.[0]"
+            ],
+            [
+              "VAR",
+              "$TARGET_CARD",
+              "$GAME.cardById.{{$TARGET_CARD_ID}}"
+            ],
+            [
+              "VAR",
+              "$OPPONENT",
+              "player2"
+            ],
+            [
+              "COND",
+              [
+                "EQUAL",
+                "$CARD.controller",
+                "player2"
+              ],
+              [
+                "UPDATE_VAR",
+                "$OPPONENT",
+                "player1"
+              ]
+            ],
+            [
+              "COND",
+              [
+                "NOT_EQUAL",
+                "$TARGET_CARD.controller",
+                "$OPPONENT"
+              ],
+              [
+                "LOG",
+                "└── Selected card is not controlled by your opponent."
+              ],
+              [
+                "NOT_EQUAL",
+                "$TARGET_CARD.currentFace.type",
+                "CapitalShip"
+              ],
+              [
+                "LOG",
+                "└── Selected card is not a Capital Ship."
+              ],
+              [
+                "NOT_EQUAL",
+                "$TARGET_CARD.inPlay",
+                true
+              ],
+              [
+                "LOG",
+                "└── Selected card is not in play."
+              ],
+              [
+                "TRUE"
+              ],
+              [
+                [
+                  "LOG",
+                  "└── Destroyed {{$TARGET_CARD.currentFace.name}}."
+                ],
+                [
+                  "DESTROY_CARD",
+                  "$TARGET_CARD"
+                ],
+                [
+                  "STOP_LOOKING",
+                  "$CARD.controller"
+                ],
+                [
+                  "SET",
+                  "/cardById/$CARD.id/rotation",
+                  -20
+                ]
+              ]
+            ]
+          ],
+          "numCards": 1
+        },
+        "type": "selectCards"
+      },
+      "message": "Select an opponent's capital ship to destroy.",
+      "options": [
+        {
+          "code": [
+            [
+              "STOP_LOOKING",
+              "$CARD.controller"
+            ]
+          ],
+          "label": "Cancel"
+        }
+      ]
+    },
+    "buyACard": {
+      "args": [],
+      "message": "To buy a card, hover over it and press B. Purchasable cards are highlighted with an orange border. Press \"Next\" when you'd like to learn how to attack.",
+      "options": [
+        {
+          "code": [
+            "PROMPT",
+            "$PLAYER_N",
+            "attackWithCard"
+          ],
+          "label": "Next"
+        }
+      ]
+    },
+    "purchaseFreeCardFromGroupId": {
+      "args": [
+        "$GROUP_ID",
+        "$FACTION",
+        {
+          "$PLACE_ON_TOP_OF_DECK": false
+        }
+      ],
+      "input": {
+        "autoSubmit": {
+          "code": [
+            [
+              "VAR",
+              "$PURCHASED_CARD",
+              "$GAME.cardById.{{$PROMPT_INPUT.[0]}}"
+            ],
+            [
+              "LOG",
+              "{{$ALIAS_N}} purchased {{$PURCHASED_CARD.sides.A.name}} for free."
+            ],
+            [
+              "COND",
+              [
+                "EQUAL",
+                "$PLACE_ON_TOP_OF_DECK",
+                true
+              ],
+              [
+                [
+                  "LOG",
+                  "{{$ALIAS_N}} placed it on top of their deck."
+                ],
+                [
+                  "MOVE_CARD",
+                  "$PURCHASED_CARD.id",
+                  "{{$PLAYER_I}}Deck",
+                  0
+                ]
+              ],
+              [
+                "TRUE"
+              ],
+              [
+                "MOVE_CARD",
+                "$PURCHASED_CARD.id",
+                "{{$PLAYER_I}}Discard",
+                0
+              ]
+            ]
+          ],
+          "numCards": 1
+        },
+        "type": "selectCards"
+      },
+      "message": "Select a {{$FACTION}} card in the galaxy row to purchase for free.",
+      "options": [
+        {
+          "label": "Cancel"
+        }
+      ]
+    },
+    "otherHotkeys": {
+      "args": [],
+      "message": "Your turn is over. You now know the basics of playing Star Wars: The Deckbuilding Game in DragnCards. Note that while most effects occur automatically, manual intervention may sometimes be required. So while your opponent takes their turn, check out the full hotkey list by holding Tab. Good luck, and may the F hotkey be with you!",
+      "options": [
+        {
+          "label": "Finish Tutorial"
+        }
+      ]
+    },
+    "cw_sb2_replace": {
+      "args": [
+        "$CARD"
+      ],
+      "input": {
+        "autoSubmit": {
+          "code": [
+            [
+              "VAR",
+              "$TARGET_CARD_ID",
+              "$PROMPT_INPUT.[0]"
+            ],
+            [
+              "VAR",
+              "$TARGET_CARD",
+              "$GAME.cardById.{{$TARGET_CARD_ID}}"
+            ],
+            [
+              "VAR",
+              "$MY_FACTION",
+              [
+                "GET_FACTION",
+                "$CARD.controller"
+              ]
+            ],
+            [
+              "COND",
+              [
+                "NOT_EQUAL",
+                "$TARGET_CARD.groupId",
+                "sharedGalaxyDiscard"
+              ],
+              [
+                "LOG",
+                "└── Selected card is not in the galaxy discard pile."
+              ],
+              [
+                "OR",
+                [
+                  "EQUAL",
+                  "$TARGET_CARD.currentFace.faction",
+                  "$MY_FACTION"
+                ],
+                [
+                  "EQUAL",
+                  "$TARGET_CARD.currentFace.faction",
+                  "Neutral"
+                ]
+              ],
+              [
+                "LOG",
+                "└── Selected card is not an enemy card."
+              ],
+              [
+                "TRUE"
+              ],
+              [
+                [
+                  "VAR",
+                  "$CARD_COST",
+                  "$TARGET_CARD.currentFace.cost"
+                ],
+                [
+                  "LOG",
+                  "└── Added {{$TARGET_CARD.currentFace.name}} to the galaxy row (cost {{$CARD_COST}})."
+                ],
+                [
+                  "MOVE_CARD",
+                  "$TARGET_CARD_ID",
+                  "sharedGalaxyRow",
+                  0
+                ],
+                [
+                  "LOG",
+                  "└── Gained {{$CARD_COST}} resources."
+                ],
+                [
+                  "GAIN_N_RESOURCES",
+                  "$CARD.controller",
+                  "$CARD_COST"
+                ],
+                [
+                  "STOP_LOOKING",
+                  "$CARD.controller"
+                ]
+              ]
+            ]
+          ],
+          "numCards": 1
+        },
+        "type": "selectCards"
+      },
+      "message": "Select an enemy card from the galaxy discard pile to add to the galaxy row. You will gain resources equal to its cost.",
+      "options": [
+        {
+          "code": [
+            [
+              "LOG",
+              "└── Skipped replacing the card."
+            ],
+            [
+              "STOP_LOOKING",
+              "$CARD.controller"
+            ]
+          ],
+          "label": "Skip"
+        }
+      ]
+    },
+    "selectFaction_p1": {
+      "args": [],
+      "message": "Player 1, choose your faction:",
+      "options": [
+        {
+          "code": [
+            [
+              "SET",
+              "/player1Faction",
+              "Empire"
+            ],
+            [
+              "SET",
+              "/playerData/player1/label",
+              "Empire"
+            ],
+            [
+              "PROMPT",
+              "player1",
+              "selectFaction_p2_empire"
+            ]
+          ],
+          "label": "Galactic Empire"
+        },
+        {
+          "code": [
+            [
+              "SET",
+              "/player1Faction",
+              "Rebel"
+            ],
+            [
+              "SET",
+              "/playerData/player1/label",
+              "Rebels"
+            ],
+            [
+              "PROMPT",
+              "player1",
+              "selectFaction_p2_rebel"
+            ]
+          ],
+          "label": "Rebel Alliance"
+        },
+        {
+          "code": [
+            [
+              "SET",
+              "/player1Faction",
+              "Republic"
+            ],
+            [
+              "SET",
+              "/playerData/player1/label",
+              "Republic"
+            ],
+            [
+              "PROMPT",
+              "player1",
+              "selectFaction_p2_republic"
+            ]
+          ],
+          "label": "Galactic Republic"
+        },
+        {
+          "code": [
+            [
+              "SET",
+              "/player1Faction",
+              "Separatist"
+            ],
+            [
+              "SET",
+              "/playerData/player1/label",
+              "Separatists"
+            ],
+            [
+              "PROMPT",
+              "player1",
+              "selectFaction_p2_separatist"
+            ]
+          ],
+          "label": "Separatist Alliance"
+        },
+        {
+          "code": [
+            [
+              "SET",
+              "/player1Faction",
+              "Mandalorian"
+            ],
+            [
+              "SET",
+              "/playerData/player1/label",
+              "Mandalorian"
+            ],
+            [
+              "PROMPT",
+              "player1",
+              "selectFaction_p2_mandalorian"
+            ]
+          ],
+          "label": "The Mandalorian"
+        }
+      ]
+    },
+    "rcs2_ability": {
+      "args": [
+        "$CARD"
+      ],
+      "input": {
+        "autoSubmit": {
+          "code": [
+            [
+              "VAR",
+              "$TARGET_CARD_ID",
+              "$PROMPT_INPUT.[0]"
+            ],
+            [
+              "VAR",
+              "$TARGET_CARD",
+              "$GAME.cardById.{{$TARGET_CARD_ID}}"
+            ],
+            [
+              "VAR",
+              "$OPPONENT",
+              [
+                "NEXT_PLAYER",
+                "$CARD.controller"
+              ]
+            ],
+            [
+              "COND",
+              [
+                "NOT_EQUAL",
+                "$TARGET_CARD.currentFace.type",
+                "CapitalShip"
+              ],
+              [
+                "LOG",
+                "└── Selected card is not a capital ship."
+              ],
+              [
+                "AND",
+                [
+                  "NOT_EQUAL",
+                  "$TARGET_CARD.controller",
+                  "$OPPONENT"
+                ],
+                [
+                  "NOT_EQUAL",
+                  "$TARGET_CARD.groupId",
+                  "sharedGalaxyRow"
+                ]
+              ],
+              [
+                "LOG",
+                "└── Selected card is not an enemy capital ship."
+              ],
+              [
+                "TRUE"
+              ],
+              [
+                [
+                  "LOG",
+                  "└── Destroyed {{$TARGET_CARD.currentFace.name}}."
+                ],
+                [
+                  "EXILE_CARD",
+                  "$CARD"
+                ],
+                [
+                  "DESTROY_CARD",
+                  "$TARGET_CARD"
+                ]
+              ]
+            ]
+          ],
+          "numCards": 1
+        },
+        "type": "selectCards"
+      },
+      "message": "Exile this capital ship to destroy a capital ship your opponent has in play, or an enemy capital ship in the galaxy row.",
+      "options": [
+        {
+          "label": "Cancel"
+        }
+      ]
+    },
+    "cw_g4_select_row": {
+      "args": [
+        "$CARD"
+      ],
+      "input": {
+        "autoSubmit": {
+          "code": [
+            [
+              "VAR",
+              "$ROW_CARD_ID",
+              "$PROMPT_INPUT.[0]"
+            ],
+            [
+              "VAR",
+              "$ROW_CARD",
+              "$GAME.cardById.{{$ROW_CARD_ID}}"
+            ],
+            [
+              "COND",
+              [
+                "NOT_EQUAL",
+                "$ROW_CARD.groupId",
+                "sharedGalaxyRow"
+              ],
+              [
+                "LOG",
+                "└── Selected card is not in the galaxy row."
+              ],
+              [
+                "NOT_EQUAL",
+                "$ROW_CARD.currentFace.type",
+                "Unit"
+              ],
+              [
+                "LOG",
+                "└── Selected card is not a unit."
+              ],
+              [
+                "TRUE"
+              ],
+              [
+                [
+                  "SET",
+                  "/cardById/{{$CARD.id}}/tokens/swapCardId",
+                  "$ROW_CARD_ID"
+                ],
+                [
+                  "STOP_LOOKING",
+                  "$CARD.controller"
+                ],
+                [
+                  "LOOK_AT",
+                  "$CARD.controller",
+                  "sharedExiled",
+                  -1,
+                  true
+                ],
+                [
+                  "PROMPT",
+                  "$CARD.controller",
+                  "cw_g4_select_exile",
+                  "$CARD"
+                ]
+              ]
+            ]
+          ],
+          "numCards": 1
+        },
+        "type": "selectCards"
+      },
+      "message": "Select a unit from the galaxy row to remove.",
+      "options": [
+        {
+          "code": [
+            [
+              "STOP_LOOKING",
+              "$CARD.controller"
+            ],
+            [
+              "SET",
+              "/cardById/$CARD.id/rotation",
+              -20
+            ]
+          ],
+          "label": "Cancel"
+        }
+      ]
+    },
+    "eb8": {
+      "args": [
+        "$CARD"
+      ],
+      "input": {
+        "autoSubmit": {
+          "code": [
+            [
+              "VAR",
+              "$TARGET_CARD_ID",
+              "$PROMPT_INPUT.[0]"
+            ],
+            [
+              "VAR",
+              "$TARGET_CARD",
+              "$GAME.cardById.{{$TARGET_CARD_ID}}"
+            ],
+            [
+              "COND",
+              [
+                "NOT_EQUAL",
+                "$TARGET_CARD.currentFace.type",
+                "CapitalShip"
+              ],
+              [
+                "LOG",
+                "└── ",
+                "Selected card is not a capital ship. Ability cannot be resolved."
+              ],
+              [
+                "AND",
+                [
+                  "NOT_EQUAL",
+                  "$TARGET_CARD.inPlay",
+                  true
+                ],
+                [
+                  "NOT_EQUAL",
+                  "$TARGET_CARD.groupId",
+                  "sharedGalaxyRow"
+                ]
+              ],
+              [
+                "LOG",
+                "└── ",
+                "Selected card is not in play. Ability cannot be resolved."
+              ],
+              [
+                "LESS_THAN",
+                "$GAME.playerData.{{$CARD.controller}}.resources",
+                4
+              ],
+              [
+                "LOG",
+                "└── ",
+                "Not enough resources to use Death Star ability."
+              ],
+              [
+                "EQUAL",
+                "$TARGET_CARD.controller",
+                "$CARD.controller"
+              ],
+              [
+                "LOG",
+                "└── ",
+                "Cannot target your own capital ship with Death Star ability."
+              ],
+              [
+                "TRUE"
+              ],
+              [
+                [
+                  "DECREASE_VAL",
+                  "/playerData/{{$CARD.controller}}/resources",
+                  4
+                ],
+                [
+                  "DESTROY_CARD",
+                  "$TARGET_CARD"
+                ]
+              ]
+            ]
+          ],
+          "numCards": 1
+        },
+        "type": "selectCards"
+      },
+      "message": "Choose a capital ship to destroy.",
+      "options": [
+        {
+          "label": "Cancel"
+        }
+      ]
+    },
+    "axe_woves_place": {
+      "args": [
+        "$CARD"
+      ],
+      "message": "Place Axe Woves on top of the galaxy deck to move the Force marker to the neutral space?",
+      "options": [
+        {
+          "code": [
+            [
+              "LOG",
+              "└── Placed Axe Woves on top of the galaxy deck. The Force marker moves to the neutral space."
+            ],
+            [
+              "MOVE_CARD",
+              "$CARD.id",
+              "sharedGalaxyDeck",
+              0
+            ],
+            [
+              "SET_TRACKER_VALUE",
+              0
+            ]
+          ],
+          "hotkey": "1",
+          "label": "Place on top of galaxy deck"
+        },
+        {
+          "hotkey": "2",
+          "label": "Cancel"
+        }
+      ]
+    },
+    "endTurn": {
+      "args": [],
+      "message": "To end your turn, press Shift+D.",
+      "options": [
+        {
+          "code": [
+            [
+              "END_TURN",
+              "$PLAYER_N"
+            ],
+            [
+              "PROMPT",
+              "$PLAYER_N",
+              "otherHotkeys"
+            ]
+          ],
+          "hotkey": "Shift+D",
+          "label": "End Turn"
+        }
+      ]
+    },
+    "cw_rb10_exile": {
+      "args": [
+        "$CARD"
+      ],
+      "input": {
+        "autoSubmit": {
+          "code": [
+            [
+              "VAR",
+              "$TARGET_CARD_ID",
+              "$PROMPT_INPUT.[0]"
+            ],
+            [
+              "VAR",
+              "$TARGET_CARD",
+              "$GAME.cardById.{{$TARGET_CARD_ID}}"
+            ],
+            [
+              "VAR",
+              "$MY_FACTION",
+              [
+                "GET_FACTION",
+                "$CARD.controller"
+              ]
+            ],
+            [
+              "COND",
+              [
+                "NOT_EQUAL",
+                "$TARGET_CARD.groupId",
+                "sharedGalaxyRow"
+              ],
+              [
+                [
+                  "LOG",
+                  "└── Selected card is not in the galaxy row. Please select again."
+                ],
+                [
+                  "PROMPT",
+                  "$CARD.controller",
+                  "cw_rb10_exile",
+                  "$CARD"
+                ]
+              ],
+              [
+                "OR",
+                [
+                  "EQUAL",
+                  "$TARGET_CARD.currentFace.faction",
+                  "$MY_FACTION"
+                ],
+                [
+                  "EQUAL",
+                  "$TARGET_CARD.currentFace.faction",
+                  "Neutral"
+                ]
+              ],
+              [
+                [
+                  "LOG",
+                  "└── Selected card is not an enemy card. Please select again."
+                ],
+                [
+                  "PROMPT",
+                  "$CARD.controller",
+                  "cw_rb10_exile",
+                  "$CARD"
+                ]
+              ],
+              [
+                "TRUE"
+              ],
+              [
+                [
+                  "LOG",
+                  "└── Exiled {{$TARGET_CARD.currentFace.name}} from the galaxy row."
+                ],
+                [
+                  "MOVE_FROM_GALAXY_ROW",
+                  "$TARGET_CARD_ID",
+                  "sharedExiled"
+                ],
+                [
+                  "LOOK_AT",
+                  "$CARD.controller",
+                  "{{$CARD.controller}}Discard",
+                  -1,
+                  true
+                ],
+                [
+                  "PROMPT",
+                  "$CARD.controller",
+                  "cw_rb10_deckTop",
+                  "$CARD"
+                ]
+              ]
+            ]
+          ],
+          "numCards": 1
+        },
+        "type": "selectCards"
+      },
+      "message": "Select an enemy card from the galaxy row to exile.",
+      "options": []
+    },
+    "cw_rb6_trooper": {
+      "args": [
+        "$CARD"
+      ],
+      "input": {
+        "autoSubmit": {
+          "code": [
+            [
+              "VAR",
+              "$TARGET_CARD_ID",
+              "$PROMPT_INPUT.[0]"
+            ],
+            [
+              "VAR",
+              "$TARGET_CARD",
+              "$GAME.cardById.{{$TARGET_CARD_ID}}"
+            ],
+            [
+              "COND",
+              [
+                "NOT_EQUAL",
+                "$TARGET_CARD.groupId",
+                "{{$CARD.controller}}Discard"
+              ],
+              [
+                "LOG",
+                "└── Selected card is not in your discard pile."
+              ],
+              [
+                "NOT",
+                [
+                  "IN_STRING",
+                  "$TARGET_CARD.currentFace.traits",
+                  "Trooper."
+                ]
+              ],
+              [
+                "LOG",
+                "└── Selected card is not a Trooper."
+              ],
+              [
+                "TRUE"
+              ],
+              [
+                [
+                  "LOG",
+                  "└── Added {{$TARGET_CARD.currentFace.name}} to hand."
+                ],
+                [
+                  "MOVE_CARD",
+                  "$TARGET_CARD.id",
+                  "{{$CARD.controller}}Hand",
+                  0
+                ],
+                [
+                  "STOP_LOOKING",
+                  "$CARD.controller"
+                ]
+              ]
+            ]
+          ],
+          "numCards": 1
+        },
+        "type": "selectCards"
+      },
+      "message": "Select a Trooper from your discard pile to add to your hand.",
+      "options": [
+        {
+          "label": "Add to hand (select a card)"
+        },
+        {
+          "code": [
+            [
+              "STOP_LOOKING",
+              "$CARD.controller"
+            ]
+          ],
+          "label": "Skip"
+        }
+      ]
+    },
+    "g15_unique": {
+      "args": [
+        "$CARD"
+      ],
+      "input": {
+        "autoSubmit": {
+          "code": [
+            [
+              "VAR",
+              "$TARGET_CARD_ID",
+              "$PROMPT_INPUT.[0]"
+            ],
+            [
+              "VAR",
+              "$TARGET_CARD",
+              "$GAME.cardById.{{$TARGET_CARD_ID}}"
+            ],
+            [
+              "COND",
+              [
+                "NOT_EQUAL",
+                "$TARGET_CARD.groupId",
+                "{{$CARD.controller}}Discard"
+              ],
+              [
+                "LOG",
+                "└── Selected card is not in your discard pile."
+              ],
+              [
+                "NOT_EQUAL",
+                "$TARGET_CARD.currentFace.unique",
+                true
+              ],
+              [
+                [
+                  "LOG",
+                  "└── Selected card is not unique."
+                ],
+                [
+                  "PROMPT",
+                  "$CARD.controller",
+                  "g15_unique",
+                  "$CARD"
+                ]
+              ],
+              [
+                "TRUE"
+              ],
+              [
+                [
+                  "LOG",
+                  "└── Added {{$TARGET_CARD.currentFace.name}} to hand."
+                ],
+                [
+                  "MOVE_CARD",
+                  "$TARGET_CARD.id",
+                  "{{$CARD.controller}}Hand",
+                  0
+                ],
+                [
+                  "STOP_LOOKING",
+                  "$CARD.controller"
+                ],
+                [
+                  "SET",
+                  "/cardById/$CARD.id/rotation",
+                  -20
+                ]
+              ]
+            ]
+          ],
+          "numCards": 1
+        },
+        "type": "selectCards"
+      },
+      "message": "Select a unique (◆) unit from your discard pile to add to your hand.",
+      "options": [
+        {
+          "code": [
+            [
+              "STOP_LOOKING",
+              "$CARD.controller"
+            ]
+          ],
+          "label": "Cancel"
+        }
+      ]
+    },
+    "selectBasesToWin": {
+      "args": [],
+      "message": "Player 1, choose how many bases a player must destroy to win:",
+      "options": [
+        {
+          "code": [
+            [
+              "SET",
+              "/basesToWin",
+              1
+            ],
+            [
+              "PROMPT",
+              "player1",
+              "selectNeutralDeck"
+            ]
+          ],
+          "label": "1 base"
+        },
+        {
+          "code": [
+            [
+              "SET",
+              "/basesToWin",
+              2
+            ],
+            [
+              "PROMPT",
+              "player1",
+              "selectNeutralDeck"
+            ]
+          ],
+          "label": "2 bases"
+        },
+        {
+          "code": [
+            [
+              "SET",
+              "/basesToWin",
+              3
+            ],
+            [
+              "PROMPT",
+              "player1",
+              "selectNeutralDeck"
+            ]
+          ],
+          "label": "3 bases"
+        },
+        {
+          "code": [
+            [
+              "SET",
+              "/basesToWin",
+              4
+            ],
+            [
+              "PROMPT",
+              "player1",
+              "selectNeutralDeck"
+            ]
+          ],
+          "label": "4 bases"
+        },
+        {
+          "code": [
+            [
+              "SET",
+              "/basesToWin",
+              5
+            ],
+            [
+              "PROMPT",
+              "player1",
+              "selectNeutralDeck"
+            ]
+          ],
+          "label": "5 bases"
+        }
+      ]
+    },
+    "selectFaction_p2_separatist": {
+      "args": [],
+      "message": "Player 1 chose Separatist Alliance. Player 2, choose your faction:",
+      "options": [
+        {
+          "code": [
+            [
+              "SET",
+              "/player2Faction",
+              "Empire"
+            ],
+            [
+              "SET",
+              "/playerData/player2/label",
+              "Galactic Empire"
+            ],
+            [
+              "PROMPT",
+              "player1",
+              "selectBasesToWin"
+            ]
+          ],
+          "label": "Galactic Empire"
+        },
+        {
+          "code": [
+            [
+              "SET",
+              "/player2Faction",
+              "Rebel"
+            ],
+            [
+              "SET",
+              "/playerData/player2/label",
+              "Rebel Alliance"
+            ],
+            [
+              "PROMPT",
+              "player1",
+              "selectBasesToWin"
+            ]
+          ],
+          "label": "Rebel Alliance"
+        },
+        {
+          "code": [
+            [
+              "SET",
+              "/player2Faction",
+              "Republic"
+            ],
+            [
+              "SET",
+              "/playerData/player2/label",
+              "Galactic Republic"
+            ],
+            [
+              "PROMPT",
+              "player1",
+              "selectBasesToWin"
+            ]
+          ],
+          "label": "Galactic Republic"
+        },
+        {
+          "code": [
+            [
+              "SET",
+              "/player2Faction",
+              "Mandalorian"
+            ],
+            [
+              "SET",
+              "/playerData/player2/label",
+              "The Mandalorian"
+            ],
+            [
+              "PROMPT",
+              "player1",
+              "selectBasesToWin"
+            ]
+          ],
+          "label": "The Mandalorian"
+        }
+      ]
+    },
+    "exileUpto2": {
+      "args": [],
+      "input": {
+        "autoSubmit": {
+          "code": [
+            [
+              "EXILE_CARD_IDS",
+              "$PROMPT_INPUT"
+            ],
+            [
+              "STOP_LOOKING",
+              "$PLAYER_N"
+            ]
+          ],
+          "numCards": 2
+        },
+        "type": "selectCards"
+      },
+      "message": "Select up to 2 cards from your hand or discard to exile.",
+      "options": [
+        {
+          "code": [
+            [
+              "EXILE_CARD_IDS",
+              "$PROMPT_INPUT"
+            ],
+            [
+              "STOP_LOOKING",
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "E",
+          "label": "Exile selected cards"
+        },
+        {
+          "code": [
+            "STOP_LOOKING",
+            "$PLAYER_N"
+          ],
+          "label": "Cancel"
+        }
+      ]
+    },
+    "g6_discard": {
+      "args": [
+        "$CARD"
+      ],
+      "input": {
+        "autoSubmit": {
+          "code": [
+            [
+              "VAR",
+              "$DISCARD_CARD_ID",
+              "$PROMPT_INPUT.[0]"
+            ],
+            [
+              "VAR",
+              "$DISCARD_CARD",
+              "$GAME.cardById.{{$DISCARD_CARD_ID}}"
+            ],
+            [
+              "COND",
+              [
+                "NOT_EQUAL",
+                "$DISCARD_CARD.groupId",
+                "{{$PLAYER_N}}Hand"
+              ],
+              [
+                "LOG",
+                "└── Selected card is not in your hand."
+              ],
+              [
+                "TRUE"
+              ],
+              [
+                [
+                  "LOG",
+                  "└── Discarded {{$DISCARD_CARD.currentFace.name}}."
+                ],
+                [
+                  "DISCARD_CARD_ID",
+                  "$DISCARD_CARD_ID"
+                ],
+                [
+                  "SET",
+                  "/cardById/$CARD.id/rotation",
+                  -20
+                ]
+              ]
+            ]
+          ],
+          "numCards": 1
+        },
+        "type": "selectCards"
+      },
+      "message": "Select a card from your hand to discard."
+    },
+    "selectNeutralDeck": {
+      "args": [],
+      "message": "Choose a neutral galaxy deck:",
+      "options": [
+        {
+          "code": [
+            [
+              "LOAD_FACTION_P1"
+            ],
+            [
+              "LOAD_FACTION_P2"
+            ],
+            [
+              "LOAD_CARDS",
+              "core_neutral"
+            ],
+            [
+              "LOAD_CARDS",
+              "shared"
+            ],
+            [
+              "DRAW_STARTING_HANDS"
+            ],
+            [
+              "SET",
+              "/started",
+              true
+            ],
+            [
+              "REFILL_GALAXY_ROW"
+            ],
+            [
+              "SET_TRACKER_VALUE",
+              3
+            ],
+            [
+              "START_TURN",
+              "player1"
+            ]
+          ],
+          "label": "Core Set Neutral (Bounty Hunters & Smugglers)"
+        },
+        {
+          "code": [
+            [
+              "LOAD_FACTION_P1"
+            ],
+            [
+              "LOAD_FACTION_P2"
+            ],
+            [
+              "LOAD_CARDS",
+              "cw_neutral"
+            ],
+            [
+              "LOAD_CARDS",
+              "shared"
+            ],
+            [
+              "DRAW_STARTING_HANDS"
+            ],
+            [
+              "SET",
+              "/started",
+              true
+            ],
+            [
+              "REFILL_GALAXY_ROW"
+            ],
+            [
+              "SET_TRACKER_VALUE",
+              3
+            ],
+            [
+              "START_TURN",
+              "player1"
+            ]
+          ],
+          "label": "Clone Wars Neutral (Underworld & Mercenaries)"
+        }
+      ]
+    },
+    "selectFaction_p2_mandalorian": {
+      "args": [],
+      "message": "Player 1 chose The Mandalorian. Player 2, choose your faction:",
+      "options": [
+        {
+          "code": [
+            [
+              "SET",
+              "/player2Faction",
+              "Empire"
+            ],
+            [
+              "SET",
+              "/playerData/player2/label",
+              "Galactic Empire"
+            ],
+            [
+              "PROMPT",
+              "player1",
+              "selectBasesToWin"
+            ]
+          ],
+          "label": "Galactic Empire"
+        },
+        {
+          "code": [
+            [
+              "SET",
+              "/player2Faction",
+              "Rebel"
+            ],
+            [
+              "SET",
+              "/playerData/player2/label",
+              "Rebel Alliance"
+            ],
+            [
+              "PROMPT",
+              "player1",
+              "selectBasesToWin"
+            ]
+          ],
+          "label": "Rebel Alliance"
+        },
+        {
+          "code": [
+            [
+              "SET",
+              "/player2Faction",
+              "Republic"
+            ],
+            [
+              "SET",
+              "/playerData/player2/label",
+              "Galactic Republic"
+            ],
+            [
+              "PROMPT",
+              "player1",
+              "selectBasesToWin"
+            ]
+          ],
+          "label": "Galactic Republic"
+        },
+        {
+          "code": [
+            [
+              "SET",
+              "/player2Faction",
+              "Separatist"
+            ],
+            [
+              "SET",
+              "/playerData/player2/label",
+              "Separatist Alliance"
+            ],
+            [
+              "PROMPT",
+              "player1",
+              "selectBasesToWin"
+            ]
+          ],
+          "label": "Separatist Alliance"
+        }
+      ]
+    },
+    "selectFaction_p2_republic": {
+      "args": [],
+      "message": "Player 1 chose Galactic Republic. Player 2, choose your faction:",
+      "options": [
+        {
+          "code": [
+            [
+              "SET",
+              "/player2Faction",
+              "Empire"
+            ],
+            [
+              "SET",
+              "/playerData/player2/label",
+              "Galactic Empire"
+            ],
+            [
+              "PROMPT",
+              "player1",
+              "selectBasesToWin"
+            ]
+          ],
+          "label": "Galactic Empire"
+        },
+        {
+          "code": [
+            [
+              "SET",
+              "/player2Faction",
+              "Rebel"
+            ],
+            [
+              "SET",
+              "/playerData/player2/label",
+              "Rebel Alliance"
+            ],
+            [
+              "PROMPT",
+              "player1",
+              "selectBasesToWin"
+            ]
+          ],
+          "label": "Rebel Alliance"
+        },
+        {
+          "code": [
+            [
+              "SET",
+              "/player2Faction",
+              "Separatist"
+            ],
+            [
+              "SET",
+              "/playerData/player2/label",
+              "Separatist Alliance"
+            ],
+            [
+              "PROMPT",
+              "player1",
+              "selectBasesToWin"
+            ]
+          ],
+          "label": "Separatist Alliance"
+        },
+        {
+          "code": [
+            [
+              "SET",
+              "/player2Faction",
+              "Mandalorian"
+            ],
+            [
+              "SET",
+              "/playerData/player2/label",
+              "The Mandalorian"
+            ],
+            [
+              "PROMPT",
+              "player1",
+              "selectBasesToWin"
+            ]
+          ],
+          "label": "The Mandalorian"
+        }
+      ]
+    },
+    "es3": {
+      "args": [
+        "$CARD"
+      ],
+      "message": "Choose to have Inquisitor gain 1 attack, 1 resource, or 1 force.",
+      "options": [
+        {
+          "code": [
+            [
+              "LOG",
+              "└── ",
+              "Added 1 attack until the end of the round."
+            ],
+            [
+              "INCREASE_VAL",
+              "/cardById/{{$CARD.id}}/tokens/attackModifier",
+              1
+            ],
+            [
+              "FADE_TEXT_CARD",
+              "$CARD.id",
+              "+1 token:attackModifier"
+            ]
+          ],
+          "hotkey": "1",
+          "label": "Gain 1 Attack"
+        },
+        {
+          "code": [
+            [
+              "LOG",
+              "└── ",
+              "Gained 1 resource."
+            ],
+            [
+              "INCREASE_VAL",
+              "/playerData/{{$CARD.controller}}/resources",
+              1
+            ],
+            [
+              "FADE_TEXT_PLAYER",
+              "$CARD.controller",
+              "+1 token:resource"
+            ]
+          ],
+          "hotkey": "2",
+          "label": "Gain 1 Resource"
+        },
+        {
+          "code": [
+            [
+              "LOG",
+              "└── ",
+              "Gained 1 force."
+            ],
+            [
+              "GAIN_N_FORCE",
+              "$CARD.controller",
+              1
+            ]
+          ],
+          "hotkey": "3",
+          "label": "Gain 1 Force"
+        }
+      ]
+    },
+    "paz_vizsla_spend": {
+      "args": [
+        "$CARD"
+      ],
+      "message": "Spend up to 3 resources. Paz Vizsla gains 1 attack for each resource spent.",
+      "options": [
+        {
+          "code": [
+            [
+              "LOG",
+              "└── Spent 0 resources. Paz Vizsla gains 0 attack."
+            ],
+            [
+              "SET",
+              "/cardById/$CARD.id/rotation",
+              -20
+            ]
+          ],
+          "hotkey": "0",
+          "label": "Spend 0 resources"
+        },
+        {
+          "code": [
+            [
+              "COND",
+              [
+                "GREATER_THAN",
+                "$GAME.playerData.{{$CARD.controller}}.resources",
+                0
+              ],
+              [
+                [
+                  "LOG",
+                  "└── Spent 1 resource. Paz Vizsla gains 1 attack."
+                ],
+                [
+                  "DECREASE_VAL",
+                  "/playerData/{{$CARD.controller}}/resources",
+                  1
+                ],
+                [
+                  "INCREASE_VAL",
+                  "/cardById/{{$CARD.id}}/tokens/attackModifier",
+                  1
+                ],
+                [
+                  "FADE_TEXT_CARD",
+                  "$CARD.id",
+                  "+1 token:attackModifier"
+                ],
+                [
+                  "SET",
+                  "/cardById/$CARD.id/rotation",
+                  -20
+                ]
+              ],
+              [
+                "TRUE"
+              ],
+              [
+                "LOG",
+                "└── Not enough resources."
+              ]
+            ]
+          ],
+          "hotkey": "1",
+          "label": "Spend 1 resource"
+        },
+        {
+          "code": [
+            [
+              "COND",
+              [
+                "GREATER_THAN",
+                "$GAME.playerData.{{$CARD.controller}}.resources",
+                1
+              ],
+              [
+                [
+                  "LOG",
+                  "└── Spent 2 resources. Paz Vizsla gains 2 attack."
+                ],
+                [
+                  "DECREASE_VAL",
+                  "/playerData/{{$CARD.controller}}/resources",
+                  2
+                ],
+                [
+                  "INCREASE_VAL",
+                  "/cardById/{{$CARD.id}}/tokens/attackModifier",
+                  2
+                ],
+                [
+                  "FADE_TEXT_CARD",
+                  "$CARD.id",
+                  "+2 token:attackModifier"
+                ],
+                [
+                  "SET",
+                  "/cardById/$CARD.id/rotation",
+                  -20
+                ]
+              ],
+              [
+                "TRUE"
+              ],
+              [
+                "LOG",
+                "└── Not enough resources."
+              ]
+            ]
+          ],
+          "hotkey": "2",
+          "label": "Spend 2 resources"
+        },
+        {
+          "code": [
+            [
+              "COND",
+              [
+                "GREATER_THAN",
+                "$GAME.playerData.{{$CARD.controller}}.resources",
+                2
+              ],
+              [
+                [
+                  "LOG",
+                  "└── Spent 3 resources. Paz Vizsla gains 3 attack."
+                ],
+                [
+                  "DECREASE_VAL",
+                  "/playerData/{{$CARD.controller}}/resources",
+                  3
+                ],
+                [
+                  "INCREASE_VAL",
+                  "/cardById/{{$CARD.id}}/tokens/attackModifier",
+                  3
+                ],
+                [
+                  "FADE_TEXT_CARD",
+                  "$CARD.id",
+                  "+3 token:attackModifier"
+                ],
+                [
+                  "SET",
+                  "/cardById/$CARD.id/rotation",
+                  -20
+                ]
+              ],
+              [
+                "TRUE"
+              ],
+              [
+                "LOG",
+                "└── Not enough resources."
+              ]
+            ]
+          ],
+          "hotkey": "3",
+          "label": "Spend 3 resources"
+        }
+      ]
+    },
+    "g46_ability": {
+      "args": [
+        "$CARD"
+      ],
+      "input": {
+        "autoSubmit": {
+          "code": [
+            [
+              "VAR",
+              "$CARD_ID",
+              "$PROMPT_INPUT.[0]"
+            ],
+            [
+              "VAR",
+              "$SELECTED_CARD",
+              "$GAME.cardById.{{$CARD_ID}}"
+            ],
+            [
+              "COND",
+              [
+                "NOT_EQUAL",
+                "$SELECTED_CARD.groupId",
+                "{{$CARD.controller}}Hand"
+              ],
+              [
+                "LOG",
+                "└── Selected card is not in your hand."
+              ],
+              [
+                "TRUE"
+              ],
+              [
+                [
+                  "EXILE_CARD",
+                  "$SELECTED_CARD"
+                ],
+                [
+                  "COND",
+                  [
+                    "IS_FORCE_WITH_YOU",
+                    "$CARD.controller"
+                  ],
+                  [
+                    [
+                      "LOG",
+                      "└── The Force is with you: Draw 2 cards."
+                    ],
+                    [
+                      "DRAW_CARD",
+                      2,
+                      "$CARD.controller"
+                    ]
+                  ],
+                  [
+                    "TRUE"
+                  ],
+                  [
+                    [
+                      "LOG",
+                      "└── Draw 1 card."
+                    ],
+                    [
+                      "DRAW_CARD",
+                      1,
+                      "$CARD.controller"
+                    ]
+                  ]
+                ]
+              ]
+            ]
+          ],
+          "numCards": 1
+        },
+        "type": "selectCards"
+      },
+      "message": "Exile 1 card from your hand to draw cards.",
+      "options": [
+        {
+          "label": "Exile (select a card)"
+        },
+        {
+          "label": "Cancel"
+        }
+      ]
+    },
+    "lolaSayu_placeUnderBase": {
+      "args": [
+        "$BASE_CARD"
+      ],
+      "input": {
+        "autoSubmit": {
+          "code": [
+            [
+              "VAR",
+              "$CHOSEN_ID",
+              "$PROMPT_INPUT.[0]"
+            ],
+            [
+              "VAR",
+              "$CHOSEN_CARD",
+              "$GAME.cardById.{{$CHOSEN_ID}}"
+            ],
+            [
+              "COND",
+              [
+                "NOT_EQUAL",
+                "$CHOSEN_CARD.groupId",
+                "{{$PLAYER_N}}Discard"
+              ],
+              [
+                [
+                  "LOG",
+                  "└── Selected card is not in your discard pile."
+                ]
+              ],
+              [
+                "TRUE"
+              ],
+              [
+                [
+                  "LOG",
+                  "└── {{$ALIAS_N}} placed {{$CHOSEN_CARD.sides.A.name}} under Lola Sayu."
+                ],
+                [
+                  "MOVE_CARD",
+                  "$CHOSEN_ID",
+                  "sharedSetAside",
+                  0
+                ],
+                [
+                  "SET",
+                  "/cardById/$BASE_CARD.id/tokens/cardUnderBase",
+                  "$CHOSEN_ID"
+                ]
+              ]
+            ]
+          ],
+          "numCards": 1
+        },
+        "type": "selectCards"
+      },
+      "message": "Lola Sayu: Select 1 card from your discard pile to place under the opponent's base.",
+      "options": [
+        {
+          "label": "Skip"
+        }
+      ]
+    },
+    "cw_rcs1_swap": {
+      "args": [
+        "$CARD"
+      ],
+      "input": {
+        "autoSubmit": {
+          "code": [
+            [
+              "VAR",
+              "$HAND_CARD_ID",
+              "$PROMPT_INPUT.[0]"
+            ],
+            [
+              "VAR",
+              "$HAND_CARD",
+              "$GAME.cardById.{{$HAND_CARD_ID}}"
+            ],
+            [
+              "COND",
+              [
+                "NOT_EQUAL",
+                "$HAND_CARD.groupId",
+                "{{$CARD.controller}}Hand"
+              ],
+              [
+                "LOG",
+                "└── Selected card is not in your hand."
+              ],
+              [
+                "TRUE"
+              ],
+              [
+                [
+                  "VAR",
+                  "$TOP_CARD",
+                  "$GAME.groupById.{{$CARD.controller}}Deck.parentCards.[0]"
+                ],
+                [
+                  "LOG",
+                  "└── Swapped {{$HAND_CARD.sides.A.name}} with {{$TOP_CARD.sides.A.name}} from top of deck."
+                ],
+                [
+                  "MOVE_CARD",
+                  "$HAND_CARD_ID",
+                  "{{$CARD.controller}}Deck",
+                  0
+                ],
+                [
+                  "MOVE_CARD",
+                  "$TOP_CARD.id",
+                  "{{$CARD.controller}}Hand",
+                  0
+                ]
+              ]
+            ]
+          ],
+          "numCards": 1
+        },
+        "type": "selectCards"
+      },
+      "message": "Select a card from your hand to swap with the top card of your deck.",
+      "options": [
+        {
+          "code": [],
+          "label": "Cancel"
+        }
+      ]
+    },
+    "cw_g7_replace": {
+      "args": [
+        "$CARD"
+      ],
+      "input": {
+        "autoSubmit": {
+          "code": [
+            [
+              "VAR",
+              "$TARGET_CARD_ID",
+              "$PROMPT_INPUT.[0]"
+            ],
+            [
+              "VAR",
+              "$TARGET_CARD",
+              "$GAME.cardById.{{$TARGET_CARD_ID}}"
+            ],
+            [
+              "COND",
+              [
+                "NOT_EQUAL",
+                "$TARGET_CARD.groupId",
+                "sharedGalaxyDiscard"
+              ],
+              [
+                "LOG",
+                "└── Selected card is not in the galaxy discard pile."
+              ],
+              [
+                "NOT_EQUAL",
+                "$TARGET_CARD.currentFace.faction",
+                "Separatist"
+              ],
+              [
+                "LOG",
+                "└── Selected card is not a Separatist card."
+              ],
+              [
+                "TRUE"
+              ],
+              [
+                [
+                  "LOG",
+                  "└── Added {{$TARGET_CARD.currentFace.name}} to the galaxy row."
+                ],
+                [
+                  "MOVE_CARD",
+                  "$TARGET_CARD_ID",
+                  "sharedGalaxyRow",
+                  0
+                ],
+                [
+                  "STOP_LOOKING",
+                  "$CARD.controller"
+                ]
+              ]
+            ]
+          ],
+          "numCards": 1
+        },
+        "type": "selectCards"
+      },
+      "message": "Select a Separatist card from the galaxy discard pile to add to the galaxy row.",
+      "options": [
+        {
+          "code": [
+            [
+              "LOG",
+              "└── Skipped replacing the card."
+            ],
+            [
+              "STOP_LOOKING",
+              "$CARD.controller"
+            ]
+          ],
+          "label": "Skip"
+        }
+      ]
+    },
+    "rcs1_ability": {
+      "args": [
+        "$CARD"
+      ],
+      "message": "Choose: Repair 2 damage from your base, or gain 1 resource.",
+      "options": [
+        {
+          "code": [
+            [
+              "LOG",
+              "└── Rebel Transport's ability: Repair 2 damage."
+            ],
+            [
+              "REPAIR_DAMAGE",
+              "$CARD.controller",
+              2
+            ],
+            [
+              "SET",
+              "/cardById/$CARD.id/rotation",
+              -20
+            ]
+          ],
+          "hotkey": "1",
+          "label": "Repair 2 damage"
+        },
+        {
+          "code": [
+            [
+              "LOG",
+              "└── Rebel Transport's ability: Gain 1 resource."
+            ],
+            [
+              "INCREASE_VAL",
+              "/playerData/{{$CARD.controller}}/resources",
+              1
+            ],
+            [
+              "FADE_TEXT_PLAYER",
+              "$CARD.controller",
+              "+1 token:resource"
+            ],
+            [
+              "SET",
+              "/cardById/$CARD.id/rotation",
+              -20
+            ]
+          ],
+          "hotkey": "2",
+          "label": "Gain 1 resource"
+        },
+        {
+          "code": [
+            [
+              "SET",
+              "/cardById/$CARD.id/rotation",
+              -20
+            ]
+          ],
+          "label": "Cancel"
+        }
+      ]
+    },
+    "survivor_langskib_choice": {
+      "args": [
+        "$CARD"
+      ],
+      "message": "Choose: move the Force marker to the neutral space, or gain 3 resources.",
+      "options": [
+        {
+          "code": [
+            [
+              "LOG",
+              "└── Moved the Force marker to the neutral space."
+            ],
+            [
+              "SET_TRACKER_VALUE",
+              0
+            ],
+            [
+              "SET",
+              "/cardById/$CARD.id/rotation",
+              -20
+            ]
+          ],
+          "hotkey": "1",
+          "label": "Move the Force marker to neutral"
+        },
+        {
+          "code": [
+            [
+              "LOG",
+              "└── Gained 3 resources."
+            ],
+            [
+              "INCREASE_VAL",
+              "/playerData/{{$CARD.controller}}/resources",
+              3
+            ],
+            [
+              "FADE_TEXT_PLAYER",
+              "$CARD.controller",
+              "+3 token:resource"
+            ],
+            [
+              "SET",
+              "/cardById/$CARD.id/rotation",
+              -20
+            ]
+          ],
+          "hotkey": "2",
+          "label": "Gain 3 resources"
+        }
+      ]
+    },
+    "exileUpto3": {
+      "args": [],
+      "input": {
+        "autoSubmit": {
+          "code": [
+            [
+              "EXILE_CARD_IDS",
+              "$PROMPT_INPUT"
+            ],
+            [
+              "STOP_LOOKING",
+              "$PLAYER_N"
+            ]
+          ],
+          "numCards": 3
+        },
+        "type": "selectCards"
+      },
+      "message": "Select up to 3 cards from your hand or discard to exile.",
+      "options": [
+        {
+          "code": [
+            [
+              "EXILE_CARD_IDS",
+              "$PROMPT_INPUT"
+            ],
+            [
+              "STOP_LOOKING",
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "E",
+          "label": "Exile selected cards"
+        },
+        {
+          "code": [
+            "STOP_LOOKING",
+            "$PLAYER_N"
+          ],
+          "label": "Cancel"
+        }
+      ]
+    },
+    "dins_starfighter_destroy": {
+      "args": [
+        "$CARD"
+      ],
+      "input": {
+        "autoSubmit": {
+          "code": [
+            [
+              "VAR",
+              "$TARGET_CARD_ID",
+              "$PROMPT_INPUT.[0]"
+            ],
+            [
+              "VAR",
+              "$TARGET_CARD",
+              "$GAME.cardById.{{$TARGET_CARD_ID}}"
+            ],
+            [
+              "VAR",
+              "$OPPONENT",
+              [
+                "NEXT_PLAYER",
+                "$CARD.controller"
+              ]
+            ],
+            [
+              "COND",
+              [
+                "NOT_EQUAL",
+                "$TARGET_CARD.currentFace.type",
+                "CapitalShip"
+              ],
+              [
+                "LOG",
+                "└── Selected card is not a capital ship."
+              ],
+              [
+                "NOT_EQUAL",
+                "$TARGET_CARD.controller",
+                "$OPPONENT"
+              ],
+              [
+                "LOG",
+                "└── Selected capital ship is not controlled by your opponent."
+              ],
+              [
+                "NOT",
+                "$TARGET_CARD.inPlay"
+              ],
+              [
+                "LOG",
+                "└── Selected capital ship is not in play."
+              ],
+              [
+                "TRUE"
+              ],
+              [
+                [
+                  "LOG",
+                  "└── Destroyed {{$TARGET_CARD.currentFace.name}}."
+                ],
+                [
+                  "DESTROY_CARD",
+                  "$TARGET_CARD"
+                ],
+                [
+                  "SET",
+                  "/cardById/$CARD.id/rotation",
+                  -20
+                ]
+              ]
+            ]
+          ],
+          "numCards": 1
+        },
+        "type": "selectCards"
+      },
+      "message": "Select a capital ship your opponent has in play to destroy.",
+      "options": [
+        {
+          "label": "Cancel"
+        }
+      ]
+    },
+    "g4_choice": {
+      "args": [
+        "$CARD"
+      ],
+      "message": "Duros Spy: Choose to discard 1 card from your hand, or your opponent gains 1 force.",
+      "options": [
+        {
+          "code": [
+            [
+              "LOG",
+              "└── Chose to discard 1 card."
+            ],
+            [
+              "PROMPT",
+              "$PLAYER_N",
+              "g4_discard",
+              "$CARD"
+            ]
+          ],
+          "hotkey": "1",
+          "label": "Discard 1 card"
+        },
+        {
+          "code": [
+            [
+              "VAR",
+              "$OWNER",
+              "$CARD.controller"
+            ],
+            [
+              "LOG",
+              "└── {{$ALIAS_N}} chose to let opponent gain 1 force."
+            ],
+            [
+              "GAIN_N_FORCE",
+              "$OWNER",
+              1
+            ],
+            [
+              "SET",
+              "/cardById/$CARD.id/rotation",
+              -20
+            ]
+          ],
+          "hotkey": "2",
+          "label": "Opponent gains 1 force"
+        }
+      ]
+    },
+    "cw_g13_exile": {
+      "args": [
+        "$CARD"
+      ],
+      "input": {
+        "autoSubmit": {
+          "code": [
+            [
+              "VAR",
+              "$TARGET_CARD_ID",
+              "$PROMPT_INPUT.[0]"
+            ],
+            [
+              "VAR",
+              "$TARGET_CARD",
+              "$GAME.cardById.{{$TARGET_CARD_ID}}"
+            ],
+            [
+              "COND",
+              [
+                "NOT_EQUAL",
+                "$TARGET_CARD.groupId",
+                "sharedGalaxyRow"
+              ],
+              [
+                "LOG",
+                "└── Selected card is not in the galaxy row."
+              ],
+              [
+                "NOT_EQUAL",
+                "$TARGET_CARD.currentFace.faction",
+                "Separatist"
+              ],
+              [
+                "LOG",
+                "└── Selected card is not a Separatist card."
+              ],
+              [
+                "TRUE"
+              ],
+              [
+                [
+                  "LOG",
+                  "└── Exiled {{$TARGET_CARD.currentFace.name}} and drew 1 card."
+                ],
+                [
+                  "MOVE_FROM_GALAXY_ROW",
+                  "$TARGET_CARD_ID",
+                  "sharedExiled"
+                ],
+                [
+                  "DRAW_CARD",
+                  1,
+                  "$CARD.controller"
+                ],
+                [
+                  "SET",
+                  "/cardById/$CARD.id/rotation",
+                  -20
+                ]
+              ]
+            ]
+          ],
+          "numCards": 1
+        },
+        "type": "selectCards"
+      },
+      "message": "Select a Separatist card from the galaxy row to exile. If you do, draw 1 card.",
+      "options": [
+        {
+          "code": [
+            [
+              "SET",
+              "/cardById/$CARD.id/rotation",
+              -20
+            ]
+          ],
+          "label": "Skip"
+        }
+      ]
+    },
+    "protocolDroid_chooseGalaxyRowCard": {
+      "args": [
+        "$ABILITY_CARD",
+        "$TOP_CARD"
+      ],
+      "input": {
+        "autoSubmit": {
+          "code": [
+            [
+              "VAR",
+              "$TARGET_ID",
+              "$PROMPT_INPUT.[0]"
+            ],
+            [
+              "VAR",
+              "$TARGET_CARD",
+              "$GAME.cardById.{{$TARGET_ID}}"
+            ],
+            [
+              "COND",
+              [
+                "NOT_EQUAL",
+                "$TARGET_CARD.groupId",
+                "sharedGalaxyRow"
+              ],
+              [
+                [
+                  "LOG",
+                  "└── Selected card is not in the galaxy row."
+                ],
+                [
+                  "PROMPT",
+                  "$ABILITY_CARD.controller",
+                  "protocolDroid_chooseGalaxyRowCard",
+                  "$ABILITY_CARD",
+                  "$TOP_CARD"
+                ]
+              ],
+              [
+                "NOT_EQUAL",
+                "$TARGET_CARD.sides.A.faction",
+                "neutral"
+              ],
+              [
+                [
+                  "LOG",
+                  "└── Selected card is not neutral."
+                ],
+                [
+                  "PROMPT",
+                  "$ABILITY_CARD.controller",
+                  "protocolDroid_chooseGalaxyRowCard",
+                  "$ABILITY_CARD",
+                  "$TOP_CARD"
+                ]
+              ],
+              [
+                "NOT_EQUAL",
+                "$TARGET_CARD.sides.A.type",
+                "unit"
+              ],
+              [
+                [
+                  "LOG",
+                  "└── Selected card is not a unit."
+                ],
+                [
+                  "PROMPT",
+                  "$ABILITY_CARD.controller",
+                  "protocolDroid_chooseGalaxyRowCard",
+                  "$ABILITY_CARD",
+                  "$TOP_CARD"
+                ]
+              ],
+              [
+                "TRUE"
+              ],
+              [
+                [
+                  "LOG",
+                  "└── Replacing {{$TARGET_CARD.sides.A.name}} with {{$TOP_CARD.sides.A.name}}."
+                ],
+                [
+                  "MOVE_CARD",
+                  "$TOP_CARD.id",
+                  "sharedGalaxyRow",
+                  "$TARGET_CARD.stackIndex"
+                ],
+                [
+                  "MOVE_CARD",
+                  "$TARGET_ID",
+                  "sharedGalaxyDiscard",
+                  0
+                ]
+              ]
+            ]
+          ],
+          "numCards": 1
+        },
+        "type": "selectCards"
+      },
+      "message": "Protocol Droid: Select a neutral unit in the galaxy row to replace with the faction card on top of the galaxy deck.",
+      "options": [
+        {
+          "code": [
+            "LOG",
+            "└── No neutral units in the galaxy row to replace."
+          ],
+          "label": "There are no neutral units in the galaxy row"
+        }
+      ]
+    },
+    "cw_g12_damage": {
+      "args": [
+        "$CARD"
+      ],
+      "input": {
+        "autoSubmit": {
+          "code": [
+            [
+              "VAR",
+              "$TARGET_CARD_ID",
+              "$PROMPT_INPUT.[0]"
+            ],
+            [
+              "VAR",
+              "$TARGET_CARD",
+              "$GAME.cardById.{{$TARGET_CARD_ID}}"
+            ],
+            [
+              "VAR",
+              "$OPPONENT",
+              [
+                "NEXT_PLAYER",
+                "$CARD.controller"
+              ]
+            ],
+            [
+              "COND",
+              [
+                "NOT_EQUAL",
+                "$TARGET_CARD.controller",
+                "$OPPONENT"
+              ],
+              [
+                "LOG",
+                "└── Selected card is not your opponent's."
+              ],
+              [
+                "NOT_EQUAL",
+                "$TARGET_CARD.currentFace.type",
+                "CapitalShip"
+              ],
+              [
+                "LOG",
+                "└── Selected card is not a capital ship."
+              ],
+              [
+                "NOT_EQUAL",
+                "$TARGET_CARD.inPlay",
+                true
+              ],
+              [
+                "LOG",
+                "└── Selected card is not in play."
+              ],
+              [
+                "TRUE"
+              ],
+              [
+                [
+                  "LOG",
+                  "└── Dealt 3 damage to {{$TARGET_CARD.currentFace.name}}."
+                ],
+                [
+                  "INCREASE_VAL",
+                  "/cardById/{{$TARGET_CARD.id}}/tokens/damage",
+                  3
+                ],
+                [
+                  "FADE_TEXT_CARD",
+                  "$TARGET_CARD.id",
+                  "+3 token:damage"
+                ],
+                [
+                  "STOP_LOOKING",
+                  "$CARD.controller"
+                ]
+              ]
+            ]
+          ],
+          "numCards": 1
+        },
+        "type": "selectCards"
+      },
+      "message": "Select a capital ship your opponent has in play to deal 3 damage to.",
+      "options": [
+        {
+          "code": [
+            [
+              "STOP_LOOKING",
+              "$CARD.controller"
+            ]
+          ],
+          "label": "Skip"
+        }
+      ]
+    },
+    "g3_discard": {
+      "args": [],
+      "input": {
+        "autoSubmit": {
+          "code": [
+            [
+              "VAR",
+              "$CARD_ID",
+              "$PROMPT_INPUT.[0]"
+            ],
+            [
+              "VAR",
+              "$CARD",
+              "$GAME.cardById.{{$CARD_ID}}"
+            ],
+            [
+              "DISCARD_CARD",
+              "$CARD"
+            ]
+          ],
+          "numCards": 1
+        },
+        "type": "selectCards"
+      },
+      "message": "Snowspeeder: Discard 1 card from your hand.",
+      "options": [
+        {
+          "label": "Discard (select a card)"
+        }
+      ]
+    },
+    "ncs3_ability": {
+      "args": [
+        "$CARD"
+      ],
+      "message": "Choose: Repair 3 damage from your base, or gain 3 resources.",
+      "options": [
+        {
+          "code": [
+            [
+              "LOG",
+              "└── Nebulon-B Frigate's ability: Repair 3 damage."
+            ],
+            [
+              "REPAIR_DAMAGE",
+              "$CARD.controller",
+              3
+            ]
+          ],
+          "hotkey": "1",
+          "label": "Repair 3 damage"
+        },
+        {
+          "code": [
+            [
+              "LOG",
+              "└── Nebulon-B Frigate's ability: Gain 3 resources."
+            ],
+            [
+              "INCREASE_VAL",
+              "/playerData/{{$CARD.controller}}/resources",
+              3
+            ],
+            [
+              "FADE_TEXT_PLAYER",
+              "$CARD.controller",
+              "+3 token:resource"
+            ]
+          ],
+          "hotkey": "2",
+          "label": "Gain 3 resources"
+        },
+        {
+          "label": "Cancel"
+        }
+      ]
+    },
+    "cw_rb2_purchase": {
+      "args": [
+        "$CARD"
+      ],
+      "input": {
+        "autoSubmit": {
+          "code": [
+            [
+              "VAR",
+              "$TARGET_CARD_ID",
+              "$PROMPT_INPUT.[0]"
+            ],
+            [
+              "VAR",
+              "$TARGET_CARD",
+              "$GAME.cardById.{{$TARGET_CARD_ID}}"
+            ],
+            [
+              "COND",
+              [
+                "NOT_EQUAL",
+                "$TARGET_CARD.groupId",
+                "sharedGalaxyRow"
+              ],
+              [
+                [
+                  "LOG",
+                  "└── Selected card is not in the galaxy row."
+                ],
+                [
+                  "PROMPT",
+                  "$CARD.controller",
+                  "cw_rb2_purchase",
+                  "$CARD"
+                ]
+              ],
+              [
+                "AND",
+                [
+                  "NOT_EQUAL",
+                  "$TARGET_CARD.currentFace.faction",
+                  "Republic"
+                ],
+                [
+                  "NOT_EQUAL",
+                  "$TARGET_CARD.currentFace.faction",
+                  "Neutral"
+                ]
+              ],
+              [
+                [
+                  "LOG",
+                  "└── Selected card is not Republic or Neutral faction."
+                ],
+                [
+                  "PROMPT",
+                  "$CARD.controller",
+                  "cw_rb2_purchase",
+                  "$CARD"
+                ]
+              ],
+              [
+                [
+                  "LOG",
+                  "└── Purchased {{$TARGET_CARD.currentFace.name}} for free."
+                ],
+                [
+                  "MOVE_FROM_GALAXY_ROW",
+                  "$TARGET_CARD.id",
+                  "{{$CARD.controller}}Hand"
+                ]
+              ]
+            ]
+          ],
+          "numCards": 1
+        },
+        "type": "selectCards"
+      },
+      "message": "Choose a Republic or neutral card from the galaxy row to purchase for free.",
+      "options": [
+        {
+          "label": "Purchase (select a card)"
+        },
+        {
+          "label": "Skip"
+        }
+      ]
+    },
+    "mandalore_purchase": {
+      "args": [
+        "$CARD"
+      ],
+      "input": {
+        "autoSubmit": {
+          "code": [
+            [
+              "VAR",
+              "$TARGET_CARD_ID",
+              "$PROMPT_INPUT.[0]"
+            ],
+            [
+              "VAR",
+              "$TARGET_CARD",
+              "$GAME.cardById.{{$TARGET_CARD_ID}}"
+            ],
+            [
+              "COND",
+              [
+                "NOT_EQUAL",
+                "$TARGET_CARD.groupId",
+                "sharedGalaxyRow"
+              ],
+              [
+                "LOG",
+                "└── Selected card is not in the galaxy row."
+              ],
+              [
+                "AND",
+                [
+                  "NOT_EQUAL",
+                  "$TARGET_CARD.currentFace.faction",
+                  "Mandalorian"
+                ],
+                [
+                  "NOT_EQUAL",
+                  "$TARGET_CARD.currentFace.faction",
+                  "Neutral"
+                ]
+              ],
+              [
+                "LOG",
+                "└── Selected card is not Mandalorian or Neutral faction."
+              ],
+              [
+                "TRUE"
+              ],
+              [
+                [
+                  "LOG",
+                  "└── Purchased {{$TARGET_CARD.currentFace.name}} for free."
+                ],
+                [
+                  "MOVE_FROM_GALAXY_ROW",
+                  "$TARGET_CARD.id",
+                  "{{$CARD.controller}}Hand"
+                ]
+              ]
+            ]
+          ],
+          "numCards": 1
+        },
+        "type": "selectCards"
+      },
+      "message": "Choose a Mandalorian or neutral card from the galaxy row to purchase for free.",
+      "options": [
+        {
+          "label": "Purchase (select a card)"
+        },
+        {
+          "label": "Skip"
+        }
+      ]
+    },
+    "cw_sb2_discard": {
+      "args": [
+        "$CARD"
+      ],
+      "input": {
+        "autoSubmit": {
+          "code": [
+            [
+              "VAR",
+              "$TARGET_CARD_ID",
+              "$PROMPT_INPUT.[0]"
+            ],
+            [
+              "VAR",
+              "$TARGET_CARD",
+              "$GAME.cardById.{{$TARGET_CARD_ID}}"
+            ],
+            [
+              "VAR",
+              "$MY_FACTION",
+              [
+                "GET_FACTION",
+                "$CARD.controller"
+              ]
+            ],
+            [
+              "COND",
+              [
+                "NOT_EQUAL",
+                "$TARGET_CARD.groupId",
+                "sharedGalaxyRow"
+              ],
+              [
+                "LOG",
+                "└── Selected card is not in the galaxy row."
+              ],
+              [
+                "OR",
+                [
+                  "EQUAL",
+                  "$TARGET_CARD.currentFace.faction",
+                  "$MY_FACTION"
+                ],
+                [
+                  "EQUAL",
+                  "$TARGET_CARD.currentFace.faction",
+                  "Neutral"
+                ]
+              ],
+              [
+                "LOG",
+                "└── Selected card is not an enemy card."
+              ],
+              [
+                "TRUE"
+              ],
+              [
+                [
+                  "LOG",
+                  "└── Discarded {{$TARGET_CARD.currentFace.name}} from the galaxy row."
+                ],
+                [
+                  "MOVE_FROM_GALAXY_ROW",
+                  "$TARGET_CARD_ID",
+                  "sharedGalaxyDiscard"
+                ],
+                [
+                  "LOOK_AT",
+                  "$CARD.controller",
+                  "sharedGalaxyDiscard",
+                  -1,
+                  true
+                ],
+                [
+                  "PROMPT",
+                  "$CARD.controller",
+                  "cw_sb2_replace",
+                  "$CARD"
+                ]
+              ]
+            ]
+          ],
+          "numCards": 1
+        },
+        "type": "selectCards"
+      },
+      "message": "Select an enemy card from the galaxy row to discard.",
+      "options": [
+        {
+          "code": [
+            [
+              "LOG",
+              "└── Skipped Cato Neimoidia's ability."
+            ]
+          ],
+          "label": "Skip"
+        }
+      ]
+    },
+    "g19_discard": {
+      "args": [
+        "$CARD"
+      ],
+      "input": {
+        "autoSubmit": {
+          "code": [
+            [
+              "VAR",
+              "$TARGET_CARD_ID",
+              "$PROMPT_INPUT.[0]"
+            ],
+            [
+              "VAR",
+              "$TARGET_CARD",
+              "$GAME.cardById.{{$TARGET_CARD_ID}}"
+            ],
+            [
+              "COND",
+              [
+                "NOT_EQUAL",
+                "$TARGET_CARD.groupId",
+                "sharedGalaxyRow"
+              ],
+              [
+                "LOG",
+                "└── Selected card is not in the galaxy row."
+              ],
+              [
+                "TRUE"
+              ],
+              [
+                [
+                  "LOG",
+                  "└── Discarded {{$TARGET_CARD.currentFace.name}} from the galaxy row."
+                ],
+                [
+                  "MOVE_FROM_GALAXY_ROW",
+                  "$TARGET_CARD.id",
+                  "sharedGalaxyDiscard"
+                ],
+                [
+                  "SET",
+                  "/cardById/$CARD.id/rotation",
+                  -20
+                ]
+              ]
+            ]
+          ],
+          "numCards": 1
+        },
+        "type": "selectCards"
+      },
+      "message": "Select a card from the galaxy row to discard.",
+      "options": [
+        {
+          "label": "Cancel"
+        }
+      ]
+    },
+    "g26_ability": {
+      "args": [
+        "$CARD"
+      ],
+      "message": "Choose: Gain 4 resources, or repair 4 damage from your base.",
+      "options": [
+        {
+          "code": [
+            [
+              "LOG",
+              "└── Landing Craft's ability: Gain 4 resources."
+            ],
+            [
+              "INCREASE_VAL",
+              "/playerData/{{$CARD.controller}}/resources",
+              4
+            ],
+            [
+              "FADE_TEXT_PLAYER",
+              "$CARD.controller",
+              "+4 token:resource"
+            ],
+            [
+              "SET",
+              "/cardById/$CARD.id/rotation",
+              -20
+            ]
+          ],
+          "hotkey": "1",
+          "label": "Gain 4 resources"
+        },
+        {
+          "code": [
+            [
+              "LOG",
+              "└── Landing Craft's ability: Repair 4 damage."
+            ],
+            [
+              "REPAIR_DAMAGE",
+              "$CARD.controller",
+              4
+            ],
+            [
+              "SET",
+              "/cardById/$CARD.id/rotation",
+              -20
+            ]
+          ],
+          "hotkey": "2",
+          "label": "Repair 4 damage"
+        },
+        {
+          "label": "Cancel"
+        }
+      ]
+    },
+    "cw_rb10_deckTop": {
+      "args": [
+        "$CARD"
+      ],
+      "input": {
+        "autoSubmit": {
+          "code": [
+            [
+              "VAR",
+              "$TARGET_CARD_ID",
+              "$PROMPT_INPUT.[0]"
+            ],
+            [
+              "VAR",
+              "$TARGET_CARD",
+              "$GAME.cardById.{{$TARGET_CARD_ID}}"
+            ],
+            [
+              "COND",
+              [
+                "NOT_EQUAL",
+                "$TARGET_CARD.groupId",
+                "{{$CARD.controller}}Discard"
+              ],
+              [
+                "LOG",
+                "└── Selected card is not in your discard pile."
+              ],
+              [
+                "TRUE"
+              ],
+              [
+                [
+                  "LOG",
+                  "└── Placed {{$TARGET_CARD.currentFace.name}} on top of your deck."
+                ],
+                [
+                  "MOVE_CARD",
+                  "$TARGET_CARD_ID",
+                  "{{$CARD.controller}}Deck",
+                  0
+                ],
+                [
+                  "STOP_LOOKING",
+                  "$CARD.controller"
+                ]
+              ]
+            ]
+          ],
+          "numCards": 1
+        },
+        "type": "selectCards"
+      },
+      "message": "Select a card from your discard pile to place on top of your deck.",
+      "options": [
+        {
+          "code": [
+            [
+              "LOG",
+              "└── Skipped placing a card on top of deck."
+            ],
+            [
+              "STOP_LOOKING",
+              "$CARD.controller"
+            ]
+          ],
+          "label": "Skip"
+        }
+      ]
+    },
+    "cw_g32_choice": {
+      "args": [
+        "$CARD"
+      ],
+      "message": "Cad Bane: Choose an effect.",
+      "options": [
+        {
+          "code": [
+            [
+              "VAR",
+              "$OPPONENT",
+              [
+                "NEXT_PLAYER",
+                "$CARD.controller"
+              ]
+            ],
+            [
+              "LOOK_AT",
+              "$CARD.controller",
+              "{{$OPPONENT}}Play",
+              -1,
+              true
+            ],
+            [
+              "PROMPT",
+              "$CARD.controller",
+              "cw_g32_destroy",
+              "$CARD"
+            ]
+          ],
+          "hotkey": "1",
+          "label": "Destroy a capital ship"
+        },
+        {
+          "code": [
+            [
+              "LOG",
+              "└── Chose to exile 1 card."
+            ],
+            [
+              "EXILE_UP_TO_N_FROM_HAND_OR_DISCARD",
+              "$CARD.controller",
+              1
+            ],
+            [
+              "SET",
+              "/cardById/$CARD.id/rotation",
+              -20
+            ]
+          ],
+          "hotkey": "2",
+          "label": "Exile 1 card"
+        }
+      ]
+    },
+    "cw_g41_purchase": {
+      "args": [
+        "$CARD"
+      ],
+      "input": {
+        "autoSubmit": {
+          "code": [
+            [
+              "VAR",
+              "$TARGET_CARD_ID",
+              "$PROMPT_INPUT.[0]"
+            ],
+            [
+              "VAR",
+              "$TARGET_CARD",
+              "$GAME.cardById.{{$TARGET_CARD_ID}}"
+            ],
+            [
+              "COND",
+              [
+                "NOT_EQUAL",
+                "$TARGET_CARD.groupId",
+                "sharedGalaxyDiscard"
+              ],
+              [
+                "LOG",
+                "└── Selected card is not in the galaxy discard pile."
+              ],
+              [
+                "TRUE"
+              ],
+              [
+                [
+                  "STOP_LOOKING",
+                  "$CARD.controller"
+                ],
+                [
+                  "BUY_CARD",
+                  "$TARGET_CARD"
+                ],
+                [
+                  "MOVE_CARD",
+                  "$TARGET_CARD_ID",
+                  "{{$CARD.controller}}Hand",
+                  0
+                ],
+                [
+                  "EXILE_CARD",
+                  "$CARD"
+                ]
+              ]
+            ]
+          ],
+          "numCards": 1
+        },
+        "type": "selectCards"
+      },
+      "message": "Select a card from the galaxy discard pile to purchase as if it were in the galaxy row. It will be added to your hand.",
+      "options": [
+        {
+          "code": [
+            [
+              "STOP_LOOKING",
+              "$CARD.controller"
+            ]
+          ],
+          "label": "Cancel"
+        }
+      ]
+    }
+  }
+}

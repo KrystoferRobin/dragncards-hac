@@ -1,0 +1,65 @@
+{
+  "deckbuilder": {
+    "addButtons": [
+      1,
+      2,
+      3
+    ],
+    "columns": [
+      {
+        "propName": "name",
+        "label": "Name"
+      },
+      {
+        "propName": "type",
+        "label": "Type"
+      },
+      {
+        "propName": "faction",
+        "label": "Faction"
+      },
+      {
+        "propName": "cost",
+        "label": "Cost"
+      },
+      {
+        "propName": "skill",
+        "label": "Skill"
+      },
+      {
+        "propName": "terror",
+        "label": "T"
+      },
+      {
+        "propName": "combat",
+        "label": "C"
+      },
+      {
+        "propName": "arcane",
+        "label": "A"
+      },
+      {
+        "propName": "investigation",
+        "label": "I"
+      },
+      {
+        "propName": "packName",
+        "label": "Set"
+      }
+    ],
+    "spawnGroups": [
+      {
+        "loadGroupId": "playerNDeck",
+        "label": "My Deck"
+      },
+      {
+        "loadGroupId": "playerNDomains",
+        "label": "My Domains"
+      },
+      {
+        "loadGroupId": "sharedStoryDeck",
+        "label": "Story Deck"
+      }
+    ]
+  }
+}

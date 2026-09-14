@@ -39,3 +39,25 @@ stats_eda.ipynb
 vagrant/
 winrates.csv
 winrates.parquet
+plugins/mythos-lackey-source/
+plugins/Magic/mtgjson/
+
+# Card art and reference dumps stay on disk / the fileshare, not GitHub.
+/images/
+/references/
+
+# Third-party engine clones used only as conversion sources
+plugins/lotrccg-gemp-conversion/
+plugins/star-wars-decipher/
+
+# Regenerable live-table JSON dumps
+plugins/live_dumps/
+**/*-live-dump.json
+
+# Local tooling and secrets
+.DS_Store
+**/.DS_Store
+**/.venv/
+**/.env
+!.env.example
+!**/.env.example

@@ -1,0 +1,38 @@
+{
+  "topBarCounters": {
+    "shared": [
+      {
+        "label": "Round",
+        "imageUrl": "",
+        "gameProperty": "roundNumber"
+      }
+    ],
+    "player": [
+      {
+        "label": "Life",
+        "imageUrl": "",
+        "playerProperty": "life"
+      },
+      {
+        "label": "Hold",
+        "imageUrl": "",
+        "playerProperty": "hold"
+      },
+      {
+        "label": "Blue",
+        "imageUrl": "",
+        "playerProperty": "energyBlue"
+      },
+      {
+        "label": "Green",
+        "imageUrl": "",
+        "playerProperty": "energyGreen"
+      },
+      {
+        "label": "Yellow",
+        "imageUrl": "",
+        "playerProperty": "energyYellow"
+      }
+    ]
+  }
+}

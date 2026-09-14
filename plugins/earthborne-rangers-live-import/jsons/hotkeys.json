@@ -1,0 +1,195 @@
+{
+  "hotkeys": {
+    "card": [
+      {
+        "actionList": "toggleExhaust",
+        "key": "A",
+        "label": "id:exhaustReadyIfLocationMakeActive"
+      },
+      {
+        "actionList": "detach",
+        "key": "C",
+        "label": "id:detach"
+      },
+      {
+        "actionList": "flipCard",
+        "key": "F",
+        "label": "id:flip"
+      },
+      {
+        "actionList": "shuffleIntoDeck",
+        "key": "H",
+        "label": "id:shuffleIntoOwnerSDeck"
+      },
+      {
+        "actionList": "discardCard",
+        "key": "X",
+        "label": "id:discardOrAdvance"
+      },
+      {
+        "actionList": "discardOtherCardsInStack",
+        "key": "Shift+C",
+        "label": "id:discardAllOtherCardsInThisCardSStack"
+      },
+      {
+        "actionList": "makePersistent",
+        "key": "P",
+        "label": "id:makePersistent"
+      },
+      {
+        "actionList": "lookAtTop1",
+        "key": "Alt+1",
+        "label": "id:lookAtTop1"
+      },
+      {
+        "actionList": "lookAtTop2",
+        "key": "Alt+2",
+        "label": "id:lookAtTop2"
+      },
+      {
+        "actionList": "lookAtTop3",
+        "key": "Alt+3",
+        "label": "id:lookAtTop3"
+      },
+      {
+        "actionList": "sendToTop",
+        "key": "Shift+U",
+        "label": "id:sendToTop"
+      },
+      {
+        "actionList": "sendToBottom",
+        "key": "B",
+        "label": "id:sendToBottom"
+      },
+      {
+        "actionList": "rangerToken",
+        "key": "5",
+        "label": "id:addRangerToken"
+      }
+    ],
+    "game": [
+      {
+        "actionList": "drawCard",
+        "key": "D",
+        "label": "id:drawACard"
+      },
+      {
+        "actionList": "revealPathFaceup",
+        "key": "E",
+        "label": "id:revealPathFaceup"
+      },
+      {
+        "actionList": "revealPathFacedown",
+        "key": "Shift+E",
+        "label": "id:revealPathFacedown"
+      },
+      {
+        "actionList": "revealSecondaryFaceup",
+        "key": "K",
+        "label": "id:revealSecondaryFaceup"
+      },
+      {
+        "actionList": "revealSecondaryFacedown",
+        "key": "Shift+K",
+        "label": "id:revealSecondaryFacedown"
+      },
+      {
+        "actionList": "revealChallenge",
+        "key": "Q",
+        "label": "id:revealCardFromChallengeDeck"
+      },
+      {
+        "actionList": "shuffleChallenge",
+        "key": "Shift+Q",
+        "label": "id:reshuffleChallengeDiscard"
+      },
+      {
+        "actionList": "sufferFatigue",
+        "key": "S",
+        "label": "id:sufferFatigue"
+      },
+      {
+        "actionList": "sootheFatigue",
+        "key": "Shift+S",
+        "label": "id:sootheFatigue"
+      },
+      {
+        "actionList": "newRound",
+        "key": "Shift+N",
+        "label": "id:newRound"
+      },
+      {
+        "actionList": "travelPhase",
+        "key": "Shift+T",
+        "label": "id:travelPhase"
+      },
+      {
+        "actionList": "AddMoments",
+        "key": "Shift+M",
+        "label": "id:AddMoments"
+      }
+    ],
+    "token": [
+      {
+        "key": "1",
+        "label": "icon(https://toybox.hundredacre.club/cards/earthborne-rangers/_plugin/EarthborneRangers-TokenHarm.png)",
+        "tokenType": "harm"
+      },
+      {
+        "key": "2",
+        "label": "icon(https://toybox.hundredacre.club/cards/earthborne-rangers/_plugin/EarthborneRangers-TokenProgress.png)",
+        "tokenType": "progress"
+      },
+      {
+        "key": "3",
+        "label": "icon(https://toybox.hundredacre.club/cards/earthborne-rangers/_plugin/EarthborneRangers-TokenGeneral.png)",
+        "tokenType": "general"
+      },
+      {
+        "key": "4",
+        "label": "icon(https://toybox.hundredacre.club/cards/earthborne-rangers/_plugin/EarthborneRangers-TokenGeneral2.png)",
+        "tokenType": "general2"
+      },
+      {
+        "key": "6",
+        "label": "icon(https://toybox.hundredacre.club/cards/earthborne-rangers/_plugin/EarthborneRangers-TokenAwareness2.png)",
+        "tokenType": "awareness"
+      },
+      {
+        "key": "7",
+        "label": "icon(https://toybox.hundredacre.club/cards/earthborne-rangers/_plugin/EarthborneRangers-TokenSpirit2.png)",
+        "tokenType": "spirit"
+      },
+      {
+        "key": "8",
+        "label": "icon(https://toybox.hundredacre.club/cards/earthborne-rangers/_plugin/EarthborneRangers-TokenFitness2.png)",
+        "tokenType": "fitness"
+      },
+      {
+        "key": "9",
+        "label": "icon(https://toybox.hundredacre.club/cards/earthborne-rangers/_plugin/EarthborneRangers-TokenFocus2.png)",
+        "tokenType": "focus"
+      },
+      {
+        "key": "6",
+        "label": "icon(https://toybox.hundredacre.club/cards/earthborne-rangers/_plugin/EarthborneRangers-TokenAwareness2.png)",
+        "tokenType": "awareness2"
+      },
+      {
+        "key": "7",
+        "label": "icon(https://toybox.hundredacre.club/cards/earthborne-rangers/_plugin/EarthborneRangers-TokenSpirit2.png)",
+        "tokenType": "spirit2"
+      },
+      {
+        "key": "8",
+        "label": "icon(https://toybox.hundredacre.club/cards/earthborne-rangers/_plugin/EarthborneRangers-TokenFitness2.png)",
+        "tokenType": "fitness2"
+      },
+      {
+        "key": "9",
+        "label": "icon(https://toybox.hundredacre.club/cards/earthborne-rangers/_plugin/EarthborneRangers-TokenFocus2.png)",
+        "tokenType": "focus2"
+      }
+    ]
+  }
+}

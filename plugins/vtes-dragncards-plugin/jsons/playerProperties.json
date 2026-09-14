@@ -1,0 +1,16 @@
+{
+  "playerProperties": {
+    "pool": {
+      "label": "Pool",
+      "type": "integer",
+      "default": 30,
+      "min": 0
+    },
+    "victoryPoints": {
+      "label": "VP",
+      "type": "integer",
+      "default": 0,
+      "min": 0
+    }
+  }
+}

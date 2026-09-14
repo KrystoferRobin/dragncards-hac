@@ -1,0 +1,8 @@
+{
+  "automation": {
+    "postNewGameActionList": [
+      ["LOG", "Wyvern table created. Load a deck, then draw and play manually. No rules are enforced."]
+    ],
+    "gameRules": {}
+  }
+}

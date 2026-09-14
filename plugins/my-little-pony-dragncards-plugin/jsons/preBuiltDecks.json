@@ -1,0 +1,664 @@
+{
+  "preBuiltDecks": {
+    "applejackStarter": {
+      "label": "Applejack Starter",
+      "cards": [
+        {
+          "databaseId": "SD01D-SR01",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "SD01D-U01",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "SD01D-C01",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "SD01D-C02",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "SD01D-U02",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "SD01D-C03",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "SD01D-U03",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "SD01D-C05",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "SD01D-SR02",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "SD01D-U04",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "SD01D-C04",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "SD01D-SPR04",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "SD01D-SPR03",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "SD01D-SPR02",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "SD01D-SPR01",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "BP01-ER04",
+          "quantity": 15,
+          "loadGroupId": "playerNSceneDeck"
+        },
+        {
+          "databaseId": "SD01D-C06",
+          "quantity": 1,
+          "loadGroupId": "playerNStoryDeck"
+        },
+        {
+          "databaseId": "SD01D-C07",
+          "quantity": 1,
+          "loadGroupId": "playerNStoryDeck"
+        },
+        {
+          "databaseId": "SD01D-C08",
+          "quantity": 1,
+          "loadGroupId": "playerNStoryDeck"
+        },
+        {
+          "databaseId": "SD01D-C09",
+          "quantity": 1,
+          "loadGroupId": "playerNStoryDeck"
+        },
+        {
+          "databaseId": "SD01-RR04",
+          "quantity": 1,
+          "loadGroupId": "playerNMC"
+        }
+      ]
+    },
+    "fluttershyStarter": {
+      "label": "Fluttershy Starter",
+      "cards": [
+        {
+          "databaseId": "SD01B-SR01",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "SD01B-U01",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "SD01B-U02",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "SD01B-C02",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "SD01B-C01",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "SD01B-C03",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "SD01B-SR02",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "SD01B-C05",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "SD01B-U04",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "SD01B-C04",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "SD01B-U03",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "SD01B-SPR04",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "SD01B-SPR03",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "SD01B-SPR02",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "SD01B-SPR01",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "SD01B-C06",
+          "quantity": 1,
+          "loadGroupId": "playerNSceneDeck"
+        },
+        {
+          "databaseId": "SD01B-C07",
+          "quantity": 1,
+          "loadGroupId": "playerNSceneDeck"
+        },
+        {
+          "databaseId": "SD01B-C08",
+          "quantity": 1,
+          "loadGroupId": "playerNSceneDeck"
+        },
+        {
+          "databaseId": "SD01B-C09",
+          "quantity": 1,
+          "loadGroupId": "playerNSceneDeck"
+        },
+        {
+          "databaseId": "BP01-ER02",
+          "quantity": 15,
+          "loadGroupId": "playerNStoryDeck"
+        },
+        {
+          "databaseId": "SD01-RR02",
+          "quantity": 1,
+          "loadGroupId": "playerNMC"
+        }
+      ]
+    },
+    "pinkiePieStarter": {
+      "label": "Pinkie Pie Starter",
+      "cards": [
+        {
+          "databaseId": "SD01C-SR01",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "SD01C-U02",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "SD01C-C01",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "SD01C-C02",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "SD01C-U01",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "SD01C-SR02",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "SD01C-C04",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "SD01C-C05",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "SD01C-U04",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "SD01C-U03",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "SD01C-C03",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "SD01C-SPR01",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "SD01C-SPR03",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "SD01C-SPR04",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "SD01C-SPR02",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "BP01-ER03",
+          "quantity": 15,
+          "loadGroupId": "playerNSceneDeck"
+        },
+        {
+          "databaseId": "SD01C-C06",
+          "quantity": 1,
+          "loadGroupId": "playerNStoryDeck"
+        },
+        {
+          "databaseId": "SD01C-C07",
+          "quantity": 1,
+          "loadGroupId": "playerNStoryDeck"
+        },
+        {
+          "databaseId": "SD01C-C08",
+          "quantity": 1,
+          "loadGroupId": "playerNStoryDeck"
+        },
+        {
+          "databaseId": "SD01C-C09",
+          "quantity": 1,
+          "loadGroupId": "playerNStoryDeck"
+        },
+        {
+          "databaseId": "SD01-RR03",
+          "quantity": 1,
+          "loadGroupId": "playerNMC"
+        }
+      ]
+    },
+    "rainbowDashStarter": {
+      "label": "Rainbow Dash Starter",
+      "cards": [
+        {
+          "databaseId": "SD01E-SR01",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "SD01E-C01",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "SD01E-U01",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "SD01E-C02",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "SD01E-C03",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "SD01E-U02",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "SD01E-SR02",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "SD01E-U04",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "SD01E-C05",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "SD01E-C04",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "SD01E-U03",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "SD01E-SPR03",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "SD01E-SPR02",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "SD01E-SPR01",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "SD01E-SPR04",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "BP01-ER05",
+          "quantity": 15,
+          "loadGroupId": "playerNSceneDeck"
+        },
+        {
+          "databaseId": "SD01E-C06",
+          "quantity": 1,
+          "loadGroupId": "playerNStoryDeck"
+        },
+        {
+          "databaseId": "SD01E-C07",
+          "quantity": 1,
+          "loadGroupId": "playerNStoryDeck"
+        },
+        {
+          "databaseId": "SD01E-C08",
+          "quantity": 1,
+          "loadGroupId": "playerNStoryDeck"
+        },
+        {
+          "databaseId": "SD01E-C09",
+          "quantity": 1,
+          "loadGroupId": "playerNStoryDeck"
+        },
+        {
+          "databaseId": "SD01-RR05",
+          "quantity": 1,
+          "loadGroupId": "playerNMC"
+        }
+      ]
+    },
+    "rarityStarter": {
+      "label": "Rarity Starter",
+      "cards": [
+        {
+          "databaseId": "SD01F-SR01",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "SD01F-C01",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "SD01F-U01",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "SD01F-U02",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "SD01F-C02",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "SD01F-C03",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "SD01F-SR02",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "SD01F-C05",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "SD01F-U04",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "SD01F-C04",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "SD01F-U03",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "SD01F-SPR01",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "SD01F-SPR02",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "SD01F-SPR03",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "SD01F-SPR04",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "BP01-ER06",
+          "quantity": 15,
+          "loadGroupId": "playerNSceneDeck"
+        },
+        {
+          "databaseId": "SD01F-C06",
+          "quantity": 1,
+          "loadGroupId": "playerNStoryDeck"
+        },
+        {
+          "databaseId": "SD01F-C07",
+          "quantity": 1,
+          "loadGroupId": "playerNStoryDeck"
+        },
+        {
+          "databaseId": "SD01F-C08",
+          "quantity": 1,
+          "loadGroupId": "playerNStoryDeck"
+        },
+        {
+          "databaseId": "SD01F-C09",
+          "quantity": 1,
+          "loadGroupId": "playerNStoryDeck"
+        },
+        {
+          "databaseId": "SD01-RR06",
+          "quantity": 1,
+          "loadGroupId": "playerNMC"
+        }
+      ]
+    },
+    "twilightSparkleStarter": {
+      "label": "Twilight Sparkle Starter",
+      "cards": [
+        {
+          "databaseId": "SD01A-SR01",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "SD01A-SR02",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "SD01A-C05",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "SD01A-C04",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "SD01A-C03",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "SD01A-U03",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "SD01A-U04",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "SD01A-C01",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "SD01A-C02",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "SD01A-U02",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "SD01A-U01",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "SD01A-SPR04",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "SD01A-SPR01",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "SD01A-SPR03",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "SD01A-SPR02",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "BP01-ER01",
+          "quantity": 15,
+          "loadGroupId": "playerNSceneDeck"
+        },
+        {
+          "databaseId": "SD01A-C06",
+          "quantity": 1,
+          "loadGroupId": "playerNStoryDeck"
+        },
+        {
+          "databaseId": "SD01A-C07",
+          "quantity": 1,
+          "loadGroupId": "playerNStoryDeck"
+        },
+        {
+          "databaseId": "SD01A-C08",
+          "quantity": 1,
+          "loadGroupId": "playerNStoryDeck"
+        },
+        {
+          "databaseId": "SD01A-C09",
+          "quantity": 1,
+          "loadGroupId": "playerNStoryDeck"
+        },
+        {
+          "databaseId": "SD01-RR01",
+          "quantity": 1,
+          "loadGroupId": "playerNMC"
+        }
+      ]
+    }
+  }
+}

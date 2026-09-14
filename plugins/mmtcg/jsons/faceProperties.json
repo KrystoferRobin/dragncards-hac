@@ -1,0 +1,89 @@
+{
+  "faceProperties": {
+    "title": {
+      "label": "Title",
+      "type": "string",
+      "default": ""
+    },
+    "tags": {
+      "label": "Tags",
+      "type": "string",
+      "default": ""
+    },
+    "emblem": {
+      "label": "Emblem",
+      "type": "string",
+      "default": ""
+    },
+    "color": {
+      "label": "Color",
+      "type": "string",
+      "default": ""
+    },
+    "strength": {
+      "label": "Strength",
+      "type": "string",
+      "default": ""
+    },
+    "defense": {
+      "label": "Defense",
+      "type": "string",
+      "default": ""
+    },
+    "blast": {
+      "label": "Blast",
+      "type": "string",
+      "default": ""
+    },
+    "destiny": {
+      "label": "Destiny",
+      "type": "string",
+      "default": ""
+    },
+    "requiredPower": {
+      "label": "Required Power",
+      "type": "string",
+      "default": ""
+    },
+    "requiredColor": {
+      "label": "Required Color",
+      "type": "string",
+      "default": ""
+    },
+    "requiredEmblem": {
+      "label": "Required Emblem",
+      "type": "string",
+      "default": ""
+    },
+    "text": {
+      "label": "Text",
+      "type": "string",
+      "default": ""
+    },
+    "help": {
+      "label": "Help",
+      "type": "string",
+      "default": ""
+    },
+    "number": {
+      "label": "Number",
+      "type": "string",
+      "default": ""
+    },
+    "packName": {
+      "label": "Set",
+      "type": "string",
+      "default": ""
+    },
+    "set": {
+      "label": "Lackey Set",
+      "type": "string",
+      "default": ""
+    },
+    "loadGroupId": {
+      "label": "Load Group",
+      "type": "string",
+      "default": ""
+    }
+  }
+}

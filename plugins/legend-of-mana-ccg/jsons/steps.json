@@ -1,0 +1,26 @@
+{
+  "steps": {
+    "startStep": {
+      "phaseId": "start",
+      "label": "Start"
+    },
+    "mainStep": {
+      "phaseId": "main",
+      "label": "Main"
+    },
+    "monstersStep": {
+      "phaseId": "monsters",
+      "label": "Monster Placement"
+    },
+    "endStep": {
+      "phaseId": "end",
+      "label": "End"
+    }
+  },
+  "stepOrder": [
+    "startStep",
+    "mainStep",
+    "monstersStep",
+    "endStep"
+  ]
+}

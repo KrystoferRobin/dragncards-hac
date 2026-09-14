@@ -1,0 +1,10 @@
+{
+  "playerProperties": {
+    "mana": {
+      "label": "Mana",
+      "type": "integer",
+      "default": 0,
+      "min": 0
+    }
+  }
+}

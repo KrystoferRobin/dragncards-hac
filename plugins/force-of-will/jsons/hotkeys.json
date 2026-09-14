@@ -1,0 +1,97 @@
+{
+  "hotkeys": {
+    "game": [
+      {
+        "key": "D",
+        "actionList": "drawDeck",
+        "label": "Draw"
+      },
+      {
+        "key": "T",
+        "actionList": "drawStone",
+        "label": "Draw magic stone"
+      },
+      {
+        "key": "S",
+        "actionList": "shuffleDeck",
+        "label": "Shuffle deck"
+      },
+      {
+        "key": "R",
+        "actionList": "readyAll",
+        "label": "Recover all"
+      },
+      {
+        "key": "L",
+        "actionList": "increase_life_100",
+        "label": "Life +100"
+      },
+      {
+        "key": "C",
+        "actionList": "flipCoin",
+        "label": "Flip coin"
+      }
+    ],
+    "card": [
+      {
+        "key": "K",
+        "actionList": "readyCard",
+        "label": "Recover"
+      },
+      {
+        "key": "E",
+        "actionList": "spendCard",
+        "label": "Rest"
+      },
+      {
+        "key": "I",
+        "actionList": "invertCard",
+        "label": "Rotate 180"
+      },
+      {
+        "key": "F",
+        "actionList": [
+          "FLIP",
+          "$ACTIVE_CARD_ID"
+        ],
+        "label": "Flip / Judgment"
+      },
+      {
+        "key": "X",
+        "actionList": [
+          "DISCARD",
+          "$ACTIVE_CARD_ID"
+        ],
+        "label": "Graveyard"
+      },
+      {
+        "key": "A",
+        "actionList": [
+          "DETACH",
+          "$ACTIVE_CARD_ID"
+        ],
+        "label": "Detach"
+      },
+      {
+        "key": "H",
+        "actionList": [
+          "SHUFFLE_INTO_DECK",
+          "$ACTIVE_CARD_ID"
+        ],
+        "label": "Shuffle into deck"
+      }
+    ],
+    "token": [
+      {
+        "key": "1",
+        "tokenType": "green",
+        "label": "Green +1"
+      },
+      {
+        "key": "2",
+        "tokenType": "red",
+        "label": "Red +1"
+      }
+    ]
+  }
+}

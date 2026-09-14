@@ -1,0 +1,36 @@
+{
+  "steps": {
+    "drawStep": {
+      "phaseId": "draw",
+      "label": "Draw"
+    },
+    "takeoverStep": {
+      "phaseId": "takeover",
+      "label": "Automatic Takeover"
+    },
+    "tokensStep": {
+      "phaseId": "tokens",
+      "label": "Place Action Tokens"
+    },
+    "attackStep": {
+      "phaseId": "attack",
+      "label": "Attack / Main"
+    },
+    "plotsStep": {
+      "phaseId": "plots",
+      "label": "Use Plot / Other"
+    },
+    "endTurnStep": {
+      "phaseId": "endTurn",
+      "label": "Knock / End Turn"
+    }
+  },
+  "stepOrder": [
+    "drawStep",
+    "takeoverStep",
+    "tokensStep",
+    "attackStep",
+    "plotsStep",
+    "endTurnStep"
+  ]
+}

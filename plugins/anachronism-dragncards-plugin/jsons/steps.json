@@ -1,0 +1,8 @@
+{
+  "steps": {
+    "startStep": {"phaseId": "startOfRound", "label": "Reveal / initiative"},
+    "actionsStep": {"phaseId": "playerActions", "label": "Move and attack"},
+    "endStep": {"phaseId": "endOfRound", "label": "End of round"}
+  },
+  "stepOrder": ["startStep", "actionsStep", "endStep"]
+}

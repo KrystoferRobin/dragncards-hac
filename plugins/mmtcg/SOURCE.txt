@@ -1,0 +1,8 @@
+Built 2026-09-12 17:33 UTC from LackeyCCG MMTCG.
+Source: /Users/krystoferrobin/Downloads/lackeyplugins/MMTCG
+Art: https://github.com/wishmstr/MMTCG raw setimages.
+Author credit: Lackey / wishmstr
+
+Tabletop plugin only — Lackey has no rules engine to port.
+TSV rows: 363  skipped (no image URL or duplicate): 0
+Prebuilts: 6 Lackey decks.

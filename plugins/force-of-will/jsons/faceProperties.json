@@ -1,0 +1,79 @@
+{
+  "faceProperties": {
+    "cluster": {
+      "label": "Cluster",
+      "type": "string",
+      "default": ""
+    },
+    "colour": {
+      "label": "Colour",
+      "type": "string",
+      "default": ""
+    },
+    "race": {
+      "label": "Race",
+      "type": "string",
+      "default": ""
+    },
+    "cost": {
+      "label": "Cost",
+      "type": "string",
+      "default": ""
+    },
+    "atk": {
+      "label": "ATK",
+      "type": "string",
+      "default": ""
+    },
+    "defense": {
+      "label": "DEF",
+      "type": "string",
+      "default": ""
+    },
+    "rarity": {
+      "label": "Rarity",
+      "type": "string",
+      "default": ""
+    },
+    "artist": {
+      "label": "Artist",
+      "type": "string",
+      "default": ""
+    },
+    "divinity": {
+      "label": "Divinity",
+      "type": "string",
+      "default": ""
+    },
+    "willpower": {
+      "label": "Will",
+      "type": "string",
+      "default": ""
+    },
+    "flavour": {
+      "label": "Flavour",
+      "type": "string",
+      "default": ""
+    },
+    "text": {
+      "label": "Text",
+      "type": "string",
+      "default": ""
+    },
+    "packName": {
+      "label": "Set",
+      "type": "string",
+      "default": ""
+    },
+    "set": {
+      "label": "Set Code",
+      "type": "string",
+      "default": ""
+    },
+    "loadGroupId": {
+      "label": "Load Group",
+      "type": "string",
+      "default": ""
+    }
+  }
+}

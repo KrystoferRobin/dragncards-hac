@@ -1,0 +1,1744 @@
+{
+  "preBuiltDecks": {
+    "applejack-theme-enhanced": {
+      "label": "Applejack Theme Enhanced",
+      "cards": [
+        {
+          "databaseId": "fbfe63a5-71e4-4b16-b735-9cfca17f8b45",
+          "quantity": 1,
+          "loadGroupId": "playerNStarting"
+        },
+        {
+          "databaseId": "931e27f3-02a9-44d6-941c-64662e1290a8",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "7e24094f-ffbc-447d-a68d-59920b6e870f",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "648ac353-332d-45e4-9e3f-0503da86f030",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "0814999a-9f07-4227-bb73-49b245826b07",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "2a3eb827-36a0-48de-b336-ef31d2a12b0d",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "12af9430-0785-4e63-8070-d16b66777c65",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "8eb51ca3-631a-44a4-be8b-184786c27da9",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "892c1777-8992-4c37-ad29-11aac71565ea",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "0b47601c-cd7e-46d4-b8c5-041d1539d7b5",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "13f34928-2ea5-4e76-9e8a-bde67b7d3fb3",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "02ca992e-9e58-4127-a94e-eb838bc0a7c1",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "94420450-73a9-4ed2-820a-083e410eed1a",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "771cfb89-5312-4d2f-9231-a723c1a93bc4",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "64ba211b-fd3d-4da5-b2d0-bf006cae5ce6",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "c86d6b85-1f6a-4bfe-8858-e10b55e475b7",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "65a7fadb-ab50-4409-9238-5898bd9f26ca",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "ac0753a2-f8f8-45f4-b8fb-86cdd394ed8e",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "31b24d0c-564a-4b5c-90a4-723177ac123f",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "3f5daace-d085-41fd-b2fa-1a1dff8bbd51",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "89739781-96a8-4d21-a765-6225bd611248",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "73e86ebf-7b32-4376-9a56-e915c7551506",
+          "quantity": 2,
+          "loadGroupId": "playerNProblemDeck"
+        },
+        {
+          "databaseId": "3fb34bed-b5c2-463e-9712-dc53045e4aa3",
+          "quantity": 2,
+          "loadGroupId": "playerNProblemDeck"
+        },
+        {
+          "databaseId": "0760b742-8342-45fa-9e9b-d8f59a462a65",
+          "quantity": 2,
+          "loadGroupId": "playerNProblemDeck"
+        },
+        {
+          "databaseId": "3f36b4eb-93c7-4171-b224-6c9c2b8bf294",
+          "quantity": 2,
+          "loadGroupId": "playerNProblemDeck"
+        },
+        {
+          "databaseId": "7a19cf83-2018-4f01-bf34-73c2dac0c6f9",
+          "quantity": 2,
+          "loadGroupId": "playerNProblemDeck"
+        }
+      ]
+    },
+    "fluttershy-theme-enhanced": {
+      "label": "Fluttershy Theme Enhanced",
+      "cards": [
+        {
+          "databaseId": "935e02bc-b14d-4a49-ae4d-375f567fb3ac",
+          "quantity": 1,
+          "loadGroupId": "playerNStarting"
+        },
+        {
+          "databaseId": "1c0a77ea-95dc-4ab1-90d1-9a182930df23",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "ca44c784-bac3-42af-aad0-5036fd83a2d5",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "6003a6a8-f078-464b-a80b-ee65c3b128a4",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "398e0a29-722f-4258-9173-87264a59de2b",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "12af9430-0785-4e63-8070-d16b66777c65",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "8eb51ca3-631a-44a4-be8b-184786c27da9",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "0b47601c-cd7e-46d4-b8c5-041d1539d7b5",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "892c1777-8992-4c37-ad29-11aac71565ea",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10f58c29-07e0-41d6-b231-8a6ab96edc17",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "53d8fd18-6407-4dee-94b1-61a00cf8de68",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "b305a0b7-0f18-4595-9f43-0154414492ff",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "02ca992e-9e58-4127-a94e-eb838bc0a7c1",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "1fa2d8be-1d5e-4bf0-ab97-7b559b395266",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "79cb7097-33b9-4dfe-841e-f6c87e3d6787",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "a7607786-d6cc-4bad-9df1-70161b888fe2",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "230b4174-38f5-485b-b34a-8bb23bbeaafe",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "cf5187b9-e5ff-4ee1-bebc-74c31d441df1",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "31b24d0c-564a-4b5c-90a4-723177ac123f",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "3f5daace-d085-41fd-b2fa-1a1dff8bbd51",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "89739781-96a8-4d21-a765-6225bd611248",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "1b6d137a-5bfe-4a2d-9ab8-29bc48d8c8a6",
+          "quantity": 2,
+          "loadGroupId": "playerNProblemDeck"
+        },
+        {
+          "databaseId": "3d2872f9-bb34-45bd-92d7-a6100d9ebe34",
+          "quantity": 2,
+          "loadGroupId": "playerNProblemDeck"
+        },
+        {
+          "databaseId": "ee137bc6-c5af-498e-9366-306ac7aecec6",
+          "quantity": 2,
+          "loadGroupId": "playerNProblemDeck"
+        },
+        {
+          "databaseId": "3fb34bed-b5c2-463e-9712-dc53045e4aa3",
+          "quantity": 2,
+          "loadGroupId": "playerNProblemDeck"
+        },
+        {
+          "databaseId": "ef908e82-b9be-4ee5-9ace-0f4fad5ae2a7",
+          "quantity": 2,
+          "loadGroupId": "playerNProblemDeck"
+        }
+      ]
+    },
+    "pinkie-pie-theme-enhanced-fixed": {
+      "label": "Pinkie Pie Theme Enhanced (fixed)",
+      "cards": [
+        {
+          "databaseId": "7b846d4a-b904-481a-9e51-2a321cf9a097",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "ed4b8833-5d8e-4434-8d4b-def5837e5fee",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "c11de2e1-d83b-45b5-9d14-555ec552e6e6",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "870fafc3-f161-4dd6-b5d1-0c145f724837",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "28fe67de-d8d6-47de-8f41-b4a8f772fe71",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "9cebb3dc-54af-4dde-a792-61f1a95c2ed2",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "ea6d0440-e9de-4889-a578-3f094b136e3d",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "349c9be3-873b-4193-8359-53dad26ed6e2",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "94a6378d-a98a-47c2-bedd-c7f43bcd5881",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "848903c9-c9d0-4dad-91cb-33ac881ed06a",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "7b9701fe-167b-42a3-b316-787902fe3c1b",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "7ecd8cef-96a3-446f-bcd5-bfc0e5dc4eb2",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "b9ca3f45-6db8-431a-9b7b-63e04a9b0f63",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "20260ea9-509e-4512-a181-7baf3b8f262e",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "913c1c74-25b4-442f-ae59-c71a7e3f76e6",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "ac0753a2-f8f8-45f4-b8fb-86cdd394ed8e",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "89739781-96a8-4d21-a765-6225bd611248",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "3f5daace-d085-41fd-b2fa-1a1dff8bbd51",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "faacdbeb-fb15-4466-a24b-68059d3cfa26",
+          "quantity": 2,
+          "loadGroupId": "playerNProblemDeck"
+        },
+        {
+          "databaseId": "9cc29e98-4536-4faf-a8a9-571ec8fce754",
+          "quantity": 2,
+          "loadGroupId": "playerNProblemDeck"
+        },
+        {
+          "databaseId": "94e8ffa0-badc-4546-a8ba-300ab8145748",
+          "quantity": 2,
+          "loadGroupId": "playerNProblemDeck"
+        },
+        {
+          "databaseId": "bb32975a-83f3-48fa-9414-829e0a137ae6",
+          "quantity": 2,
+          "loadGroupId": "playerNProblemDeck"
+        },
+        {
+          "databaseId": "1209a4e5-860f-4b37-8786-12abb00c5e6d",
+          "quantity": 2,
+          "loadGroupId": "playerNProblemDeck"
+        },
+        {
+          "databaseId": "7a6d06b9-e09e-4c73-930b-0b62a36b4588",
+          "quantity": 1,
+          "loadGroupId": "playerNStarting"
+        }
+      ]
+    },
+    "rainbow-dash-theme-enhanced": {
+      "label": "Rainbow Dash Theme Enhanced",
+      "cards": [
+        {
+          "databaseId": "5ff3e6bf-84fb-4387-8931-cfd18710c93c",
+          "quantity": 1,
+          "loadGroupId": "playerNStarting"
+        },
+        {
+          "databaseId": "b16e88dc-676c-4ef2-9ef7-3852791ef374",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "eb8df8fc-d7a5-410c-9e3f-d914bf73e3d3",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "ffc99132-7001-4a4f-bc31-2ef202266298",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "4a60748b-bb70-416a-979a-973f98095b44",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "2c6b5504-2d2a-4963-8785-94f950d4d030",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "6b0dac67-8fe0-441d-b4cf-02700addcf9f",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "2dfb36bc-a296-42b2-ba23-c9bb32a3c24b",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "28fe67de-d8d6-47de-8f41-b4a8f772fe71",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "ea6d0440-e9de-4889-a578-3f094b136e3d",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "9cebb3dc-54af-4dde-a792-61f1a95c2ed2",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "349c9be3-873b-4193-8359-53dad26ed6e2",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "c0624277-9e0e-40a7-84f2-c2ef3982c931",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "32242ea3-7e2e-44ca-9e88-f2b9bd9f191d",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "033dae42-a23c-437e-9d7f-21394360303b",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "913c1c74-25b4-442f-ae59-c71a7e3f76e6",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "8b61579e-d4eb-4f23-a04d-74b751c4b6b7",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "31b24d0c-564a-4b5c-90a4-723177ac123f",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "ac0753a2-f8f8-45f4-b8fb-86cdd394ed8e",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "89739781-96a8-4d21-a765-6225bd611248",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "5b1ca583-1239-4b31-93f2-2546b9c8c810",
+          "quantity": 2,
+          "loadGroupId": "playerNProblemDeck"
+        },
+        {
+          "databaseId": "8c840c09-2570-4f22-890c-5223f55beb42",
+          "quantity": 2,
+          "loadGroupId": "playerNProblemDeck"
+        },
+        {
+          "databaseId": "94e8ffa0-badc-4546-a8ba-300ab8145748",
+          "quantity": 2,
+          "loadGroupId": "playerNProblemDeck"
+        },
+        {
+          "databaseId": "bb32975a-83f3-48fa-9414-829e0a137ae6",
+          "quantity": 2,
+          "loadGroupId": "playerNProblemDeck"
+        },
+        {
+          "databaseId": "3c3f280b-372c-406b-a0c6-ecea87d803d8",
+          "quantity": 2,
+          "loadGroupId": "playerNProblemDeck"
+        }
+      ]
+    },
+    "rarity-theme-deck-enhanced-fixed": {
+      "label": "Rarity Theme Deck Enhanced (fixed)",
+      "cards": [
+        {
+          "databaseId": "10e394e3-6437-49bb-b836-ab20f49c92b7",
+          "quantity": 1,
+          "loadGroupId": "playerNStarting"
+        },
+        {
+          "databaseId": "b16e88dc-676c-4ef2-9ef7-3852791ef374",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "eb8df8fc-d7a5-410c-9e3f-d914bf73e3d3",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "4a60748b-bb70-416a-979a-973f98095b44",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "3b4aa10e-9174-4ce6-a51e-b0fa46ed6d45",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "2c6b5504-2d2a-4963-8785-94f950d4d030",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "a4d82a6e-85ad-4b3f-b8c2-16a6cee6522a",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "6b0dac67-8fe0-441d-b4cf-02700addcf9f",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "2dfb36bc-a296-42b2-ba23-c9bb32a3c24b",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "ea6d0440-e9de-4889-a578-3f094b136e3d",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "9cebb3dc-54af-4dde-a792-61f1a95c2ed2",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "349c9be3-873b-4193-8359-53dad26ed6e2",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "e9cdf5cd-af69-44d8-b352-efb81842820d",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "c0624277-9e0e-40a7-84f2-c2ef3982c931",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "85fa9221-a2cf-4c3c-8de1-87ec17e96f19",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "4a6b51eb-9301-4423-87a3-8d99cedc7589",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "913c1c74-25b4-442f-ae59-c71a7e3f76e6",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "8b61579e-d4eb-4f23-a04d-74b751c4b6b7",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "31b24d0c-564a-4b5c-90a4-723177ac123f",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "3f5daace-d085-41fd-b2fa-1a1dff8bbd51",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "89739781-96a8-4d21-a765-6225bd611248",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "5b1ca583-1239-4b31-93f2-2546b9c8c810",
+          "quantity": 2,
+          "loadGroupId": "playerNProblemDeck"
+        },
+        {
+          "databaseId": "94e8ffa0-badc-4546-a8ba-300ab8145748",
+          "quantity": 2,
+          "loadGroupId": "playerNProblemDeck"
+        },
+        {
+          "databaseId": "bb32975a-83f3-48fa-9414-829e0a137ae6",
+          "quantity": 2,
+          "loadGroupId": "playerNProblemDeck"
+        },
+        {
+          "databaseId": "1209a4e5-860f-4b37-8786-12abb00c5e6d",
+          "quantity": 2,
+          "loadGroupId": "playerNProblemDeck"
+        },
+        {
+          "databaseId": "8c840c09-2570-4f22-890c-5223f55beb42",
+          "quantity": 2,
+          "loadGroupId": "playerNProblemDeck"
+        }
+      ]
+    },
+    "twilight-sparkle-theme-enhanced": {
+      "label": "Twilight Sparkle Theme Enhanced",
+      "cards": [
+        {
+          "databaseId": "e0ded2bf-41fe-4a02-bf7a-f269c5895840",
+          "quantity": 1,
+          "loadGroupId": "playerNStarting"
+        },
+        {
+          "databaseId": "931e27f3-02a9-44d6-941c-64662e1290a8",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "648ac353-332d-45e4-9e3f-0503da86f030",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "0814999a-9f07-4227-bb73-49b245826b07",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "2a3eb827-36a0-48de-b336-ef31d2a12b0d",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10f58c29-07e0-41d6-b231-8a6ab96edc17",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "12af9430-0785-4e63-8070-d16b66777c65",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "8eb51ca3-631a-44a4-be8b-184786c27da9",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "892c1777-8992-4c37-ad29-11aac71565ea",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "0b47601c-cd7e-46d4-b8c5-041d1539d7b5",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "13f34928-2ea5-4e76-9e8a-bde67b7d3fb3",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "0b979623-7d40-4ca3-833c-656c4488ac49",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "02ca992e-9e58-4127-a94e-eb838bc0a7c1",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "94420450-73a9-4ed2-820a-083e410eed1a",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "771cfb89-5312-4d2f-9231-a723c1a93bc4",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "64ba211b-fd3d-4da5-b2d0-bf006cae5ce6",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "c86d6b85-1f6a-4bfe-8858-e10b55e475b7",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "56cbe593-79e4-4171-843d-84a9d7f8e589",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "cf2d8b0e-98b7-4a2e-914c-076dd4e4d723",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "ac0753a2-f8f8-45f4-b8fb-86cdd394ed8e",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "31b24d0c-564a-4b5c-90a4-723177ac123f",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "89739781-96a8-4d21-a765-6225bd611248",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "73e86ebf-7b32-4376-9a56-e915c7551506",
+          "quantity": 2,
+          "loadGroupId": "playerNProblemDeck"
+        },
+        {
+          "databaseId": "3fb34bed-b5c2-463e-9712-dc53045e4aa3",
+          "quantity": 2,
+          "loadGroupId": "playerNProblemDeck"
+        },
+        {
+          "databaseId": "0760b742-8342-45fa-9e9b-d8f59a462a65",
+          "quantity": 2,
+          "loadGroupId": "playerNProblemDeck"
+        },
+        {
+          "databaseId": "3f36b4eb-93c7-4171-b224-6c9c2b8bf294",
+          "quantity": 2,
+          "loadGroupId": "playerNProblemDeck"
+        },
+        {
+          "databaseId": "a1bf6f5e-24aa-4859-be65-c6c71b3a4b7e",
+          "quantity": 2,
+          "loadGroupId": "playerNProblemDeck"
+        }
+      ]
+    },
+    "applejack-theme-deck": {
+      "label": "Applejack Theme Deck",
+      "cards": [
+        {
+          "databaseId": "fbfe63a5-71e4-4b16-b735-9cfca17f8b45",
+          "quantity": 1,
+          "loadGroupId": "playerNStarting"
+        },
+        {
+          "databaseId": "931e27f3-02a9-44d6-941c-64662e1290a8",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "619c1a9c-9048-438d-b610-60bd93a60587",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "7e24094f-ffbc-447d-a68d-59920b6e870f",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "648ac353-332d-45e4-9e3f-0503da86f030",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "0814999a-9f07-4227-bb73-49b245826b07",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "2a3eb827-36a0-48de-b336-ef31d2a12b0d",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10f58c29-07e0-41d6-b231-8a6ab96edc17",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "ad066572-9e76-4b8e-836f-0f461b96ba0f",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "733d5c75-d276-4224-b5c6-9551a4001979",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "12af9430-0785-4e63-8070-d16b66777c65",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "8eb51ca3-631a-44a4-be8b-184786c27da9",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "892c1777-8992-4c37-ad29-11aac71565ea",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "0b47601c-cd7e-46d4-b8c5-041d1539d7b5",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "54ab53a2-6050-40f9-9bcb-37471d06c911",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "02ca992e-9e58-4127-a94e-eb838bc0a7c1",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "0a5b3003-20ad-4376-b8a6-90cdd34064ad",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "054beabb-9a23-4ad9-bbf9-46691397fa03",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "32de64d0-4da4-4abd-a860-8db3f621c790",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "771cfb89-5312-4d2f-9231-a723c1a93bc4",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "64ba211b-fd3d-4da5-b2d0-bf006cae5ce6",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "c86d6b85-1f6a-4bfe-8858-e10b55e475b7",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "ac0753a2-f8f8-45f4-b8fb-86cdd394ed8e",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "cdfb213b-40b8-477e-b34f-fcfa41b6fc70",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "73e86ebf-7b32-4376-9a56-e915c7551506",
+          "quantity": 2,
+          "loadGroupId": "playerNProblemDeck"
+        },
+        {
+          "databaseId": "3fb34bed-b5c2-463e-9712-dc53045e4aa3",
+          "quantity": 2,
+          "loadGroupId": "playerNProblemDeck"
+        },
+        {
+          "databaseId": "f8a0c1aa-3ed1-4b08-8dcf-2fad1648ddcf",
+          "quantity": 1,
+          "loadGroupId": "playerNProblemDeck"
+        },
+        {
+          "databaseId": "0760b742-8342-45fa-9e9b-d8f59a462a65",
+          "quantity": 2,
+          "loadGroupId": "playerNProblemDeck"
+        },
+        {
+          "databaseId": "3f36b4eb-93c7-4171-b224-6c9c2b8bf294",
+          "quantity": 2,
+          "loadGroupId": "playerNProblemDeck"
+        },
+        {
+          "databaseId": "cb7fc8ed-22ce-4c85-88e2-de647b7df061",
+          "quantity": 1,
+          "loadGroupId": "playerNProblemDeck"
+        }
+      ]
+    },
+    "fluttershy-theme-deck": {
+      "label": "Fluttershy Theme Deck",
+      "cards": [
+        {
+          "databaseId": "935e02bc-b14d-4a49-ae4d-375f567fb3ac",
+          "quantity": 1,
+          "loadGroupId": "playerNStarting"
+        },
+        {
+          "databaseId": "b9ae30a0-7ed0-439e-8e59-a1c6be28ef8b",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "1c0a77ea-95dc-4ab1-90d1-9a182930df23",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "ca44c784-bac3-42af-aad0-5036fd83a2d5",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "b8a568c7-b045-4322-a484-3802ebdfffab",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "6003a6a8-f078-464b-a80b-ee65c3b128a4",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "398e0a29-722f-4258-9173-87264a59de2b",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "da738623-5739-43c8-beeb-3014d7b835a6",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "ad066572-9e76-4b8e-836f-0f461b96ba0f",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "733d5c75-d276-4224-b5c6-9551a4001979",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "12af9430-0785-4e63-8070-d16b66777c65",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "8eb51ca3-631a-44a4-be8b-184786c27da9",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "0b47601c-cd7e-46d4-b8c5-041d1539d7b5",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "892c1777-8992-4c37-ad29-11aac71565ea",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "054beabb-9a23-4ad9-bbf9-46691397fa03",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "b305a0b7-0f18-4595-9f43-0154414492ff",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "02ca992e-9e58-4127-a94e-eb838bc0a7c1",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "1fa2d8be-1d5e-4bf0-ab97-7b559b395266",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "8a98e8f9-f337-4c61-8131-7eabd1939486",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "c86d6b85-1f6a-4bfe-8858-e10b55e475b7",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "79cb7097-33b9-4dfe-841e-f6c87e3d6787",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "a7607786-d6cc-4bad-9df1-70161b888fe2",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "31b24d0c-564a-4b5c-90a4-723177ac123f",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "3f5daace-d085-41fd-b2fa-1a1dff8bbd51",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "1b6d137a-5bfe-4a2d-9ab8-29bc48d8c8a6",
+          "quantity": 2,
+          "loadGroupId": "playerNProblemDeck"
+        },
+        {
+          "databaseId": "3d2872f9-bb34-45bd-92d7-a6100d9ebe34",
+          "quantity": 1,
+          "loadGroupId": "playerNProblemDeck"
+        },
+        {
+          "databaseId": "66a13ad4-c7e1-40ab-9d08-4e1d288467d0",
+          "quantity": 2,
+          "loadGroupId": "playerNProblemDeck"
+        },
+        {
+          "databaseId": "ee137bc6-c5af-498e-9366-306ac7aecec6",
+          "quantity": 2,
+          "loadGroupId": "playerNProblemDeck"
+        },
+        {
+          "databaseId": "3fb34bed-b5c2-463e-9712-dc53045e4aa3",
+          "quantity": 2,
+          "loadGroupId": "playerNProblemDeck"
+        },
+        {
+          "databaseId": "d4e04055-1a0b-41c3-b539-19c21e9eaeef",
+          "quantity": 1,
+          "loadGroupId": "playerNProblemDeck"
+        }
+      ]
+    },
+    "pinkie-pie-theme-deck": {
+      "label": "Pinkie Pie Theme Deck",
+      "cards": [
+        {
+          "databaseId": "7b846d4a-b904-481a-9e51-2a321cf9a097",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "ed4b8833-5d8e-4434-8d4b-def5837e5fee",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "c11de2e1-d83b-45b5-9d14-555ec552e6e6",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "62237676-b22e-4b14-8ebb-2f6fa3ce46df",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "c470fd94-4e06-4508-aa07-3e42d3b194f9",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "870fafc3-f161-4dd6-b5d1-0c145f724837",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "4c00ffdb-29fb-4fa2-8e04-301f8f5b8e70",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "77d5d1db-da82-4284-82ef-246392b44044",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "28fe67de-d8d6-47de-8f41-b4a8f772fe71",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "9cebb3dc-54af-4dde-a792-61f1a95c2ed2",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "2dfb36bc-a296-42b2-ba23-c9bb32a3c24b",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "ea6d0440-e9de-4889-a578-3f094b136e3d",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "d1d1e799-c57b-4da7-8154-81b0b82edb16",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "848903c9-c9d0-4dad-91cb-33ac881ed06a",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "14a57245-9d28-494d-aac1-9bfdd4087088",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "fcacdfb0-159b-4e5f-8ada-d6938710fb5c",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "89490f6f-6eaf-45b4-916b-01d800d20ff4",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "d919632e-5123-4aef-a624-fe2adf7b6367",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "7ecd8cef-96a3-446f-bcd5-bfc0e5dc4eb2",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "b9ca3f45-6db8-431a-9b7b-63e04a9b0f63",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "4a6b51eb-9301-4423-87a3-8d99cedc7589",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "ac0753a2-f8f8-45f4-b8fb-86cdd394ed8e",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "cdfb213b-40b8-477e-b34f-fcfa41b6fc70",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "faacdbeb-fb15-4466-a24b-68059d3cfa26",
+          "quantity": 2,
+          "loadGroupId": "playerNProblemDeck"
+        },
+        {
+          "databaseId": "9cc29e98-4536-4faf-a8a9-571ec8fce754",
+          "quantity": 2,
+          "loadGroupId": "playerNProblemDeck"
+        },
+        {
+          "databaseId": "7d20e6f5-9bb5-45a9-b9a4-add7e1046080",
+          "quantity": 1,
+          "loadGroupId": "playerNProblemDeck"
+        },
+        {
+          "databaseId": "5d7b0bfd-7c07-45ba-a0a0-a96234597054",
+          "quantity": 2,
+          "loadGroupId": "playerNProblemDeck"
+        },
+        {
+          "databaseId": "94e8ffa0-badc-4546-a8ba-300ab8145748",
+          "quantity": 2,
+          "loadGroupId": "playerNProblemDeck"
+        },
+        {
+          "databaseId": "bb32975a-83f3-48fa-9414-829e0a137ae6",
+          "quantity": 1,
+          "loadGroupId": "playerNProblemDeck"
+        },
+        {
+          "databaseId": "7a6d06b9-e09e-4c73-930b-0b62a36b4588",
+          "quantity": 1,
+          "loadGroupId": "playerNStarting"
+        }
+      ]
+    },
+    "rainbow-dash-theme-deck": {
+      "label": "Rainbow Dash Theme Deck",
+      "cards": [
+        {
+          "databaseId": "5ff3e6bf-84fb-4387-8931-cfd18710c93c",
+          "quantity": 1,
+          "loadGroupId": "playerNStarting"
+        },
+        {
+          "databaseId": "b16e88dc-676c-4ef2-9ef7-3852791ef374",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "eb8df8fc-d7a5-410c-9e3f-d914bf73e3d3",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "ffc99132-7001-4a4f-bc31-2ef202266298",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "4a60748b-bb70-416a-979a-973f98095b44",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "3b4aa10e-9174-4ce6-a51e-b0fa46ed6d45",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "2c6b5504-2d2a-4963-8785-94f950d4d030",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "6e8d157b-8de5-4364-b7ea-f10faabec45e",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "a4d82a6e-85ad-4b3f-b8c2-16a6cee6522a",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "6b0dac67-8fe0-441d-b4cf-02700addcf9f",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "77d5d1db-da82-4284-82ef-246392b44044",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "2dfb36bc-a296-42b2-ba23-c9bb32a3c24b",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "28fe67de-d8d6-47de-8f41-b4a8f772fe71",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "ea6d0440-e9de-4889-a578-3f094b136e3d",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "4c00ffdb-29fb-4fa2-8e04-301f8f5b8e70",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "32242ea3-7e2e-44ca-9e88-f2b9bd9f191d",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "01612a10-b8ee-40c6-829a-e4d1aac25f08",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "89490f6f-6eaf-45b4-916b-01d800d20ff4",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "fcacdfb0-159b-4e5f-8ada-d6938710fb5c",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "9d065d26-842b-4c8f-80ff-809b350f84ae",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "85fa9221-a2cf-4c3c-8de1-87ec17e96f19",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "4a6b51eb-9301-4423-87a3-8d99cedc7589",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "033dae42-a23c-437e-9d7f-21394360303b",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "31b24d0c-564a-4b5c-90a4-723177ac123f",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "3f5daace-d085-41fd-b2fa-1a1dff8bbd51",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "7e3e3677-02b1-4717-9207-01a6f3e2dc4e",
+          "quantity": 1,
+          "loadGroupId": "playerNProblemDeck"
+        },
+        {
+          "databaseId": "5b1ca583-1239-4b31-93f2-2546b9c8c810",
+          "quantity": 2,
+          "loadGroupId": "playerNProblemDeck"
+        },
+        {
+          "databaseId": "8c840c09-2570-4f22-890c-5223f55beb42",
+          "quantity": 2,
+          "loadGroupId": "playerNProblemDeck"
+        },
+        {
+          "databaseId": "94e8ffa0-badc-4546-a8ba-300ab8145748",
+          "quantity": 2,
+          "loadGroupId": "playerNProblemDeck"
+        },
+        {
+          "databaseId": "bb32975a-83f3-48fa-9414-829e0a137ae6",
+          "quantity": 1,
+          "loadGroupId": "playerNProblemDeck"
+        },
+        {
+          "databaseId": "e8378695-b62d-4789-9ed1-29c5d1ecce1f",
+          "quantity": 2,
+          "loadGroupId": "playerNProblemDeck"
+        }
+      ]
+    },
+    "rarity-theme-deck": {
+      "label": "Rarity Theme Deck",
+      "cards": [
+        {
+          "databaseId": "10e394e3-6437-49bb-b836-ab20f49c92b7",
+          "quantity": 1,
+          "loadGroupId": "playerNStarting"
+        },
+        {
+          "databaseId": "b16e88dc-676c-4ef2-9ef7-3852791ef374",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "eb8df8fc-d7a5-410c-9e3f-d914bf73e3d3",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "ffc99132-7001-4a4f-bc31-2ef202266298",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "4a60748b-bb70-416a-979a-973f98095b44",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "3b4aa10e-9174-4ce6-a51e-b0fa46ed6d45",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "2c6b5504-2d2a-4963-8785-94f950d4d030",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "6e8d157b-8de5-4364-b7ea-f10faabec45e",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "a4d82a6e-85ad-4b3f-b8c2-16a6cee6522a",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "6b0dac67-8fe0-441d-b4cf-02700addcf9f",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "77d5d1db-da82-4284-82ef-246392b44044",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "2dfb36bc-a296-42b2-ba23-c9bb32a3c24b",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "28fe67de-d8d6-47de-8f41-b4a8f772fe71",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "ea6d0440-e9de-4889-a578-3f094b136e3d",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "4c00ffdb-29fb-4fa2-8e04-301f8f5b8e70",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "32242ea3-7e2e-44ca-9e88-f2b9bd9f191d",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "01612a10-b8ee-40c6-829a-e4d1aac25f08",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "89490f6f-6eaf-45b4-916b-01d800d20ff4",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "fcacdfb0-159b-4e5f-8ada-d6938710fb5c",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "9d065d26-842b-4c8f-80ff-809b350f84ae",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "85fa9221-a2cf-4c3c-8de1-87ec17e96f19",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "4a6b51eb-9301-4423-87a3-8d99cedc7589",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "033dae42-a23c-437e-9d7f-21394360303b",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "31b24d0c-564a-4b5c-90a4-723177ac123f",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "3f5daace-d085-41fd-b2fa-1a1dff8bbd51",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "7e3e3677-02b1-4717-9207-01a6f3e2dc4e",
+          "quantity": 1,
+          "loadGroupId": "playerNProblemDeck"
+        },
+        {
+          "databaseId": "5b1ca583-1239-4b31-93f2-2546b9c8c810",
+          "quantity": 2,
+          "loadGroupId": "playerNProblemDeck"
+        },
+        {
+          "databaseId": "8c840c09-2570-4f22-890c-5223f55beb42",
+          "quantity": 2,
+          "loadGroupId": "playerNProblemDeck"
+        },
+        {
+          "databaseId": "94e8ffa0-badc-4546-a8ba-300ab8145748",
+          "quantity": 2,
+          "loadGroupId": "playerNProblemDeck"
+        },
+        {
+          "databaseId": "bb32975a-83f3-48fa-9414-829e0a137ae6",
+          "quantity": 1,
+          "loadGroupId": "playerNProblemDeck"
+        },
+        {
+          "databaseId": "e8378695-b62d-4789-9ed1-29c5d1ecce1f",
+          "quantity": 2,
+          "loadGroupId": "playerNProblemDeck"
+        }
+      ]
+    },
+    "twilight-sparkle-theme-deck": {
+      "label": "Twilight Sparkle Theme Deck",
+      "cards": [
+        {
+          "databaseId": "e0ded2bf-41fe-4a02-bf7a-f269c5895840",
+          "quantity": 1,
+          "loadGroupId": "playerNStarting"
+        },
+        {
+          "databaseId": "931e27f3-02a9-44d6-941c-64662e1290a8",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "619c1a9c-9048-438d-b610-60bd93a60587",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "7e24094f-ffbc-447d-a68d-59920b6e870f",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "648ac353-332d-45e4-9e3f-0503da86f030",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "0814999a-9f07-4227-bb73-49b245826b07",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "2a3eb827-36a0-48de-b336-ef31d2a12b0d",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10f58c29-07e0-41d6-b231-8a6ab96edc17",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "ad066572-9e76-4b8e-836f-0f461b96ba0f",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "733d5c75-d276-4224-b5c6-9551a4001979",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "12af9430-0785-4e63-8070-d16b66777c65",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "8eb51ca3-631a-44a4-be8b-184786c27da9",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "892c1777-8992-4c37-ad29-11aac71565ea",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "0b47601c-cd7e-46d4-b8c5-041d1539d7b5",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "54ab53a2-6050-40f9-9bcb-37471d06c911",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "02ca992e-9e58-4127-a94e-eb838bc0a7c1",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "0a5b3003-20ad-4376-b8a6-90cdd34064ad",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "054beabb-9a23-4ad9-bbf9-46691397fa03",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "32de64d0-4da4-4abd-a860-8db3f621c790",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "771cfb89-5312-4d2f-9231-a723c1a93bc4",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "64ba211b-fd3d-4da5-b2d0-bf006cae5ce6",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "c86d6b85-1f6a-4bfe-8858-e10b55e475b7",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "ac0753a2-f8f8-45f4-b8fb-86cdd394ed8e",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "cdfb213b-40b8-477e-b34f-fcfa41b6fc70",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "73e86ebf-7b32-4376-9a56-e915c7551506",
+          "quantity": 2,
+          "loadGroupId": "playerNProblemDeck"
+        },
+        {
+          "databaseId": "3fb34bed-b5c2-463e-9712-dc53045e4aa3",
+          "quantity": 2,
+          "loadGroupId": "playerNProblemDeck"
+        },
+        {
+          "databaseId": "f8a0c1aa-3ed1-4b08-8dcf-2fad1648ddcf",
+          "quantity": 1,
+          "loadGroupId": "playerNProblemDeck"
+        },
+        {
+          "databaseId": "0760b742-8342-45fa-9e9b-d8f59a462a65",
+          "quantity": 2,
+          "loadGroupId": "playerNProblemDeck"
+        },
+        {
+          "databaseId": "3f36b4eb-93c7-4171-b224-6c9c2b8bf294",
+          "quantity": 2,
+          "loadGroupId": "playerNProblemDeck"
+        },
+        {
+          "databaseId": "cb7fc8ed-22ce-4c85-88e2-de647b7df061",
+          "quantity": 1,
+          "loadGroupId": "playerNProblemDeck"
+        }
+      ]
+    }
+  }
+}

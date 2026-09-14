@@ -1,0 +1,116 @@
+{
+  "groups": {
+    "sharedSetAside": {
+      "groupType": "aside",
+      "label": "Set Aside",
+      "tableLabel": "Set Aside",
+      "onCardEnter": {
+        "controller": "shared"
+      }
+    },
+    "player1Deck": {
+      "groupType": "deck",
+      "label": "Player 1 R&D / Stack",
+      "tableLabel": "R&D / Stack",
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1Deck",
+        "discardGroupId": "player1Discard"
+      }
+    },
+    "player1Discard": {
+      "groupType": "discard",
+      "label": "Player 1 Archives",
+      "tableLabel": "Archives",
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1Deck",
+        "discardGroupId": "player1Discard"
+      }
+    },
+    "player1HiddenArchives": {
+      "groupType": "aside",
+      "label": "Player 1 Hidden Archives",
+      "tableLabel": "Hidden Archives",
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1Deck",
+        "discardGroupId": "player1Discard"
+      }
+    },
+    "player1Hand": {
+      "groupType": "hand",
+      "label": "Player 1 HQ / Hand",
+      "tableLabel": "HQ / Hand",
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1Deck",
+        "discardGroupId": "player1Discard"
+      }
+    },
+    "player1Play": {
+      "groupType": "inPlay",
+      "label": "Player 1 Play",
+      "tableLabel": "Play",
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1Deck",
+        "discardGroupId": "player1Discard",
+        "inPlay": true
+      },
+      "canHaveAttachments": true
+    },
+    "player2Deck": {
+      "groupType": "deck",
+      "label": "Player 2 R&D / Stack",
+      "tableLabel": "R&D / Stack",
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2Deck",
+        "discardGroupId": "player2Discard"
+      }
+    },
+    "player2Discard": {
+      "groupType": "discard",
+      "label": "Player 2 Archives",
+      "tableLabel": "Archives",
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2Deck",
+        "discardGroupId": "player2Discard"
+      }
+    },
+    "player2HiddenArchives": {
+      "groupType": "aside",
+      "label": "Player 2 Hidden Archives",
+      "tableLabel": "Hidden Archives",
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2Deck",
+        "discardGroupId": "player2Discard"
+      }
+    },
+    "player2Hand": {
+      "groupType": "hand",
+      "label": "Player 2 HQ / Hand",
+      "tableLabel": "HQ / Hand",
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2Deck",
+        "discardGroupId": "player2Discard"
+      }
+    },
+    "player2Play": {
+      "groupType": "inPlay",
+      "label": "Player 2 Play",
+      "tableLabel": "Play",
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2Deck",
+        "discardGroupId": "player2Discard",
+        "inPlay": true
+      },
+      "canHaveAttachments": true
+    }
+  }
+}

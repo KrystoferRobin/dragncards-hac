@@ -1,0 +1,31 @@
+{
+  "phases": {
+    "dynasty": {
+      "label": "Dynasty",
+      "height": "20%"
+    },
+    "draw": {
+      "label": "Draw",
+      "height": "20%"
+    },
+    "combat": {
+      "label": "Combat",
+      "height": "20%"
+    },
+    "action": {
+      "label": "Action",
+      "height": "20%"
+    },
+    "end": {
+      "label": "End",
+      "height": "20%"
+    }
+  },
+  "phaseOrder": [
+    "dynasty",
+    "draw",
+    "combat",
+    "action",
+    "end"
+  ]
+}

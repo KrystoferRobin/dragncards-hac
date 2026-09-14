@@ -1,0 +1,16 @@
+{
+  "spawnExistingCardModal": {
+    "columnProperties": ["name", "type", "class", "set"],
+    "loadGroupIds": [
+      "playerNDeck",
+      "playerNHand",
+      "playerNCompany",
+      "playerNSite",
+      "playerNEvents",
+      "playerNLocationDeck",
+      "playerNSideboard",
+      "playerNDiscard",
+      "sharedSetAside"
+    ]
+  }
+}

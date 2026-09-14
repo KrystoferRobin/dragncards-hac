@@ -1,0 +1,38 @@
+{
+  "topBarCounters": {
+    "shared": [
+      {
+        "label": "Round",
+        "imageUrl": "",
+        "gameProperty": "roundNumber"
+      }
+    ],
+    "player": [
+      {
+        "label": "Actions",
+        "imageUrl": "",
+        "playerProperty": "actions"
+      },
+      {
+        "label": "Bits",
+        "imageUrl": "",
+        "playerProperty": "bits"
+      },
+      {
+        "label": "Agenda Points",
+        "imageUrl": "",
+        "playerProperty": "agendaPoints"
+      },
+      {
+        "label": "Tags",
+        "imageUrl": "",
+        "playerProperty": "tags"
+      },
+      {
+        "label": "Memory",
+        "imageUrl": "",
+        "playerProperty": "memory"
+      }
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "cardMenu": {
+    "moveToGroupIds": [
+      "playerNHand",
+      "playerNLane1",
+      "playerNLane2",
+      "playerNLane3",
+      "playerNScenes",
+      "playerNStory",
+      "playerNMC",
+      "playerNRetire",
+      "playerNPlans",
+      "playerNDeck",
+      "playerNSceneDeck",
+      "playerNStoryDeck"
+    ],
+    "options": [
+      {"label": "Flip", "actionList": "flipCard"},
+      {"label": "Tap", "actionList": "tapCard"},
+      {"label": "Untap", "actionList": "untapCard"},
+      {"label": "Retire", "actionList": "discardCard"},
+      {"label": "Detach", "actionList": "detachCard"},
+      {"label": "Shuffle into associated deck", "actionList": "shuffleIntoDeck"}
+    ]
+  }
+}

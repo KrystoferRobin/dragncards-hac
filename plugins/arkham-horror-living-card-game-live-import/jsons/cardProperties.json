@@ -1,0 +1,80 @@
+{
+  "cardProperties": {
+    "attachedCount": {
+      "default": 0,
+      "type": "integer"
+    },
+    "cardDeck": {
+      "default": "",
+      "type": "string"
+    },
+    "cardDiscard": {
+      "default": "",
+      "type": "string"
+    },
+    "cardOwner": {
+      "default": "",
+      "type": "string"
+    },
+    "cluesPlaced": {
+      "default": false,
+      "type": "boolean"
+    },
+    "controller": {
+      "default": "",
+      "type": "string"
+    },
+    "disableSideChange": {
+      "default": false,
+      "type": "boolean"
+    },
+    "discardToOther": {
+      "default": false,
+      "type": "boolean"
+    },
+    "eliminated": {
+      "default": false,
+      "type": "boolean"
+    },
+    "inAdvanced": {
+      "default": false,
+      "type": "boolean"
+    },
+    "inHand": {
+      "default": false,
+      "type": "boolean"
+    },
+    "inPlay": {
+      "default": false,
+      "type": "boolean"
+    },
+    "originalInvestigatorId": {
+      "default": null,
+      "type": "string"
+    },
+    "playIntent": {
+      "default": "",
+      "type": "string"
+    },
+    "sortOrder": {
+      "default": 0,
+      "type": "integer"
+    },
+    "spawnLeft": {
+      "default": 0,
+      "type": "integer"
+    },
+    "spawnTop": {
+      "default": 0,
+      "type": "integer"
+    },
+    "turnDone": {
+      "default": false,
+      "type": "boolean"
+    },
+    "usesPlaced": {
+      "default": false,
+      "type": "boolean"
+    }
+  }
+}

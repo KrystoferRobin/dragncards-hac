@@ -1,0 +1,26 @@
+{
+  "steps": {
+    "drawStep": {
+      "phaseId": "draw",
+      "label": "Draw"
+    },
+    "recoveryStep": {
+      "phaseId": "recovery",
+      "label": "Recovery"
+    },
+    "mainStep": {
+      "phaseId": "main",
+      "label": "Main"
+    },
+    "endStep": {
+      "phaseId": "end",
+      "label": "End"
+    }
+  },
+  "stepOrder": [
+    "drawStep",
+    "recoveryStep",
+    "mainStep",
+    "endStep"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "pluginName": "Fire Emblem Cipher",
+  "author": "Lackey / retrop",
+  "tutorialUrl": "https://fecipher.jp",
+  "announcements": [
+    "Tabletop plugin from the Lackey Fire Emblem Cipher set. No rules engine — MC, Bonds, Orbs, Support, Retreat, and Boundless are shortcuts.",
+    "D = draw. U = support. O = add orb. T = take orb. E = tap. K / R = untap. X = retreat. G = d6."
+  ],
+  "loadPreBuiltOnNewGame": false,
+  "bannerUrl": "https://toybox.hundredacre.club/cards/fe-cipher/_plugin/banner2.jpg",
+  "logoUrl": "https://toybox.hundredacre.club/cards/fe-cipher/_plugin/logo2.jpg"
+}

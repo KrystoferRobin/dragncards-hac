@@ -1,0 +1,76 @@
+{
+  "steps": {
+    "refreshStep": {
+      "phaseId": "refresh",
+      "label": "Refresh"
+    },
+    "drawStep": {
+      "phaseId": "draw",
+      "label": "Draw"
+    },
+    "resourceStep": {
+      "phaseId": "resource",
+      "label": "Resource"
+    },
+    "operationsStep": {
+      "phaseId": "operations",
+      "label": "Operations"
+    },
+    "youCommitStep": {
+      "phaseId": "youCommit",
+      "label": "You Commit"
+    },
+    "enemyCommitStep": {
+      "phaseId": "enemyCommit",
+      "label": "Enemy Commits"
+    },
+    "terrorStep": {
+      "phaseId": "terror",
+      "label": "Terror"
+    },
+    "combatStep": {
+      "phaseId": "combat",
+      "label": "Combat"
+    },
+    "arcaneStep": {
+      "phaseId": "arcane",
+      "label": "Arcane"
+    },
+    "investigationStep": {
+      "phaseId": "investigation",
+      "label": "Investigation"
+    },
+    "successStep": {
+      "phaseId": "success",
+      "label": "Determine Success"
+    },
+    "responsesStep": {
+      "phaseId": "responses",
+      "label": "Responses/Actions"
+    },
+    "uncommitStep": {
+      "phaseId": "uncommit",
+      "label": "Uncommit"
+    },
+    "endStep": {
+      "phaseId": "end",
+      "label": "End"
+    }
+  },
+  "stepOrder": [
+    "refreshStep",
+    "drawStep",
+    "resourceStep",
+    "operationsStep",
+    "youCommitStep",
+    "enemyCommitStep",
+    "terrorStep",
+    "combatStep",
+    "arcaneStep",
+    "investigationStep",
+    "successStep",
+    "responsesStep",
+    "uncommitStep",
+    "endStep"
+  ]
+}

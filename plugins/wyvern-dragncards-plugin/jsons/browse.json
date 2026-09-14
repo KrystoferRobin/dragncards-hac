@@ -1,0 +1,18 @@
+{
+  "browse": {
+    "filterPropertySideA": "type",
+    "filterValuesSideA": [
+      "Dragon",
+      "Terrain",
+      "Treasure",
+      "Action",
+      "Battle Action",
+      "Battle Reaction",
+      "Reaction",
+      "Hidden Action",
+      "Intercept Action",
+      "Dragon Slayer Action"
+    ],
+    "textPropertiesSideA": ["name", "text", "lore", "set"]
+  }
+}

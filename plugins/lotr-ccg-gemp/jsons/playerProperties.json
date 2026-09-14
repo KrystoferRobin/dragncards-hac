@@ -1,0 +1,10 @@
+{
+  "playerProperties": {
+    "twilight": {
+      "default": 0,
+      "label": "id:twilight",
+      "min": 0,
+      "type": "integer"
+    }
+  }
+}

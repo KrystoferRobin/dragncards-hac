@@ -1,0 +1,25 @@
+{
+  "browse": {
+    "filterPropertySideA": "type",
+    "filterValuesSideA": [
+      "COMPANION",
+      "ALLY",
+      "MINION",
+      "SITE",
+      "METASITE",
+      "EVENT",
+      "CONDITION",
+      "POSSESSION",
+      "ARTIFACT",
+      "THE_ONE_RING",
+      "FOLLOWER",
+      "MAP"
+    ],
+    "textPropertiesSideA": [
+      "name",
+      "text",
+      "lore",
+      "subtitle"
+    ]
+  }
+}

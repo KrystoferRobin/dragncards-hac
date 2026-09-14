@@ -1,0 +1,23 @@
+{
+  "topBarCounters": {
+    "shared": [
+      {
+        "label": "Round",
+        "imageUrl": "",
+        "gameProperty": "roundNumber"
+      }
+    ],
+    "player": [
+      {
+        "label": "Honor",
+        "imageUrl": "",
+        "playerProperty": "honor"
+      },
+      {
+        "label": "Gold",
+        "imageUrl": "",
+        "playerProperty": "gold"
+      }
+    ]
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "cardTypes": {
+    "Card": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "green",
+        "red"
+      ]
+    },
+    "Character": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "green",
+        "red"
+      ]
+    },
+    "Creations": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "green",
+        "red"
+      ]
+    },
+    "Locale": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "green",
+        "red"
+      ]
+    },
+    "Surprises": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "green",
+        "red"
+      ]
+    }
+  }
+}

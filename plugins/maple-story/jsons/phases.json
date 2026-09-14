@@ -1,0 +1,21 @@
+{
+  "phases": {
+    "levelUp": {
+      "label": "Level Up",
+      "height": "33%"
+    },
+    "actions": {
+      "label": "Character Actions",
+      "height": "33%"
+    },
+    "attack": {
+      "label": "Attack With Monsters",
+      "height": "33%"
+    }
+  },
+  "phaseOrder": [
+    "levelUp",
+    "actions",
+    "attack"
+  ]
+}

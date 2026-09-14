@@ -1,0 +1,29 @@
+{
+  "spawnExistingCardModal": {
+    "columnProperties": [
+      "name",
+      "faction",
+      "type",
+      "traits",
+      "packName",
+      "numberInPack"
+    ],
+    "loadGroupIds": [
+      "sharedNotInPlay",
+      "sharedLocations",
+      "player1Hand",
+      "player2Hand",
+      "player3Hand",
+      "player4Hand",
+      "player1Deck",
+      "player2Deck",
+      "player3Deck",
+      "player4Deck",
+      "player1Investigator",
+      "player2Investigator",
+      "player3Investigator",
+      "player4Investigator",
+      "sharedEncounterDeck"
+    ]
+  }
+}

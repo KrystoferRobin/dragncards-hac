@@ -1,0 +1,23 @@
+{
+  "faceProperties": {
+    "set": {"label": "Set", "type": "string", "default": ""},
+    "faction": {"label": "Faction", "type": "string", "default": ""},
+    "cost": {"label": "Cost", "type": "string", "default": ""},
+    "costType": {"label": "Cost Type", "type": "string", "default": ""},
+    "cancel": {"label": "Cancel", "type": "string", "default": ""},
+    "cancelType": {"label": "Cancel Type", "type": "string", "default": ""},
+    "wealth": {"label": "Wealth", "type": "string", "default": ""},
+    "attack": {"label": "Attack", "type": "string", "default": ""},
+    "parry": {"label": "Parry", "type": "string", "default": ""},
+    "cannon": {"label": "Cannon", "type": "string", "default": ""},
+    "sailing": {"label": "Sailing", "type": "string", "default": ""},
+    "adventuring": {"label": "Adventuring", "type": "string", "default": ""},
+    "influence": {"label": "Influence", "type": "string", "default": ""},
+    "swashbuckling": {"label": "Swashbuckling", "type": "string", "default": ""},
+    "crewMax": {"label": "Crew Max", "type": "string", "default": ""},
+    "moveCost": {"label": "Move Cost", "type": "string", "default": ""},
+    "rarity": {"label": "Rarity", "type": "string", "default": ""},
+    "text": {"label": "Text", "type": "string", "default": ""},
+    "loadGroupId": {"label": "Load Group", "type": "string", "default": ""}
+  }
+}

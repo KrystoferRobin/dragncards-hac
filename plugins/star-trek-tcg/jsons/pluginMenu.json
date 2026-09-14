@@ -1,0 +1,30 @@
+{
+  "pluginMenu": {
+    "options": [
+      {
+        "label": "Draw",
+        "actionList": "drawDeck"
+      },
+      {
+        "label": "Shuffle deck",
+        "actionList": "shuffleDeck"
+      },
+      {
+        "label": "Ready all",
+        "actionList": "readyAll"
+      },
+      {
+        "label": "Flip coin",
+        "actionList": "flipCoin"
+      },
+      {
+        "label": "XC +1",
+        "actionList": "increase_xc"
+      },
+      {
+        "label": "XC -1",
+        "actionList": "decrease_xc"
+      }
+    ]
+  }
+}

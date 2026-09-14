@@ -1,0 +1,215 @@
+{
+  "hotkeys": {
+    "card": [
+      {
+        "actionList": "toggleExhaust",
+        "key": "A",
+        "label": "id:exhaustReady"
+      },
+      {
+        "actionList": "flipCard",
+        "key": "F",
+        "label": "id:flip"
+      },
+      {
+        "actionList": [
+          "READY_CARD",
+          "$ACTIVE_CARD_ID"
+        ],
+        "key": "R",
+        "label": "id:ready"
+      },
+      {
+        "actionList": [
+          "SET_SIDE",
+          "$ACTIVE_CARD_ID",
+          "A",
+          "$ALIAS_N"
+        ],
+        "key": "Alt+1",
+        "label": "id:setSideA"
+      },
+      {
+        "actionList": [
+          "SET_SIDE",
+          "$ACTIVE_CARD_ID",
+          "B",
+          "$ALIAS_N"
+        ],
+        "key": "Alt+2",
+        "label": "id:setSideB"
+      },
+      {
+        "actionList": [
+          "SET_SIDE",
+          "$ACTIVE_CARD_ID",
+          "C",
+          "$ALIAS_N"
+        ],
+        "key": "Alt+3",
+        "label": "id:setSideC"
+      },
+      {
+        "actionList": "shuffleIntoDeck",
+        "key": "H",
+        "label": "id:shuffleIntoDeck"
+      },
+      {
+        "actionList": "zeroTokens",
+        "key": "0",
+        "label": "id:removeAllTokens"
+      },
+      {
+        "actionList": "detachCard",
+        "key": "U",
+        "label": "id:detachCard"
+      },
+      {
+        "actionList": [
+          "ABILITY",
+          "$ACTIVE_CARD_ID",
+          "$ACTIVE_CARD.currentSide"
+        ],
+        "key": "Shift+A",
+        "label": "Ability"
+      },
+      {
+        "actionList": [
+          "DISCARD_CARD",
+          "$ACTIVE_CARD_ID"
+        ],
+        "key": "X",
+        "label": "id:discard"
+      }
+    ],
+    "game": [
+      {
+        "actionList": "dealEncounterFacedown",
+        "key": "E",
+        "label": "id:dealEncounterFacedown"
+      },
+      {
+        "actionList": "dealEncounterFaceup",
+        "key": "Shift+E",
+        "label": "id:dealEncounterFaceup"
+      },
+      {
+        "actionList": "dealSecondFacedown",
+        "key": "K",
+        "label": "id:dealSecondFacedown"
+      },
+      {
+        "actionList": "dealSecondFaceup",
+        "key": "Shift+K",
+        "label": "id:dealSecondFaceup"
+      },
+      {
+        "actionList": "dealThirdFacedown",
+        "key": "L",
+        "label": "id:dealThirdFacedown"
+      },
+      {
+        "actionList": "dealThirdFaceup",
+        "key": "Shift+L",
+        "label": "id:dealThirdFaceup"
+      },
+      {
+        "actionList": "drawBoost",
+        "key": "B",
+        "label": "id:dealBoostCard"
+      },
+      {
+        "actionList": [
+          "DRAW_CARD"
+        ],
+        "key": "D",
+        "label": "id:drawCard"
+      },
+      {
+        "actionList": "mulliganDrawHand",
+        "key": "Shift+D",
+        "label": "id:mulliganDrawHand"
+      },
+      {
+        "actionList": [
+          "READY_ALL",
+          "$PLAYER_N",
+          "$ALIAS_N"
+        ],
+        "key": "Shift+R",
+        "label": "id:readyAll"
+      },
+      {
+        "actionList": "discardRandomCard",
+        "key": "Shift+X",
+        "label": "id:discardRandom"
+      },
+      {
+        "actionList": "shadowsOfThePast",
+        "key": "Shift+S",
+        "label": "id:shadowsOfThePast"
+      },
+      {
+        "actionList": "playerEndPhase",
+        "key": "Shift+P",
+        "label": "id:playerEndPhase"
+      },
+      {
+        "actionList": "villainEncounterPhase",
+        "key": "V",
+        "label": "id:villainEncounterPhase"
+      },
+      {
+        "actionList": "villainEndPhase",
+        "key": "Shift+V",
+        "label": "id:villainEndPhase"
+      },
+      {
+        "actionList": [
+          "PROMPT",
+          "$PLAYER_N",
+          "importMc4dbDeck"
+        ],
+        "key": "Ctrl+K",
+        "label": "Import Deck from mc4db"
+      }
+    ],
+    "token": [
+      {
+        "key": "1",
+        "label": "id:damageToken",
+        "tokenType": "damage"
+      },
+      {
+        "key": "2",
+        "label": "id:threatToken",
+        "tokenType": "threat"
+      },
+      {
+        "key": "3",
+        "label": "id:genericToken",
+        "tokenType": "generic"
+      },
+      {
+        "key": "4",
+        "label": "id:accelerationToken",
+        "tokenType": "acceleration"
+      },
+      {
+        "key": "5",
+        "label": "id:confusedToken",
+        "tokenType": "confused"
+      },
+      {
+        "key": "6",
+        "label": "id:stunnedToken",
+        "tokenType": "stunned"
+      },
+      {
+        "key": "7",
+        "label": "id:toughToken",
+        "tokenType": "tough"
+      }
+    ]
+  }
+}

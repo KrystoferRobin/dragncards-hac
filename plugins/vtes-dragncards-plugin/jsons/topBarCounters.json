@@ -1,0 +1,23 @@
+{
+  "topBarCounters": {
+    "shared": [
+      {
+        "label": "Round",
+        "imageUrl": "",
+        "gameProperty": "roundNumber"
+      }
+    ],
+    "player": [
+      {
+        "label": "Pool",
+        "imageUrl": "https://lackey.krcg.org/images/interface/counterred.png",
+        "playerProperty": "pool"
+      },
+      {
+        "label": "VP",
+        "imageUrl": "https://lackey.krcg.org/images/interface/counteryellow.png",
+        "playerProperty": "victoryPoints"
+      }
+    ]
+  }
+}

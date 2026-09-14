@@ -1,0 +1,34 @@
+{
+  "playerProperties": {
+    "actions": {
+      "label": "Actions",
+      "type": "integer",
+      "default": 0,
+      "min": 0
+    },
+    "bits": {
+      "label": "Bits",
+      "type": "integer",
+      "default": 0,
+      "min": 0
+    },
+    "agendaPoints": {
+      "label": "Agenda Points",
+      "type": "integer",
+      "default": 0,
+      "min": 0
+    },
+    "tags": {
+      "label": "Tags",
+      "type": "integer",
+      "default": 0,
+      "min": 0
+    },
+    "memory": {
+      "label": "Memory",
+      "type": "integer",
+      "default": 0,
+      "min": 0
+    }
+  }
+}

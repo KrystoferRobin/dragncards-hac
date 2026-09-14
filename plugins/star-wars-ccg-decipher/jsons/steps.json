@@ -1,0 +1,72 @@
+{
+  "steps": {
+    "1.0": {
+      "label": "id:step-1.0",
+      "phaseId": "Activate"
+    },
+    "2.1": {
+      "label": "id:step-2.1",
+      "phaseId": "Control"
+    },
+    "3.1": {
+      "label": "id:step-3.1",
+      "phaseId": "Deploy"
+    },
+    "4.1": {
+      "label": "id:step-4.1",
+      "phaseId": "Battle"
+    },
+    "4.10": {
+      "label": "id:step-4.10",
+      "phaseId": "Battle"
+    },
+    "4.11": {
+      "label": "id:step-4.11",
+      "phaseId": "Battle"
+    },
+    "4.2": {
+      "label": "id:step-4.2",
+      "phaseId": "Battle"
+    },
+    "4.3": {
+      "label": "id:step-4.3",
+      "phaseId": "Battle"
+    },
+    "4.4": {
+      "label": "id:step-4.4",
+      "phaseId": "Battle"
+    },
+    "4.5": {
+      "label": "id:step-4.5",
+      "phaseId": "Battle"
+    },
+    "4.6": {
+      "label": "id:step-4.6",
+      "phaseId": "Battle"
+    },
+    "4.7": {
+      "label": "id:step-4.7",
+      "phaseId": "Battle"
+    },
+    "4.8": {
+      "label": "id:step-4.8",
+      "phaseId": "Battle"
+    },
+    "4.9": {
+      "label": "id:step-4.9",
+      "phaseId": "Battle"
+    },
+    "5.1": {
+      "label": "id:step-5.1",
+      "phaseId": "Move"
+    },
+    "6.1": {
+      "label": "id:step-6.1",
+      "phaseId": "Draw"
+    },
+    "7.0": {
+      "label": "id:step-7.0",
+      "phaseId": "End"
+    }
+  }
+}

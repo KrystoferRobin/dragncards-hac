@@ -1,0 +1,43 @@
+{
+  "deckMenu": {
+    "subMenus": [
+      {
+        "label": "Lackey Decks",
+        "deckLists": [
+          {
+            "deckListId": "king-of-the-pumpkin-patch",
+            "label": "King of the Pumpkin Patch"
+          },
+          {
+            "deckListId": "mrs-claus-pie-factory",
+            "label": "Mrs Claus Pie Factory"
+          },
+          {
+            "deckListId": "starter-deck-dr-finklestein",
+            "label": "Starter Deck - Dr Finklestein"
+          },
+          {
+            "deckListId": "starter-deck-jack-skellington",
+            "label": "Starter Deck - Jack Skellington"
+          },
+          {
+            "deckListId": "starter-deck-oogie-boogie",
+            "label": "Starter Deck - Oogie Boogie"
+          },
+          {
+            "deckListId": "starter-deck-the-mayor",
+            "label": "Starter Deck - The Mayor"
+          },
+          {
+            "deckListId": "the-minion-engine",
+            "label": "The Minion Engine"
+          },
+          {
+            "deckListId": "weapons-of-mass-destruction",
+            "label": "Weapons of Mass Destruction"
+          }
+        ]
+      }
+    ]
+  }
+}

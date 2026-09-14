@@ -1,0 +1,17 @@
+{
+  "browse": {
+    "filterPropertySideA": "type",
+    "filterValuesSideA": [
+      "Card",
+      "Character",
+      "Creations",
+      "Locale",
+      "Surprises"
+    ],
+    "textPropertiesSideA": [
+      "name",
+      "packName",
+      "text"
+    ]
+  }
+}

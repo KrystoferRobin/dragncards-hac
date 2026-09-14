@@ -1,0 +1,13 @@
+{
+  "faceProperties": {
+    "set": {"label": "Set", "type": "string", "default": ""},
+    "rarity": {"label": "Rarity", "type": "string", "default": ""},
+    "cost": {"label": "Cost", "type": "string", "default": ""},
+    "keywords": {"label": "Keywords", "type": "string", "default": ""},
+    "inspiration": {"label": "Inspiration", "type": "string", "default": ""},
+    "stage": {"label": "Stage", "type": "string", "default": ""},
+    "subtitle": {"label": "Subtitle", "type": "string", "default": ""},
+    "text": {"label": "Text", "type": "string", "default": ""},
+    "loadGroupId": {"label": "Load Group", "type": "string", "default": ""}
+  }
+}

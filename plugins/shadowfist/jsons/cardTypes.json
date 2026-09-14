@@ -1,0 +1,52 @@
+{
+  "cardTypes": {
+    "Character": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "green",
+        "red"
+      ]
+    },
+    "Edge": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "green",
+        "red"
+      ]
+    },
+    "Event": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "green",
+        "red"
+      ]
+    },
+    "Site": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "green",
+        "red"
+      ]
+    },
+    "State": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "green",
+        "red"
+      ]
+    },
+    "Token": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "green",
+        "red"
+      ]
+    }
+  }
+}

@@ -14,7 +14,9 @@ export const SideBar = React.memo(() => {
     if (cardById) {
       for (const [cardId, card] of Object.entries<any>(cardById)) {
         if (!card?.inPlay) continue;
-        for (const [stepId, val] of Object.entries<any>(card?.sides?.[card.currentSide]?.triggers)) {
+        const triggers = card?.sides?.[card.currentSide]?.triggers;
+        if (!triggers) continue;
+        for (const [stepId, val] of Object.entries<any>(triggers)) {
           if (val === true) {
             if (newTriggerMap?.[stepId]) {
               newTriggerMap[stepId].push(cardId);

@@ -1,0 +1,41 @@
+{
+  "steps": {
+    "establishingStep": {
+      "phaseId": "establishing",
+      "label": "Establishing Shot"
+    },
+    "generateStep": {
+      "phaseId": "generate",
+      "label": "Generate Power"
+    },
+    "unturnStep": {
+      "phaseId": "unturn",
+      "label": "Unturn"
+    },
+    "discardStep": {
+      "phaseId": "discard",
+      "label": "Discard"
+    },
+    "drawStep": {
+      "phaseId": "draw",
+      "label": "Draw"
+    },
+    "mainStep": {
+      "phaseId": "main",
+      "label": "Main Shot"
+    },
+    "endStep": {
+      "phaseId": "end",
+      "label": "End of Turn"
+    }
+  },
+  "stepOrder": [
+    "establishingStep",
+    "generateStep",
+    "unturnStep",
+    "discardStep",
+    "drawStep",
+    "mainStep",
+    "endStep"
+  ]
+}

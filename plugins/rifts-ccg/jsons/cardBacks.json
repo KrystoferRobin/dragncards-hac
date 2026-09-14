@@ -1,0 +1,9 @@
+{
+  "cardBacks": {
+    "default": {
+      "width": 0.72,
+      "height": 1.0,
+      "imageUrl": "rifts-ccg/_plugin/RiftsCcg-CardbackDefault.jpg"
+    }
+  }
+}

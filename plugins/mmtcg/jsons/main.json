@@ -1,0 +1,12 @@
+{
+  "pluginName": "Mega Man TCG",
+  "author": "Lackey / wishmstr",
+  "tutorialUrl": "https://github.com/wishmstr/MMTCG",
+  "announcements": [
+    "Tabletop plugin from the Lackey Mega Man TCG set. No rules engine — NetNavi, Power Up, and mill-for-damage are shortcuts.",
+    "D = draw. U = power up (top of deck facedown). M = 1 damage (mill to discard)."
+  ],
+  "loadPreBuiltOnNewGame": false,
+  "bannerUrl": "https://toybox.hundredacre.club/cards/mmtcg/_plugin/banner2.jpg",
+  "logoUrl": "https://toybox.hundredacre.club/cards/mmtcg/_plugin/logo2.jpg"
+}

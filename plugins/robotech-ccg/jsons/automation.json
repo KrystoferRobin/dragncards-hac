@@ -1,0 +1,11 @@
+{
+  "automation": {
+    "postNewGameActionList": [
+      [
+        "LOG",
+        "Robotech CCG table created. Load a starter from Menu → Load. No rules are enforced."
+      ]
+    ],
+    "gameRules": {}
+  }
+}

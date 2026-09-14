@@ -1,0 +1,9 @@
+{
+  "cardBacks": {
+    "normal": {
+      "height": 1,
+      "imageUrl": "wars-trading-card-game/_plugin/WARSTradingCardGame-CardbackNormal.jpg",
+      "width": 0.72
+    }
+  }
+}

@@ -1,0 +1,5544 @@
+{
+  "preBuiltDecks": {
+    "doom-of-the-ancient-ones-fighter-arith-theana": {
+      "label": "Doom of the Ancient Ones Fighter — Arith Theana",
+      "cards": [
+        {
+          "databaseId": "lon-arith-theana-don-t-worry-i-ve-got-your-back",
+          "quantity": 1,
+          "loadGroupId": "playerNAvatar"
+        },
+        {
+          "databaseId": "lon-paladin-captain",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-focus-energy",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-black-widow-stance",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-agitate-spirit-find-your-power-focus-it-now-use-it-to-strike",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-divine-inspiration-where-the-gods-touch-the-earth-courage-and-honor-are-sure-to-bloom",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-shield-of-bane-warding",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-inflame",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-surprise-attack",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-boots-of-slaughter",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-kerran-bruiser",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-axe-thrower",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-weapon-master",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-paladin-of-gallantry",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-halfling-bully-you-think-my-club-is-funny",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-searcher-of-valor",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-ogre-war-gauntlets",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-a-mysterious-clue-each-avatar-gets-2-defense-for-each-quest-its-owner-has-completed",
+          "quantity": 1,
+          "loadGroupId": "playerNQuest1"
+        },
+        {
+          "databaseId": "lon-battle-the-overseer-amalok-was-accompanied-by-a-veritable-army-of-voidmen",
+          "quantity": 1,
+          "loadGroupId": "playerNQuest2"
+        },
+        {
+          "databaseId": "lon-roadblock",
+          "quantity": 1,
+          "loadGroupId": "playerNQuest3"
+        },
+        {
+          "databaseId": "lon-strength-in-steel",
+          "quantity": 1,
+          "loadGroupId": "playerNQuest4"
+        }
+      ]
+    },
+    "doom-of-the-ancient-ones-mage-thrall-of-the-void": {
+      "label": "Doom of the Ancient Ones Mage — Thrall of the Void",
+      "cards": [
+        {
+          "databaseId": "lon-thrall-of-the-void-the-time-for-reason-has-long-since-passed",
+          "quantity": 1,
+          "loadGroupId": "playerNAvatar"
+        },
+        {
+          "databaseId": "lon-sagacity",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-faithful-drake",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-undying-adherent-it-s-impolite-to-interrupt-someone-s-meal",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-robe-of-ancient-terrors-all-your-damaged-b-pet-b-units-get-1-damage-bonus",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-ball-of-fire",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-magic-mastery-each-spy-has-his-own-favorite-method-of-collecting-intelligence",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-summoning-trainer",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-staff-of-fire",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-flame-shock-put-simply-so-effective",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-reclaim-energy-the-necromancer-giveth-and-the-necromancer-taketh-away",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-vessel-of-suffering-fill-it-with-tears-until-you-have-no-more",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-animist-bond-go-forth-my-minion-bring-glory-to-us-and-death-to-our-enemies",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-spidery-servant",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-essence-of-air-it-s-only-air-how-can-it-possibly-hurt-us-skamuk-s-final-words",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-gaxan-bakar-this-avatar-gets-1-attack-for-each-quest-you-have-completed",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-rescue-the-hostage",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-schemes-revealed-each-avatar-gets-2-attack-for-each-quest-its-owner-has-completed",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-theer-s-tribute-now-you-give-your-lives-to-serve-me-roehn-theer",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        }
+      ]
+    },
+    "doom-of-the-ancient-ones-priest-rinaya-zishlin": {
+      "label": "Doom of the Ancient Ones Priest — Rinaya Zishlin",
+      "cards": [
+        {
+          "databaseId": "lon-rinaya-zishlin-bounties-of-wisdom-are-everywhere-not-everyone-can-perceive-them",
+          "quantity": 1,
+          "loadGroupId": "playerNAvatar"
+        },
+        {
+          "databaseId": "lon-sunstone-breastplate",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-wailing-bone-mace",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-strength-of-earth-the-shaman-was-primitive-but-that-didn-t-mean-he-wasn-t-dangerous",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-stalking-fury",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-greater-fungusman",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-blessed-armament-truth-is-the-weapon-the-mace-merely-a-messenger",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-evidence-of-faith",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-battle-fervor",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-bonedigger-burrow-maker",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-act-of-belief-the-flame-without-provides-focus-to-stoke-the-flame-within",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-bulwark-of-faith",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-quickness",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-goblin-berserker",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-voidman-cleric-attack-the-norrathians-from-everywhere-at-once",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-circumvent-never-underestimate-the-speed-of-your-opponent",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-converge",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-historian-of-the-gods-each-avatar-gets-1-health-for-each-quest-its-owner-has-completed",
+          "quantity": 1,
+          "loadGroupId": "playerNQuest1"
+        },
+        {
+          "databaseId": "lon-tome-of-worship",
+          "quantity": 1,
+          "loadGroupId": "playerNQuest2"
+        },
+        {
+          "databaseId": "lon-doom-of-the-void",
+          "quantity": 1,
+          "loadGroupId": "playerNQuest3"
+        },
+        {
+          "databaseId": "lon-stem-the-tide-we-ll-stop-them-together-your-blade-and-my-spells-rinaya",
+          "quantity": 1,
+          "loadGroupId": "playerNQuest4"
+        }
+      ]
+    },
+    "doom-of-the-ancient-ones-scout-kenoch-macdunham": {
+      "label": "Doom of the Ancient Ones Scout — Kenoch MacDunham",
+      "cards": [
+        {
+          "databaseId": "lon-kenoch-macdunham",
+          "quantity": 1,
+          "loadGroupId": "playerNAvatar"
+        },
+        {
+          "databaseId": "lon-solitary-stalker-this-unit-gets-1-damage-bonus-while-it-s-attacking-alone",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-enchanted-mithril-dagger",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-stealthy-charge",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-focused-attacks-who-s-ready-for-another-round-lefty-callahan",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-amazing-reflexes",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-dance-of-blades",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-archer-s-agility",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-patient-trapper",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-artful-opportunist-she-does-not-wait-for-opportunities-to-strike-she-creates-them",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-surprise-attack",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-kinesthetics",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-windwillow-branch-bow",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-dagger-of-dawn",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-koada-dal-ranger-the-only-joy-he-took-in-combat-was-having-survived-so-many",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-felwithe-songwhisperer",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-ayr-dal-outlaw-that-sheriff-got-the-word-out-i-ll-have-to-lay-low-until-nightfall",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-desperate-jab",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-punch-he-awoke-quite-later-a-shadow-of-his-former-self",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-display-of-skill",
+          "quantity": 1,
+          "loadGroupId": "playerNQuest1"
+        },
+        {
+          "databaseId": "lon-preying-on-the-weak-you-will-be-my-puppet-traveler-zevasva-the-spellbinder",
+          "quantity": 1,
+          "loadGroupId": "playerNQuest2"
+        },
+        {
+          "databaseId": "lon-unravel-the-plot",
+          "quantity": 1,
+          "loadGroupId": "playerNQuest3"
+        },
+        {
+          "databaseId": "lon-mandate-of-the-void-i-will-gain-favor-by-slaying-you-narikar",
+          "quantity": 1,
+          "loadGroupId": "playerNQuest4"
+        }
+      ]
+    },
+    "dragonbrood-fighter-tahka": {
+      "label": "Dragonbrood Fighter — Tahka",
+      "cards": [
+        {
+          "databaseId": "lon-tahka",
+          "quantity": 1,
+          "loadGroupId": "playerNAvatar"
+        },
+        {
+          "databaseId": "lon-belt-of-plunder",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-haru-s-sand-etched-sword",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-striking-cobra-as-with-an-angry-cobra-approach-at-your-own-peril",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-mercenary-taunt-avatar",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-weapon-guard",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-staggering-blow-walked-right-into-that-one",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-outlands-defender-this-unit-gets-1-defense-for-each-of-your-level-tokens-at-its-quest",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-pillaging-menace-he-liked-to-smash-people-things-it-made-little-difference",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-bloodrage-berserker",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-shadowknight-ally",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-merciless-shadowknight-your-avatar-gets-1-attack",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-shadowknight-defender-your-avatar-gets-1-defense",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-brace-for-impact-the-next-moment-would-decide-the-course-of-the-battle",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-leg-slice-deal-1-damage-to-an-opposing-combatant",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-inferno-plate-helm-your-avatar-gets-2-attack",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-squire-for-hire-ou-may-play-it-for-no-cost",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-kick-the-harder-they-fall",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-defend-with-vigor",
+          "quantity": 1,
+          "loadGroupId": "playerNQuest1"
+        },
+        {
+          "databaseId": "lon-searching-for-spoils-the-fallen-no-longer-have-use-for-their-armor-and-weapons",
+          "quantity": 1,
+          "loadGroupId": "playerNQuest2"
+        },
+        {
+          "databaseId": "lon-tahka-s-vigilance-at-the-end-of-each-player-s-turn-ready-all-his-units-at-this-quest",
+          "quantity": 1,
+          "loadGroupId": "playerNQuest3"
+        },
+        {
+          "databaseId": "lon-tahka-s-onslaught",
+          "quantity": 1,
+          "loadGroupId": "playerNQuest4"
+        }
+      ]
+    },
+    "dragonbrood-mage-meleen": {
+      "label": "Dragonbrood Mage — Meleen",
+      "cards": [
+        {
+          "databaseId": "lon-meleen",
+          "quantity": 1,
+          "loadGroupId": "playerNAvatar"
+        },
+        {
+          "databaseId": "lon-summoning-whistle",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-ego-shock-this-ability-gets-1-attack-for-each-point-of-damage-on-your-avatar",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-frigid-gift-some-gifts-can-t-be-rejected-or-returned",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-frost-shock-i-ve-heard-of-cold-steel-but-this-is-ridiculous",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-storm-of-lightning",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-illusory-pest",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-earthen-avatar",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-power-from-pain",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-renew-elements-to-play-this-tactic-choose-a-friendly-b-pet-b-combatant",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-ambitious-magus-this-unit-gets-1-attack-for-each-of-your-level-tokens-at-its-quest",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-book-of-applied-magic-your-avatar-gets-1-attack-for-each-exerted-opposing-unit",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-starblast-necklace",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-earthen-master-the-earth-is-angry-when-awakened",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-tellurian-champion",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-essence-of-air-it-s-only-air-how-can-it-possibly-hurt-us-skamuk-s-final-words",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-distract-the-enemy",
+          "quantity": 1,
+          "loadGroupId": "playerNQuest1"
+        },
+        {
+          "databaseId": "lon-meddlesome-tricks",
+          "quantity": 1,
+          "loadGroupId": "playerNQuest2"
+        },
+        {
+          "databaseId": "lon-meleen-s-silver-tongue",
+          "quantity": 1,
+          "loadGroupId": "playerNQuest4"
+        }
+      ]
+    },
+    "dragonbrood-priest-balebri-estarim": {
+      "label": "Dragonbrood Priest — Balebri Estarim",
+      "cards": [
+        {
+          "databaseId": "lon-balebri-estarim-this-avatar-gets-1-defense-for-each-of-your-level-tokens",
+          "quantity": 1,
+          "loadGroupId": "playerNAvatar"
+        },
+        {
+          "databaseId": "lon-heart-of-the-herd",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-awestruck",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-sentence-a-judgment-visited-upon-the-unwary-is-no-less-worthy",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-trident-of-freed-spirits",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-iniquity-i-ll-take-that",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-frenzied-fleshgoyle",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-sabertooth-tigress",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-cautious-explorer",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-kromdek-warbear-this-unit-gets-1-defense-for-each-opposing-unit-at-its-quest",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-quickness-places-to-be-evil-to-do",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-act-of-belief-the-flame-without-provides-focus-to-stoke-the-flame-within",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-persecution-if-you-have-link-target-msg-23320-influence-link-draw-a-card",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-crushbone-oracle",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-spiritmind-breastplate-holy-shirt",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-bull-elk",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-balebri-s-presence-the-strength-of-the-forest-ran-deep-in-balebri-s-blood",
+          "quantity": 1,
+          "loadGroupId": "playerNQuest1"
+        },
+        {
+          "databaseId": "lon-become-the-alpha",
+          "quantity": 1,
+          "loadGroupId": "playerNQuest2"
+        },
+        {
+          "databaseId": "lon-moment-s-rest",
+          "quantity": 1,
+          "loadGroupId": "playerNQuest3"
+        },
+        {
+          "databaseId": "lon-offering-of-peace",
+          "quantity": 1,
+          "loadGroupId": "playerNQuest4"
+        }
+      ]
+    },
+    "dragonbrood-scout-rhyan-estarim": {
+      "label": "Dragonbrood Scout — Rhyan Estarim",
+      "cards": [
+        {
+          "databaseId": "lon-rhyan-estarim",
+          "quantity": 1,
+          "loadGroupId": "playerNAvatar"
+        },
+        {
+          "databaseId": "lon-ignore-the-odds-perhaps-he-overestimates-the-element-of-surprise",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-deathfist-utility-whip-when-the-linked-unit-is-destroyed-place-a-level-token-at-its-quest",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-fortified-keep",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-lethal-pioneer-your-avatar-gets-1-damage-bonus-while-this-unit-is-exerted",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-seeker-of-destiny",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-mug",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-sleight-of-hand",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-explorer-s-tunic-of-the-sun-your-avatar-gets-1-attack-for-each-of-your-level-tokens",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-songweaver-won-t-you-sit-and-listen-for-a-spell",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-shadowy-assailant",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-daring-advance-i-m-just-getting-into-the-swing-of-things",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-deriding-chicanery-you-should-come-over-here-and-teach-me-a-lesson",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-amazing-reflexes",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-dazzling-steel-you-can-t-hit-what-you-can-t-see-but-it-can-certainly-hit-you",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-deadeye-ranger-they-won-t-know-what-hit-them-much-less-where-it-was-fired-from",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-patient-trapper",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-dervish-cutthroat",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-armed-ambush",
+          "quantity": 1,
+          "loadGroupId": "playerNQuest1"
+        },
+        {
+          "databaseId": "lon-longing-for-solitude",
+          "quantity": 1,
+          "loadGroupId": "playerNQuest2"
+        },
+        {
+          "databaseId": "lon-rhyan-s-killing-blow-the-smallest-of-the-party-can-still-deliver-the-most-telling-blow",
+          "quantity": 1,
+          "loadGroupId": "playerNQuest3"
+        },
+        {
+          "databaseId": "lon-surrounding-your-foe-an-unexpected-attack-can-often-be-a-successful-one",
+          "quantity": 1,
+          "loadGroupId": "playerNQuest4"
+        }
+      ]
+    },
+    "legacies-fighter-arith-theana": {
+      "label": "Legacies Fighter — Arith Theana",
+      "cards": [
+        {
+          "databaseId": "lon-arith-theana-get-ready-they-ll-be-coming-back-this-way",
+          "quantity": 1,
+          "loadGroupId": "playerNAvatar"
+        },
+        {
+          "databaseId": "lon-guardian-s-call",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-gladiator-s-bracers",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-clash-of-arms",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-distant-vigilance-we-see-everything-though-it-is-not-always-a-blessing",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-misty-mustang-you-can-t-hurt-what-you-can-t-catch",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-punch-he-awoke-quite-later-a-shadow-of-his-former-self",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-blacktimber-treant",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-shadow-wolf-in-the-moonlit-shadows-of-the-forest-everything-gets-more-dangerous",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-paladin-of-gallantry",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-koada-dal-cleric",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-savage-dire-wolf",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-jagged-blade-of-war-forged-in-the-fires-of-drunder-this-blade-thirsts-for-battle",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-brace-it-gets-a-1-link-target-msg-14612-rune-link",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-earthwalk-you-get-1-total-damage-and-4-total-defense",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-divine-might-paladins-gain-strength-from-mithaniel-marr-the-truthbringer",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-battle-cry",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-fire-drake",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-city-of-ruin",
+          "quantity": 1,
+          "loadGroupId": "playerNQuest1"
+        },
+        {
+          "databaseId": "lon-retrieve-the-stolen-coinpurse",
+          "quantity": 1,
+          "loadGroupId": "playerNQuest2"
+        },
+        {
+          "databaseId": "lon-expose-the-corrupt-guards-all-units-at-this-quest-get-2-attack",
+          "quantity": 1,
+          "loadGroupId": "playerNQuest3"
+        },
+        {
+          "databaseId": "lon-ill-fated-trip-at-the-end-of-each-turn-destroy-all-damaged-units-at-this-quest",
+          "quantity": 1,
+          "loadGroupId": "playerNQuest4"
+        }
+      ]
+    },
+    "legacies-mage-asharae": {
+      "label": "Legacies Mage — Asharae",
+      "cards": [
+        {
+          "databaseId": "lon-asharae",
+          "quantity": 1,
+          "loadGroupId": "playerNAvatar"
+        },
+        {
+          "databaseId": "lon-shock-of-lightning-your-avatar-gets-1-damage-bonus",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-blood-prophet-s-band-your-avatar-gets-2-attack-and-1-damage-bonus",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-clash-of-arms",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-exchange",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-black-bone-dirk-the-sharpened-bone-of-ladon-makes-a-formidable-skewer",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-mighty-blow",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-void-beast-3",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-arcane-augur-your-avatar-gets-1-attack-for-each-of-your-b-pet-b-units",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-heat-stroke",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-vengeful-coercer-great-power-requires-great-sacrifice",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-goblin-berserker",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-undead-horde",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-elemental-siphon-you-get-4-total-attack",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-refuge",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-shadow-wolf-in-the-moonlit-shadows-of-the-forest-everything-gets-more-dangerous",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-hungry-ooze",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-fippy-s-paw",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-forcibly-detained",
+          "quantity": 1,
+          "loadGroupId": "playerNQuest1"
+        },
+        {
+          "databaseId": "lon-orb-of-the-defender",
+          "quantity": 1,
+          "loadGroupId": "playerNQuest2"
+        },
+        {
+          "databaseId": "lon-stealing-the-prize-all-avatars-get-1-damage-bonus",
+          "quantity": 1,
+          "loadGroupId": "playerNQuest3"
+        },
+        {
+          "databaseId": "lon-they-re-after-you",
+          "quantity": 1,
+          "loadGroupId": "playerNQuest4"
+        }
+      ]
+    },
+    "legacies-priest-eluviel": {
+      "label": "Legacies Priest — Eluviel",
+      "cards": [
+        {
+          "databaseId": "lon-eluviel",
+          "quantity": 1,
+          "loadGroupId": "playerNAvatar"
+        },
+        {
+          "databaseId": "lon-restoration",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-imbued-chain-coif-sometimes-a-good-piece-of-armor-invigorates-as-well-as-protects",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-exchange",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-clever-invention-what-am-thing-me-confused-hey-you-smell-burning",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-black-bone-dirk-the-sharpened-bone-of-ladon-makes-a-formidable-skewer",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-mighty-blow",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-void-beast-3",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-clay-gargoyle",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-priestess-of-zek",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-goblin-berserker",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-orcish-swordmaster-among-the-redfist-veterans-orcish-is-preferred-anybody-disagree",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-sarnak-scavenger-now-that-we-re-done-with-all-the-fighting-look-what-i-found",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-act-of-belief-the-flame-without-provides-focus-to-stoke-the-flame-within",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-atrophy",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-unholy-fear-see-the-terror-that-hides-in-the-back-of-your-mind",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-savagery-you-get-3-total-attack",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-bracers-of-forbidden-rites-loremaster-dorinan-is-one-of-the-few-who-knows-these-costly-rites",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-return-to-kaladim",
+          "quantity": 1,
+          "loadGroupId": "playerNQuest1"
+        },
+        {
+          "databaseId": "lon-home-again",
+          "quantity": 1,
+          "loadGroupId": "playerNQuest2"
+        },
+        {
+          "databaseId": "lon-tumpy-tonics-kiola-nuts-are-the-main-ingredient-tumpy-irontoe",
+          "quantity": 1,
+          "loadGroupId": "playerNQuest3"
+        },
+        {
+          "databaseId": "lon-lost-legend-of-lavastorm",
+          "quantity": 1,
+          "loadGroupId": "playerNQuest4"
+        }
+      ]
+    },
+    "legacies-scout-rhyan-estarim": {
+      "label": "Legacies Scout — Rhyan Estarim",
+      "cards": [
+        {
+          "databaseId": "lon-rhyan-estarim",
+          "quantity": 1,
+          "loadGroupId": "playerNAvatar"
+        },
+        {
+          "databaseId": "lon-storm-of-arrows",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-tunic-of-dark-reflection",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-clever-invention-what-am-thing-me-confused-hey-you-smell-burning",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-distant-vigilance-we-see-everything-though-it-is-not-always-a-blessing",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-misty-mustang-you-can-t-hurt-what-you-can-t-catch",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-punch-he-awoke-quite-later-a-shadow-of-his-former-self",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-clay-gargoyle",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-ravenscale",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-deriding-chicanery-you-should-come-over-here-and-teach-me-a-lesson",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-razor-sharp-speedblade",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-freehand-reversal",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-double-shot-i-didn-t-think-it-was-actually-possible-to-do-that",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-deadeye-ranger-they-won-t-know-what-hit-them-much-less-where-it-was-fired-from",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-lethal-pioneer-your-avatar-gets-1-damage-bonus-while-this-unit-is-exerted",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-savage-dire-wolf",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-blacktimber-treant",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-fire-drake",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-village-warfare",
+          "quantity": 1,
+          "loadGroupId": "playerNQuest1"
+        },
+        {
+          "databaseId": "lon-guise-of-horror",
+          "quantity": 1,
+          "loadGroupId": "playerNQuest2"
+        },
+        {
+          "databaseId": "lon-unsatisfying-result-all-avatars-get-2-attack",
+          "quantity": 1,
+          "loadGroupId": "playerNQuest3"
+        },
+        {
+          "databaseId": "lon-no-choice-but-to-fight",
+          "quantity": 1,
+          "loadGroupId": "playerNQuest4"
+        }
+      ]
+    },
+    "oathbound-fighter-terin": {
+      "label": "Oathbound Fighter — Terin",
+      "cards": [
+        {
+          "databaseId": "lon-terin",
+          "quantity": 1,
+          "loadGroupId": "playerNAvatar"
+        },
+        {
+          "databaseId": "lon-everfrost-grizzly",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-battle-cry",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-bob-and-weave-in-war-a-missed-opportunity-is-an-opportunity-gained",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-instigate",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-bronze-gauntlets",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-shield-of-strife",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-kick",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-howling-frost-giant",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-bloodlust",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-wind-walk-i-m-tired-of-this-i-m-going-for-a-stroll",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-battle-chant",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-fallen-orc",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-orcish-swordmaster-among-the-redfist-veterans-orcish-is-preferred-anybody-disagree",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-fallen-berserker-what-doesn-t-kill-it-only-makes-it-madder",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-sap-strength",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-scourge-blade-weapons-of-the-scourge-cut-through-more-than-flesh-and-bone",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-pierce",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-beware-of-ogres-bash-em-good-craknek-credo",
+          "quantity": 1,
+          "loadGroupId": "playerNQuest1"
+        },
+        {
+          "databaseId": "lon-expose-the-corrupt-guards-all-units-at-this-quest-get-2-attack",
+          "quantity": 1,
+          "loadGroupId": "playerNQuest2"
+        },
+        {
+          "databaseId": "lon-retrieve-the-stolen-coinpurse",
+          "quantity": 1,
+          "loadGroupId": "playerNQuest3"
+        },
+        {
+          "databaseId": "lon-slayer-of-gnolls",
+          "quantity": 1,
+          "loadGroupId": "playerNQuest4"
+        }
+      ]
+    },
+    "oathbound-mage-karlemayn": {
+      "label": "Oathbound Mage — Karlemayn",
+      "cards": [
+        {
+          "databaseId": "lon-karlemayn",
+          "quantity": 1,
+          "loadGroupId": "playerNAvatar"
+        },
+        {
+          "databaseId": "lon-dwarven-soldier",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-aery-outrider-all-opposing-units-at-the-same-quest-get-1-attack",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-igneous-adept-this-unit-gets-1-damage-bonus-while-it-s-attacking",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-red-glowing-robe-its-fiery-runic-inscriptions-are-the-source-of-its-power",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-renew-servant-a-healthy-pet-is-a-happy-pet",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-column-of-ice",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-lava-storm",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-aqueous-stalkers-a-conjuring-of-temporary-minions-can-turn-the-tide-of-a-battle",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-roaring-flames",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-shards-of-ice-conjured-crystal-spears-fell-upon-the-gnolls-holding-them-at-bay",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-brittle-bone-wand",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-tellurian-follower",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-assault-a-scream-and-a-leap-are-sufficient-warning",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-shock-of-fire-so-simple-yet-so-effective",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-aery-stalker-the-winds-blow-favorably-for-a-master-of-air",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-outwit",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-decoy-not-very-good-with-directions-these-ogres",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-giant-field-rat",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-spokes-of-tarton-s-wheel",
+          "quantity": 1,
+          "loadGroupId": "playerNQuest1"
+        },
+        {
+          "databaseId": "lon-note-to-neclo-greetings-neclo",
+          "quantity": 1,
+          "loadGroupId": "playerNQuest2"
+        },
+        {
+          "databaseId": "lon-concordance-of-research-it-is-an-aid-to-those-who-follow-the-path-of-academia",
+          "quantity": 1,
+          "loadGroupId": "playerNQuest3"
+        },
+        {
+          "databaseId": "lon-orb-of-the-defender",
+          "quantity": 1,
+          "loadGroupId": "playerNQuest4"
+        }
+      ]
+    },
+    "oathbound-priest-eluviel": {
+      "label": "Oathbound Priest — Eluviel",
+      "cards": [
+        {
+          "databaseId": "lon-eluviel",
+          "quantity": 1,
+          "loadGroupId": "playerNAvatar"
+        },
+        {
+          "databaseId": "lon-enduring-breath",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-restoration",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-headband-of-vigor",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-holy-might",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-howling-frost-giant",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-wild-barbarian",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-barbarian-warrior",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-barbarian-spiritualist",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-bravery",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-raging-berserker-this-unit-gets-1-damage-bonus-for-each-point-of-damage-it-has",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-hammer-of-wrath-deal-1-damage-to-a-defending-combatant",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-resurrection-mithaniel-marr-can-grant-new-life-to-the-honorable-and-devoted",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-holy-armor",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-forge-ahead",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-rod-of-faith-it-takes-faith-to-win-on-the-battlefield-faith-and-a-sturdy-weapon",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-fortune",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-healing-ritual",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-barbarian-butcher-best-not-to-ask-where-he-gets-ingredients-for-his-special-soup",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-collecting-donations-what-temple-did-you-say-you-were-with-again",
+          "quantity": 1,
+          "loadGroupId": "playerNQuest1"
+        },
+        {
+          "databaseId": "lon-forging-stormhealer-armor",
+          "quantity": 1,
+          "loadGroupId": "playerNQuest2"
+        },
+        {
+          "databaseId": "lon-severed-paw-of-opolla",
+          "quantity": 1,
+          "loadGroupId": "playerNQuest3"
+        },
+        {
+          "databaseId": "lon-find-the-frozen-crystal-units-at-this-quest-don-t-ready-in-their-owners-ready-phases",
+          "quantity": 1,
+          "loadGroupId": "playerNQuest4"
+        }
+      ]
+    },
+    "oathbound-scout-cyndra": {
+      "label": "Oathbound Scout — Cyndra",
+      "cards": [
+        {
+          "databaseId": "lon-cyndra",
+          "quantity": 1,
+          "loadGroupId": "playerNAvatar"
+        },
+        {
+          "databaseId": "lon-gnoll-runner",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-gnoll-scout",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-savage-dire-wolf",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-gnoll-shaman-what-would-you-like-your-tombstone-to-say",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-gnoll-archer-a-fly-at-a-hundred-paces-that-s-what-i-said",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-dirty-tricks-it-wasn-t-me",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-sneak-attack",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-agonizing-wound-grog-thought-it-was-only-a-flesh-wound-until-the-gangrene-set-in",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-steel-dagger-sometimes-handy-is-better-than-fancy",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-darkwood-shortbow-a-simple-weapon-used-effectively-at-range-can-take-out-an-army",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-pick-off-that-s-one-less-to-worry-about",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-stun",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-thief-s-vengeance-he-who-steals-from-a-thief-later-finds-something-else-missing",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-jolting-blades-all-your-b-weapon-b-items-get-1-damage-bonus",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-giant-field-rat",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-vicious-flurry-your-avatar-gets-1-damage-bonus-until-the-end-of-the-combat",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-honed-reflexes-you-get-3-total-attack",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-brewing-gindlin-s-poison",
+          "quantity": 1,
+          "loadGroupId": "playerNQuest1"
+        },
+        {
+          "databaseId": "lon-guise-of-horror",
+          "quantity": 1,
+          "loadGroupId": "playerNQuest2"
+        },
+        {
+          "databaseId": "lon-recover-the-tome-of-thunder-all-abilities-get-1-defense",
+          "quantity": 1,
+          "loadGroupId": "playerNQuest3"
+        },
+        {
+          "databaseId": "lon-slaying-the-moon-beasts-they-only-come-out-at-night-and-they-re-very-hard-to-see",
+          "quantity": 1,
+          "loadGroupId": "playerNQuest4"
+        }
+      ]
+    },
+    "forsworn-fighter-terin": {
+      "label": "Forsworn Fighter — Terin",
+      "cards": [
+        {
+          "databaseId": "lon-terin",
+          "quantity": 1,
+          "loadGroupId": "playerNAvatar"
+        },
+        {
+          "databaseId": "lon-pious-aid",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-overrun-let-s-clean-out-this-rabble-then-we-can-finish-the-job",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-scavenge",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-divine-might-paladins-gain-strength-from-mithaniel-marr-the-truthbringer",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-charge",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-kick",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-slash",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-pierce",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-boots-of-the-storm",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-bloody-sabre",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-steppes-pony",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-elven-overseer",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-oathbound-acolyte",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-cursed-elf",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-war-scout-elf-i-do-not-fear-the-evil-creatures-of-the-forest",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-town-bully-this-unit-gets-1-damage-bonus-during-combat-against-a-unit-combatant",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-learn-to-live-anywhere",
+          "quantity": 1,
+          "loadGroupId": "playerNQuest1"
+        },
+        {
+          "databaseId": "lon-watery-warfare-when-a-player-completes-this-quest-he-exerts-all-opposing-avatars",
+          "quantity": 1,
+          "loadGroupId": "playerNQuest2"
+        },
+        {
+          "databaseId": "lon-defeat-the-lizardmen-harvest-their-scales-their-claws-and-their-fangs-sugal-the-fist",
+          "quantity": 1,
+          "loadGroupId": "playerNQuest3"
+        },
+        {
+          "databaseId": "lon-fight-the-champion",
+          "quantity": 1,
+          "loadGroupId": "playerNQuest4"
+        }
+      ]
+    },
+    "forsworn-mage-karlemayn": {
+      "label": "Forsworn Mage — Karlemayn",
+      "cards": [
+        {
+          "databaseId": "lon-karlemayn",
+          "quantity": 1,
+          "loadGroupId": "playerNAvatar"
+        },
+        {
+          "databaseId": "lon-shock-of-fire-so-simple-yet-so-effective",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-dark-coil-at-the-end-of-your-turn-deal-1-damage-to-the-linked-unit",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-hunt",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-intensify",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-roaring-flames",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-pierce",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-fright-behind-reason-lurks-a-cowering-animal-zelos-overlord-of-decay",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-clobber-you-get-2-total-attack-draw-a-card",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-sash-of-the-divine-your-avatar-gets-2-attack",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-amulet-of-the-storm",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-dark-elf-lookout-when-the-enemy-attacks-we-ll-be-ready",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-restless-bones",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-penitent-worshiper-at-the-end-of-each-combat-involving-this-unit-deal-1-damage-to-it",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-dark-elf-reaver-neutralize-the-enemy-scouts-to-remove-the-enemy-s-eyes-and-ears",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-fanatic-inquisitor-it-knows-neither-pity-nor-remorse",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-witch-s-cove-the-key-to-a-cave-of-dangers",
+          "quantity": 1,
+          "loadGroupId": "playerNQuest1"
+        },
+        {
+          "databaseId": "lon-torch-of-alna",
+          "quantity": 1,
+          "loadGroupId": "playerNQuest2"
+        },
+        {
+          "databaseId": "lon-lair-of-the-black-wing-at-the-end-of-each-turn-destroy-a-unit-at-this-quest-at-random",
+          "quantity": 1,
+          "loadGroupId": "playerNQuest3"
+        },
+        {
+          "databaseId": "lon-saving-soles-all-units-at-this-quest-get-1-damage-bonus",
+          "quantity": 1,
+          "loadGroupId": "playerNQuest4"
+        }
+      ]
+    },
+    "forsworn-priest-eluviel": {
+      "label": "Forsworn Priest — Eluviel",
+      "cards": [
+        {
+          "databaseId": "lon-eluviel",
+          "quantity": 1,
+          "loadGroupId": "playerNAvatar"
+        },
+        {
+          "databaseId": "lon-glory-of-combat",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-spirit-guide",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-sylvan-touch-tunare-mother-of-all-guide-my-hand",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-salve",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-soothe-be-strong-my-ally",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-spirit-of-cheetah-have-you-ever-tried-to-catch-a-cat",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-grasping-roots-that-one-s-involvement-will-no-longer-be-of-consequence",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-blessed-plate-gauntlets",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-froglok-sentry",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-froglok-escort-i-go-where-you-go",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-gray-wolf",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-froglok-shaman-my-magics-protect-all-the-children-of-marr",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-froglok-commander-follow-my-orders-and-we-will-repel-this-attack",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-forge-ahead",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-rod-of-faith-it-takes-faith-to-win-on-the-battlefield-faith-and-a-sturdy-weapon",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-bregna-s-big-mistake",
+          "quantity": 1,
+          "loadGroupId": "playerNQuest1"
+        },
+        {
+          "databaseId": "lon-crystals-of-the-creator-something-has-come-alive-in-a-nearby-room-be-warned",
+          "quantity": 1,
+          "loadGroupId": "playerNQuest2"
+        },
+        {
+          "databaseId": "lon-sacred-scrolls-go-to-the-thundercrest-isles-and-loot-the-ancient-scrolls-of-wisdom",
+          "quantity": 1,
+          "loadGroupId": "playerNQuest3"
+        },
+        {
+          "databaseId": "lon-lost-legend-of-lavastorm",
+          "quantity": 1,
+          "loadGroupId": "playerNQuest4"
+        }
+      ]
+    },
+    "forsworn-scout-cyndra": {
+      "label": "Forsworn Scout — Cyndra",
+      "cards": [
+        {
+          "databaseId": "lon-cyndra",
+          "quantity": 1,
+          "loadGroupId": "playerNAvatar"
+        },
+        {
+          "databaseId": "lon-backstab-le-of-unseen-hands-gaffin-deeppockets-halfling-thief",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-gang-of-thugs-where-s-the-fun-in-fighting-fair",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-malignant-mark",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-pathfinding-the-choice-will-make-all-the-difference",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-blade-storm-it-s-raining-daggers",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-shrouded-strike",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-skin-like-wood-is-that-supposed-to-hurt-rynfi-oathbound-scout",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-honed-reflexes-you-get-3-total-attack",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-pierce",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-longbow-of-the-warmaster-always-shoot-em-in-the-right-eye-spoils-their-aim",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-wyrmsteel-shortblade-a-surprise-made-of-magical-metal-puts-your-opponent-off-his-guard",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-tunic-of-dark-reflection",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-steel-dagger-sometimes-handy-is-better-than-fancy",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-runnyeye-warlock-ways-to-obtain-great-power-do-i-know-dangerous-they-are",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-runnyeye-defiler",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-runnyeye-sorcerer-even-more-dangerous-than-he-looks",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-fire-goblin-shaman-if-its-incantations-don-t-get-you-the-lava-might",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-simple-task-all-we-want-is-one-plant-how-hard-can-that-be-bianca-galbraith",
+          "quantity": 1,
+          "loadGroupId": "playerNQuest1"
+        },
+        {
+          "databaseId": "lon-creating-an-antidote",
+          "quantity": 1,
+          "loadGroupId": "playerNQuest2"
+        },
+        {
+          "databaseId": "lon-death-comes-swiftly",
+          "quantity": 1,
+          "loadGroupId": "playerNQuest3"
+        },
+        {
+          "databaseId": "lon-mask-of-the-hidden-when-this-quest-is-played-destroy-all-abilities",
+          "quantity": 1,
+          "loadGroupId": "playerNQuest4"
+        }
+      ]
+    },
+    "inquisitor-fighter-terin": {
+      "label": "Inquisitor Fighter — Terin",
+      "cards": [
+        {
+          "databaseId": "lon-terin",
+          "quantity": 1,
+          "loadGroupId": "playerNAvatar"
+        },
+        {
+          "databaseId": "lon-cobra-circle-the-swift-snake-strikes-rapidly-and-repeatedly",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-bloodlust",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-charge",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-kick",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-pouncing-leopard",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-pierce",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-steelspine-chestplate-my-armor-is-so-very-much-better-than-yours-gorman-tapinac",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-iksar-corruptor",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-iksar-bandit",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-savage-dire-wolf",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-forge-ahead",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-longsword",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-shield-of-strife",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-shrug-off-the-body-is-a-weapon-sharpened-by-pain",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-iksar-sailor",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-wraithbone-champion-it-simply-guards-it-knows-not-what-it-guards-nor-why",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-clearing-the-entryway-warlord-gadar-gwalnax-wants-you-to-defeat-the-castle-guards",
+          "quantity": 1,
+          "loadGroupId": "playerNQuest1"
+        },
+        {
+          "databaseId": "lon-maelstrom-below-summon-and-destroy-the-master-of-the-maelstrom-elementals-ra-tsinis",
+          "quantity": 1,
+          "loadGroupId": "playerNQuest2"
+        },
+        {
+          "databaseId": "lon-libraries-of-chardok",
+          "quantity": 1,
+          "loadGroupId": "playerNQuest3"
+        },
+        {
+          "databaseId": "lon-great-griffon-escape-use-the-winged-horn-to-summon-a-griffon-that-you-can-ride-out-of-here",
+          "quantity": 1,
+          "loadGroupId": "playerNQuest4"
+        }
+      ]
+    },
+    "inquisitor-mage-karlemayn": {
+      "label": "Inquisitor Mage — Karlemayn",
+      "cards": [
+        {
+          "databaseId": "lon-karlemayn",
+          "quantity": 1,
+          "loadGroupId": "playerNAvatar"
+        },
+        {
+          "databaseId": "lon-sleep-a-powerful-illusion-can-have-a-soporific-effect",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-blast-of-cold-an-uncomplicated-but-useful-spell",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-summon-servant",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-amnesia",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-roaring-flames",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-pierce",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-staff-of-the-observers-this-item-gets-1-attack-for-each-exerted-opposing-combatant",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-gloves-of-conjuration",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-elven-escort-your-avatar-gets-1-attack-for-each-vigilance-token-on-this-unit",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-truth-guard",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-elven-paladin-this-unit-gets-1-defense-for-each-point-of-damage-it-has",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-aery-outrider-all-opposing-units-at-the-same-quest-get-1-attack",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-tellurian-recruit-a-face-only-a-magus-could-love",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-mislead-a-smelly-fish-sours-the-trail-for-the-finest-tracking-hound",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-wraith-touched-necklace-the-touch-of-an-undead-spirit-is-cold-and-withering",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-tatterback-gorilla-tatterbacks-are-impossible-to-tame-and-never-seen-in-captivity",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-brain-bite",
+          "quantity": 1,
+          "loadGroupId": "playerNQuest1"
+        },
+        {
+          "databaseId": "lon-chalice-of-kings",
+          "quantity": 1,
+          "loadGroupId": "playerNQuest2"
+        },
+        {
+          "databaseId": "lon-tome-raider",
+          "quantity": 1,
+          "loadGroupId": "playerNQuest3"
+        },
+        {
+          "databaseId": "lon-release-garudon-recover-the-shards-of-my-bones-and-release-my-spirit-from-this-prison",
+          "quantity": 1,
+          "loadGroupId": "playerNQuest4"
+        }
+      ]
+    },
+    "inquisitor-priest-eluviel": {
+      "label": "Inquisitor Priest — Eluviel",
+      "cards": [
+        {
+          "databaseId": "lon-eluviel",
+          "quantity": 1,
+          "loadGroupId": "playerNAvatar"
+        },
+        {
+          "databaseId": "lon-symbol-of-corruption-i-wouldn-t-pick-that-up-if-i-were-you",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-chilling-inquest-a-price-is-sometimes-paid-to-answer-the-inquisitor-s-questions",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-restoration",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-sacrifice-deal-2-damage-to-an-opposing-combatant",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-pierce",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-black-bone-dirk-the-sharpened-bone-of-ladon-makes-a-formidable-skewer",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-misthide-leggings",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-troll-invader",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-hallowed-aura-i-have-need-of-your-help-father",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-courage",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-blessed-plate-gauntlets",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-holy-might",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-troll-slayer-don-t-make-him-come-over-there-and-hurt-you-seriously-don-t",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-stupefy-wait-just-a-second-i-used-to-know-this-one",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-wraithbone-champion-it-simply-guards-it-knows-not-what-it-guards-nor-why",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-sarnak-whipcracker-step-out-of-line-and-he-ll-open-a-few-across-your-back",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-lost-skulls-you-have-done-what-i-asked-now-here-is-your-reward",
+          "quantity": 1,
+          "loadGroupId": "playerNQuest1"
+        },
+        {
+          "databaseId": "lon-curious-maneaters",
+          "quantity": 1,
+          "loadGroupId": "playerNQuest2"
+        },
+        {
+          "databaseId": "lon-plaguebringer-cometh-come-bertoxxulous-your-worshipers-beseech-you",
+          "quantity": 1,
+          "loadGroupId": "playerNQuest3"
+        },
+        {
+          "databaseId": "lon-dirty-deeds-is-this-the-dust-of-decay-you-ve-been-looking-for",
+          "quantity": 1,
+          "loadGroupId": "playerNQuest4"
+        }
+      ]
+    },
+    "inquisitor-scout-cyndra": {
+      "label": "Inquisitor Scout — Cyndra",
+      "cards": [
+        {
+          "databaseId": "lon-cyndra",
+          "quantity": 1,
+          "loadGroupId": "playerNAvatar"
+        },
+        {
+          "databaseId": "lon-lurching-limerick",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-entrancing-sonnet",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-stalk",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-assail",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-assault-a-scream-and-a-leap-are-sufficient-warning",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-hawk-eye-skill-and-equipment-are-of-no-use-at-long-range-without-sharp-vision",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-pick-off-that-s-one-less-to-worry-about",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-pierce",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-oakmyst-scimitar-you-have-just-begun-to-realize-this-item-s-potential",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-feathered-cap",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-darkwood-shortbow-a-simple-weapon-used-effectively-at-range-can-take-out-an-army",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-shady-halfling",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-halfling-preacher",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-dwarven-soldier",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-dissension",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-halfling-swashbuckler-this-unit-gets-1-defense-for-each-vigilance-token-on-it",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-accelerando",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-bigger-fish-to-fry",
+          "quantity": 1,
+          "loadGroupId": "playerNQuest1"
+        },
+        {
+          "databaseId": "lon-blackshield-orders",
+          "quantity": 1,
+          "loadGroupId": "playerNQuest2"
+        },
+        {
+          "databaseId": "lon-rare-coins",
+          "quantity": 1,
+          "loadGroupId": "playerNQuest3"
+        },
+        {
+          "databaseId": "lon-brawling-on-the-high-seas",
+          "quantity": 1,
+          "loadGroupId": "playerNQuest4"
+        }
+      ]
+    },
+    "oathbreaker-fighter-terin": {
+      "label": "Oathbreaker Fighter — Terin",
+      "cards": [
+        {
+          "databaseId": "lon-terin",
+          "quantity": 1,
+          "loadGroupId": "playerNAvatar"
+        },
+        {
+          "databaseId": "lon-thunderkick-kul-tak-s-blows-struck-with-the-fury-of-his-focused-inner-strengths",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-bloodlust",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-charge",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-forge-ahead",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-innerflame",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-crushing-fury-a-telling-blow-prevents-further-counterattacks",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-kick",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-pierce",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-longsword",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-fists-of-striking",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-bronze-gauntlets",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-everfrost-grizzly",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-erudite-conspirator",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-erudite-warlock-i-broke-your-sword-oh-that-breaks-my-heart",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-erudite-traveler",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-erudite-enchanter",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-feral-instinct-keep-a-sharp-eye-open-for-those-nasty-orcs",
+          "quantity": 1,
+          "loadGroupId": "playerNQuest1"
+        },
+        {
+          "databaseId": "lon-gearheart-when-a-player-completes-this-quest-deal-1-damage-to-all-units",
+          "quantity": 1,
+          "loadGroupId": "playerNQuest2"
+        },
+        {
+          "databaseId": "lon-ill-fated-trip-at-the-end-of-each-turn-destroy-all-damaged-units-at-this-quest",
+          "quantity": 1,
+          "loadGroupId": "playerNQuest3"
+        },
+        {
+          "databaseId": "lon-kilij-s-plans-when-a-player-completes-this-quest-he-destroys-an-opposing-item",
+          "quantity": 1,
+          "loadGroupId": "playerNQuest4"
+        }
+      ]
+    },
+    "oathbreaker-mage-karlemayn": {
+      "label": "Oathbreaker Mage — Karlemayn",
+      "cards": [
+        {
+          "databaseId": "lon-karlemayn",
+          "quantity": 1,
+          "loadGroupId": "playerNAvatar"
+        },
+        {
+          "databaseId": "lon-forge-ahead",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-assault-a-scream-and-a-leap-are-sufficient-warning",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-conjuror-s-mark-the-linked-unit-gets-2-attack",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-fingers-of-fire-the-greatest-of-conflagrations-begins-with-but-a-single-spark",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-shock-of-ice-effective-in-its-simplicity",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-tap-mind",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-roaring-flames",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-pierce",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-wand-of-the-sun",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-dragon-tooth-choker-your-avatar-gets-1-defense-for-each-quest-you-have-completed",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-arcanist-s-cowl-his-face-is-not-important-the-power-of-his-magic-is",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-aery-outrider-all-opposing-units-at-the-same-quest-get-1-attack",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-tellurian-follower",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-kaladim-trooper",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-kaladim-sergeant-all-your-undamaged-units-at-this-quest-get-1-attack-and-1-defense",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-kaladim-templar",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-brownies-of-doom-a-cursed-unicorn-has-corrupted-the-local-forest-creatures",
+          "quantity": 1,
+          "loadGroupId": "playerNQuest1"
+        },
+        {
+          "databaseId": "lon-fun-with-explosives-when-a-player-completes-this-quest-destroy-all-items",
+          "quantity": 1,
+          "loadGroupId": "playerNQuest2"
+        },
+        {
+          "databaseId": "lon-mudtoes-you-not-kill-mudtoes",
+          "quantity": 1,
+          "loadGroupId": "playerNQuest3"
+        },
+        {
+          "databaseId": "lon-scrap-metal-if-you-have-any-scrap-metal-i-would-be-glad-to-purchase-it-from-you",
+          "quantity": 1,
+          "loadGroupId": "playerNQuest4"
+        }
+      ]
+    },
+    "oathbreaker-priest-eluviel": {
+      "label": "Oathbreaker Priest — Eluviel",
+      "cards": [
+        {
+          "databaseId": "lon-eluviel",
+          "quantity": 1,
+          "loadGroupId": "playerNAvatar"
+        },
+        {
+          "databaseId": "lon-slow-healing",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-restoration",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-enduring-breath",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-furor",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-word-of-pain",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-unholy-fear-see-the-terror-that-hides-in-the-back-of-your-mind",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-sacrifice-deal-2-damage-to-an-opposing-combatant",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-pierce",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-outwit",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-rod-of-faith-it-takes-faith-to-win-on-the-battlefield-faith-and-a-sturdy-weapon",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-imbued-chain-coif-sometimes-a-good-piece-of-armor-invigorates-as-well-as-protects",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-gauntlets-of-devotion",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-troll-invader",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-neriak-brawler",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-neriak-marauder",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-neriak-pillager",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-neriak-veteran-while-there-are-no-charge-tokens-on-this-unit-it-gets-3-health",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-bandit-sisters-find-tandan-nybright-and-hear-the-sad-story-of-his-four-daughters",
+          "quantity": 1,
+          "loadGroupId": "playerNQuest1"
+        },
+        {
+          "databaseId": "lon-find-xoomix",
+          "quantity": 1,
+          "loadGroupId": "playerNQuest2"
+        },
+        {
+          "databaseId": "lon-summoning-of-fear-you-must-find-special-components-to-summon-the-avatar-of-fright",
+          "quantity": 1,
+          "loadGroupId": "playerNQuest3"
+        },
+        {
+          "databaseId": "lon-tumpy-tonics-kiola-nuts-are-the-main-ingredient-tumpy-irontoe",
+          "quantity": 1,
+          "loadGroupId": "playerNQuest4"
+        }
+      ]
+    },
+    "oathbreaker-scout-cyndra": {
+      "label": "Oathbreaker Scout — Cyndra",
+      "cards": [
+        {
+          "databaseId": "lon-cyndra",
+          "quantity": 1,
+          "loadGroupId": "playerNAvatar"
+        },
+        {
+          "databaseId": "lon-stalk",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-assail",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-assault-a-scream-and-a-leap-are-sufficient-warning",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-pick-off-that-s-one-less-to-worry-about",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-pierce",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-shrouded-strike",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-tunic-of-dark-reflection",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-elven-overseer",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-cursed-elf",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-ferocity-your-b-warder-b-unit-gets-1-attack-and-1-defense",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-spirit-of-wind",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-strengthen",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-tundra-wolf-claw",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-fae-guardian",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-fae-soldier",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-wolf-warder-the-sheep-does-not-talk-peace-with-the-wolf-which-are-you",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-cargo-clockwork-our-cargo-clockwork-is-marvelous-no",
+          "quantity": 1,
+          "loadGroupId": "playerNQuest1"
+        },
+        {
+          "databaseId": "lon-rat-patrol-help-us-control-the-pest-population-jeet-miners-guild-628",
+          "quantity": 1,
+          "loadGroupId": "playerNQuest2"
+        },
+        {
+          "databaseId": "lon-shark-meat-i-m-an-assassin-not-a-fisherman",
+          "quantity": 1,
+          "loadGroupId": "playerNQuest3"
+        },
+        {
+          "databaseId": "lon-spiderling-silks",
+          "quantity": 1,
+          "loadGroupId": "playerNQuest4"
+        }
+      ]
+    },
+    "ethernauts-fighter-bayle": {
+      "label": "Ethernauts Fighter — Bayle",
+      "cards": [
+        {
+          "databaseId": "lon-bayle",
+          "quantity": 1,
+          "loadGroupId": "playerNAvatar"
+        },
+        {
+          "databaseId": "lon-myrmidon-s-aura-this-nimbus-reveals-the-heart-of-a-champion-that-hides-within",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-punch-he-awoke-quite-later-a-shadow-of-his-former-self",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-halas-rogue-all-your-other-b-barbarian-b-units-get-1-damage-bonus",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-halas-officer",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-cliff-spider-death-from-above",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-charge",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-lay-on-hands",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-kick",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-longsword",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-barbarian-butcher-best-not-to-ask-where-he-gets-ingredients-for-his-special-soup",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-wild-barbarian",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-barbarian-chieftain",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-furious-berserker-this-unit-gets-1-attack-for-each-point-of-damage-it-has",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-inflame",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-fearless",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-gladiator-s-bracers",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-learn-to-live-anywhere",
+          "quantity": 1,
+          "loadGroupId": "playerNQuest1"
+        },
+        {
+          "databaseId": "lon-watery-warfare-when-a-player-completes-this-quest-he-exerts-all-opposing-avatars",
+          "quantity": 1,
+          "loadGroupId": "playerNQuest2"
+        },
+        {
+          "databaseId": "lon-kilij-s-plans-when-a-player-completes-this-quest-he-destroys-an-opposing-item",
+          "quantity": 1,
+          "loadGroupId": "playerNQuest3"
+        },
+        {
+          "databaseId": "lon-fight-the-champion",
+          "quantity": 1,
+          "loadGroupId": "playerNQuest4"
+        }
+      ]
+    },
+    "ethernauts-mage-asharae": {
+      "label": "Ethernauts Mage — Asharae",
+      "cards": [
+        {
+          "databaseId": "lon-asharae",
+          "quantity": 1,
+          "loadGroupId": "playerNAvatar"
+        },
+        {
+          "databaseId": "lon-punch-he-awoke-quite-later-a-shadow-of-his-former-self",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-engulf-did-somebody-turn-up-the-heat",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-cliff-spider-death-from-above",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-tangleweave-energy",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-shock-of-fire-so-simple-yet-so-effective",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-skeletal-grasp",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-roaring-flames",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-staff-of-detonation",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-sacrificial-heart",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-void-beast-3",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-dark-elf-lookout-when-the-enemy-attacks-we-ll-be-ready",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-dark-elf-outrider-mounted-troops-can-more-easily-respond-to-unexpected-attacks",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-restless-bones",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-spokes-of-tarton-s-wheel",
+          "quantity": 1,
+          "loadGroupId": "playerNQuest1"
+        },
+        {
+          "databaseId": "lon-scrap-metal-if-you-have-any-scrap-metal-i-would-be-glad-to-purchase-it-from-you",
+          "quantity": 1,
+          "loadGroupId": "playerNQuest2"
+        },
+        {
+          "databaseId": "lon-brownies-of-doom-a-cursed-unicorn-has-corrupted-the-local-forest-creatures",
+          "quantity": 1,
+          "loadGroupId": "playerNQuest3"
+        },
+        {
+          "databaseId": "lon-chalice-of-kings",
+          "quantity": 1,
+          "loadGroupId": "playerNQuest4"
+        }
+      ]
+    },
+    "ethernauts-priest-kaltuk": {
+      "label": "Ethernauts Priest — Kaltuk",
+      "cards": [
+        {
+          "databaseId": "lon-kaltuk",
+          "quantity": 1,
+          "loadGroupId": "playerNAvatar"
+        },
+        {
+          "databaseId": "lon-cliff-spider-death-from-above",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-punch-he-awoke-quite-later-a-shadow-of-his-former-self",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-temperance-you-get-1-total-defense-for-each-card-in-your-hand",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-spirit-armor-your-avatar-gets-1-defense-for-each-card-in-your-hand",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-daring-seven-feet-of-might-and-armor-or-not-this-hammer-is-taking-you-down",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-hammer-of-wrath-deal-1-damage-to-a-defending-combatant",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-imbued-crystal-shield-crystal-energies-stimulate-and-strengthen",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-beguiling-mermaid-aren-t-you-curious-about-the-mysteries-of-the-deep",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-kaladim-trooper",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-elven-paladin-this-unit-gets-1-defense-for-each-point-of-damage-it-has",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-halfling-swashbuckler-this-unit-gets-1-defense-for-each-vigilance-token-on-it",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-jump-back",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-healing-ritual",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-woodsman-s-cape",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-curious-maneaters",
+          "quantity": 1,
+          "loadGroupId": "playerNQuest1"
+        },
+        {
+          "databaseId": "lon-crystals-of-the-creator-something-has-come-alive-in-a-nearby-room-be-warned",
+          "quantity": 1,
+          "loadGroupId": "playerNQuest2"
+        },
+        {
+          "databaseId": "lon-tumpy-tonics-kiola-nuts-are-the-main-ingredient-tumpy-irontoe",
+          "quantity": 1,
+          "loadGroupId": "playerNQuest3"
+        },
+        {
+          "databaseId": "lon-lost-legend-of-lavastorm",
+          "quantity": 1,
+          "loadGroupId": "playerNQuest4"
+        }
+      ]
+    },
+    "ethernauts-scout-illisia": {
+      "label": "Ethernauts Scout — Illisia",
+      "cards": [
+        {
+          "databaseId": "lon-illisia-and-so-the-hound-of-zek",
+          "quantity": 1,
+          "loadGroupId": "playerNAvatar"
+        },
+        {
+          "databaseId": "lon-finishing-blow-you-are-not-worthy-of-any-last-words",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-subterfuge",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-punch-he-awoke-quite-later-a-shadow-of-his-former-self",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-weapon-blur-my-considerable-skills-are-the-result-of-many-hours-of-training",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-cliff-spider-death-from-above",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-splitpaw-assassin",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-sneak-attack",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-ruse-long-before-the-creature-knew-it-had-been-duped-it-was-too-late",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-shrouded-strike",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-amulet-of-the-storm",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-gnoll-scout",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-gnoll-runner",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-gnoll-zealot",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-dagger-of-the-quickhands-every-action-taken-leaves-an-opening-to-be-exploited",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-longbow-of-the-warmaster-always-shoot-em-in-the-right-eye-spoils-their-aim",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-blackburrow-tactician-very-clever-for-a-gnoll-this-one-is-ready-for-anything",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-blackshield-orders",
+          "quantity": 1,
+          "loadGroupId": "playerNQuest1"
+        },
+        {
+          "databaseId": "lon-spiderling-silks",
+          "quantity": 1,
+          "loadGroupId": "playerNQuest2"
+        },
+        {
+          "databaseId": "lon-shark-meat-i-m-an-assassin-not-a-fisherman",
+          "quantity": 1,
+          "loadGroupId": "playerNQuest3"
+        },
+        {
+          "databaseId": "lon-simple-task-all-we-want-is-one-plant-how-hard-can-that-be-bianca-galbraith",
+          "quantity": 1,
+          "loadGroupId": "playerNQuest4"
+        }
+      ]
+    },
+    "against-the-void-priest-bayle": {
+      "label": "Against the Void Priest — Bayle",
+      "cards": [
+        {
+          "databaseId": "lon-bayle",
+          "quantity": 1,
+          "loadGroupId": "playerNAvatar"
+        },
+        {
+          "databaseId": "lon-innerflame",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-cruel-aura",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-fortitude",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-gather-shadows",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-prayer-to-innoruuk",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-sense-the-dead",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-shadow-vortex-my-will-is-stronger-than-your-way",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-siphon-strength-walk-among-the-shadow-strike-into-the-light",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-wind-walk-i-m-tired-of-this-i-m-going-for-a-stroll",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-tarnished-caress-you-get-1-total-attack-for-each-card-in-your-hand",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-dark-inspiration",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-blade-of-torment",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-blackjack",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-stone-of-defiance-months-of-searching-at-last-it-is-mine-duonoum-human-fighter",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-batfang-earring-some-bats-hold-the-power-of-the-moon-in-their-bite",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-iksar-bandit",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-ogre-mercenary-killing-things-and-counting-gold-are-his-two-favorite-pastimes",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-troll-raider",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-arasai-minion",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-iksar-defiler-surrounded-by-silence-and-darkness-she-sowed-the-seeds-of-shadow",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-iksar-footpad-always-be-on-the-lookout-for-treachery-in-these-dark-swamps",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-iksar-monk",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-iksar-pariah-the-path-of-the-outcast-is-lonely-cold-and-perilous",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-initiate-of-zek-our-worship-is-battle-our-calling-is-war",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-slayer-of-gnolls",
+          "quantity": 1,
+          "loadGroupId": "playerNQuest1"
+        },
+        {
+          "databaseId": "lon-retrieve-the-stolen-coinpurse",
+          "quantity": 1,
+          "loadGroupId": "playerNQuest2"
+        },
+        {
+          "databaseId": "lon-expose-the-corrupt-guards-all-units-at-this-quest-get-2-attack",
+          "quantity": 1,
+          "loadGroupId": "playerNQuest3"
+        },
+        {
+          "databaseId": "lon-chilled-to-the-bone-each-player-may-begin-a-second-raid-at-this-quest-each-turn",
+          "quantity": 1,
+          "loadGroupId": "playerNQuest4"
+        }
+      ]
+    },
+    "against-the-void-scout-asharae": {
+      "label": "Against the Void Scout — Asharae",
+      "cards": [
+        {
+          "databaseId": "lon-asharae",
+          "quantity": 1,
+          "loadGroupId": "playerNAvatar"
+        },
+        {
+          "databaseId": "lon-tangleweave-energy",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-prayer-to-erollisi-love-conquers-all",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-arcane-augur-your-avatar-gets-1-attack-for-each-of-your-b-pet-b-units",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-glacialflame-the-cold-of-the-spell-was-matched-only-by-her-icy-gaze",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-glyph-of-arcane-secrets",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-cross-swords",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-ambush-this-here-s-our-canyon-we-ll-let-ya-use-it-but-it-s-gonna-cost-ya",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-frost-bolt-cold-enough-for-ya",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-terror-totem-at-the-end-of-your-quest-phase-if-this-item-is-ready-destroy-it",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-archmagus-gloves-this-item-gets-1-attack-for-each-of-your-abilities",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-hood-of-arcane-vigor-who-i-am-is-unimportant-what-power-i-wield-is",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-thaumaturgist-s-robes",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-leggings-of-the-unseen-servant-all-your-b-pet-b-units-get-link-target-msg-17412-lookout-link",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-bonehilt-dagger-this-weapon-is-part-of-me",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-mistwoven-boots",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-aery-stalker-the-winds-blow-favorably-for-a-master-of-air",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-igneous-adept-this-unit-gets-1-damage-bonus-while-it-s-attacking",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-tellurian-recruit-a-face-only-a-magus-could-love",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-personae-split-don-t-worry-i-ve-got-my-back",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-personae-twin-two-heads-are-better-than-one",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-kelpmaiden-mermaid",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-essence-of-air-it-s-only-air-how-can-it-possibly-hurt-us-skamuk-s-final-words",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-wind-sensei-this-unit-gets-1-attack-for-each-opposing-combatant",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-gnome-spiritualist",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-gnome-tinker-all-your-other-units-matching-this-unit-s-faction-get-1-defense",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-gnome-vindicator-all-your-other-units-matching-this-unit-s-faction-get-1-attack",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-chalice-of-kings",
+          "quantity": 1,
+          "loadGroupId": "playerNQuest1"
+        },
+        {
+          "databaseId": "lon-brownies-of-doom-a-cursed-unicorn-has-corrupted-the-local-forest-creatures",
+          "quantity": 1,
+          "loadGroupId": "playerNQuest2"
+        },
+        {
+          "databaseId": "lon-scrap-metal-if-you-have-any-scrap-metal-i-would-be-glad-to-purchase-it-from-you",
+          "quantity": 1,
+          "loadGroupId": "playerNQuest3"
+        },
+        {
+          "databaseId": "lon-warden-of-tunare",
+          "quantity": 1,
+          "loadGroupId": "playerNQuest4"
+        }
+      ]
+    },
+    "against-the-void-6900006-kaltuk": {
+      "label": "Against the Void 6900006 — Kaltuk",
+      "cards": [
+        {
+          "databaseId": "lon-kaltuk",
+          "quantity": 1,
+          "loadGroupId": "playerNAvatar"
+        },
+        {
+          "databaseId": "lon-healing-ritual",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-spirit-guide",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-turtle-skin-the-shaman-finds-protection-in-natural-ways",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-symbol-of-corruption-i-wouldn-t-pick-that-up-if-i-were-you",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-headlong-worth-it",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-voice-of-the-ancestors-the-followers-of-bertoxxulous-know-no-bounds",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-wild-spirit-now-we-are-prepared-let-them-come",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-clash-of-arms",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-faith-it-s-a-miracle",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-remedy",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-virtue",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-preserve",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-blessing-of-faith",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-sentence-a-judgment-visited-upon-the-unwary-is-no-less-worthy",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-chestplate-of-stability-this-item-gets-1-defense-for-each-of-your-abilities",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-blackjack",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-bonehilt-dagger-this-weapon-is-part-of-me",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-mistwoven-boots",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-fallen-berserker-what-doesn-t-kill-it-only-makes-it-madder",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-orc-fanatic",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-fire-goblin-shaman-if-its-incantations-don-t-get-you-the-lava-might",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-iksar-sailor",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-half-elven-miner-this-unit-gets-1-defense-for-each-card-in-your-hand",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-ogre-mercenary-killing-things-and-counting-gold-are-his-two-favorite-pastimes",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-arasai-ravager",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-gnome-engineer-it-s-one-thing-to-outfight-an-enemy-but-another-to-outthink-him",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-gnome-nomad",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-skullreaver-provoker-all-your-other-b-orc-b-units-get-lookout",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-skullreaver-shaman-the-circle-of-nature-cannot-be-broken-but-can-sometimes-be-stretched",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-errand-for-wolten-wolten-grafe-richly-rewards-those-who-aid-the-knights-of-truth",
+          "quantity": 1,
+          "loadGroupId": "playerNQuest1"
+        },
+        {
+          "databaseId": "lon-tumpy-tonics-kiola-nuts-are-the-main-ingredient-tumpy-irontoe",
+          "quantity": 1,
+          "loadGroupId": "playerNQuest2"
+        },
+        {
+          "databaseId": "lon-fervor-of-the-dark-reign-all-abilities-get-link-target-msg-14512-overwhelm-link",
+          "quantity": 1,
+          "loadGroupId": "playerNQuest3"
+        },
+        {
+          "databaseId": "lon-drogan-earth-totems",
+          "quantity": 1,
+          "loadGroupId": "playerNQuest4"
+        }
+      ]
+    },
+    "against-the-void-6900007-illisia": {
+      "label": "Against the Void 6900007 — Illisia",
+      "cards": [
+        {
+          "databaseId": "lon-illisia-and-so-the-hound-of-zek",
+          "quantity": 1,
+          "loadGroupId": "playerNAvatar"
+        },
+        {
+          "databaseId": "lon-assail",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-blinding-speed-swordplay-did-make-him-work-up-a-thirst-if-not-a-sweat",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-ravenscale",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-swashbuckler-s-charm",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-deft-rush-sometimes-swordplay-is-like-stagecraft-leave-them-wanting-more",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-lucky-ruse",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-smokescreen-who-said-this-was-going-to-be-a-fair-fight",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-swarthy-deception",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-preserve",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-crippling-arrow",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-swiftblade",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-uncanny-reflexes",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-deadly-precision-no-one-saw-the-merchant-s-attacker-some-doubted-there-had-been-one",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-roll-with-it-if-you-win-this-combat-take-this-tactic-into-your-hand",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-wyrmsteel-shortblade-a-surprise-made-of-magical-metal-puts-your-opponent-off-his-guard",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-infiltrator-coat-remember-getting-out-is-at-least-as-important-as-getting-in",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-dagger-of-the-quickhands-every-action-taken-leaves-an-opening-to-be-exploited",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-mining-pick",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-runed-sash-of-fury-when-such-a-good-natured-person-gets-angry-it-s-scary-to-behold",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-windwillow-branch-bow",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-galebreaker-maiden",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-truth-guard",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-truth-tower-captain-proper-allocation-of-defensive-resources-is-essential",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-custodian-of-marr-i-have-sworn-an-oath-and-cannot-yield",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-gale-monarch-all-your-other-b-knight-b-units-get-lookout",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-simple-task-all-we-want-is-one-plant-how-hard-can-that-be-bianca-galbraith",
+          "quantity": 1,
+          "loadGroupId": "playerNQuest1"
+        },
+        {
+          "databaseId": "lon-guise-of-horror",
+          "quantity": 1,
+          "loadGroupId": "playerNQuest2"
+        },
+        {
+          "databaseId": "lon-spiderling-silks",
+          "quantity": 1,
+          "loadGroupId": "playerNQuest3"
+        },
+        {
+          "databaseId": "lon-blackshield-orders",
+          "quantity": 1,
+          "loadGroupId": "playerNQuest4"
+        }
+      ]
+    },
+    "storm-break-fighter-bayle": {
+      "label": "Storm Break Fighter — Bayle",
+      "cards": [
+        {
+          "databaseId": "lon-bayle",
+          "quantity": 1,
+          "loadGroupId": "playerNAvatar"
+        },
+        {
+          "databaseId": "lon-staggering-blow-walked-right-into-that-one",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-guardian-s-call",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-stun",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-brace-it-gets-a-1-link-target-msg-14612-rune-link",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-kick",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-banner-of-triumph-belief-wins-battles-not-weapons-or-armor",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-myrmidon-s-aura-this-nimbus-reveals-the-heart-of-a-champion-that-hides-within",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-sword-of-skyfire",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-koada-dal-ranger-the-only-joy-he-took-in-combat-was-having-survived-so-many",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-barbarian-butcher-best-not-to-ask-where-he-gets-ingredients-for-his-special-soup",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-dwarven-champion-this-unit-gets-2-damage-bonus-while-defending",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-truth-captain",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-kaladim-trooper",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-ogre-war-gauntlets",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-whirlwind-blade",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-prayer-of-devotion",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-fire-storm-elemental-if-you-can-t-stand-the-heat-stay-clear-of-his-pitchin",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-halfling-preacher",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-slayer-of-gnolls",
+          "quantity": 1,
+          "loadGroupId": "playerNQuest1"
+        },
+        {
+          "databaseId": "lon-retrieve-the-stolen-coinpurse",
+          "quantity": 1,
+          "loadGroupId": "playerNQuest2"
+        },
+        {
+          "databaseId": "lon-expose-the-corrupt-guards-all-units-at-this-quest-get-2-attack",
+          "quantity": 1,
+          "loadGroupId": "playerNQuest3"
+        },
+        {
+          "databaseId": "lon-chilled-to-the-bone-each-player-may-begin-a-second-raid-at-this-quest-each-turn",
+          "quantity": 1,
+          "loadGroupId": "playerNQuest4"
+        }
+      ]
+    },
+    "storm-break-mage-asharae": {
+      "label": "Storm Break Mage — Asharae",
+      "cards": [
+        {
+          "databaseId": "lon-asharae",
+          "quantity": 1,
+          "loadGroupId": "playerNAvatar"
+        },
+        {
+          "databaseId": "lon-boon-of-the-void-one-actually-can-get-something-from-nothing",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-call-servant-come-i-have-a-task-for-you",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-shield-of-the-magi-the-shield-can-be-penetrated-but-at-your-own-peril",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-prayer-to-innoruuk",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-intellectual-advancement",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-capture-vigor-good-help-is-hard-to-find-that-s-why-many-mages-make-their-own",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-doomweave-robe",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-band-of-unity",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-grim-terror-her-eyes-were-light-but-there-was-little-life-in-them",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-summoned-minion",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-cackling-bones-the-sounds-of-its-laughter-were-much-more-chilling-up-close-in-combat",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-haunting-corpse",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-restless-bones",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-malignant-dead-a-death-shared-is-a-death-halved",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-chalice-of-kings",
+          "quantity": 1,
+          "loadGroupId": "playerNQuest1"
+        },
+        {
+          "databaseId": "lon-brownies-of-doom-a-cursed-unicorn-has-corrupted-the-local-forest-creatures",
+          "quantity": 1,
+          "loadGroupId": "playerNQuest2"
+        },
+        {
+          "databaseId": "lon-scrap-metal-if-you-have-any-scrap-metal-i-would-be-glad-to-purchase-it-from-you",
+          "quantity": 1,
+          "loadGroupId": "playerNQuest3"
+        },
+        {
+          "databaseId": "lon-beware-of-ogres-bash-em-good-craknek-credo",
+          "quantity": 1,
+          "loadGroupId": "playerNQuest4"
+        }
+      ]
+    },
+    "storm-break-priest-kaltuk": {
+      "label": "Storm Break Priest — Kaltuk",
+      "cards": [
+        {
+          "databaseId": "lon-kaltuk",
+          "quantity": 1,
+          "loadGroupId": "playerNAvatar"
+        },
+        {
+          "databaseId": "lon-abject-blessing-blessing-curse-it-s-all-in-the-eye-of-the-beholder",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-supplicant-s-prayer-alright-i-m-here-what-will-you-pray-for-next",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-heretic-s-demise-your-actions-will-have-consequences-she-ll-see-to-that",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-blackcoat-armguards",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-depravity",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-scepter-of-the-doom-sworn-demons-of-shadowy-energies-reward-those-who-pledge-their-souls",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-chilling-inquest-a-price-is-sometimes-paid-to-answer-the-inquisitor-s-questions",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-symbol-of-corruption-i-wouldn-t-pick-that-up-if-i-were-you",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-zealot-of-bertoxxulous-bertoxxulous-has-no-allies-if-only-he-also-had-no-worshipers",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-gnome-alchemist-all-your-other-units-matching-this-unit-s-faction-get-1-damage-bonus",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-sarnak-vindicator-it-seems-the-scales-have-tipped-against-you",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-sarnak-enforcer",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-sarnak-bloodbinder-the-blood-of-fallen-enemies-can-be-put-to-good-use-by-dark-magicians",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-sarnak-whipcracker-step-out-of-line-and-he-ll-open-a-few-across-your-back",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-daring-seven-feet-of-might-and-armor-or-not-this-hammer-is-taking-you-down",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-hunt",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-monsoon-elemental-you-can-t-hold-back-the-flood",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-iksar-corruptor",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-forging-stormhealer-armor",
+          "quantity": 1,
+          "loadGroupId": "playerNQuest1"
+        },
+        {
+          "databaseId": "lon-gale-weaver-test-of-faith-when-a-player-completes-this-quest-he-heals-2-damage-on-his-avatar",
+          "quantity": 1,
+          "loadGroupId": "playerNQuest2"
+        },
+        {
+          "databaseId": "lon-tumpy-tonics-kiola-nuts-are-the-main-ingredient-tumpy-irontoe",
+          "quantity": 1,
+          "loadGroupId": "playerNQuest3"
+        },
+        {
+          "databaseId": "lon-lost-legend-of-lavastorm",
+          "quantity": 1,
+          "loadGroupId": "playerNQuest4"
+        }
+      ]
+    },
+    "storm-break-scout-illisia": {
+      "label": "Storm Break Scout — Illisia",
+      "cards": [
+        {
+          "databaseId": "lon-illisia-and-so-the-hound-of-zek",
+          "quantity": 1,
+          "loadGroupId": "playerNAvatar"
+        },
+        {
+          "databaseId": "lon-daring-advance-i-m-just-getting-into-the-swing-of-things",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-kinesthetics",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-pathfinding-the-choice-will-make-all-the-difference",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-lucky-ruse",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-assail",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-daggerlunge",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-gaudy-strike",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-shadow-slip-withdraw-your-avatar-from-combat",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-windwillow-branch-bow",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-flux-stiletto",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-swiftwhisper-this-item-gets-1-attack-for-each-of-your-b-stealth-b-abilities",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-froglok-crusader",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-owlbear-bonegrinder",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-rivervale-rogue",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-rivervale-villager",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-ice-goblin-scryer-the-future-holds-no-terrors-for-those-who-know-its-secrets",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-ice-goblin-evoker-ice-goblins-can-be-very-territorial",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-ice-goblin-whelp-me-not-hungry-me-not-cold-me-happy-now",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-simple-task-all-we-want-is-one-plant-how-hard-can-that-be-bianca-galbraith",
+          "quantity": 1,
+          "loadGroupId": "playerNQuest1"
+        },
+        {
+          "databaseId": "lon-guise-of-horror",
+          "quantity": 1,
+          "loadGroupId": "playerNQuest2"
+        },
+        {
+          "databaseId": "lon-rare-coins",
+          "quantity": 1,
+          "loadGroupId": "playerNQuest3"
+        },
+        {
+          "databaseId": "lon-blackshield-orders",
+          "quantity": 1,
+          "loadGroupId": "playerNQuest4"
+        }
+      ]
+    },
+    "travelers-fighter-arith-theana": {
+      "label": "Travelers Fighter — Arith Theana",
+      "cards": [
+        {
+          "databaseId": "lon-arith-theana-get-ready-they-ll-be-coming-back-this-way",
+          "quantity": 1,
+          "loadGroupId": "playerNAvatar"
+        },
+        {
+          "databaseId": "lon-stalwart-paladin-l-1-damage-on-a-friendly-avatar",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-ancient-wrath-anger-unaddressed-will-grow-stronger-over-time",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-the-truth-of-marr-valor-is-what-separates-civilized-beings-from-beasts",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-force-of-akera",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-boots-of-slaughter",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-inscribed-runic-shield",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-weapon-guard",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-vigilant-defender",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-earthwalk-you-get-1-total-damage-and-4-total-defense",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-kick-the-harder-they-fall",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-myrmidon-s-aura-this-nimbus-reveals-the-heart-of-a-champion-that-hides-within",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-staggering-blow-walked-right-into-that-one",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-blacktalon-harbinger",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-new-recruit",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-custodian-of-marr-i-have-sworn-an-oath-and-cannot-yield",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-inexperienced-officer",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-clearing-the-entryway-warlord-gadar-gwalnax-wants-you-to-defeat-the-castle-guards",
+          "quantity": 1,
+          "loadGroupId": "playerNQuest1"
+        },
+        {
+          "databaseId": "lon-great-griffon-escape-use-the-winged-horn-to-summon-a-griffon-that-you-can-ride-out-of-here",
+          "quantity": 1,
+          "loadGroupId": "playerNQuest2"
+        },
+        {
+          "databaseId": "lon-libraries-of-chardok",
+          "quantity": 1,
+          "loadGroupId": "playerNQuest3"
+        },
+        {
+          "databaseId": "lon-maelstrom-below-summon-and-destroy-the-master-of-the-maelstrom-elementals-ra-tsinis",
+          "quantity": 1,
+          "loadGroupId": "playerNQuest4"
+        }
+      ]
+    },
+    "travelers-mage-gaxan-bakar": {
+      "label": "Travelers Mage — Gaxan Bakar",
+      "cards": [
+        {
+          "databaseId": "lon-gaxan-bakar-this-avatar-gets-1-attack-for-each-quest-you-have-completed",
+          "quantity": 1,
+          "loadGroupId": "playerNAvatar"
+        },
+        {
+          "databaseId": "lon-flame-shock-put-simply-so-effective",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-loyal-gargoyle-a-gargoyle-s-loyalty-is-often-tested-and-only-occasionally-rewarded",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-vengeful-coercer-great-power-requires-great-sacrifice",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-reconstruct-servant-destroy-this-ability-if-you-do-play-that-pet-at-a-quest-for-no-cost",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-spark-of-fire-deal-1-damage-to-a-defending-combatant",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-summoned-minion",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-cackling-bones-the-sounds-of-its-laughter-were-much-more-chilling-up-close-in-combat",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-patience-sooner-or-later-he-s-going-to-make-a-big-sale",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-uppercut-get-inside-the-blade-and-punch-him-in-the-jaw-works-every-time",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-mana-threaded-cloak-this-item-gets-1-defense-for-each-of-your-b-shadow-b-abilities",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-batfang-earring-some-bats-hold-the-power-of-the-moon-in-their-bite",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-roaring-flames",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-void-beast-3",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-scornful-puppet-units-named-scornful-puppet-cost-you-1-power-to-play",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-chalice-of-kings",
+          "quantity": 1,
+          "loadGroupId": "playerNQuest1"
+        },
+        {
+          "databaseId": "lon-tome-raider",
+          "quantity": 1,
+          "loadGroupId": "playerNQuest2"
+        },
+        {
+          "databaseId": "lon-brain-bite",
+          "quantity": 1,
+          "loadGroupId": "playerNQuest3"
+        },
+        {
+          "databaseId": "lon-release-garudon-recover-the-shards-of-my-bones-and-release-my-spirit-from-this-prison",
+          "quantity": 1,
+          "loadGroupId": "playerNQuest4"
+        }
+      ]
+    },
+    "travelers-priest-rinaya-zishlin": {
+      "label": "Travelers Priest — Rinaya Zishlin",
+      "cards": [
+        {
+          "databaseId": "lon-rinaya-zishlin",
+          "quantity": 1,
+          "loadGroupId": "playerNAvatar"
+        },
+        {
+          "databaseId": "lon-word-of-shadow-if-you-win-this-combat-heal-1-damage-on-your-avatar",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-harrowing-inquest",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-act-of-belief-the-flame-without-provides-focus-to-stoke-the-flame-within",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-strifewing-battler",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-mana-threaded-cloak-this-item-gets-1-defense-for-each-of-your-b-shadow-b-abilities",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-frenzied-fleshgoyle",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-staff-of-living-brambles",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-spirit-of-the-bat-the-fury-always-sprang-left-when-leaping-from-a-great-height",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-blinding-luminance-now-you-see-me-now-you-don-t",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-quickness",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-ogre-thug-i-ll-make-you-pay-for-getting-in-my-way",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-ogre-marauder-that-is-the-ugliest-butler-i-ve-ever-seen-duonoum-human-fighter",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-ogre-veteran",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-power-of-thought",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-scheming-ally",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-curious-maneaters",
+          "quantity": 1,
+          "loadGroupId": "playerNQuest1"
+        },
+        {
+          "databaseId": "lon-lost-skulls-you-have-done-what-i-asked-now-here-is-your-reward",
+          "quantity": 1,
+          "loadGroupId": "playerNQuest2"
+        },
+        {
+          "databaseId": "lon-plaguebringer-cometh-come-bertoxxulous-your-worshipers-beseech-you",
+          "quantity": 1,
+          "loadGroupId": "playerNQuest3"
+        },
+        {
+          "databaseId": "lon-dirty-deeds-is-this-the-dust-of-decay-you-ve-been-looking-for",
+          "quantity": 1,
+          "loadGroupId": "playerNQuest4"
+        }
+      ]
+    },
+    "travelers-scout-kenoch-macdunham": {
+      "label": "Travelers Scout — Kenoch MacDunham",
+      "cards": [
+        {
+          "databaseId": "lon-kenoch-macdunham",
+          "quantity": 1,
+          "loadGroupId": "playerNAvatar"
+        },
+        {
+          "databaseId": "lon-dangerous-leap",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-steel-swipe-once-a-foe-is-disarmed-dispatched-will-soon-follow",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-lucky-ruse",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-dodge-your-technique-is-impressive-mine-even-more-so",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-surround",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-round-trip",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-threatening-accomplice-it-s-always-helpful-to-have-some-muscle-by-your-side",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-clever-swashbuckler",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-gunthak-pirate-on-our-ship-we-don-t-take-kindly-to-that-kind-of-language",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-pirate-cartographer",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-jade-reaver-the-blade-is-held-by-the-black-reaver-in-the-kunzar-jungle",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-eagle-s-talon-the-problem-with-charging-an-archer-is-all-the-arrows",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-desperate-jab",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-punch-he-awoke-quite-later-a-shadow-of-his-former-self",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-double-shot-i-didn-t-think-it-was-actually-possible-to-do-that",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-bigger-fish-to-fry",
+          "quantity": 1,
+          "loadGroupId": "playerNQuest1"
+        },
+        {
+          "databaseId": "lon-blackshield-orders",
+          "quantity": 1,
+          "loadGroupId": "playerNQuest2"
+        },
+        {
+          "databaseId": "lon-brawling-on-the-high-seas",
+          "quantity": 1,
+          "loadGroupId": "playerNQuest3"
+        },
+        {
+          "databaseId": "lon-rare-coins",
+          "quantity": 1,
+          "loadGroupId": "playerNQuest4"
+        }
+      ]
+    },
+    "vengeful-gods-fighter-arith-theana": {
+      "label": "Vengeful Gods Fighter — Arith Theana",
+      "cards": [
+        {
+          "databaseId": "lon-arith-theana-don-t-worry-i-ve-got-your-back",
+          "quantity": 1,
+          "loadGroupId": "playerNAvatar"
+        },
+        {
+          "databaseId": "lon-guardian-s-call",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-cloak-of-command-this-item-gets-1-defense-for-each-quest-where-you-have-a-unit",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-blood-sword-of-hate",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-searcher-of-valor",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-higher-ground-your-swords-down-there-are-harmless-to-me-up-here",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-scaled-leather-tunic-this-item-gets-1-defense-for-each-opposing-b-weapon-b-item",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-scorpion-eye-earring",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-mercenary-taunt-avatar",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-gift-of-cunning",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-vanquish",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-halfling-bully-you-think-my-club-is-funny",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-blacktalon-disciple-once-an-aviak-spots-you-from-the-air-all-you-can-do-is-run-for-cover",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-new-recruit",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-blacktimber-treant",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-faithful-strike-the-sword-was-driven-by-more-than-his-own-will",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-steadfast-stance",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-slayer-of-gnolls",
+          "quantity": 1,
+          "loadGroupId": "playerNQuest1"
+        },
+        {
+          "databaseId": "lon-prove-your-words",
+          "quantity": 1,
+          "loadGroupId": "playerNQuest2"
+        },
+        {
+          "databaseId": "lon-support-of-the-plainsmen-avatars-can-t-take-damage-outside-of-combat",
+          "quantity": 1,
+          "loadGroupId": "playerNQuest3"
+        },
+        {
+          "databaseId": "lon-share-the-discovery",
+          "quantity": 1,
+          "loadGroupId": "playerNQuest4"
+        }
+      ]
+    },
+    "vengeful-gods-mage-gaxan-bakar": {
+      "label": "Vengeful Gods Mage — Gaxan Bakar",
+      "cards": [
+        {
+          "databaseId": "lon-gaxan-bakar-this-avatar-gets-1-attack-for-each-quest-you-have-completed",
+          "quantity": 1,
+          "loadGroupId": "playerNAvatar"
+        },
+        {
+          "databaseId": "lon-incinerate",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-freehand-sorcery",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-blaze-you-can-t-spell-asharae-without-ash",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-storm-of-lightning",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-uppercut-get-inside-the-blade-and-punch-him-in-the-jaw-works-every-time",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-cross-swords",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-drain-essence",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-moonsteel-mallet-if-the-first-swing-doesn-t-get-you-watch-out-for-the-backswing",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-undead-horde",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-haruspex",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-sleeping-bones",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-grim-terror-her-eyes-were-light-but-there-was-little-life-in-them",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-scheming-ally",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-kerran-bruiser",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-strength-of-belief-there-is-no-joy-like-that-of-faith-rewarded",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-higher-ground-your-swords-down-there-are-harmless-to-me-up-here",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-mana-threaded-cloak-this-item-gets-1-defense-for-each-of-your-b-shadow-b-abilities",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-deplete",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-one-two-combo-if-you-win-this-combat-take-this-tactic-into-your-hand",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-essence-of-the-void-the-freshly-dead-are-a-resource-for-the-necromancer",
+          "quantity": 1,
+          "loadGroupId": "playerNQuest1"
+        },
+        {
+          "databaseId": "lon-enchanting-augmentation-the-tastiest-recipes-take-time-to-prepare",
+          "quantity": 1,
+          "loadGroupId": "playerNQuest2"
+        },
+        {
+          "databaseId": "lon-travel-is-broadening-new-things-are-learned-from-new-places",
+          "quantity": 1,
+          "loadGroupId": "playerNQuest3"
+        },
+        {
+          "databaseId": "lon-they-re-after-you",
+          "quantity": 1,
+          "loadGroupId": "playerNQuest4"
+        }
+      ]
+    },
+    "vengeful-gods-priest-rinaya-zishlin": {
+      "label": "Vengeful Gods Priest — Rinaya Zishlin",
+      "cards": [
+        {
+          "databaseId": "lon-rinaya-zishlin-bounties-of-wisdom-are-everywhere-not-everyone-can-perceive-them",
+          "quantity": 1,
+          "loadGroupId": "playerNAvatar"
+        },
+        {
+          "databaseId": "lon-scheming-ally",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-staunch-defense",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-elixir-of-divinity-to-play-this-tactic-exert-your-avatar-combatant",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-converge",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-shielded-blade-sometimes-its-best-to-keep-your-weapons-hidden",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-spiritmind-breastplate-holy-shirt",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-sleeping-bones",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-solitary-scholar-this-unit-gets-1-attack-for-each-level-token-you-have-at-its-quest",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-fervent-faith-in-the-name-of-all-that-s-holy-be-gone",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-awestruck",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-surprise-attack",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-club-of-the-warcaller-made-from-the-bones-of-a-deathfist-chieftain",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-kerran-bruiser",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-persecution-if-you-have-link-target-msg-23320-influence-link-draw-a-card",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-zealous-inquisitor-you-will-soon-see-the-error-of-your-ways",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-bulwark-of-faith",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-gnoll-intimidator-the-axe-is-easy-to-swing-but-hard-to-control",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-blood-shriller",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-estate-of-unrest-when-a-player-completes-this-quest-destroy-all-units-at-this-quest",
+          "quantity": 1,
+          "loadGroupId": "playerNQuest1"
+        },
+        {
+          "databaseId": "lon-innoruuk-initiate",
+          "quantity": 1,
+          "loadGroupId": "playerNQuest2"
+        },
+        {
+          "databaseId": "lon-blasphemy",
+          "quantity": 1,
+          "loadGroupId": "playerNQuest3"
+        },
+        {
+          "databaseId": "lon-from-the-fallen",
+          "quantity": 1,
+          "loadGroupId": "playerNQuest4"
+        }
+      ]
+    },
+    "vengeful-gods-scout-kenoch-macdunham": {
+      "label": "Vengeful Gods Scout — Kenoch MacDunham",
+      "cards": [
+        {
+          "databaseId": "lon-kenoch-macdunham",
+          "quantity": 1,
+          "loadGroupId": "playerNAvatar"
+        },
+        {
+          "databaseId": "lon-gift-of-cunning",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-perfect-shrill",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-lucky-ruse",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-daring-advance-i-m-just-getting-into-the-swing-of-things",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-flanking-maneuver",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-prowler-s-cunning-your-combat-opponent-deals-1-damage-to-one-of-his-unit-combatants",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-higher-ground-your-swords-down-there-are-harmless-to-me-up-here",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-one-two-combo-if-you-win-this-combat-take-this-tactic-into-your-hand",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-punch-he-awoke-quite-later-a-shadow-of-his-former-self",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-moonsteel-mallet-if-the-first-swing-doesn-t-get-you-watch-out-for-the-backswing",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-explorer-s-tunic-of-the-sun-your-avatar-gets-1-attack-for-each-of-your-level-tokens",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-halfling-bully-you-think-my-club-is-funny",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-beguiling-bandit",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-shielded-blade-sometimes-its-best-to-keep-your-weapons-hidden",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-staunch-defense",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-blinding-speed-swordplay-did-make-him-work-up-a-thirst-if-not-a-sweat",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-guardian-of-marr",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-froglok-crusader",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lon-doubly-dangerous-it-s-not-what-they-say-about-ye-it-s-what-they-whisper-kenoch",
+          "quantity": 1,
+          "loadGroupId": "playerNQuest1"
+        },
+        {
+          "databaseId": "lon-relieve-his-burden-the-merchant-was-tired-from-carrying-all-that-money",
+          "quantity": 1,
+          "loadGroupId": "playerNQuest2"
+        },
+        {
+          "databaseId": "lon-superior-position-advantage-in-battle-can-be-seized-with-an-opening-move",
+          "quantity": 1,
+          "loadGroupId": "playerNQuest3"
+        },
+        {
+          "databaseId": "lon-no-choice-but-to-fight",
+          "quantity": 1,
+          "loadGroupId": "playerNQuest4"
+        }
+      ]
+    }
+  }
+}

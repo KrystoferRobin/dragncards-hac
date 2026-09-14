@@ -1,0 +1,9 @@
+{
+  "cardBacks": {
+    "default": {
+      "width": 0.72,
+      "height": 1.0,
+      "imageUrl": "vs-system-2pcg/_plugin/VsSystem2pcg-CardbackDefault.jpg"
+    }
+  }
+}

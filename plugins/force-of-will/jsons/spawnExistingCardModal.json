@@ -1,0 +1,21 @@
+{
+  "spawnExistingCardModal": {
+    "columnProperties": [
+      "name",
+      "type",
+      "colour",
+      "cost",
+      "atk",
+      "defense",
+      "packName"
+    ],
+    "loadGroupIds": [
+      "player1Deck",
+      "player1StoneDeck",
+      "player1Ruler",
+      "player1Hand",
+      "player2Hand",
+      "player1Play"
+    ]
+  }
+}

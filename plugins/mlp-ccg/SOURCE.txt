@@ -1,0 +1,8 @@
+Built 2026-09-12 19:10 UTC from OCTGN mlp-ccg.
+Source: /Volumes/Expand/ai-projects/hundredacreclub/tcg-engines/dragncards-main/plugins/octgn/mlp-ccg
+Art: extracted Sets/ plus MLP CCG - All Sets (2019).o8c
+Author credit: OCTGN / Gabby Gums, GameMasterLuna
+
+Tabletop plugin only — OCTGN scripts were not ported.
+TSV rows: 2031  images copied: 2031  missing art: 0
+Prebuilts: 12

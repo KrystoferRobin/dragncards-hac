@@ -1,0 +1,19 @@
+{
+  "spawnExistingCardModal": {
+    "columnProperties": [
+      "name",
+      "type",
+      "klass",
+      "vp",
+      "packName"
+    ],
+    "loadGroupIds": [
+      "player1Deck",
+      "player1Starting",
+      "player1Adventure",
+      "player1Storage",
+      "player1Hand",
+      "player2Hand"
+    ]
+  }
+}

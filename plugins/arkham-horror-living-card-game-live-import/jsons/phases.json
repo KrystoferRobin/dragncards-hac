@@ -1,0 +1,20 @@
+{
+  "phases": {
+    "Enemy": {
+      "height": "22%",
+      "label": "id:enemyPhase"
+    },
+    "Investigation": {
+      "height": "30%",
+      "label": "id:investigationPhase"
+    },
+    "Mythos": {
+      "height": "22%",
+      "label": "id:mythosPhase"
+    },
+    "Upkeep": {
+      "height": "26%",
+      "label": "id:upkeepPhase"
+    }
+  }
+}

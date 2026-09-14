@@ -1,0 +1,4729 @@
+{
+  "preBuiltDecks": {
+    "showdown-four-lights-starter-car": {
+      "label": "Showdown Four Lights Starter Car",
+      "cards": [
+        {
+          "databaseId": "au_InterrogationQC",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "bog_TortureBoG",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "HF2_HMF2_33",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "TNG_tng_19V",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "fc_rrd_fc",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "ENGAGE_engage_33",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "ENGAGE_engage_34",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "ENGAGE_engage_35",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "tstl_TSTL_26",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "tstl_TSTL_27",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "bog_holdingcelldoor",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "metamorpho_metamorphosis_03",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "comingofag_comingofage_07",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "VP_222VP",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "VP_268VP",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "SotL_SotL12",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "SFL_sfl16",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "SFL_sfl17",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "SFL_sfl18",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "SFL_sfl19",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "SFL_sfl20",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "SFL_sfl21",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "SFL_sfl22",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "SFL_sfl23",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "SFL_sfl24",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "SFL_sfl25",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "SFL_sfl26",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "SFL_sfl34",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "dom_daro",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "bog_dolak",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "bog_gulmadred",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "dom_macet",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "SFLS_sfls24",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "ENGAGE_engage_29",
+          "quantity": 1,
+          "loadGroupId": "playerNMissions"
+        },
+        {
+          "databaseId": "tstl_TSTL_23",
+          "quantity": 1,
+          "loadGroupId": "playerNMissions"
+        },
+        {
+          "databaseId": "llap_llap_28",
+          "quantity": 1,
+          "loadGroupId": "playerNMissions"
+        },
+        {
+          "databaseId": "SFL_sfl9",
+          "quantity": 1,
+          "loadGroupId": "playerNMissions"
+        },
+        {
+          "databaseId": "SFL_sfl11",
+          "quantity": 1,
+          "loadGroupId": "playerNMissions"
+        },
+        {
+          "databaseId": "dom_bioweaponruse",
+          "quantity": 1,
+          "loadGroupId": "playerNMissions"
+        },
+        {
+          "databaseId": "au_CardassianTrap",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "ep_femalescow",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "ep_malesplague",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "voy_SpatialRift",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "qc_QsTent_a",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "HF2_HMF2_1",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "TNG_tng_21Va",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "TNG_tng_22Va",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "au_alternateuniversedoor",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "lookinggla_lookingglass_23V",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "brokenbow_brokenbow_05",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "Cage_Cage03",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "Cage_MisinterpretedHistory",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "Cage_Cage09",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "VP_249VP",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "tnz_TNZ2",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "tnz_TNZ3",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "tnz_TheSquiresRules",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "VP_256VP",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "VP_259VP",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "otsd_unscientificmethod",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "VP_288VP",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "SFL_sfl3",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "SFL_sfl5",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "SFL_sfl6",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "SFL_sfl8",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "dom_berserkchangeling",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "voy_kazonbomb",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "ha_11theclownplayingdoctor",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "bog_preparetheprisoner",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "au_InterrogationQC",
+          "quantity": 1,
+          "loadGroupId": "playerNTent"
+        },
+        {
+          "databaseId": "au_Lower-Decks",
+          "quantity": 1,
+          "loadGroupId": "playerNTent"
+        },
+        {
+          "databaseId": "bog_TortureBoG",
+          "quantity": 1,
+          "loadGroupId": "playerNTent"
+        },
+        {
+          "databaseId": "HF2_HMF2_21",
+          "quantity": 1,
+          "loadGroupId": "playerNTent"
+        },
+        {
+          "databaseId": "ENGAGE_engage_33",
+          "quantity": 1,
+          "loadGroupId": "playerNTent"
+        },
+        {
+          "databaseId": "comingofag_comingofage_07",
+          "quantity": 1,
+          "loadGroupId": "playerNTent"
+        },
+        {
+          "databaseId": "VP_268VP",
+          "quantity": 1,
+          "loadGroupId": "playerNTent"
+        },
+        {
+          "databaseId": "SotL_SotL12",
+          "quantity": 1,
+          "loadGroupId": "playerNTent"
+        },
+        {
+          "databaseId": "SFL_sfl4",
+          "quantity": 1,
+          "loadGroupId": "playerNTent"
+        },
+        {
+          "databaseId": "SFL_sfl19",
+          "quantity": 1,
+          "loadGroupId": "playerNTent"
+        },
+        {
+          "databaseId": "ds9_cardassiandisruptor",
+          "quantity": 1,
+          "loadGroupId": "playerNTent"
+        },
+        {
+          "databaseId": "ds9_cardassianpadd",
+          "quantity": 1,
+          "loadGroupId": "playerNTent"
+        },
+        {
+          "databaseId": "dom_daro",
+          "quantity": 1,
+          "loadGroupId": "playerNTent"
+        },
+        {
+          "databaseId": "tstl_TSTL_16",
+          "quantity": 1,
+          "loadGroupId": "playerNRemoved"
+        }
+      ]
+    },
+    "showdown-four-lights-starter-fed": {
+      "label": "Showdown Four Lights Starter Fed",
+      "cards": [
+        {
+          "databaseId": "ha_71samlavellea",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "ds9_SmokeBomba",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "PR_PR249",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "TNG_tng_19V",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "TNG_tng_53V",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "TNG_tng_55V",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "TNG_tng_57V",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "TNG_tng_62V",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "TNG_tng_63V",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "TNG_tng_64V",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "TNG_tng_65V",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "fc_AssignMissionSpecialistsFC",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "TNG+_tngsup_22V",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "2pg_spock",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "ENGAGE_engage_35B",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "ds9_hiddenfighter",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "WPEmissary_wpe_66P",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "WPEmissary_wpe_67P",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Maquis_maquis_26VA",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "HF6_HF6_23",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "metamorpho_metamorphosis_32",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "comingofag_Anhaica_Fed",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "au_montgomeryscott",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "SFL_sfl27",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "SFL_sfl28",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "SFL_sfl29",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "SFL_sfl30",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "SFL_sfl31",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "SFL_sfl32",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "SFL_sfl33",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "SFL_sfl35",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "SFL_sfl16ALT",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "SFL_sfl17ALT",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "SFLS_sfls11",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "SFLS_sfls19",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "SFLS_sfls20",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Ref_geordilaforge",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "SFLS_sfls22",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "SFLS_sfls23",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Ref_ussenterprise",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "SFLS_sfls27",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "HF4_HMF4_10",
+          "quantity": 1,
+          "loadGroupId": "playerNMissions"
+        },
+        {
+          "databaseId": "HF4_HMF4_14",
+          "quantity": 1,
+          "loadGroupId": "playerNMissions"
+        },
+        {
+          "databaseId": "Cage_Cage33",
+          "quantity": 1,
+          "loadGroupId": "playerNMissions"
+        },
+        {
+          "databaseId": "SFL_sfl10",
+          "quantity": 1,
+          "loadGroupId": "playerNMissions"
+        },
+        {
+          "databaseId": "SFL_sfl12",
+          "quantity": 1,
+          "loadGroupId": "playerNMissions"
+        },
+        {
+          "databaseId": "SFL_sfl13",
+          "quantity": 1,
+          "loadGroupId": "playerNMissions"
+        },
+        {
+          "databaseId": "twt_assignsupportpersonnel",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "roa_InthePaleMoonlight_a",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "twt_DefendHomeworldTWT",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "qc_QsTent_a",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "TNG_tng_21Va",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "VP_Continuing-MissionVP",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "au_alternateuniversedoor",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "fc_AssignMissionSpecialistsFC",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "Maquis_maquis_05V",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "fc_lackofpreparation",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "TNG+_tngsup_11V",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "crossover_crossover_14",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "brokenbow_brokenbow_05",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "brokenbow_brokenbow_08",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "Cage_MisinterpretedHistory",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "Cage_Cage11",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "tnz_TNZ1",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "tnz_TNZ2",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "tnz_TNZ3",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "tnz_TNZ7",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "tnz_TheSquiresRules",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "VP_256VP",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "otsd_spacedoor",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "VP_288VP",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "PL_pl2",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "SFL_sfl1",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "SFL_sfl2",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "SFL_sfl7",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "SFL_sfl14",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "roa_chulathedoor",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "au_Lower-Decks",
+          "quantity": 1,
+          "loadGroupId": "playerNTent"
+        },
+        {
+          "databaseId": "voy_starfleettypeiiphaser_VOY",
+          "quantity": 1,
+          "loadGroupId": "playerNTent"
+        },
+        {
+          "databaseId": "TNG_tng_26V",
+          "quantity": 1,
+          "loadGroupId": "playerNTent"
+        },
+        {
+          "databaseId": "ds9_establishlandingprotocols",
+          "quantity": 1,
+          "loadGroupId": "playerNTent"
+        },
+        {
+          "databaseId": "PR_PR116",
+          "quantity": 1,
+          "loadGroupId": "playerNTent"
+        },
+        {
+          "databaseId": "comingofag_comingofage_08",
+          "quantity": 1,
+          "loadGroupId": "playerNTent"
+        },
+        {
+          "databaseId": "SFL_sfl15",
+          "quantity": 1,
+          "loadGroupId": "playerNTent"
+        },
+        {
+          "databaseId": "SFLS_sfls8",
+          "quantity": 1,
+          "loadGroupId": "playerNTent"
+        },
+        {
+          "databaseId": "SFLS_sfls9",
+          "quantity": 1,
+          "loadGroupId": "playerNTent"
+        },
+        {
+          "databaseId": "SFLS_sfls10",
+          "quantity": 1,
+          "loadGroupId": "playerNTent"
+        },
+        {
+          "databaseId": "SFLS_sfls18",
+          "quantity": 1,
+          "loadGroupId": "playerNTent"
+        },
+        {
+          "databaseId": "SFLS_sfls25",
+          "quantity": 1,
+          "loadGroupId": "playerNTent"
+        },
+        {
+          "databaseId": "SFLS_sfls27",
+          "quantity": 1,
+          "loadGroupId": "playerNTent"
+        },
+        {
+          "databaseId": "TNG_tng_25V",
+          "quantity": 1,
+          "loadGroupId": "playerNRemoved"
+        }
+      ]
+    },
+    "simple-bajoran": {
+      "label": "Simple Bajoran",
+      "cards": [
+        {
+          "databaseId": "ds9_bajoranfreighter",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "ds9_morapol",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "ds9_bajoranphaser",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "bog_furel",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "tmp_102ruafo",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "twt_firstministershakaar",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "VP_138VP_2",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "ds9_linalas",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "bog_lupaza",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "awayteam_theemissary",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "VP_179VP_2",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "2anth_vedekdax",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "IC_4V-Rom",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "ds9_kiranerys",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "ha_52teeroanaydis",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "TNG+_tngsup_37V",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "fc_regenerate",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "ds9_bajoranwormhole",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "ds9_renewalscroll",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "ds9_bareilantos",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "ds9_colonelday",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "ds9_ministerrozahn",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "ds9_vedeksorad",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "ds9_assaultvessel",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "ds9_odo",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "ds9_surveystarsystem",
+          "quantity": 1,
+          "loadGroupId": "playerNMissions"
+        },
+        {
+          "databaseId": "ds9_changelingresearch",
+          "quantity": 1,
+          "loadGroupId": "playerNMissions"
+        },
+        {
+          "databaseId": "ds9_relocatesettlers",
+          "quantity": 1,
+          "loadGroupId": "playerNMissions"
+        },
+        {
+          "databaseId": "ds9_alterrecords",
+          "quantity": 1,
+          "loadGroupId": "playerNMissions"
+        },
+        {
+          "databaseId": "ds9_investigaterumors",
+          "quantity": 1,
+          "loadGroupId": "playerNMissions"
+        },
+        {
+          "databaseId": "ds9_characterizeneutrinoemiss",
+          "quantity": 1,
+          "loadGroupId": "playerNMissions"
+        },
+        {
+          "databaseId": "voy_hanonianlandeel",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "borg_Ankari-Spirits",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "mm_denevanneuralparasites",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "au_Edo-Probe",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "twt_executiveauthorization",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "mm_horta",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "voy_hullbreach",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "voy_navigationalhazardsvoy",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "roa_scientificmethod",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "voy_thecloud",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "otsd_unscientificmethod",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "tmp_010vger",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "fc_MirrorImage",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "fc_deadend",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "dom_friendlyfire",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "tmp_003god",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "fc_maglock",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "ds9_chamberofministers",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "Emissary+_DeepSpace9EMS",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "ds9_exploregammaquadrant",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "ds9_hqsecurehomeworld",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "fc_primitiveculture",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "mm_afastshipwouldbenice",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "ds9_guestquarters",
+          "quantity": 1,
+          "loadGroupId": "playerNSites"
+        },
+        {
+          "databaseId": "ds9_dockingports",
+          "quantity": 1,
+          "loadGroupId": "playerNSites"
+        },
+        {
+          "databaseId": "twt_bajoranshrine",
+          "quantity": 1,
+          "loadGroupId": "playerNSites"
+        },
+        {
+          "databaseId": "ds9_ops",
+          "quantity": 1,
+          "loadGroupId": "playerNSites"
+        },
+        {
+          "databaseId": "ds9_sciencelab",
+          "quantity": 1,
+          "loadGroupId": "playerNSites"
+        },
+        {
+          "databaseId": "ds9_securityoffice",
+          "quantity": 1,
+          "loadGroupId": "playerNSites"
+        }
+      ]
+    },
+    "simple-cardassian": {
+      "label": "Simple Cardassian",
+      "cards": [
+        {
+          "databaseId": "voy_handshake",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "ds9_jasad",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "ds9_militaryfreighter",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "dom_telle",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "twt_broca",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "ds9_cardassiandisruptor",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "ds9_cardassianpadd",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "ds9_danar",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "PR_PR294",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "ds9_groumall",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "VP_138VP_2",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "2anth_legatedamar",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "roa_lemec",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "dom_macet",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "roa_naprem",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "ha_60seskal",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "ds9_tekenyghemor",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "VP_179VP_2",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "ds9_turrel",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "agt_ST1E-ENAGT033",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "VP_27-VP_rusot",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "ds9_dukat",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Ref_rogadanar",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "TNG+_tngsup_37V",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "fc_regenerate",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "ds9_filemissionreport",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "ds9_borad",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "ds9_gilorarejal",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "ds9_studyplasmastorm",
+          "quantity": 1,
+          "loadGroupId": "playerNMissions"
+        },
+        {
+          "databaseId": "ds9_interceptrenegade",
+          "quantity": 1,
+          "loadGroupId": "playerNMissions"
+        },
+        {
+          "databaseId": "sdII_studycometarycloud",
+          "quantity": 1,
+          "loadGroupId": "playerNMissions"
+        },
+        {
+          "databaseId": "ds9_orbnegotiations",
+          "quantity": 1,
+          "loadGroupId": "playerNMissions"
+        },
+        {
+          "databaseId": "ds9_searchforsurvivors",
+          "quantity": 1,
+          "loadGroupId": "playerNMissions"
+        },
+        {
+          "databaseId": "sdII_searchforweapons",
+          "quantity": 1,
+          "loadGroupId": "playerNMissions"
+        },
+        {
+          "databaseId": "voy_hanonianlandeel",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "borg_Ankari-Spirits",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "mm_denevanneuralparasites",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "au_Edo-Probe",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "twt_executiveauthorization",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "mm_horta",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "voy_hullbreach",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "voy_navigationalhazardsvoy",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "ds9_nor_ab",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "roa_scientificmethod",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "voy_thecloud",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "otsd_unscientificmethod",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "tmp_010vger",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "fc_MirrorImage",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "fc_deadend",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "dom_friendlyfire",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "tmp_003god",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "fc_maglock",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "ds9_centralcommand",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "ds9_filemissionreport",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "ds9_hqsecurehomeworld",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "fc_primitiveculture",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "mm_afastshipwouldbenice",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "ds9_guestquarters",
+          "quantity": 1,
+          "loadGroupId": "playerNSites"
+        },
+        {
+          "databaseId": "ds9_dockingports",
+          "quantity": 1,
+          "loadGroupId": "playerNSites"
+        },
+        {
+          "databaseId": "ds9_commandersoffice",
+          "quantity": 1,
+          "loadGroupId": "playerNSites"
+        },
+        {
+          "databaseId": "ds9_ops",
+          "quantity": 1,
+          "loadGroupId": "playerNSites"
+        },
+        {
+          "databaseId": "ds9_sciencelab",
+          "quantity": 1,
+          "loadGroupId": "playerNSites"
+        },
+        {
+          "databaseId": "ds9_securityoffice",
+          "quantity": 1,
+          "loadGroupId": "playerNSites"
+        }
+      ]
+    },
+    "simple-federation": {
+      "label": "Simple Federation",
+      "cards": [
+        {
+          "databaseId": "voy_handshake",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "tmp_tmp34",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "dom_admiralleyton",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "2pg_admiralmccoy",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "ds9_altovar",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "tmp_tmp37",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "PR_PR243",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "tmp_tmp41",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "fc_deannatroifc",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "twt_DrMcCoy_TWT",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "dom_jareshinyo",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "tmp_057johnharriman",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "VP_138VP_2",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "fc_lightner",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "twt_ltbailey",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "tmp_060matthewdougherty",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "tmp_tmp61",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "fc_starfleettypeiiiphaserrifl",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "VP_179VP_2",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "tmp_tmp114",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "IC_3V-KiraB",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "dom_admiralriker",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "au_futureenterprise",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Ref_data",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Ref_geordilaforge",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "ds9_jadziadax",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "HF2_AdmiralJaneway_HfII",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "2pg_spock",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "fc_regenerate",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "PR_PR156",
+          "quantity": 1,
+          "loadGroupId": "playerNMissions"
+        },
+        {
+          "databaseId": "PR_PR161",
+          "quantity": 1,
+          "loadGroupId": "playerNMissions"
+        },
+        {
+          "databaseId": "PR_PR169",
+          "quantity": 1,
+          "loadGroupId": "playerNMissions"
+        },
+        {
+          "databaseId": "PR_PR181",
+          "quantity": 1,
+          "loadGroupId": "playerNMissions"
+        },
+        {
+          "databaseId": "PR_PR187",
+          "quantity": 1,
+          "loadGroupId": "playerNMissions"
+        },
+        {
+          "databaseId": "fc_Espionage-Mission",
+          "quantity": 1,
+          "loadGroupId": "playerNMissions"
+        },
+        {
+          "databaseId": "voy_hanonianlandeel",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "borg_Ankari-Spirits",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "mm_denevanneuralparasites",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "au_Edo-Probe",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "twt_executiveauthorization",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "mm_horta",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "voy_hullbreach",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "voy_navigationalhazardsvoy",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "roa_scientificmethod",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "voy_thecloud",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "otsd_unscientificmethod",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "tmp_010vger",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "fc_MirrorImage",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "fc_deadend",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "dom_friendlyfire",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "tmp_003god",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "fc_maglock",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "dom_officeofthepresident",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "ds9_hqsecurehomeworld",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "fc_primitiveculture",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "au_alternateuniversedoor",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "TNG+_tngsup_11V",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "mm_afastshipwouldbenice",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        }
+      ]
+    },
+    "simple-ferengi": {
+      "label": "Simple Ferengi",
+      "cards": [
+        {
+          "databaseId": "voy_handshake",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "agt_ST1E-ENAGT025",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "roa_brel",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "roa_letek",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "roa_solok",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "roa_berik",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "roa_dabo",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "roa_gaila",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "roa_rom",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "roa_ferengipadd",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "mm_ferengiwhip",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "VP_138VP_2",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "roa_leck",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "faj_Lore_FA",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "roa_quark",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "VP_179VP_2",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "ep_TheTrois",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "roa_tol",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "ha_126trullux",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "IC_14V-Aluura",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "IC_16V-Leeta",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "IC_17V-Mardah",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "IC_18V-Nog",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "IC_19V-Prot",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Ref_rogadanar",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lfl_drreyga_lfl",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "TNG+_tngsup_37V",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "roa_dkoratransport",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "fc_regenerate",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "roa_gral",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "roa_grandnaguszek",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "roa_nava",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "sdII_geologicalsurvey",
+          "quantity": 1,
+          "loadGroupId": "playerNMissions"
+        },
+        {
+          "databaseId": "roa_marketresearch",
+          "quantity": 1,
+          "loadGroupId": "playerNMissions"
+        },
+        {
+          "databaseId": "ds9_acquireillicitexplosives",
+          "quantity": 1,
+          "loadGroupId": "playerNMissions"
+        },
+        {
+          "databaseId": "dom_miningsurvey",
+          "quantity": 1,
+          "loadGroupId": "playerNMissions"
+        },
+        {
+          "databaseId": "sdII_studycometarycloud",
+          "quantity": 1,
+          "loadGroupId": "playerNMissions"
+        },
+        {
+          "databaseId": "roa_delivermessage",
+          "quantity": 1,
+          "loadGroupId": "playerNMissions"
+        },
+        {
+          "databaseId": "voy_hanonianlandeel",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "borg_Ankari-Spirits",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "mm_denevanneuralparasites",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "au_Edo-Probe",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "twt_executiveauthorization",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "mm_horta",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "voy_hullbreach",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "voy_navigationalhazardsvoy",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "roa_scientificmethod",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "ds9_TerokNorDS9",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "voy_thecloud",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "otsd_unscientificmethod",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "tmp_010vger",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "fc_MirrorImage",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "fc_deadend",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "dom_friendlyfire",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "tmp_003god",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "fc_maglock",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "roa_towerofcommerce",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "ds9_hqsecurehomeworld",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "fc_primitiveculture",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "mm_afastshipwouldbenice",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "roa_cargobay",
+          "quantity": 1,
+          "loadGroupId": "playerNSites"
+        },
+        {
+          "databaseId": "ds9_guestquarters",
+          "quantity": 1,
+          "loadGroupId": "playerNSites"
+        },
+        {
+          "databaseId": "ds9_dockingports",
+          "quantity": 1,
+          "loadGroupId": "playerNSites"
+        },
+        {
+          "databaseId": "roa_quarksbar",
+          "quantity": 1,
+          "loadGroupId": "playerNSites"
+        },
+        {
+          "databaseId": "ds9_sciencelab",
+          "quantity": 1,
+          "loadGroupId": "playerNSites"
+        },
+        {
+          "databaseId": "ds9_ops",
+          "quantity": 1,
+          "loadGroupId": "playerNSites"
+        }
+      ]
+    },
+    "simple-klingon": {
+      "label": "Simple Klingon",
+      "cards": [
+        {
+          "databaseId": "VP_179VP_2",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "VP_138VP_2",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "voy_handshake",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "fc_regenerate",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "PR_PR59",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "bog_batleth",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "ds9_morka",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "dom_Martok",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Ref_kurn",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "au_governorworf",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "ds9_dghor",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "ha_77chancellorgowron",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "tmp_tmp73",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "tmp_tmp70",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "tmp_tmp81",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "qc_kitrik",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "PR_PR294",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "bog_jadziadaxbog",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "tmp_tmp83",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "bog_kang",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "bog_kor",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "bog_bloodoath_a",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "TNG+_tngsup_31V",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "agt_ST1E-ENAGT021fed",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "ds9_retaya",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "bog_ikclukara",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "tmp_tmp121",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "coc_14-V_ikcqamchee",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "HF_exposecovertsupply_HF",
+          "quantity": 1,
+          "loadGroupId": "playerNMissions"
+        },
+        {
+          "databaseId": "2pg_Reported-Activity",
+          "quantity": 1,
+          "loadGroupId": "playerNMissions"
+        },
+        {
+          "databaseId": "2pg_distressmission",
+          "quantity": 1,
+          "loadGroupId": "playerNMissions"
+        },
+        {
+          "databaseId": "PR_PR192",
+          "quantity": 1,
+          "loadGroupId": "playerNMissions"
+        },
+        {
+          "databaseId": "PR_PR157",
+          "quantity": 1,
+          "loadGroupId": "playerNMissions"
+        },
+        {
+          "databaseId": "ep_exploreblack2front",
+          "quantity": 1,
+          "loadGroupId": "playerNMissions"
+        },
+        {
+          "databaseId": "au_alternateuniversedoor",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "dom_thegreathall",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "ds9_hqsecurehomeworld",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "fc_MirrorImage",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "fc_AssignMissionSpecialistsFC",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "voy_hanonianlandeel",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "mm_denevanneuralparasites",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "fc_primitiveculture",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "borg_Ankari-Spirits",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "voy_hullbreach",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "fc_maglock",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "au_Edo-Probe",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "dom_friendlyfire",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "fc_deadend",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "mm_horta",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "tmp_003god",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "twt_executiveauthorization",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "tmp_010vger",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "voy_thecloud",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "voy_navigationalhazardsvoy",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "otsd_unscientificmethod",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "mm_afastshipwouldbenice",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "roa_scientificmethod",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "TNG+_tngsup_32V",
+          "quantity": 1,
+          "loadGroupId": "playerNAside"
+        },
+        {
+          "databaseId": "PR_PR286",
+          "quantity": 1,
+          "loadGroupId": "playerNAside"
+        }
+      ]
+    },
+    "simple-romulan": {
+      "label": "Simple Romulan",
+      "cards": [
+        {
+          "databaseId": "voy_handshake",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "tmp_tmp108",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "PR_PR294",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "tmp_094gallatin",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "PR_PR62",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "twt_keras",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "VP_138VP_2",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "2anth_koval",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "roa_kukalaka",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "dom_lovok",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "bog_parthok",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "PR_PR361",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "ha_121praetorneral",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "voy_rekar",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "roa_senatorcretak",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "dom_senatorvreenak",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "qc_terix",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "VP_179VP_2",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "ds9_vakis",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "coc_Shinzon",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "VP_TheViceroy",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "voy_drtelekrmor",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "au_Major-Rakal",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Ref_sela",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Ref_khazara",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "bog_senatorletant",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "TNG+_tngsup_37V",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "fc_regenerate",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "au_compromisedmission",
+          "quantity": 1,
+          "loadGroupId": "playerNMissions"
+        },
+        {
+          "databaseId": "PR_PR148",
+          "quantity": 1,
+          "loadGroupId": "playerNMissions"
+        },
+        {
+          "databaseId": "PR_PR157",
+          "quantity": 1,
+          "loadGroupId": "playerNMissions"
+        },
+        {
+          "databaseId": "PR_PR170",
+          "quantity": 1,
+          "loadGroupId": "playerNMissions"
+        },
+        {
+          "databaseId": "ep_investigatesighting2front",
+          "quantity": 1,
+          "loadGroupId": "playerNMissions"
+        },
+        {
+          "databaseId": "HF_cloakedmission_HF",
+          "quantity": 1,
+          "loadGroupId": "playerNMissions"
+        },
+        {
+          "databaseId": "voy_hanonianlandeel",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "borg_Ankari-Spirits",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "mm_denevanneuralparasites",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "au_Edo-Probe",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "twt_executiveauthorization",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "mm_horta",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "voy_hullbreach",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "voy_navigationalhazardsvoy",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "roa_scientificmethod",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "voy_thecloud",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "otsd_unscientificmethod",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "tmp_010vger",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "fc_MirrorImage",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "fc_deadend",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "dom_friendlyfire",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "tmp_003god",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "fc_maglock",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "roa_continuingcommittee",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "dom_officeoftheproconsul",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "ds9_hqsecurehomeworld",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "fc_primitiveculture",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "au_alternateuniversedoor",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "mm_afastshipwouldbenice",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        }
+      ]
+    },
+    "tng-coa-starter-fed": {
+      "label": "Tng Coa Starter Fed",
+      "cards": [
+        {
+          "databaseId": "TNG_tng_16V",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "TNG_tng_26V",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "TNG_tng_53V",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "TNG_tng_54V",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "TNG_tng_55V",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "TNG_tng_56V",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "TNG_tng_58V",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "TNG_tng_60V",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "TNG_tng_61V",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "TNG_tng_62V",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "TNG_tng_63V",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "TNG_tng_64V",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "TNG_tng_65V",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "TNG_tng_93V",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "TNG_tng_94V",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "coc_4V_Jean-LucPicard",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "2pg_spock",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Ref_worf",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "TNG+_Sunad_A",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "TNG+_tngsup_37V",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "coc_11V_USSEnterprise",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "TNG+_tngsup_40V",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "tstl_TSTL_33",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "WPEmissary_wpe_66P",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "WPEmissary_wpe_67P",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "comingofag_Anhaica_Fed",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "comingofag_comingofage_19",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "TNG_tng_37V",
+          "quantity": 1,
+          "loadGroupId": "playerNMissions"
+        },
+        {
+          "databaseId": "TNG_tng_39V",
+          "quantity": 1,
+          "loadGroupId": "playerNMissions"
+        },
+        {
+          "databaseId": "TNG_tng_41V",
+          "quantity": 1,
+          "loadGroupId": "playerNMissions"
+        },
+        {
+          "databaseId": "TNG_SalvageBorgShip",
+          "quantity": 1,
+          "loadGroupId": "playerNMissions"
+        },
+        {
+          "databaseId": "sdII_botanicalresearch",
+          "quantity": 1,
+          "loadGroupId": "playerNMissions"
+        },
+        {
+          "databaseId": "ENGAGE_AssistDamagedVessel",
+          "quantity": 1,
+          "loadGroupId": "playerNMissions"
+        },
+        {
+          "databaseId": "dom_chulathechandra",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "HF_HMF_06V",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "dom_friendlyfire",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "fc_maglock",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "bog_newessentialists",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "tmp_tmp8",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "tmp_006linguisticlegerdemain",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "TNG_tng_3V",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "TNG_tng_21Va",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "fc_AssignMissionSpecialistsFC",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "ENGAGE_engage_5",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "ENGAGE_engage_2",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "ENGAGE_engage_4",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "ENGAGE_engage_6",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "ENGAGE_engage_10",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "HF6_HF6_02",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "TNG_tng_22Va",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "HF6_HF6_10",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "otsd_armusstickysituation",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "fc_lackofpreparation",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "TNG+_tngsup_11V",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "comingofag_comingofage_01",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "TNG_tng_59V",
+          "quantity": 1,
+          "loadGroupId": "playerNRemoved"
+        },
+        {
+          "databaseId": "comingofag_comingofage_08",
+          "quantity": 1,
+          "loadGroupId": "playerNRemoved"
+        }
+      ]
+    },
+    "tng-coa-starter-fer": {
+      "label": "Tng Coa Starter Fer",
+      "cards": [
+        {
+          "databaseId": "TNG_tng_26V",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "TNG_tng_34V",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "TNG_tng_66V",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "TNG_tng_67V",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "TNG_tng_68V",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "TNG_tng_69V",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "TNG_tng_70Va",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "TNG_tng_72V",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "TNG_tng_73V",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "TNG_tng_74V",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "TNG_tng_75V",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "TNG_tng_76V",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "TNG_tng_77V",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "TNG_tng_93V",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "TNG_tng_94V",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "TNG_tng_95V",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "TNG_tng_96V",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lfl_drreyga_lfl",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "TNG+_Sunad_A",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "TNG+_tngsup_37V",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "tstl_TSTL_34",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "tstl_TSTL_35",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "tstl_TSTL_41",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "comingofag_comingofage_10",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "roa_krunk",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "roa_taar",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "comingofag_comingofage_20",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "roa_kreechta",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "TNG_tng_43V",
+          "quantity": 1,
+          "loadGroupId": "playerNMissions"
+        },
+        {
+          "databaseId": "TNG_tng_47V",
+          "quantity": 1,
+          "loadGroupId": "playerNMissions"
+        },
+        {
+          "databaseId": "ENGAGE_engage_24",
+          "quantity": 1,
+          "loadGroupId": "playerNMissions"
+        },
+        {
+          "databaseId": "ENGAGE_engage_26",
+          "quantity": 1,
+          "loadGroupId": "playerNMissions"
+        },
+        {
+          "databaseId": "sdII_searchforweapons",
+          "quantity": 1,
+          "loadGroupId": "playerNMissions"
+        },
+        {
+          "databaseId": "comingofag_comingofage_03",
+          "quantity": 1,
+          "loadGroupId": "playerNMissions"
+        },
+        {
+          "databaseId": "dom_chulathechandra",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "HF_HMF_06V",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "dom_friendlyfire",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "fc_maglock",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "HF2_HMF2_2",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "HF2_HMF2_4",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "TNG_tng_5V",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "TNG_tng_21Va",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "SoG_SoG_7",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "lfl_LFL_09V",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "sdII_ferengitradingpost",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "fc_AssignMissionSpecialistsFC",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "ENGAGE_engage_5",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "ENGAGE_engage_4",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "tstl_TSTL_04",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "tstl_TSTL_05",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "HF6_HF6_02",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "TNG_tng_22Va",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "HF6_HF6_04",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "fc_lackofpreparation",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "au_MalfunctioningDoor",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "comingofag_comingofage_01",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "TNG_tng_71V",
+          "quantity": 1,
+          "loadGroupId": "playerNRemoved"
+        },
+        {
+          "databaseId": "comingofag_comingofage_11",
+          "quantity": 1,
+          "loadGroupId": "playerNRemoved"
+        }
+      ]
+    },
+    "tng-coa-starter-kli": {
+      "label": "Tng Coa Starter Kli",
+      "cards": [
+        {
+          "databaseId": "TNG_tng_26V",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "TNG_tng_78V",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "TNG_tng_79V",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "TNG_tng_80V",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "TNG_tng_81V",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "TNG_tng_82V",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "TNG_tng_83V",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "TNG_tng_84V",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "TNG_tng_86V",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "TNG_tng_87V",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "TNG_tng_89V",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "TNG_tng_90V",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "TNG_tng_93V",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "TNG_tng_94V",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lfl_duras_lfl",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "TNG+_tngsup_29V",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "TNG+_tngsup_31V",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "TNG+_Sunad_A",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "TNG+_tngsup_37V",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "TNG+_tngsup_42V",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "TNG+_tngsup_43V",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "tstl_TSTL_37",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Ref_klingondeathyell",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "comingofag_comingofage_14",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "comingofag_comingofage_15",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "comingofag_comingofage_16",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "comingofag_comingofage_17",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "comingofag_comingofage_18",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "TNG_tng_35V",
+          "quantity": 1,
+          "loadGroupId": "playerNMissions"
+        },
+        {
+          "databaseId": "TNG_tng_36V",
+          "quantity": 1,
+          "loadGroupId": "playerNMissions"
+        },
+        {
+          "databaseId": "TNG_tng_40V",
+          "quantity": 1,
+          "loadGroupId": "playerNMissions"
+        },
+        {
+          "databaseId": "TNG_tng_45V",
+          "quantity": 1,
+          "loadGroupId": "playerNMissions"
+        },
+        {
+          "databaseId": "otsd_imposeorder",
+          "quantity": 1,
+          "loadGroupId": "playerNMissions"
+        },
+        {
+          "databaseId": "2pg_Reported-Activity",
+          "quantity": 1,
+          "loadGroupId": "playerNMissions"
+        },
+        {
+          "databaseId": "dom_chulathechandra",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "HF_HMF_06V",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "dom_friendlyfire",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "fc_maglock",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "HF2_HMF2_5",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "HF2_HMF2_8",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "TNG_tng_14V",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "TNG_tng_21Va",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "fc_AssignMissionSpecialistsFC",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "ENGAGE_engage_5",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "ENGAGE_engage_4",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "HF6_HF6_02",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "TNG_tng_22Va",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "HF6_HF6_19",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "TNG_tng_1V",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "HF6_HF6_09",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "fc_lackofpreparation",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "HF6_HF6_14",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "fc_primitiveculture",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "HF6_HF6_18",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "TNG+_tngsup_13V",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "comingofag_comingofage_01",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "TNG_tng_88V",
+          "quantity": 1,
+          "loadGroupId": "playerNRemoved"
+        },
+        {
+          "databaseId": "TNG+_tngsup_32V",
+          "quantity": 1,
+          "loadGroupId": "playerNRemoved"
+        }
+      ]
+    },
+    "tng-coa-starter-rom": {
+      "label": "Tng Coa Starter Rom",
+      "cards": [
+        {
+          "databaseId": "HF2_HMF2_46",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "TNG_tng_26V",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "TNG_tng_93V",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "TNG_tng_94V",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "TNG+_Sunad_A",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "TNG+_tngsup_37V",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "faj_tallera",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "TNG+_tngsup_45V",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "HF3_HMF3_26",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "HF3_HMF3_31",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "ENGAGE_engage_19",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "ENGAGE_engage_38",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "ENGAGE_engage_39",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "ENGAGE_engage_41",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "ENGAGE_engage_42",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "ENGAGE_engage_43",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "ENGAGE_engage_44",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "ENGAGE_engage_45",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "ENGAGE_engage_46",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "ENGAGE_engage_47",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "ENGAGE_engage_48",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "ENGAGE_engage_49",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "ENGAGE_engage_50",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "ENGAGE_engage_53",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "tstl_TSTL_50",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "comingofag_comingofage_23",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "comingofag_comingofage_24",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "comingofag_comingofage_25",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "TNG_tng_46V",
+          "quantity": 1,
+          "loadGroupId": "playerNMissions"
+        },
+        {
+          "databaseId": "TNG_tng_49V",
+          "quantity": 1,
+          "loadGroupId": "playerNMissions"
+        },
+        {
+          "databaseId": "ENGAGE_engage_21",
+          "quantity": 1,
+          "loadGroupId": "playerNMissions"
+        },
+        {
+          "databaseId": "ENGAGE_engage_29",
+          "quantity": 1,
+          "loadGroupId": "playerNMissions"
+        },
+        {
+          "databaseId": "comingofag_comingofage_04",
+          "quantity": 1,
+          "loadGroupId": "playerNMissions"
+        },
+        {
+          "databaseId": "comingofag_comingofage_05",
+          "quantity": 1,
+          "loadGroupId": "playerNMissions"
+        },
+        {
+          "databaseId": "dom_chulathechandra",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "ds9_dalrok",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "HF_HMF_06V",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "dom_friendlyfire",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "fc_maglock",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "HF_HMF_13V",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "TNG_tng_21Va",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "Ref_armusskinofevil",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "TNG+_tngsup_2V",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "TNG+_RGS_TNGSUP",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "lfl_LFL_11V",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "fc_AssignMissionSpecialistsFC",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "ENGAGE_engage_5",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "ENGAGE_engage_3",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "ENGAGE_engage_4",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "ENGAGE_engage_11",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "tstl_TSTL_10",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "HF6_HF6_02",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "TNG_tng_22Va",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "fc_lackofpreparation",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "TNG+_Romulan-Outpost",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "comingofag_comingofage_01",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "ENGAGE_engage_40",
+          "quantity": 1,
+          "loadGroupId": "playerNRemoved"
+        },
+        {
+          "databaseId": "comingofag_comingofage_26",
+          "quantity": 1,
+          "loadGroupId": "playerNRemoved"
+        }
+      ]
+    },
+    "tng-starter-deck-federation": {
+      "label": "Tng Starter Deck Federation",
+      "cards": [
+        {
+          "databaseId": "TNG_tng_16V",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "TNG_tng_26V",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "TNG_tng_53V",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "TNG_tng_54V",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "TNG_tng_55V",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "TNG_tng_56V",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "TNG_tng_57V",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "TNG_tng_58V",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "TNG_tng_59V",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "TNG_tng_60V",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "TNG_tng_61V",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "TNG_tng_62V",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "TNG_tng_63V",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "TNG_tng_64V",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "TNG_tng_65V",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "TNG_tng_92V",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "TNG_tng_93V",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "TNG_tng_94V",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "VP_57VP",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "coc_4V_Jean-LucPicard",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "TNG+_tngsup_20V",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "2pg_spock",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "au_tashayaralternate",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "TNG+_tngsup_37V",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "coc_11V_USSEnterprise",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "TNG+_tngsup_40V",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "TNG_tng_36V",
+          "quantity": 1,
+          "loadGroupId": "playerNMissions"
+        },
+        {
+          "databaseId": "TNG_tng_37V",
+          "quantity": 1,
+          "loadGroupId": "playerNMissions"
+        },
+        {
+          "databaseId": "TNG_tng_39V",
+          "quantity": 1,
+          "loadGroupId": "playerNMissions"
+        },
+        {
+          "databaseId": "TNG_tng_41V",
+          "quantity": 1,
+          "loadGroupId": "playerNMissions"
+        },
+        {
+          "databaseId": "TNG_SalvageBorgShip",
+          "quantity": 1,
+          "loadGroupId": "playerNMissions"
+        },
+        {
+          "databaseId": "sdII_botanicalresearch",
+          "quantity": 1,
+          "loadGroupId": "playerNMissions"
+        },
+        {
+          "databaseId": "fc_blended",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "dom_chulathechandra",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "HF_HMF_06V",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "dom_friendlyfire",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "fc_maglock",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "bog_newessentialists",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "HF_HMF_13V",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "HF2_HMF2_2",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "HF2_HMF2_3",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "HF2_HMF2_4",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "HF2_HMF2_7",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "voy_TemporalMicro-WormholeVOY",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "TNG_tng_3V",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "TNG_tng_8V",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "TNG_tng_10V",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "TNG_tng_12V",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "TNG_tng_21Va",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "TNG+_tngsup_2V",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "lfl_LFL_09V",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "lfl_LFL_11V",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "fc_AssignMissionSpecialistsFC",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "TNG_tng_22Va",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "TNG+_tngsup_11V",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        }
+      ]
+    },
+    "tng-starter-deck-ferengi": {
+      "label": "Tng Starter Deck Ferengi",
+      "cards": [
+        {
+          "databaseId": "TNG_tng_26V",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "TNG_tng_34V",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "TNG_tng_66V",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "TNG_tng_67V",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "TNG_tng_68V",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "TNG_tng_69V",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "TNG_tng_70Va",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "TNG_tng_71V",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "TNG_tng_72V",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "TNG_tng_73V",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "TNG_tng_74V",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "TNG_tng_75V",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "TNG_tng_76V",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "TNG_tng_77V",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "TNG_tng_92V",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "TNG_tng_93V",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "TNG_tng_94V",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "TNG_tng_95V",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "TNG_tng_96V",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "TNG_tng_97V",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "VP_57VP",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lfl_drreyga_lfl",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "TNG+_tngsup_37V",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "TNG_tng_35V",
+          "quantity": 1,
+          "loadGroupId": "playerNMissions"
+        },
+        {
+          "databaseId": "TNG_tng_39V",
+          "quantity": 1,
+          "loadGroupId": "playerNMissions"
+        },
+        {
+          "databaseId": "TNG_tng_43V",
+          "quantity": 1,
+          "loadGroupId": "playerNMissions"
+        },
+        {
+          "databaseId": "TNG_tng_46V",
+          "quantity": 1,
+          "loadGroupId": "playerNMissions"
+        },
+        {
+          "databaseId": "TNG_tng_47V",
+          "quantity": 1,
+          "loadGroupId": "playerNMissions"
+        },
+        {
+          "databaseId": "sdII_searchforweapons",
+          "quantity": 1,
+          "loadGroupId": "playerNMissions"
+        },
+        {
+          "databaseId": "dom_chulathechandra",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "bog_chulathelights",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "HF_HMF_06V",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "dom_friendlyfire",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "fc_maglock",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "HF_HMF_10V",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "HF_HMF_13V",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "ds9_punishmentbox",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "HF2_HMF2_2",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "HF2_HMF2_4",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "HF2_HMF2_8",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "tmp_006linguisticlegerdemain",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "voy_TemporalMicro-WormholeVOY",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "TNG_tng_5V",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "TNG_tng_8V",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "TNG_tng_10V",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "TNG_tng_21Va",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "Ref_armusskinofevil",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "TNG+_RGS_TNGSUP",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "SaS_tngsup_6V",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "sdII_ferengitradingpost",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "fc_AssignMissionSpecialistsFC",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "TNG_tng_22Va",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        }
+      ]
+    },
+    "tng-starter-deck-klingon": {
+      "label": "Tng Starter Deck Klingon",
+      "cards": [
+        {
+          "databaseId": "TNG_tng_18V",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "TNG_tng_26V",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "TNG_tng_78V",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "TNG_tng_79V",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "TNG_tng_80V",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "TNG_tng_81V",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "TNG_tng_82V",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "TNG_tng_83V",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "TNG_tng_84V",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "TNG_tng_85V",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "TNG_tng_86V",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "TNG_tng_87V",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "TNG_tng_88V",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "TNG_tng_89V",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "TNG_tng_90V",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "TNG_tng_92V",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "TNG_tng_93V",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "TNG_tng_94V",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "TNG_tng_98V",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "VP_57VP",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "lfl_duras_lfl",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "TNG+_tngsup_29V",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "TNG+_tngsup_31V",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "TNG+_tngsup_37V",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "TNG+_tngsup_42V",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "TNG+_tngsup_43V",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "HF_cloakedmission_HF",
+          "quantity": 1,
+          "loadGroupId": "playerNMissions"
+        },
+        {
+          "databaseId": "TNG_tng_35V",
+          "quantity": 1,
+          "loadGroupId": "playerNMissions"
+        },
+        {
+          "databaseId": "TNG_tng_36V",
+          "quantity": 1,
+          "loadGroupId": "playerNMissions"
+        },
+        {
+          "databaseId": "TNG_tng_40V",
+          "quantity": 1,
+          "loadGroupId": "playerNMissions"
+        },
+        {
+          "databaseId": "TNG_tng_45V",
+          "quantity": 1,
+          "loadGroupId": "playerNMissions"
+        },
+        {
+          "databaseId": "otsd_imposeorder",
+          "quantity": 1,
+          "loadGroupId": "playerNMissions"
+        },
+        {
+          "databaseId": "dom_chulathechandra",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "HF_HMF_06V",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "dom_friendlyfire",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "fc_maglock",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "HF_HMF_13V",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "qc_qsviciousanimalthings",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "HF2_HMF2_2",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "HF2_HMF2_4",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "HF2_HMF2_5",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "voy_TemporalMicro-WormholeVOY",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "TNG_tng_8V",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "TNG_tng_9V",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "TNG_tng_10V",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "TNG_tng_11V",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "TNG_tng_13V",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "TNG_tng_15V",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "TNG_tng_21Va",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "SoG_SoG_7",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "TNG+_tngsup_8V",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "fc_AssignMissionSpecialistsFC",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "TNG_tng_22Va",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "TNG_tng_1V",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        },
+        {
+          "databaseId": "TNG+_tngsup_13V",
+          "quantity": 1,
+          "loadGroupId": "playerNSeed"
+        }
+      ]
+    }
+  }
+}

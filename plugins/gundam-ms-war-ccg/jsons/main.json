@@ -1,0 +1,12 @@
+{
+  "pluginName": "Gundam: The Movie MS War CCG",
+  "author": "Lackey / wishmstr",
+  "tutorialUrl": "https://github.com/wishmstr/GundamMSWarCCG",
+  "announcements": [
+    "Tabletop plugin from the Lackey Gundam MS War CCG set. No rules engine — Draw is from Supply Base; Dry Dock and Defunct are shortcuts.",
+    "D = draw. R = ready all. V = War Experience +1."
+  ],
+  "loadPreBuiltOnNewGame": false,
+  "bannerUrl": "https://toybox.hundredacre.club/cards/gundam-ms-war-ccg/_plugin/banner2.jpg",
+  "logoUrl": "https://toybox.hundredacre.club/cards/gundam-ms-war-ccg/_plugin/logo2.jpg"
+}

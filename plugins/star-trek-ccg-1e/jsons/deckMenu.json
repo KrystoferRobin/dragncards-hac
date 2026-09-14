@@ -1,0 +1,86 @@
+{
+  "deckMenu": {
+    "subMenus": [
+      {
+        "label": "Simple Decks",
+        "deckLists": [
+          {
+            "deckListId": "simple-bajoran",
+            "label": "Simple Bajoran"
+          },
+          {
+            "deckListId": "simple-cardassian",
+            "label": "Simple Cardassian"
+          },
+          {
+            "deckListId": "simple-federation",
+            "label": "Simple Federation"
+          },
+          {
+            "deckListId": "simple-ferengi",
+            "label": "Simple Ferengi"
+          },
+          {
+            "deckListId": "simple-klingon",
+            "label": "Simple Klingon"
+          },
+          {
+            "deckListId": "simple-romulan",
+            "label": "Simple Romulan"
+          }
+        ]
+      },
+      {
+        "label": "TNG Starters",
+        "deckLists": [
+          {
+            "deckListId": "tng-starter-deck-federation",
+            "label": "Tng Starter Deck Federation"
+          },
+          {
+            "deckListId": "tng-starter-deck-ferengi",
+            "label": "Tng Starter Deck Ferengi"
+          },
+          {
+            "deckListId": "tng-starter-deck-klingon",
+            "label": "Tng Starter Deck Klingon"
+          }
+        ]
+      },
+      {
+        "label": "TNG Continuity of Action",
+        "deckLists": [
+          {
+            "deckListId": "tng-coa-starter-fed",
+            "label": "Tng Coa Starter Fed"
+          },
+          {
+            "deckListId": "tng-coa-starter-fer",
+            "label": "Tng Coa Starter Fer"
+          },
+          {
+            "deckListId": "tng-coa-starter-kli",
+            "label": "Tng Coa Starter Kli"
+          },
+          {
+            "deckListId": "tng-coa-starter-rom",
+            "label": "Tng Coa Starter Rom"
+          }
+        ]
+      },
+      {
+        "label": "Showdown",
+        "deckLists": [
+          {
+            "deckListId": "showdown-four-lights-starter-car",
+            "label": "Showdown Four Lights Starter Car"
+          },
+          {
+            "deckListId": "showdown-four-lights-starter-fed",
+            "label": "Showdown Four Lights Starter Fed"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "deckMenu": {
+    "subMenus": [
+      {
+        "label": "Lackey Decks",
+        "deckLists": [
+          {
+            "deckListId": "bass-starter-deck",
+            "label": "Bass Starter Deck"
+          },
+          {
+            "deckListId": "megaman-starter-deck",
+            "label": "MegaMan Starter Deck"
+          },
+          {
+            "deckListId": "pharaohman-starter-deck",
+            "label": "PharaohMan Starter Deck"
+          },
+          {
+            "deckListId": "protoman-starter-deck",
+            "label": "ProtoMan Starter Deck"
+          },
+          {
+            "deckListId": "sharkman-starter-deck",
+            "label": "SharkMan Starter Deck"
+          },
+          {
+            "deckListId": "torchman-starter-deck",
+            "label": "TorchMan Starter Deck"
+          }
+        ]
+      }
+    ]
+  }
+}

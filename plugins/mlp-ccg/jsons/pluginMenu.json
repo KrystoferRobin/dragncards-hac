@@ -1,0 +1,38 @@
+{
+  "pluginMenu": {
+    "options": [
+      {
+        "label": "Draw",
+        "actionList": "drawDeck"
+      },
+      {
+        "label": "Shuffle deck",
+        "actionList": "shuffleDeck"
+      },
+      {
+        "label": "Ready all",
+        "actionList": "readyAll"
+      },
+      {
+        "label": "Flip coin",
+        "actionList": "flipCoin"
+      },
+      {
+        "label": "Points +1",
+        "actionList": "increase_points"
+      },
+      {
+        "label": "Points -1",
+        "actionList": "decrease_points"
+      },
+      {
+        "label": "Action Tokens +1",
+        "actionList": "increase_actions"
+      },
+      {
+        "label": "Action Tokens -1",
+        "actionList": "decrease_actions"
+      }
+    ]
+  }
+}

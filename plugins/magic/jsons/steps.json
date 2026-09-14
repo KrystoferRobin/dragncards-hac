@@ -1,0 +1,46 @@
+{
+  "steps": {
+    "untapStep": {
+      "phaseId": "untap",
+      "label": "Untap"
+    },
+    "upkeepStep": {
+      "phaseId": "upkeep",
+      "label": "Upkeep"
+    },
+    "drawStep": {
+      "phaseId": "draw",
+      "label": "Draw"
+    },
+    "main1Step": {
+      "phaseId": "main1",
+      "label": "Main 1"
+    },
+    "combatStep": {
+      "phaseId": "combat",
+      "label": "Combat"
+    },
+    "main2Step": {
+      "phaseId": "main2",
+      "label": "Main 2"
+    },
+    "endStep": {
+      "phaseId": "end",
+      "label": "End"
+    },
+    "cleanupStep": {
+      "phaseId": "cleanup",
+      "label": "Discard"
+    }
+  },
+  "stepOrder": [
+    "untapStep",
+    "upkeepStep",
+    "drawStep",
+    "main1Step",
+    "combatStep",
+    "main2Step",
+    "endStep",
+    "cleanupStep"
+  ]
+}

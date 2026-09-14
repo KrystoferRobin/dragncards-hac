@@ -1,0 +1,11 @@
+Built 2026-09-11 05:12 UTC from GEMP-SWCCG card data.
+Table shell cloned from wars-trading-card-game-live-import (same Decipher pile/turn flow).
+Card stats: gemp-swccg/.../card_blueprint_database.json
+Art map: gemp-swccg/.../CardImages.js → res.starwarsccg.org
+Author credit: GEMP / starwarsccg.org
+
+This is a tabletop plugin (layout, piles, reminders). GEMP's Java rules engine is not ported.
+TSV rows: 3741  extra objective/back faces: 61  cards missing art in CardImages.js: 0
+Drop banner.jpg and logo.jpg into images/star-wars-ccg/_plugin/ before Load Game Definition.
+Collected 2026-09-11: card art + Light/Dark backs retargeted to toybox.
+Prebuilts: 69 GEMP Librarian sample decks (reserve + outside/play-area).

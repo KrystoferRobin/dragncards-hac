@@ -25,8 +25,8 @@ export const useCardStyle = (cardId, cardIndexFromGui, isDragging, offset) => {
 
     var [height, width] = [cardVisibleFace?.height, cardVisibleFace?.width];
     if (!height || !width) {
-        height = gameDef?.cardBacks?.[cardVisibleFace.name]?.height;
-        width = gameDef?.cardBacks?.[cardVisibleFace.name]?.width;
+        height = gameDef?.cardBacks?.[cardVisibleFace?.name]?.height;
+        width = gameDef?.cardBacks?.[cardVisibleFace?.name]?.width;
     }
 
     console.log({width, height});

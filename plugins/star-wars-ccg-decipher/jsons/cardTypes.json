@@ -1,0 +1,84 @@
+{
+  "cardTypes": {
+    "CHARACTER": {
+      "height": 1,
+      "tokens": [],
+      "width": 0.72
+    },
+    "LOCATION": {
+      "height": 1,
+      "tokens": [],
+      "width": 0.72
+    },
+    "STARSHIP": {
+      "height": 1,
+      "tokens": [],
+      "width": 0.72
+    },
+    "VEHICLE": {
+      "height": 1,
+      "tokens": [],
+      "width": 0.72
+    },
+    "WEAPON": {
+      "height": 1,
+      "tokens": [],
+      "width": 0.72
+    },
+    "DEVICE": {
+      "height": 1,
+      "tokens": [],
+      "width": 0.72
+    },
+    "INTERRUPT": {
+      "height": 1,
+      "tokens": [],
+      "width": 0.72
+    },
+    "EFFECT": {
+      "height": 1,
+      "tokens": [],
+      "width": 0.72
+    },
+    "OBJECTIVE": {
+      "height": 1,
+      "tokens": [],
+      "width": 0.72
+    },
+    "ADMIRALS_ORDER": {
+      "height": 1,
+      "tokens": [],
+      "width": 0.72
+    },
+    "EPIC_EVENT": {
+      "height": 1,
+      "tokens": [],
+      "width": 0.72
+    },
+    "JEDI_TEST": {
+      "height": 1,
+      "tokens": [],
+      "width": 0.72
+    },
+    "DEFENSIVE_SHIELD": {
+      "height": 1,
+      "tokens": [],
+      "width": 0.72
+    },
+    "CREATURE": {
+      "height": 1,
+      "tokens": [],
+      "width": 0.72
+    },
+    "PODRACER": {
+      "height": 1,
+      "tokens": [],
+      "width": 0.72
+    },
+    "GAME_AID": {
+      "height": 1,
+      "tokens": [],
+      "width": 0.72
+    }
+  }
+}

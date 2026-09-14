@@ -1,0 +1,59 @@
+{
+  "cardMenu": {
+    "moveToGroupIds": [
+      "playerSPlay",
+      "playerSHoldings",
+      "playerSStronghold",
+      "playerSSensei",
+      "playerSProvince1",
+      "playerSProvince2",
+      "playerSProvince3",
+      "playerSProvince4",
+      "playerSHand",
+      "playerSDynasty",
+      "playerSFate",
+      "playerSDynastyDiscard",
+      "playerSFateDiscard",
+      "playerSFavor",
+      "playerSRemoved",
+      "playerLPlay",
+      "playerLHoldings",
+      "sharedFavor",
+      "sharedSetAside"
+    ],
+    "options": [
+      {
+        "label": "Bow",
+        "actionList": "spendCard"
+      },
+      {
+        "label": "Straighten",
+        "actionList": "readyCard"
+      },
+      {
+        "label": "Dishonor / honor",
+        "actionList": "invertCard"
+      },
+      {
+        "label": "Flip",
+        "actionList": "flipCard"
+      },
+      {
+        "label": "Hold bow / allow unbow",
+        "actionList": "toggleStayBowed"
+      },
+      {
+        "label": "Hold flip / allow flip",
+        "actionList": "toggleStayFlip"
+      },
+      {
+        "label": "Discard",
+        "actionList": "discardCard"
+      },
+      {
+        "label": "Detach",
+        "actionList": "detachCard"
+      }
+    ]
+  }
+}

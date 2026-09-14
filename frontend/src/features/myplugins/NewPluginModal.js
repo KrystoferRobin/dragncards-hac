@@ -9,7 +9,7 @@ import useAuth from "../../hooks/useAuth";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCheck } from "@fortawesome/free-solid-svg-icons";
 import { mergeJSONs, readFileAsText } from "./PluginFileImport";
-import { processArrayOfRows, stringTo2DArray, useProcessArrayOfRows } from "./uploadPluginFunctions";
+import { pluginCardDbFields, pluginSaveErrorMessage, processArrayOfRows, stringTo2DArray, useProcessArrayOfRows } from "./uploadPluginFunctions";
 import { validateSchema } from "./validate/validateGameDef";
 import { getGameDefSchema } from "./validate/getGameDefSchema";
 const { convertCSVToArray } = require('convert-csv-to-array');
@@ -64,8 +64,8 @@ export const NewPluginModal = ({ isOpen, closeModal }) => {
         name: inputs.gameDef.pluginName,
         author_id: user?.id,
         game_def: inputs.gameDef,
-        card_db: inputs.cardDb,
         public: inputs.public || false,
+        ...pluginCardDbFields(inputs),
       },
     };
     //const res = await axios.post("/be/api/v1/profile/update", data);
@@ -74,20 +74,26 @@ export const NewPluginModal = ({ isOpen, closeModal }) => {
     setErrorMessage("");
     setLoadingMessage("Please wait...");
     console.log("auth 1", updateData, authOptions);
-    const res = await axios.post("/be/api/myplugins", updateData, authOptions);
-    console.log("res 1", res);
-    setLoadingMessage("Finished.");
-    if (
-      res.status === 200
-    ) {
-      setSuccessMessage("Plugin created.");
-      setErrorMessage("");
+    try {
+      const res = await axios.post("/be/api/myplugins", updateData, authOptions);
+      console.log("res 1", res);
+      setLoadingMessage("Finished.");
+      if (
+        res.status === 200
+      ) {
+        setSuccessMessage("Plugin created.");
+        setErrorMessage("");
+        setLoadingMessage("");
+        closeModal();
+      } else {
+        setSuccessMessage("");
+        setErrorMessage("Error."); 
+        setLoadingMessage("");
+      }
+    } catch (err) {
       setLoadingMessage("");
-      closeModal();
-    } else {
       setSuccessMessage("");
-      setErrorMessage("Error."); 
-      setLoadingMessage("");
+      setErrorMessage(pluginSaveErrorMessage(err, "Error."));
     }
     
   });
@@ -160,11 +166,17 @@ export const NewPluginModal = ({ isOpen, closeModal }) => {
         }
       }
       try {
-        const cardDb = processArrayOfRows(inputs, null, arrayOfRows);
+        const result = processArrayOfRows(inputs.gameDef, arrayOfRows);
+        if (result.errors?.length) {
+          setErrorMessageCardDb(result.errors.join("\n"));
+          setValidCardDb(false);
+          return;
+        }
+        const cardDb = result.cardDb;
         setSuccessMessageCardDb(`Card database uploaded successfully: ${Object.keys(cardDb).length} cards.`);
         setErrorMessageCardDb("");
         setValidCardDb(true);
-        setInputs({...inputs, cardDb: cardDb});
+        setInputs({...inputs, cardDb: cardDb, cardDbTsvs: tsvList});
       } catch(err) {
         setErrorMessageCardDb("Error: "+err.message);
       }

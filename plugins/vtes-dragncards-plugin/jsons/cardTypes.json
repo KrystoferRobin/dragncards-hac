@@ -1,0 +1,214 @@
+{
+  "cardTypes": {
+    "Action": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "blood",
+        "life",
+        "green",
+        "orange"
+      ]
+    },
+    "Action Modifier": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "blood",
+        "life",
+        "green",
+        "orange"
+      ]
+    },
+    "Action Modifier/Combat": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "blood",
+        "life",
+        "green",
+        "orange"
+      ]
+    },
+    "Action Modifier/Reaction": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "blood",
+        "life",
+        "green",
+        "orange"
+      ]
+    },
+    "Action/Combat": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "blood",
+        "life",
+        "green",
+        "orange"
+      ]
+    },
+    "Action/Reaction": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "blood",
+        "life",
+        "green",
+        "orange"
+      ]
+    },
+    "Ally": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "blood",
+        "life",
+        "green",
+        "orange"
+      ]
+    },
+    "Combat": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "blood",
+        "life",
+        "green",
+        "orange"
+      ]
+    },
+    "Combat/Reaction": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "blood",
+        "life",
+        "green",
+        "orange"
+      ]
+    },
+    "Conviction": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "blood",
+        "life",
+        "green",
+        "orange"
+      ]
+    },
+    "Equipment": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "blood",
+        "life",
+        "green",
+        "orange"
+      ]
+    },
+    "Event": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "blood",
+        "life",
+        "green",
+        "orange"
+      ]
+    },
+    "Imbued": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "blood",
+        "life",
+        "green",
+        "orange"
+      ]
+    },
+    "Master": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "blood",
+        "life",
+        "green",
+        "orange"
+      ]
+    },
+    "Political Action": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "blood",
+        "life",
+        "green",
+        "orange"
+      ]
+    },
+    "Power": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "blood",
+        "life",
+        "green",
+        "orange"
+      ]
+    },
+    "Reaction": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "blood",
+        "life",
+        "green",
+        "orange"
+      ]
+    },
+    "Reaction/Action Modifier": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "blood",
+        "life",
+        "green",
+        "orange"
+      ]
+    },
+    "Retainer": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "blood",
+        "life",
+        "green",
+        "orange"
+      ]
+    },
+    "Token": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "blood",
+        "life",
+        "green",
+        "orange"
+      ]
+    },
+    "Vampire": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "blood",
+        "life",
+        "green",
+        "orange"
+      ]
+    }
+  }
+}

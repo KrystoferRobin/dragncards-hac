@@ -1,0 +1,277 @@
+{
+  "cardTypes": {
+    "StandardTokenClueDoom1": {
+      "height": 0.17,
+      "tokens": [],
+      "width": 0.17
+    },
+    "Key": {
+      "height": 1,
+      "tokens": [
+        "resource",
+        "clue",
+        "damage",
+        "horror",
+        "doom",
+        "freeze"
+      ],
+      "width": 0.69
+    },
+    "MiniAssistant": {
+      "height": 0.72,
+      "tokens": [],
+      "width": 0.47
+    },
+    "MicroInvestigator": {
+      "height": 0.36,
+      "tokens": [],
+      "width": 0.36
+    },
+    "Tarot": {
+      "height": 1,
+      "tokens": [],
+      "width": 0.57
+    },
+    "Reference": {
+      "height": 1,
+      "tokens": [
+        "resource",
+        "clue",
+        "damage",
+        "horror",
+        "doom",
+        "freeze"
+      ],
+      "width": 0.69
+    },
+    "Treachery": {
+      "height": 1,
+      "tokens": [
+        "resource",
+        "clue",
+        "damage",
+        "horror",
+        "doom",
+        "freeze"
+      ],
+      "width": 0.69
+    },
+    "Upgrade": {
+      "height": 1,
+      "tokens": [],
+      "width": 0.69
+    },
+    "StandardTokenResource5": {
+      "height": 0.3,
+      "tokens": [],
+      "width": 0.27
+    },
+    "Location": {
+      "height": 1,
+      "tokens": [
+        "resource",
+        "clue",
+        "damage",
+        "horror",
+        "doom",
+        "freeze"
+      ],
+      "width": 0.69
+    },
+    "FirstInvestigatorToken": {
+      "height": 0.55,
+      "tokens": [],
+      "width": 0.57
+    },
+    "MicroAssistant": {
+      "height": 0.36,
+      "tokens": [],
+      "width": 0.36
+    },
+    "StandardTokenClueDoom3": {
+      "height": 0.2,
+      "tokens": [],
+      "width": 0.2
+    },
+    "Skill": {
+      "height": 1,
+      "tokens": [
+        "resource",
+        "clue",
+        "damage",
+        "horror",
+        "doom",
+        "freeze"
+      ],
+      "width": 0.69
+    },
+    "MiniInvestigator": {
+      "height": 0.72,
+      "tokens": [],
+      "width": 0.47
+    },
+    "SealToken": {
+      "height": 0.42,
+      "tokens": [],
+      "width": 0.2
+    },
+    "Story": {
+      "height": 1,
+      "tokens": [
+        "resource",
+        "clue",
+        "damage",
+        "horror",
+        "doom",
+        "freeze"
+      ],
+      "width": 0.69
+    },
+    "Scenario": {
+      "height": 1,
+      "tokens": [
+        "resource",
+        "clue",
+        "damage",
+        "horror",
+        "doom",
+        "freeze"
+      ],
+      "width": 0.69
+    },
+    "StandardTokenDamage3": {
+      "height": 0.21,
+      "tokens": [],
+      "width": 0.18
+    },
+    "StandardTokenHorror3": {
+      "height": 0.21,
+      "tokens": [],
+      "width": 0.24
+    },
+    "StandardTokenHorror1": {
+      "height": 0.18,
+      "tokens": [],
+      "width": 0.2
+    },
+    "Act": {
+      "height": 0.69,
+      "tokens": [
+        "resource",
+        "clue",
+        "damage",
+        "horror",
+        "doom"
+      ],
+      "width": 1
+    },
+    "StandardTokenDamage1": {
+      "height": 0.19,
+      "tokens": [],
+      "width": 0.16
+    },
+    "Event": {
+      "height": 1,
+      "tokens": [
+        "resource",
+        "clue",
+        "damage",
+        "horror",
+        "doom",
+        "freeze"
+      ],
+      "width": 0.69
+    },
+    "Enemy": {
+      "height": 1,
+      "tokens": [
+        "resource",
+        "clue",
+        "damage",
+        "horror",
+        "doom",
+        "freeze"
+      ],
+      "width": 0.69
+    },
+    "StandardTokenResource3": {
+      "height": 0.22,
+      "tokens": [],
+      "width": 0.2
+    },
+    "KeyToken": {
+      "height": 0.19,
+      "tokens": [],
+      "width": 0.19
+    },
+    "Role": {
+      "height": 1,
+      "tokens": [],
+      "width": 0.69
+    },
+    "Agenda": {
+      "height": 0.69,
+      "tokens": [
+        "resource",
+        "clue",
+        "damage",
+        "horror",
+        "doom"
+      ],
+      "width": 1
+    },
+    "Supplies": {
+      "height": 0.72,
+      "tokens": [],
+      "width": 0.47
+    },
+    "MiniConcealed": {
+      "height": 0.72,
+      "tokens": [],
+      "width": 0.47
+    },
+    "StandardTokenResource1": {
+      "height": 0.18,
+      "tokens": [],
+      "width": 0.17
+    },
+    "FloodedToken": {
+      "height": 0.2,
+      "tokens": [],
+      "width": 0.2
+    },
+    "ChaosToken": {
+      "height": 0.28,
+      "tokens": [],
+      "width": 0.28
+    },
+    "Asset": {
+      "height": 1,
+      "tokens": [
+        "resource",
+        "clue",
+        "damage",
+        "horror",
+        "doom",
+        "freeze"
+      ],
+      "width": 0.69
+    },
+    "ChaosKeyToken": {
+      "height": 0.28,
+      "tokens": [],
+      "width": 0.28
+    },
+    "Investigator": {
+      "height": 0.69,
+      "tokens": [
+        "resource",
+        "clue",
+        "damage",
+        "horror",
+        "doom"
+      ],
+      "width": 1
+    }
+  }
+}

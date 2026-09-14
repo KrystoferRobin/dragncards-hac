@@ -1,0 +1,22 @@
+{
+  "browse": {
+    "filterPropertySideA": "type",
+    "filterValuesSideA": [
+      "Captain",
+      "Ship",
+      "Crew",
+      "Action",
+      "Attachment",
+      "Adventure",
+      "Chantey",
+      "Sea"
+    ],
+    "textPropertiesSideA": [
+      "name",
+      "text",
+      "faction",
+      "set",
+      "cost"
+    ]
+  }
+}

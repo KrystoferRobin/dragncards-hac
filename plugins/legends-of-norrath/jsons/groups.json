@@ -1,0 +1,668 @@
+{
+  "groups": {
+    "sharedSetAside": {
+      "groupType": "aside",
+      "label": "Set Aside",
+      "tableLabel": "Set Aside",
+      "onCardEnter": {
+        "controller": "shared"
+      }
+    },
+    "player1Deck": {
+      "groupType": "deck",
+      "label": "Player 1 Deck",
+      "tableLabel": "Deck",
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1Deck",
+        "discardGroupId": "player1Discard",
+        "currentSide": "B"
+      }
+    },
+    "player1Discard": {
+      "groupType": "discard",
+      "label": "Player 1 Discard",
+      "tableLabel": "Discard",
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1Deck",
+        "discardGroupId": "player1Discard",
+        "currentSide": "A"
+      }
+    },
+    "player1Hand": {
+      "groupType": "hand",
+      "label": "Player 1 Hand",
+      "tableLabel": "Hand",
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1Deck",
+        "discardGroupId": "player1Discard",
+        "currentSide": "B",
+        "peeking": {
+          "player1": true
+        }
+      }
+    },
+    "player1Play": {
+      "groupType": "inPlay",
+      "label": "Player 1 Combat",
+      "tableLabel": "Combat",
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1Deck",
+        "discardGroupId": "player1Discard",
+        "currentSide": "A",
+        "inPlay": true
+      },
+      "canHaveAttachments": true
+    },
+    "player1Avatar": {
+      "groupType": "inPlay",
+      "label": "Player 1 Avatar",
+      "tableLabel": "Avatar",
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1Deck",
+        "discardGroupId": "player1Discard",
+        "currentSide": "A",
+        "inPlay": true
+      },
+      "canHaveAttachments": true
+    },
+    "player1Abilities": {
+      "groupType": "inPlay",
+      "label": "Player 1 Abilities",
+      "tableLabel": "Abilities",
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1Deck",
+        "discardGroupId": "player1Discard",
+        "currentSide": "A",
+        "inPlay": true
+      },
+      "canHaveAttachments": true
+    },
+    "player1Items": {
+      "groupType": "inPlay",
+      "label": "Player 1 Items",
+      "tableLabel": "Items",
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1Deck",
+        "discardGroupId": "player1Discard",
+        "currentSide": "A",
+        "inPlay": true
+      },
+      "canHaveAttachments": true
+    },
+    "player1Quests": {
+      "groupType": "inPlay",
+      "label": "Player 1 Quests",
+      "tableLabel": "Quests",
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1Deck",
+        "discardGroupId": "player1Discard",
+        "currentSide": "A",
+        "inPlay": true
+      },
+      "canHaveAttachments": true
+    },
+    "player1Removed": {
+      "groupType": "aside",
+      "label": "Player 1 Removed",
+      "tableLabel": "Removed",
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1Deck",
+        "discardGroupId": "player1Discard",
+        "currentSide": "A"
+      }
+    },
+    "player1Quest1": {
+      "groupType": "inPlay",
+      "label": "Player 1 Quest 1",
+      "tableLabel": "Q1",
+      "canHaveAttachments": true,
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1Deck",
+        "discardGroupId": "player1Discard",
+        "currentSide": "A",
+        "inPlay": true
+      }
+    },
+    "player1Quest2": {
+      "groupType": "inPlay",
+      "label": "Player 1 Quest 2",
+      "tableLabel": "Q2",
+      "canHaveAttachments": true,
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1Deck",
+        "discardGroupId": "player1Discard",
+        "currentSide": "A",
+        "inPlay": true
+      }
+    },
+    "player1Quest3": {
+      "groupType": "inPlay",
+      "label": "Player 1 Quest 3",
+      "tableLabel": "Q3",
+      "canHaveAttachments": true,
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1Deck",
+        "discardGroupId": "player1Discard",
+        "currentSide": "A",
+        "inPlay": true
+      }
+    },
+    "player1Quest4": {
+      "groupType": "inPlay",
+      "label": "Player 1 Quest 4",
+      "tableLabel": "Q4",
+      "canHaveAttachments": true,
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1Deck",
+        "discardGroupId": "player1Discard",
+        "currentSide": "A",
+        "inPlay": true
+      }
+    },
+    "player2Deck": {
+      "groupType": "deck",
+      "label": "Player 2 Deck",
+      "tableLabel": "Deck",
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2Deck",
+        "discardGroupId": "player2Discard",
+        "currentSide": "B"
+      }
+    },
+    "player2Discard": {
+      "groupType": "discard",
+      "label": "Player 2 Discard",
+      "tableLabel": "Discard",
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2Deck",
+        "discardGroupId": "player2Discard",
+        "currentSide": "A"
+      }
+    },
+    "player2Hand": {
+      "groupType": "hand",
+      "label": "Player 2 Hand",
+      "tableLabel": "Hand",
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2Deck",
+        "discardGroupId": "player2Discard",
+        "currentSide": "B",
+        "peeking": {
+          "player2": true
+        }
+      }
+    },
+    "player2Play": {
+      "groupType": "inPlay",
+      "label": "Player 2 Combat",
+      "tableLabel": "Combat",
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2Deck",
+        "discardGroupId": "player2Discard",
+        "currentSide": "A",
+        "inPlay": true
+      },
+      "canHaveAttachments": true
+    },
+    "player2Avatar": {
+      "groupType": "inPlay",
+      "label": "Player 2 Avatar",
+      "tableLabel": "Avatar",
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2Deck",
+        "discardGroupId": "player2Discard",
+        "currentSide": "A",
+        "inPlay": true
+      },
+      "canHaveAttachments": true
+    },
+    "player2Abilities": {
+      "groupType": "inPlay",
+      "label": "Player 2 Abilities",
+      "tableLabel": "Abilities",
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2Deck",
+        "discardGroupId": "player2Discard",
+        "currentSide": "A",
+        "inPlay": true
+      },
+      "canHaveAttachments": true
+    },
+    "player2Items": {
+      "groupType": "inPlay",
+      "label": "Player 2 Items",
+      "tableLabel": "Items",
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2Deck",
+        "discardGroupId": "player2Discard",
+        "currentSide": "A",
+        "inPlay": true
+      },
+      "canHaveAttachments": true
+    },
+    "player2Quests": {
+      "groupType": "inPlay",
+      "label": "Player 2 Quests",
+      "tableLabel": "Quests",
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2Deck",
+        "discardGroupId": "player2Discard",
+        "currentSide": "A",
+        "inPlay": true
+      },
+      "canHaveAttachments": true
+    },
+    "player2Removed": {
+      "groupType": "aside",
+      "label": "Player 2 Removed",
+      "tableLabel": "Removed",
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2Deck",
+        "discardGroupId": "player2Discard",
+        "currentSide": "A"
+      }
+    },
+    "player2Quest1": {
+      "groupType": "inPlay",
+      "label": "Player 2 Quest 1",
+      "tableLabel": "Q1",
+      "canHaveAttachments": true,
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2Deck",
+        "discardGroupId": "player2Discard",
+        "currentSide": "A",
+        "inPlay": true
+      }
+    },
+    "player2Quest2": {
+      "groupType": "inPlay",
+      "label": "Player 2 Quest 2",
+      "tableLabel": "Q2",
+      "canHaveAttachments": true,
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2Deck",
+        "discardGroupId": "player2Discard",
+        "currentSide": "A",
+        "inPlay": true
+      }
+    },
+    "player2Quest3": {
+      "groupType": "inPlay",
+      "label": "Player 2 Quest 3",
+      "tableLabel": "Q3",
+      "canHaveAttachments": true,
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2Deck",
+        "discardGroupId": "player2Discard",
+        "currentSide": "A",
+        "inPlay": true
+      }
+    },
+    "player2Quest4": {
+      "groupType": "inPlay",
+      "label": "Player 2 Quest 4",
+      "tableLabel": "Q4",
+      "canHaveAttachments": true,
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2Deck",
+        "discardGroupId": "player2Discard",
+        "currentSide": "A",
+        "inPlay": true
+      }
+    },
+    "player3Deck": {
+      "groupType": "deck",
+      "label": "Player 3 Deck",
+      "tableLabel": "Deck",
+      "onCardEnter": {
+        "controller": "player3",
+        "deckGroupId": "player3Deck",
+        "discardGroupId": "player3Discard",
+        "currentSide": "B"
+      }
+    },
+    "player3Discard": {
+      "groupType": "discard",
+      "label": "Player 3 Discard",
+      "tableLabel": "Discard",
+      "onCardEnter": {
+        "controller": "player3",
+        "deckGroupId": "player3Deck",
+        "discardGroupId": "player3Discard",
+        "currentSide": "A"
+      }
+    },
+    "player3Hand": {
+      "groupType": "hand",
+      "label": "Player 3 Hand",
+      "tableLabel": "Hand",
+      "onCardEnter": {
+        "controller": "player3",
+        "deckGroupId": "player3Deck",
+        "discardGroupId": "player3Discard",
+        "currentSide": "B",
+        "peeking": {
+          "player3": true
+        }
+      }
+    },
+    "player3Play": {
+      "groupType": "inPlay",
+      "label": "Player 3 Combat",
+      "tableLabel": "Combat",
+      "onCardEnter": {
+        "controller": "player3",
+        "deckGroupId": "player3Deck",
+        "discardGroupId": "player3Discard",
+        "currentSide": "A",
+        "inPlay": true
+      },
+      "canHaveAttachments": true
+    },
+    "player3Avatar": {
+      "groupType": "inPlay",
+      "label": "Player 3 Avatar",
+      "tableLabel": "Avatar",
+      "onCardEnter": {
+        "controller": "player3",
+        "deckGroupId": "player3Deck",
+        "discardGroupId": "player3Discard",
+        "currentSide": "A",
+        "inPlay": true
+      },
+      "canHaveAttachments": true
+    },
+    "player3Abilities": {
+      "groupType": "inPlay",
+      "label": "Player 3 Abilities",
+      "tableLabel": "Abilities",
+      "onCardEnter": {
+        "controller": "player3",
+        "deckGroupId": "player3Deck",
+        "discardGroupId": "player3Discard",
+        "currentSide": "A",
+        "inPlay": true
+      },
+      "canHaveAttachments": true
+    },
+    "player3Items": {
+      "groupType": "inPlay",
+      "label": "Player 3 Items",
+      "tableLabel": "Items",
+      "onCardEnter": {
+        "controller": "player3",
+        "deckGroupId": "player3Deck",
+        "discardGroupId": "player3Discard",
+        "currentSide": "A",
+        "inPlay": true
+      },
+      "canHaveAttachments": true
+    },
+    "player3Quests": {
+      "groupType": "inPlay",
+      "label": "Player 3 Quests",
+      "tableLabel": "Quests",
+      "onCardEnter": {
+        "controller": "player3",
+        "deckGroupId": "player3Deck",
+        "discardGroupId": "player3Discard",
+        "currentSide": "A",
+        "inPlay": true
+      },
+      "canHaveAttachments": true
+    },
+    "player3Removed": {
+      "groupType": "aside",
+      "label": "Player 3 Removed",
+      "tableLabel": "Removed",
+      "onCardEnter": {
+        "controller": "player3",
+        "deckGroupId": "player3Deck",
+        "discardGroupId": "player3Discard",
+        "currentSide": "A"
+      }
+    },
+    "player3Quest1": {
+      "groupType": "inPlay",
+      "label": "Player 3 Quest 1",
+      "tableLabel": "Q1",
+      "canHaveAttachments": true,
+      "onCardEnter": {
+        "controller": "player3",
+        "deckGroupId": "player3Deck",
+        "discardGroupId": "player3Discard",
+        "currentSide": "A",
+        "inPlay": true
+      }
+    },
+    "player3Quest2": {
+      "groupType": "inPlay",
+      "label": "Player 3 Quest 2",
+      "tableLabel": "Q2",
+      "canHaveAttachments": true,
+      "onCardEnter": {
+        "controller": "player3",
+        "deckGroupId": "player3Deck",
+        "discardGroupId": "player3Discard",
+        "currentSide": "A",
+        "inPlay": true
+      }
+    },
+    "player3Quest3": {
+      "groupType": "inPlay",
+      "label": "Player 3 Quest 3",
+      "tableLabel": "Q3",
+      "canHaveAttachments": true,
+      "onCardEnter": {
+        "controller": "player3",
+        "deckGroupId": "player3Deck",
+        "discardGroupId": "player3Discard",
+        "currentSide": "A",
+        "inPlay": true
+      }
+    },
+    "player3Quest4": {
+      "groupType": "inPlay",
+      "label": "Player 3 Quest 4",
+      "tableLabel": "Q4",
+      "canHaveAttachments": true,
+      "onCardEnter": {
+        "controller": "player3",
+        "deckGroupId": "player3Deck",
+        "discardGroupId": "player3Discard",
+        "currentSide": "A",
+        "inPlay": true
+      }
+    },
+    "player4Deck": {
+      "groupType": "deck",
+      "label": "Player 4 Deck",
+      "tableLabel": "Deck",
+      "onCardEnter": {
+        "controller": "player4",
+        "deckGroupId": "player4Deck",
+        "discardGroupId": "player4Discard",
+        "currentSide": "B"
+      }
+    },
+    "player4Discard": {
+      "groupType": "discard",
+      "label": "Player 4 Discard",
+      "tableLabel": "Discard",
+      "onCardEnter": {
+        "controller": "player4",
+        "deckGroupId": "player4Deck",
+        "discardGroupId": "player4Discard",
+        "currentSide": "A"
+      }
+    },
+    "player4Hand": {
+      "groupType": "hand",
+      "label": "Player 4 Hand",
+      "tableLabel": "Hand",
+      "onCardEnter": {
+        "controller": "player4",
+        "deckGroupId": "player4Deck",
+        "discardGroupId": "player4Discard",
+        "currentSide": "B",
+        "peeking": {
+          "player4": true
+        }
+      }
+    },
+    "player4Play": {
+      "groupType": "inPlay",
+      "label": "Player 4 Combat",
+      "tableLabel": "Combat",
+      "onCardEnter": {
+        "controller": "player4",
+        "deckGroupId": "player4Deck",
+        "discardGroupId": "player4Discard",
+        "currentSide": "A",
+        "inPlay": true
+      },
+      "canHaveAttachments": true
+    },
+    "player4Avatar": {
+      "groupType": "inPlay",
+      "label": "Player 4 Avatar",
+      "tableLabel": "Avatar",
+      "onCardEnter": {
+        "controller": "player4",
+        "deckGroupId": "player4Deck",
+        "discardGroupId": "player4Discard",
+        "currentSide": "A",
+        "inPlay": true
+      },
+      "canHaveAttachments": true
+    },
+    "player4Abilities": {
+      "groupType": "inPlay",
+      "label": "Player 4 Abilities",
+      "tableLabel": "Abilities",
+      "onCardEnter": {
+        "controller": "player4",
+        "deckGroupId": "player4Deck",
+        "discardGroupId": "player4Discard",
+        "currentSide": "A",
+        "inPlay": true
+      },
+      "canHaveAttachments": true
+    },
+    "player4Items": {
+      "groupType": "inPlay",
+      "label": "Player 4 Items",
+      "tableLabel": "Items",
+      "onCardEnter": {
+        "controller": "player4",
+        "deckGroupId": "player4Deck",
+        "discardGroupId": "player4Discard",
+        "currentSide": "A",
+        "inPlay": true
+      },
+      "canHaveAttachments": true
+    },
+    "player4Quests": {
+      "groupType": "inPlay",
+      "label": "Player 4 Quests",
+      "tableLabel": "Quests",
+      "onCardEnter": {
+        "controller": "player4",
+        "deckGroupId": "player4Deck",
+        "discardGroupId": "player4Discard",
+        "currentSide": "A",
+        "inPlay": true
+      },
+      "canHaveAttachments": true
+    },
+    "player4Removed": {
+      "groupType": "aside",
+      "label": "Player 4 Removed",
+      "tableLabel": "Removed",
+      "onCardEnter": {
+        "controller": "player4",
+        "deckGroupId": "player4Deck",
+        "discardGroupId": "player4Discard",
+        "currentSide": "A"
+      }
+    },
+    "player4Quest1": {
+      "groupType": "inPlay",
+      "label": "Player 4 Quest 1",
+      "tableLabel": "Q1",
+      "canHaveAttachments": true,
+      "onCardEnter": {
+        "controller": "player4",
+        "deckGroupId": "player4Deck",
+        "discardGroupId": "player4Discard",
+        "currentSide": "A",
+        "inPlay": true
+      }
+    },
+    "player4Quest2": {
+      "groupType": "inPlay",
+      "label": "Player 4 Quest 2",
+      "tableLabel": "Q2",
+      "canHaveAttachments": true,
+      "onCardEnter": {
+        "controller": "player4",
+        "deckGroupId": "player4Deck",
+        "discardGroupId": "player4Discard",
+        "currentSide": "A",
+        "inPlay": true
+      }
+    },
+    "player4Quest3": {
+      "groupType": "inPlay",
+      "label": "Player 4 Quest 3",
+      "tableLabel": "Q3",
+      "canHaveAttachments": true,
+      "onCardEnter": {
+        "controller": "player4",
+        "deckGroupId": "player4Deck",
+        "discardGroupId": "player4Discard",
+        "currentSide": "A",
+        "inPlay": true
+      }
+    },
+    "player4Quest4": {
+      "groupType": "inPlay",
+      "label": "Player 4 Quest 4",
+      "tableLabel": "Q4",
+      "canHaveAttachments": true,
+      "onCardEnter": {
+        "controller": "player4",
+        "deckGroupId": "player4Deck",
+        "discardGroupId": "player4Discard",
+        "currentSide": "A",
+        "inPlay": true
+      }
+    }
+  }
+}

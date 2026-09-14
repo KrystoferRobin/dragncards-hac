@@ -1,0 +1,2216 @@
+{
+  "client": "/Volumes/Expand/HEX SHARDS OF FATE",
+  "atlases": {
+    "Frames": {
+      "texture": "atlases/CardTemplate_Frames.png",
+      "width": 1024,
+      "height": 1024,
+      "sprites": [
+        {
+          "name": "Artifact_1",
+          "x": 357,
+          "y": 402,
+          "w": 354,
+          "h": 44,
+          "file": "slices/frames/Artifact_1.png",
+          "outer": [
+            0,
+            0,
+            0,
+            450
+          ],
+          "border": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "rotated": false
+        },
+        {
+          "name": "Artifact_2",
+          "x": 1,
+          "y": 262,
+          "w": 354,
+          "h": 33,
+          "file": "slices/frames/Artifact_2.png",
+          "outer": [
+            0,
+            0,
+            461,
+            0
+          ],
+          "border": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "rotated": false
+        },
+        {
+          "name": "Artifact_3",
+          "x": 1,
+          "y": 1,
+          "w": 27,
+          "h": 432,
+          "file": "slices/frames/Artifact_3.png",
+          "outer": [
+            0,
+            327,
+            37,
+            25
+          ],
+          "border": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "rotated": true
+        },
+        {
+          "name": "Artifact_4",
+          "x": 435,
+          "y": 1,
+          "w": 27,
+          "h": 432,
+          "file": "slices/frames/Artifact_4.png",
+          "outer": [
+            327,
+            0,
+            37,
+            25
+          ],
+          "border": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "rotated": true
+        },
+        {
+          "name": "Artifact_Text",
+          "x": 869,
+          "y": 1,
+          "w": 334,
+          "h": 154,
+          "file": "slices/frames/Artifact_Text.png",
+          "outer": [
+            10,
+            10,
+            329,
+            11
+          ],
+          "border": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "rotated": true
+        },
+        {
+          "name": "Blood_1",
+          "x": 1,
+          "y": 437,
+          "w": 354,
+          "h": 44,
+          "file": "slices/frames/Blood_1.png",
+          "outer": [
+            0,
+            0,
+            0,
+            450
+          ],
+          "border": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "rotated": false
+        },
+        {
+          "name": "Blood_2",
+          "x": 357,
+          "y": 262,
+          "w": 354,
+          "h": 33,
+          "file": "slices/frames/Blood_2.png",
+          "outer": [
+            0,
+            0,
+            461,
+            0
+          ],
+          "border": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "rotated": false
+        },
+        {
+          "name": "Blood_3",
+          "x": 1,
+          "y": 30,
+          "w": 27,
+          "h": 432,
+          "file": "slices/frames/Blood_3.png",
+          "outer": [
+            0,
+            327,
+            37,
+            25
+          ],
+          "border": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "rotated": true
+        },
+        {
+          "name": "Blood_4",
+          "x": 435,
+          "y": 30,
+          "w": 27,
+          "h": 432,
+          "file": "slices/frames/Blood_4.png",
+          "outer": [
+            327,
+            0,
+            37,
+            25
+          ],
+          "border": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "rotated": true
+        },
+        {
+          "name": "Blood_Text",
+          "x": 713,
+          "y": 262,
+          "w": 334,
+          "h": 154,
+          "file": "slices/frames/Blood_Text.png",
+          "outer": [
+            10,
+            10,
+            329,
+            11
+          ],
+          "border": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "rotated": true
+        },
+        {
+          "name": "Class_1",
+          "x": 357,
+          "y": 448,
+          "w": 354,
+          "h": 44,
+          "file": "slices/frames/Class_1.png",
+          "outer": [
+            0,
+            0,
+            0,
+            450
+          ],
+          "border": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "rotated": false
+        },
+        {
+          "name": "Class_2",
+          "x": 1,
+          "y": 297,
+          "w": 354,
+          "h": 33,
+          "file": "slices/frames/Class_2.png",
+          "outer": [
+            0,
+            0,
+            461,
+            0
+          ],
+          "border": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "rotated": false
+        },
+        {
+          "name": "Class_3",
+          "x": 1,
+          "y": 59,
+          "w": 27,
+          "h": 432,
+          "file": "slices/frames/Class_3.png",
+          "outer": [
+            0,
+            327,
+            37,
+            25
+          ],
+          "border": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "rotated": true
+        },
+        {
+          "name": "Class_4",
+          "x": 435,
+          "y": 59,
+          "w": 27,
+          "h": 432,
+          "file": "slices/frames/Class_4.png",
+          "outer": [
+            327,
+            0,
+            37,
+            25
+          ],
+          "border": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "rotated": true
+        },
+        {
+          "name": "Class_Text",
+          "x": 869,
+          "y": 337,
+          "w": 334,
+          "h": 154,
+          "file": "slices/frames/Class_Text.png",
+          "outer": [
+            10,
+            10,
+            329,
+            11
+          ],
+          "border": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "rotated": true
+        },
+        {
+          "name": "Diamond_1",
+          "x": 1,
+          "y": 483,
+          "w": 354,
+          "h": 44,
+          "file": "slices/frames/Diamond_1.png",
+          "outer": [
+            0,
+            0,
+            0,
+            450
+          ],
+          "border": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "rotated": false
+        },
+        {
+          "name": "Diamond_2",
+          "x": 357,
+          "y": 297,
+          "w": 354,
+          "h": 33,
+          "file": "slices/frames/Diamond_2.png",
+          "outer": [
+            0,
+            0,
+            461,
+            0
+          ],
+          "border": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "rotated": false
+        },
+        {
+          "name": "Diamond_3",
+          "x": 1,
+          "y": 88,
+          "w": 27,
+          "h": 432,
+          "file": "slices/frames/Diamond_3.png",
+          "outer": [
+            0,
+            327,
+            37,
+            25
+          ],
+          "border": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "rotated": true
+        },
+        {
+          "name": "Diamond_4",
+          "x": 435,
+          "y": 88,
+          "w": 27,
+          "h": 432,
+          "file": "slices/frames/Diamond_4.png",
+          "outer": [
+            327,
+            0,
+            37,
+            25
+          ],
+          "border": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "rotated": true
+        },
+        {
+          "name": "Diamond_Text",
+          "x": 1,
+          "y": 621,
+          "w": 334,
+          "h": 154,
+          "file": "slices/frames/Diamond_Text.png",
+          "outer": [
+            10,
+            10,
+            329,
+            11
+          ],
+          "border": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "rotated": false
+        },
+        {
+          "name": "Multi_1",
+          "x": 357,
+          "y": 494,
+          "w": 354,
+          "h": 44,
+          "file": "slices/frames/Multi_1.png",
+          "outer": [
+            0,
+            0,
+            0,
+            450
+          ],
+          "border": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "rotated": false
+        },
+        {
+          "name": "Multi_2",
+          "x": 1,
+          "y": 332,
+          "w": 354,
+          "h": 33,
+          "file": "slices/frames/Multi_2.png",
+          "outer": [
+            0,
+            0,
+            461,
+            0
+          ],
+          "border": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "rotated": false
+        },
+        {
+          "name": "Multi_3",
+          "x": 1,
+          "y": 117,
+          "w": 27,
+          "h": 432,
+          "file": "slices/frames/Multi_3.png",
+          "outer": [
+            0,
+            327,
+            37,
+            25
+          ],
+          "border": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "rotated": true
+        },
+        {
+          "name": "Multi_4",
+          "x": 435,
+          "y": 117,
+          "w": 27,
+          "h": 432,
+          "file": "slices/frames/Multi_4.png",
+          "outer": [
+            327,
+            0,
+            37,
+            25
+          ],
+          "border": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "rotated": true
+        },
+        {
+          "name": "Multi_Text",
+          "x": 337,
+          "y": 632,
+          "w": 334,
+          "h": 154,
+          "file": "slices/frames/Multi_Text.png",
+          "outer": [
+            10,
+            10,
+            329,
+            11
+          ],
+          "border": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "rotated": false
+        },
+        {
+          "name": "Ruby_1",
+          "x": 1,
+          "y": 529,
+          "w": 354,
+          "h": 44,
+          "file": "slices/frames/Ruby_1.png",
+          "outer": [
+            0,
+            0,
+            0,
+            450
+          ],
+          "border": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "rotated": false
+        },
+        {
+          "name": "Ruby_2",
+          "x": 357,
+          "y": 332,
+          "w": 354,
+          "h": 33,
+          "file": "slices/frames/Ruby_2.png",
+          "outer": [
+            0,
+            0,
+            461,
+            0
+          ],
+          "border": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "rotated": false
+        },
+        {
+          "name": "Ruby_3",
+          "x": 1,
+          "y": 146,
+          "w": 27,
+          "h": 432,
+          "file": "slices/frames/Ruby_3.png",
+          "outer": [
+            0,
+            327,
+            37,
+            25
+          ],
+          "border": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "rotated": true
+        },
+        {
+          "name": "Ruby_4",
+          "x": 435,
+          "y": 146,
+          "w": 27,
+          "h": 432,
+          "file": "slices/frames/Ruby_4.png",
+          "outer": [
+            327,
+            0,
+            37,
+            25
+          ],
+          "border": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "rotated": true
+        },
+        {
+          "name": "Ruby_Text",
+          "x": 673,
+          "y": 673,
+          "w": 334,
+          "h": 154,
+          "file": "slices/frames/Ruby_Text.png",
+          "outer": [
+            10,
+            10,
+            329,
+            11
+          ],
+          "border": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "rotated": false
+        },
+        {
+          "name": "Sapphire_1",
+          "x": 357,
+          "y": 540,
+          "w": 354,
+          "h": 44,
+          "file": "slices/frames/Sapphire_1.png",
+          "outer": [
+            0,
+            0,
+            0,
+            450
+          ],
+          "border": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "rotated": false
+        },
+        {
+          "name": "Sapphire_2",
+          "x": 1,
+          "y": 367,
+          "w": 354,
+          "h": 33,
+          "file": "slices/frames/Sapphire_2.png",
+          "outer": [
+            0,
+            0,
+            461,
+            0
+          ],
+          "border": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "rotated": false
+        },
+        {
+          "name": "Sapphire_3",
+          "x": 1,
+          "y": 175,
+          "w": 27,
+          "h": 432,
+          "file": "slices/frames/Sapphire_3.png",
+          "outer": [
+            0,
+            327,
+            37,
+            25
+          ],
+          "border": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "rotated": true
+        },
+        {
+          "name": "Sapphire_4",
+          "x": 435,
+          "y": 175,
+          "w": 27,
+          "h": 432,
+          "file": "slices/frames/Sapphire_4.png",
+          "outer": [
+            327,
+            0,
+            37,
+            25
+          ],
+          "border": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "rotated": true
+        },
+        {
+          "name": "Sapphire_Text",
+          "x": 1,
+          "y": 777,
+          "w": 334,
+          "h": 154,
+          "file": "slices/frames/Sapphire_Text.png",
+          "outer": [
+            10,
+            10,
+            329,
+            11
+          ],
+          "border": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "rotated": false
+        },
+        {
+          "name": "Shardless_1",
+          "x": 1,
+          "y": 575,
+          "w": 354,
+          "h": 44,
+          "file": "slices/frames/Shardless_1.png",
+          "outer": [
+            0,
+            0,
+            0,
+            450
+          ],
+          "border": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "rotated": false
+        },
+        {
+          "name": "Shardless_2",
+          "x": 357,
+          "y": 367,
+          "w": 354,
+          "h": 33,
+          "file": "slices/frames/Shardless_2.png",
+          "outer": [
+            0,
+            0,
+            461,
+            0
+          ],
+          "border": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "rotated": false
+        },
+        {
+          "name": "Shardless_3",
+          "x": 1,
+          "y": 204,
+          "w": 27,
+          "h": 432,
+          "file": "slices/frames/Shardless_3.png",
+          "outer": [
+            0,
+            327,
+            37,
+            25
+          ],
+          "border": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "rotated": true
+        },
+        {
+          "name": "Shardless_4",
+          "x": 435,
+          "y": 204,
+          "w": 27,
+          "h": 432,
+          "file": "slices/frames/Shardless_4.png",
+          "outer": [
+            327,
+            0,
+            37,
+            25
+          ],
+          "border": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "rotated": true
+        },
+        {
+          "name": "Shardless_Text",
+          "x": 337,
+          "y": 788,
+          "w": 334,
+          "h": 154,
+          "file": "slices/frames/Shardless_Text.png",
+          "outer": [
+            10,
+            10,
+            329,
+            11
+          ],
+          "border": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "rotated": false
+        },
+        {
+          "name": "Wild_1",
+          "x": 357,
+          "y": 586,
+          "w": 354,
+          "h": 44,
+          "file": "slices/frames/Wild_1.png",
+          "outer": [
+            0,
+            0,
+            0,
+            450
+          ],
+          "border": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "rotated": false
+        },
+        {
+          "name": "Wild_2",
+          "x": 1,
+          "y": 402,
+          "w": 354,
+          "h": 33,
+          "file": "slices/frames/Wild_2.png",
+          "outer": [
+            0,
+            0,
+            461,
+            0
+          ],
+          "border": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "rotated": false
+        },
+        {
+          "name": "Wild_3",
+          "x": 1,
+          "y": 233,
+          "w": 27,
+          "h": 432,
+          "file": "slices/frames/Wild_3.png",
+          "outer": [
+            0,
+            327,
+            37,
+            25
+          ],
+          "border": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "rotated": true
+        },
+        {
+          "name": "Wild_4",
+          "x": 435,
+          "y": 233,
+          "w": 27,
+          "h": 432,
+          "file": "slices/frames/Wild_4.png",
+          "outer": [
+            327,
+            0,
+            37,
+            25
+          ],
+          "border": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "rotated": true
+        },
+        {
+          "name": "Wild_Text",
+          "x": 673,
+          "y": 829,
+          "w": 334,
+          "h": 154,
+          "file": "slices/frames/Wild_Text.png",
+          "outer": [
+            10,
+            10,
+            329,
+            11
+          ],
+          "border": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "rotated": false
+        }
+      ]
+    },
+    "Elements": {
+      "texture": "atlases/CardTemplate_Elements.png",
+      "width": 512,
+      "height": 512,
+      "sprites": [
+        {
+          "name": "AtkDefFrame",
+          "x": 415,
+          "y": 227,
+          "w": 88,
+          "h": 88,
+          "file": "slices/elements/AtkDefFrame.png",
+          "outer": [
+            0,
+            360,
+            537,
+            0
+          ],
+          "border": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "rotated": false
+        },
+        {
+          "name": "AttackIcon",
+          "x": 151,
+          "y": 442,
+          "w": 49,
+          "h": 42,
+          "file": "slices/elements/AttackIcon.png",
+          "outer": [
+            50,
+            349,
+            583,
+            0
+          ],
+          "border": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "rotated": true
+        },
+        {
+          "name": "BaneSkull",
+          "x": 432,
+          "y": 152,
+          "w": 73,
+          "h": 73,
+          "file": "slices/elements/BaneSkull.png",
+          "outer": [
+            0,
+            375,
+            0,
+            552
+          ],
+          "border": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "rotated": false
+        },
+        {
+          "name": "BottomBar",
+          "x": 1,
+          "y": 404,
+          "w": 196,
+          "h": 36,
+          "file": "slices/elements/BottomBar.png",
+          "outer": [
+            126,
+            126,
+            589,
+            0
+          ],
+          "border": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "rotated": false
+        },
+        {
+          "name": "DefenseIcon",
+          "x": 384,
+          "y": 357,
+          "w": 49,
+          "h": 42,
+          "file": "slices/elements/DefenseIcon.png",
+          "outer": [
+            349,
+            50,
+            583,
+            0
+          ],
+          "border": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "rotated": true
+        },
+        {
+          "name": "ExtArtFrame_1",
+          "x": 1,
+          "y": 206,
+          "w": 412,
+          "h": 22,
+          "file": "slices/elements/ExtArtFrame_1.png",
+          "outer": [
+            18,
+            18,
+            577,
+            26
+          ],
+          "border": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "rotated": false
+        },
+        {
+          "name": "ExtArtFrame_2",
+          "x": 199,
+          "y": 414,
+          "w": 20,
+          "h": 156,
+          "file": "slices/elements/ExtArtFrame_2.png",
+          "outer": [
+            18,
+            410,
+            424,
+            45
+          ],
+          "border": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "rotated": true
+        },
+        {
+          "name": "FactionRarity",
+          "x": 316,
+          "y": 436,
+          "w": 55,
+          "h": 55,
+          "file": "slices/elements/FactionRarity.png",
+          "outer": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "border": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "rotated": false
+        },
+        {
+          "name": "FactionRarityPromo",
+          "x": 451,
+          "y": 1,
+          "w": 57,
+          "h": 149,
+          "file": "slices/elements/FactionRarityPromo.png",
+          "outer": [
+            3,
+            -1,
+            -48,
+            -46
+          ],
+          "border": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "rotated": false
+        },
+        {
+          "name": "GemBar",
+          "x": 1,
+          "y": 276,
+          "w": 41,
+          "h": 388,
+          "file": "slices/elements/GemBar.png",
+          "outer": [
+            404,
+            3,
+            6,
+            231
+          ],
+          "border": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "rotated": true
+        },
+        {
+          "name": "GemSocket_Major",
+          "x": 384,
+          "y": 408,
+          "w": 43,
+          "h": 42,
+          "file": "slices/elements/GemSocket_Major.png",
+          "outer": [
+            402,
+            3,
+            109,
+            274
+          ],
+          "border": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "rotated": false
+        },
+        {
+          "name": "GemSocket_Minor",
+          "x": 373,
+          "y": 452,
+          "w": 43,
+          "h": 42,
+          "file": "slices/elements/GemSocket_Minor.png",
+          "outer": [
+            402,
+            3,
+            109,
+            274
+          ],
+          "border": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "rotated": false
+        },
+        {
+          "name": "Immortal",
+          "x": 418,
+          "y": 452,
+          "w": 28,
+          "h": 30,
+          "file": "slices/elements/Immortal.png",
+          "outer": [
+            0,
+            420,
+            56,
+            539
+          ],
+          "border": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "rotated": false
+        },
+        {
+          "name": "ManaCost",
+          "x": 1,
+          "y": 442,
+          "w": 73,
+          "h": 69,
+          "file": "slices/elements/ManaCost.png",
+          "outer": [
+            0,
+            375,
+            0,
+            556
+          ],
+          "border": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "rotated": false
+        },
+        {
+          "name": "ManaCostImmortal",
+          "x": 76,
+          "y": 442,
+          "w": 73,
+          "h": 69,
+          "file": "slices/elements/ManaCostImmortal.png",
+          "outer": [
+            0,
+            375,
+            0,
+            556
+          ],
+          "border": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "rotated": false
+        },
+        {
+          "name": "PVE",
+          "x": 387,
+          "y": 319,
+          "w": 28,
+          "h": 30,
+          "file": "slices/elements/PVE.png",
+          "outer": [
+            0,
+            420,
+            56,
+            539
+          ],
+          "border": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "rotated": false
+        },
+        {
+          "name": "ResourceManaCost",
+          "x": 199,
+          "y": 436,
+          "w": 115,
+          "h": 55,
+          "file": "slices/elements/ResourceManaCost.png",
+          "outer": [
+            7,
+            326,
+            487,
+            83
+          ],
+          "border": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "rotated": false
+        },
+        {
+          "name": "ResourceManaCostImmortal",
+          "x": 220,
+          "y": 357,
+          "w": 162,
+          "h": 55,
+          "file": "slices/elements/ResourceManaCostImmortal.png",
+          "outer": [
+            7,
+            279,
+            487,
+            83
+          ],
+          "border": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "rotated": false
+        },
+        {
+          "name": "ResourceTitleBarPVE_1",
+          "x": 1,
+          "y": 77,
+          "w": 448,
+          "h": 68,
+          "file": "slices/elements/ResourceTitleBarPVE_1.png",
+          "outer": [
+            0,
+            0,
+            0,
+            557
+          ],
+          "border": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "rotated": false
+        },
+        {
+          "name": "ThresholdBar",
+          "x": 1,
+          "y": 230,
+          "w": 44,
+          "h": 389,
+          "file": "slices/elements/ThresholdBar.png",
+          "outer": [
+            13,
+            391,
+            7,
+            229
+          ],
+          "border": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "rotated": true
+        },
+        {
+          "name": "TitleBar",
+          "x": 1,
+          "y": 147,
+          "w": 429,
+          "h": 57,
+          "file": "slices/elements/TitleBar.png",
+          "outer": [
+            14,
+            5,
+            6,
+            562
+          ],
+          "border": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "rotated": false
+        },
+        {
+          "name": "TitleBarPVE_1",
+          "x": 1,
+          "y": 1,
+          "w": 448,
+          "h": 74,
+          "file": "slices/elements/TitleBarPVE_1.png",
+          "outer": [
+            0,
+            0,
+            0,
+            551
+          ],
+          "border": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "rotated": false
+        },
+        {
+          "name": "TitleBarPVE_2",
+          "x": 1,
+          "y": 357,
+          "w": 45,
+          "h": 217,
+          "file": "slices/elements/TitleBarPVE_2.png",
+          "outer": [
+            0,
+            403,
+            33,
+            375
+          ],
+          "border": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "rotated": true
+        },
+        {
+          "name": "TypeBar",
+          "x": 1,
+          "y": 319,
+          "w": 384,
+          "h": 36,
+          "file": "slices/elements/TypeBar.png",
+          "outer": [
+            33,
+            31,
+            388,
+            201
+          ],
+          "border": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "rotated": false
+        }
+      ]
+    },
+    "Icons": {
+      "texture": "atlases/CardTemplate_Icons.png",
+      "width": 256,
+      "height": 256,
+      "sprites": [
+        {
+          "name": "Button_Artist_Off",
+          "x": 67,
+          "y": 1,
+          "w": 62,
+          "h": 14,
+          "file": "slices/icons/Button_Artist_Off.png",
+          "outer": [
+            257,
+            166,
+            656,
+            6
+          ],
+          "border": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "rotated": false
+        },
+        {
+          "name": "Button_Artist_On",
+          "x": 1,
+          "y": 1,
+          "w": 64,
+          "h": 17,
+          "file": "slices/icons/Button_Artist_On.png",
+          "outer": [
+            256,
+            165,
+            655,
+            4
+          ],
+          "border": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "rotated": false
+        },
+        {
+          "name": "Button_CardHistory_Off",
+          "x": 215,
+          "y": 66,
+          "w": 38,
+          "h": 21,
+          "file": "slices/icons/Button_CardHistory_Off.png",
+          "outer": [
+            178,
+            269,
+            652,
+            3
+          ],
+          "border": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "rotated": false
+        },
+        {
+          "name": "Button_CardHistory_On",
+          "x": 179,
+          "y": 1,
+          "w": 44,
+          "h": 26,
+          "file": "slices/icons/Button_CardHistory_On.png",
+          "outer": [
+            175,
+            266,
+            650,
+            0
+          ],
+          "border": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "rotated": false
+        },
+        {
+          "name": "Button_ExtArt",
+          "x": 98,
+          "y": 76,
+          "w": 29,
+          "h": 29,
+          "file": "slices/icons/Button_ExtArt.png",
+          "outer": [
+            421,
+            35,
+            21,
+            626
+          ],
+          "border": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "rotated": false
+        },
+        {
+          "name": "Chapter01",
+          "x": 158,
+          "y": 98,
+          "w": 10,
+          "h": 20,
+          "file": "slices/icons/Chapter01.png",
+          "outer": [
+            448,
+            27,
+            430,
+            226
+          ],
+          "border": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "rotated": false
+        },
+        {
+          "name": "Faction_Ardent",
+          "x": 131,
+          "y": 15,
+          "w": 40,
+          "h": 41,
+          "file": "slices/icons/Faction_Ardent.png",
+          "outer": [
+            12,
+            433,
+            419,
+            216
+          ],
+          "border": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "rotated": false
+        },
+        {
+          "name": "Faction_Neutral",
+          "x": 173,
+          "y": 29,
+          "w": 40,
+          "h": 40,
+          "file": "slices/icons/Faction_Neutral.png",
+          "outer": [
+            12,
+            433,
+            420,
+            216
+          ],
+          "border": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "rotated": false
+        },
+        {
+          "name": "Faction_Underworld",
+          "x": 215,
+          "y": 33,
+          "w": 38,
+          "h": 31,
+          "file": "slices/icons/Faction_Underworld.png",
+          "outer": [
+            13,
+            434,
+            423,
+            222
+          ],
+          "border": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "rotated": false
+        },
+        {
+          "name": "Rarity_Common",
+          "x": 67,
+          "y": 17,
+          "w": 37,
+          "h": 38,
+          "file": "slices/icons/Rarity_Common.png",
+          "outer": [
+            435,
+            13,
+            421,
+            217
+          ],
+          "border": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "rotated": false
+        },
+        {
+          "name": "Rarity_Epic",
+          "x": 131,
+          "y": 58,
+          "w": 37,
+          "h": 38,
+          "file": "slices/icons/Rarity_Epic.png",
+          "outer": [
+            435,
+            13,
+            421,
+            217
+          ],
+          "border": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "rotated": false
+        },
+        {
+          "name": "Rarity_Legendary",
+          "x": 170,
+          "y": 71,
+          "w": 37,
+          "h": 38,
+          "file": "slices/icons/Rarity_Legendary.png",
+          "outer": [
+            435,
+            13,
+            421,
+            217
+          ],
+          "border": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "rotated": false
+        },
+        {
+          "name": "Rarity_Rare",
+          "x": 209,
+          "y": 89,
+          "w": 37,
+          "h": 38,
+          "file": "slices/icons/Rarity_Rare.png",
+          "outer": [
+            435,
+            13,
+            421,
+            217
+          ],
+          "border": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "rotated": false
+        },
+        {
+          "name": "Rarity_Uncommon",
+          "x": 1,
+          "y": 20,
+          "w": 37,
+          "h": 38,
+          "file": "slices/icons/Rarity_Uncommon.png",
+          "outer": [
+            435,
+            13,
+            421,
+            217
+          ],
+          "border": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "rotated": false
+        },
+        {
+          "name": "ResourceTextBox",
+          "x": 61,
+          "y": 121,
+          "w": 13,
+          "h": 12,
+          "file": "slices/icons/ResourceTextBox.png",
+          "outer": [
+            236,
+            236,
+            332,
+            332
+          ],
+          "border": [
+            2,
+            2,
+            3,
+            5
+          ],
+          "rotated": false
+        },
+        {
+          "name": "ResourceTitleBar",
+          "x": 131,
+          "y": 1,
+          "w": 46,
+          "h": 12,
+          "file": "slices/icons/ResourceTitleBar.png",
+          "outer": [
+            219,
+            220,
+            331,
+            333
+          ],
+          "border": [
+            5,
+            5,
+            3,
+            4
+          ],
+          "rotated": false
+        },
+        {
+          "name": "ScrollBarWidget",
+          "x": 173,
+          "y": 15,
+          "w": 3,
+          "h": 3,
+          "file": "slices/icons/ScrollBarWidget.png",
+          "outer": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "border": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "rotated": false
+        },
+        {
+          "name": "SetIcon01",
+          "x": 129,
+          "y": 98,
+          "w": 27,
+          "h": 25,
+          "file": "slices/icons/SetIcon01.png",
+          "outer": [
+            440,
+            18,
+            427,
+            224
+          ],
+          "border": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "rotated": false
+        },
+        {
+          "name": "SetIcon02",
+          "x": 67,
+          "y": 57,
+          "w": 29,
+          "h": 31,
+          "file": "slices/icons/SetIcon02.png",
+          "outer": [
+            439,
+            17,
+            424,
+            221
+          ],
+          "border": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "rotated": false
+        },
+        {
+          "name": "SetIcon03",
+          "x": 1,
+          "y": 93,
+          "w": 28,
+          "h": 34,
+          "file": "slices/icons/SetIcon03.png",
+          "outer": [
+            439,
+            18,
+            423,
+            219
+          ],
+          "border": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "rotated": false
+        },
+        {
+          "name": "SetIcon04",
+          "x": 1,
+          "y": 60,
+          "w": 32,
+          "h": 31,
+          "file": "slices/icons/SetIcon04.png",
+          "outer": [
+            437,
+            16,
+            424,
+            221
+          ],
+          "border": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "rotated": false
+        },
+        {
+          "name": "SetIcon05",
+          "x": 225,
+          "y": 1,
+          "w": 30,
+          "h": 30,
+          "file": "slices/icons/SetIcon05.png",
+          "outer": [
+            438,
+            17,
+            424,
+            222
+          ],
+          "border": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "rotated": false
+        },
+        {
+          "name": "SetIcon06",
+          "x": 35,
+          "y": 70,
+          "w": 29,
+          "h": 31,
+          "file": "slices/icons/SetIcon06.png",
+          "outer": [
+            439,
+            17,
+            425,
+            220
+          ],
+          "border": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "rotated": false
+        },
+        {
+          "name": "SetIcon07",
+          "x": 1,
+          "y": 129,
+          "w": 27,
+          "h": 29,
+          "file": "slices/icons/SetIcon07.png",
+          "outer": [
+            440,
+            18,
+            427,
+            220
+          ],
+          "border": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "rotated": false
+        },
+        {
+          "name": "SetIcon08",
+          "x": 97,
+          "y": 107,
+          "w": 26,
+          "h": 30,
+          "file": "slices/icons/SetIcon08.png",
+          "outer": [
+            439,
+            20,
+            425,
+            221
+          ],
+          "border": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "rotated": false
+        },
+        {
+          "name": "SetIcon09",
+          "x": 31,
+          "y": 103,
+          "w": 28,
+          "h": 30,
+          "file": "slices/icons/SetIcon09.png",
+          "outer": [
+            439,
+            18,
+            424,
+            222
+          ],
+          "border": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "rotated": false
+        },
+        {
+          "name": "Threshold_Blood",
+          "x": 106,
+          "y": 47,
+          "w": 23,
+          "h": 27,
+          "file": "slices/icons/Threshold_Blood.png",
+          "outer": [
+            23,
+            439,
+            83,
+            566
+          ],
+          "border": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "rotated": false
+        },
+        {
+          "name": "Threshold_Diamond",
+          "x": 40,
+          "y": 48,
+          "w": 25,
+          "h": 20,
+          "file": "slices/icons/Threshold_Diamond.png",
+          "outer": [
+            22,
+            438,
+            89,
+            567
+          ],
+          "border": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "rotated": false
+        },
+        {
+          "name": "Threshold_Ruby",
+          "x": 66,
+          "y": 90,
+          "w": 29,
+          "h": 29,
+          "file": "slices/icons/Threshold_Ruby.png",
+          "outer": [
+            20,
+            436,
+            82,
+            565
+          ],
+          "border": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "rotated": false
+        },
+        {
+          "name": "Threshold_Sapphire",
+          "x": 40,
+          "y": 20,
+          "w": 25,
+          "h": 26,
+          "file": "slices/icons/Threshold_Sapphire.png",
+          "outer": [
+            22,
+            438,
+            82,
+            568
+          ],
+          "border": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "rotated": false
+        },
+        {
+          "name": "Threshold_Wild",
+          "x": 106,
+          "y": 17,
+          "w": 23,
+          "h": 28,
+          "file": "slices/icons/Threshold_Wild.png",
+          "outer": [
+            23,
+            439,
+            83,
+            565
+          ],
+          "border": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "rotated": false
+        }
+      ]
+    }
+  },
+  "extras": [
+    {
+      "name": "CardSleeve_Default",
+      "file": "extras/CardSleeve_Default.png",
+      "width": 512,
+      "height": 512
+    },
+    {
+      "name": "Gem_Effects",
+      "file": "extras/Gem_Effects.png",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "name": "Gem_InnerFX",
+      "file": "extras/Gem_InnerFX.png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "name": "Gem_N",
+      "file": "extras/Gem_N.png",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "name": "Gem_Runes",
+      "file": "extras/Gem_Runes.png",
+      "width": 128,
+      "height": 512
+    },
+    {
+      "name": "hex_logo_white",
+      "file": "extras/hex_logo_white.png",
+      "width": 1024,
+      "height": 512
+    },
+    {
+      "name": "u_threshold_qty_blood_da",
+      "file": "extras/u_threshold_qty_blood_da.png",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "name": "u_threshold_qty_diamond_da",
+      "file": "extras/u_threshold_qty_diamond_da.png",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "name": "u_threshold_qty_ruby_da",
+      "file": "extras/u_threshold_qty_ruby_da.png",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "name": "u_threshold_qty_sapphire_da",
+      "file": "extras/u_threshold_qty_sapphire_da.png",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "name": "u_threshold_qty_wild_da",
+      "file": "extras/u_threshold_qty_wild_da.png",
+      "width": 32,
+      "height": 32
+    }
+  ],
+  "fonts": [
+    {
+      "name": "Hex_Arial",
+      "file": "fonts/Hex_Arial.ttf",
+      "bytes": 859704
+    },
+    {
+      "name": "Hex_Arial_Bold",
+      "file": "fonts/Hex_Arial_Bold.ttf",
+      "bytes": 775308
+    },
+    {
+      "name": "Arial_Bold_Hex",
+      "file": "fonts/Arial_Bold_Hex.ttf",
+      "bytes": 760732
+    },
+    {
+      "name": "FMBolyar_Regular",
+      "file": "fonts/FMBolyar_Regular.ttf",
+      "bytes": 216996
+    }
+  ]
+}

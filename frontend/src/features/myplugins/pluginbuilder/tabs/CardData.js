@@ -5,48 +5,40 @@ import Button from "../../../../components/basic/Button";
 import { useSiteL10n } from "../../../../hooks/useSiteL10n";
 
 const setCardData = (inputs, setInputs, cardDb) => {
-  setInputs(inputs => ({
-    ...inputs,
-    cardDb: cardDb || [],
-  }));
-
-  // Set the card types
+  const keepExisting = !!inputs?.sourcePlugin;
   const listOfTypes = Object.keys(cardDb).map((cardId) => cardDb[cardId]?.A?.type).filter(Boolean);
   const uniqueTypes = Array.from(new Set(listOfTypes)).sort();
   const cardTypes = uniqueTypes.reduce((acc, type) => {
-    acc[type] = {
-      width: 0.72, // Default width
-      height: 1.0, // Default height
+    acc[type] = inputs?.cardTypes?.[type] || {
+      width: 0.72,
+      height: 1.0,
     };
     return acc;
-  }, {});
+  }, keepExisting ? { ...(inputs?.cardTypes || {}) } : {});
 
-  setInputs(inputs => ({
-    ...inputs,
-    cardTypes: cardTypes,
-  }));
-
-  // Set the card backs
   const listOfBacks = Object.keys(cardDb).map((cardId) => cardDb[cardId]?.A?.cardBack).filter(Boolean);
   const uniqueCardBacks = Array.from(new Set(listOfBacks)).sort();
   const cardBacks = uniqueCardBacks.reduce((acc, type) => {
-    if (type === "multi_sided") return acc; // Skip multi-sided cards
-    acc[type] = {
-      width: 0.72, // Default width
-      height: 1.0, // Default height
+    if (type === "multi_sided") return acc;
+    acc[type] = inputs?.cardBacks?.[type] || {
+      width: 0.72,
+      height: 1.0,
     };
     return acc;
-  }, {});
+  }, keepExisting ? { ...(inputs?.cardBacks || {}) } : {});
 
-  setInputs(inputs => ({
-    ...inputs,
-    cardBacks: cardBacks,
+  setInputs((current) => ({
+    ...current,
+    cardDb: cardDb || {},
+    cardTypes,
+    cardBacks,
   }));
 };
 
 export const CardData = ({inputs, setInputs}) => {
     const siteL10n = useSiteL10n();
     const fileInputRef = useRef(null);
+    const existingCount = Object.keys(inputs.cardDb || {}).length;
 
     const [successMessage, setSuccessMessage] = useState("");
     const [errorMessages, setErrorMessages] = useState([]);
@@ -74,6 +66,7 @@ export const CardData = ({inputs, setInputs}) => {
           setErrorMessages([]);
 
           setCardData(inputs, setInputs, result.cardDb);
+          setInputs((current) => ({ ...current, cardDbTsvs: result.cardDbTsvs }));
         } else {
           setSuccessMessage("");
           setErrorMessages(result.messages || [siteL10n("Unknown error during upload.")]);
@@ -83,7 +76,7 @@ export const CardData = ({inputs, setInputs}) => {
         setSuccessMessage("");
         setErrorMessages([siteL10n("An unexpected error occurred.")]);
       }
-    }, [setInputs, siteL10n]);
+    }, [inputs, setInputs, siteL10n]);
 
     const loadFileCardDb = () => {
         fileInputRef.current.click();
@@ -92,6 +85,15 @@ export const CardData = ({inputs, setInputs}) => {
 
   return (
     <div className="max-w-3xl p-6 m-4 bg-gray-800 rounded-lg">
+
+      {existingCount > 0 && (
+        <p className="text-sm text-green-300 mb-3">
+          {existingCount.toLocaleString()} {siteL10n("cards are already loaded")}
+          {inputs.sourcePlugin?.name ? ` ${siteL10n("from")} ${inputs.sourcePlugin.name}` : ""}.
+          {" "}
+          {siteL10n("Upload a TSV only if you want to replace or refresh the card list.")}
+        </p>
+      )}
 
       <p className="text-sm text-gray-300 mb-3">
         {siteL10n(

@@ -428,6 +428,63 @@
 .dnc3d-region-icon-btn.dnc3d-icon-btn-hovered { background: rgba(255,255,255,0.2); }
 .dnc3d-region-icon-btn svg { width: 65%; height: 65%; }
 
+/* L5R: tiny destroy/restore control, pinned to the province's bottom-left. */
+.dnc3d-province-wreck-btn {
+  position: absolute;
+  left: 0.18dvh;
+  bottom: 0.18dvh;
+  width: 1.7dvh;
+  height: 1.7dvh;
+  padding: 0;
+  margin: 0;
+  border-radius: 0.25dvh;
+  border: 1px solid rgba(180, 180, 180, 0.45);
+  background: rgba(20, 20, 20, 0.72);
+  color: #d4d4d4;
+  font-size: 1.35dvh;
+  line-height: 1;
+  cursor: pointer;
+  pointer-events: auto;
+  z-index: 4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.dnc3d-favor-claim-btn {
+  position: absolute;
+  left: 0.18dvh;
+  bottom: 0.18dvh;
+  width: 1.7dvh;
+  height: 1.7dvh;
+  padding: 0;
+  margin: 0;
+  border-radius: 0.25dvh;
+  border: 1px solid rgba(212, 175, 55, 0.7);
+  background: rgba(20, 20, 20, 0.72);
+  color: #e8d48a;
+  font-size: 1.15dvh;
+  font-weight: 700;
+  line-height: 1;
+  cursor: pointer;
+  pointer-events: auto;
+  z-index: 4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.dnc3d-province-wreck-btn.dnc3d-province-wreck-on {
+  border-color: rgba(220, 80, 80, 0.95);
+  background: rgba(140, 24, 24, 0.92);
+  color: #ffd0d0;
+}
+.dnc3d-region-fill.dnc3d-province-destroyed {
+  box-shadow: inset 0 0 0 2px rgba(180, 40, 40, 0.7);
+  background: rgba(90, 16, 16, 0.28);
+}
+.dnc3d-region-outline.dnc3d-province-destroyed {
+  box-shadow: inset 0 0 0 2px rgba(180, 40, 40, 0.55);
+}
+
 /* Lightning-bolt ability affordance — dnc3d port of the 2D AbilityButton.
    Sits at the top-right of its host (.dnc3d-card-ability-host), which fills the
    card box and is spun to match the card's rotation, so the bolt tracks the

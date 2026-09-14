@@ -1,0 +1,74 @@
+{
+  "cardTypes": {
+    "Equipment": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "wound",
+        "xp",
+        "plus",
+        "minus"
+      ]
+    },
+    "Facehugger Pile": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "wound",
+        "xp",
+        "plus",
+        "minus"
+      ]
+    },
+    "Location": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "wound",
+        "xp",
+        "plus",
+        "minus"
+      ]
+    },
+    "Main Character": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "wound",
+        "xp",
+        "plus",
+        "minus"
+      ]
+    },
+    "Plot Twist": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "wound",
+        "xp",
+        "plus",
+        "minus"
+      ]
+    },
+    "Supporting Character": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "wound",
+        "xp",
+        "plus",
+        "minus"
+      ]
+    },
+    "Supporting Character - Token": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "wound",
+        "xp",
+        "plus",
+        "minus"
+      ]
+    }
+  }
+}

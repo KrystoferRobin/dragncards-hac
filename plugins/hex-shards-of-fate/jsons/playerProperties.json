@@ -1,0 +1,10 @@
+{
+  "playerProperties": {
+    "health": {
+      "label": "Health",
+      "type": "integer",
+      "default": 20,
+      "min": 0
+    }
+  }
+}

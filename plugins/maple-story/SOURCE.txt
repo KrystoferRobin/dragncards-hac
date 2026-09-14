@@ -1,0 +1,8 @@
+Built 2026-09-12 17:33 UTC from LackeyCCG MapleStory.
+Source: /Users/krystoferrobin/Downloads/lackeyplugins/MapleStory
+Art: https://github.com/wishmstr/MapleStory raw setimages.
+Author credit: Lackey / wishmstr
+
+Tabletop plugin only — Lackey has no rules engine to port.
+TSV rows: 487  skipped (no image URL or duplicate): 0
+Prebuilts: 5 Lackey decks.

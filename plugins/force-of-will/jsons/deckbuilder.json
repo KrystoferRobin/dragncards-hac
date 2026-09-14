@@ -1,0 +1,54 @@
+{
+  "deckbuilder": {
+    "addButtons": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "columns": [
+      {
+        "propName": "name",
+        "label": "Name"
+      },
+      {
+        "propName": "type",
+        "label": "Type"
+      },
+      {
+        "propName": "colour",
+        "label": "Colour"
+      },
+      {
+        "propName": "cost",
+        "label": "Cost"
+      },
+      {
+        "propName": "atk",
+        "label": "ATK"
+      },
+      {
+        "propName": "defense",
+        "label": "DEF"
+      },
+      {
+        "propName": "packName",
+        "label": "Set"
+      }
+    ],
+    "spawnGroups": [
+      {
+        "loadGroupId": "playerNDeck",
+        "label": "My Deck"
+      },
+      {
+        "loadGroupId": "playerNStoneDeck",
+        "label": "My StoneDeck"
+      },
+      {
+        "loadGroupId": "playerNRuler",
+        "label": "My Ruler"
+      }
+    ]
+  }
+}

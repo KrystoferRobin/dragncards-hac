@@ -1,0 +1,40 @@
+{
+  "cardMenu": {
+    "moveToGroupIds": [
+      "playerNDeck",
+      "playerNDiscard",
+      "playerNDead",
+      "playerNHand",
+      "playerNFellowship",
+      "playerNSupport",
+      "playerNAdventureDeck"
+    ],
+    "options": [
+      {
+        "actionList": "menulog_activation",
+        "label": "id:menulog_activation"
+      },
+      {
+        "actionList": "menu_declareskirmish",
+        "label": "id:menu_declareskirmish"
+      },
+      {
+        "actionList": "damageCard",
+        "label": "id:damage"
+      },
+      {
+        "actionList": "menusendcardtodiscard",
+        "label": "id:sendcardtodiscard"
+      },
+      {
+        "actionList": "menusendcardtodead",
+        "label": "id:sendcardtodead"
+      }
+    ],
+    "suppress": [
+      "Delete",
+      "Toggle Trigger",
+      "Set Rotation"
+    ]
+  }
+}

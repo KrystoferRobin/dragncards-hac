@@ -1,0 +1,15 @@
+Built 2026-09-12 21:45 UTC from FoWind / official Force of Will tables.
+Text: plugins/ForceOfWill/cards.json
+Art index: plugins/ForceOfWill/cards_fow.json
+Faces: FoWind S3 (fowsim) and TCG Arena token images, collected onto toybox.
+Card back: FoWind S3 pack art. Missing ABC/promo faces use a local placeholder.
+Lobby logo: official fowtcg.com. Banner: TCG Arena FoW menu art. Playmat: Masterpiece 03.
+Starred alternate ids reuse the unstarred FoWind face.
+
+Tabletop plugin only — no rules engine.
+Catalog cards: 7663  TSV rows: 7855  Unique cards: 7434  Sets: 106
+Ruler/J-ruler pairs: 421  Tokens: 192  Placeholder faces: 389
+
+Starters refreshed 2026-09-12 21:54 UTC from the Force of Will TCG Fandom wiki card lists.
+Prebuilts: 49 nested by cluster (5 original Valhalla starters skipped — those card ids are not in this catalog).
+ABC duel sides are missing a handful of late stone/promo rows the wiki lists that the dump does not.

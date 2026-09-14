@@ -1,0 +1,10 @@
+{
+  "playerProperties": {
+    "power": {
+      "label": "Power",
+      "type": "integer",
+      "default": 1,
+      "min": 0
+    }
+  }
+}

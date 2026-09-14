@@ -7,7 +7,7 @@ export const Instructions = () => {
 
   return (
     <div className="max-w-3xl p-6 m-4 bg-gray-800 rounded-lg">
-      This page will guide you through the creation of a basic DragnCards plugin for a card game. Not all features available in DragnCards will be available here, as this is just to get you started.
+      This page will guide you through the creation of a basic DragnCards plugin for a card game. Not all features available in DragnCards will be available here, as this is just to get you started. You can also open the Edit Plugin tab and load a game you already uploaded (or any game, if you are an admin) to tweak its table, groups, and other settings without rewriting the JSON by hand.
       <br />
       <br />
       At the end of this process, you will export game definition files that can be used as-is. However, if you want to add additional features, such as multiple layouts, pre-built decks, automation, etc. you will need to implement them yourself using the&nbsp;

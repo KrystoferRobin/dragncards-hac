@@ -1,0 +1,11 @@
+{
+  "spawnExistingCardModal": {
+    "columnProperties": [
+      "name"
+    ],
+    "loadGroupIds": [
+      "player1Hand",
+      "player2Hand"
+    ]
+  }
+}

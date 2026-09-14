@@ -1,0 +1,223 @@
+{
+  "deckMenu": {
+    "subMenus": [
+      {
+        "deckLists": [
+          {
+            "deckListId": "modeCoreTrilogy",
+            "label": "Trilogy"
+          },
+          {
+            "deckListId": "modeCoreTwoPlayerDuel",
+            "label": "Two Player Duel"
+          },
+          {
+            "deckListId": "modeCoreThreePlayerDuel",
+            "label": "Three Player Duel"
+          },
+          {
+            "deckListId": "modeCoreFellowshipOfTheRing",
+            "label": "Fellowship of the Ring"
+          },
+          {
+            "deckListId": "modeCoreTheTwoTowers",
+            "label": "The Two Towers"
+          },
+          {
+            "deckListId": "modeCoreTheReturnOfTheKing",
+            "label": "The Return of the King"
+          },
+          {
+            "deckListId": "modeCoreExpertDuel",
+            "label": "Expert Duel"
+          },
+          {
+            "deckListId": "modeCoreAPerilousJourney",
+            "label": "A Perilous Journey"
+          },
+          {
+            "deckListId": "modeCoreRohanAndGondorAtWar",
+            "label": "Rohan and Gondor at War"
+          },
+          {
+            "deckListId": "modeCoreGrandPrixTrilogy",
+            "label": "Grand Prix Trilogy"
+          }
+        ],
+        "label": "Core"
+      },
+      {
+        "deckLists": [
+          {
+            "deckListId": "modeAtSTrilogy",
+            "label": "Trilogy"
+          },
+          {
+            "deckListId": "modeAtSTwoPlayerDuel",
+            "label": "Two Player Duel"
+          },
+          {
+            "deckListId": "modeAtSThreePlayerDuel",
+            "label": "Three Player Duel"
+          },
+          {
+            "deckListId": "modeAtSFellowshipOfTheRing",
+            "label": "Fellowship of the Ring"
+          },
+          {
+            "deckListId": "modeAtSTheTwoTowers",
+            "label": "The Two Towers"
+          },
+          {
+            "deckListId": "modeAtSTheReturnOfTheKing",
+            "label": "The Return of the King"
+          }
+        ],
+        "label": "Against the Shadow"
+      },
+      {
+        "deckLists": [
+          {
+            "deckListId": "modeFaSExpandedTrilogy",
+            "label": "Expanded Trilogy"
+          },
+          {
+            "deckListId": "modeFaSWarInTheNorth4P",
+            "label": "War in the North - Trilogy Rules"
+          },
+          {
+            "deckListId": "modeFaSWarInTheNorth2P",
+            "label": "War in the North - Two Player Duel Rules"
+          },
+          {
+            "deckListId": "modeFaSWarInTheNorth3P",
+            "label": "War in the North - Three Player Duel Rules"
+          },
+          {
+            "deckListId": "modeFaS4P",
+            "label": "4 Player Trilogy"
+          }
+        ],
+        "label": "Fire and Swords",
+        "subMenus": [
+          {
+            "deckLists": [
+              {
+                "deckListId": "modeFaSEpicDuel",
+                "label": "Starting Setup"
+              },
+              {
+                "deckListId": "FaS-ED-FPFaction-Section3",
+                "label": "Section 3 Free Peoples Faction Cards"
+              },
+              {
+                "deckListId": "FaS-ED-SPFaction-Section3",
+                "label": "Section 3 Shadow Faction Cards"
+              },
+              {
+                "deckListId": "FaS-ED-Battlegrounds-Section2",
+                "label": "Section 2 Battlegrounds"
+              },
+              {
+                "deckListId": "FaS-ED-Battlegrounds-Section3",
+                "label": "Section 3 Battlegrounds"
+              }
+            ],
+            "label": "Epic Duel"
+          }
+        ]
+      },
+      {
+        "deckLists": [
+          {
+            "deckListId": "modeFaSAtSExpandedTrilogy",
+            "label": "Expanded Trilogy"
+          },
+          {
+            "deckListId": "modeFaSAtSWarInTheNorth4P",
+            "label": "War in the North - Trilogy Rules"
+          },
+          {
+            "deckListId": "modeFaSAtSWarInTheNorth2P",
+            "label": "War in the North - Two Player Duel Rules"
+          },
+          {
+            "deckListId": "modeFaSAtSWarInTheNorth3P",
+            "label": "War in the North - Three Player Duel Rules"
+          },
+          {
+            "deckListId": "modeFaSAtS4P",
+            "label": "4 Player Trilogy"
+          }
+        ],
+        "label": "Fire and Swords - Solo/Coop",
+        "subMenus": [
+          {
+            "deckLists": [
+              {
+                "deckListId": "modeFaSAtSEpicDuel",
+                "label": "Starting Setup"
+              },
+              {
+                "deckListId": "FaS-ED-FPFaction-Section3",
+                "label": "Section 3 Free Peoples Faction Cards"
+              },
+              {
+                "deckListId": "FaS-AtS-ED-SPFaction-Section3",
+                "label": "Section 3 Shadow Faction Cards"
+              },
+              {
+                "deckListId": "FaS-AtS-ED-Battlegrounds-Section2",
+                "label": "Section 2 Battlegrounds"
+              },
+              {
+                "deckListId": "FaS-AtS-ED-Battlegrounds-Section3",
+                "label": "Section 3 Battlegrounds"
+              }
+            ],
+            "label": "Epic Duel"
+          }
+        ]
+      },
+      {
+        "label": "Constructed Decks",
+        "subMenus": [
+          {
+            "deckLists": [
+              {
+                "deckListId": "modeDeckBuildEriador2P",
+                "label": "Eriador"
+              },
+              {
+                "deckListId": "modeDeckBuildRhovanion2P",
+                "label": "Rhovanion"
+              },
+              {
+                "deckListId": "modeDeckBuildTheSouth2P",
+                "label": "The South"
+              }
+            ],
+            "label": "2 Players"
+          },
+          {
+            "deckLists": [
+              {
+                "deckListId": "modeDeckBuildEriador4P",
+                "label": "Eriador"
+              },
+              {
+                "deckListId": "modeDeckBuildRhovanion4P",
+                "label": "Rhovanion"
+              },
+              {
+                "deckListId": "modeDeckBuildTheSouth4P",
+                "label": "The South"
+              }
+            ],
+            "label": "4 Players"
+          }
+        ]
+      }
+    ]
+  }
+}

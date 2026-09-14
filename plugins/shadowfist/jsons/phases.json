@@ -1,0 +1,41 @@
+{
+  "phases": {
+    "establishing": {
+      "label": "Establishing Shot",
+      "height": "14%"
+    },
+    "generate": {
+      "label": "Generate Power",
+      "height": "14%"
+    },
+    "unturn": {
+      "label": "Unturn",
+      "height": "14%"
+    },
+    "discard": {
+      "label": "Discard",
+      "height": "14%"
+    },
+    "draw": {
+      "label": "Draw",
+      "height": "14%"
+    },
+    "main": {
+      "label": "Main Shot",
+      "height": "14%"
+    },
+    "end": {
+      "label": "End of Turn",
+      "height": "14%"
+    }
+  },
+  "phaseOrder": [
+    "establishing",
+    "generate",
+    "unturn",
+    "discard",
+    "draw",
+    "main",
+    "end"
+  ]
+}

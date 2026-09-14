@@ -1,0 +1,3474 @@
+{
+  "deckMenu": {
+    "subMenus": [
+      {
+        "label": "Challenge Decks",
+        "deckLists": [
+          {
+            "deckListId": "battle-the-horde",
+            "label": "Battle the Horde"
+          },
+          {
+            "deckListId": "defeat-a-god",
+            "label": "Defeat a God"
+          },
+          {
+            "deckListId": "face-the-hydra",
+            "label": "Face the Hydra"
+          }
+        ]
+      },
+      {
+        "label": "Rivals Quick Start Set",
+        "deckLists": [
+          {
+            "deckListId": "kazzsfirstdeck-rqs",
+            "label": "Kazz's First Deck"
+          },
+          {
+            "deckListId": "kazzsseconddeck-rqs",
+            "label": "Kazz's Second Deck"
+          },
+          {
+            "deckListId": "zakksfirstdeck-rqs",
+            "label": "Zakk's First Deck"
+          },
+          {
+            "deckListId": "zakksseconddeck-rqs",
+            "label": "Zakk's Second Deck"
+          }
+        ]
+      },
+      {
+        "label": "Introductory Two-Player Set",
+        "deckLists": [
+          {
+            "deckListId": "kazzsfirstdeck-itp",
+            "label": "Kazz's First Deck"
+          },
+          {
+            "deckListId": "kazzsseconddeck-itp",
+            "label": "Kazz's Second Deck"
+          },
+          {
+            "deckListId": "zakksfirstdeck-itp",
+            "label": "Zakk's First Deck"
+          },
+          {
+            "deckListId": "zakksseconddeck-itp",
+            "label": "Zakk's Second Deck"
+          }
+        ]
+      },
+      {
+        "label": "Core Set",
+        "subMenus": [
+          {
+            "label": "Fifth Edition",
+            "deckLists": [
+              {
+                "deckListId": "decka-5ed",
+                "label": "Deck A"
+              },
+              {
+                "deckListId": "deckb-5ed",
+                "label": "Deck B"
+              }
+            ]
+          },
+          {
+            "label": "Classic Sixth Edition",
+            "deckLists": [
+              {
+                "deckListId": "decka-6ed",
+                "label": "Deck A"
+              },
+              {
+                "deckListId": "deckb-6ed",
+                "label": "Deck B"
+              }
+            ]
+          },
+          {
+            "label": "Seventh Edition",
+            "deckLists": [
+              {
+                "deckListId": "armada-7ed",
+                "label": "Armada"
+              },
+              {
+                "deckListId": "bomber-7ed",
+                "label": "Bomber"
+              },
+              {
+                "deckListId": "decay-7ed",
+                "label": "Decay"
+              },
+              {
+                "deckListId": "golddeck-7ed",
+                "label": "Gold Deck"
+              },
+              {
+                "deckListId": "goldpack-7ed",
+                "label": "Gold Pack"
+              },
+              {
+                "deckListId": "infestation-7ed",
+                "label": "Infestation"
+              },
+              {
+                "deckListId": "samplerbooster-7ed",
+                "label": "Sampler Booster"
+              },
+              {
+                "deckListId": "silverdeck-7ed",
+                "label": "Silver Deck"
+              },
+              {
+                "deckListId": "silverpack-7ed",
+                "label": "Silver Pack"
+              },
+              {
+                "deckListId": "waywild-7ed",
+                "label": "Way Wild"
+              }
+            ]
+          },
+          {
+            "label": "Eighth Edition",
+            "deckLists": [
+              {
+                "deckListId": "expulsion-8ed",
+                "label": "Expulsion"
+              },
+              {
+                "deckListId": "golddeck-8ed",
+                "label": "Gold Deck"
+              },
+              {
+                "deckListId": "goldpack-8ed",
+                "label": "Gold Pack"
+              },
+              {
+                "deckListId": "heavyhitters-8ed",
+                "label": "Heavy Hitters"
+              },
+              {
+                "deckListId": "lifeboost-8ed",
+                "label": "Life Boost"
+              },
+              {
+                "deckListId": "samplerbooster-8ed",
+                "label": "Sampler Booster"
+              },
+              {
+                "deckListId": "silverdeck-8ed",
+                "label": "Silver Deck"
+              },
+              {
+                "deckListId": "silverpack-8ed",
+                "label": "Silver Pack"
+              },
+              {
+                "deckListId": "skyslam-8ed",
+                "label": "Sky Slam"
+              },
+              {
+                "deckListId": "speedscorch-8ed",
+                "label": "Speed Scorch"
+              }
+            ]
+          },
+          {
+            "label": "Ninth Edition",
+            "deckLists": [
+              {
+                "deckListId": "armyofjustice-9ed",
+                "label": "Army of Justice"
+              },
+              {
+                "deckListId": "customcreatures-9ed",
+                "label": "Custom Creatures"
+              },
+              {
+                "deckListId": "deadagain-9ed",
+                "label": "Dead Again"
+              },
+              {
+                "deckListId": "demoboosterplayer1-9ed",
+                "label": "Demo Booster Player 1"
+              },
+              {
+                "deckListId": "demoboosterplayer2-9ed",
+                "label": "Demo Booster Player 2"
+              },
+              {
+                "deckListId": "golddeck-9ed",
+                "label": "Gold Deck"
+              },
+              {
+                "deckListId": "goldpack-9ed",
+                "label": "Gold Pack"
+              },
+              {
+                "deckListId": "loftyheights-9ed",
+                "label": "Lofty Heights"
+              },
+              {
+                "deckListId": "samplerbooster-9ed",
+                "label": "Sampler Booster"
+              },
+              {
+                "deckListId": "silverdeck-9ed",
+                "label": "Silver Deck"
+              },
+              {
+                "deckListId": "silverpack-9ed",
+                "label": "Silver Pack"
+              },
+              {
+                "deckListId": "worldaflame-9ed",
+                "label": "World Aflame"
+              }
+            ]
+          },
+          {
+            "label": "Tenth Edition",
+            "deckLists": [
+              {
+                "deckListId": "arcanissguile-10e",
+                "label": "Arcanis's Guile"
+              },
+              {
+                "deckListId": "chomannosresolve-10e",
+                "label": "Cho-Manno's Resolve"
+              },
+              {
+                "deckListId": "evincarstyranny-10e",
+                "label": "Evincar's Tyranny"
+              },
+              {
+                "deckListId": "kamahlstemper-10e",
+                "label": "Kamahl's Temper"
+              },
+              {
+                "deckListId": "molimosmight-10e",
+                "label": "Molimo's Might"
+              }
+            ]
+          },
+          {
+            "label": "Magic 2010",
+            "deckLists": [
+              {
+                "deckListId": "deathsminions-m10",
+                "label": "Death's Minions"
+              },
+              {
+                "deckListId": "firebomber-m10",
+                "label": "Firebomber"
+              },
+              {
+                "deckListId": "naturesfury-m10",
+                "label": "Nature's Fury"
+              },
+              {
+                "deckListId": "presenceofmind-m10",
+                "label": "Presence of Mind"
+              },
+              {
+                "deckListId": "wearelegion-m10",
+                "label": "We Are Legion"
+              }
+            ]
+          },
+          {
+            "label": "Magic 2011",
+            "deckLists": [
+              {
+                "deckListId": "bladesofvictory-m11",
+                "label": "Blades of Victory"
+              },
+              {
+                "deckListId": "breathoffire-m11",
+                "label": "Breath of Fire"
+              },
+              {
+                "deckListId": "powerofprophecy-m11",
+                "label": "Power of Prophecy"
+              },
+              {
+                "deckListId": "reignofvampirism-m11",
+                "label": "Reign of Vampirism"
+              },
+              {
+                "deckListId": "stampedeofbeasts-m11",
+                "label": "Stampede of Beasts"
+              }
+            ]
+          },
+          {
+            "label": "Magic 2012",
+            "deckLists": [
+              {
+                "deckListId": "bloodandfire-m12",
+                "label": "Blood and Fire"
+              },
+              {
+                "deckListId": "entanglingwebs-m12",
+                "label": "Entangling Webs"
+              },
+              {
+                "deckListId": "grabforpower-m12",
+                "label": "Grab for Power"
+              },
+              {
+                "deckListId": "illusionarymight-m12",
+                "label": "Illusionary Might"
+              },
+              {
+                "deckListId": "mysticalmight-m12",
+                "label": "Mystical Might"
+              },
+              {
+                "deckListId": "sacredassault-m12",
+                "label": "Sacred Assault"
+              },
+              {
+                "deckListId": "vampireonslaught-m12",
+                "label": "Vampire Onslaught"
+              }
+            ]
+          },
+          {
+            "label": "Magic 2013",
+            "deckLists": [
+              {
+                "deckListId": "depthsofpower-m13",
+                "label": "Depths of Power"
+              },
+              {
+                "deckListId": "mobrule-m13",
+                "label": "Mob Rule"
+              },
+              {
+                "deckListId": "pathtovictory-m13",
+                "label": "Path to Victory"
+              },
+              {
+                "deckListId": "repeatperformance-m13",
+                "label": "Repeat Performance"
+              },
+              {
+                "deckListId": "soledomination-m13",
+                "label": "Sole Domination"
+              },
+              {
+                "deckListId": "sweetrevenge-m13",
+                "label": "Sweet Revenge"
+              },
+              {
+                "deckListId": "wildrush-m13",
+                "label": "Wild Rush"
+              }
+            ]
+          },
+          {
+            "label": "Magic 2014",
+            "deckLists": [
+              {
+                "deckListId": "bestialstrength-m14",
+                "label": "Bestial Strength"
+              },
+              {
+                "deckListId": "deathreaper-m14",
+                "label": "Death Reaper"
+              },
+              {
+                "deckListId": "firesurge-m14",
+                "label": "Fire Surge"
+              },
+              {
+                "deckListId": "lightforce-m14",
+                "label": "Lightforce"
+              },
+              {
+                "deckListId": "psychiclabyrinth-m14",
+                "label": "Psychic Labyrinth"
+              },
+              {
+                "deckListId": "rushofthewild-m14",
+                "label": "Rush of the Wild"
+              }
+            ]
+          },
+          {
+            "label": "Magic 2015",
+            "deckLists": [
+              {
+                "deckListId": "fate-m15",
+                "label": "Fate"
+              },
+              {
+                "deckListId": "fateandfury-m15",
+                "label": "Fate and Fury"
+              },
+              {
+                "deckListId": "flamesofthedragon-m15",
+                "label": "Flames Of The Dragon"
+              },
+              {
+                "deckListId": "fury-m15",
+                "label": "Fury"
+              },
+              {
+                "deckListId": "hitthegroundrunning-m15",
+                "label": "Hit The Ground Running"
+              },
+              {
+                "deckListId": "infernalintervention-m15",
+                "label": "Infernal Intervention"
+              },
+              {
+                "deckListId": "priceofglory-m15",
+                "label": "Price Of Glory"
+              },
+              {
+                "deckListId": "willofthemasses-m15",
+                "label": "Will Of The Masses"
+              }
+            ]
+          },
+          {
+            "label": "Magic Origins",
+            "deckLists": [
+              {
+                "deckListId": "armed-ori",
+                "label": "Armed"
+              },
+              {
+                "deckListId": "armedanddangerous-ori",
+                "label": "Armed and Dangerous"
+              },
+              {
+                "deckListId": "assemblevictory-ori",
+                "label": "Assemble Victory"
+              },
+              {
+                "deckListId": "bravethebattle-ori",
+                "label": "Brave the Battle"
+              },
+              {
+                "deckListId": "dangerous-ori",
+                "label": "Dangerous"
+              },
+              {
+                "deckListId": "demonicdeals-ori",
+                "label": "Demonic Deals"
+              },
+              {
+                "deckListId": "huntingpack-ori",
+                "label": "Hunting Pack"
+              },
+              {
+                "deckListId": "taketothesky-ori",
+                "label": "Take to the Sky"
+              }
+            ]
+          },
+          {
+            "label": "Core Set 2019",
+            "deckLists": [
+              {
+                "deckListId": "ajani-m19",
+                "label": "Ajani"
+              },
+              {
+                "deckListId": "blackdeck-m19",
+                "label": "Black Deck"
+              },
+              {
+                "deckListId": "blackgreendeck-m19",
+                "label": "Black-Green Deck"
+              },
+              {
+                "deckListId": "bluedeck-m19",
+                "label": "Blue Deck"
+              },
+              {
+                "deckListId": "greendeck-m19",
+                "label": "Green Deck"
+              },
+              {
+                "deckListId": "liliana-m19",
+                "label": "Liliana"
+              },
+              {
+                "deckListId": "reddeck-m19",
+                "label": "Red Deck"
+              },
+              {
+                "deckListId": "redwhitedeck-m19",
+                "label": "Red-White Deck"
+              },
+              {
+                "deckListId": "sarkhan-m19",
+                "label": "Sarkhan"
+              },
+              {
+                "deckListId": "tezzeret-m19",
+                "label": "Tezzeret"
+              },
+              {
+                "deckListId": "vivien-m19",
+                "label": "Vivien"
+              },
+              {
+                "deckListId": "whitedeck-m19",
+                "label": "White Deck"
+              }
+            ]
+          },
+          {
+            "label": "Core Set 2020",
+            "deckLists": [
+              {
+                "deckListId": "ajaniinspiringleader-m20",
+                "label": "Ajani, Inspiring Leader"
+              },
+              {
+                "deckListId": "blackdeck-m20",
+                "label": "Black Deck"
+              },
+              {
+                "deckListId": "bluedeck-m20",
+                "label": "Blue Deck"
+              },
+              {
+                "deckListId": "chandraflamesfury-m20",
+                "label": "Chandra, Flame's Fury"
+              },
+              {
+                "deckListId": "greendeck-m20",
+                "label": "Green Deck"
+              },
+              {
+                "deckListId": "muyanlingcelestialwind-m20",
+                "label": "Mu Yanling, Celestial Wind"
+              },
+              {
+                "deckListId": "reddeck-m20",
+                "label": "Red Deck"
+              },
+              {
+                "deckListId": "sorinvampirelord-m20",
+                "label": "Sorin, Vampire Lord"
+              },
+              {
+                "deckListId": "spellslingerstarterkitreddeck-m20",
+                "label": "Spellslinger Starter Kit - Red Deck"
+              },
+              {
+                "deckListId": "spellslingerstarterkitwhitedeck-m20",
+                "label": "Spellslinger Starter Kit - White Deck"
+              },
+              {
+                "deckListId": "viviennaturesavenger-m20",
+                "label": "Vivien, Nature's Avenger"
+              },
+              {
+                "deckListId": "whitedeck-m20",
+                "label": "White Deck"
+              }
+            ]
+          },
+          {
+            "label": "Core Set 2021",
+            "deckLists": [
+              {
+                "deckListId": "basridevotedpaladin-m21",
+                "label": "Basri, Devoted Paladin"
+              },
+              {
+                "deckListId": "chandraflamescatalyst-m21",
+                "label": "Chandra, Flame's Catalyst"
+              },
+              {
+                "deckListId": "coreset2021welcomebooster-m21",
+                "label": "Core Set 2021 Welcome Booster"
+              },
+              {
+                "deckListId": "garruksavageherald-m21",
+                "label": "Garruk, Savage Herald"
+              },
+              {
+                "deckListId": "lilianadeathmage-m21",
+                "label": "Liliana, Death Mage"
+              },
+              {
+                "deckListId": "teferitimelessvoyager-m21",
+                "label": "Teferi, Timeless Voyager"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Portal",
+        "subMenus": [
+          {
+            "label": "Portal",
+            "deckLists": [
+              {
+                "deckListId": "demodecka-por",
+                "label": "Demo deck A"
+              },
+              {
+                "deckListId": "demodeckb-por",
+                "label": "Demo deck B"
+              },
+              {
+                "deckListId": "preconstructeddeck1-por",
+                "label": "Preconstructed deck 1"
+              },
+              {
+                "deckListId": "preconstructeddeck2-por",
+                "label": "Preconstructed deck 2"
+              }
+            ]
+          },
+          {
+            "label": "Portal Second Age",
+            "deckLists": [
+              {
+                "deckListId": "demodecka-p02",
+                "label": "Demo deck A"
+              },
+              {
+                "deckListId": "demodeckb-p02",
+                "label": "Demo deck B"
+              },
+              {
+                "deckListId": "goblinfire-p02",
+                "label": "Goblin Fire"
+              },
+              {
+                "deckListId": "martiallaw-p02",
+                "label": "Martial Law"
+              },
+              {
+                "deckListId": "naturesassault-p02",
+                "label": "Nature's Assault"
+              },
+              {
+                "deckListId": "preconstructeddeck1-p02",
+                "label": "Preconstructed deck 1"
+              },
+              {
+                "deckListId": "preconstructeddeck2-p02",
+                "label": "Preconstructed deck 2"
+              },
+              {
+                "deckListId": "spellweaver-p02",
+                "label": "Spellweaver"
+              },
+              {
+                "deckListId": "thenightstalkers-p02",
+                "label": "The Nightstalkers"
+              }
+            ]
+          },
+          {
+            "label": "Portal Three Kingdoms",
+            "deckLists": [
+              {
+                "deckListId": "preconstructeddeck1-ptk",
+                "label": "Preconstructed deck 1"
+              },
+              {
+                "deckListId": "preconstructeddeck2-ptk",
+                "label": "Preconstructed deck 2"
+              },
+              {
+                "deckListId": "shukingdom-ptk",
+                "label": "Shu Kingdom"
+              },
+              {
+                "deckListId": "weikingdom-ptk",
+                "label": "Wei Kingdom"
+              },
+              {
+                "deckListId": "wukingdom-ptk",
+                "label": "Wu Kingdom"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Tempest",
+        "subMenus": [
+          {
+            "label": "Tempest",
+            "deckLists": [
+              {
+                "deckListId": "deepfreeze-tmp",
+                "label": "Deep Freeze"
+              },
+              {
+                "deckListId": "deepfreezeadvanceddeck-tmp",
+                "label": "Deep Freeze - Advanced Deck"
+              },
+              {
+                "deckListId": "flamesofrathadvanceddeck-tmp",
+                "label": "Flames of Rath - Advanced Deck"
+              },
+              {
+                "deckListId": "theflamesofrath-tmp",
+                "label": "The Flames of Rath"
+              },
+              {
+                "deckListId": "theslivers-tmp",
+                "label": "The Slivers"
+              },
+              {
+                "deckListId": "thesliversadvanceddeck-tmp",
+                "label": "The Slivers - Advanced Deck"
+              },
+              {
+                "deckListId": "theswarm-tmp",
+                "label": "The Swarm"
+              },
+              {
+                "deckListId": "theswarmadvanceddeck-tmp",
+                "label": "The Swarm - Advanced Deck"
+              }
+            ]
+          },
+          {
+            "label": "Stronghold",
+            "deckLists": [
+              {
+                "deckListId": "callofthekor-sth",
+                "label": "Call of the Kor"
+              },
+              {
+                "deckListId": "callofthekoradvanceddeck-sth",
+                "label": "Call of the Kor - Advanced Deck"
+              },
+              {
+                "deckListId": "migraine-sth",
+                "label": "Migraine"
+              },
+              {
+                "deckListId": "migraineadvanceddeck-sth",
+                "label": "Migraine - Advanced Deck"
+              },
+              {
+                "deckListId": "thesparkler-sth",
+                "label": "The Sparkler"
+              },
+              {
+                "deckListId": "thesparkleradvanceddeck-sth",
+                "label": "The Sparkler - Advanced Deck"
+              },
+              {
+                "deckListId": "thespikes-sth",
+                "label": "The Spikes"
+              },
+              {
+                "deckListId": "thespikesadvanceddeck-sth",
+                "label": "The Spikes - Advanced Deck"
+              }
+            ]
+          },
+          {
+            "label": "Exodus",
+            "deckLists": [
+              {
+                "deckListId": "dominatoradvanceddeck-exo",
+                "label": "Dominator - Advanced Deck"
+              },
+              {
+                "deckListId": "dominatorbasicdeck-exo",
+                "label": "Dominator - Basic Deck"
+              },
+              {
+                "deckListId": "groundbreakeradvanceddeck-exo",
+                "label": "Groundbreaker - Advanced Deck"
+              },
+              {
+                "deckListId": "groundbreakerbasicdeck-exo",
+                "label": "Groundbreaker - Basic Deck"
+              },
+              {
+                "deckListId": "whiteheatadvanceddeck-exo",
+                "label": "White Heat - Advanced Deck"
+              },
+              {
+                "deckListId": "whiteheatbasicdeck-exo",
+                "label": "White Heat - Basic Deck"
+              },
+              {
+                "deckListId": "widowmakeradvanceddeck-exo",
+                "label": "Widowmaker - Advanced Deck"
+              },
+              {
+                "deckListId": "widowmakerbasicdeck-exo",
+                "label": "Widowmaker - Basic Deck"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Urza",
+        "subMenus": [
+          {
+            "label": "Urza's Saga",
+            "deckLists": [
+              {
+                "deckListId": "sleeper-usg",
+                "label": "Sleeper"
+              },
+              {
+                "deckListId": "specialdelivery-usg",
+                "label": "Special Delivery"
+              },
+              {
+                "deckListId": "theplague-usg",
+                "label": "The Plague"
+              },
+              {
+                "deckListId": "tombstone-usg",
+                "label": "Tombstone"
+              }
+            ]
+          },
+          {
+            "label": "Urza's Legacy",
+            "deckLists": [
+              {
+                "deckListId": "crusher-ulg",
+                "label": "Crusher"
+              },
+              {
+                "deckListId": "phyrexianassault-ulg",
+                "label": "Phyrexian Assault"
+              },
+              {
+                "deckListId": "radiantsrevenge-ulg",
+                "label": "Radiant's Revenge"
+              },
+              {
+                "deckListId": "timedrain-ulg",
+                "label": "Time Drain"
+              }
+            ]
+          },
+          {
+            "label": "Urza's Destiny",
+            "deckLists": [
+              {
+                "deckListId": "assassin-uds",
+                "label": "Assassin"
+              },
+              {
+                "deckListId": "battlesurge-uds",
+                "label": "Battle Surge"
+              },
+              {
+                "deckListId": "enchanter-uds",
+                "label": "Enchanter"
+              },
+              {
+                "deckListId": "fiendishnature-uds",
+                "label": "Fiendish Nature"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Anthologies",
+        "deckLists": [
+          {
+            "deckListId": "darkalliance-ath",
+            "label": "Dark Alliance"
+          },
+          {
+            "deckListId": "defendersofthecause-ath",
+            "label": "Defenders of the Cause"
+          }
+        ]
+      },
+      {
+        "label": "Starter 1999",
+        "deckLists": [
+          {
+            "deckListId": "blindingfury-s99",
+            "label": "Blinding Fury"
+          },
+          {
+            "deckListId": "deadlyinstinct-s99",
+            "label": "Deadly Instinct"
+          },
+          {
+            "deckListId": "demodecka-s99",
+            "label": "Demo deck A"
+          },
+          {
+            "deckListId": "demodeckb-s99",
+            "label": "Demo deck B"
+          },
+          {
+            "deckListId": "goblinassault-s99",
+            "label": "Goblin Assault"
+          },
+          {
+            "deckListId": "impaler-s99",
+            "label": "Impaler"
+          },
+          {
+            "deckListId": "preconstructeddeck1-s99",
+            "label": "Preconstructed deck 1"
+          },
+          {
+            "deckListId": "preconstructeddeck2-s99",
+            "label": "Preconstructed deck 2"
+          },
+          {
+            "deckListId": "timecurse-s99",
+            "label": "Time Curse"
+          }
+        ]
+      },
+      {
+        "label": "Masques",
+        "subMenus": [
+          {
+            "label": "Mercadian Masques",
+            "deckLists": [
+              {
+                "deckListId": "deepwoodmenace-mmq",
+                "label": "Deepwood Menace"
+              },
+              {
+                "deckListId": "disrupter-mmq",
+                "label": "Disrupter"
+              },
+              {
+                "deckListId": "rebelscall-mmq",
+                "label": "Rebel's Call"
+              },
+              {
+                "deckListId": "tidalmastery-mmq",
+                "label": "Tidal Mastery"
+              }
+            ]
+          },
+          {
+            "label": "Nemesis",
+            "deckLists": [
+              {
+                "deckListId": "breakdown-nem",
+                "label": "Breakdown"
+              },
+              {
+                "deckListId": "eruption-nem",
+                "label": "Eruption"
+              },
+              {
+                "deckListId": "mercenaries-nem",
+                "label": "Mercenaries"
+              },
+              {
+                "deckListId": "replicator-nem",
+                "label": "Replicator"
+              }
+            ]
+          },
+          {
+            "label": "Prophecy",
+            "deckLists": [
+              {
+                "deckListId": "distress-pcy",
+                "label": "Distress"
+              },
+              {
+                "deckListId": "pummel-pcy",
+                "label": "Pummel"
+              },
+              {
+                "deckListId": "slither-pcy",
+                "label": "Slither"
+              },
+              {
+                "deckListId": "turnaround-pcy",
+                "label": "Turnaround"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Battle Royale Box Set",
+        "deckLists": [
+          {
+            "deckListId": "chargoyf-brb",
+            "label": "Chargoyf"
+          },
+          {
+            "deckListId": "cinderheart-brb",
+            "label": "Cinder Heart"
+          },
+          {
+            "deckListId": "spiritgale-brb",
+            "label": "Spirit Gale"
+          },
+          {
+            "deckListId": "thedeluge-brb",
+            "label": "The Deluge"
+          }
+        ]
+      },
+      {
+        "label": "Starter 2000",
+        "deckLists": [
+          {
+            "deckListId": "playerasadvancedpack-s00",
+            "label": "Player A's advanced pack"
+          },
+          {
+            "deckListId": "playerasdeck-s00",
+            "label": "Player A's deck"
+          },
+          {
+            "deckListId": "playerbsadvancedpack-s00",
+            "label": "Player B's advanced pack"
+          },
+          {
+            "deckListId": "playerbsdeck-s00",
+            "label": "Player B's deck"
+          },
+          {
+            "deckListId": "starter2000samplerpack-s00",
+            "label": "Starter 2000 sampler pack"
+          }
+        ]
+      },
+      {
+        "label": "Beatdown Box Set",
+        "deckLists": [
+          {
+            "deckListId": "aerodoom-btd",
+            "label": "Aerodoom"
+          },
+          {
+            "deckListId": "groundpounder-btd",
+            "label": "Ground Pounder"
+          }
+        ]
+      },
+      {
+        "label": "Invasion",
+        "subMenus": [
+          {
+            "label": "Invasion",
+            "deckLists": [
+              {
+                "deckListId": "blowout-inv",
+                "label": "Blowout"
+              },
+              {
+                "deckListId": "dismissal-inv",
+                "label": "Dismissal"
+              },
+              {
+                "deckListId": "heavyduty-inv",
+                "label": "Heavy Duty"
+              },
+              {
+                "deckListId": "spectrum-inv",
+                "label": "Spectrum"
+              }
+            ]
+          },
+          {
+            "label": "Planeshift",
+            "deckLists": [
+              {
+                "deckListId": "barrage-pls",
+                "label": "Barrage"
+              },
+              {
+                "deckListId": "comeback-pls",
+                "label": "Comeback"
+              },
+              {
+                "deckListId": "domain-pls",
+                "label": "Domain"
+              },
+              {
+                "deckListId": "scout-pls",
+                "label": "Scout"
+              }
+            ]
+          },
+          {
+            "label": "Apocalypse",
+            "deckLists": [
+              {
+                "deckListId": "burial-apc",
+                "label": "Burial"
+              },
+              {
+                "deckListId": "pandemonium-apc",
+                "label": "Pandemonium"
+              },
+              {
+                "deckListId": "swoop-apc",
+                "label": "Swoop"
+              },
+              {
+                "deckListId": "whirlpool-apc",
+                "label": "Whirlpool"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Odyssey",
+        "subMenus": [
+          {
+            "label": "Odyssey",
+            "deckLists": [
+              {
+                "deckListId": "liftoff-ody",
+                "label": "Liftoff"
+              },
+              {
+                "deckListId": "onetwopunch-ody",
+                "label": "One-Two Punch"
+              },
+              {
+                "deckListId": "pressurecooker-ody",
+                "label": "Pressure Cooker"
+              },
+              {
+                "deckListId": "trounceomatic-ody",
+                "label": "Trounce-O-Matic"
+              }
+            ]
+          },
+          {
+            "label": "Torment",
+            "deckLists": [
+              {
+                "deckListId": "gravedanger-tor",
+                "label": "Grave Danger"
+              },
+              {
+                "deckListId": "insanity-tor",
+                "label": "Insanity"
+              },
+              {
+                "deckListId": "sacrilege-tor",
+                "label": "Sacrilege"
+              },
+              {
+                "deckListId": "wakingnightmares-tor",
+                "label": "Waking Nightmares"
+              }
+            ]
+          },
+          {
+            "label": "Judgment",
+            "deckLists": [
+              {
+                "deckListId": "airrazers-jud",
+                "label": "Air Razers"
+              },
+              {
+                "deckListId": "inundation-jud",
+                "label": "Inundation"
+              },
+              {
+                "deckListId": "painflow-jud",
+                "label": "Painflow"
+              },
+              {
+                "deckListId": "spectralslam-jud",
+                "label": "Spectral Slam"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Deckmasters",
+        "deckLists": [
+          {
+            "deckListId": "finkel-dkm",
+            "label": "Finkel"
+          },
+          {
+            "deckListId": "garfield-dkm",
+            "label": "Garfield"
+          }
+        ]
+      },
+      {
+        "label": "Onslaught",
+        "subMenus": [
+          {
+            "label": "Onslaught",
+            "deckLists": [
+              {
+                "deckListId": "baitswitch-ons",
+                "label": "Bait & Switch"
+              },
+              {
+                "deckListId": "celestialassault-ons",
+                "label": "Celestial Assault"
+              },
+              {
+                "deckListId": "devastation-ons",
+                "label": "Devastation"
+              },
+              {
+                "deckListId": "ivorydoom-ons",
+                "label": "Ivory Doom"
+              }
+            ]
+          },
+          {
+            "label": "Legions",
+            "deckLists": [
+              {
+                "deckListId": "elvishrage-lgn",
+                "label": "Elvish Rage"
+              },
+              {
+                "deckListId": "morphmayhem-lgn",
+                "label": "Morph Mayhem"
+              },
+              {
+                "deckListId": "slivershivers-lgn",
+                "label": "Sliver Shivers"
+              },
+              {
+                "deckListId": "zombiesunleashed-lgn",
+                "label": "Zombies Unleashed"
+              }
+            ]
+          },
+          {
+            "label": "Scourge",
+            "deckLists": [
+              {
+                "deckListId": "goblinmob-scg",
+                "label": "Goblin Mob"
+              },
+              {
+                "deckListId": "maxattax-scg",
+                "label": "Max Attax"
+              },
+              {
+                "deckListId": "pulverize-scg",
+                "label": "Pulverize"
+              },
+              {
+                "deckListId": "stormsurge-scg",
+                "label": "Storm Surge"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Mirrodin",
+        "subMenus": [
+          {
+            "label": "Mirrodin",
+            "deckLists": [
+              {
+                "deckListId": "baitandbludgeon-mrd",
+                "label": "Bait and Bludgeon"
+              },
+              {
+                "deckListId": "littlebashers-mrd",
+                "label": "Little Bashers"
+              },
+              {
+                "deckListId": "sacrificialbam-mrd",
+                "label": "Sacrificial Bam"
+              },
+              {
+                "deckListId": "wickedbig-mrd",
+                "label": "Wicked Big"
+              }
+            ]
+          },
+          {
+            "label": "Darksteel",
+            "deckLists": [
+              {
+                "deckListId": "masterblaster-dst",
+                "label": "Master Blaster"
+              },
+              {
+                "deckListId": "mindswarm-dst",
+                "label": "Mind Swarm"
+              },
+              {
+                "deckListId": "swarmslam-dst",
+                "label": "Swarm & Slam"
+              },
+              {
+                "deckListId": "transference-dst",
+                "label": "Transference"
+              }
+            ]
+          },
+          {
+            "label": "Fifth Dawn",
+            "deckLists": [
+              {
+                "deckListId": "nutsandbolts-5dn",
+                "label": "Nuts and Bolts"
+              },
+              {
+                "deckListId": "specialforces-5dn",
+                "label": "Special Forces"
+              },
+              {
+                "deckListId": "stampede-5dn",
+                "label": "Stampede"
+              },
+              {
+                "deckListId": "sunburst-5dn",
+                "label": "Sunburst"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Kamigawa",
+        "subMenus": [
+          {
+            "label": "Champions of Kamigawa",
+            "deckLists": [
+              {
+                "deckListId": "kamireborn-chk",
+                "label": "Kami Reborn"
+              },
+              {
+                "deckListId": "snakespath-chk",
+                "label": "Snake's Path"
+              },
+              {
+                "deckListId": "spiritbane-chk",
+                "label": "Spiritbane"
+              },
+              {
+                "deckListId": "wayofthewarrior-chk",
+                "label": "Way of the Warrior"
+              }
+            ]
+          },
+          {
+            "label": "Betrayers of Kamigawa",
+            "deckLists": [
+              {
+                "deckListId": "darkdevotion-bok",
+                "label": "Dark Devotion"
+              },
+              {
+                "deckListId": "ninjutsu-bok",
+                "label": "Ninjutsu"
+              },
+              {
+                "deckListId": "ratsnest-bok",
+                "label": "Rats' Nest"
+              },
+              {
+                "deckListId": "spiritcraft-bok",
+                "label": "Spiritcraft"
+              }
+            ]
+          },
+          {
+            "label": "Saviors of Kamigawa",
+            "deckLists": [
+              {
+                "deckListId": "criticalmass-sok",
+                "label": "Critical Mass"
+              },
+              {
+                "deckListId": "soratamiswisdom-sok",
+                "label": "Soratami's Wisdom"
+              },
+              {
+                "deckListId": "spiritflames-sok",
+                "label": "Spirit Flames"
+              },
+              {
+                "deckListId": "truthseekers-sok",
+                "label": "Truth Seekers"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Salvat 2005",
+        "deckLists": [
+          {
+            "deckListId": "angels-psal",
+            "label": "Angels"
+          },
+          {
+            "deckListId": "beasts-psal",
+            "label": "Beasts"
+          },
+          {
+            "deckListId": "berserk-psal",
+            "label": "Berserk"
+          },
+          {
+            "deckListId": "cats-psal",
+            "label": "Cats"
+          },
+          {
+            "deckListId": "elves-psal",
+            "label": "Elves"
+          },
+          {
+            "deckListId": "ninjas-psal",
+            "label": "Ninjas"
+          },
+          {
+            "deckListId": "ravenousrats-psal",
+            "label": "Ravenous Rats"
+          },
+          {
+            "deckListId": "slivers-psal",
+            "label": "Slivers"
+          },
+          {
+            "deckListId": "spirits-psal",
+            "label": "Spirits"
+          },
+          {
+            "deckListId": "thallids-psal",
+            "label": "Thallids"
+          },
+          {
+            "deckListId": "wizards-psal",
+            "label": "Wizards"
+          },
+          {
+            "deckListId": "zombies-psal",
+            "label": "Zombies"
+          }
+        ]
+      },
+      {
+        "label": "Ravnica",
+        "subMenus": [
+          {
+            "label": "Ravnica: City of Guilds",
+            "deckLists": [
+              {
+                "deckListId": "chargeoftheboros-rav",
+                "label": "Charge of the Boros"
+              },
+              {
+                "deckListId": "dimirintrigues-rav",
+                "label": "Dimir Intrigues"
+              },
+              {
+                "deckListId": "golgarideathcreep-rav",
+                "label": "Golgari Deathcreep"
+              },
+              {
+                "deckListId": "selesnyaunited-rav",
+                "label": "Selesnya United"
+              }
+            ]
+          },
+          {
+            "label": "Guildpact",
+            "deckLists": [
+              {
+                "deckListId": "codeoftheorzhov-gpt",
+                "label": "Code of the Orzhov"
+              },
+              {
+                "deckListId": "gruulwilding-gpt",
+                "label": "Gruul Wilding"
+              },
+              {
+                "deckListId": "izzetgizmometry-gpt",
+                "label": "Izzet Gizmometry"
+              }
+            ]
+          },
+          {
+            "label": "Dissension",
+            "deckLists": [
+              {
+                "deckListId": "azoriusascendant-dis",
+                "label": "Azorius Ascendant"
+              },
+              {
+                "deckListId": "rakdosbloodsport-dis",
+                "label": "Rakdos Bloodsport"
+              },
+              {
+                "deckListId": "simicmutology-dis",
+                "label": "Simic Mutology"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Ice Age",
+        "subMenus": [
+          {
+            "label": "Coldsnap",
+            "deckLists": [
+              {
+                "deckListId": "aurochsstampede-csp",
+                "label": "Aurochs Stampede"
+              },
+              {
+                "deckListId": "beyondthegrave-csp",
+                "label": "Beyond The Grave"
+              },
+              {
+                "deckListId": "kjeldorancunning-csp",
+                "label": "Kjeldoran Cunning"
+              },
+              {
+                "deckListId": "snowscape-csp",
+                "label": "Snowscape"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Time Spiral",
+        "subMenus": [
+          {
+            "label": "Time Spiral",
+            "deckLists": [
+              {
+                "deckListId": "funwithfungus-tsp",
+                "label": "Fun With Fungus"
+              },
+              {
+                "deckListId": "hopescrusaders-tsp",
+                "label": "Hope's Crusaders"
+              },
+              {
+                "deckListId": "realityfracture-tsp",
+                "label": "Reality Fracture"
+              },
+              {
+                "deckListId": "sliverevolution-tsp",
+                "label": "Sliver Evolution"
+              }
+            ]
+          },
+          {
+            "label": "Planar Chaos",
+            "deckLists": [
+              {
+                "deckListId": "endlessmarch-plc",
+                "label": "Endless March"
+              },
+              {
+                "deckListId": "ixidorslegacy-plc",
+                "label": "Ixidor's Legacy"
+              },
+              {
+                "deckListId": "ritualsofrebirth-plc",
+                "label": "Rituals of Rebirth"
+              },
+              {
+                "deckListId": "unravelingmind-plc",
+                "label": "Unraveling Mind"
+              }
+            ]
+          },
+          {
+            "label": "Future Sight",
+            "deckLists": [
+              {
+                "deckListId": "fateblaster-fut",
+                "label": "Fate Blaster"
+              },
+              {
+                "deckListId": "futureshock-fut",
+                "label": "Future Shock"
+              },
+              {
+                "deckListId": "rebelsunite-fut",
+                "label": "Rebels Unite"
+              },
+              {
+                "deckListId": "suspendedsentence-fut",
+                "label": "Suspended Sentence"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Lorwyn",
+        "subMenus": [
+          {
+            "label": "Lorwyn",
+            "deckLists": [
+              {
+                "deckListId": "boggartfeast-lrw",
+                "label": "Boggart Feast"
+              },
+              {
+                "deckListId": "elementalspath-lrw",
+                "label": "Elementals' Path"
+              },
+              {
+                "deckListId": "elvishpredation-lrw",
+                "label": "Elvish Predation"
+              },
+              {
+                "deckListId": "kithkinmilitia-lrw",
+                "label": "Kithkin Militia"
+              },
+              {
+                "deckListId": "merrowriverways-lrw",
+                "label": "Merrow Riverways"
+              }
+            ]
+          },
+          {
+            "label": "Morningtide",
+            "deckLists": [
+              {
+                "deckListId": "battalion-mor",
+                "label": "Battalion"
+              },
+              {
+                "deckListId": "goingrogue-mor",
+                "label": "Going Rogue"
+              },
+              {
+                "deckListId": "shamanism-mor",
+                "label": "Shamanism"
+              },
+              {
+                "deckListId": "warriorscode-mor",
+                "label": "Warrior's Code"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Shadowmoor",
+        "subMenus": [
+          {
+            "label": "Shadowmoor",
+            "deckLists": [
+              {
+                "deckListId": "armyofentropy-shm",
+                "label": "Army of Entropy"
+              },
+              {
+                "deckListId": "auramastery-shm",
+                "label": "Aura Mastery"
+              },
+              {
+                "deckListId": "mortalcoil-shm",
+                "label": "Mortal Coil"
+              },
+              {
+                "deckListId": "overkill-shm",
+                "label": "Overkill"
+              },
+              {
+                "deckListId": "turnabout-shm",
+                "label": "Turnabout"
+              }
+            ]
+          },
+          {
+            "label": "Eventide",
+            "deckLists": [
+              {
+                "deckListId": "battleblitz-eve",
+                "label": "Battle Blitz"
+              },
+              {
+                "deckListId": "deathmarch-eve",
+                "label": "Death March"
+              },
+              {
+                "deckListId": "lifedrain-eve",
+                "label": "Life Drain"
+              },
+              {
+                "deckListId": "sidestep-eve",
+                "label": "Sidestep"
+              },
+              {
+                "deckListId": "superabundance-eve",
+                "label": "Superabundance"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Alara",
+        "subMenus": [
+          {
+            "label": "Shards of Alara",
+            "deckLists": [
+              {
+                "deckListId": "bantexalted-ala",
+                "label": "Bant Exalted"
+              },
+              {
+                "deckListId": "esperartifice-ala",
+                "label": "Esper Artifice"
+              },
+              {
+                "deckListId": "grixisundead-ala",
+                "label": "Grixis Undead"
+              },
+              {
+                "deckListId": "nayabehemoths-ala",
+                "label": "Naya Behemoths"
+              },
+              {
+                "deckListId": "primordialjund-ala",
+                "label": "Primordial Jund"
+              }
+            ]
+          },
+          {
+            "label": "Conflux",
+            "deckLists": [
+              {
+                "deckListId": "bantonthemarch-con",
+                "label": "Bant on the March"
+              },
+              {
+                "deckListId": "esperairassault-con",
+                "label": "Esper Air Assault"
+              },
+              {
+                "deckListId": "grixisshamblingarmy-con",
+                "label": "Grixis Shambling Army"
+              },
+              {
+                "deckListId": "jundappetiteforwar-con",
+                "label": "Jund Appetite for War"
+              },
+              {
+                "deckListId": "nayadomain-con",
+                "label": "Naya Domain"
+              }
+            ]
+          },
+          {
+            "label": "Alara Reborn",
+            "deckLists": [
+              {
+                "deckListId": "deadahead-arb",
+                "label": "Dead Ahead"
+              },
+              {
+                "deckListId": "eternalsiege-arb",
+                "label": "Eternal Siege"
+              },
+              {
+                "deckListId": "legionaloft-arb",
+                "label": "Legion Aloft"
+              },
+              {
+                "deckListId": "rumbler-arb",
+                "label": "Rumbler"
+              },
+              {
+                "deckListId": "unnaturalschemes-arb",
+                "label": "Unnatural Schemes"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Zendikar",
+        "subMenus": [
+          {
+            "label": "Zendikar",
+            "deckLists": [
+              {
+                "deckListId": "korarmory-zen",
+                "label": "Kor Armory"
+              },
+              {
+                "deckListId": "pumpedup-zen",
+                "label": "Pumped Up"
+              },
+              {
+                "deckListId": "riseofthevampires-zen",
+                "label": "Rise of the Vampires"
+              },
+              {
+                "deckListId": "theadventurers-zen",
+                "label": "The Adventurers"
+              },
+              {
+                "deckListId": "unstableterrain-zen",
+                "label": "Unstable Terrain"
+              }
+            ]
+          },
+          {
+            "label": "Worldwake",
+            "deckLists": [
+              {
+                "deckListId": "bruteforce-wwk",
+                "label": "Brute Force"
+              },
+              {
+                "deckListId": "fangsofthebloodchief-wwk",
+                "label": "Fangs of the Bloodchief"
+              },
+              {
+                "deckListId": "flyover-wwk",
+                "label": "Flyover"
+              },
+              {
+                "deckListId": "mysteriousrealms-wwk",
+                "label": "Mysterious Realms"
+              },
+              {
+                "deckListId": "rapidfire-wwk",
+                "label": "Rapid Fire"
+              }
+            ]
+          },
+          {
+            "label": "Rise of the Eldrazi",
+            "deckLists": [
+              {
+                "deckListId": "eldraziarisen-roe",
+                "label": "Eldrazi Arisen"
+              },
+              {
+                "deckListId": "invadingspawn-roe",
+                "label": "Invading Spawn"
+              },
+              {
+                "deckListId": "levelersscorn-roe",
+                "label": "Levelers Scorn"
+              },
+              {
+                "deckListId": "levelersglory-roe",
+                "label": "Levelers' Glory"
+              },
+              {
+                "deckListId": "totempower-roe",
+                "label": "Totem Power"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Scars of Mirrodin",
+        "subMenus": [
+          {
+            "label": "Scars of Mirrodin",
+            "deckLists": [
+              {
+                "deckListId": "deadspread-som",
+                "label": "Deadspread"
+              },
+              {
+                "deckListId": "metalcraft-som",
+                "label": "Metalcraft"
+              },
+              {
+                "deckListId": "myrofmirrodin-som",
+                "label": "Myr of Mirrodin"
+              },
+              {
+                "deckListId": "phyrexianpoison-som",
+                "label": "Phyrexian Poison"
+              },
+              {
+                "deckListId": "relicbreaker-som",
+                "label": "Relic Breaker"
+              }
+            ]
+          },
+          {
+            "label": "Mirrodin Besieged",
+            "deckLists": [
+              {
+                "deckListId": "battlecries-mbs",
+                "label": "Battle Cries"
+              },
+              {
+                "deckListId": "doominevitable-mbs",
+                "label": "Doom Inevitable"
+              },
+              {
+                "deckListId": "infectdefile-mbs",
+                "label": "Infect & Defile"
+              },
+              {
+                "deckListId": "intothebreach-mbs",
+                "label": "Into the Breach"
+              },
+              {
+                "deckListId": "mirromancy-mbs",
+                "label": "Mirromancy"
+              },
+              {
+                "deckListId": "pathofblight-mbs",
+                "label": "Path of Blight"
+              }
+            ]
+          },
+          {
+            "label": "New Phyrexia",
+            "deckLists": [
+              {
+                "deckListId": "artfuldestruction-nph",
+                "label": "Artful Destruction"
+              },
+              {
+                "deckListId": "devouringskies-nph",
+                "label": "Devouring Skies"
+              },
+              {
+                "deckListId": "feastofflesh-nph",
+                "label": "Feast of Flesh"
+              },
+              {
+                "deckListId": "lifefordeath-nph",
+                "label": "Life for Death"
+              },
+              {
+                "deckListId": "ravagingswarm-nph",
+                "label": "Ravaging Swarm"
+              },
+              {
+                "deckListId": "rotfromwithin-nph",
+                "label": "Rot from Within"
+              },
+              {
+                "deckListId": "warofattrition-nph",
+                "label": "War of Attrition"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Salvat 2011",
+        "deckLists": [
+          {
+            "deckListId": "clawsofvengeance-ps11",
+            "label": "Claws of Vengeance"
+          },
+          {
+            "deckListId": "criesofrage-ps11",
+            "label": "Cries of Rage"
+          },
+          {
+            "deckListId": "earsoftheelves-ps11",
+            "label": "Ears of the Elves"
+          },
+          {
+            "deckListId": "eonsofevil-ps11",
+            "label": "Eons of Evil"
+          },
+          {
+            "deckListId": "eyesofshadow-ps11",
+            "label": "Eyes of Shadow"
+          },
+          {
+            "deckListId": "fangsofthepredator-ps11",
+            "label": "Fangs of the Predator"
+          },
+          {
+            "deckListId": "handsoffire-ps11",
+            "label": "Hands of Fire"
+          },
+          {
+            "deckListId": "mindofthevoid-ps11",
+            "label": "Mind of the Void"
+          },
+          {
+            "deckListId": "relicsofdoom-ps11",
+            "label": "Relics of Doom"
+          },
+          {
+            "deckListId": "scalesoffury-ps11",
+            "label": "Scales of Fury"
+          },
+          {
+            "deckListId": "thoughtsofthewind-ps11",
+            "label": "Thoughts of the Wind"
+          },
+          {
+            "deckListId": "wingsoflight-ps11",
+            "label": "Wings of Light"
+          }
+        ]
+      },
+      {
+        "label": "Innistrad",
+        "subMenus": [
+          {
+            "label": "Innistrad",
+            "deckLists": [
+              {
+                "deckListId": "carnivalofblood-isd",
+                "label": "Carnival of Blood"
+              },
+              {
+                "deckListId": "deathfed-isd",
+                "label": "Deathfed"
+              },
+              {
+                "deckListId": "deathlydominion-isd",
+                "label": "Deathly Dominion"
+              },
+              {
+                "deckListId": "eldritchonslaught-isd",
+                "label": "Eldritch Onslaught"
+              },
+              {
+                "deckListId": "holdtheline-isd",
+                "label": "Hold The Line"
+              },
+              {
+                "deckListId": "repelthedark-isd",
+                "label": "Repel the Dark"
+              },
+              {
+                "deckListId": "spectrallegions-isd",
+                "label": "Spectral Legions"
+              }
+            ]
+          },
+          {
+            "label": "Dark Ascension",
+            "deckLists": [
+              {
+                "deckListId": "darksacrifice-dka",
+                "label": "Dark Sacrifice"
+              },
+              {
+                "deckListId": "gleefulflames-dka",
+                "label": "Gleeful Flames"
+              },
+              {
+                "deckListId": "gravepower-dka",
+                "label": "Grave Power"
+              },
+              {
+                "deckListId": "monstroussurprise-dka",
+                "label": "Monstrous Surprise"
+              },
+              {
+                "deckListId": "relentlessdead-dka",
+                "label": "Relentless Dead"
+              },
+              {
+                "deckListId": "spiralingdoom-dka",
+                "label": "Spiraling Doom"
+              },
+              {
+                "deckListId": "swiftjustice-dka",
+                "label": "Swift Justice"
+              }
+            ]
+          },
+          {
+            "label": "Avacyn Restored",
+            "deckLists": [
+              {
+                "deckListId": "angelicmight-avr",
+                "label": "Angelic Might"
+              },
+              {
+                "deckListId": "boundbystrength-avr",
+                "label": "Bound by Strength"
+              },
+              {
+                "deckListId": "deathsencroach-avr",
+                "label": "Death's Encroach"
+              },
+              {
+                "deckListId": "fierydawn-avr",
+                "label": "Fiery Dawn"
+              },
+              {
+                "deckListId": "humanitysvengeance-avr",
+                "label": "Humanity's Vengeance"
+              },
+              {
+                "deckListId": "slaughterhouse-avr",
+                "label": "Slaughterhouse"
+              },
+              {
+                "deckListId": "solitaryfiends-avr",
+                "label": "Solitary Fiends"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Return to Ravnica",
+        "subMenus": [
+          {
+            "label": "Return to Ravnica",
+            "deckLists": [
+              {
+                "deckListId": "azoriusadvance-rtr",
+                "label": "Azorius Advance"
+              },
+              {
+                "deckListId": "creepandconquer-rtr",
+                "label": "Creep and Conquer"
+              },
+              {
+                "deckListId": "golgarigrowth-rtr",
+                "label": "Golgari Growth"
+              },
+              {
+                "deckListId": "izzetingenuity-rtr",
+                "label": "Izzet Ingenuity"
+              },
+              {
+                "deckListId": "rakdosraid-rtr",
+                "label": "Rakdos Raid"
+              },
+              {
+                "deckListId": "selesnyasurge-rtr",
+                "label": "Selesnya Surge"
+              },
+              {
+                "deckListId": "wrackandrage-rtr",
+                "label": "Wrack and Rage"
+              }
+            ]
+          },
+          {
+            "label": "Gatecrash",
+            "deckLists": [
+              {
+                "deckListId": "boosterbattlepackboros-gtc",
+                "label": "Booster Battle Pack: Boros"
+              },
+              {
+                "deckListId": "boosterbattlepackdimir-gtc",
+                "label": "Booster Battle Pack: Dimir"
+              },
+              {
+                "deckListId": "boosterbattlepackgruul-gtc",
+                "label": "Booster Battle Pack: Gruul"
+              },
+              {
+                "deckListId": "boosterbattlepackorzhov-gtc",
+                "label": "Booster Battle Pack: Orzhov"
+              },
+              {
+                "deckListId": "boosterbattlepacksimic-gtc",
+                "label": "Booster Battle Pack: Simic"
+              },
+              {
+                "deckListId": "borosbattalion-gtc",
+                "label": "Boros Battalion"
+              },
+              {
+                "deckListId": "dimirdementia-gtc",
+                "label": "Dimir Dementia"
+              },
+              {
+                "deckListId": "gruulgoliaths-gtc",
+                "label": "Gruul Goliaths"
+              },
+              {
+                "deckListId": "orzhovoppression-gtc",
+                "label": "Orzhov Oppression"
+              },
+              {
+                "deckListId": "rallyandrout-gtc",
+                "label": "Rally and Rout"
+              },
+              {
+                "deckListId": "simicsynthesis-gtc",
+                "label": "Simic Synthesis"
+              },
+              {
+                "deckListId": "thriveandthrash-gtc",
+                "label": "Thrive and Thrash"
+              }
+            ]
+          },
+          {
+            "label": "Dragon's Maze",
+            "deckLists": [
+              {
+                "deckListId": "azoriusauthority-dgm",
+                "label": "Azorius Authority"
+              },
+              {
+                "deckListId": "gruulsiege-dgm",
+                "label": "Gruul Siege"
+              },
+              {
+                "deckListId": "orzhovpower-dgm",
+                "label": "Orzhov Power"
+              },
+              {
+                "deckListId": "rakdosrevelry-dgm",
+                "label": "Rakdos Revelry"
+              },
+              {
+                "deckListId": "simicdomination-dgm",
+                "label": "Simic Domination"
+              },
+              {
+                "deckListId": "strengthofselesnya-dgm",
+                "label": "Strength Of Selesnya"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Theros",
+        "subMenus": [
+          {
+            "label": "Theros",
+            "deckLists": [
+              {
+                "deckListId": "anthousasarmy-ths",
+                "label": "Anthousa's Army"
+              },
+              {
+                "deckListId": "blazingbeastsofmyth-ths",
+                "label": "Blazing Beasts of Myth"
+              },
+              {
+                "deckListId": "devotiontodarkness-ths",
+                "label": "Devotion to Darkness"
+              },
+              {
+                "deckListId": "favorsfromnyx-ths",
+                "label": "Favors From Nyx"
+              },
+              {
+                "deckListId": "inspiringheroics-ths",
+                "label": "Inspiring Heroics"
+              },
+              {
+                "deckListId": "manipulativemonstrosities-ths",
+                "label": "Manipulative Monstrosities"
+              }
+            ]
+          },
+          {
+            "label": "Face the Hydra",
+            "deckLists": [
+              {
+                "deckListId": "facethehydra-tfth",
+                "label": "Face the Hydra"
+              }
+            ]
+          },
+          {
+            "label": "Born of the Gods",
+            "deckLists": [
+              {
+                "deckListId": "deathsbeginning-bng",
+                "label": "Death's Beginning"
+              },
+              {
+                "deckListId": "forgedinbattle-bng",
+                "label": "Forged in Battle"
+              },
+              {
+                "deckListId": "giftsofthegods-bng",
+                "label": "Gifts of the Gods"
+              },
+              {
+                "deckListId": "insatiablehunger-bng",
+                "label": "Insatiable Hunger"
+              },
+              {
+                "deckListId": "inspirationstruck-bng",
+                "label": "Inspiration-Struck"
+              },
+              {
+                "deckListId": "underworldherald-bng",
+                "label": "Underworld Herald"
+              }
+            ]
+          },
+          {
+            "label": "Battle the Horde",
+            "deckLists": [
+              {
+                "deckListId": "battlethehorde-tbth",
+                "label": "Battle the Horde"
+              }
+            ]
+          },
+          {
+            "label": "Journey into Nyx",
+            "deckLists": [
+              {
+                "deckListId": "fatesforeseen-jou",
+                "label": "Fates Foreseen"
+              },
+              {
+                "deckListId": "mortalsofmyth-jou",
+                "label": "Mortals of Myth"
+              },
+              {
+                "deckListId": "pantheonspower-jou",
+                "label": "Pantheon's Power"
+              },
+              {
+                "deckListId": "thewildsandthedeep-jou",
+                "label": "The Wilds and the Deep"
+              },
+              {
+                "deckListId": "voraciousrage-jou",
+                "label": "Voracious Rage"
+              },
+              {
+                "deckListId": "wrathofthemortals-jou",
+                "label": "Wrath of the Mortals"
+              }
+            ]
+          },
+          {
+            "label": "Defeat a God",
+            "deckLists": [
+              {
+                "deckListId": "defeatagod-tdag",
+                "label": "Defeat a God"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Khans of Tarkir",
+        "subMenus": [
+          {
+            "label": "Khans of Tarkir",
+            "deckLists": [
+              {
+                "deckListId": "abzansiege-ktk",
+                "label": "Abzan Siege"
+              },
+              {
+                "deckListId": "conqueringhordes-ktk",
+                "label": "Conquering Hordes"
+              },
+              {
+                "deckListId": "jeskaimonks-ktk",
+                "label": "Jeskai Monks"
+              },
+              {
+                "deckListId": "marduraiders-ktk",
+                "label": "Mardu Raiders"
+              },
+              {
+                "deckListId": "sultaischemers-ktk",
+                "label": "Sultai Schemers"
+              },
+              {
+                "deckListId": "temuravalanche-ktk",
+                "label": "Temur Avalanche"
+              }
+            ]
+          },
+          {
+            "label": "Fate Reforged",
+            "deckLists": [
+              {
+                "deckListId": "cunningplan-frf",
+                "label": "Cunning Plan"
+              },
+              {
+                "deckListId": "graveadvantage-frf",
+                "label": "Grave Advantage"
+              },
+              {
+                "deckListId": "power-frf",
+                "label": "Power"
+              },
+              {
+                "deckListId": "powerandprofit-frf",
+                "label": "Power and Profit"
+              },
+              {
+                "deckListId": "profit-frf",
+                "label": "Profit"
+              },
+              {
+                "deckListId": "stampedinghordes-frf",
+                "label": "Stampeding Hordes"
+              },
+              {
+                "deckListId": "surpriseattack-frf",
+                "label": "Surprise Attack"
+              },
+              {
+                "deckListId": "unflinchingassault-frf",
+                "label": "Unflinching Assault"
+              }
+            ]
+          },
+          {
+            "label": "Dragons of Tarkir",
+            "deckLists": [
+              {
+                "deckListId": "cruelplots-dtk",
+                "label": "Cruel Plots"
+              },
+              {
+                "deckListId": "enlightenedmastery-dtk",
+                "label": "Enlightened Mastery"
+              },
+              {
+                "deckListId": "furiousforces-dtk",
+                "label": "Furious Forces"
+              },
+              {
+                "deckListId": "landslidecharge-dtk",
+                "label": "Landslide Charge"
+              },
+              {
+                "deckListId": "massedranks-dtk",
+                "label": "Massed Ranks"
+              },
+              {
+                "deckListId": "relentlessrush-dtk",
+                "label": "Relentless Rush"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Battle for Zendikar",
+        "subMenus": [
+          {
+            "label": "Battle for Zendikar",
+            "deckLists": [
+              {
+                "deckListId": "callofblood-bfz",
+                "label": "Call of Blood"
+              },
+              {
+                "deckListId": "eldraziassault-bfz",
+                "label": "Eldrazi Assault"
+              },
+              {
+                "deckListId": "rallyingcry-bfz",
+                "label": "Rallying Cry"
+              },
+              {
+                "deckListId": "swarminginstinct-bfz",
+                "label": "Swarming Instinct"
+              },
+              {
+                "deckListId": "ultimatesacrifice-bfz",
+                "label": "Ultimate Sacrifice"
+              },
+              {
+                "deckListId": "zendikarsrage-bfz",
+                "label": "Zendikar's Rage"
+              }
+            ]
+          },
+          {
+            "label": "Oath of the Gatewatch",
+            "deckLists": [
+              {
+                "deckListId": "concertedeffort-ogw",
+                "label": "Concerted Effort"
+              },
+              {
+                "deckListId": "desperatestand-ogw",
+                "label": "Desperate Stand"
+              },
+              {
+                "deckListId": "surgeofresistance-ogw",
+                "label": "Surge of Resistance"
+              },
+              {
+                "deckListId": "twistedreality-ogw",
+                "label": "Twisted Reality"
+              },
+              {
+                "deckListId": "viciouscycle-ogw",
+                "label": "Vicious Cycle"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Shadows over Innistrad",
+        "subMenus": [
+          {
+            "label": "Shadows over Innistrad",
+            "deckLists": [
+              {
+                "deckListId": "angelicfury-soi",
+                "label": "Angelic Fury"
+              },
+              {
+                "deckListId": "ghostlytide-soi",
+                "label": "Ghostly Tide"
+              },
+              {
+                "deckListId": "horrificvisions-soi",
+                "label": "Horrific Visions"
+              },
+              {
+                "deckListId": "unearthedsecrets-soi",
+                "label": "Unearthed Secrets"
+              },
+              {
+                "deckListId": "vampiricthirst-soi",
+                "label": "Vampiric Thirst"
+              }
+            ]
+          },
+          {
+            "label": "Eldritch Moon",
+            "deckLists": [
+              {
+                "deckListId": "dangerousknowledge-emn",
+                "label": "Dangerous Knowledge"
+              },
+              {
+                "deckListId": "shallowgraves-emn",
+                "label": "Shallow Graves"
+              },
+              {
+                "deckListId": "unlikelyalliances-emn",
+                "label": "Unlikely Alliances"
+              },
+              {
+                "deckListId": "untamedwild-emn",
+                "label": "Untamed Wild"
+              },
+              {
+                "deckListId": "weaponsandwards-emn",
+                "label": "Weapons and Wards"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Welcome Deck 2016",
+        "deckLists": [
+          {
+            "deckListId": "blackdeck-w16",
+            "label": "Black Deck"
+          },
+          {
+            "deckListId": "bluedeck-w16",
+            "label": "Blue Deck"
+          },
+          {
+            "deckListId": "greendeck-w16",
+            "label": "Green Deck"
+          },
+          {
+            "deckListId": "reddeck-w16",
+            "label": "Red Deck"
+          },
+          {
+            "deckListId": "whitedeck-w16",
+            "label": "White Deck"
+          }
+        ]
+      },
+      {
+        "label": "Kaladesh",
+        "subMenus": [
+          {
+            "label": "Kaladesh",
+            "deckLists": [
+              {
+                "deckListId": "chandrapyrogenius-kld",
+                "label": "Chandra, Pyrogenius"
+              },
+              {
+                "deckListId": "nissanaturesartisan-kld",
+                "label": "Nissa, Nature's Artisan"
+              }
+            ]
+          },
+          {
+            "label": "Aether Revolt",
+            "deckLists": [
+              {
+                "deckListId": "ajanivaliantprotector-aer",
+                "label": "Ajani, Valiant Protector"
+              },
+              {
+                "deckListId": "tezzeretmasterofmetal-aer",
+                "label": "Tezzeret, Master of Metal"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Welcome Deck 2017",
+        "deckLists": [
+          {
+            "deckListId": "amonkhetwelcomedeckblack-w17",
+            "label": "Amonkhet Welcome Deck - Black"
+          },
+          {
+            "deckListId": "amonkhetwelcomedeckblue-w17",
+            "label": "Amonkhet Welcome Deck - Blue"
+          },
+          {
+            "deckListId": "amonkhetwelcomedeckgreen-w17",
+            "label": "Amonkhet Welcome Deck - Green"
+          },
+          {
+            "deckListId": "amonkhetwelcomedeckred-w17",
+            "label": "Amonkhet Welcome Deck - Red"
+          },
+          {
+            "deckListId": "amonkhetwelcomedeckwhite-w17",
+            "label": "Amonkhet Welcome Deck - White"
+          }
+        ]
+      },
+      {
+        "label": "Amonkhet",
+        "subMenus": [
+          {
+            "label": "Amonkhet",
+            "deckLists": [
+              {
+                "deckListId": "gideonmartialparagon-akh",
+                "label": "Gideon, Martial Paragon"
+              },
+              {
+                "deckListId": "lilianadeathwielder-akh",
+                "label": "Liliana, Death Wielder"
+              }
+            ]
+          },
+          {
+            "label": "Hour of Devastation",
+            "deckLists": [
+              {
+                "deckListId": "nicolbolasthedeceiver-hou",
+                "label": "Nicol Bolas, the Deceiver"
+              },
+              {
+                "deckListId": "nissagenesismage-hou",
+                "label": "Nissa, Genesis Mage"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Ixalan",
+        "subMenus": [
+          {
+            "label": "Ixalan",
+            "deckLists": [
+              {
+                "deckListId": "huatlidinosaurknight-xln",
+                "label": "Huatli, Dinosaur Knight"
+              },
+              {
+                "deckListId": "jaceingeniousmindmage-xln",
+                "label": "Jace, Ingenious Mind Mage"
+              }
+            ]
+          },
+          {
+            "label": "Rivals of Ixalan",
+            "deckLists": [
+              {
+                "deckListId": "angrathminotaurpirate-rix",
+                "label": "Angrath, Minotaur Pirate"
+              },
+              {
+                "deckListId": "vraskascheminggorgon-rix",
+                "label": "Vraska, Scheming Gorgon"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Explorers of Ixalan",
+        "deckLists": [
+          {
+            "deckListId": "brazencoalition-e02",
+            "label": "Brazen Coalition"
+          },
+          {
+            "deckListId": "legionofdusk-e02",
+            "label": "Legion of Dusk"
+          },
+          {
+            "deckListId": "riverheralds-e02",
+            "label": "River Heralds"
+          },
+          {
+            "deckListId": "sunempire-e02",
+            "label": "Sun Empire"
+          }
+        ]
+      },
+      {
+        "label": "Challenger Decks 2018",
+        "deckLists": [
+          {
+            "deckListId": "countersurge-q01",
+            "label": "Counter Surge"
+          },
+          {
+            "deckListId": "hazoretaggro-q01",
+            "label": "Hazoret Aggro"
+          },
+          {
+            "deckListId": "secondsuncontrol-q01",
+            "label": "Second Sun Control"
+          },
+          {
+            "deckListId": "vehiclerush-q01",
+            "label": "Vehicle Rush"
+          }
+        ]
+      },
+      {
+        "label": "Dominaria",
+        "deckLists": [
+          {
+            "deckListId": "chandraboldpyromancer-dom",
+            "label": "Chandra, Bold Pyromancer"
+          },
+          {
+            "deckListId": "teferitimebender-dom",
+            "label": "Teferi, Timebender"
+          }
+        ]
+      },
+      {
+        "label": "Global Series Jiang Yanggu & Mu Yanling",
+        "deckLists": [
+          {
+            "deckListId": "jiangyanggu-gs1",
+            "label": "Jiang Yanggu"
+          },
+          {
+            "deckListId": "muyanling-gs1",
+            "label": "Mu Yanling"
+          }
+        ]
+      },
+      {
+        "label": "Guilds of Ravnica",
+        "subMenus": [
+          {
+            "label": "Guilds of Ravnica",
+            "deckLists": [
+              {
+                "deckListId": "ralcallerofstorms-grn",
+                "label": "Ral, Caller of Storms"
+              },
+              {
+                "deckListId": "vraskaregalgorgon-grn",
+                "label": "Vraska, Regal Gorgon"
+              }
+            ]
+          },
+          {
+            "label": "Ravnica Allegiance",
+            "deckLists": [
+              {
+                "deckListId": "domricitysmasher-rna",
+                "label": "Domri, City Smasher"
+              },
+              {
+                "deckListId": "dovinarchitectoflaw-rna",
+                "label": "Dovin, Architect of Law"
+              }
+            ]
+          },
+          {
+            "label": "War of the Spark",
+            "deckLists": [
+              {
+                "deckListId": "gideontheoathsworn-war",
+                "label": "Gideon, the Oathsworn"
+              },
+              {
+                "deckListId": "jacearcanestrategist-war",
+                "label": "Jace, Arcane Strategist"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "GRN Guild Kit",
+        "deckLists": [
+          {
+            "deckListId": "boros-gk1",
+            "label": "Boros"
+          },
+          {
+            "deckListId": "dimir-gk1",
+            "label": "Dimir"
+          },
+          {
+            "deckListId": "golgari-gk1",
+            "label": "Golgari"
+          },
+          {
+            "deckListId": "izzet-gk1",
+            "label": "Izzet"
+          },
+          {
+            "deckListId": "selesnya-gk1",
+            "label": "Selesnya"
+          }
+        ]
+      },
+      {
+        "label": "Game Night",
+        "deckLists": [
+          {
+            "deckListId": "black-gnt",
+            "label": "Black"
+          },
+          {
+            "deckListId": "blue-gnt",
+            "label": "Blue"
+          },
+          {
+            "deckListId": "green-gnt",
+            "label": "Green"
+          },
+          {
+            "deckListId": "red-gnt",
+            "label": "Red"
+          },
+          {
+            "deckListId": "white-gnt",
+            "label": "White"
+          }
+        ]
+      },
+      {
+        "label": "RNA Guild Kit",
+        "deckLists": [
+          {
+            "deckListId": "azorius-gk2",
+            "label": "Azorius"
+          },
+          {
+            "deckListId": "gruul-gk2",
+            "label": "Gruul"
+          },
+          {
+            "deckListId": "orzhov-gk2",
+            "label": "Orzhov"
+          },
+          {
+            "deckListId": "rakdos-gk2",
+            "label": "Rakdos"
+          },
+          {
+            "deckListId": "simic-gk2",
+            "label": "Simic"
+          }
+        ]
+      },
+      {
+        "label": "Challenger Decks 2019",
+        "deckLists": [
+          {
+            "deckListId": "arcanetempo-q02",
+            "label": "Arcane Tempo"
+          },
+          {
+            "deckListId": "deadlydiscovery-q02",
+            "label": "Deadly Discovery"
+          },
+          {
+            "deckListId": "lightningaggro-q02",
+            "label": "Lightning Aggro"
+          },
+          {
+            "deckListId": "unitedassault-q02",
+            "label": "United Assault"
+          }
+        ]
+      },
+      {
+        "label": "Throne of Eldraine",
+        "deckLists": [
+          {
+            "deckListId": "okothetrickster-eld",
+            "label": "Oko, the Trickster"
+          },
+          {
+            "deckListId": "rowanfearlesssparkmage-eld",
+            "label": "Rowan, Fearless Sparkmage"
+          }
+        ]
+      },
+      {
+        "label": "Challenger Decks 2019 Japan",
+        "deckLists": [
+          {
+            "deckListId": "awakeningearth-q03",
+            "label": "Awakening Earth"
+          },
+          {
+            "deckListId": "songdance-q03",
+            "label": "Song Dance"
+          }
+        ]
+      },
+      {
+        "label": "Game Night 2019",
+        "deckLists": [
+          {
+            "deckListId": "aerialacrobatics-gn2",
+            "label": "Aerial Acrobatics"
+          },
+          {
+            "deckListId": "draconicfury-gn2",
+            "label": "Draconic Fury"
+          },
+          {
+            "deckListId": "endlesshordes-gn2",
+            "label": "Endless Hordes"
+          },
+          {
+            "deckListId": "gloriouscombat-gn2",
+            "label": "Glorious Combat"
+          },
+          {
+            "deckListId": "massivemight-gn2",
+            "label": "Massive Might"
+          }
+        ]
+      },
+      {
+        "label": "Theros Beyond Death",
+        "deckLists": [
+          {
+            "deckListId": "ashiok-thb",
+            "label": "Ashiok"
+          },
+          {
+            "deckListId": "elspeth-thb",
+            "label": "Elspeth"
+          }
+        ]
+      },
+      {
+        "label": "Challenger Decks 2020",
+        "deckLists": [
+          {
+            "deckListId": "alliedfires-q04",
+            "label": "Allied Fires"
+          },
+          {
+            "deckListId": "cavalcadecharge-q04",
+            "label": "Cavalcade Charge"
+          },
+          {
+            "deckListId": "finaladventure-q04",
+            "label": "Final Adventure"
+          },
+          {
+            "deckListId": "flashofferocity-q04",
+            "label": "Flash of Ferocity"
+          }
+        ]
+      },
+      {
+        "label": "Zendikar Rising",
+        "deckLists": [
+          {
+            "deckListId": "zendikarrisingwelcomebooster-znr",
+            "label": "Zendikar Rising Welcome Booster"
+          }
+        ]
+      },
+      {
+        "label": "Challenger Decks 2021",
+        "deckLists": [
+          {
+            "deckListId": "azoriuscontrol-q05",
+            "label": "Azorius Control"
+          },
+          {
+            "deckListId": "dimirrogue-q05",
+            "label": "Dimir Rogue"
+          },
+          {
+            "deckListId": "monogreenstompy-q05",
+            "label": "Mono-Green Stompy"
+          },
+          {
+            "deckListId": "monoredaggro-q05",
+            "label": "Mono-Red Aggro"
+          }
+        ]
+      },
+      {
+        "label": "Adventures in the Forgotten Realms",
+        "deckLists": [
+          {
+            "deckListId": "adventuresintheforgottenrealmswelcomebooster-afr",
+            "label": "Adventures in the Forgotten Realms Welcome Booster"
+          }
+        ]
+      },
+      {
+        "label": "Innistrad: Double Feature",
+        "subMenus": [
+          {
+            "label": "Innistrad: Midnight Hunt",
+            "deckLists": [
+              {
+                "deckListId": "innistradmidnighthuntwelcomebooster-mid",
+                "label": "Innistrad: Midnight Hunt Welcome Booster"
+              }
+            ]
+          },
+          {
+            "label": "Innistrad: Crimson Vow",
+            "deckLists": [
+              {
+                "deckListId": "innistradcrimsonvowwelcomebooster-vow",
+                "label": "Innistrad: Crimson Vow Welcome Booster"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Pioneer Challenger Decks 2021",
+        "deckLists": [
+          {
+            "deckListId": "azoriusspirits-q06",
+            "label": "Azorius Spirits"
+          },
+          {
+            "deckListId": "lotusfieldcombo-q06",
+            "label": "Lotus Field Combo"
+          },
+          {
+            "deckListId": "monoredburn-q06",
+            "label": "Mono-Red Burn"
+          },
+          {
+            "deckListId": "orzhovauras-q06",
+            "label": "Orzhov Auras"
+          }
+        ]
+      },
+      {
+        "label": "Kamigawa: Neon Dynasty",
+        "deckLists": [
+          {
+            "deckListId": "kamigawaneondynastywelcomebooster-neo",
+            "label": "Kamigawa: Neon Dynasty Welcome Booster"
+          }
+        ]
+      },
+      {
+        "label": "Challenger Decks 2022",
+        "deckLists": [
+          {
+            "deckListId": "dimircontrol-q07",
+            "label": "Dimir Control"
+          },
+          {
+            "deckListId": "gruulstompy-q07",
+            "label": "Gruul Stompy"
+          },
+          {
+            "deckListId": "monowhiteaggro-q07",
+            "label": "Mono White Aggro"
+          },
+          {
+            "deckListId": "rakdosvampires-q07",
+            "label": "Rakdos Vampires"
+          }
+        ]
+      },
+      {
+        "label": "Streets of New Capenna",
+        "deckLists": [
+          {
+            "deckListId": "earthshakers-snc",
+            "label": "Earth Shakers"
+          },
+          {
+            "deckListId": "streetsofnewcapennawelcomebooster-snc",
+            "label": "Streets of New Capenna Welcome Booster"
+          },
+          {
+            "deckListId": "upandaway-snc",
+            "label": "Up and Away"
+          }
+        ]
+      },
+      {
+        "label": "Dominaria United",
+        "deckLists": [
+          {
+            "deckListId": "dominariaunitedwelcomebooster-dmu",
+            "label": "Dominaria United Welcome Booster"
+          }
+        ]
+      },
+      {
+        "label": "Game Night: Free-for-All",
+        "deckLists": [
+          {
+            "deckListId": "boundlesselves-gn3",
+            "label": "Boundless Elves"
+          },
+          {
+            "deckListId": "darksacrifice-gn3",
+            "label": "Dark Sacrifice"
+          },
+          {
+            "deckListId": "draconicfury-gn3",
+            "label": "Draconic Fury"
+          },
+          {
+            "deckListId": "gloriouscombat-gn3",
+            "label": "Glorious Combat"
+          },
+          {
+            "deckListId": "politicaltrickery-gn3",
+            "label": "Political Trickery"
+          }
+        ]
+      },
+      {
+        "label": "Pioneer Challenger Decks 2022",
+        "deckLists": [
+          {
+            "deckListId": "dimircontrol-q08",
+            "label": "Dimir Control"
+          },
+          {
+            "deckListId": "gruulstompy-q08",
+            "label": "Gruul Stompy"
+          },
+          {
+            "deckListId": "izzetphoenix-q08",
+            "label": "Izzet Phoenix"
+          },
+          {
+            "deckListId": "orzhovhumans-q08",
+            "label": "Orzhov Humans"
+          }
+        ]
+      },
+      {
+        "label": "Phyrexia: All Will Be One",
+        "deckLists": [
+          {
+            "deckListId": "phyrexiaallwillbeonewelcomebooster-one",
+            "label": "Phyrexia: All Will Be One Welcome Booster"
+          }
+        ]
+      },
+      {
+        "label": "March of the Machine",
+        "deckLists": [
+          {
+            "deckListId": "marchofthemachinewelcomebooster-mom",
+            "label": "March of the Machine Welcome Booster"
+          }
+        ]
+      },
+      {
+        "label": "The Lord of the Rings: Tales of Middle-earth",
+        "deckLists": [
+          {
+            "deckListId": "gondorgreenwhite-ltr",
+            "label": "Gondor: Green-White"
+          },
+          {
+            "deckListId": "mordorblackred-ltr",
+            "label": "Mordor: Black-Red"
+          }
+        ]
+      },
+      {
+        "label": "Wilds of Eldraine",
+        "deckLists": [
+          {
+            "deckListId": "backupbeatdown-woe",
+            "label": "Backup Beatdown"
+          },
+          {
+            "deckListId": "dayofthedragon-woe",
+            "label": "Day of the Dragon"
+          }
+        ]
+      },
+      {
+        "label": "Assassin's Creed",
+        "deckLists": [
+          {
+            "deckListId": "ancientarsenal-acr",
+            "label": "Ancient Arsenal"
+          },
+          {
+            "deckListId": "brotherhoodagents-acr",
+            "label": "Brotherhood Agents"
+          }
+        ]
+      },
+      {
+        "label": "Bloomburrow",
+        "deckLists": [
+          {
+            "deckListId": "hareraising-blb",
+            "label": "Hare Raising"
+          },
+          {
+            "deckListId": "otterlimits-blb",
+            "label": "Otter Limits"
+          }
+        ]
+      },
+      {
+        "label": "Duskmourn: House of Horror",
+        "deckLists": [
+          {
+            "deckListId": "blackdeck-dsk",
+            "label": "Black Deck"
+          },
+          {
+            "deckListId": "bluedeck-dsk",
+            "label": "Blue Deck"
+          },
+          {
+            "deckListId": "greendeck-dsk",
+            "label": "Green Deck"
+          },
+          {
+            "deckListId": "reddeck-dsk",
+            "label": "Red Deck"
+          },
+          {
+            "deckListId": "whitedeck-dsk",
+            "label": "White Deck"
+          }
+        ]
+      },
+      {
+        "label": "Final Fantasy",
+        "deckLists": [
+          {
+            "deckListId": "blueblack-fin",
+            "label": "Blue-Black"
+          },
+          {
+            "deckListId": "redwhite-fin",
+            "label": "Red-White"
+          }
+        ]
+      },
+      {
+        "label": "Marvel's Spider-Man",
+        "deckLists": [
+          {
+            "deckListId": "blackdeck-spm",
+            "label": "Black Deck"
+          },
+          {
+            "deckListId": "bluedeck-spm",
+            "label": "Blue Deck"
+          },
+          {
+            "deckListId": "greendeck-spm",
+            "label": "Green Deck"
+          },
+          {
+            "deckListId": "reddeck-spm",
+            "label": "Red Deck"
+          },
+          {
+            "deckListId": "whitedeck-spm",
+            "label": "White Deck"
+          }
+        ]
+      },
+      {
+        "label": "Lorwyn Eclipsed",
+        "deckLists": [
+          {
+            "deckListId": "angels-ecl",
+            "label": "Angels"
+          },
+          {
+            "deckListId": "pirates-ecl",
+            "label": "Pirates"
+          }
+        ]
+      },
+      {
+        "label": "Teenage Mutant Ninja Turtles",
+        "deckLists": [
+          {
+            "deckListId": "donatello-tmt",
+            "label": "Donatello"
+          },
+          {
+            "deckListId": "leonardo-tmt",
+            "label": "Leonardo"
+          },
+          {
+            "deckListId": "michealangelo-tmt",
+            "label": "Michealangelo"
+          },
+          {
+            "deckListId": "raphael-tmt",
+            "label": "Raphael"
+          }
+        ]
+      },
+      {
+        "label": "Secrets of Strixhaven",
+        "deckLists": [
+          {
+            "deckListId": "blackdeck-sos",
+            "label": "Black Deck"
+          },
+          {
+            "deckListId": "bluedeck-sos",
+            "label": "Blue Deck"
+          },
+          {
+            "deckListId": "eerie-sos",
+            "label": "Eerie"
+          },
+          {
+            "deckListId": "greendeck-sos",
+            "label": "Green Deck"
+          },
+          {
+            "deckListId": "lifegain-sos",
+            "label": "Lifegain"
+          },
+          {
+            "deckListId": "reddeck-sos",
+            "label": "Red Deck"
+          },
+          {
+            "deckListId": "whitedeck-sos",
+            "label": "White Deck"
+          }
+        ]
+      },
+      {
+        "label": "Marvel Super Heroes",
+        "deckLists": [
+          {
+            "deckListId": "blackdeck-msh",
+            "label": "Black Deck"
+          },
+          {
+            "deckListId": "bluedeck-msh",
+            "label": "Blue Deck"
+          },
+          {
+            "deckListId": "greendeck-msh",
+            "label": "Green Deck"
+          },
+          {
+            "deckListId": "reddeck-msh",
+            "label": "Red Deck"
+          },
+          {
+            "deckListId": "whitedeck-msh",
+            "label": "White Deck"
+          }
+        ]
+      },
+      {
+        "label": "The Hobbit",
+        "deckLists": [
+          {
+            "deckListId": "blackdeck-hob",
+            "label": "Black Deck"
+          },
+          {
+            "deckListId": "bluedeck-hob",
+            "label": "Blue Deck"
+          },
+          {
+            "deckListId": "greendeck-hob",
+            "label": "Green Deck"
+          },
+          {
+            "deckListId": "reddeck-hob",
+            "label": "Red Deck"
+          },
+          {
+            "deckListId": "whitedeck-hob",
+            "label": "White Deck"
+          }
+        ]
+      }
+    ]
+  }
+}

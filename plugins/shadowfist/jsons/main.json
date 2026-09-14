@@ -1,0 +1,12 @@
+{
+  "pluginName": "Shadowfist",
+  "author": "Lackey / NoSoup4you",
+  "tutorialUrl": "https://github.com/NoSoup4you/Shadowfist-LackeyCCG",
+  "announcements": [
+    "Tabletop plugin from the Lackey Shadowfist set. No rules engine — Sites, Edges, Smoked, Toasted, and Burned for Victory are shortcuts.",
+    "D = draw. E = turn. K / R = unturn. P = Power +1. X = smoke. G = d20."
+  ],
+  "loadPreBuiltOnNewGame": false,
+  "bannerUrl": "https://toybox.hundredacre.club/cards/shadowfist/_plugin/banner2.jpg",
+  "logoUrl": "https://toybox.hundredacre.club/cards/shadowfist/_plugin/logo2.jpg"
+}

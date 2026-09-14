@@ -1,0 +1,21 @@
+{
+  "steps": {
+    "playStep": {
+      "phaseId": "play",
+      "label": "Play"
+    },
+    "combatStep": {
+      "phaseId": "combat",
+      "label": "Combat"
+    },
+    "questStep": {
+      "phaseId": "quest",
+      "label": "Quest"
+    }
+  },
+  "stepOrder": [
+    "playStep",
+    "combatStep",
+    "questStep"
+  ]
+}

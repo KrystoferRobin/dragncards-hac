@@ -1,0 +1,10 @@
+Built 2026-09-11 05:59 UTC from LackeyCCG RobotechCCG.
+Source: /Volumes/Expand/MegaNZ/LackeyCCG/plugins/RobotechCCG
+Art: GitHub wishmstr/RobotechCCG raw setimages.
+Author credit: Lackey / wishmstr
+
+Tabletop plugin only — Lackey has no rules engine to port.
+TSV rows: 256  missing image URLs: 0
+Prebuilts: 7 Lackey starter decks.
+Drop banner.jpg and logo.jpg into images/robotech-ccg/_plugin/.
+Collected 2026-09-11: card art + back retargeted to toybox.

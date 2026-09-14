@@ -1,0 +1,60 @@
+{
+  "hotkeys": {
+    "game": [
+      {
+        "key": "D",
+        "actionList": "drawDeck",
+        "label": "Draw"
+      },
+      {
+        "key": "R",
+        "actionList": "readyAll",
+        "label": "Ready all"
+      },
+      {
+        "key": "S",
+        "actionList": "shuffleDeck",
+        "label": "Shuffle"
+      }
+    ],
+    "card": [
+      {
+        "key": "E",
+        "actionList": "spendCard",
+        "label": "Exert"
+      },
+      {
+        "key": "U",
+        "actionList": "readyCard",
+        "label": "Ready"
+      },
+      {
+        "key": "F",
+        "actionList": "flipCard",
+        "label": "Flip"
+      },
+      {
+        "key": "X",
+        "actionList": "discardCard",
+        "label": "Discard"
+      },
+      {
+        "key": "A",
+        "actionList": "detachCard",
+        "label": "Detach"
+      }
+    ],
+    "token": [
+      {
+        "key": "1",
+        "tokenType": "plus",
+        "label": "+1"
+      },
+      {
+        "key": "2",
+        "tokenType": "damage",
+        "label": "Damage"
+      }
+    ]
+  }
+}

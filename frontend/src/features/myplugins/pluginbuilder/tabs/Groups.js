@@ -8,7 +8,13 @@ export const Groups = ({ inputs, setInputs }) => {
   const groups = inputs.groups || [];
   const maxPlayers = inputs.maxPlayers || 2;
 
-  const controllerOptions = ["shared", ...Array.from({ length: maxPlayers }, (_, i) => `player${i + 1}`)];
+  const controllerOptions = Array.from(
+    new Set([
+      "shared",
+      ...Array.from({ length: maxPlayers }, (_, i) => `player${i + 1}`),
+      ...groups.map((group) => group.controller).filter(Boolean),
+    ])
+  );
 
   useEffect(() => {
     if (!inputs.groups || inputs.groups.length === 0) {
@@ -98,7 +104,16 @@ export const Groups = ({ inputs, setInputs }) => {
     }));
   };
 
-  const groupTypes = ["Deck", "Discard", "Hand", "In Play", "Aside"];
+  const groupTypes = Array.from(
+    new Set([
+      "Deck",
+      "Discard",
+      "Hand",
+      "In Play",
+      "Aside",
+      ...groups.map((group) => group.groupType).filter(Boolean),
+    ])
+  );
 
   return (
     <div className="w-full max-w-5xl p-6 m-4 bg-gray-800 rounded-lg text-white">

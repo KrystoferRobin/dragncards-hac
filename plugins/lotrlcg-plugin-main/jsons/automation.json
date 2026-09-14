@@ -1,0 +1,481 @@
+{
+    "automation": {
+        "postNewGameActionList": [
+            ["PROMPT", "player1", "welcome1"],
+            ["PROMPT", "player1", "setPlayerCount"],
+            ["UPDATE_HELPER_TEXT_VISIBILITY"]
+        ],
+        "postLoadActionList": [
+            ["VAR", "$LOADED_PLAYER_DECK", false],
+            ["VAR", "$LOADED_ENCOUNTER_DECK", false],
+            ["VAR", "$LOADED_ENCOUNTER_DECK_2", false],
+            ["VAR", "$LOADED_BOONS", false],
+            ["VAR", "$THREAT_RAISE", 0],
+            ["FOR_EACH_VAL", "$CARD_ID", "$GAME.loadedCardIds", [
+                ["VAR", "$CARD", "$GAME.cardById.$CARD_ID"],
+                ["COND", 
+                    ["AND", 
+                        ["EQUAL", "$CARD.sides.A.type", "Hero"],
+                        ["EQUAL", "$CARD.inPlay", true],
+                        ["NOT_EQUAL", "$CARD.sides.A.cost", 0]
+                    ],
+                    [
+                        ["UPDATE_VAR", "$LOADED_PLAYER_DECK", true],
+                        ["INCREASE_VAR", "$THREAT_RAISE", "$CARD.sides.A.cost"]
+                    ]
+                ],
+                ["COND",
+                    ["DEFINED", "$GAME_DEF.automation.cards.{{$CARD.databaseId}}"],
+                    [
+                        ["SET", "/cardById/$CARD_ID/sides/A/triggers", {}],
+                        ["SET", "/cardById/$CARD_ID/sides/B/triggers", {}]
+                    ]
+                ],
+                ["COND",
+                    ["IN_STRING", "$CARD.groupId", "Play1"],
+                    [
+                        ["SET", "/cardById/$CARD_ID/deckGroupId", ["JOIN_STRING", "$PLAYER_N", "Deck"]],
+                        ["SET", "/cardById/$CARD_ID/discardGroupId", ["JOIN_STRING", "$PLAYER_N", "Discard"]]
+                    ],
+                    ["IN_LIST", ["LIST", "sharedStagingArea", "sharedActiveLocation"], "$CARD.groupId"],
+                    [
+                        ["SET", "/cardById/$CARD_ID/deckGroupId", "sharedEncounterDeck"],
+                        ["SET", "/cardById/$CARD_ID/discardGroupId", "sharedEncounterDiscard"]
+                    ]
+                ],
+                ["COND",
+                    ["EQUAL", "$CARD.groupId", "sharedEncounterDeck2"],
+                    ["UPDATE_VAR", "$LOADED_ENCOUNTER_DECK_2", true]
+                ],
+                ["COND",
+                    ["EQUAL", "$CARD.groupId", "sharedBoons"],
+                    ["UPDATE_VAR", "$LOADED_BOONS", true]
+                ],
+                ["COND", 
+                    ["AND", ["EQUAL", "$CARD.sides.A.type", "Quest"], ["EQUAL", "$CARD.sides.A.cost", 1]],
+                    [
+                        ["LOG", "$ALIAS_N", " made ", "$CARD.sides.A.name", " the main quest."],
+                        ["MOVE_CARD", "$CARD_ID", "sharedMainQuest", 0],
+                        ["UPDATE_VAR", "$LOADED_ENCOUNTER_DECK", true]
+                    ]
+                ]
+            ]],
+            ["COND",
+                "$LOADED_ENCOUNTER_DECK_2",
+                ["SHOW_ENCOUNTER_DECK_2", true]
+            ],
+            ["COND",
+                "$LOADED_BOONS",
+                ["PROMPT", "$PLAYER_ORDER", "boonRegionReminder"]
+            ],
+            ["COND",
+                "$LOADED_ENCOUNTER_DECK",
+                [
+                    ["SET", "/encounterDeckLoaded", true],
+                    ["COND",
+                        ["EQUAL", "$GAME.roundAdvancementFunction", "loadEncounterDeck"],
+                        ["UPDATE_ADVANCE_BUTTON"]
+                    ]
+                ]
+            ],
+            ["COND",
+                ["AND",
+                    "$LOADED_PLAYER_DECK",
+                    ["EQUAL", "$GAME.roundNumber", 0]
+                ],
+                [
+                    ["LOG", "$ALIAS_N", " set their starting threat to ", "$THREAT_RAISE", "."],
+                    ["SET", "/playerData/$PLAYER_N/threat", "$THREAT_RAISE"],
+                    ["SET", "/playerData/$PLAYER_N/deckLoaded", true]
+                ]
+            ],
+            ["COND",
+                ["AND", "$LOADED_PLAYER_DECK", ["EQUAL", "$GAME.roundNumber", 0], ["EQUAL", ["LENGTH", "$GAME.groupById.{{$PLAYER_N}}Hand.stackIds"], 0]],
+                [
+                    ["LOG", "$ALIAS_N", " draws 6 cards."],
+                    ["DRAW_CARD", 6]
+                ]
+            ],
+            ["VAR", "$ALL_PLAYER_DECKS_LOADED", true],
+            ["FOR_EACH_VAL", "$PLAYER_I", "$PLAYER_ORDER", [
+                ["COND", 
+                    ["NOT", "$GAME.playerData.$PLAYER_I.deckLoaded"], 
+                    ["UPDATE_VAR", "$ALL_PLAYER_DECKS_LOADED", false]
+                ] 
+            ]],
+            ["COND",
+                "$ALL_PLAYER_DECKS_LOADED",
+                [
+                    ["SET", "/allPlayerDecksLoaded", true],
+                    ["COND",
+                        ["EQUAL", "$GAME.roundAdvancementFunction", "loadPlayerDecks"],
+                        ["UPDATE_ADVANCE_BUTTON"]
+                    ]
+                ]
+            ]
+        ],
+        "gameRules": {
+            "roundAdvancementTextVisibility": {
+                "_comment": "Hide the visibility of the advancement text",
+                "type": "trigger",
+                "listenTo": ["/gameStepAutomation"],
+                "condition": ["TRUE"],
+                "then": ["UPDATE_HELPER_TEXT_VISIBILITY"]
+            },
+            "updateAdvanceButton": {
+                "_comment": "Update the advance button",
+                "type": "trigger",
+                "listenTo": [
+                    "/stepId",
+                    "/cardById/*/groupId",
+                    "/cardById/*/borderColor"],
+                "condition": ["TRUE"],
+                "then": ["UPDATE_ADVANCE_BUTTON"],
+                "priority": 2
+            },
+            "updateAdvanceButtonText": {
+                "_comment": "Update the advance button",
+                "type": "trigger",
+                "listenTo": ["/roundAdvancementFunction"],
+                "condition": ["TRUE"],
+                "then": [
+                    ["COND",
+                    ["EQUAL", "$GAME.roundAdvancementFunction", "loadPlayerDecks"],
+                    ["UPDATE_LAYOUT", "/layout/textBoxes/roundAdvancement/label", "Menu->Load to load player decks or W to skip."],
+                    ["EQUAL", "$GAME.roundAdvancementFunction", "loadEncounterDeck"],
+                    ["UPDATE_LAYOUT", "/layout/textBoxes/roundAdvancement/label", "Menu->Load prebuilt to load quest or W to skip."],
+                    ["EQUAL", "$GAME.roundAdvancementFunction", "goToFirstPlanning"],
+                    ["UPDATE_LAYOUT", "/layout/textBoxes/roundAdvancement/label", "Setup. Next: W to advance to planning phase."],
+                    ["EQUAL", "$GAME.roundAdvancementFunction", "readyForNextPlanning"],
+                    ["UPDATE_LAYOUT", "/layout/textBoxes/roundAdvancement/label", "Actions. Next: W to advance to planning phase."],
+                    ["EQUAL", "$GAME.roundAdvancementFunction", "selectCurrentQuest"],
+                    ["UPDATE_LAYOUT", "/layout/textBoxes/roundAdvancement/label", "Actions. Next: Q to pick current quest or W to skip."],
+                    ["EQUAL", "$GAME.roundAdvancementFunction", "commitCharacters"],
+                    ["UPDATE_LAYOUT", "/layout/textBoxes/roundAdvancement/label", "Actions. Next: Q to commit character or W to skip."],
+                    ["EQUAL", "$GAME.roundAdvancementFunction", "commitOrReveal"],
+                    ["UPDATE_LAYOUT", "/layout/textBoxes/roundAdvancement/label", "Q to commit character. Next: E to reveal or W to skip"],
+                    ["EQUAL", "$GAME.roundAdvancementFunction", "revealOrResolve"],
+                    ["UPDATE_LAYOUT", "/layout/textBoxes/roundAdvancement/label", "After revealing, Z to resolve quest or W to skip."],
+                    ["EQUAL", "$GAME.roundAdvancementFunction", "advanceToTravel"],
+                    ["UPDATE_LAYOUT", "/layout/textBoxes/roundAdvancement/label", "Actions. Next: A to travel or W to decline."],
+                    ["EQUAL", "$GAME.roundAdvancementFunction", "advanceToEncounter"],
+                    ["UPDATE_LAYOUT", "/layout/textBoxes/roundAdvancement/label", "Actions. Next: W to advance to encounter phase."],
+                    ["EQUAL", "$GAME.roundAdvancementFunction", "resolveEngagementChecks"],
+                    ["UPDATE_LAYOUT", "/layout/textBoxes/roundAdvancement/label", "Drag to engage. Next: G for checks or W to skip."],
+                    ["EQUAL", "$GAME.roundAdvancementFunction", "advanceToCombat"],
+                    ["UPDATE_LAYOUT", "/layout/textBoxes/roundAdvancement/label", "Actions. Next: W to advance to combat phase."]
+                ]
+                ]
+            },
+            "stepTrigger": {
+                "_comment": "Abstract class to trigger game step effects",
+                "type": "trigger",
+                "listenTo": ["/stepId"],
+                "abstract": true
+            },
+            "phaseText": {
+                "_comment": "Display fade text for each phase",
+                "inheritFrom": "stepTrigger",
+                "priority": 10,
+                "condition": true,
+                "then": ["COND",
+                    ["EQUAL", "$GAME.stepId", "1.1"],
+                    ["FADE_TEXT_GAME", "Resource Phase"],
+                    ["EQUAL", "$GAME.stepId", "2.1"],
+                    ["FADE_TEXT_GAME", "Planning Phase"],
+                    ["EQUAL", "$GAME.stepId", "3.1"],
+                    ["FADE_TEXT_GAME", "Quest Phase"],
+                    ["EQUAL", "$GAME.stepId", "4.1"],
+                    ["FADE_TEXT_GAME", "Travel Phase"],
+                    ["EQUAL", "$GAME.stepId", "5.1"],
+                    ["FADE_TEXT_GAME", "Encounter Phase"],
+                    ["EQUAL", "$GAME.stepId", "6.1"],
+                    ["FADE_TEXT_GAME", "Combat Phase"],
+                    ["EQUAL", "$GAME.stepId", "7.1"],
+                    ["FADE_TEXT_GAME", "Refresh Phase"]
+                ]
+            },
+            "step_1.R-resources": {
+                "_comment": "Trigger resource-gaining resource phase framework effects",
+                "inheritFrom": "stepTrigger",
+                "priority": 10,
+                "condition": ["EQUAL", "$GAME.stepId", "1.R"],
+                "then": [
+                    ["LOG", "└── ", "Each hero gains 1 resource."],
+                    ["FOR_EACH_KEY_VAL", "$CARD_ID", "$CARD", "$GAME.cardById", [
+                        ["COND",
+                            ["AND", "$CARD.inPlay", ["IS_HERO", "$CARD"]],
+                            [
+                                ["INCREASE_VAL", "/cardById/$CARD_ID/tokens/resource", 1],
+                                ["FADE_TEXT_CARD", "$CARD_ID", "+1 token:resource"]
+                            ]
+                        ]
+                    ]]
+                ]
+            },
+            "step_1.R-cards": {
+                "_comment": "Trigger card-drawing resource phase framework effects",
+                "inheritFrom": "stepTrigger",
+                "priority": 20,
+                "condition": ["EQUAL", "$GAME.stepId", "1.R"],
+                "then": [
+                    ["FOR_EACH_VAL", "$PLAYER_I", "$PLAYER_ORDER", [
+                        ["VAR", "$NUM_DRAWN", "$PLAYER_DATA.$PLAYER_I.cardsDrawn"],
+                        ["LOG", "└── ", ["GET_ALIAS", "$PLAYER_I"], " draws {{$NUM_DRAWN}} card(s)."],
+                        ["DRAW_CARD", "$NUM_DRAWN", "$PLAYER_I"]
+                    ]]
+                ]
+            },
+            "step_2.P": {
+                "_comment": "Special planning action window",
+                "inheritFrom": "stepTrigger",
+                "condition": ["EQUAL", "$GAME.stepId", "2.P"],
+                "then": [
+                    ["FOR_EACH_VAL", "$PLAYER_I", "$PLAYER_ORDER", [
+                        ["SET", "/playerData/$PLAYER_I/readyForNextPlanning", true],
+                        ["UPDATE_LAYOUT", "/layout/regions/{{$PLAYER_I}}Play1/style", {}]
+                    ]]
+                ]
+            },
+            "step_3.5": {
+                "_comment": "Trigger end of quest phase framework effects",
+                "inheritFrom": "stepTrigger",
+                "condition": ["EQUAL", "$GAME.stepId", "3.5"],
+                "then": [
+                    ["LOG", "└── ", "All characters were removed from the quest."],
+                    ["END_THE_QUEST_PHASE"]
+                ]
+            },
+            "step_5.4": {
+                "_comment": "Forced engagement checks",
+                "inheritFrom": "stepTrigger",
+                "condition": ["EQUAL", "$GAME.stepId", "5.4"],
+                "then": [
+                    ["COND",
+                        ["ENEMIES_IN_STAGING_AREA_FORCED"],
+                        ["PROMPT", "player1", "notify", "Reminder: There is at least 1 enemy in the staging area that has lower engagement cost than a player's threat."]
+                    ]
+                ]
+            },
+            "step_6.2": {
+                "_comment": "Deal shadow cards",
+                "inheritFrom": "stepTrigger",
+                "condition": ["EQUAL", "$GAME.stepId", "6.2"],
+                "then": ["DEAL_SHADOW_CARDS"]
+            },
+            "step_6.11": {
+                "_comment": "Discard shadow cards",
+                "inheritFrom": "stepTrigger",
+                "condition": ["EQUAL", "$GAME.stepId", "6.11"],
+                "then": ["ACTION_LIST", "discardShadows"]
+            },
+            "step_7.R": {
+                "_comment": "Trigger refresh phase framework effects",
+                "inheritFrom": "stepTrigger",
+                "condition": ["EQUAL", "$GAME.stepId", "7.R"],
+                "then": [
+                    ["LOG", "├── Readied all cards in play."],
+                    ["FOR_EACH_KEY_VAL", "$CARD_ID", "$CARD", "$CARD_BY_ID", [
+                        ["COND",
+                            ["AND",
+                                ["EQUAL", "$CARD.inPlay", true],
+                                ["NOT_EQUAL", "$CARD.preventRefresh", true]
+                            ],
+                            [
+                                ["SET", "/cardById/$CARD_ID/rotation", 0],
+                                ["SET", "/cardById/$CARD_ID/exhausted", false]
+                            ]
+                        ]
+                    ]],    
+                    ["LOG", "├── ", "Each player increased their threat by 1."],        
+                    ["FOR_EACH_VAL", "$PLAYER_I", "$PLAYER_ORDER",
+                        ["INCREASE_VAL", "/playerData/$PLAYER_I/threat", 1]
+                    ],
+                    ["VAR", "$NEXT_PLAYER", ["NEXT_PLAYER", "$GAME.firstPlayer"]],
+                    ["LOG", "└── The first player is now ", ["GET_ALIAS", "$NEXT_PLAYER"], "."],
+                    ["SET", "/firstPlayer", "$NEXT_PLAYER"]
+
+                ]
+            },
+            "updateFirstPlayerControlledCharacters": {  
+                "_comment": "Move characters controlled by the first player when the first player changes",
+                "type": "trigger", 
+                "listenTo": ["/firstPlayer"],
+                "condition": ["GREATER_THAN", "$GAME.numPlayers", 1],
+                "then": [
+                    ["VAR", "$PREV_PLAYER", ["PREV", "$GAME.firstPlayer"]],
+                    ["VAR", "$NEXT_PLAYER", "$GAME.firstPlayer"],
+                    ["FOR_EACH_KEY_VAL", "$CARD_ID", "$CARD", "$CARD_BY_ID", [
+                        ["COND",
+                            ["AND",
+                                ["EQUAL", "$CARD.inPlay", true],
+                                "$CARD.currentFace.tags.firstPlayerControls",
+                                ["IN_STRING", "$CARD.groupId", "{{$PREV_PLAYER}}Play"]
+                            ],
+                            [
+                                ["LOG", "└── ", ["GET_ALIAS", "$NEXT_PLAYER"], " gains control of {{$CARD.currentFace.name}}."],
+                                ["MOVE_STACK", "$CARD.stackId", "{{$NEXT_PLAYER}}Play1", -1]
+                            ]
+                        ]
+                    ]
+                ]]
+            },
+            // "triggerGameStepEffects": {
+            //     "_comment": "Trigger card effects for a given game step",
+            //     "inheritFrom": "stepTrigger",
+            //     "condition": ["TRUE"],
+            //     "then": ["FOR_EACH_KEY_VAL", "$CARD_ID", "$CARD", "$GAME.cardById", [
+            //         ["COND",
+            //             ["AND",
+            //                 ["DEFINED", "$CARD.currentFace.gameStepEffects.{{$GAME.stepId}}"],
+            //                 ["EQUAL", "$CARD.currentFace.gameStepEffects.{{$GAME.stepId}}.enabled", true]
+            //             ],
+            //             ["ACTION_LIST", "$CARD.currentFace.gameStepEffects.{{$GAME.stepId}}.actionList"]
+            //         ]
+            //     ]]
+            // },
+            "removeCommittedWillpower": {  
+                "_comment": "Remove committed willpower from a character leaving play",
+                "type": "trigger", 
+                "listenTo": ["/cardById/*/inPlay"],
+                "condition": ["AND", ["NOT", "$TARGET.inPlay"], ["PREV", "$TARGET.inPlay"], ["PREV", "$TARGET.committed"], ["NOT_EQUAL", "$TARGET.controller", "shared"]],
+                "then": [
+                    ["VAR", "$QUESTING_STAT", "$GAME.questingStat"],
+                    ["VAR", "$PREV_TARGET", ["PREV", "$TARGET"]],
+                    ["VAR", "$COMMITTED_VAL", "$PREV_TARGET.tokens.questing"],
+                    ["DECREASE_VAL", "/playerData/$TARGET.controller/willpower", "$COMMITTED_VAL"],
+                    ["LOG", "└── ", "$TARGET.controller", " lost ", "$COMMITTED_VAL", " ", "$QUESTING_STAT", " toward the quest."]
+                ]
+            },
+            "adjustCommittedWillpower": { 
+                "_comment": "Adjust committed value when token is adjusted",
+                "type": "trigger", 
+                "listenTo": ["/cardById/*/tokens/willpower"],
+                "condition": ["AND", "$TARGET.committed", "$TARGET.inPlay", ["EQUAL", "$GAME.questingStat", "willpower"], ["NOT_EQUAL", "$TARGET.controller", "shared"]],
+                "then": [
+                    ["VAR", "$DELTA", ["SUBTRACT", "$TARGET.tokens.willpower", ["PREV", "$TARGET.tokens.willpower"]]],
+                    ["INCREASE_VAL", "/playerData/$TARGET.controller/willpower", "$DELTA"],
+                    ["INCREASE_VAL", "/cardById/$TARGET.id/tokens/questing", "$DELTA"]
+                ]
+            },
+            "adjustCommittedAttack": { 
+                "_comment": "Adjust committed value when token is adjusted",
+                "type": "trigger", 
+                "listenTo": ["/cardById/*/tokens/attack"],
+                "condition": ["AND", "$TARGET.committed", ["EQUAL", "$GAME.questingStat", "attack"], ["NOT_EQUAL", "$TARGET.controller", "shared"]],
+                "then": [
+                    ["VAR", "$DELTA", ["SUBTRACT", "$TARGET.tokens.attack", ["PREV", "$TARGET.tokens.attack"]]],
+                    ["INCREASE_VAL", "/playerData/$TARGET.controller/willpower", "$DELTA"],
+                    ["INCREASE_VAL", "/cardById/$TARGET.id/tokens/questing", "$DELTA"]
+                ]
+            },
+            "adjustCommittedDefense": { 
+                "_comment": "Adjust committed value when token is adjusted",
+                "type": "trigger", 
+                "listenTo": ["/cardById/*/tokens/defense"],
+                "condition": ["AND", "$TARGET.committed", ["EQUAL", "$GAME.questingStat", "defense"], ["NOT_EQUAL", "$TARGET.controller", "shared"]],
+                "then": [
+                    ["VAR", "$DELTA", ["SUBTRACT", "$TARGET.tokens.defense", ["PREV", "$TARGET.tokens.defense"]]],
+                    ["INCREASE_VAL", "/playerData/$TARGET.controller/willpower", "$DELTA"],
+                    ["INCREASE_VAL", "/cardById/$TARGET.id/tokens/questing", "$DELTA"]
+                ]
+            },
+            "adjustStagingThreatWhenCardAddedRemoved": { 
+                "_comment": "Adjust staging threat when a card is added/removed",
+                "type": "trigger", 
+                "listenTo": ["/cardById/*/groupId"],
+                "condition": ["OR", 
+                                ["EQUAL", "$TARGET.groupId", "sharedStagingArea"],
+                                ["PREV", ["EQUAL", "$TARGET.groupId", "sharedStagingArea"]]
+                            ],
+                "then": ["COMPUTE_STAGING_THREAT"] 
+            },
+            "adjustStagingThreatWhenCardFlipped": { 
+                "_comment": "Adjust staging threat when a staging card is flipped",
+                "type": "trigger", 
+                "listenTo": ["/cardById/*/currentSide"],
+                "condition": ["AND", 
+                                ["EQUAL", "$TARGET.groupId", "sharedStagingArea"], 
+                                ["NOT_EQUAL", "$TARGET.currentSide", ["PREV", "$TARGET.currentSide"]]
+                            ],
+                "then": ["COMPUTE_STAGING_THREAT"]
+            },
+            "adjustStagingThreatWhenThreatTokenAddedRemoved": { 
+                "_comment": "Adjust staging threat when a threat token is added/removed",
+                "type": "trigger", 
+                "listenTo": ["/cardById/*/tokens/threat"],
+                "condition": ["AND", ["EQUAL", "$TARGET.groupId", "sharedStagingArea"]],
+                "then": [
+                    ["VAR", "$DELTA", ["SUBTRACT", "$TARGET.tokens.threat", ["PREV", "$TARGET.tokens.threat"]]],
+                    ["INCREASE_VAL", "/stagingThreat", "$DELTA"]
+                ]
+            },
+            "computeQuestingProgress": { 
+                "_comment": "Adjust expected progress",
+                "type": "trigger", 
+                "listenTo": ["/stagingThreat", "/playerData/*/willpower"],
+                "condition": ["TRUE"],
+                "then": [
+                    ["VAR", "$TOTAL_QUESTING", 0],
+                    ["FOR_EACH_VAL", "$PLAYER_I", "$PLAYER_ORDER", [
+                        ["INCREASE_VAR", "$TOTAL_QUESTING", "$GAME.playerData.$PLAYER_I.willpower"]
+                    ]],
+                    ["VAR", "$EXPECTED_PROGRESS", ["SUBTRACT", "$TOTAL_QUESTING", "$GAME.stagingThreat"]],
+                    ["SET", "/questProgress", "$EXPECTED_PROGRESS"]
+                ]
+            },
+            "turnCardsRed": { 
+                "_comment": "Turn cards red when they have 0 hit points left",
+                "type": "passive", 
+                "listenTo": ["/cardById/*/tokens/damage", "/cardById/*/tokens/hitPoints", "/cardById/*/tokens"],
+                "condition": ["AND", 
+                    ["NOT_EQUAL", "$TARGET.currentFace.hitPoints", null],
+                    ["GREATER_THAN", "$TARGET.tokens.damage", 0],
+                    ["GREATER_EQUAL", "$TARGET.tokens.damage", ["ADD", ["GET_HIT_POINTS", "$TARGET"]]]
+                ],
+                "onDo": [
+                    ["LOG", "└── ", "$TARGET.currentFace.name", " is destroyed."],
+                    ["SET", "/cardById/$TARGET_ID/borderColor", "red"]
+                ],
+                "offDo": [
+                    ["SET", "/cardById/$TARGET_ID/borderColor", null]
+                ]
+            },
+            "turnCardsGreen": { 
+                "_comment": "Turn cards green when they have 0 quest points left",
+                "type": "passive", 
+                "listenTo": ["/cardById/*/tokens/progress", "/cardById/*/tokens/questPoints", "/cardById/*/tokens"],
+                "condition": ["AND", 
+                    ["NOT_EQUAL", "$TARGET.currentFace.questPoints", null],
+                    ["GREATER_THAN", "$TARGET.tokens.progress", 0],
+                    ["GREATER_EQUAL", "$TARGET.tokens.progress", ["ADD", ["GET_QUEST_POINTS", "$TARGET"]]]
+                ],
+                "onDo": [
+                    ["LOG", "└── ", "$TARGET.currentFace.name", " is explored."],
+                    ["SET", "/cardById/$TARGET_ID/borderColor", "green"]
+                ],
+                "offDo": [
+                    ["SET", "/cardById/$TARGET_ID/borderColor", null]
+                ]
+            },
+            "turnCurrentQuestBlue": { 
+                "_comment": "Turn quest cards blue when they are selected as the current quest",
+                "type": "trigger", 
+                "listenTo": ["/currentQuestCardId"],
+                "condition": ["TRUE"],
+                "then": [
+                    ["VAR", "$PREV_CURRENT_QUEST_CARD_ID", ["PREV", "$GAME.currentQuestCardId"]],
+                    ["VAR", "$CURRENT_QUEST_CARD_ID", "$GAME.currentQuestCardId"],
+                    ["COND",
+                        ["DEFINED", "$PREV_CURRENT_QUEST_CARD_ID"],
+                        ["SET", "/cardById/$PREV_CURRENT_QUEST_CARD_ID/borderColor", null]
+                    ],
+                    ["COND",
+                        ["DEFINED", "$CURRENT_QUEST_CARD_ID"],
+                        ["SET", "/cardById/$CURRENT_QUEST_CARD_ID/borderColor", "blue"]
+                    ]
+                ]
+            }
+        }
+    }
+}

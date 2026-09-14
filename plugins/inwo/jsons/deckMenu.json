@@ -1,0 +1,592 @@
+{
+  "deckMenu": {
+    "subMenus": [
+      {
+        "label": "One Big Deck",
+        "deckLists": [
+          {
+            "deckListId": "one-big-deck-control-the-world-with-things-found-around-the-home",
+            "label": "One Big Deck: Control The World With Things Found Around the Home"
+          },
+          {
+            "deckListId": "one-big-deck-illuminati-new-world-war",
+            "label": "One Big Deck: Illuminati  New World War"
+          },
+          {
+            "deckListId": "one-big-deck-its-more-powerful-than-france",
+            "label": "One Big Deck: Its More Powerful Than France"
+          },
+          {
+            "deckListId": "one-big-deck-newbie-world-order-world-domination-for-beginners",
+            "label": "One Big Deck: Newbie World Order  World Domination for Beginners"
+          },
+          {
+            "deckListId": "one-big-deck-newbie-world-order-world-domination-for-intermediate",
+            "label": "One Big Deck: Newbie World Order  World Domination for Intermediate"
+          },
+          {
+            "deckListId": "one-big-deck-political-infighting",
+            "label": "One Big Deck: Political Infighting"
+          },
+          {
+            "deckListId": "one-big-deck-something-for-everyone",
+            "label": "One Big Deck: Something For Everyone"
+          },
+          {
+            "deckListId": "one-big-deck-subgenius",
+            "label": "One Big Deck: SubGenius"
+          },
+          {
+            "deckListId": "one-big-deck-the-disaster-epic",
+            "label": "One Big Deck: The Disaster Epic"
+          },
+          {
+            "deckListId": "one-big-deck-the-one-big-deck-game",
+            "label": "One Big Deck: The One Big Deck Game"
+          }
+        ]
+      },
+      {
+        "label": "OWE: Perpetual Motion",
+        "deckLists": [
+          {
+            "deckListId": "gay-space-vampires",
+            "label": "Gay Space Vampires"
+          },
+          {
+            "deckListId": "perpetual-motion-1-anarchists-of-hermes",
+            "label": "Perpetual Motion 1 Anarchists of Hermes"
+          },
+          {
+            "deckListId": "perpetual-motion-2-deep-green-sea",
+            "label": "Perpetual Motion 2 Deep Green Sea"
+          },
+          {
+            "deckListId": "perpetual-motion-3-world-peace",
+            "label": "Perpetual Motion 3 World Peace"
+          }
+        ]
+      },
+      {
+        "label": "OWE: Ascension",
+        "deckLists": [
+          {
+            "deckListId": "ascension-1-fiends-in-high-places",
+            "label": "Ascension 1 Fiends in High Places"
+          },
+          {
+            "deckListId": "ascension-2-i-am-duh-law",
+            "label": "Ascension 2 I am duh Law"
+          },
+          {
+            "deckListId": "ascension-3-crazy-covenant",
+            "label": "Ascension 3 Crazy Covenant"
+          },
+          {
+            "deckListId": "ascension-4-deus-ex-machina",
+            "label": "Ascension 4 Deus Ex Machina"
+          }
+        ]
+      },
+      {
+        "label": "OWE: Personality Clash",
+        "deckLists": [
+          {
+            "deckListId": "personality-clash-1-reformers",
+            "label": "Personality Clash 1 Reformers"
+          },
+          {
+            "deckListId": "personality-clash-2-helpers",
+            "label": "Personality Clash 2 Helpers"
+          },
+          {
+            "deckListId": "personality-clash-3-achievers",
+            "label": "Personality Clash 3 Achievers"
+          },
+          {
+            "deckListId": "personality-clash-4-individualists",
+            "label": "Personality Clash 4 Individualists"
+          },
+          {
+            "deckListId": "personality-clash-5-investigators",
+            "label": "Personality Clash 5 Investigators"
+          },
+          {
+            "deckListId": "personality-clash-6-loyalists",
+            "label": "Personality Clash 6 Loyalists"
+          },
+          {
+            "deckListId": "personality-clash-7-enthusiasts",
+            "label": "Personality Clash 7 Enthusiasts"
+          },
+          {
+            "deckListId": "personality-clash-8-challengers",
+            "label": "Personality Clash 8 Challengers"
+          },
+          {
+            "deckListId": "personality-clash-9-peacemakers",
+            "label": "Personality Clash 9 Peacemakers"
+          }
+        ]
+      },
+      {
+        "label": "OWE: Personality Clash II",
+        "deckLists": [
+          {
+            "deckListId": "personality-clash-ii-1-reformers",
+            "label": "Personality Clash II 1 Reformers"
+          },
+          {
+            "deckListId": "personality-clash-ii-2-helpers",
+            "label": "Personality Clash II 2 Helpers"
+          },
+          {
+            "deckListId": "personality-clash-ii-3-achievers",
+            "label": "Personality Clash II 3 Achievers"
+          },
+          {
+            "deckListId": "personality-clash-ii-4-individualists",
+            "label": "Personality Clash II 4 Individualists"
+          },
+          {
+            "deckListId": "personality-clash-ii-5-investigators",
+            "label": "Personality Clash II 5 Investigators"
+          },
+          {
+            "deckListId": "personality-clash-ii-6-loyalists",
+            "label": "Personality Clash II 6 Loyalists"
+          },
+          {
+            "deckListId": "personality-clash-ii-7-enthusiasts",
+            "label": "Personality Clash II 7 Enthusiasts"
+          },
+          {
+            "deckListId": "personality-clash-ii-8-challengers",
+            "label": "Personality Clash II 8 Challengers"
+          },
+          {
+            "deckListId": "personality-clash-ii-9-peacemakers",
+            "label": "Personality Clash II 9 Peacemakers"
+          }
+        ]
+      },
+      {
+        "label": "Standalone",
+        "deckLists": [
+          {
+            "deckListId": "a-chaotic-ad-campaign",
+            "label": "A Chaotic Ad Campaign"
+          },
+          {
+            "deckListId": "a-grey-day-at-the-ftc",
+            "label": "A Grey Day at the FTC"
+          },
+          {
+            "deckListId": "a-peace-of-the-action",
+            "label": "A Peace of the Action"
+          },
+          {
+            "deckListId": "abduction-moon-party",
+            "label": "Abduction Moon Party"
+          },
+          {
+            "deckListId": "adepts-of-khermit",
+            "label": "Adepts of Khermit"
+          },
+          {
+            "deckListId": "alien-nation",
+            "label": "Alien Nation"
+          },
+          {
+            "deckListId": "alternative-government-excellent-dude",
+            "label": "Alternative Government Excellent Dude"
+          },
+          {
+            "deckListId": "an-oliver-stone-production",
+            "label": "An Oliver Stone Production"
+          },
+          {
+            "deckListId": "annoy-and-conquer",
+            "label": "Annoy and Conquer"
+          },
+          {
+            "deckListId": "attack-of-the-bodysnatchers",
+            "label": "Attack of the Bodysnatchers"
+          },
+          {
+            "deckListId": "attack-of-the-deadly-ninja-throwing-conventions-deck",
+            "label": "Attack of the Deadly Ninja Throwing Conventions Deck"
+          },
+          {
+            "deckListId": "attack-of-the-plot-bandits",
+            "label": "Attack of the Plot Bandits"
+          },
+          {
+            "deckListId": "beggar-your-neighbor",
+            "label": "Beggar Your Neighbor"
+          },
+          {
+            "deckListId": "big-brother-is-watching-you",
+            "label": "Big Brother Is Watching You"
+          },
+          {
+            "deckListId": "blinded-by-cake",
+            "label": "Blinded by Cake"
+          },
+          {
+            "deckListId": "blinded-by-frankenfood",
+            "label": "Blinded by Frankenfood"
+          },
+          {
+            "deckListId": "blunt-trauma",
+            "label": "Blunt Trauma"
+          },
+          {
+            "deckListId": "bolsheviktory",
+            "label": "Bolsheviktory"
+          },
+          {
+            "deckListId": "bureaucratic-reorganization",
+            "label": "Bureaucratic Reorganization"
+          },
+          {
+            "deckListId": "business-as-unusual",
+            "label": "Business as Unusual"
+          },
+          {
+            "deckListId": "circle-of-obo",
+            "label": "Circle of Obo"
+          },
+          {
+            "deckListId": "counterculture-mcgoverniks",
+            "label": "Counterculture McGoverniks"
+          },
+          {
+            "deckListId": "criminal-interest",
+            "label": "Criminal Interest"
+          },
+          {
+            "deckListId": "cruel-brittania",
+            "label": "Cruel Brittania"
+          },
+          {
+            "deckListId": "cuius-testiculos-habes-adepts",
+            "label": "Cuius Testiculos Habes (Adepts)"
+          },
+          {
+            "deckListId": "cuius-testiculos-habes-assassins",
+            "label": "Cuius Testiculos Habes (Assassins)"
+          },
+          {
+            "deckListId": "cuius-testiculos-habes-gnomes",
+            "label": "Cuius Testiculos Habes (Gnomes)"
+          },
+          {
+            "deckListId": "cuius-testiculos-habes-power",
+            "label": "Cuius Testiculos Habes (Power)"
+          },
+          {
+            "deckListId": "cuius-testiculos-habes-shangri-la",
+            "label": "Cuius Testiculos Habes (Shangri-La)"
+          },
+          {
+            "deckListId": "cult-of-cthulhu",
+            "label": "Cult of Cthulhu"
+          },
+          {
+            "deckListId": "cyber-rights-now",
+            "label": "Cyber Rights Now"
+          },
+          {
+            "deckListId": "death-geeks",
+            "label": "Death Geeks"
+          },
+          {
+            "deckListId": "deck-of-the-weak",
+            "label": "Deck of the Weak"
+          },
+          {
+            "deckListId": "discordian-monodeck",
+            "label": "Discordian Monodeck"
+          },
+          {
+            "deckListId": "double-predator",
+            "label": "Double Predator"
+          },
+          {
+            "deckListId": "fun-damentalists",
+            "label": "Fun Damentalists"
+          },
+          {
+            "deckListId": "fusion-seppuku",
+            "label": "Fusion Seppuku"
+          },
+          {
+            "deckListId": "gaias-revenge",
+            "label": "Gaias Revenge"
+          },
+          {
+            "deckListId": "gaias-revenge-ii",
+            "label": "Gaias Revenge II"
+          },
+          {
+            "deckListId": "general-disorder-rides-again",
+            "label": "General Disorder Rides Again"
+          },
+          {
+            "deckListId": "god-knows-we-can-find-out",
+            "label": "God Knows We Can Find Out"
+          },
+          {
+            "deckListId": "going-one-better",
+            "label": "Going One Better"
+          },
+          {
+            "deckListId": "hail-elvis",
+            "label": "Hail Elvis"
+          },
+          {
+            "deckListId": "heil-eris",
+            "label": "Heil Eris"
+          },
+          {
+            "deckListId": "heretic-magi",
+            "label": "Heretic Magi"
+          },
+          {
+            "deckListId": "ho-ho-bang-fxxk-im-dead",
+            "label": "Ho ho BANG FXXk Im dead"
+          },
+          {
+            "deckListId": "homicidal-nazi-geniuses-from-beyond-the-grave-of-cthulhu",
+            "label": "Homicidal Nazi Geniuses from Beyond the Grave of Cthulhu"
+          },
+          {
+            "deckListId": "i-am-not-left-handed",
+            "label": "I Am Not Left-Handed"
+          },
+          {
+            "deckListId": "i-love-you-all-we-begin-bombing-in-five-minutes",
+            "label": "I Love You All We Begin Bombing In Five Minutes"
+          },
+          {
+            "deckListId": "ignorance-is-strength",
+            "label": "Ignorance is Strength"
+          },
+          {
+            "deckListId": "intergalactic-atomic-arousal",
+            "label": "Intergalactic Atomic Arousal"
+          },
+          {
+            "deckListId": "invasion-of-the-gadget-snatchers",
+            "label": "Invasion of the Gadget Snatchers"
+          },
+          {
+            "deckListId": "king-for-a-day-thule-for-a-lifetime",
+            "label": "King for a Day Thule for a Lifetime"
+          },
+          {
+            "deckListId": "lambs-to-the-slaughter-aggressive",
+            "label": "Lambs To The Slaughter Aggressive"
+          },
+          {
+            "deckListId": "lambs-to-the-slaughter-defensive",
+            "label": "Lambs To The Slaughter Defensive"
+          },
+          {
+            "deckListId": "make-a-copy-and-shred-the-original",
+            "label": "Make A Copy And Shred The Original"
+          },
+          {
+            "deckListId": "media-assassin",
+            "label": "Media Assassin"
+          },
+          {
+            "deckListId": "no-one-is-safe",
+            "label": "No One is Safe"
+          },
+          {
+            "deckListId": "poetry-in-motion",
+            "label": "Poetry in Motion"
+          },
+          {
+            "deckListId": "reboot",
+            "label": "Reboot"
+          },
+          {
+            "deckListId": "revenge-part-1",
+            "label": "Revenge Part 1"
+          },
+          {
+            "deckListId": "slak-never-rests",
+            "label": "SLAK Never Rests"
+          },
+          {
+            "deckListId": "smwnmtk",
+            "label": "SMWNMTK"
+          },
+          {
+            "deckListId": "save-the-earth-kill-the-humans",
+            "label": "Save the Earth - Kill the Humans"
+          },
+          {
+            "deckListId": "save-the-earth-for-us",
+            "label": "Save the Earth for Us"
+          },
+          {
+            "deckListId": "save-the-earth-for-us-no-dupes",
+            "label": "Save the Earth for Us No Dupes"
+          },
+          {
+            "deckListId": "servants-of-shangri-la",
+            "label": "Servants of Shangri-La"
+          },
+          {
+            "deckListId": "shell-game",
+            "label": "Shell Game"
+          },
+          {
+            "deckListId": "six-dead-conservatives",
+            "label": "Six Dead Conservatives"
+          },
+          {
+            "deckListId": "slackstortion",
+            "label": "SlackStortion"
+          },
+          {
+            "deckListId": "somebody-kill-me-please",
+            "label": "Somebody Kill Me Please"
+          },
+          {
+            "deckListId": "soylent-green",
+            "label": "Soylent Green"
+          },
+          {
+            "deckListId": "stormy-pinkness",
+            "label": "Stormy Pinkness"
+          },
+          {
+            "deckListId": "the-600-pound-gorilla",
+            "label": "The 600-Pound Gorilla"
+          },
+          {
+            "deckListId": "the-acronymicon",
+            "label": "The Acronymicon"
+          },
+          {
+            "deckListId": "the-adepts-of-herpes",
+            "label": "The Adepts of Herpes"
+          },
+          {
+            "deckListId": "the-artifactory",
+            "label": "The Artifactory"
+          },
+          {
+            "deckListId": "the-bermuda-crime-angle",
+            "label": "The Bermuda Crime-Angle"
+          },
+          {
+            "deckListId": "the-bible-beltane",
+            "label": "The Bible Beltane"
+          },
+          {
+            "deckListId": "the-bitter-cynical-sellout-discordia-deck",
+            "label": "The Bitter Cynical Sellout Discordia Deck"
+          },
+          {
+            "deckListId": "the-bottom-feeder",
+            "label": "The Bottom Feeder"
+          },
+          {
+            "deckListId": "the-cult-of-personality",
+            "label": "The Cult of Personality"
+          },
+          {
+            "deckListId": "the-granddaddy-of-all-cockroaches",
+            "label": "The Granddaddy of all Cockroaches"
+          },
+          {
+            "deckListId": "the-heimlich-maneuver",
+            "label": "The Heimlich Maneuver"
+          },
+          {
+            "deckListId": "the-invaders-plan",
+            "label": "The Invaders Plan"
+          },
+          {
+            "deckListId": "the-judo-deck",
+            "label": "The Judo Deck"
+          },
+          {
+            "deckListId": "the-nuclear-genie",
+            "label": "The Nuclear Genie"
+          },
+          {
+            "deckListId": "the-pc-brigade",
+            "label": "The PC Brigade"
+          },
+          {
+            "deckListId": "the-right-wing-revolution",
+            "label": "The Right Wing Revolution"
+          },
+          {
+            "deckListId": "the-sacred-asprin-commercial",
+            "label": "The Sacred Asprin Commercial"
+          },
+          {
+            "deckListId": "the-secret-society-of-assassins",
+            "label": "The Secret Society of Assassins"
+          },
+          {
+            "deckListId": "the-snake-people-from-outer-space",
+            "label": "The Snake People from Outer Space"
+          },
+          {
+            "deckListId": "the-sorcerous-and-larcenous-spawning-behemoth",
+            "label": "The Sorcerous and Larcenous Spawning Behemoth"
+          },
+          {
+            "deckListId": "the-stepford-bimbos",
+            "label": "The Stepford Bimbos"
+          },
+          {
+            "deckListId": "the-superman-deck",
+            "label": "The Superman Deck"
+          },
+          {
+            "deckListId": "the-trojan-goose",
+            "label": "The Trojan Goose"
+          },
+          {
+            "deckListId": "the-valley-of-the-shadow-of-death",
+            "label": "The Valley of the Shadow of Death"
+          },
+          {
+            "deckListId": "the-wonder-bread-of-peace",
+            "label": "The Wonder Bread of Peace"
+          },
+          {
+            "deckListId": "tokens-from-heaven",
+            "label": "Tokens From Heaven"
+          },
+          {
+            "deckListId": "understanding-slack-the-extensions-of-mutants",
+            "label": "Understanding Slack the Extensions of Mutants"
+          },
+          {
+            "deckListId": "violence-is-for-everyone",
+            "label": "Violence is for Everyone"
+          },
+          {
+            "deckListId": "xists",
+            "label": "Xists"
+          },
+          {
+            "deckListId": "your-money-is-in-good-hands",
+            "label": "Your Money is in Good Hands"
+          }
+        ]
+      }
+    ]
+  }
+}

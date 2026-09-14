@@ -1,0 +1,11 @@
+{
+  "pluginMenu": {
+    "options": [
+      {"label": "Draw from Treasure Horde", "actionList": "drawTreasure"},
+      {"label": "Draw from Dragon Lair", "actionList": "drawDragon"},
+      {"label": "Flip a coin", "actionList": "flipCoin"},
+      {"label": "Gain 1 gold", "actionList": "increaseGold"},
+      {"label": "Spend 1 gold", "actionList": "decreaseGold"}
+    ]
+  }
+}

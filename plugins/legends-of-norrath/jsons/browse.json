@@ -1,0 +1,22 @@
+{
+  "browse": {
+    "filterPropertySideA": "type",
+    "filterValuesSideA": [
+      "Ability",
+      "Avatar",
+      "Card",
+      "Item",
+      "Quest",
+      "Tactic",
+      "Unit"
+    ],
+    "textPropertiesSideA": [
+      "name",
+      "subtitle",
+      "type",
+      "packName",
+      "archetype",
+      "text"
+    ]
+  }
+}

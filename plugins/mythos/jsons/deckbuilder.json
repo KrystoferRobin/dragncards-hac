@@ -1,0 +1,42 @@
+{
+  "deckbuilder": {
+    "addButtons": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "columns": [
+      {
+        "propName": "name",
+        "label": "Name"
+      },
+      {
+        "propName": "type",
+        "label": "Type"
+      },
+      {
+        "propName": "value",
+        "label": "Value"
+      },
+      {
+        "propName": "packName",
+        "label": "Set"
+      },
+      {
+        "propName": "region",
+        "label": "Region"
+      }
+    ],
+    "spawnGroups": [
+      {
+        "loadGroupId": "playerNDeck",
+        "label": "My Deck"
+      },
+      {
+        "loadGroupId": "playerNInvestigator",
+        "label": "My Investigator"
+      }
+    ]
+  }
+}

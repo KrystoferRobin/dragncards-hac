@@ -1,0 +1,6699 @@
+{
+  "preBuiltDecks": {
+    "coyotle-dream": {
+      "label": "Coyotle Dream",
+      "cards": [
+        {
+          "databaseId": "hex-sagebrush-coyotle-warlock-coyotle-warlock",
+          "quantity": 1,
+          "loadGroupId": "playerNChampion"
+        },
+        {
+          "databaseId": "hex-howling-brave-coyotle-warrior",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-storm-drummer-coyotle-mage",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-redfur-ranger-coyotle-ranger",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-sterling-starwatcher-coyotle-cleric",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-throwback",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-vine-trap-plant",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-rites-of-the-tranquil-dream",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-nightsky-stargazer-coyotle-warrior",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-zodiac-shaman-coyotle-warlock",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-earthcaller-coyotle-cleric",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-predatory-prey",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-wakuna-crowfeather-coyotle-warrior",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-rhythmic-spiritualist-coyotle-warlock",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-wild-shard-standard",
+          "quantity": 13,
+          "loadGroupId": "playerNResources"
+        },
+        {
+          "databaseId": "hex-sapphire-shard-standard",
+          "quantity": 12,
+          "loadGroupId": "playerNResources"
+        },
+        {
+          "databaseId": "hex-brightmoon-totem",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-replica-reinforcements",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-mystic-of-the-tranquil-dream-coyotle-cleric",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        }
+      ]
+    },
+    "dwarf-genius": {
+      "label": "Dwarf Genius",
+      "cards": [
+        {
+          "databaseId": "hex-bertram-cragraven-dwarf-warrior-dwarf-warrior",
+          "quantity": 1,
+          "loadGroupId": "playerNChampion"
+        },
+        {
+          "databaseId": "hex-sapphire-shard-standard",
+          "quantity": 13,
+          "loadGroupId": "playerNResources"
+        },
+        {
+          "databaseId": "hex-ruby-shard-standard",
+          "quantity": 12,
+          "loadGroupId": "playerNResources"
+        },
+        {
+          "databaseId": "hex-pterobot-robot-dinosaur",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-construction-plans-war-hulk-plans",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-charge-bot-robot",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-sapper-s-charge",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-cavern-commando-dwarf-rogue",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-researcher-adept-dwarf-warlock",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-oracle-song",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-research-librarian-dwarf-mage",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-technical-genius-dwarf-cleric",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-war-machinist-dwarf-warrior",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-bombsmith-dwarf-mage",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-construction-plans-ingenuity-engine-plans",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-droo-s-colossal-walker-robot",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-experimental-war-hulk-robot",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-master-theorycrafter-dwarf-warlock",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        }
+      ]
+    },
+    "elf-virtuoso": {
+      "label": "Elf Virtuoso",
+      "cards": [
+        {
+          "databaseId": "hex-mightsinger-alyndra-elf-cleric-elf-cleric",
+          "quantity": 1,
+          "loadGroupId": "playerNChampion"
+        },
+        {
+          "databaseId": "hex-baby-yeti-yeti",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-lithe-lyricist-elf-ranger",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-emberleaf-duelist-elf-rogue",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-wild-child-elf-cleric",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-stirring-oration",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-nelebrin-skirmisher-elf-ranger",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-playing-with-fire",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-emberleaf-wardancer-elf-warrior",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-ambershire-instigator-elf-ranger",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-dino-might",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-tribal-warfare",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-wild-shard-standard",
+          "quantity": 13,
+          "loadGroupId": "playerNResources"
+        },
+        {
+          "databaseId": "hex-ruby-shard-standard",
+          "quantity": 12,
+          "loadGroupId": "playerNResources"
+        },
+        {
+          "databaseId": "hex-wrathwood-larch-plant",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-skydancer-elf-ranger",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-ageless-troubadour-elf-ranger",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-nelebrin-treeguard-elf-warrior",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        }
+      ]
+    },
+    "human-bravery": {
+      "label": "Human Bravery",
+      "cards": [
+        {
+          "databaseId": "hex-lady-elizabeth-human-cleric-human-cleric",
+          "quantity": 1,
+          "loadGroupId": "playerNChampion"
+        },
+        {
+          "databaseId": "hex-protectorate-clergyman-human-cleric",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-shield-trainer-human-warrior",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-kraken-guard-mariner-human-rogue",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-adamanthian-scrivener-human-cleric",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-righteous-paladin-human-cleric",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-diamond-aura",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-bravery",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-inner-conflict",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-guard-dog-beast",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-buccaneer-human-rogue",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-phoenix-guard-scout-human-ranger",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-lord-benjamin-the-wise-human-mage",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-prophet-of-lodegan-human-mage",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-sapphire-shard-standard",
+          "quantity": 12,
+          "loadGroupId": "playerNResources"
+        },
+        {
+          "databaseId": "hex-diamond-shard-standard",
+          "quantity": 13,
+          "loadGroupId": "playerNResources"
+        },
+        {
+          "databaseId": "hex-hero-of-adamanth-human-warrior",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-phoenix-guard-aeronaut-human-mage",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        }
+      ]
+    },
+    "necrotic-awakening": {
+      "label": "Necrotic Awakening",
+      "cards": [
+        {
+          "databaseId": "hex-carrac-the-scavenger-necrotic-warlock-necrotic-warlock",
+          "quantity": 1,
+          "loadGroupId": "playerNChampion"
+        },
+        {
+          "databaseId": "hex-spiritbound-spy-necrotic-rogue",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-grim-skull-sorcerer-necrotic-mage",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-deepgaze-acolyte-necrotic-warlock",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-gemsoul-feeder-necrotic-cleric",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-deepgaze-disciple-necrotic-warlock",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-sepulchra-stalwart-necrotic-warrior",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-duskwing-reclaimer-necrotic-cleric",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-paladin-of-naagaan-necrotic-cleric",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-shardcall",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-shard-ward",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-vampiric-kiss",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-necrophet-necrotic-mage",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-diamond-shard-standard",
+          "quantity": 13,
+          "loadGroupId": "playerNResources"
+        },
+        {
+          "databaseId": "hex-blood-shard-standard",
+          "quantity": 12,
+          "loadGroupId": "playerNResources"
+        },
+        {
+          "databaseId": "hex-warlock-of-aettir-necrotic-warlock",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-deepgaze-champion-necrotic-warrior",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-martyr",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        }
+      ]
+    },
+    "orc-gladiator": {
+      "label": "Orc Gladiator",
+      "cards": [
+        {
+          "databaseId": "hex-kranok-orc-warrior-orc-warrior",
+          "quantity": 1,
+          "loadGroupId": "playerNChampion"
+        },
+        {
+          "databaseId": "hex-blood-shard-standard",
+          "quantity": 11,
+          "loadGroupId": "playerNResources"
+        },
+        {
+          "databaseId": "hex-ruby-shard-standard",
+          "quantity": 14,
+          "loadGroupId": "playerNResources"
+        },
+        {
+          "databaseId": "hex-darkspire-priestess-orc-mage",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-zombie-vulture-undead-zombie-bird",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-throat-cutter-orc-rogue",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-shadowgrove-witch-witch",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-endbringer-orc-warlock",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-gore-feast-of-kog-tepetl",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-ruby-aura",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-burn",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-arena-brawler-orc-cleric",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-savage-raider-orc-ranger",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-wrathseeker-orc-warrior",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-veteran-gladiator-orc-cleric",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-burn-to-the-ground",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-te-talca-orc-gladiator-orc-warrior",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-shamed-gladiator-orc-warrior",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        }
+      ]
+    },
+    "shin-hare-onslaught": {
+      "label": "Shin'hare Onslaught",
+      "cards": [
+        {
+          "databaseId": "hex-monika-shin-shinhare-ranger-shin-hare-ranger",
+          "quantity": 1,
+          "loadGroupId": "playerNChampion"
+        },
+        {
+          "databaseId": "hex-command-tower",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-blood-bearer-shin-hare-warlock",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-shroomshaw-shroomkin",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-kill",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-the-mushwocky-shroomkin-mutant",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-wretched-brood",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-onslaught",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-gigantisaur-dinosaur",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-bucktooth-commander-shin-hare-cleric",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-rune-ear-commander-shin-hare-warrior",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-runts-of-the-litter",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-shin-hare-militia-shin-hare",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-moon-ariu-sensei-shin-hare-sensei",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-wild-growth",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-blood-shard-standard",
+          "quantity": 12,
+          "loadGroupId": "playerNResources"
+        },
+        {
+          "databaseId": "hex-wild-shard-standard",
+          "quantity": 13,
+          "loadGroupId": "playerNResources"
+        },
+        {
+          "databaseId": "hex-boulder-brute-elemental",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        }
+      ]
+    },
+    "vennen-zealotry": {
+      "label": "Vennen Zealotry",
+      "cards": [
+        {
+          "databaseId": "hex-webweaver-thox-vennen-mage",
+          "quantity": 1,
+          "loadGroupId": "playerNChampion"
+        },
+        {
+          "databaseId": "hex-hatchery-priest-vennen-cleric",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-runeweb-infiltrator-vennen-ranger",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-exarch-of-the-egg-vennen-warrior",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-giant-spiderspawn-spider",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-arachnomancer-vennen-mage",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-hatchery-broodguard-vennen-warrior",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-incubate",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-mind-rake",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-rotting-knight-undead-zombie",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-incubation-webs",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-parriphagy",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-blood-shard-standard",
+          "quantity": 13,
+          "loadGroupId": "playerNResources"
+        },
+        {
+          "databaseId": "hex-sapphire-shard-standard",
+          "quantity": 12,
+          "loadGroupId": "playerNResources"
+        },
+        {
+          "databaseId": "hex-dementia-daisies-chaostouched-plant",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-eggblight-afflictor-vennen-rogue",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-painbreeder-vennen-ranger",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-harbinger-of-hastur-chaostouched",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        }
+      ]
+    },
+    "coyotle-spirit": {
+      "label": "Coyotle Spirit",
+      "cards": [
+        {
+          "databaseId": "hex-running-deer-coyotle-cleric-coyotle-cleric",
+          "quantity": 1,
+          "loadGroupId": "playerNChampion"
+        },
+        {
+          "databaseId": "hex-howling-brave-coyotle-warrior",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-quick-strider-coyotle-rogue",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-bravery",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-diamond-aura",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-manti-ranger-manti",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-strength-of-the-redwood",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-nightsky-stargazer-coyotle-warrior",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-tyrannosaurus-hex-dinosaur",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-brightmoon-brave-coyotle-warrior",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-sun-seer-coyotle-cleric",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-earthcaller-coyotle-cleric",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-wild-shard-standard",
+          "quantity": 14,
+          "loadGroupId": "playerNResources"
+        },
+        {
+          "databaseId": "hex-diamond-shard-standard",
+          "quantity": 11,
+          "loadGroupId": "playerNResources"
+        },
+        {
+          "databaseId": "hex-glimmerglen-witch-witch",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-wild-aura",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        }
+      ]
+    },
+    "dwarf-grit": {
+      "label": "Dwarf Grit",
+      "cards": [
+        {
+          "databaseId": "hex-bertram-cragraven-dwarf-warrior-dwarf-warrior",
+          "quantity": 1,
+          "loadGroupId": "playerNChampion"
+        },
+        {
+          "databaseId": "hex-frigid-buffalo-buffalo-beast",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-war-bot-bunker",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-s-p-a-m-bot-robot",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-cavern-guard-dwarf-warrior",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-researcher-adept-dwarf-warlock",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-pterobot-robot-dinosaur",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-oracle-song",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-war-machinist-dwarf-warrior",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-bombsmith-dwarf-mage",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-ruby-aura",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-sapphire-aura",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-molten-slaggard-elemental",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-sapphire-shard-standard",
+          "quantity": 14,
+          "loadGroupId": "playerNResources"
+        },
+        {
+          "databaseId": "hex-ruby-shard-standard",
+          "quantity": 11,
+          "loadGroupId": "playerNResources"
+        },
+        {
+          "databaseId": "hex-infiltrator-bot-robot-spider",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        }
+      ]
+    },
+    "elf-flair": {
+      "label": "Elf Flair",
+      "cards": [
+        {
+          "databaseId": "hex-polonius-elf-ranger-elf-ranger",
+          "quantity": 1,
+          "loadGroupId": "playerNChampion"
+        },
+        {
+          "databaseId": "hex-wild-child-elf-cleric",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-vine-trap-plant",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-ruby-aura",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-wild-aura",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-incite-fury",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-molten-slaggard-elemental",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-emberleaf-wardancer-elf-warrior",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-emberleaf-duelist-elf-rogue",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-lithe-lyricist-elf-ranger",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-rotroot-enchanter-elf-warlock",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-sylvan-performer-elf-rogue",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-caribaur-healer-caribaur",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-merry-minstrels-elf",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-wild-shard-standard",
+          "quantity": 13,
+          "loadGroupId": "playerNResources"
+        },
+        {
+          "databaseId": "hex-ruby-shard-standard",
+          "quantity": 12,
+          "loadGroupId": "playerNResources"
+        }
+      ]
+    },
+    "human-determination": {
+      "label": "Human Determination",
+      "cards": [
+        {
+          "databaseId": "hex-lady-elizabeth-human-cleric-human-cleric",
+          "quantity": 1,
+          "loadGroupId": "playerNChampion"
+        },
+        {
+          "databaseId": "hex-sapphire-aura",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-shield-trainer-human-warrior",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-spearcliff-pegasus-pegasus",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-noble-citizenry-human",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-bravery",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-protectorate-clergyman-human-cleric",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-rigid-buffalo-buffalo-beast",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-oracle-song",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-phoenix-guard-trainer-human-ranger",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-devoted-emissary-human-warlock",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-frigid-buffalo-buffalo-beast",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-bastion-of-adamanth-human-cleric",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-captain-of-the-dragon-guard-human-warlock",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-diamond-shard-standard",
+          "quantity": 14,
+          "loadGroupId": "playerNResources"
+        },
+        {
+          "databaseId": "hex-sapphire-shard-standard",
+          "quantity": 11,
+          "loadGroupId": "playerNResources"
+        }
+      ]
+    },
+    "necrotic-scheming": {
+      "label": "Necrotic Scheming",
+      "cards": [
+        {
+          "databaseId": "hex-gozzog-necrotic-warrior-necrotic-warrior",
+          "quantity": 1,
+          "loadGroupId": "playerNChampion"
+        },
+        {
+          "databaseId": "hex-blood-shard-standard",
+          "quantity": 12,
+          "loadGroupId": "playerNResources"
+        },
+        {
+          "databaseId": "hex-diamond-shard-standard",
+          "quantity": 13,
+          "loadGroupId": "playerNResources"
+        },
+        {
+          "databaseId": "hex-bravery",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-call-the-grave",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-spiritbound-spy-necrotic-rogue",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-abominate",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-bloatcap-shroomkin",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-deepgaze-acolyte-necrotic-warlock",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-iljuni-mirthkin-iljuni",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-gemsoul-feeder-necrotic-cleric",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-atrophy",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-corrupt-harvester-necrotic-cleric",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-sepulchra-stalwart-necrotic-warrior",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-paladin-of-naagaan-necrotic-cleric",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-zombie-vulture-undead-zombie-bird",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-rotting-buffalo-undead-zombie-buffalo-beast",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        }
+      ]
+    },
+    "orc-savagery": {
+      "label": "Orc Savagery",
+      "cards": [
+        {
+          "databaseId": "hex-poca-the-conflagrater-orc-mage-orc-mage",
+          "quantity": 1,
+          "loadGroupId": "playerNChampion"
+        },
+        {
+          "databaseId": "hex-savage-raider-orc-ranger",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-arena-brawler-orc-cleric",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-wrathseeker-orc-warrior",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-bloodcrazed-zealot-orc-warlock",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-ruby-aura",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-darkspire-enforcer-orc-rogue",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-darkspire-priestess-orc-mage",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-throat-cutter-orc-rogue",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-atrophy",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-shadowgrove-witch-witch",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-incite-fury",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-molten-slaggard-elemental",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-mazat-spearman-orc-ranger",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-blood-shard-standard",
+          "quantity": 11,
+          "loadGroupId": "playerNResources"
+        },
+        {
+          "databaseId": "hex-ruby-shard-standard",
+          "quantity": 14,
+          "loadGroupId": "playerNResources"
+        }
+      ]
+    },
+    "shin-hare-assault": {
+      "label": "Shin'hare Assault",
+      "cards": [
+        {
+          "databaseId": "hex-monika-shin-shinhare-ranger-shin-hare-ranger",
+          "quantity": 1,
+          "loadGroupId": "playerNChampion"
+        },
+        {
+          "databaseId": "hex-zombie-vulture-undead-zombie-bird",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-tyrannosaurus-hex-dinosaur",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-atrophy",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-shadowgrove-witch-witch",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-killblade-of-the-milky-eye-shin-hare-rogue",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-bucktooth-bannerbunny-shin-hare-cleric",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-strength-of-the-redwood",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-concubunny-shin-hare-concubunny",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-blood-shard-standard",
+          "quantity": 11,
+          "loadGroupId": "playerNResources"
+        },
+        {
+          "databaseId": "hex-wild-shard-standard",
+          "quantity": 14,
+          "loadGroupId": "playerNResources"
+        },
+        {
+          "databaseId": "hex-evolve",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-moon-ariu-sensei-shin-hare-sensei",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-bucktooth-commander-shin-hare-cleric",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-shroomtank-shroomkin",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-tormented-ritualist-shin-hare-mage",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        }
+      ]
+    },
+    "vennen-incursion": {
+      "label": "Vennen Incursion",
+      "cards": [
+        {
+          "databaseId": "hex-zared-venomscorn-vennen-rogue-vennen-rogue",
+          "quantity": 1,
+          "loadGroupId": "playerNChampion"
+        },
+        {
+          "databaseId": "hex-oracle-song",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-atrophy",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-giant-mosquito-insect",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-arachnomancer-vennen-mage",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-runeweb-infiltrator-vennen-ranger",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-hatchery-priest-vennen-cleric",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-hatchery-broodguard-vennen-warrior",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-vilefang-eremite-vennen-warlock",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-neophyte-of-xarlox-vennen-mage",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-frigid-buffalo-buffalo-beast",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-vicious-vivisector-vennen",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-abominate",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-sapphire-shard-standard",
+          "quantity": 12,
+          "loadGroupId": "playerNResources"
+        },
+        {
+          "databaseId": "hex-blood-shard-standard",
+          "quantity": 13,
+          "loadGroupId": "playerNResources"
+        },
+        {
+          "databaseId": "hex-entangling-webs",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        }
+      ]
+    },
+    "sunsoul-phoenix": {
+      "label": "Sunsoul Phoenix",
+      "cards": [
+        {
+          "databaseId": "hex-sunsoul-phoenix-phoenix-2",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-mad-robomancer-dwarf-mage",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-cyclone-shaper-coyotle-mage",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-thunderfield-elder-coyotle-mage-2",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-flickering-gobbler-gobbler",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-combat-training",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-lanupaw-s-sight-2",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-burning-tendrils",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-embertongue-skarn-beast",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-arcane-focus",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-cremate",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-mindcall",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-thunderfield-seer-coyotle-mage",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-change-course",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-zap",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-pyre-strike",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-sapphire-shard-standard",
+          "quantity": 12,
+          "loadGroupId": "playerNResources"
+        },
+        {
+          "databaseId": "hex-ruby-shard-standard",
+          "quantity": 11,
+          "loadGroupId": "playerNResources"
+        },
+        {
+          "databaseId": "hex-zakiir-s-frenzy",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-chill",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-ruby-s-favor",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        }
+      ]
+    },
+    "hero-of-legend": {
+      "label": "Hero of Legend",
+      "cards": [
+        {
+          "databaseId": "hex-battle-hymn",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-strider-scout-coyotle-rogue",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-mooncall-ceremony",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-totem-trap",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-gust-mage-human-mage",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-hilltop-monastery-outpost",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-totem-of-lanupaw-totem",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-warparty-guide-coyotle-ranger",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-blessed-scout-coyotle-rogue",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-razoredge-duelist-human-rogue",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-grace-of-tiaanost",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-spearcliff-captain-human-ranger",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-ardent-crusader-human-warrior",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-dream-guide-coyotle-warlock",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-storm-rider-coyotle-cleric",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-royal-halberdier-human-warrior",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-wakuna-coins-coin",
+          "quantity": 2,
+          "loadGroupId": "playerNResources"
+        },
+        {
+          "databaseId": "hex-diamond-shard-standard",
+          "quantity": 21,
+          "loadGroupId": "playerNResources"
+        },
+        {
+          "databaseId": "hex-bring-to-justice",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-decree-of-banishing-2",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-moonrise-elder-coyotle-mage-2",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-hero-of-legend-human-warrior-2",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        }
+      ]
+    },
+    "locke-of-the-pack": {
+      "label": "Locke of the Pack",
+      "cards": [
+        {
+          "databaseId": "hex-feralfuel-packhunter-gnoll-2",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-feralfuel-conqueror-gnoll",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-boltspasm-elemental",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-primordial-sabretooth-beast",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-pack-frenzy",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-pack-mule-gnoll",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-feralfuel-guzzler-gnoll",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-puke-troll-troll",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-piledrive",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-arena-mutt-beast",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-rabid-razorshield-gnoll",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-battle-of-destiny",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-iremaw-beast",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-jacked-hammerer-orc-warrior",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-runic-fury",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-ruby-shard-standard",
+          "quantity": 11,
+          "loadGroupId": "playerNResources"
+        },
+        {
+          "databaseId": "hex-wild-shard-standard",
+          "quantity": 12,
+          "loadGroupId": "playerNResources"
+        },
+        {
+          "databaseId": "hex-scrios-forgefist-dwarf-mage",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-muzzled-mauler-gnoll",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-locke-of-the-pack-gnoll-2",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-jacked-brutalizer-orc-warrior-2",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-frothfang-cackler-gnoll",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        }
+      ]
+    },
+    "the-librarian": {
+      "label": "The Librarian",
+      "cards": [
+        {
+          "databaseId": "hex-the-librarian-chaostouched",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-nameless-truths-2",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-journey-into-nightmare",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-massacre",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-cult-of-the-nameless-city",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-into-the-unknown",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-walking-boneyard-elemental",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-fever-bloom",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-food-for-thought",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-weave-into-nothing-2",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-eldritch-dreamthief-chaostouched",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-thought-collector-chaostouched",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-cumulus-oculus-chaostouched",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-nameless-orator-chaostouched",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-heart-s-whisper",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-morsel-of-madness",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-disturbing-thought",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-shrink",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-sapphire-ice",
+          "quantity": 2,
+          "loadGroupId": "playerNResources"
+        },
+        {
+          "databaseId": "hex-blood-ice",
+          "quantity": 1,
+          "loadGroupId": "playerNResources"
+        },
+        {
+          "databaseId": "hex-sapphire-shard-standard",
+          "quantity": 12,
+          "loadGroupId": "playerNResources"
+        },
+        {
+          "databaseId": "hex-blood-shard-standard",
+          "quantity": 11,
+          "loadGroupId": "playerNResources"
+        },
+        {
+          "databaseId": "hex-playtime",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        }
+      ]
+    },
+    "lord-blightbark": {
+      "label": "Lord Blightbark",
+      "cards": [
+        {
+          "databaseId": "hex-lord-blightbark-elf-warlock-2",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-violet-s-caress-2",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-promiscuous-succubus-avatar-of-lust",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-baroness-floriana-plant-fae",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-dream-s-end",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-blightbark-reserve",
+          "quantity": 1,
+          "loadGroupId": "playerNResources"
+        },
+        {
+          "databaseId": "hex-plague-and-famine-undead-beast",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-blightbush-undead-plant-2",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-blightbark-paladin-undead-zombie",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-putrid-porker-undead-plant-beast",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-bristlebarb-hag-swamp-hag",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-corpsemulch",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-herald-of-roses-undead-plant",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-herald-of-thorns-undead-plant",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-bug-out",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-blightbark-vampire-vampire",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-blightbark-burster-undead-plant-zombie",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-nightbloom",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-blightseed-cultivator-undead-plant-zombie",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-blood-ice",
+          "quantity": 1,
+          "loadGroupId": "playerNResources"
+        },
+        {
+          "databaseId": "hex-wild-ice",
+          "quantity": 1,
+          "loadGroupId": "playerNResources"
+        },
+        {
+          "databaseId": "hex-call-the-grave-3",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-blood-shard-standard",
+          "quantity": 14,
+          "loadGroupId": "playerNResources"
+        },
+        {
+          "databaseId": "hex-wild-shard-standard",
+          "quantity": 10,
+          "loadGroupId": "playerNResources"
+        },
+        {
+          "databaseId": "hex-blightseed-fiddler-undead-plant-zombie",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        }
+      ]
+    },
+    "lyvaanth": {
+      "label": "Lyvaanth",
+      "cards": [
+        {
+          "databaseId": "hex-lyvaanth-dragon-2",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-scion-of-lyvaanth-human-cleric-2",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-blaze-of-glory",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-rekindle",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-lumagoth-avatar-of-enlightenment",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-lady-of-wax-human-cleric",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-enlightened-destiny",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-wrath-of-elements-2",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-choir-of-lumos",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-wax-dawn",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-runic-candescence",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-brightflame-paladin-human-cleric",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-wings-of-wax",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-flame-barrage",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-acolyte-of-flame-human-cleric",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-candle-crush",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-flamelick",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-kindlekit-beast",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-candlelit-cavalry-human-cleric",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-winter-s-grasp",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-ruby-shard-standard",
+          "quantity": 13,
+          "loadGroupId": "playerNResources"
+        },
+        {
+          "databaseId": "hex-diamond-shard-standard",
+          "quantity": 11,
+          "loadGroupId": "playerNResources"
+        },
+        {
+          "databaseId": "hex-lumiknight-human-cleric",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        }
+      ]
+    },
+    "eyes-of-the-heart": {
+      "label": "Eyes of the Heart",
+      "cards": [
+        {
+          "databaseId": "hex-sapphire-ice",
+          "quantity": 4,
+          "loadGroupId": "playerNResources"
+        },
+        {
+          "databaseId": "hex-diamond-ice",
+          "quantity": 4,
+          "loadGroupId": "playerNResources"
+        },
+        {
+          "databaseId": "hex-diamond-shard-standard",
+          "quantity": 7,
+          "loadGroupId": "playerNResources"
+        },
+        {
+          "databaseId": "hex-sapphire-shard-standard",
+          "quantity": 9,
+          "loadGroupId": "playerNResources"
+        },
+        {
+          "databaseId": "hex-runebind",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-frostspasm-elemental",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-high-joltage-2",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-heartsworn-caller-necrotic-warlock",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-aura-eater-beast",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-glimmer-fox-elemental-familiar",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-glaciate",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-heart-s-whisper",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-frostblast",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-zeota-s-familiar-beast-familiar",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-unhenge-2",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-arcanovex-incarnation",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-woolly-moa-bird",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-heartsworn-mordrom-necrotic-warlock",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-mass-glaciation",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-brightwing-terminus-ender-terminus",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-lixil-heartsworn-necrotic-rogue",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-eyes-of-the-heart-2",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-heartsworn-draxard-necrotic-warrior",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-hailstorm",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        }
+      ]
+    },
+    "shamrock-the-goldfather": {
+      "label": "Shamrock, the Goldfather",
+      "cards": [
+        {
+          "databaseId": "hex-shamrock-the-goldfather-fae-leprechaun-2",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-leprechaun-artist-fae-leprechaun-2",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-exalted-pathfinder-human-ranger",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-gold-boots",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-merry-caravan",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-helpful-coinshark-fae-leprechaun",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-double-down",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-alluring-alemaid-fae-2",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-brighthammer-adept-human-cleric",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-verdant-rift",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-shillelagh-bully-fae-leprechaun",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-iremaw-beast",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-in-the-halls-of-twilight",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-threads-of-life",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-palm-of-granite",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-winter-s-grasp",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-jubilant-jouster-satyr",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-guidance",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-glimmer-fox-elemental-familiar",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-brighttongue-terminus-ender-terminus",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-healthy-tip",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-diamond-ice",
+          "quantity": 3,
+          "loadGroupId": "playerNResources"
+        },
+        {
+          "databaseId": "hex-diamond-shard-standard",
+          "quantity": 8,
+          "loadGroupId": "playerNResources"
+        },
+        {
+          "databaseId": "hex-wild-shard-standard",
+          "quantity": 13,
+          "loadGroupId": "playerNResources"
+        }
+      ]
+    },
+    "iconoclash-deck": {
+      "label": "Iconoclash Deck",
+      "cards": [
+        {
+          "databaseId": "hex-corinth-the-iconoclast-human-cleric-human-cleric",
+          "quantity": 1,
+          "loadGroupId": "playerNChampion"
+        },
+        {
+          "databaseId": "hex-blood-shard-standard",
+          "quantity": 4,
+          "loadGroupId": "playerNResources"
+        },
+        {
+          "databaseId": "hex-ruby-shard-standard",
+          "quantity": 4,
+          "loadGroupId": "playerNResources"
+        },
+        {
+          "databaseId": "hex-wild-shard-standard",
+          "quantity": 4,
+          "loadGroupId": "playerNResources"
+        },
+        {
+          "databaseId": "hex-sapphire-shard-standard",
+          "quantity": 4,
+          "loadGroupId": "playerNResources"
+        },
+        {
+          "databaseId": "hex-diamond-shard-standard",
+          "quantity": 4,
+          "loadGroupId": "playerNResources"
+        }
+      ]
+    },
+    "reckless-assault": {
+      "label": "Reckless Assault",
+      "cards": [
+        {
+          "databaseId": "hex-baby-yeti-yeti-5",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-boltspasm-elemental",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-stalagmage-orc-mage",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-escape-goat-goat",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-lazgar-s-bloodsworn-orc-warlock",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-fire-in-the-hole",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-flameguard-human-warrior",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-arena-regular-orc-warrior-3",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-blackfire-sorcerer-orc-mage",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-pyre-strike",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-ayotochi-brute-orc-ranger",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-mama-yeti-yeti",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-moshpit-gladiator-orc-warrior",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-deranged-marauder-orc-warrior",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-might-and-malice",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-ruby-shard-standard",
+          "quantity": 14,
+          "loadGroupId": "playerNResources"
+        },
+        {
+          "databaseId": "hex-blood-shard-standard",
+          "quantity": 11,
+          "loadGroupId": "playerNResources"
+        }
+      ]
+    },
+    "underworld-schemes": {
+      "label": "Underworld Schemes",
+      "cards": [
+        {
+          "databaseId": "hex-ivan-slagpot-dwarf-warlock-dwarf-warlock",
+          "quantity": 1,
+          "loadGroupId": "playerNChampion"
+        },
+        {
+          "databaseId": "hex-tech-tician-dwarf-cleric",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-jorgen-s-workshop-lair",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-dread-botanist-shin-hare-mage",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-xentoth-s-zealot-vennen-cleric",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-skittering-cultivator-vennen-ranger",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-warpsteel-shardsworn-dwarf-mage",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-shackling-strands",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-cavern-sentry-dwarf-cleric",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-bloodeye-defiler-shin-hare-warlock",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-windbourne-savant-necrotic-mage",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-battle-agenda",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-underworld-officer-necrotic-warrior",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-strangle",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-skittergear-gang-dwarf-warrior-vennen-cleric",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-cryptcurse-knight-necrotic-warrior-spirit",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-blood-shard-standard",
+          "quantity": 12,
+          "loadGroupId": "playerNResources"
+        },
+        {
+          "databaseId": "hex-sapphire-shard-standard",
+          "quantity": 13,
+          "loadGroupId": "playerNResources"
+        }
+      ]
+    },
+    "dreadling-swarm": {
+      "label": "Dreadling Swarm",
+      "cards": [
+        {
+          "databaseId": "hex-shoku-the-botanist-shinhare-mage-shin-hare-mage",
+          "quantity": 1,
+          "loadGroupId": "playerNChampion"
+        },
+        {
+          "databaseId": "hex-stinkhorn-shroomkin",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-skittering-cultivator-vennen-ranger",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-sparklecap-shroomkin",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-shackling-strands",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-shoku-s-garden-lair",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-shambling-junker-robot",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-wakizashi-warbunny-shin-hare-warrior",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-upgrade-technician-dwarf-cleric",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-spring-litter-disciple-shin-hare-cleric",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-commander-p-r-o-m-p-t-robot",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-potent-puffball-shroomkin",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-probewarped-hare-shin-hare-warrior",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-wild-shard-standard",
+          "quantity": 13,
+          "loadGroupId": "playerNResources"
+        },
+        {
+          "databaseId": "hex-sapphire-shard-standard",
+          "quantity": 12,
+          "loadGroupId": "playerNResources"
+        },
+        {
+          "databaseId": "hex-siege-engine-gemini-robot",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-arcane-soil",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-double-trouble",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        }
+      ]
+    },
+    "wild-diamond-coyotle-valors": {
+      "label": "Wild Diamond Coyotle Valors",
+      "cards": [
+        {
+          "databaseId": "hex-two-tomahawks-coyotle-warrior-coyotle-warrior",
+          "quantity": 1,
+          "loadGroupId": "playerNChampion"
+        },
+        {
+          "databaseId": "hex-wakuna-lookout-coyotle-ranger",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-snarling-brave-coyotle-warrior",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-sly-lookout-coyotle-ranger",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-howling-plains-alpha-coyotle-warrior",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-winter-brave-coyotle-warrior",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-apprentice-earthcaller-coyotle-cleric",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-thunderbolt-warden-coyotle-ranger",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-howling-plains-runner-coyotle-rogue",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-autumn-spiritualist-coyotle-warlock",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-gift-of-the-manti",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-bring-to-justice",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-double-trouble",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-valor-rising",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-spring-renewal",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-diamond-shard-standard",
+          "quantity": 11,
+          "loadGroupId": "playerNResources"
+        },
+        {
+          "databaseId": "hex-wild-shard-standard",
+          "quantity": 14,
+          "loadGroupId": "playerNResources"
+        },
+        {
+          "databaseId": "hex-mad-robomancer-dwarf-mage",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        }
+      ]
+    },
+    "diamond-sapphire-humans-diligence": {
+      "label": "Diamond Sapphire Humans Diligence",
+      "cards": [
+        {
+          "databaseId": "hex-marshal-josephina-human-warrior-human-warrior",
+          "quantity": 1,
+          "loadGroupId": "playerNChampion"
+        },
+        {
+          "databaseId": "hex-cerulean-sage-human-mage",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-daring-freebooter-human-rogue",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-razoredge-duelist-human-rogue",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-battle-scrivener-human-cleric",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-mystic-naturalist-human-mage",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-phoenix-guard-lancer-human-ranger",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-llama-herder-human-ranger",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-tale-of-compassion",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-canyon-fleetfoot-coyotle-ranger",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-guardian-gralk-beast",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-guppy-gloves",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-shroud",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-shackling-strands",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-conceal",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-diamond-shard-standard",
+          "quantity": 12,
+          "loadGroupId": "playerNResources"
+        },
+        {
+          "databaseId": "hex-sapphire-shard-standard",
+          "quantity": 13,
+          "loadGroupId": "playerNResources"
+        },
+        {
+          "databaseId": "hex-chimera-bot-robot",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        }
+      ]
+    },
+    "blood-diamond-necrotic-sockets": {
+      "label": "Blood Diamond Necrotic Sockets",
+      "cards": [
+        {
+          "databaseId": "hex-duskwing-priest-necrotic-cleric",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-dusk-scout-necrotic-ranger",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-grim-skull-tactician-necrotic-warrior",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-spiritbound-vicar-necrotic-cleric",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-darkfall-patriarch-necrotic-warrior",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-crowbones-undead",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-sentry-of-nulzann-construct",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-altar-of-nulzann",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-fiend-of-nulzann-construct",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-fang-of-nulzann-construct",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-diamond-shard-standard",
+          "quantity": 15,
+          "loadGroupId": "playerNResources"
+        },
+        {
+          "databaseId": "hex-blood-shard-standard",
+          "quantity": 10,
+          "loadGroupId": "playerNResources"
+        },
+        {
+          "databaseId": "hex-weeping-banshee-spirit",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-sanguine-boon",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-holy-reprisal",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-blackheart-paladin-necrotic-cleric",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-animus-of-nulzann-construct",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        }
+      ]
+    },
+    "blood-wild-shin-hare-scrounge": {
+      "label": "Blood Wild Shin'hare Scrounge?",
+      "cards": [
+        {
+          "databaseId": "hex-shoku-the-botanist-shinhare-mage-shin-hare-mage",
+          "quantity": 1,
+          "loadGroupId": "playerNChampion"
+        },
+        {
+          "databaseId": "hex-naive-lackey-shin-hare-warlock",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-dread-botanist-shin-hare-mage",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-wicked-webspawn-vennen-rogue",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-dread-apprentice-shin-hare-mage",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-probewarped-hare-shin-hare-warrior",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-smash-magus-shin-hare-mage",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-burly-botanist-shin-hare-warrior",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-blood-bearer-shin-hare-warlock-3",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-acolyte-of-shoku-shin-hare-mage",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-death-s-head-rider-shin-hare-ranger",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-swampwater-recluse-shin-hare-warlock",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-drain-soul",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-double-trouble",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-strangle",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-spring-litter-disciple-shin-hare-cleric",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-blood-shard-standard",
+          "quantity": 13,
+          "loadGroupId": "playerNResources"
+        },
+        {
+          "databaseId": "hex-wild-shard-standard",
+          "quantity": 12,
+          "loadGroupId": "playerNResources"
+        }
+      ]
+    },
+    "sapphire-ruby-dwarves-charges": {
+      "label": "Sapphire Ruby Dwarves Charges",
+      "cards": [
+        {
+          "databaseId": "hex-angus-the-arsonist-dwarf-ranger-dwarf-ranger",
+          "quantity": 1,
+          "loadGroupId": "playerNChampion"
+        },
+        {
+          "databaseId": "hex-zap",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-jet-cadet-dwarf-rogue",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-crackling-tide",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-warpsteel-shardsworn-dwarf-mage",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-webborn-apostate-vennen-warlock",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-shackling-strands",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-pyre-strike",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-pyresmoke-cabalist-necrotic-warlock",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-rockslider-elemental",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-rift-spasm-elemental",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-upgrade-technician-dwarf-cleric",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-mechanized-gemscout-dwarf-robot",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-skittergear-gang-dwarf-warrior-vennen-cleric",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-mechanized-aerialist-dwarf-robot",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-guardian-gralk-beast",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-ruby-shard-standard",
+          "quantity": 11,
+          "loadGroupId": "playerNResources"
+        },
+        {
+          "databaseId": "hex-sapphire-shard-standard",
+          "quantity": 14,
+          "loadGroupId": "playerNResources"
+        }
+      ]
+    },
+    "blood-ruby-orcs-assault": {
+      "label": "Blood Ruby Orcs Assault",
+      "cards": [
+        {
+          "databaseId": "hex-gorn-of-the-hell-pits-orc-warrior-orc-warrior",
+          "quantity": 1,
+          "loadGroupId": "playerNChampion"
+        },
+        {
+          "databaseId": "hex-razor-s-edge",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-escape-goat-goat",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-lazgar-s-bloodsworn-orc-warlock",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-ayotochi-brute-orc-ranger",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-deranged-marauder-orc-warrior",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-blackfire-sorcerer-orc-mage",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-taste-for-blood",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-baby-yeti-yeti-5",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-boltspasm-elemental",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-pyre-strike",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-mama-yeti-yeti",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-furious-smasher-orc-warrior",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-strangle",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-siege-engine-gemini-robot",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-blood-shard-standard",
+          "quantity": 12,
+          "loadGroupId": "playerNResources"
+        },
+        {
+          "databaseId": "hex-ruby-shard-standard",
+          "quantity": 13,
+          "loadGroupId": "playerNResources"
+        },
+        {
+          "databaseId": "hex-arena-regular-orc-warrior-3",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        }
+      ]
+    },
+    "wild-ruby-elves-monsters": {
+      "label": "Wild Ruby Elves Monsters",
+      "cards": [
+        {
+          "databaseId": "hex-lysander-elf-ranger-elf-ranger",
+          "quantity": 1,
+          "loadGroupId": "playerNChampion"
+        },
+        {
+          "databaseId": "hex-ashwood-firebrand-elf-rogue",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-ashwood-minstrel-elf-mage",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-aryndel-monk-elf-warrior",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-heart-of-embers-elf-ranger",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-dauntless-rootshaper-elf-warlock-plant",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-siegesaurus-dinosaur",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-crackling-clash",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-pyre-strike",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-strength-of-the-ardent",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-oakhenge-druid-elf-cleric",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-ambershire-cavalry-elf-warrior",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-surging-wildfire-elemental",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-spring-dancer-elf-cleric",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-feral-squeaker-beast",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-spring-renewal",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-ruby-shard-standard",
+          "quantity": 11,
+          "loadGroupId": "playerNResources"
+        },
+        {
+          "databaseId": "hex-wild-shard-standard",
+          "quantity": 14,
+          "loadGroupId": "playerNResources"
+        }
+      ]
+    },
+    "blood-sapphire-vennen-spiders": {
+      "label": "Blood Sapphire Vennen Spiders",
+      "cards": [
+        {
+          "databaseId": "hex-therroz-vennen-warrior-vennen-warrior",
+          "quantity": 1,
+          "loadGroupId": "playerNChampion"
+        },
+        {
+          "databaseId": "hex-xentoth-s-zealot-vennen-cleric",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-webborn-apostate-vennen-warlock",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-rizzix-vennen-warrior",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-arachnoglider-spider",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-underworld-officer-necrotic-warrior",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-veiled-lurker-vennen-mage",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-battle-agenda",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-webspinner-prelate-vennen-cleric",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-brood-net",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-butcher",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-amphibious-arachnid-spider",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-windbourne-savant-necrotic-mage",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-conceal",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-prejudice",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-mirror-mirror",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-sapphire-shard-standard",
+          "quantity": 14,
+          "loadGroupId": "playerNResources"
+        },
+        {
+          "databaseId": "hex-blood-shard-standard",
+          "quantity": 11,
+          "loadGroupId": "playerNResources"
+        }
+      ]
+    },
+    "ardent-fervor": {
+      "label": "Ardent Fervor",
+      "cards": [
+        {
+          "databaseId": "hex-octavia-the-faceless-elf-rogue-elf-rogue",
+          "quantity": 1,
+          "loadGroupId": "playerNChampion"
+        },
+        {
+          "databaseId": "hex-gust-mage-human-mage",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-warparty-guide-coyotle-ranger",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-ashwood-firebrand-elf-rogue",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-razoredge-duelist-human-rogue",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-flameguard-human-warrior",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-battlefield-ironsmith-orc-ranger",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-bring-to-justice",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-chastise",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-ardent-officer-human-warrior",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-spearcliff-captain-human-ranger",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-lava-shaper-orc-mage",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-firesoul-gemsworn-human-mage",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-explosive-interlude",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-dawn-mesa-duo-human-warrior-coyotle-cleric",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-heart-of-embers-elf-ranger",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-diamond-shard-standard",
+          "quantity": 13,
+          "loadGroupId": "playerNResources"
+        },
+        {
+          "databaseId": "hex-ruby-shard-standard",
+          "quantity": 12,
+          "loadGroupId": "playerNResources"
+        }
+      ]
+    },
+    "valorous-victory": {
+      "label": "Valorous Victory",
+      "cards": [
+        {
+          "databaseId": "hex-marshal-josephina-human-warrior-human-warrior",
+          "quantity": 1,
+          "loadGroupId": "playerNChampion"
+        },
+        {
+          "databaseId": "hex-moonrise-elder-coyotle-mage",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-howling-plains-alpha-coyotle-warrior",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-gust-mage-human-mage",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-spring-dancer-elf-cleric",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-satyr-s-roost-bard-elf-rogue",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-adamanthian-warpriest-human-cleric",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-bring-to-justice",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-spearcliff-captain-human-ranger",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-apprentice-earthcaller-coyotle-cleric",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-vanquish",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-oakhenge-druid-elf-cleric",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-howling-plains-runner-coyotle-rogue",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-ambershire-cavalry-elf-warrior",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-crackling-clash",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-aryndel-monk-elf-warrior",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-wild-shard-standard",
+          "quantity": 13,
+          "loadGroupId": "playerNResources"
+        },
+        {
+          "databaseId": "hex-diamond-shard-standard",
+          "quantity": 12,
+          "loadGroupId": "playerNResources"
+        }
+      ]
+    },
+    "galaxtar": {
+      "label": "Galaxtar",
+      "cards": [
+        {
+          "databaseId": "hex-galaxtar",
+          "quantity": 1,
+          "loadGroupId": "playerNChampion"
+        },
+        {
+          "databaseId": "hex-uncommon-portal",
+          "quantity": 10,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-rare-portal",
+          "quantity": 10,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-legendary-portal",
+          "quantity": 5,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-common-portal",
+          "quantity": 10,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-wild-shard-standard",
+          "quantity": 5,
+          "loadGroupId": "playerNResources"
+        },
+        {
+          "databaseId": "hex-sapphire-shard-standard",
+          "quantity": 5,
+          "loadGroupId": "playerNResources"
+        },
+        {
+          "databaseId": "hex-ruby-shard-standard",
+          "quantity": 5,
+          "loadGroupId": "playerNResources"
+        },
+        {
+          "databaseId": "hex-diamond-shard-standard",
+          "quantity": 5,
+          "loadGroupId": "playerNResources"
+        },
+        {
+          "databaseId": "hex-blood-shard-standard",
+          "quantity": 5,
+          "loadGroupId": "playerNResources"
+        }
+      ]
+    },
+    "signature-deck-havoc-s-rowdy-sugar-rush": {
+      "label": "Signature Deck - Havoc's Rowdy Sugar Rush",
+      "cards": [
+        {
+          "databaseId": "hex-the-blackberry-knight-berry",
+          "quantity": 1,
+          "loadGroupId": "playerNChampion"
+        },
+        {
+          "databaseId": "hex-rowdy-piper-satyr",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-brosi-s-bouncer-beast",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-dreamsmoke-diva-fae",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-pocket-army-robot",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-sugar-rush",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-runebind",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-pippit-hustler-fae",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-dreamcall",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-prison-of-the-mind",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-caravan-cannoneer-imp",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-heartsworn-caller-necrotic-warlock",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-grapes-of-wrath-berry",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-root-of-instinct",
+          "quantity": 2,
+          "loadGroupId": "playerNResources"
+        },
+        {
+          "databaseId": "hex-sapphire-shard-standard",
+          "quantity": 11,
+          "loadGroupId": "playerNResources"
+        },
+        {
+          "databaseId": "hex-wild-shard-standard",
+          "quantity": 11,
+          "loadGroupId": "playerNResources"
+        }
+      ]
+    },
+    "signature-deck-nerojinous-momentum-mastery": {
+      "label": "Signature Deck - NeroJinous' Momentum Mastery",
+      "cards": [
+        {
+          "databaseId": "hex-lady-avalanche-human-warrior-human-warrior",
+          "quantity": 1,
+          "loadGroupId": "playerNChampion"
+        },
+        {
+          "databaseId": "hex-shamrock-the-goldfather-fae-leprechaun",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-leprechaun-artist-fae-leprechaun",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-righteous-waxshot-human-cleric",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-exalted-pathfinder-human-ranger",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-merry-caravan",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-frostlock",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-pippit-pal-fae",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-jubilant-jouster-satyr",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-guidance",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-winter-s-grasp",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-palm-of-granite",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-diamond-ice",
+          "quantity": 4,
+          "loadGroupId": "playerNResources"
+        },
+        {
+          "databaseId": "hex-wild-ice",
+          "quantity": 4,
+          "loadGroupId": "playerNResources"
+        },
+        {
+          "databaseId": "hex-diamond-shard-standard",
+          "quantity": 8,
+          "loadGroupId": "playerNResources"
+        },
+        {
+          "databaseId": "hex-wild-shard-standard",
+          "quantity": 8,
+          "loadGroupId": "playerNResources"
+        }
+      ]
+    },
+    "signature-deck-snake-s-refuel-rampage": {
+      "label": "Signature Deck - Snake's Refuel Rampage",
+      "cards": [
+        {
+          "databaseId": "hex-rhiannon-of-flame-human-mage-human-mage",
+          "quantity": 1,
+          "loadGroupId": "playerNChampion"
+        },
+        {
+          "databaseId": "hex-acolyte-of-flame-human-cleric",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-blightbark-burster-undead-plant-zombie",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-boltwing-phoenix-phoenix",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-fatalfuel-alpha-undead-zombie-gnoll",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-feral-formulation",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-flare-fiend-elemental-familiar",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-jouncing-carnage",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-promiscuous-succubus-avatar-of-lust",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-refuel",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-replipopper-4000-robot",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-return-to-cinder",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-zomboyz-undead-zombie-gnoll",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-blightbark-reserve",
+          "quantity": 4,
+          "loadGroupId": "playerNResources"
+        },
+        {
+          "databaseId": "hex-root-of-hatred",
+          "quantity": 4,
+          "loadGroupId": "playerNResources"
+        },
+        {
+          "databaseId": "hex-blood-shard-standard",
+          "quantity": 6,
+          "loadGroupId": "playerNResources"
+        },
+        {
+          "databaseId": "hex-ruby-shard-standard",
+          "quantity": 9,
+          "loadGroupId": "playerNResources"
+        }
+      ]
+    },
+    "starter-dwarf": {
+      "label": "Starter: Dwarf",
+      "cards": [
+        {
+          "databaseId": "hex-bertram-cragraven-dwarf-warrior-dwarf-warrior",
+          "quantity": 1,
+          "loadGroupId": "playerNChampion"
+        },
+        {
+          "databaseId": "hex-sapphire-shard-standard",
+          "quantity": 13,
+          "loadGroupId": "playerNResources"
+        },
+        {
+          "databaseId": "hex-ruby-shard-standard",
+          "quantity": 12,
+          "loadGroupId": "playerNResources"
+        },
+        {
+          "databaseId": "hex-charge-bot-robot",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-assault-bot-robot",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-heavy-welding-bot-robot",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-pterobot-robot-dinosaur",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-sapper-s-charge",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-runic-monolith",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-construction-plans-ingenuity-engine-plans",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-worker-bot-factory-factory",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-war-machinist-dwarf-warrior",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-bombsmith-dwarf-mage",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-plan-c",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-technical-genius-dwarf-cleric",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-cavern-commando-dwarf-rogue",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-researcher-adept-dwarf-warlock",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-oracle-song",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-yesterday",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        }
+      ]
+    },
+    "starter-human": {
+      "label": "Starter: Human",
+      "cards": [
+        {
+          "databaseId": "hex-lady-elizabeth-human-cleric-human-cleric",
+          "quantity": 1,
+          "loadGroupId": "playerNChampion"
+        },
+        {
+          "databaseId": "hex-sapphire-shard-standard",
+          "quantity": 13,
+          "loadGroupId": "playerNResources"
+        },
+        {
+          "databaseId": "hex-diamond-shard-standard",
+          "quantity": 12,
+          "loadGroupId": "playerNResources"
+        },
+        {
+          "databaseId": "hex-shield-trainer-human-warrior",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-guard-dog-beast",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-kraken-guard-mariner-human-rogue",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-spearcliff-pegasus-pegasus",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-protectorate-clergyman-human-cleric",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-chimera-guard-outrider-human-warrior",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-captain-of-the-dragon-guard-human-warlock",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-stoneskin",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-inner-conflict",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-radiant-armor",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-judgement",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-the-ancestors-chosen-human-warlock",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-buccaneer-human-rogue",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-phoenix-guard-trainer-human-ranger",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-wizard-of-the-silver-talon-human-mage",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-prophet-of-lodegan-human-mage",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-countermagic",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        }
+      ]
+    },
+    "starter-orc": {
+      "label": "Starter: Orc",
+      "cards": [
+        {
+          "databaseId": "hex-poca-the-conflagrater-orc-mage-orc-mage",
+          "quantity": 1,
+          "loadGroupId": "playerNChampion"
+        },
+        {
+          "databaseId": "hex-blood-shard-standard",
+          "quantity": 12,
+          "loadGroupId": "playerNResources"
+        },
+        {
+          "databaseId": "hex-ruby-shard-standard",
+          "quantity": 13,
+          "loadGroupId": "playerNResources"
+        },
+        {
+          "databaseId": "hex-shadowgrove-witch-witch",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-fang-of-the-mountain-god-orc-warrior",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-darkspire-priestess-orc-mage",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-wailing-banshee-undead",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-darkspire-enforcer-orc-rogue",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-throat-cutter-orc-rogue",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-endbringer-orc-warlock",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-relentless-corruption",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-savage-raider-orc-ranger",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-arena-brawler-orc-cleric",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-wrathseeker-orc-warrior",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-goreseeker-orc-warrior",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-ash-harpy-harpy",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-burn",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-ruby-aura",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        }
+      ]
+    },
+    "starter-shinhare": {
+      "label": "Starter: Shinhare",
+      "cards": [
+        {
+          "databaseId": "hex-monika-shin-shinhare-ranger-shin-hare-ranger",
+          "quantity": 1,
+          "loadGroupId": "playerNChampion"
+        },
+        {
+          "databaseId": "hex-blood-shard-standard",
+          "quantity": 12,
+          "loadGroupId": "playerNResources"
+        },
+        {
+          "databaseId": "hex-wild-shard-standard",
+          "quantity": 13,
+          "loadGroupId": "playerNResources"
+        },
+        {
+          "databaseId": "hex-command-tower",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-blood-bearer-shin-hare-warlock",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-shroomshaw-shroomkin",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-blood-cauldron-ritualist-shin-hare-warlock",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-the-mushwocky-shroomkin-mutant",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-shin-hare-militia-shin-hare",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-moon-ariu-sensei-shin-hare-sensei",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-concubunny-shin-hare-concubunny",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-bucktooth-commander-shin-hare-cleric",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-rune-ear-commander-shin-hare-warrior",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-uzume-grand-concubunny-shin-hare-concubunny",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-wild-growth",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-runts-of-the-litter",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-evolve",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-onslaught",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        }
+      ]
+    },
+    "starter-tourney-dwarf-deck": {
+      "label": "Starter: Tourney Dwarf Deck",
+      "cards": [
+        {
+          "databaseId": "hex-bertram-cragraven-dwarf-warrior-dwarf-warrior",
+          "quantity": 1,
+          "loadGroupId": "playerNChampion"
+        },
+        {
+          "databaseId": "hex-bombsmith-dwarf-mage",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-scrap-welder-dwarf-warrior",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-war-machinist-dwarf-warrior",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-assault-technician-dwarf-cleric",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-rocket-ranger-dwarf-ranger",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-gearsmith-dwarf-mage",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-cavern-commando-dwarf-rogue",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-technical-genius-dwarf-cleric",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-research-librarian-dwarf-mage",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-eurig-the-robomancer-dwarf-cleric",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-charge-bot-robot",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-pterobot-robot-dinosaur",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-slaughtergear-renegade-war-factory-robot-factory",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-construction-plans-war-hulk-plans",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-sapper-s-charge",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-volcannon",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-ruby-shard-standard",
+          "quantity": 13,
+          "loadGroupId": "playerNResources"
+        },
+        {
+          "databaseId": "hex-sapphire-shard-standard",
+          "quantity": 12,
+          "loadGroupId": "playerNResources"
+        }
+      ]
+    },
+    "starter-tourney-dwarf-foe-1": {
+      "label": "Starter: Tourney Dwarf Foe 1",
+      "cards": [
+        {
+          "databaseId": "hex-polonius-elf-ranger-elf-ranger",
+          "quantity": 1,
+          "loadGroupId": "playerNChampion"
+        },
+        {
+          "databaseId": "hex-wild-shard-standard",
+          "quantity": 26,
+          "loadGroupId": "playerNResources"
+        },
+        {
+          "databaseId": "hex-bottled-vitae",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-wild-child-elf-cleric",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-howling-brave-coyotle-warrior",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-dandelion-sprite-fae",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-wild-growth",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-ambershire-instigator-elf-ranger",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-glimmerglen-witch-witch",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-vine-trap-plant",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-nature-reigns",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-oakhenge-ceremony",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-plant-garden",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-pact-of-life",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        }
+      ]
+    },
+    "starter-tourney-dwarf-foe-2": {
+      "label": "Starter: Tourney Dwarf Foe 2",
+      "cards": [
+        {
+          "databaseId": "hex-polonius-elf-ranger-elf-ranger",
+          "quantity": 1,
+          "loadGroupId": "playerNChampion"
+        },
+        {
+          "databaseId": "hex-wild-shard-standard",
+          "quantity": 26,
+          "loadGroupId": "playerNResources"
+        },
+        {
+          "databaseId": "hex-bottled-vitae",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-wild-child-elf-cleric",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-nature-reigns",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-glimmerglen-witch-witch",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-dandelion-sprite-fae",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-ambershire-instigator-elf-ranger",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-nelebrin-skirmisher-elf-ranger",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-vine-trap-plant",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-pact-of-life",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-briar-legion-plant",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-briarpatch-conjuror-elf-warlock",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        }
+      ]
+    },
+    "starter-tourney-dwarf-foe-3": {
+      "label": "Starter: Tourney Dwarf Foe 3",
+      "cards": [
+        {
+          "databaseId": "hex-polonius-elf-ranger-elf-ranger",
+          "quantity": 1,
+          "loadGroupId": "playerNChampion"
+        },
+        {
+          "databaseId": "hex-wild-shard-standard",
+          "quantity": 26,
+          "loadGroupId": "playerNResources"
+        },
+        {
+          "databaseId": "hex-wild-child-elf-cleric",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-nature-reigns",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-puck-dream-bringer-elf-cleric",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-nelebrin-skirmisher-elf-ranger",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-wrathwood-colossus-elemental",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-ambershire-instigator-elf-ranger",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-wild-root-dancer-elf-cleric",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-wild-growth",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-gigantisaur-dinosaur",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-dandelion-sprite-fae",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-pact-of-life",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-tyrannosaurus-hex-dinosaur",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        }
+      ]
+    },
+    "starter-tourney-human-deck": {
+      "label": "Starter: Tourney Human Deck",
+      "cards": [
+        {
+          "databaseId": "hex-lady-elizabeth-human-cleric-human-cleric",
+          "quantity": 1,
+          "loadGroupId": "playerNChampion"
+        },
+        {
+          "databaseId": "hex-ruby-pyromancer-human-mage",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-sniper-of-gawaine-human-ranger",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-sword-trainer-human-warrior",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-daring-swordsman-human-rogue",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-lord-alexander-the-courageous-human-warrior",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-legionnaire-of-gawaine-human-warrior",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-shield-trainer-human-warrior",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-kraken-guard-mariner-human-rogue",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-protectorate-clergyman-human-cleric",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-hero-of-adamanth-human-warrior",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-bravery",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-inner-conflict",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-burn",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-diamond-shard-standard",
+          "quantity": 13,
+          "loadGroupId": "playerNResources"
+        },
+        {
+          "databaseId": "hex-ruby-shard-standard",
+          "quantity": 13,
+          "loadGroupId": "playerNResources"
+        },
+        {
+          "databaseId": "hex-adamanthian-scrivener-human-cleric",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-captain-of-the-dragon-guard-human-warlock",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        }
+      ]
+    },
+    "starter-tourney-human-foe-1": {
+      "label": "Starter: Tourney Human Foe 1",
+      "cards": [
+        {
+          "databaseId": "hex-gozzog-necrotic-warrior-necrotic-warrior",
+          "quantity": 1,
+          "loadGroupId": "playerNChampion"
+        },
+        {
+          "databaseId": "hex-paladin-of-naagaan-necrotic-cleric",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-blood-savant-necrotic-warlock",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-grim-skull-sorcerer-necrotic-mage",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-wall-of-corpses-wall",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-headless-executioner-undead-ghoul",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-sorrow",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-loregoyle-gargoyle",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-diamond-shard-standard",
+          "quantity": 13,
+          "loadGroupId": "playerNResources"
+        },
+        {
+          "databaseId": "hex-blood-shard-standard",
+          "quantity": 13,
+          "loadGroupId": "playerNResources"
+        },
+        {
+          "databaseId": "hex-bone-warrior-undead-skeleton",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-atrophy",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-determined-zombie-undead-zombie",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        }
+      ]
+    },
+    "starter-tourney-human-foe-2": {
+      "label": "Starter: Tourney Human Foe 2",
+      "cards": [
+        {
+          "databaseId": "hex-dimmid-necrotic-warlock-necrotic-warlock",
+          "quantity": 1,
+          "loadGroupId": "playerNChampion"
+        },
+        {
+          "databaseId": "hex-paladin-of-naagaan-necrotic-cleric",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-grim-skull-sorcerer-necrotic-mage",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-corrupt-harvester-necrotic-cleric",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-blood-savant-necrotic-warlock",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-high-tomb-lord-necrotic-warrior",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-call-the-grave",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-kill",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-shadowgrove-witch-witch",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-wailing-banshee-undead",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-zombie-vulture-undead-zombie-bird",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-atrophy",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-diamond-shard-standard",
+          "quantity": 13,
+          "loadGroupId": "playerNResources"
+        },
+        {
+          "databaseId": "hex-blood-shard-standard",
+          "quantity": 13,
+          "loadGroupId": "playerNResources"
+        },
+        {
+          "databaseId": "hex-determined-zombie-undead-zombie",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        }
+      ]
+    },
+    "starter-tourney-human-foe-3": {
+      "label": "Starter: Tourney Human Foe 3",
+      "cards": [
+        {
+          "databaseId": "hex-nin-the-shadow-necrotic-rogue-necrotic-rogue",
+          "quantity": 1,
+          "loadGroupId": "playerNChampion"
+        },
+        {
+          "databaseId": "hex-lixil-the-deathless-gem-necrotic-rogue",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-midnight-shepherd-necrotic-warlock",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-ruby-shard-standard",
+          "quantity": 3,
+          "loadGroupId": "playerNResources"
+        },
+        {
+          "databaseId": "hex-sapphire-shard-standard",
+          "quantity": 3,
+          "loadGroupId": "playerNResources"
+        },
+        {
+          "databaseId": "hex-wild-shard-standard",
+          "quantity": 3,
+          "loadGroupId": "playerNResources"
+        },
+        {
+          "databaseId": "hex-diamond-shard-standard",
+          "quantity": 7,
+          "loadGroupId": "playerNResources"
+        },
+        {
+          "databaseId": "hex-blood-shard-standard",
+          "quantity": 6,
+          "loadGroupId": "playerNResources"
+        },
+        {
+          "databaseId": "hex-shards-of-fate",
+          "quantity": 4,
+          "loadGroupId": "playerNResources"
+        },
+        {
+          "databaseId": "hex-windbourne-acolyte-necrotic-mage-2",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-grim-skull-sorcerer-necrotic-mage",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-paladin-of-naagaan-necrotic-cleric",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-shadowblade-lurker-necrotic-rogue",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-corrupt-harvester-necrotic-cleric",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-high-tomb-lord-necrotic-warrior",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-burn",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-sapphire-aura",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-evolve",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        }
+      ]
+    },
+    "starter-tourney-orc-deck": {
+      "label": "Starter: Tourney Orc Deck",
+      "cards": [
+        {
+          "databaseId": "hex-kranok-orc-warrior-orc-warrior",
+          "quantity": 1,
+          "loadGroupId": "playerNChampion"
+        },
+        {
+          "databaseId": "hex-arena-brawler-orc-cleric",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-furious-taskmaster-orc-cleric",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-darkspire-priestess-orc-mage",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-darkspire-enforcer-orc-rogue",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-savage-raider-orc-ranger",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-fang-of-the-mountain-god-orc-warrior",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-claw-of-the-mountain-god-orc-warrior",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-endbringer-orc-warlock",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-wrathseeker-orc-warrior",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-te-talca-orc-gladiator-orc-warrior",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-shamed-gladiator-orc-warrior",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-mazat-ranger-orc-ranger",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-burn",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-ruby-aura",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-atrophy",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-blood-shard-standard",
+          "quantity": 12,
+          "loadGroupId": "playerNResources"
+        },
+        {
+          "databaseId": "hex-ruby-shard-standard",
+          "quantity": 13,
+          "loadGroupId": "playerNResources"
+        }
+      ]
+    },
+    "starter-tourney-orc-foe-1": {
+      "label": "Starter: Tourney Orc Foe 1",
+      "cards": [
+        {
+          "databaseId": "hex-zared-venomscorn-vennen-rogue-vennen-rogue",
+          "quantity": 1,
+          "loadGroupId": "playerNChampion"
+        },
+        {
+          "databaseId": "hex-brood-creeper-vennen-rogue",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-rot-caster-vennen-mage",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-xentoth-s-chosen-vennen-warrior",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-xarlox-the-brood-lord-vennen-warlock",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-incubation-slave-orc-slave",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-misfortune",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-blood-shard-standard",
+          "quantity": 27,
+          "loadGroupId": "playerNResources"
+        },
+        {
+          "databaseId": "hex-command-tower",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-chaos-key-chaostouched",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-wall-of-corpses-wall-2",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-zombie-vulture-undead-zombie-bird",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-inquisition",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        }
+      ]
+    },
+    "starter-tourney-orc-foe-2": {
+      "label": "Starter: Tourney Orc Foe 2",
+      "cards": [
+        {
+          "databaseId": "hex-zared-venomscorn-vennen-rogue-vennen-rogue",
+          "quantity": 1,
+          "loadGroupId": "playerNChampion"
+        },
+        {
+          "databaseId": "hex-brood-creeper-vennen-rogue",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-incubation-slave-orc-slave",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-rot-caster-vennen-mage",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-xentoth-s-chosen-vennen-warrior",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-xentoth-s-inquisitor-vennen-warlock",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-xarlox-the-brood-lord-vennen-warlock",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-blood-shard-standard",
+          "quantity": 27,
+          "loadGroupId": "playerNResources"
+        },
+        {
+          "databaseId": "hex-chaos-key-chaostouched",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-wall-of-corpses-wall-2",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-life-siphon",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-terrible-transfer",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-headless-executioner-undead-ghoul",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-corrupted-afterlife",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        }
+      ]
+    },
+    "starter-tourney-orc-foe-3": {
+      "label": "Starter: Tourney Orc Foe 3",
+      "cards": [
+        {
+          "databaseId": "hex-zared-venomscorn-vennen-rogue-vennen-rogue",
+          "quantity": 1,
+          "loadGroupId": "playerNChampion"
+        },
+        {
+          "databaseId": "hex-brood-creeper-vennen-rogue",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-rot-caster-vennen-mage",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-xentoth-s-inquisitor-vennen-warlock",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-xarlox-the-brood-lord-vennen-warlock",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-incubation-slave-orc-slave",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-xentoth-s-chosen-vennen-warrior",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-misfortune",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-headless-executioner-undead-ghoul",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-blood-shard-standard",
+          "quantity": 27,
+          "loadGroupId": "playerNResources"
+        },
+        {
+          "databaseId": "hex-malice-demon-avatar-of-malice",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-kill",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-blood-aura",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        }
+      ]
+    },
+    "starter-tourney-shin-deck": {
+      "label": "Starter: Tourney Shin Deck",
+      "cards": [
+        {
+          "databaseId": "hex-kishimoto-shinhare-cleric-shin-hare-cleric",
+          "quantity": 1,
+          "loadGroupId": "playerNChampion"
+        },
+        {
+          "databaseId": "hex-blood-bearer-shin-hare-warlock",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-blood-cauldron-ritualist-shin-hare-warlock",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-shin-hare-eulogist-shin-hare-warlock",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-hop-hiro-samurai-shin-hare-warrior",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-shin-hare-militia-shin-hare",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-moon-ariu-sensei-shin-hare-sensei",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-bucktooth-commander-shin-hare-cleric",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-concubunny-shin-hare-concubunny",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-rune-ear-commander-shin-hare-warrior",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-uzume-grand-concubunny-shin-hare-concubunny",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-wild-growth",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-oakhenge-ceremony",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-kill",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-necessary-sacrifice",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-blood-shard-standard",
+          "quantity": 13,
+          "loadGroupId": "playerNResources"
+        },
+        {
+          "databaseId": "hex-wild-shard-standard",
+          "quantity": 13,
+          "loadGroupId": "playerNResources"
+        },
+        {
+          "databaseId": "hex-runts-of-the-litter",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        }
+      ]
+    },
+    "starter-tourney-shin-foe-1": {
+      "label": "Starter: Tourney Shin Foe 1",
+      "cards": [
+        {
+          "databaseId": "hex-zodiac-shaman-coyotle-warlock",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-clear-sky-stormcaller-coyotle-mage",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-mystic-of-the-tranquil-dream-coyotle-cleric",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-prairie-scout-coyotle-ranger",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-stargazer-coyotle-mage",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-howling-brave-coyotle-warrior",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-shards-of-fate",
+          "quantity": 4,
+          "loadGroupId": "playerNResources"
+        },
+        {
+          "databaseId": "hex-wild-shard-standard",
+          "quantity": 8,
+          "loadGroupId": "playerNResources"
+        },
+        {
+          "databaseId": "hex-sapphire-shard-standard",
+          "quantity": 7,
+          "loadGroupId": "playerNResources"
+        },
+        {
+          "databaseId": "hex-diamond-shard-standard",
+          "quantity": 7,
+          "loadGroupId": "playerNResources"
+        },
+        {
+          "databaseId": "hex-soothing-breeze",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-mutate",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-time-ripple",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-oracle-song",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-dream-dance",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        }
+      ]
+    },
+    "starter-tourney-shin-foe-1a": {
+      "label": "Starter: Tourney Shin Foe 1a",
+      "cards": [
+        {
+          "databaseId": "hex-one-eye-open-coyotle-ranger-coyotle-ranger",
+          "quantity": 1,
+          "loadGroupId": "playerNChampion"
+        },
+        {
+          "databaseId": "hex-diamond-shard-standard",
+          "quantity": 13,
+          "loadGroupId": "playerNResources"
+        },
+        {
+          "databaseId": "hex-bottled-vitae",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-rigid-buffalo-buffalo-beast",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-wind-whisperer-coyotle-cleric",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-prairie-scout-coyotle-ranger",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-soothing-breeze",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-rose-lion-plant",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-howling-ambush",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-circle-of-preservation",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-infusion-of-diamond",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-stargazer-coyotle-mage",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-howling-brave-coyotle-warrior",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-wild-shard-standard",
+          "quantity": 13,
+          "loadGroupId": "playerNResources"
+        }
+      ]
+    },
+    "starter-tourney-shin-foe-2": {
+      "label": "Starter: Tourney Shin Foe 2",
+      "cards": [
+        {
+          "databaseId": "hex-zodiac-shaman-coyotle-warlock",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-clear-sky-stormcaller-coyotle-mage",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-howling-brave-coyotle-warrior",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-mystic-of-the-tranquil-dream-coyotle-cleric",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-stargazer-coyotle-mage",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-prairie-scout-coyotle-ranger",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-wind-whisperer-coyotle-cleric",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-quick-strider-coyotle-rogue",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-diamond-shard-standard",
+          "quantity": 7,
+          "loadGroupId": "playerNResources"
+        },
+        {
+          "databaseId": "hex-sapphire-shard-standard",
+          "quantity": 7,
+          "loadGroupId": "playerNResources"
+        },
+        {
+          "databaseId": "hex-wild-shard-standard",
+          "quantity": 8,
+          "loadGroupId": "playerNResources"
+        },
+        {
+          "databaseId": "hex-shards-of-fate",
+          "quantity": 4,
+          "loadGroupId": "playerNResources"
+        },
+        {
+          "databaseId": "hex-howling-ambush",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-time-ripple",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-oracle-song",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-arcane-shield",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-dream-dance",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-survival-of-the-fittest",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-evolve",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        }
+      ]
+    },
+    "starter-tourney-shin-foe-2a": {
+      "label": "Starter: Tourney Shin Foe 2a",
+      "cards": [
+        {
+          "databaseId": "hex-feather-drifting-coyotle-mage-coyotle-mage",
+          "quantity": 1,
+          "loadGroupId": "playerNChampion"
+        },
+        {
+          "databaseId": "hex-mystic-spiritwalker-coyotle-warlock",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-prairie-scout-coyotle-ranger",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-soothing-breeze",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-wind-whisperer-coyotle-cleric",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-zodiac-shaman-coyotle-warlock",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-clear-sky-stormcaller-coyotle-mage",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-mutate",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-time-ripple",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-oracle-song",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-mystic-of-the-tranquil-dream-coyotle-cleric",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-dream-dance",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-diamond-shard-standard",
+          "quantity": 13,
+          "loadGroupId": "playerNResources"
+        },
+        {
+          "databaseId": "hex-sapphire-shard-standard",
+          "quantity": 13,
+          "loadGroupId": "playerNResources"
+        },
+        {
+          "databaseId": "hex-stormcall",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        }
+      ]
+    },
+    "starter-tourney-shin-foe-3": {
+      "label": "Starter: Tourney Shin Foe 3",
+      "cards": [
+        {
+          "databaseId": "hex-zodiac-shaman-coyotle-warlock",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-clear-sky-stormcaller-coyotle-mage",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-mystic-of-the-tranquil-dream-coyotle-cleric",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-howling-brave-coyotle-warrior",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-stargazer-coyotle-mage",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-quick-strider-coyotle-rogue",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-ozawa-cosmic-elder-coyotle-elder-2",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-wind-whisperer-coyotle-cleric",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-mystic-spiritwalker-coyotle-warlock",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-diamond-shard-standard",
+          "quantity": 7,
+          "loadGroupId": "playerNResources"
+        },
+        {
+          "databaseId": "hex-sapphire-shard-standard",
+          "quantity": 7,
+          "loadGroupId": "playerNResources"
+        },
+        {
+          "databaseId": "hex-wild-shard-standard",
+          "quantity": 8,
+          "loadGroupId": "playerNResources"
+        },
+        {
+          "databaseId": "hex-shards-of-fate",
+          "quantity": 4,
+          "loadGroupId": "playerNResources"
+        },
+        {
+          "databaseId": "hex-howling-ambush",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-oracle-song",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-stormcall",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-arcane-shield",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-dream-dance",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-survival-of-the-fittest",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-evolve",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-spirit-dance",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        }
+      ]
+    },
+    "starter-tourney-shin-foe-3a": {
+      "label": "Starter: Tourney Shin Foe 3a",
+      "cards": [
+        {
+          "databaseId": "hex-running-deer-coyotle-cleric-coyotle-cleric",
+          "quantity": 1,
+          "loadGroupId": "playerNChampion"
+        },
+        {
+          "databaseId": "hex-shards-of-fate",
+          "quantity": 4,
+          "loadGroupId": "playerNResources"
+        },
+        {
+          "databaseId": "hex-diamond-shard-standard",
+          "quantity": 7,
+          "loadGroupId": "playerNResources"
+        },
+        {
+          "databaseId": "hex-sapphire-shard-standard",
+          "quantity": 7,
+          "loadGroupId": "playerNResources"
+        },
+        {
+          "databaseId": "hex-wild-shard-standard",
+          "quantity": 8,
+          "loadGroupId": "playerNResources"
+        },
+        {
+          "databaseId": "hex-clear-sky-stormcaller-coyotle-mage",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-time-ripple",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-oracle-song",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-mystic-of-the-tranquil-dream-coyotle-cleric",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-dream-dance",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-howling-brave-coyotle-warrior",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-survival-of-the-fittest",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-stargazer-coyotle-mage",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-spirit-dance",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-wind-whisperer-coyotle-cleric",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-quick-strider-coyotle-rogue",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-prairie-scout-coyotle-ranger",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-howling-ambush",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-ozawa-cosmic-elder-coyotle-elder",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        }
+      ]
+    },
+    "ardent-assault": {
+      "label": "Ardent Assault",
+      "cards": [
+        {
+          "databaseId": "hex-marshal-josephina-human-warrior-human-warrior",
+          "quantity": 1,
+          "loadGroupId": "playerNChampion"
+        },
+        {
+          "databaseId": "hex-primal-prism",
+          "quantity": 2,
+          "loadGroupId": "playerNResources"
+        },
+        {
+          "databaseId": "hex-shard-of-conquest",
+          "quantity": 2,
+          "loadGroupId": "playerNResources"
+        },
+        {
+          "databaseId": "hex-valiant-escort-human-ranger",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-cremate",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-artisanal-sommelier-elf-mage",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-strider-scout-coyotle-rogue",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-highlands-blackbelt-human-warrior",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-martyr",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-cry-of-gawaine",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-warparty-guide-coyotle-ranger",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-lord-alexander-the-courageous-human-warrior",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-bring-to-justice",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-ardent-officer-human-warrior",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-gore-feast-of-kog-tepetl",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-exalted-knight-human-warrior",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-diamond-shard-standard",
+          "quantity": 10,
+          "loadGroupId": "playerNResources"
+        },
+        {
+          "databaseId": "hex-ruby-shard-standard",
+          "quantity": 10,
+          "loadGroupId": "playerNResources"
+        }
+      ]
+    },
+    "blight-brutes": {
+      "label": "Blight Brutes",
+      "cards": [
+        {
+          "databaseId": "hex-plagueroot-the-hollow-undead-zombie-plant",
+          "quantity": 1,
+          "loadGroupId": "playerNChampion"
+        },
+        {
+          "databaseId": "hex-blightbark-thrall-human-thrall",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-blightbark-vampire-vampire",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-blightseed-cultivator-undead-plant-zombie",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-blightseed-fiddler-undead-plant-zombie",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-boulder-brute-elemental-2",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-goliath-spiderspawn-spider-3",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-grand-squirrel-titan-squirrel-beast-2",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-monsagi-deadeye-shin-hare-ranger",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-moon-ariu-magus-shin-hare-mage",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-blight-bestowed",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-call-the-grave-3",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-cannibalize",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-execute",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-pummel",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-treat-machine",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-blood-shard-standard",
+          "quantity": 12,
+          "loadGroupId": "playerNResources"
+        },
+        {
+          "databaseId": "hex-wild-shard-standard",
+          "quantity": 13,
+          "loadGroupId": "playerNResources"
+        }
+      ]
+    },
+    "woven-wings": {
+      "label": "Woven Wings",
+      "cards": [
+        {
+          "databaseId": "hex-pharamedes-human-warrior-human-warrior",
+          "quantity": 1,
+          "loadGroupId": "playerNChampion"
+        },
+        {
+          "databaseId": "hex-diamond-shard-standard",
+          "quantity": 13,
+          "loadGroupId": "playerNResources"
+        },
+        {
+          "databaseId": "hex-sapphire-shard-standard",
+          "quantity": 12,
+          "loadGroupId": "playerNResources"
+        },
+        {
+          "databaseId": "hex-blast-off",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-chaostongue-chaostouched",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-guidance",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-deathless-agent-necrotic-cleric",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-growth-potion-potion",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-prosperous-iljun-iljuni",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-shrink",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-baa-tle-master-wool-vir",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-frostblast",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-heart-s-whisper",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-ambling-bluff-elemental-3",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-cerulean-highguard-human-warrior-3",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-cloud-skimmer-coyotle-mage",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-golden-griffin-griffin",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-hide-and-seek",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        }
+      ]
+    },
+    "starter-elf1": {
+      "label": "Starter: Elf1",
+      "cards": [
+        {
+          "databaseId": "hex-polonius-elf-ranger-elf-ranger",
+          "quantity": 1,
+          "loadGroupId": "playerNChampion"
+        },
+        {
+          "databaseId": "hex-wild-shard-standard",
+          "quantity": 26,
+          "loadGroupId": "playerNResources"
+        },
+        {
+          "databaseId": "hex-bottled-vitae",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-dandelion-sprite-fae",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-wild-child-elf-cleric",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-oakhenge-ceremony",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-chlorophyllia",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-pact-of-life",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-evolve",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-survival-of-the-fittest",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-nature-reigns",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-howling-brave-coyotle-warrior",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        }
+      ]
+    },
+    "starter-elf2": {
+      "label": "Starter: Elf2",
+      "cards": [
+        {
+          "databaseId": "hex-polonius-elf-ranger-elf-ranger",
+          "quantity": 1,
+          "loadGroupId": "playerNChampion"
+        },
+        {
+          "databaseId": "hex-dandelion-sprite-fae",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-wild-child-elf-cleric",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-glimmerglen-witch-witch",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-wild-shard-standard",
+          "quantity": 26,
+          "loadGroupId": "playerNResources"
+        },
+        {
+          "databaseId": "hex-survival-of-the-fittest",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-oakhenge-ceremony",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-chlorophyllia",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-pact-of-life",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-briar-legion-plant",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-nature-reigns",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-eye-of-creation",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-bottled-vitae",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-wild-growth",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        }
+      ]
+    },
+    "starter-elf3": {
+      "label": "Starter: Elf3",
+      "cards": [
+        {
+          "databaseId": "hex-polonius-elf-ranger-elf-ranger",
+          "quantity": 1,
+          "loadGroupId": "playerNChampion"
+        },
+        {
+          "databaseId": "hex-bottled-vitae",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-wild-shard-standard",
+          "quantity": 25,
+          "loadGroupId": "playerNResources"
+        },
+        {
+          "databaseId": "hex-dandelion-sprite-fae",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-feral-ogre-ogre",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-wild-child-elf-cleric",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-glimmerglen-witch-witch",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-vine-trap-plant",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-briar-legion-plant",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-survival-of-the-fittest",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-nature-reigns",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-oakhenge-ceremony",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-chlorophyllia",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-eye-of-creation",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-tectonic-break",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-wild-aura",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        }
+      ]
+    },
+    "pathfinder-control": {
+      "label": "Pathfinder Control",
+      "cards": [
+        {
+          "databaseId": "hex-winter-moon-coyotle-mage-coyotle-mage-2",
+          "quantity": 1,
+          "loadGroupId": "playerNChampion"
+        },
+        {
+          "databaseId": "hex-shard-of-life",
+          "quantity": 3,
+          "loadGroupId": "playerNResources"
+        },
+        {
+          "databaseId": "hex-shard-of-purpose",
+          "quantity": 2,
+          "loadGroupId": "playerNResources"
+        },
+        {
+          "databaseId": "hex-primal-prism",
+          "quantity": 4,
+          "loadGroupId": "playerNResources"
+        },
+        {
+          "databaseId": "hex-replicator-s-gambit",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-clash-of-steel",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-arcane-focus",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-countermagic",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-harvest-moon",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-lanupaw-s-sight",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-starlight-pathfinder-coyotle-rogue",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-lullaby",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-change-course",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-totem-trap",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-bring-to-justice",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-sapphire-shard-standard",
+          "quantity": 7,
+          "loadGroupId": "playerNResources"
+        },
+        {
+          "databaseId": "hex-wild-shard-standard",
+          "quantity": 3,
+          "loadGroupId": "playerNResources"
+        },
+        {
+          "databaseId": "hex-diamond-shard-standard",
+          "quantity": 4,
+          "loadGroupId": "playerNResources"
+        }
+      ]
+    },
+    "yotul-burn": {
+      "label": "Yotul Burn",
+      "cards": [
+        {
+          "databaseId": "hex-yotul-mogak-orc-mage-orc-mage",
+          "quantity": 1,
+          "loadGroupId": "playerNChampion"
+        },
+        {
+          "databaseId": "hex-shard-of-hatred",
+          "quantity": 3,
+          "loadGroupId": "playerNResources"
+        },
+        {
+          "databaseId": "hex-well-of-hatred",
+          "quantity": 2,
+          "loadGroupId": "playerNResources"
+        },
+        {
+          "databaseId": "hex-ghostblade-duelist-spirit",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-cremate",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-arena-regular-orc-warrior",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-whirling-brutalizer-orc-warrior",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-fireball",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-crackling-bolt",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-burning-tendrils",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-cleave",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-vampiric-kiss",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-blood-infusion-device",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-ebony-pawn",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "hex-ruby-shard-standard",
+          "quantity": 14,
+          "loadGroupId": "playerNResources"
+        },
+        {
+          "databaseId": "hex-blood-shard-standard",
+          "quantity": 4,
+          "loadGroupId": "playerNResources"
+        }
+      ]
+    },
+    "az-1-armyofmyth-66": {
+      "label": "AZ 1 ARMYofMYTH 66",
+      "cards": [
+        {
+          "databaseId": "hex-army-of-myth-3",
+          "quantity": 1,
+          "loadGroupId": "playerNChampion"
+        },
+        {
+          "databaseId": "hex-army-of-myth",
+          "quantity": 60,
+          "loadGroupId": "playerNDeck"
+        }
+      ]
+    }
+  }
+}

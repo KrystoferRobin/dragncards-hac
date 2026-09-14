@@ -1,0 +1,31 @@
+{
+  "groupMenu": {
+    "moveToGroupIds": [
+      "playerNDeck",
+      "playerNDiscard",
+      "playerNDead",
+      "playerNHand",
+      "playerNAdventureDeck",
+      "playerNFellowship",
+      "playerNSupport"
+    ],
+    "options": [
+      {
+        "actionList": "drawoneCard",
+        "label": "id:drawonecard"
+      },
+      {
+        "actionList": "drawstartingHand",
+        "label": "id:drawstartinghand"
+      },
+      {
+        "actionList": "menuAddTwilight",
+        "label": "id:menuAddTwilight"
+      },
+      {
+        "actionList": "menuRemoveTwilight",
+        "label": "id:menuRemoveTwilight"
+      }
+    ]
+  }
+}

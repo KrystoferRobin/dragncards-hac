@@ -1,0 +1,258 @@
+{
+  "groups": {
+    "sharedSetAside": {
+      "groupType": "aside",
+      "label": "Set Aside",
+      "tableLabel": "Set Aside",
+      "onCardEnter": {
+        "controller": "shared"
+      }
+    },
+    "sharedTradeSea": {
+      "groupType": "sea",
+      "label": "Trade Sea",
+      "tableLabel": "Trade Sea",
+      "canHaveAttachments": true,
+      "onCardEnter": {
+        "controller": "shared",
+        "inPlay": true
+      }
+    },
+    "sharedFrothingSea": {
+      "groupType": "sea",
+      "label": "Frothing Sea",
+      "tableLabel": "Frothing Sea",
+      "canHaveAttachments": true,
+      "onCardEnter": {
+        "controller": "shared",
+        "inPlay": true
+      }
+    },
+    "sharedLaBoca": {
+      "groupType": "sea",
+      "label": "La Boca",
+      "tableLabel": "La Boca",
+      "canHaveAttachments": true,
+      "onCardEnter": {
+        "controller": "shared",
+        "inPlay": true
+      }
+    },
+    "sharedForbiddenSea": {
+      "groupType": "sea",
+      "label": "Forbidden Sea",
+      "tableLabel": "Forbidden Sea",
+      "canHaveAttachments": true,
+      "onCardEnter": {
+        "controller": "shared",
+        "inPlay": true
+      }
+    },
+    "sharedTheMirror": {
+      "groupType": "sea",
+      "label": "The Mirror",
+      "tableLabel": "The Mirror",
+      "canHaveAttachments": true,
+      "onCardEnter": {
+        "controller": "shared",
+        "inPlay": true
+      }
+    },
+    "player1Deck": {
+      "groupType": "deck",
+      "label": "Player 1 Deck",
+      "tableLabel": "Deck",
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1Deck",
+        "discardGroupId": "player1Discard"
+      }
+    },
+    "player1Discard": {
+      "groupType": "discard",
+      "label": "Player 1 Discard",
+      "tableLabel": "Discard",
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1Deck",
+        "discardGroupId": "player1Discard"
+      }
+    },
+    "player1Sunk": {
+      "groupType": "sunk",
+      "label": "Player 1 Sunk",
+      "tableLabel": "Sunk",
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1Deck",
+        "discardGroupId": "player1Discard"
+      }
+    },
+    "player1Hand": {
+      "groupType": "hand",
+      "label": "Player 1 Hand",
+      "tableLabel": "Hand",
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1Deck",
+        "discardGroupId": "player1Discard"
+      }
+    },
+    "player1Crew": {
+      "groupType": "inPlay",
+      "label": "Player 1 Crew",
+      "tableLabel": "Crew",
+      "canHaveAttachments": true,
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1Deck",
+        "discardGroupId": "player1Discard",
+        "inPlay": true
+      }
+    },
+    "player1Ship": {
+      "groupType": "inPlay",
+      "label": "Player 1 Ship",
+      "tableLabel": "Ship",
+      "canHaveAttachments": true,
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1Deck",
+        "discardGroupId": "player1Discard",
+        "inPlay": true
+      }
+    },
+    "player1Captain": {
+      "groupType": "inPlay",
+      "label": "Player 1 Captain",
+      "tableLabel": "Captain",
+      "canHaveAttachments": true,
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1Deck",
+        "discardGroupId": "player1Discard",
+        "inPlay": true
+      }
+    },
+    "player1Adventures": {
+      "groupType": "inPlay",
+      "label": "Player 1 Adventures",
+      "tableLabel": "Adv",
+      "canHaveAttachments": false,
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1Deck",
+        "discardGroupId": "player1Discard",
+        "inPlay": true
+      }
+    },
+    "player1Tokens": {
+      "groupType": "tokens",
+      "label": "Player 1 Tokens",
+      "tableLabel": "Tokens",
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1Deck",
+        "discardGroupId": "player1Discard"
+      }
+    },
+    "player2Deck": {
+      "groupType": "deck",
+      "label": "Player 2 Deck",
+      "tableLabel": "Deck",
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2Deck",
+        "discardGroupId": "player2Discard"
+      }
+    },
+    "player2Discard": {
+      "groupType": "discard",
+      "label": "Player 2 Discard",
+      "tableLabel": "Discard",
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2Deck",
+        "discardGroupId": "player2Discard"
+      }
+    },
+    "player2Sunk": {
+      "groupType": "sunk",
+      "label": "Player 2 Sunk",
+      "tableLabel": "Sunk",
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2Deck",
+        "discardGroupId": "player2Discard"
+      }
+    },
+    "player2Hand": {
+      "groupType": "hand",
+      "label": "Player 2 Hand",
+      "tableLabel": "Hand",
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2Deck",
+        "discardGroupId": "player2Discard"
+      }
+    },
+    "player2Crew": {
+      "groupType": "inPlay",
+      "label": "Player 2 Crew",
+      "tableLabel": "Crew",
+      "canHaveAttachments": true,
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2Deck",
+        "discardGroupId": "player2Discard",
+        "inPlay": true
+      }
+    },
+    "player2Ship": {
+      "groupType": "inPlay",
+      "label": "Player 2 Ship",
+      "tableLabel": "Ship",
+      "canHaveAttachments": true,
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2Deck",
+        "discardGroupId": "player2Discard",
+        "inPlay": true
+      }
+    },
+    "player2Captain": {
+      "groupType": "inPlay",
+      "label": "Player 2 Captain",
+      "tableLabel": "Captain",
+      "canHaveAttachments": true,
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2Deck",
+        "discardGroupId": "player2Discard",
+        "inPlay": true
+      }
+    },
+    "player2Adventures": {
+      "groupType": "inPlay",
+      "label": "Player 2 Adventures",
+      "tableLabel": "Adv",
+      "canHaveAttachments": false,
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2Deck",
+        "discardGroupId": "player2Discard",
+        "inPlay": true
+      }
+    },
+    "player2Tokens": {
+      "groupType": "tokens",
+      "label": "Player 2 Tokens",
+      "tableLabel": "Tokens",
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2Deck",
+        "discardGroupId": "player2Discard"
+      }
+    }
+  }
+}

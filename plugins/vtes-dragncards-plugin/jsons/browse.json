@@ -1,0 +1,29 @@
+{
+  "browse": {
+    "filterPropertySideA": "category",
+    "filterValuesSideA": [
+      "Vampire",
+      "Master",
+      "Action",
+      "Action Modifier",
+      "Combat",
+      "Reaction",
+      "Political Action",
+      "Equipment",
+      "Ally",
+      "Retainer",
+      "Event",
+      "Imbued",
+      "Power",
+      "Conviction",
+      "Token"
+    ],
+    "textPropertiesSideA": [
+      "name",
+      "text",
+      "clan",
+      "discipline",
+      "set"
+    ]
+  }
+}

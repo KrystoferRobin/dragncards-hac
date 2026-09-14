@@ -1,0 +1,26 @@
+{
+  "phases": {
+    "draw": {
+      "label": "Draw",
+      "height": "25%"
+    },
+    "resource": {
+      "label": "Resource",
+      "height": "25%"
+    },
+    "main": {
+      "label": "Main",
+      "height": "25%"
+    },
+    "battle": {
+      "label": "Battle",
+      "height": "25%"
+    }
+  },
+  "phaseOrder": [
+    "draw",
+    "resource",
+    "main",
+    "battle"
+  ]
+}

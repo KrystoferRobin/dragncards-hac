@@ -1,0 +1,39 @@
+{
+  "deckMenu": {
+    "subMenus": [
+      {
+        "label": "Starter Decks",
+        "deckLists": [
+          {
+            "deckListId": "azonia-s-forces-starter-deck",
+            "label": "Azonia's Forces Starter Deck"
+          },
+          {
+            "deckListId": "blue-squadron-starter-deck",
+            "label": "Blue Squadron Starter Deck"
+          },
+          {
+            "deckListId": "breetai-s-forces-starter-deck",
+            "label": "Breetai's Forces Starter Deck"
+          },
+          {
+            "deckListId": "macross-starter-deck",
+            "label": "Macross Starter Deck"
+          },
+          {
+            "deckListId": "new-generation-starter-deck",
+            "label": "New Generation Starter Deck"
+          },
+          {
+            "deckListId": "robotech-masters-starter-deck",
+            "label": "Robotech Masters Starter Deck"
+          },
+          {
+            "deckListId": "sdf-1-starter-deck",
+            "label": "SDF-1 Starter Deck"
+          }
+        ]
+      }
+    ]
+  }
+}

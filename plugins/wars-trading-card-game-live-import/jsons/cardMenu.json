@@ -1,0 +1,50 @@
+{
+  "cardMenu": {
+    "moveToGroupIds": [
+      "playerNReserve",
+      "playerNLost",
+      "playerNHand",
+      "playerNUsed"
+    ],
+    "options": [
+      {
+        "actionList": "menulog_activation",
+        "label": "id:menulog_activation"
+      },
+      {
+        "actionList": "menu_declarebattle",
+        "label": "id:menu_declarebattle"
+      },
+      {
+        "actionList": "invertCard",
+        "label": "id:invert",
+        "showIf": [
+          "MAP_HAS_KEY",
+          "$ACTIVE_CARD.sides",
+          "C"
+        ]
+      },
+      {
+        "actionList": "damageCard",
+        "label": "id:damage"
+      },
+      {
+        "actionList": "menusendcardtolostPile",
+        "label": "id:sendcardtolostPile"
+      },
+      {
+        "actionList": "menusendcardtousedPile",
+        "label": "id:sendcardtousedPile"
+      },
+      {
+        "actionList": "rotate180",
+        "label": "id:rotate180"
+      }
+    ],
+    "suppress": [
+      "Delete",
+      "Toggle Trigger",
+      "Set Rotation"
+    ]
+  }
+}

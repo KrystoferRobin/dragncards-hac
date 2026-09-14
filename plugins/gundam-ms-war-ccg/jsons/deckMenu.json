@@ -1,0 +1,19 @@
+{
+  "deckMenu": {
+    "subMenus": [
+      {
+        "label": "Lackey Decks",
+        "deckLists": [
+          {
+            "deckListId": "oz-starter-deck",
+            "label": "Oz Starter Deck"
+          },
+          {
+            "deckListId": "wing-gundam-starter-deck",
+            "label": "Wing Gundam Starter Deck"
+          }
+        ]
+      }
+    ]
+  }
+}

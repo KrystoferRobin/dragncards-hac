@@ -1,0 +1,9 @@
+{
+  "pluginName": "Wyvern",
+  "author": "LackeyCCG Wyvern",
+  "tutorialUrl": "",
+  "backgroundUrl": "https://dragncards-core.s3.us-east-1.amazonaws.com/dragncards_logo_background.jpg",
+  "bannerUrl": "https://toybox.hundredacre.club/cards/wyvern/_plugin/banner.jpg",
+  "logoUrl": "https://toybox.hundredacre.club/cards/wyvern/_plugin/logo.jpg",
+  "loadPreBuiltOnNewGame": false
+}

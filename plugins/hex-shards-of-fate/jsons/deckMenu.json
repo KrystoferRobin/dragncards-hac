@@ -1,0 +1,317 @@
+{
+  "deckMenu": {
+    "subMenus": [
+      {
+        "label": "Starters",
+        "deckLists": [
+          {
+            "deckListId": "starter-dwarf",
+            "label": "Starter: Dwarf"
+          },
+          {
+            "deckListId": "starter-human",
+            "label": "Starter: Human"
+          },
+          {
+            "deckListId": "starter-orc",
+            "label": "Starter: Orc"
+          },
+          {
+            "deckListId": "starter-shinhare",
+            "label": "Starter: Shinhare"
+          },
+          {
+            "deckListId": "starter-tourney-dwarf-deck",
+            "label": "Starter: Tourney Dwarf Deck"
+          },
+          {
+            "deckListId": "starter-tourney-dwarf-foe-1",
+            "label": "Starter: Tourney Dwarf Foe 1"
+          },
+          {
+            "deckListId": "starter-tourney-dwarf-foe-2",
+            "label": "Starter: Tourney Dwarf Foe 2"
+          },
+          {
+            "deckListId": "starter-tourney-dwarf-foe-3",
+            "label": "Starter: Tourney Dwarf Foe 3"
+          },
+          {
+            "deckListId": "starter-tourney-human-deck",
+            "label": "Starter: Tourney Human Deck"
+          },
+          {
+            "deckListId": "starter-tourney-human-foe-1",
+            "label": "Starter: Tourney Human Foe 1"
+          },
+          {
+            "deckListId": "starter-tourney-human-foe-2",
+            "label": "Starter: Tourney Human Foe 2"
+          },
+          {
+            "deckListId": "starter-tourney-human-foe-3",
+            "label": "Starter: Tourney Human Foe 3"
+          },
+          {
+            "deckListId": "starter-tourney-orc-deck",
+            "label": "Starter: Tourney Orc Deck"
+          },
+          {
+            "deckListId": "starter-tourney-orc-foe-1",
+            "label": "Starter: Tourney Orc Foe 1"
+          },
+          {
+            "deckListId": "starter-tourney-orc-foe-2",
+            "label": "Starter: Tourney Orc Foe 2"
+          },
+          {
+            "deckListId": "starter-tourney-orc-foe-3",
+            "label": "Starter: Tourney Orc Foe 3"
+          },
+          {
+            "deckListId": "starter-tourney-shin-deck",
+            "label": "Starter: Tourney Shin Deck"
+          },
+          {
+            "deckListId": "starter-tourney-shin-foe-1",
+            "label": "Starter: Tourney Shin Foe 1"
+          },
+          {
+            "deckListId": "starter-tourney-shin-foe-1a",
+            "label": "Starter: Tourney Shin Foe 1a"
+          },
+          {
+            "deckListId": "starter-tourney-shin-foe-2",
+            "label": "Starter: Tourney Shin Foe 2"
+          },
+          {
+            "deckListId": "starter-tourney-shin-foe-2a",
+            "label": "Starter: Tourney Shin Foe 2a"
+          },
+          {
+            "deckListId": "starter-tourney-shin-foe-3",
+            "label": "Starter: Tourney Shin Foe 3"
+          },
+          {
+            "deckListId": "starter-tourney-shin-foe-3a",
+            "label": "Starter: Tourney Shin Foe 3a"
+          },
+          {
+            "deckListId": "starter-elf1",
+            "label": "Starter: Elf1"
+          },
+          {
+            "deckListId": "starter-elf2",
+            "label": "Starter: Elf2"
+          },
+          {
+            "deckListId": "starter-elf3",
+            "label": "Starter: Elf3"
+          }
+        ]
+      },
+      {
+        "label": "Constructed",
+        "deckLists": [
+          {
+            "deckListId": "coyotle-dream",
+            "label": "Coyotle Dream"
+          },
+          {
+            "deckListId": "dwarf-genius",
+            "label": "Dwarf Genius"
+          },
+          {
+            "deckListId": "elf-virtuoso",
+            "label": "Elf Virtuoso"
+          },
+          {
+            "deckListId": "human-bravery",
+            "label": "Human Bravery"
+          },
+          {
+            "deckListId": "necrotic-awakening",
+            "label": "Necrotic Awakening"
+          },
+          {
+            "deckListId": "orc-gladiator",
+            "label": "Orc Gladiator"
+          },
+          {
+            "deckListId": "shin-hare-onslaught",
+            "label": "Shin'hare Onslaught"
+          },
+          {
+            "deckListId": "vennen-zealotry",
+            "label": "Vennen Zealotry"
+          },
+          {
+            "deckListId": "coyotle-spirit",
+            "label": "Coyotle Spirit"
+          },
+          {
+            "deckListId": "dwarf-grit",
+            "label": "Dwarf Grit"
+          },
+          {
+            "deckListId": "elf-flair",
+            "label": "Elf Flair"
+          },
+          {
+            "deckListId": "human-determination",
+            "label": "Human Determination"
+          },
+          {
+            "deckListId": "necrotic-scheming",
+            "label": "Necrotic Scheming"
+          },
+          {
+            "deckListId": "orc-savagery",
+            "label": "Orc Savagery"
+          },
+          {
+            "deckListId": "shin-hare-assault",
+            "label": "Shin'hare Assault"
+          },
+          {
+            "deckListId": "vennen-incursion",
+            "label": "Vennen Incursion"
+          },
+          {
+            "deckListId": "sunsoul-phoenix",
+            "label": "Sunsoul Phoenix"
+          },
+          {
+            "deckListId": "hero-of-legend",
+            "label": "Hero of Legend"
+          },
+          {
+            "deckListId": "locke-of-the-pack",
+            "label": "Locke of the Pack"
+          },
+          {
+            "deckListId": "the-librarian",
+            "label": "The Librarian"
+          },
+          {
+            "deckListId": "lord-blightbark",
+            "label": "Lord Blightbark"
+          },
+          {
+            "deckListId": "lyvaanth",
+            "label": "Lyvaanth"
+          },
+          {
+            "deckListId": "eyes-of-the-heart",
+            "label": "Eyes of the Heart"
+          },
+          {
+            "deckListId": "shamrock-the-goldfather",
+            "label": "Shamrock, the Goldfather"
+          },
+          {
+            "deckListId": "iconoclash-deck",
+            "label": "Iconoclash Deck"
+          },
+          {
+            "deckListId": "reckless-assault",
+            "label": "Reckless Assault"
+          },
+          {
+            "deckListId": "underworld-schemes",
+            "label": "Underworld Schemes"
+          },
+          {
+            "deckListId": "dreadling-swarm",
+            "label": "Dreadling Swarm"
+          },
+          {
+            "deckListId": "wild-diamond-coyotle-valors",
+            "label": "Wild Diamond Coyotle Valors"
+          },
+          {
+            "deckListId": "diamond-sapphire-humans-diligence",
+            "label": "Diamond Sapphire Humans Diligence"
+          },
+          {
+            "deckListId": "blood-diamond-necrotic-sockets",
+            "label": "Blood Diamond Necrotic Sockets"
+          },
+          {
+            "deckListId": "blood-wild-shin-hare-scrounge",
+            "label": "Blood Wild Shin'hare Scrounge?"
+          },
+          {
+            "deckListId": "sapphire-ruby-dwarves-charges",
+            "label": "Sapphire Ruby Dwarves Charges"
+          },
+          {
+            "deckListId": "blood-ruby-orcs-assault",
+            "label": "Blood Ruby Orcs Assault"
+          },
+          {
+            "deckListId": "wild-ruby-elves-monsters",
+            "label": "Wild Ruby Elves Monsters"
+          },
+          {
+            "deckListId": "blood-sapphire-vennen-spiders",
+            "label": "Blood Sapphire Vennen Spiders"
+          },
+          {
+            "deckListId": "ardent-fervor",
+            "label": "Ardent Fervor"
+          },
+          {
+            "deckListId": "valorous-victory",
+            "label": "Valorous Victory"
+          },
+          {
+            "deckListId": "galaxtar",
+            "label": "Galaxtar"
+          },
+          {
+            "deckListId": "ardent-assault",
+            "label": "Ardent Assault"
+          },
+          {
+            "deckListId": "blight-brutes",
+            "label": "Blight Brutes"
+          },
+          {
+            "deckListId": "woven-wings",
+            "label": "Woven Wings"
+          },
+          {
+            "deckListId": "pathfinder-control",
+            "label": "Pathfinder Control"
+          },
+          {
+            "deckListId": "yotul-burn",
+            "label": "Yotul Burn"
+          },
+          {
+            "deckListId": "az-1-armyofmyth-66",
+            "label": "AZ 1 ARMYofMYTH 66"
+          }
+        ]
+      },
+      {
+        "label": "Signature",
+        "deckLists": [
+          {
+            "deckListId": "signature-deck-havoc-s-rowdy-sugar-rush",
+            "label": "Signature Deck - Havoc's Rowdy Sugar Rush"
+          },
+          {
+            "deckListId": "signature-deck-nerojinous-momentum-mastery",
+            "label": "Signature Deck - NeroJinous' Momentum Mastery"
+          },
+          {
+            "deckListId": "signature-deck-snake-s-refuel-rampage",
+            "label": "Signature Deck - Snake's Refuel Rampage"
+          }
+        ]
+      }
+    ]
+  }
+}

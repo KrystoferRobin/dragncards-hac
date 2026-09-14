@@ -1,0 +1,53 @@
+{
+  "deckMenu": {
+    "subMenus": [
+      {
+        "deckLists": [
+          {
+            "deckListId": "sampleDeck1",
+            "label": "Sample Deck A"
+          },
+          {
+            "deckListId": "sampleDeck2",
+            "label": "Sample Deck B"
+          }
+        ],
+        "label": "Demo Game Decks"
+      },
+      {
+        "deckLists": [
+          {
+            "deckListId": "starterDeck1",
+            "label": "Incursion: Solidarity (Gongen)"
+          },
+          {
+            "deckListId": "starterDeck2",
+            "label": "Incursion: Alliance (Earther-Maverick)"
+          },
+          {
+            "deckListId": "starterDeck3",
+            "label": "Incursion: Swarm (Quay)"
+          },
+          {
+            "deckListId": "starterDeck4",
+            "label": "Incursion: Suppression (Maverick-Shi)"
+          }
+        ],
+        "label": "Incursion Starters"
+      },
+      {
+        "deckLists": [
+          {
+            "deckListId": "starterDeck5",
+            "label": "Nowhere to Hide: Overlords (Earther-Shi)"
+          },
+          {
+            "deckListId": "starterDeck6",
+            "label": "Nowhere to Hide: Cats & Claws (Maverick-Quay)"
+          }
+        ],
+        "label": "Nowhere to Hide Starters"
+      }
+    ]
+  }
+}

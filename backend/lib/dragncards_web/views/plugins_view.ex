@@ -1,6 +1,15 @@
 defmodule DragnCardsWeb.PluginsView do
   use DragnCardsWeb, :view
 
+  defp display_author(author) when is_binary(author) do
+    case String.trim(author) do
+      "" -> nil
+      trimmed -> trimmed
+    end
+  end
+
+  defp display_author(_), do: nil
+
   def render("index.json", %{plugins: plugins}) do
     %{data: Enum.map(plugins, fn plugin ->
       {
@@ -15,6 +24,9 @@ defmodule DragnCardsWeb.PluginsView do
         updated_at,
         announcements,
         tutorial_url,
+        banner_url,
+        logo_url,
+        author,
         count_24hr,
         count_30d
       } = plugin
@@ -27,9 +39,12 @@ defmodule DragnCardsWeb.PluginsView do
         updated_at: updated_at,
         author_id: author_id,
         author_alias: author_alias,
+        author: display_author(author),
         version: version,
         announcements: announcements,
         tutorial_url: tutorial_url,
+        banner_url: banner_url,
+        logo_url: logo_url,
         count_24hr: if count_24hr == nil do 0 else count_24hr end,
         count_30d: if count_30d == nil do 0 else count_30d end
       }
@@ -52,7 +67,10 @@ defmodule DragnCardsWeb.PluginsView do
       public,
       updated_at,
       announcements,
-      tutorial_url
+      tutorial_url,
+      banner_url,
+      logo_url,
+      author
     } = plugin
     %{data:
       %{
@@ -63,9 +81,12 @@ defmodule DragnCardsWeb.PluginsView do
         updated_at: updated_at,
         author_id: author_id,
         author_alias: author_alias,
+        author: display_author(author),
         version: version,
         announcements: announcements,
-        tutorial_url: tutorial_url
+        tutorial_url: tutorial_url,
+        banner_url: banner_url,
+        logo_url: logo_url
       }
     }
   end

@@ -1,0 +1,120 @@
+{
+  "groups": {
+    "sharedSetAside": {
+      "groupType": "aside",
+      "label": "Set Aside",
+      "tableLabel": "Set Aside",
+      "onCardEnter": {
+        "controller": "shared"
+      }
+    },
+    "player1SupplyBase": {
+      "groupType": "deck",
+      "label": "Player 1 Supply Base",
+      "tableLabel": "Supply Base",
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1SupplyBase",
+        "discardGroupId": "player1Defunct"
+      }
+    },
+    "player1Defunct": {
+      "groupType": "discard",
+      "label": "Player 1 Defunct Pile",
+      "tableLabel": "Defunct Pile",
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1SupplyBase",
+        "discardGroupId": "player1Defunct"
+      }
+    },
+    "player1Hand": {
+      "groupType": "hand",
+      "label": "Player 1 Hand",
+      "tableLabel": "Hand",
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1SupplyBase",
+        "discardGroupId": "player1Defunct"
+      }
+    },
+    "player1DryDock": {
+      "groupType": "inPlay",
+      "label": "Player 1 Dry Dock",
+      "tableLabel": "Dry Dock",
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1SupplyBase",
+        "discardGroupId": "player1Defunct",
+        "inPlay": true
+      },
+      "canHaveAttachments": true
+    },
+    "player1Play": {
+      "groupType": "inPlay",
+      "label": "Player 1 Play",
+      "tableLabel": "Play",
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1SupplyBase",
+        "discardGroupId": "player1Defunct",
+        "inPlay": true
+      },
+      "canHaveAttachments": true
+    },
+    "player2SupplyBase": {
+      "groupType": "deck",
+      "label": "Player 2 Supply Base",
+      "tableLabel": "Supply Base",
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2SupplyBase",
+        "discardGroupId": "player2Defunct"
+      }
+    },
+    "player2Defunct": {
+      "groupType": "discard",
+      "label": "Player 2 Defunct Pile",
+      "tableLabel": "Defunct Pile",
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2SupplyBase",
+        "discardGroupId": "player2Defunct"
+      }
+    },
+    "player2Hand": {
+      "groupType": "hand",
+      "label": "Player 2 Hand",
+      "tableLabel": "Hand",
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2SupplyBase",
+        "discardGroupId": "player2Defunct"
+      }
+    },
+    "player2DryDock": {
+      "groupType": "inPlay",
+      "label": "Player 2 Dry Dock",
+      "tableLabel": "Dry Dock",
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2SupplyBase",
+        "discardGroupId": "player2Defunct",
+        "inPlay": true
+      },
+      "canHaveAttachments": true
+    },
+    "player2Play": {
+      "groupType": "inPlay",
+      "label": "Player 2 Play",
+      "tableLabel": "Play",
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2SupplyBase",
+        "discardGroupId": "player2Defunct",
+        "inPlay": true
+      },
+      "canHaveAttachments": true
+    }
+  }
+}

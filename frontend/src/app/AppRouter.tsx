@@ -19,6 +19,7 @@ import LayoutGenerator from "../features/myplugins/LayoutGenerator";
 import PluginBuilder from "../features/myplugins/pluginbuilder/PluginBuilder";
 import AdminPage from "../features/admin/AdminPage";
 import Dnc3DSandbox from "../features/engine-dnc3d/Dnc3DSandbox";
+import DeckEditorPage from "../features/deckeditor/DeckEditorPage";
 
 const PrivatePage: React.FC = () => {
   return <div>this is a priv page</div>;
@@ -48,6 +49,7 @@ const AppRouter: React.FC = () => {
         <Route path="/authtest" component={AuthTest} />
         <PrivateRoute path="/private" component={PrivatePage} />
         <Route path="/room/:slug" component={RoomShow} />
+        <PrivateRoute path="/deck-editor/:pluginId" component={DeckEditorPage} />
         <Route path="/lobby" component={LobbyIndex} />
         <Route path="/dev/dnc3d-sandbox" component={Dnc3DSandbox} />
         <Route path="/" component={Home} />

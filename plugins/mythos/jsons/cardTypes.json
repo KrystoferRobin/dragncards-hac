@@ -1,0 +1,85 @@
+{
+  "cardTypes": {
+    "Adventure": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "red",
+        "yellow",
+        "green"
+      ]
+    },
+    "Ally": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "red",
+        "yellow",
+        "green"
+      ]
+    },
+    "Artifact": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "red",
+        "yellow",
+        "green"
+      ]
+    },
+    "Event": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "red",
+        "yellow",
+        "green"
+      ]
+    },
+    "Investigator": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "red",
+        "yellow",
+        "green"
+      ]
+    },
+    "Location": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "red",
+        "yellow",
+        "green"
+      ]
+    },
+    "Monster": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "red",
+        "yellow",
+        "green"
+      ]
+    },
+    "Spell": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "red",
+        "yellow",
+        "green"
+      ]
+    },
+    "Tome": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "red",
+        "yellow",
+        "green"
+      ]
+    }
+  }
+}

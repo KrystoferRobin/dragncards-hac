@@ -1,0 +1,42 @@
+{
+  "pluginMenu": {
+    "options": [
+      {
+        "label": "Draw plot",
+        "actionList": "drawPlot"
+      },
+      {
+        "label": "Draw group",
+        "actionList": "drawGroup"
+      },
+      {
+        "label": "Draw shared plot",
+        "actionList": "drawSharedPlot"
+      },
+      {
+        "label": "Draw shared group",
+        "actionList": "drawSharedGroup"
+      },
+      {
+        "label": "Shuffle plot deck",
+        "actionList": "shufflePlotDeck"
+      },
+      {
+        "label": "Shuffle group deck",
+        "actionList": "shuffleGroupDeck"
+      },
+      {
+        "label": "Ready all",
+        "actionList": "readyAll"
+      },
+      {
+        "label": "Attack +1",
+        "actionList": "increaseAttack"
+      },
+      {
+        "label": "Attack -1",
+        "actionList": "decreaseAttack"
+      }
+    ]
+  }
+}

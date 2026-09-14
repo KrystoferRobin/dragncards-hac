@@ -1,0 +1,1111 @@
+{
+  "labels": {
+    "undo": {
+      "English": "Undo"
+    },
+    "the_greenbridge": {
+      "English": "The Greenbridge"
+    },
+    "mountain_pass": {
+      "English": "Mountain Pass"
+    },
+    "myRole": {
+      "English": "My Role"
+    },
+    "removeTokens": {
+      "English": "Remove Tokens"
+    },
+    "Shadow of the Storm": {
+      "English": "Shadow of the Storm"
+    },
+    "layout1Player": {
+      "English": "1 player"
+    },
+    "TheValleySet": {
+      "English": "The Valley "
+    },
+    "pack_name": {
+      "English": "Pack"
+    },
+    "step-0.8": {
+      "English": "0.8 - Build and shuffle the Path deck"
+    },
+    "step-3.3": {
+      "English": "3.3 - Decide to camp"
+    },
+    "severed_artery": {
+      "English": "Severed Artery"
+    },
+    "player4Play2": {
+      "English": "Player 4 Play Area"
+    },
+    "sharedRewards": {
+      "English": "Obtained Rewards"
+    },
+    "round": {
+      "English": "Round"
+    },
+    "pristine_snow": {
+      "English": "Pristine Snow / Bizzard"
+    },
+    "lone_tree_station": {
+      "English": "Lone Tree Station"
+    },
+    "the_undergrove": {
+      "English": "The Undergrove"
+    },
+    "set": {
+      "English": "Set"
+    },
+    "alluvial_ruins": {
+      "English": "Alluvial Ruins"
+    },
+    "reveal2": {
+      "English": "Reveal #2"
+    },
+    "revealPathFacedown": {
+      "English": "Reveal path card facedown"
+    },
+    "EnvelopingSilence": {
+      "English": "Enveloping Silence / Reverberating Echo"
+    },
+    "step-3.2": {
+      "English": "3.2 - Travel to a new location"
+    },
+    "nimbus_facility": {
+      "English": "Nimbus Facility"
+    },
+    "makePersistent": {
+      "English": "Add / Remove 'Persistent' keyword"
+    },
+    "sharedExtra1": {
+      "English": "Extra1"
+    },
+    "sharedChallengeDeck": {
+      "English": "Challenge Deck"
+    },
+    "clearTargets": {
+      "English": "Clear Targets"
+    },
+    "revealFacedownCardFromSecondEncounterDeck": {
+      "English": "Reveal facedown card from second encounter deck"
+    },
+    "step-0.6": {
+      "English": "0.6 - Set up the weather card"
+    },
+    "Reference": {
+      "English": "Reference"
+    },
+    "persistentToken": {
+      "English": "Persistent Keyword"
+    },
+    "player2WithinReach": {
+      "English": "Within Reach Player 2"
+    },
+    "fitnessToken": {
+      "English": "Fitness"
+    },
+    "newRound": {
+      "English": "New round for all Rangers"
+    },
+    "step-4.2": {
+      "English": "4.2 - Refill energy pools"
+    },
+    "setup": {
+      "English": "Setup"
+    },
+    "undoMany": {
+      "English": "Undo many"
+    },
+    "player4Role": {
+      "English": "Player 4 Role"
+    },
+    "fractured_wall": {
+      "English": "The Fractured Wall"
+    },
+    "revealFacedownEncounterCard": {
+      "English": "Reveal facedown encounter card"
+    },
+    "travel": {
+      "English": "Travel"
+    },
+    "WildGrowth": {
+      "English": "Wild Growth"
+    },
+    "player2Engaged": {
+      "English": "Player 2 Engaged"
+    },
+    "watchers_rock": {
+      "English": "Watcher's Rock"
+    },
+    "hand": {
+      "English": "Hand"
+    },
+    "quantity": {
+      "English": "Quantity"
+    },
+    "Location": {
+      "English": "Location"
+    },
+    "sunken_outpost": {
+      "English": "Sunken Outpost"
+    },
+    "player2Play3": {
+      "English": "Player 2 Play Area"
+    },
+    "focusToken": {
+      "English": "Focus"
+    },
+    "ranger1Token": {
+      "English": "Ranger 1"
+    },
+    "player1Play2": {
+      "English": "Player 1 Play Area"
+    },
+    "Maps": {
+      "English": "All available maps"
+    },
+    "sharedExtra2": {
+      "English": "Extra2"
+    },
+    "Challenge Deck": {
+      "English": "Challenge Deck"
+    },
+    "player3Play1": {
+      "English": "Player 3 Play Area"
+    },
+    "refreshTouchButton": {
+      "English": "Refresh"
+    },
+    "player3Deck": {
+      "English": "Player 3 Deck"
+    },
+    "refresh": {
+      "English": "Refresh"
+    },
+    "stoneweaver_bridge": {
+      "English": "Stoneweaver Bridge"
+    },
+    "lakeshore": {
+      "English": "Lakeshore"
+    },
+    "step-2": {
+      "English": "2 - Rangers take turns until they have all rested"
+    },
+    "2-handed": {
+      "English": "2-handed"
+    },
+    "spire2": {
+      "English": "Spire (Spire in Bloom)"
+    },
+    "spire_crossing": {
+      "English": "Spire Crossing"
+    },
+    "the_frowning_gate": {
+      "English": "The Frowning Gate"
+    },
+    "layout3Player": {
+      "English": "3 players"
+    },
+    "player3Play": {
+      "English": "Player 3 Play Area"
+    },
+    "aspect": {
+      "English": "Aspect"
+    },
+    "flip": {
+      "English": "Flip"
+    },
+    "reveal2down": {
+      "English": "Reveal #2 Facedown"
+    },
+    "moveToNextPhase": {
+      "English": "Move to next phase"
+    },
+    "theChimneyfromSpire": {
+      "English": "The Chimney (from Arcology Threshold)"
+    },
+    "revealSecondaryFaceup": {
+      "English": "Reveal card from second shared deck faceup"
+    },
+    "ranger4Token": {
+      "English": "Ranger 4"
+    },
+    "SpireinBloomMap": {
+      "English": "Spire in Bloom Map"
+    },
+    "rangerPhase": {
+      "English": "Ranger Phase"
+    },
+    "OvergrownPassage": {
+      "English": "OvergrownPassage"
+    },
+    "player4Deck2": {
+      "English": "Player4 Deck2"
+    },
+    "talpids_squeeze": {
+      "English": "Talpid's Squeeze"
+    },
+    "golden_shore": {
+      "English": "Golden Shore"
+    },
+    "type": {
+      "English": "Type"
+    },
+    "old_growth": {
+      "English": "Old-Growth"
+    },
+    "cardsPerRound": {
+      "English": "Cards Per Round"
+    },
+    "setAside": {
+      "English": "Set aside"
+    },
+    "pathDeck": {
+      "English": "Path Deck"
+    },
+    "ShadowoftheStormMoments": {
+      "English": "Shadow of the Storm Moments"
+    },
+    "player4WithinReach": {
+      "English": "Within Reach Player 4"
+    },
+    "meadow": {
+      "English": "Meadow"
+    },
+    "drawCardOnBehalfOfNextEmptySeat": {
+      "English": "Draw card on behalf of next empty seat"
+    },
+    "labelMarkAsDefeat": {
+      "English": "One or more Rangers defeated due to fatigue, injury or forced to end the day."
+    },
+    "shuffle": {
+      "English": "Shuffle"
+    },
+    "sharedLocation": {
+      "English": "Location"
+    },
+    "saveGame": {
+      "English": "Save game"
+    },
+    "crossroads_station": {
+      "English": "Crossroads Station"
+    },
+    "sharedPathDiscard3": {
+      "English": "Path Discard 3"
+    },
+    "river": {
+      "English": "River"
+    },
+    "the_cypress_citadel": {
+      "English": "The Cypress Citadel"
+    },
+    "pressShiftNForAllPlayers": {
+      "English": "Press Shift+N for all players"
+    },
+    "nextStep": {
+      "English": "Next step"
+    },
+    "player1Deck2": {
+      "English": "Player1 Deck2"
+    },
+    "ancient_ruins": {
+      "English": "Ancient Ruins"
+    },
+    "noThanks": {
+      "English": "No, thanks."
+    },
+    "the_cage": {
+      "English": "The Cage"
+    },
+    "drenching_chamber": {
+      "English": "Drenching Chamber"
+    },
+    "arboretum_of_memory": {
+      "English": "Arboretum of Memory"
+    },
+    "playArea": {
+      "English": "Player Area"
+    },
+    "ArcologyMap": {
+      "English": "Arcology Map"
+    },
+    "reshuffleChallengeDiscard": {
+      "English": "Reshuffle Challenge discard into deck"
+    },
+    "myAspect": {
+      "English": "My Aspect"
+    },
+    "player3Hand": {
+      "English": "Player 3 Hand"
+    },
+    "sharedRewardsTable": {
+      "English": "Rewards"
+    },
+    "addRangerToken2": {
+      "English": "Add your Ranger token"
+    },
+    "BallLightning": {
+      "English": "Ball Lightning"
+    },
+    "sharedPathDiscard2": {
+      "English": "Path Discard 2"
+    },
+    "reveal": {
+      "English": "Reveal"
+    },
+    "player2Deck2": {
+      "English": "Player2 Deck2"
+    },
+    "shuffleIntoOwnerSDeck": {
+      "English": "Shuffle into owner's deck"
+    },
+    "player1Role": {
+      "English": "Player 1 Role"
+    },
+    "exhautReady": {
+      "English": "Exhaust Ready"
+    },
+    "player2Sideboard": {
+      "English": "Player 2 Sideboard"
+    },
+    "step-0.2": {
+      "English": "0.2 - Draw starting hand"
+    },
+    "sharedMaps": {
+      "English": "Maps"
+    },
+    "sharedExtra3": {
+      "English": "Extra3"
+    },
+    "sharedPathDeck": {
+      "English": "Path Deck"
+    },
+    "sharedSetAside": {
+      "English": "Set Aside"
+    },
+    "fungal_forest": {
+      "English": "Fungal Forest"
+    },
+    "calculateScore": {
+      "English": "Calculate score"
+    },
+    "step-0.4": {
+      "English": "0.4 - Shuffle the Challenge deck"
+    },
+    "player3Engaged": {
+      "English": "Player 3 Engaged"
+    },
+    "player4Play": {
+      "English": "Player 4 Play Area"
+    },
+    "the_chimney": {
+      "English": "The Chimney"
+    },
+    "drawACard": {
+      "English": "Draw a card"
+    },
+    "VoiceoftheElders": {
+      "English": "Voice of the Elders"
+    },
+    "player4Deck": {
+      "English": "Player 4 Deck"
+    },
+    "player1Engaged": {
+      "English": "Player 1 Engaged"
+    },
+    "victory": {
+      "English": "Victory"
+    },
+    "revealSecondaryFacedown": {
+      "English": "Reveal card from second shared deck facedown"
+    },
+    "player1WithinReach": {
+      "English": "Within Reach"
+    },
+    "revealChallenge": {
+      "English": "Reveal Challenge"
+    },
+    "northern_outpost": {
+      "English": "Northern Outpost"
+    },
+    "Weather": {
+      "English": "Weather"
+    },
+    "searchNextFeature": {
+      "English": "Search Next Feature"
+    },
+    "spiritToken": {
+      "English": "Spirit"
+    },
+    "The Lure of the Valley": {
+      "English": "The Lure of the Valley"
+    },
+    "discardAllOtherCardsInThisCardSStack": {
+      "English": "Discard all other cards in this card's stack"
+    },
+    "the_verdant_sphere": {
+      "English": "The Verdant Sphere"
+    },
+    "engaged": {
+      "English": "Along the Way"
+    },
+    "sufferFatigue": {
+      "English": "Suffer one fatigue"
+    },
+    "mount_nim": {
+      "English": "Mount Nim"
+    },
+    "archaeological_outpost": {
+      "English": "Archaeological Outpost"
+    },
+    "desert_of_endless_night": {
+      "English": "Desert of Endless Night"
+    },
+    "The Core ": {
+      "English": "The Core "
+    },
+    "save": {
+      "English": "Save"
+    },
+    "rings_of_the_moon": {
+      "English": "Rings of the Moon"
+    },
+    "spire": {
+      "English": "Spire (Core Set)"
+    },
+    "sphere_code": {
+      "English": "Aspect Req."
+    },
+    "discardUntilFeature": {
+      "English": "Discard Until Feature"
+    },
+    "APerfectDay": {
+      "English": "A Perfect Day"
+    },
+    "toggleExhaust": {
+      "English": "Exhaust/Ready"
+    },
+    "player2Role": {
+      "English": "Player 2 Role"
+    },
+    "moveToNextGameStep": {
+      "English": "Move to next game step"
+    },
+    "deep_roots": {
+      "English": "Deep Roots"
+    },
+    "step-3.5": {
+      "English": "3.5 - Arrival setup"
+    },
+    "discardTouchButton": {
+      "English": "Discard"
+    },
+    "progressToken": {
+      "English": "Progress"
+    },
+    "flipTouchButton": {
+      "English": "Flip"
+    },
+    "AdherentoftheFirstIdeal": {
+      "English": "Adherent of the First Ideal"
+    },
+    "player4Play4": {
+      "English": "Player 4 Play Area"
+    },
+    "step-1": {
+      "English": "1 - Each Ranger draws 1 Path card"
+    },
+    "player3Discard": {
+      "English": "Player 3 Discard"
+    },
+    "traits": {
+      "English": "Traits"
+    },
+    "cave_system": {
+      "English": " Cave System"
+    },
+    "arbor_mist": {
+      "English": "Arbor Mist"
+    },
+    "the_furrow": {
+      "English": "The Furrow"
+    },
+    "discardUntilBeing": {
+      "English": "Discard Until Being"
+    },
+    "orlins_vault": {
+      "English": "Orlin's Vault"
+    },
+    "drawCardAndGainResourcesIfHostIncrementRound": {
+      "English": "Draw card and gain resources. If host, increment round."
+    },
+    "player4Sideboard": {
+      "English": "Player 4 Sideboard"
+    },
+    "player1Aspect": {
+      "English": "Player 1 Aspect"
+    },
+    "Spire in Bloom": {
+      "English": "Spire in Bloom"
+    },
+    "exhaust": {
+      "English": "exhaust"
+    },
+    "pathCards": {
+      "English": "Path Cards"
+    },
+    "revealCardFromChallengeDeck": {
+      "English": "Reveal card from Challenge deck"
+    },
+    "terminal_artery": {
+      "English": "Terminal Artery"
+    },
+    "shuffleGroupIntoDeck": {
+      "English": "Shuffle Into Deck"
+    },
+    "discardGroup": {
+      "English": "Discard this cards"
+    },
+    "player1Discard": {
+      "English": "Player 1 Discard"
+    },
+    "player3Deck2": {
+      "English": "Player3 Deck2"
+    },
+    "Pivotal Location": {
+      "English": "Pivotal Location"
+    },
+    "moveToPreviousPhase": {
+      "English": "Move to previous phase"
+    },
+    "Glitterain": {
+      "English": "Glitterain / Shimmering Runoff"
+    },
+    "PremadeRangerDecks": {
+      "English": "Premade Ranger Decks"
+    },
+    "player4Hand": {
+      "English": "Player 4 Hand"
+    },
+    "step-3.1": {
+      "English": "3.1 - Clear play area"
+    },
+    "sharedPathDeck3": {
+      "English": "Valley/Arcology set"
+    },
+    "nimbus": {
+      "English": "Nimbus"
+    },
+    "sendToTop": {
+      "English": "Move on top"
+    },
+    "white_sky": {
+      "English": "White Sky"
+    },
+    "woods": {
+      "English": "Woods"
+    },
+    "topBarStagingProgress": {
+      "English": "Progress"
+    },
+    "sharedWeather": {
+      "English": "Weather"
+    },
+    "player3Sideboard": {
+      "English": "Player 3 Sideboard"
+    },
+    "ravine": {
+      "English": "Ravine"
+    },
+    "the_high_basin": {
+      "English": "The High Basin"
+    },
+    "cerulean_curtain": {
+      "English": "Cerulean Curtain"
+    },
+    "searchNextBeing": {
+      "English": "Search Next Being"
+    },
+    "ranger3Token": {
+      "English": "Ranger 3"
+    },
+    "labelMarkAsVictory": {
+      "English": "Rangers camped after traveling (or completed their mission for the day)."
+    },
+    "CoreMap": {
+      "English": "Core Map"
+    },
+    "challengeDeck": {
+      "English": "Challenge Deck"
+    },
+    "lookAtTop2": {
+      "English": "Look at the top 2 cards of selected deck"
+    },
+    "player2Fatigue": {
+      "English": "Player 2 Fatigue"
+    },
+    "the_cistern": {
+      "English": "The Cistern"
+    },
+    "sharedExtra4": {
+      "English": "Extra4"
+    },
+    "labelMarkAsIncomplete": {
+      "English": "Mark as Incomplete"
+    },
+    "mound_of_the_navigator": {
+      "English": "Mound of the Navigator"
+    },
+    "detach": {
+      "English": "Detach"
+    },
+    "layout4Player": {
+      "English": "4 players"
+    },
+    "player2Play": {
+      "English": "Player 2 Play Area"
+    },
+    "step-4.3": {
+      "English": "4.3 - Ready all cards in play"
+    },
+    "player2Hand": {
+      "English": "Player 2 Hand"
+    },
+    "player1Fatigue": {
+      "English": "Player 1 Fatigue"
+    },
+    "player4Play3": {
+      "English": "Player 4 Play Area"
+    },
+    "brookside": {
+      "English": "Brookside"
+    },
+    "draw": {
+      "English": "Draw"
+    },
+    "player4Discard": {
+      "English": "Player 4 Discard"
+    },
+    "sharedPathDiscard": {
+      "English": "Path Discard"
+    },
+    "moveToPreviousGameStep": {
+      "English": "Move to previous game step"
+    },
+    "UndauntedSeeker": {
+      "English": "Undaunted Seeker"
+    },
+    "player4Engaged": {
+      "English": "Player 4 Engaged"
+    },
+    "AddMoments": {
+      "English": "Add Moments"
+    },
+    "the_philosophers_garden": {
+      "English": "The Philosopher's Garden"
+    },
+    "fatigue": {
+      "English": "Fatigue"
+    },
+    "target": {
+      "English": "Target"
+    },
+    "discard": {
+      "English": "Discard"
+    },
+    "sentinel_peak": {
+      "English": "Sentinel Peak"
+    },
+    "player1Sideboard": {
+      "English": "Player 1 Sideboard"
+    },
+    "player2Play4": {
+      "English": "Player 2 Play Area"
+    },
+    "the_rootway": {
+      "English": "The Rootway"
+    },
+    "general2Token": {
+      "English": "Unique"
+    },
+    "kobos_market": {
+      "English": "Kobo's Market"
+    },
+    "scuttler_network": {
+      "English": "Scuttler Network"
+    },
+    "player4Play1": {
+      "English": "Player 4 Play Area"
+    },
+    "ranger2Token": {
+      "English": "Ranger 2"
+    },
+    "greenbriar_knoll": {
+      "English": "Greenbriar Knoll"
+    },
+    "TheConcordantZigguratsLoA": {
+      "English": "The Concordant Ziggurats (only on LoA)"
+    },
+    "preventRefresh": {
+      "English": "Prevent Refresh"
+    },
+    "ifHostEnableMultiplayerHotkeys": {
+      "English": "If host, enable multiplayer hotkeys"
+    },
+    "GeneralSet": {
+      "English": "General "
+    },
+    "ready": {
+      "English": "ready"
+    },
+    "player2Deck": {
+      "English": "Player 2 Deck"
+    },
+    "the_plummet": {
+      "English": "The Plummet"
+    },
+    "sharedMissions": {
+      "English": "Missions"
+    },
+    "damage": {
+      "English": "damage"
+    },
+    "player1Deck": {
+      "English": "Player 1 Deck"
+    },
+    "tumbledown": {
+      "English": "Tumbledown"
+    },
+    "player3Aspect": {
+      "English": "Player 3 Aspect"
+    },
+    "LockedPassage": {
+      "English": "LockedPassage"
+    },
+    "removedCards": {
+      "English": "Not Available Cards"
+    },
+    "step-0.7": {
+      "English": "0.7 - Set up mission cards"
+    },
+    "myPlayArea": {
+      "English": "My Play Area"
+    },
+    "sharedAlongTheWay": {
+      "English": "Along the Way"
+    },
+    "myDeck": {
+      "English": "My Deck"
+    },
+    "revealPathFaceup": {
+      "English": "Reveal path card faceup"
+    },
+    "silent_dormitories": {
+      "English": "Silent Dormitories"
+    },
+    "player2Discard": {
+      "English": "Player 2 Discard"
+    },
+    "ShimmeringRunoff": {
+      "English": "Shimmering Runoff"
+    },
+    "player4Fatigue": {
+      "English": "Player 4 Fatigue"
+    },
+    "player3Fatigue": {
+      "English": "Player 3 Fatigue"
+    },
+    "sharedChallengeDiscard": {
+      "English": "Challenge Discard"
+    },
+    "progress": {
+      "English": "progress"
+    },
+    "player3Play4": {
+      "English": "Player 3 Play Area"
+    },
+    "flooded_ruins": {
+      "English": "Flooded Ruins"
+    },
+    "ElectricFog": {
+      "English": "Electric Fog"
+    },
+    "shuffleChallenge": {
+      "English": "Reshuffle Challenge"
+    },
+    "player3Role": {
+      "English": "Player 3 Role"
+    },
+    "Path Sets": {
+      "English": "Path Sets"
+    },
+    "player2Aspect": {
+      "English": "Player 2 Aspect"
+    },
+    "exhaustReadyIfLocationMakeActive": {
+      "English": "Exhaust / Ready"
+    },
+    "sharedPathDeck2": {
+      "English": "Path Deck 2"
+    },
+    "drawArrow": {
+      "English": "Draw Arrow"
+    },
+    "active": {
+      "English": "Weather"
+    },
+    "swamp": {
+      "English": "Swamp"
+    },
+    "the_otherwoods": {
+      "English": "The Otherwoods"
+    },
+    "branching_artery": {
+      "English": "Branching Artery"
+    },
+    "layout2Player": {
+      "English": "2 players"
+    },
+    "redoOneAction": {
+      "English": "Redo one action"
+    },
+    "generalToken": {
+      "English": "General"
+    },
+    "step-3.4": {
+      "English": "3.4 - Build the Path Deck"
+    },
+    "add to VD": {
+      "English": "add to VD"
+    },
+    "role": {
+      "English": "Role"
+    },
+    "player1WithinReach1": {
+      "English": "Within Reach Player 1"
+    },
+    "exhaustReady": {
+      "English": "Exhaust/Ready"
+    },
+    "deck": {
+      "English": "Deck"
+    },
+    "sootheFatigue": {
+      "English": "Soothe one fatigue"
+    },
+    "arcology": {
+      "English": "Arcology"
+    },
+    "clearTargetsArrows": {
+      "English": "Clear targets/arrows"
+    },
+    "player4Aspect": {
+      "English": "Player 4 Aspect"
+    },
+    "biological_outpost": {
+      "English": "Biological Outpost"
+    },
+    "awarenessToken": {
+      "English": "Awareness"
+    },
+    "silverfin_docks": {
+      "English": "Silverfin Docks"
+    },
+    "sharedOther": {
+      "English": "Other"
+    },
+    "headwaters_station": {
+      "English": "Headwaters Station"
+    },
+    "terravore": {
+      "English": "Terravore"
+    },
+    "addToVictoryDisplay": {
+      "English": "Add to victory display"
+    },
+    "revealCardFromSecondDeck": {
+      "English": "Reveal card from second shared deck"
+    },
+    "player1Play1": {
+      "English": "Player 1 Play Area"
+    },
+    "loadCampaign": {
+      "English": "Load Campaign"
+    },
+    "marsh_of_rebirth": {
+      "English": "Marsh of Rebirth"
+    },
+    "inverted_forest": {
+      "English": "Inverted Forest"
+    },
+    "player1Play3": {
+      "English": "Player 1 Play Area"
+    },
+    "atrox_mountain": {
+      "English": "Atrox Mountain"
+    },
+    "pressShiftRForAllPlayers": {
+      "English": "Press Shift+R for all players"
+    },
+    "sideboard": {
+      "English": "Sideboard"
+    },
+    "player3Play2": {
+      "English": "Player 3 Play Area"
+    },
+    "player3WithinReach": {
+      "English": "Within Reach Player 3"
+    },
+    "the_concordant_ziggurats": {
+      "English": "The Concordant Ziggurats"
+    },
+    "staging": {
+      "English": "Missions"
+    },
+    "swapWithTop": {
+      "English": "Swap with top card in deck of origin"
+    },
+    "oasis_of_sunlight": {
+      "English": "Oasis of Sunlight"
+    },
+    "step-0.5": {
+      "English": "0.5 - Set up the starting Location"
+    },
+    "harmToken": {
+      "English": "Harm"
+    },
+    "committedEffort": {
+      "English": "Committed Effort"
+    },
+    "undoOneAction": {
+      "English": "Undo one action"
+    },
+    "APreservedDay": {
+      "English": "A Preserved Day / Fractured Sky"
+    },
+    "step-0.3": {
+      "English": "0.3 - Elect the lead Ranger"
+    },
+    "sendToBottom": {
+      "English": "Move to bottom"
+    },
+    "grassland": {
+      "English": "Grassland"
+    },
+    "step-0.9": {
+      "English": "0.9 - Resolve arrival setup"
+    },
+    "step-0.10": {
+      "English": "0.10 - Finishing touches"
+    },
+    "player1Play": {
+      "English": "Player 1 Play Area"
+    },
+    "bowl_of_the_sun": {
+      "English": "Bowl of the Sun"
+    },
+    "lookAtTop1": {
+      "English": "Look at the top card of selected deck"
+    },
+    "terra_lodge": {
+      "English": "Terra Lodge"
+    },
+    "player1Play4": {
+      "English": "Player 1 Play Area"
+    },
+    "mycelial_conclave": {
+      "English": "Mycelial Conclave"
+    },
+    "addRangerToken": {
+      "English": "Add your Ranger token to the card"
+    },
+    "step-0.1": {
+      "English": "0.1 - Setup player areas"
+    },
+    "revealPathCard": {
+      "English": "Reveal path card"
+    },
+    "carbonforged_maze": {
+      "English": "Carbonforged Maze"
+    },
+    "discardOrAdvance": {
+      "English": "Discard"
+    },
+    "Downpour": {
+      "English": "Downpour"
+    },
+    "Legacy of the Ancestors": {
+      "English": "Legacy of the Ancestors"
+    },
+    "name": {
+      "English": "Name"
+    },
+    "FloodedPassage": {
+      "English": "Flooded Passage"
+    },
+    "boulder_field": {
+      "English": "Boulder Field"
+    },
+    "player2Play2": {
+      "English": "Player 2 Play Area"
+    },
+    "rebalanced": {
+      "English": "Use Elder's Book of Uncommon Wisdom"
+    },
+    "CerberusianCyclone": {
+      "English": "Cerberusian Cyclone"
+    },
+    "player1Hand": {
+      "English": "Player 1 Hand"
+    },
+    "travelPhase": {
+      "English": "Travel to a nearby location"
+    },
+    "thoroughfare": {
+      "English": "Thoroughfare"
+    },
+    "stagingProgress": {
+      "English": "Staging Progress"
+    },
+    "step-4.1": {
+      "English": "4.1 - Draw 1 Ranger card"
+    },
+    "targetCard": {
+      "English": "Target card"
+    },
+    "michaels_bog": {
+      "English": "Michael's Bog"
+    },
+    "sendAttachmentToBackOfStack": {
+      "English": "Send attachment to back of stack"
+    },
+    "commit": {
+      "English": "Commit"
+    },
+    "MasterfulEngineer": {
+      "English": "Masterful Engineer"
+    },
+    "lookAtTop3": {
+      "English": "Look at the top 3 cards of selected deck"
+    },
+    "player3Play3": {
+      "English": "Player 3 Play Area"
+    },
+    "ancestors_grove": {
+      "English": "Ancestor's Grove"
+    },
+    "player2Play1": {
+      "English": "Player 2 Play Area"
+    },
+    "branch": {
+      "English": "Branch"
+    },
+    "HowlingWinds": {
+      "English": "Howling Winds"
+    },
+    "crystal_basin": {
+      "English": "Crystal Basin"
+    }
+  }
+}

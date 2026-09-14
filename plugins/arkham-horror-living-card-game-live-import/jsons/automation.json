@@ -1,0 +1,4870 @@
+{
+  "automation": {
+    "cards": {
+      "10079": {
+        "rules": {
+          "10079a": {
+            "condition": [
+              "TRIGGER_ON_PLAYER_EVENT",
+              "$TARGET.id",
+              "$THIS",
+              "BeforeDraw"
+            ],
+            "listenTo": [
+              "/playerData/*/arkham/playerEventBeforeDraw"
+            ],
+            "priority": 10,
+            "then": [
+              [
+                "CONSUME_PLAYER_EVENT",
+                "$TARGET.id",
+                "$THIS",
+                "BeforeDraw"
+              ],
+              [
+                "DO_FSYSLOG",
+                "{0:C}: {1:P} searches their deck for up to 3 different Trick cards, and attaches them facedown to Bewitching. Shuffles their deck.",
+                [
+                  "LIST",
+                  "$THIS",
+                  "$THIS.controller"
+                ]
+              ],
+              [
+                "VAR",
+                "$TARGET_PLAYER",
+                "$THIS.controller"
+              ],
+              [
+                "VAR",
+                "$DECK_GROUP_ID",
+                [
+                  "GET_CONTROLLER_DECK",
+                  "$TARGET_PLAYER"
+                ]
+              ],
+              [
+                "DO_SHOW_SELECTION",
+                "$TARGET_PLAYER",
+                "$DECK_GROUP_ID",
+                [
+                  "GET_FILTERED_CARDS",
+                  "$DECK_GROUP_ID",
+                  null,
+                  null,
+                  null,
+                  [
+                    "LIST",
+                    "Trick."
+                  ],
+                  null
+                ],
+                "$PLAYER_DATA.$TARGET_PLAYER.arkham.deckAttachments.10079",
+                "Select between {0} and {1} different Trick cards to attach them facedown to Bewitching.",
+                0,
+                3,
+                true,
+                "BEWITCHING_SELECTION_CALLBACK",
+                "$THIS.id"
+              ]
+            ],
+            "type": "trigger"
+          }
+        }
+      },
+      "10109": {
+        "rules": {
+          "10109a": {
+            "condition": [
+              "CAN_CHANGE_CONTROLLER_BONUS",
+              "$THIS",
+              "maxHandSize",
+              -3,
+              "$THIS.inHand"
+            ],
+            "listenTo": [
+              "/cardById/$THIS_ID/inHand",
+              "/cardById/$THIS_ID/controller"
+            ],
+            "priority": 10,
+            "then": [
+              [
+                "DO_CHANGE_CONTROLLER_BONUS",
+                "$THIS",
+                "maxHandSize",
+                -3,
+                "$THIS.inHand",
+                "{2:P}'s maximum hand size is reduced by 3.",
+                null
+              ]
+            ],
+            "type": "trigger"
+          }
+        }
+      },
+      "11014": {
+        "rules": {
+          "11014a": {
+            "condition": [
+              "CAN_CHANGE_CONTROLLER_BONUS",
+              "$THIS",
+              "customMythosPhasePlayerOrderController",
+              1,
+              "$THIS.inPlay"
+            ],
+            "listenTo": [
+              "/cardById/$THIS_ID/inPlay",
+              "/cardById/$THIS_ID/controller"
+            ],
+            "priority": 10,
+            "then": [
+              [
+                "DO_CHANGE_CONTROLLER_BONUS",
+                "$THIS",
+                "customMythosPhasePlayerOrderController",
+                1,
+                "$THIS.inPlay",
+                "{2:P} chooses the investigator order during the mythos phase.",
+                null
+              ]
+            ],
+            "type": "trigger"
+          }
+        }
+      },
+      "11017": {
+        "rules": {
+          "11017a": {
+            "condition": [
+              "CAN_CHANGE_CONTROLLER_BONUS",
+              "$THIS",
+              "defaultMaxHandSize",
+              [
+                "GET_GEORGE_BARNABY_BONUS",
+                "$THIS"
+              ],
+              "$THIS.inPlay"
+            ],
+            "listenTo": [
+              "/cardById/$THIS_ID/inPlay",
+              "/cardById/$THIS_ID/controller",
+              "/cardById/$THIS_ID/attachedCount"
+            ],
+            "priority": 10,
+            "then": [
+              [
+                "DO_CHANGE_CONTROLLER_BONUS",
+                "$THIS",
+                "defaultMaxHandSize",
+                [
+                  "GET_GEORGE_BARNABY_BONUS",
+                  "$THIS"
+                ],
+                "$THIS.inPlay",
+                "{2:P}'s base maximum hand size is equal to {0}.",
+                null
+              ]
+            ],
+            "type": "trigger"
+          },
+          "11017b": {
+            "condition": [
+              "TRIGGER_ON_PLAYER_EVENT",
+              "$TARGET.id",
+              "$THIS",
+              "AfterDraw",
+              1
+            ],
+            "listenTo": [
+              "/playerData/*/arkham/playerEventAfterDraw"
+            ],
+            "priority": 10,
+            "then": [
+              [
+                "CONSUME_PLAYER_EVENT",
+                "$TARGET.id",
+                "$THIS",
+                "AfterDraw",
+                1
+              ],
+              [
+                "DO_FSYSLOG",
+                "{0:C}: {1:P} may place any number of cards in their hand facedown beneath George Barnaby.",
+                [
+                  "LIST",
+                  "$THIS",
+                  "$THIS.controller"
+                ]
+              ],
+              [
+                "PLAYER_EVENT_LOOP",
+                "$TARGET.id",
+                "AfterDraw"
+              ]
+            ],
+            "type": "trigger"
+          }
+        }
+      },
+      "11030": {
+        "rules": {
+          "11030a": {
+            "condition": [
+              "CAN_CHANGE_CONTROLLER_BONUS",
+              "$THIS",
+              "bonusAmmo",
+              1,
+              "$THIS.inPlay"
+            ],
+            "listenTo": [
+              "/cardById/$THIS_ID/inPlay",
+              "/cardById/$THIS_ID/controller"
+            ],
+            "priority": 10,
+            "then": [
+              [
+                "DO_CHANGE_CONTROLLER_BONUS",
+                "$THIS",
+                "bonusAmmo",
+                1,
+                "$THIS.inPlay",
+                "{2:P}'s firearm assets with “uses (ammo)” enter play with 1 additional ammo on them.",
+                null
+              ]
+            ],
+            "type": "trigger"
+          }
+        }
+      },
+      "11073": {
+        "rules": {
+          "11073a": {
+            "condition": [
+              "CAN_CHANGE_CONTROLLER_GLOBAL_BONUS",
+              "$THIS",
+              "playWithEncounterDeckCardRevealed",
+              1,
+              "$THIS.inPlay"
+            ],
+            "listenTo": [
+              "/cardById/$THIS_ID/inPlay",
+              "/cardById/$THIS_ID/controller"
+            ],
+            "priority": 10,
+            "then": [
+              [
+                "DO_CHANGE_CONTROLLER_GLOBAL_BONUS",
+                "$THIS",
+                "playWithEncounterDeckCardRevealed",
+                1,
+                "$THIS.inPlay",
+                "Investigators play with the top card of the encounter deck revealed.",
+                null
+              ]
+            ],
+            "type": "trigger"
+          }
+        }
+      },
+      "11076": {
+        "ability": {
+          "A": [
+            [
+              "VAR",
+              "$OLD_INVESTIGATOR",
+              [
+                "GET_INVESTIGATOR",
+                "$PLAYER_N"
+              ]
+            ],
+            [
+              "VAR",
+              "$OLD_MINI_INVESTIGATOR",
+              [
+                "GET_MINI_INVESTIGATOR",
+                "$PLAYER_N"
+              ]
+            ],
+            [
+              "COND",
+              [
+                "AND",
+                [
+                  "EQUAL",
+                  "$THIS.groupId",
+                  "sharedVoid"
+                ],
+                [
+                  "NOT_EQUAL",
+                  "$OLD_INVESTIGATOR",
+                  null
+                ],
+                [
+                  "NOT_EQUAL",
+                  "$OLD_MINI_INVESTIGATOR",
+                  null
+                ]
+              ],
+              [
+                [
+                  "VAR",
+                  "$OLD_NAME",
+                  [
+                    "GET_CARD_TITLE",
+                    "$OLD_INVESTIGATOR.currentFace.name"
+                  ]
+                ],
+                [
+                  "PAGING_PROMPT",
+                  "$PLAYER_N",
+                  "Transfigure {{$OLD_NAME}}",
+                  "transfiguration",
+                  0,
+                  "DO_TRANSFIGURATION_CALLBACK",
+                  "$PLAYER_N",
+                  "$THIS_ID",
+                  " "
+                ]
+              ]
+            ]
+          ]
+        }
+      },
+      "11080": {
+        "rules": {
+          "11080a": {
+            "condition": [
+              "TRIGGER_ON_PLAYER_EVENT",
+              "$TARGET.id",
+              "$THIS",
+              "BeforeDraw"
+            ],
+            "listenTo": [
+              "/playerData/*/arkham/playerEventBeforeDraw"
+            ],
+            "priority": 10,
+            "then": [
+              [
+                "CONSUME_PLAYER_EVENT",
+                "$TARGET.id",
+                "$THIS",
+                "BeforeDraw"
+              ],
+              [
+                "DO_FSYSLOG",
+                "{0:C}: {1:P} searches their deck for their branded spell and plays it (paying its cost). Shuffles their deck.",
+                [
+                  "LIST",
+                  "$THIS",
+                  "$THIS.controller"
+                ]
+              ],
+              [
+                "VAR",
+                "$TARGET_PLAYER",
+                "$THIS.controller"
+              ],
+              [
+                "VAR",
+                "$DECK_GROUP_ID",
+                [
+                  "GET_CONTROLLER_DECK",
+                  "$TARGET_PLAYER"
+                ]
+              ],
+              [
+                "DO_SHOW_SELECTION",
+                "$TARGET_PLAYER",
+                "$DECK_GROUP_ID",
+                [
+                  "GET_FILTERED_CARDS",
+                  "$DECK_GROUP_ID",
+                  null,
+                  null,
+                  null,
+                  [
+                    "LIST",
+                    "Spell."
+                  ],
+                  null
+                ],
+                "$PLAYER_DATA.$TARGET_PLAYER.arkham.deckAttachments.11080",
+                "Optionally select your branded spell to play it (paying its cost).",
+                0,
+                1,
+                false,
+                "ELDRITCH_BRAND_SELECTION_CALLBACK",
+                "$THIS.id"
+              ]
+            ],
+            "type": "trigger"
+          }
+        }
+      },
+      "60202": {
+        "rules": {
+          "60202a": {
+            "condition": [
+              "CAN_CHANGE_CONTROLLER_BONUS",
+              "$THIS",
+              "maxHandSize",
+              2,
+              "$THIS.inPlay"
+            ],
+            "listenTo": [
+              "/cardById/$THIS_ID/inPlay",
+              "/cardById/$THIS_ID/controller"
+            ],
+            "priority": 10,
+            "then": [
+              [
+                "DO_CHANGE_CONTROLLER_BONUS",
+                "$THIS",
+                "maxHandSize",
+                2,
+                "$THIS.inPlay",
+                "{2:P}'s maximum hand size is increased by 2.",
+                null
+              ]
+            ],
+            "type": "trigger"
+          }
+        }
+      },
+      "60205": {
+        "rules": {
+          "60205a": {
+            "condition": [
+              "CAN_CHANGE_CONTROLLER_BONUS",
+              "$THIS",
+              "maxHandSize",
+              1,
+              "$THIS.inPlay"
+            ],
+            "listenTo": [
+              "/cardById/$THIS_ID/inPlay",
+              "/cardById/$THIS_ID/controller"
+            ],
+            "priority": 10,
+            "then": [
+              [
+                "DO_CHANGE_CONTROLLER_BONUS",
+                "$THIS",
+                "maxHandSize",
+                1,
+                "$THIS.inPlay",
+                "{2:P}'s maximum hand size is increased by 1.",
+                null
+              ]
+            ],
+            "type": "trigger"
+          }
+        }
+      },
+      "60212": {
+        "rules": {
+          "60212a": {
+            "condition": [
+              "CAN_CHANGE_CONTROLLER_BONUS",
+              "$THIS",
+              "maxHandSize",
+              2,
+              "$THIS.inPlay"
+            ],
+            "listenTo": [
+              "/cardById/$THIS_ID/inPlay",
+              "/cardById/$THIS_ID/controller"
+            ],
+            "priority": 10,
+            "then": [
+              [
+                "DO_CHANGE_CONTROLLER_BONUS",
+                "$THIS",
+                "maxHandSize",
+                2,
+                "$THIS.inPlay",
+                "{2:P}'s maximum hand size is increased by 2.",
+                null
+              ]
+            ],
+            "type": "trigger"
+          }
+        }
+      },
+      "72004": {
+        "ability": {
+          "B": [
+            [
+              "COND",
+              [
+                "AND",
+                [
+                  "EQUAL",
+                  "$GAME.arkham.scenarioFilmFataleAct2Setup",
+                  false
+                ],
+                [
+                  "EQUAL",
+                  [
+                    "FILM_FATALE_CHECK_PROPS"
+                  ],
+                  true
+                ]
+              ],
+              [
+                "PROMPT",
+                "$PLAYER_N",
+                "filmFataleAndresRequestAbilityB"
+              ]
+            ]
+          ]
+        }
+      },
+      "72025": {
+        "ability": {
+          "B": [
+            [
+              "COND",
+              [
+                "EQUAL",
+                "$GAME.arkham.scenarioFilmFataleAct3Setup",
+                false
+              ],
+              [
+                "PROMPT",
+                "$PLAYER_N",
+                "filmFataleACosmicJourneyAbilityB"
+              ]
+            ]
+          ]
+        }
+      },
+      "72037": {
+        "ability": {
+          "B": [
+            [
+              "COND",
+              [
+                "EQUAL",
+                "$GAME.arkham.scenarioFilmFataleAct3Setup",
+                false
+              ],
+              [
+                "PROMPT",
+                "$PLAYER_N",
+                "filmFataleTheForgottenIslandAbilityB"
+              ]
+            ]
+          ]
+        }
+      },
+      "72048": {
+        "ability": {
+          "B": [
+            [
+              "COND",
+              [
+                "EQUAL",
+                "$GAME.arkham.scenarioFilmFataleAct3Setup",
+                false
+              ],
+              [
+                "PROMPT",
+                "$PLAYER_N",
+                "filmFataleTheAbominableContessaAbilityB"
+              ]
+            ]
+          ]
+        }
+      },
+      "89001": {
+        "rules": {
+          "89001a": {
+            "condition": [
+              "TRIGGER_IN_PLAY",
+              "$THIS"
+            ],
+            "listenTo": [
+              "/cardById/$THIS_ID/inPlay"
+            ],
+            "priority": 10,
+            "then": [
+              [
+                "CARD_ABILITY_ON",
+                "$THIS"
+              ],
+              [
+                "DO_CREATE_CARDS",
+                "$THIS.controller",
+                "Reality Acid story card",
+                "89005",
+                1,
+                [
+                  "GET_CONTROLLER_PLAY",
+                  "$THIS.controller"
+                ],
+                false,
+                null
+              ]
+            ],
+            "type": "trigger"
+          },
+          "89001b": {
+            "condition": [
+              "TRIGGER_ON_PLAYER_EVENT",
+              "$TARGET.id",
+              "$THIS",
+              "UpkeepDraw",
+              1
+            ],
+            "listenTo": [
+              "/playerData/*/arkham/playerEventUpkeepDraw"
+            ],
+            "priority": 10,
+            "then": [
+              [
+                "CANCEL_PLAYER_EVENT",
+                "$TARGET.id",
+                "$THIS",
+                "UpkeepDraw",
+                1
+              ],
+              [
+                "DO_FSYSLOG",
+                "{0:C}: {1:P} draws 1 additional card and devours a non-weakness player card in their hand.",
+                [
+                  "LIST",
+                  "$THIS",
+                  "$THIS.controller"
+                ]
+              ],
+              [
+                "VAR",
+                "$TARGET_PLAYER",
+                "$THIS.controller"
+              ],
+              [
+                "DO_DRAW_CARDS",
+                "$TARGET_PLAYER",
+                [
+                  "GET_CONTROLLER_DECK",
+                  "$TARGET_PLAYER"
+                ],
+                2,
+                true,
+                null
+              ],
+              [
+                "PROMPT",
+                "$TARGET.id",
+                "subject5U21Devouring"
+              ]
+            ],
+            "type": "trigger"
+          }
+        }
+      },
+      "90001": {
+        "rules": {
+          "90001a": {
+            "condition": [
+              "CAN_CHANGE_SKILL_BONUS",
+              "$THIS",
+              [
+                "GET_PARALLEL_DAISY_WALKER_BONUS",
+                "$THIS"
+              ],
+              "$THIS.inPlay"
+            ],
+            "listenTo": [
+              "/cardById/*/inPlay",
+              "/cardById/*/controller"
+            ],
+            "priority": 10,
+            "then": [
+              [
+                "DO_CHANGE_SKILL_BONUS",
+                "$THIS",
+                [
+                  "LIST",
+                  "skillWillpower"
+                ],
+                [
+                  "GET_PARALLEL_DAISY_WALKER_BONUS",
+                  "$THIS"
+                ],
+                "$THIS.inPlay",
+                null,
+                null
+              ]
+            ],
+            "type": "trigger"
+          }
+        }
+      },
+      "90046": {
+        "rules": {
+          "90046a": {
+            "condition": [
+              "TRIGGER_IN_PLAY",
+              "$THIS"
+            ],
+            "listenTo": [
+              "/cardById/$THIS_ID/inPlay"
+            ],
+            "priority": 10,
+            "then": [
+              [
+                "CARD_ABILITY_ON",
+                "$THIS"
+              ],
+              [
+                "DO_FSYSLOG",
+                "{0:C}: {1:P} begins the game with Pete's Guitar: Still Holdin' Up in play.",
+                [
+                  "LIST",
+                  "$THIS",
+                  "$THIS.controller"
+                ]
+              ],
+              [
+                "DO_BEGIN_WITH_CARD_IN_PLAY",
+                "$THIS.controller",
+                "Pete's Guitar"
+              ]
+            ],
+            "type": "trigger"
+          }
+        }
+      },
+      "90049": {
+        "rules": {
+          "90049a": {
+            "condition": [
+              "TRIGGER_ON_PLAYER_EVENT",
+              "$TARGET.id",
+              "$THIS",
+              "BeforeDraw"
+            ],
+            "listenTo": [
+              "/playerData/*/arkham/playerEventBeforeDraw"
+            ],
+            "priority": 9,
+            "then": [
+              [
+                "DO_SETUP_PARALLEL_JIM_CULVER_SPIRIT_DECK",
+                "$THIS",
+                "$TARGET"
+              ]
+            ],
+            "type": "trigger"
+          }
+        }
+      },
+      "90087": {
+        "rules": {
+          "90087a": {
+            "condition": [
+              "TRIGGER_IN_PLAY",
+              "$THIS"
+            ],
+            "listenTo": [
+              "/cardById/$THIS_ID/inPlay"
+            ],
+            "priority": 10,
+            "then": [
+              [
+                "CARD_ABILITY_ON",
+                "$THIS"
+              ],
+              [
+                "DO_CREATE_CARDS",
+                "$THIS.controller",
+                "Lola Hayes Role card",
+                "r03006",
+                1,
+                [
+                  "GET_CONTROLLER_PLAY",
+                  "$THIS.controller"
+                ],
+                false,
+                null
+              ],
+              [
+                "SET",
+                "/cardById/{{$GAME.lastLoadedCardIds.[0]}}/currentSide",
+                "F"
+              ]
+            ],
+            "type": "trigger"
+          },
+          "90087b": {
+            "condition": [
+              "TRIGGER_ON_PLAYER_EVENT",
+              "$TARGET.id",
+              "$THIS",
+              "AfterDraw",
+              1
+            ],
+            "listenTo": [
+              "/playerData/*/arkham/playerEventAfterDraw"
+            ],
+            "priority": 10,
+            "then": [
+              [
+                "CONSUME_PLAYER_EVENT",
+                "$TARGET.id",
+                "$THIS",
+                "AfterDraw",
+                1
+              ],
+              [
+                "DO_FSYSLOG",
+                "{0:C}: {1:P} begins the game in the Neutral role. They can only play or commit Neutral cards or cards of their current role.",
+                [
+                  "LIST",
+                  "$THIS",
+                  "$THIS.controller"
+                ]
+              ],
+              [
+                "PLAYER_EVENT_LOOP",
+                "$TARGET.id",
+                "AfterDraw"
+              ]
+            ],
+            "type": "trigger"
+          }
+        }
+      },
+      "98001": {
+        "inheritFrom": "02003"
+      },
+      "98007": {
+        "inheritFrom": "08004"
+      },
+      "98019": {
+        "inheritFrom": "11014"
+      },
+      "0200390084": {
+        "inheritFrom": "02003"
+      },
+      "03004": {
+        "rules": {
+          "03004a": {
+            "condition": [
+              "CAN_CHANGE_CONTROLLER_BONUS",
+              "$THIS",
+              "bonusCharges",
+              1,
+              "$THIS.inPlay"
+            ],
+            "listenTo": [
+              "/cardById/$THIS_ID/inPlay",
+              "/cardById/$THIS_ID/controller"
+            ],
+            "priority": 10,
+            "then": [
+              [
+                "DO_CHANGE_CONTROLLER_BONUS",
+                "$THIS",
+                "bonusCharges",
+                1,
+                "$THIS.inPlay",
+                "{2:P}'s assets with “uses (charges)” enter play with 1 additional charge on them.",
+                null
+              ]
+            ],
+            "type": "trigger"
+          }
+        }
+      },
+      "08004": {
+        "rules": {
+          "08004a": {
+            "condition": [
+              "CAN_CHANGE_CONTROLLER_BONUS",
+              "$THIS",
+              "playWithTopDeckCardRevealed",
+              1,
+              "$THIS.inPlay"
+            ],
+            "listenTo": [
+              "/cardById/$THIS_ID/inPlay",
+              "/cardById/$THIS_ID/controller"
+            ],
+            "priority": 10,
+            "then": [
+              [
+                "DO_CHANGE_CONTROLLER_BONUS",
+                "$THIS",
+                "playWithTopDeckCardRevealed",
+                1,
+                "$THIS.inPlay",
+                "{2:P} plays with the top card of their deck revealed.",
+                null
+              ]
+            ],
+            "type": "trigger"
+          }
+        }
+      },
+      "07303": {
+        "rules": {
+          "07303a": {
+            "condition": [
+              "TRIGGER_ON_PLAYER_EVENT",
+              "$TARGET.id",
+              "$THIS",
+              "BeforeDraw"
+            ],
+            "listenTo": [
+              "/playerData/*/arkham/playerEventBeforeDraw"
+            ],
+            "priority": 10,
+            "then": [
+              [
+                "CONSUME_PLAYER_EVENT",
+                "$TARGET.id",
+                "$THIS",
+                "BeforeDraw"
+              ],
+              [
+                "DO_FSYSLOG",
+                "{0:C}: {1:P} may attach 5 random non-weakness skills from their deck facedown to this card.",
+                [
+                  "LIST",
+                  "$THIS",
+                  "$THIS.controller"
+                ]
+              ],
+              [
+                "PROMPT",
+                "$THIS.controller",
+                "ancestralKnowledgeChoice",
+                "$THIS.id"
+              ]
+            ],
+            "type": "trigger"
+          }
+        }
+      },
+      "02305": {
+        "ability": {
+          "A": [
+            [
+              "THE_GOLD_POCKET_WATCH_ABILITY",
+              "$PLAYER_N",
+              "$THIS.id"
+            ]
+          ]
+        }
+      },
+      "upg09119": {
+        "ability": {
+          "A": [
+            [
+              "PROMPT",
+              "$PLAYER_N",
+              "upg09119Prompt",
+              "$THIS.cardOwner",
+              "$THIS.id",
+              "09119",
+              0
+            ]
+          ]
+        }
+      },
+      "9004602005": {
+        "inheritFrom": "90046"
+      },
+      "06125": {
+        "ability": {
+          "B": [
+            [
+              "THE_SEARCH_FOR_KADATH_SHOW_DESTINATION_CHOICE",
+              "$PLAYER_N",
+              "$THIS.id"
+            ]
+          ]
+        }
+      },
+      "upg09023": {
+        "ability": {
+          "A": [
+            [
+              "PROMPT",
+              "$PLAYER_N",
+              "upg09023Prompt",
+              "$THIS.cardOwner",
+              "$THIS.id",
+              "09023",
+              0
+            ]
+          ]
+        }
+      },
+      "06292": {
+        "ability": {
+          "B": [
+            [
+              "COND",
+              [
+                "EQUAL",
+                "$GAME.arkham.scenarioWhereTheGodsDwellAct4Setup",
+                false
+              ],
+              [
+                "PROMPT",
+                "$PLAYER_N",
+                "whereTheGodsDwellBeyondDreamsAbilityB"
+              ]
+            ]
+          ]
+        }
+      },
+      "06124": {
+        "ability": {
+          "B": [
+            [
+              "THE_SEARCH_FOR_KADATH_SHOW_DESTINATION_CHOICE",
+              "$PLAYER_N",
+              "$THIS.id"
+            ]
+          ]
+        }
+      },
+      "02004": {
+        "rules": {
+          "02004a": {
+            "condition": [
+              "AND",
+              [
+                "EQUAL",
+                "$GAME.arkham.campaignName",
+                "Challenge Scenarios"
+              ],
+              [
+                "EQUAL",
+                "$GAME.arkham.scenarioName",
+                "Laid to Rest"
+              ],
+              [
+                "TRIGGER_ON_PLAYER_EVENT",
+                "$TARGET.id",
+                "$THIS",
+                "BeforeDraw"
+              ]
+            ],
+            "listenTo": [
+              "/playerData/*/arkham/playerEventBeforeDraw"
+            ],
+            "priority": 9,
+            "then": [
+              [
+                "DO_SETUP_PARALLEL_JIM_CULVER_SPIRIT_DECK",
+                "$THIS",
+                "$TARGET"
+              ]
+            ],
+            "type": "trigger"
+          }
+        }
+      },
+      "09568": {
+        "ability": {
+          "B": [
+            [
+              "COND",
+              [
+                "EQUAL",
+                "$GAME.arkham.scenarioDealingsInTheDarkAct2Setup",
+                false
+              ],
+              [
+                "PROMPT",
+                "$PLAYER_N",
+                "dealingsInTheDarkSearchForTheManuscriptAbilityB"
+              ]
+            ]
+          ]
+        }
+      },
+      "0200590046": {
+        "inheritFrom": "02005"
+      },
+      "upg09042": {
+        "ability": {
+          "A": [
+            [
+              "PROMPT",
+              "$PLAYER_N",
+              "upg09042Prompt",
+              "$THIS.cardOwner",
+              "$THIS.id",
+              "09042",
+              0
+            ]
+          ]
+        }
+      },
+      "upg09022-6": {
+        "ability": {
+          "A": [
+            [
+              "PROMPT",
+              "$PLAYER_N",
+              "upg09022Prompt",
+              "$THIS.cardOwner",
+              "$THIS.id",
+              "09022",
+              6
+            ]
+          ]
+        }
+      },
+      "upg09101": {
+        "ability": {
+          "A": [
+            [
+              "PROMPT",
+              "$PLAYER_N",
+              "upg09101Prompt",
+              "$THIS.cardOwner",
+              "$THIS.id",
+              "09101",
+              0
+            ]
+          ]
+        }
+      },
+      "09004": {
+        "rules": {
+          "09004a": {
+            "condition": [
+              "TRIGGER_IN_PLAY",
+              "$THIS"
+            ],
+            "listenTo": [
+              "/cardById/$THIS_ID/inPlay"
+            ],
+            "priority": 10,
+            "then": [
+              [
+                "CARD_ABILITY_ON",
+                "$THIS"
+              ],
+              [
+                "DO_FSYSLOG",
+                "{0:C}: {1:P} begins the game with {2} {3} of On the Mend set aside, out of play.",
+                [
+                  "LIST",
+                  "$THIS",
+                  "$THIS.controller",
+                  "$GAME.arkham.numPlayers",
+                  [
+                    "INLINE_IF",
+                    [
+                      "GREATER_EQUAL",
+                      "$GAME.arkham.numPlayers",
+                      2
+                    ],
+                    "copies",
+                    "copy"
+                  ]
+                ]
+              ],
+              [
+                "DO_DELETE_NAMED_DECK_CARDS",
+                "$THIS.controller",
+                "On the Mend",
+                [
+                  "GET_CONTROLLER_DECK",
+                  "$THIS.controller"
+                ],
+                false,
+                null
+              ],
+              [
+                "DO_CREATE_MISSING_CARDS",
+                "$THIS.controller",
+                "On the Mend",
+                "09006",
+                "$GAME.arkham.numPlayers",
+                [
+                  "GET_CONTROLLER_ASIDE",
+                  "$THIS.controller"
+                ],
+                false,
+                null
+              ]
+            ],
+            "type": "trigger"
+          }
+        }
+      },
+      "0300690087-5": {
+        "rules": {
+          "300690087-5a": {
+            "condition": [
+              "TRIGGER_IN_PLAY",
+              "$THIS"
+            ],
+            "listenTo": [
+              "/cardById/$THIS_ID/inPlay"
+            ],
+            "priority": 10,
+            "then": [
+              [
+                "CARD_ABILITY_ON",
+                "$THIS"
+              ],
+              [
+                "DO_CREATE_CARDS",
+                "$THIS.controller",
+                "Lola Hayes Role card",
+                "r03006",
+                1,
+                [
+                  "GET_CONTROLLER_PLAY",
+                  "$THIS.controller"
+                ],
+                false,
+                null
+              ],
+              [
+                "SET",
+                "/cardById/{{$GAME.lastLoadedCardIds.[0]}}/currentSide",
+                "F"
+              ]
+            ],
+            "type": "trigger"
+          },
+          "300690087-5b": {
+            "condition": [
+              "TRIGGER_ON_PLAYER_EVENT",
+              "$TARGET.id",
+              "$THIS",
+              "AfterDraw",
+              1
+            ],
+            "listenTo": [
+              "/playerData/*/arkham/playerEventAfterDraw"
+            ],
+            "priority": 10,
+            "then": [
+              [
+                "CONSUME_PLAYER_EVENT",
+                "$TARGET.id",
+                "$THIS",
+                "AfterDraw",
+                1
+              ],
+              [
+                "DO_FSYSLOG",
+                "{0:C}: {1:P} can only play, commit, or trigger abilities on Neutral cards or cards of their role.",
+                [
+                  "LIST",
+                  "$THIS",
+                  "$THIS.controller"
+                ]
+              ],
+              [
+                "PLAYER_EVENT_LOOP",
+                "$TARGET.id",
+                "AfterDraw"
+              ]
+            ],
+            "type": "trigger"
+          }
+        }
+      },
+      "05004": {
+        "rules": {
+          "05004a": {
+            "condition": [
+              "CAN_CHANGE_SKILL_BONUS",
+              "$THIS",
+              [
+                "GET_DIANA_STANLEY_BONUS",
+                "$THIS"
+              ],
+              "$THIS.inPlay"
+            ],
+            "listenTo": [
+              "/cardById/$THIS_ID/inPlay",
+              "/cardById/$THIS_ID/controller",
+              "/cardById/$THIS_ID/attachedCount"
+            ],
+            "priority": 10,
+            "then": [
+              [
+                "DO_CHANGE_SKILL_BONUS",
+                "$THIS",
+                [
+                  "LIST",
+                  "skillWillpower"
+                ],
+                [
+                  "GET_DIANA_STANLEY_BONUS",
+                  "$THIS"
+                ],
+                "$THIS.inPlay",
+                null,
+                null
+              ]
+            ],
+            "type": "trigger"
+          }
+        }
+      },
+      "07315": {
+        "ability": {
+          "B": [
+            [
+              "COND",
+              [
+                "EQUAL",
+                "$GAME.arkham.scenarioIntoTheMaelstromAct2Setup",
+                false
+              ],
+              [
+                "PROMPT",
+                "$PLAYER_N",
+                "intoTheMaelstromBackIntoTheDepthsAbilityB"
+              ]
+            ]
+          ]
+        }
+      },
+      "upg09081": {
+        "ability": {
+          "A": [
+            [
+              "PROMPT",
+              "$PLAYER_N",
+              "upg09081Prompt",
+              "$THIS.cardOwner",
+              "$THIS.id",
+              "09081",
+              0
+            ]
+          ]
+        }
+      },
+      "upg09040": {
+        "ability": {
+          "A": [
+            [
+              "PROMPT",
+              "$PLAYER_N",
+              "upg09040Prompt",
+              "$THIS.cardOwner",
+              "$THIS.id",
+              "09040",
+              0
+            ]
+          ]
+        }
+      },
+      "03003": {
+        "rules": {
+          "03003a": {
+            "condition": [
+              "TRIGGER_ON_PLAYER_EVENT",
+              "$TARGET.id",
+              "$THIS",
+              "Draw"
+            ],
+            "listenTo": [
+              "/playerData/*/arkham/playerEventDraw"
+            ],
+            "priority": 10,
+            "then": [
+              [
+                "CANCEL_PLAYER_EVENT",
+                "$TARGET.id",
+                "$THIS",
+                "Draw"
+              ],
+              [
+                "DO_FSYSLOG",
+                "{0:C}: {1:P} draws 13 cards instead of drawing their opening hand. Chooses up to 5 events to place beneath Sefina Rousseau and keeps 8 cards as their opening hand. Discards the rest. (They cannot mulligan.)",
+                [
+                  "LIST",
+                  "$THIS",
+                  "$THIS.controller"
+                ]
+              ],
+              [
+                "VAR",
+                "$TARGET_PLAYER",
+                "$THIS.controller"
+              ],
+              [
+                "VAR",
+                "$DECK_GROUP_ID",
+                [
+                  "GET_CONTROLLER_DECK",
+                  "$TARGET_PLAYER"
+                ]
+              ],
+              [
+                "VAR",
+                "$HAND_GROUP_ID",
+                [
+                  "GET_CONTROLLER_HAND",
+                  "$TARGET_PLAYER"
+                ]
+              ],
+              [
+                "VAR",
+                "$STARTING_CARDS",
+                [
+                  "GET_STARTING_CARDS",
+                  "$TARGET_PLAYER",
+                  13
+                ]
+              ],
+              [
+                "COND",
+                [
+                  "GREATER_THAN",
+                  "$STARTING_CARDS",
+                  0
+                ],
+                [
+                  "DO_DRAW_CARDS_EXT",
+                  "$TARGET_PLAYER",
+                  "$DECK_GROUP_ID",
+                  "$STARTING_CARDS",
+                  true,
+                  true,
+                  null
+                ]
+              ],
+              [
+                "DO_SHOW_SELECTION",
+                "$TARGET_PLAYER",
+                "$HAND_GROUP_ID",
+                [
+                  "GET_FILTERED_CARDS",
+                  "$HAND_GROUP_ID",
+                  null,
+                  [
+                    "LIST",
+                    "Event"
+                  ],
+                  null,
+                  null,
+                  [
+                    "LIST",
+                    "The Painted World"
+                  ]
+                ],
+                null,
+                "Select between {0} and {1} events to place beneath Sefina Rousseau.",
+                0,
+                5,
+                false,
+                "SEFINA_ROUSSEAU_SELECTION_CALLBACK_1",
+                "$THIS.id"
+              ]
+            ],
+            "type": "trigger"
+          }
+        }
+      },
+      "9008703006-5": {
+        "inheritFrom": "90087"
+      },
+      "06159": {
+        "rules": {
+          "06159a": {
+            "condition": [
+              "CAN_CHANGE_CONTROLLER_BONUS",
+              "$THIS",
+              "handSizeCountUnique",
+              1,
+              "$THIS.inPlay"
+            ],
+            "listenTo": [
+              "/cardById/$THIS_ID/inPlay",
+              "/cardById/$THIS_ID/controller"
+            ],
+            "priority": 10,
+            "then": [
+              [
+                "DO_CHANGE_CONTROLLER_BONUS",
+                "$THIS",
+                "handSizeCountUnique",
+                1,
+                "$THIS.inPlay",
+                "Only the first copy of each card in {2:P}'s hand counts toward their maximum hand size.",
+                null
+              ]
+            ],
+            "type": "trigger"
+          }
+        }
+      },
+      "upg09081-9": {
+        "ability": {
+          "A": [
+            [
+              "PROMPT",
+              "$PLAYER_N",
+              "upg09081-6Prompt",
+              "$THIS.cardOwner",
+              "$THIS.id",
+              "09081",
+              9
+            ]
+          ]
+        }
+      },
+      "upg09079": {
+        "ability": {
+          "A": [
+            [
+              "PROMPT",
+              "$PLAYER_N",
+              "upg09079Prompt",
+              "$THIS.cardOwner",
+              "$THIS.id",
+              "09079",
+              0
+            ]
+          ]
+        }
+      },
+      "06346": {
+        "ability": {
+          "B": [
+            [
+              "COND",
+              [
+                "AND",
+                [
+                  "EQUAL",
+                  "$THIS.groupId",
+                  "sharedLocations"
+                ],
+                [
+                  "NOT_EQUAL",
+                  "$GAME.arkham.scenarioWeaverOfTheCosmosAtlachNachaPosition",
+                  null
+                ]
+              ],
+              [
+                "PROMPT",
+                "$PLAYER_N",
+                "weaverOfTheCosmosAtlachNachaAbilityA"
+              ]
+            ]
+          ]
+        }
+      },
+      "06005": {
+        "rules": {
+          "06005a": {
+            "condition": [
+              "CAN_CHANGE_CONTROLLER_BONUS",
+              "$THIS",
+              "maxHandSize",
+              -3,
+              "$THIS.inPlay"
+            ],
+            "listenTo": [
+              "/cardById/$THIS_ID/inPlay",
+              "/cardById/$THIS_ID/controller"
+            ],
+            "priority": 10,
+            "then": [
+              [
+                "DO_CHANGE_CONTROLLER_BONUS",
+                "$THIS",
+                "maxHandSize",
+                -3,
+                "$THIS.inPlay",
+                "{2:P}'s maximum hand size is reduced by 3.",
+                null
+              ]
+            ],
+            "type": "trigger"
+          },
+          "06005b": {
+            "condition": [
+              "TRIGGER_ON_PLAYER_EVENT",
+              "$TARGET.id",
+              "$THIS",
+              "UpkeepDraw",
+              1
+            ],
+            "listenTo": [
+              "/playerData/*/arkham/playerEventUpkeepDraw"
+            ],
+            "priority": 10,
+            "then": [
+              [
+                "CANCEL_PLAYER_EVENT",
+                "$TARGET.id",
+                "$THIS",
+                "UpkeepDraw",
+                1
+              ],
+              [
+                "DO_FSYSLOG",
+                "{0:C}: instead of drawing 1 card, {1:P} discards all non-weakness cards in their hand and draws until they have 5 cards in hand.",
+                [
+                  "LIST",
+                  "$THIS",
+                  "$THIS.controller"
+                ]
+              ],
+              [
+                "VAR",
+                "$HAND_ID",
+                [
+                  "GET_CONTROLLER_HAND",
+                  "$TARGET.id"
+                ]
+              ],
+              [
+                "VAR",
+                "$SELECTED_CARDS",
+                [
+                  "FILTER_CARDS",
+                  "$CARD",
+                  [
+                    "AND",
+                    [
+                      "EQUAL",
+                      "$CARD.groupId",
+                      "$HAND_ID"
+                    ],
+                    [
+                      "NOT_EQUAL",
+                      [
+                        "IN_STRING",
+                        "$CARD.sides.A.subtype",
+                        "Weakness"
+                      ],
+                      true
+                    ]
+                  ]
+                ]
+              ],
+              [
+                "COND",
+                [
+                  "GREATER_THAN",
+                  [
+                    "LENGTH",
+                    "$SELECTED_CARDS",
+                    0
+                  ],
+                  0
+                ],
+                [
+                  [
+                    "FOR_EACH_VAL",
+                    "$CARD",
+                    "$SELECTED_CARDS",
+                    [
+                      [
+                        "DO_DISCARD_CARD",
+                        "$TARGET.id",
+                        "$CARD.id",
+                        true,
+                        null
+                      ]
+                    ]
+                  ]
+                ]
+              ],
+              [
+                "VAR",
+                "$CARDS_IN_HAND",
+                [
+                  "GET_ALL_CARDS_IN_GROUP_COUNT",
+                  "$HAND_ID"
+                ]
+              ],
+              [
+                "VAR",
+                "$CARDS_TO_DRAW",
+                [
+                  "SUBTRACT",
+                  5,
+                  "$CARDS_IN_HAND"
+                ]
+              ],
+              [
+                "COND",
+                [
+                  "GREATER_THAN",
+                  "$CARDS_TO_DRAW",
+                  0
+                ],
+                [
+                  "DO_DRAW_CARDS",
+                  "$TARGET.id",
+                  [
+                    "GET_CONTROLLER_DECK",
+                    "$TARGET.id"
+                  ],
+                  "$CARDS_TO_DRAW",
+                  true,
+                  null
+                ]
+              ],
+              [
+                "PLAYER_EVENT_LOOP",
+                "$TARGET.id",
+                "UpkeepDraw"
+              ]
+            ],
+            "type": "trigger"
+          }
+        }
+      },
+      "03001": {
+        "rules": {
+          "03001a": {
+            "condition": [
+              "TRIGGER_IN_PLAY",
+              "$THIS"
+            ],
+            "listenTo": [
+              "/cardById/$THIS_ID/inPlay"
+            ],
+            "priority": 10,
+            "then": [
+              [
+                "CARD_ABILITY_ON",
+                "$THIS"
+              ],
+              [
+                "DO_FSYSLOG",
+                "{0:C}: {1:P} begins the game with Sophie: In Loving Memory in play.",
+                [
+                  "LIST",
+                  "$THIS",
+                  "$THIS.controller"
+                ]
+              ],
+              [
+                "DO_BEGIN_WITH_CARD_IN_PLAY",
+                "$THIS.controller",
+                "Sophie"
+              ]
+            ],
+            "type": "trigger"
+          }
+        }
+      },
+      "0200490049": {
+        "inheritFrom": "90049"
+      },
+      "03041": {
+        "rules": {
+          "03041a": {
+            "condition": [
+              "CAN_CHANGE_CONTROLLER_BONUS",
+              "$THIS",
+              "maxHandSize",
+              -5,
+              "$THIS.inPlay"
+            ],
+            "listenTo": [
+              "/cardById/$THIS_ID/inPlay",
+              "/cardById/$THIS_ID/controller"
+            ],
+            "priority": 10,
+            "then": [
+              [
+                "DO_CHANGE_CONTROLLER_BONUS",
+                "$THIS",
+                "maxHandSize",
+                -5,
+                "$THIS.inPlay",
+                "{2:P}'s maximum hand size is reduced by 5.",
+                null
+              ]
+            ],
+            "type": "trigger"
+          }
+        }
+      },
+      "06337": {
+        "ability": {
+          "B": [
+            [
+              "COND",
+              [
+                "EQUAL",
+                "$GAME.arkham.scenarioWeaverOfTheCosmosAct2Setup",
+                false
+              ],
+              [
+                "PROMPT",
+                "$PLAYER_N",
+                "weaverOfTheCosmosJourneyAcrossTheBridgeAbilityB"
+              ]
+            ]
+          ]
+        }
+      },
+      "9000101002": {
+        "inheritFrom": "90001"
+      },
+      "upg09021": {
+        "ability": {
+          "A": [
+            [
+              "PROMPT",
+              "$PLAYER_N",
+              "upg09021Prompt",
+              "$THIS.cardOwner",
+              "$THIS.id",
+              "09021",
+              0
+            ]
+          ]
+        }
+      },
+      "06004": {
+        "rules": {
+          "06004a": {
+            "condition": [
+              "TRIGGER_IN_PLAY",
+              "$THIS"
+            ],
+            "listenTo": [
+              "/cardById/$THIS_ID/inPlay"
+            ],
+            "priority": 10,
+            "then": [
+              [
+                "CARD_ABILITY_ON",
+                "$THIS"
+              ],
+              [
+                "DO_FSYSLOG",
+                "{0:C}: {1:P} begins the game with Gate Box: Worlds within Worlds in play.",
+                [
+                  "LIST",
+                  "$THIS",
+                  "$THIS.controller"
+                ]
+              ],
+              [
+                "DO_BEGIN_WITH_CARD_IN_PLAY",
+                "$THIS.controller",
+                "Gate Box"
+              ]
+            ],
+            "type": "trigger"
+          }
+        }
+      },
+      "02037": {
+        "rules": {
+          "02037a": {
+            "condition": [
+              "CAN_CHANGE_CONTROLLER_BONUS",
+              "$THIS",
+              "startingResourcesMod",
+              -2,
+              "$THIS.inPlay"
+            ],
+            "listenTo": [
+              "/cardById/$THIS_ID/inPlay",
+              "/cardById/$THIS_ID/controller"
+            ],
+            "priority": 10,
+            "then": [
+              [
+                "DO_CHANGE_CONTROLLER_BONUS",
+                "$THIS",
+                "startingResourcesMod",
+                -2,
+                "$THIS.inPlay",
+                "{2:P} starts each game with 2 fewer resources.",
+                null
+              ]
+            ],
+            "type": "trigger"
+          }
+        }
+      },
+      "09080": {
+        "ability": {
+          "A": [
+            [
+              "VAR",
+              "$MINI_INVESTIGATOR",
+              [
+                "GET_MINI_INVESTIGATOR",
+                "$THIS.controller"
+              ]
+            ],
+            [
+              "COND",
+              [
+                "AND",
+                [
+                  "EQUAL",
+                  "$THIS.inPlay",
+                  true
+                ],
+                [
+                  "NOT_EQUAL",
+                  "$MINI_INVESTIGATOR",
+                  null
+                ],
+                [
+                  "EQUAL",
+                  "$MINI_INVESTIGATOR.groupId",
+                  "sharedLocations"
+                ]
+              ],
+              [
+                [
+                  "DO_LOG",
+                  true,
+                  "$PLAYER_N",
+                  "$THIS.controller",
+                  "spawn Summoned Servitor mini card.",
+                  "spawns Summoned Servitor mini card."
+                ],
+                [
+                  "DO_CREATE_CARDS",
+                  "$THIS.controller",
+                  "Summoned Servitor",
+                  "m09080",
+                  1,
+                  [
+                    "GET_CONTROLLER_INVESTIGATOR",
+                    "$THIS.controller"
+                  ],
+                  false,
+                  null
+                ],
+                [
+                  "VAR",
+                  "$MINI_SERVITOR_ID",
+                  "$GAME.lastLoadedCardIds.[0]"
+                ],
+                [
+                  "MOVE_CARD",
+                  "$MINI_SERVITOR_ID",
+                  "sharedLocations",
+                  -1
+                ],
+                [
+                  "DO_SET_CARD_LOCATION",
+                  "$MINI_SERVITOR_ID",
+                  [
+                    "ADD",
+                    [
+                      "GET_CARD_LEFT",
+                      "$MINI_INVESTIGATOR.id"
+                    ],
+                    1
+                  ],
+                  [
+                    "ADD",
+                    [
+                      "GET_CARD_TOP",
+                      "$MINI_INVESTIGATOR.id"
+                    ],
+                    1
+                  ]
+                ],
+                [
+                  "SET",
+                  "/cardById/$MINI_SERVITOR_ID/currentSide",
+                  "$MINI_INVESTIGATOR.currentSide"
+                ],
+                [
+                  "COND",
+                  [
+                    "NOT_EQUAL",
+                    "$MINI_INVESTIGATOR.borderColor",
+                    null
+                  ],
+                  [
+                    "SET",
+                    "/cardById/$MINI_SERVITOR_ID/borderColor",
+                    "$MINI_INVESTIGATOR.borderColor"
+                  ]
+                ]
+              ]
+            ]
+          ]
+        }
+      },
+      "0300690087": {
+        "inheritFrom": "03006"
+      },
+      "upg09022": {
+        "ability": {
+          "A": [
+            [
+              "PROMPT",
+              "$PLAYER_N",
+              "upg09022Prompt",
+              "$THIS.cardOwner",
+              "$THIS.id",
+              "09022",
+              0
+            ]
+          ]
+        }
+      },
+      "upg09041": {
+        "ability": {
+          "A": [
+            [
+              "PROMPT",
+              "$PLAYER_N",
+              "upg09041Prompt",
+              "$THIS.cardOwner",
+              "$THIS.id",
+              "09041",
+              0
+            ]
+          ]
+        }
+      },
+      "03006-5": {
+        "inheritFrom": "03006"
+      },
+      "09077": {
+        "rules": {
+          "09077a": {
+            "condition": [
+              "AND",
+              [
+                "TRIGGER_ON_PLAYER_EVENT",
+                "$TARGET.id",
+                "$THIS",
+                "BeforeDraw"
+              ],
+              [
+                "CAN_SETUP_UNDERWORLD_MARKET_MARKET_DECK",
+                "$THIS"
+              ]
+            ],
+            "listenTo": [
+              "/playerData/*/arkham/playerEventBeforeDraw"
+            ],
+            "priority": 10,
+            "then": [
+              [
+                "CONSUME_PLAYER_EVENT",
+                "$TARGET.id",
+                "$THIS",
+                "BeforeDraw"
+              ],
+              [
+                "DO_FSYSLOG",
+                "{0:C}: {1:P} may choose 10 Illicit cards from their deck to shuffle them together as their market deck.",
+                [
+                  "LIST",
+                  "$THIS",
+                  "$THIS.controller"
+                ]
+              ],
+              [
+                "PROMPT",
+                "$THIS.controller",
+                "underworldMarketChoice",
+                "$THIS.id"
+              ]
+            ],
+            "type": "trigger"
+          }
+        }
+      },
+      "05049": {
+        "rules": {
+          "05049a": {
+            "condition": [
+              "TRIGGER_IN_PLAY",
+              "$THIS"
+            ],
+            "listenTo": [
+              "/cardById/$THIS_ID/inPlay"
+            ],
+            "priority": 10,
+            "then": [
+              [
+                "CARD_ABILITY_ON",
+                "$THIS"
+              ],
+              [
+                "DECREASE_VAL",
+                "/playerData/$THIS.controller/arkham/startingResourcesMod",
+                3
+              ]
+            ],
+            "type": "trigger"
+          },
+          "05049b": {
+            "condition": [
+              "TRIGGER_ON_PLAYER_EVENT",
+              "$TARGET.id",
+              "$THIS",
+              "Draw",
+              1
+            ],
+            "listenTo": [
+              "/playerData/*/arkham/playerEventDraw"
+            ],
+            "priority": 10,
+            "then": [
+              [
+                "CANCEL_PLAYER_EVENT",
+                "$TARGET.id",
+                "$THIS",
+                "Draw",
+                1
+              ],
+              [
+                "PLAYER_EVENT_LOOP",
+                "$TARGET.id",
+                "Draw"
+              ]
+            ],
+            "type": "trigger"
+          }
+        }
+      },
+      "06126": {
+        "ability": {
+          "B": [
+            [
+              "THE_SEARCH_FOR_KADATH_SHOW_DESTINATION_CHOICE",
+              "$PLAYER_N",
+              "$THIS.id"
+            ]
+          ]
+        }
+      },
+      "03264": {
+        "rules": {
+          "03264a": {
+            "condition": [
+              "TRIGGER_ON_PLAYER_EVENT",
+              "$TARGET.id",
+              "$THIS",
+              "BeforeDraw"
+            ],
+            "listenTo": [
+              "/playerData/*/arkham/playerEventBeforeDraw"
+            ],
+            "priority": 10,
+            "then": [
+              [
+                "CONSUME_PLAYER_EVENT",
+                "$TARGET.id",
+                "$THIS",
+                "BeforeDraw"
+              ],
+              [
+                "DO_FSYSLOG",
+                "{0:C}: {1:P} searches their deck for up to 3 different Tactic and/or Supply events, and attaches them facedown to Stick to the Plan. Shuffles their deck.",
+                [
+                  "LIST",
+                  "$THIS",
+                  "$THIS.controller"
+                ]
+              ],
+              [
+                "VAR",
+                "$TARGET_PLAYER",
+                "$THIS.controller"
+              ],
+              [
+                "VAR",
+                "$DECK_GROUP_ID",
+                [
+                  "GET_CONTROLLER_DECK",
+                  "$TARGET_PLAYER"
+                ]
+              ],
+              [
+                "DO_SHOW_SELECTION",
+                "$TARGET_PLAYER",
+                "$DECK_GROUP_ID",
+                [
+                  "GET_FILTERED_CARDS",
+                  "$DECK_GROUP_ID",
+                  null,
+                  [
+                    "LIST",
+                    "Event"
+                  ],
+                  null,
+                  [
+                    "LIST",
+                    "Tactic.",
+                    "Supply."
+                  ],
+                  null
+                ],
+                "$PLAYER_DATA.$TARGET_PLAYER.arkham.deckAttachments.03264",
+                "Select between {0} and {1} different Tactic and/or Supply events to attach them facedown to Stick to the Plan.",
+                0,
+                3,
+                true,
+                "STICK_TO_THE_PLAN_SELECTION_CALLBACK",
+                "$THIS.id"
+              ]
+            ],
+            "type": "trigger"
+          }
+        }
+      },
+      "03006": {
+        "rules": {
+          "03006a": {
+            "condition": [
+              "TRIGGER_IN_PLAY",
+              "$THIS"
+            ],
+            "listenTo": [
+              "/cardById/$THIS_ID/inPlay"
+            ],
+            "priority": 10,
+            "then": [
+              [
+                "CARD_ABILITY_ON",
+                "$THIS"
+              ],
+              [
+                "DO_CREATE_CARDS",
+                "$THIS.controller",
+                "Lola Hayes Role card",
+                "r03006",
+                1,
+                [
+                  "GET_CONTROLLER_PLAY",
+                  "$THIS.controller"
+                ],
+                false,
+                null
+              ],
+              [
+                "SET",
+                "/cardById/{{$GAME.lastLoadedCardIds.[0]}}/currentSide",
+                "F"
+              ]
+            ],
+            "type": "trigger"
+          },
+          "03006b": {
+            "condition": [
+              "TRIGGER_ON_PLAYER_EVENT",
+              "$TARGET.id",
+              "$THIS",
+              "AfterDraw",
+              1
+            ],
+            "listenTo": [
+              "/playerData/*/arkham/playerEventAfterDraw"
+            ],
+            "priority": 10,
+            "then": [
+              [
+                "CONSUME_PLAYER_EVENT",
+                "$TARGET.id",
+                "$THIS",
+                "AfterDraw",
+                1
+              ],
+              [
+                "DO_FSYSLOG",
+                "{0:C}: {1:P} chooses a role (Survivor, Guardian, Seeker, Rogue, Mystic, or Neutral). They can only play, commit, or trigger abilities on Neutral cards or cards of their role.",
+                [
+                  "LIST",
+                  "$THIS",
+                  "$THIS.controller"
+                ]
+              ],
+              [
+                "PLAYER_EVENT_LOOP",
+                "$TARGET.id",
+                "AfterDraw"
+              ]
+            ],
+            "type": "trigger"
+          }
+        }
+      },
+      "02005": {
+        "rules": {
+          "02005a": {
+            "condition": [
+              "TRIGGER_IN_PLAY",
+              "$THIS"
+            ],
+            "listenTo": [
+              "/cardById/$THIS_ID/inPlay"
+            ],
+            "priority": 10,
+            "then": [
+              [
+                "CARD_ABILITY_ON",
+                "$THIS"
+              ],
+              [
+                "DO_FSYSLOG",
+                "{0:C}: {1:P} begins the game with Duke: Loyal Hound in play.",
+                [
+                  "LIST",
+                  "$THIS",
+                  "$THIS.controller"
+                ]
+              ],
+              [
+                "DO_BEGIN_WITH_CARD_IN_PLAY",
+                "$THIS.controller",
+                "Duke"
+              ]
+            ],
+            "type": "trigger"
+          }
+        }
+      },
+      "06122": {
+        "ability": {
+          "B": [
+            [
+              "THE_SEARCH_FOR_KADATH_SHOW_DESTINATION_CHOICE",
+              "$PLAYER_N",
+              "$THIS.id"
+            ]
+          ]
+        }
+      },
+      "upg09080": {
+        "ability": {
+          "A": [
+            [
+              "PROMPT",
+              "$PLAYER_N",
+              "upg09080Prompt",
+              "$THIS.cardOwner",
+              "$THIS.id",
+              "09080",
+              0
+            ]
+          ]
+        }
+      },
+      "upg09099": {
+        "ability": {
+          "A": [
+            [
+              "PROMPT",
+              "$PLAYER_N",
+              "upg09099Prompt",
+              "$THIS.cardOwner",
+              "$THIS.id",
+              "09099",
+              0
+            ]
+          ]
+        }
+      },
+      "05046": {
+        "rules": {
+          "05046a": {
+            "condition": [
+              "TRIGGER_IN_PLAY",
+              "$THIS"
+            ],
+            "listenTo": [
+              "/cardById/$THIS_ID/inPlay"
+            ],
+            "priority": 10,
+            "then": [
+              [
+                "CARD_ABILITY_ON",
+                "$THIS"
+              ],
+              [
+                "DECREASE_VAL",
+                "/playerData/$THIS.controller/arkham/startingResourcesMod",
+                4
+              ]
+            ],
+            "type": "trigger"
+          },
+          "05046b": {
+            "condition": [
+              "TRIGGER_ON_PLAYER_EVENT",
+              "$TARGET.id",
+              "$THIS",
+              "Draw",
+              1
+            ],
+            "listenTo": [
+              "/playerData/*/arkham/playerEventDraw"
+            ],
+            "priority": 10,
+            "then": [
+              [
+                "CANCEL_PLAYER_EVENT",
+                "$TARGET.id",
+                "$THIS",
+                "Draw",
+                1
+              ],
+              [
+                "PLAYER_EVENT_LOOP",
+                "$TARGET.id",
+                "Draw"
+              ]
+            ],
+            "type": "trigger"
+          }
+        }
+      },
+      "09077-8": {
+        "inheritFrom": "09077"
+      },
+      "05276": {
+        "rules": {
+          "05276a": {
+            "condition": [
+              "CAN_CHANGE_CONTROLLER_BONUS",
+              "$THIS",
+              "startingCardsMod",
+              1,
+              "$THIS.inPlay"
+            ],
+            "listenTo": [
+              "/cardById/$THIS_ID/inPlay",
+              "/cardById/$THIS_ID/controller"
+            ],
+            "priority": 10,
+            "then": [
+              [
+                "DO_CHANGE_CONTROLLER_BONUS",
+                "$THIS",
+                "startingCardsMod",
+                1,
+                "$THIS.inPlay",
+                "{2:P} begins each game with 1 additional card in their opening hand.",
+                null
+              ]
+            ],
+            "type": "trigger"
+          }
+        }
+      },
+      "02020": {
+        "rules": {
+          "02020a": {
+            "condition": [
+              "CAN_CHANGE_CONTROLLER_BONUS",
+              "$THIS",
+              "maxHandSize",
+              2,
+              "$THIS.inPlay"
+            ],
+            "listenTo": [
+              "/cardById/$THIS_ID/inPlay",
+              "/cardById/$THIS_ID/controller"
+            ],
+            "priority": 10,
+            "then": [
+              [
+                "DO_CHANGE_CONTROLLER_BONUS",
+                "$THIS",
+                "maxHandSize",
+                2,
+                "$THIS.inPlay",
+                "{2:P}'s maximum hand size is increased by 2.",
+                null
+              ]
+            ],
+            "type": "trigger"
+          }
+        }
+      },
+      "05047": {
+        "rules": {
+          "05047a": {
+            "condition": [
+              "TRIGGER_IN_PLAY",
+              "$THIS"
+            ],
+            "listenTo": [
+              "/cardById/$THIS_ID/inPlay"
+            ],
+            "priority": 10,
+            "then": [
+              [
+                "CARD_ABILITY_ON",
+                "$THIS"
+              ],
+              [
+                "DECREASE_VAL",
+                "/playerData/$THIS.controller/arkham/startingResourcesMod",
+                2
+              ]
+            ],
+            "type": "trigger"
+          },
+          "05047b": {
+            "condition": [
+              "TRIGGER_ON_PLAYER_EVENT",
+              "$TARGET.id",
+              "$THIS",
+              "Draw",
+              1
+            ],
+            "listenTo": [
+              "/playerData/*/arkham/playerEventDraw"
+            ],
+            "priority": 10,
+            "then": [
+              [
+                "CANCEL_PLAYER_EVENT",
+                "$TARGET.id",
+                "$THIS",
+                "Draw",
+                1
+              ],
+              [
+                "PLAYER_EVENT_LOOP",
+                "$TARGET.id",
+                "Draw"
+              ]
+            ],
+            "type": "trigger"
+          }
+        }
+      },
+      "05048": {
+        "rules": {
+          "05048a": {
+            "condition": [
+              "TRIGGER_IN_PLAY",
+              "$THIS"
+            ],
+            "listenTo": [
+              "/cardById/$THIS_ID/inPlay"
+            ],
+            "priority": 10,
+            "then": [
+              [
+                "CARD_ABILITY_ON",
+                "$THIS"
+              ],
+              [
+                "INCREASE_VAL",
+                "/playerData/$THIS.controller/arkham/startingResourcesMod",
+                5
+              ]
+            ],
+            "type": "trigger"
+          },
+          "05048b": {
+            "condition": [
+              "TRIGGER_ON_PLAYER_EVENT",
+              "$TARGET.id",
+              "$THIS",
+              "Draw",
+              1
+            ],
+            "listenTo": [
+              "/playerData/*/arkham/playerEventDraw"
+            ],
+            "priority": 10,
+            "then": [
+              [
+                "CANCEL_PLAYER_EVENT",
+                "$TARGET.id",
+                "$THIS",
+                "Draw",
+                1
+              ],
+              [
+                "PLAYER_EVENT_LOOP",
+                "$TARGET.id",
+                "Draw"
+              ]
+            ],
+            "type": "trigger"
+          }
+        }
+      },
+      "9008703006": {
+        "inheritFrom": "90087"
+      },
+      "9004902004": {
+        "inheritFrom": "02004"
+      },
+      "07001": {
+        "rules": {
+          "07001a": {
+            "condition": [
+              "TRIGGER_IN_PLAY",
+              "$THIS"
+            ],
+            "listenTo": [
+              "/cardById/$THIS_ID/inPlay"
+            ],
+            "priority": 10,
+            "then": [
+              [
+                "CARD_ABILITY_ON",
+                "$THIS"
+              ],
+              [
+                "DO_FSYSLOG",
+                "{0:C}: {1:P} adds 2 bless tokens to the chaos bag.",
+                [
+                  "LIST",
+                  "$THIS",
+                  "$THIS.controller"
+                ]
+              ],
+              [
+                "DO_ADD_CHAOS_TOKENS_ACT",
+                "$THIS.controller",
+                "chaos_bless",
+                2
+              ]
+            ],
+            "type": "trigger"
+          }
+        }
+      },
+      "upg09059": {
+        "ability": {
+          "A": [
+            [
+              "PROMPT",
+              "$PLAYER_N",
+              "upg09059Prompt",
+              "$THIS.cardOwner",
+              "$THIS.id",
+              "09059",
+              0
+            ]
+          ]
+        }
+      },
+      "06123": {
+        "ability": {
+          "B": [
+            [
+              "THE_SEARCH_FOR_KADATH_SHOW_DESTINATION_CHOICE",
+              "$PLAYER_N",
+              "$THIS.id"
+            ]
+          ]
+        }
+      },
+      "upg09060": {
+        "ability": {
+          "A": [
+            [
+              "PROMPT",
+              "$PLAYER_N",
+              "upg09060Prompt",
+              "$THIS.cardOwner",
+              "$THIS.id",
+              "09060",
+              0
+            ]
+          ]
+        }
+      },
+      "02003": {
+        "rules": {
+          "02003a": {
+            "condition": [
+              "CAN_CHANGE_CONTROLLER_BONUS",
+              "$THIS",
+              "upkeepResourcesMod",
+              1,
+              "$THIS.inPlay"
+            ],
+            "listenTo": [
+              "/cardById/$THIS_ID/inPlay",
+              "/cardById/$THIS_ID/controller"
+            ],
+            "priority": 10,
+            "then": [
+              [
+                "DO_CHANGE_CONTROLLER_BONUS",
+                "$THIS",
+                "upkeepResourcesMod",
+                1,
+                "$THIS.inPlay",
+                "{2:P} collects 1 additional resource during each upkeep phase.",
+                null
+              ]
+            ],
+            "type": "trigger"
+          }
+        }
+      },
+      "upg09061": {
+        "ability": {
+          "A": [
+            [
+              "PROMPT",
+              "$PLAYER_N",
+              "upg09061Prompt",
+              "$THIS.cardOwner",
+              "$THIS.id",
+              "09061",
+              0
+            ]
+          ]
+        }
+      },
+      "upg09100": {
+        "ability": {
+          "A": [
+            [
+              "PROMPT",
+              "$PLAYER_N",
+              "upg09100Prompt",
+              "$THIS.cardOwner",
+              "$THIS.id",
+              "09100",
+              0
+            ]
+          ]
+        }
+      },
+      "upg09081-6": {
+        "ability": {
+          "A": [
+            [
+              "PROMPT",
+              "$PLAYER_N",
+              "upg09081-6Prompt",
+              "$THIS.cardOwner",
+              "$THIS.id",
+              "09081",
+              6
+            ]
+          ]
+        }
+      },
+      "upg09041-8": {
+        "ability": {
+          "A": [
+            [
+              "PROMPT",
+              "$PLAYER_N",
+              "upg09041Prompt",
+              "$THIS.cardOwner",
+              "$THIS.id",
+              "09041",
+              8
+            ]
+          ]
+        }
+      },
+      "05002": {
+        "rules": {
+          "05002a": {
+            "condition": [
+              "TRIGGER_ON_PLAYER_EVENT",
+              "$TARGET.id",
+              "$THIS",
+              "BeforeDraw"
+            ],
+            "listenTo": [
+              "/playerData/*/arkham/playerEventBeforeDraw"
+            ],
+            "priority": 9,
+            "then": [
+              [
+                "CONSUME_PLAYER_EVENT",
+                "$TARGET.id",
+                "$THIS",
+                "BeforeDraw"
+              ],
+              [
+                "DO_FSYSLOG",
+                "{0:C}: {1:P} chooses 11 Insight events from their deck (one of which must be Unsolved Case) and shuffles them into their hunch deck.",
+                [
+                  "LIST",
+                  "$THIS",
+                  "$THIS.controller"
+                ]
+              ],
+              [
+                "VAR",
+                "$TARGET_PLAYER",
+                "$THIS.controller"
+              ],
+              [
+                "VAR",
+                "$DECK_GROUP_ID",
+                [
+                  "GET_CONTROLLER_DECK",
+                  "$TARGET_PLAYER"
+                ]
+              ],
+              [
+                "VAR",
+                "$EXTRA_DECK_GROUP_ID",
+                [
+                  "GET_CONTROLLER_EXTRA_DECK",
+                  "$TARGET_PLAYER"
+                ]
+              ],
+              [
+                "INCREASE_VAL",
+                "/playerData/$TARGET_PLAYER/arkham/showExtraDeck",
+                1
+              ],
+              [
+                "DO_MOVE_NAMED_DECK_CARDS",
+                "$TARGET_PLAYER",
+                "05010",
+                "$DECK_GROUP_ID",
+                1,
+                "$EXTRA_DECK_GROUP_ID",
+                true,
+                null
+              ],
+              [
+                "DO_SHOW_SELECTION",
+                "$TARGET_PLAYER",
+                "$DECK_GROUP_ID",
+                [
+                  "GET_FILTERED_CARDS",
+                  "$DECK_GROUP_ID",
+                  null,
+                  [
+                    "LIST",
+                    "Event"
+                  ],
+                  null,
+                  [
+                    "LIST",
+                    "Insight."
+                  ],
+                  null
+                ],
+                "$PLAYER_DATA.$TARGET_PLAYER.arkham.deckAttachments.05002",
+                "Select {0} Insight events to shuffle them into your hunch deck.",
+                10,
+                10,
+                false,
+                "JOE_DIAMOND_SELECTION_CALLBACK",
+                "$THIS.id"
+              ]
+            ],
+            "type": "trigger"
+          },
+          "05002b": {
+            "condition": [
+              "AND",
+              [
+                "EQUAL",
+                "$GAME.stepId",
+                "I1"
+              ],
+              [
+                "EQUAL",
+                "$THIS.inPlay",
+                true
+              ],
+              [
+                "EQUAL",
+                [
+                  "GET_JOE_DIAMOND_EXTRA_DECK_TOP_CARD_SIDE",
+                  "$THIS"
+                ],
+                "B"
+              ]
+            ],
+            "listenTo": [
+              "/stepId"
+            ],
+            "priority": 10,
+            "then": [
+              [
+                "DO_FSYSLOG",
+                "{0:C}: {1:P} reveals the top card of their hunch deck. Until the end of the phase, they may play that card as if it were in their hand, at -2 cost.",
+                [
+                  "LIST",
+                  "$THIS",
+                  "$THIS.controller"
+                ]
+              ],
+              [
+                "VAR",
+                "$EXTRA_DECK_GROUP_ID",
+                [
+                  "GET_CONTROLLER_EXTRA_DECK",
+                  "$THIS.controller"
+                ]
+              ],
+              [
+                "VAR",
+                "$TOP_CARD",
+                [
+                  "GET_TOP_CARD",
+                  "$EXTRA_DECK_GROUP_ID"
+                ]
+              ],
+              [
+                "SET",
+                "/cardById/$TOP_CARD.id/currentSide",
+                "A"
+              ]
+            ],
+            "type": "trigger"
+          },
+          "05002c": {
+            "condition": [
+              "AND",
+              [
+                "EQUAL",
+                "$GAME.stepId",
+                "I3"
+              ],
+              [
+                "EQUAL",
+                "$THIS.inPlay",
+                true
+              ],
+              [
+                "EQUAL",
+                [
+                  "GET_JOE_DIAMOND_EXTRA_DECK_TOP_CARD_SIDE",
+                  "$THIS"
+                ],
+                "A"
+              ]
+            ],
+            "listenTo": [
+              "/stepId"
+            ],
+            "priority": 10,
+            "then": [
+              [
+                "DO_FSYSLOG",
+                "{0:C}: {1:P} shuffles the revealed top card of their hunch deck back into it.",
+                [
+                  "LIST",
+                  "$THIS",
+                  "$THIS.controller"
+                ]
+              ],
+              [
+                "VAR",
+                "$EXTRA_DECK_GROUP_ID",
+                [
+                  "GET_CONTROLLER_EXTRA_DECK",
+                  "$THIS.controller"
+                ]
+              ],
+              [
+                "VAR",
+                "$TOP_CARD",
+                [
+                  "GET_TOP_CARD",
+                  "$EXTRA_DECK_GROUP_ID"
+                ]
+              ],
+              [
+                "SET",
+                "/cardById/$TOP_CARD.id/currentSide",
+                "B"
+              ],
+              [
+                "DO_SHUFFLE_GROUP",
+                "$THIS.controller",
+                "$EXTRA_DECK_GROUP_ID",
+                true,
+                null
+              ]
+            ],
+            "type": "trigger"
+          }
+        }
+      },
+      "08031": {
+        "rules": {
+          "08031a": {
+            "condition": [
+              "TRIGGER_ON_PLAYER_EVENT",
+              "$TARGET.id",
+              "$THIS",
+              "UpkeepDraw",
+              1
+            ],
+            "listenTo": [
+              "/playerData/*/arkham/playerEventUpkeepDraw"
+            ],
+            "priority": 10,
+            "then": [
+              [
+                "CANCEL_PLAYER_EVENT",
+                "$TARGET.id",
+                "$THIS",
+                "UpkeepDraw",
+                1
+              ],
+              [
+                "DO_FSYSLOG",
+                "{0:C}: instead of drawing 1 card, {1:P} draws 2 cards and discard 1 of them.",
+                [
+                  "LIST",
+                  "$THIS",
+                  "$THIS.controller"
+                ]
+              ],
+              [
+                "VAR",
+                "$TARGET_PLAYER",
+                "$THIS.controller"
+              ],
+              [
+                "VAR",
+                "$HAND_GROUP_ID",
+                [
+                  "GET_CONTROLLER_HAND",
+                  "$TARGET_PLAYER"
+                ]
+              ],
+              [
+                "VAR",
+                "$OLD_HAND",
+                [
+                  "GET_ALL_CARDS_IN_GROUP",
+                  "$HAND_GROUP_ID"
+                ]
+              ],
+              [
+                "DO_DRAW_CARDS",
+                "$TARGET_PLAYER",
+                [
+                  "GET_CONTROLLER_DECK",
+                  "$TARGET_PLAYER"
+                ],
+                2,
+                true,
+                null
+              ],
+              [
+                "VAR",
+                "$NEW_HAND",
+                [
+                  "GET_ALL_CARDS_IN_GROUP",
+                  "$HAND_GROUP_ID"
+                ]
+              ],
+              [
+                "VAR",
+                "$NEW_CARDS",
+                [
+                  "LIST"
+                ]
+              ],
+              [
+                "FOR_EACH_VAL",
+                "$NEW_CARD",
+                "$NEW_HAND",
+                [
+                  [
+                    "VAR",
+                    "$FOUND",
+                    false
+                  ],
+                  [
+                    "FOR_EACH_VAL",
+                    "$OLD_CARD",
+                    "$OLD_HAND",
+                    [
+                      [
+                        "COND",
+                        [
+                          "EQUAL",
+                          "$NEW_CARD.id",
+                          "$OLD_CARD.id"
+                        ],
+                        [
+                          "UPDATE_VAR",
+                          "$FOUND",
+                          true
+                        ]
+                      ]
+                    ]
+                  ],
+                  [
+                    "COND",
+                    [
+                      "EQUAL",
+                      "$FOUND",
+                      false
+                    ],
+                    [
+                      "UPDATE_VAR",
+                      "$NEW_CARDS",
+                      [
+                        "APPEND",
+                        "$NEW_CARDS",
+                        "$NEW_CARD"
+                      ]
+                    ]
+                  ]
+                ]
+              ],
+              [
+                "COND",
+                [
+                  "GREATER_THAN",
+                  [
+                    "LENGTH",
+                    "$NEW_CARDS"
+                  ],
+                  0
+                ],
+                [
+                  [
+                    "DO_SHOW_SELECTION",
+                    "$TARGET_PLAYER",
+                    "$HAND_GROUP_ID",
+                    "$NEW_CARDS",
+                    null,
+                    "Select {0} card to discard it.",
+                    1,
+                    1,
+                    false,
+                    "FORCED_LEARNING_SELECTION_CALLBACK",
+                    "$THIS.id"
+                  ]
+                ],
+                [
+                  "TRUE"
+                ],
+                [
+                  "PLAYER_EVENT_LOOP",
+                  "$TARGET.id",
+                  "UpkeepDraw"
+                ]
+              ]
+            ],
+            "type": "trigger"
+          }
+        }
+      },
+      "09015": {
+        "rules": {
+          "09015a": {
+            "condition": [
+              "TRIGGER_IN_PLAY",
+              "$THIS"
+            ],
+            "listenTo": [
+              "/cardById/$THIS_ID/inPlay"
+            ],
+            "priority": 10,
+            "then": [
+              [
+                "CARD_ABILITY_ON",
+                "$THIS"
+              ],
+              [
+                "DO_FSYSLOG",
+                "{0:C}: {1:P} begins the game with Darrell's Kodak: Proof in the Pudding in play.",
+                [
+                  "LIST",
+                  "$THIS",
+                  "$THIS.controller"
+                ]
+              ],
+              [
+                "DO_BEGIN_WITH_CARD_IN_PLAY",
+                "$THIS.controller",
+                "Darrell's Kodak"
+              ]
+            ],
+            "type": "trigger"
+          }
+        }
+      },
+      "04005": {
+        "rules": {
+          "04005a": {
+            "condition": [
+              "CAN_CHANGE_SKILL_BONUS",
+              "$THIS",
+              "$THIS.tokens.horror",
+              "$THIS.inPlay"
+            ],
+            "listenTo": [
+              "/cardById/$THIS_ID/inPlay",
+              "/cardById/$THIS_ID/controller",
+              "/cardById/$THIS_ID/tokens/horror"
+            ],
+            "priority": 10,
+            "then": [
+              [
+                "DO_CHANGE_SKILL_BONUS",
+                "$THIS",
+                [
+                  "LIST",
+                  "skillWillpower",
+                  "skillIntellect"
+                ],
+                "$THIS.tokens.horror",
+                "$THIS.inPlay",
+                null,
+                null
+              ]
+            ],
+            "type": "trigger"
+          },
+          "04005b": {
+            "condition": [
+              "CAN_CHANGE_SKILL_BONUS",
+              "$THIS",
+              "$THIS.tokens.damage",
+              "$THIS.inPlay"
+            ],
+            "listenTo": [
+              "/cardById/$THIS_ID/inPlay",
+              "/cardById/$THIS_ID/controller",
+              "/cardById/$THIS_ID/tokens/damage"
+            ],
+            "priority": 10,
+            "then": [
+              [
+                "DO_CHANGE_SKILL_BONUS",
+                "$THIS",
+                [
+                  "LIST",
+                  "skillCombat",
+                  "skillAgility"
+                ],
+                "$THIS.tokens.damage",
+                "$THIS.inPlay",
+                null,
+                null
+              ]
+            ],
+            "type": "trigger"
+          }
+        }
+      }
+    },
+    "gameRules": {
+      "automationAddClues1": {
+        "_comment": "Add Location clue tokens (when entering play).",
+        "condition": [
+          [
+            "AND",
+            [
+              "EQUAL",
+              "$GAME.arkham.scenarioInit",
+              false
+            ],
+            [
+              "EQUAL",
+              "$TARGET.inPlay",
+              true
+            ],
+            [
+              "EQUAL",
+              [
+                "PREV",
+                "$TARGET.inPlay"
+              ],
+              false
+            ],
+            [
+              "EQUAL",
+              "$TARGET.cluesPlaced",
+              false
+            ],
+            [
+              "EQUAL",
+              "$TARGET.currentFace.type",
+              "Location"
+            ],
+            [
+              "GREATER_THAN",
+              [
+                "GET_CARD_CLUES_REQUIREMENT",
+                "$TARGET.id"
+              ],
+              0
+            ],
+            [
+              "OR",
+              [
+                "NOT_EQUAL",
+                "$GAME.arkham.loadingCards",
+                true
+              ],
+              [
+                "NOT",
+                [
+                  "AND",
+                  [
+                    "EQUAL",
+                    "$TARGET.sides.A.type",
+                    "Location"
+                  ],
+                  [
+                    "EQUAL",
+                    "$TARGET.sides.B.type",
+                    "Location"
+                  ],
+                  [
+                    "EQUAL",
+                    "$TARGET.currentSide",
+                    "A"
+                  ],
+                  [
+                    "EQUAL",
+                    "$TARGET.sides.B.clues",
+                    null
+                  ],
+                  [
+                    "EQUAL",
+                    "$TARGET.sides.B.shroud",
+                    null
+                  ]
+                ]
+              ]
+            ]
+          ]
+        ],
+        "listenTo": [
+          "/cardById/*/inPlay"
+        ],
+        "priority": 0,
+        "then": [
+          [
+            "DO_PLACE_CLUES_ON_CARD",
+            "$PLAYER_N",
+            "$TARGET.id",
+            [
+              "GET_CARD_CLUES_REQUIREMENT",
+              "$TARGET.id"
+            ],
+            true,
+            null
+          ],
+          [
+            "SET",
+            "/cardById/$TARGET.id/cluesPlaced",
+            true
+          ]
+        ],
+        "type": "trigger"
+      },
+      "automationAddClues2": {
+        "_comment": "Add Location clue tokens (when flipping).",
+        "condition": [
+          [
+            "AND",
+            [
+              "EQUAL",
+              "$GAME.arkham.scenarioInit",
+              false
+            ],
+            [
+              "EQUAL",
+              "$TARGET.inPlay",
+              true
+            ],
+            [
+              "EQUAL",
+              "$TARGET.cluesPlaced",
+              false
+            ],
+            [
+              "EQUAL",
+              "$TARGET.currentFace.type",
+              "Location"
+            ],
+            [
+              "GREATER_THAN",
+              [
+                "GET_CARD_CLUES_REQUIREMENT",
+                "$TARGET.id"
+              ],
+              0
+            ]
+          ]
+        ],
+        "listenTo": [
+          "/cardById/*/currentSide"
+        ],
+        "priority": 0,
+        "then": [
+          [
+            "DO_PLACE_CLUES_ON_CARD",
+            "$PLAYER_N",
+            "$TARGET.id",
+            [
+              "GET_CARD_CLUES_REQUIREMENT",
+              "$TARGET.id"
+            ],
+            true,
+            null
+          ],
+          [
+            "SET",
+            "/cardById/$TARGET.id/cluesPlaced",
+            true
+          ]
+        ],
+        "type": "trigger"
+      },
+      "automationAttachedCount1": {
+        "_comment": "Change attachedCount.",
+        "condition": [
+          [
+            "NOT_EQUAL",
+            [
+              "PREV",
+              "$TARGET.parentCardId"
+            ],
+            "$TARGET.parentCardId"
+          ]
+        ],
+        "listenTo": [
+          "/cardById/*/parentCardId"
+        ],
+        "priority": 0,
+        "then": [
+          [
+            "VAR",
+            "$OLD_PARENT_ID",
+            [
+              "PREV",
+              "$TARGET.parentCardId"
+            ]
+          ],
+          [
+            "COND",
+            [
+              "AND",
+              [
+                "NOT_EQUAL",
+                "$OLD_PARENT_ID",
+                null
+              ],
+              [
+                "NOT_EQUAL",
+                "$OLD_PARENT_ID",
+                ""
+              ],
+              [
+                "NOT_EQUAL",
+                "$OLD_PARENT_ID",
+                "$TARGET.id"
+              ]
+            ],
+            [
+              "DECREASE_VAL",
+              "/cardById/$OLD_PARENT_ID/attachedCount",
+              1
+            ]
+          ],
+          [
+            "VAR",
+            "$NEW_PARENT_ID",
+            "$TARGET.parentCardId"
+          ],
+          [
+            "COND",
+            [
+              "AND",
+              [
+                "NOT_EQUAL",
+                "$NEW_PARENT_ID",
+                null
+              ],
+              [
+                "NOT_EQUAL",
+                "$NEW_PARENT_ID",
+                ""
+              ],
+              [
+                "NOT_EQUAL",
+                "$NEW_PARENT_ID",
+                "$TARGET.id"
+              ]
+            ],
+            [
+              "INCREASE_VAL",
+              "/cardById/$NEW_PARENT_ID/attachedCount",
+              1
+            ]
+          ]
+        ],
+        "type": "trigger"
+      },
+      "automationAttachedCount2": {
+        "_comment": "Poke attachedCount listeners.",
+        "condition": [
+          [
+            "NOT_EQUAL",
+            [
+              "PREV",
+              "$TARGET.attachmentDirection"
+            ],
+            "$TARGET.attachmentDirection"
+          ]
+        ],
+        "listenTo": [
+          "/cardById/*/attachmentDirection"
+        ],
+        "priority": 0,
+        "then": [
+          [
+            "VAR",
+            "$PARENT_ID",
+            "$TARGET.parentCardId"
+          ],
+          [
+            "COND",
+            [
+              "AND",
+              [
+                "NOT_EQUAL",
+                "$PARENT_ID",
+                null
+              ],
+              [
+                "NOT_EQUAL",
+                "$PARENT_ID",
+                ""
+              ],
+              [
+                "NOT_EQUAL",
+                "$PARENT_ID",
+                "$TARGET.id"
+              ]
+            ],
+            [
+              "SET",
+              "/cardById/$PARENT_ID/attachedCount",
+              "$CARD_BY_ID.$PARENT_ID.attachedCount"
+            ]
+          ]
+        ],
+        "type": "trigger"
+      },
+      "automationLeadInvestigator": {
+        "_comment": "Make the Lead Investigator token follow first player (and create it when missing).",
+        "condition": [
+          [
+            "AND",
+            [
+              "EQUAL",
+              "$GAME.arkham.scenarioInit",
+              false
+            ],
+            [
+              "NOT_EQUAL",
+              [
+                "PREV",
+                "$GAME.firstPlayer"
+              ],
+              "$GAME.firstPlayer"
+            ]
+          ]
+        ],
+        "listenTo": [
+          "/firstPlayer"
+        ],
+        "priority": 0,
+        "then": [
+          [
+            "DO_UPDATE_LEAD_INVESTIGATOR_TOKEN"
+          ]
+        ],
+        "type": "trigger"
+      },
+      "automationShowExtraDeck": {
+        "_comment": "Show or hide extra deck.",
+        "condition": [
+          [
+            "CAN_UPDATE_EXTRA_DECK",
+            "$TARGET.id"
+          ]
+        ],
+        "listenTo": [
+          "/playerData/*/arkham/showExtraDeck"
+        ],
+        "priority": 0,
+        "then": [
+          [
+            "DO_UPDATE_EXTRA_DECK",
+            "$TARGET.id"
+          ]
+        ],
+        "type": "trigger"
+      },
+      "automationStepHelpers": {
+        "_comment": "Game step helpers.",
+        "condition": [
+          [
+            "AND",
+            [
+              "EQUAL",
+              "$GAME.arkham.scenarioInit",
+              false
+            ],
+            [
+              "OR",
+              [
+                "EQUAL",
+                "$GAME.stepId",
+                "M2"
+              ],
+              [
+                "EQUAL",
+                "$GAME.stepId",
+                "M3"
+              ],
+              [
+                "EQUAL",
+                "$GAME.stepId",
+                "M4"
+              ],
+              [
+                "EQUAL",
+                "$GAME.stepId",
+                "I2"
+              ],
+              [
+                "EQUAL",
+                "$GAME.stepId",
+                "I2.E"
+              ],
+              [
+                "EQUAL",
+                "$GAME.stepId",
+                "E2"
+              ],
+              [
+                "EQUAL",
+                "$GAME.stepId",
+                "E3"
+              ],
+              [
+                "EQUAL",
+                "$GAME.stepId",
+                "U2"
+              ],
+              [
+                "EQUAL",
+                "$GAME.stepId",
+                "U3"
+              ],
+              [
+                "EQUAL",
+                "$GAME.stepId",
+                "U4"
+              ],
+              [
+                "EQUAL",
+                "$GAME.stepId",
+                "U5"
+              ]
+            ]
+          ]
+        ],
+        "listenTo": [
+          "/stepId"
+        ],
+        "priority": 0,
+        "then": [
+          [
+            "COND",
+            [
+              "EQUAL",
+              "$GAME.stepId",
+              "M2"
+            ],
+            [
+              "DO_STEP_M2"
+            ],
+            [
+              "EQUAL",
+              "$GAME.stepId",
+              "M3"
+            ],
+            [
+              "DO_STEP_M3"
+            ],
+            [
+              "EQUAL",
+              "$GAME.stepId",
+              "M4"
+            ],
+            [
+              "DO_STEP_M4"
+            ],
+            [
+              "EQUAL",
+              "$GAME.stepId",
+              "I2"
+            ],
+            [
+              "DO_STEP_I2"
+            ],
+            [
+              "EQUAL",
+              "$GAME.stepId",
+              "I2.E"
+            ],
+            [
+              "DO_STEP_I2_E"
+            ],
+            [
+              "EQUAL",
+              "$GAME.stepId",
+              "E2"
+            ],
+            [
+              "DO_STEP_E2"
+            ],
+            [
+              "EQUAL",
+              "$GAME.stepId",
+              "E3"
+            ],
+            [
+              "DO_STEP_E3"
+            ],
+            [
+              "EQUAL",
+              "$GAME.stepId",
+              "U2"
+            ],
+            [
+              "DO_STEP_U2"
+            ],
+            [
+              "EQUAL",
+              "$GAME.stepId",
+              "U3"
+            ],
+            [
+              "DO_STEP_U3"
+            ],
+            [
+              "EQUAL",
+              "$GAME.stepId",
+              "U4"
+            ],
+            [
+              "DO_STEP_U4"
+            ],
+            [
+              "EQUAL",
+              "$GAME.stepId",
+              "U5"
+            ],
+            [
+              "DO_STEP_U5"
+            ]
+          ]
+        ],
+        "type": "trigger"
+      },
+      "enterLeaveRefreshCard": {
+        "condition": [
+          [
+            "CAN_REFRESH_CARD",
+            "$TARGET",
+            [
+              "PREV",
+              "$TARGET.groupId"
+            ]
+          ]
+        ],
+        "listenTo": [
+          "/cardById/*/groupId"
+        ],
+        "priority": 0,
+        "then": [
+          [
+            "DO_REFRESH_CARD",
+            "$TARGET",
+            [
+              "PREV",
+              "$TARGET.groupId"
+            ]
+          ]
+        ],
+        "type": "trigger"
+      },
+      "enterLeaveRefreshCardInPlay": {
+        "condition": [
+          [
+            "CAN_REFRESH_CARD_IN_PLAY",
+            "$TARGET"
+          ]
+        ],
+        "listenTo": [
+          "/cardById/*/attachmentDirection",
+          "/cardById/*/currentSide"
+        ],
+        "priority": 0,
+        "then": [
+          [
+            "DO_REFRESH_CARD_IN_PLAY",
+            "$TARGET"
+          ]
+        ],
+        "type": "trigger"
+      },
+      "enterLeaveRefreshEncounterDeckA": {
+        "condition": [
+          [
+            "CAN_REFRESH_PLAYER_DECK",
+            "$TARGET"
+          ]
+        ],
+        "listenTo": [
+          "/groupById/sharedEncounterDeck/stackIds"
+        ],
+        "priority": 0,
+        "then": [
+          [
+            "DO_REFRESH_PLAYER_DECK",
+            "$TARGET"
+          ]
+        ],
+        "type": "trigger"
+      },
+      "enterLeaveRefreshEncounterDeckB": {
+        "condition": [
+          [
+            "CAN_REFRESH_PLAYER_DECK",
+            "$GROUP_BY_ID.sharedEncounterDeck"
+          ]
+        ],
+        "listenTo": [
+          "/arkham/playWithEncounterDeckCardRevealed"
+        ],
+        "priority": 0,
+        "then": [
+          [
+            "DO_REFRESH_PLAYER_DECK",
+            "$GROUP_BY_ID.sharedEncounterDeck"
+          ]
+        ],
+        "type": "trigger"
+      },
+      "enterLeaveRefreshOffMap": {
+        "condition": [
+          [
+            "CAN_REFRESH_OFF_MAP"
+          ]
+        ],
+        "listenTo": [
+          "/arkham/offMapNotInPlay"
+        ],
+        "priority": 0,
+        "then": [
+          [
+            "DO_REFRESH_OFF_MAP"
+          ]
+        ],
+        "type": "trigger"
+      },
+      "enterLeaveRefreshPlayerCardsInPlay": {
+        "condition": [
+          [
+            "CAN_REFRESH_PLAYER_CARDS_IN_PLAY",
+            "$TARGET"
+          ]
+        ],
+        "listenTo": [
+          "/playerData/*/arkham/playerInPlay"
+        ],
+        "priority": 0,
+        "then": [
+          [
+            "DO_REFRESH_PLAYER_CARDS_IN_PLAY",
+            "$TARGET"
+          ]
+        ],
+        "type": "trigger"
+      },
+      "enterLeaveRefreshPlayerDeckA": {
+        "condition": [
+          [
+            "CAN_REFRESH_PLAYER_DECK",
+            "$TARGET"
+          ]
+        ],
+        "listenTo": [
+          "/groupById/player1Deck/stackIds",
+          "/groupById/player1ExtraDeck/stackIds",
+          "/groupById/player2Deck/stackIds",
+          "/groupById/player2ExtraDeck/stackIds",
+          "/groupById/player3Deck/stackIds",
+          "/groupById/player3ExtraDeck/stackIds",
+          "/groupById/player4Deck/stackIds",
+          "/groupById/player4ExtraDeck/stackIds"
+        ],
+        "priority": 0,
+        "then": [
+          [
+            "DO_REFRESH_PLAYER_DECK",
+            "$TARGET"
+          ]
+        ],
+        "type": "trigger"
+      },
+      "enterLeaveRefreshPlayerDeckB": {
+        "condition": [
+          [
+            "CAN_REFRESH_PLAYER_DECK",
+            "$GROUP_BY_ID.{{$TARGET.id}}Deck"
+          ]
+        ],
+        "listenTo": [
+          "/playerData/*/arkham/playWithTopDeckCardRevealed"
+        ],
+        "priority": 0,
+        "then": [
+          [
+            "DO_REFRESH_PLAYER_DECK",
+            "$GROUP_BY_ID.{{$TARGET.id}}Deck"
+          ]
+        ],
+        "type": "trigger"
+      },
+      "enterLeaveRefreshPlayerDeckC": {
+        "condition": [
+          [
+            "CAN_REFRESH_PLAYER_DECK",
+            "$GROUP_BY_ID.{{$TARGET.id}}ExtraDeck"
+          ]
+        ],
+        "listenTo": [
+          "/playerData/*/arkham/playWithTopExtraDeckCardRevealed"
+        ],
+        "priority": 0,
+        "then": [
+          [
+            "DO_REFRESH_PLAYER_DECK",
+            "$GROUP_BY_ID.{{$TARGET.id}}ExtraDeck"
+          ]
+        ],
+        "type": "trigger"
+      },
+      "enterLeaveRefreshStoryA": {
+        "condition": [
+          [
+            "AND",
+            [
+              "EQUAL",
+              "$GAME.arkham.scenarioInit",
+              false
+            ],
+            [
+              "CAN_REFRESH_STORY",
+              "$TARGET"
+            ]
+          ]
+        ],
+        "listenTo": [
+          "/groupById/sharedAgendaStory/stackIds",
+          "/groupById/sharedActStory/stackIds",
+          "/groupById/sharedActStoryB/stackIds",
+          "/groupById/sharedActStoryC/stackIds",
+          "/groupById/sharedActStoryD/stackIds",
+          "/groupById/sharedActStoryE/stackIds"
+        ],
+        "priority": 0,
+        "then": [
+          [
+            "DO_REFRESH_STORY",
+            "$TARGET"
+          ]
+        ],
+        "type": "trigger"
+      },
+      "enterLeaveRefreshStoryB": {
+        "condition": [
+          [
+            "AND",
+            [
+              "EQUAL",
+              "$GAME.arkham.scenarioInit",
+              false
+            ],
+            [
+              "OR",
+              [
+                "EQUAL",
+                "$TARGET.groupId",
+                "sharedAgendaStory"
+              ],
+              [
+                "EQUAL",
+                "$TARGET.groupId",
+                "sharedActStory"
+              ],
+              [
+                "EQUAL",
+                "$TARGET.groupId",
+                "sharedActStoryB"
+              ],
+              [
+                "EQUAL",
+                "$TARGET.groupId",
+                "sharedActStoryC"
+              ],
+              [
+                "EQUAL",
+                "$TARGET.groupId",
+                "sharedActStoryD"
+              ],
+              [
+                "EQUAL",
+                "$TARGET.groupId",
+                "sharedActStoryE"
+              ]
+            ],
+            [
+              "CAN_REFRESH_STORY",
+              "$GROUP_BY_ID.{{$TARGET.groupId}}"
+            ]
+          ]
+        ],
+        "listenTo": [
+          "/cardById/*/attachmentDirection"
+        ],
+        "priority": 0,
+        "then": [
+          [
+            "DO_REFRESH_STORY",
+            "$GROUP_BY_ID.{{$TARGET.groupId}}"
+          ]
+        ],
+        "type": "trigger"
+      },
+      "eventsEndAfterDraw": {
+        "condition": [
+          "CAN_FINISH_PLAYER_EVENT",
+          "$TARGET.id",
+          "AfterDraw"
+        ],
+        "listenTo": [
+          "/playerData/*/arkham/playerEventAfterDraw"
+        ],
+        "priority": 1000,
+        "then": [
+          [
+            "FINISH_PLAYER_EVENT",
+            "$TARGET.id",
+            "AfterDraw"
+          ]
+        ],
+        "type": "trigger"
+      },
+      "eventsEndBeforeDraw": {
+        "condition": [
+          "CAN_FINISH_PLAYER_EVENT",
+          "$TARGET.id",
+          "BeforeDraw"
+        ],
+        "listenTo": [
+          "/playerData/*/arkham/playerEventBeforeDraw"
+        ],
+        "priority": 1000,
+        "then": [
+          [
+            "FINISH_PLAYER_EVENT",
+            "$TARGET.id",
+            "BeforeDraw"
+          ]
+        ],
+        "type": "trigger"
+      },
+      "eventsEndDraw": {
+        "condition": [
+          "CAN_FINISH_PLAYER_EVENT",
+          "$TARGET.id",
+          "Draw"
+        ],
+        "listenTo": [
+          "/playerData/*/arkham/playerEventDraw"
+        ],
+        "priority": 1000,
+        "then": [
+          [
+            "FINISH_PLAYER_EVENT",
+            "$TARGET.id",
+            "Draw"
+          ]
+        ],
+        "type": "trigger"
+      },
+      "eventsEndUpkeepDraw": {
+        "condition": [
+          "CAN_FINISH_PLAYER_EVENT",
+          "$TARGET.id",
+          "UpkeepDraw"
+        ],
+        "listenTo": [
+          "/playerData/*/arkham/playerEventUpkeepDraw"
+        ],
+        "priority": 1000,
+        "then": [
+          [
+            "FINISH_PLAYER_EVENT",
+            "$TARGET.id",
+            "UpkeepDraw"
+          ]
+        ],
+        "type": "trigger"
+      },
+      "playAskForIntent": {
+        "_comment": "Ask for intent when missing or proceed futher with paying cost and placing Uses resources.",
+        "condition": [
+          [
+            "AND",
+            [
+              "EQUAL",
+              "$GAME.arkham.scenarioInit",
+              false
+            ],
+            [
+              "EQUAL",
+              "$TARGET.inPlay",
+              true
+            ],
+            [
+              "EQUAL",
+              [
+                "PREV",
+                "$TARGET.inPlay"
+              ],
+              false
+            ],
+            [
+              "OR",
+              [
+                "EQUAL",
+                "$TARGET.currentFace.type",
+                "Asset"
+              ],
+              [
+                "EQUAL",
+                "$TARGET.currentFace.type",
+                "Event"
+              ],
+              [
+                "EQUAL",
+                "$TARGET.currentFace.type",
+                "Skill"
+              ]
+            ],
+            [
+              "NOT_EQUAL",
+              "$TARGET_CARD.playIntent",
+              "placeBehind"
+            ],
+            [
+              "OR",
+              [
+                "CAN_PAY_RESOURCES",
+                "$TARGET.id"
+              ],
+              [
+                "CAN_PLACE_USES",
+                "$TARGET.id"
+              ]
+            ]
+          ]
+        ],
+        "listenTo": [
+          "/cardById/*/inPlay"
+        ],
+        "priority": 0,
+        "then": [
+          [
+            "VAR",
+            "$TARGET_PLAYER",
+            [
+              "GET_EXISTING_PLAYER",
+              "$PLAYER_N",
+              "$TARGET.controller"
+            ]
+          ],
+          [
+            "VAR",
+            "$INTENT",
+            [
+              "GET_PLAY_INTENT",
+              "$TARGET.id"
+            ]
+          ],
+          [
+            "COND",
+            [
+              "EQUAL",
+              "$INTENT",
+              ""
+            ],
+            [
+              "COND",
+              [
+                "EQUAL",
+                "$TARGET.groupId",
+                "sharedVoid"
+              ],
+              [
+                "PROMPT",
+                "$TARGET_PLAYER",
+                "choosePlayIntentWithCommit",
+                "$TARGET.id"
+              ],
+              [
+                "TRUE"
+              ],
+              [
+                "PROMPT",
+                "$TARGET_PLAYER",
+                "choosePlayIntent",
+                "$TARGET.id"
+              ]
+            ],
+            [
+              "TRUE"
+            ],
+            [
+              "DO_PLAY_INTENT_DECLARED",
+              "$TARGET_PLAYER",
+              "$TARGET.id",
+              "$INTENT"
+            ]
+          ]
+        ],
+        "type": "trigger"
+      }
+    },
+    "postLoadActionList": [
+      [
+        "SET",
+        "/lastLoadedCardIds",
+        "$GAME.loadedCardIds"
+      ],
+      [
+        "FOR_EACH_VAL",
+        "$TARGET_ID",
+        "$GAME.loadedCardIds",
+        [
+          [
+            "VAR",
+            "$TARGET",
+            "$CARD_BY_ID.$TARGET_ID"
+          ],
+          [
+            "COND",
+            [
+              "IN_STRING",
+              "$TARGET.groupId",
+              "player1"
+            ],
+            [
+              "SET",
+              "/cardById/$TARGET_ID/cardOwner",
+              "player1"
+            ],
+            [
+              "IN_STRING",
+              "$TARGET.groupId",
+              "player2"
+            ],
+            [
+              "SET",
+              "/cardById/$TARGET_ID/cardOwner",
+              "player2"
+            ],
+            [
+              "IN_STRING",
+              "$TARGET.groupId",
+              "player3"
+            ],
+            [
+              "SET",
+              "/cardById/$TARGET_ID/cardOwner",
+              "player3"
+            ],
+            [
+              "IN_STRING",
+              "$TARGET.groupId",
+              "player4"
+            ],
+            [
+              "SET",
+              "/cardById/$TARGET_ID/cardOwner",
+              "player4"
+            ],
+            [
+              "TRUE"
+            ],
+            [
+              [
+                "SET",
+                "/cardById/$TARGET_ID/cardOwner",
+                "shared"
+              ],
+              [
+                "COND",
+                [
+                  "OR",
+                  [
+                    "EQUAL",
+                    "$TARGET.groupId",
+                    "sharedDeckA"
+                  ],
+                  [
+                    "EQUAL",
+                    "$TARGET.groupId",
+                    "sharedDiscardA"
+                  ]
+                ],
+                [
+                  [
+                    "SET",
+                    "/cardById/$TARGET_ID/cardDeck",
+                    "sharedDeckA"
+                  ],
+                  [
+                    "SET",
+                    "/cardById/$TARGET_ID/cardDiscard",
+                    "sharedDiscardA"
+                  ]
+                ],
+                [
+                  "OR",
+                  [
+                    "EQUAL",
+                    "$TARGET.groupId",
+                    "sharedDeckB"
+                  ],
+                  [
+                    "EQUAL",
+                    "$TARGET.groupId",
+                    "sharedDiscardB"
+                  ]
+                ],
+                [
+                  [
+                    "SET",
+                    "/cardById/$TARGET_ID/cardDeck",
+                    "sharedDeckB"
+                  ],
+                  [
+                    "SET",
+                    "/cardById/$TARGET_ID/cardDiscard",
+                    "sharedDiscardB"
+                  ]
+                ],
+                [
+                  "OR",
+                  [
+                    "EQUAL",
+                    "$TARGET.groupId",
+                    "sharedDeckC"
+                  ],
+                  [
+                    "EQUAL",
+                    "$TARGET.groupId",
+                    "sharedDiscardC"
+                  ]
+                ],
+                [
+                  [
+                    "SET",
+                    "/cardById/$TARGET_ID/cardDeck",
+                    "sharedDeckC"
+                  ],
+                  [
+                    "SET",
+                    "/cardById/$TARGET_ID/cardDiscard",
+                    "sharedDiscardC"
+                  ]
+                ],
+                [
+                  "EQUAL",
+                  "$TARGET.groupId",
+                  "sharedPileA"
+                ],
+                [
+                  [
+                    "SET",
+                    "/cardById/$TARGET_ID/cardDeck",
+                    "sharedPileA"
+                  ],
+                  [
+                    "SET",
+                    "/cardById/$TARGET_ID/cardDiscard",
+                    "sharedPileA"
+                  ]
+                ],
+                [
+                  "EQUAL",
+                  "$TARGET.groupId",
+                  "sharedPileB"
+                ],
+                [
+                  [
+                    "SET",
+                    "/cardById/$TARGET_ID/cardDeck",
+                    "sharedPileB"
+                  ],
+                  [
+                    "SET",
+                    "/cardById/$TARGET_ID/cardDiscard",
+                    "sharedPileB"
+                  ]
+                ],
+                [
+                  "EQUAL",
+                  "$TARGET.groupId",
+                  "sharedPileC"
+                ],
+                [
+                  [
+                    "SET",
+                    "/cardById/$TARGET_ID/cardDeck",
+                    "sharedPileC"
+                  ],
+                  [
+                    "SET",
+                    "/cardById/$TARGET_ID/cardDiscard",
+                    "sharedPileC"
+                  ]
+                ],
+                [
+                  "EQUAL",
+                  "$TARGET.groupId",
+                  "sharedPileD"
+                ],
+                [
+                  [
+                    "SET",
+                    "/cardById/$TARGET_ID/cardDeck",
+                    "sharedPileD"
+                  ],
+                  [
+                    "SET",
+                    "/cardById/$TARGET_ID/cardDiscard",
+                    "sharedPileD"
+                  ]
+                ],
+                [
+                  "EQUAL",
+                  "$TARGET.groupId",
+                  "sharedPileE"
+                ],
+                [
+                  [
+                    "SET",
+                    "/cardById/$TARGET_ID/cardDeck",
+                    "sharedPileE"
+                  ],
+                  [
+                    "SET",
+                    "/cardById/$TARGET_ID/cardDiscard",
+                    "sharedPileE"
+                  ]
+                ]
+              ],
+              [
+                "COND",
+                [
+                  "AND",
+                  [
+                    "EQUAL",
+                    "$TARGET.sides.A.type",
+                    "Scenario"
+                  ],
+                  [
+                    "EQUAL",
+                    "$TARGET.sides.B.type",
+                    "Scenario"
+                  ],
+                  [
+                    "EQUAL",
+                    "$TARGET.currentSide",
+                    "A"
+                  ],
+                  [
+                    "OR",
+                    [
+                      "EQUAL",
+                      "$GAME.arkham.scenarioDifficulty",
+                      "Hard"
+                    ],
+                    [
+                      "EQUAL",
+                      "$GAME.arkham.scenarioDifficulty",
+                      "Expert"
+                    ]
+                  ]
+                ],
+                [
+                  "SET",
+                  "/cardById/$TARGET_ID/currentSide",
+                  "B"
+                ]
+              ],
+              [
+                "COND",
+                [
+                  "AND",
+                  [
+                    "EQUAL",
+                    "$TARGET.sides.A.type",
+                    "Location"
+                  ],
+                  [
+                    "EQUAL",
+                    "$TARGET.sides.B.type",
+                    "Location"
+                  ],
+                  [
+                    "EQUAL",
+                    "$TARGET.currentSide",
+                    "A"
+                  ],
+                  [
+                    "EQUAL",
+                    "$TARGET.sides.B.clues",
+                    null
+                  ],
+                  [
+                    "EQUAL",
+                    "$TARGET.sides.B.shroud",
+                    null
+                  ]
+                ],
+                [
+                  "SET",
+                  "/cardById/$TARGET_ID/currentSide",
+                  "B"
+                ]
+              ]
+            ]
+          ],
+          [
+            "SET",
+            "/cardById/$TARGET_ID/controller",
+            "$CARD_BY_ID.$TARGET_ID.cardOwner"
+          ],
+          [
+            "COND",
+            [
+              "AND",
+              [
+                "IS_CUSTOMIZABLE",
+                "$TARGET.sides.A.databaseId"
+              ],
+              [
+                "IS_VALID_PLAYER",
+                "$CARD_BY_ID.$TARGET_ID.cardOwner"
+              ]
+            ],
+            [
+              "DO_SPAWN_CUSTOMIZABLE",
+              "$TARGET_ID",
+              "$CARD_BY_ID.$TARGET_ID.cardOwner"
+            ]
+          ],
+          [
+            "COND",
+            [
+              "AND",
+              [
+                "EQUAL",
+                "$TARGET.sides.A.databaseId",
+                "11068a"
+              ],
+              [
+                "OR",
+                [
+                  "EQUAL",
+                  "$TARGET.groupId",
+                  "player1Investigator"
+                ],
+                [
+                  "EQUAL",
+                  "$TARGET.groupId",
+                  "player2Investigator"
+                ],
+                [
+                  "EQUAL",
+                  "$TARGET.groupId",
+                  "player3Investigator"
+                ],
+                [
+                  "EQUAL",
+                  "$TARGET.groupId",
+                  "player4Investigator"
+                ]
+              ]
+            ],
+            [
+              "SET",
+              "/cardById/$TARGET_ID/currentSide",
+              "B"
+            ]
+          ],
+          [
+            "COND",
+            [
+              "OR",
+              [
+                "EQUAL",
+                "$TARGET.sides.A.databaseId",
+                "85037"
+              ],
+              [
+                "EQUAL",
+                "$TARGET.sides.A.databaseId",
+                "85038"
+              ]
+            ],
+            [
+              [
+                "SET",
+                "/cardById/$TARGET_ID/sides/A/width",
+                1
+              ],
+              [
+                "SET",
+                "/cardById/$TARGET_ID/sides/A/height",
+                0.69
+              ],
+              [
+                "SET",
+                "/cardById/$TARGET_ID/sides/B/width",
+                1
+              ],
+              [
+                "SET",
+                "/cardById/$TARGET_ID/sides/B/height",
+                0.69
+              ],
+              [
+                "SET",
+                "/cardById/$TARGET_ID/sides/B/imageUrl",
+                "https://toybox.hundredacre.club/cards/arkham-horror-living-card-game/_plugin/ArkhamHorrorLivingCardGame-CardbackEncounterSideways.webp"
+              ]
+            ]
+          ]
+        ]
+      ],
+      [
+        "SET",
+        "/arkham/loadingCards",
+        false
+      ]
+    ],
+    "postNewGameActionList": [
+      [
+        "DO_INIT_GAME_PROPERTIES"
+      ]
+    ],
+    "postSitDownActionList": [
+      [
+        "DO_UPDATE_INVESTIGATOR_NAMES"
+      ]
+    ],
+    "preLoadActionList": [
+      [
+        "SET",
+        "/arkham/loadingCards",
+        true
+      ],
+      [
+        "SET",
+        "/lastLoadedCardIds",
+        null
+      ],
+      [
+        "VAR",
+        "$TABOO_VALUE",
+        [
+          "GET_TABOO_VALUE",
+          "$PLAYER_N"
+        ]
+      ],
+      [
+        "COND",
+        [
+          "GREATER_THAN",
+          "$TABOO_VALUE",
+          0
+        ],
+        [
+          [
+            "VAR",
+            "$CHANGED",
+            false
+          ],
+          [
+            "VAR",
+            "$NEW_LOAD_LIST",
+            [
+              "LIST"
+            ]
+          ],
+          [
+            "FOR_EACH_VAL",
+            "$DATA",
+            "$GAME.loadList",
+            [
+              [
+                "VAR",
+                "$NEW_DATABASE_ID",
+                [
+                  "GET_DATABASE_ID_FOR_TABOO",
+                  "$DATA.databaseId",
+                  "$TABOO_VALUE"
+                ]
+              ],
+              [
+                "COND",
+                [
+                  "NOT_EQUAL",
+                  "$NEW_DATABASE_ID",
+                  "$DATA.databaseId"
+                ],
+                [
+                  [
+                    "VAR",
+                    "$LOAD_LIST_ITEM",
+                    {}
+                  ],
+                  [
+                    "FOR_EACH_KEY_VAL",
+                    "$FIELD_NAME",
+                    "$FIELD_VALUE",
+                    "$DATA",
+                    [
+                      [
+                        "COND",
+                        [
+                          "EQUAL",
+                          "$FIELD_NAME",
+                          "databaseId"
+                        ],
+                        [
+                          "UPDATE_VAR",
+                          "$LOAD_LIST_ITEM",
+                          [
+                            "OBJ_SET_VAL",
+                            "$LOAD_LIST_ITEM",
+                            "databaseId",
+                            "$NEW_DATABASE_ID"
+                          ]
+                        ],
+                        [
+                          "EQUAL",
+                          "$FIELD_NAME",
+                          "cardDetails"
+                        ],
+                        [
+                          "UPDATE_VAR",
+                          "$LOAD_LIST_ITEM",
+                          [
+                            "OBJ_SET_VAL",
+                            "$LOAD_LIST_ITEM",
+                            "cardDetails",
+                            "$CARD_DB.{{$NEW_DATABASE_ID}}"
+                          ]
+                        ],
+                        [
+                          "TRUE"
+                        ],
+                        [
+                          "UPDATE_VAR",
+                          "$LOAD_LIST_ITEM",
+                          [
+                            "OBJ_SET_VAL",
+                            "$LOAD_LIST_ITEM",
+                            "$FIELD_NAME",
+                            "$FIELD_VALUE"
+                          ]
+                        ]
+                      ]
+                    ]
+                  ],
+                  [
+                    "UPDATE_VAR",
+                    "$NEW_LOAD_LIST",
+                    [
+                      "APPEND",
+                      "$NEW_LOAD_LIST",
+                      "$LOAD_LIST_ITEM"
+                    ]
+                  ],
+                  [
+                    "UPDATE_VAR",
+                    "$CHANGED",
+                    true
+                  ]
+                ],
+                [
+                  "TRUE"
+                ],
+                [
+                  "UPDATE_VAR",
+                  "$NEW_LOAD_LIST",
+                  [
+                    "APPEND",
+                    "$NEW_LOAD_LIST",
+                    "$DATA"
+                  ]
+                ]
+              ]
+            ]
+          ],
+          [
+            "COND",
+            [
+              "EQUAL",
+              "$CHANGED",
+              true
+            ],
+            [
+              "SET",
+              "/loadList",
+              "$NEW_LOAD_LIST"
+            ]
+          ]
+        ]
+      ]
+    ]
+  }
+}

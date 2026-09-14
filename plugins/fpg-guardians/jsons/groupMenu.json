@@ -1,0 +1,18 @@
+{
+  "groupMenu": {
+    "moveToGroupIds": [
+      "playerNDeck",
+      "playerNAdventure",
+      "playerNDiscard",
+      "playerNHand",
+      "playerNStarting",
+      "playerNPlay",
+      "playerNCreaturePen",
+      "playerNStorage",
+      "playerNReinforce",
+      "playerN+1Play",
+      "sharedSetAside"
+    ],
+    "options": []
+  }
+}

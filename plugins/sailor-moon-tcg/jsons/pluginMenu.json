@@ -1,0 +1,30 @@
+{
+  "pluginMenu": {
+    "options": [
+      {
+        "label": "Draw",
+        "actionList": "drawDeck"
+      },
+      {
+        "label": "Shuffle deck",
+        "actionList": "shuffleDeck"
+      },
+      {
+        "label": "Ready all",
+        "actionList": "readyAll"
+      },
+      {
+        "label": "JKP / coin",
+        "actionList": "flipCoin"
+      },
+      {
+        "label": "VP +1",
+        "actionList": "increaseVp"
+      },
+      {
+        "label": "VP -1",
+        "actionList": "decreaseVp"
+      }
+    ]
+  }
+}

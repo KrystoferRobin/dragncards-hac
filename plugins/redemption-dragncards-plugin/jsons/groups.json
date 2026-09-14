@@ -1,0 +1,284 @@
+{
+  "groups": {
+    "sharedSetAside": {
+      "groupType": "aside",
+      "label": "Set Aside",
+      "tableLabel": "Set Aside",
+      "onCardEnter": {
+        "controller": "shared"
+      }
+    },
+    "player1Deck": {
+      "groupType": "deck",
+      "label": "Player 1 Deck",
+      "tableLabel": "Deck",
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1Deck",
+        "discardGroupId": "player1Discard"
+      }
+    },
+    "player1Hand": {
+      "groupType": "hand",
+      "label": "Player 1 Hand",
+      "tableLabel": "Hand",
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1Deck",
+        "discardGroupId": "player1Discard"
+      }
+    },
+    "player1Discard": {
+      "groupType": "discard",
+      "label": "Player 1 Discard",
+      "tableLabel": "Discard",
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1Deck",
+        "discardGroupId": "player1Discard"
+      }
+    },
+    "player1Reserve": {
+      "groupType": "reserve",
+      "label": "Player 1 Reserve",
+      "tableLabel": "Reserve",
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1Deck",
+        "discardGroupId": "player1Discard"
+      }
+    },
+    "player1GoodTerritory": {
+      "groupType": "inPlay",
+      "label": "Player 1 Good Territory",
+      "tableLabel": "Good",
+      "canHaveAttachments": true,
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1Deck",
+        "discardGroupId": "player1Discard"
+      }
+    },
+    "player1EvilTerritory": {
+      "groupType": "inPlay",
+      "label": "Player 1 Evil Territory",
+      "tableLabel": "Evil",
+      "canHaveAttachments": true,
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1Deck",
+        "discardGroupId": "player1Discard"
+      }
+    },
+    "player1LandOfBondage": {
+      "groupType": "inPlay",
+      "label": "Player 1 Land of Bondage",
+      "tableLabel": "LoB",
+      "canHaveAttachments": true,
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1Deck",
+        "discardGroupId": "player1Discard"
+      }
+    },
+    "player1BattleEnhancements": {
+      "groupType": "inPlay",
+      "label": "Player 1 Battle Enhancements",
+      "tableLabel": "Enh",
+      "canHaveAttachments": true,
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1Deck",
+        "discardGroupId": "player1Discard"
+      }
+    },
+    "player1Battle": {
+      "groupType": "inPlay",
+      "label": "Player 1 Battle",
+      "tableLabel": "Battle",
+      "canHaveAttachments": true,
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1Deck",
+        "discardGroupId": "player1Discard"
+      }
+    },
+    "player1Artifacts": {
+      "groupType": "inPlay",
+      "label": "Player 1 Artifacts",
+      "tableLabel": "Art",
+      "canHaveAttachments": true,
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1Deck",
+        "discardGroupId": "player1Discard"
+      }
+    },
+    "player1LandOfRedemption": {
+      "groupType": "lor",
+      "label": "Player 1 Land of Redemption",
+      "tableLabel": "LoR",
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1Deck",
+        "discardGroupId": "player1Discard"
+      }
+    },
+    "player1Banished": {
+      "groupType": "banished",
+      "label": "Player 1 Banished",
+      "tableLabel": "Banished",
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1Deck",
+        "discardGroupId": "player1Discard"
+      }
+    },
+    "player1Tokens": {
+      "groupType": "tokens",
+      "label": "Player 1 Tokens",
+      "tableLabel": "Tokens",
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1Deck",
+        "discardGroupId": "player1Discard"
+      }
+    },
+    "player2Deck": {
+      "groupType": "deck",
+      "label": "Player 2 Deck",
+      "tableLabel": "Deck",
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2Deck",
+        "discardGroupId": "player2Discard"
+      }
+    },
+    "player2Hand": {
+      "groupType": "hand",
+      "label": "Player 2 Hand",
+      "tableLabel": "Hand",
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2Deck",
+        "discardGroupId": "player2Discard"
+      }
+    },
+    "player2Discard": {
+      "groupType": "discard",
+      "label": "Player 2 Discard",
+      "tableLabel": "Discard",
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2Deck",
+        "discardGroupId": "player2Discard"
+      }
+    },
+    "player2Reserve": {
+      "groupType": "reserve",
+      "label": "Player 2 Reserve",
+      "tableLabel": "Reserve",
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2Deck",
+        "discardGroupId": "player2Discard"
+      }
+    },
+    "player2GoodTerritory": {
+      "groupType": "inPlay",
+      "label": "Player 2 Good Territory",
+      "tableLabel": "Good",
+      "canHaveAttachments": true,
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2Deck",
+        "discardGroupId": "player2Discard"
+      }
+    },
+    "player2EvilTerritory": {
+      "groupType": "inPlay",
+      "label": "Player 2 Evil Territory",
+      "tableLabel": "Evil",
+      "canHaveAttachments": true,
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2Deck",
+        "discardGroupId": "player2Discard"
+      }
+    },
+    "player2LandOfBondage": {
+      "groupType": "inPlay",
+      "label": "Player 2 Land of Bondage",
+      "tableLabel": "LoB",
+      "canHaveAttachments": true,
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2Deck",
+        "discardGroupId": "player2Discard"
+      }
+    },
+    "player2BattleEnhancements": {
+      "groupType": "inPlay",
+      "label": "Player 2 Battle Enhancements",
+      "tableLabel": "Enh",
+      "canHaveAttachments": true,
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2Deck",
+        "discardGroupId": "player2Discard"
+      }
+    },
+    "player2Battle": {
+      "groupType": "inPlay",
+      "label": "Player 2 Battle",
+      "tableLabel": "Battle",
+      "canHaveAttachments": true,
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2Deck",
+        "discardGroupId": "player2Discard"
+      }
+    },
+    "player2Artifacts": {
+      "groupType": "inPlay",
+      "label": "Player 2 Artifacts",
+      "tableLabel": "Art",
+      "canHaveAttachments": true,
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2Deck",
+        "discardGroupId": "player2Discard"
+      }
+    },
+    "player2LandOfRedemption": {
+      "groupType": "lor",
+      "label": "Player 2 Land of Redemption",
+      "tableLabel": "LoR",
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2Deck",
+        "discardGroupId": "player2Discard"
+      }
+    },
+    "player2Banished": {
+      "groupType": "banished",
+      "label": "Player 2 Banished",
+      "tableLabel": "Banished",
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2Deck",
+        "discardGroupId": "player2Discard"
+      }
+    },
+    "player2Tokens": {
+      "groupType": "tokens",
+      "label": "Player 2 Tokens",
+      "tableLabel": "Tokens",
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2Deck",
+        "discardGroupId": "player2Discard"
+      }
+    }
+  }
+}

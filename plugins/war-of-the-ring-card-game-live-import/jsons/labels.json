@@ -1,0 +1,655 @@
+{
+  "labels": {
+    "undo": {
+      "English": "Undo"
+    },
+    "drawCardsAndStartNewRound": {
+      "English": "Draw cards and start new round"
+    },
+    "pathDeck5": {
+      "English": "Path Deck 5"
+    },
+    "player4Cycled": {
+      "English": "Player 4 Cycled"
+    },
+    "printPileSizes": {
+      "English": "Print pile sizes"
+    },
+    "claim": {
+      "English": "Claim"
+    },
+    "locationPath": {
+      "English": "Location Path"
+    },
+    "removeTokens": {
+      "English": "Remove Tokens"
+    },
+    "pathDeck8B": {
+      "English": "Path Deck 8B"
+    },
+    "pathDeck4": {
+      "English": "Path Deck 4"
+    },
+    "location2": {
+      "English": "Location 2"
+    },
+    "player2Eliminated": {
+      "English": "Player 2 Eliminated"
+    },
+    "defenseRedIcon": {
+      "English": "icon(https://toybox.hundredacre.club/cards/war-of-the-ring-card-game/_plugin/WarOfTheRingCardGame-TokenDefenseRed.png)"
+    },
+    "step-3.3": {
+      "English": "3.3: Discard defending cards to subtract more icons"
+    },
+    "round": {
+      "English": "Round"
+    },
+    "drawInitialCards": {
+      "English": "Draw your starting hand"
+    },
+    "activeShadow3": {
+      "English": "Active Shadow 3"
+    },
+    "step-3.2": {
+      "English": "3.2: Subtract battleground or path icons"
+    },
+    "player6Hand": {
+      "English": "Player 6 Hand"
+    },
+    "pathDeck6": {
+      "English": "Path Deck 6"
+    },
+    "pathDeck2B": {
+      "English": "Path Deck 2B"
+    },
+    "clearTargets": {
+      "English": "Clear Targets"
+    },
+    "player3Eliminated": {
+      "English": "Player 3 Eliminated"
+    },
+    "player4Eliminated": {
+      "English": "Player 4 Eliminated"
+    },
+    "player5Reserve": {
+      "English": "Player 5 Reserve"
+    },
+    "pathDeck6B": {
+      "English": "Path Deck 6B"
+    },
+    "step-4.2": {
+      "English": "4.2: If the last path combat has been resolved, the team with the higher score wins"
+    },
+    "undoMany": {
+      "English": "Undo Many"
+    },
+    "player3Cycled": {
+      "English": "Player 3 Cycled"
+    },
+    "shadow4": {
+      "English": "Shadow 4"
+    },
+    "addToScoringArea": {
+      "English": "Add to scoring area"
+    },
+    "activeLocation4": {
+      "English": "Active Location 4"
+    },
+    "location4": {
+      "English": "Location 4"
+    },
+    "p2Reserve": {
+      "English": "P2 Reserve"
+    },
+    "pathDeck9A": {
+      "English": "Path Deck 9A"
+    },
+    "hand": {
+      "English": "Hand"
+    },
+    "attackRedIcon": {
+      "English": "icon(https://toybox.hundredacre.club/cards/war-of-the-ring-card-game/_plugin/WarOfTheRingCardGame-TokenAttackRed.png)"
+    },
+    "labelMarkAsShadowVictory": {
+      "English": "Mark as Shadow Victory"
+    },
+    "activeShadow5": {
+      "English": "Active Shadow5"
+    },
+    "pathAttack": {
+      "English": "Path Attack"
+    },
+    "aside": {
+      "English": "Aside"
+    },
+    "player5Vault": {
+      "English": "Player 5 Vault"
+    },
+    "activeLocation6": {
+      "English": "Active Location6"
+    },
+    "player3Deck": {
+      "English": "Player 3 Deck"
+    },
+    "corruptionIcon": {
+      "English": "icon(https://toybox.hundredacre.club/cards/war-of-the-ring-card-game/_plugin/WarOfTheRingCardGame-TokenCorruption.png)"
+    },
+    "activeLocation2": {
+      "English": "Active Location 2"
+    },
+    "eliminate": {
+      "English": "Eliminate"
+    },
+    "flip": {
+      "English": "Flip"
+    },
+    "pathDeck3B": {
+      "English": "Path Deck 3B"
+    },
+    "pathRedIcon": {
+      "English": "icon(https://toybox.hundredacre.club/cards/war-of-the-ring-card-game/_plugin/WarOfTheRingCardGame-TokenPathRed.png)"
+    },
+    "player6Cycled": {
+      "English": "Player 6 Cycled"
+    },
+    "drawPhase": {
+      "English": "Draw"
+    },
+    "toggleLocationDecks": {
+      "English": "Show/Hide Location Decks (6 player)"
+    },
+    "ringTokens": {
+      "English": "Ring Tokens"
+    },
+    "step-5.1": {
+      "English": "5.1: Draw cards"
+    },
+    "setAside": {
+      "English": "Set Aside"
+    },
+    "step-3.6": {
+      "English": "3.6: If path, Shadow team gains corruption tokens equal to excess attack"
+    },
+    "pathDeck4A": {
+      "English": "Path Deck 4A"
+    },
+    "pathDeck4B": {
+      "English": "Path Deck 4B"
+    },
+    "increaseCorruption": {
+      "English": "Increase Corruption"
+    },
+    "eliminated": {
+      "English": "Eliminated"
+    },
+    "shuffleCyclePileAndPlaceOnBottomOfDeck": {
+      "English": "Shuffle cycle pile and place on bottom of deck"
+    },
+    "nextStep": {
+      "English": "Next Step"
+    },
+    "step-3.7": {
+      "English": "3.7: Winning side takes control (Shadow team takes control of paths facedown)"
+    },
+    "drawCard6": {
+      "English": "Draw a card for player 6"
+    },
+    "attack": {
+      "English": "Attack"
+    },
+    "player3Hand": {
+      "English": "Player 3 Hand"
+    },
+    "activePath": {
+      "English": "Active Path"
+    },
+    "player6Vault": {
+      "English": "Player 6 Vault"
+    },
+    "freePeoplesPath": {
+      "English": "Free Peoples Path"
+    },
+    "drawCard5": {
+      "English": "Draw a card for player 5"
+    },
+    "pathDeck1": {
+      "English": "Path Deck 1"
+    },
+    "labelMarkAsFreePeoplesVictory": {
+      "English": "Mark as Free Peoples Victory"
+    },
+    "activeFreePeoples1": {
+      "English": "Active Free Peoples 1"
+    },
+    "setAsidePile1": {
+      "English": "Set-Aside Pile 1"
+    },
+    "player1Eliminated": {
+      "English": "Player 1 Eliminated"
+    },
+    "epicDuel": {
+      "English": "Epic Duel"
+    },
+    "action": {
+      "English": "Action"
+    },
+    "player6Reserve": {
+      "English": "Player 6 Reserve"
+    },
+    "toggleRotate": {
+      "English": "Toggle rotate"
+    },
+    "shadow3": {
+      "English": "Shadow 3"
+    },
+    "eliminateCard": {
+      "English": "Eliminate card"
+    },
+    "player4Deck": {
+      "English": "Player 4 Deck"
+    },
+    "victory": {
+      "English": "Victory"
+    },
+    "activeFreePeoplesPath": {
+      "English": "Active Free Peoples Path"
+    },
+    "player5Eliminated": {
+      "English": "Player 5 Eliminated"
+    },
+    "activeLocation1": {
+      "English": "Active Location 1"
+    },
+    "location3": {
+      "English": "Location 3"
+    },
+    "p6Reserve": {
+      "English": "P6 Reserve"
+    },
+    "save": {
+      "English": "Save"
+    },
+    "pathDeck7": {
+      "English": "Path Deck 7"
+    },
+    "sixPlayer": {
+      "English": "Six Player"
+    },
+    "pathDeck7B": {
+      "English": "Path Deck 7B"
+    },
+    "step-3.5": {
+      "English": "3.5: All attacking cards are eliminated"
+    },
+    "activeLocation3": {
+      "English": "Active Location 3"
+    },
+    "pathDeck5A": {
+      "English": "Path Deck 5A"
+    },
+    "pathDeck1B": {
+      "English": "Path Deck 1B"
+    },
+    "activeLocation5": {
+      "English": "Active Location5"
+    },
+    "handSize": {
+      "English": "Hand size"
+    },
+    "location": {
+      "English": "Location"
+    },
+    "player2Vault": {
+      "English": "Player 2 Vault"
+    },
+    "decreaseCorruption": {
+      "English": "Decrease Corruption"
+    },
+    "pathDeck6A": {
+      "English": "Path Deck 6A"
+    },
+    "shadow2": {
+      "English": "Shadow 2"
+    },
+    "activeShadow4": {
+      "English": "Active Shadow 4"
+    },
+    "shuffleGroupIntoDeck": {
+      "English": "Shuffle into deck"
+    },
+    "scoreLocation": {
+      "English": "Move location to scoring area"
+    },
+    "shadow5": {
+      "English": "Shadow5"
+    },
+    "drawCard": {
+      "English": "Draw a card"
+    },
+    "player4Hand": {
+      "English": "Player 4 Hand"
+    },
+    "step-3.1": {
+      "English": "3.1: Count the number of attacking icons"
+    },
+    "player1Reserve": {
+      "English": "Player 1 Reserve"
+    },
+    "freePeoples5": {
+      "English": "Free Peoples5"
+    },
+    "shadowVP": {
+      "English": "SP"
+    },
+    "setAsidePile2": {
+      "English": "Set-Aside Pile 2"
+    },
+    "pathDeck9": {
+      "English": "Path Deck 9"
+    },
+    "drawCard2": {
+      "English": "Draw a card for player 2"
+    },
+    "pathDeck3A": {
+      "English": "Path Deck 3A"
+    },
+    "player3Vault": {
+      "English": "Player 3 Vault"
+    },
+    "player5Deck": {
+      "English": "Player 5 Deck"
+    },
+    "freePeoplesScoringArea": {
+      "English": "FP Scoring Area"
+    },
+    "myCycled": {
+      "English": "My Cycled"
+    },
+    "buckler": {
+      "English": "Buckler"
+    },
+    "labelMarkAsIncomplete": {
+      "English": "Mark as Incomplete"
+    },
+    "pathDeck5B": {
+      "English": "Path Deck 5B"
+    },
+    "location1": {
+      "English": "Location 1"
+    },
+    "activeFreePeoples5": {
+      "English": "Active Free Peoples5"
+    },
+    "shadowBattlegroundDeck": {
+      "English": "Shadow Battleground Deck"
+    },
+    "player2Hand": {
+      "English": "Player 2 Hand"
+    },
+    "freePeoples1": {
+      "English": "Free Peoples 1"
+    },
+    "draw": {
+      "English": "Draw"
+    },
+    "freePeoples6": {
+      "English": "Free Peoples6"
+    },
+    "freePeoples4": {
+      "English": "Free Peoples 4"
+    },
+    "target": {
+      "English": "Target"
+    },
+    "cycle": {
+      "English": "Cycle"
+    },
+    "onlyShowMyHand": {
+      "English": "Only Show My Hand"
+    },
+    "pathDeck1A": {
+      "English": "Path Deck 1A"
+    },
+    "standard": {
+      "English": "Standard"
+    },
+    "activeShadow6": {
+      "English": "Active Shadow6"
+    },
+    "player6Eliminated": {
+      "English": "Player 6 Eliminated"
+    },
+    "player6Deck": {
+      "English": "Player 6 Deck"
+    },
+    "skull": {
+      "English": "Skull"
+    },
+    "pathDeck7A": {
+      "English": "Path Deck 7A"
+    },
+    "step-3.0": {
+      "English": "3.0: Starting player decides the order the battleground and path combats are resolved"
+    },
+    "p4Reserve": {
+      "English": "P4 Reserve"
+    },
+    "pathDeck9B": {
+      "English": "Path Deck 9B"
+    },
+    "corruptionScore": {
+      "English": "Corruption"
+    },
+    "cycled": {
+      "English": "Cycled"
+    },
+    "cycleSetAsidePiles": {
+      "English": "Cycle set-aside piles"
+    },
+    "step-2.1": {
+      "English": "2.1: Players take turns taking actions or passing"
+    },
+    "step-5.2": {
+      "English": "5.2: Pass the starting player token to the next player"
+    },
+    "player2Deck": {
+      "English": "Player 2 Deck"
+    },
+    "setAsideHand": {
+      "English": "Set-Aside Hand"
+    },
+    "player1Deck": {
+      "English": "Player 1 Deck"
+    },
+    "defense": {
+      "English": "Defense"
+    },
+    "pathDefense": {
+      "English": "Path Defense"
+    },
+    "step-1.2": {
+      "English": "1.2: First player activates 1 path"
+    },
+    "myDeck": {
+      "English": "My Deck"
+    },
+    "pathDeck3": {
+      "English": "Path Deck 3"
+    },
+    "step-1.1": {
+      "English": "1.1: First player activates 1 battleground"
+    },
+    "toggleVault": {
+      "English": "Open the Vault"
+    },
+    "cycleCard": {
+      "English": "Cycle card"
+    },
+    "player2Cycled": {
+      "English": "Player 2 Cycled"
+    },
+    "freePeoples2": {
+      "English": "Free Peoples 2"
+    },
+    "activeFreePeoples3": {
+      "English": "Active Free Peoples 3"
+    },
+    "player2Reserve": {
+      "English": "Player 2 Reserve"
+    },
+    "pass": {
+      "English": "Pass"
+    },
+    "drawArrow": {
+      "English": "Draw Arrow"
+    },
+    "step-3.4": {
+      "English": "3.4: Leftover defending cards are cycled"
+    },
+    "player4Vault": {
+      "English": "Player 4 Vault"
+    },
+    "p5Reserve": {
+      "English": "P5 Reserve"
+    },
+    "drawCard3": {
+      "English": "Draw a card for player 3"
+    },
+    "deck": {
+      "English": "Deck"
+    },
+    "activeFreePeoples4": {
+      "English": "Active Free Peoples 4"
+    },
+    "player1Cycled": {
+      "English": "Player 1 Cycled"
+    },
+    "shadow6": {
+      "English": "Shadow6"
+    },
+    "drawCard1": {
+      "English": "Draw a card for player 1"
+    },
+    "player5Hand": {
+      "English": "Player 5 Hand"
+    },
+    "activeFreePeoples2": {
+      "English": "Active Free Peoples 2"
+    },
+    "freePeoplesBattlegroundDeck": {
+      "English": "Free Peoples Battleground Deck"
+    },
+    "player1Vault": {
+      "English": "Player 1 Vault"
+    },
+    "p1Reserve": {
+      "English": "P1 Reserve"
+    },
+    "player4Reserve": {
+      "English": "Player 4 Reserve"
+    },
+    "location6": {
+      "English": "Location6"
+    },
+    "deckSize": {
+      "English": "Deck Size"
+    },
+    "combat": {
+      "English": "Combat"
+    },
+    "shadow1": {
+      "English": "Shadow 1"
+    },
+    "pathBlueIcon": {
+      "English": "icon(https://toybox.hundredacre.club/cards/war-of-the-ring-card-game/_plugin/WarOfTheRingCardGame-TokenPathBlue.png)"
+    },
+    "freePeoples3": {
+      "English": "Free Peoples 3"
+    },
+    "rotate": {
+      "English": "Rotate"
+    },
+    "flipThemAll": {
+      "English": "Flip all facedown"
+    },
+    "delete": {
+      "English": "Delete"
+    },
+    "activeShadowPath": {
+      "English": "Active Shadow Path"
+    },
+    "activeShadow2": {
+      "English": "Active Shadow 2"
+    },
+    "player3Reserve": {
+      "English": "Player 3 Reserve"
+    },
+    "allHandsVisible": {
+      "English": "All Hands Visible"
+    },
+    "defenseBlueIcon": {
+      "English": "icon(https://toybox.hundredacre.club/cards/war-of-the-ring-card-game/_plugin/WarOfTheRingCardGame-TokenDefenseBlue.png)"
+    },
+    "location5": {
+      "English": "Location5"
+    },
+    "p3Reserve": {
+      "English": "P3 Reserve"
+    },
+    "freePVP": {
+      "English": "FP"
+    },
+    "activeFreePeoples6": {
+      "English": "Active Free Peoples6"
+    },
+    "drawCard4": {
+      "English": "Draw a card for player 4"
+    },
+    "activeShadow1": {
+      "English": "Active Shadow 1"
+    },
+    "pathDeck2A": {
+      "English": "Path Deck 2A"
+    },
+    "corruption": {
+      "English": "Corruption"
+    },
+    "shadowScoringArea": {
+      "English": "SP Scoring Area"
+    },
+    "attackBlueIcon": {
+      "English": "icon(https://toybox.hundredacre.club/cards/war-of-the-ring-card-game/_plugin/WarOfTheRingCardGame-TokenAttackBlue.png)"
+    },
+    "pathDeck8": {
+      "English": "Path Deck 8"
+    },
+    "rotateCard": {
+      "English": "Rotate card"
+    },
+    "player5Cycled": {
+      "English": "Player 5 Cycled"
+    },
+    "player1Hand": {
+      "English": "Player 1 Hand"
+    },
+    "step-4.1": {
+      "English": "4.1: If the difference between scores is 10 or more, the team with the higher score wins"
+    },
+    "targetCard": {
+      "English": "Target card"
+    },
+    "pathDeck2": {
+      "English": "Path Deck 2"
+    },
+    "shadowPath": {
+      "English": "Shadow Path"
+    },
+    "getHandFromSetAsideHand": {
+      "English": "Return cards in set-aside hand to my hand"
+    },
+    "pathDeck8A": {
+      "English": "Path Deck 8A"
+    }
+  }
+}

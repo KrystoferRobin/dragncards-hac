@@ -1,0 +1,10 @@
+{
+  "playerProperties": {
+    "force": {
+      "default": 0,
+      "label": "id:force",
+      "min": 0,
+      "type": "integer"
+    }
+  }
+}

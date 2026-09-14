@@ -1,0 +1,15 @@
+{
+  "spawnExistingCardModal": {
+    "columnProperties": ["name", "type", "affiliation", "cost", "set"],
+    "loadGroupIds": [
+      "playerNStockpile",
+      "playerNHand",
+      "playerNUnits",
+      "playerNResources",
+      "playerNCommands",
+      "playerNSideboard",
+      "playerNScrapheap",
+      "sharedSetAside"
+    ]
+  }
+}

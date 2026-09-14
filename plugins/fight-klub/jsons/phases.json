@@ -1,0 +1,21 @@
+{
+  "phases": {
+    "draw": {
+      "label": "Draw",
+      "height": "33%"
+    },
+    "fight": {
+      "label": "Fight",
+      "height": "34%"
+    },
+    "cleanup": {
+      "label": "Cleanup",
+      "height": "33%"
+    }
+  },
+  "phaseOrder": [
+    "draw",
+    "fight",
+    "cleanup"
+  ]
+}

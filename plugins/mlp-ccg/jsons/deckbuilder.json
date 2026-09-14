@@ -1,0 +1,46 @@
+{
+  "deckbuilder": {
+    "addButtons": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "columns": [
+      {
+        "propName": "name",
+        "label": "Name"
+      },
+      {
+        "propName": "type",
+        "label": "Type"
+      },
+      {
+        "propName": "element",
+        "label": "Element"
+      },
+      {
+        "propName": "power",
+        "label": "Power"
+      },
+      {
+        "propName": "packName",
+        "label": "Set"
+      }
+    ],
+    "spawnGroups": [
+      {
+        "loadGroupId": "playerNDeck",
+        "label": "My Deck"
+      },
+      {
+        "loadGroupId": "playerNStarting",
+        "label": "My Starting"
+      },
+      {
+        "loadGroupId": "playerNProblemDeck",
+        "label": "My ProblemDeck"
+      }
+    ]
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "hotkeys": {
+    "game": [
+      {
+        "key": "D",
+        "actionList": "drawDeck",
+        "label": "Draw"
+      },
+      {
+        "key": "S",
+        "actionList": "shuffleDeck",
+        "label": "Shuffle deck"
+      },
+      {
+        "key": "Y",
+        "actionList": "probeDeck",
+        "label": "Probe"
+      },
+      {
+        "key": "L",
+        "actionList": "seedSpaceline",
+        "label": "Seed spaceline"
+      },
+      {
+        "key": "B",
+        "actionList": "increasePoints",
+        "label": "Points +5"
+      },
+      {
+        "key": "N",
+        "actionList": "decreasePoints",
+        "label": "Points -5"
+      }
+    ],
+    "card": [
+      {
+        "key": "T",
+        "actionList": "rotate90",
+        "label": "Rotate 90"
+      },
+      {
+        "key": "I",
+        "actionList": "rotate180",
+        "label": "Rotate 180"
+      },
+      {
+        "key": "K",
+        "actionList": "readyCard",
+        "label": "Straighten"
+      },
+      {
+        "key": "F",
+        "actionList": [
+          "FLIP",
+          "$ACTIVE_CARD_ID"
+        ],
+        "label": "Flip"
+      },
+      {
+        "key": "P",
+        "actionList": "moveToSpaceline",
+        "label": "To spaceline"
+      },
+      {
+        "key": "X",
+        "actionList": [
+          "DISCARD",
+          "$ACTIVE_CARD_ID"
+        ],
+        "label": "Discard"
+      },
+      {
+        "key": "A",
+        "actionList": [
+          "DETACH",
+          "$ACTIVE_CARD_ID"
+        ],
+        "label": "Detach"
+      },
+      {
+        "key": "H",
+        "actionList": [
+          "SHUFFLE_INTO_DECK",
+          "$ACTIVE_CARD_ID"
+        ],
+        "label": "Shuffle into deck"
+      }
+    ],
+    "token": [
+      {
+        "key": "1",
+        "tokenType": "yellow",
+        "label": "Yellow token"
+      },
+      {
+        "key": "2",
+        "tokenType": "countdown",
+        "label": "Countdown"
+      },
+      {
+        "key": "3",
+        "tokenType": "black",
+        "label": "Black token"
+      }
+    ]
+  }
+}

@@ -290,10 +290,31 @@ export const importCardDbTsv = async (gameDef, files) => {
       status = "success";
     }
 
+    return { status, messages, cardDb, cardDbTsvs: tsvList };
+
   } catch (err) {
     messages.push(err.message);
   }
 
   return { status, messages, cardDb };
+};
+
+/** Prefer raw TSVs so create/update stays under the proxy body limit. */
+export const pluginCardDbFields = (inputs) => {
+  if (Array.isArray(inputs?.cardDbTsvs) && inputs.cardDbTsvs.length > 0) {
+    return { card_db_tsvs: inputs.cardDbTsvs };
+  }
+  if (inputs?.cardDb) {
+    return { card_db: inputs.cardDb };
+  }
+  return {};
+};
+
+export const pluginSaveErrorMessage = (err, fallback) => {
+  const status = err?.response?.status;
+  if (status === 413) {
+    return "Card database is too large for the server to accept in one request. Try again after the toybox upload limit is raised, or upload fewer TSV files.";
+  }
+  return fallback || err?.message || "Request failed.";
 };
 

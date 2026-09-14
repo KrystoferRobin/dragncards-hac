@@ -1,0 +1,12 @@
+{
+  "pluginName": "Rifts CCG",
+  "author": "Lackey / wishmstr",
+  "tutorialUrl": "https://github.com/wishmstr/RiftsCCG",
+  "announcements": [
+    "Tabletop plugin from the Lackey Rifts CCG set. No rules engine — Draw, Ready, and Nation are shortcuts.",
+    "D = draw. R = ready all. X = discard. Nation cards load to the Nation row."
+  ],
+  "loadPreBuiltOnNewGame": false,
+  "bannerUrl": "https://toybox.hundredacre.club/cards/rifts-ccg/_plugin/banner2.jpg",
+  "logoUrl": "https://toybox.hundredacre.club/cards/rifts-ccg/_plugin/logo2.jpg"
+}

@@ -1,0 +1,13 @@
+{
+  "pluginName": "Star Trek CCG 1E",
+  "author": "Lackey / eberlems",
+  "tutorialUrl": "https://github.com/eberlems/startrek1e",
+  "announcements": [
+    "Tabletop plugin from the Lackey Star Trek CCG 1E set. No rules engine — Draw, Probe, Seed Line, and tokens are shortcuts.",
+    "Missions snap onto the shared spaceline (center row). Attach ships and personnel underneath a mission. D = draw. Y = probe. L = seed missions onto the line. 1/2/3 = yellow / countdown / black."
+  ],
+  "loadPreBuiltOnNewGame": false,
+  "backgroundUrl": "https://toybox.hundredacre.club/cards/star-trek-ccg-1e/_plugin/StarTrekCcg1e-Background.jpg",
+  "bannerUrl": "https://toybox.hundredacre.club/cards/star-trek-ccg-1e/_plugin/banner.jpg",
+  "logoUrl": "https://toybox.hundredacre.club/cards/star-trek-ccg-1e/_plugin/logo.jpg"
+}

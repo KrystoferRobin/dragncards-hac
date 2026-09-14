@@ -1,0 +1,41 @@
+{
+  "cardMenu": {
+    "moveToGroupIds": [
+      "playerNPlay",
+      "playerNChampion",
+      "playerNResources",
+      "playerNSupport",
+      "playerNHand",
+      "playerNDeck",
+      "playerNCrypt",
+      "playerNVoid",
+      "sharedSetAside"
+    ],
+    "options": [
+      {
+        "label": "Exhaust",
+        "actionList": "spendCard"
+      },
+      {
+        "label": "Ready",
+        "actionList": "readyCard"
+      },
+      {
+        "label": "Flip",
+        "actionList": "flipCard"
+      },
+      {
+        "label": "Crypt",
+        "actionList": "discardCard"
+      },
+      {
+        "label": "Void",
+        "actionList": "voidCard"
+      },
+      {
+        "label": "Detach",
+        "actionList": "detachCard"
+      }
+    ]
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "automation": {
+    "postNewGameActionList": [
+      ["LOG", "Middle Earth CCG table created. Load a Challenge Deck or your own deck. No rules are enforced."]
+    ]
+  }
+}

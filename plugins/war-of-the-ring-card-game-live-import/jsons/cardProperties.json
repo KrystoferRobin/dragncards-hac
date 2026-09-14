@@ -1,0 +1,8 @@
+{
+  "cardProperties": {
+    "bonusApplied": {
+      "default": false,
+      "type": "boolean"
+    }
+  }
+}

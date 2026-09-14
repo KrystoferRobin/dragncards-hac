@@ -1,0 +1,10 @@
+{
+  "playerProperties": {
+    "victoryPoints": {
+      "label": "Victory Points",
+      "type": "integer",
+      "default": 0,
+      "min": 0
+    }
+  }
+}

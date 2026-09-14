@@ -1,0 +1,14 @@
+{
+  "prompts": {
+    "welcome1": {
+      "args": [],
+      "message": "Lord of the Rings TCG (Decipher) on DragnCards, from GEMP card data. This table is not rules-enforced. Load a draw deck onto Deck; put sites on the Adventure Path. D draw, S starting hand (8), T/R twilight, W wound, L discard, K dead pile. TAB shows hotkeys. Card data/art: GEMP / lotrtcgpc.net.",
+      "options": [
+        {
+          "hotkey": "K",
+          "label": "OK"
+        }
+      ]
+    }
+  }
+}

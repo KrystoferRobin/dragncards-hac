@@ -1,0 +1,204 @@
+{
+  "groups": {
+    "sharedSetAside": {
+      "groupType": "aside",
+      "label": "Set Aside",
+      "tableLabel": "Set Aside",
+      "onCardEnter": {
+        "controller": "shared"
+      }
+    },
+    "player1Deck": {
+      "groupType": "deck",
+      "label": "Player 1 Deck",
+      "tableLabel": "Deck",
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1Deck",
+        "discardGroupId": "player1Discard"
+      }
+    },
+    "player1Adventure": {
+      "groupType": "deck",
+      "label": "Player 1 Adventure",
+      "tableLabel": "Adventure",
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1Deck",
+        "discardGroupId": "player1Discard"
+      }
+    },
+    "player1Discard": {
+      "groupType": "discard",
+      "label": "Player 1 Discard",
+      "tableLabel": "Discard",
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1Deck",
+        "discardGroupId": "player1Discard"
+      }
+    },
+    "player1Hand": {
+      "groupType": "hand",
+      "label": "Player 1 Hand",
+      "tableLabel": "Hand",
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1Deck",
+        "discardGroupId": "player1Discard"
+      }
+    },
+    "player1Starting": {
+      "groupType": "inPlay",
+      "label": "Player 1 Starting",
+      "tableLabel": "Starting",
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1Deck",
+        "discardGroupId": "player1Discard",
+        "inPlay": true
+      },
+      "canHaveAttachments": true
+    },
+    "player1Play": {
+      "groupType": "inPlay",
+      "label": "Player 1 Play",
+      "tableLabel": "Play",
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1Deck",
+        "discardGroupId": "player1Discard",
+        "inPlay": true
+      },
+      "canHaveAttachments": true
+    },
+    "player1CreaturePen": {
+      "groupType": "inPlay",
+      "label": "Player 1 Creature Pen",
+      "tableLabel": "Creature Pen",
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1Deck",
+        "discardGroupId": "player1Discard",
+        "inPlay": true
+      },
+      "canHaveAttachments": true
+    },
+    "player1Storage": {
+      "groupType": "aside",
+      "label": "Player 1 Storage Depot",
+      "tableLabel": "Storage Depot",
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1Deck",
+        "discardGroupId": "player1Discard"
+      }
+    },
+    "player1Reinforce": {
+      "groupType": "aside",
+      "label": "Player 1 Reinforce",
+      "tableLabel": "Reinforce",
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1Deck",
+        "discardGroupId": "player1Discard"
+      }
+    },
+    "player2Deck": {
+      "groupType": "deck",
+      "label": "Player 2 Deck",
+      "tableLabel": "Deck",
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2Deck",
+        "discardGroupId": "player2Discard"
+      }
+    },
+    "player2Adventure": {
+      "groupType": "deck",
+      "label": "Player 2 Adventure",
+      "tableLabel": "Adventure",
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2Deck",
+        "discardGroupId": "player2Discard"
+      }
+    },
+    "player2Discard": {
+      "groupType": "discard",
+      "label": "Player 2 Discard",
+      "tableLabel": "Discard",
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2Deck",
+        "discardGroupId": "player2Discard"
+      }
+    },
+    "player2Hand": {
+      "groupType": "hand",
+      "label": "Player 2 Hand",
+      "tableLabel": "Hand",
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2Deck",
+        "discardGroupId": "player2Discard"
+      }
+    },
+    "player2Starting": {
+      "groupType": "inPlay",
+      "label": "Player 2 Starting",
+      "tableLabel": "Starting",
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2Deck",
+        "discardGroupId": "player2Discard",
+        "inPlay": true
+      },
+      "canHaveAttachments": true
+    },
+    "player2Play": {
+      "groupType": "inPlay",
+      "label": "Player 2 Play",
+      "tableLabel": "Play",
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2Deck",
+        "discardGroupId": "player2Discard",
+        "inPlay": true
+      },
+      "canHaveAttachments": true
+    },
+    "player2CreaturePen": {
+      "groupType": "inPlay",
+      "label": "Player 2 Creature Pen",
+      "tableLabel": "Creature Pen",
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2Deck",
+        "discardGroupId": "player2Discard",
+        "inPlay": true
+      },
+      "canHaveAttachments": true
+    },
+    "player2Storage": {
+      "groupType": "aside",
+      "label": "Player 2 Storage Depot",
+      "tableLabel": "Storage Depot",
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2Deck",
+        "discardGroupId": "player2Discard"
+      }
+    },
+    "player2Reinforce": {
+      "groupType": "aside",
+      "label": "Player 2 Reinforce",
+      "tableLabel": "Reinforce",
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2Deck",
+        "discardGroupId": "player2Discard"
+      }
+    }
+  }
+}

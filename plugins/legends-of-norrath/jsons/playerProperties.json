@@ -1,0 +1,22 @@
+{
+  "playerProperties": {
+    "power": {
+      "label": "Power",
+      "type": "integer",
+      "default": 0,
+      "min": 0
+    },
+    "light": {
+      "label": "Light",
+      "type": "integer",
+      "default": 0,
+      "min": 0
+    },
+    "shadow": {
+      "label": "Shadow",
+      "type": "integer",
+      "default": 0,
+      "min": 0
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "pluginName": "Sailor Moon TCG",
+  "author": "Lackey / wishmstr",
+  "tutorialUrl": "https://github.com/wishmstr/SailorMoonTCG",
+  "announcements": [
+    "Tabletop plugin from the Lackey Sailor Moon TCG set. No rules engine — Draw, JKP, damage counters, and VP are shortcuts.",
+    "D = draw. R = ready all. I = rotate 180. X = discard. 1/2/3 = +10 / +30 / +100 damage. C = flip a coin."
+  ],
+  "loadPreBuiltOnNewGame": false,
+  "bannerUrl": "https://toybox.hundredacre.club/cards/sailor-moon-tcg/_plugin/banner2.jpg",
+  "logoUrl": "https://toybox.hundredacre.club/cards/sailor-moon-tcg/_plugin/logo2.jpg"
+}

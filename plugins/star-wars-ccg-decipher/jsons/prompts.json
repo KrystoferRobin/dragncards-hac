@@ -1,0 +1,14 @@
+{
+  "prompts": {
+    "welcome1": {
+      "args": [],
+      "message": "Welcome to Star Wars CCG on DragnCards. This table copies the WARS/Decipher layout (Reserve, Force, Used, Lost, location row) with GEMP's card list. It does not enforce card text. Builder or Menu → Load puts a deck in Reserve. Deploy starting locations onto the location row and your Objective into play. A = activate Force, P = use Force, D = draw from Force, Y = destiny onto the Stack, E = Used under Reserve. TAB shows hotkeys. Card data/art: GEMP / starwarsccg.org.",
+      "options": [
+        {
+          "hotkey": "K",
+          "label": "OK"
+        }
+      ]
+    }
+  }
+}

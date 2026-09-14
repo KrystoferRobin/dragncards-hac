@@ -1,0 +1,10 @@
+{
+  "preferences": {
+    "game": [
+      "loopUntilInvestigatorsDone"
+    ],
+    "player": [
+      "blockUnsafeActions"
+    ]
+  }
+}

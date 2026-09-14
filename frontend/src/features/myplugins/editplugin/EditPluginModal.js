@@ -8,7 +8,7 @@ import useForm from "../../../hooks/useForm";
 import useAuth from "../../../hooks/useAuth";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCheck } from "@fortawesome/free-solid-svg-icons";
-import { mergeJSONs, processArrayOfRows, readFileAsText, stringTo2DArray, importCardDbTsv } from "../uploadPluginFunctions";
+import { mergeJSONs, processArrayOfRows, readFileAsText, stringTo2DArray, importCardDbTsv, pluginCardDbFields, pluginSaveErrorMessage } from "../uploadPluginFunctions";
 import { validateSchema } from "../validate/validateGameDef";
 import { generateMarkdown, getGameDefSchema } from "../validate/getGameDefSchema";
 import useProfile from "../../../hooks/useProfile";
@@ -90,6 +90,7 @@ export const EditPluginModal = ({ plugin, closeModal, doFetchHash}) => {
     var res;
 
     
+    try {
     if (plugin === null) {
       // Create new plugin
       const updateData = {
@@ -97,10 +98,10 @@ export const EditPluginModal = ({ plugin, closeModal, doFetchHash}) => {
           name: inputs.gameDef.pluginName,
           author_id: user?.id,
           game_def: inputs.gameDef,
-          card_db: inputs.cardDb,
           repo_url: inputs.repoUrl,
           public: inputs.public || false,
           version: 1,
+          ...pluginCardDbFields(inputs),
         }
       }
       res = await axios.post("/be/api/myplugins", updateData, authOptions);
@@ -111,10 +112,10 @@ export const EditPluginModal = ({ plugin, closeModal, doFetchHash}) => {
         version: plugin.version + 1,
         repo_url: inputs.repoUrl,
         public: inputs.public,
+        ...pluginCardDbFields(inputs),
       }
       if (inputs.gameDef) newPlugin.game_def = inputs.gameDef;
       if (inputs.gameDef?.pluginName) newPlugin.name = inputs.gameDef.pluginName;
-      if (inputs.cardDb) newPlugin.card_db = inputs.cardDb;
 
       const updateData = {
         plugin: newPlugin
@@ -136,6 +137,11 @@ export const EditPluginModal = ({ plugin, closeModal, doFetchHash}) => {
       setSuccessMessage("");
       setErrorMessage("Error."); 
       setLoadingMessage("");
+    }
+    } catch (err) {
+      setLoadingMessage("");
+      setSuccessMessage("");
+      setErrorMessage(pluginSaveErrorMessage(err, "Error."));
     }
   });
 
@@ -274,7 +280,7 @@ export const EditPluginModal = ({ plugin, closeModal, doFetchHash}) => {
       if (result.status === 'success') {
         setSuccessMessageCardDb(result.messages[0]);
         setErrorMessageCardDb([]);
-        setInputs({...inputs, cardDb: result.cardDb});
+        setInputs({...inputs, cardDb: result.cardDb, cardDbTsvs: result.cardDbTsvs});
       } else {
         setSuccessMessageCardDb("");
         setErrorMessageCardDb(result.messages);

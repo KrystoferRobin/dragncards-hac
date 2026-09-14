@@ -1,0 +1,7 @@
+{
+  "browse": {
+    "filterPropertySideA": "type",
+    "filterValuesSideA": ["Warrior", "Inspiration", "Armor", "Weapon", "Special"],
+    "textPropertiesSideA": ["name", "text", "culture", "traits"]
+  }
+}

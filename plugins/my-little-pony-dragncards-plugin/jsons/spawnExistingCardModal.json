@@ -1,0 +1,19 @@
+{
+  "spawnExistingCardModal": {
+    "columnProperties": ["name", "type", "cost", "inspiration", "set"],
+    "loadGroupIds": [
+      "playerNDeck",
+      "playerNSceneDeck",
+      "playerNStoryDeck",
+      "playerNMC",
+      "playerNHand",
+      "playerNLane1",
+      "playerNLane2",
+      "playerNLane3",
+      "playerNScenes",
+      "playerNStory",
+      "playerNPlans",
+      "playerNRetire"
+    ]
+  }
+}

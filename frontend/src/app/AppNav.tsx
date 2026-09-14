@@ -1,11 +1,8 @@
-import React, { useState } from "react";
+import React from "react";
 import { Link, useHistory } from "react-router-dom";
 import useAuth from "../hooks/useAuth";
 import ProfileLink from "../features/auth/ProfileLink";
 import useProfile from "../hooks/useProfile";
-import { PatreonModal } from "../features/store/support/PatreonModal";
-import { faHeart } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const navLinkClass =
   "px-3 py-1 text-md text-gray-300 font-medium rounded hover:text-white hover:bg-gray-600 no-underline transition-colors duration-150 cursor-pointer";
@@ -14,7 +11,6 @@ export const AppNav: React.FC = () => {
   const { authToken, logOut } = useAuth();
   const history = useHistory();
   const user = useProfile();
-  const [showPatreon, setShowPatreon] = useState(false);
 
   return (
     <header
@@ -60,23 +56,12 @@ export const AppNav: React.FC = () => {
             </Link>
           </>
         )}
-        {authToken && !user?.supporter_level && (
-          <span className={navLinkClass} onClick={() => setShowPatreon(true)}>
-            <FontAwesomeIcon icon={faHeart} className="text-pink-400 mr-1" />
-            Support
-          </span>
-        )}
         {authToken && (
           <span className={navLinkClass} onClick={() => logOut()}>
             Sign Out
           </span>
         )}
       </nav>
-      <PatreonModal
-        isOpen={showPatreon}
-        isLoggedIn={!!authToken}
-        closeModal={() => setShowPatreon(false)}
-      />
     </header>
   );
 };

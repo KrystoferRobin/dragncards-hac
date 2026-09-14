@@ -1,0 +1,12 @@
+{
+  "pluginMenu": {
+    "options": [
+      {"label": "Draw", "actionList": "drawDeck"},
+      {"label": "Shuffle deck", "actionList": "shuffleDeck"},
+      {"label": "Untack all", "actionList": "untackAll"},
+      {"label": "Discard top of deck", "actionList": "discardTop"},
+      {"label": "Roll 1d6", "actionList": "roll1d6"},
+      {"label": "Place Theah seas", "actionList": "loadSeas"}
+    ]
+  }
+}

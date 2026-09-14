@@ -1,0 +1,26 @@
+{
+  "phases": {
+    "regroup": {
+      "label": "Regroup",
+      "height": "25%"
+    },
+    "proto": {
+      "label": "Proto",
+      "height": "25%"
+    },
+    "mobilize": {
+      "label": "Mobilize",
+      "height": "25%"
+    },
+    "battle": {
+      "label": "Battle",
+      "height": "25%"
+    }
+  },
+  "phaseOrder": [
+    "regroup",
+    "proto",
+    "mobilize",
+    "battle"
+  ]
+}

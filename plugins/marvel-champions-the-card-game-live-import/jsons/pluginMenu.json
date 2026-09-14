@@ -1,0 +1,16 @@
+{
+  "pluginMenu": {
+    "options": [
+      {
+        "actionList": [
+          "TOGGLE_ENCOUNTER_2_DECK",
+          [
+            "NOT",
+            "$GAME.layoutregions.sharedEncounter2Deck.visible"
+          ]
+        ],
+        "label": "id:toggleEncounterDeck2"
+      }
+    ]
+  }
+}

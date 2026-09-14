@@ -1,9 +1,8 @@
-import React, { useState } from "react";
+import React from "react";
 import ReactModal from "react-modal";
 import Button from "../../components/basic/Button";
 import Axios from "axios";
 import { useAuthOptions } from "../../hooks/useAuthOptions";
-import { PatreonModal } from "../store/support/PatreonModal";
 
 ReactModal.setAppElement("#root");
 
@@ -110,8 +109,6 @@ const releaseStyle = {
 
 export const WhatsNewModal = ({ isOpen, closeModal, user }) => {
   const authOptions = useAuthOptions();
-  const [showPatreon, setShowPatreon] = useState(false);
-  const isSupporter = user?.supporter_level;
   const dismissedVersion = user?.whats_new_dismissed || 0;
   const visibleReleases = releases.filter(
     (release) => release.whatsNewVersion > dismissedVersion
@@ -185,14 +182,6 @@ export const WhatsNewModal = ({ isOpen, closeModal, user }) => {
               <div key={si} style={sectionStyle}>
                 <div style={sectionHeadingStyle}>
                   {section.heading}
-                  {section.subscriberOnly && !isSupporter && (
-                    <span
-                      onClick={() => setShowPatreon(true)}
-                      style={{ marginLeft: "8px", fontSize: "0.8rem", color: "#60a5fa", cursor: "pointer" }}
-                    >
-                      Support now
-                    </span>
-                  )}
                 </div>
                 <ul style={listStyle}>
                   {section.items.map((item, ii) => (
@@ -208,7 +197,6 @@ export const WhatsNewModal = ({ isOpen, closeModal, user }) => {
           Got it
         </Button>
       </div>
-      <PatreonModal isOpen={showPatreon} closeModal={() => setShowPatreon(false)} />
     </ReactModal>
   );
 };

@@ -1,0 +1,17 @@
+{
+  "browse": {
+    "filterPropertySideA": "type",
+    "filterValuesSideA": [
+      "BattleChip",
+      "Event",
+      "Level Up!",
+      "NetNavi",
+      "Resource"
+    ],
+    "textPropertiesSideA": [
+      "name",
+      "packName",
+      "text"
+    ]
+  }
+}

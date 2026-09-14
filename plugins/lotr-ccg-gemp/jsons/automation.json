@@ -1,0 +1,158 @@
+{
+  "automation": {
+    "cards": {},
+    "gameRules": {
+      "phaseText": {
+        "_comment": "Phase reminders",
+        "condition": true,
+        "inheritFrom": "stepTrigger",
+        "priority": 10,
+        "then": [
+          "COND",
+          [
+            "EQUAL",
+            "$GAME.stepId",
+            "1.0"
+          ],
+          [
+            [
+              "FADE_TEXT_GAME",
+              "Fellowship"
+            ],
+            [
+              "UPDATE_LAYOUT",
+              "/layout/textBoxes/roundAdvancement/label",
+              "Play companions/allies/possessions (pay twilight into the pool). T adds twilight. D draws. Arrow-Down for Shadow."
+            ]
+          ],
+          [
+            "EQUAL",
+            "$GAME.stepId",
+            "2.0"
+          ],
+          [
+            [
+              "FADE_TEXT_GAME",
+              "Shadow"
+            ],
+            [
+              "UPDATE_LAYOUT",
+              "/layout/textBoxes/roundAdvancement/label",
+              "Opponent plays minions to the shadow row, paying twilight from the pool. Arrow-Down for Maneuver."
+            ]
+          ],
+          [
+            "EQUAL",
+            "$GAME.stepId",
+            "3.0"
+          ],
+          [
+            [
+              "FADE_TEXT_GAME",
+              "Maneuver"
+            ],
+            [
+              "UPDATE_LAYOUT",
+              "/layout/textBoxes/roundAdvancement/label",
+              "Maneuver actions (both sides). Arrow-Down for Archery."
+            ]
+          ],
+          [
+            "EQUAL",
+            "$GAME.stepId",
+            "4.0"
+          ],
+          [
+            [
+              "FADE_TEXT_GAME",
+              "Archery"
+            ],
+            [
+              "UPDATE_LAYOUT",
+              "/layout/textBoxes/roundAdvancement/label",
+              "Count archery totals; wound that many characters. Arrow-Down for Assignment."
+            ]
+          ],
+          [
+            "EQUAL",
+            "$GAME.stepId",
+            "5.0"
+          ],
+          [
+            [
+              "FADE_TEXT_GAME",
+              "Assignment"
+            ],
+            [
+              "UPDATE_LAYOUT",
+              "/layout/textBoxes/roundAdvancement/label",
+              "Assign minions to companions (drag onto fellowship or log skirmish). Arrow-Down for Skirmish."
+            ]
+          ],
+          [
+            "EQUAL",
+            "$GAME.stepId",
+            "6.0"
+          ],
+          [
+            [
+              "FADE_TEXT_GAME",
+              "Skirmish"
+            ],
+            [
+              "UPDATE_LAYOUT",
+              "/layout/textBoxes/roundAdvancement/label",
+              "Resolve each skirmish: strength + wound loser. W wounds. Arrow-Down for Regroup."
+            ]
+          ],
+          [
+            "EQUAL",
+            "$GAME.stepId",
+            "7.0"
+          ],
+          [
+            [
+              "FADE_TEXT_GAME",
+              "Regroup"
+            ],
+            [
+              "UPDATE_LAYOUT",
+              "/layout/textBoxes/roundAdvancement/label",
+              "Reconcile, optional another Shadow round or End Turn (Used/discard cleanup). Arrow-Down for next Fellowship."
+            ]
+          ]
+        ]
+      },
+      "stepTrigger": {
+        "_comment": "Watch step changes",
+        "abstract": true,
+        "listenTo": [
+          "/stepId"
+        ],
+        "type": "trigger"
+      }
+    },
+    "postLoadActionList": [
+      [
+        "LOG",
+        "{{$PLAYER_N}} loaded some cards."
+      ]
+    ],
+    "postNewGameActionList": [
+      [
+        "LOG",
+        "A new game was created."
+      ],
+      [
+        "PROMPT",
+        "player1",
+        "welcome1"
+      ],
+      [
+        "PROMPT",
+        "player2",
+        "welcome1"
+      ]
+    ]
+  }
+}

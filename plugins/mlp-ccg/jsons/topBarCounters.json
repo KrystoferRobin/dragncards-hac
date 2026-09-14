@@ -1,0 +1,23 @@
+{
+  "topBarCounters": {
+    "shared": [
+      {
+        "label": "Round",
+        "imageUrl": "",
+        "gameProperty": "roundNumber"
+      }
+    ],
+    "player": [
+      {
+        "label": "Points",
+        "imageUrl": "",
+        "playerProperty": "points"
+      },
+      {
+        "label": "Action Tokens",
+        "imageUrl": "",
+        "playerProperty": "actions"
+      }
+    ]
+  }
+}

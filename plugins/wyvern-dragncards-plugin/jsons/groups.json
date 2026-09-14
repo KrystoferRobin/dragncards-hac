@@ -1,0 +1,150 @@
+{
+  "groups": {
+    "sharedSetAside": {
+      "groupType": "aside",
+      "label": "Set Aside",
+      "tableLabel": "Set Aside",
+      "onCardEnter": {
+        "controller": "shared"
+      }
+    },
+    "player1TreasureHorde": {
+      "groupType": "deck",
+      "label": "Player 1 Treasure Horde",
+      "tableLabel": "Treasure Horde",
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1TreasureHorde",
+        "discardGroupId": "player1TreasureDiscard"
+      }
+    },
+    "player1TreasureDiscard": {
+      "groupType": "discard",
+      "label": "Player 1 Treasure Discard",
+      "tableLabel": "Treasure Discard",
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1TreasureHorde",
+        "discardGroupId": "player1TreasureDiscard"
+      }
+    },
+    "player1DragonLair": {
+      "groupType": "deck",
+      "label": "Player 1 Dragon Lair",
+      "tableLabel": "Dragon Lair",
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1DragonLair",
+        "discardGroupId": "player1DragonLairDiscard"
+      }
+    },
+    "player1DragonLairDiscard": {
+      "groupType": "discard",
+      "label": "Player 1 Dragon Lair Discard",
+      "tableLabel": "Dragon Discard",
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1DragonLair",
+        "discardGroupId": "player1DragonLairDiscard"
+      }
+    },
+    "player1Hand": {
+      "groupType": "hand",
+      "label": "Player 1 Hand",
+      "tableLabel": "Hand",
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1TreasureHorde",
+        "discardGroupId": "player1TreasureDiscard"
+      }
+    },
+    "player1DragonLairHand": {
+      "groupType": "hand",
+      "label": "Player 1 Dragon Lair Hand",
+      "tableLabel": "Dragon Hand",
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1DragonLair",
+        "discardGroupId": "player1DragonLairDiscard"
+      }
+    },
+    "player1Battlefield": {
+      "groupType": "inPlay",
+      "label": "Player 1 Battlefield",
+      "tableLabel": "Battlefield",
+      "canHaveAttachments": true,
+      "onCardEnter": {
+        "controller": "player1"
+      }
+    },
+    "player2TreasureHorde": {
+      "groupType": "deck",
+      "label": "Player 2 Treasure Horde",
+      "tableLabel": "Treasure Horde",
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2TreasureHorde",
+        "discardGroupId": "player2TreasureDiscard"
+      }
+    },
+    "player2TreasureDiscard": {
+      "groupType": "discard",
+      "label": "Player 2 Treasure Discard",
+      "tableLabel": "Treasure Discard",
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2TreasureHorde",
+        "discardGroupId": "player2TreasureDiscard"
+      }
+    },
+    "player2DragonLair": {
+      "groupType": "deck",
+      "label": "Player 2 Dragon Lair",
+      "tableLabel": "Dragon Lair",
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2DragonLair",
+        "discardGroupId": "player2DragonLairDiscard"
+      }
+    },
+    "player2DragonLairDiscard": {
+      "groupType": "discard",
+      "label": "Player 2 Dragon Lair Discard",
+      "tableLabel": "Dragon Discard",
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2DragonLair",
+        "discardGroupId": "player2DragonLairDiscard"
+      }
+    },
+    "player2Hand": {
+      "groupType": "hand",
+      "label": "Player 2 Hand",
+      "tableLabel": "Hand",
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2TreasureHorde",
+        "discardGroupId": "player2TreasureDiscard"
+      }
+    },
+    "player2DragonLairHand": {
+      "groupType": "hand",
+      "label": "Player 2 Dragon Lair Hand",
+      "tableLabel": "Dragon Hand",
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2DragonLair",
+        "discardGroupId": "player2DragonLairDiscard"
+      }
+    },
+    "player2Battlefield": {
+      "groupType": "inPlay",
+      "label": "Player 2 Battlefield",
+      "tableLabel": "Battlefield",
+      "canHaveAttachments": true,
+      "onCardEnter": {
+        "controller": "player2"
+      }
+    }
+  }
+}

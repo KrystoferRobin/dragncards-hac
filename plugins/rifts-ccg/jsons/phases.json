@@ -1,0 +1,31 @@
+{
+  "phases": {
+    "ready": {
+      "label": "Ready",
+      "height": "20%"
+    },
+    "draw": {
+      "label": "Draw",
+      "height": "20%"
+    },
+    "play": {
+      "label": "Play Cards",
+      "height": "20%"
+    },
+    "attack": {
+      "label": "Attack",
+      "height": "20%"
+    },
+    "end": {
+      "label": "End Turn",
+      "height": "20%"
+    }
+  },
+  "phaseOrder": [
+    "ready",
+    "draw",
+    "play",
+    "attack",
+    "end"
+  ]
+}

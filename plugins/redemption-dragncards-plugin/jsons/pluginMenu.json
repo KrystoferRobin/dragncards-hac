@@ -1,0 +1,14 @@
+{
+  "pluginMenu": {
+    "options": [
+      {"label": "Draw", "actionList": "drawCard"},
+      {"label": "Draw 8", "actionList": "drawEight"},
+      {"label": "Shuffle deck", "actionList": "shuffleDeck"},
+      {"label": "Reveal top to Territory", "actionList": "revealTop"},
+      {"label": "Roll 1d6", "actionList": "roll1d6"},
+      {"label": "Flip a coin", "actionList": "flipCoin"},
+      {"label": "Gain 1 Redeemed Soul", "actionList": "increaseSouls"},
+      {"label": "Lose 1 Redeemed Soul", "actionList": "decreaseSouls"}
+    ]
+  }
+}

@@ -1,0 +1,305 @@
+databaseId	name	imageUrl	cardBack	type	packName	set	loadGroupId	corps	price	clash	msType	dockPilot	limited	unique	preemptive
+set1_BF_001_liberation_army_village	Liberation Army Village	gundam-ms-war-ccg/set-1/GundamMsWarCcg-Set1-LiberationArmyVillage.jpg	default	Battlefield	Set 1	set1	playerNSupplyBase	WG	2						
+set1_BF_002_Singapore_space_base	Singapore Space Base	gundam-ms-war-ccg/set-1/GundamMsWarCcg-Set1-SingaporeSpaceBase.jpg	default	Battlefield	Set 1	set1	playerNSupplyBase	WG	2						
+set1_BF_003_Sanc_Kingdom	Sanc Kingdom	gundam-ms-war-ccg/set-1/GundamMsWarCcg-Set1-SancKingdom.jpg	default	Battlefield	Set 1	set1	playerNSupplyBase	WG	2						
+set1_BF_004_L2_Colony	L2 Colony	gundam-ms-war-ccg/set-1/GundamMsWarCcg-Set1-L2Colony.jpg	default	Battlefield	Set 1	set1	playerNSupplyBase	WG	2				Y		
+set1_BF_005_New_Edwards_Base	New Edwards Base	gundam-ms-war-ccg/set-1/GundamMsWarCcg-Set1-NewEdwardsBase.jpg	default	Battlefield	Set 1	set1	playerNSupplyBase	WG	2						
+set1_BF_006_Lake_Victoria_Base	Lake Victoria Base	gundam-ms-war-ccg/set-1/GundamMsWarCcg-Set1-LakeVictoriaBase.jpg	default	Battlefield	Set 1	set1	playerNSupplyBase	Oz	2						
+set1_BF_007_luxembourg_base	Luxembourg Base	gundam-ms-war-ccg/set-1/GundamMsWarCcg-Set1-LuxembourgBase.jpg	default	Battlefield	Set 1	set1	playerNSupplyBase	Oz	2						
+set1_BF_008_Space_Fortress_Libra	Space Fortress Libra	gundam-ms-war-ccg/set-1/GundamMsWarCcg-Set1-SpaceFortressLibra.jpg	default	Battlefield	Set 1	set1	playerNSupplyBase	Oz	4				Y		
+set1_BF_009_Corsica_base	Corsica Base	gundam-ms-war-ccg/set-1/GundamMsWarCcg-Set1-CorsicaBase.jpg	default	Battlefield	Set 1	set1	playerNSupplyBase	WG	2						
+set1_BF_010_ST.Gabriela_school	St. Gabriela School	gundam-ms-war-ccg/set-1/GundamMsWarCcg-Set1-StGabrielaSchool.jpg	default	Battlefield	Set 1	set1	playerNSupplyBase	WG	1						
+set1_BF_011_disputed_area	Disputed Area	gundam-ms-war-ccg/set-1/GundamMsWarCcg-Set1-DisputedArea.jpg	default	Battlefield	Set 1	set1	playerNSupplyBase	WG	0						
+set1_BF_012_L5_colony	L5 Colony	gundam-ms-war-ccg/set-1/GundamMsWarCcg-Set1-L5Colony.jpg	default	Battlefield	Set 1	set1	playerNSupplyBase	WG	2						
+set1_BF_013_Howard's_repair_shop	Howard's Repair Shop	gundam-ms-war-ccg/set-1/GundamMsWarCcg-Set1-HowardsRepairShop.jpg	default	Battlefield	Set 1	set1	playerNSupplyBase	WG	1						
+set1_BF_014_the_winners_villa_basement	The Winners' Villa Basement	gundam-ms-war-ccg/set-1/GundamMsWarCcg-Set1-TheWinnersVillaBasement.jpg	default	Battlefield	Set 1	set1	playerNSupplyBase	WG	1						
+set1_BF_015_The_yangtze_river	The Yangtze River	gundam-ms-war-ccg/set-1/GundamMsWarCcg-Set1-TheYangtzeRiver.jpg	default	Battlefield	Set 1	set1	playerNSupplyBase	WG	1						
+set1_BF_016_The_old_alliance's_space_colony	The Old Alliance's Space Colony	gundam-ms-war-ccg/set-1/GundamMsWarCcg-Set1-TheOldAlliancesSpaceColony.jpg	default	Battlefield	Set 1	set1	playerNSupplyBase	WG	1						
+set1_BF_017_europe_air_force_base	Europe Air Force Base	gundam-ms-war-ccg/set-1/GundamMsWarCcg-Set1-EuropeAirForceBase.jpg	default	Battlefield	Set 1	set1	playerNSupplyBase	Oz	2						
+set1_BF_018_the_treize_fleet	The Treize Fleet	gundam-ms-war-ccg/set-1/GundamMsWarCcg-Set1-TheTreizeFleet.jpg	default	Battlefield	Set 1	set1	playerNSupplyBase	Oz	2						
+set1_BF_019_Romefeller_foundation's_hq	Romefeller Foundation's HQ	gundam-ms-war-ccg/set-1/GundamMsWarCcg-Set1-RomefellerFoundationsHQ.jpg	default	Battlefield	Set 1	set1	playerNSupplyBase	Oz	2						
+set1_BF_020_the_lunar_base	The Lunar Base	gundam-ms-war-ccg/set-1/GundamMsWarCcg-Set1-TheLunarBase.jpg	default	Battlefield	Set 1	set1	playerNSupplyBase	Oz	2						
+set1_BF_021_South_Pole_base	South Pole Base	gundam-ms-war-ccg/set-1/GundamMsWarCcg-Set1-SouthPoleBase.jpg	default	Battlefield	Set 1	set1	playerNSupplyBase	Oz	2						
+set1_BF_022_Under_the_north_russian_sea	Under the North Russian Sea	gundam-ms-war-ccg/set-1/GundamMsWarCcg-Set1-UnderTheNorthRussianSea.jpg	default	Battlefield	Set 1	set1	playerNSupplyBase	Oz	2						
+set1_BF_023_old_space_colony	Old Space Colony	gundam-ms-war-ccg/set-1/GundamMsWarCcg-Set1-OldSpaceColony.jpg	default	Battlefield	Set 1	set1	playerNSupplyBase	Oz	2						
+set1_BF_024_urban_area	Urban Area	gundam-ms-war-ccg/set-1/GundamMsWarCcg-Set1-UrbanArea.jpg	default	Battlefield	Set 1	set1	playerNSupplyBase	Oz	2						
+set1_BF_025_C421_space_colony	C421 Space Colony	gundam-ms-war-ccg/set-1/GundamMsWarCcg-Set1-C421SpaceColony.jpg	default	Battlefield	Set 1	set1	playerNSupplyBase	Oz	2						
+set2_BF_026_x-18999	X-18999	gundam-ms-war-ccg/set-2/GundamMsWarCcg-Set2-X18999.jpg	default	Battlefield	Set 2	set2	playerNSupplyBase	Oz	3				Y		
+set2_BF_027_L1_Colony	L1 Colony	gundam-ms-war-ccg/set-2/GundamMsWarCcg-Set2-L1Colony.jpg	default	Battlefield	Set 2	set2	playerNSupplyBase	WG	3						
+set2_BF_028_satellite_mo_111	Satelite MO-III	gundam-ms-war-ccg/set-2/GundamMsWarCcg-Set2-SateliteMOIII.jpg	default	Battlefield	Set 2	set2	playerNSupplyBase	Oz	2						
+set2_BF_029_the_gundam_scrap_heap	The Gundam Scrap Heap	gundam-ms-war-ccg/set-2/GundamMsWarCcg-Set2-TheGundamScrapHeap.jpg	default	Battlefield	Set 2	set2	playerNSupplyBase	WG	3						
+set2_BF_030_In_the_atmosphere	In the Atmosphere	gundam-ms-war-ccg/set-2/GundamMsWarCcg-Set2-InTheAtmosphere.jpg	default	Battlefield	Set 2	set2	playerNSupplyBase	Oz	2						
+set2_BF_031_In_the_satellite's_orbit	In the Satellite's Orbit	gundam-ms-war-ccg/set-2/GundamMsWarCcg-Set2-InTheSatellitesOrbit.jpg	default	Battlefield	Set 2	set2	playerNSupplyBase	WG	3						
+set2_BF_032_mariemaia_army_headquarters	Mariemaia Army Headquarters	gundam-ms-war-ccg/set-2/GundamMsWarCcg-Set2-MariemaiaArmyHeadquarters.jpg	default	Battlefield	Set 2	set2	playerNSupplyBase	Oz	2						
+set2_BF_033_the_government_general	The Government-General	gundam-ms-war-ccg/set-2/GundamMsWarCcg-Set2-TheGovernmentGeneral.jpg	default	Battlefield	Set 2	set2	playerNSupplyBase	Oz	4						
+set3_BF_034_Side_7	Side 7	gundam-ms-war-ccg/set-3/GundamMsWarCcg-Set3-Side7.jpg	default	Battlefield	Set 3	set3	playerNSupplyBase	EF	3						
+set3_BF_035_Luna_II	Luna II	gundam-ms-war-ccg/set-3/GundamMsWarCcg-Set3-LunaII.jpg	default	Battlefield	Set 3	set3	playerNSupplyBase	EF	3						
+set3_BF_036_jabrow	Jaburo	gundam-ms-war-ccg/set-3/GundamMsWarCcg-Set3-Jaburo.jpg	default	Battlefield	Set 3	set3	playerNSupplyBase	EF	4						
+set3_BF_037_North_America	North America	gundam-ms-war-ccg/set-3/GundamMsWarCcg-Set3-NorthAmerica.jpg	default	Battlefield	Set 3	set3	playerNSupplyBase	PZ	3						
+set3_BF_038_the_zeon_mining_region	The Zeon Mining Region	gundam-ms-war-ccg/set-3/GundamMsWarCcg-Set3-TheZeonMiningRegion.jpg	default	Battlefield	Set 3	set3	playerNSupplyBase	PZ	3						
+set3_BF_039_Odessa	Odessa	gundam-ms-war-ccg/set-3/GundamMsWarCcg-Set3-Odessa.jpg	default	Battlefield	Set 3	set3	playerNSupplyBase	PZ	4						
+set1_EV_001_operation_meteor	Operation Meteor	gundam-ms-war-ccg/set-1/GundamMsWarCcg-Set1-OperationMeteor.jpg	default	Event	Set 1	set1	playerNSupplyBase	WG	3						
+set1_EV_002_shocking_reply	Shocking Reply	gundam-ms-war-ccg/set-1/GundamMsWarCcg-Set1-ShockingReply.jpg	default	Event	Set 1	set1	playerNSupplyBase	WG	2						
+set1_EV_003_rebel_factor	Rebel Factor	gundam-ms-war-ccg/set-1/GundamMsWarCcg-Set1-RebelFactor.jpg	default	Event	Set 1	set1	playerNSupplyBase	WG	2						
+set1_EV_004_Support_of_maganac_corps	Support of Maganac Corps	gundam-ms-war-ccg/set-1/GundamMsWarCcg-Set1-SupportOfMaganacCorps.jpg	default	Event	Set 1	set1	playerNSupplyBase	WG	2						
+set1_EV_005_highly_trained_pilot	Highly Trained Pilot	gundam-ms-war-ccg/set-1/GundamMsWarCcg-Set1-HighlyTrainedPilot.jpg	default	Event	Set 1	set1	playerNSupplyBase	WG	2						
+set1_EV_006_nation_of_total_pacifism	Nation of Total Pacifism	gundam-ms-war-ccg/set-1/GundamMsWarCcg-Set1-NationOfTotalPacifism.jpg	default	Event	Set 1	set1	playerNSupplyBase	WG	1						
+set1_EV_007_specials	Specials	gundam-ms-war-ccg/set-1/GundamMsWarCcg-Set1-Specials.jpg	default	Event	Set 1	set1	playerNSupplyBase	Oz	3				Y		
+set1_EV_008_Romefeller_foundation	Romefeller Foundation	gundam-ms-war-ccg/set-1/GundamMsWarCcg-Set1-RomefellerFoundation.jpg	default	Event	Set 1	set1	playerNSupplyBase	Oz	2				Y		
+set1_EV_009_assassination	Assassination	gundam-ms-war-ccg/set-1/GundamMsWarCcg-Set1-Assassination.jpg	default	Event	Set 1	set1	playerNSupplyBase	Oz	3						
+set1_EV_010_emergency_escape	Emergency Escape	gundam-ms-war-ccg/set-1/GundamMsWarCcg-Set1-EmergencyEscape.jpg	default	Event	Set 1	set1	playerNSupplyBase	Oz	1						
+set1_EV_011_operation_daybreak	Operation Daybreak	gundam-ms-war-ccg/set-1/GundamMsWarCcg-Set1-OperationDaybreak.jpg	default	Event	Set 1	set1	playerNSupplyBase	Oz	3						
+set1_EV_012_mobile_doll	Mobile Doll	gundam-ms-war-ccg/set-1/GundamMsWarCcg-Set1-MobileDoll.jpg	default	Event	Set 1	set1	playerNSupplyBase	Oz	2						
+set1_EV_013_confinment	Confinement	gundam-ms-war-ccg/set-1/GundamMsWarCcg-Set1-Confinement.jpg	default	Event	Set 1	set1	playerNSupplyBase	Oz	2						
+set1_EV_014_space_fortress_barge	Space Fortress Barge	gundam-ms-war-ccg/set-1/GundamMsWarCcg-Set1-SpaceFortressBarge.jpg	default	Event	Set 1	set1	playerNSupplyBase	Oz	3				Y		
+set1_EV_015_surrender	Surrender	gundam-ms-war-ccg/set-1/GundamMsWarCcg-Set1-Surrender.jpg	default	Event	Set 1	set1	playerNSupplyBase	WG	2						
+set1_EV_016_covering_fire	Covering Fire	gundam-ms-war-ccg/set-1/GundamMsWarCcg-Set1-CoveringFire.jpg	default	Event	Set 1	set1	playerNSupplyBase	WG	2						
+set1_EV_017_the_peacecrafts	The Peacecrafts	gundam-ms-war-ccg/set-1/GundamMsWarCcg-Set1-ThePeacecrafts.jpg	default	Event	Set 1	set1	playerNSupplyBase	WG	2						
+set1_EV_018_High_powered_combat	High Powered Combat	gundam-ms-war-ccg/set-1/GundamMsWarCcg-Set1-HighPoweredCombat.jpg	default	Event	Set 1	set1	playerNSupplyBase	WG	2						
+set1_EV_019_circus	Circus	gundam-ms-war-ccg/set-1/GundamMsWarCcg-Set1-Circus.jpg	default	Event	Set 1	set1	playerNSupplyBase	WG	2						
+set1_EV_020_part_thieves	Parts Thieves	gundam-ms-war-ccg/set-1/GundamMsWarCcg-Set1-PartsThieves.jpg	default	Event	Set 1	set1	playerNSupplyBase	WG	1						
+set1_EV_021_time_to_rest	Time to Rest	gundam-ms-war-ccg/set-1/GundamMsWarCcg-Set1-TimeToRest.jpg	default	Event	Set 1	set1	playerNSupplyBase	WG	2						
+set1_EV_022_oz_corps_infiltration	Oz Corps Infiltration	gundam-ms-war-ccg/set-1/GundamMsWarCcg-Set1-OzCorpsInfiltration.jpg	default	Event	Set 1	set1	playerNSupplyBase	WG	2						
+set1_EV_023_zero_system	Zero System	gundam-ms-war-ccg/set-1/GundamMsWarCcg-Set1-ZeroSystem.jpg	default	Event	Set 1	set1	playerNSupplyBase	WG	5				Y		
+set1_EV_024_birthday_party	Birthday Party	gundam-ms-war-ccg/set-1/GundamMsWarCcg-Set1-BirthdayParty.jpg	default	Event	Set 1	set1	playerNSupplyBase	WG	1						
+set1_EV_025_memory_loss	Memory Loss	gundam-ms-war-ccg/set-1/GundamMsWarCcg-Set1-MemoryLoss.jpg	default	Event	Set 1	set1	playerNSupplyBase	WG	1						
+set1_EV_026_Mercenary	Mercenary	gundam-ms-war-ccg/set-1/GundamMsWarCcg-Set1-Mercenary.jpg	default	Event	Set 1	set1	playerNSupplyBase	WG	1						
+set1_EV_027_Experience_counts	Experience Counts	gundam-ms-war-ccg/set-1/GundamMsWarCcg-Set1-ExperienceCounts.jpg	default	Event	Set 1	set1	playerNSupplyBase	WG	3						
+set1_EV_028_Training	Training	gundam-ms-war-ccg/set-1/GundamMsWarCcg-Set1-Training.jpg	default	Event	Set 1	set1	playerNSupplyBase	WG	3						
+set1_EV_029_Triumphant_return	Triumphant Return	gundam-ms-war-ccg/set-1/GundamMsWarCcg-Set1-TriumphantReturn.jpg	default	Event	Set 1	set1	playerNSupplyBase	WG	1						
+set1_EV_030_Aftermath	Aftermath	gundam-ms-war-ccg/set-1/GundamMsWarCcg-Set1-Aftermath.jpg	default	Event	Set 1	set1	playerNSupplyBase	WG	3				Y		
+set1_EV_031_Mission_failure	Mission Failure	gundam-ms-war-ccg/set-1/GundamMsWarCcg-Set1-MissionFailure.jpg	default	Event	Set 1	set1	playerNSupplyBase	WG	0						
+set1_EV_032_White_fang	White Fang	gundam-ms-war-ccg/set-1/GundamMsWarCcg-Set1-WhiteFang.jpg	default	Event	Set 1	set1	playerNSupplyBase	Oz	5						
+set1_EV_033_the_world_nation_forces	The World Nation Forces	gundam-ms-war-ccg/set-1/GundamMsWarCcg-Set1-TheWorldNationForces.jpg	default	Event	Set 1	set1	playerNSupplyBase	Oz	2						
+set1_EV_034_Vanquished	Vanquished	gundam-ms-war-ccg/set-1/GundamMsWarCcg-Set1-Vanquished.jpg	default	Event	Set 1	set1	playerNSupplyBase	Oz	3				Y		
+set1_EV_035_message_from_treize_khushrenada	Message From Treize Khushrenada	gundam-ms-war-ccg/set-1/GundamMsWarCcg-Set1-MessageFromTreizeKhushrenada.jpg	default	Event	Set 1	set1	playerNSupplyBase	Oz	2						
+set1_EV_036_Commander	Commander	gundam-ms-war-ccg/set-1/GundamMsWarCcg-Set1-Commander.jpg	default	Event	Set 1	set1	playerNSupplyBase	Oz	2						
+set1_EV_037_assassin's_bullet	Assassin's Bullet	gundam-ms-war-ccg/set-1/GundamMsWarCcg-Set1-AssassinsBullet.jpg	default	Event	Set 1	set1	playerNSupplyBase	Oz	2						
+set1_EV_038_Encouragement	Encouragement	gundam-ms-war-ccg/set-1/GundamMsWarCcg-Set1-Encouragement.jpg	default	Event	Set 1	set1	playerNSupplyBase	Oz	1						
+set1_EV_039_military_action	Military Action	gundam-ms-war-ccg/set-1/GundamMsWarCcg-Set1-MilitaryAction.jpg	default	Event	Set 1	set1	playerNSupplyBase	Oz	2						
+set1_EV_040_Research_group	Research Group	gundam-ms-war-ccg/set-1/GundamMsWarCcg-Set1-ResearchGroup.jpg	default	Event	Set 1	set1	playerNSupplyBase	Oz	1						
+set1_EV_041_Camouflage	Camouflage	gundam-ms-war-ccg/set-1/GundamMsWarCcg-Set1-Camouflage.jpg	default	Event	Set 1	set1	playerNSupplyBase	Oz	2						
+set1_EV_042_loner	Loner	gundam-ms-war-ccg/set-1/GundamMsWarCcg-Set1-Loner.jpg	default	Event	Set 1	set1	playerNSupplyBase	Oz	2						
+set1_EV_043_Rose_Essence	Rose Essence	gundam-ms-war-ccg/set-1/GundamMsWarCcg-Set1-RoseEssence.jpg	default	Event	Set 1	set1	playerNSupplyBase	Oz	1				Y		
+set1_EV_044_Decoy	Decoy	gundam-ms-war-ccg/set-1/GundamMsWarCcg-Set1-Decoy.jpg	default	Event	Set 1	set1	playerNSupplyBase	Oz	3						
+set1_EV_045_the_alliance_summit	The Alliance Summit	gundam-ms-war-ccg/set-1/GundamMsWarCcg-Set1-TheAllianceSummit.jpg	default	Event	Set 1	set1	playerNSupplyBase	Oz	4				Y		
+set1_EV_046_MD_control_device	MD Control Device	gundam-ms-war-ccg/set-1/GundamMsWarCcg-Set1-MDControlDevice.jpg	default	Event	Set 1	set1	playerNSupplyBase	Oz	4				Y		
+set1_EV_047_single_combat	Single Combat	gundam-ms-war-ccg/set-1/GundamMsWarCcg-Set1-SingleCombat.jpg	default	Event	Set 1	set1	playerNSupplyBase	Oz	2						
+set1_EV_048_self-sacrifice	Self-Sacrifice	gundam-ms-war-ccg/set-1/GundamMsWarCcg-Set1-SelfSacrifice.jpg	default	Event	Set 1	set1	playerNSupplyBase	Oz	3				Y		
+set1_EV_049_Special_attack_corps	Special Attack Corps	gundam-ms-war-ccg/set-1/GundamMsWarCcg-Set1-SpecialAttackCorps.jpg	default	Event	Set 1	set1	playerNSupplyBase	Oz	2						
+set1_EV_050_M.S._transport	M.S. Transport	gundam-ms-war-ccg/set-1/GundamMsWarCcg-Set1-MSTransport.jpg	default	Event	Set 1	set1	playerNSupplyBase	Oz	2						
+set1_EV_051_Pinned_down	Pinned Down	gundam-ms-war-ccg/set-1/GundamMsWarCcg-Set1-PinnedDown.jpg	default	Event	Set 1	set1	playerNSupplyBase	Oz	0						
+set2_EV_052_Preventer	Preventer	gundam-ms-war-ccg/set-2/GundamMsWarCcg-Set2-Preventer.jpg	default	Event	Set 2	set2	playerNSupplyBase	WG	1						
+set2_EV_053_neo_titanium	Neo Titanium	gundam-ms-war-ccg/set-2/GundamMsWarCcg-Set2-NeoTitanium.jpg	default	Event	Set 2	set2	playerNSupplyBase	Oz	0				Y		
+set2_EV_054_the_anniversary_of_war's_end	The Anniversary of War's End	gundam-ms-war-ccg/set-2/GundamMsWarCcg-Set2-TheAnniversaryOfWarsEnd.jpg	default	Event	Set 2	set2	playerNSupplyBase	WG	2						
+set2_EV_055_Snatch	Snatch	gundam-ms-war-ccg/set-2/GundamMsWarCcg-Set2-Snatch.jpg	default	Event	Set 2	set2	playerNSupplyBase	Oz	2						
+set2_EV_056_rally_of_mariemaia_army	Rally of Mariemaia Army	gundam-ms-war-ccg/set-2/GundamMsWarCcg-Set2-RallyOfMariemaiaArmy.jpg	default	Event	Set 2	set2	playerNSupplyBase	Oz	2						
+set2_EV_057_Colony_infiltration	Colony Infiltration	gundam-ms-war-ccg/set-2/GundamMsWarCcg-Set2-ColonyInfiltration.jpg	default	Event	Set 2	set2	playerNSupplyBase	WG	1						
+set2_EV_058_Single_Flower	Single Flower	gundam-ms-war-ccg/set-2/GundamMsWarCcg-Set2-SingleFlower.jpg	default	Event	Set 2	set2	playerNSupplyBase	WG	2						
+set2_EV_059_Power_Transfer	Power Transfer	gundam-ms-war-ccg/set-2/GundamMsWarCcg-Set2-PowerTransfer.jpg	default	Event	Set 2	set2	playerNSupplyBase	Oz	2						
+set2_EV_060_Heat_Detectors	Heat Detector	gundam-ms-war-ccg/set-2/GundamMsWarCcg-Set2-HeatDetector.jpg	default	Event	Set 2	set2	playerNSupplyBase	WG	2						
+set2_EV_061_13th_constellation	13th Constellation	gundam-ms-war-ccg/set-2/GundamMsWarCcg-Set2-13thConstellation.jpg	default	Event	Set 2	set2	playerNSupplyBase	Oz	1						
+set2_EV_062_Escape_from_satellite_mo-111	Escape From Satellite MO-III	gundam-ms-war-ccg/set-2/GundamMsWarCcg-Set2-EscapeFromSatelliteMOIII.jpg	default	Event	Set 2	set2	playerNSupplyBase	Oz	1						
+set2_EV_063_Jailbreak	Jailbreak	gundam-ms-war-ccg/set-2/GundamMsWarCcg-Set2-Jailbreak.jpg	default	Event	Set 2	set2	playerNSupplyBase	Oz	3						
+set2_EV_064_Gundam_Recovery	Gundam Recovery	gundam-ms-war-ccg/set-2/GundamMsWarCcg-Set2-GundamRecovery.jpg	default	Event	Set 2	set2	playerNSupplyBase	WG	0						
+set2_EV_065_Barton_Foundation	Barton Foundation	gundam-ms-war-ccg/set-2/GundamMsWarCcg-Set2-BartonFoundation.jpg	default	Event	Set 2	set2	playerNSupplyBase	Oz	2						
+set2_EV_066_Descending_operation	Descending Operation	gundam-ms-war-ccg/set-2/GundamMsWarCcg-Set2-DescendingOperation.jpg	default	Event	Set 2	set2	playerNSupplyBase	Oz	3						
+set2_EV_067_The_real_operation_meteor	The Real Operation Meteor	gundam-ms-war-ccg/set-2/GundamMsWarCcg-Set2-TheRealOperationMeteor.jpg	default	Event	Set 2	set2	playerNSupplyBase	Oz	3						
+set2_EV_068_Blocking	Blocking	gundam-ms-war-ccg/set-2/GundamMsWarCcg-Set2-Blocking.jpg	default	Event	Set 2	set2	playerNSupplyBase	WG	3						
+set2_EV_069_State_of_emergency	State of Emergency	gundam-ms-war-ccg/set-2/GundamMsWarCcg-Set2-StateOfEmergency.jpg	default	Event	Set 2	set2	playerNSupplyBase	WG	3						
+set2_EV_070_People's_Action	People's Action	gundam-ms-war-ccg/set-2/GundamMsWarCcg-Set2-PeoplesAction.jpg	default	Event	Set 2	set2	playerNSupplyBase	WG	3						
+set2_EV_071_The_Pinch	The Pinch	gundam-ms-war-ccg/set-2/GundamMsWarCcg-Set2-ThePinch.jpg	default	Event	Set 2	set2	playerNSupplyBase	WG	1						
+set2_EV_072_Reformed	Reformed	gundam-ms-war-ccg/set-2/GundamMsWarCcg-Set2-Reformed.jpg	default	Event	Set 2	set2	playerNSupplyBase	WG	1						
+set2_EV_073_End_of_waltz	End of Waltz	gundam-ms-war-ccg/set-2/GundamMsWarCcg-Set2-EndOfWaltz.jpg	default	Event	Set 2	set2	playerNSupplyBase	WG	6				Y		
+set3_EV_074_Operation_V	Operation V	gundam-ms-war-ccg/set-3/GundamMsWarCcg-Set3-OperationV.jpg	default	Event	Set 3	set3	playerNSupplyBase	EF	2						
+set3_EV_075_into_the_atmosphere	Into the Atmosphere	gundam-ms-war-ccg/set-3/GundamMsWarCcg-Set3-IntoTheAtmosphere.jpg	default	Event	Set 3	set3	playerNSupplyBase	EF	4						
+set3_EV_076_minovsky_particles	Minovsky Particles	gundam-ms-war-ccg/set-3/GundamMsWarCcg-Set3-MinovskyParticles.jpg	default	Event	Set 3	set3	playerNSupplyBase	EF	2						
+set3_EV_077_Supply_corps	Supply Corps	gundam-ms-war-ccg/set-3/GundamMsWarCcg-Set3-SupplyCorps.jpg	default	Event	Set 3	set3	playerNSupplyBase	EF	1						
+set3_EV_078_Antiaircraft_fire	Antiaircraft Fire	gundam-ms-war-ccg/set-3/GundamMsWarCcg-Set3-AntiaircraftFire.jpg	default	Event	Set 3	set3	playerNSupplyBase	EF	3						
+set3_EV_079_mass_production	Mass Production	gundam-ms-war-ccg/set-3/GundamMsWarCcg-Set3-MassProduction.jpg	default	Event	Set 3	set3	playerNSupplyBase	EF	0						
+set3_EV_080_the_solar_system	The Solar System	gundam-ms-war-ccg/set-3/GundamMsWarCcg-Set3-TheSolarSystem.jpg	default	Event	Set 3	set3	playerNSupplyBase	EF	5						
+set3_EV_081_the_red_comet	The Red Comet	gundam-ms-war-ccg/set-3/GundamMsWarCcg-Set3-TheRedComet.jpg	default	Event	Set 3	set3	playerNSupplyBase	PZ	2						
+set3_EV_082_Speech	Speech	gundam-ms-war-ccg/set-3/GundamMsWarCcg-Set3-Speech.jpg	default	Event	Set 3	set3	playerNSupplyBase	PZ	3						
+set3_EV_083_Guerrilla_band	Guerrilla Band	gundam-ms-war-ccg/set-3/GundamMsWarCcg-Set3-GuerrillaBand.jpg	default	Event	Set 3	set3	playerNSupplyBase	PZ	3						
+set3_EV_084_jet-stream_attack	Jet-Stream Attack	gundam-ms-war-ccg/set-3/GundamMsWarCcg-Set3-JetStreamAttack.jpg	default	Event	Set 3	set3	playerNSupplyBase	PZ	2						
+set3_EV_085_Spy	Spy	gundam-ms-war-ccg/set-3/GundamMsWarCcg-Set3-Spy.jpg	default	Event	Set 3	set3	playerNSupplyBase	PZ	2						
+set3_EV_086_ma_kube's_tactics	MA Kube's Tactics	gundam-ms-war-ccg/set-3/GundamMsWarCcg-Set3-MAKubesTactics.jpg	default	Event	Set 3	set3	playerNSupplyBase	PZ	3						
+set1_MS_001_Wing_Gundam	Wing Gundam-1	gundam-ms-war-ccg/set-1/GundamMsWarCcg-Set1-WingGundam1.jpg	default	Mobile Suits	Set 1	set1	playerNSupplyBase	WG	4	4				Y	
+set1_MS_002_Wing_Gundam_Bird_Mode	Wing Gundam (Bird Mode)-1	gundam-ms-war-ccg/set-1/GundamMsWarCcg-Set1-WingGundamBirdMode1.jpg	default	Mobile Suits	Set 1	set1	playerNSupplyBase	WG	3	3				Y	
+set1_MS_003_Gundam_Deathscythe	Gundam Deathscythe-1	gundam-ms-war-ccg/set-1/GundamMsWarCcg-Set1-GundamDeathscythe1.jpg	default	Mobile Suits	Set 1	set1	playerNSupplyBase	WG	3	3				Y	
+set1_MS_004_Gundam_Heavyarms	Gundam Heavyarms-1	gundam-ms-war-ccg/set-1/GundamMsWarCcg-Set1-GundamHeavyarms1.jpg	default	Mobile Suits	Set 1	set1	playerNSupplyBase	WG	3	3				Y	
+set1_MS_005_Gundam_Sandrock	Gundam Sandrock-1	gundam-ms-war-ccg/set-1/GundamMsWarCcg-Set1-GundamSandrock1.jpg	default	Mobile Suits	Set 1	set1	playerNSupplyBase	WG	3	3	Sand			Y	
+set1_MS_006_Shenlong_Gundam	Shenlong Gundam-1	gundam-ms-war-ccg/set-1/GundamMsWarCcg-Set1-ShenlongGundam1.jpg	default	Mobile Suits	Set 1	set1	playerNSupplyBase	WG	3	3				Y	
+set1_MS_007_Maganac	Maganac-1	gundam-ms-war-ccg/set-1/GundamMsWarCcg-Set1-Maganac1.jpg	default	Mobile Suits	Set 1	set1	playerNSupplyBase	WG	3	3	Sand				
+set1_MS_008_Maganac	Maganac-2	gundam-ms-war-ccg/set-1/GundamMsWarCcg-Set1-Maganac2.jpg	default	Mobile Suits	Set 1	set1	playerNSupplyBase	WG	2	2	Sand				
+set1_MS_009_Oliphant	Oliphant	gundam-ms-war-ccg/set-1/GundamMsWarCcg-Set1-Oliphant.jpg	default	Mobile Suits	Set 1	set1	playerNSupplyBase	WG	2	3	Sand				
+set1_MS_010_Taurus	Taurus-1	gundam-ms-war-ccg/set-1/GundamMsWarCcg-Set1-Taurus1.jpg	default	Mobile Suits	Set 1	set1	playerNSupplyBase	WG	3	4					
+set1_MS_011_Leo	Leo-1	gundam-ms-war-ccg/set-1/GundamMsWarCcg-Set1-Leo1.jpg	default	Mobile Suits	Set 1	set1	playerNSupplyBase	WG	2	2					
+set1_MS_012_Peacemillion	Peacemillion	gundam-ms-war-ccg/set-1/GundamMsWarCcg-Set1-Peacemillion.jpg	default	Mobile Suits	Set 1	set1	playerNSupplyBase	WG	2	2				Y	
+set1_MS_013_Gundam_Epyon	Gundam Epyon-1	gundam-ms-war-ccg/set-1/GundamMsWarCcg-Set1-GundamEpyon1.jpg	default	Mobile Suits	Set 1	set1	playerNSupplyBase	Oz	6	5				Y	
+set1_MS_014_Tallgeese	Tallgeese-1	gundam-ms-war-ccg/set-1/GundamMsWarCcg-Set1-Tallgeese1.jpg	default	Mobile Suits	Set 1	set1	playerNSupplyBase	Oz	3	3				Y	Y
+set1_MS_015_Tallgeese_II	Tallgeese II-1	gundam-ms-war-ccg/set-1/GundamMsWarCcg-Set1-TallgeeseII1.jpg	default	Mobile Suits	Set 1	set1	playerNSupplyBase	Oz	4	4				Y	Y
+set1_MS_016_Leo	Leo-2	gundam-ms-war-ccg/set-1/GundamMsWarCcg-Set1-Leo2.jpg	default	Mobile Suits	Set 1	set1	playerNSupplyBase	Oz	2	3					
+set1_MS_017_Aries_Flying_Mode	Aries (Flying Mode)-1	gundam-ms-war-ccg/set-1/GundamMsWarCcg-Set1-AriesFlyingMode1.jpg	default	Mobile Suits	Set 1	set1	playerNSupplyBase	Oz	3	3					Y
+set1_MS_018_Pisces_ms_mode	Pieces (M.S. Mode)	gundam-ms-war-ccg/set-1/GundamMsWarCcg-Set1-PiecesMSMode.jpg	default	Mobile Suits	Set 1	set1	playerNSupplyBase	Oz	2	2	Sea				
+set1_MS_019_Cancer	Cancer	gundam-ms-war-ccg/set-1/GundamMsWarCcg-Set1-Cancer.jpg	default	Mobile Suits	Set 1	set1	playerNSupplyBase	Oz	3	2	Sea				
+set1_MS_020_Tragos_Hover_Mode	Tragos (Hover Mode)-1	gundam-ms-war-ccg/set-1/GundamMsWarCcg-Set1-TragosHoverMode1.jpg	default	Mobile Suits	Set 1	set1	playerNSupplyBase	Oz	2	3					
+set1_MS_021_Taurus	Taurus-2	gundam-ms-war-ccg/set-1/GundamMsWarCcg-Set1-Taurus2.jpg	default	Mobile Suits	Set 1	set1	playerNSupplyBase	Oz	3	4					
+set1_MS_022_Vayeate	Vayeate-1	gundam-ms-war-ccg/set-1/GundamMsWarCcg-Set1-Vayeate1.jpg	default	Mobile Suits	Set 1	set1	playerNSupplyBase	Oz	4	4				Y	
+set1_MS_023_Mercurius	Mercurius-1	gundam-ms-war-ccg/set-1/GundamMsWarCcg-Set1-Mercurius1.jpg	default	Mobile Suits	Set 1	set1	playerNSupplyBase	Oz	4	4				Y	
+set1_MS_024_Virgo	Virgo-1	gundam-ms-war-ccg/set-1/GundamMsWarCcg-Set1-Virgo1.jpg	default	Mobile Suits	Set 1	set1	playerNSupplyBase	Oz	3	4					
+set1_MS_025_Wing_Gundam_Zero	Wing Gundam Zero	gundam-ms-war-ccg/set-1/GundamMsWarCcg-Set1-WingGundamZero.jpg	default	Mobile Suits	Set 1	set1	playerNSupplyBase	WG	5	5				Y	
+set1_MS_026_Wing_Gundam_Zero_Bird_Mode	Wing Gundam Zero (Bird Mode)	gundam-ms-war-ccg/set-1/GundamMsWarCcg-Set1-WingGundamZeroBirdMode.jpg	default	Mobile Suits	Set 1	set1	playerNSupplyBase	WG	4	4				Y	
+set1_MS_027_Gundam_Deathscythe_Hell	Gundam Deathscythe H.	gundam-ms-war-ccg/set-1/GundamMsWarCcg-Set1-GundamDeathscytheH.jpg	default	Mobile Suits	Set 1	set1	playerNSupplyBase	WG	4	4				Y	
+set1_MS_028_Gundam_Heavyarms_custom	Gundam Heavyarms Custom-1	gundam-ms-war-ccg/set-1/GundamMsWarCcg-Set1-GundamHeavyarmsCustom1.jpg	default	Mobile Suits	Set 1	set1	playerNSupplyBase	WG	4	4				Y	
+set1_MS_029_Gundam_Sandrock_Custom	Gundam Sandrock Custom-1	gundam-ms-war-ccg/set-1/GundamMsWarCcg-Set1-GundamSandrockCustom1.jpg	default	Mobile Suits	Set 1	set1	playerNSupplyBase	WG	4	4				Y	
+set1_MS_030_Altron_Gundam	Altron Gundam-1	gundam-ms-war-ccg/set-1/GundamMsWarCcg-Set1-AltronGundam1.jpg	default	Mobile Suits	Set 1	set1	playerNSupplyBase	WG	4	4				Y	
+set1_MS_031_Wing_Gundam	Wing Gundam-2	gundam-ms-war-ccg/set-1/GundamMsWarCcg-Set1-WingGundam2.jpg	default	Mobile Suits	Set 1	set1	playerNSupplyBase	WG	4	4				Y	
+set1_MS_032_Wing_Gundam_bird_mode	Wing Gundam (Bird Mode)-2	gundam-ms-war-ccg/set-1/GundamMsWarCcg-Set1-WingGundamBirdMode2.jpg	default	Mobile Suits	Set 1	set1	playerNSupplyBase	WG	3	3				Y	Y
+set1_MS_033_Gundam_Deathscythe	Gundam Deathscythe-2	gundam-ms-war-ccg/set-1/GundamMsWarCcg-Set1-GundamDeathscythe2.jpg	default	Mobile Suits	Set 1	set1	playerNSupplyBase	WG	3	3				Y	
+set1_MS_034_Gundam_Heavyarms	Gundam Heavyarms-2	gundam-ms-war-ccg/set-1/GundamMsWarCcg-Set1-GundamHeavyarms2.jpg	default	Mobile Suits	Set 1	set1	playerNSupplyBase	WG	3	3				Y	
+set1_MS_035_Gundam_Sandrock	Gundam Sandrock-2	gundam-ms-war-ccg/set-1/GundamMsWarCcg-Set1-GundamSandrock2.jpg	default	Mobile Suits	Set 1	set1	playerNSupplyBase	WG	3	3					
+set1_MS_036_Shenlong_Gundam	Shenlong Gundam-2	gundam-ms-war-ccg/set-1/GundamMsWarCcg-Set1-ShenlongGundam2.jpg	default	Mobile Suits	Set 1	set1	playerNSupplyBase	WG	3	3					
+set1_MS_037_Vayeate_Incomplete	Vayeate (Inncomplete)	gundam-ms-war-ccg/set-1/GundamMsWarCcg-Set1-VayeateInncomplete.jpg	default	Mobile Suits	Set 1	set1	playerNSupplyBase	WG	2	4					
+set1_MS_038_Mercurius_Incomplete	Mercurius (Incomplete)	gundam-ms-war-ccg/set-1/GundamMsWarCcg-Set1-MercuriusIncomplete.jpg	default	Mobile Suits	Set 1	set1	playerNSupplyBase	WG	2	4					
+set1_MS_039_Maganac	Maganac-3	gundam-ms-war-ccg/set-1/GundamMsWarCcg-Set1-Maganac3.jpg	default	Mobile Suits	Set 1	set1	playerNSupplyBase	WG	2	2	Sand				
+set1_MS_040_Maganac	Maganac-4	gundam-ms-war-ccg/set-1/GundamMsWarCcg-Set1-Maganac4.jpg	default	Mobile Suits	Set 1	set1	playerNSupplyBase	WG	2	2	Sand				
+set1_MS_041_Aries	Aries	gundam-ms-war-ccg/set-1/GundamMsWarCcg-Set1-Aries.jpg	default	Mobile Suits	Set 1	set1	playerNSupplyBase	WG	3	3	Sand				Y
+set1_MS_042_Leo	Leo-3	gundam-ms-war-ccg/set-1/GundamMsWarCcg-Set1-Leo3.jpg	default	Mobile Suits	Set 1	set1	playerNSupplyBase	WG	2	2					
+set1_MS_043_The_Shuttle	The Shuttle	gundam-ms-war-ccg/set-1/GundamMsWarCcg-Set1-TheShuttle.jpg	default	Mobile Suits	Set 1	set1	playerNSupplyBase	WG	2	1					
+set1_MS_044_OZ_Transport_Plane	Oz Transport Plane	gundam-ms-war-ccg/set-1/GundamMsWarCcg-Set1-OzTransportPlane.jpg	default	Mobile Suits	Set 1	set1	playerNSupplyBase	WG	1	1					
+set1_MS_045_Transport_Trailer	Transport Trailer	gundam-ms-war-ccg/set-1/GundamMsWarCcg-Set1-TransportTrailer.jpg	default	Mobile Suits	Set 1	set1	playerNSupplyBase	WG	1	1					
+set1_MS_046_Gundam_Heavyarms	Gundam Heavyarms-3	gundam-ms-war-ccg/set-1/GundamMsWarCcg-Set1-GundamHeavyarms3.jpg	default	Mobile Suits	Set 1	set1	playerNSupplyBase	WG	3	3				Y	
+set1_MS_047_Gundam_Epyon	Gundam Epyon-2	gundam-ms-war-ccg/set-1/GundamMsWarCcg-Set1-GundamEpyon2.jpg	default	Mobile Suits	Set 1	set1	playerNSupplyBase	Oz	6	5				Y	
+set1_MS_048_Gundam_Epyon_Bird_Mode	Gundam Epyon (Bird Mode)	gundam-ms-war-ccg/set-1/GundamMsWarCcg-Set1-GundamEpyonBirdMode.jpg	default	Mobile Suits	Set 1	set1	playerNSupplyBase	Oz	4	3				Y	
+set1_MS_049_Tallgeese	Tallgeese-2	gundam-ms-war-ccg/set-1/GundamMsWarCcg-Set1-Tallgeese2.jpg	default	Mobile Suits	Set 1	set1	playerNSupplyBase	Oz	3	3				Y	
+set1_MS_050_Tallgeese_II	Tallgeese II-2	gundam-ms-war-ccg/set-1/GundamMsWarCcg-Set1-TallgeeseII2.jpg	default	Mobile Suits	Set 1	set1	playerNSupplyBase	Oz	5	4			Y	Y	Y
+set1_MS_051_Leo	Leo-4	gundam-ms-war-ccg/set-1/GundamMsWarCcg-Set1-Leo4.jpg	default	Mobile Suits	Set 1	set1	playerNSupplyBase	Oz	2	2					Y
+set1_MS_052_Leo	Leo-5	gundam-ms-war-ccg/set-1/GundamMsWarCcg-Set1-Leo5.jpg	default	Mobile Suits	Set 1	set1	playerNSupplyBase	Oz	1	1					
+set1_MS_053_Leo	Leo-6	gundam-ms-war-ccg/set-1/GundamMsWarCcg-Set1-Leo6.jpg	default	Mobile Suits	Set 1	set1	playerNSupplyBase	Oz	2	2					
+set1_MS_054_Aries_ms_mode	Aries (M.S. Mode)	gundam-ms-war-ccg/set-1/GundamMsWarCcg-Set1-AriesMSMode.jpg	default	Mobile Suits	Set 1	set1	playerNSupplyBase	Oz	2	3					
+set1_MS_055_Aries_flying_mode	Aries (Flying Mode)-2	gundam-ms-war-ccg/set-1/GundamMsWarCcg-Set1-AriesFlyingMode2.jpg	default	Mobile Suits	Set 1	set1	playerNSupplyBase	Oz	3	3					Y
+set1_MS_056_Pisces_ms_mode	Pisces (M.S. Mode)	gundam-ms-war-ccg/set-1/GundamMsWarCcg-Set1-PiscesMSMode.jpg	default	Mobile Suits	Set 1	set1	playerNSupplyBase	Oz	2	2	Sea				
+set1_MS_057_Pisces_cruising_mode	Pisces (Cruising Mode)	gundam-ms-war-ccg/set-1/GundamMsWarCcg-Set1-PiscesCruisingMode.jpg	default	Mobile Suits	Set 1	set1	playerNSupplyBase	Oz	2	2	Sea				
+set1_MS_058_Cancer	Cancer	gundam-ms-war-ccg/set-1/GundamMsWarCcg-Set1-Cancer-2.jpg	default	Mobile Suits	Set 1	set1	playerNSupplyBase	Oz	2	3	Sea				
+set1_MS_059_Tragos_hover_mode	Tragos (Hover Mode)-2	gundam-ms-war-ccg/set-1/GundamMsWarCcg-Set1-TragosHoverMode2.jpg	default	Mobile Suits	Set 1	set1	playerNSupplyBase	Oz	2	3	Sand				
+set1_MS_060_Tragos_ms_mode	Tragos (M.S. Mode)	gundam-ms-war-ccg/set-1/GundamMsWarCcg-Set1-TragosMSMode.jpg	default	Mobile Suits	Set 1	set1	playerNSupplyBase	Oz	3	3	Sand				
+set1_MS_061_Taurus	Taurus-3	gundam-ms-war-ccg/set-1/GundamMsWarCcg-Set1-Taurus3.jpg	default	Mobile Suits	Set 1	set1	playerNSupplyBase	Oz	3	4					
+set1_MS_062_Taurus_flying_mode	Taurus (Flying Mode)	gundam-ms-war-ccg/set-1/GundamMsWarCcg-Set1-TaurusFlyingMode.jpg	default	Mobile Suits	Set 1	set1	playerNSupplyBase	Oz	3	3					Y
+set1_MS_063_Vayeate	Vayeate-2	gundam-ms-war-ccg/set-1/GundamMsWarCcg-Set1-Vayeate2.jpg	default	Mobile Suits	Set 1	set1	playerNSupplyBase	Oz	4	4				Y	
+set1_MS_064_Mercurius	Mercurius-2	gundam-ms-war-ccg/set-1/GundamMsWarCcg-Set1-Mercurius2.jpg	default	Mobile Suits	Set 1	set1	playerNSupplyBase	Oz	4	4				Y	
+set1_MS_065_Virgo	Virgo-2	gundam-ms-war-ccg/set-1/GundamMsWarCcg-Set1-Virgo2.jpg	default	Mobile Suits	Set 1	set1	playerNSupplyBase	Oz	4	3					
+set1_MS_066_Virgo_II	Virgo II	gundam-ms-war-ccg/set-1/GundamMsWarCcg-Set1-VirgoII.jpg	default	Mobile Suits	Set 1	set1	playerNSupplyBase	Oz	5	4					
+set2_MS_067_Wing_Gundam_Zero_Custom	Wing Gundam Zero Custom	gundam-ms-war-ccg/set-2/GundamMsWarCcg-Set2-WingGundamZeroCustom.jpg	default	Mobile Suits	Set 2	set2	playerNSupplyBase	WG	5	5			Y	Y	
+set2_MS_068_Gundam_DeathScythe_Hell_Custom	Gundam Deathscythe H. Custom	gundam-ms-war-ccg/set-2/GundamMsWarCcg-Set2-GundamDeathscytheHCustom.jpg	default	Mobile Suits	Set 2	set2	playerNSupplyBase	WG	5	5	Sea		Y	Y	
+set2_MS_069_Gundam_Heavyarms_Custom	Gundam Heavyarms Custom-2	gundam-ms-war-ccg/set-2/GundamMsWarCcg-Set2-GundamHeavyarmsCustom2.jpg	default	Mobile Suits	Set 2	set2	playerNSupplyBase	WG	5	5			Y	Y	
+set2_MS_070_Gundam_Sandrock_Custom	Gundam Sandrock Custom-2	gundam-ms-war-ccg/set-2/GundamMsWarCcg-Set2-GundamSandrockCustom2.jpg	default	Mobile Suits	Set 2	set2	playerNSupplyBase	WG	5	5	Sand		Y	Y	
+set2_MS_071_Altron_Gundam	Altron Gundam-2	gundam-ms-war-ccg/set-2/GundamMsWarCcg-Set2-AltronGundam2.jpg	default	Mobile Suits	Set 2	set2	playerNSupplyBase	Oz	5	5			Y	Y	
+set2_MS_072_Tallgeese_III	Tallgeese III	gundam-ms-war-ccg/set-2/GundamMsWarCcg-Set2-TallgeeseIII.jpg	default	Mobile Suits	Set 2	set2	playerNSupplyBase	WG	5	5				Y	Y
+set2_MS_073_Taurus	Taurus-4	gundam-ms-war-ccg/set-2/GundamMsWarCcg-Set2-Taurus4.jpg	default	Mobile Suits	Set 2	set2	playerNSupplyBase	WG	4	4					
+set2_MS_074_Preventer_Shuttle	Preventer Shuttle	gundam-ms-war-ccg/set-2/GundamMsWarCcg-Set2-PreventerShuttle.jpg	default	Mobile Suits	Set 2	set2	playerNSupplyBase	WG	1	1					
+set2_MS_075_Zero_Transport_Capsule	Zero Transport Capsule	gundam-ms-war-ccg/set-2/GundamMsWarCcg-Set2-ZeroTransportCapsule.jpg	default	Mobile Suits	Set 2	set2	playerNSupplyBase	WG	3	1				Y	Y
+set2_MS_076_Taurus	Taurus-5	gundam-ms-war-ccg/set-2/GundamMsWarCcg-Set2-Taurus5.jpg	default	Mobile Suits	Set 2	set2	playerNSupplyBase	Oz	3	4					
+set2_MS_077_Leo	Leo-7	gundam-ms-war-ccg/set-2/GundamMsWarCcg-Set2-Leo7.jpg	default	Mobile Suits	Set 2	set2	playerNSupplyBase	Oz	2	1					
+set2_MS_078_Leo	Leo-8	gundam-ms-war-ccg/set-2/GundamMsWarCcg-Set2-Leo8.jpg	default	Mobile Suits	Set 2	set2	playerNSupplyBase	Oz	2	3					Y
+set2_MS_079_Leo	Leo-9	gundam-ms-war-ccg/set-2/GundamMsWarCcg-Set2-Leo9.jpg	default	Mobile Suits	Set 2	set2	playerNSupplyBase	Oz	2	3					Y
+set2_MS_080_Serpent	Serpent-1	gundam-ms-war-ccg/set-2/GundamMsWarCcg-Set2-Serpent1.jpg	default	Mobile Suits	Set 2	set2	playerNSupplyBase	Oz	5	4					
+set2_MS_081_Serpent	Serpent-2	gundam-ms-war-ccg/set-2/GundamMsWarCcg-Set2-Serpent2.jpg	default	Mobile Suits	Set 2	set2	playerNSupplyBase	Oz	5	4					
+set2_MS_082_Serpent_Transport_Ship	Serpent Transport Ship	gundam-ms-war-ccg/set-2/GundamMsWarCcg-Set2-SerpentTransportShip.jpg	default	Mobile Suits	Set 2	set2	playerNSupplyBase	Oz	1	1					
+set3_MS_083_Gundam	Gundam	gundam-ms-war-ccg/set-3/GundamMsWarCcg-Set3-Gundam.jpg	default	Mobile Suits	Set 3	set3	playerNSupplyBase	EF	4	4	Sea			Y	
+set3_MS_084_Guncannon	Guncannon	gundam-ms-war-ccg/set-3/GundamMsWarCcg-Set3-Guncannon.jpg	default	Mobile Suits	Set 3	set3	playerNSupplyBase	EF	4	4					
+set3_MS_085_Guntank	Guntank	gundam-ms-war-ccg/set-3/GundamMsWarCcg-Set3-Guntank.jpg	default	Mobile Suits	Set 3	set3	playerNSupplyBase	EF	4	4					
+set3_MS_086_GM	GM	gundam-ms-war-ccg/set-3/GundamMsWarCcg-Set3-GM.jpg	default	Mobile Suits	Set 3	set3	playerNSupplyBase	EF	2	2					
+set3_MS_087_Core_Fighter	Core Fighter	gundam-ms-war-ccg/set-3/GundamMsWarCcg-Set3-CoreFighter.jpg	default	Mobile Suits	Set 3	set3	playerNSupplyBase	EF	0	1					
+set3_MS_088_G-fighter	G-Fighter	gundam-ms-war-ccg/set-3/GundamMsWarCcg-Set3-GFighter.jpg	default	Mobile Suits	Set 3	set3	playerNSupplyBase	EF	2	2				Y	
+set3_MS_089_G-Bull	G-Bull	gundam-ms-war-ccg/set-3/GundamMsWarCcg-Set3-GBull.jpg	default	Mobile Suits	Set 3	set3	playerNSupplyBase	EF	2	2				Y	
+set3_MS_090_Ball	Ball	gundam-ms-war-ccg/set-3/GundamMsWarCcg-Set3-Ball.jpg	default	Mobile Suits	Set 3	set3	playerNSupplyBase	EF	1	1					
+set3_MS_091_White_Base	White Base	gundam-ms-war-ccg/set-3/GundamMsWarCcg-Set3-WhiteBase.jpg	default	Mobile Suits	Set 3	set3	playerNSupplyBase	EF	3	4				Y	
+set3_MS_092_Magellan	Magellan	gundam-ms-war-ccg/set-3/GundamMsWarCcg-Set3-Magellan.jpg	default	Mobile Suits	Set 3	set3	playerNSupplyBase	EF	2	2	Battleship			Y	
+set3_MS_093_Big_Tray	Big Tray	gundam-ms-war-ccg/set-3/GundamMsWarCcg-Set3-BigTray.jpg	default	Mobile Suits	Set 3	set3	playerNSupplyBase	EF	3	3	Battleship, Sand				
+set3_MS_094_Medea	Medea	gundam-ms-war-ccg/set-3/GundamMsWarCcg-Set3-Medea.jpg	default	Mobile Suits	Set 3	set3	playerNSupplyBase	EF	1	1					
+set3_MS_095_Char's_Zaku	Char's Zaku	gundam-ms-war-ccg/set-3/GundamMsWarCcg-Set3-CharsZaku.jpg	default	Mobile Suits	Set 3	set3	playerNSupplyBase	PZ	4	4				Y	
+set3_MS_096_Zaku_I	Zaku I	gundam-ms-war-ccg/set-3/GundamMsWarCcg-Set3-ZakuI.jpg	default	Mobile Suits	Set 3	set3	playerNSupplyBase	PZ	1	1					
+set3_MS_097_Zaku_II	Zaku II	gundam-ms-war-ccg/set-3/GundamMsWarCcg-Set3-ZakuII.jpg	default	Mobile Suits	Set 3	set3	playerNSupplyBase	PZ	2	2					
+set3_MS_098_Gouf	Gouf	gundam-ms-war-ccg/set-3/GundamMsWarCcg-Set3-Gouf.jpg	default	Mobile Suits	Set 3	set3	playerNSupplyBase	PZ	3	3	Sand				
+set3_MS_099_DOM	Dom	gundam-ms-war-ccg/set-3/GundamMsWarCcg-Set3-Dom.jpg	default	Mobile Suits	Set 3	set3	playerNSupplyBase	PZ	3	3					
+set3_MS_100_Char's_Z'gok	Char's Z'Gok	gundam-ms-war-ccg/set-3/GundamMsWarCcg-Set3-CharsZGok.jpg	default	Mobile Suits	Set 3	set3	playerNSupplyBase	PZ	4	3	Sea			Y	
+set3_MS_101_Z'gok	Z'Gok	gundam-ms-war-ccg/set-3/GundamMsWarCcg-Set3-ZGok.jpg	default	Mobile Suits	Set 3	set3	playerNSupplyBase	PZ	3	2	Sea				
+set3_MS_102_Grabro	Grublo	gundam-ms-war-ccg/set-3/GundamMsWarCcg-Set3-Grublo.jpg	default	Mobile Suits	Set 3	set3	playerNSupplyBase	PZ	5	4	Sea, Mobile Armor			Y	
+set3_MS_103_Azzam	Azzam	gundam-ms-war-ccg/set-3/GundamMsWarCcg-Set3-Azzam.jpg	default	Mobile Suits	Set 3	set3	playerNSupplyBase	PZ	4	4	Sand, Mobile Armor				
+set3_MS_104_acguy	Acguy	gundam-ms-war-ccg/set-3/GundamMsWarCcg-Set3-Acguy.jpg	default	Mobile Suits	Set 3	set3	playerNSupplyBase	PZ	3	2	Sea				
+set3_MS_105_dopp	Dopp	gundam-ms-war-ccg/set-3/GundamMsWarCcg-Set3-Dopp.jpg	default	Mobile Suits	Set 3	set3	playerNSupplyBase	PZ	1	1					
+set3_MS_106_char's_musai	Char's Musai	gundam-ms-war-ccg/set-3/GundamMsWarCcg-Set3-CharsMusai.jpg	default	Mobile Suits	Set 3	set3	playerNSupplyBase	PZ	2	2	Battleship			Y	
+set3_MS_107_gau	Gau	gundam-ms-war-ccg/set-3/GundamMsWarCcg-Set3-Gau.jpg	default	Mobile Suits	Set 3	set3	playerNSupplyBase	PZ	3	3	Battleship				
+set3_MS_108_zanzibar	Zanzibar	gundam-ms-war-ccg/set-3/GundamMsWarCcg-Set3-Zanzibar.jpg	default	Mobile Suits	Set 3	set3	playerNSupplyBase	PZ	4	4	Battleship			Y	
+set1_oz_missions_01	Oz Mission 1	gundam-ms-war-ccg/set-1/GundamMsWarCcg-Set1-OzMission1.jpg	default	Missions	Set 1	set1	playerNSupplyBase	Oz							
+set1_oz_missions_02	Oz Mission 2	gundam-ms-war-ccg/set-1/GundamMsWarCcg-Set1-OzMission2.jpg	default	Missions	Set 1	set1	playerNSupplyBase	Oz							
+set1_PL_001_heero_yuy	Heero Yuy-1	gundam-ms-war-ccg/set-1/GundamMsWarCcg-Set1-HeeroYuy1.jpg	default	Pilot	Set 1	set1	playerNSupplyBase	WG	1						
+set1_PL_002_Duo_maxwell	Duo Maxwell-1	gundam-ms-war-ccg/set-1/GundamMsWarCcg-Set1-DuoMaxwell1.jpg	default	Pilot	Set 1	set1	playerNSupplyBase	WG	1						
+set1_PL_003_trowa_barton	Trowa Barton-1	gundam-ms-war-ccg/set-1/GundamMsWarCcg-Set1-TrowaBarton1.jpg	default	Pilot	Set 1	set1	playerNSupplyBase	WG	1						
+set1_PL_004_Quatre_raberba_winner	Quatre Raberba Winner-1	gundam-ms-war-ccg/set-1/GundamMsWarCcg-Set1-QuatreRaberbaWinner1.jpg	default	Pilot	Set 1	set1	playerNSupplyBase	WG	1						
+set1_PL_005_chang_wufei	Chang Wufei-1	gundam-ms-war-ccg/set-1/GundamMsWarCcg-Set1-ChangWufei1.jpg	default	Pilot	Set 1	set1	playerNSupplyBase	WG	1						
+set1_PL_006_relena_darlian	Relena Darlian-1	gundam-ms-war-ccg/set-1/GundamMsWarCcg-Set1-RelenaDarlian1.jpg	default	Pilot	Set 1	set1	playerNSupplyBase	WG	1			Y			
+set1_PL_007_Sally_po	Sally Po-1	gundam-ms-war-ccg/set-1/GundamMsWarCcg-Set1-SallyPo1.jpg	default	Pilot	Set 1	set1	playerNSupplyBase	WG	1						
+set1_PL_008_doctor_j	Doctor J	gundam-ms-war-ccg/set-1/GundamMsWarCcg-Set1-DoctorJ.jpg	default	Pilot	Set 1	set1	playerNSupplyBase	WG	1			Y	Y		
+set1_PL_009_zechs_merquise	Zechs Merquise-1	gundam-ms-war-ccg/set-1/GundamMsWarCcg-Set1-ZechsMerquise1.jpg	default	Pilot	Set 1	set1	playerNSupplyBase	Oz	2						Y
+set1_PL_010_treize_khushrenada	Treize Khushrenada-1	gundam-ms-war-ccg/set-1/GundamMsWarCcg-Set1-TreizeKhushrenada1.jpg	default	Pilot	Set 1	set1	playerNSupplyBase	Oz	1				Y		
+set1_PL_011_lady_une	Lady Une-1	gundam-ms-war-ccg/set-1/GundamMsWarCcg-Set1-LadyUne1.jpg	default	Pilot	Set 1	set1	playerNSupplyBase	Oz	1						
+set1_PL_012_lucrezia_noin	Lucrezia Noin-1	gundam-ms-war-ccg/set-1/GundamMsWarCcg-Set1-LucreziaNoin1.jpg	default	Pilot	Set 1	set1	playerNSupplyBase	Oz	1						
+set1_PL_013_dorothy_catalonia	Dorothy Catalonia-1	gundam-ms-war-ccg/set-1/GundamMsWarCcg-Set1-DorothyCatalonia1.jpg	default	Pilot	Set 1	set1	playerNSupplyBase	Oz	1						
+set1_PL_014_tubarov	Tubarov-1	gundam-ms-war-ccg/set-1/GundamMsWarCcg-Set1-Tubarov1.jpg	default	Pilot	Set 1	set1	playerNSupplyBase	Oz	1						
+set1_PL_015_heero_yuy	Heero Yuy-2	gundam-ms-war-ccg/set-1/GundamMsWarCcg-Set1-HeeroYuy2.jpg	default	Pilot	Set 1	set1	playerNSupplyBase	WG	2						
+set1_PL_016_duo_maxwell	Duo Maxwell-2	gundam-ms-war-ccg/set-1/GundamMsWarCcg-Set1-DuoMaxwell2.jpg	default	Pilot	Set 1	set1	playerNSupplyBase	WG	2						
+set1_PL_017__trowa_barton	Trowa Barton-2	gundam-ms-war-ccg/set-1/GundamMsWarCcg-Set1-TrowaBarton2.jpg	default	Pilot	Set 1	set1	playerNSupplyBase	WG	2						
+set1_PL_018_quatre_raberba_winner	Quatre Raberba Winner-2	gundam-ms-war-ccg/set-1/GundamMsWarCcg-Set1-QuatreRaberbaWinner2.jpg	default	Pilot	Set 1	set1	playerNSupplyBase	WG	2						
+set1_PL_019_chang_wufei	Chang Wufei-2	gundam-ms-war-ccg/set-1/GundamMsWarCcg-Set1-ChangWufei2.jpg	default	Pilot	Set 1	set1	playerNSupplyBase	WG	2						
+set1_PL_020_Relena_peacecraft	Relena Peacecraft	gundam-ms-war-ccg/set-1/GundamMsWarCcg-Set1-RelenaPeacecraft.jpg	default	Pilot	Set 1	set1	playerNSupplyBase	WG	2			Y			
+set1_PL_021_Sally_Po	Sally Po-2	gundam-ms-war-ccg/set-1/GundamMsWarCcg-Set1-SallyPo2.jpg	default	Pilot	Set 1	set1	playerNSupplyBase	WG	1						
+set1_PL_022_Catherine_bloom	Catherine Bloom	gundam-ms-war-ccg/set-1/GundamMsWarCcg-Set1-CatherineBloom.jpg	default	Pilot	Set 1	set1	playerNSupplyBase	WG	1						
+set1_PL_023_Howard	Howard	gundam-ms-war-ccg/set-1/GundamMsWarCcg-Set1-Howard.jpg	default	Pilot	Set 1	set1	playerNSupplyBase	WG	1						
+set1_PL_024_Rasid_Kurama	Rasid Kurama	gundam-ms-war-ccg/set-1/GundamMsWarCcg-Set1-RasidKurama.jpg	default	Pilot	Set 1	set1	playerNSupplyBase	WG	1						
+set1_PL_025_Minister_darlian	Miniser Darlian	gundam-ms-war-ccg/set-1/GundamMsWarCcg-Set1-MiniserDarlian.jpg	default	Pilot	Set 1	set1	playerNSupplyBase	WG	2			Y			
+set1_PL_026_Professor_g	Professor G	gundam-ms-war-ccg/set-1/GundamMsWarCcg-Set1-ProfessorG.jpg	default	Pilot	Set 1	set1	playerNSupplyBase	WG	2			Y			
+set1_PL_027_instructor_h	Innsructor H	gundam-ms-war-ccg/set-1/GundamMsWarCcg-Set1-InnsructorH.jpg	default	Pilot	Set 1	set1	playerNSupplyBase	WG	2			Y			
+set1_PL_028_Milliardo_peacecraft	Milliardo Peacecraft	gundam-ms-war-ccg/set-1/GundamMsWarCcg-Set1-MilliardoPeacecraft.jpg	default	Pilot	Set 1	set1	playerNSupplyBase	Oz	2				Y		
+set1_PL_029_Treiza_Knushrinada	Treize Khushrenada-2	gundam-ms-war-ccg/set-1/GundamMsWarCcg-Set1-TreizeKhushrenada2.jpg	default	Pilot	Set 1	set1	playerNSupplyBase	Oz	2						
+set1_PL_030_Lady_une	Lady Une-2	gundam-ms-war-ccg/set-1/GundamMsWarCcg-Set1-LadyUne2.jpg	default	Pilot	Set 1	set1	playerNSupplyBase	Oz	2						
+set1_PL_031_Lucrezia_noin	Lucrezia Noin-2	gundam-ms-war-ccg/set-1/GundamMsWarCcg-Set1-LucreziaNoin2.jpg	default	Pilot	Set 1	set1	playerNSupplyBase	Oz	1						
+set1_PL_032_Dorothy_catalonia	Dorothy Catalonia-2	gundam-ms-war-ccg/set-1/GundamMsWarCcg-Set1-DorothyCatalonia2.jpg	default	Pilot	Set 1	set1	playerNSupplyBase	Oz	2						
+set1_PL_033_Tubarov	Tubarov-2	gundam-ms-war-ccg/set-1/GundamMsWarCcg-Set1-Tubarov2.jpg	default	Pilot	Set 1	set1	playerNSupplyBase	Oz	2						
+set1_PL_034_Quinze	Quinze	gundam-ms-war-ccg/set-1/GundamMsWarCcg-Set1-Quinze.jpg	default	Pilot	Set 1	set1	playerNSupplyBase	Oz	2			Y			
+set1_PL_035_Otto	Otto	gundam-ms-war-ccg/set-1/GundamMsWarCcg-Set1-Otto.jpg	default	Pilot	Set 1	set1	playerNSupplyBase	Oz	1						
+set1_PL_036_Duke_dermail	Duke Dermail	gundam-ms-war-ccg/set-1/GundamMsWarCcg-Set1-DukeDermail.jpg	default	Pilot	Set 1	set1	playerNSupplyBase	Oz	1			Y	Y		
+set1_PL_037_muller	Muller	gundam-ms-war-ccg/set-1/GundamMsWarCcg-Set1-Muller.jpg	default	Pilot	Set 1	set1	playerNSupplyBase	Oz	1						
+set1_PL_038_Hilde_Schbeiker	Hilde Schbeiker	gundam-ms-war-ccg/set-1/GundamMsWarCcg-Set1-HildeSchbeiker.jpg	default	Pilot	Set 1	set1	playerNSupplyBase	Oz	1						
+set2_PL_039_Heero_Yuy	Heero Yuy-3	gundam-ms-war-ccg/set-2/GundamMsWarCcg-Set2-HeeroYuy3.jpg	default	Pilot	Set 2	set2	playerNSupplyBase	WG	2						Y
+set2_PL_040_Duo_maxwell	Duo Maxwell-3	gundam-ms-war-ccg/set-2/GundamMsWarCcg-Set2-DuoMaxwell3.jpg	default	Pilot	Set 2	set2	playerNSupplyBase	WG	3						
+set2_PL_041_trowa_barton	Trowa Barton-3	gundam-ms-war-ccg/set-2/GundamMsWarCcg-Set2-TrowaBarton3.jpg	default	Pilot	Set 2	set2	playerNSupplyBase	Oz	2						
+set2_PL_042_Quatre_raberba_winner	Quatre Raberba Winner-3	gundam-ms-war-ccg/set-2/GundamMsWarCcg-Set2-QuatreRaberbaWinner3.jpg	default	Pilot	Set 2	set2	playerNSupplyBase	WG	3						
+set2_PL_043_Chang_Wufei	Chang Wufei-3	gundam-ms-war-ccg/set-2/GundamMsWarCcg-Set2-ChangWufei3.jpg	default	Pilot	Set 2	set2	playerNSupplyBase	Oz	2						
+set2_PL_044_Zechs_merquise	Zechs Merquise-2	gundam-ms-war-ccg/set-2/GundamMsWarCcg-Set2-ZechsMerquise2.jpg	default	Pilot	Set 2	set2	playerNSupplyBase	WG	3						
+set2_PL_045_Lady_Une	Lady Une-3	gundam-ms-war-ccg/set-2/GundamMsWarCcg-Set2-LadyUne3.jpg	default	Pilot	Set 2	set2	playerNSupplyBase	WG	1						
+set2_PL_046_Marimaia_Khushrinada	Mariemaia Khushrenada	gundam-ms-war-ccg/set-2/GundamMsWarCcg-Set2-MariemaiaKhushrenada.jpg	default	Pilot	Set 2	set2	playerNSupplyBase	Oz	2			Y	Y		
+set2_PL_047_Dekim_Barton	Dekim Barton	gundam-ms-war-ccg/set-2/GundamMsWarCcg-Set2-DekimBarton.jpg	default	Pilot	Set 2	set2	playerNSupplyBase	Oz	4			Y	Y		
+set2_PL_048_the_real_trowa_barton	The Real Trowa Barton	gundam-ms-war-ccg/set-2/GundamMsWarCcg-Set2-TheRealTrowaBarton.jpg	default	Pilot	Set 2	set2	playerNSupplyBase	Oz	2						
+set2_PL_049_the_president_of_earth_sphere	The President of Earth Sphere	gundam-ms-war-ccg/set-2/GundamMsWarCcg-Set2-ThePresidentOfEarthSphere.jpg	default	Pilot	Set 2	set2	playerNSupplyBase	WG	1			Y			
+set2_PL_050_Relena_Darlian	Relena Darlian-2	gundam-ms-war-ccg/set-2/GundamMsWarCcg-Set2-RelenaDarlian2.jpg	default	Pilot	Set 2	set2	playerNSupplyBase	WG	2			Y			
+set2_PL_051_Master_O	Master O	gundam-ms-war-ccg/set-2/GundamMsWarCcg-Set2-MasterO.jpg	default	Pilot	Set 2	set2	playerNSupplyBase	WG	2			Y			
+set2_PL_052_Doktor_S	Doktor S	gundam-ms-war-ccg/set-2/GundamMsWarCcg-Set2-DoktorS.jpg	default	Pilot	Set 2	set2	playerNSupplyBase	WG	2			Y			
+set3_PL_053_Amuro_Ray	Amuro Ray	gundam-ms-war-ccg/set-3/GundamMsWarCcg-Set3-AmuroRay.jpg	default	Pilot	Set 3	set3	playerNSupplyBase	EF	3		Newtype				
+set3_PL_054_Sayla_mass	Sayla Mass	gundam-ms-war-ccg/set-3/GundamMsWarCcg-Set3-SaylaMass.jpg	default	Pilot	Set 3	set3	playerNSupplyBase	EF	2		Newtype				
+set3_PL_055_Kai_Shiden	Kai Shiden	gundam-ms-war-ccg/set-3/GundamMsWarCcg-Set3-KaiShiden.jpg	default	Pilot	Set 3	set3	playerNSupplyBase	EF	2						
+set3_PL_056_Hayato_kobayashi	Hayato Kobayashi	gundam-ms-war-ccg/set-3/GundamMsWarCcg-Set3-HayatoKobayashi.jpg	default	Pilot	Set 3	set3	playerNSupplyBase	EF	2						
+set3_PL_057_Bright_Noah	Bright Noah	gundam-ms-war-ccg/set-3/GundamMsWarCcg-Set3-BrightNoah.jpg	default	Pilot	Set 3	set3	playerNSupplyBase	EF	2						
+set3_PL_058_Mirai_yashima	Marai Yashima	gundam-ms-war-ccg/set-3/GundamMsWarCcg-Set3-MaraiYashima.jpg	default	Pilot	Set 3	set3	playerNSupplyBase	EF	1						
+set3_PL_059_Ryu_Jose	Ryu Jose	gundam-ms-war-ccg/set-3/GundamMsWarCcg-Set3-RyuJose.jpg	default	Pilot	Set 3	set3	playerNSupplyBase	EF	2						
+set3_PL_060_Matilda_ajan	Matilda Ajan	gundam-ms-war-ccg/set-3/GundamMsWarCcg-Set3-MatildaAjan.jpg	default	Pilot	Set 3	set3	playerNSupplyBase	EF	1						
+set3_PL_061_char_aznable	Char Aznable	gundam-ms-war-ccg/set-3/GundamMsWarCcg-Set3-CharAznable.jpg	default	Pilot	Set 3	set3	playerNSupplyBase	PZ	3		Newtype				
+set3_PL_062_Garma_zabi	Garma Zabi	gundam-ms-war-ccg/set-3/GundamMsWarCcg-Set3-GarmaZabi.jpg	default	Pilot	Set 3	set3	playerNSupplyBase	PZ	2						
+set3_PL_063_ranba_ral	Ranba Ral	gundam-ms-war-ccg/set-3/GundamMsWarCcg-Set3-RanbaRal.jpg	default	Pilot	Set 3	set3	playerNSupplyBase	PZ	2						
+set3_PL_064_Clawle_hamon	Clawle Hamon	gundam-ms-war-ccg/set-3/GundamMsWarCcg-Set3-ClawleHamon.jpg	default	Pilot	Set 3	set3	playerNSupplyBase	PZ	2						
+set3_PL_065_Ma_Kube	Ma Kube	gundam-ms-war-ccg/set-3/GundamMsWarCcg-Set3-MaKube.jpg	default	Pilot	Set 3	set3	playerNSupplyBase	PZ	2						
+set3_PL_066_the_black_trinary	The Black Trinary	gundam-ms-war-ccg/set-3/GundamMsWarCcg-Set3-TheBlackTrinary.jpg	default	Pilot	Set 3	set3	playerNSupplyBase	PZ	2						
+set3_PL_067_Flanagan_boone	Flanagan Boone	gundam-ms-war-ccg/set-3/GundamMsWarCcg-Set3-FlanaganBoone.jpg	default	Pilot	Set 3	set3	playerNSupplyBase	PZ	1						
+set1_wing_team_missions_01	Wing Gundam Mission 1	gundam-ms-war-ccg/set-1/GundamMsWarCcg-Set1-WingGundamMission1.jpg	default	Missions	Set 1	set1	playerNSupplyBase	WG							
+set1_wing_team_missions_02	Wing Gundam Mission 2	gundam-ms-war-ccg/set-1/GundamMsWarCcg-Set1-WingGundamMission2.jpg	default	Missions	Set 1	set1	playerNSupplyBase	WG							

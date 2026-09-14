@@ -1,0 +1,31 @@
+{
+  "steps": {
+    "readyStep": {
+      "phaseId": "ready",
+      "label": "Ready"
+    },
+    "troublemakerStep": {
+      "phaseId": "troublemaker",
+      "label": "Troublemaker"
+    },
+    "mainStep": {
+      "phaseId": "main",
+      "label": "Main"
+    },
+    "scoreStep": {
+      "phaseId": "score",
+      "label": "Score"
+    },
+    "endStep": {
+      "phaseId": "end",
+      "label": "End"
+    }
+  },
+  "stepOrder": [
+    "readyStep",
+    "troublemakerStep",
+    "mainStep",
+    "scoreStep",
+    "endStep"
+  ]
+}

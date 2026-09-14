@@ -1,0 +1,18 @@
+{
+  "groupMenu": {
+    "moveToGroupIds": [
+      "playerNHand",
+      "playerNGroupDeck",
+      "playerNPlotDeck",
+      "playerNLead",
+      "playerNPlay",
+      "playerNDiscard",
+      "playerNRemoved",
+      "playerN+1Play",
+      "sharedGroups",
+      "sharedPlots",
+      "sharedSetAside"
+    ],
+    "options": []
+  }
+}

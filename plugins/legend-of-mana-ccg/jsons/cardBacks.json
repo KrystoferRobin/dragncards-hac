@@ -1,0 +1,14 @@
+{
+  "cardBacks": {
+    "default": {
+      "width": 0.72,
+      "height": 1.0,
+      "imageUrl": "legend-of-mana-ccg/_plugin/LegendOfManaCcg-CardbackDefault.jpg"
+    },
+    "character": {
+      "width": 0.72,
+      "height": 1.0,
+      "imageUrl": "legend-of-mana-ccg/_plugin/LegendOfManaCcg-CardbackCharacter.jpg"
+    }
+  }
+}

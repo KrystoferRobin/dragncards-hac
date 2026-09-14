@@ -1,0 +1,11 @@
+{
+  "automation": {
+    "postNewGameActionList": [
+      [
+        "LOG",
+        "Fight Klub table created. Build a draw stack from the deck editor. No rules are enforced."
+      ]
+    ],
+    "gameRules": {}
+  }
+}

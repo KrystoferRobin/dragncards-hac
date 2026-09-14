@@ -1,0 +1,17 @@
+{
+  "spawnExistingCardModal": {
+    "columnProperties": [
+      "name",
+      "type",
+      "corps",
+      "price",
+      "packName"
+    ],
+    "loadGroupIds": [
+      "player1SupplyBase",
+      "player1DryDock",
+      "player1Hand",
+      "player2Hand"
+    ]
+  }
+}

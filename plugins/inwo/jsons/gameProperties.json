@@ -1,0 +1,9 @@
+{
+  "gameProperties": {
+    "attackBonus": {
+      "label": "Attack Bonus/Penalty",
+      "type": "integer",
+      "default": 0
+    }
+  }
+}

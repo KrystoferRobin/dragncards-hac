@@ -1,0 +1,9 @@
+{
+  "cardBacks": {
+    "default": {
+      "width": 0.72,
+      "height": 1.0,
+      "imageUrl": "middle-earth-ccg/_plugin/MiddleEarthCCG-CardbackDefault.jpg"
+    }
+  }
+}

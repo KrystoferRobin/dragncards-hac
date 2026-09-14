@@ -1,0 +1,44 @@
+{
+  "cardMenu": {
+    "moveToGroupIds": [
+      "playerNHand",
+      "playerNDeck",
+      "playerNDiscard",
+      "playerNPlay",
+      "playerNStory",
+      "playerNInvestigator",
+      "playerN+1Play",
+      "sharedSetAside"
+    ],
+    "options": [
+      {
+        "label": "Rotate",
+        "actionList": "rotateCard"
+      },
+      {
+        "label": "Unrotate",
+        "actionList": "unrotateCard"
+      },
+      {
+        "label": "Flip",
+        "actionList": "flipCard"
+      },
+      {
+        "label": "Discard",
+        "actionList": "discardCard"
+      },
+      {
+        "label": "Move to Story",
+        "actionList": "toStory"
+      },
+      {
+        "label": "Detach",
+        "actionList": "detachCard"
+      },
+      {
+        "label": "Shuffle into deck",
+        "actionList": "shuffleIntoDeck"
+      }
+    ]
+  }
+}

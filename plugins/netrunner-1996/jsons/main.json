@@ -1,0 +1,12 @@
+{
+  "pluginName": "Netrunner (1996)",
+  "author": "OCTGN / Db0, toon",
+  "tutorialUrl": "https://github.com/db0/Netrunner-OCTGN",
+  "announcements": [
+    "Tabletop plugin from the OCTGN 1996 Netrunner set (Wizards, not Android). No rules engine — Bits, Actions, Archives, and Tags are shortcuts.",
+    "D = draw from R&D / Stack. B = Bits +1. One player Corp, one Runner — you keep the sides."
+  ],
+  "loadPreBuiltOnNewGame": false,
+  "bannerUrl": "https://toybox.hundredacre.club/cards/netrunner-1996/_plugin/banner2.jpg",
+  "logoUrl": "https://toybox.hundredacre.club/cards/netrunner-1996/_plugin/logo2.jpg"
+}

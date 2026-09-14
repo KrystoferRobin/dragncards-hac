@@ -1,0 +1,8 @@
+{
+  "automation": {
+    "postNewGameActionList": [
+      ["LOG", "Anachronism table created. Load a 5-card army, set Life from your warrior, place the warrior on your start row, and use 2d6 Atk/Def. No rules are enforced."]
+    ],
+    "gameRules": {}
+  }
+}

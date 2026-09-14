@@ -1,0 +1,338 @@
+{
+  "automation": {
+    "cards": {},
+    "gameRules": {
+      "phaseText": {
+        "_comment": "Display fade text for each phase",
+        "condition": true,
+        "inheritFrom": "stepTrigger",
+        "priority": 10,
+        "then": [
+          "COND",
+          [
+            "EQUAL",
+            "$GAME.stepId",
+            "1.0"
+          ],
+          [
+            [
+              "FADE_TEXT_GAME",
+              "Activate Phase"
+            ],
+            [
+              "UPDATE_LAYOUT",
+              "/layout/textBoxes/roundAdvancement/label",
+              "Activate Force: one for each Force icon on your side of locations, plus 1. Hotkey A. Arrow-Down for Next."
+            ]
+          ],
+          [
+            "EQUAL",
+            "$GAME.stepId",
+            "2.1"
+          ],
+          [
+            [
+              "FADE_TEXT_GAME",
+              "Control Phase"
+            ],
+            [
+              "UPDATE_LAYOUT",
+              "/layout/textBoxes/roundAdvancement/label",
+              "Drain at each location you control that opponent occupies. Opponent loses that much Force. Arrow-Down for Next."
+            ]
+          ],
+          [
+            "EQUAL",
+            "$GAME.stepId",
+            "3.1"
+          ],
+          [
+            [
+              "FADE_TEXT_GAME",
+              "Deploy Phase"
+            ],
+            [
+              "UPDATE_LAYOUT",
+              "/layout/textBoxes/roundAdvancement/label",
+              "Deploy cards from hand (pay deploy cost from Force Pile). Arrow-Down for Next."
+            ]
+          ],
+          [
+            "EQUAL",
+            "$GAME.stepId",
+            "4.1"
+          ],
+          [
+            [
+              "FADE_TEXT_GAME",
+              "Battle Phase"
+            ],
+            [
+              "UPDATE_LAYOUT",
+              "/layout/textBoxes/roundAdvancement/label",
+              "Use 1 Force to initiate a battle at a location where you both have presence. Arrow-Down for Next."
+            ]
+          ],
+          [
+            "EQUAL",
+            "$GAME.stepId",
+            "4.2"
+          ],
+          [
+            "UPDATE_LAYOUT",
+            "/layout/textBoxes/roundAdvancement/label",
+            "Weapons segment: fire weapons, draw weapon destiny. Interrupts as needed. Arrow-Down for Next."
+          ],
+          [
+            "EQUAL",
+            "$GAME.stepId",
+            "4.3"
+          ],
+          [
+            "UPDATE_LAYOUT",
+            "/layout/textBoxes/roundAdvancement/label",
+            "Power segment: total power + battle destiny. Hotkey Y draws destiny onto the Stack. Arrow-Down for Next."
+          ],
+          [
+            "EQUAL",
+            "$GAME.stepId",
+            "4.4"
+          ],
+          [
+            "UPDATE_LAYOUT",
+            "/layout/textBoxes/roundAdvancement/label",
+            "Interrupts / just actions. Arrow-Down for Next."
+          ],
+          [
+            "EQUAL",
+            "$GAME.stepId",
+            "4.5"
+          ],
+          [
+            "UPDATE_LAYOUT",
+            "/layout/textBoxes/roundAdvancement/label",
+            "Attrition: losing side must lose cards totaling forfeit ≥ attrition. Arrow-Down for Next."
+          ],
+          [
+            "EQUAL",
+            "$GAME.stepId",
+            "4.6"
+          ],
+          [
+            "UPDATE_LAYOUT",
+            "/layout/textBoxes/roundAdvancement/label",
+            "Interrupts / just actions. Arrow-Down for Next."
+          ],
+          [
+            "EQUAL",
+            "$GAME.stepId",
+            "4.7"
+          ],
+          [
+            "UPDATE_LAYOUT",
+            "/layout/textBoxes/roundAdvancement/label",
+            "Battle damage: power difference as Force loss (may satisfy with forfeited cards). Arrow-Down for Next."
+          ],
+          [
+            "EQUAL",
+            "$GAME.stepId",
+            "4.8"
+          ],
+          [
+            "UPDATE_LAYOUT",
+            "/layout/textBoxes/roundAdvancement/label",
+            "Interrupts / just actions. Arrow-Down for Next."
+          ],
+          [
+            "EQUAL",
+            "$GAME.stepId",
+            "4.9"
+          ],
+          [
+            "UPDATE_LAYOUT",
+            "/layout/textBoxes/roundAdvancement/label",
+            "Satisfy remaining Force loss from Reserve / Force / Used. Arrow-Down for Next."
+          ],
+          [
+            "EQUAL",
+            "$GAME.stepId",
+            "4.10"
+          ],
+          [
+            "UPDATE_LAYOUT",
+            "/layout/textBoxes/roundAdvancement/label",
+            "Interrupts / just actions. Arrow-Down for Next."
+          ],
+          [
+            "EQUAL",
+            "$GAME.stepId",
+            "4.11"
+          ],
+          [
+            [
+              "FADE_TEXT_GAME",
+              "Battle Phase: End of Battle"
+            ],
+            [
+              "UPDATE_LAYOUT",
+              "/layout/textBoxes/roundAdvancement/label",
+              "Hit cards to Lost Pile. Arrow-Up to 4.1 for another battle or Arrow-Down for Move."
+            ]
+          ],
+          [
+            "EQUAL",
+            "$GAME.stepId",
+            "5.1"
+          ],
+          [
+            [
+              "FADE_TEXT_GAME",
+              "Move Phase"
+            ],
+            [
+              "UPDATE_LAYOUT",
+              "/layout/textBoxes/roundAdvancement/label",
+              "Move characters, vehicles, and starships (usually 1 Force each). Arrow-Down for Next."
+            ]
+          ],
+          [
+            "EQUAL",
+            "$GAME.stepId",
+            "6.1"
+          ],
+          [
+            [
+              "FADE_TEXT_GAME",
+              "Draw Phase"
+            ],
+            [
+              "UPDATE_LAYOUT",
+              "/layout/textBoxes/roundAdvancement/label",
+              "Draw any number of cards from Force Pile to hand (Hotkey D). Unused Force stays. Arrow-Down for Next."
+            ]
+          ],
+          [
+            "EQUAL",
+            "$GAME.stepId",
+            "7.0"
+          ],
+          [
+            [
+              "FADE_TEXT_GAME",
+              "End of Turn"
+            ],
+            [
+              "UPDATE_LAYOUT",
+              "/layout/textBoxes/roundAdvancement/label",
+              "Used Pile under Reserve (Hotkey E or End Turn). Arrow-Down for opponent Activate."
+            ]
+          ]
+        ]
+      },
+      "player1deckTrigger": {
+        "_comment": "Watch life-force piles",
+        "abstract": true,
+        "listenTo": [
+          "$GAME.groupById.player1Reserve.stackIds",
+          "$GAME.groupById.player1Force.stackIds",
+          "$GAME.groupById.player1Used.stackIds"
+        ],
+        "type": "trigger"
+      },
+      "stepTrigger": {
+        "_comment": "Abstract class to trigger game step effects",
+        "abstract": true,
+        "listenTo": [
+          "/stepId"
+        ],
+        "type": "trigger"
+      },
+      "player1ForceUpdater": {
+        "_comment": "Life Force = Reserve + Force + Used for player1",
+        "condition": true,
+        "inheritFrom": "player1deckTrigger",
+        "priority": 10,
+        "then": [
+          [
+            "SET",
+            "/playerData/player1/force",
+            [
+              "ADD",
+              [
+                "LENGTH",
+                "$GAME.groupById.player1Reserve.stackIds"
+              ],
+              [
+                "LENGTH",
+                "$GAME.groupById.player1Force.stackIds"
+              ],
+              [
+                "LENGTH",
+                "$GAME.groupById.player1Used.stackIds"
+              ]
+            ]
+          ]
+        ]
+      },
+      "player2ForceUpdater": {
+        "_comment": "Life Force = Reserve + Force + Used for player2",
+        "condition": true,
+        "inheritFrom": "player2deckTrigger",
+        "priority": 10,
+        "then": [
+          [
+            "SET",
+            "/playerData/player2/force",
+            [
+              "ADD",
+              [
+                "LENGTH",
+                "$GAME.groupById.player2Reserve.stackIds"
+              ],
+              [
+                "LENGTH",
+                "$GAME.groupById.player2Force.stackIds"
+              ],
+              [
+                "LENGTH",
+                "$GAME.groupById.player2Used.stackIds"
+              ]
+            ]
+          ]
+        ]
+      },
+      "player2deckTrigger": {
+        "_comment": "Watch life-force piles",
+        "abstract": true,
+        "listenTo": [
+          "$GAME.groupById.player2Reserve.stackIds",
+          "$GAME.groupById.player2Force.stackIds",
+          "$GAME.groupById.player2Used.stackIds"
+        ],
+        "type": "trigger"
+      }
+    },
+    "postLoadActionList": [
+      [
+        "LOG",
+        "{{$PLAYER_N}} loaded some cards."
+      ]
+    ],
+    "postNewGameActionList": [
+      [
+        "LOG",
+        "A new game was created."
+      ],
+      [
+        "PROMPT",
+        "player1",
+        "welcome1"
+      ],
+      [
+        "PROMPT",
+        "player2",
+        "welcome1"
+      ]
+    ]
+  }
+}

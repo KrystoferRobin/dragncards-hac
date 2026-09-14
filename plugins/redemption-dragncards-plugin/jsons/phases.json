@@ -1,0 +1,11 @@
+{
+  "phases": {
+    "draw": {"label": "Draw", "height": "16%"},
+    "upkeep": {"label": "Upkeep", "height": "16%"},
+    "prep": {"label": "Prep", "height": "17%"},
+    "battle": {"label": "Battle", "height": "17%"},
+    "discard": {"label": "Discard", "height": "17%"},
+    "end": {"label": "End", "height": "17%"}
+  },
+  "phaseOrder": ["draw", "upkeep", "prep", "battle", "discard", "end"]
+}

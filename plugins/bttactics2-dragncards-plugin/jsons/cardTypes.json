@@ -1,0 +1,40 @@
+{
+  "cardTypes": {
+    "Box Power": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "damage",
+        "construction",
+        "generic"
+      ]
+    },
+    "Command": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "damage",
+        "construction",
+        "generic"
+      ]
+    },
+    "Mission": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "damage",
+        "construction",
+        "generic"
+      ]
+    },
+    "Unit": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "damage",
+        "construction",
+        "generic"
+      ]
+    }
+  }
+}

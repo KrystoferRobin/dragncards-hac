@@ -1,0 +1,58 @@
+{
+  "functions": {
+    "DISCARD": {
+      "args": ["$CARD_ID"],
+      "code": [
+        ["VAR", "$CARD", "$GAME.cardById.$CARD_ID"],
+        ["COND",
+          ["EQUAL", "$CARD.discardGroupId", null],
+          ["LOG", "{{$ALIAS_N}} failed to discard {{$CARD.currentFace.name}} because it is not associated with a discard pile. Please drag the card instead."],
+          ["TRUE"],
+          [
+            ["LOG", "{{$ALIAS_N}} discarded {{$CARD.sides.A.name}}."],
+            ["MOVE_CARD", "$CARD.id", "$CARD.discardGroupId", 0]
+          ]
+        ]
+      ]
+    },
+    "FLIP": {
+      "args": ["$CARD_ID"],
+      "code": [
+        ["VAR", "$CARD", "$GAME.cardById.$CARD_ID"],
+        ["COND",
+          ["EQUAL", "$CARD.currentSide", "A"],
+          [
+            ["LOG", "{{$ALIAS_N}} flipped {{$CARD.currentFace.name}} facedown."],
+            ["SET", "/cardById/$CARD.id/currentSide", "B"]
+          ],
+          ["TRUE"],
+          [
+            ["SET", "/cardById/$CARD.id/currentSide", "A"],
+            ["LOG", "{{$ALIAS_N}} flipped {{$CARD.currentFace.name}} faceup."]
+          ]
+        ]
+      ]
+    },
+    "TOGGLE_SIDE_REGION": {
+      "args": ["$SIDE_GROUP_ID"],
+      "code": [
+        ["COND",
+          ["AND",
+            "$GAME.playerData.$PLAYER_N.layout.regions.sideRegion.visible",
+            ["EQUAL", "$GAME.playerData.$PLAYER_N.layout.regions.sideRegion.groupId", "$SIDE_GROUP_ID"]
+          ],
+          [
+            ["LOG", "{{$ALIAS_N}} hid Set Aside."],
+            ["SET", "/playerData/$PLAYER_N/layout/regions/sideRegion/visible", false]
+          ],
+          ["TRUE"],
+          [
+            ["LOG", "{{$ALIAS_N}} showed Set Aside."],
+            ["SET", "/playerData/$PLAYER_N/layout/regions/sideRegion/groupId", "$SIDE_GROUP_ID"],
+            ["SET", "/playerData/$PLAYER_N/layout/regions/sideRegion/visible", true]
+          ]
+        ]
+      ]
+    }
+  }
+}

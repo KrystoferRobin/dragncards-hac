@@ -1,0 +1,34 @@
+{
+  "pluginMenu": {
+    "options": [
+      {
+        "label": "Draw",
+        "actionList": "drawDeck"
+      },
+      {
+        "label": "Shuffle deck",
+        "actionList": "shuffleDeck"
+      },
+      {
+        "label": "Ready all",
+        "actionList": "readyAll"
+      },
+      {
+        "label": "Flip coin",
+        "actionList": "flipCoin"
+      },
+      {
+        "label": "Power +1",
+        "actionList": "increase_power"
+      },
+      {
+        "label": "Power -1",
+        "actionList": "decrease_power"
+      },
+      {
+        "label": "Roll d20",
+        "actionList": "rollD20"
+      }
+    ]
+  }
+}

@@ -1,0 +1,3862 @@
+{
+  "automation": {
+    "cards": {
+      "01326": {
+        "_comment": "Umbra",
+        "inheritFrom": "01268"
+      },
+      "01320": {
+        "_comment": "Arcology Sinkhole",
+        "ability": {
+          "A": [
+            "PROMPT",
+            "$PLAYER_N",
+            "ARCOLOGY_SINKHOLE"
+          ]
+        }
+      },
+      "01268": {
+        "_comment": "Circling Irix",
+        "rules": {
+          "isPersistent": {
+            "_comment": "Circling Irix",
+            "condition": [
+              "AND",
+              "$THIS.inPlay",
+              [
+                "PREV",
+                [
+                  "NOT",
+                  "$THIS.inPlay"
+                ]
+              ]
+            ],
+            "listenTo": [
+              "/cardById/$THIS_ID/inPlay"
+            ],
+            "then": [
+              [
+                "SET",
+                "/cardById/$THIS_ID/controller",
+                "playerNull"
+              ],
+              [
+                "INCREASE_VAL",
+                "/cardById/$THIS_ID/tokens/persistent",
+                1
+              ],
+              [
+                "LOG",
+                "└── ",
+                "$THIS.currentFace.name",
+                " gains Persistent."
+              ]
+            ],
+            "type": "trigger"
+          }
+        }
+      },
+      "03306": {
+        "_comment": "The Spiral Stairway",
+        "ability": {
+          "A": [
+            "PROMPT",
+            "$PLAYER_N",
+            "SPIRAL_STAIRWAY"
+          ]
+        }
+      },
+      "01360": {
+        "_comment": "The Arcology Threshold",
+        "ability": {
+          "A": [
+            "PROMPT",
+            "$PLAYER_N",
+            "ARCOLOGY_THRESHOLD"
+          ]
+        }
+      },
+      "03364": {
+        "_comment": "Breathe Easier / Breathe Easier",
+        "rules": {
+          "BreatheEasier": {
+            "condition": [
+              "AND",
+              "$THIS.inPlay",
+              "$TARGET.inPlay",
+              [
+                "EQUAL",
+                "$TARGET.sides.A.type",
+                "Location"
+              ],
+              [
+                "EQUAL",
+                "$TARGET.sides.A.pack_code",
+                "LoA"
+              ],
+              [
+                "PREV",
+                [
+                  "NOT",
+                  "$TARGET.inPlay"
+                ]
+              ]
+            ],
+            "listenTo": [
+              "/cardById/*/inPlay"
+            ],
+            "then": [
+              [
+                "LOAD_CARDS",
+                [
+                  "LIST",
+                  {
+                    "databaseId": "03345",
+                    "loadGroupId": "sharedPathDeck",
+                    "quantity": 4
+                  }
+                ]
+              ],
+              [
+                "LOG",
+                "├── ",
+                "Added 3 Shifting Rubble to the Path Deck."
+              ]
+            ],
+            "type": "trigger"
+          }
+        }
+      },
+      "01375": {
+        "_comment": "Howling Winds / Thunderhead",
+        "rules": {
+          "Trigger1": {
+            "_comment": "Refresh for Howling Winds.",
+            "condition": [
+              "AND",
+              "$THIS.inPlay",
+              [
+                "EQUAL",
+                "$GAME.stepId",
+                "4.1"
+              ],
+              [
+                "EQUAL",
+                "$THIS.currentSide",
+                "A"
+              ]
+            ],
+            "listenTo": [
+              "/stepId"
+            ],
+            "then": [
+              [
+                "COND",
+                [
+                  "GREATER_EQUAL",
+                  "$THIS.tokens.general",
+                  [
+                    "MULTIPLY",
+                    3,
+                    "$GAME.numPlayers"
+                  ]
+                ],
+                [
+                  [
+                    "LOG",
+                    "└── The weather changed!"
+                  ],
+                  [
+                    "SET",
+                    "/cardById/$THIS_ID/currentSide",
+                    "B"
+                  ],
+                  [
+                    "SET",
+                    "/cardById/$THIS_ID/tokens/general",
+                    0
+                  ],
+                  [
+                    "ACTION_LIST",
+                    "revealPathFaceup",
+                    true,
+                    "sharedPathDeck",
+                    "$GAME.firstPlayer"
+                  ]
+                ]
+              ]
+            ],
+            "type": "trigger"
+          },
+          "Trigger2": {
+            "_comment": "Arrival Setup for Howling Winds.",
+            "condition": [
+              "AND",
+              "$THIS.inPlay",
+              [
+                "EQUAL",
+                "$GAME.stepId",
+                "3.5"
+              ],
+              [
+                "EQUAL",
+                "$THIS.currentSide",
+                "A"
+              ]
+            ],
+            "listenTo": [
+              "/stepId"
+            ],
+            "then": [
+              [
+                "VAR",
+                "$CERBERUSIAN_CYCLONE_IN_GAME",
+                false
+              ],
+              [
+                "FOR_EACH_KEY_VAL",
+                "$TARGET_ID",
+                "$TARGET",
+                "$GAME.cardById",
+                [
+                  [
+                    "COND",
+                    [
+                      "EQUAL",
+                      "$TARGET.sides.A.name",
+                      "Cerberusian Cyclone"
+                    ],
+                    [
+                      "VAR",
+                      "$CERBERUSIAN_CYCLONE_IN_GAME",
+                      true
+                    ]
+                  ]
+                ]
+              ],
+              [
+                "COND",
+                [
+                  "EQUAL",
+                  "$CERBERUSIAN_CYCLONE_IN_GAME",
+                  false
+                ],
+                [
+                  [
+                    "LOAD_CARDS",
+                    "CerberusianCyclone"
+                  ],
+                  [
+                    "LOG",
+                    "Cerberusian Cyclone shuffled in the path deck."
+                  ]
+                ]
+              ]
+            ],
+            "type": "trigger"
+          },
+          "Trigger3": {
+            "_comment": "Trigger for Thunderhead.",
+            "condition": [
+              "AND",
+              "$THIS.inPlay",
+              [
+                "EQUAL",
+                "$GAME.stepId",
+                "4.1"
+              ],
+              [
+                "EQUAL",
+                "$THIS.currentSide",
+                "B"
+              ]
+            ],
+            "listenTo": [
+              "/stepId"
+            ],
+            "then": [
+              [
+                [
+                  "LOG",
+                  "└── The weather changed!"
+                ],
+                [
+                  "SET",
+                  "/cardById/$THIS_ID/currentSide",
+                  "A"
+                ]
+              ]
+            ],
+            "type": "trigger"
+          }
+        }
+      },
+      "04033": {
+        "_comment": "Flower Collection / Pollen Collection",
+        "rules": {
+          "FlowerCollection": {
+            "condition": [
+              "AND",
+              "$THIS.inPlay",
+              [
+                "EQUAL",
+                "$THIS.currentSide",
+                "A"
+              ],
+              "$TARGET.inPlay",
+              [
+                "EQUAL",
+                "$TARGET.sides.A.type",
+                "Location"
+              ],
+              [
+                "PREV",
+                [
+                  "NOT",
+                  "$TARGET.inPlay"
+                ]
+              ]
+            ],
+            "listenTo": [
+              "/cardById/*/inPlay"
+            ],
+            "then": [
+              [
+                "LOAD_CARDS",
+                [
+                  "LIST",
+                  {
+                    "databaseId": "01283",
+                    "loadGroupId": "sharedPathDeck",
+                    "quantity": 1
+                  },
+                  {
+                    "databaseId": "01284",
+                    "loadGroupId": "sharedPathDeck",
+                    "quantity": 2
+                  }
+                ]
+              ],
+              [
+                "LOG",
+                "├── ",
+                "Added 1 Cloudhive and 2 Cloudhive Swarm to the path deck."
+              ]
+            ],
+            "type": "trigger"
+          }
+        }
+      },
+      "03363": {
+        "_comment": "Collapse! / Buried Survey Team",
+        "ability": {
+          "B": [
+            [
+              "TOGGLE_ENCOUNTER_2_DECK",
+              true
+            ],
+            [
+              "LOAD_CARDS",
+              [
+                "LIST",
+                [
+                  "PROCESS_MAP",
+                  {
+                    "databaseId": "03345",
+                    "loadGroupId": "sharedPathDeck2",
+                    "quantity": "$GAME.numPlayers"
+                  }
+                ],
+                {
+                  "databaseId": "03347",
+                  "loadGroupId": "sharedPathDeck2",
+                  "quantity": 2
+                },
+                {
+                  "databaseId": "03330",
+                  "loadGroupId": "sharedPathDeck2",
+                  "quantity": 1
+                },
+                {
+                  "databaseId": "03311",
+                  "loadGroupId": "sharedPathDeck2",
+                  "quantity": 1
+                },
+                {
+                  "databaseId": "03312",
+                  "loadGroupId": "sharedPathDeck2",
+                  "quantity": 1
+                }
+              ]
+            ],
+            [
+              "SHUFFLE_GROUP",
+              "sharedPathDeck2"
+            ]
+          ]
+        },
+        "rules": {
+          "Collapse": {
+            "condition": [
+              "AND",
+              "$THIS.inPlay",
+              [
+                "EQUAL",
+                "$THIS.currentSide",
+                "A"
+              ],
+              "$TARGET.inPlay",
+              [
+                "EQUAL",
+                "$TARGET.sides.A.type",
+                "Location"
+              ],
+              [
+                "EQUAL",
+                "$TARGET.sides.A.pack_code",
+                "Core"
+              ],
+              [
+                "PREV",
+                [
+                  "NOT",
+                  "$TARGET.inPlay"
+                ]
+              ]
+            ],
+            "listenTo": [
+              "/cardById/*/inPlay"
+            ],
+            "then": [
+              [
+                "COND",
+                [
+                  "NOT",
+                  [
+                    "ONE_CARD",
+                    "$C",
+                    [
+                      "AND",
+                      [
+                        "EQUAL",
+                        "$C.sides.A.name",
+                        "Arcology Sinkhole"
+                      ],
+                      [
+                        "EQUAL",
+                        "$C.groupId",
+                        "sharedPathDeck"
+                      ]
+                    ]
+                  ]
+                ],
+                [
+                  "LOAD_CARDS",
+                  [
+                    "LIST",
+                    {
+                      "databaseId": "01320",
+                      "loadGroupId": "sharedPathDeck",
+                      "quantity": 1
+                    }
+                  ]
+                ]
+              ]
+            ],
+            "type": "trigger"
+          }
+        }
+      },
+      "04100": {
+        "_comment": "Snow-Capped Summit",
+        "ability": {
+          "A": [
+            "PROMPT",
+            "$PLAYER_N",
+            "SNOW-CAPPED_SUMMIT"
+          ]
+        }
+      },
+      "01419": {
+        "_comment": "Rising Waters / The Watcher in the Brush",
+        "rules": {
+          "RisingWaters": {
+            "condition": [
+              "AND",
+              "$THIS.inPlay",
+              [
+                "EQUAL",
+                "$THIS.currentSide",
+                "A"
+              ],
+              "$TARGET.inPlay",
+              [
+                "OR",
+                [
+                  "EQUAL",
+                  "$TARGET.sides.A.name",
+                  "White Sky"
+                ],
+                [
+                  "EQUAL",
+                  "$TARGET.sides.A.name",
+                  "Kobo's Market"
+                ],
+                [
+                  "EQUAL",
+                  "$TARGET.sides.A.name",
+                  "Golden Shore"
+                ]
+              ],
+              [
+                "PREV",
+                [
+                  "NOT",
+                  "$TARGET.inPlay"
+                ]
+              ]
+            ],
+            "listenTo": [
+              "/cardById/*/inPlay"
+            ],
+            "then": [
+              [
+                "PROMPT",
+                "player1",
+                "RISING_WATERS"
+              ]
+            ],
+            "type": "trigger"
+          },
+          "TheWatcherInTheBrush": {
+            "condition": [
+              "AND",
+              "$THIS.inPlay",
+              [
+                "EQUAL",
+                "$THIS.currentSide",
+                "B"
+              ],
+              "$TARGET.inPlay",
+              [
+                "EQUAL",
+                "$TARGET.sides.A.type",
+                "Location"
+              ],
+              [
+                "PREV",
+                [
+                  "NOT",
+                  "$TARGET.inPlay"
+                ]
+              ]
+            ],
+            "listenTo": [
+              "/cardById/*/inPlay"
+            ],
+            "then": [
+              [
+                "LOAD_CARDS",
+                [
+                  "LIST",
+                  {
+                    "databaseId": "01330",
+                    "loadGroupId": "sharedPathDeck",
+                    "quantity": 1
+                  }
+                ]
+              ],
+              [
+                "LOG",
+                "├── ",
+                "Mysterious Verdessian added into the path deck."
+              ]
+            ],
+            "type": "trigger"
+          }
+        }
+      },
+      "04096": {
+        "_comment": "Observation Deck",
+        "ability": {
+          "A": [
+            "PROMPT",
+            "$PLAYER_N",
+            "OBSERVATION_DECK"
+          ]
+        }
+      },
+      "04035": {
+        "_comment": "Tracking Destruction / Stop the Rampage",
+        "rules": {
+          "TrackingDestruction": {
+            "condition": [
+              "AND",
+              "$THIS.inPlay",
+              [
+                "EQUAL",
+                "$THIS.currentSide",
+                "A"
+              ],
+              "$TARGET.inPlay",
+              [
+                "EQUAL",
+                "$TARGET.sides.A.type",
+                "Location"
+              ],
+              [
+                "EQUAL",
+                "$TARGET.sides.A.pivotal",
+                "0"
+              ],
+              [
+                "PREV",
+                [
+                  "NOT",
+                  "$TARGET.inPlay"
+                ]
+              ],
+              [
+                "NOT",
+                [
+                  "ONE_CARD",
+                  "$C",
+                  [
+                    "AND",
+                    "$C.inPlay",
+                    [
+                      "EQUAL",
+                      "$C.sides.A.name",
+                      "Deadfall"
+                    ]
+                  ]
+                ]
+              ]
+            ],
+            "listenTo": [
+              "/cardById/*/inPlay"
+            ],
+            "then": [
+              [
+                "LOAD_CARDS",
+                [
+                  "LIST",
+                  {
+                    "databaseId": "04019",
+                    "loadGroupId": "sharedPathDeck",
+                    "quantity": 1
+                  }
+                ]
+              ],
+              [
+                "LOG",
+                "├── ",
+                "Deadfall added into the path deck."
+              ]
+            ],
+            "type": "trigger"
+          }
+        }
+      },
+      "03359": {
+        "_comment": "Following a Lead",
+        "inheritFrom": "01415"
+      },
+      "01410": {
+        "_comment": "Alluvial Ruins",
+        "rules": {
+          "pathDeckAssembly": {
+            "condition": [
+              "AND",
+              [
+                "GREATER_EQUAL",
+                [
+                  "LENGTH",
+                  "sharedPathDeck2"
+                ],
+                0
+              ],
+              [
+                "EQUAL",
+                "$TARGET.groupId",
+                "sharedLocation"
+              ]
+            ],
+            "listenTo": [
+              "/cardById/*/inPlay"
+            ],
+            "then": [
+              [
+                "TOGGLE_ENCOUNTER_2_DECK",
+                true
+              ]
+            ],
+            "type": "trigger"
+          }
+        }
+      },
+      "01416": {
+        "_comment": "Helping Hand",
+        "inheritFrom": "01415"
+      },
+      "01317": {
+        "_comment": "Ren Kobo",
+        "inheritFrom": "01268"
+      },
+      "01284": {
+        "_comment": "Cloudhive Swarm",
+        "rules": {
+          "AddABee": {
+            "_comment": "Add generic token on Refresh.",
+            "condition": [
+              "AND",
+              "$THIS.inPlay",
+              [
+                "EQUAL",
+                "$GAME.stepId",
+                "4.1"
+              ]
+            ],
+            "listenTo": [
+              "/stepId"
+            ],
+            "then": [
+              [
+                "COND",
+                [
+                  "EQUAL",
+                  "$THIS.currentSide",
+                  "A"
+                ],
+                [
+                  [
+                    "LOG",
+                    "└── ",
+                    "Added 1 Bee to ",
+                    "$THIS.currentFace.name",
+                    "."
+                  ],
+                  [
+                    "INCREASE_VAL",
+                    "/cardById/$THIS_ID/tokens/general",
+                    1
+                  ]
+                ]
+              ]
+            ],
+            "type": "trigger"
+          }
+        }
+      },
+      "01385": {
+        "_comment": "Spire",
+        "inheritFrom": "01410"
+      },
+      "01308": {
+        "_comment": "Hearth of the Swamp",
+        "ability": {
+          "A": [
+            [
+              "LOG",
+              "$THIS.currentFace.name"
+            ],
+            [
+              "PROMPT",
+              "$PLAYER_N",
+              "HEARTH_OF_THE_SWAMP",
+              "$THIS"
+            ]
+          ]
+        }
+      },
+      "01374": {
+        "_comment": "Downpuor / Gathering Storm",
+        "rules": {
+          "Trigger": {
+            "_comment": "Trigger for Gathering Storm.",
+            "condition": [
+              "AND",
+              "$THIS.inPlay",
+              [
+                "EQUAL",
+                "$GAME.stepId",
+                "1"
+              ],
+              [
+                "EQUAL",
+                "$THIS.currentSide",
+                "B"
+              ]
+            ],
+            "listenTo": [
+              "/stepId"
+            ],
+            "then": [
+              [
+                [
+                  "LOG",
+                  "└── ",
+                  "Added 2 rain to ",
+                  "$THIS.currentFace.name",
+                  "."
+                ],
+                [
+                  "INCREASE_VAL",
+                  "/cardById/$THIS_ID/tokens/general",
+                  2
+                ]
+              ],
+              [
+                "COND",
+                [
+                  "GREATER_EQUAL",
+                  "$THIS.tokens.general",
+                  2
+                ],
+                [
+                  [
+                    "SET",
+                    "/cardById/$THIS_ID/currentSide",
+                    "A"
+                  ],
+                  [
+                    "LOG",
+                    "└── The weather changed!"
+                  ],
+                  [
+                    "FOR_EACH_KEY_VAL",
+                    "$CARD_ID",
+                    "$CARD",
+                    "$GAME.cardById",
+                    [
+                      [
+                        "COND",
+                        [
+                          "AND",
+                          "$CARD.inPlay",
+                          [
+                            "IN_STRING",
+                            "$CARD.currentFace.type",
+                            "Role"
+                          ]
+                        ],
+                        [
+                          "SET",
+                          "/cardById/$CARD_ID/rotation",
+                          90
+                        ]
+                      ],
+                      [
+                        "COND",
+                        [
+                          "AND",
+                          "$CARD.inPlay",
+                          [
+                            "IN_STRING",
+                            "$CARD.currentFace.traits",
+                            "Prey"
+                          ]
+                        ],
+                        [
+                          "MOVE_CARD",
+                          "$CARD_ID",
+                          "sharedAlongTheWay",
+                          -1
+                        ]
+                      ]
+                    ]
+                  ]
+                ]
+              ]
+            ],
+            "type": "trigger"
+          }
+        }
+      },
+      "01373": {
+        "_comment": "A Perfect Day / Midday Sun",
+        "rules": {
+          "Trigger1": {
+            "_comment": "Trigger for A Perfect Day.",
+            "condition": [
+              "AND",
+              "$THIS.inPlay",
+              [
+                "EQUAL",
+                "$GAME.stepId",
+                "4.1"
+              ],
+              [
+                "EQUAL",
+                "$THIS.currentSide",
+                "A"
+              ],
+              [
+                "EQUAL",
+                [
+                  "PREV",
+                  "$THIS.currentSide"
+                ],
+                "A"
+              ]
+            ],
+            "listenTo": [
+              "/stepId"
+            ],
+            "then": [
+              [
+                [
+                  "LOG",
+                  "└── ",
+                  "Removed 1 cloud from ",
+                  "$THIS.currentFace.name",
+                  "."
+                ],
+                [
+                  "DECREASE_VAL",
+                  "/cardById/$THIS_ID/tokens/general",
+                  1
+                ]
+              ],
+              [
+                "COND",
+                [
+                  "LESS_EQUAL",
+                  "$THIS.tokens.general",
+                  1
+                ],
+                [
+                  [
+                    "SET",
+                    "/cardById/$THIS_ID/currentSide",
+                    "B"
+                  ],
+                  [
+                    "LOG",
+                    "└── The weather changed!"
+                  ]
+                ]
+              ]
+            ],
+            "type": "trigger"
+          },
+          "Trigger2": {
+            "_comment": "Trigger for Midday Sun.",
+            "condition": [
+              "AND",
+              "$THIS.inPlay",
+              [
+                "EQUAL",
+                "$GAME.stepId",
+                "4.1"
+              ],
+              [
+                "EQUAL",
+                "$THIS.currentSide",
+                "B"
+              ]
+            ],
+            "listenTo": [
+              "/stepId"
+            ],
+            "then": [
+              [
+                "LOG",
+                "└── ",
+                "Added 1 cloud to ",
+                "$THIS.currentFace.name",
+                "."
+              ],
+              [
+                "INCREASE_VAL",
+                "/cardById/$THIS_ID/tokens/general",
+                1
+              ],
+              [
+                "COND",
+                [
+                  "GREATER_EQUAL",
+                  "$THIS.tokens.general",
+                  2
+                ],
+                [
+                  [
+                    "SET",
+                    "/cardById/$THIS_ID/currentSide",
+                    "A"
+                  ],
+                  [
+                    "LOG",
+                    "└── The weather changed!"
+                  ]
+                ]
+              ]
+            ],
+            "type": "trigger"
+          }
+        }
+      },
+      "01316": {
+        "_comment": "Quisi Vos, Rascal",
+        "inheritFrom": "01268"
+      },
+      "01420": {
+        "_comment": "Sensor Network / Secret Invasion",
+        "rules": {
+          "SecretInvasion": {
+            "condition": [
+              "AND",
+              "$THIS.inPlay",
+              [
+                "EQUAL",
+                "$THIS.currentSide",
+                "B"
+              ],
+              "$TARGET.inPlay",
+              [
+                "EQUAL",
+                "$TARGET.sides.A.type",
+                "Location"
+              ],
+              [
+                "EQUAL",
+                "$TARGET.sides.A.pivotal",
+                "0"
+              ],
+              [
+                "PREV",
+                [
+                  "NOT",
+                  "$TARGET.inPlay"
+                ]
+              ]
+            ],
+            "listenTo": [
+              "/cardById/*/inPlay"
+            ],
+            "then": [
+              [
+                "LOAD_CARDS",
+                [
+                  "LIST",
+                  {
+                    "databaseId": "01332",
+                    "loadGroupId": "sharedPathDeck3",
+                    "quantity": 5
+                  }
+                ]
+              ],
+              [
+                "LOG",
+                "├── ",
+                "5 Reclaimer Seekers shuffled into the Valley set."
+              ]
+            ],
+            "type": "trigger"
+          }
+        }
+      },
+      "01426": {
+        "_comment": "Invasion - Stage 1 / Invasion - Stage 2",
+        "rules": {
+          "Stage1": {
+            "condition": [
+              "AND",
+              "$THIS.inPlay",
+              [
+                "EQUAL",
+                "$THIS.currentSide",
+                "A"
+              ],
+              "$TARGET.inPlay",
+              [
+                "EQUAL",
+                "$TARGET.sides.A.type",
+                "Location"
+              ],
+              [
+                "PREV",
+                [
+                  "NOT",
+                  "$TARGET.inPlay"
+                ]
+              ],
+              [
+                "OR",
+                [
+                  "IN_STRING",
+                  "$TARGET.currentFace.traits",
+                  "Ruin"
+                ],
+                [
+                  "IN_STRING",
+                  "$TARGET.currentFace.traits",
+                  "Forest"
+                ],
+                [
+                  "IN_STRING",
+                  "$TARGET.currentFace.traits",
+                  "Mountain"
+                ]
+              ]
+            ],
+            "listenTo": [
+              "/cardById/*/inPlay"
+            ],
+            "then": [
+              [
+                "PROMPT",
+                "player1",
+                "INVASION_STAGE1",
+                "$TARGET"
+              ]
+            ],
+            "type": "trigger"
+          },
+          "Stage2": {
+            "condition": [
+              "AND",
+              "$THIS.inPlay",
+              [
+                "EQUAL",
+                "$THIS.currentSide",
+                "B"
+              ],
+              "$TARGET.inPlay",
+              [
+                "EQUAL",
+                "$TARGET.sides.A.type",
+                "Location"
+              ],
+              [
+                "PREV",
+                [
+                  "NOT",
+                  "$TARGET.inPlay"
+                ]
+              ],
+              [
+                "OR",
+                [
+                  "IN_STRING",
+                  "$TARGET.currentFace.traits",
+                  "Ruin"
+                ],
+                [
+                  "IN_STRING",
+                  "$TARGET.currentFace.traits",
+                  "Forest"
+                ],
+                [
+                  "IN_STRING",
+                  "$TARGET.currentFace.traits",
+                  "Mountain"
+                ]
+              ]
+            ],
+            "listenTo": [
+              "/cardById/*/inPlay"
+            ],
+            "then": [
+              [
+                "LOAD_CARDS",
+                [
+                  "LIST",
+                  {
+                    "databaseId": "01333",
+                    "loadGroupId": "sharedPathDeck",
+                    "quantity": 1
+                  }
+                ]
+              ],
+              [
+                "PROMPT",
+                "player1",
+                "INVASION_STAGE2"
+              ]
+            ],
+            "type": "trigger"
+          }
+        }
+      },
+      "03254": {
+        "_comment": "Terminal Artery",
+        "rules": {
+          "TerminalArteryRefresh": {
+            "condition": [
+              "AND",
+              "$THIS.inPlay",
+              [
+                "EQUAL",
+                "$GAME.stepId",
+                "4.1"
+              ],
+              [
+                "GREATER_THAN",
+                [
+                  "LENGTH",
+                  "$GAME.groupById.sharedPathDeck2.stackIds"
+                ],
+                0
+              ]
+            ],
+            "listenTo": [
+              "/stepId"
+            ],
+            "then": [
+              [
+                "VAR",
+                "$CHOSEN_CARDS",
+                [
+                  "CHOOSE_N",
+                  "$GAME.groupById.sharedPathDeck2.parentCards",
+                  1
+                ]
+              ],
+              [
+                "VAR",
+                "$RANDOM_CARD",
+                "$CHOSEN_CARDS.[0]"
+              ],
+              [
+                "MOVE_CARD",
+                "$RANDOM_CARD.id",
+                "sharedPathDeck",
+                -1
+              ],
+              [
+                "SHUFFLE_GROUP",
+                "sharedPathDeck"
+              ]
+            ],
+            "type": "trigger"
+          }
+        }
+      },
+      "01376": {
+        "_comment": "Clinging Mist / Electric Fog",
+        "rules": {
+          "Trigger1": {
+            "_comment": "Refresh for Clinging Mist.",
+            "condition": [
+              "AND",
+              "$THIS.inPlay",
+              [
+                "EQUAL",
+                "$GAME.stepId",
+                "4.1"
+              ],
+              [
+                "EQUAL",
+                "$THIS.currentSide",
+                "B"
+              ]
+            ],
+            "listenTo": [
+              "/stepId"
+            ],
+            "then": [
+              [
+                [
+                  "LOG",
+                  "└── ",
+                  "Added 2 fog to ",
+                  "$THIS.currentFace.name",
+                  "."
+                ],
+                [
+                  "INCREASE_VAL",
+                  "/cardById/$THIS_ID/tokens/general",
+                  2
+                ]
+              ],
+              [
+                "COND",
+                [
+                  "GREATER_EQUAL",
+                  "$THIS.tokens.general",
+                  2
+                ],
+                [
+                  [
+                    "SET",
+                    "/cardById/$THIS_ID/currentSide",
+                    "A"
+                  ],
+                  [
+                    "LOG",
+                    "└── The weather changed!"
+                  ]
+                ]
+              ]
+            ],
+            "type": "trigger"
+          },
+          "Trigger2": {
+            "_comment": "Arrival Setup for Electric Fog.",
+            "condition": [
+              "AND",
+              [
+                "EQUAL",
+                "$GAME.stepId",
+                "3.5"
+              ],
+              [
+                "EQUAL",
+                "$THIS.currentSide",
+                "A"
+              ]
+            ],
+            "listenTo": [
+              "/stepId"
+            ],
+            "then": [
+              [
+                "VAR",
+                "$BALL_LIGHTNING_IN_GAME",
+                false
+              ],
+              [
+                "FOR_EACH_KEY_VAL",
+                "$TARGET_ID",
+                "$TARGET",
+                "$GAME.cardById",
+                [
+                  [
+                    "COND",
+                    [
+                      "EQUAL",
+                      "$TARGET.sides.A.name",
+                      "Ball Lightning"
+                    ],
+                    [
+                      "VAR",
+                      "$BALL_LIGHTNING_IN_GAME",
+                      true
+                    ]
+                  ]
+                ]
+              ],
+              [
+                "COND",
+                [
+                  "EQUAL",
+                  "$BALL_LIGHTNING_IN_GAME",
+                  false
+                ],
+                [
+                  [
+                    "LOAD_CARDS",
+                    "BallLightning"
+                  ],
+                  [
+                    "LOG",
+                    "Ball Lightning shuffled in the path deck."
+                  ]
+                ]
+              ]
+            ],
+            "type": "trigger"
+          }
+        }
+      },
+      "04009": {
+        "_comment": "Pertinacious Peddlers",
+        "inheritFrom": "01268"
+      },
+      "04079": {
+        "_comment": "Arbor Mist",
+        "rules": {
+          "pathDeckAssembly": {
+            "condition": [
+              [
+                "EQUAL",
+                "$TARGET.groupId",
+                "sharedLocation"
+              ]
+            ],
+            "listenTo": [
+              "/cardById/*/inPlay"
+            ],
+            "then": [
+              [
+                "VAR",
+                "$EXISTING_IDS",
+                "$GAME.groupById.sharedPathDeck.parentCardIds"
+              ],
+              [
+                "LOAD_CARDS",
+                "woods"
+              ],
+              [
+                "FOR_EACH_VAL",
+                "$CID",
+                "$GAME.groupById.sharedPathDeck.parentCardIds",
+                [
+                  [
+                    "COND",
+                    [
+                      "NOT",
+                      [
+                        "IN_LIST",
+                        "$EXISTING_IDS",
+                        "$CID"
+                      ]
+                    ],
+                    [
+                      "MOVE_CARD",
+                      "$CID",
+                      "sharedPathDeck3",
+                      -1
+                    ]
+                  ]
+                ]
+              ],
+              [
+                "FOR_EACH_VAL",
+                "$CID",
+                [
+                  "CHOOSE_N",
+                  "$GAME.groupById.sharedPathDeck3.parentCardIds",
+                  3
+                ],
+                [
+                  [
+                    "MOVE_CARD",
+                    "$CID",
+                    "sharedPathDeck",
+                    -1
+                  ]
+                ]
+              ],
+              [
+                "FOR_EACH_VAL",
+                "$CID",
+                "$GAME.groupById.sharedPathDeck3.parentCardIds",
+                [
+                  [
+                    "DELETE_CARD",
+                    "$CID"
+                  ]
+                ]
+              ],
+              [
+                "SHUFFLE_GROUP",
+                "sharedPathDeck"
+              ]
+            ],
+            "type": "trigger"
+          }
+        }
+      },
+      "04034": {
+        "_comment": "Supply Run / Return Trip",
+        "rules": {
+          "ReturnTrip": {
+            "condition": [
+              "AND",
+              "$THIS.inPlay",
+              [
+                "EQUAL",
+                "$THIS.currentSide",
+                "B"
+              ],
+              "$TARGET.inPlay",
+              [
+                "EQUAL",
+                "$TARGET.sides.A.type",
+                "Location"
+              ],
+              [
+                "PREV",
+                [
+                  "NOT",
+                  "$TARGET.inPlay"
+                ]
+              ]
+            ],
+            "listenTo": [
+              "/cardById/*/inPlay"
+            ],
+            "then": [
+              [
+                "LOAD_CARDS",
+                [
+                  "LIST",
+                  {
+                    "databaseId": "01283",
+                    "loadGroupId": "sharedPathDeck",
+                    "quantity": 1
+                  },
+                  {
+                    "databaseId": "01284",
+                    "loadGroupId": "sharedPathDeck",
+                    "quantity": 2
+                  }
+                ]
+              ],
+              [
+                "LOG",
+                "├── ",
+                "Added 1 Cloudhive and 2 Cloudhive Swarm to the path deck."
+              ]
+            ],
+            "type": "trigger"
+          },
+          "SupplyRun": {
+            "condition": [
+              "AND",
+              "$THIS.inPlay",
+              [
+                "EQUAL",
+                "$THIS.currentSide",
+                "A"
+              ],
+              "$TARGET.inPlay",
+              [
+                "EQUAL",
+                "$TARGET.sides.A.type",
+                "Location"
+              ],
+              [
+                "PREV",
+                [
+                  "NOT",
+                  "$TARGET.inPlay"
+                ]
+              ]
+            ],
+            "listenTo": [
+              "/cardById/*/inPlay"
+            ],
+            "then": [
+              [
+                "LOAD_CARDS",
+                [
+                  "LIST",
+                  {
+                    "databaseId": "01283",
+                    "loadGroupId": "sharedPathDeck",
+                    "quantity": 1
+                  },
+                  {
+                    "databaseId": "01284",
+                    "loadGroupId": "sharedPathDeck",
+                    "quantity": 2
+                  }
+                ]
+              ],
+              [
+                "LOG",
+                "├── ",
+                "Added 1 Cloudhive and 2 Cloudhive Swarm to the path deck."
+              ]
+            ],
+            "type": "trigger"
+          }
+        }
+      },
+      "03248": {
+        "_comment": "A Preserved Day / Fractured Sky",
+        "rules": {
+          "Trigger1": {
+            "_comment": "Trigger for A Perfect Day.",
+            "condition": [
+              "AND",
+              "$THIS.inPlay",
+              [
+                "EQUAL",
+                "$GAME.stepId",
+                "4.1"
+              ],
+              [
+                "EQUAL",
+                "$THIS.currentSide",
+                "A"
+              ],
+              [
+                "EQUAL",
+                [
+                  "PREV",
+                  "$THIS.currentSide"
+                ],
+                "A"
+              ]
+            ],
+            "listenTo": [
+              "/stepId"
+            ],
+            "then": [
+              [
+                [
+                  "LOG",
+                  "└── ",
+                  "Added 1 crack to ",
+                  "$THIS.currentFace.name",
+                  "."
+                ],
+                [
+                  "INCREASE_VAL",
+                  "/cardById/$THIS_ID/tokens/general",
+                  1
+                ]
+              ],
+              [
+                "COND",
+                [
+                  "GREATER_EQUAL",
+                  "$THIS.tokens.general",
+                  3
+                ],
+                [
+                  [
+                    "SET",
+                    "/cardById/$THIS_ID/currentSide",
+                    "B"
+                  ],
+                  [
+                    "LOG",
+                    "└── The weather changed!"
+                  ]
+                ]
+              ]
+            ],
+            "type": "trigger"
+          }
+        }
+      },
+      "01415": {
+        "_comment": "Helping Hand",
+        "rules": {
+          "PersistenKeyword": {
+            "_comment": "Helping Hand",
+            "condition": [
+              "AND",
+              "$THIS.inPlay",
+              [
+                "GREATER_THAN",
+                "$THIS.cardIndex",
+                0
+              ]
+            ],
+            "listenTo": [
+              "/cardById/$THIS_ID/inPlay",
+              "/cardById/$THIS_ID/cardIndex"
+            ],
+            "offDo": [
+              [
+                "VAR",
+                "$PREV_PARENT_ID",
+                [
+                  "PREV",
+                  "$THIS.parentCardId"
+                ]
+              ],
+              [
+                "SET",
+                "/cardById/$PREV_PARENT_ID/controller",
+                "shared"
+              ],
+              [
+                "DECREASE_VAL",
+                "/cardById/$PREV_PARENT_ID/tokens/persistent",
+                1
+              ],
+              [
+                "LOG",
+                "└── ",
+                "$GAME.cardById.{{$PREV_PARENT_ID}}.currentFace.name",
+                " loses Persistent."
+              ]
+            ],
+            "onDo": [
+              [
+                "SET",
+                "/cardById/$THIS.parentCardId/controller",
+                "playerNull"
+              ],
+              [
+                "INCREASE_VAL",
+                "/cardById/$THIS.parentCardId/tokens/persistent",
+                1
+              ],
+              [
+                "LOG",
+                "└── ",
+                "$GAME.cardById.{{$THIS.parentCardId}}.currentFace.name",
+                " gains Persistent."
+              ]
+            ],
+            "type": "passive"
+          }
+        }
+      },
+      "04076": {
+        "_comment": "The Otherwoods",
+        "rules": {
+          "pathDeckAssembly": {
+            "condition": [
+              "AND",
+              [
+                "GREATER_EQUAL",
+                [
+                  "LENGTH",
+                  "$GAME.groupById.sharedPathDeck2.stackIds"
+                ],
+                0
+              ],
+              [
+                "EQUAL",
+                "$TARGET.groupId",
+                "sharedLocation"
+              ]
+            ],
+            "listenTo": [
+              "/cardById/*/inPlay"
+            ],
+            "then": [
+              [
+                "TOGGLE_ENCOUNTER_2_DECK",
+                true
+              ],
+              [
+                "VAR",
+                "$EXISTING_IDS",
+                "$GAME.groupById.sharedPathDeck.parentCardIds"
+              ],
+              [
+                "LOAD_CARDS",
+                "swamp"
+              ],
+              [
+                "FOR_EACH_VAL",
+                "$CID",
+                "$GAME.groupById.sharedPathDeck.parentCardIds",
+                [
+                  [
+                    "COND",
+                    [
+                      "NOT",
+                      [
+                        "IN_LIST",
+                        "$EXISTING_IDS",
+                        "$CID"
+                      ]
+                    ],
+                    [
+                      "MOVE_CARD",
+                      "$CID",
+                      "sharedPathDeck3",
+                      -1
+                    ]
+                  ]
+                ]
+              ],
+              [
+                "VAR",
+                "$HEART",
+                [
+                  "ONE_CARD",
+                  "$C",
+                  [
+                    "AND",
+                    [
+                      "EQUAL",
+                      "$C.sides.A.name",
+                      "Heart of the Swamp"
+                    ],
+                    [
+                      "EQUAL",
+                      "$C.groupId",
+                      "sharedPathDeck3"
+                    ]
+                  ]
+                ]
+              ],
+              [
+                "COND",
+                [
+                  "NOT_EQUAL",
+                  "$HEART",
+                  null
+                ],
+                [
+                  "DELETE_CARD",
+                  "$HEART.id"
+                ]
+              ],
+              [
+                "FOR_EACH_VAL",
+                "$CID",
+                [
+                  "CHOOSE_N",
+                  "$GAME.groupById.sharedPathDeck3.parentCardIds",
+                  6
+                ],
+                [
+                  [
+                    "MOVE_CARD",
+                    "$CID",
+                    "sharedPathDeck2",
+                    -1
+                  ]
+                ]
+              ],
+              [
+                "FOR_EACH_VAL",
+                "$CID",
+                "$GAME.groupById.sharedPathDeck3.parentCardIds",
+                [
+                  [
+                    "DELETE_CARD",
+                    "$CID"
+                  ]
+                ]
+              ],
+              [
+                "UPDATE_VAR",
+                "$EXISTING_IDS",
+                "$GAME.groupById.sharedPathDeck.parentCardIds"
+              ],
+              [
+                "LOAD_CARDS",
+                "ravine"
+              ],
+              [
+                "FOR_EACH_VAL",
+                "$CID",
+                "$GAME.groupById.sharedPathDeck.parentCardIds",
+                [
+                  [
+                    "COND",
+                    [
+                      "NOT",
+                      [
+                        "IN_LIST",
+                        "$EXISTING_IDS",
+                        "$CID"
+                      ]
+                    ],
+                    [
+                      "MOVE_CARD",
+                      "$CID",
+                      "sharedPathDeck3",
+                      -1
+                    ]
+                  ]
+                ]
+              ],
+              [
+                "FOR_EACH_VAL",
+                "$CID",
+                [
+                  "CHOOSE_N",
+                  "$GAME.groupById.sharedPathDeck3.parentCardIds",
+                  6
+                ],
+                [
+                  [
+                    "MOVE_CARD",
+                    "$CID",
+                    "sharedPathDeck2",
+                    -1
+                  ]
+                ]
+              ],
+              [
+                "FOR_EACH_VAL",
+                "$CID",
+                "$GAME.groupById.sharedPathDeck3.parentCardIds",
+                [
+                  [
+                    "DELETE_CARD",
+                    "$CID"
+                  ]
+                ]
+              ],
+              [
+                "SHUFFLE_GROUP",
+                "sharedPathDeck2"
+              ]
+            ],
+            "type": "trigger"
+          }
+        }
+      },
+      "03288": {
+        "_comment": "Spindlescuttler Warren",
+        "inheritFrom": "01268"
+      }
+    },
+    "gameRules": {
+      "AddGeneralToken": {
+        "_comment": "Add general tokens when card enters play.",
+        "condition": [
+          "AND",
+          "$TARGET.inPlay",
+          [
+            "GREATER_EQUAL",
+            "$TARGET.currentFace.generic_token",
+            0
+          ],
+          [
+            "PREV",
+            [
+              "NOT",
+              "$TARGET.inPlay"
+            ]
+          ]
+        ],
+        "listenTo": [
+          "/cardById/*/inPlay",
+          "/cardById/*/currentSide"
+        ],
+        "then": [
+          "COND",
+          [
+            "EQUAL",
+            "$TARGET.currentSide",
+            "A"
+          ],
+          [
+            "COND",
+            [
+              "EQUAL",
+              "$TARGET.currentFace.scaleGenericTokenPerPlayer",
+              true
+            ],
+            [
+              "SET",
+              "/cardById/$TARGET_ID/tokens/general",
+              [
+                "MULTIPLY",
+                "$TARGET.currentFace.generic_token",
+                "$GAME.numPlayers"
+              ]
+            ],
+            true,
+            [
+              "SET",
+              "/cardById/$TARGET_ID/tokens/general",
+              "$TARGET.currentFace.generic_token"
+            ]
+          ]
+        ],
+        "type": "trigger"
+      },
+      "ColorBorderBlue": {
+        "_comment": "Turn cards blue when they have enought progress tokens on them.",
+        "condition": [
+          "AND",
+          [
+            "NOT_EQUAL",
+            "$TARGET.currentFace.progress_threshold",
+            null
+          ],
+          [
+            "GREATER_THAN",
+            "$TARGET.tokens.progress",
+            0
+          ],
+          [
+            "COND",
+            [
+              "EQUAL",
+              "$TARGET.currentFace.scaleProgressThresholdPerPlayer",
+              true
+            ],
+            [
+              "GREATER_EQUAL",
+              "$TARGET.tokens.progress",
+              [
+                "MULTIPLY",
+                "$TARGET.currentFace.progress_threshold",
+                "$GAME.numPlayers"
+              ]
+            ],
+            true,
+            [
+              "GREATER_EQUAL",
+              "$TARGET.tokens.progress",
+              "$TARGET.currentFace.progress_threshold"
+            ]
+          ]
+        ],
+        "listenTo": [
+          "/cardById/*/tokens/progress",
+          "/cardById/*/tokens"
+        ],
+        "offDo": [
+          [
+            "SET",
+            "/cardById/$TARGET_ID/borderColor",
+            null
+          ]
+        ],
+        "onDo": [
+          [
+            "LOG",
+            "└── ",
+            "$TARGET.currentFace.name",
+            " is cleared by progress."
+          ],
+          [
+            "SET",
+            "/cardById/$TARGET_ID/borderColor",
+            "blue"
+          ]
+        ],
+        "type": "passive"
+      },
+      "ColorBorderRed": {
+        "_comment": "Turn cards red when they have enought harm tokens on them.",
+        "condition": [
+          "AND",
+          [
+            "NOT_EQUAL",
+            "$TARGET.currentFace.harm_threshold",
+            null
+          ],
+          [
+            "GREATER_THAN",
+            "$TARGET.tokens.harm",
+            0
+          ],
+          [
+            "COND",
+            [
+              "EQUAL",
+              "$TARGET.currentFace.scaleHarmThresholdPerPlayer",
+              true
+            ],
+            [
+              "GREATER_EQUAL",
+              "$TARGET.tokens.harm",
+              [
+                "MULTIPLY",
+                "$TARGET.currentFace.harm_threshold",
+                "$GAME.numPlayers"
+              ]
+            ],
+            true,
+            [
+              "GREATER_EQUAL",
+              "$TARGET.tokens.harm",
+              "$TARGET.currentFace.harm_threshold"
+            ]
+          ]
+        ],
+        "listenTo": [
+          "/cardById/*/tokens/harm",
+          "/cardById/*/tokens"
+        ],
+        "offDo": [
+          [
+            "SET",
+            "/cardById/$TARGET_ID/borderColor",
+            null
+          ]
+        ],
+        "onDo": [
+          [
+            "LOG",
+            "└── ",
+            "$TARGET.currentFace.name",
+            " is cleared by harm."
+          ],
+          [
+            "SET",
+            "/cardById/$TARGET_ID/borderColor",
+            "red"
+          ]
+        ],
+        "type": "passive"
+      }
+    },
+    "postLoadActionList": [
+      [
+        "FOR_EACH_VAL",
+        "$CARD_ID",
+        "$GAME.loadedCardIds",
+        [
+          [
+            "VAR",
+            "$CARD",
+            "$GAME.cardById.$CARD_ID"
+          ],
+          [
+            "COND",
+            [
+              "AND",
+              [
+                "NOT_EQUAL",
+                "$CARD",
+                null
+              ],
+              [
+                "NOT_EQUAL",
+                "$CARD.sides.A",
+                null
+              ],
+              [
+                "NOT",
+                "$CARD.moved"
+              ]
+            ],
+            [
+              [
+                "VAR",
+                "$CARD_NAME_LOWER",
+                [
+                  "COND",
+                  [
+                    "NOT_EQUAL",
+                    "$CARD.sides.A.name",
+                    null
+                  ],
+                  [
+                    "TO_LOWERCASE",
+                    "$CARD.sides.A.name"
+                  ],
+                  true,
+                  ""
+                ]
+              ],
+              [
+                "VAR",
+                "$SET_LOWER",
+                [
+                  "COND",
+                  [
+                    "NOT_EQUAL",
+                    "$CARD.sides.A.set",
+                    null
+                  ],
+                  [
+                    "TO_LOWERCASE",
+                    "$CARD.sides.A.set"
+                  ],
+                  true,
+                  ""
+                ]
+              ],
+              [
+                "VAR",
+                "$SET_NORMALIZED",
+                [
+                  "REGEX_REPLACE",
+                  "$SET_LOWER",
+                  " ",
+                  "_"
+                ]
+              ],
+              [
+                "VAR",
+                "$CARD_KEY",
+                [
+                  "JOIN_STRING",
+                  [
+                    "JOIN_STRING",
+                    "$CARD_NAME_LOWER",
+                    "_"
+                  ],
+                  "$SET_NORMALIZED"
+                ]
+              ],
+              [
+                "COND",
+                [
+                  "EQUAL",
+                  "$GAME.removedCards.$CARD_KEY",
+                  true
+                ],
+                [
+                  "DELETE_CARD",
+                  "$CARD_ID"
+                ]
+              ]
+            ]
+          ]
+        ]
+      ],
+      [
+        "COND",
+        [
+          "GROUP_NOT_EMPTY",
+          "removedCards"
+        ],
+        [
+          [
+            "FOR_EACH_VAL",
+            "$CARD_ID",
+            "$GAME.loadedCardIds",
+            [
+              [
+                "VAR",
+                "$CARD",
+                "$GAME.cardById.{{$CARD_ID}}"
+              ],
+              [
+                "COND",
+                [
+                  "AND",
+                  [
+                    "NOT_EQUAL",
+                    "$CARD",
+                    null
+                  ],
+                  [
+                    "NOT_EQUAL",
+                    "$CARD.groupId",
+                    "removedCards"
+                  ]
+                ],
+                [
+                  [
+                    "VAR",
+                    "$CARD_NAME_LOWER",
+                    [
+                      "TO_LOWERCASE",
+                      "$CARD.sides.A.name"
+                    ]
+                  ],
+                  [
+                    "VAR",
+                    "$SET_LOWER",
+                    [
+                      "TO_LOWERCASE",
+                      "$CARD.sides.A.set"
+                    ]
+                  ],
+                  [
+                    "VAR",
+                    "$SET_NORMALIZED",
+                    [
+                      "REGEX_REPLACE",
+                      "$SET_LOWER",
+                      " ",
+                      "_"
+                    ]
+                  ],
+                  [
+                    "FOR_EACH_VAL",
+                    "$REMOVED",
+                    "$GAME.groupById.removedCards.parentCards",
+                    [
+                      [
+                        "VAR",
+                        "$REMOVED_NAME_LOWER",
+                        [
+                          "TO_LOWERCASE",
+                          "$REMOVED.sides.A.name"
+                        ]
+                      ],
+                      [
+                        "VAR",
+                        "$REMOVED_SET_LOWER",
+                        [
+                          "TO_LOWERCASE",
+                          "$REMOVED.sides.A.set"
+                        ]
+                      ],
+                      [
+                        "VAR",
+                        "$REMOVED_SET_NORMALIZED",
+                        [
+                          "REGEX_REPLACE",
+                          "$REMOVED_SET_LOWER",
+                          " ",
+                          "_"
+                        ]
+                      ],
+                      [
+                        "COND",
+                        [
+                          "AND",
+                          [
+                            "EQUAL",
+                            "$REMOVED_NAME_LOWER",
+                            "$CARD_NAME_LOWER"
+                          ],
+                          [
+                            "EQUAL",
+                            "$REMOVED_SET_NORMALIZED",
+                            "$SET_NORMALIZED"
+                          ]
+                        ],
+                        [
+                          "DELETE_CARD",
+                          "$CARD_ID"
+                        ]
+                      ]
+                    ]
+                  ]
+                ]
+              ]
+            ]
+          ]
+        ]
+      ],
+      [
+        "COND",
+        [
+          "EQUAL",
+          "{{$GAME.current_campaign}}",
+          "loa"
+        ],
+        [
+          "FOR_EACH_VAL",
+          "$CARD_ID",
+          "$GAME.loadedCardIds",
+          [
+            [
+              "VAR",
+              "$CARD",
+              "$GAME.cardById.$CARD_ID"
+            ],
+            [
+              "COND",
+              [
+                "OR",
+                [
+                  "EQUAL",
+                  "$CARD.sides.A.name",
+                  "Quisi Vos, Rascal"
+                ],
+                [
+                  "EQUAL",
+                  "$CARD.sides.A.name",
+                  "Ben Amon, Swift Pilot"
+                ],
+                [
+                  "EQUAL",
+                  "$CARD.sides.A.name",
+                  "Sil Belai, Artist"
+                ],
+                [
+                  "EQUAL",
+                  "$CARD.sides.A.name",
+                  "Tala the Red, Exile"
+                ]
+              ],
+              [
+                "DELETE_CARD",
+                "$CARD_ID"
+              ]
+            ]
+          ]
+        ]
+      ],
+      [
+        "FOR_EACH_VAL",
+        "$CARD_ID",
+        "$GAME.loadedCardIds",
+        [
+          [
+            "VAR",
+            "$CARD",
+            "$GAME.cardById.$CARD_ID"
+          ],
+          [
+            "COND",
+            [
+              "AND",
+              "$CARD.sides.A.UncommonWisdom",
+              "$GAME.playerData.{{$PLAYER_N}}.rebalanced"
+            ],
+            [
+              "SET",
+              "/cardById/$CARD_ID/sides/A/imageUrl",
+              "https://toybox.hundredacre.club/cards/earthborne-rangers/uncommon-wisdom/{{$CARD.sides.A.databaseId}}.jpg"
+            ]
+          ]
+        ]
+      ],
+      [
+        "VAR",
+        "$MOVED_CARD_NAMES",
+        ""
+      ],
+      [
+        "FOR_EACH_KEY_VAL",
+        "$IN_PLAY_CARD_ID",
+        "$IN_PLAY_CARD",
+        "$GAME.cardById",
+        [
+          [
+            "VAR",
+            "$CARD_NAME",
+            "$IN_PLAY_CARD.sides.A.name"
+          ],
+          [
+            "VAR",
+            "$CARD_SET",
+            "$IN_PLAY_CARD.sides.A.set"
+          ],
+          [
+            "COND",
+            [
+              "AND",
+              "$IN_PLAY_CARD.inPlay",
+              [
+                "CHECK_IF_LOADED_COPY",
+                "$IN_PLAY_CARD"
+              ],
+              [
+                "NOT",
+                [
+                  "IN_STRING",
+                  "$MOVED_CARD_NAMES",
+                  [
+                    "JOIN_STRING",
+                    "|",
+                    "$CARD_NAME",
+                    "|"
+                  ]
+                ]
+              ],
+              [
+                "NOT",
+                [
+                  "AND",
+                  [
+                    "EQUAL",
+                    "$CARD_SET",
+                    "General"
+                  ],
+                  [
+                    "OR",
+                    [
+                      "EQUAL",
+                      "$CARD_NAME",
+                      "Crimson Guardian"
+                    ],
+                    [
+                      "EQUAL",
+                      "$CARD_NAME",
+                      "Fractal Frog"
+                    ]
+                  ]
+                ]
+              ]
+            ],
+            [
+              [
+                "VAR",
+                "$LOADED_TO_REMOVE",
+                [
+                  "ONE_CARD",
+                  "$CARD",
+                  [
+                    "AND",
+                    [
+                      "EQUAL",
+                      "$CARD.sides.A.name",
+                      "$CARD_NAME"
+                    ],
+                    [
+                      "EQUAL",
+                      "$CARD.sides.A.set",
+                      "$CARD_SET"
+                    ],
+                    [
+                      "OR",
+                      [
+                        "EQUAL",
+                        "$CARD.groupId",
+                        "sharedPathDeck"
+                      ],
+                      [
+                        "EQUAL",
+                        "$CARD.groupId",
+                        "sharedPathDeck2"
+                      ],
+                      [
+                        "EQUAL",
+                        "$CARD.groupId",
+                        "sharedPathDeck3"
+                      ]
+                    ]
+                  ]
+                ]
+              ],
+              [
+                "COND",
+                [
+                  "NOT_EQUAL",
+                  "$LOADED_TO_REMOVE",
+                  null
+                ],
+                [
+                  [
+                    "MOVE_CARD",
+                    "$LOADED_TO_REMOVE.id",
+                    "sharedOther",
+                    0
+                  ],
+                  [
+                    "UPDATE_VAR",
+                    "$MOVED_CARD_NAMES",
+                    [
+                      "JOIN_STRING",
+                      "$MOVED_CARD_NAMES",
+                      "$CARD_NAME",
+                      "|"
+                    ]
+                  ]
+                ]
+              ]
+            ]
+          ]
+        ]
+      ],
+      [
+        "VAR",
+        "$CHECKED_NAMES",
+        ""
+      ],
+      [
+        "FOR_EACH_VAL",
+        "$LOADED_CARD_ID",
+        "$GAME.loadedCardIds",
+        [
+          [
+            "VAR",
+            "$LOADED_CARD",
+            "$GAME.cardById.$LOADED_CARD_ID"
+          ],
+          [
+            "COND",
+            [
+              "NOT_EQUAL",
+              "$LOADED_CARD",
+              null
+            ],
+            [
+              [
+                "VAR",
+                "$CARD_NAME",
+                "$LOADED_CARD.sides.A.name"
+              ],
+              [
+                "VAR",
+                "$CARD_SET",
+                "$LOADED_CARD.sides.A.set"
+              ],
+              [
+                "VAR",
+                "$MAX_QUANTITY",
+                "$LOADED_CARD.sides.A.quantity"
+              ],
+              [
+                "VAR",
+                "$CARD_KEY",
+                [
+                  "JOIN_STRING",
+                  "$CARD_NAME",
+                  "@",
+                  "$CARD_SET"
+                ]
+              ],
+              [
+                "COND",
+                [
+                  "AND",
+                  [
+                    "NOT_EQUAL",
+                    "$MAX_QUANTITY",
+                    null
+                  ],
+                  [
+                    "NOT",
+                    [
+                      "IN_STRING",
+                      "$CHECKED_NAMES",
+                      [
+                        "JOIN_STRING",
+                        "|",
+                        "$CARD_KEY",
+                        "|"
+                      ]
+                    ]
+                  ]
+                ],
+                [
+                  [
+                    "VAR",
+                    "$MATCHING_CARDS",
+                    [
+                      "FILTER_CARDS",
+                      "$CARD",
+                      [
+                        "AND",
+                        [
+                          "EQUAL",
+                          "$CARD.sides.A.name",
+                          "$CARD_NAME"
+                        ],
+                        [
+                          "EQUAL",
+                          "$CARD.sides.A.set",
+                          "$CARD_SET"
+                        ]
+                      ]
+                    ]
+                  ],
+                  [
+                    "VAR",
+                    "$CURRENT_COUNT",
+                    [
+                      "LENGTH",
+                      "$MATCHING_CARDS"
+                    ]
+                  ],
+                  [
+                    "COND",
+                    [
+                      "GREATER_THAN",
+                      "$CURRENT_COUNT",
+                      "$MAX_QUANTITY"
+                    ],
+                    [
+                      "LOG",
+                      "Warning: {{$CARD_NAME}} ({{$CARD_SET}}) has {{$CURRENT_COUNT}} copies but only {{$MAX_QUANTITY}} allowed!"
+                    ]
+                  ],
+                  [
+                    "UPDATE_VAR",
+                    "$CHECKED_NAMES",
+                    [
+                      "JOIN_STRING",
+                      "$CHECKED_NAMES",
+                      "$CARD_KEY",
+                      "|"
+                    ]
+                  ]
+                ]
+              ]
+            ]
+          ]
+        ]
+      ],
+      [
+        "FOR_EACH_VAL",
+        "$CARD_ID",
+        "$GAME.loadedCardIds",
+        [
+          [
+            "VAR",
+            "$CARD",
+            "$GAME.cardById.$CARD_ID"
+          ],
+          [
+            "COND",
+            [
+              "AND",
+              [
+                "EQUAL",
+                "$CARD.sides.A.type",
+                "Location"
+              ],
+              [
+                "EQUAL",
+                "$CARD.sides.A.pivotal",
+                "0"
+              ]
+            ],
+            [
+              [
+                "TOGGLE_ENCOUNTER_2_DECK",
+                false
+              ],
+              [
+                "MOVE_CARD",
+                "$CARD_ID",
+                "sharedLocation",
+                0
+              ],
+              [
+                "SET",
+                "/cardById/$CARD_ID/currentSide",
+                "B"
+              ],
+              [
+                "LOG",
+                "├── ",
+                "Rangers arrived at ",
+                "$CARD.sides.A.name",
+                "."
+              ],
+              [
+                "COND",
+                [
+                  "EQUAL",
+                  "$CARD.sides.A.name",
+                  "Headwaters Station"
+                ],
+                [
+                  [
+                    "SHUFFLE_GROUP",
+                    "sharedPathDeck3"
+                  ],
+                  [
+                    "SHUFFLE_GROUP",
+                    "sharedPathDeck"
+                  ],
+                  [
+                    "LOG",
+                    "├── ",
+                    "Shuffled 0 cards from the Valley set into the Path Deck."
+                  ]
+                ],
+                [
+                  "EQUAL",
+                  "$CARD.sides.A.name",
+                  "Bowl of the Sun"
+                ],
+                [
+                  [
+                    "LOAD_CARDS",
+                    "TheValleySet"
+                  ],
+                  [
+                    "SHUFFLE_GROUP",
+                    "sharedPathDeck3"
+                  ],
+                  [
+                    "VAR",
+                    "$i",
+                    0
+                  ],
+                  [
+                    "FOR_EACH_VAL",
+                    "$iCARD",
+                    "$GAME.groupById.sharedPathDeck3.parentCards",
+                    [
+                      [
+                        "COND",
+                        [
+                          "EQUAL",
+                          "$iCARD.sides.A.name",
+                          "The Fundamentalist"
+                        ],
+                        [
+                          "MOVE_CARD",
+                          "$iCARD.id",
+                          "sharedPathDeck",
+                          0
+                        ]
+                      ],
+                      [
+                        "COND",
+                        [
+                          "AND",
+                          [
+                            "LESS_THAN",
+                            "$i",
+                            2
+                          ],
+                          [
+                            "OR",
+                            [
+                              "NOT",
+                              [
+                                "CHECK_IF_COPY_IN_PLAY",
+                                "$iCARD"
+                              ]
+                            ],
+                            [
+                              "NOT_EQUAL",
+                              "$iCARD.sides.A.quantity",
+                              1
+                            ]
+                          ]
+                        ],
+                        [
+                          [
+                            "MOVE_CARD",
+                            "$iCARD.id",
+                            "sharedPathDeck",
+                            0
+                          ],
+                          [
+                            "DEFINE",
+                            "$iCARD_SET",
+                            "$iCARD.sides.A.set"
+                          ],
+                          [
+                            "INCREASE_VAR",
+                            "$i",
+                            1
+                          ]
+                        ]
+                      ]
+                    ]
+                  ],
+                  [
+                    "SHUFFLE_GROUP",
+                    "sharedPathDeck"
+                  ],
+                  [
+                    "LOG",
+                    "├── ",
+                    "Shuffled {{$i}} cards from the {{$iCARD_SET}} set into the Path Deck."
+                  ]
+                ],
+                [
+                  "EQUAL",
+                  "$CARD.sides.A.name",
+                  "Archaeological Outpost"
+                ],
+                [
+                  [
+                    "LOAD_CARDS",
+                    "TheValleySet"
+                  ],
+                  [
+                    "SHUFFLE_GROUP",
+                    "sharedPathDeck3"
+                  ],
+                  [
+                    "VAR",
+                    "$i",
+                    0
+                  ],
+                  [
+                    "FOR_EACH_VAL",
+                    "$iCARD",
+                    "$GAME.groupById.sharedPathDeck3.parentCards",
+                    [
+                      [
+                        "COND",
+                        [
+                          "EQUAL",
+                          "$iCARD.sides.A.name",
+                          "Arcology Sinkhole"
+                        ],
+                        [
+                          "MOVE_CARD",
+                          "$iCARD.id",
+                          "sharedPathDeck",
+                          0
+                        ]
+                      ],
+                      [
+                        "COND",
+                        [
+                          "AND",
+                          [
+                            "LESS_THAN",
+                            "$i",
+                            2
+                          ],
+                          [
+                            "OR",
+                            [
+                              "NOT",
+                              [
+                                "CHECK_IF_COPY_IN_PLAY",
+                                "$iCARD"
+                              ]
+                            ],
+                            [
+                              "NOT_EQUAL",
+                              "$iCARD.sides.A.quantity",
+                              1
+                            ]
+                          ]
+                        ],
+                        [
+                          [
+                            "MOVE_CARD",
+                            "$iCARD.id",
+                            "sharedPathDeck",
+                            0
+                          ],
+                          [
+                            "DEFINE",
+                            "$iCARD_SET",
+                            "$iCARD.sides.A.set"
+                          ],
+                          [
+                            "INCREASE_VAR",
+                            "$i",
+                            1
+                          ]
+                        ]
+                      ]
+                    ]
+                  ],
+                  [
+                    "SHUFFLE_GROUP",
+                    "sharedPathDeck"
+                  ],
+                  [
+                    "LOG",
+                    "├── ",
+                    "Shuffled {{$i}} cards from the {{$iCARD_SET}} set into the Path Deck."
+                  ]
+                ],
+                [
+                  "EQUAL",
+                  "$CARD.sides.A.name",
+                  "Oasis of Sunlight"
+                ],
+                [
+                  [
+                    "LOAD_CARDS",
+                    "arcology"
+                  ],
+                  [
+                    "SHUFFLE_GROUP",
+                    "sharedPathDeck2"
+                  ],
+                  [
+                    "SHUFFLE_GROUP",
+                    "sharedPathDeck3"
+                  ],
+                  [
+                    "VAR",
+                    "$i",
+                    0
+                  ],
+                  [
+                    "VAR",
+                    "$ii",
+                    0
+                  ],
+                  [
+                    "FOR_EACH_VAL",
+                    "$iCARD",
+                    "$GAME.groupById.sharedPathDeck2.parentCards",
+                    [
+                      [
+                        "COND",
+                        [
+                          "AND",
+                          [
+                            "LESS_THAN",
+                            "$i",
+                            3
+                          ],
+                          [
+                            "OR",
+                            [
+                              "NOT",
+                              [
+                                "CHECK_IF_COPY_IN_PLAY",
+                                "$iCARD"
+                              ]
+                            ],
+                            [
+                              "NOT_EQUAL",
+                              "$iCARD.sides.A.quantity",
+                              1
+                            ]
+                          ]
+                        ],
+                        [
+                          [
+                            "MOVE_CARD",
+                            "$iCARD.id",
+                            "sharedPathDeck",
+                            0
+                          ],
+                          [
+                            "DEFINE",
+                            "$iCARD_SET",
+                            "$iCARD.sides.A.set"
+                          ],
+                          [
+                            "INCREASE_VAR",
+                            "$i",
+                            1
+                          ]
+                        ]
+                      ]
+                    ]
+                  ],
+                  [
+                    "FOR_EACH_VAL",
+                    "$iCARD",
+                    "$GAME.groupById.sharedPathDeck3.parentCards",
+                    [
+                      [
+                        "COND",
+                        [
+                          "AND",
+                          [
+                            "LESS_THAN",
+                            "$ii",
+                            3
+                          ],
+                          [
+                            "OR",
+                            [
+                              "NOT",
+                              [
+                                "CHECK_IF_COPY_IN_PLAY",
+                                "$iCARD"
+                              ]
+                            ],
+                            [
+                              "NOT_EQUAL",
+                              "$iCARD.sides.A.quantity",
+                              1
+                            ]
+                          ]
+                        ],
+                        [
+                          [
+                            "MOVE_CARD",
+                            "$iCARD.id",
+                            "sharedPathDeck",
+                            0
+                          ],
+                          [
+                            "DEFINE",
+                            "$iCARD_SET",
+                            "$iCARD.sides.A.set"
+                          ],
+                          [
+                            "INCREASE_VAR",
+                            "$ii",
+                            1
+                          ]
+                        ]
+                      ]
+                    ]
+                  ],
+                  [
+                    "SHUFFLE_GROUP",
+                    "sharedPathDeck"
+                  ],
+                  [
+                    "LOG",
+                    "├── ",
+                    "Shuffled {{$ii}} cards from the {{$iCARD_SET}} set into the Path Deck."
+                  ],
+                  [
+                    "LOG",
+                    "├── ",
+                    "Shuffled {{$i}} cards from the Woods set into the Path Deck."
+                  ]
+                ],
+                true,
+                [
+                  [
+                    "COND",
+                    [
+                      "OR",
+                      [
+                        "EQUAL",
+                        "$CARD.sides.A.pack_code",
+                        "Core"
+                      ],
+                      [
+                        "EQUAL",
+                        "$CARD.sides.A.pack_code",
+                        "SiB"
+                      ],
+                      [
+                        "EQUAL",
+                        "$CARD.sides.A.pack_code",
+                        "SoS"
+                      ],
+                      [
+                        "EQUAL",
+                        "$CARD.sides.A.pack_code",
+                        "ItM"
+                      ],
+                      [
+                        "EQUAL",
+                        "$CARD.sides.A.pack_code",
+                        "SnS"
+                      ]
+                    ],
+                    [
+                      "LOAD_CARDS",
+                      "TheValleySet"
+                    ],
+                    [
+                      "EQUAL",
+                      "$CARD.sides.A.pack_code",
+                      "LoA"
+                    ],
+                    [
+                      "LOAD_CARDS",
+                      "arcology"
+                    ]
+                  ],
+                  [
+                    "SHUFFLE_GROUP",
+                    "sharedPathDeck3"
+                  ],
+                  [
+                    "VAR",
+                    "$i",
+                    0
+                  ],
+                  [
+                    "VAR",
+                    "$iCARD_SET",
+                    ""
+                  ],
+                  [
+                    "FOR_EACH_VAL",
+                    "$iCARD",
+                    "$GAME.groupById.sharedPathDeck3.parentCards",
+                    [
+                      [
+                        "COND",
+                        [
+                          "AND",
+                          [
+                            "LESS_THAN",
+                            "$i",
+                            3
+                          ],
+                          [
+                            "OR",
+                            [
+                              "NOT",
+                              [
+                                "CHECK_IF_COPY_IN_PLAY",
+                                "$iCARD"
+                              ]
+                            ],
+                            [
+                              "NOT_EQUAL",
+                              "$iCARD.sides.A.quantity",
+                              1
+                            ]
+                          ]
+                        ],
+                        [
+                          [
+                            "MOVE_CARD",
+                            "$iCARD.id",
+                            "sharedPathDeck",
+                            0
+                          ],
+                          [
+                            "DEFINE",
+                            "$iCARD_SET",
+                            "$iCARD.sides.A.set"
+                          ],
+                          [
+                            "INCREASE_VAR",
+                            "$i",
+                            1
+                          ]
+                        ]
+                      ]
+                    ]
+                  ],
+                  [
+                    "SHUFFLE_GROUP",
+                    "sharedPathDeck"
+                  ],
+                  [
+                    "LOG",
+                    "├── ",
+                    "Shuffled {{$i}} cards from the {{$iCARD_SET}} set into the Path Deck."
+                  ]
+                ]
+              ]
+            ]
+          ],
+          [
+            "COND",
+            [
+              "AND",
+              [
+                "EQUAL",
+                "$CARD.sides.A.type",
+                "Location"
+              ],
+              [
+                "EQUAL",
+                "$CARD.sides.A.pivotal",
+                "1"
+              ]
+            ],
+            [
+              [
+                "TOGGLE_ENCOUNTER_2_DECK",
+                false
+              ],
+              [
+                "MOVE_CARD",
+                "$CARD_ID",
+                "sharedLocation",
+                0
+              ],
+              [
+                "SET",
+                "/cardById/$CARD_ID/currentSide",
+                "B"
+              ],
+              [
+                "LOG",
+                "├── ",
+                "Rangers arrived at ",
+                "$CARD.sides.A.name",
+                "."
+              ]
+            ]
+          ],
+          [
+            "COND",
+            [
+              "AND",
+              [
+                "EQUAL",
+                "$CARD.sides.A.type",
+                "Role"
+              ],
+              [
+                "EQUAL",
+                "$CARD.inPlay",
+                true
+              ]
+            ],
+            [
+              [
+                "DEFINE",
+                "$LOADED_PLAYER_DECK",
+                true
+              ]
+            ]
+          ],
+          [
+            "COND",
+            [
+              "EQUAL",
+              "$CARD.sides.A.type",
+              "Aspect"
+            ],
+            [
+              [
+                "VAR",
+                "$AWA_VALUE",
+                "$CARD.sides.A.AWA"
+              ],
+              [
+                "VAR",
+                "$SPI_VALUE",
+                "$CARD.sides.A.SPI"
+              ],
+              [
+                "VAR",
+                "$FIT_VALUE",
+                "$CARD.sides.A.FIT"
+              ],
+              [
+                "VAR",
+                "$FOC_VALUE",
+                "$CARD.sides.A.FOC"
+              ],
+              [
+                "SET",
+                "/cardById/$CARD_ID/tokens/awareness",
+                "$AWA_VALUE"
+              ],
+              [
+                "SET",
+                "/cardById/$CARD_ID/tokens/spirit",
+                "$SPI_VALUE"
+              ],
+              [
+                "SET",
+                "/cardById/$CARD_ID/tokens/fitness",
+                "$FIT_VALUE"
+              ],
+              [
+                "SET",
+                "/cardById/$CARD_ID/tokens/focus",
+                "$FOC_VALUE"
+              ],
+              [
+                "LOG",
+                "{{$ALIAS_N}} recharged their energy tokens."
+              ]
+            ]
+          ],
+          [
+            "COND",
+            [
+              "EQUAL",
+              "$CARD.sides.A.type",
+              "Location"
+            ],
+            [
+              "SET",
+              "/stepId",
+              "3.5"
+            ]
+          ],
+          [
+            "COND",
+            [
+              "EQUAL",
+              "$CARD.sides.A.name",
+              "Howling Winds"
+            ],
+            [
+              [
+                "LOAD_CARDS",
+                "CerberusianCyclone"
+              ]
+            ]
+          ],
+          [
+            "COND",
+            [
+              "EQUAL",
+              "$CARD.sides.A.name",
+              "Electric Fog"
+            ],
+            [
+              [
+                "LOAD_CARDS",
+                "BallLightning"
+              ]
+            ]
+          ]
+        ]
+      ],
+      [
+        "FOR_EACH_VAL",
+        "$PLAYER",
+        "$PLAYER_ORDER",
+        [
+          [
+            "VAR",
+            "$PLAYER_DECK_GROUP_ID",
+            [
+              "JOIN_STRING",
+              "$PLAYER",
+              "Deck"
+            ]
+          ],
+          [
+            "VAR",
+            "$PLAYER_PLAY_GROUP_ID",
+            [
+              "JOIN_STRING",
+              "$PLAYER",
+              "Play"
+            ]
+          ],
+          [
+            "VAR",
+            "$ROLE_ID",
+            [
+              "GET_CARD_ID",
+              "{{$PLAYER}}Role",
+              0,
+              0
+            ]
+          ],
+          [
+            "COND",
+            [
+              "AND",
+              [
+                "EQUAL",
+                "$GAME.roundNumber",
+                0
+              ],
+              [
+                "GREATER_THAN",
+                [
+                  "LENGTH",
+                  "$GAME.groupById.$PLAYER_DECK_GROUP_ID.stackIds"
+                ],
+                0
+              ],
+              [
+                "NOT_EQUAL",
+                "$ROLE_ID",
+                null
+              ]
+            ],
+            [
+              [
+                "VAR",
+                "$ROLE_CARD",
+                "$GAME.cardById.$ROLE_ID"
+              ],
+              [
+                "COND",
+                [
+                  "EQUAL",
+                  "$ROLE_CARD.sides.A.set",
+                  "Shaper"
+                ],
+                [
+                  [
+                    "VAR",
+                    "$EXISTING_CONDUIT",
+                    [
+                      "ONE_CARD",
+                      "$iCARD",
+                      [
+                        "AND",
+                        [
+                          "EQUAL",
+                          "$iCARD.groupId",
+                          "$PLAYER_PLAY_GROUP_ID"
+                        ],
+                        [
+                          "IN_STRING",
+                          "$iCARD.sides.A.traits",
+                          "Conduit"
+                        ]
+                      ]
+                    ]
+                  ],
+                  [
+                    "COND",
+                    [
+                      "EQUAL",
+                      "$EXISTING_CONDUIT",
+                      null
+                    ],
+                    [
+                      [
+                        "VAR",
+                        "$CONDUIT_CARD",
+                        [
+                          "ONE_CARD",
+                          "$iCARD",
+                          [
+                            "AND",
+                            [
+                              "EQUAL",
+                              "$iCARD.groupId",
+                              "$PLAYER_DECK_GROUP_ID"
+                            ],
+                            [
+                              "IN_STRING",
+                              "$iCARD.sides.A.traits",
+                              "Conduit"
+                            ]
+                          ]
+                        ]
+                      ],
+                      [
+                        "COND",
+                        [
+                          "NOT_EQUAL",
+                          "$CONDUIT_CARD",
+                          null
+                        ],
+                        [
+                          [
+                            "MOVE_CARD",
+                            "$CONDUIT_CARD.id",
+                            "$PLAYER_PLAY_GROUP_ID",
+                            0
+                          ],
+                          [
+                            "SHUFFLE_GROUP",
+                            "$PLAYER_DECK_GROUP_ID"
+                          ],
+                          [
+                            "LOG",
+                            "├── ",
+                            [
+                              "GET_ALIAS",
+                              "$PLAYER"
+                            ],
+                            " put {{$CONDUIT_CARD.sides.A.name}} into play (Shaper setup)."
+                          ]
+                        ]
+                      ]
+                    ]
+                  ]
+                ]
+              ]
+            ]
+          ]
+        ]
+      ],
+      [
+        "DEFINE",
+        "$PLAYER_N_HAND_GROUP_ID",
+        [
+          "JOIN_STRING",
+          "$PLAYER_N",
+          "Hand"
+        ]
+      ],
+      [
+        "FOR_EACH_VAL",
+        "$PLAYER",
+        "$PLAYER_ORDER",
+        [
+          [
+            "VAR",
+            "$PLAYER_HAND_GROUP_ID",
+            [
+              "JOIN_STRING",
+              "$PLAYER",
+              "Hand"
+            ]
+          ],
+          [
+            "VAR",
+            "$PLAYER_DECK_GROUP_ID",
+            [
+              "JOIN_STRING",
+              "$PLAYER",
+              "Deck"
+            ]
+          ],
+          [
+            "COND",
+            [
+              "AND",
+              [
+                "GREATER_THAN",
+                [
+                  "LENGTH",
+                  "$GAME.groupById.$PLAYER_DECK_GROUP_ID.stackIds"
+                ],
+                0
+              ],
+              [
+                "EQUAL",
+                "$GAME.roundNumber",
+                0
+              ],
+              [
+                "EQUAL",
+                [
+                  "LENGTH",
+                  "$GAME.groupById.$PLAYER_HAND_GROUP_ID.stackIds"
+                ],
+                0
+              ]
+            ],
+            [
+              [
+                "LOG",
+                "└── ",
+                [
+                  "GET_ALIAS",
+                  "$PLAYER"
+                ],
+                " draws 6 cards."
+              ],
+              [
+                "DRAW_CARD",
+                6,
+                "$PLAYER"
+              ]
+            ]
+          ]
+        ]
+      ],
+      [
+        "FOR_EACH_VAL",
+        "$CARD_ID",
+        "$GAME.loadedCardIds",
+        [
+          [
+            "VAR",
+            "$CARD",
+            "$GAME.cardById.$CARD_ID"
+          ],
+          [
+            "COND",
+            [
+              "OR",
+              [
+                "EQUAL",
+                "$CARD.sides.A.name",
+                "The Spiral Stairway"
+              ],
+              [
+                "EQUAL",
+                "$CARD.sides.A.name",
+                "The Plinth"
+              ],
+              [
+                "EQUAL",
+                "$CARD.sides.A.name",
+                "Flooded Passage"
+              ],
+              [
+                "EQUAL",
+                "$CARD.sides.A.name",
+                "Overgrown Passage"
+              ],
+              [
+                "EQUAL",
+                "$CARD.sides.A.name",
+                "Locked Passage"
+              ]
+            ],
+            [
+              "SET",
+              "/cardById/$CARD_ID/controller",
+              "shared"
+            ]
+          ]
+        ]
+      ],
+      [
+        "COND",
+        [
+          "GREATER_THAN",
+          [
+            "LENGTH",
+            "$GAME.groupById.sharedLocation.stackIds"
+          ],
+          0
+        ],
+        [
+          "DEFINE",
+          "$ACTIVE_LOCATION",
+          "$GAME.groupById.sharedLocation.parentCards.[0]"
+        ]
+      ],
+      [
+        "COND",
+        [
+          "AND",
+          [
+            "DEFINED",
+            "$PREV_LOCATION"
+          ],
+          [
+            "EQUAL",
+            "$PREV_LOCATION.sides.A.name",
+            "Spire"
+          ],
+          [
+            "EQUAL",
+            "$ACTIVE_LOCATION.sides.A.name",
+            "The Chimney"
+          ]
+        ],
+        [
+          [
+            "FOR_EACH_VAL",
+            "$CARD_ID",
+            "$GAME.loadedCardIds",
+            [
+              [
+                "VAR",
+                "$CARD",
+                "$GAME.cardById.$CARD_ID"
+              ],
+              [
+                "COND",
+                [
+                  "EQUAL",
+                  "$CARD.sides.A.name",
+                  "The Spiral Stairway"
+                ],
+                [
+                  "MOVE_CARD",
+                  "$CARD_ID",
+                  "sharedAlongTheWay",
+                  -1
+                ]
+              ],
+              [
+                "COND",
+                [
+                  "EQUAL",
+                  "$CARD.sides.A.name",
+                  "The Plinth"
+                ],
+                [
+                  [
+                    "MOVE_CARD",
+                    "$CARD_ID",
+                    "sharedPathDeck",
+                    -1
+                  ],
+                  [
+                    "SHUFFLE_GROUP",
+                    "sharedPathDeck"
+                  ]
+                ]
+              ]
+            ]
+          ]
+        ]
+      ],
+      [
+        "COND",
+        [
+          "OR",
+          [
+            "EQUAL",
+            "$GAME.current_campaign",
+            ""
+          ],
+          [
+            "EQUAL",
+            "$GAME.current_campaign",
+            null
+          ]
+        ],
+        [
+          [
+            "DEFINE",
+            "$MAP_ROUTES",
+            {
+              "Core->LoA": "ArcologyMap",
+              "ItM->LoA": "ArcologyMap",
+              "LoA->Core": "CoreMap",
+              "LoA->ItM": "CoreMap",
+              "LoA->SaS": "CoreMap",
+              "LoA->SiB": "CoreMap",
+              "LoA->SoS": "CoreMap",
+              "START->LoA": "ArcologyMap",
+              "SaS->LoA": "ArcologyMap",
+              "SiB->LoA": "ArcologyMap",
+              "SoS->LoA": "ArcologyMap"
+            }
+          ],
+          [
+            "DEFINE",
+            "$LOCATION_KEY",
+            [
+              "COND",
+              [
+                "DEFINED",
+                "$PREV_LOCATION"
+              ],
+              [
+                "JOIN_STRING",
+                "$PREV_LOCATION.sides.A.pack_code",
+                [
+                  "JOIN_STRING",
+                  "->",
+                  "$ACTIVE_LOCATION.sides.A.pack_code"
+                ]
+              ],
+              true,
+              [
+                "COND",
+                [
+                  "AND",
+                  [
+                    "NOT",
+                    [
+                      "DEFINED",
+                      "$PREV_LOCATION"
+                    ]
+                  ],
+                  [
+                    "DEFINED",
+                    "$ACTIVE_LOCATION"
+                  ]
+                ],
+                [
+                  "JOIN_STRING",
+                  "START->",
+                  "$ACTIVE_LOCATION.sides.A.pack_code"
+                ],
+                true,
+                null
+              ]
+            ]
+          ],
+          [
+            "COND",
+            [
+              "AND",
+              [
+                "NOT_EQUAL",
+                "$LOCATION_KEY",
+                null
+              ],
+              [
+                "NOT",
+                [
+                  "DEFINED",
+                  "$LOOP_ONCE"
+                ]
+              ]
+            ],
+            [
+              [
+                "DEFINE",
+                "$LOOP_ONCE",
+                true
+              ],
+              [
+                "VAR",
+                "$MAP_TO_LOAD",
+                "$MAP_ROUTES.{{$LOCATION_KEY}}"
+              ],
+              [
+                "COND",
+                [
+                  "NOT_EQUAL",
+                  "$MAP_TO_LOAD",
+                  null
+                ],
+                [
+                  [
+                    "FOR_EACH_VAL",
+                    "$CARD",
+                    "$GAME.groupById.sharedSetAside.parentCards",
+                    [
+                      "COND",
+                      [
+                        "EQUAL",
+                        "$CARD.sides.A.set",
+                        "Map"
+                      ],
+                      [
+                        "DELETE_CARD",
+                        "$CARD.id"
+                      ]
+                    ]
+                  ],
+                  [
+                    "LOAD_CARDS",
+                    "$MAP_TO_LOAD"
+                  ]
+                ]
+              ]
+            ]
+          ]
+        ]
+      ]
+    ],
+    "postNewGameActionList": [
+      [
+        "DEFINE",
+        "$PLAYER_N",
+        "player1"
+      ],
+      [
+        "LOAD_CARDS",
+        "challengeDeck"
+      ],
+      [
+        "LOAD_CARDS",
+        "Reference"
+      ],
+      [
+        "LOAD_CARDS",
+        "CoreMap"
+      ],
+      [
+        "PROMPT",
+        "player1",
+        "PROMPT_LOAD_CAMPAIGN"
+      ]
+    ]
+  }
+}

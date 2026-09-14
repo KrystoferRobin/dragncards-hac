@@ -1,0 +1,36 @@
+{
+  "clearTableOptions": [
+    {
+      "label": "Player 1 wins",
+      "actionList": [
+        "SET",
+        "/victoryState",
+        "player1Win"
+      ]
+    },
+    {
+      "label": "Player 2 wins",
+      "actionList": [
+        "SET",
+        "/victoryState",
+        "player2Win"
+      ]
+    },
+    {
+      "label": "Tie",
+      "actionList": [
+        "SET",
+        "/victoryState",
+        "tie"
+      ]
+    },
+    {
+      "label": "Incomplete",
+      "actionList": [
+        "SET",
+        "/victoryState",
+        "incomplete"
+      ]
+    }
+  ]
+}

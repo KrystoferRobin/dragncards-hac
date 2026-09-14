@@ -1,0 +1,16 @@
+{
+  "browse": {
+    "filterPropertySideA": "type",
+    "filterValuesSideA": [
+      "Battlefield",
+      "Event",
+      "Missions",
+      "Mobile Suits",
+      "Pilot"
+    ],
+    "textPropertiesSideA": [
+      "name",
+      "packName"
+    ]
+  }
+}

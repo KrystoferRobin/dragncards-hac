@@ -1,0 +1,28 @@
+{
+  "browse": {
+    "filterPropertySideA": "category",
+    "filterValuesSideA": [
+      "Hero",
+      "Evil Character",
+      "Lost Soul",
+      "Good Enhancement",
+      "Evil Enhancement",
+      "Good/Evil Enhancement",
+      "Artifact",
+      "Dominant",
+      "Fortress",
+      "Site",
+      "Curse",
+      "Covenant",
+      "City",
+      "Token"
+    ],
+    "textPropertiesSideA": [
+      "name",
+      "text",
+      "brigade",
+      "set",
+      "reference"
+    ]
+  }
+}

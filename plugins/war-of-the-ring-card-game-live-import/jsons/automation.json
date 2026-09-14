@@ -1,0 +1,4353 @@
+{
+  "automation": {
+    "cards": {
+      "da856837-ba5e-4ecc-8f05-05d7d5421b04": {
+        "_comment": "Círdan the Shipwright",
+        "rules": {
+          "entersGH": {
+            "condition": [
+              "TRUE"
+            ],
+            "listenTo": [
+              "/cardById/$THIS_ID/locationGroupId"
+            ],
+            "priority": 2,
+            "then": [
+              [
+                "VAR",
+                "$NEW_LOCATION_GROUP_ID",
+                "$TARGET.locationGroupId"
+              ],
+              [
+                "COND",
+                [
+                  "NOT_EQUAL",
+                  "$NEW_LOCATION_GROUP_ID",
+                  null
+                ],
+                [
+                  [
+                    "VAR",
+                    "$NEW_LOCATION_CARD",
+                    "$GAME.groupById.$NEW_LOCATION_GROUP_ID.parentCards.[0]"
+                  ],
+                  [
+                    "COND",
+                    [
+                      "EQUAL",
+                      "$NEW_LOCATION_CARD.sides.A.name",
+                      "Grey Havens"
+                    ],
+                    [
+                      [
+                        "LOG",
+                        "└── Added 1 Leadership Defense to {{$TARGET.sides.A.name}}."
+                      ],
+                      [
+                        "INCREASE_VAL",
+                        "/cardById/$TARGET.id/sides/A/leadershipDefense",
+                        1
+                      ],
+                      [
+                        "SET",
+                        "/cardById/$TARGET.id/addedLeadership",
+                        true
+                      ]
+                    ]
+                  ]
+                ]
+              ]
+            ],
+            "type": "trigger"
+          }
+        }
+      },
+      "1510bb6a-66f1-446f-bf09-8241187c4432": {
+        "_comment": "AtS-Gorbag & Shagrat",
+        "rules": {
+          "entersLair": {
+            "condition": [
+              "TRUE"
+            ],
+            "listenTo": [
+              "/cardById/$THIS_ID/locationGroupId"
+            ],
+            "then": [
+              [
+                "VAR",
+                "$NEW_LOCATION_GROUP_ID",
+                "$TARGET.locationGroupId"
+              ],
+              [
+                "COND",
+                [
+                  "NOT_EQUAL",
+                  "$NEW_LOCATION_GROUP_ID",
+                  null
+                ],
+                [
+                  [
+                    "VAR",
+                    "$NEW_LOCATION_CARD",
+                    "$GAME.groupById.$NEW_LOCATION_GROUP_ID.parentCards.[0]"
+                  ],
+                  [
+                    "COND",
+                    [
+                      "EQUAL",
+                      "$NEW_LOCATION_CARD.sides.A.name",
+                      "Cirith Ungol"
+                    ],
+                    [
+                      [
+                        "LOG",
+                        "└── Added 1 Path Attack Token to {{$TARGET.sides.A.name}}."
+                      ],
+                      [
+                        "INCREASE_VAL",
+                        "/cardById/$TARGET.id/tokens/pathRed",
+                        1
+                      ]
+                    ]
+                  ]
+                ]
+              ]
+            ],
+            "type": "trigger"
+          }
+        }
+      },
+      "211bad96-3abb-49e8-a925-aa4b255c59ed": {
+        "_comment": "Théoden",
+        "rules": {
+          "awakenThéoden": {
+            "condition": [
+              "AND",
+              [
+                "OR",
+                [
+                  "EQUAL",
+                  "$TARGET.databaseId",
+                  "211bad96-3abb-49e8-a925-aa4b255c59ed"
+                ],
+                [
+                  "EQUAL",
+                  "$TARGET.databaseId",
+                  "a73e2226-d69e-4a25-b68d-f5f4352bd3c1"
+                ],
+                [
+                  "EQUAL",
+                  "$TARGET.databaseId",
+                  "ffa8235b-c293-44c0-b88e-7ebb5f909960"
+                ]
+              ],
+              [
+                "ONE_CARD",
+                "$CARD",
+                [
+                  "AND",
+                  [
+                    "EQUAL",
+                    "$CARD.sides.A.name",
+                    "Théoden"
+                  ],
+                  "$CARD.inPlay"
+                ]
+              ]
+            ],
+            "listenTo": [
+              "/cardById/*/inPlay"
+            ],
+            "then": [
+              [
+                "VAR",
+                "$GANDALF_G_CARD",
+                [
+                  "ONE_CARD",
+                  "$CARD",
+                  [
+                    "EQUAL",
+                    "$CARD.sides.A.name",
+                    "Gandalf the Grey"
+                  ]
+                ]
+              ],
+              [
+                "VAR",
+                "$GANDALF_W_CARD",
+                [
+                  "ONE_CARD",
+                  "$CARD",
+                  [
+                    "EQUAL",
+                    "$CARD.sides.A.name",
+                    "Gandalf the White"
+                  ]
+                ]
+              ],
+              [
+                "VAR",
+                "$THEODEN_CARD",
+                [
+                  "ONE_CARD",
+                  "$CARD",
+                  [
+                    "EQUAL",
+                    "$CARD.sides.A.name",
+                    "Théoden"
+                  ]
+                ]
+              ],
+              [
+                "COND",
+                [
+                  "AND",
+                  [
+                    "OR",
+                    "$GANDALF_G_CARD.inPlay",
+                    "$GANDALF_W_CARD.inPlay"
+                  ],
+                  "$THEODEN_CARD.inPlay",
+                  [
+                    "EQUAL",
+                    "$THEODEN_CARD.bonusApplied",
+                    false
+                  ]
+                ],
+                [
+                  [
+                    "LOG",
+                    "└── Added 1 Attack and 1 Defense Tokens to {{$THEODEN_CARD.sides.A.name}}."
+                  ],
+                  [
+                    "INCREASE_VAL",
+                    "/cardById/$THEODEN_CARD.id/tokens/attackBlue",
+                    1
+                  ],
+                  [
+                    "INCREASE_VAL",
+                    "/cardById/$THEODEN_CARD.id/tokens/defenseBlue",
+                    1
+                  ],
+                  [
+                    "SET",
+                    "/cardById/$THEODEN_CARD.id/bonusApplied",
+                    true
+                  ]
+                ],
+                [
+                  "AND",
+                  [
+                    "OR",
+                    [
+                      "AND",
+                      [
+                        "NOT",
+                        "$GANDALF_G_CARD.inPlay"
+                      ],
+                      [
+                        "NOT",
+                        "$GANDALF_W_CARD.inPlay"
+                      ]
+                    ],
+                    [
+                      "NOT",
+                      "$THEODEN_CARD.inPlay"
+                    ]
+                  ],
+                  [
+                    "EQUAL",
+                    "$THEODEN_CARD.bonusApplied",
+                    true
+                  ]
+                ],
+                [
+                  [
+                    "COND",
+                    "$THEODEN_CARD.inPlay",
+                    [
+                      [
+                        "LOG",
+                        "└── Removed 1 Attack and 1 Defense Tokens from {{$THEODEN_CARD.sides.A.name}}."
+                      ],
+                      [
+                        "DECREASE_VAL",
+                        "/cardById/$THEODEN_CARD.id/tokens/attackBlue",
+                        1
+                      ],
+                      [
+                        "DECREASE_VAL",
+                        "/cardById/$THEODEN_CARD.id/tokens/defenseBlue",
+                        1
+                      ],
+                      [
+                        "SET",
+                        "/cardById/$THEODEN_CARD.id/bonusApplied",
+                        false
+                      ]
+                    ]
+                  ]
+                ],
+                [
+                  "OR",
+                  [
+                    "AND",
+                    [
+                      "OR",
+                      "$GANDALF_G_CARD.inPlay",
+                      "$GANDALF_W_CARD.inPlay"
+                    ],
+                    [
+                      "NOT",
+                      "$THEODEN_CARD.inPlay"
+                    ]
+                  ],
+                  [
+                    "AND",
+                    [
+                      "AND",
+                      [
+                        "NOT",
+                        "$GANDALF_G_CARD.inPlay"
+                      ],
+                      [
+                        "NOT",
+                        "$GANDALF_W_CARD.inPlay"
+                      ]
+                    ],
+                    "$THEODEN_CARD.inPlay"
+                  ]
+                ],
+                [
+                  "SET",
+                  "/cardById/$THEODEN_CARD.id/bonusApplied",
+                  false
+                ]
+              ]
+            ],
+            "type": "trigger"
+          }
+        }
+      },
+      "c56cdab3-a331-40eb-aa6b-f75140eb67a9": {
+        "_comment": "Lotho Sackville-Baggins",
+        "rules": {
+          "entersShire": {
+            "condition": [
+              "TRUE"
+            ],
+            "listenTo": [
+              "/cardById/$THIS_ID/locationGroupId"
+            ],
+            "priority": 2,
+            "then": [
+              [
+                "VAR",
+                "$NEW_LOCATION_GROUP_ID",
+                "$TARGET.locationGroupId"
+              ],
+              [
+                "COND",
+                [
+                  "NOT_EQUAL",
+                  "$NEW_LOCATION_GROUP_ID",
+                  null
+                ],
+                [
+                  [
+                    "VAR",
+                    "$NEW_LOCATION_CARD",
+                    "$GAME.groupById.$NEW_LOCATION_GROUP_ID.parentCards.[0]"
+                  ],
+                  [
+                    "COND",
+                    [
+                      "EQUAL",
+                      "$NEW_LOCATION_CARD.sides.A.name",
+                      "The Shire"
+                    ],
+                    [
+                      [
+                        "LOG",
+                        "└── Added 1 Leadership Attack to {{$TARGET.sides.A.name}}."
+                      ],
+                      [
+                        "INCREASE_VAL",
+                        "/cardById/$TARGET.id/sides/A/leadershipAttack",
+                        1
+                      ],
+                      [
+                        "SET",
+                        "/cardById/$TARGET.id/addedLeadership",
+                        true
+                      ]
+                    ]
+                  ]
+                ]
+              ]
+            ],
+            "type": "trigger"
+          }
+        }
+      },
+      "d5f7bca9-0588-4bc3-afd3-eef62243c742": {
+        "_comment": "Guards of the Citadel",
+        "rules": {
+          "entersMT": {
+            "condition": [
+              "TRUE"
+            ],
+            "listenTo": [
+              "/cardById/$THIS_ID/locationGroupId"
+            ],
+            "then": [
+              [
+                "VAR",
+                "$NEW_LOCATION_GROUP_ID",
+                "$TARGET.locationGroupId"
+              ],
+              [
+                "COND",
+                [
+                  "NOT_EQUAL",
+                  "$NEW_LOCATION_GROUP_ID",
+                  null
+                ],
+                [
+                  [
+                    "VAR",
+                    "$NEW_LOCATION_CARD",
+                    "$GAME.groupById.$NEW_LOCATION_GROUP_ID.parentCards.[0]"
+                  ],
+                  [
+                    "COND",
+                    [
+                      "EQUAL",
+                      "$NEW_LOCATION_CARD.sides.A.name",
+                      "Minas Tirith"
+                    ],
+                    [
+                      [
+                        "LOG",
+                        "└── Added 1 Battleground Defense Token to {{$TARGET.sides.A.name}}."
+                      ],
+                      [
+                        "INCREASE_VAL",
+                        "/cardById/$TARGET.id/tokens/defenseBlue",
+                        1
+                      ]
+                    ]
+                  ]
+                ]
+              ]
+            ],
+            "type": "trigger"
+          }
+        }
+      },
+      "fe77aaef-a595-47a8-bb0d-4d5796234fec": {
+        "_comment": "Knights of Dol Amroth",
+        "rules": {
+          "entersDA": {
+            "condition": [
+              "TRUE"
+            ],
+            "listenTo": [
+              "/cardById/$THIS_ID/locationGroupId"
+            ],
+            "then": [
+              [
+                "VAR",
+                "$NEW_LOCATION_GROUP_ID",
+                "$TARGET.locationGroupId"
+              ],
+              [
+                "COND",
+                [
+                  "NOT_EQUAL",
+                  "$NEW_LOCATION_GROUP_ID",
+                  null
+                ],
+                [
+                  [
+                    "VAR",
+                    "$NEW_LOCATION_CARD",
+                    "$GAME.groupById.$NEW_LOCATION_GROUP_ID.parentCards.[0]"
+                  ],
+                  [
+                    "COND",
+                    [
+                      "EQUAL",
+                      "$NEW_LOCATION_CARD.sides.A.name",
+                      "Dol Amroth"
+                    ],
+                    [
+                      [
+                        "LOG",
+                        "└── Added 1 Battleground Defense Token to {{$TARGET.sides.A.name}}."
+                      ],
+                      [
+                        "INCREASE_VAL",
+                        "/cardById/$TARGET.id/tokens/defenseBlue",
+                        1
+                      ]
+                    ]
+                  ]
+                ]
+              ]
+            ],
+            "type": "trigger"
+          }
+        }
+      },
+      "de4e14b4-a535-4a72-904a-651184bf1995": {
+        "_comment": "Ted Sandyman",
+        "rules": {
+          "entersShire": {
+            "condition": [
+              "TRUE"
+            ],
+            "listenTo": [
+              "/cardById/$THIS_ID/locationGroupId"
+            ],
+            "priority": 2,
+            "then": [
+              [
+                "VAR",
+                "$NEW_LOCATION_GROUP_ID",
+                "$TARGET.locationGroupId"
+              ],
+              [
+                "COND",
+                [
+                  "NOT_EQUAL",
+                  "$NEW_LOCATION_GROUP_ID",
+                  null
+                ],
+                [
+                  [
+                    "VAR",
+                    "$NEW_LOCATION_CARD",
+                    "$GAME.groupById.$NEW_LOCATION_GROUP_ID.parentCards.[0]"
+                  ],
+                  [
+                    "COND",
+                    [
+                      "EQUAL",
+                      "$NEW_LOCATION_CARD.sides.A.name",
+                      "The Shire"
+                    ],
+                    [
+                      [
+                        "LOG",
+                        "└── Added 1 Leadership Attack to {{$TARGET.sides.A.name}}."
+                      ],
+                      [
+                        "INCREASE_VAL",
+                        "/cardById/$TARGET.id/sides/A/leadershipAttack",
+                        1
+                      ],
+                      [
+                        "SET",
+                        "/cardById/$TARGET.id/addedLeadership",
+                        true
+                      ]
+                    ]
+                  ]
+                ]
+              ]
+            ],
+            "type": "trigger"
+          }
+        }
+      },
+      "178edd70-878d-4c1c-a64c-9eb913611450": {
+        "_comment": "Minas Morgul",
+        "ability": {
+          "A": [
+            [
+              "FOR_EACH_KEY_VAL",
+              "$CARD_ID",
+              "$CARD",
+              "$GAME.cardById",
+              [
+                [
+                  "COND",
+                  [
+                    "EQUAL",
+                    "$CARD.sides.A.name",
+                    "The Witch-king"
+                  ],
+                  [
+                    "DEFINE",
+                    "$MORDOR_PLAYER_N",
+                    "$CARD.controller"
+                  ]
+                ]
+              ]
+            ],
+            [
+              "COND",
+              [
+                "LESS_THAN",
+                [
+                  "LENGTH",
+                  "$GAME.groupById.{{$MORDOR_PLAYER_N}}Deck.stackIds"
+                ],
+                5
+              ],
+              [
+                "CYCLE_DECK",
+                "$MORDOR_PLAYER_N"
+              ]
+            ],
+            [
+              "LOG",
+              "└── ",
+              [
+                "GET_ALIAS",
+                "$MORDOR_PLAYER_N"
+              ],
+              " is looking at the top 5 cards of their deck."
+            ],
+            [
+              "LOOK_AT",
+              "$MORDOR_PLAYER_N",
+              "{{$MORDOR_PLAYER_N}}Deck",
+              5,
+              true
+            ],
+            [
+              "PROMPT",
+              "$MORDOR_PLAYER_N",
+              "playNumberedCardToReserve",
+              "$MORDOR_PLAYER_N",
+              "{{$MORDOR_PLAYER_N}}Deck"
+            ]
+          ]
+        }
+      },
+      "0b834339-48da-4433-af10-20aaaf6433ce": {
+        "_comment": "Nazgul's Mantle (coop)",
+        "ability": {
+          "A": [
+            [
+              "FOR_EACH_KEY_VAL",
+              "$CARD_ID",
+              "$CARD",
+              "$GAME.cardById",
+              [
+                [
+                  "COND",
+                  [
+                    "EQUAL",
+                    "$CARD.sides.A.name",
+                    "The Witch-king"
+                  ],
+                  [
+                    "DEFINE",
+                    "$MORDOR_PLAYER_N",
+                    "$CARD.controller"
+                  ]
+                ]
+              ]
+            ],
+            [
+              "VAR",
+              "$NUMBER_OF_NAZGUL",
+              0
+            ],
+            [
+              "FOR_EACH_VAL",
+              "$CARD",
+              "$GAME.groupById.{{$MORDOR_PLAYER_N}}Eliminated.parentCards",
+              [
+                [
+                  "COND",
+                  [
+                    "EQUAL",
+                    [
+                      "SUBSTRING",
+                      "$CARD.sides.A.text",
+                      0,
+                      6
+                    ],
+                    "Nazgûl"
+                  ],
+                  [
+                    "INCREASE_VAR",
+                    "$NUMBER_OF_NAZGUL",
+                    1
+                  ]
+                ]
+              ]
+            ],
+            [
+              "COND",
+              [
+                "EQUAL",
+                "$NUMBER_OF_NAZGUL",
+                0
+              ],
+              [
+                "ABORT",
+                "└── ",
+                [
+                  "GET_ALIAS",
+                  "$MORDOR_PLAYER_N"
+                ],
+                " has no Nazgûl in their discard pile."
+              ]
+            ],
+            [
+              "VAR",
+              "$SELECTED_INDEX",
+              [
+                "RANDOM_INT",
+                0,
+                [
+                  "SUBTRACT",
+                  "$NUMBER_OF_NAZGUL",
+                  1
+                ]
+              ]
+            ],
+            [
+              "FOR_EACH_VAL",
+              "$CARD",
+              "$GAME.groupById.{{$MORDOR_PLAYER_N}}Eliminated.parentCards",
+              [
+                [
+                  "COND",
+                  [
+                    "EQUAL",
+                    [
+                      "SUBSTRING",
+                      "$CARD.sides.A.text",
+                      0,
+                      6
+                    ],
+                    "Nazgûl"
+                  ],
+                  [
+                    [
+                      "COND",
+                      [
+                        "EQUAL",
+                        "$SELECTED_INDEX",
+                        0
+                      ],
+                      [
+                        [
+                          "LOG",
+                          "└── ",
+                          [
+                            "GET_ALIAS",
+                            "$MORDOR_PLAYER_N"
+                          ],
+                          " played a random Nazgûl ({{$CARD.sides.A.name}}) from their eliminated pile to their reserve."
+                        ],
+                        [
+                          "MOVE_CARD",
+                          "$CARD.id",
+                          "{{$MORDOR_PLAYER_N}}Reserve",
+                          -1
+                        ]
+                      ]
+                    ],
+                    [
+                      "DECREASE_VAR",
+                      "$SELECTED_INDEX",
+                      1
+                    ]
+                  ]
+                ]
+              ]
+            ]
+          ]
+        }
+      },
+      "33c0a908-1248-4a75-98eb-dfa4bf63e856": {
+        "_comment": "Fangorn",
+        "rules": {
+          "Entwood": {
+            "condition": [
+              "AND",
+              [
+                "IN_STRING",
+                "$TARGET.groupId",
+                "sharedActiveBlue"
+              ],
+              [
+                "NOT_EQUAL",
+                "$TARGET.groupId",
+                [
+                  "PREV",
+                  "$TARGET.groupId"
+                ]
+              ],
+              [
+                "EQUAL",
+                [
+                  "SUBSTRING",
+                  "$TARGET.sides.A.text",
+                  0,
+                  3
+                ],
+                "Ent"
+              ],
+              [
+                "EQUAL",
+                "$TARGET.locationIndex",
+                "$THIS.locationIndex"
+              ]
+            ],
+            "listenTo": [
+              "/cardById/*/groupId"
+            ],
+            "then": [
+              [
+                "LOG",
+                "└── Added 1 Path Defense Token to {{$TARGET.sides.A.name}}."
+              ],
+              [
+                "INCREASE_VAL",
+                "/cardById/$TARGET.id/tokens/pathBlue",
+                1
+              ]
+            ],
+            "type": "trigger"
+          }
+        }
+      },
+      "e466c7c6-334b-4f40-b194-c58af80e53af": {
+        "_comment": "The Black Easterling",
+        "rules": {
+          "entersDG": {
+            "condition": [
+              "TRUE"
+            ],
+            "listenTo": [
+              "/cardById/$THIS_ID/locationGroupId"
+            ],
+            "then": [
+              [
+                "VAR",
+                "$NEW_LOCATION_GROUP_ID",
+                "$TARGET.locationGroupId"
+              ],
+              [
+                "COND",
+                [
+                  "NOT_EQUAL",
+                  "$NEW_LOCATION_GROUP_ID",
+                  null
+                ],
+                [
+                  [
+                    "VAR",
+                    "$NEW_LOCATION_CARD",
+                    "$GAME.groupById.$NEW_LOCATION_GROUP_ID.parentCards.[0]"
+                  ],
+                  [
+                    "COND",
+                    [
+                      "EQUAL",
+                      "$NEW_LOCATION_CARD.sides.A.name",
+                      "Dol Guldur"
+                    ],
+                    [
+                      [
+                        "LOG",
+                        "└── Added 1 Battleground Defense Token to {{$TARGET.sides.A.name}}."
+                      ],
+                      [
+                        "INCREASE_VAL",
+                        "/cardById/$TARGET.id/tokens/defenseRed",
+                        1
+                      ]
+                    ]
+                  ]
+                ]
+              ]
+            ],
+            "type": "trigger"
+          }
+        }
+      },
+      "6a0b6260-ea8d-4977-907f-8593cdfac4eb": {
+        "_comment": "The Black Fleet",
+        "rules": {
+          "entersPelargir": {
+            "condition": [
+              "TRUE"
+            ],
+            "listenTo": [
+              "/cardById/$THIS_ID/locationGroupId"
+            ],
+            "then": [
+              [
+                "VAR",
+                "$NEW_LOCATION_GROUP_ID",
+                "$TARGET.locationGroupId"
+              ],
+              [
+                "COND",
+                [
+                  "NOT_EQUAL",
+                  "$NEW_LOCATION_GROUP_ID",
+                  null
+                ],
+                [
+                  [
+                    "VAR",
+                    "$NEW_LOCATION_CARD",
+                    "$GAME.groupById.$NEW_LOCATION_GROUP_ID.parentCards.[0]"
+                  ],
+                  [
+                    "COND",
+                    [
+                      "EQUAL",
+                      "$NEW_LOCATION_CARD.sides.A.name",
+                      "Pelargir"
+                    ],
+                    [
+                      [
+                        "LOG",
+                        "└── Added 1 Battleground Attack Token to {{$TARGET.sides.A.name}}."
+                      ],
+                      [
+                        "INCREASE_VAL",
+                        "/cardById/$TARGET.id/tokens/attackRed",
+                        1
+                      ]
+                    ]
+                  ]
+                ]
+              ]
+            ],
+            "type": "trigger"
+          }
+        }
+      },
+      "1cc677c5-db10-4cfe-9398-f532ec53bc4c": {
+        "_comment": "Sting",
+        "rules": {
+          "glitteringBlue_MonstrousEnters": {
+            "_comment": "Monstrous enters red side, check if Sting already on blue side",
+            "condition": [
+              "AND",
+              [
+                "IN_STRING",
+                "$TARGET.groupId",
+                "sharedActiveRed"
+              ],
+              [
+                "NOT_EQUAL",
+                "$TARGET.groupId",
+                [
+                  "PREV",
+                  "$TARGET.groupId"
+                ]
+              ],
+              [
+                "EQUAL",
+                "$TARGET.sides.A.faction",
+                "Monstrous"
+              ],
+              [
+                "EQUAL",
+                "$TARGET.sides.A.type",
+                "Character"
+              ],
+              [
+                "EQUAL",
+                "$TARGET.locationIndex",
+                "$THIS.locationIndex"
+              ],
+              [
+                "NOT_EQUAL",
+                "$THIS.bonusApplied",
+                true
+              ]
+            ],
+            "listenTo": [
+              "/cardById/*/groupId"
+            ],
+            "then": [
+              [
+                "LOG",
+                "└── Added 1 Path Defense Token to {{$THIS.sides.A.name}}."
+              ],
+              [
+                "INCREASE_VAL",
+                "/cardById/$THIS.id/tokens/pathBlue",
+                1
+              ],
+              [
+                "SET",
+                "/cardById/$THIS.id/bonusApplied",
+                true
+              ]
+            ],
+            "type": "trigger"
+          },
+          "glitteringBlue_Remove": {
+            "_comment": "Remove bonus when Sting moves or no more Monstrous at location",
+            "condition": [
+              "AND",
+              [
+                "EQUAL",
+                "$THIS.bonusApplied",
+                true
+              ],
+              [
+                "OR",
+                [
+                  "AND",
+                  [
+                    "EQUAL",
+                    "$TARGET.id",
+                    "$THIS.id"
+                  ],
+                  [
+                    "NOT_EQUAL",
+                    "$TARGET.groupId",
+                    [
+                      "PREV",
+                      "$TARGET.groupId"
+                    ]
+                  ]
+                ],
+                [
+                  "AND",
+                  [
+                    "EQUAL",
+                    "$TARGET.sides.A.faction",
+                    "Monstrous"
+                  ],
+                  [
+                    "EQUAL",
+                    "$TARGET.sides.A.type",
+                    "Character"
+                  ],
+                  [
+                    "NOT_EQUAL",
+                    "$TARGET.groupId",
+                    [
+                      "PREV",
+                      "$TARGET.groupId"
+                    ]
+                  ]
+                ]
+              ]
+            ],
+            "listenTo": [
+              "/cardById/*/groupId"
+            ],
+            "then": [
+              [
+                "VAR",
+                "$MONSTROUS_CARD",
+                [
+                  "ONE_CARD",
+                  "$CARD",
+                  [
+                    "AND",
+                    [
+                      "EQUAL",
+                      "$CARD.sides.A.faction",
+                      "Monstrous"
+                    ],
+                    [
+                      "EQUAL",
+                      "$CARD.sides.A.type",
+                      "Character"
+                    ],
+                    [
+                      "IN_STRING",
+                      "$CARD.groupId",
+                      "sharedActiveRed"
+                    ],
+                    [
+                      "EQUAL",
+                      "$CARD.locationIndex",
+                      "$THIS.locationIndex"
+                    ]
+                  ]
+                ]
+              ],
+              [
+                "COND",
+                [
+                  "OR",
+                  [
+                    "NOT",
+                    [
+                      "IN_STRING",
+                      "$THIS.groupId",
+                      "sharedActiveBlue"
+                    ]
+                  ],
+                  [
+                    "EQUAL",
+                    "$MONSTROUS_CARD",
+                    null
+                  ]
+                ],
+                [
+                  [
+                    "LOG",
+                    "└── Removed 1 Path Defense Token from {{$THIS.sides.A.name}}."
+                  ],
+                  [
+                    "SET",
+                    "/cardById/$THIS.id/tokens/pathBlue",
+                    0
+                  ],
+                  [
+                    "SET",
+                    "/cardById/$THIS.id/bonusApplied",
+                    false
+                  ]
+                ]
+              ]
+            ],
+            "type": "trigger"
+          },
+          "glitteringBlue_StingEnters": {
+            "_comment": "Sting enters blue side, check if Monstrous already on red side",
+            "condition": [
+              "AND",
+              [
+                "IN_STRING",
+                "$TARGET.groupId",
+                "sharedActiveBlue"
+              ],
+              [
+                "NOT_EQUAL",
+                "$TARGET.groupId",
+                [
+                  "PREV",
+                  "$TARGET.groupId"
+                ]
+              ],
+              [
+                "NOT_EQUAL",
+                "$THIS.bonusApplied",
+                true
+              ]
+            ],
+            "listenTo": [
+              "/cardById/$THIS_ID/groupId"
+            ],
+            "then": [
+              [
+                "VAR",
+                "$MONSTROUS_CARD",
+                [
+                  "ONE_CARD",
+                  "$CARD",
+                  [
+                    "AND",
+                    [
+                      "EQUAL",
+                      "$CARD.sides.A.faction",
+                      "Monstrous"
+                    ],
+                    [
+                      "EQUAL",
+                      "$CARD.sides.A.type",
+                      "Character"
+                    ],
+                    [
+                      "IN_STRING",
+                      "$CARD.groupId",
+                      "sharedActiveRed"
+                    ],
+                    [
+                      "EQUAL",
+                      "$CARD.locationIndex",
+                      "$THIS.locationIndex"
+                    ]
+                  ]
+                ]
+              ],
+              [
+                "COND",
+                [
+                  "NOT_EQUAL",
+                  "$MONSTROUS_CARD",
+                  null
+                ],
+                [
+                  [
+                    "LOG",
+                    "└── Added 1 Path Defense Token to {{$THIS.sides.A.name}}."
+                  ],
+                  [
+                    "INCREASE_VAL",
+                    "/cardById/$THIS.id/tokens/pathBlue",
+                    1
+                  ],
+                  [
+                    "SET",
+                    "/cardById/$THIS.id/bonusApplied",
+                    true
+                  ]
+                ]
+              ]
+            ],
+            "type": "trigger"
+          }
+        }
+      },
+      "b41cacfb-b685-4cc2-bbb6-bc933e021bf5": {
+        "_comment": "Spiders of Mirkwood",
+        "rules": {
+          "entersWLR": {
+            "condition": [
+              "TRUE"
+            ],
+            "listenTo": [
+              "/cardById/$THIS_ID/locationGroupId"
+            ],
+            "then": [
+              [
+                "VAR",
+                "$NEW_LOCATION_GROUP_ID",
+                "$TARGET.locationGroupId"
+              ],
+              [
+                "COND",
+                [
+                  "NOT_EQUAL",
+                  "$NEW_LOCATION_GROUP_ID",
+                  null
+                ],
+                [
+                  [
+                    "VAR",
+                    "$NEW_LOCATION_CARD",
+                    "$GAME.groupById.$NEW_LOCATION_GROUP_ID.parentCards.[0]"
+                  ],
+                  [
+                    "COND",
+                    [
+                      "EQUAL",
+                      "$NEW_LOCATION_CARD.sides.A.name",
+                      "Woodland Realm"
+                    ],
+                    [
+                      [
+                        "LOG",
+                        "└── Added 1 Battleground Attack Token to {{$TARGET.sides.A.name}}."
+                      ],
+                      [
+                        "INCREASE_VAL",
+                        "/cardById/$TARGET.id/tokens/attackRed",
+                        1
+                      ]
+                    ]
+                  ]
+                ]
+              ]
+            ],
+            "type": "trigger"
+          }
+        }
+      },
+      "9fd35ae2-e347-442d-b16e-a7a4b92a991f": {
+        "_comment": "AtS-Barrow-wights",
+        "rules": {
+          "entersDowns": {
+            "condition": [
+              "TRUE"
+            ],
+            "listenTo": [
+              "/cardById/$THIS_ID/locationGroupId"
+            ],
+            "then": [
+              [
+                "VAR",
+                "$NEW_LOCATION_GROUP_ID",
+                "$TARGET.locationGroupId"
+              ],
+              [
+                "COND",
+                [
+                  "NOT_EQUAL",
+                  "$NEW_LOCATION_GROUP_ID",
+                  null
+                ],
+                [
+                  [
+                    "VAR",
+                    "$NEW_LOCATION_CARD",
+                    "$GAME.groupById.$NEW_LOCATION_GROUP_ID.parentCards.[0]"
+                  ],
+                  [
+                    "COND",
+                    [
+                      "EQUAL",
+                      "$NEW_LOCATION_CARD.sides.A.name",
+                      "The Barrow-downs"
+                    ],
+                    [
+                      [
+                        "LOG",
+                        "└── Added 1 Path Attack Token to {{$TARGET.sides.A.name}}."
+                      ],
+                      [
+                        "INCREASE_VAL",
+                        "/cardById/$TARGET.id/tokens/pathRed",
+                        1
+                      ]
+                    ]
+                  ]
+                ]
+              ]
+            ],
+            "type": "trigger"
+          }
+        }
+      },
+      "b9539977-4ed1-44c6-aa09-5431a4a11967": {
+        "_comment": "Gothmog",
+        "rules": {
+          "eliminateWK": {
+            "condition": [
+              "AND",
+              "$THIS.inPlay",
+              [
+                "PREV",
+                [
+                  "NOT",
+                  "$THIS.inPlay"
+                ]
+              ]
+            ],
+            "listenTo": [
+              "/cardById/$THIS_ID/inPlay"
+            ],
+            "then": [
+              [
+                "PROMPT",
+                "$PLAYER_N",
+                "eliminateOnPlay",
+                "Gothmog",
+                "The Witch-king"
+              ]
+            ],
+            "type": "trigger"
+          }
+        }
+      },
+      "65144701-1ca6-48ec-921a-06e6166fa682": {
+        "_comment": "Celeborn",
+        "rules": {
+          "entersMW": {
+            "condition": [
+              "TRUE"
+            ],
+            "listenTo": [
+              "/cardById/$THIS_ID/locationGroupId"
+            ],
+            "priority": 2,
+            "then": [
+              [
+                "VAR",
+                "$NEW_LOCATION_GROUP_ID",
+                "$TARGET.locationGroupId"
+              ],
+              [
+                "COND",
+                [
+                  "NOT_EQUAL",
+                  "$NEW_LOCATION_GROUP_ID",
+                  null
+                ],
+                [
+                  [
+                    "VAR",
+                    "$NEW_LOCATION_CARD",
+                    "$GAME.groupById.$NEW_LOCATION_GROUP_ID.parentCards.[0]"
+                  ],
+                  [
+                    "COND",
+                    [
+                      "EQUAL",
+                      "$NEW_LOCATION_CARD.sides.A.name",
+                      "Dol Guldur"
+                    ],
+                    [
+                      [
+                        "LOG",
+                        "└── Added 1 Leadership Attack Token to {{$TARGET.sides.A.name}}."
+                      ],
+                      [
+                        "INCREASE_VAL",
+                        "/cardById/$TARGET.id/sides/A/leadershipAttack",
+                        1
+                      ],
+                      [
+                        "SET",
+                        "/cardById/$TARGET.id/addedLeadership",
+                        true
+                      ]
+                    ],
+                    [
+                      "EQUAL",
+                      "$NEW_LOCATION_CARD.sides.A.name",
+                      "Lórien"
+                    ],
+                    [
+                      [
+                        "LOG",
+                        "└── Added 1 Leadership Defense to {{$TARGET.sides.A.name}}."
+                      ],
+                      [
+                        "INCREASE_VAL",
+                        "/cardById/$TARGET.id/sides/A/leadershipDefense",
+                        1
+                      ],
+                      [
+                        "SET",
+                        "/cardById/$TARGET.id/addedLeadership",
+                        true
+                      ]
+                    ]
+                  ]
+                ]
+              ]
+            ],
+            "type": "trigger"
+          }
+        }
+      },
+      "6a892685-32b3-4f54-816c-2bab330d080b": {
+        "_comment": "Coastal Riders",
+        "rules": {
+          "entersDA": {
+            "condition": [
+              "TRUE"
+            ],
+            "listenTo": [
+              "/cardById/$THIS_ID/locationGroupId"
+            ],
+            "then": [
+              [
+                "VAR",
+                "$NEW_LOCATION_GROUP_ID",
+                "$TARGET.locationGroupId"
+              ],
+              [
+                "COND",
+                [
+                  "NOT_EQUAL",
+                  "$NEW_LOCATION_GROUP_ID",
+                  null
+                ],
+                [
+                  [
+                    "VAR",
+                    "$NEW_LOCATION_CARD",
+                    "$GAME.groupById.$NEW_LOCATION_GROUP_ID.parentCards.[0]"
+                  ],
+                  [
+                    "COND",
+                    [
+                      "EQUAL",
+                      "$NEW_LOCATION_CARD.sides.A.name",
+                      "Dol Amroth"
+                    ],
+                    [
+                      [
+                        "LOG",
+                        "└── Added 1 Battleground Attack Token to {{$TARGET.sides.A.name}}."
+                      ],
+                      [
+                        "INCREASE_VAL",
+                        "/cardById/$TARGET.id/tokens/attackRed",
+                        1
+                      ]
+                    ]
+                  ]
+                ]
+              ]
+            ],
+            "type": "trigger"
+          }
+        }
+      },
+      "1e7b71c7-76b8-45d8-8814-db3f8236d7fa": {
+        "_comment": "The Great Gate",
+        "rules": {
+          "entersMT": {
+            "condition": [
+              "TRUE"
+            ],
+            "listenTo": [
+              "/cardById/$THIS_ID/locationGroupId"
+            ],
+            "then": [
+              [
+                "VAR",
+                "$NEW_LOCATION_GROUP_ID",
+                "$TARGET.locationGroupId"
+              ],
+              [
+                "COND",
+                [
+                  "NOT_EQUAL",
+                  "$NEW_LOCATION_GROUP_ID",
+                  null
+                ],
+                [
+                  [
+                    "VAR",
+                    "$NEW_LOCATION_CARD",
+                    "$GAME.groupById.$NEW_LOCATION_GROUP_ID.parentCards.[0]"
+                  ],
+                  [
+                    "COND",
+                    [
+                      "EQUAL",
+                      "$NEW_LOCATION_CARD.sides.A.name",
+                      "Minas Tirith"
+                    ],
+                    [
+                      [
+                        "LOG",
+                        "└── Added 3 Battleground Defense Tokens to {{$TARGET.sides.A.name}}."
+                      ],
+                      [
+                        "INCREASE_VAL",
+                        "/cardById/$TARGET.id/tokens/defenseBlue",
+                        3
+                      ]
+                    ]
+                  ]
+                ]
+              ]
+            ],
+            "type": "trigger"
+          }
+        }
+      },
+      "87052229-2de5-4984-9fd9-978ef30351f1": {
+        "_comment": "Dirty Thieving Ruffians",
+        "rules": {
+          "entersShire": {
+            "condition": [
+              "TRUE"
+            ],
+            "listenTo": [
+              "/cardById/$THIS_ID/locationGroupId"
+            ],
+            "then": [
+              [
+                "VAR",
+                "$NEW_LOCATION_GROUP_ID",
+                "$TARGET.locationGroupId"
+              ],
+              [
+                "COND",
+                [
+                  "NOT_EQUAL",
+                  "$NEW_LOCATION_GROUP_ID",
+                  null
+                ],
+                [
+                  [
+                    "VAR",
+                    "$NEW_LOCATION_CARD",
+                    "$GAME.groupById.$NEW_LOCATION_GROUP_ID.parentCards.[0]"
+                  ],
+                  [
+                    "COND",
+                    [
+                      "EQUAL",
+                      "$NEW_LOCATION_CARD.sides.A.name",
+                      "The Shire"
+                    ],
+                    [
+                      [
+                        "LOG",
+                        "└── Added 1 Battleground Attack Token to {{$TARGET.sides.A.name}}."
+                      ],
+                      [
+                        "INCREASE_VAL",
+                        "/cardById/$TARGET.id/tokens/attackRed",
+                        1
+                      ]
+                    ]
+                  ]
+                ]
+              ]
+            ],
+            "type": "trigger"
+          }
+        }
+      },
+      "2e650769-f9f4-4cf0-b57f-8f019b538b02": {
+        "_comment": "Dead Men of Dunharrow",
+        "rules": {
+          "fulfilledOath": {
+            "condition": [
+              "TRUE"
+            ],
+            "listenTo": [
+              "/cardById/$THIS_ID/locationGroupId"
+            ],
+            "priority": 4,
+            "then": [
+              [
+                "VAR",
+                "$ARAGORN_CARD",
+                [
+                  "ONE_CARD",
+                  "$CARD",
+                  [
+                    "EQUAL",
+                    "$CARD.sides.A.name",
+                    "Aragorn"
+                  ]
+                ]
+              ],
+              [
+                "VAR",
+                "$STRIDER_CARD",
+                [
+                  "ONE_CARD",
+                  "$CARD",
+                  [
+                    "EQUAL",
+                    "$CARD.sides.A.name",
+                    "Strider"
+                  ]
+                ]
+              ],
+              [
+                "COND",
+                [
+                  "OR",
+                  [
+                    "AND",
+                    [
+                      "EQUAL",
+                      "$ARAGORN_CARD.groupId",
+                      "$TARGET.groupId"
+                    ],
+                    "TARGET.isSupporting",
+                    "ARAGORN_CARD.isSupported"
+                  ],
+                  [
+                    "AND",
+                    [
+                      "EQUAL",
+                      "$STRIDER_CARD.groupId",
+                      "$TARGET.groupId"
+                    ],
+                    "TARGET.isSupporting",
+                    "STRIDER_CARD.isSupported"
+                  ]
+                ],
+                [
+                  [
+                    "LOG",
+                    "└── Added 2 Battleground Attack and Defense Tokens to {{$TARGET.sides.A.name}}."
+                  ],
+                  [
+                    "INCREASE_VAL",
+                    "/cardById/$TARGET.id/tokens/attackBlue",
+                    2
+                  ],
+                  [
+                    "INCREASE_VAL",
+                    "/cardById/$TARGET.id/tokens/defenseBlue",
+                    2
+                  ],
+                  [
+                    "SET",
+                    "/cardById/$TARGET.id/bonusApplied",
+                    true
+                  ]
+                ]
+              ]
+            ],
+            "type": "trigger"
+          },
+          "oathBroken": {
+            "condition": [
+              "TRUE"
+            ],
+            "listenTo": [
+              "/cardById/$THIS_ID/locationGroupId"
+            ],
+            "priority": 4,
+            "then": [
+              [
+                "VAR",
+                "$ARAGORN_CARD",
+                [
+                  "ONE_CARD",
+                  "$CARD",
+                  [
+                    "EQUAL",
+                    "$CARD.sides.A.name",
+                    "Aragorn"
+                  ]
+                ]
+              ],
+              [
+                "VAR",
+                "$STRIDER_CARD",
+                [
+                  "ONE_CARD",
+                  "$CARD",
+                  [
+                    "EQUAL",
+                    "$CARD.sides.A.name",
+                    "Strider"
+                  ]
+                ]
+              ],
+              [
+                "COND",
+                [
+                  "AND",
+                  "/cardById/$TARGET.id/bonusApplied",
+                  [
+                    "NOT",
+                    [
+                      "OR",
+                      [
+                        "AND",
+                        [
+                          "EQUAL",
+                          "$ARAGORN_CARD.groupId",
+                          "$TARGET.groupId"
+                        ],
+                        "TARGET.isSupporting",
+                        "ARAGORN_CARD.isSupported"
+                      ],
+                      [
+                        "AND",
+                        [
+                          "EQUAL",
+                          "$STRIDER_CARD.groupId",
+                          "$TARGET.groupId"
+                        ],
+                        "TARGET.isSupporting",
+                        "STRIDER_CARD.isSupported"
+                      ]
+                    ]
+                  ]
+                ],
+                [
+                  [
+                    "LOG",
+                    "└── Removed bonus from {{$TARGET.sides.A.name}}."
+                  ],
+                  [
+                    "SET",
+                    "/cardById/$TARGET.id/tokens/attackBlue",
+                    0
+                  ],
+                  [
+                    "SET",
+                    "/cardById/$TARGET.id/tokens/defenseBlue",
+                    0
+                  ],
+                  [
+                    "SET",
+                    "/cardById/$TARGET.id/bonusApplied",
+                    false
+                  ]
+                ]
+              ]
+            ],
+            "type": "trigger"
+          }
+        }
+      },
+      "4af0ee68-58c0-4e2a-b9b2-264694bf82f8": {
+        "_comment": "Morgai",
+        "rules": {
+          "addSkull": {
+            "condition": [
+              "AND",
+              "$THIS.inPlay",
+              [
+                "PREV",
+                [
+                  "NOT",
+                  "$THIS.inPlay"
+                ]
+              ]
+            ],
+            "listenTo": [
+              "/cardById/$THIS_ID/inPlay"
+            ],
+            "then": [
+              [
+                "LOG",
+                "└── Added 1 Path Attack Token to {{$TARGET.sides.A.name}}."
+              ],
+              [
+                "INCREASE_VAL",
+                "/cardById/$TARGET.id/tokens/pathRed",
+                1
+              ]
+            ],
+            "type": "trigger"
+          }
+        }
+      },
+      "beb5251b-babc-4584-840c-f597e7ab8a81": {
+        "_comment": "Shelob",
+        "rules": {
+          "entersLair": {
+            "condition": [
+              "TRUE"
+            ],
+            "listenTo": [
+              "/cardById/$THIS_ID/locationGroupId"
+            ],
+            "then": [
+              [
+                "VAR",
+                "$NEW_LOCATION_GROUP_ID",
+                "$TARGET.locationGroupId"
+              ],
+              [
+                "COND",
+                [
+                  "NOT_EQUAL",
+                  "$NEW_LOCATION_GROUP_ID",
+                  null
+                ],
+                [
+                  [
+                    "VAR",
+                    "$NEW_LOCATION_CARD",
+                    "$GAME.groupById.$NEW_LOCATION_GROUP_ID.parentCards.[0]"
+                  ],
+                  [
+                    "COND",
+                    [
+                      "EQUAL",
+                      "$NEW_LOCATION_CARD.sides.A.name",
+                      "Shelob's Lair"
+                    ],
+                    [
+                      [
+                        "LOG",
+                        "└── Added 1 Path Attack Token to {{$TARGET.sides.A.name}}."
+                      ],
+                      [
+                        "INCREASE_VAL",
+                        "/cardById/$TARGET.id/tokens/pathRed",
+                        1
+                      ]
+                    ]
+                  ]
+                ]
+              ]
+            ],
+            "type": "trigger"
+          }
+        }
+      },
+      "c3776b35-5d90-4071-8307-dd8430aab723": {
+        "_comment": "Haradrim Cavalry",
+        "rules": {
+          "entersMT": {
+            "condition": [
+              "TRUE"
+            ],
+            "listenTo": [
+              "/cardById/$THIS_ID/locationGroupId"
+            ],
+            "then": [
+              [
+                "VAR",
+                "$NEW_LOCATION_GROUP_ID",
+                "$TARGET.locationGroupId"
+              ],
+              [
+                "COND",
+                [
+                  "NOT_EQUAL",
+                  "$NEW_LOCATION_GROUP_ID",
+                  null
+                ],
+                [
+                  [
+                    "VAR",
+                    "$NEW_LOCATION_CARD",
+                    "$GAME.groupById.$NEW_LOCATION_GROUP_ID.parentCards.[0]"
+                  ],
+                  [
+                    "COND",
+                    [
+                      "EQUAL",
+                      "$NEW_LOCATION_CARD.sides.A.name",
+                      "Minas Tirith"
+                    ],
+                    [
+                      [
+                        "LOG",
+                        "└── Added 1 Battleground Attack Token to {{$TARGET.sides.A.name}}."
+                      ],
+                      [
+                        "INCREASE_VAL",
+                        "/cardById/$TARGET.id/tokens/attackRed",
+                        1
+                      ]
+                    ]
+                  ]
+                ]
+              ]
+            ],
+            "type": "trigger"
+          }
+        }
+      },
+      "7f5c2cb1-8ac5-40b0-8b3d-0fb20df3f354": {
+        "_comment": "Erebor Guard",
+        "rules": {
+          "entersErebor": {
+            "condition": [
+              "TRUE"
+            ],
+            "listenTo": [
+              "/cardById/$THIS_ID/locationGroupId"
+            ],
+            "then": [
+              [
+                "VAR",
+                "$NEW_LOCATION_GROUP_ID",
+                "$TARGET.locationGroupId"
+              ],
+              [
+                "COND",
+                [
+                  "NOT_EQUAL",
+                  "$NEW_LOCATION_GROUP_ID",
+                  null
+                ],
+                [
+                  [
+                    "VAR",
+                    "$NEW_LOCATION_CARD",
+                    "$GAME.groupById.$NEW_LOCATION_GROUP_ID.parentCards.[0]"
+                  ],
+                  [
+                    "COND",
+                    [
+                      "EQUAL",
+                      "$NEW_LOCATION_CARD.sides.A.name",
+                      "Erebor"
+                    ],
+                    [
+                      [
+                        "LOG",
+                        "└── Added 1 Battleground Defense Token to {{$TARGET.sides.A.name}}."
+                      ],
+                      [
+                        "INCREASE_VAL",
+                        "/cardById/$TARGET.id/tokens/defenseBlue",
+                        1
+                      ]
+                    ]
+                  ]
+                ]
+              ]
+            ],
+            "type": "trigger"
+          }
+        }
+      },
+      "4444419a-d47a-485d-9bd7-f7d9d8304704": {
+        "_comment": "AtS-Balrog of Moria",
+        "rules": {
+          "entersKD": {
+            "condition": [
+              "TRUE"
+            ],
+            "listenTo": [
+              "/cardById/$THIS_ID/locationGroupId"
+            ],
+            "then": [
+              [
+                "VAR",
+                "$NEW_LOCATION_GROUP_ID",
+                "$TARGET.locationGroupId"
+              ],
+              [
+                "COND",
+                [
+                  "NOT_EQUAL",
+                  "$NEW_LOCATION_GROUP_ID",
+                  null
+                ],
+                [
+                  [
+                    "VAR",
+                    "$NEW_LOCATION_CARD",
+                    "$GAME.groupById.$NEW_LOCATION_GROUP_ID.parentCards.[0]"
+                  ],
+                  [
+                    "COND",
+                    [
+                      "EQUAL",
+                      "$NEW_LOCATION_CARD.sides.A.name",
+                      "Khazad-dûm"
+                    ],
+                    [
+                      [
+                        "LOG",
+                        "└── Added 1 Path Attack Token to {{$TARGET.sides.A.name}}."
+                      ],
+                      [
+                        "INCREASE_VAL",
+                        "/cardById/$TARGET.id/tokens/pathRed",
+                        1
+                      ]
+                    ]
+                  ]
+                ]
+              ]
+            ],
+            "type": "trigger"
+          }
+        }
+      },
+      "ce1bdfb6-faf8-43ea-b29e-13fd2f2d852c": {
+        "_comment": "Barrow-wights",
+        "rules": {
+          "entersDowns": {
+            "condition": [
+              "TRUE"
+            ],
+            "listenTo": [
+              "/cardById/$THIS_ID/locationGroupId"
+            ],
+            "then": [
+              [
+                "VAR",
+                "$NEW_LOCATION_GROUP_ID",
+                "$TARGET.locationGroupId"
+              ],
+              [
+                "COND",
+                [
+                  "NOT_EQUAL",
+                  "$NEW_LOCATION_GROUP_ID",
+                  null
+                ],
+                [
+                  [
+                    "VAR",
+                    "$NEW_LOCATION_CARD",
+                    "$GAME.groupById.$NEW_LOCATION_GROUP_ID.parentCards.[0]"
+                  ],
+                  [
+                    "COND",
+                    [
+                      "EQUAL",
+                      "$NEW_LOCATION_CARD.sides.A.name",
+                      "The Barrow-downs"
+                    ],
+                    [
+                      [
+                        "LOG",
+                        "└── Added 1 Path Attack Token to {{$TARGET.sides.A.name}}."
+                      ],
+                      [
+                        "INCREASE_VAL",
+                        "/cardById/$TARGET.id/tokens/pathRed",
+                        1
+                      ]
+                    ]
+                  ]
+                ]
+              ]
+            ],
+            "type": "trigger"
+          }
+        }
+      },
+      "a2f892a8-59cb-4f1b-a8f3-936091fa5aa9": {
+        "_comment": "Phial of Galadriel",
+        "rules": {
+          "entersPath": {
+            "condition": [
+              "TRUE"
+            ],
+            "listenTo": [
+              "/cardById/$THIS_ID/locationGroupId"
+            ],
+            "then": [
+              [
+                "VAR",
+                "$NEW_LOCATION_GROUP_ID",
+                "$TARGET.locationGroupId"
+              ],
+              [
+                "COND",
+                [
+                  "NOT_EQUAL",
+                  "$NEW_LOCATION_GROUP_ID",
+                  null
+                ],
+                [
+                  [
+                    "VAR",
+                    "$NEW_LOCATION_CARD",
+                    "$GAME.groupById.$NEW_LOCATION_GROUP_ID.parentCards.[0]"
+                  ],
+                  [
+                    "COND",
+                    [
+                      "EQUAL",
+                      "$NEW_LOCATION_CARD.sides.A.type",
+                      "Path"
+                    ],
+                    [
+                      [
+                        "LOG",
+                        "└── Added 2 Path Defense Tokens to {{$NEW_LOCATION_CARD.sides.A.name}}."
+                      ],
+                      [
+                        "INCREASE_VAL",
+                        "/cardById/$NEW_LOCATION_CARD.id/tokens/pathBlue",
+                        2
+                      ]
+                    ]
+                  ]
+                ]
+              ]
+            ],
+            "type": "trigger"
+          }
+        }
+      },
+      "0d9d3d39-6599-4350-a475-f87272681130": {
+        "_comment": "Treebeard",
+        "rules": {
+          "entersOrthanc": {
+            "condition": [
+              "TRUE"
+            ],
+            "listenTo": [
+              "/cardById/$THIS_ID/locationGroupId"
+            ],
+            "then": [
+              [
+                "VAR",
+                "$NEW_LOCATION_GROUP_ID",
+                "$TARGET.locationGroupId"
+              ],
+              [
+                "COND",
+                [
+                  "NOT_EQUAL",
+                  "$NEW_LOCATION_GROUP_ID",
+                  null
+                ],
+                [
+                  [
+                    "VAR",
+                    "$NEW_LOCATION_CARD",
+                    "$GAME.groupById.$NEW_LOCATION_GROUP_ID.parentCards.[0]"
+                  ],
+                  [
+                    "COND",
+                    [
+                      "EQUAL",
+                      "$NEW_LOCATION_CARD.sides.A.name",
+                      "Orthanc"
+                    ],
+                    [
+                      [
+                        "LOG",
+                        "└── Added 1 Battleground Attack Token to {{$TARGET.sides.A.name}}."
+                      ],
+                      [
+                        "INCREASE_VAL",
+                        "/cardById/$TARGET.id/tokens/attackBlue",
+                        1
+                      ]
+                    ]
+                  ]
+                ]
+              ]
+            ],
+            "type": "trigger"
+          }
+        }
+      },
+      "4f98a38b-4355-41a2-b2db-d80258015c9b": {
+        "_comment": "Candles of Corpses",
+        "rules": {
+          "entersDead": {
+            "condition": [
+              "TRUE"
+            ],
+            "listenTo": [
+              "/cardById/$THIS_ID/locationGroupId"
+            ],
+            "then": [
+              [
+                "VAR",
+                "$NEW_LOCATION_GROUP_ID",
+                "$TARGET.locationGroupId"
+              ],
+              [
+                "COND",
+                [
+                  "NOT_EQUAL",
+                  "$NEW_LOCATION_GROUP_ID",
+                  null
+                ],
+                [
+                  [
+                    "VAR",
+                    "$NEW_LOCATION_CARD",
+                    "$GAME.groupById.$NEW_LOCATION_GROUP_ID.parentCards.[0]"
+                  ],
+                  [
+                    "COND",
+                    [
+                      "EQUAL",
+                      "$NEW_LOCATION_CARD.sides.A.name",
+                      "Dead Marshes"
+                    ],
+                    [
+                      [
+                        "LOG",
+                        "└── Added 1 Path Attack Token to {{$TARGET.sides.A.name}}."
+                      ],
+                      [
+                        "INCREASE_VAL",
+                        "/cardById/$TARGET.id/tokens/pathRed",
+                        1
+                      ]
+                    ]
+                  ]
+                ]
+              ]
+            ],
+            "type": "trigger"
+          }
+        }
+      },
+      "e562ceac-ea96-4f03-9547-e659ce4b4c8d": {
+        "_comment": "Tom Bombadil",
+        "rules": {
+          "entersPath2": {
+            "condition": [
+              "TRUE"
+            ],
+            "listenTo": [
+              "/cardById/$THIS_ID/locationGroupId"
+            ],
+            "then": [
+              [
+                "VAR",
+                "$NEW_LOCATION_GROUP_ID",
+                "$TARGET.locationGroupId"
+              ],
+              [
+                "COND",
+                [
+                  "NOT_EQUAL",
+                  "$NEW_LOCATION_GROUP_ID",
+                  null
+                ],
+                [
+                  [
+                    "VAR",
+                    "$NEW_LOCATION_CARD",
+                    "$GAME.groupById.$NEW_LOCATION_GROUP_ID.parentCards.[0]"
+                  ],
+                  [
+                    "COND",
+                    [
+                      "OR",
+                      [
+                        "EQUAL",
+                        "$NEW_LOCATION_CARD.sides.A.name",
+                        "The Barrow-downs"
+                      ],
+                      [
+                        "EQUAL",
+                        "$NEW_LOCATION_CARD.sides.A.name",
+                        "The Old Forest"
+                      ]
+                    ],
+                    [
+                      [
+                        "LOG",
+                        "└── Added 1 Path Defense Token to {{$TARGET.sides.A.name}}."
+                      ],
+                      [
+                        "INCREASE_VAL",
+                        "/cardById/$TARGET.id/tokens/pathBlue",
+                        1
+                      ]
+                    ]
+                  ]
+                ]
+              ]
+            ],
+            "type": "trigger"
+          }
+        }
+      },
+      "2bec5d0d-6347-4b00-aab2-62eab79e1c09": {
+        "_comment": "Dáin Ironfoot",
+        "rules": {
+          "entersErebor": {
+            "condition": [
+              "TRUE"
+            ],
+            "listenTo": [
+              "/cardById/$THIS_ID/locationGroupId"
+            ],
+            "priority": 2,
+            "then": [
+              [
+                "VAR",
+                "$NEW_LOCATION_GROUP_ID",
+                "$TARGET.locationGroupId"
+              ],
+              [
+                "COND",
+                [
+                  "NOT_EQUAL",
+                  "$NEW_LOCATION_GROUP_ID",
+                  null
+                ],
+                [
+                  [
+                    "VAR",
+                    "$NEW_LOCATION_CARD",
+                    "$GAME.groupById.$NEW_LOCATION_GROUP_ID.parentCards.[0]"
+                  ],
+                  [
+                    "COND",
+                    [
+                      "EQUAL",
+                      "$NEW_LOCATION_CARD.sides.A.name",
+                      "Erebor"
+                    ],
+                    [
+                      [
+                        "LOG",
+                        "└── Added 1 Leadership Defense to {{$TARGET.sides.A.name}}."
+                      ],
+                      [
+                        "INCREASE_VAL",
+                        "/cardById/$TARGET.id/sides/A/leadershipDefense",
+                        1
+                      ],
+                      [
+                        "SET",
+                        "/cardById/$TARGET.id/addedLeadership",
+                        true
+                      ]
+                    ]
+                  ]
+                ]
+              ]
+            ],
+            "type": "trigger"
+          }
+        }
+      },
+      "5af26f58-8ca2-46af-a559-1bc30c9ec5a4": {
+        "_comment": "The High Pass",
+        "rules": {
+          "goblinsMountain": {
+            "condition": [
+              "AND",
+              [
+                "IN_STRING",
+                "$TARGET.groupId",
+                "sharedActiveRed"
+              ],
+              [
+                "NOT_EQUAL",
+                "$TARGET.groupId",
+                [
+                  "PREV",
+                  "$TARGET.groupId"
+                ]
+              ],
+              [
+                "EQUAL",
+                "$TARGET.sides.A.faction",
+                "Monstrous"
+              ],
+              [
+                "EQUAL",
+                "$TARGET.sides.A.type",
+                "Army"
+              ],
+              [
+                "EQUAL",
+                "$TARGET.locationIndex",
+                "$THIS.locationIndex"
+              ]
+            ],
+            "listenTo": [
+              "/cardById/*/groupId"
+            ],
+            "then": [
+              [
+                "LOG",
+                "└── Added 1 Path Attack Token to {{$THIS.sides.A.name}}."
+              ],
+              [
+                "INCREASE_VAL",
+                "/cardById/$THIS.id/tokens/pathRed",
+                1
+              ]
+            ],
+            "type": "trigger"
+          }
+        }
+      },
+      "a3186d0c-b37a-4769-9501-ebba863e875e": {
+        "_comment": "AtS-Lotho Sackville-Baggins",
+        "rules": {
+          "entersShire": {
+            "condition": [
+              "TRUE"
+            ],
+            "listenTo": [
+              "/cardById/$THIS_ID/locationGroupId"
+            ],
+            "priority": 2,
+            "then": [
+              [
+                "VAR",
+                "$NEW_LOCATION_GROUP_ID",
+                "$TARGET.locationGroupId"
+              ],
+              [
+                "COND",
+                [
+                  "NOT_EQUAL",
+                  "$NEW_LOCATION_GROUP_ID",
+                  null
+                ],
+                [
+                  [
+                    "VAR",
+                    "$NEW_LOCATION_CARD",
+                    "$GAME.groupById.$NEW_LOCATION_GROUP_ID.parentCards.[0]"
+                  ],
+                  [
+                    "COND",
+                    [
+                      "EQUAL",
+                      "$NEW_LOCATION_CARD.sides.A.name",
+                      "The Shire"
+                    ],
+                    [
+                      [
+                        "LOG",
+                        "└── Added 1 Leadership Attack to {{$TARGET.sides.A.name}}."
+                      ],
+                      [
+                        "INCREASE_VAL",
+                        "/cardById/$TARGET.id/sides/A/leadershipAttack",
+                        1
+                      ],
+                      [
+                        "SET",
+                        "/cardById/$TARGET.id/addedLeadership",
+                        true
+                      ]
+                    ]
+                  ]
+                ]
+              ]
+            ],
+            "type": "trigger"
+          }
+        }
+      },
+      "1bf8e385-9b87-47a0-a536-f560cc0db14e": {
+        "_comment": "Mirror of Galadriel",
+        "ability": {
+          "A": [
+            [
+              "LOG",
+              "{{$ALIAS_N}} used {{$THIS.currentFace.name}} to look at the top card of their deck."
+            ],
+            [
+              "VAR",
+              "$TOP_CARD_ID",
+              "$GAME.groupById.{{$THIS.controller}}Deck.parentCardIds.[0]"
+            ],
+            [
+              "SET",
+              "/cardById/$TOP_CARD_ID/peeking/{{$THIS.controller}}",
+              true
+            ]
+          ]
+        }
+      },
+      "7bb7cc27-6441-499b-aec2-93af92ca987c": {
+        "_comment": "Thranduil",
+        "rules": {
+          "entersWLR": {
+            "condition": [
+              "TRUE"
+            ],
+            "listenTo": [
+              "/cardById/$THIS_ID/locationGroupId"
+            ],
+            "priority": 2,
+            "then": [
+              [
+                "VAR",
+                "$NEW_LOCATION_GROUP_ID",
+                "$TARGET.locationGroupId"
+              ],
+              [
+                "COND",
+                [
+                  "NOT_EQUAL",
+                  "$NEW_LOCATION_GROUP_ID",
+                  null
+                ],
+                [
+                  [
+                    "VAR",
+                    "$NEW_LOCATION_CARD",
+                    "$GAME.groupById.$NEW_LOCATION_GROUP_ID.parentCards.[0]"
+                  ],
+                  [
+                    "COND",
+                    [
+                      "EQUAL",
+                      "$NEW_LOCATION_CARD.sides.A.name",
+                      "Woodland Realm"
+                    ],
+                    [
+                      [
+                        "LOG",
+                        "└── Added 1 Leadership Defense to {{$TARGET.sides.A.name}}."
+                      ],
+                      [
+                        "INCREASE_VAL",
+                        "/cardById/$TARGET.id/sides/A/leadershipDefense",
+                        1
+                      ],
+                      [
+                        "SET",
+                        "/cardById/$TARGET.id/addedLeadership",
+                        true
+                      ]
+                    ]
+                  ]
+                ]
+              ]
+            ],
+            "type": "trigger"
+          }
+        }
+      },
+      "7d804003-c1f3-4d3c-a1ab-ca814699602d": {
+        "_comment": "The Black Gate",
+        "rules": {
+          "addSkull": {
+            "condition": [
+              "AND",
+              "$THIS.inPlay",
+              [
+                "PREV",
+                [
+                  "NOT",
+                  "$THIS.inPlay"
+                ]
+              ]
+            ],
+            "listenTo": [
+              "/cardById/$THIS_ID/inPlay"
+            ],
+            "then": [
+              [
+                "LOG",
+                "└── Added 1 Path Attack Token to {{$TARGET.sides.A.name}}."
+              ],
+              [
+                "INCREASE_VAL",
+                "/cardById/$TARGET.id/tokens/pathRed",
+                1
+              ]
+            ],
+            "type": "trigger"
+          }
+        }
+      },
+      "199b7d3d-9e02-4a21-b932-f44c0eb4620e": {
+        "_comment": "Allies of Sauron",
+        "rules": {
+          "entersDale": {
+            "condition": [
+              "TRUE"
+            ],
+            "listenTo": [
+              "/cardById/$THIS_ID/locationGroupId"
+            ],
+            "then": [
+              [
+                "VAR",
+                "$NEW_LOCATION_GROUP_ID",
+                "$TARGET.locationGroupId"
+              ],
+              [
+                "COND",
+                [
+                  "NOT_EQUAL",
+                  "$NEW_LOCATION_GROUP_ID",
+                  null
+                ],
+                [
+                  [
+                    "VAR",
+                    "$NEW_LOCATION_CARD",
+                    "$GAME.groupById.$NEW_LOCATION_GROUP_ID.parentCards.[0]"
+                  ],
+                  [
+                    "COND",
+                    [
+                      "EQUAL",
+                      "$NEW_LOCATION_CARD.sides.A.name",
+                      "Dale"
+                    ],
+                    [
+                      [
+                        "LOG",
+                        "└── Added 1 Battleground Attack Token to {{$TARGET.sides.A.name}}."
+                      ],
+                      [
+                        "INCREASE_VAL",
+                        "/cardById/$TARGET.id/tokens/attackRed",
+                        1
+                      ]
+                    ]
+                  ]
+                ]
+              ]
+            ],
+            "type": "trigger"
+          }
+        }
+      },
+      "ffa8235b-c293-44c0-b88e-7ebb5f909960": {
+        "_comment": "Gandalf the White",
+        "rules": {
+          "eliminateGandalfTheGrey": {
+            "condition": [
+              "AND",
+              "$THIS.inPlay",
+              [
+                "PREV",
+                [
+                  "NOT",
+                  "$THIS.inPlay"
+                ]
+              ]
+            ],
+            "listenTo": [
+              "/cardById/$THIS_ID/inPlay"
+            ],
+            "then": [
+              [
+                "PROMPT",
+                "$PLAYER_N",
+                "eliminateOnPlay",
+                "Gandalf the White",
+                "Gandalf the Grey"
+              ]
+            ],
+            "type": "trigger"
+          }
+        }
+      },
+      "f463d4c8-79a6-49ec-ad53-e184dec25ed8": {
+        "_comment": "AtS-The Black Easterling",
+        "rules": {
+          "entersDG": {
+            "condition": [
+              "TRUE"
+            ],
+            "listenTo": [
+              "/cardById/$THIS_ID/locationGroupId"
+            ],
+            "then": [
+              [
+                "VAR",
+                "$NEW_LOCATION_GROUP_ID",
+                "$TARGET.locationGroupId"
+              ],
+              [
+                "COND",
+                [
+                  "NOT_EQUAL",
+                  "$NEW_LOCATION_GROUP_ID",
+                  null
+                ],
+                [
+                  [
+                    "VAR",
+                    "$NEW_LOCATION_CARD",
+                    "$GAME.groupById.$NEW_LOCATION_GROUP_ID.parentCards.[0]"
+                  ],
+                  [
+                    "COND",
+                    [
+                      "EQUAL",
+                      "$NEW_LOCATION_CARD.sides.A.name",
+                      "Dol Guldur"
+                    ],
+                    [
+                      [
+                        "LOG",
+                        "└── Added 1 Battleground Defense Token to {{$TARGET.sides.A.name}}."
+                      ],
+                      [
+                        "INCREASE_VAL",
+                        "/cardById/$TARGET.id/tokens/defenseRed",
+                        1
+                      ]
+                    ]
+                  ]
+                ]
+              ]
+            ],
+            "type": "trigger"
+          }
+        }
+      },
+      "a3811422-fc47-476a-a245-f7af3b59d199": {
+        "_comment": "AtS-Spiders of Mirkwood",
+        "rules": {
+          "entersWLR": {
+            "condition": [
+              "TRUE"
+            ],
+            "listenTo": [
+              "/cardById/$THIS_ID/locationGroupId"
+            ],
+            "then": [
+              [
+                "VAR",
+                "$NEW_LOCATION_GROUP_ID",
+                "$TARGET.locationGroupId"
+              ],
+              [
+                "COND",
+                [
+                  "NOT_EQUAL",
+                  "$NEW_LOCATION_GROUP_ID",
+                  null
+                ],
+                [
+                  [
+                    "VAR",
+                    "$NEW_LOCATION_CARD",
+                    "$GAME.groupById.$NEW_LOCATION_GROUP_ID.parentCards.[0]"
+                  ],
+                  [
+                    "COND",
+                    [
+                      "EQUAL",
+                      "$NEW_LOCATION_CARD.sides.A.name",
+                      "Woodland Realm"
+                    ],
+                    [
+                      [
+                        "LOG",
+                        "└── Added 1 Battleground Attack Token to {{$TARGET.sides.A.name}}."
+                      ],
+                      [
+                        "INCREASE_VAL",
+                        "/cardById/$TARGET.id/tokens/attackRed",
+                        1
+                      ]
+                    ]
+                  ]
+                ]
+              ]
+            ],
+            "type": "trigger"
+          }
+        }
+      },
+      "624a2836-4d19-484a-b519-a0daa0963247": {
+        "_comment": "Old Man Willow",
+        "rules": {
+          "entersPath2": {
+            "condition": [
+              "TRUE"
+            ],
+            "listenTo": [
+              "/cardById/$THIS_ID/locationGroupId"
+            ],
+            "then": [
+              [
+                "VAR",
+                "$NEW_LOCATION_GROUP_ID",
+                "$TARGET.locationGroupId"
+              ],
+              [
+                "COND",
+                [
+                  "NOT_EQUAL",
+                  "$NEW_LOCATION_GROUP_ID",
+                  null
+                ],
+                [
+                  [
+                    "VAR",
+                    "$NEW_LOCATION_CARD",
+                    "$GAME.groupById.$NEW_LOCATION_GROUP_ID.parentCards.[0]"
+                  ],
+                  [
+                    "COND",
+                    [
+                      "EQUAL",
+                      "$NEW_LOCATION_CARD.sides.A.name",
+                      "The Shire"
+                    ],
+                    [
+                      [
+                        "LOG",
+                        "└── Added 1 Battleground Attack Token to {{$TARGET.sides.A.name}}."
+                      ],
+                      [
+                        "INCREASE_VAL",
+                        "/cardById/$TARGET.id/tokens/attackRed",
+                        1
+                      ]
+                    ],
+                    [
+                      "EQUAL",
+                      "$NEW_LOCATION_CARD.sides.A.name",
+                      "The Old Forest"
+                    ],
+                    [
+                      [
+                        "LOG",
+                        "└── Added 1 Path Attack Token to {{$TARGET.sides.A.name}}."
+                      ],
+                      [
+                        "INCREASE_VAL",
+                        "/cardById/$TARGET.id/tokens/pathRed",
+                        1
+                      ]
+                    ]
+                  ]
+                ]
+              ]
+            ],
+            "type": "trigger"
+          }
+        }
+      },
+      "86dac933-9f67-486e-bae5-9dad9c9cc2dd": {
+        "_comment": "Balrog of Moria",
+        "rules": {
+          "entersKD": {
+            "condition": [
+              "TRUE"
+            ],
+            "listenTo": [
+              "/cardById/$THIS_ID/locationGroupId"
+            ],
+            "then": [
+              [
+                "VAR",
+                "$NEW_LOCATION_GROUP_ID",
+                "$TARGET.locationGroupId"
+              ],
+              [
+                "COND",
+                [
+                  "NOT_EQUAL",
+                  "$NEW_LOCATION_GROUP_ID",
+                  null
+                ],
+                [
+                  [
+                    "VAR",
+                    "$NEW_LOCATION_CARD",
+                    "$GAME.groupById.$NEW_LOCATION_GROUP_ID.parentCards.[0]"
+                  ],
+                  [
+                    "COND",
+                    [
+                      "EQUAL",
+                      "$NEW_LOCATION_CARD.sides.A.name",
+                      "Khazad-dûm"
+                    ],
+                    [
+                      [
+                        "LOG",
+                        "└── Added 1 Path Attack Token to {{$TARGET.sides.A.name}}."
+                      ],
+                      [
+                        "INCREASE_VAL",
+                        "/cardById/$TARGET.id/tokens/pathRed",
+                        1
+                      ]
+                    ]
+                  ]
+                ]
+              ]
+            ],
+            "type": "trigger"
+          }
+        }
+      },
+      "d2e8078c-c71c-4098-ae47-6d82ee9bc295": {
+        "_comment": "AtS-Gothmog",
+        "rules": {
+          "eliminateWK": {
+            "condition": [
+              "AND",
+              "$THIS.inPlay",
+              [
+                "PREV",
+                [
+                  "NOT",
+                  "$THIS.inPlay"
+                ]
+              ]
+            ],
+            "listenTo": [
+              "/cardById/$THIS_ID/inPlay"
+            ],
+            "then": [
+              [
+                "PROMPT",
+                "$PLAYER_N",
+                "eliminateOnPlay",
+                "Gothmog",
+                "The Witch-king"
+              ]
+            ],
+            "type": "trigger"
+          }
+        }
+      },
+      "3d2a831a-2151-42bb-ae7f-f4e8b31a936b": {
+        "_comment": "AtS-Ted Sandyman",
+        "rules": {
+          "entersShire": {
+            "condition": [
+              "TRUE"
+            ],
+            "listenTo": [
+              "/cardById/$THIS_ID/locationGroupId"
+            ],
+            "priority": 2,
+            "then": [
+              [
+                "VAR",
+                "$NEW_LOCATION_GROUP_ID",
+                "$TARGET.locationGroupId"
+              ],
+              [
+                "COND",
+                [
+                  "NOT_EQUAL",
+                  "$NEW_LOCATION_GROUP_ID",
+                  null
+                ],
+                [
+                  [
+                    "VAR",
+                    "$NEW_LOCATION_CARD",
+                    "$GAME.groupById.$NEW_LOCATION_GROUP_ID.parentCards.[0]"
+                  ],
+                  [
+                    "COND",
+                    [
+                      "EQUAL",
+                      "$NEW_LOCATION_CARD.sides.A.name",
+                      "The Shire"
+                    ],
+                    [
+                      [
+                        "LOG",
+                        "└── Added 1 Leadership Attack to {{$TARGET.sides.A.name}}."
+                      ],
+                      [
+                        "INCREASE_VAL",
+                        "/cardById/$TARGET.id/sides/A/leadershipAttack",
+                        1
+                      ],
+                      [
+                        "SET",
+                        "/cardById/$TARGET.id/addedLeadership",
+                        true
+                      ]
+                    ]
+                  ]
+                ]
+              ]
+            ],
+            "type": "trigger"
+          }
+        }
+      },
+      "5709aabd-ac9a-46c6-8827-b0598a138417": {
+        "_comment": "Mirkwood Skirmishers",
+        "rules": {
+          "entersWLR": {
+            "condition": [
+              "TRUE"
+            ],
+            "listenTo": [
+              "/cardById/$THIS_ID/locationGroupId"
+            ],
+            "then": [
+              [
+                "VAR",
+                "$NEW_LOCATION_GROUP_ID",
+                "$TARGET.locationGroupId"
+              ],
+              [
+                "COND",
+                [
+                  "NOT_EQUAL",
+                  "$NEW_LOCATION_GROUP_ID",
+                  null
+                ],
+                [
+                  [
+                    "VAR",
+                    "$NEW_LOCATION_CARD",
+                    "$GAME.groupById.$NEW_LOCATION_GROUP_ID.parentCards.[0]"
+                  ],
+                  [
+                    "COND",
+                    [
+                      "EQUAL",
+                      "$NEW_LOCATION_CARD.sides.A.name",
+                      "Woodland Realm"
+                    ],
+                    [
+                      [
+                        "LOG",
+                        "└── Added 1 Battleground Attack Token to {{$TARGET.sides.A.name}}."
+                      ],
+                      [
+                        "INCREASE_VAL",
+                        "/cardById/$TARGET.id/tokens/attackRed",
+                        1
+                      ]
+                    ]
+                  ]
+                ]
+              ]
+            ],
+            "type": "trigger"
+          }
+        }
+      },
+      "20710710-079c-499e-8d45-74d4c436c6ed": {
+        "_comment": "AtS-Candles of Corpses",
+        "rules": {
+          "entersDead": {
+            "condition": [
+              "TRUE"
+            ],
+            "listenTo": [
+              "/cardById/$THIS_ID/locationGroupId"
+            ],
+            "then": [
+              [
+                "VAR",
+                "$NEW_LOCATION_GROUP_ID",
+                "$TARGET.locationGroupId"
+              ],
+              [
+                "COND",
+                [
+                  "NOT_EQUAL",
+                  "$NEW_LOCATION_GROUP_ID",
+                  null
+                ],
+                [
+                  [
+                    "VAR",
+                    "$NEW_LOCATION_CARD",
+                    "$GAME.groupById.$NEW_LOCATION_GROUP_ID.parentCards.[0]"
+                  ],
+                  [
+                    "COND",
+                    [
+                      "EQUAL",
+                      "$NEW_LOCATION_CARD.sides.A.name",
+                      "Dead Marshes"
+                    ],
+                    [
+                      [
+                        "LOG",
+                        "└── Added 1 Path Attack Token to {{$TARGET.sides.A.name}}."
+                      ],
+                      [
+                        "INCREASE_VAL",
+                        "/cardById/$TARGET.id/tokens/pathRed",
+                        1
+                      ]
+                    ]
+                  ]
+                ]
+              ]
+            ],
+            "type": "trigger"
+          }
+        }
+      },
+      "5329c719-a1cc-4d83-89a7-072904c50433": {
+        "_comment": "AtS-Shelob",
+        "rules": {
+          "entersLair": {
+            "condition": [
+              "TRUE"
+            ],
+            "listenTo": [
+              "/cardById/$THIS_ID/locationGroupId"
+            ],
+            "then": [
+              [
+                "VAR",
+                "$NEW_LOCATION_GROUP_ID",
+                "$TARGET.locationGroupId"
+              ],
+              [
+                "COND",
+                [
+                  "NOT_EQUAL",
+                  "$NEW_LOCATION_GROUP_ID",
+                  null
+                ],
+                [
+                  [
+                    "VAR",
+                    "$NEW_LOCATION_CARD",
+                    "$GAME.groupById.$NEW_LOCATION_GROUP_ID.parentCards.[0]"
+                  ],
+                  [
+                    "COND",
+                    [
+                      "EQUAL",
+                      "$NEW_LOCATION_CARD.sides.A.name",
+                      "Shelob's Lair"
+                    ],
+                    [
+                      [
+                        "LOG",
+                        "└── Added 1 Path Attack Token to {{$TARGET.sides.A.name}}."
+                      ],
+                      [
+                        "INCREASE_VAL",
+                        "/cardById/$TARGET.id/tokens/pathRed",
+                        1
+                      ]
+                    ]
+                  ]
+                ]
+              ]
+            ],
+            "type": "trigger"
+          }
+        }
+      },
+      "a6cdd8d3-cd6e-4d1a-908b-2f788fbb357e": {
+        "_comment": "Aragorn",
+        "rules": {
+          "eliminateStrider": {
+            "condition": [
+              "AND",
+              "$THIS.inPlay",
+              [
+                "PREV",
+                [
+                  "NOT",
+                  "$THIS.inPlay"
+                ]
+              ]
+            ],
+            "listenTo": [
+              "/cardById/$THIS_ID/inPlay"
+            ],
+            "then": [
+              [
+                "PROMPT",
+                "$PLAYER_N",
+                "eliminateOnPlay",
+                "Aragorn",
+                "Strider"
+              ]
+            ],
+            "type": "trigger"
+          }
+        }
+      },
+      "fb8585d5-0858-4177-91eb-4ddc54785cdc": {
+        "_comment": "Arwen",
+        "rules": {
+          "ArwenBannerAdd": {
+            "condition": [
+              "AND",
+              [
+                "OR",
+                [
+                  "EQUAL",
+                  "$TARGET.databaseId",
+                  "fb8585d5-0858-4177-91eb-4ddc54785cdc"
+                ],
+                [
+                  "EQUAL",
+                  "$TARGET.databaseId",
+                  "a6cdd8d3-cd6e-4d1a-908b-2f788fbb357e"
+                ],
+                [
+                  "EQUAL",
+                  "$TARGET.databaseId",
+                  "f88cd1e7-0e1e-40d9-91bc-990ba64c5bc3"
+                ]
+              ],
+              [
+                "ONE_CARD",
+                "$CARD",
+                [
+                  "AND",
+                  [
+                    "EQUAL",
+                    "$CARD.sides.A.name",
+                    "Arwen"
+                  ],
+                  [
+                    "IN_STRING",
+                    "$CARD.groupId",
+                    "Reserve"
+                  ],
+                  [
+                    "NOT",
+                    "$CARD.bonusApplied"
+                  ]
+                ]
+              ],
+              [
+                "OR",
+                [
+                  "ONE_CARD",
+                  "$CARD",
+                  [
+                    "AND",
+                    [
+                      "EQUAL",
+                      "$CARD.sides.A.name",
+                      "Aragorn"
+                    ],
+                    "$CARD.inPlay"
+                  ]
+                ],
+                [
+                  "ONE_CARD",
+                  "$CARD",
+                  [
+                    "AND",
+                    [
+                      "EQUAL",
+                      "$CARD.sides.A.name",
+                      "Strider"
+                    ],
+                    "$CARD.inPlay"
+                  ]
+                ]
+              ]
+            ],
+            "listenTo": [
+              "/cardById/*/inPlay",
+              "/cardById/*/groupId"
+            ],
+            "then": [
+              [
+                "VAR",
+                "$ARWEN_CARD",
+                [
+                  "ONE_CARD",
+                  "$CARD",
+                  [
+                    "EQUAL",
+                    "$CARD.sides.A.name",
+                    "Arwen"
+                  ]
+                ]
+              ],
+              [
+                "VAR",
+                "$ARAGORN_CARD",
+                [
+                  "ONE_CARD",
+                  "$CARD",
+                  [
+                    "EQUAL",
+                    "$CARD.sides.A.name",
+                    "Aragorn"
+                  ]
+                ]
+              ],
+              [
+                "VAR",
+                "$STRIDER_CARD",
+                [
+                  "ONE_CARD",
+                  "$CARD",
+                  [
+                    "EQUAL",
+                    "$CARD.sides.A.name",
+                    "Strider"
+                  ]
+                ]
+              ],
+              [
+                "COND",
+                [
+                  "AND",
+                  "$ARAGORN_CARD",
+                  "$ARAGORN_CARD.inPlay",
+                  [
+                    "NOT",
+                    "$ARAGORN_CARD.bonusApplied"
+                  ]
+                ],
+                [
+                  [
+                    "LOG",
+                    "└── Added 1 Battleground and 1 Path Defense Tokens to Aragorn."
+                  ],
+                  [
+                    "INCREASE_VAL",
+                    "/cardById/$ARAGORN_CARD.id/tokens/pathBlue",
+                    1
+                  ],
+                  [
+                    "INCREASE_VAL",
+                    "/cardById/$ARAGORN_CARD.id/tokens/defenseBlue",
+                    1
+                  ],
+                  [
+                    "SET",
+                    "/cardById/$ARAGORN_CARD.id/bonusApplied",
+                    true
+                  ]
+                ],
+                [
+                  "AND",
+                  "$STRIDER_CARD",
+                  "$STRIDER_CARD.inPlay",
+                  [
+                    "NOT",
+                    "$STRIDER_CARD.bonusApplied"
+                  ]
+                ],
+                [
+                  [
+                    "LOG",
+                    "└── Added 1 Battleground and 1 Path Defense Tokens to Strider."
+                  ],
+                  [
+                    "INCREASE_VAL",
+                    "/cardById/$STRIDER_CARD.id/tokens/pathBlue",
+                    1
+                  ],
+                  [
+                    "INCREASE_VAL",
+                    "/cardById/$STRIDER_CARD.id/tokens/defenseBlue",
+                    1
+                  ],
+                  [
+                    "SET",
+                    "/cardById/$STRIDER_CARD.id/bonusApplied",
+                    true
+                  ]
+                ]
+              ],
+              [
+                "SET",
+                "/cardById/$ARWEN_CARD.id/bonusApplied",
+                true
+              ]
+            ],
+            "type": "trigger"
+          },
+          "ArwenBannerRemove": {
+            "condition": [
+              "AND",
+              [
+                "OR",
+                [
+                  "EQUAL",
+                  "$TARGET.databaseId",
+                  "fb8585d5-0858-4177-91eb-4ddc54785cdc"
+                ],
+                [
+                  "EQUAL",
+                  "$TARGET.databaseId",
+                  "a6cdd8d3-cd6e-4d1a-908b-2f788fbb357e"
+                ],
+                [
+                  "EQUAL",
+                  "$TARGET.databaseId",
+                  "f88cd1e7-0e1e-40d9-91bc-990ba64c5bc3"
+                ]
+              ],
+              [
+                "OR",
+                [
+                  "ONE_CARD",
+                  "$CARD",
+                  [
+                    "AND",
+                    [
+                      "EQUAL",
+                      "$CARD.sides.A.name",
+                      "Aragorn"
+                    ],
+                    "$CARD.bonusApplied"
+                  ]
+                ],
+                [
+                  "ONE_CARD",
+                  "$CARD",
+                  [
+                    "AND",
+                    [
+                      "EQUAL",
+                      "$CARD.sides.A.name",
+                      "Strider"
+                    ],
+                    "$CARD.bonusApplied"
+                  ]
+                ]
+              ]
+            ],
+            "listenTo": [
+              "/cardById/*/inPlay",
+              "/cardById/*/groupId"
+            ],
+            "then": [
+              [
+                "VAR",
+                "$ARWEN_CARD",
+                [
+                  "ONE_CARD",
+                  "$CARD",
+                  [
+                    "EQUAL",
+                    "$CARD.sides.A.name",
+                    "Arwen"
+                  ]
+                ]
+              ],
+              [
+                "VAR",
+                "$ARAGORN_CARD",
+                [
+                  "ONE_CARD",
+                  "$CARD",
+                  [
+                    "EQUAL",
+                    "$CARD.sides.A.name",
+                    "Aragorn"
+                  ]
+                ]
+              ],
+              [
+                "VAR",
+                "$STRIDER_CARD",
+                [
+                  "ONE_CARD",
+                  "$CARD",
+                  [
+                    "EQUAL",
+                    "$CARD.sides.A.name",
+                    "Strider"
+                  ]
+                ]
+              ],
+              [
+                "VAR",
+                "$ARWEN_IN_RESERVE",
+                [
+                  "AND",
+                  "$ARWEN_CARD",
+                  [
+                    "IN_STRING",
+                    "$ARWEN_CARD.groupId",
+                    "Reserve"
+                  ]
+                ]
+              ],
+              [
+                "VAR",
+                "$ARAGORN_IN_PLAY",
+                [
+                  "AND",
+                  "$ARAGORN_CARD",
+                  "$ARAGORN_CARD.inPlay"
+                ]
+              ],
+              [
+                "VAR",
+                "$STRIDER_IN_PLAY",
+                [
+                  "AND",
+                  "$STRIDER_CARD",
+                  "$STRIDER_CARD.inPlay"
+                ]
+              ],
+              [
+                "VAR",
+                "$HERO_IN_PLAY",
+                [
+                  "OR",
+                  "$ARAGORN_IN_PLAY",
+                  "$STRIDER_IN_PLAY"
+                ]
+              ],
+              [
+                "VAR",
+                "$SHOULD_HAVE_BONUS",
+                [
+                  "AND",
+                  "$ARWEN_IN_RESERVE",
+                  "$HERO_IN_PLAY"
+                ]
+              ],
+              [
+                "COND",
+                [
+                  "NOT",
+                  "$SHOULD_HAVE_BONUS"
+                ],
+                [
+                  [
+                    "COND",
+                    [
+                      "AND",
+                      "$ARAGORN_CARD",
+                      "$ARAGORN_CARD.bonusApplied"
+                    ],
+                    [
+                      [
+                        "LOG",
+                        "└── Removed 1 Battleground and 1 Path Defense Tokens from Aragorn."
+                      ],
+                      [
+                        "DECREASE_VAL",
+                        "/cardById/$ARAGORN_CARD.id/tokens/pathBlue",
+                        1
+                      ],
+                      [
+                        "DECREASE_VAL",
+                        "/cardById/$ARAGORN_CARD.id/tokens/defenseBlue",
+                        1
+                      ],
+                      [
+                        "SET",
+                        "/cardById/$ARAGORN_CARD.id/bonusApplied",
+                        false
+                      ]
+                    ],
+                    [
+                      "AND",
+                      "$STRIDER_CARD",
+                      "$STRIDER_CARD.bonusApplied"
+                    ],
+                    [
+                      [
+                        "LOG",
+                        "└── Removed 1 Battleground and 1 Path Defense Tokens from Strider."
+                      ],
+                      [
+                        "DECREASE_VAL",
+                        "/cardById/$STRIDER_CARD.id/tokens/pathBlue",
+                        1
+                      ],
+                      [
+                        "DECREASE_VAL",
+                        "/cardById/$STRIDER_CARD.id/tokens/defenseBlue",
+                        1
+                      ],
+                      [
+                        "SET",
+                        "/cardById/$STRIDER_CARD.id/bonusApplied",
+                        false
+                      ]
+                    ]
+                  ],
+                  [
+                    "COND",
+                    [
+                      "AND",
+                      "$ARWEN_CARD",
+                      "$ARWEN_IN_RESERVE"
+                    ],
+                    [
+                      [
+                        "SET",
+                        "/cardById/$ARWEN_CARD.id/bonusApplied",
+                        false
+                      ]
+                    ]
+                  ]
+                ]
+              ]
+            ],
+            "type": "trigger"
+          }
+        }
+      }
+    },
+    "gameRules": {
+      "LeaderEntersLocation": {
+        "_comment": "Leader enters location",
+        "condition": [
+          "AND",
+          [
+            "IN_STRING",
+            "$TARGET.groupId",
+            "sharedActive"
+          ],
+          [
+            "NOT_EQUAL",
+            "$TARGET.groupId",
+            [
+              "PREV",
+              "$TARGET.groupId"
+            ]
+          ],
+          [
+            "IS_LEADER",
+            "$TARGET"
+          ]
+        ],
+        "listenTo": [
+          "/cardById/*/groupId"
+        ],
+        "priority": 3,
+        "then": [
+          [
+            "LOG",
+            "A leader entered play"
+          ],
+          [
+            "LEADER_ENTERED_GROUP",
+            "$TARGET",
+            "$TARGET.groupId"
+          ]
+        ],
+        "type": "trigger"
+      },
+      "armyEntersLocation": {
+        "_comment": "Army enters location",
+        "condition": [
+          "AND",
+          [
+            "IN_STRING",
+            "$TARGET.groupId",
+            "sharedActive"
+          ],
+          [
+            "NOT_EQUAL",
+            "$TARGET.groupId",
+            [
+              "PREV",
+              "$TARGET.groupId"
+            ]
+          ],
+          [
+            "EQUAL",
+            "$TARGET.sides.A.type",
+            "Army"
+          ]
+        ],
+        "listenTo": [
+          "/cardById/*/groupId"
+        ],
+        "priority": 3,
+        "then": [
+          [
+            "LOG",
+            "An army entered play"
+          ],
+          [
+            "ARMY_ENTERED_GROUP",
+            "$TARGET",
+            "$TARGET.groupId"
+          ]
+        ],
+        "type": "trigger"
+      },
+      "cardEntersCombat": {
+        "_comment": "Card enters combat",
+        "condition": [
+          "OR",
+          [
+            "IN_STRING",
+            "$TARGET.groupId",
+            "sharedActiveRed"
+          ],
+          [
+            "IN_STRING",
+            "$TARGET.groupId",
+            "sharedActiveBlue"
+          ]
+        ],
+        "listenTo": [
+          "/cardById/*/groupId",
+          "/cardById/*/tokens/*"
+        ],
+        "then": [
+          "COMPUTE_STRENGTH",
+          "$TARGET.groupId"
+        ],
+        "type": "trigger"
+      },
+      "cardEntersPlay": {
+        "_comment": "Card enters play",
+        "condition": [
+          "AND",
+          "$TARGET.inPlay",
+          [
+            "PREV",
+            [
+              "NOT",
+              "$TARGET.inPlay"
+            ]
+          ]
+        ],
+        "listenTo": [
+          "/cardById/*/inPlay"
+        ],
+        "then": [
+          [
+            "COND",
+            [
+              "EQUAL",
+              "$GAME.AtSMode",
+              false
+            ],
+            [
+              "COND",
+              [
+                "OR",
+                [
+                  "EQUAL",
+                  "$TARGET.sides.A.type",
+                  "Army"
+                ],
+                [
+                  "EQUAL",
+                  "$TARGET.sides.A.type",
+                  "Character"
+                ]
+              ],
+              [
+                "COND",
+                [
+                  "OR",
+                  [
+                    "EQUAL",
+                    "$TARGET.groupId",
+                    [
+                      "JOIN_STRING",
+                      "player1",
+                      "Reserve"
+                    ]
+                  ],
+                  [
+                    "EQUAL",
+                    "$TARGET.groupId",
+                    [
+                      "JOIN_STRING",
+                      "player2",
+                      "Reserve"
+                    ]
+                  ],
+                  [
+                    "EQUAL",
+                    "$TARGET.groupId",
+                    [
+                      "JOIN_STRING",
+                      "player3",
+                      "Reserve"
+                    ]
+                  ],
+                  [
+                    "EQUAL",
+                    "$TARGET.groupId",
+                    [
+                      "JOIN_STRING",
+                      "player4",
+                      "Reserve"
+                    ]
+                  ],
+                  [
+                    "EQUAL",
+                    "$TARGET.groupId",
+                    [
+                      "JOIN_STRING",
+                      "player5",
+                      "Reserve"
+                    ]
+                  ],
+                  [
+                    "EQUAL",
+                    "$TARGET.groupId",
+                    [
+                      "JOIN_STRING",
+                      "player6",
+                      "Reserve"
+                    ]
+                  ]
+                ],
+                [
+                  "SET",
+                  "/cardById/$TARGET_ID/rotation",
+                  90
+                ]
+              ]
+            ],
+            [
+              "EQUAL",
+              "$GAME.AtSMode",
+              true
+            ],
+            [
+              "COND",
+              [
+                "OR",
+                [
+                  "EQUAL",
+                  "$TARGET.sides.A.type",
+                  "Army"
+                ],
+                [
+                  "EQUAL",
+                  "$TARGET.sides.A.type",
+                  "Character"
+                ]
+              ],
+              [
+                "COND",
+                [
+                  "OR",
+                  [
+                    "EQUAL",
+                    "$TARGET.groupId",
+                    [
+                      "JOIN_STRING",
+                      "player1",
+                      "Reserve"
+                    ]
+                  ],
+                  [
+                    "AND",
+                    [
+                      "EQUAL",
+                      "$TARGET.groupId",
+                      [
+                        "JOIN_STRING",
+                        "player3",
+                        "Reserve"
+                      ]
+                    ],
+                    [
+                      "NOT_EQUAL",
+                      "$GAME.numPlayers",
+                      3
+                    ]
+                  ],
+                  [
+                    "EQUAL",
+                    "$TARGET.groupId",
+                    [
+                      "JOIN_STRING",
+                      "player5",
+                      "Reserve"
+                    ]
+                  ]
+                ],
+                [
+                  "SET",
+                  "/cardById/$TARGET_ID/rotation",
+                  90
+                ]
+              ]
+            ]
+          ],
+          [
+            "COND",
+            [
+              "OR",
+              [
+                "EQUAL",
+                "$TARGET.sides.A.type",
+                "Item"
+              ],
+              [
+                "EQUAL",
+                "$TARGET.sides.A.type",
+                "Character"
+              ]
+            ],
+            [
+              "COND",
+              [
+                "EQUAL",
+                "$TARGET.roundEnteredPlay",
+                "$GAME.roundNumber"
+              ],
+              [
+                "PROMPT",
+                "$PLAYER_N",
+                "cardEnteredPlayThisRound",
+                "$TARGET.sides.A.name"
+              ],
+              [
+                "TRUE"
+              ],
+              [
+                "SET",
+                "/cardById/$TARGET_ID/roundEnteredPlay",
+                "$GAME.roundNumber"
+              ]
+            ]
+          ]
+        ],
+        "type": "trigger"
+      },
+      "cardLeavesCombat": {
+        "_comment": "Card leaves combat",
+        "condition": [
+          "OR",
+          [
+            "PREV",
+            [
+              "IN_STRING",
+              "$TARGET.groupId",
+              "sharedActiveRed"
+            ]
+          ],
+          [
+            "PREV",
+            [
+              "IN_STRING",
+              "$TARGET.groupId",
+              "sharedActiveBlue"
+            ]
+          ]
+        ],
+        "listenTo": [
+          "/cardById/*/groupId"
+        ],
+        "then": [
+          "COMPUTE_STRENGTH",
+          [
+            "PREV",
+            "$TARGET.groupId"
+          ]
+        ],
+        "type": "trigger"
+      },
+      "corruption": {
+        "_comment": "Track corruption",
+        "condition": [
+          "NOT_EQUAL",
+          "$GAME.corruptionScore",
+          [
+            "PREV",
+            "$GAME.corruptionScore"
+          ]
+        ],
+        "listenTo": [
+          "/corruptionScore"
+        ],
+        "then": [
+          [
+            "COMPUTE_SCORE"
+          ],
+          [
+            "UPDATE_EXPECTED_POINTS"
+          ]
+        ],
+        "type": "trigger"
+      },
+      "currentPlayer": {
+        "_comment": "Track current player",
+        "condition": [
+          "TRUE"
+        ],
+        "listenTo": [
+          "/currentPlayer"
+        ],
+        "then": [
+          "HIGHLIGHT_CURRENT_PLAYER"
+        ],
+        "type": "trigger"
+      },
+      "handSize": {
+        "_comment": "Track hand size",
+        "condition": [
+          "TRUE"
+        ],
+        "listenTo": [
+          "/groupById/player1Hand/stackIds",
+          "/groupById/player2Hand/stackIds",
+          "/groupById/player3Hand/stackIds",
+          "/groupById/player4Hand/stackIds",
+          "/groupById/player5Hand/stackIds",
+          "/groupById/player6Hand/stackIds"
+        ],
+        "then": [
+          [
+            "SET_HAND_SIZE",
+            "$TARGET.onCardEnter.controller"
+          ]
+        ],
+        "type": "trigger"
+      },
+      "locationEnters": {
+        "_comment": "Location enters play",
+        "condition": [
+          "OR",
+          [
+            "IN_STRING",
+            "$TARGET.groupId",
+            "sharedActiveLocation"
+          ],
+          [
+            "IN_STRING",
+            "$TARGET.groupId",
+            "sharedActiveLocation"
+          ]
+        ],
+        "listenTo": [
+          "/cardById/*/groupId",
+          "/cardById/*/tokens/*"
+        ],
+        "then": [
+          [
+            "VAR",
+            "$LOC_GROUP_ID",
+            "$TARGET.groupId"
+          ],
+          [
+            "VAR",
+            "$LOC_GROUP",
+            "$GAME.groupById.$LOC_GROUP_ID"
+          ],
+          [
+            "COMPUTE_STRENGTH",
+            "$LOC_GROUP.activeRedGroupId"
+          ],
+          [
+            "COMPUTE_STRENGTH",
+            "$LOC_GROUP.activeBlueGroupId"
+          ]
+        ],
+        "type": "trigger"
+      },
+      "locationLeaves": {
+        "_comment": "Location leaves play",
+        "condition": [
+          "OR",
+          [
+            "PREV",
+            [
+              "IN_STRING",
+              "$TARGET.groupId",
+              "sharedActiveLocation"
+            ]
+          ],
+          [
+            "PREV",
+            [
+              "IN_STRING",
+              "$TARGET.groupId",
+              "sharedActiveLocation"
+            ]
+          ]
+        ],
+        "listenTo": [
+          "/cardById/*/groupId",
+          "/cardById/*/tokens/*"
+        ],
+        "then": [
+          [
+            "VAR",
+            "$LOC_GROUP_ID",
+            [
+              "PREV",
+              "$TARGET.groupId"
+            ]
+          ],
+          [
+            "VAR",
+            "$LOC_GROUP",
+            "$GAME.groupById.$LOC_GROUP_ID"
+          ],
+          [
+            "COMPUTE_STRENGTH",
+            "$LOC_GROUP.activeRedGroupId"
+          ],
+          [
+            "COMPUTE_STRENGTH",
+            "$LOC_GROUP.activeBlueGroupId"
+          ]
+        ],
+        "type": "trigger"
+      },
+      "modifiedLeaderLeavesCombat": {
+        "_comment": "Modified leader leaves combat",
+        "condition": [
+          "AND",
+          [
+            "OR",
+            [
+              "PREV",
+              [
+                "IN_STRING",
+                "$TARGET.groupId",
+                "sharedActiveRed"
+              ]
+            ],
+            [
+              "PREV",
+              [
+                "IN_STRING",
+                "$TARGET.groupId",
+                "sharedActiveBlue"
+              ]
+            ]
+          ],
+          [
+            "EQUAL",
+            "$TARGET.addedLeadership",
+            true
+          ]
+        ],
+        "listenTo": [
+          "/cardById/*/groupId"
+        ],
+        "priority": 1,
+        "then": [
+          [
+            "SET",
+            "/cardById/$TARGET.id/sides/A/leadershipAttack",
+            false
+          ],
+          [
+            "SET",
+            "/cardById/$TARGET.id/sides/A/leadershipDefense",
+            false
+          ],
+          [
+            "SET",
+            "/cardById/$TARGET.id/addedLeadership",
+            false
+          ],
+          [
+            "LOG",
+            "└── Removed any additional Leadership from {{$TARGET.sides.A.name}}."
+          ]
+        ],
+        "type": "trigger"
+      },
+      "trackLocation": {
+        "_comment": "Track location",
+        "condition": [
+          "TRUE"
+        ],
+        "listenTo": [
+          "/groupById/sharedActiveLocation1/stackIds",
+          "/groupById/sharedActiveLocation2/stackIds",
+          "/groupById/sharedActiveLocation3/stackIds",
+          "/groupById/sharedActiveLocation4/stackIds",
+          "/groupById/sharedActiveLocation5/stackIds",
+          "/groupById/sharedActiveLocation6/stackIds"
+        ],
+        "then": [
+          [
+            "COND",
+            [
+              "EQUAL",
+              [
+                "LENGTH",
+                "$TARGET.stackIds"
+              ],
+              0
+            ],
+            [
+              [
+                "SET",
+                "/groupById/$TARGET.activeBlueGroupId/combatStat",
+                null
+              ],
+              [
+                "SET",
+                "/groupById/$TARGET.activeRedGroupId/combatStat",
+                null
+              ],
+              [
+                "SET",
+                "/groupById/$TARGET.activeBlueGroupId/combatToken",
+                null
+              ],
+              [
+                "SET",
+                "/groupById/$TARGET.activeRedGroupId/combatToken",
+                null
+              ]
+            ],
+            [
+              "EQUAL",
+              "$TARGET.parentCards.[0].sides.B.name",
+              "Free Peoples Battleground"
+            ],
+            [
+              [
+                "SET",
+                "/groupById/$TARGET.activeBlueGroupId/combatStat",
+                "defense"
+              ],
+              [
+                "SET",
+                "/groupById/$TARGET.activeRedGroupId/combatStat",
+                "attack"
+              ],
+              [
+                "SET",
+                "/groupById/$TARGET.activeBlueGroupId/combatToken",
+                "defenseBlue"
+              ],
+              [
+                "SET",
+                "/groupById/$TARGET.activeRedGroupId/combatToken",
+                "attackRed"
+              ]
+            ],
+            [
+              "EQUAL",
+              "$TARGET.parentCards.[0].sides.B.name",
+              "Shadow Battleground"
+            ],
+            [
+              [
+                "SET",
+                "/groupById/$TARGET.activeBlueGroupId/combatStat",
+                "attack"
+              ],
+              [
+                "SET",
+                "/groupById/$TARGET.activeRedGroupId/combatStat",
+                "defense"
+              ],
+              [
+                "SET",
+                "/groupById/$TARGET.activeBlueGroupId/combatToken",
+                "attackBlue"
+              ],
+              [
+                "SET",
+                "/groupById/$TARGET.activeRedGroupId/combatToken",
+                "defenseRed"
+              ]
+            ],
+            [
+              "IN_STRING",
+              "$TARGET.parentCards.[0].sides.A.type",
+              "Path"
+            ],
+            [
+              [
+                "SET",
+                "/groupById/$TARGET.activeBlueGroupId/combatStat",
+                "buckler"
+              ],
+              [
+                "SET",
+                "/groupById/$TARGET.activeRedGroupId/combatStat",
+                "skull"
+              ],
+              [
+                "SET",
+                "/groupById/$TARGET.activeBlueGroupId/combatToken",
+                "pathBlue"
+              ],
+              [
+                "SET",
+                "/groupById/$TARGET.activeRedGroupId/combatToken",
+                "pathRed"
+              ]
+            ]
+          ]
+        ],
+        "type": "trigger"
+      },
+      "victoryPoints": {
+        "_comment": "Track victory points",
+        "condition": [
+          "OR",
+          [
+            "IN_STRING",
+            "$TARGET.groupId",
+            "sharedScoring"
+          ],
+          [
+            "PREV",
+            [
+              "IN_STRING",
+              "$TARGET.groupId",
+              "sharedScoring"
+            ]
+          ]
+        ],
+        "listenTo": [
+          "/cardById/*/groupId",
+          "/cardById/*/tokens/*"
+        ],
+        "then": [
+          "COMPUTE_SCORE"
+        ],
+        "type": "trigger"
+      }
+    },
+    "postNewGameActionList": [
+      [
+        "SET",
+        "/currentPlayer",
+        "player1"
+      ]
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "phases": {
+    "draw": {"label": "1 Draw", "height": "14%"},
+    "treasure": {"label": "2 Treasure", "height": "14%"},
+    "movement": {"label": "3 Movement", "height": "14%"},
+    "action": {"label": "4 Action", "height": "15%"},
+    "battle": {"label": "5 Battle", "height": "15%"},
+    "secondAction": {"label": "6 2nd Action", "height": "14%"},
+    "discard": {"label": "7 Discard", "height": "14%"}
+  },
+  "phaseOrder": ["draw", "treasure", "movement", "action", "battle", "secondAction", "discard"]
+}

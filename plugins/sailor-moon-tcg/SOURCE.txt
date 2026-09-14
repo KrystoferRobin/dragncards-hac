@@ -1,0 +1,9 @@
+Built 2026-09-12 17:22 UTC from LackeyCCG SailorMoonTCG.
+Source: /Users/krystoferrobin/Downloads/lackeyplugins/SailorMoonTCG
+Art: GitHub wishmstr/SailorMoonTCG raw setimages.
+Author credit: Lackey / wishmstr
+
+Tabletop plugin only — Lackey has no rules engine to port.
+TSV rows: 233  missing image URLs: 0
+Prebuilts: 10 Lackey character / starter / theme decks.
+Starting zone holds the opening Scout + Person + Monster. JKP tokens load to the JKP row.

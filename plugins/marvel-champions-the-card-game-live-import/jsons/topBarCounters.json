@@ -1,0 +1,28 @@
+{
+  "topBarCounters": {
+    "player": [
+      {
+        "imageUrl": "https://toybox.hundredacre.club/cards/marvel-champions/_plugin/MarvelChampions-TokenDamage.svg",
+        "label": "id:hitPoints",
+        "playerProperty": "hitPoints"
+      },
+      {
+        "imageUrl": "https://toybox.hundredacre.club/cards/marvel-champions/_plugin/MarvelChampions-TokenHandSize.png",
+        "label": "id:handSize",
+        "playerProperty": "handSize"
+      }
+    ],
+    "shared": [
+      {
+        "gameProperty": "roundNumber",
+        "imageUrl": "https://toybox.hundredacre.club/cards/marvel-champions/_plugin/MarvelChampions-TokenRound.png",
+        "label": "id:round"
+      },
+      {
+        "gameProperty": "villainHitPoints",
+        "imageUrl": "https://toybox.hundredacre.club/cards/marvel-champions/_plugin/MarvelChampions-TokenDamage.svg",
+        "label": "id:villainHitPoints"
+      }
+    ]
+  }
+}

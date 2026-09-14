@@ -1,0 +1,432 @@
+{
+  "layouts": {
+    "default": {
+      "cardSize": 10,
+      "rowSpacing": 1,
+      "chat": {
+        "left": "76%",
+        "top": "72%",
+        "width": "23%",
+        "height": "27%"
+      },
+      "regions": {
+        "playerN+1Pool": {
+          "groupId": "playerN+1Pool",
+          "type": "row",
+          "direction": "horizontal",
+          "left": "20%",
+          "top": "1%",
+          "width": "44%",
+          "height": "14%",
+          "style": {
+            "background": "rgba(80, 20, 20, 0.28)",
+            "border": "1px solid rgba(210, 210, 210, 0.55)",
+            "boxSizing": "border-box"
+          }
+        },
+        "playerNPool": {
+          "groupId": "playerNPool",
+          "type": "row",
+          "direction": "horizontal",
+          "left": "20%",
+          "top": "71%",
+          "width": "44%",
+          "height": "16%",
+          "style": {
+            "background": "rgba(20, 40, 80, 0.32)",
+            "border": "1px solid rgba(210, 210, 210, 0.55)",
+            "boxSizing": "border-box"
+          }
+        },
+        "playerN+1Warrior": {
+          "groupId": "playerN+1Warrior",
+          "type": "pile",
+          "direction": "horizontal",
+          "left": "66%",
+          "top": "16%",
+          "width": "8%",
+          "height": "16%",
+          "style": {
+            "background": "rgba(0, 0, 0, 0.35)",
+            "border": "1px solid rgba(210, 210, 210, 0.55)",
+            "boxSizing": "border-box"
+          }
+        },
+        "playerN+1Discard": {
+          "groupId": "playerN+1Discard",
+          "type": "pile",
+          "direction": "horizontal",
+          "left": "66%",
+          "top": "33%",
+          "width": "8%",
+          "height": "16%",
+          "style": {
+            "background": "rgba(0, 0, 0, 0.35)",
+            "border": "1px solid rgba(210, 210, 210, 0.55)",
+            "boxSizing": "border-box"
+          }
+        },
+        "playerNWarrior": {
+          "groupId": "playerNWarrior",
+          "type": "pile",
+          "direction": "horizontal",
+          "left": "66%",
+          "top": "50%",
+          "width": "8%",
+          "height": "16%",
+          "style": {
+            "background": "rgba(0, 0, 0, 0.35)",
+            "border": "1px solid rgba(210, 210, 210, 0.55)",
+            "boxSizing": "border-box"
+          }
+        },
+        "playerNDiscard": {
+          "groupId": "playerNDiscard",
+          "type": "pile",
+          "direction": "horizontal",
+          "left": "66%",
+          "top": "67%",
+          "width": "8%",
+          "height": "16%",
+          "style": {
+            "background": "rgba(0, 0, 0, 0.35)",
+            "border": "1px solid rgba(210, 210, 210, 0.55)",
+            "boxSizing": "border-box"
+          }
+        },
+        "sideRegion": {
+          "groupId": "sharedSetAside",
+          "type": "fan",
+          "direction": "vertical",
+          "left": "0%",
+          "top": "16%",
+          "width": "9%",
+          "height": "54%",
+          "style": {
+            "background": "rgba(0, 0, 0, 0.45)",
+            "border": "1px solid rgba(210, 210, 210, 0.55)",
+            "boxSizing": "border-box"
+          },
+          "visible": false
+        },
+        "sharedArenaR1C1": {
+          "groupId": "sharedArenaR1C1",
+          "type": "pile",
+          "direction": "horizontal",
+          "left": "20.0%",
+          "top": "56.5%",
+          "width": "11.0%",
+          "height": "13.5%",
+          "hideTitle": true,
+          "style": {
+            "background": "rgba(70, 62, 32, 0.48)",
+            "border": "1px solid rgba(230, 210, 150, 0.95)",
+            "boxSizing": "border-box"
+          }
+        },
+        "sharedArenaR1C2": {
+          "groupId": "sharedArenaR1C2",
+          "type": "pile",
+          "direction": "horizontal",
+          "left": "31.0%",
+          "top": "56.5%",
+          "width": "11.0%",
+          "height": "13.5%",
+          "hideTitle": true,
+          "style": {
+            "background": "rgba(28, 26, 16, 0.58)",
+            "border": "1px solid rgba(230, 210, 150, 0.95)",
+            "boxSizing": "border-box"
+          }
+        },
+        "sharedArenaR1C3": {
+          "groupId": "sharedArenaR1C3",
+          "type": "pile",
+          "direction": "horizontal",
+          "left": "42.0%",
+          "top": "56.5%",
+          "width": "11.0%",
+          "height": "13.5%",
+          "hideTitle": true,
+          "style": {
+            "background": "rgba(70, 62, 32, 0.48)",
+            "border": "1px solid rgba(230, 210, 150, 0.95)",
+            "boxSizing": "border-box"
+          }
+        },
+        "sharedArenaR1C4": {
+          "groupId": "sharedArenaR1C4",
+          "type": "pile",
+          "direction": "horizontal",
+          "left": "53.0%",
+          "top": "56.5%",
+          "width": "11.0%",
+          "height": "13.5%",
+          "hideTitle": true,
+          "style": {
+            "background": "rgba(28, 26, 16, 0.58)",
+            "border": "1px solid rgba(230, 210, 150, 0.95)",
+            "boxSizing": "border-box"
+          }
+        },
+        "sharedArenaR2C1": {
+          "groupId": "sharedArenaR2C1",
+          "type": "pile",
+          "direction": "horizontal",
+          "left": "20.0%",
+          "top": "43.0%",
+          "width": "11.0%",
+          "height": "13.5%",
+          "hideTitle": true,
+          "style": {
+            "background": "rgba(28, 26, 16, 0.58)",
+            "border": "1px solid rgba(230, 210, 150, 0.95)",
+            "boxSizing": "border-box"
+          }
+        },
+        "sharedArenaR2C2": {
+          "groupId": "sharedArenaR2C2",
+          "type": "pile",
+          "direction": "horizontal",
+          "left": "31.0%",
+          "top": "43.0%",
+          "width": "11.0%",
+          "height": "13.5%",
+          "hideTitle": true,
+          "style": {
+            "background": "rgba(70, 62, 32, 0.48)",
+            "border": "1px solid rgba(230, 210, 150, 0.95)",
+            "boxSizing": "border-box"
+          }
+        },
+        "sharedArenaR2C3": {
+          "groupId": "sharedArenaR2C3",
+          "type": "pile",
+          "direction": "horizontal",
+          "left": "42.0%",
+          "top": "43.0%",
+          "width": "11.0%",
+          "height": "13.5%",
+          "hideTitle": true,
+          "style": {
+            "background": "rgba(28, 26, 16, 0.58)",
+            "border": "1px solid rgba(230, 210, 150, 0.95)",
+            "boxSizing": "border-box"
+          }
+        },
+        "sharedArenaR2C4": {
+          "groupId": "sharedArenaR2C4",
+          "type": "pile",
+          "direction": "horizontal",
+          "left": "53.0%",
+          "top": "43.0%",
+          "width": "11.0%",
+          "height": "13.5%",
+          "hideTitle": true,
+          "style": {
+            "background": "rgba(70, 62, 32, 0.48)",
+            "border": "1px solid rgba(230, 210, 150, 0.95)",
+            "boxSizing": "border-box"
+          }
+        },
+        "sharedArenaR3C1": {
+          "groupId": "sharedArenaR3C1",
+          "type": "pile",
+          "direction": "horizontal",
+          "left": "20.0%",
+          "top": "29.5%",
+          "width": "11.0%",
+          "height": "13.5%",
+          "hideTitle": true,
+          "style": {
+            "background": "rgba(70, 62, 32, 0.48)",
+            "border": "1px solid rgba(230, 210, 150, 0.95)",
+            "boxSizing": "border-box"
+          }
+        },
+        "sharedArenaR3C2": {
+          "groupId": "sharedArenaR3C2",
+          "type": "pile",
+          "direction": "horizontal",
+          "left": "31.0%",
+          "top": "29.5%",
+          "width": "11.0%",
+          "height": "13.5%",
+          "hideTitle": true,
+          "style": {
+            "background": "rgba(28, 26, 16, 0.58)",
+            "border": "1px solid rgba(230, 210, 150, 0.95)",
+            "boxSizing": "border-box"
+          }
+        },
+        "sharedArenaR3C3": {
+          "groupId": "sharedArenaR3C3",
+          "type": "pile",
+          "direction": "horizontal",
+          "left": "42.0%",
+          "top": "29.5%",
+          "width": "11.0%",
+          "height": "13.5%",
+          "hideTitle": true,
+          "style": {
+            "background": "rgba(70, 62, 32, 0.48)",
+            "border": "1px solid rgba(230, 210, 150, 0.95)",
+            "boxSizing": "border-box"
+          }
+        },
+        "sharedArenaR3C4": {
+          "groupId": "sharedArenaR3C4",
+          "type": "pile",
+          "direction": "horizontal",
+          "left": "53.0%",
+          "top": "29.5%",
+          "width": "11.0%",
+          "height": "13.5%",
+          "hideTitle": true,
+          "style": {
+            "background": "rgba(28, 26, 16, 0.58)",
+            "border": "1px solid rgba(230, 210, 150, 0.95)",
+            "boxSizing": "border-box"
+          }
+        },
+        "sharedArenaR4C1": {
+          "groupId": "sharedArenaR4C1",
+          "type": "pile",
+          "direction": "horizontal",
+          "left": "20.0%",
+          "top": "16.0%",
+          "width": "11.0%",
+          "height": "13.5%",
+          "hideTitle": true,
+          "style": {
+            "background": "rgba(28, 26, 16, 0.58)",
+            "border": "1px solid rgba(230, 210, 150, 0.95)",
+            "boxSizing": "border-box"
+          }
+        },
+        "sharedArenaR4C2": {
+          "groupId": "sharedArenaR4C2",
+          "type": "pile",
+          "direction": "horizontal",
+          "left": "31.0%",
+          "top": "16.0%",
+          "width": "11.0%",
+          "height": "13.5%",
+          "hideTitle": true,
+          "style": {
+            "background": "rgba(70, 62, 32, 0.48)",
+            "border": "1px solid rgba(230, 210, 150, 0.95)",
+            "boxSizing": "border-box"
+          }
+        },
+        "sharedArenaR4C3": {
+          "groupId": "sharedArenaR4C3",
+          "type": "pile",
+          "direction": "horizontal",
+          "left": "42.0%",
+          "top": "16.0%",
+          "width": "11.0%",
+          "height": "13.5%",
+          "hideTitle": true,
+          "style": {
+            "background": "rgba(28, 26, 16, 0.58)",
+            "border": "1px solid rgba(230, 210, 150, 0.95)",
+            "boxSizing": "border-box"
+          }
+        },
+        "sharedArenaR4C4": {
+          "groupId": "sharedArenaR4C4",
+          "type": "pile",
+          "direction": "horizontal",
+          "left": "53.0%",
+          "top": "16.0%",
+          "width": "11.0%",
+          "height": "13.5%",
+          "hideTitle": true,
+          "style": {
+            "background": "rgba(70, 62, 32, 0.48)",
+            "border": "1px solid rgba(230, 210, 150, 0.95)",
+            "boxSizing": "border-box"
+          }
+        }
+      },
+      "textBoxes": {
+        "p2Start": {
+          "label": "P2 start (face South)",
+          "left": "20%",
+          "top": "15%",
+          "width": "44%",
+          "height": "2%"
+        },
+        "p1Start": {
+          "label": "P1 start (face North)",
+          "left": "20%",
+          "top": "69.5%",
+          "width": "44%",
+          "height": "2%"
+        }
+      },
+      "tableButtons": {
+        "rollAttack": {
+          "actionList": "rollAttack",
+          "label": "2d6 Atk",
+          "left": "76%",
+          "top": "16%",
+          "width": "10%",
+          "height": "4%"
+        },
+        "rollDefense": {
+          "actionList": "rollDefense",
+          "label": "2d6 Def",
+          "left": "87%",
+          "top": "16%",
+          "width": "10%",
+          "height": "4%"
+        },
+        "roll1d6": {
+          "actionList": "roll1d6",
+          "label": "1d6",
+          "left": "76%",
+          "top": "21%",
+          "width": "10%",
+          "height": "4%"
+        },
+        "roll3d6": {
+          "actionList": "roll3d6",
+          "label": "3d6",
+          "left": "87%",
+          "top": "21%",
+          "width": "10%",
+          "height": "4%"
+        },
+        "lifeUp": {
+          "actionList": "increaseLife",
+          "label": "Life +",
+          "left": "76%",
+          "top": "26%",
+          "width": "10%",
+          "height": "4%"
+        },
+        "lifeDown": {
+          "actionList": "decreaseLife",
+          "label": "Life -",
+          "left": "87%",
+          "top": "26%",
+          "width": "10%",
+          "height": "4%"
+        },
+        "sharedSetAside": {
+          "actionList": [
+            "TOGGLE_SIDE_REGION",
+            "sharedSetAside"
+          ],
+          "label": "SA",
+          "left": "97%",
+          "top": "68%",
+          "width": "2%",
+          "height": "3%"
+        }
+      }
+    }
+  }
+}

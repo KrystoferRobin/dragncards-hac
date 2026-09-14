@@ -1,0 +1,20 @@
+{
+  "spawnExistingCardModal": {
+    "columnProperties": [
+      "name",
+      "type"
+    ],
+    "loadGroupIds": [
+      "player1Reserve",
+      "player1PlayArea",
+      "player1Force",
+      "player1Used",
+      "sharedLocations",
+      "player2Reserve",
+      "player2PlayArea",
+      "player2Force",
+      "player2Used",
+      "sharedStack"
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "spawnExistingCardModal": {
+    "columnProperties": ["name", "type", "clan", "set"],
+    "loadGroupIds": [
+      "playerNLibrary",
+      "playerNCrypt",
+      "playerNHand",
+      "playerNReady",
+      "playerNUncontrolled",
+      "playerNTorpor",
+      "playerNMasters",
+      "playerNAshHeap",
+      "playerNRemoved",
+      "playerNTokens",
+      "sharedEdge",
+      "sharedSetAside"
+    ]
+  }
+}

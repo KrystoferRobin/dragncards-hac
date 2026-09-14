@@ -1,0 +1,32 @@
+{
+  "gameProperties": {
+    "basesToWin": {
+      "default": 3,
+      "type": "integer"
+    },
+    "currentPlayer": {
+      "default": "player1",
+      "type": "string"
+    },
+    "player1Faction": {
+      "default": "",
+      "type": "string"
+    },
+    "player2Faction": {
+      "default": "",
+      "type": "string"
+    },
+    "started": {
+      "default": false,
+      "type": "boolean"
+    },
+    "trackerValue": {
+      "default": 3,
+      "type": "integer"
+    },
+    "victoryState": {
+      "default": "",
+      "type": "string"
+    }
+  }
+}

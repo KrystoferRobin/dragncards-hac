@@ -1,0 +1,1049 @@
+{
+    "functions": {
+        "ADVANCE_THROUGH_ROUND_BUT_STOP_AT_TRIGGERS": {
+          "args": ["$STOP_STEP_ID"],
+          "code": [
+            ["VAR", "$HALT", false],
+            ["VAR", "$TRIGGER_NAMES", ["LIST"]],
+            ["CLEAR_ALL_TARGETS"],
+            ["WHILE", 
+              ["NOT", "$HALT"],
+              [
+                ["NEXT_STEP"],
+                ["VAR", "$STEP", "$GAME.stepId"],
+                ["FOR_EACH_KEY_VAL", "$CARD_ID", "$CARD", "$CARD_BY_ID", [
+                  ["COND",
+                    ["AND",
+                      ["EQUAL", "$CARD.inPlay", true],
+                      ["EQUAL", "$CARD.currentFace.triggers.$STEP", true]
+                    ],
+                    [
+                      ["TARGET", "$CARD_ID"],
+                      ["UPDATE_VAR", "$HALT", true],
+                      ["UPDATE_VAR", "$TRIGGER_NAMES", ["APPEND", "$TRIGGER_NAMES", "$CARD.currentFace.name"]]
+                    ]
+                  ]
+                ]],
+                ["COND", 
+                  "$HALT", 
+                  ["LOG", "{{$ALIAS_N}} halted round advancement due to card triggers: {{$TRIGGER_NAMES}}."]
+                ],
+                ["COND", 
+                  ["EQUAL", "$STEP", "$STOP_STEP_ID"],
+                  ["UPDATE_VAR", "$HALT", true]
+                ]
+              ]
+            ]
+          ]
+        },
+        "GET_STAGING_ENEMIES": {
+          "args": [],
+          "code": [
+            ["FILTER_CARDS", "$C", 
+              ["AND",
+                ["EQUAL", "$C.groupId", "sharedStagingArea"],
+                ["IS_ENEMY", "$C"]
+              ]
+            ]
+          ]
+        },
+        "ENEMIES_IN_STAGING_AREA": {
+          "args": [],
+          "code": ["GREATER_THAN",
+              ["LENGTH", ["GET_STAGING_ENEMIES"]],
+              0
+          ]
+        },
+        "GET_STAGING_LOCATIONS": {
+          "args": [],
+          "code": [
+            ["FILTER_CARDS", "$C", 
+              ["AND",
+                ["EQUAL", "$C.groupId", "sharedStagingArea"],
+                ["EQUAL", "$C.currentFace.type", "Location"]
+              ]
+            ]
+          ]
+        },
+        "LOCATIONS_IN_STAGING_AREA": {
+          "args": [],
+          "code": ["GREATER_THAN",
+              ["LENGTH", ["GET_STAGING_LOCATIONS"]],
+              0
+          ]
+        },
+        "GET_SIDE_QUESTS_IN_PLAY": {
+          "args": [],
+          "code": [
+            ["FILTER_CARDS", "$C", 
+              ["AND",
+                ["EQUAL", "$C.inPlay", true],
+                ["EQUAL", "$C.currentFace.type", "Side Quest"]
+              ]
+            ]
+          ]
+        },
+        "SIDE_QUESTS_IN_PLAY": {
+          "args": [],
+          "code": ["GREATER_THAN",
+              ["LENGTH", ["GET_SIDE_QUESTS_IN_PLAY"]],
+              0
+          ]
+        },
+        "GET_ACTIVE_LOCATIONS": {
+          "args": [],
+          "code": [
+            ["FILTER_CARDS", "$C", 
+              ["AND",
+                ["EQUAL", "$C.groupId", "sharedActiveLocation"],
+                ["EQUAL", "$C.currentFace.type", "Location"]
+              ]
+            ]
+          ]
+        },
+        "NO_ACTIVE_LOCATION": {
+          "args": [],
+          "code": [
+            ["VAR", "$ALL_LOCATIONS_COMPLETE", true],
+            ["FOR_EACH_VAL", "$LOCATION", ["GET_ACTIVE_LOCATIONS"],
+              ["COND",
+                ["LESS_THAN", "$LOCATION.tokens.progress", ["ADD", ["GET_QUEST_POINTS", "$LOCATION"]]],
+                ["UPDATE_VAR", "$ALL_LOCATIONS_COMPLETE", false]
+              ]
+            ],
+            "$ALL_LOCATIONS_COMPLETE"
+          ]
+        },
+        "GET_CURRENT_QUEST": {
+          "args": [],
+          "code": [
+            ["COND", 
+              ["DEFINED", "$GAME.currentQuestCardId"],
+              "$GAME.cardById.{{$GAME.currentQuestCardId}}",
+              ["TRUE"],
+              ["ONE_CARD", "$C", ["AND", ["EQUAL", "$C.currentFace.type", "Quest"], ["EQUAL", "$C.inPlay", true]]]
+            ]
+          ]
+        },
+        "GET_ENGAGEMENT_COST": {
+          "args": ["$CARD"],
+          "code": [
+            ["COND",
+              ["IS_ENEMY", "$CARD"],
+              ["ADD", "$CARD.currentFace.engagementCost", "$CARD.tokens.engagementCost"],
+              true,
+              0
+            ]
+          ]
+        },
+        "ENEMIES_IN_STAGING_AREA_FORCED": {
+          "args": [],
+          "code": [
+            ["VAR", "$STAGING_ENEMIES", ["GET_STAGING_ENEMIES"]],
+            ["COND", 
+              ["GREATER_THAN", ["LENGTH", "$STAGING_ENEMIES"], 0],
+              [
+                ["VAR", "$PLAYERS_BY_THREAT", ["SORT_OBJ_LIST", "$PLAYER_ORDER", "$PLAYER_I", "$GAME.playerData.$PLAYER_I.threat"]],
+                ["VAR", "$HIGHEST_THREAT", "$GAME.playerData.{{$PLAYERS_BY_THREAT.[-1]}}.threat"],
+                ["VAR", "$ENEMIES_BY_ENG_COST", ["SORT_OBJ_LIST", "$STAGING_ENEMIES", "$C", ["GET_ENGAGEMENT_COST", "$C"]]],
+                ["VAR", "$LOWEST_ENG_COST", ["GET_ENGAGEMENT_COST", "$ENEMIES_BY_ENG_COST.[0]"]],
+                ["COND", 
+                  ["LESS_EQUAL", "$LOWEST_ENG_COST", "$HIGHEST_THREAT"],
+                  true,
+                  ["TRUE"],
+                  false
+                ]
+              ],
+              ["TRUE"],
+              false
+            ]
+          ]
+        },
+        "ENEMIES_ARE_ENGAGED": {
+          "args": [],
+          "code": [
+            ["GREATER_THAN",
+              ["LENGTH", ["FILTER_CARDS", "$C", 
+                ["OR",
+                  ["IN_STRING", "$C.groupId", "Engaged"],
+                  ["EQUAL", "$C.engagedWithEachPlayer", true]
+                ]
+              ]],
+              0
+            ]
+          ]
+        },
+        "TOGGLE_ENGAGED_WITH_EACH_PLAYER": {
+          "args": ["$CARD", "$BOOL"],
+          "code": [
+            ["COND",
+              "$BOOL",
+              [
+                ["SET", "/cardById/$CARD.id/engagedWithEachPlayer", true],
+                ["LOG", "{{$ALIAS_N}} marked {{$CARD.currentFace.name}} as engaged with each player."]
+              ],
+              ["TRUE"],
+              [
+                ["SET", "/cardById/$CARD.id/engagedWithEachPlayer", false],
+                ["LOG", "{{$ALIAS_N}} removed the engaged with each player marker from {{$CARD.currentFace.name}}."]
+              ]
+            ]
+          ]
+        },
+        "TOGGLE_EXHAUST": {
+          "args": ["$CARD"],
+          "code": [
+            ["COND",
+              ["AND", ["EQUAL", "$CARD.rotation", 90], "$CARD.inPlay"],
+              [
+                ["LOG", "$ALIAS_N", " readied ", "$CARD.currentFace.name", "."],
+                ["SET", "/cardById/$CARD.id/rotation", 0],
+                ["SET", "/cardById/$CARD.id/exhausted", false]
+              ],
+              ["AND", ["EQUAL", "$CARD.rotation", 0], "$CARD.inPlay"],
+              [
+                ["LOG", "$ALIAS_N", " exhausted ", "$CARD.currentFace.name", "."],
+                ["SET", "/cardById/$CARD.id/rotation", 90],
+                ["SET", "/cardById/$CARD.id/exhausted", true]
+              ],
+              ["AND", "$CARD.inPlay"],
+              [
+                ["LOG", "$ALIAS_N", " straightened ", "$CARD.currentFace.name", "."],
+                ["SET", "/cardById/$CARD.id/rotation", 0],
+                ["SET", "/cardById/$CARD.id/exhausted", false]
+              ]
+            ]
+          ]
+        },
+        "DISCARD_CARD_ID": {
+          "args": ["$CARD_ID"],
+          "code": [
+            ["VAR", "$CARD", "$GAME.cardById.{{$CARD_ID}}"],
+            ["VAR", "$ROTATION", "$CARD.rotation"],
+            ["COND",
+              ["EQUAL", "$CARD.cardIndex", 0],
+              [
+                ["VAR", "$STACK_ID", "$CARD.stackId"],
+                ["VAR", "$STACK_CARD_IDS", "$GAME.stackById.$STACK_ID.cardIds"],
+                ["FOR_EACH_VAL", "$STACK_CARD_ID", "$STACK_CARD_IDS",
+                  [
+                    ["VAR", "$STACK_CARD", "$GAME.cardById.$STACK_CARD_ID"],
+                    ["COND",
+                      ["EQUAL", "$STACK_CARD.discardGroupId", null],
+                      ["LOG", "$ALIAS_N", " failed to discard ", "$STACK_CARD.currentFace.name", " because it is not associated with a discard pile. Please drag the card instead."],
+                      true,
+                      [
+                        ["VAR", "$CURRENT_SIDE", "$STACK_CARD.currentSide"],
+                        ["LOG", "$ALIAS_N", " discarded ", "$STACK_CARD.sides.A.name", "."],
+                        ["MOVE_CARD", "$STACK_CARD_ID", "$STACK_CARD.discardGroupId", 0],
+                        ["COND",
+                          ["AND",
+                            ["NOT_EQUAL", "$STACK_CARD.currentFace.victoryPoints", null],
+                            ["NOT_EQUAL", "$ROTATION", -30]
+                          ],
+                          ["PROMPT", "$PLAYER_N", "victoryDisplay", "$STACK_CARD_ID"]
+                        ]
+                      ]
+                    ]
+                  ]
+                ]
+              ],
+              true,
+              [
+                ["COND",
+                  ["EQUAL", "$CARD.discardGroupId", null],
+                  ["LOG", "$ALIAS_N", " failed to discard ", "$CARD.currentFace.name", " because it is not associated with a discard pile. Please drag the card instead."],
+                  true,
+                  [
+                    ["LOG", "$ALIAS_N", " discarded ", "$CARD.sides.A.name", "."],
+                    ["MOVE_CARD", "$CARD.id", "$CARD.discardGroupId", 0],
+                    ["COND",
+                      ["AND",
+                        ["NOT_EQUAL", "$CARD.currentFace.victoryPoints", null],
+                        ["NOT_EQUAL", "$ROTATION", -30]
+                      ],
+                      ["PROMPT", "$PLAYER_N", "victoryDisplay", "$CARD.id"]
+                    ]
+                  ]
+                ]
+              ]
+            ],
+            ["COND",
+              ["EQUAL", "$CARD.currentFace.type", "Quest"],
+              ["COND", 
+                ["EQUAL", ["LENGTH", "$GAME.groupById.sharedQuestDeck.stackIds"], 0],
+                ["LOG", "The players won the game!"],
+                true,
+                [
+                  ["MOVE_STACK", ["GET_STACK_ID", "sharedQuestDeck", 0], "sharedMainQuest", 0],
+                  ["LOG", "$ALIAS_N", " advanced the quest."],
+                  ["COND",
+                    ["AND",
+                      ["NOT_EQUAL", "$CARD.currentFace.victoryPoints", null],
+                      ["NOT_EQUAL", "$ROTATION", -30]
+                    ],
+                    ["PROMPT", "$PLAYER_N", "victoryDisplay", "$CARD.id"]
+                  ]
+                ]
+              ]
+            ]
+          ]
+        },
+        "DISCARD_CARD": {
+          "args": ["$CARD"],
+          "code": ["DISCARD_CARD_ID", "$CARD.id"]
+        },
+        "REVEAL_ENCOUNTER": {
+          "args": ["$SIDE"],
+          "code": [
+            ["COND",
+              ["GROUP_EMPTY", "sharedEncounterDeck"],
+              [
+                ["VAR", "$STEP_ID", "$GAME.stepId"],
+                ["COND",
+                  ["EQUAL", "$GAME_DEF.steps.$STEP_ID.phaseId", "Quest"],
+                  [
+                    ["LOG", "$ALIAS_N"," shuffled the encounter discard pile into the encounter deck."],
+                    ["MOVE_STACKS", "sharedEncounterDiscard", "sharedEncounterDeck", ["LENGTH", "$GAME.groupById.sharedEncounterDiscard.stackIds"], "shuffle"]
+                  ],
+                  true,
+                  ["LOG", "$ALIAS_N", "tried to reveal a card, but the encounter deck is empty and it's not the quest phase."]
+                ] 
+              ],
+              true,
+              [
+                ["VAR", "$STACK_ID", "$GAME.groupById.sharedEncounterDeck.stackIds.[0]"],
+                ["LOG", "$ALIAS_N", " revealed ", ["FACEUP_NAME_FROM_STACK_ID", "$STACK_ID"], "."],
+                ["MOVE_STACK", "$STACK_ID", "sharedStagingArea", -1],
+                ["COND",
+                  ["EQUAL", "$SIDE", "B"],
+                  ["FOR_EACH_VAL", "$CARD_ID", "$GAME.stackById.$STACK_ID.cardIds", 
+                    ["SET", "/cardById/$CARD_ID/currentSide", "B"]
+                  ]
+                ]
+              ]
+            ],
+            ["COND",
+              ["GROUP_EMPTY", "sharedEncounterDeck"],
+              [
+                ["LOG", "$ALIAS_N"," shuffled the encounter discard pile into the encounter deck."],
+                ["MOVE_STACKS", "sharedEncounterDiscard", "sharedEncounterDeck", ["LENGTH", "$GAME.groupById.sharedEncounterDiscard.stackIds"], "shuffle"]
+              ]
+            ]
+          ]
+        },
+        "DEAL_SHADOW_CARDS": {
+          "args": [],
+          "code": ["FOR_EACH_VAL", "$PLAYER_I", "$PLAYER_ORDER", [
+            ["VAR", "$ENGAGED_WITH_ME", "$GAME.groupById.{{$PLAYER_I}}Engaged.parentCards"],
+            ["VAR", "$ENGAGED_WITH_ALL", ["FILTER_CARDS", "$C", ["EQUAL", "$C.engagedWithEachPlayer", true]]],
+            ["VAR", "$ENGAGED_CARDS", ["CONCAT_LISTS", "$ENGAGED_WITH_ME", "$ENGAGED_WITH_ALL"]],
+            ["VAR", "$SORTED_ENGAGED_CARDS", ["REVERSE_LIST", ["SORT_OBJ_LIST", "$ENGAGED_CARDS", "$CARD", ["GET_ENGAGEMENT_COST", "$CARD"]]]],
+            ["FOR_EACH_VAL", "$CARD", "$SORTED_ENGAGED_CARDS", [
+                ["VAR", "$CARD_ID", "$CARD.id"],
+                ["COND",
+                    ["IS_ENEMY", "$CARD"],
+                    ["COND",
+                        ["EQUAL", ["LENGTH", "$GAME.groupById.sharedEncounterDeck.stackIds"], 0],
+                        [
+                            ["LOG", "$ALIAS_N", " tried to deal a shadow card to ", ["FACEUP_NAME_FROM_CARD_ID", "$CARD_ID"], " but the encounter deck is empty."]
+                        ],
+                        ["TRUE"],
+                        [
+                            ["VAR", "$SHADOW_CARD_ID", ["GET_CARD_ID", "sharedEncounterDeck", 0, 0]],
+                            ["SET", "/cardById/$SHADOW_CARD_ID/rotation", -30],
+                            ["ATTACH_CARD", "$SHADOW_CARD_ID", "$CARD_ID"],
+                            ["SET", "/cardById/$SHADOW_CARD_ID/currentSide", "B"],
+                            ["LOG", "$ALIAS_N", " dealt a shadow card to ", ["FACEUP_NAME_FROM_CARD_ID", "$CARD_ID"], "."]
+                        ]
+                    ]
+                ]
+            ]]
+          ]]
+        },
+        "TOGGLE_TABLE_BUTTON": {
+          "args": ["$SIDE_GROUP_ID"],
+          "code": [
+            ["COND",
+              ["AND",
+                ["NOT_EQUAL", "$GAME.playerData.$PLAYER_N.layout.regions.sideRegion.visible", false],
+                ["EQUAL", "$GAME.playerData.$PLAYER_N.layout.regions.sideRegion.groupId", "$SIDE_GROUP_ID"]
+              ],
+              [
+                ["LOG", "{{$PLAYER_N}} updated their layout to hide {{$GAME.groupById.$SIDE_GROUP_ID.label}}."],
+                ["SET", "/playerData/$PLAYER_N/layout/regions/sideRegion/visible", false],
+                ["ADJUST_PLAYER_REGION_SIZES", 100]
+              ],
+              true,
+              [
+                ["LOG", "{{$PLAYER_N}} updated their layout to show {{$GAME.groupById.$SIDE_GROUP_ID.label}}."],
+                ["SET", "/playerData/$PLAYER_N/layout/regions/sideRegion/groupId", "$SIDE_GROUP_ID"],
+                ["SET", "/playerData/$PLAYER_N/layout/regions/sideRegion/visible", true],
+                ["ADJUST_PLAYER_REGION_SIZES", 90]
+              ]
+            ]
+          ]
+        },
+        "POST_SET_LAYOUT": {
+          "args": [],
+          "code": [
+            ["ADJUST_ALL_PLAYER_REGION_SIZES", 90],
+            ["UPDATE_ADVANCE_BUTTON"],
+            ["UPDATE_HELPER_TEXT_VISIBILITY"]
+          ]
+        },
+        "UPDATE_HELPER_TEXT_VISIBILITY": {
+          "args": [],
+          "code": ["COND",
+            ["EQUAL", "$GAME.gameStepAutomation", false],
+            ["UPDATE_LAYOUT", "/layout/textBoxes/roundAdvancement/visible", false],
+            ["TRUE"],
+            ["UPDATE_LAYOUT", "/layout/textBoxes/roundAdvancement/visible", true]
+          ]
+        },
+        "ADJUST_ALL_PLAYER_REGION_SIZES": {
+          "args": ["$TOTAL_WIDTH"],
+          "code": ["COND",
+            ["IS_FOCUS_LAYOUT_ID", "$GAME.layoutId"],
+            [
+              ["VAR", "$SEAT_COUNT", ["COND",
+                  ["DEFINED", "$GAME.layout.regions.player4Engaged"], 4,
+                  ["DEFINED", "$GAME.layout.regions.player3Engaged"], 3,
+                  ["DEFINED", "$GAME.layout.regions.player2Engaged"], 2,
+                  ["TRUE"], 1
+              ]],
+              ["FOR_EACH_START_STOP_STEP", "$SEAT", 1, ["ADD", "$SEAT_COUNT", 1], 1, [
+                  ["ADJUST_REGION_SIZES_FOR_VIEWER", "player{{$SEAT}}", "$TOTAL_WIDTH"]
+              ]]
+            ]
+          ]
+        },
+        "IS_FOCUS_LAYOUT_ID": {
+          "args": ["$LAYOUT_ID"],
+          "code": ["OR",
+            ["EQUAL", "$LAYOUT_ID", "layout3Player"],
+            ["EQUAL", "$LAYOUT_ID", "layout4Player"]
+          ]
+        },
+        "ADJUST_PLAYER_REGION_SIZES": {
+          "args": ["$TOTAL_WIDTH"],
+          "code": [
+            ["ADJUST_REGION_SIZES_FOR_VIEWER", "$PLAYER_N", "$TOTAL_WIDTH"]
+          ]
+        },
+        "ADJUST_REGION_SIZES_FOR_VIEWER": {
+          "args": ["$VIEWER", "$TOTAL_WIDTH"],
+          "code": [
+            ["VAR", "$SEAT_COUNT", ["COND",
+                ["DEFINED", "$GAME.playerData.{{$VIEWER}}.layout.regions.player4Engaged"], 4,
+                ["DEFINED", "$GAME.playerData.{{$VIEWER}}.layout.regions.player3Engaged"], 3,
+                ["DEFINED", "$GAME.playerData.{{$VIEWER}}.layout.regions.player2Engaged"], 2,
+                ["TRUE"], 1
+            ]],
+            ["VAR", "$FOCUS_SEAT", ["COND",
+                ["DEFINED", "$GAME.playerData.{{$VIEWER}}.layoutId"], ["TO_INT", ["SUBSTRING", "$VIEWER", 6, 2]],
+                ["TRUE"], 0
+            ]],
+            ["VAR", "$SHOW_ONE", ["EQUAL", "$GAME.playerData.{{$VIEWER}}.showOnePlayer", true]],
+            ["VAR", "$USE_FOCUS", ["AND",
+                ["NOT", "$SHOW_ONE"],
+                ["GREATER_THAN", "$FOCUS_SEAT", 0],
+                ["LESS_EQUAL", "$FOCUS_SEAT", "$SEAT_COUNT"],
+                ["IS_FOCUS_LAYOUT_ID", "$GAME.playerData.{{$VIEWER}}.layoutId"]
+            ]],
+            ["VAR", "$FOCUS_WIDTH", ["COND",
+                "$SHOW_ONE", "$TOTAL_WIDTH",
+                "$USE_FOCUS", ["MULTIPLY", "$TOTAL_WIDTH", 0.4],
+                ["TRUE"], ["DIVIDE", "$TOTAL_WIDTH", "$SEAT_COUNT"]
+            ]],
+            ["VAR", "$OTHER_WIDTH", ["COND",
+                "$SHOW_ONE", "$TOTAL_WIDTH",
+                ["LESS_EQUAL", "$SEAT_COUNT", 1], "$TOTAL_WIDTH",
+                ["TRUE"], ["DIVIDE", ["SUBTRACT", "$TOTAL_WIDTH", "$FOCUS_WIDTH"], ["SUBTRACT", "$SEAT_COUNT", 1]]
+            ]],
+            ["FOR_EACH_START_STOP_STEP", "$I", 1, ["ADD", "$SEAT_COUNT", 1], 1, [
+                ["VAR", "$PLAY_WIDTH", ["COND",
+                    ["EQUAL", "$I", "$FOCUS_SEAT"], "$FOCUS_WIDTH",
+                    ["TRUE"], "$OTHER_WIDTH"
+                ]],
+                ["VAR", "$PLAY_LEFT", ["COND",
+                    "$SHOW_ONE", 0,
+                    ["LESS_EQUAL", "$I", "$FOCUS_SEAT"], ["CALC", "{{$OTHER_WIDTH}} * ({{$I}} - 1)"],
+                    ["TRUE"], ["CALC", "{{$FOCUS_WIDTH}} + {{$OTHER_WIDTH}} * ({{$I}} - 2)"]
+                ]],
+                ["VAR", "$EVENT_WIDTH", ["MAX", ["LIST", 5, ["MIN", ["LIST", 10, ["MULTIPLY", "$PLAY_WIDTH", 0.3]]]]]],
+                ["VAR", "$EVENT_LEFT", ["CALC", "{{$PLAY_LEFT}} + {{$PLAY_WIDTH}} - {{$EVENT_WIDTH}}"]],
+                ["VAR", "$PLAY_WIDTH_EVENT", ["SUBTRACT", "$PLAY_WIDTH", "$EVENT_WIDTH"]],
+                ["SET", "/playerData/{{$VIEWER}}/layout/regions/player{{$I}}Engaged/width", "{{$PLAY_WIDTH}}%"],
+                ["SET", "/playerData/{{$VIEWER}}/layout/regions/player{{$I}}Play1/width", "{{$PLAY_WIDTH}}%"],
+                ["SET", "/playerData/{{$VIEWER}}/layout/regions/player{{$I}}Play2/width", "{{$PLAY_WIDTH}}%"],
+                ["SET", "/playerData/{{$VIEWER}}/layout/regions/player{{$I}}Play3/width", "{{$PLAY_WIDTH}}%"],
+                ["SET", "/playerData/{{$VIEWER}}/layout/regions/player{{$I}}Play4/width", "{{$PLAY_WIDTH}}%"],
+                ["SET", "/playerData/{{$VIEWER}}/layout/regions/player{{$I}}Engaged/left", "{{$PLAY_LEFT}}%"],
+                ["SET", "/playerData/{{$VIEWER}}/layout/regions/player{{$I}}Play1/left", "{{$PLAY_LEFT}}%"],
+                ["SET", "/playerData/{{$VIEWER}}/layout/regions/player{{$I}}Play2/left", "{{$PLAY_LEFT}}%"],
+                ["SET", "/playerData/{{$VIEWER}}/layout/regions/player{{$I}}Play3/left", "{{$PLAY_LEFT}}%"],
+                ["SET", "/playerData/{{$VIEWER}}/layout/regions/player{{$I}}Play4/left", "{{$PLAY_LEFT}}%"],
+                ["SET", "/playerData/{{$VIEWER}}/layout/regions/player{{$I}}Event/left", "{{$EVENT_LEFT}}%"],
+                ["SET", "/playerData/{{$VIEWER}}/layout/regions/player{{$I}}Event/width", "{{$EVENT_WIDTH}}%"],
+                ["COND",
+                  ["AND",
+                    ["DEFINED", "$GAME.playerData.{{$VIEWER}}.layout.regions.player{{$I}}Play4"],
+                    ["NOT_EQUAL", "$GAME.playerData.{{$VIEWER}}.layout.regions.player{{$I}}Play4.visible", false]
+                  ],
+                  ["SET", "/playerData/{{$VIEWER}}/layout/regions/player{{$I}}Play4/width", "{{$PLAY_WIDTH_EVENT}}%"],
+                  ["AND",
+                    ["DEFINED", "$GAME.playerData.{{$VIEWER}}.layout.regions.player{{$I}}Play3"],
+                    ["NOT_EQUAL", "$GAME.playerData.{{$VIEWER}}.layout.regions.player{{$I}}Play3.visible", false]
+                  ],
+                  ["SET", "/playerData/{{$VIEWER}}/layout/regions/player{{$I}}Play3/width", "{{$PLAY_WIDTH_EVENT}}%"],
+                  ["AND",
+                    ["DEFINED", "$GAME.playerData.{{$VIEWER}}.layout.regions.player{{$I}}Play2"],
+                    ["NOT_EQUAL", "$GAME.playerData.{{$VIEWER}}.layout.regions.player{{$I}}Play2.visible", false]
+                  ],
+                  ["SET", "/playerData/{{$VIEWER}}/layout/regions/player{{$I}}Play2/width", "{{$PLAY_WIDTH_EVENT}}%"]
+                ]
+            ]]
+          ]
+        },
+        "SHOW_MULTI_HANDED_GROUP": {
+          "args": ["$PLAYER_I", "$SUFFIX"],
+          "code": [
+            ["VAR", "$GROUP_ID_TO_SHOW", "{{$PLAYER_I}}{{$SUFFIX}}"],
+            ["LOG", "{{$ALIAS_N}} updated the layout to show ", ["LABEL", "$GROUP_ID_TO_SHOW"], "."],
+            ["UPDATE_LAYOUT", "/layout/regions/{{$PLAYER_I}}Deck/visible", false],
+            ["UPDATE_LAYOUT", "/layout/regions/{{$PLAYER_I}}Discard/visible", false],
+            ["UPDATE_LAYOUT", "/layout/regions/{{$PLAYER_I}}Deck2/visible", false],
+            ["UPDATE_LAYOUT", "/layout/regions/{{$GROUP_ID_TO_SHOW}}/visible", true]
+          ]
+        },
+        "DISCARD_UNTIL": {
+          "args": ["$GROUP_ID", "$TYPE"],
+          "code": [
+            ["LOG", "{{$PLAYER_N}} began discarding until {{$TYPE}}."],
+            ["WHILE",
+              ["AND",
+                ["GROUP_NOT_EMPTY", "$GROUP_ID"],
+                ["NOT_EQUAL", "$GAME.groupById.$GROUP_ID.parentCards.[0].sides.A.type", "$TYPE"]
+              ],
+              [
+                ["DISCARD_CARD", "$GAME.cardById.{{$GAME.groupById.$GROUP_ID.parentCardIds.[0]}}"]
+              ]
+            ],
+            ["COND",
+              ["GROUP_EMPTY", "$GROUP_ID"],
+              ["LOG", "{{$PLAYER_N}} discarded all the cards in the deck and did not find a {{$TYPE}}."],
+              true,
+              [
+                ["VAR", "$TOP_CARD", "$GAME.groupById.$GROUP_ID.parentCards.[0]"],
+                ["LOG", "{{$PLAYER_N}} discarded {{$TOP_CARD.sides.A.name}} and added it to the staging area."],
+                ["MOVE_CARD", "$TOP_CARD.id", "sharedStagingArea", -1]
+              ]
+            ]
+          ]
+        },
+        "END_THE_QUEST_PHASE": {
+          "args": [],
+          "code": [
+            ["FOR_EACH_KEY_VAL", "$CARD_ID", "$CARD", "$CARD_BY_ID", [
+                ["COND",
+                    ["EQUAL", "$CARD.committed", true],
+                    [
+                        ["SET", "/cardById/$CARD_ID/committed", false],
+                        ["SET", "/cardById/$CARD_ID/tokens/questing", 0]
+                    ]
+                ]
+            ]],
+            ["FOR_EACH_VAL", "$PLAYER_I", "$PLAYER_ORDER", [
+                ["SET", "/playerData/$PLAYER_I/willpower", 0]
+            ]],
+            ["SET", "/currentQuestCardId", null]
+          ]
+        },
+        "COMPUTE_STAGING_THREAT": {
+          "args": [],
+          "code": [
+              ["VAR", "$STAGING_THREAT", 0],
+              ["FOR_EACH_VAL", "$CARD_ID", "$GAME.groupById.sharedStagingArea.parentCardIds", [
+                  ["VAR", "$CARD", "$GAME.cardById.$CARD_ID"],
+                  ["INCREASE_VAR", "$STAGING_THREAT", ["ADD", "$CARD.currentFace.threat", "$CARD.tokens.threat"]]
+              ]],
+              ["SET", "/stagingThreat", "$STAGING_THREAT"]
+          ]
+        },
+        "GET_STAGE_NUM": {
+          "args": [],
+          "code": [
+            ["COND", 
+              ["GREATER_THAN", ["LENGTH", "$GAME.groupById.sharedMainQuest.stackIds"], 0],
+              "$GAME.groupById.sharedMainQuest.parentCards.[0].currentFace.cost",
+              ["TRUE"],
+              null
+            ]
+          ]
+        },
+        "CLEAR_ALL_TARGETS": {
+          "args": [],
+          "code": [
+            ["FOR_EACH_KEY_VAL", "$CARD_ID", "$CARD", "$GAME.cardById", [
+              ["SET", "/cardById/$CARD_ID/targeting", {}]
+            ]]
+          ]
+        },
+        "SHOW_PLAYER_DECK_2": {
+          "args": ["$PLAYER_I", "$BOOL"],
+          "code": [
+            ["COND",
+              ["IN_STRING", "$GAME.layoutId", "Handed"],
+              "$GAME",
+              "$BOOL", 
+              [
+                ["COND",
+                  "$GAME.playerData.$PLAYER_I.layout.regions.playerNDeck2.visible",
+                  ["LOG", "{{$PLAYER_I}} tried to update their layout to show their second deck but it is already visible."],
+                  ["TRUE"],
+                  [
+                    ["LOG", "{{$PLAYER_I}} updated their layout to show their second deck."],
+                    ["SET", "/playerData/$PLAYER_I/layout/regions/playerNDeck2/visible", true],
+                    ["SET", "/playerData/$PLAYER_I/layout/regions/playerNHand/width", 
+                      ["SUBTRACT", "$GAME.playerData.$PLAYER_I.layout.regions.playerNHand.width", 0.095]],
+                    ["SET", "/playerData/$PLAYER_I/layout/regions/playerNDeck/left", 
+                      ["SUBTRACT", "$GAME.playerData.$PLAYER_I.layout.regions.playerNDeck.left", 0.095]],
+                    ["SET", "/playerData/$PLAYER_I/layout/regions/playerNDiscard/left", 
+                      ["SUBTRACT", "$GAME.playerData.$PLAYER_I.layout.regions.playerNDiscard.left", 0.095]]
+                  ]
+                ]
+              ],
+              ["TRUE"],
+              [
+                ["COND",
+                  "$GAME.playerData.$PLAYER_I.layout.regions.playerNDeck2.visible",
+                  [
+                    ["LOG", "{{$PLAYER_I}} updated their layout to hide their second deck."],
+                    ["SET", "/playerData/$PLAYER_I/layout/regions/playerNDeck2/visible", false],
+                    ["SET", "/playerData/$PLAYER_I/layout/regions/playerNHand/width", 
+                      ["ADD", "$GAME.playerData.$PLAYER_I.layout.regions.playerNHand.width", 0.095]],
+                    ["SET", "/playerData/$PLAYER_I/layout/regions/playerNDeck/left", 
+                      ["ADD", "$GAME.playerData.$PLAYER_I.layout.regions.playerNDeck.left", 0.095]],
+                    ["SET", "/playerData/$PLAYER_I/layout/regions/playerNDiscard/left", 
+                      ["ADD", "$GAME.playerData.$PLAYER_I.layout.regions.playerNDiscard.left", 0.095]]
+                  ],
+                  ["TRUE"],
+                  ["LOG", "{{$PLAYER_I}} tried to update their layout to hide their second deck but it is already hidden."]
+                ]
+              ]
+            ]
+          ]
+        },
+        "SHOW_ENCOUNTER_DECK_2": {
+          "args": ["$BOOL"],
+          "code": [
+            ["COND",
+              "$BOOL", 
+              [
+                ["COND",
+                  "$GAME.layout.regions.sharedEncounterDeck2.visible",
+                  ["LOG", "{{$PLAYER_N}} tried to update the layout to show the second encounter deck but it is already visible."],
+                  ["TRUE"],
+                  [
+                    ["LOG", "{{$PLAYER_N}} updated the layout to show the second encounter deck."],
+                    ["UPDATE_LAYOUT", "/layout/regions/sharedEncounterDeck2/visible", true],
+                    ["UPDATE_LAYOUT", "/layout/regions/sharedEncounterDiscard2/visible", true],
+                    ["UPDATE_LAYOUT", "/layout/regions/sharedStagingArea/width",
+                      ["SUBTRACT", "$GAME.layout.regions.sharedStagingArea.width", 0.19]],
+                    ["UPDATE_LAYOUT", "/layout/regions/sharedEncounterDeck/left", 
+                      ["SUBTRACT", "$GAME.layout.regions.sharedEncounterDeck.left", 0.19]],
+                    ["UPDATE_LAYOUT", "/layout/regions/sharedEncounterDiscard/left", 
+                      ["SUBTRACT", "$GAME.layout.regions.sharedEncounterDiscard.left", 0.19]]
+                  ]
+                ]
+              ],
+              ["TRUE"],
+              [
+                ["COND",
+                  "$GAME.layout.regions.sharedEncounterDeck2.visible",
+                  [
+                    ["LOG", "{{$PLAYER_N}} updated the layout to hide the second encounter deck."],
+                    ["UPDATE_LAYOUT", "/layout/regions/sharedEncounterDeck2/visible", false],
+                    ["UPDATE_LAYOUT", "/layout/regions/sharedEncounterDiscard2/visible", false],
+                    ["UPDATE_LAYOUT", "/layout/regions/sharedStagingArea/width",
+                      ["ADD", "$GAME.layout.regions.sharedStagingArea.width", 0.19]],
+                    ["UPDATE_LAYOUT", "/layout/regions/sharedEncounterDeck/left", 
+                      ["ADD", "$GAME.layout.regions.sharedEncounterDeck.left", 0.19]],
+                    ["UPDATE_LAYOUT", "/layout/regions/sharedEncounterDiscard/left", 
+                      ["ADD", "$GAME.layout.regions.sharedEncounterDiscard.left", 0.19]]
+                  ],
+                  ["TRUE"],
+                  ["LOG", "{{$PLAYER_N}} tried to update the layout to hide the second encounter deck but it is already hidden."]
+                ]
+              ]
+            ]
+          ]
+        },
+        "GET_QUEST_POINTS": {
+          "args": ["$CARD"],
+          "code": [
+            ["COND",
+              ["OR", ["EQUAL", "$CARD.currentFace.type", "Location"], ["EQUAL", "$CARD.currentFace.type", "Quest"]],
+              ["ADD", "$CARD.currentFace.questPoints", "$CARD.tokens.questPoints"],
+              true,
+              0
+            ]
+          ]
+        },
+        "GET_HIT_POINTS": {
+          "args": ["$CARD"],
+          "code": [
+            ["COND",
+              ["OR", ["IS_CHARACTER", "$CARD"], ["IS_ENEMY", "$CARD"]],
+              ["ADD", "$CARD.currentFace.hitPoints", "$CARD.tokens.hitPoints"],
+              true,
+              0
+            ]
+          ]
+        },
+        "PLACE_PROGRESS_ON_QUEST_OR_ACTIVE_LOCATION": {
+          "args": ["$PROGRESS_MADE"],
+          "code": [
+            ["VAR", "$ACTIVE_LOCATIONS", ["GET_ACTIVE_LOCATIONS"]],
+            ["VAR", "$NUM_ACTIVE_LOCATIONS", ["LENGTH", "$ACTIVE_LOCATIONS"]],
+            ["COND",
+              ["GREATER_THAN", "$NUM_ACTIVE_LOCATIONS", 1],
+              [
+                ["LOG", "└── More than 1 active location detected. You will need to distribute the progress yourself."],
+                ["UPDATE_VAR", "$PROGRESS_MADE", 0]
+              ],
+              ["EQUAL", "$NUM_ACTIVE_LOCATIONS", 1],
+              [
+                ["VAR", "$ACTIVE_LOCATION", "$ACTIVE_LOCATIONS.[0]"],
+                ["VAR", "$REMAINING_LOCATION_PROGRESS", ["SUBTRACT", ["GET_QUEST_POINTS", "$ACTIVE_LOCATION"], "$ACTIVE_LOCATION.tokens.progress"]],
+                ["COND",
+                  ["LESS_THAN", "$REMAINING_LOCATION_PROGRESS", 0],
+                  ["UPDATE_VAR", "$REMAINING_LOCATION_PROGRESS", 0]
+                ],
+                ["VAR", "$PROGRESS_ON_ACTIVE_LOCATION", ["MIN", ["LIST", "$REMAINING_LOCATION_PROGRESS", "$PROGRESS_MADE"]]],
+                ["LOG", "├── {{$PROGRESS_ON_ACTIVE_LOCATION}} progress was placed on the active location."],
+                ["INCREASE_VAL", "/cardById/$ACTIVE_LOCATION.id/tokens/progress", "$PROGRESS_ON_ACTIVE_LOCATION"],
+                ["FADE_TEXT_CARD", "$ACTIVE_LOCATION.id", "+{{$PROGRESS_ON_ACTIVE_LOCATION}} token:progress"],
+                ["DECREASE_VAR", "$PROGRESS_MADE", "$PROGRESS_ON_ACTIVE_LOCATION"]
+              ]
+            ],
+            ["COND",
+              ["GREATER_THAN", "$PROGRESS_MADE", 0], 
+              [
+                ["VAR", "$CURRENT_QUEST", ["GET_CURRENT_QUEST"]],
+                ["VAR", "$REMAINING_QUEST_PROGRESS", ["SUBTRACT", ["GET_QUEST_POINTS", "$CURRENT_QUEST"], "$CURRENT_QUEST.tokens.progress"]],
+                ["UPDATE_VAR", "$REMAINING_QUEST_PROGRESS", ["MAX", ["LIST", 0, "$REMAINING_QUEST_PROGRESS"]]],
+                ["LOG", "└── {{$PROGRESS_MADE}} progress was placed on the current quest, {{$CURRENT_QUEST.currentFace.name}}."],
+                ["INCREASE_VAL", "/cardById/$CURRENT_QUEST.id/tokens/progress", "$PROGRESS_MADE"],
+                ["FADE_TEXT_CARD", "$CURRENT_QUEST.id", "+{{$PROGRESS_MADE}} token:progress"]
+              ]
+            ]
+          ]
+        },
+        "RESOLVE_QUEST": {
+          "args": [],
+          "code": [
+            ["VAR", "$PROGRESS_MADE", "$GAME.questProgress"],
+            ["COND",
+              ["EQUAL", "$PROGRESS_MADE", 0],
+              ["LOG", "The players did not quest successfully or unsuccessfully."],
+              ["GREATER_THAN", "$PROGRESS_MADE", 0],
+              [
+                ["LOG", "├── The players quested successfully."],
+                ["LOG", "├── The players made {{$PROGRESS_MADE}} progress."],
+                ["PLACE_PROGRESS_ON_QUEST_OR_ACTIVE_LOCATION", "$PROGRESS_MADE"]
+              ],
+              ["TRUE"],
+              [
+                ["VAR", "$THREAT_RAISE", ["SUBTRACT", 0, "$PROGRESS_MADE"]],
+                ["LOG", "├── The players quested unsuccessfully."],
+                ["LOG", "└── Each player raises their threat by {{$THREAT_RAISE}}."],
+                ["FOR_EACH_VAL", "$PLAYER_I", "$PLAYER_ORDER",
+                  ["INCREASE_VAL", "/playerData/$PLAYER_I/threat", "$THREAT_RAISE"]
+                ]
+              ]
+            ],
+            ["COND",
+              ["AND", "$GAME.gameStepAutomation", ["EQUAL", "$GAME.stepId", "3.3"]],
+              ["DO_ADVANCE_BUTTON"]            
+            ]
+          ]
+        },
+        "RESOLVE_ENGAGEMENT_CHECKS": {
+          "args": [],
+          "code": [
+            ["VAR", "$CURRENT_PLAYER", "$GAME.firstPlayer"],
+            ["WHILE", 
+                ["ENEMIES_IN_STAGING_AREA_FORCED"],
+                [
+                    ["VAR", "$ALIAS_I", ["GET_ALIAS", "$CURRENT_PLAYER"]],
+                    ["LOG", "├── {{$ALIAS_I}} makes engagement checks."],
+                    ["VAR", "$CANDIDATES", ["FILTER_CARDS", "$C", [
+                        "AND",
+                        ["EQUAL", "$C.groupId", "sharedStagingArea"],
+                        ["IS_ENEMY", "$C"],
+                        ["GREATER_EQUAL", "$GAME.playerData.$CURRENT_PLAYER.threat", ["GET_ENGAGEMENT_COST", "$C"]]
+                    ]]],
+                    ["COND",
+                        ["EQUAL", ["LENGTH", "$CANDIDATES"], 0],
+                        ["LOG", "├── ", "{{$ALIAS_I}} has no enemies in the staging area that they must engage."],
+                        ["TRUE"],
+                        [
+                            ["VAR", "$ENEMIES_BY_ENG_COST", ["SORT_OBJ_LIST", "$CANDIDATES", "$C", ["GET_ENGAGEMENT_COST", "$C"]]],
+                            ["VAR", "$ENEMY_TO_ENGAGE", "$ENEMIES_BY_ENG_COST.[-1]"],
+                            ["LOG", "├── {{$ALIAS_I}} engages {{$ENEMY_TO_ENGAGE.currentFace.name}}."],
+                            ["MOVE_STACK", "$ENEMY_TO_ENGAGE.stackId", "{{$CURRENT_PLAYER}}Engaged", -1]
+                        ]
+                    ],
+                    ["UPDATE_VAR", "$CURRENT_PLAYER", ["NEXT_PLAYER", "$CURRENT_PLAYER"]]
+                ]
+            ],
+            ["LOG", "└── Engagement checks are complete."],
+            ["COND",
+              ["AND", "$GAME.gameStepAutomation", ["EQUAL", "$GAME.stepId", "5.2"]],
+              ["DO_ADVANCE_BUTTON"]            
+            ]
+          ]
+        },
+        "UPDATE_ADVANCE_BUTTON": {
+          "args": [],
+          "code": [
+            ["COND",
+              ["EQUAL", "$GAME.allPlayerDecksLoaded", false],
+              ["SET", "/roundAdvancementFunction", "loadPlayerDecks"],
+              ["EQUAL", "$GAME.encounterDeckLoaded", false],
+              ["SET", "/roundAdvancementFunction", "loadEncounterDeck"],
+              ["AND", ["EQUAL", "$GAME.roundNumber", 0], ["EQUAL", "$GAME.stepId", "0.0"]],
+              ["SET", "/roundAdvancementFunction", "goToFirstPlanning"],
+              ["IS_CURRENT_STEP_BEFORE", "2.P"],
+              ["SET", "/roundAdvancementFunction", "readyForNextPlanning"],
+              ["IS_CURRENT_STEP_BEFORE", "3.1"],
+              ["COND",
+                ["SIDE_QUESTS_IN_PLAY"],
+                ["SET", "/roundAdvancementFunction", "selectCurrentQuest"],
+                ["TRUE"],
+                ["SET", "/roundAdvancementFunction", "commitCharacters"]
+              ],
+              ["EQUAL", "$GAME.stepId", "3.1"],
+              ["SET", "/roundAdvancementFunction", "commitCharacters"],
+              ["EQUAL", "$GAME.stepId", "3.2"],
+              ["SET", "/roundAdvancementFunction", "commitOrReveal"],
+              ["EQUAL", "$GAME.stepId", "3.3"],
+              ["SET", "/roundAdvancementFunction", "revealOrResolve"],
+              ["IS_CURRENT_STEP_BEFORE", "4.2"],
+              ["COND", 
+                ["AND", ["NO_ACTIVE_LOCATION"], ["LOCATIONS_IN_STAGING_AREA"]],
+                ["SET", "/roundAdvancementFunction", "advanceToTravel"],
+                ["ENEMIES_IN_STAGING_AREA"],
+                ["SET", "/roundAdvancementFunction", "advanceToEncounter"],
+                ["ENEMIES_ARE_ENGAGED"],
+                ["SET", "/roundAdvancementFunction", "advanceToCombat"],
+                ["TRUE"],
+                ["SET", "/roundAdvancementFunction", "readyForNextPlanning"]
+              ],
+              ["IS_CURRENT_STEP_BEFORE", "5.2"],
+              ["COND", 
+                ["ENEMIES_IN_STAGING_AREA"],
+                ["SET", "/roundAdvancementFunction", "advanceToEncounter"],
+                ["ENEMIES_ARE_ENGAGED"],
+                ["SET", "/roundAdvancementFunction", "advanceToCombat"],
+                ["TRUE"],
+                ["SET", "/roundAdvancementFunction", "readyForNextPlanning"]
+              ],
+              ["EQUAL", "$GAME.stepId", "5.2"],
+              ["COND", 
+                ["ENEMIES_IN_STAGING_AREA"],
+                ["SET", "/roundAdvancementFunction", "resolveEngagementChecks"],
+                ["ENEMIES_ARE_ENGAGED"],
+                ["SET", "/roundAdvancementFunction", "advanceToCombat"],
+                ["TRUE"],
+                ["SET", "/roundAdvancementFunction", "readyForNextPlanning"]
+              ],
+              ["IS_CURRENT_STEP_BEFORE", "6.2"],
+              ["COND", 
+                ["ENEMIES_ARE_ENGAGED"],
+                ["SET", "/roundAdvancementFunction", "advanceToCombat"],
+                ["TRUE"],
+                ["SET", "/roundAdvancementFunction", "readyForNextPlanning"]
+              ],
+              ["EQUAL", "$GAME.stepId", "6.2"],
+              ["SET", "/roundAdvancementFunction", "readyForNextPlanning"]
+            ]
+          ]
+        },
+        "DO_ADVANCE_BUTTON": {
+          "args": [],
+          "code": [
+            ["COND",
+              ["EQUAL", "$GAME.gameStepAutomation", false],
+              ["ABORT", "{{$ALIAS_N}} tried to automatically advance through the round, but game step automation is turned off. Turn it on in preferences."]
+            ],
+            ["COND",
+              ["EQUAL", "$GAME.roundAdvancementFunction", "loadPlayerDecks"],
+              [
+                ["SET", "/allPlayerDecksLoaded", true],
+                ["SET", "/roundAdvancementFunction", "loadEncounterDeck"]
+              ],
+              ["EQUAL", "$GAME.roundAdvancementFunction", "loadEncounterDeck"],
+              [
+                ["SET", "/encounterDeckLoaded", true],
+                ["SET", "/roundAdvancementFunction", "goToFirstPlanning"]
+              ],
+              ["EQUAL", "$GAME.roundAdvancementFunction", "goToFirstPlanning"],
+              [
+                ["INCREASE_VAL", "/roundNumber", 1],
+                ["FADE_TEXT_GAME", "Round {{$GAME.roundNumber}}"],
+                ["ADVANCE_THROUGH_ROUND_BUT_STOP_AT_TRIGGERS", "2.P"]
+              ],
+              ["EQUAL", "$GAME.roundAdvancementFunction", "readyForNextPlanning"],
+              [
+                ["LOG", "{{$ALIAS_N}} is ready to advance to the next planning phase."],
+                ["SET", "/playerData/$PLAYER_N/readyForNextPlanning", true],
+                ["UPDATE_LAYOUT", "/layout/regions/{{$PLAYER_N}}Play1/style", {"background": "rgba(0, 255, 0, 0.2)"}],
+                ["VAR", "$DO_ADVANCE", true],
+                ["FOR_EACH_VAL", "$PLAYER_I", "$PLAYER_ORDER",
+                  ["COND",
+                    ["NOT_EQUAL", "$GAME.playerData.$PLAYER_I.readyForNextPlanning", true],
+                    ["UPDATE_VAR", "$DO_ADVANCE", false]
+                  ]
+                ],
+                ["COND",
+                  "$DO_ADVANCE",
+                  ["ADVANCE_THROUGH_ROUND_BUT_STOP_AT_TRIGGERS", "2.P"]
+                ]
+              ],
+              ["EQUAL", "$GAME.roundAdvancementFunction", "commitCharacters"],
+              ["ADVANCE_THROUGH_ROUND_BUT_STOP_AT_TRIGGERS", "3.3"],
+              ["EQUAL", "$GAME.roundAdvancementFunction", "commitOrReveal"],
+              ["ADVANCE_THROUGH_ROUND_BUT_STOP_AT_TRIGGERS", "3.3"],
+              ["EQUAL", "$GAME.roundAdvancementFunction", "revealOrResolve"],
+              ["ADVANCE_THROUGH_ROUND_BUT_STOP_AT_TRIGGERS", "3.4"],
+              ["EQUAL", "$GAME.roundAdvancementFunction", "advanceToTravel"],
+              ["ADVANCE_THROUGH_ROUND_BUT_STOP_AT_TRIGGERS", "4.2"],
+              ["EQUAL", "$GAME.roundAdvancementFunction", "advanceToEncounter"],
+              ["ADVANCE_THROUGH_ROUND_BUT_STOP_AT_TRIGGERS", "5.2"],
+              ["EQUAL", "$GAME.roundAdvancementFunction", "resolveEngagementChecks"],
+              ["ADVANCE_THROUGH_ROUND_BUT_STOP_AT_TRIGGERS", "5.3"],
+              ["EQUAL", "$GAME.roundAdvancementFunction", "advanceToCombat"],
+              ["ADVANCE_THROUGH_ROUND_BUT_STOP_AT_TRIGGERS", "6.2"]
+            ]
+          ]
+        },
+        "IS_CURRENT_STEP_BEFORE": {
+          "args": ["$TARGET_STEP"],
+          "code": [
+            ["VAR", "$CURRENT_STEP_INDEX", ["GET_INDEX", "$GAME_DEF.stepOrder", "$GAME.stepId"]],
+            ["VAR", "$TARGET_STEP_INDEX", ["GET_INDEX", "$GAME_DEF.stepOrder", "$TARGET_STEP"]],
+            ["LESS_THAN", "$CURRENT_STEP_INDEX", "$TARGET_STEP_INDEX"]
+          ]
+        },
+        "IS_CHARACTER": {
+          "args": ["$CARD"],
+          "code": ["AND",
+            ["EQUAL", "$CARD.cardIndex", 0],
+            ["OR",
+              ["EQUAL", "$CARD.currentFace.type", "Hero"],
+              ["EQUAL", "$CARD.currentFace.type", "Ally"],
+              ["EQUAL", "$CARD.currentFace.type", "Objective Hero"],
+              ["EQUAL", "$CARD.currentFace.type", "Objective Ally"],
+              ["EQUAL", "$CARD.currentFace.type", "Ship Objective"]
+            ]
+          ]
+        },
+        "IS_HERO": {
+          "args": ["$CARD"],
+          "code": ["AND",
+            ["EQUAL", "$CARD.cardIndex", 0],
+            ["OR",
+              ["EQUAL", "$CARD.currentFace.type", "Hero"],
+              ["EQUAL", "$CARD.currentFace.type", "Objective Hero"]
+            ]
+          ]
+        },
+        "IS_ALLY": {
+          "args": ["$CARD"],
+          "code": ["AND",
+            ["EQUAL", "$CARD.cardIndex", 0],
+            ["OR",
+              ["EQUAL", "$CARD.currentFace.type", "Ally"],
+              ["EQUAL", "$CARD.currentFace.type", "Objective Ally"],
+              ["EQUAL", "$CARD.currentFace.type", "Ship Objective"]
+            ]
+          ]
+        },
+        "IS_ENEMY": {
+          "args": ["$CARD"],
+          "code": ["AND",
+            ["EQUAL", "$CARD.cardIndex", 0],
+            ["OR",
+              ["EQUAL", "$CARD.currentFace.type", "Enemy"],
+              ["EQUAL", "$CARD.currentFace.type", "Ship-Enemy"],
+              ["EQUAL", "$CARD.currentFace.type", "Ship Enemy"]
+            ]
+          ]
+        },
+        "IS_SHADOW": {
+          "args": ["$CARD"],
+          "code": ["AND",
+            ["GREATER_THAN", "$CARD.cardIndex", 0],
+            ["EQUAL", "$CARD.rotation", -30]
+          ]
+        },
+        "LOAD_CARDS_BY_CONDITION": {
+          "args": ["$GROUP_ID", "$CONDITION"],
+          "code": [
+            ["VAR", "$LOAD_LIST", ["LIST"]],
+            ["FOR_EACH_KEY_VAL", "$CARD_ID", "$CARD_DETAILS", "$CARD_DB", [
+              ["COND", 
+                ["ACTION_LIST", "$CONDITION"],
+                ["UPDATE_VAR", "$LOAD_LIST", 
+                  ["APPEND", "$LOAD_LIST", 
+                    ["PROCESS_MAP", 
+                      {"loadGroupId": "$GROUP_ID", "databaseId": "$CARD_ID", "quantity": ["TO_INT", "$CARD_DETAILS.A.deckbuilderQuantity"]}
+                    ]
+                  ]
+                ]
+              ]
+            ]],
+            ["LOAD_CARDS", "$LOAD_LIST"]
+          ]
+        },
+        "MOVE_CARD_BY_NAME": {
+          "args": ["$CARD_NAME", "$DESTINATION_GROUP_ID", "$POSITION"],
+          "code": [
+            ["VAR", "$CARD", ["ONE_CARD_WITH_FACE_KEY_VAL", "name", "$CARD_NAME"]],
+            ["VAR", "$CARD_ID", "$CARD.id"],
+            ["COND",
+              ["EQUAL", "$CARD_ID", null],
+              ["ABORT", "{{$ALIAS_N}} tried to move a card named {{$CARD_NAME}}, but no such card exists in the game."],
+              ["TRUE"],
+              [
+                ["MOVE_CARD", "$CARD_ID", "$DESTINATION_GROUP_ID", "$POSITION"]
+              ]
+            ]
+          ]
+        },
+        "MOVE_CARD_BY_NAME_AND_TYPE": {
+          "args": ["$CARD_NAME", "$CARD_TYPE", "$DESTINATION_GROUP_ID", "$POSITION"],
+          "code": [
+            ["VAR", "$CARD", ["ONE_CARD",
+              "$C",
+              ["AND",
+                ["EQUAL", "$C.sides.A.name", "$CARD_NAME"],
+                ["EQUAL", "$C.sides.A.type", "$CARD_TYPE"]
+              ]
+            ]],
+            ["VAR", "$CARD_ID", "$CARD.id"],
+            ["COND",
+              ["EQUAL", "$CARD_ID", null],
+              ["ABORT", "{{$ALIAS_N}} tried to move a card named {{$CARD_NAME}} and type {{$CARD_TYPE}}, but no such card exists in the game."],
+              ["TRUE"],
+              [
+                ["MOVE_CARD", "$CARD_ID", "$DESTINATION_GROUP_ID", "$POSITION"]
+              ]
+            ]
+          ]
+        }
+    }
+}

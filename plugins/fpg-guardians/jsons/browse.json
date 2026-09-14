@@ -1,0 +1,32 @@
+{
+  "browse": {
+    "filterPropertySideA": "type",
+    "filterValuesSideA": [
+      "Adventure",
+      "Event",
+      "Mortal",
+      "Terrain",
+      "bribery",
+      "downgrade",
+      "elemental",
+      "external",
+      "guardian",
+      "item/accessory",
+      "item/creature",
+      "item/hand",
+      "mortal",
+      "shield",
+      "shield/terrain",
+      "spell",
+      "standard bearer",
+      "stronghold",
+      "terrain",
+      "upgrade"
+    ],
+    "textPropertiesSideA": [
+      "name",
+      "packName",
+      "effect"
+    ]
+  }
+}

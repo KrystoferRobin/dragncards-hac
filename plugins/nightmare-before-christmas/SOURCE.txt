@@ -1,0 +1,8 @@
+Built 2026-09-12 17:33 UTC from LackeyCCG NightmareBeforeChristmas.
+Source: /Users/krystoferrobin/Downloads/lackeyplugins/NightmareBeforeChristmas
+Art: https://github.com/wishmstr/Nightmare-Before-Christmas-CCG raw setimages.
+Author credit: Lackey / wishmstr
+
+Tabletop plugin only — Lackey has no rules engine to port.
+TSV rows: 297  skipped (no image URL or duplicate): 0
+Prebuilts: 8 Lackey decks.

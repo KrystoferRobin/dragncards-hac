@@ -1,0 +1,8 @@
+Built 2026-09-12 19:12 UTC from OCTGN doomtown.
+Source: /Volumes/Expand/ai-projects/hundredacreclub/tcg-engines/dragncards-main/plugins/octgn/doomtown
+Art: extracted Sets/ plus Sets/*/Cards
+Author credit: OCTGN / Db0, jbeast
+
+Tabletop plugin only — OCTGN scripts were not ported.
+TSV rows: 1631  images copied: 1631  missing art: 5
+Prebuilts: 0

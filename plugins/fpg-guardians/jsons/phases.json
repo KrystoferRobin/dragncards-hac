@@ -1,0 +1,21 @@
+{
+  "phases": {
+    "organize": {
+      "label": "Draw and Organize",
+      "height": "33%"
+    },
+    "combat": {
+      "label": "Movement and Combat",
+      "height": "33%"
+    },
+    "terrain": {
+      "label": "Terrain Settlement",
+      "height": "33%"
+    }
+  },
+  "phaseOrder": [
+    "organize",
+    "combat",
+    "terrain"
+  ]
+}

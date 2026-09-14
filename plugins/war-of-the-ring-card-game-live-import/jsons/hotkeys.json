@@ -1,0 +1,178 @@
+{
+  "hotkeys": {
+    "card": [
+      {
+        "actionList": "flipCard",
+        "key": "F",
+        "label": "id:flip"
+      },
+      {
+        "actionList": "cycleCard",
+        "key": "C",
+        "label": "id:cycleCard"
+      },
+      {
+        "actionList": "eliminateCard",
+        "key": "E",
+        "label": "id:eliminateCard"
+      },
+      {
+        "actionList": "toggleRotate",
+        "key": "R",
+        "label": "id:rotateCard"
+      },
+      {
+        "actionList": "scoreLocation",
+        "key": "S",
+        "label": "id:scoreLocation"
+      }
+    ],
+    "game": [
+      {
+        "actionList": "drawCard",
+        "key": "D",
+        "label": "id:drawCard"
+      },
+      {
+        "actionList": "newRound",
+        "key": "Shift+N",
+        "label": "id:drawCardsAndStartNewRound"
+      },
+      {
+        "actionList": "cycleDeck",
+        "key": "Shift+C",
+        "label": "id:shuffleCyclePileAndPlaceOnBottomOfDeck"
+      },
+      {
+        "actionList": [
+          "DRAW_CARD_PLAYER_I",
+          "player1"
+        ],
+        "key": "Alt+1",
+        "label": "id:drawCard1"
+      },
+      {
+        "actionList": [
+          "DRAW_CARD_PLAYER_I",
+          "player2"
+        ],
+        "key": "Alt+2",
+        "label": "id:drawCard2"
+      },
+      {
+        "actionList": [
+          "DRAW_CARD_PLAYER_I",
+          "player3"
+        ],
+        "key": "Alt+3",
+        "label": "id:drawCard3"
+      },
+      {
+        "actionList": [
+          "DRAW_CARD_PLAYER_I",
+          "player4"
+        ],
+        "key": "Alt+4",
+        "label": "id:drawCard4"
+      },
+      {
+        "actionList": [
+          "DRAW_CARD_PLAYER_I",
+          "player5"
+        ],
+        "key": "Alt+5",
+        "label": "id:drawCard5"
+      },
+      {
+        "actionList": [
+          "DRAW_CARD_PLAYER_I",
+          "player6"
+        ],
+        "key": "Alt+6",
+        "label": "id:drawCard6"
+      },
+      {
+        "actionList": "pass",
+        "key": "P",
+        "label": "id:pass"
+      },
+      {
+        "actionList": "printPileSizes",
+        "key": "Z",
+        "label": "id:printPileSizes"
+      },
+      {
+        "actionList": "increaseCorruption",
+        "key": "U",
+        "label": "id:increaseCorruption"
+      },
+      {
+        "actionList": "decreaseCorruption",
+        "key": "J",
+        "label": "id:decreaseCorruption"
+      },
+      {
+        "actionList": "getHandFromSetAsideHand",
+        "key": "Shift+H",
+        "label": "id:getHandFromSetAsideHand"
+      },
+      {
+        "actionList": "cycleSetAsidePiles",
+        "key": "Shift+J",
+        "label": "id:cycleSetAsidePiles"
+      },
+      {
+        "actionList": "toggleLocationDecks",
+        "key": "L",
+        "label": "id:toggleLocationDecks"
+      },
+      {
+        "actionList": "initialDraw",
+        "key": "Shift+D",
+        "label": "id:drawInitialCards"
+      },
+      {
+        "actionList": "toggleVault",
+        "key": "V",
+        "label": "id:toggleVault"
+      }
+    ],
+    "token": [
+      {
+        "key": "1",
+        "label": "id:attackBlueIcon",
+        "tokenType": "attackBlue"
+      },
+      {
+        "key": "2",
+        "label": "id:defenseBlueIcon",
+        "tokenType": "defenseBlue"
+      },
+      {
+        "key": "3",
+        "label": "id:pathBlueIcon",
+        "tokenType": "pathBlue"
+      },
+      {
+        "key": "4",
+        "label": "id:attackRedIcon",
+        "tokenType": "attackRed"
+      },
+      {
+        "key": "5",
+        "label": "id:defenseRedIcon",
+        "tokenType": "defenseRed"
+      },
+      {
+        "key": "6",
+        "label": "id:pathRedIcon",
+        "tokenType": "pathRed"
+      },
+      {
+        "key": "7",
+        "label": "id:corruptionIcon",
+        "tokenType": "corruption"
+      }
+    ]
+  }
+}

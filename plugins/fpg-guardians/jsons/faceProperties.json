@@ -1,0 +1,129 @@
+{
+  "faceProperties": {
+    "klass": {
+      "label": "Class",
+      "type": "string",
+      "default": ""
+    },
+    "vp": {
+      "label": "VP",
+      "type": "string",
+      "default": ""
+    },
+    "flying": {
+      "label": "Flying",
+      "type": "string",
+      "default": ""
+    },
+    "size": {
+      "label": "Size",
+      "type": "string",
+      "default": ""
+    },
+    "vitality": {
+      "label": "Vitality",
+      "type": "string",
+      "default": ""
+    },
+    "vitRed": {
+      "label": "Vit. Red",
+      "type": "string",
+      "default": ""
+    },
+    "ocb": {
+      "label": "OCB",
+      "type": "string",
+      "default": ""
+    },
+    "babes": {
+      "label": "Babes",
+      "type": "string",
+      "default": ""
+    },
+    "gold": {
+      "label": "Gold",
+      "type": "string",
+      "default": ""
+    },
+    "beer": {
+      "label": "Beer",
+      "type": "string",
+      "default": ""
+    },
+    "channeling": {
+      "label": "Channeling",
+      "type": "string",
+      "default": ""
+    },
+    "channeler": {
+      "label": "Channeler",
+      "type": "string",
+      "default": ""
+    },
+    "ranged": {
+      "label": "Ranged attack",
+      "type": "string",
+      "default": ""
+    },
+    "command": {
+      "label": "Command",
+      "type": "string",
+      "default": ""
+    },
+    "powerStones": {
+      "label": "Power stones",
+      "type": "string",
+      "default": ""
+    },
+    "basicDraw": {
+      "label": "basic draw",
+      "type": "string",
+      "default": ""
+    },
+    "ldl": {
+      "label": "LDL",
+      "type": "string",
+      "default": ""
+    },
+    "mdl": {
+      "label": "MDL",
+      "type": "string",
+      "default": ""
+    },
+    "luc": {
+      "label": "LUC",
+      "type": "string",
+      "default": ""
+    },
+    "effect": {
+      "label": "Effect",
+      "type": "string",
+      "default": ""
+    },
+    "bonus": {
+      "label": "Bonus",
+      "type": "string",
+      "default": ""
+    },
+    "script": {
+      "label": "Script",
+      "type": "string",
+      "default": ""
+    },
+    "packName": {
+      "label": "Set",
+      "type": "string",
+      "default": ""
+    },
+    "set": {
+      "label": "Lackey Set",
+      "type": "string",
+      "default": ""
+    },
+    "loadGroupId": {
+      "label": "Load Group",
+      "type": "string",
+      "default": ""
+    }
+  }
+}

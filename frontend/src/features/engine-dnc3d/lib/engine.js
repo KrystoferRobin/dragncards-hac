@@ -73,9 +73,9 @@ export function createDnc3DEngine(options = {}) {
   const REGIONS       = options.regions    || DEFAULT_REGIONS;
 
   // Converts a dcStack.left/top value to a 0-1 tilt-relative fraction.
-  // Number values are already tilt-relative (stored by 3D drag in onCardMove).
-  // String values ("50%", "1/20") are region-relative (2D engine / game def) —
-  // convert using the region's own tilt-relative bounds from REGIONS (0-100 scale).
+  // Number values are legacy tilt-relative coords (older 3D drops). String
+  // values ("50%", "1/20") are region-relative — the form we store now so a
+  // seat change can remap the same stack into playerN+1's box.
   function dcPosFrac(val, regionId, isTop, fallback = 0) {
     if (val == null) return fallback;
     if (typeof val === 'number') return isNaN(val) ? fallback : val;
@@ -85,6 +85,26 @@ export function createDnc3DEngine(options = {}) {
     return isTop
       ? (region.top  + pct * region.height) / 100
       : (region.left + pct * region.width)  / 100;
+  }
+
+  // Inverse of dcPosFrac for string positions: tilt 0-1 → percent of the dest region.
+  function tiltFracToRegionPercent(frac, region, isTop) {
+    if (frac == null || !region) return frac;
+    const origin = isTop ? region.top : region.left;
+    const size = isTop ? region.height : region.width;
+    if (!size) return 0;
+    return ((frac * 100 - origin) / size) * 100;
+  }
+
+  function regionRelativeDropPos(fracX, fracY, regionId) {
+    const region = REGIONS[regionId];
+    if (!region || region.type !== 'free' || fracX == null || fracY == null) {
+      return { fracX, fracY };
+    }
+    return {
+      fracX: `${tiltFracToRegionPercent(fracX, region, false)}%`,
+      fracY: `${tiltFracToRegionPercent(fracY, region, true)}%`,
+    };
   }
 
   const onCardMove    = options.onCardMove || null;
@@ -100,6 +120,8 @@ export function createDnc3DEngine(options = {}) {
   const onDragStart    = options.onDragStart    || null;
   const onGroupBrowse  = options.onGroupBrowse  || null;
   const onGroupMenu    = options.onGroupMenu    || null;
+  const onProvinceDestroyedToggle = options.onProvinceDestroyedToggle || null;
+  const onClaimFavor = options.onClaimFavor || null;
   const getCardName    = options.getCardName    || null;
   const resolveSideImage = options.resolveSideImage || null;
   // Card sizing — mirrors the 2D renderer's cardSize * zoomFactor * 1.7dvh formula.
@@ -230,6 +252,8 @@ export function createDnc3DEngine(options = {}) {
 
   const scrollOuterEls   = {};
   const regionOutlineEls = {};
+  const provinceWreckEls = {};
+  const favorClaimEls = {};
   const regionFillEls    = {}; // per-region background fill; sits BELOW the cards
   const regionIconEls    = {};
   const regionLabelEls   = {};
@@ -554,7 +578,7 @@ export function createDnc3DEngine(options = {}) {
     updateScrollOuters();
 
     const outline = document.createElement('div');
-    outline.className = 'dnc3d-region-outline dnc3d-region-elevated';
+    outline.className = 'dnc3d-region-outline dnc3d-region-elevated dnc3d-browse-fan';
     outline.style.transform  = `translateZ(${layerZPx(cardHeightPx()) * r.layerIndex - 1}px)`;
     outline.style.left       = r.left   + '%';
     outline.style.top        = r.top    + '%';
@@ -2366,7 +2390,8 @@ export function createDnc3DEngine(options = {}) {
               }
               const cbRegion    = (targetRegionId === '_browse' && _browseGroupId) ? _browseGroupId : targetRegionId;
               const cbInsertIdx = regionType === 'pile' ? 0 : undefined;
-              onCardMove(c0.id, oldRegionId, cbRegion, c0.fracX, c0.fracY, cbInsertIdx);
+              const savePos     = regionRelativeDropPos(c0.fracX, c0.fracY, cbRegion);
+              onCardMove(c0.id, oldRegionId, cbRegion, savePos.fracX, savePos.fracY, cbInsertIdx);
             }
           } else {
             // Miss — slide back to origin while staying raised, then lift down.
@@ -2567,6 +2592,35 @@ export function createDnc3DEngine(options = {}) {
       label.textContent = r.label || id;
       strip.appendChild(label);
       regionLabelEls[id] = label;
+      if (/Province[1-4]$/.test(id) && onProvinceDestroyedToggle) {
+        const wreck = document.createElement('button');
+        wreck.type = 'button';
+        wreck.className = 'dnc3d-province-wreck-btn';
+        wreck.textContent = '×';
+        wreck.title = 'Destroy this province';
+        wreck.setAttribute('aria-pressed', 'false');
+        wreck._activate = () => onProvinceDestroyedToggle(id);
+        wreck.addEventListener('click', (e) => {
+          e.stopPropagation();
+          onProvinceDestroyedToggle(id);
+        });
+        outline.appendChild(wreck);
+        provinceWreckEls[id] = wreck;
+      }
+      if (/Favor$/.test(id) && id !== 'sharedFavor' && onClaimFavor) {
+        const claim = document.createElement('button');
+        claim.type = 'button';
+        claim.className = 'dnc3d-favor-claim-btn';
+        claim.textContent = 'F';
+        claim.title = 'Claim the Imperial Favor';
+        claim._activate = () => onClaimFavor(id);
+        claim.addEventListener('click', (e) => {
+          e.stopPropagation();
+          onClaimFavor(id);
+        });
+        outline.appendChild(claim);
+        favorClaimEls[id] = claim;
+      }
       if (r.type === 'pile') {
         // Appended to tiltEl (not the outline) so it shares the cards' 3D space
         // and isn't clipped by the outline; positioned + raised in Z on hover.
@@ -2922,7 +2976,28 @@ export function createDnc3DEngine(options = {}) {
       // in the outline beneath it. Detect by 2D geometry and fire on pointerup.
       // Guard: if pointerdown landed on a button natively (base-layer regions
       // where the outline is in front), skip this path to avoid double-firing.
-      if (!e.target.closest('.dnc3d-region-icon-btn')) {
+      if (!e.target.closest('.dnc3d-region-icon-btn') && !e.target.closest('.dnc3d-province-wreck-btn') && !e.target.closest('.dnc3d-favor-claim-btn')) {
+        const cornerBtns = [...Object.values(provinceWreckEls), ...Object.values(favorClaimEls)];
+        for (const wreck of cornerBtns) {
+          const br = wreck.getBoundingClientRect();
+          if (e.clientX >= br.left && e.clientX <= br.right &&
+              e.clientY >= br.top && e.clientY <= br.bottom) {
+            e.preventDefault();
+            const upHandler = () => {
+              window.removeEventListener('pointerup', upHandler, true);
+              if (wreck._activate) {
+                const blockClick = (ce) => {
+                  ce.stopPropagation();
+                  window.removeEventListener('click', blockClick, true);
+                };
+                window.addEventListener('click', blockClick, true);
+                wreck._activate();
+              }
+            };
+            window.addEventListener('pointerup', upHandler, true);
+            return;
+          }
+        }
         for (const iconsEl of Object.values(regionIconEls)) {
           if (!iconsEl.classList.contains('dnc3d-icons-shown')) continue;
           for (const btn of iconsEl.querySelectorAll('.dnc3d-region-icon-btn')) {
@@ -3209,6 +3284,8 @@ export function createDnc3DEngine(options = {}) {
       Object.keys(arrowEls).forEach(k => delete arrowEls[k]);
       _attachTargetIconEl = null;
       Object.keys(regionOutlineEls).forEach(k => delete regionOutlineEls[k]);
+      Object.keys(provinceWreckEls).forEach(k => delete provinceWreckEls[k]);
+      Object.keys(favorClaimEls).forEach(k => delete favorClaimEls[k]);
       Object.keys(regionIconEls).forEach(k => delete regionIconEls[k]);
       Object.keys(regionLabelEls).forEach(k => delete regionLabelEls[k]);
       Object.keys(regionCountEls).forEach(k => delete regionCountEls[k]);
@@ -3797,6 +3874,15 @@ export function createDnc3DEngine(options = {}) {
     if (!game || !idMap || !cards.length) return;
     const cardById  = game.cardById  || {};
     const stackById = game.stackById || {};
+    const groupById = game.groupById || {};
+    Object.entries(provinceWreckEls).forEach(([id, btn]) => {
+      const wrecked = !!groupById[id]?.destroyed;
+      btn.classList.toggle('dnc3d-province-wreck-on', wrecked);
+      btn.title = wrecked ? 'Restore this province' : 'Destroy this province';
+      btn.setAttribute('aria-pressed', wrecked ? 'true' : 'false');
+      regionFillEls[id]?.classList.toggle('dnc3d-province-destroyed', wrecked);
+      regionOutlineEls[id]?.classList.toggle('dnc3d-province-destroyed', wrecked);
+    });
 
     // Keep the browse fan in sync with the live group before the per-card loop so
     // cards dropped into / added to the browsed group are already in '_browse'
@@ -4258,6 +4344,10 @@ export function createDnc3DEngine(options = {}) {
     // Stack composition and look-under state have both settled by now, so the
     // "N behind" badges can be refreshed in one pass.
     syncBehindBadges();
+
+    // SET imageUrl (clan favor art, playmats) does not change currentSide, so
+    // the flip path never repaints. Cheap: skip faces whose url is unchanged.
+    repaintCardFaces(game, idMap);
 
     // Refresh the targeting/arrow overlay from the new game state. The overlay's
     // own rAF loop handles per-frame repositioning while cards are in motion.

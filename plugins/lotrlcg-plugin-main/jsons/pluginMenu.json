@@ -1,0 +1,18 @@
+{
+    "pluginMenu": {
+        "options": [
+            {
+                "label": "id:normalQuest",
+                "actionList": "setQuestNormal"
+            },
+            { 
+                "label": "id:battleQuest",
+                "actionList": "setQuestBattle"
+            },
+            {
+                "label": "id:siegeQuest",
+                "actionList": "setQuestSiege"
+            }
+        ]
+    }
+}

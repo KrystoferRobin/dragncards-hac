@@ -1,0 +1,127 @@
+{
+  "hotkeys": {
+    "game": [
+      {
+        "key": "D",
+        "actionList": "drawDeck",
+        "label": "Draw"
+      },
+      {
+        "key": "S",
+        "actionList": "shuffleDeck",
+        "label": "Shuffle library"
+      },
+      {
+        "key": "R",
+        "actionList": "untapAll",
+        "label": "Untap all"
+      },
+      {
+        "key": "M",
+        "actionList": "mill",
+        "label": "Mill"
+      },
+      {
+        "key": "C",
+        "actionList": "toggleCommanderSlots",
+        "label": "Toggle commander/emblem"
+      },
+      {
+        "key": "Y",
+        "actionList": "increaseLife",
+        "label": "Life +1"
+      },
+      {
+        "key": "U",
+        "actionList": "decreaseLife",
+        "label": "Life -1"
+      },
+      {
+        "key": "6",
+        "actionList": "rollD6",
+        "label": "Roll d6"
+      },
+      {
+        "key": "0",
+        "actionList": "rollD20",
+        "label": "Roll d20"
+      },
+      {
+        "key": "I",
+        "actionList": "flipCoin",
+        "label": "Flip a coin"
+      }
+    ],
+    "card": [
+      {
+        "key": "T",
+        "actionList": "tapCard",
+        "label": "Tap"
+      },
+      {
+        "key": "K",
+        "actionList": "untapCard",
+        "label": "Untap"
+      },
+      {
+        "key": "F",
+        "actionList": [
+          "FLIP",
+          "$ACTIVE_CARD_ID"
+        ],
+        "label": "Flip"
+      },
+      {
+        "key": "X",
+        "actionList": [
+          "DISCARD",
+          "$ACTIVE_CARD_ID"
+        ],
+        "label": "Graveyard"
+      },
+      {
+        "key": "E",
+        "actionList": "exileCard",
+        "label": "Exile"
+      },
+      {
+        "key": "L",
+        "actionList": "toCommand",
+        "label": "To command"
+      },
+      {
+        "key": "A",
+        "actionList": [
+          "DETACH",
+          "$ACTIVE_CARD_ID"
+        ],
+        "label": "Detach"
+      },
+      {
+        "key": "H",
+        "actionList": [
+          "SHUFFLE_INTO_DECK",
+          "$ACTIVE_CARD_ID"
+        ],
+        "label": "Shuffle into library"
+      }
+    ],
+    "token": [
+      {
+        "key": "1",
+        "tokenType": "green",
+        "label": "+1/+1"
+      },
+      {
+        "key": "2",
+        "tokenType": "red",
+        "label": "Damage"
+      },
+      {
+        "key": "3",
+        "tokenType": "blue",
+        "label": "Other"
+      }
+    ]
+  }
+}

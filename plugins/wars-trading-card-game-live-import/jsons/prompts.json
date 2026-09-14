@@ -1,0 +1,14 @@
+{
+  "prompts": {
+    "welcome1": {
+      "args": [],
+      "message": "Welcome to the WARS TCG in DragnCards 2.0! You can build a custom deck under 'Builder' or load a pre-built from 'Menu -> Load. To start a game - Search your Reserve for a site card and put it in play. Roll or flip to see who goes first. Draw 8 cards (Hotkey S). TAB Key displays hotkeys. Visit https://warstcg.org for more information, and online rules.",
+      "options": [
+        {
+          "hotkey": "K",
+          "label": "OK"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "browse": {
+    "filterPropertySideA": "type",
+    "filterValuesSideA": [
+      "Adventure",
+      "Ally",
+      "Artifact",
+      "Event",
+      "Investigator",
+      "Location",
+      "Monster",
+      "Spell",
+      "Tome"
+    ],
+    "textPropertiesSideA": [
+      "name",
+      "attributes",
+      "text",
+      "packName",
+      "region",
+      "city"
+    ]
+  }
+}

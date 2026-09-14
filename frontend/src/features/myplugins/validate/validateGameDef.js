@@ -118,10 +118,9 @@ export const validateSchema = (gameDef, path, data, schema, errors) => {
       errors.push(`Invalid key in ${path}: "${data}". Key must be present in gameDef.groups.`);
       return;
     }
-    // Replace "{playerN}" or "{playerN+#}" with "player1"
-    var reformattedGroupId = data.replace(/{playerN+(\+\d+)?}/, "player1");
-    // Replace "playerN" or "playerN+#" with "player1"
-    reformattedGroupId = reformattedGroupId.replace(/playerN+(\+\d+)?/, "player1");
+    // One "N" only — N+ (one or more N) ate suffixes like NetNavi / Nation.
+    var reformattedGroupId = data.replace(/\{player[NSL]([+-]\d+)?\}/, "player1");
+    reformattedGroupId = reformattedGroupId.replace(/player[NSL]([+-]\d+)?/, "player1");
     // Check if the group is in gameDef.groups
     if (!gameDef.groups[reformattedGroupId]) {
       errors.push(`Invalid key in ${path}: "${data}". Key must be present in gameDef.groups.`);
@@ -148,7 +147,7 @@ export const validateSchema = (gameDef, path, data, schema, errors) => {
       
     // Special exception for loadGroupIds and moveToGroupIds - you can start a group with "playerN"
     // even if it is not in gameDef.groups, and it will be resolved at load time.
-    if ((path.includes("loadGroupId") || path.includes("moveToGroupIds")) && data.startsWith("playerN"))
+    if ((path.includes("loadGroupId") || path.includes("moveToGroupIds")) && /^player[NSL]/.test(data))
       return;
 
     errors.push(`Invalid key in ${path}: "${data}". Key must be present in ${schema._memberOfPath_}.`);

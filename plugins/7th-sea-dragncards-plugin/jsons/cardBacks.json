@@ -1,0 +1,9 @@
+{
+  "cardBacks": {
+    "default": {
+      "width": 0.72,
+      "height": 1.0,
+      "imageUrl": "7th-sea/_plugin/7thSea-cardback.jpg"
+    }
+  }
+}

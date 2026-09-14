@@ -1,0 +1,21 @@
+{
+  "spawnExistingCardModal": {
+    "columnProperties": [
+      "name",
+      "type"
+    ],
+    "loadGroupIds": [
+      "player1Deck",
+      "player1Fellowship",
+      "player1Support",
+      "player1AdventureDeck",
+      "sharedAdventurePath",
+      "sharedShadow",
+      "player2Deck",
+      "player2Fellowship",
+      "player2Support",
+      "player2AdventureDeck",
+      "sharedSkirmish"
+    ]
+  }
+}

@@ -43,9 +43,13 @@ defmodule DragnCardsGame.Evaluate.Functions.DECREASE_VAL do
     else
       game
     end
-    old_value = old_value || 0
+    old_value = as_number(old_value)
+    delta = as_number(delta)
     PutByPath.put_by_path(game, path, old_value - delta, trace ++ ["put_by_path"])
   end
 
-
+  defp as_number(val) when is_number(val), do: val
+  defp as_number(val) do
+    DragnCardsUtil.ConvertType.convert_to_integer(val) || 0
+  end
 end

@@ -15,9 +15,11 @@ import { Phases } from './tabs/Phases';
 import { Tokens } from './tabs/Tokens';
 import { SaveNewPlugin } from './tabs/SaveNewPlugin';
 import { Instructions } from './tabs/Instructions';
+import { EditPlugin } from './tabs/EditPlugin';
 
 const tabs = [
   'Instructions',
+  'Edit Plugin',
   'Card Data',
   'Card Types',
   'Card Backs',
@@ -61,6 +63,14 @@ export default function PluginBuilder() {
   const showTab = (key) => {
     switch (key) {
       case 'Instructions': return <Instructions />;
+      case 'Edit Plugin': return (
+        <EditPlugin
+          inputs={inputs}
+          setInputs={setInputs}
+          onPluginLoaded={() => setMaxUnlockedTabIndex(tabs.length - 1)}
+          onCleared={() => setMaxUnlockedTabIndex(tabs.indexOf('Edit Plugin'))}
+        />
+      );
       case 'Card Data': return <CardData inputs={inputs} setInputs={setInputs} />;
       case 'Card Types': return <CardTypes inputs={inputs} setInputs={setInputs} />;
       case 'Card Backs': return <CardBacks inputs={inputs} setInputs={setInputs} />;
@@ -74,14 +84,14 @@ export default function PluginBuilder() {
       case 'Deckbuilder': return <Deckbuilder inputs={inputs} setInputs={setInputs} />;
       case 'Phases': return <Phases inputs={inputs} setInputs={setInputs} />;
       case 'Tokens': return <Tokens inputs={inputs} setInputs={setInputs} />;
-      case 'Save Plugin': return <SaveNewPlugin inputs={inputs} />;
+      case 'Save Plugin': return <SaveNewPlugin inputs={inputs} setInputs={setInputs} />;
       default: return null;
     }
   };
 
   const handleTabClick = (label, index) => {
     const isBeforeCardData = index <= tabs.indexOf('Card Data');
-    const isCardDbReady = !!inputs.cardDb;
+    const isCardDbReady = !!inputs.cardDb && Object.keys(inputs.cardDb).length > 0;
     const isUnlocked = index <= maxUnlockedTabIndex + 1;
     const isAllowed =
       isBeforeCardData || (isCardDbReady && isUnlocked);
@@ -101,7 +111,7 @@ export default function PluginBuilder() {
           {tabs.map((label, index) => {
             const isActive = activeTab === label;
             const isBeforeCardData = index <= tabs.indexOf('Card Data');
-            const isCardDbReady = !!inputs.cardDb;
+            const isCardDbReady = !!inputs.cardDb && Object.keys(inputs.cardDb).length > 0;
             const isUnlocked = index <= maxUnlockedTabIndex + 1;
             const isAllowed = isBeforeCardData || (isCardDbReady && isUnlocked);
             const isDisabled = !isAllowed;

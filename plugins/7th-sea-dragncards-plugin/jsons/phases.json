@@ -1,0 +1,9 @@
+{
+  "phases": {
+    "turnOrder": {"label": "1 Turn Order", "height": "25%"},
+    "actions": {"label": "2 Actions", "height": "25%"},
+    "draw": {"label": "3 Draw", "height": "25%"},
+    "untack": {"label": "4 Untack", "height": "25%"}
+  },
+  "phaseOrder": ["turnOrder", "actions", "draw", "untack"]
+}

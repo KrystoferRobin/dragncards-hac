@@ -1,0 +1,21 @@
+{
+  "browse": {
+    "filterPropertySideA": "type",
+    "filterValuesSideA": [
+      "Agenda",
+      "Hardware",
+      "Ice",
+      "Node",
+      "Operation",
+      "Prep",
+      "Program",
+      "Resource",
+      "Upgrade"
+    ],
+    "textPropertiesSideA": [
+      "name",
+      "packName",
+      "text"
+    ]
+  }
+}

@@ -1,0 +1,8 @@
+Built 2026-09-12 19:10 UTC from OCTGN montypython.
+Source: /Volumes/Expand/ai-projects/hundredacreclub/tcg-engines/dragncards-main/plugins/octgn/montypython
+Art: monty-python_image_pack.o8c
+Author credit: OCTGN / StormyWaters2021
+
+Tabletop plugin only — OCTGN scripts were not ported.
+TSV rows: 536  images copied: 536  missing art: 12
+Prebuilts: 11

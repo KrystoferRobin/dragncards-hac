@@ -1,0 +1,32 @@
+{
+  "phases": {
+    "Fellowship": {
+      "height": "10.0%",
+      "label": "id:Fellowship"
+    },
+    "Shadow": {
+      "height": "10.0%",
+      "label": "id:Shadow"
+    },
+    "Maneuver": {
+      "height": "10.0%",
+      "label": "id:Maneuver"
+    },
+    "Archery": {
+      "height": "10.0%",
+      "label": "id:Archery"
+    },
+    "Assignment": {
+      "height": "10.0%",
+      "label": "id:Assignment"
+    },
+    "Skirmish": {
+      "height": "14.0%",
+      "label": "id:Skirmish"
+    },
+    "Regroup": {
+      "height": "10.0%",
+      "label": "id:Regroup"
+    }
+  }
+}

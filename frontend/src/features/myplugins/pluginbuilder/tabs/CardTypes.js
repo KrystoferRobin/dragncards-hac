@@ -5,7 +5,10 @@ export const CardTypes = ({ inputs, setInputs }) => {
   const siteL10n = useSiteL10n();
   const cardDb = inputs?.cardDb || {};
   const listOfTypes = Object.keys(cardDb).map((cardId) => cardDb[cardId]?.A?.type).filter(Boolean);
-  const uniqueTypes = Array.from(new Set(listOfTypes)).sort();
+  const uniqueTypes = Array.from(new Set([
+    ...listOfTypes,
+    ...Object.keys(inputs?.cardTypes || {}),
+  ])).sort();
 
   // Initialize cardTypes if not present
   const cardTypes = inputs?.cardTypes || {};

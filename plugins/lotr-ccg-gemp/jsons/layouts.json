@@ -1,0 +1,249 @@
+{
+  "layouts": {
+    "default": {
+      "cardSize": 10,
+      "chat": {
+        "height": "40%",
+        "left": "86%",
+        "top": "30%",
+        "width": "14%"
+      },
+      "regions": {
+        "player2Hand": {
+          "cardSizeFactor": 1,
+          "direction": "horizontal",
+          "groupId": "player2Hand",
+          "height": "11%",
+          "left": "0%",
+          "top": "0%",
+          "type": "row",
+          "width": "58%"
+        },
+        "player2Support": {
+          "cardSizeFactor": 0.75,
+          "direction": "horizontal",
+          "groupId": "player2Support",
+          "height": "10%",
+          "left": "0%",
+          "top": "11%",
+          "type": "free",
+          "width": "72%",
+          "style": {
+            "background": "rgba(0,0,0,0.15)"
+          }
+        },
+        "player2Fellowship": {
+          "cardSizeFactor": 0.75,
+          "direction": "horizontal",
+          "groupId": "player2Fellowship",
+          "height": "13%",
+          "left": "0%",
+          "top": "21%",
+          "type": "free",
+          "width": "72%"
+        },
+        "sharedAdventurePath": {
+          "cardSizeFactor": 0.75,
+          "direction": "horizontal",
+          "groupId": "sharedAdventurePath",
+          "height": "10%",
+          "left": "0%",
+          "top": "34%",
+          "type": "free",
+          "width": "72%",
+          "style": {
+            "background": "rgba(0,0,0,0.3)"
+          }
+        },
+        "sharedShadow": {
+          "cardSizeFactor": 0.75,
+          "direction": "horizontal",
+          "groupId": "sharedShadow",
+          "height": "13%",
+          "left": "0%",
+          "top": "44%",
+          "type": "free",
+          "width": "72%",
+          "style": {
+            "background": "rgba(80,0,0,0.2)"
+          }
+        },
+        "player1Fellowship": {
+          "cardSizeFactor": 0.75,
+          "direction": "horizontal",
+          "groupId": "player1Fellowship",
+          "height": "13%",
+          "left": "0%",
+          "top": "57%",
+          "type": "free",
+          "width": "72%"
+        },
+        "player1Support": {
+          "cardSizeFactor": 0.75,
+          "direction": "horizontal",
+          "groupId": "player1Support",
+          "height": "10%",
+          "left": "0%",
+          "top": "70%",
+          "type": "free",
+          "width": "72%",
+          "style": {
+            "background": "rgba(0,0,0,0.15)"
+          }
+        },
+        "player1Hand": {
+          "cardSizeFactor": 1,
+          "direction": "horizontal",
+          "groupId": "player1Hand",
+          "height": "12%",
+          "left": "0%",
+          "top": "80%",
+          "type": "row",
+          "width": "58%"
+        },
+        "sharedSkirmish": {
+          "direction": "vertical",
+          "groupId": "sharedSkirmish",
+          "height": "50%",
+          "left": "72.5%",
+          "style": {
+            "background": "rgba(0,0,0,0.3)"
+          },
+          "top": "25%",
+          "type": "free",
+          "width": "6%"
+        },
+        "player2Deck": {
+          "direction": "horizontal",
+          "groupId": "player2Deck",
+          "height": "12%",
+          "left": "58%",
+          "top": "0%",
+          "type": "pile",
+          "width": "7%"
+        },
+        "player2Discard": {
+          "direction": "horizontal",
+          "groupId": "player2Discard",
+          "height": "12%",
+          "left": "65%",
+          "top": "0%",
+          "type": "pile",
+          "width": "7%"
+        },
+        "player2Dead": {
+          "direction": "horizontal",
+          "groupId": "player2Dead",
+          "height": "12%",
+          "left": "72%",
+          "top": "0%",
+          "type": "pile",
+          "width": "7%"
+        },
+        "player2AdventureDeck": {
+          "direction": "horizontal",
+          "groupId": "player2AdventureDeck",
+          "height": "12%",
+          "left": "79%",
+          "top": "0%",
+          "type": "pile",
+          "width": "7%"
+        },
+        "player1Deck": {
+          "direction": "horizontal",
+          "groupId": "player1Deck",
+          "height": "12%",
+          "left": "58%",
+          "top": "88%",
+          "type": "pile",
+          "width": "7%"
+        },
+        "player1Discard": {
+          "direction": "horizontal",
+          "groupId": "player1Discard",
+          "height": "12%",
+          "left": "65%",
+          "top": "88%",
+          "type": "pile",
+          "width": "7%"
+        },
+        "player1Dead": {
+          "direction": "horizontal",
+          "groupId": "player1Dead",
+          "height": "12%",
+          "left": "72%",
+          "top": "88%",
+          "type": "pile",
+          "width": "7%"
+        },
+        "player1AdventureDeck": {
+          "direction": "horizontal",
+          "groupId": "player1AdventureDeck",
+          "height": "12%",
+          "left": "79%",
+          "top": "88%",
+          "type": "pile",
+          "width": "7%"
+        }
+      },
+      "rowSpacing": 3,
+      "tableButtons": {
+        "p1endTurnSuggestion": {
+          "actionList": [
+            "P1END_TURN"
+          ],
+          "height": "4%",
+          "label": "P1 End Turn",
+          "left": "86%",
+          "top": "78%",
+          "visible": true,
+          "width": "13%"
+        },
+        "p1startTurn": {
+          "actionList": [
+            "P1START_TURN"
+          ],
+          "height": "4%",
+          "label": "P1 Fellowship",
+          "left": "86%",
+          "top": "73%",
+          "visible": true,
+          "width": "13%"
+        },
+        "p2endTurnSuggestion": {
+          "actionList": [
+            "P2END_TURN"
+          ],
+          "height": "4%",
+          "label": "P2 End Turn",
+          "left": "86%",
+          "top": "22%",
+          "visible": true,
+          "width": "13%"
+        },
+        "p2startTurn": {
+          "actionList": [
+            "P2START_TURN"
+          ],
+          "height": "4%",
+          "label": "P2 Fellowship",
+          "left": "86%",
+          "top": "17%",
+          "visible": true,
+          "width": "13%"
+        }
+      },
+      "testBorders": false,
+      "textBoxes": {
+        "roundAdvancement": {
+          "height": "3%",
+          "label": "Menu → Load a draw deck. Sites go on the adventure path. TAB for hotkeys.",
+          "left": "0%",
+          "top": "0%",
+          "visible": true,
+          "width": "86%"
+        }
+      }
+    }
+  }
+}

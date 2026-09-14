@@ -1,0 +1,17 @@
+{
+  "deckbuilder": {
+    "addButtons": [1, 2, 3, 4],
+    "columns": [
+      {"propName": "name", "label": "Name"},
+      {"propName": "type", "label": "Type"},
+      {"propName": "cost", "label": "Cost"},
+      {"propName": "affiliation", "label": "Affiliation"},
+      {"propName": "set", "label": "Set"},
+      {"propName": "text", "label": "Text"}
+    ],
+    "spawnGroups": [
+      {"loadGroupId": "playerNStockpile", "label": "My Stockpile"},
+      {"loadGroupId": "playerNSideboard", "label": "My Sideboard"}
+    ]
+  }
+}

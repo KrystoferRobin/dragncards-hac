@@ -1,0 +1,14 @@
+{
+  "groupMenu": {
+    "moveToGroupIds": [
+      "playerNMainDeck",
+      "playerNCharacterDeck",
+      "playerNDiscard",
+      "playerNHand",
+      "playerNPlay",
+      "playerN+1Play",
+      "sharedSetAside"
+    ],
+    "options": []
+  }
+}

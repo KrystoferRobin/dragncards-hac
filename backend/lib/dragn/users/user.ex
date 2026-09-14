@@ -56,7 +56,7 @@ defmodule DragnCards.Users.User do
       email: user.email,
       inserted_at: user.inserted_at,
       email_confirmed_at: user.email_confirmed_at,
-      supporter_level: user.supporter_level,
+      supporter_level: max(user.supporter_level || 0, 10),
       patreon_member_id: user.patreon_member_id,
       language: user.language,
       timezone: user.timezone,

@@ -1,0 +1,16 @@
+{
+  "playerProperties": {
+    "level": {
+      "label": "Level",
+      "type": "integer",
+      "default": 0,
+      "min": 0
+    },
+    "hitPoints": {
+      "label": "HP",
+      "type": "integer",
+      "default": 0,
+      "min": 0
+    }
+  }
+}

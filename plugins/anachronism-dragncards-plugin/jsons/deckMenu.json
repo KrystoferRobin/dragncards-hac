@@ -1,0 +1,23 @@
+{
+  "deckMenu": {
+    "subMenus": [
+      {
+        "label": "Sample Armies",
+        "deckLists": [
+          {
+            "label": "Sample: Achilles",
+            "deckListId": "achilles"
+          },
+          {
+            "label": "Sample: Miyamoto Musashi",
+            "deckListId": "musashi"
+          },
+          {
+            "label": "Sample: Julius Caesar",
+            "deckListId": "caesar"
+          }
+        ]
+      }
+    ]
+  }
+}

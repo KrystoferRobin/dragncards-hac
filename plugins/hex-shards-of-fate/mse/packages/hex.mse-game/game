@@ -1,0 +1,627 @@
+mse version: 2.1.2
+short name: HEX
+full name: HEX: Shards of Fate
+version: 0.1.2
+
+has keywords: true
+
+keyword mode:
+	name: hex
+	description: HEX glossary
+	is default: true
+
+keyword parameter type:
+	name: number
+	description: A number after a keyword, such as Rage 1
+	match: [0-9]+
+	separator before is: " "
+	optional: true
+
+set field:
+	type: text
+	name: title
+	identifying: true
+
+set field:
+	type: text
+	name: description
+	multi line: true
+
+card field:
+	type: text
+	name: name
+	identifying: true
+
+
+card field:
+	type: text
+	name: card_type
+	description: Troop, Basic Action, Quick Action, Constant, Artifact, Resource, Champion, …
+
+
+card field:
+	type: text
+	name: subtype
+
+
+card field:
+	type: text
+	name: type_line
+	editable: false
+	save value: false
+	script: { to_upper(card.card_type) + (if to_lower(card.card_type) == "resource" then "" else (if card.subtype != "" then " -- " + card.subtype else "")) + (if card.unique == "yes" then " Unique" else "") }
+
+
+card field:
+	type: text
+	name: cost
+
+
+card field:
+	type: text
+	name: threshold
+	description: Blood / Ruby / Diamond / Sapphire / Wild, comma-separated
+
+
+card field:
+	type: text
+	name: text
+	multi line: true
+	script: { expand_keywords(default_expand: { true }, combine: { "<color:rgb(64,176,255)><u>" + keyword + "</u></color>" }) }
+
+
+card field:
+	type: text
+	name: flavor
+	multi line: true
+
+
+card field:
+	type: text
+	name: attack
+
+
+card field:
+	type: text
+	name: defense
+
+
+card field:
+	type: text
+	name: health
+
+
+card field:
+	type: choice
+	name: rarity
+	choice: Common
+	choice: Uncommon
+	choice: Rare
+	choice: Legendary
+	choice: Epic
+	choice: Promo
+	choice: Land
+	choice: Champion
+
+
+card field:
+	type: choice
+	name: faction
+	choice: 
+	choice: Ardent
+	choice: Underworld
+	choice: Neutral
+
+
+card field:
+	type: choice
+	name: pve
+	choice: no
+	choice: yes
+	default: no
+
+
+card field:
+	type: choice
+	name: unique
+	choice: no
+	choice: yes
+	default: no
+
+
+card field:
+	type: choice
+	name: immortal
+	choice: no
+	choice: yes
+	default: no
+	description: CardTemplate.IsImmortal() — Immortal-format chrome, not the keyword
+
+
+card field:
+	type: image
+	name: art
+
+
+keyword:
+	keyword: Allegiance
+	match: Allegiance
+	mode: hex
+	reminder: { "This power is active while you have another troop of the bolded characteristic in your hand or in play." }
+	rules: "This power is active while you have another troop of the bolded characteristic in your hand or in play."
+
+keyword:
+	keyword: Armor
+	match: Armor <atom-param>number</atom-param>
+	mode: hex
+	reminder: { "At the start of each turn, you get \"Prevent the next damage that would be dealt to you this turn\", for each armor you have." }
+	rules: "At the start of each turn, you get \"Prevent the next damage that would be dealt to you this turn\", for each armor you have."
+
+keyword:
+	keyword: Assault
+	match: Assault
+	mode: hex
+	reminder: { "When a troop you control attacks and this card is in your hand it will execute the effect described." }
+	rules: "When a troop you control attacks and this card is in your hand it will execute the effect described."
+
+keyword:
+	keyword: Boon
+	match: Boon
+	mode: hex
+	reminder: { "Boons are one of the following powers: Crush; Feral; Flight; Lethal; Lifedrain; Rage 1; Speed; Spellshield; Steadfast; and Swiftstrike." }
+	rules: "Boons are one of the following powers: Crush; Feral; Flight; Lethal; Lifedrain; Rage 1; Speed; Spellshield; Steadfast; and Swiftstrike."
+
+keyword:
+	keyword: Burning
+	match: Burning
+	mode: hex
+	reminder: { "At the end of your turn, you’ll be dealt damage equal to the number of burning counters you have. Then, remove a burning counter from you. Then, if none remain, you’re no longer Burning." }
+	rules: "At the end of your turn, you’ll be dealt damage equal to the number of burning counters you have. Then, remove a burning counter from you. Then, if none remain, you’re no longer Burning."
+
+keyword:
+	keyword: Can't Be Blocked
+	match: Can't Be Blocked
+	mode: hex
+	reminder: { "This can't be blocked." }
+	rules: "This can't be blocked."
+
+keyword:
+	keyword: Can't Block
+	match: Can't Block
+	mode: hex
+	reminder: { "This can't block" }
+	rules: "This can't block"
+
+keyword:
+	keyword: Conscript
+	match: Conscript
+	mode: hex
+	reminder: { "Create a troop and put it into your hand. Its thresholds become equal to thresholds of the card that created it." }
+	rules: "Create a troop and put it into your hand. Its thresholds become equal to thresholds of the card that created it."
+
+keyword:
+	keyword: Crush
+	match: Crush
+	mode: hex
+	reminder: { "If this assigns more than fatal combat damage to all troops blocking it, the rest will be assigned to the defending champion" }
+	rules: "If this assigns more than fatal combat damage to all troops blocking it, the rest will be assigned to the defending champion"
+
+keyword:
+	keyword: Damage Shield
+	match: Damage Shield
+	mode: hex
+	reminder: { "Prevent the next damage that would be dealt to this." }
+	rules: "Prevent the next damage that would be dealt to this."
+
+keyword:
+	keyword: Dazed
+	match: Dazed
+	mode: hex
+	reminder: { "Each non-resource card in your hand has cost +(1). At the end of your turn, remove a dazed counter from you. Then, if none remain, you’re no longer Dazed." }
+	rules: "Each non-resource card in your hand has cost +(1). At the end of your turn, remove a dazed counter from you. Then, if none remain, you’re no longer Dazed."
+
+keyword:
+	keyword: Death Sentence
+	match: Death Sentence
+	mode: hex
+	reminder: { "Death Sentence has no inherent meaning. It is a keyword that other cards or powers will reference." }
+	rules: "Death Sentence has no inherent meaning. It is a keyword that other cards or powers will reference."
+
+keyword:
+	keyword: Deathcry
+	match: Deathcry
+	mode: hex
+	reminder: { "When this dies, the following effect will execute." }
+	rules: "When this dies, the following effect will execute."
+
+keyword:
+	keyword: Defensive
+	match: Defensive
+	mode: hex
+	reminder: { "This can’t attack" }
+	rules: "This can’t attack"
+
+keyword:
+	keyword: Deploy
+	match: Deploy
+	mode: hex
+	reminder: { "When this enters play, the following effect will execute." }
+	rules: "When this enters play, the following effect will execute."
+
+keyword:
+	keyword: Diligence
+	match: Diligence
+	mode: hex
+	reminder: { "When this readies, the following effect will execute." }
+	rules: "When this readies, the following effect will execute."
+
+keyword:
+	keyword: Empower
+	match: Empower
+	mode: hex
+	reminder: { "While this is in your hand: (0) → Transform this into Empowered #SELF#, doubling all starting numbers in this card's textbox. Then, double this card's cost, [ATK], and [DEF]." }
+	rules: "While this is in your hand: (0) → Transform this into Empowered #SELF#, doubling all starting numbers in this card's textbox. Then, double this card's cost, [ATK], and [DEF]."
+
+keyword:
+	keyword: Enters Play Exhausted
+	match: Enters Play Exhausted
+	mode: hex
+	reminder: { "This enters play exhausted." }
+	rules: "This enters play exhausted."
+
+keyword:
+	keyword: Enthralled
+	match: Enthralled
+	mode: hex
+	reminder: { "Enthralled has no inherent meaning. It is a keyword that other cards or powers will reference." }
+	rules: "Enthralled has no inherent meaning. It is a keyword that other cards or powers will reference."
+
+keyword:
+	keyword: Escalation
+	match: Escalation
+	mode: hex
+	reminder: { "Put this into your deck, then add (0) to the bold number of all your cards named [b]#SELF#[/b] in all zones." }
+	rules: "Put this into your deck, then add (0) to the bold number of all your cards named [b]#SELF#[/b] in all zones."
+
+keyword:
+	keyword: Fateweave
+	match: Fateweave
+	mode: hex
+	reminder: { "Choose one: Put a random resource or non-resource from your deck on top of your deck." }
+	rules: "Choose one: Put a random resource or non-resource from your deck on top of your deck."
+
+keyword:
+	keyword: Feral
+	match: Feral
+	mode: hex
+	reminder: { "Can't be blocked by fewer than 2 troops." }
+	rules: "Can't be blocked by fewer than 2 troops."
+
+keyword:
+	keyword: Flight
+	match: Flight
+	mode: hex
+	reminder: { "This can only be blocked by other troops with Flight" }
+	rules: "This can only be blocked by other troops with Flight"
+
+keyword:
+	keyword: Frostform
+	match: Frostform
+	mode: hex
+	reminder: { "While this is in your hand: You may transform this into Brittle #SELF#, making its base [DEF] become one, but playing it for 2 fewer resources." }
+	rules: "While this is in your hand: You may transform this into Brittle #SELF#, making its base [DEF] become one, but playing it for 2 fewer resources."
+
+keyword:
+	keyword: Fusible
+	match: Fusible
+	mode: hex
+	reminder: { "This can be permanently fused with another fusion card, in Deck Builder, to create a new card. The new card has the combined cost, attack, defense, thresholds, and powers of the two fused cards." }
+	rules: "This can be permanently fused with another fusion card, in Deck Builder, to create a new card. The new card has the combined cost, attack, defense, thresholds, and powers of the two fused cards."
+
+keyword:
+	keyword: Gladiator
+	match: Gladiator <atom-param>number</atom-param>
+	mode: hex
+	reminder: { "This has +X[ATK] on your turns, and +X[DEF] on opposing turns." }
+	rules: "This has +X[ATK] on your turns, and +X[DEF] on opposing turns."
+
+keyword:
+	keyword: Illuminate
+	match: Illuminate
+	mode: hex
+	reminder: { "Choose one: Summon X Candlekin. ; or Candlekin you control get +X[ATK]/+X[DEF]." }
+	rules: "Choose one: Summon X Candlekin. ; or Candlekin you control get +X[ATK]/+X[DEF]."
+
+keyword:
+	keyword: Immediate
+	match: Immediate
+	mode: hex
+	reminder: { "[null]" }
+	rules: "[null]"
+
+keyword:
+	keyword: Immortal
+	match: Immortal
+	mode: hex
+	reminder: { "This can’t be damaged or destroyed" }
+	rules: "This can’t be damaged or destroyed"
+
+keyword:
+	keyword: Lethal
+	match: Lethal
+	mode: hex
+	reminder: { "Any amount of damage this deals to a troop is fatal" }
+	rules: "Any amount of damage this deals to a troop is fatal"
+
+keyword:
+	keyword: Lifebound
+	match: Lifebound
+	mode: hex
+	reminder: { "At the start of your turn, if you control a troop with Lifebound, put each troop with Lifebound from your crypt into play." }
+	rules: "At the start of your turn, if you control a troop with Lifebound, put each troop with Lifebound from your crypt into play."
+
+keyword:
+	keyword: Lifedrain
+	match: Lifedrain
+	mode: hex
+	reminder: { "Damage dealt by this causes its controller to gain that much health" }
+	rules: "Damage dealt by this causes its controller to gain that much health"
+
+keyword:
+	keyword: Mobilize
+	match: Mobilize
+	mode: hex
+	reminder: { "When you play this, you may exhaust a troop you control, if you do, you pay (2) less to play this." }
+	rules: "When you play this, you may exhaust a troop you control, if you do, you pay (2) less to play this."
+
+keyword:
+	keyword: Momentum
+	match: Momentum <atom-param>number</atom-param>
+	mode: hex
+	reminder: { "When you play a resource, this gets +[ATK]/+[DEF] equal to its Momentum number until the start of your next turn. Then, increase the Momentum number by 1." }
+	rules: "When you play a resource, this gets +[ATK]/+[DEF] equal to its Momentum number until the start of your next turn. Then, increase the Momentum number by 1."
+
+keyword:
+	keyword: Must Be Blocked
+	match: Must Be Blocked
+	mode: hex
+	reminder: { "Opposing troops must block this if able." }
+	rules: "Opposing troops must block this if able."
+
+keyword:
+	keyword: Portal
+	match: Portal
+	mode: hex
+	reminder: { "At the start of your turn, if this is in your hand, it reverts and transforms it into a random card of the same rarity and of your thresholds." }
+	rules: "At the start of your turn, if this is in your hand, it reverts and transforms it into a random card of the same rarity and of your thresholds."
+
+keyword:
+	keyword: Quick
+	match: Quick
+	mode: hex
+	reminder: { "You may play this card at any time you have priority" }
+	rules: "You may play this card at any time you have priority"
+
+keyword:
+	keyword: Quick Action
+	match: Quick Action
+	mode: hex
+	reminder: { "You may play this card at any time you have priority" }
+	rules: "You may play this card at any time you have priority"
+
+keyword:
+	keyword: Rabid
+	match: Rabid
+	mode: hex
+	reminder: { "Rabid is a One-Shot power that triggers the first time the troop attacks." }
+	rules: "Rabid is a One-Shot power that triggers the first time the troop attacks."
+
+keyword:
+	keyword: Rage
+	match: Rage <atom-param>number</atom-param>
+	mode: hex
+	reminder: { "When a troop with Rage X attacks, it gets +X[ATK] / +0[DEF]" }
+	rules: "When a troop with Rage X attacks, it gets +X[ATK] / +0[DEF]"
+
+keyword:
+	keyword: Rebirth
+	match: Rebirth
+	mode: hex
+	reminder: { "One-Shot: Deathcry - If this is in your crypt, put this into play." }
+	rules: "One-Shot: Deathcry - If this is in your crypt, put this into play."
+
+keyword:
+	keyword: Rowdy
+	match: Rowdy
+	mode: hex
+	reminder: { "When you play a card with cost greater than this, this gets cost +(1) and then execute the described effect." }
+	rules: "When you play a card with cost greater than this, this gets cost +(1) and then execute the described effect."
+
+keyword:
+	keyword: Runic
+	match: Runic
+	mode: hex
+	reminder: { "If you played this from your hand, transform it into a Rune and put it into play." }
+	rules: "If you played this from your hand, transform it into a Rune and put it into play."
+
+keyword:
+	keyword: Scrounge
+	match: Scrounge <atom-param>number</atom-param>
+	mode: hex
+	reminder: { "As an additional cost to play this, you may void N troops from your crypt. If you do, this gets the following power." }
+	rules: "As an additional cost to play this, you may void N troops from your crypt. If you do, this gets the following power."
+
+keyword:
+	keyword: Shell
+	match: Shell
+	mode: hex
+	reminder: { "Prevent all damage that would be dealt to this. When damage is prevented this way, if this is a troop, this gets -1[DEF]. If this is a champion, it loses 1 health." }
+	rules: "Prevent all damage that would be dealt to this. When damage is prevented this way, if this is a troop, this gets -1[DEF]. If this is a champion, it loses 1 health."
+
+keyword:
+	keyword: Shift
+	match: Shift
+	mode: hex
+	reminder: { "Basic One-Shot: (1) → Target troop you control gets the following power, and this loses that power." }
+	rules: "Basic One-Shot: (1) → Target troop you control gets the following power, and this loses that power."
+
+keyword:
+	keyword: Skyguard
+	match: Skyguard
+	mode: hex
+	reminder: { "This can block as though it had Flight" }
+	rules: "This can block as though it had Flight"
+
+keyword:
+	keyword: Soulcursed
+	match: Soulcursed
+	mode: hex
+	reminder: { "When an opposing troop with Soulcursed dies, its controller sacrifices each other troop they control with Soulcursed." }
+	rules: "When an opposing troop with Soulcursed dies, its controller sacrifices each other troop they control with Soulcursed."
+
+keyword:
+	keyword: Spectral
+	match: Spectral
+	mode: hex
+	reminder: { "This is unaffected by all cards, powers, and effects other than its own powers and effects." }
+	rules: "This is unaffected by all cards, powers, and effects other than its own powers and effects."
+
+keyword:
+	keyword: Speed
+	match: Speed
+	mode: hex
+	reminder: { "This can attack and use Exhaust powers on the same turn it enters play" }
+	rules: "This can attack and use Exhaust powers on the same turn it enters play"
+
+keyword:
+	keyword: Spell Shield
+	match: Spell Shield
+	mode: hex
+	reminder: { "This can’t be targeted by opposing cards and effects" }
+	rules: "This can’t be targeted by opposing cards and effects"
+
+keyword:
+	keyword: Sporeatic Growth
+	match: Sporeatic Growth
+	mode: hex
+	reminder: { "When this enters your hand, put it into play. Then, draw a card for each member of the Mustachioed Gang you control." }
+	rules: "When this enters your hand, put it into play. Then, draw a card for each member of the Mustachioed Gang you control."
+
+keyword:
+	keyword: Steadfast
+	match: Steadfast
+	mode: hex
+	reminder: { "This does not exhaust when it attacks" }
+	rules: "This does not exhaust when it attacks"
+
+keyword:
+	keyword: Swiftstrike
+	match: Swiftstrike
+	mode: hex
+	reminder: { "This deals combat damage before non-Swiftstrike troops" }
+	rules: "This deals combat damage before non-Swiftstrike troops"
+
+keyword:
+	keyword: Tamed
+	match: Tamed
+	mode: hex
+	reminder: { "Tamed troops are added to a champion’s collection if that champion wins the current match." }
+	rules: "Tamed troops are added to a champion’s collection if that champion wins the current match."
+
+keyword:
+	keyword: Toxified
+	match: Toxified
+	mode: hex
+	reminder: { "Toxified" }
+	rules: "Toxified"
+
+keyword:
+	keyword: Trained
+	match: Trained
+	mode: hex
+	reminder: { "Trained" }
+	rules: "Trained"
+
+keyword:
+	keyword: Tunneling
+	match: Tunneling <atom-param>number</atom-param>
+	mode: hex
+	reminder: { "You may tunnel this card from your hand by paying its tunneling cost - it is put underground, where it is hidden from your opponent and is not affected by cards that affect cards in play. At the start of your turn, your underground Tunneling cards get a tunneling counter. The card surfaces when the number of tunneling counters on it is equal to, or greater, than its tunneling number; it is played for free immediately and gets Speed this turn." }
+	rules: "You may tunnel this card from your hand by paying its tunneling cost - it is put underground, where it is hidden from your opponent and is not affected by cards that affect cards in play. At the start of your turn, your underground Tunneling cards get a tunneling counter. The card surfaces when the number of tunneling counters on it is equal to, or greater, than its tunneling number; it is played for free immediately and gets Speed this turn."
+
+keyword:
+	keyword: Unblockable
+	match: Unblockable
+	mode: hex
+	reminder: { "This can't be blocked" }
+	rules: "This can't be blocked"
+
+keyword:
+	keyword: Unlimited
+	match: Unlimited
+	mode: hex
+	reminder: { "You may include any number of these in your deck." }
+	rules: "You may include any number of these in your deck."
+
+keyword:
+	keyword: Untamed
+	match: Untamed
+	mode: hex
+	reminder: { "Untamed troops can be Tamed and added to a champion’s collection if that champion wins the current match." }
+	rules: "Untamed troops can be Tamed and added to a champion’s collection if that champion wins the current match."
+
+keyword:
+	keyword: Valorous
+	match: Valorous
+	mode: hex
+	reminder: { "Valorous has no inherent meaning. It is a keyword that other cards or powers will reference." }
+	rules: "Valorous has no inherent meaning. It is a keyword that other cards or powers will reference."
+
+keyword:
+	keyword: Verdict
+	match: Verdict
+	mode: hex
+	reminder: { "Your opponent is given a choice between a bad effect for them or a good effect for you. Then, resolves the chosen effect." }
+	rules: "Your opponent is given a choice between a bad effect for them or a good effect for you. Then, resolves the chosen effect."
+
+keyword:
+	keyword: Vulnerable
+	match: Vulnerable
+	mode: hex
+	reminder: { "If you would be dealt damage, you’re dealt double that amount of damage instead. At the end of your turn, remove a vulnerable counter from you. Then, if none remain, you’re no longer Vulnerable." }
+	rules: "If you would be dealt damage, you’re dealt double that amount of damage instead. At the end of your turn, remove a vulnerable counter from you. Then, if none remain, you’re no longer Vulnerable."
+
+keyword:
+	keyword: Spellshield
+	match: Spellshield
+	mode: hex
+	reminder: { "This can’t be targeted by opposing cards and effects" }
+	rules: "This can’t be targeted by opposing cards and effects"
+
+keyword:
+	keyword: Juggernaut
+	match: Juggernaut
+	mode: hex
+	reminder: { "If this assigns more than fatal combat damage to all troops blocking it, the rest will be assigned to the defending champion" }
+	rules: "If this assigns more than fatal combat damage to all troops blocking it, the rest will be assigned to the defending champion"
+
+keyword:
+	keyword: Juggernaught
+	match: Juggernaught
+	mode: hex
+	reminder: { "If this assigns more than fatal combat damage to all troops blocking it, the rest will be assigned to the defending champion" }
+	rules: "If this assigns more than fatal combat damage to all troops blocking it, the rest will be assigned to the defending champion"
+
+keyword:
+	keyword: First Strike
+	match: First Strike
+	mode: hex
+	reminder: { "This deals combat damage before non-Swiftstrike troops" }
+	rules: "This deals combat damage before non-Swiftstrike troops"
+
+keyword:
+	keyword: Sky Guard
+	match: Sky Guard
+	mode: hex
+	reminder: { "This can block as though it had Flight" }
+	rules: "This can block as though it had Flight"

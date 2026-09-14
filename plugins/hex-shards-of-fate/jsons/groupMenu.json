@@ -1,0 +1,16 @@
+{
+  "groupMenu": {
+    "moveToGroupIds": [
+      "playerNPlay",
+      "playerNChampion",
+      "playerNResources",
+      "playerNSupport",
+      "playerNHand",
+      "playerNDeck",
+      "playerNCrypt",
+      "playerNVoid",
+      "sharedSetAside"
+    ],
+    "options": []
+  }
+}

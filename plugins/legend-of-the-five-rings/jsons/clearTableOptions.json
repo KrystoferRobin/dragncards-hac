@@ -1,0 +1,84 @@
+{
+  "clearTableOptions": [
+    {
+      "label": "Player 1 wins",
+      "actionList": [
+        "SET",
+        "/victoryState",
+        "player1Win"
+      ]
+    },
+    {
+      "label": "Player 2 wins",
+      "actionList": [
+        "SET",
+        "/victoryState",
+        "player2Win"
+      ]
+    },
+    {
+      "label": "Player 3 wins",
+      "actionList": [
+        "SET",
+        "/victoryState",
+        "player3Win"
+      ]
+    },
+    {
+      "label": "Player 4 wins",
+      "actionList": [
+        "SET",
+        "/victoryState",
+        "player4Win"
+      ]
+    },
+    {
+      "label": "Player 5 wins",
+      "actionList": [
+        "SET",
+        "/victoryState",
+        "player5Win"
+      ]
+    },
+    {
+      "label": "Player 6 wins",
+      "actionList": [
+        "SET",
+        "/victoryState",
+        "player6Win"
+      ]
+    },
+    {
+      "label": "Player 7 wins",
+      "actionList": [
+        "SET",
+        "/victoryState",
+        "player7Win"
+      ]
+    },
+    {
+      "label": "Player 8 wins",
+      "actionList": [
+        "SET",
+        "/victoryState",
+        "player8Win"
+      ]
+    },
+    {
+      "label": "Tie",
+      "actionList": [
+        "SET",
+        "/victoryState",
+        "tie"
+      ]
+    },
+    {
+      "label": "Incomplete",
+      "actionList": [
+        "SET",
+        "/victoryState",
+        "incomplete"
+      ]
+    }
+  ]
+}

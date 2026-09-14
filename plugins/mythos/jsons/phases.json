@@ -1,0 +1,36 @@
+{
+  "phases": {
+    "actions": {
+      "label": "Actions",
+      "height": "16%"
+    },
+    "commitMonster": {
+      "label": "Commit Monster",
+      "height": "16%"
+    },
+    "commitAllies": {
+      "label": "Commit Allies",
+      "height": "17%"
+    },
+    "spellsArtifacts": {
+      "label": "Spells/Artifacts",
+      "height": "17%"
+    },
+    "combat": {
+      "label": "Combat",
+      "height": "17%"
+    },
+    "endRound": {
+      "label": "End of Round",
+      "height": "17%"
+    }
+  },
+  "phaseOrder": [
+    "actions",
+    "commitMonster",
+    "commitAllies",
+    "spellsArtifacts",
+    "combat",
+    "endRound"
+  ]
+}

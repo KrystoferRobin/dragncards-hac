@@ -1,0 +1,33 @@
+{
+    "topBarCounters": {
+        "shared": [
+            {
+                "label": "id:round",
+                "imageUrl": "https://toybox.hundredacre.club/cards/lord-of-the-rings-lcg/_plugin/LordOfTheRingsLcg-TokenTime.png",
+                "gameProperty": "roundNumber"
+            },
+            {
+                "label": "id:topBarStagingThreat",
+                "imageUrl": "https://toybox.hundredacre.club/cards/lord-of-the-rings-lcg/_plugin/LordOfTheRingsLcg-TokenThreat.png",
+                "gameProperty": "stagingThreat"
+            },
+            {
+                "label": "id:topBarStagingProgress",
+                "imageUrl": "https://toybox.hundredacre.club/cards/lord-of-the-rings-lcg/_plugin/LordOfTheRingsLcg-TokenProgress.png",
+                "gameProperty": "questProgress"
+            }
+        ],
+        "player": [
+            {
+                "label": "id:threat",
+                "imageUrl": "https://toybox.hundredacre.club/cards/lord-of-the-rings-lcg/_plugin/LordOfTheRingsLcg-TokenThreat.png",
+                "playerProperty": "threat"
+            },
+            {
+                "label": "id:willpower",
+                "imageUrl": "https://toybox.hundredacre.club/cards/lord-of-the-rings-lcg/_plugin/LordOfTheRingsLcg-TokenWillpower.png",
+                "playerProperty": "willpower"
+            }
+        ]
+    }
+}

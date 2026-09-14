@@ -1,0 +1,9 @@
+Built 2026-09-12 16:51 UTC from LackeyCCG fightklub.
+Source: /Users/krystoferrobin/Downloads/lackeyplugins/fightklub
+Art copied from local sets/setimages (no remote host).
+Author credit: Lackey / Fight Klub
+
+Tabletop plugin only — Lackey has no rules engine to port.
+TSV rows: 307  missing images: 1
+No Lackey starter decks shipped with this plugin.
+Missing from the Lackey image dump: Three / 3_009_R_Targeting.

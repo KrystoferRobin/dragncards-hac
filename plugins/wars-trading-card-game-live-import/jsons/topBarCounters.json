@@ -1,0 +1,18 @@
+{
+  "topBarCounters": {
+    "player": [
+      {
+        "imageUrl": "https://toybox.hundredacre.club/cards/wars-trading-card-game/_plugin/WARSTradingCardGame-CardbackNormal.jpg",
+        "label": "id:energy",
+        "playerProperty": "energy"
+      }
+    ],
+    "shared": [
+      {
+        "gameProperty": "roundNumber",
+        "imageUrl": "",
+        "label": "Round"
+      }
+    ]
+  }
+}

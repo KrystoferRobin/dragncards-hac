@@ -1,0 +1,12 @@
+{
+  "pluginName": "Robotech CCG",
+  "author": "Lackey / wishmstr",
+  "tutorialUrl": "https://github.com/wishmstr/RobotechCCG",
+  "announcements": [
+    "Tabletop plugin from the Lackey Robotech CCG set. No rules engine — Draw, Ready/Spend, Battle Points, and counters are shortcuts.",
+    "D = draw. R = ready all. T = spend (rotate 90). K = ready one. X = discard. 1/2 = green/red counters."
+  ],
+  "loadPreBuiltOnNewGame": false,
+  "bannerUrl": "https://toybox.hundredacre.club/cards/robotech-ccg/_plugin/banner.jpg",
+  "logoUrl": "https://toybox.hundredacre.club/cards/robotech-ccg/_plugin/logo.png"
+}

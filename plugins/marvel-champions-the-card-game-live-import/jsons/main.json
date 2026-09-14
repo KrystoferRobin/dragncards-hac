@@ -1,0 +1,601 @@
+{
+  "pluginName": "Marvel Champions: The Card Game",
+  "defaultActions": [
+    {
+      "actionList": [],
+      "condition": [
+        "IN_STRING",
+        "$ACTIVE_CARD.groupId",
+        "Hand"
+      ],
+      "label": ""
+    },
+    {
+      "actionList": "shuffleIntoDeck",
+      "condition": [
+        "EQUAL",
+        "$ACTIVE_CARD.layoutType",
+        "pile"
+      ],
+      "label": "id:shuffle"
+    },
+    {
+      "actionList": "flipCard",
+      "condition": [
+        "AND",
+        [
+          "EQUAL",
+          "$ACTIVE_CARD.currentSide",
+          "B"
+        ],
+        [
+          "NOT_EQUAL",
+          "$ACTIVE_CARD.sides.A.type",
+          "Main Scheme"
+        ]
+      ],
+      "label": "id:flipButton",
+      "position": "bottom"
+    },
+    {
+      "actionList": "flipCard",
+      "condition": [
+        "EQUAL",
+        "$ACTIVE_FACE.type",
+        "Hero"
+      ],
+      "label": "id:flipButton",
+      "position": "bottom"
+    },
+    {
+      "actionList": "flipCard",
+      "condition": [
+        "AND",
+        [
+          "EQUAL",
+          "$ACTIVE_CARD.sides.A.type",
+          "Main Scheme"
+        ],
+        [
+          "EQUAL",
+          "$ACTIVE_CARD.currentSide",
+          "A"
+        ]
+      ],
+      "label": "id:flipButton",
+      "position": "bottom"
+    },
+    {
+      "actionList": [
+        [
+          "LOG",
+          "{{$ALIAS_N}} removed 1 threat token from {{$ACTIVE_FACE.name}}."
+        ],
+        [
+          "DECREASE_VAL",
+          "/cardById/$ACTIVE_CARD_ID/tokens/threat",
+          1
+        ]
+      ],
+      "condition": [
+        "GREATER_THAN",
+        "$ACTIVE_TOKENS.threat",
+        0
+      ],
+      "label": "id:thwart"
+    },
+    {
+      "actionList": [
+        "DISCARD_CARD",
+        "$ACTIVE_CARD_ID"
+      ],
+      "condition": [
+        "AND",
+        [
+          "IN_STRING",
+          "$ACTIVE_FACE.type",
+          "Scheme"
+        ],
+        [
+          "EQUAL",
+          "$ACTIVE_TOKENS.threat",
+          0
+        ]
+      ],
+      "label": "id:discard"
+    },
+    {
+      "actionList": [
+        "DISCARD_CARD",
+        "$ACTIVE_CARD_ID"
+      ],
+      "condition": [
+        "AND",
+        [
+          "IN_STRING",
+          "$ACTIVE_FACE.type",
+          "Scheme"
+        ],
+        [
+          "EQUAL",
+          "$ACTIVE_TOKENS.threat",
+          0
+        ]
+      ],
+      "label": "id:discard"
+    },
+    {
+      "actionList": [
+        [
+          "LOG",
+          "{{$ALIAS_N}} added 1 damage token to {{$ACTIVE_FACE.name}}."
+        ],
+        [
+          "INCREASE_VAL",
+          "/cardById/$ACTIVE_CARD_ID/tokens/damage",
+          1
+        ]
+      ],
+      "condition": [
+        "AND",
+        [
+          "EQUAL",
+          "$ACTIVE_FACE.type",
+          "Minion"
+        ],
+        [
+          "OR",
+          [
+            "LESS_THAN",
+            "$ACTIVE_TOKENS.damage",
+            "$ACTIVE_FACE.hitPoints"
+          ],
+          [
+            "LESS_THAN",
+            "$ACTIVE_TOKENS.damage",
+            "$ACTIVE_FACE.hitPointsFixed"
+          ]
+        ]
+      ],
+      "label": "id:damage"
+    },
+    {
+      "actionList": [
+        "DISCARD_CARD",
+        "$ACTIVE_CARD_ID"
+      ],
+      "condition": [
+        "AND",
+        [
+          "EQUAL",
+          "$ACTIVE_FACE.type",
+          "Minion"
+        ],
+        [
+          "OR",
+          [
+            "GREATER_EQUAL",
+            "$ACTIVE_TOKENS.damage",
+            "$ACTIVE_FACE.hitPoints"
+          ],
+          [
+            "GREATER_EQUAL",
+            "$ACTIVE_TOKENS.damage",
+            "$ACTIVE_FACE.hitPointsFixed"
+          ]
+        ]
+      ],
+      "label": "id:discard"
+    },
+    {
+      "actionList": [
+        "DISCARD_CARD",
+        "$ACTIVE_CARD_ID"
+      ],
+      "condition": [
+        "EQUAL",
+        "$ACTIVE_FACE.type",
+        "Treachery"
+      ],
+      "label": "id:discard"
+    },
+    {
+      "actionList": [
+        "DISCARD_CARD",
+        "$ACTIVE_CARD_ID"
+      ],
+      "condition": [
+        "EQUAL",
+        "$ACTIVE_FACE.type",
+        "Event"
+      ],
+      "label": "id:discard"
+    },
+    {
+      "actionList": [],
+      "condition": [
+        "IN_STRING",
+        "$ACTIVE_FACE.type",
+        "Scheme"
+      ],
+      "label": ""
+    },
+    {
+      "actionList": "toggleExhaust",
+      "condition": [
+        "EQUAL",
+        "$ACTIVE_CARD.rotation",
+        0
+      ],
+      "label": "id:exhaust"
+    },
+    {
+      "actionList": "toggleExhaust",
+      "condition": [
+        "EQUAL",
+        "$ACTIVE_CARD.rotation",
+        90
+      ],
+      "label": "id:ready"
+    }
+  ],
+  "announcements": [
+    "2026-08-23: Fix: mc4db deck import (Ctrl+K) now also loads the hero's obligation and nemesis set.",
+    "2026-08-15: Feat: Add Fear No Evil encounter cards.",
+    "2026-08-05: Feat: Add Fear No Evil player cards.",
+    "2026-06-03: Feat: Import custom deck via Ctrl+K (paste mc4db URL).",
+    "2026-03-15: Feat: Add Wonder Man and Hercules Hero Packs.",
+    "2026-03-11: Feat: Vision Leader from Synthezoid Scenario Pack.",
+    "2026-03-10: Feat: She-Hulk Leader from Synthezoid Scenario Pack.",
+    "2025-11-03: Feat: Add Civil War Encounter Cards.",
+    "2025-10-25: Feat: Add Civil War Player Cards.",
+    "2025-10-05: Feat: Add Standard/Expert Set info to save game metadata",
+    "2025-10-05: Feat: Card Flip now supports 3 sided cards",
+    "2025-10-03: Feat: Add Scenario/Hero info to save game metadata",
+    "2025-10-03: Fix: Shuffle deck for Shadows of the Past hotkey",
+    "2025-10-03: Fix: Update background off of imgur for our UK friends.",
+    "2025-08-25: Feat: Specialized Training loads specialist cards in out of play",
+    "2025-08-24: Feat: Storm decks from marvelcdb load the weather deck",
+    "2025-08-24: Fix: Fix Enchantress Modular Set",
+    "2025-08-18: Feat: Add Trickster Scenario Pack.",
+    "2025-06-23: Feat: Add Falcon & Winter Soldier Hero Packs.",
+    "2025-06-05: Fix: Add missing environment cards to M.O.D.O. Scenario.",
+    "2025-06-02: Fix: Black Panther (Shuri)'s obligation card.",
+    "2025-06-01: Feat: Add Black Panther & Silk Hero Packs.",
+    "2025-04-04: Feat: Add Agents of S.H.I.E.L.D. Enounter Cards.",
+    "2025-03-26: Feat: Add Agents of S.H.I.E.L.D. Player Cards.",
+    "2024-12-23: Feat: Add Portugese language support.",
+    "2024-12-19: Fix: SP//dr nemesis set includes all copies of Energy Drain.",
+    "2024-11-28: Fix: Loading Magneto Scenario.",
+    "2024-11-27: Feat: Add Magneto Hero Pack.",
+    "2024-10-02: Feat: Add Nightcrawler Hero Pack.",
+    "2024-07-28: Fix: Fix Flash of Light, Firecracker, and Plasmoid Energy IDs",
+    "2024-07-25: Feat: Add Jubilee Hero Pack.",
+    "2024-04-15: Feat: Add Standard III to preferences.",
+    "2024-04-07: Feat: Add Age of Apocalypse cards. Enforce deck load order.",
+    "2024-01-01: Feat: Take into account card acceleration + acceleration icons for threat increase",
+    "2023-12-24: Feat: Touch Support, Standard/Expert/Recommended Modular Sets Autoloading, Game Preferences",
+    "2023-11-18: Feat: Add X-23 and Deadpool Hero Packs",
+    "2023-10-08: Feat: Add Psylocke and Angel Hero Packs",
+    "2023-10-07: Feat: Setup for Cycle 1, 2 Scenarios",
+    "2023-09-20: Fix: Fix Wakanda Forever! IDs",
+    "2023-09-14: Fix: Remove side scheme area",
+    "2023-09-01: Feat: Next Evolution",
+    "2023-08-31: Fix: S.H.E.I.L.D. Campaign Cards go to the right place",
+    "2023-08-28: Feat: Support SP/dr + Ironheart",
+    "2023-08-27: Feat: Remove dedicated Player Identity area",
+    "2023-08-24: Fix: Venom deck list errors",
+    "2023-08-20: Feat: Weather/Invocation Decks",
+    "2023-08-06: Feat: Shadows of the Past hotkey",
+    "2023-08-02: Fix: draw hand size correctly, only put starting threat on side schemes when face up",
+    "2023-07-28: Feat: Support Double Sided Villain",
+    "2023-07-27: Initial Beta",
+    "2023-06-05: Plugin Development started"
+  ],
+  "playerCountMenu": [
+    {
+      "label": "1",
+      "layoutId": "standard1Player",
+      "numPlayers": 1
+    },
+    {
+      "label": "2",
+      "layoutId": "standard2Player",
+      "numPlayers": 2
+    },
+    {
+      "label": "3",
+      "layoutId": "standard3Player",
+      "numPlayers": 3
+    },
+    {
+      "label": "4",
+      "layoutId": "standard4Player",
+      "numPlayers": 4
+    }
+  ],
+  "backgroundUrl": "https://toybox.hundredacre.club/cards/marvel-champions/_plugin/MarvelChampions-Background.jpg",
+  "clearTableOptions": [
+    {
+      "actionList": [
+        "SET",
+        "/victoryState",
+        "victory"
+      ],
+      "label": "id:labelMarkAsVictory"
+    },
+    {
+      "actionList": [
+        "SET",
+        "/victoryState",
+        "defeat"
+      ],
+      "label": "id:labelMarkAsDefeat"
+    },
+    {
+      "actionList": [
+        "SET",
+        "/victoryState",
+        "incomplete"
+      ],
+      "label": "id:labelMarkAsIncomplete"
+    }
+  ],
+  "stepOrder": [
+    "0.0",
+    "1.1",
+    "1.2",
+    "2.1",
+    "2.2",
+    "2.3",
+    "2.4",
+    "2.5",
+    "0.1"
+  ],
+  "tutorialUrl": "https://github.com/hone/dragncards-mc-plugin/wiki",
+  "phaseOrder": [
+    "Beginning",
+    "Player",
+    "Villain",
+    "End"
+  ],
+  "closeRoomOptions": [
+    {
+      "actionList": [
+        "SET",
+        "/victoryState",
+        "victory"
+      ],
+      "label": "id:labelMarkAsVictory"
+    },
+    {
+      "actionList": [
+        "SET",
+        "/victoryState",
+        "defeat"
+      ],
+      "label": "id:labelMarkAsDefeat"
+    },
+    {
+      "actionList": [
+        "SET",
+        "/victoryState",
+        "incomplete"
+      ],
+      "label": "id:labelMarkAsIncomplete"
+    }
+  ],
+  "touchBar": [
+    [
+      {
+        "actionList": "zeroTokens",
+        "actionType": "card",
+        "id": "zeroTokens",
+        "label": "id:zeroTokens"
+      },
+      {
+        "actionType": "token",
+        "id": "incrementDamage",
+        "imageUrl": "https://toybox.hundredacre.club/cards/marvel-champions/_plugin/MarvelChampions-TokenDamage.svg",
+        "label": "",
+        "tokenType": "damage"
+      },
+      {
+        "actionType": "token",
+        "id": "incrementThreat",
+        "imageUrl": "https://toybox.hundredacre.club/cards/marvel-champions/_plugin/MarvelChampions-TokenThreat.svg",
+        "label": "",
+        "tokenType": "threat"
+      },
+      {
+        "actionType": "token",
+        "id": "incrementGeneric",
+        "imageUrl": "https://toybox.hundredacre.club/cards/marvel-champions/_plugin/MarvelChampions-TokenGeneric.svg",
+        "label": "",
+        "tokenType": "generic"
+      },
+      {
+        "actionType": "token",
+        "id": "incrementAcceleration",
+        "imageUrl": "https://toybox.hundredacre.club/cards/marvel-champions/_plugin/MarvelChampions-TokenAcceleration.svg",
+        "label": "",
+        "tokenType": "acceleration"
+      },
+      {
+        "actionType": "token",
+        "id": "incrementConfused",
+        "imageUrl": "https://toybox.hundredacre.club/cards/marvel-champions/_plugin/MarvelChampions-TokenConfused.svg",
+        "label": "",
+        "tokenType": "confused"
+      },
+      {
+        "actionType": "token",
+        "id": "incrementStunned",
+        "imageUrl": "https://toybox.hundredacre.club/cards/marvel-champions/_plugin/MarvelChampions-TokenStunned.svg",
+        "label": "",
+        "tokenType": "stunned"
+      },
+      {
+        "actionType": "token",
+        "id": "incrementTough",
+        "imageUrl": "https://toybox.hundredacre.club/cards/marvel-champions/_plugin/MarvelChampions-TokenTough.svg",
+        "label": "",
+        "tokenType": "tough"
+      },
+      {
+        "actionList": "toggleExhaust",
+        "actionType": "card",
+        "id": "toggleExhaust",
+        "label": "id:exhaustReady"
+      },
+      {
+        "actionList": "flipCard",
+        "actionType": "card",
+        "id": "flipCard",
+        "label": "id:flip"
+      },
+      {
+        "actionList": [
+          "SET_SIDE",
+          "$ACTIVE_CARD_ID",
+          "A",
+          "$ALIAS_N"
+        ],
+        "actionType": "card",
+        "id": "setSideA",
+        "label": "id:setSideA"
+      },
+      {
+        "actionList": [
+          "SET_SIDE",
+          "$ACTIVE_CARD_ID",
+          "B",
+          "$ALIAS_N"
+        ],
+        "actionType": "card",
+        "id": "setSideB",
+        "label": "id:setSideB"
+      },
+      {
+        "actionList": [
+          "SET_SIDE",
+          "$ACTIVE_CARD_ID",
+          "C",
+          "$ALIAS_N"
+        ],
+        "actionType": "card",
+        "id": "setSideC",
+        "label": "id:setSideC"
+      },
+      {
+        "actionList": "shuffleIntoDeck",
+        "actionType": "card",
+        "id": "shuffleIntoDeck",
+        "label": "id:shuffleIntoDeck"
+      },
+      {
+        "actionList": [
+          "DISCARD_CARD",
+          "$ACTIVE_CARD_ID"
+        ],
+        "actionType": "card",
+        "id": "discard",
+        "label": "id:discard"
+      }
+    ],
+    [
+      {
+        "actionList": "dealEncounterFacedown",
+        "actionType": "game",
+        "id": "dealEncounterFacedown",
+        "label": "id:dealEncounterFacedownTouch"
+      },
+      {
+        "actionList": "dealSecondFacedown",
+        "actionType": "game",
+        "id": "dealSecondFacedown",
+        "label": "id:dealSecondFacedownTouch"
+      },
+      {
+        "actionList": "dealThirdFacedown",
+        "actionType": "game",
+        "id": "dealThirdFacedown",
+        "label": "id:dealThirdFacedownTouch"
+      },
+      {
+        "actionList": "drawBoost",
+        "actionType": "game",
+        "id": "drawBoost",
+        "label": "id:dealBoostCard"
+      },
+      {
+        "actionList": [
+          "DRAW_CARD"
+        ],
+        "actionType": "game",
+        "id": "drawCard",
+        "label": "id:drawCard"
+      },
+      {
+        "actionList": "mulliganDrawHand",
+        "actionType": "game",
+        "id": "mulliganDrawHand",
+        "label": "id:drawHand"
+      },
+      {
+        "actionList": [
+          "READY_ALL",
+          "$PLAYER_N",
+          "$ALIAS_N"
+        ],
+        "actionType": "game",
+        "id": "readyAll",
+        "label": "id:readyAll"
+      },
+      {
+        "actionList": "discardRandomCard",
+        "actionType": "game",
+        "id": "discardRandomCard",
+        "label": "id:discardRandomButton"
+      },
+      {
+        "actionList": "shadowsOfThePast",
+        "actionType": "game",
+        "id": "shadowsOfThePast",
+        "label": "id:shadowsOfThePast"
+      },
+      {
+        "actionList": "playerEndPhase",
+        "actionType": "game",
+        "id": "playerEndPhase",
+        "label": "id:playerEndPhaseTouch"
+      },
+      {
+        "actionList": "villainEncounterPhase",
+        "actionType": "game",
+        "id": "villainEncounterPhase",
+        "label": "id:encounterPhase"
+      },
+      {
+        "actionList": "villainEndPhase",
+        "actionType": "game",
+        "id": "villainEndPhase",
+        "label": "id:villainEndPhaseTouch"
+      },
+      {
+        "actionList": "undo",
+        "actionType": "engine",
+        "id": "undo",
+        "label": "Undo"
+      },
+      {
+        "actionList": "saveGame",
+        "actionType": "engine",
+        "id": "saveGame",
+        "label": "Save"
+      }
+    ]
+  ],
+  "bannerUrl": "https://toybox.hundredacre.club/cards/marvel-champions/_plugin/banner.jpg",
+  "logoUrl": "https://toybox.hundredacre.club/cards/marvel-champions/_plugin/logo.jpg"
+}

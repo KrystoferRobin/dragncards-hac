@@ -1,0 +1,55 @@
+{
+  "deckMenu": {
+    "subMenus": [
+      {
+        "label": "OCTGN Decks",
+        "deckLists": [
+          {
+            "deckListId": "an-thrax",
+            "label": "AN-THRAX!"
+          },
+          {
+            "deckListId": "angry-mob-brand-armor-all",
+            "label": "Angry Mob Brand Armor-All"
+          },
+          {
+            "deckListId": "big-trouble",
+            "label": "BIG Trouble!"
+          },
+          {
+            "deckListId": "be-you-men-of-valor",
+            "label": "Be You Men of Valor"
+          },
+          {
+            "deckListId": "everybody-gets-lucky",
+            "label": "Everybody Gets Lucky"
+          },
+          {
+            "deckListId": "game-ender",
+            "label": "Game Ender"
+          },
+          {
+            "deckListId": "holy-hand-grenade",
+            "label": "Holy Hand Grenade!"
+          },
+          {
+            "deckListId": "howsthepeepin",
+            "label": "HowsThePeepin"
+          },
+          {
+            "deckListId": "make-them-all-dead",
+            "label": "Make Them All Dead"
+          },
+          {
+            "deckListId": "the-deck-i-worry-is-broken",
+            "label": "The Deck I Worry Is Broken"
+          },
+          {
+            "deckListId": "the-deck-with-no-name",
+            "label": "The Deck With No Name"
+          }
+        ]
+      }
+    ]
+  }
+}

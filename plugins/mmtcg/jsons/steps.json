@@ -1,0 +1,26 @@
+{
+  "steps": {
+    "drawStep": {
+      "phaseId": "draw",
+      "label": "Draw"
+    },
+    "resourceStep": {
+      "phaseId": "resource",
+      "label": "Resource"
+    },
+    "mainStep": {
+      "phaseId": "main",
+      "label": "Main"
+    },
+    "battleStep": {
+      "phaseId": "battle",
+      "label": "Battle"
+    }
+  },
+  "stepOrder": [
+    "drawStep",
+    "resourceStep",
+    "mainStep",
+    "battleStep"
+  ]
+}

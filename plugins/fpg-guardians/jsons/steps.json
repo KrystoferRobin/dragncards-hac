@@ -1,0 +1,21 @@
+{
+  "steps": {
+    "organizeStep": {
+      "phaseId": "organize",
+      "label": "Draw and Organize"
+    },
+    "combatStep": {
+      "phaseId": "combat",
+      "label": "Movement and Combat"
+    },
+    "terrainStep": {
+      "phaseId": "terrain",
+      "label": "Terrain Settlement"
+    }
+  },
+  "stepOrder": [
+    "organizeStep",
+    "combatStep",
+    "terrainStep"
+  ]
+}

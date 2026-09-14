@@ -1,0 +1,21 @@
+{
+  "phases": {
+    "start": {
+      "label": "Start of Turn",
+      "height": "33%"
+    },
+    "actions": {
+      "label": "Actions",
+      "height": "33%"
+    },
+    "end": {
+      "label": "End of Turn",
+      "height": "33%"
+    }
+  },
+  "phaseOrder": [
+    "start",
+    "actions",
+    "end"
+  ]
+}

@@ -1,0 +1,268 @@
+{
+  "groups": {
+    "player1Deck": {
+      "groupType": "deck",
+      "label": "Player 1 Deck",
+      "tableLabel": "Deck",
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1Deck",
+        "discardGroupId": "player1Retire"
+      }
+    },
+    "player1SceneDeck": {
+      "groupType": "sceneDeck",
+      "label": "Player 1 Scene Deck",
+      "tableLabel": "Scenes",
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1SceneDeck",
+        "discardGroupId": "player1Retire"
+      }
+    },
+    "player1StoryDeck": {
+      "groupType": "storyDeck",
+      "label": "Player 1 Story Deck",
+      "tableLabel": "Stories",
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1StoryDeck",
+        "discardGroupId": "player1Retire"
+      }
+    },
+    "player1MC": {
+      "groupType": "mc",
+      "label": "Player 1 Main Character",
+      "tableLabel": "MC",
+      "canHaveAttachments": true,
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1MC",
+        "discardGroupId": "player1Retire",
+        "inPlay": true
+      }
+    },
+    "player1Hand": {
+      "groupType": "hand",
+      "label": "Player 1 Hand",
+      "tableLabel": "Hand",
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1Deck",
+        "discardGroupId": "player1Retire"
+      }
+    },
+    "player1Lane1": {
+      "groupType": "inPlay",
+      "label": "Player 1 Lane 1",
+      "tableLabel": "Lane 1",
+      "canHaveAttachments": true,
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1Deck",
+        "discardGroupId": "player1Retire",
+        "inPlay": true
+      }
+    },
+    "player1Lane2": {
+      "groupType": "inPlay",
+      "label": "Player 1 Lane 2",
+      "tableLabel": "Lane 2",
+      "canHaveAttachments": true,
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1Deck",
+        "discardGroupId": "player1Retire",
+        "inPlay": true
+      }
+    },
+    "player1Lane3": {
+      "groupType": "inPlay",
+      "label": "Player 1 Lane 3",
+      "tableLabel": "Lane 3",
+      "canHaveAttachments": true,
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1Deck",
+        "discardGroupId": "player1Retire",
+        "inPlay": true
+      }
+    },
+    "player1Scenes": {
+      "groupType": "scenes",
+      "label": "Player 1 Scene Area",
+      "tableLabel": "Scene Area",
+      "canHaveAttachments": false,
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1SceneDeck",
+        "discardGroupId": "player1Retire",
+        "inPlay": true
+      }
+    },
+    "player1Story": {
+      "groupType": "story",
+      "label": "Player 1 Story",
+      "tableLabel": "Story",
+      "canHaveAttachments": false,
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1StoryDeck",
+        "discardGroupId": "player1Retire",
+        "inPlay": true
+      }
+    },
+    "player1Plans": {
+      "groupType": "plans",
+      "label": "Player 1 Plans",
+      "tableLabel": "Plans",
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1Deck",
+        "discardGroupId": "player1Retire"
+      }
+    },
+    "player1Retire": {
+      "groupType": "retire",
+      "label": "Player 1 Retire",
+      "tableLabel": "Retire",
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1Deck",
+        "discardGroupId": "player1Retire"
+      }
+    },
+    "player2Deck": {
+      "groupType": "deck",
+      "label": "Player 2 Deck",
+      "tableLabel": "Deck",
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2Deck",
+        "discardGroupId": "player2Retire"
+      }
+    },
+    "player2SceneDeck": {
+      "groupType": "sceneDeck",
+      "label": "Player 2 Scene Deck",
+      "tableLabel": "Scenes",
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2SceneDeck",
+        "discardGroupId": "player2Retire"
+      }
+    },
+    "player2StoryDeck": {
+      "groupType": "storyDeck",
+      "label": "Player 2 Story Deck",
+      "tableLabel": "Stories",
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2StoryDeck",
+        "discardGroupId": "player2Retire"
+      }
+    },
+    "player2MC": {
+      "groupType": "mc",
+      "label": "Player 2 Main Character",
+      "tableLabel": "MC",
+      "canHaveAttachments": true,
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2MC",
+        "discardGroupId": "player2Retire",
+        "inPlay": true
+      }
+    },
+    "player2Hand": {
+      "groupType": "hand",
+      "label": "Player 2 Hand",
+      "tableLabel": "Hand",
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2Deck",
+        "discardGroupId": "player2Retire"
+      }
+    },
+    "player2Lane1": {
+      "groupType": "inPlay",
+      "label": "Player 2 Lane 1",
+      "tableLabel": "Lane 1",
+      "canHaveAttachments": true,
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2Deck",
+        "discardGroupId": "player2Retire",
+        "inPlay": true
+      }
+    },
+    "player2Lane2": {
+      "groupType": "inPlay",
+      "label": "Player 2 Lane 2",
+      "tableLabel": "Lane 2",
+      "canHaveAttachments": true,
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2Deck",
+        "discardGroupId": "player2Retire",
+        "inPlay": true
+      }
+    },
+    "player2Lane3": {
+      "groupType": "inPlay",
+      "label": "Player 2 Lane 3",
+      "tableLabel": "Lane 3",
+      "canHaveAttachments": true,
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2Deck",
+        "discardGroupId": "player2Retire",
+        "inPlay": true
+      }
+    },
+    "player2Scenes": {
+      "groupType": "scenes",
+      "label": "Player 2 Scene Area",
+      "tableLabel": "Scene Area",
+      "canHaveAttachments": false,
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2SceneDeck",
+        "discardGroupId": "player2Retire",
+        "inPlay": true
+      }
+    },
+    "player2Story": {
+      "groupType": "story",
+      "label": "Player 2 Story",
+      "tableLabel": "Story",
+      "canHaveAttachments": false,
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2StoryDeck",
+        "discardGroupId": "player2Retire",
+        "inPlay": true
+      }
+    },
+    "player2Plans": {
+      "groupType": "plans",
+      "label": "Player 2 Plans",
+      "tableLabel": "Plans",
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2Deck",
+        "discardGroupId": "player2Retire"
+      }
+    },
+    "player2Retire": {
+      "groupType": "retire",
+      "label": "Player 2 Retire",
+      "tableLabel": "Retire",
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2Deck",
+        "discardGroupId": "player2Retire"
+      }
+    }
+  }
+}

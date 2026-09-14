@@ -1,0 +1,42 @@
+{
+  "deckbuilder": {
+    "addButtons": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "columns": [
+      {
+        "propName": "name",
+        "label": "Name"
+      },
+      {
+        "propName": "type",
+        "label": "Type"
+      },
+      {
+        "propName": "corps",
+        "label": "Corps"
+      },
+      {
+        "propName": "price",
+        "label": "Price"
+      },
+      {
+        "propName": "packName",
+        "label": "Set"
+      }
+    ],
+    "spawnGroups": [
+      {
+        "loadGroupId": "playerNSupplyBase",
+        "label": "My SupplyBase"
+      },
+      {
+        "loadGroupId": "playerNDryDock",
+        "label": "My DryDock"
+      }
+    ]
+  }
+}

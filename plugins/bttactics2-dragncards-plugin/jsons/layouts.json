@@ -1,0 +1,323 @@
+{
+  "layouts": {
+    "default": {
+      "cardSize": 9,
+      "rowSpacing": 1,
+      "chat": {
+        "left": "69.6%",
+        "top": "68%",
+        "width": "17.4%",
+        "height": "32%"
+      },
+      "regions": {
+        "playerN+1Hand": {
+          "groupId": "playerN+1Hand",
+          "type": "fan",
+          "direction": "horizontal",
+          "left": "0%",
+          "top": "0%",
+          "width": "87%",
+          "height": "8%",
+          "style": {
+            "background": "rgba(0, 0, 0, 0.32)",
+            "border": "1px solid rgba(210, 210, 210, 0.55)",
+            "boxSizing": "border-box"
+          },
+          "disableDroppableAttachments": true
+        },
+        "playerN+1Resources": {
+          "groupId": "playerN+1Resources",
+          "type": "row",
+          "direction": "horizontal",
+          "left": "0%",
+          "top": "8%",
+          "width": "87%",
+          "height": "9%",
+          "style": {
+            "background": "rgba(70, 55, 20, 0.36)",
+            "border": "1px solid rgba(210, 210, 210, 0.55)",
+            "boxSizing": "border-box"
+          },
+          "disableDroppableAttachments": true
+        },
+        "playerN+1Units": {
+          "groupId": "playerN+1Units",
+          "type": "row",
+          "direction": "horizontal",
+          "left": "0%",
+          "top": "17%",
+          "width": "87%",
+          "height": "14%",
+          "style": {
+            "background": "rgba(30, 55, 40, 0.36)",
+            "border": "1px solid rgba(210, 210, 210, 0.55)",
+            "boxSizing": "border-box"
+          }
+        },
+        "playerN+1Commands": {
+          "groupId": "playerN+1Commands",
+          "type": "row",
+          "direction": "horizontal",
+          "left": "0%",
+          "top": "31%",
+          "width": "87%",
+          "height": "7%",
+          "style": {
+            "background": "rgba(40, 30, 70, 0.36)",
+            "border": "1px solid rgba(210, 210, 210, 0.55)",
+            "boxSizing": "border-box"
+          },
+          "disableDroppableAttachments": true
+        },
+        "playerNCommands": {
+          "groupId": "playerNCommands",
+          "type": "row",
+          "direction": "horizontal",
+          "left": "0%",
+          "top": "38%",
+          "width": "87%",
+          "height": "7%",
+          "style": {
+            "background": "rgba(40, 30, 70, 0.36)",
+            "border": "1px solid rgba(210, 210, 210, 0.55)",
+            "boxSizing": "border-box"
+          },
+          "disableDroppableAttachments": true
+        },
+        "playerNUnits": {
+          "groupId": "playerNUnits",
+          "type": "row",
+          "direction": "horizontal",
+          "left": "0%",
+          "top": "45%",
+          "width": "87%",
+          "height": "14%",
+          "style": {
+            "background": "rgba(30, 55, 40, 0.36)",
+            "border": "1px solid rgba(210, 210, 210, 0.55)",
+            "boxSizing": "border-box"
+          }
+        },
+        "playerNResources": {
+          "groupId": "playerNResources",
+          "type": "row",
+          "direction": "horizontal",
+          "left": "0%",
+          "top": "59%",
+          "width": "87%",
+          "height": "9%",
+          "style": {
+            "background": "rgba(70, 55, 20, 0.36)",
+            "border": "1px solid rgba(210, 210, 210, 0.55)",
+            "boxSizing": "border-box"
+          },
+          "disableDroppableAttachments": true
+        },
+        "playerNHand": {
+          "groupId": "playerNHand",
+          "type": "fan",
+          "direction": "horizontal",
+          "left": "0%",
+          "top": "68%",
+          "width": "69.6%",
+          "height": "32%",
+          "style": {
+            "background": "rgba(0, 0, 0, 0.32)",
+            "border": "1px solid rgba(210, 210, 210, 0.55)",
+            "boxSizing": "border-box"
+          },
+          "disableDroppableAttachments": true
+        },
+        "playerN+1Stockpile": {
+          "groupId": "playerN+1Stockpile",
+          "type": "pile",
+          "direction": "horizontal",
+          "left": "88%",
+          "top": "8%",
+          "width": "6%",
+          "height": "11%",
+          "style": {
+            "background": "rgba(0, 0, 0, 0.35)",
+            "border": "1px solid rgba(210, 210, 210, 0.55)",
+            "boxSizing": "border-box"
+          }
+        },
+        "playerN+1Scrapheap": {
+          "groupId": "playerN+1Scrapheap",
+          "type": "pile",
+          "direction": "horizontal",
+          "left": "94%",
+          "top": "8%",
+          "width": "6%",
+          "height": "11%",
+          "style": {
+            "background": "rgba(0, 0, 0, 0.35)",
+            "border": "1px solid rgba(210, 210, 210, 0.55)",
+            "boxSizing": "border-box"
+          }
+        },
+        "playerN+1Removed": {
+          "groupId": "playerN+1Removed",
+          "type": "pile",
+          "direction": "horizontal",
+          "left": "88%",
+          "top": "19.5%",
+          "width": "6%",
+          "height": "11%",
+          "style": {
+            "background": "rgba(0, 0, 0, 0.35)",
+            "border": "1px solid rgba(210, 210, 210, 0.55)",
+            "boxSizing": "border-box"
+          }
+        },
+        "playerN+1Sideboard": {
+          "groupId": "playerN+1Sideboard",
+          "type": "pile",
+          "direction": "horizontal",
+          "left": "94%",
+          "top": "19.5%",
+          "width": "6%",
+          "height": "11%",
+          "style": {
+            "background": "rgba(0, 0, 0, 0.35)",
+            "border": "1px solid rgba(210, 210, 210, 0.55)",
+            "boxSizing": "border-box"
+          }
+        },
+        "playerN+1Tokens": {
+          "groupId": "playerN+1Tokens",
+          "type": "pile",
+          "direction": "horizontal",
+          "left": "88%",
+          "top": "31%",
+          "width": "6%",
+          "height": "11%",
+          "style": {
+            "background": "rgba(0, 0, 0, 0.35)",
+            "border": "1px solid rgba(210, 210, 210, 0.55)",
+            "boxSizing": "border-box"
+          }
+        },
+        "playerNStockpile": {
+          "groupId": "playerNStockpile",
+          "type": "pile",
+          "direction": "horizontal",
+          "left": "88%",
+          "top": "56%",
+          "width": "6%",
+          "height": "11%",
+          "style": {
+            "background": "rgba(0, 0, 0, 0.35)",
+            "border": "1px solid rgba(210, 210, 210, 0.55)",
+            "boxSizing": "border-box"
+          }
+        },
+        "playerNScrapheap": {
+          "groupId": "playerNScrapheap",
+          "type": "pile",
+          "direction": "horizontal",
+          "left": "94%",
+          "top": "56%",
+          "width": "6%",
+          "height": "11%",
+          "style": {
+            "background": "rgba(0, 0, 0, 0.35)",
+            "border": "1px solid rgba(210, 210, 210, 0.55)",
+            "boxSizing": "border-box"
+          }
+        },
+        "playerNRemoved": {
+          "groupId": "playerNRemoved",
+          "type": "pile",
+          "direction": "horizontal",
+          "left": "88%",
+          "top": "67.5%",
+          "width": "6%",
+          "height": "11%",
+          "style": {
+            "background": "rgba(0, 0, 0, 0.35)",
+            "border": "1px solid rgba(210, 210, 210, 0.55)",
+            "boxSizing": "border-box"
+          }
+        },
+        "playerNSideboard": {
+          "groupId": "playerNSideboard",
+          "type": "pile",
+          "direction": "horizontal",
+          "left": "94%",
+          "top": "67.5%",
+          "width": "6%",
+          "height": "11%",
+          "style": {
+            "background": "rgba(0, 0, 0, 0.35)",
+            "border": "1px solid rgba(210, 210, 210, 0.55)",
+            "boxSizing": "border-box"
+          }
+        },
+        "playerNTokens": {
+          "groupId": "playerNTokens",
+          "type": "pile",
+          "direction": "horizontal",
+          "left": "88%",
+          "top": "79%",
+          "width": "6%",
+          "height": "11%",
+          "style": {
+            "background": "rgba(0, 0, 0, 0.35)",
+            "border": "1px solid rgba(210, 210, 210, 0.55)",
+            "boxSizing": "border-box"
+          }
+        },
+        "sharedSetAside": {
+          "groupId": "sharedSetAside",
+          "type": "fan",
+          "direction": "horizontal",
+          "left": "88%",
+          "top": "90%",
+          "width": "12%",
+          "height": "10%",
+          "style": {
+            "background": "rgba(0, 0, 0, 0.45)",
+            "border": "1px solid rgba(210, 210, 210, 0.55)",
+            "boxSizing": "border-box"
+          },
+          "disableDroppableAttachments": true
+        }
+      },
+      "tableButtons": {
+        "drawStockpile": {
+          "actionList": "drawStockpile",
+          "label": "Draw",
+          "left": "88%",
+          "top": "47%",
+          "width": "6%",
+          "height": "4%"
+        },
+        "shuffleStockpile": {
+          "actionList": "shuffleStockpile",
+          "label": "Shuf",
+          "left": "94%",
+          "top": "47%",
+          "width": "6%",
+          "height": "4%"
+        },
+        "untapAll": {
+          "actionList": "untapAll",
+          "label": "Untap",
+          "left": "88%",
+          "top": "51.5%",
+          "width": "6%",
+          "height": "4%"
+        },
+        "roll1d6": {
+          "actionList": "roll1d6",
+          "label": "d6",
+          "left": "94%",
+          "top": "51.5%",
+          "width": "6%",
+          "height": "4%"
+        }
+      }
+    }
+  }
+}

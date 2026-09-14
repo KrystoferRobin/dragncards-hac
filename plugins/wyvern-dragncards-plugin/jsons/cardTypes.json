@@ -1,0 +1,14 @@
+{
+  "cardTypes": {
+    "Dragon": {"width": 0.72, "height": 1.0, "tokens": ["green", "red"]},
+    "Terrain": {"width": 0.72, "height": 1.0, "tokens": ["green", "red"]},
+    "Treasure": {"width": 0.72, "height": 1.0, "tokens": ["green", "red"]},
+    "Action": {"width": 0.72, "height": 1.0, "tokens": ["green", "red"]},
+    "Battle Action": {"width": 0.72, "height": 1.0, "tokens": ["green", "red"]},
+    "Battle Reaction": {"width": 0.72, "height": 1.0, "tokens": ["green", "red"]},
+    "Reaction": {"width": 0.72, "height": 1.0, "tokens": ["green", "red"]},
+    "Hidden Action": {"width": 0.72, "height": 1.0, "tokens": ["green", "red"]},
+    "Intercept Action": {"width": 0.72, "height": 1.0, "tokens": ["green", "red"]},
+    "Dragon Slayer Action": {"width": 0.72, "height": 1.0, "tokens": ["green", "red"]}
+  }
+}

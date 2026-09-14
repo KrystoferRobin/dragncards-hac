@@ -1,0 +1,244 @@
+{
+  "groups": {
+    "sharedSetAside": {
+      "groupType": "aside",
+      "label": "Set Aside",
+      "tableLabel": "Set Aside",
+      "onCardEnter": {
+        "controller": "shared"
+      }
+    },
+    "player1Deck": {
+      "groupType": "deck",
+      "label": "Player 1 Deck",
+      "tableLabel": "Deck",
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1Deck",
+        "discardGroupId": "player1Retreat"
+      }
+    },
+    "player1Retreat": {
+      "groupType": "discard",
+      "label": "Player 1 Retreat",
+      "tableLabel": "Retreat",
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1Deck",
+        "discardGroupId": "player1Retreat"
+      }
+    },
+    "player1Hand": {
+      "groupType": "hand",
+      "label": "Player 1 Hand",
+      "tableLabel": "Hand",
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1Deck",
+        "discardGroupId": "player1Retreat"
+      }
+    },
+    "player1Starting": {
+      "groupType": "inPlay",
+      "label": "Player 1 Main Character",
+      "tableLabel": "Main Character",
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1Deck",
+        "discardGroupId": "player1Retreat",
+        "inPlay": true
+      },
+      "canHaveAttachments": true
+    },
+    "player1Play": {
+      "groupType": "inPlay",
+      "label": "Player 1 Field",
+      "tableLabel": "Field",
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1Deck",
+        "discardGroupId": "player1Retreat",
+        "inPlay": true
+      },
+      "canHaveAttachments": true
+    },
+    "player1Bonds": {
+      "groupType": "inPlay",
+      "label": "Player 1 Bonds",
+      "tableLabel": "Bonds",
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1Deck",
+        "discardGroupId": "player1Retreat",
+        "inPlay": true
+      },
+      "canHaveAttachments": true
+    },
+    "player1Support": {
+      "groupType": "aside",
+      "label": "Player 1 Support",
+      "tableLabel": "Support",
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1Deck",
+        "discardGroupId": "player1Retreat"
+      }
+    },
+    "player1Orbs": {
+      "groupType": "aside",
+      "label": "Player 1 Orbs",
+      "tableLabel": "Orbs",
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1Deck",
+        "discardGroupId": "player1Retreat"
+      }
+    },
+    "player1FaceUpOrbs": {
+      "groupType": "aside",
+      "label": "Player 1 Face-Up Orbs",
+      "tableLabel": "Face-Up Orbs",
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1Deck",
+        "discardGroupId": "player1Retreat"
+      }
+    },
+    "player1Boundless": {
+      "groupType": "aside",
+      "label": "Player 1 Boundless",
+      "tableLabel": "Boundless",
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1Deck",
+        "discardGroupId": "player1Retreat"
+      }
+    },
+    "player1Misc": {
+      "groupType": "aside",
+      "label": "Player 1 Misc",
+      "tableLabel": "Misc",
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1Deck",
+        "discardGroupId": "player1Retreat"
+      }
+    },
+    "player2Deck": {
+      "groupType": "deck",
+      "label": "Player 2 Deck",
+      "tableLabel": "Deck",
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2Deck",
+        "discardGroupId": "player2Retreat"
+      }
+    },
+    "player2Retreat": {
+      "groupType": "discard",
+      "label": "Player 2 Retreat",
+      "tableLabel": "Retreat",
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2Deck",
+        "discardGroupId": "player2Retreat"
+      }
+    },
+    "player2Hand": {
+      "groupType": "hand",
+      "label": "Player 2 Hand",
+      "tableLabel": "Hand",
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2Deck",
+        "discardGroupId": "player2Retreat"
+      }
+    },
+    "player2Starting": {
+      "groupType": "inPlay",
+      "label": "Player 2 Main Character",
+      "tableLabel": "Main Character",
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2Deck",
+        "discardGroupId": "player2Retreat",
+        "inPlay": true
+      },
+      "canHaveAttachments": true
+    },
+    "player2Play": {
+      "groupType": "inPlay",
+      "label": "Player 2 Field",
+      "tableLabel": "Field",
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2Deck",
+        "discardGroupId": "player2Retreat",
+        "inPlay": true
+      },
+      "canHaveAttachments": true
+    },
+    "player2Bonds": {
+      "groupType": "inPlay",
+      "label": "Player 2 Bonds",
+      "tableLabel": "Bonds",
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2Deck",
+        "discardGroupId": "player2Retreat",
+        "inPlay": true
+      },
+      "canHaveAttachments": true
+    },
+    "player2Support": {
+      "groupType": "aside",
+      "label": "Player 2 Support",
+      "tableLabel": "Support",
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2Deck",
+        "discardGroupId": "player2Retreat"
+      }
+    },
+    "player2Orbs": {
+      "groupType": "aside",
+      "label": "Player 2 Orbs",
+      "tableLabel": "Orbs",
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2Deck",
+        "discardGroupId": "player2Retreat"
+      }
+    },
+    "player2FaceUpOrbs": {
+      "groupType": "aside",
+      "label": "Player 2 Face-Up Orbs",
+      "tableLabel": "Face-Up Orbs",
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2Deck",
+        "discardGroupId": "player2Retreat"
+      }
+    },
+    "player2Boundless": {
+      "groupType": "aside",
+      "label": "Player 2 Boundless",
+      "tableLabel": "Boundless",
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2Deck",
+        "discardGroupId": "player2Retreat"
+      }
+    },
+    "player2Misc": {
+      "groupType": "aside",
+      "label": "Player 2 Misc",
+      "tableLabel": "Misc",
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2Deck",
+        "discardGroupId": "player2Retreat"
+      }
+    }
+  }
+}

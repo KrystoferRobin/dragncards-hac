@@ -1,0 +1,12 @@
+{
+  "steps": {
+    "1.0": {
+      "label": "Perform Actions",
+      "phaseId": "player1Turn"
+    },
+    "2.0": {
+      "label": "Perform Actions",
+      "phaseId": "player2Turn"
+    }
+  }
+}

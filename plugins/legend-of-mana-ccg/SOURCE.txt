@@ -1,0 +1,8 @@
+Built 2026-09-12 17:33 UTC from LackeyCCG LegendOfManaCCG.
+Source: /Users/krystoferrobin/Downloads/lackeyplugins/LegendOfManaCCG
+Art: https://github.com/wishmstr/LegendOfManaCCG raw setimages.
+Author credit: Lackey / wishmstr
+
+Tabletop plugin only — Lackey has no rules engine to port.
+TSV rows: 150  skipped (no image URL or duplicate): 0
+Prebuilts: 0 Lackey decks.

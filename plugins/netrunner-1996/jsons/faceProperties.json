@@ -1,0 +1,64 @@
+{
+  "faceProperties": {
+    "player": {
+      "label": "Player",
+      "type": "string",
+      "default": ""
+    },
+    "cost": {
+      "label": "Cost",
+      "type": "string",
+      "default": ""
+    },
+    "mu": {
+      "label": "MU Required",
+      "type": "string",
+      "default": ""
+    },
+    "keywords": {
+      "label": "Keywords",
+      "type": "string",
+      "default": ""
+    },
+    "stat": {
+      "label": "Stat",
+      "type": "string",
+      "default": ""
+    },
+    "text": {
+      "label": "Rules",
+      "type": "string",
+      "default": ""
+    },
+    "flavor": {
+      "label": "Flavor",
+      "type": "string",
+      "default": ""
+    },
+    "rarity": {
+      "label": "Rarity",
+      "type": "string",
+      "default": ""
+    },
+    "number": {
+      "label": "Number",
+      "type": "string",
+      "default": ""
+    },
+    "packName": {
+      "label": "Set",
+      "type": "string",
+      "default": ""
+    },
+    "set": {
+      "label": "OCTGN Set",
+      "type": "string",
+      "default": ""
+    },
+    "loadGroupId": {
+      "label": "Load Group",
+      "type": "string",
+      "default": ""
+    }
+  }
+}

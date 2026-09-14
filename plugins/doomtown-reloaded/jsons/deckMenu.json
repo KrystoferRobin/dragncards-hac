@@ -1,0 +1,51 @@
+{
+  "deckMenu": {
+    "subMenus": [
+      {
+        "label": "OCTGN Decks",
+        "deckLists": [
+          {
+            "deckListId": "faith-fear-law-dogs",
+            "label": "Faith & Fear - Law Dogs"
+          },
+          {
+            "deckListId": "faith-fear-mcc",
+            "label": "Faith & Fear - MCC"
+          },
+          {
+            "deckListId": "faith-fear-sloane",
+            "label": "Faith & Fear - Sloane"
+          },
+          {
+            "deckListId": "faith-fear-t4r",
+            "label": "Faith & Fear - T4R"
+          },
+          {
+            "deckListId": "intermediate-4th-ring",
+            "label": "Intermediate - 4th Ring"
+          },
+          {
+            "deckListId": "intermediate-law-dogs",
+            "label": "Intermediate - Law Dogs"
+          },
+          {
+            "deckListId": "intermediate-morgan-cattle-company",
+            "label": "Intermediate - Morgan Cattle Company"
+          },
+          {
+            "deckListId": "intermediate-sloane-s-gang",
+            "label": "Intermediate - Sloane's Gang"
+          },
+          {
+            "deckListId": "learn2play-law-dogs",
+            "label": "Learn2Play - Law Dogs"
+          },
+          {
+            "deckListId": "learn2play-sloane-s-gang",
+            "label": "Learn2Play - Sloane's Gang"
+          }
+        ]
+      }
+    ]
+  }
+}

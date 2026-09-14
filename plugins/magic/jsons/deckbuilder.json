@@ -1,0 +1,54 @@
+{
+  "deckbuilder": {
+    "addButtons": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "columns": [
+      {
+        "propName": "name",
+        "label": "Name"
+      },
+      {
+        "propName": "type",
+        "label": "Type"
+      },
+      {
+        "propName": "cost",
+        "label": "Cost"
+      },
+      {
+        "propName": "packName",
+        "label": "Set"
+      },
+      {
+        "propName": "color",
+        "label": "Color"
+      }
+    ],
+    "spawnGroups": [
+      {
+        "loadGroupId": "playerNDeck",
+        "label": "My Library"
+      },
+      {
+        "loadGroupId": "playerNCommand",
+        "label": "My Command"
+      },
+      {
+        "loadGroupId": "playerNSideboard",
+        "label": "My Sideboard"
+      },
+      {
+        "loadGroupId": "playerNTokens",
+        "label": "My Tokens"
+      },
+      {
+        "loadGroupId": "playerNEmblem",
+        "label": "My Emblems"
+      }
+    ]
+  }
+}

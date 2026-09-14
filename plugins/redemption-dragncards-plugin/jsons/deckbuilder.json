@@ -1,0 +1,21 @@
+{
+  "deckbuilder": {
+    "addButtons": [1, 2, 3, 4],
+    "columns": [
+      {"propName": "name", "label": "Name"},
+      {"propName": "type", "label": "Type"},
+      {"propName": "brigade", "label": "Brigade"},
+      {"propName": "strength", "label": "Str"},
+      {"propName": "toughness", "label": "Tgh"},
+      {"propName": "set", "label": "Set"},
+      {"propName": "alignment", "label": "Align"},
+      {"propName": "text", "label": "Text"}
+    ],
+    "spawnGroups": [
+      {"loadGroupId": "playerNDeck", "label": "My Deck"},
+      {"loadGroupId": "playerNReserve", "label": "My Reserve"},
+      {"loadGroupId": "playerNTokens", "label": "My Tokens"},
+      {"loadGroupId": "playerNHand", "label": "My Hand"}
+    ]
+  }
+}

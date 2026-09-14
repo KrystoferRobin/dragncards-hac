@@ -1,0 +1,150 @@
+{
+  "groups": {
+    "sharedSetAside": {
+      "groupType": "aside",
+      "label": "Set Aside",
+      "tableLabel": "Set Aside",
+      "onCardEnter": {
+        "controller": "shared"
+      }
+    },
+    "sharedDrop": {
+      "groupType": "inPlay",
+      "label": "The Drop",
+      "tableLabel": "The Drop",
+      "canHaveAttachments": true,
+      "onCardEnter": {
+        "controller": "shared",
+        "inPlay": true
+      }
+    },
+    "player1Deck": {
+      "groupType": "deck",
+      "label": "Player 1 Draw Stack",
+      "tableLabel": "Draw",
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1Deck",
+        "discardGroupId": "player1Discard"
+      }
+    },
+    "player1Discard": {
+      "groupType": "discard",
+      "label": "Player 1 Discard",
+      "tableLabel": "Discard",
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1Deck",
+        "discardGroupId": "player1Discard"
+      }
+    },
+    "player1Hand": {
+      "groupType": "hand",
+      "label": "Player 1 Hand",
+      "tableLabel": "Hand",
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1Deck",
+        "discardGroupId": "player1Discard"
+      }
+    },
+    "player1Character": {
+      "groupType": "inPlay",
+      "label": "Player 1 Character",
+      "tableLabel": "Character",
+      "canHaveAttachments": true,
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1Deck",
+        "discardGroupId": "player1Discard",
+        "inPlay": true
+      }
+    },
+    "player1Fight": {
+      "groupType": "inPlay",
+      "label": "Player 1 Fight Stack",
+      "tableLabel": "Fight",
+      "canHaveAttachments": true,
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1Deck",
+        "discardGroupId": "player1Discard",
+        "inPlay": true
+      }
+    },
+    "player1Damage": {
+      "groupType": "discard",
+      "label": "Player 1 Damage Stack",
+      "tableLabel": "Damage",
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1Deck",
+        "discardGroupId": "player1Discard"
+      }
+    },
+    "player2Deck": {
+      "groupType": "deck",
+      "label": "Player 2 Draw Stack",
+      "tableLabel": "Draw",
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2Deck",
+        "discardGroupId": "player2Discard"
+      }
+    },
+    "player2Discard": {
+      "groupType": "discard",
+      "label": "Player 2 Discard",
+      "tableLabel": "Discard",
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2Deck",
+        "discardGroupId": "player2Discard"
+      }
+    },
+    "player2Hand": {
+      "groupType": "hand",
+      "label": "Player 2 Hand",
+      "tableLabel": "Hand",
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2Deck",
+        "discardGroupId": "player2Discard"
+      }
+    },
+    "player2Character": {
+      "groupType": "inPlay",
+      "label": "Player 2 Character",
+      "tableLabel": "Character",
+      "canHaveAttachments": true,
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2Deck",
+        "discardGroupId": "player2Discard",
+        "inPlay": true
+      }
+    },
+    "player2Fight": {
+      "groupType": "inPlay",
+      "label": "Player 2 Fight Stack",
+      "tableLabel": "Fight",
+      "canHaveAttachments": true,
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2Deck",
+        "discardGroupId": "player2Discard",
+        "inPlay": true
+      }
+    },
+    "player2Damage": {
+      "groupType": "discard",
+      "label": "Player 2 Damage Stack",
+      "tableLabel": "Damage",
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2Deck",
+        "discardGroupId": "player2Discard"
+      }
+    }
+  }
+}

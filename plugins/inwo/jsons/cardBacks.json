@@ -1,0 +1,19 @@
+{
+  "cardBacks": {
+    "default": {
+      "width": 0.72,
+      "height": 1.0,
+      "imageUrl": "inwo/_plugin/Inwo-CardbackDefault.jpg"
+    },
+    "master": {
+      "width": 0.72,
+      "height": 1.0,
+      "imageUrl": "inwo/_plugin/Inwo-CardbackMaster.jpg"
+    },
+    "puppet": {
+      "width": 0.72,
+      "height": 1.0,
+      "imageUrl": "inwo/_plugin/Inwo-CardbackPuppet.jpg"
+    }
+  }
+}

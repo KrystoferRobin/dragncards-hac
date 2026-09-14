@@ -1,0 +1,20 @@
+{
+  "phases": {
+    "Beginning": {
+      "height": "10%",
+      "label": "id:beginningPhase"
+    },
+    "End": {
+      "height": "10%",
+      "label": "id:endPhase"
+    },
+    "Player": {
+      "height": "30%",
+      "label": "id:playerPhase"
+    },
+    "Villain": {
+      "height": "50%",
+      "label": "id:villainPhase"
+    }
+  }
+}

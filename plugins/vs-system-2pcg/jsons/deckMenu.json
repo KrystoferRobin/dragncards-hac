@@ -1,0 +1,39 @@
+{
+  "deckMenu": {
+    "subMenus": [
+      {
+        "label": "Tournament Decks",
+        "deckLists": [
+          {
+            "deckListId": "luke-cage-2-origins2016",
+            "label": "Luke Cage(2 Origins2016)"
+          },
+          {
+            "deckListId": "magneto-4-origins2016",
+            "label": "Magneto(4 Origins2016)"
+          },
+          {
+            "deckListId": "star-lord-gencon-2015-6th",
+            "label": "Star-Lord(Gencon 2015,6th)"
+          },
+          {
+            "deckListId": "storm-gencon2015-4th",
+            "label": "Storm(Gencon2015,4th)"
+          },
+          {
+            "deckListId": "thanos-1-origins2016",
+            "label": "Thanos(1 Origins2016)"
+          },
+          {
+            "deckListId": "thanos-gencon2015-1st",
+            "label": "Thanos(Gencon2015,1st)"
+          },
+          {
+            "deckListId": "the-dragon-3rd-gencon2016",
+            "label": "The Dragon(3rd,Gencon2016)"
+          }
+        ]
+      }
+    ]
+  }
+}

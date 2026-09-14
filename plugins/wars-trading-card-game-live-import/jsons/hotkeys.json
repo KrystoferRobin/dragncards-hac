@@ -1,0 +1,84 @@
+{
+  "hotkeys": {
+    "card": [
+      {
+        "actionList": [
+          "FLIP",
+          "$ACTIVE_CARD_ID"
+        ],
+        "key": "F",
+        "label": "Flip Card"
+      },
+      {
+        "actionList": [
+          "DETACH",
+          "$ACTIVE_CARD_ID"
+        ],
+        "key": "C",
+        "label": "Detach"
+      },
+      {
+        "actionList": [
+          "SHUFFLE_INTO_DECK",
+          "$ACTIVE_CARD_ID"
+        ],
+        "key": "H",
+        "label": "Shuffle Into Owner's Deck"
+      },
+      {
+        "actionList": [
+          "SEND_TO_LOST",
+          "$ACTIVE_CARD_ID"
+        ],
+        "key": "L",
+        "label": "Send to Lost Pile"
+      },
+      {
+        "actionList": [
+          "SEND_TO_USED",
+          "$ACTIVE_CARD_ID"
+        ],
+        "key": "U",
+        "label": "Send to Used Pile"
+      }
+    ],
+    "game": [
+      {
+        "actionList": [
+          "DRAW_ONE_CARD"
+        ],
+        "key": "D",
+        "label": "Draw a card from Active Pile"
+      },
+      {
+        "actionList": [
+          "DRAW_STARTING_HAND"
+        ],
+        "key": "S",
+        "label": "Draw Starting Hand from Reserve"
+      },
+      {
+        "actionList": [
+          "ACTIVATE_ENERGY"
+        ],
+        "key": "A",
+        "label": "Activate 1 Energy from Reserve to Active"
+      },
+      {
+        "actionList": [
+          "PAY_ENERGY"
+        ],
+        "key": "P",
+        "label": "Pay 1 Energy from Active to Used"
+      },
+      {
+        "actionList": [
+          "USED_TO_RESERVE"
+        ],
+        "key": "E",
+        "label": "End Turn - Send Used Pile to Bottom of Reserve."
+      }
+    ],
+    "token": []
+  }
+}

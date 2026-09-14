@@ -1,0 +1,306 @@
+{
+  "pluginName": "WotR Card Game",
+  "author": "seastan",
+  "defaultActions": [
+    {
+      "actionList": "cycleCard",
+      "condition": [
+        "$ACTIVE_CARD.inPlay"
+      ],
+      "label": "id:cycle"
+    }
+  ],
+  "announcements": [
+    "2026-01-25: F&S 4p Trilogy updated, Automations fixed and Constructed Deck Scenarios added",
+    "2025-07-05: Fire & Swords 4p trilogy scenario updated and Solo version added",
+    "2025-05-08: Final Tournament Scenarios added",
+    "2025-03-18: Fire & Swords 4-player trilogy added for playtesting",
+    "2024-09-26: Many additional icons added by card effects are now automated",
+    "2024-09-18: Press Shift+D to perform the setup draw (after shuffling the promo cards into the deck).",
+    "2024-09-02: Fire & Swords expansion added",
+    "2024-01-20: Added a card ability to Mirror of Galadriel. Hover over it and press Shift+A to use it.",
+    "2024-01-20: New default layout where all hands are visible. To change to the old, go to Menu->Layout",
+    "2024-01-20: Bug fixes related to card visibility",
+    "2024-01-15: Press Z to print out all player's pile sizes",
+    "2024-01-15: Press Shift+C to shuffle your cycle pile and place it under your deck",
+    "2023-12-26: Plugin beta 1.2 release - empty deck notifier, Two Towers and RoTK available as PreBuilt decks",
+    "2023-11-29: Plugin beta 1.1 release - combat & VP automation",
+    "2023-09-15: Plugin beta 1.0 release",
+    "2023-07-04: Plugin beta development complete",
+    "2022-11-01: Plugin beta development begun"
+  ],
+  "playerCountMenu": [
+    {
+      "label": "1",
+      "layoutId": "onlyShowMyHand",
+      "numPlayers": 1
+    },
+    {
+      "label": "2",
+      "layoutId": "onlyShowMyHand",
+      "numPlayers": 2
+    },
+    {
+      "label": "3",
+      "layoutId": "onlyShowMyHand",
+      "numPlayers": 3
+    },
+    {
+      "label": "4",
+      "layoutId": "onlyShowMyHand",
+      "numPlayers": 4
+    },
+    {
+      "label": "6",
+      "layoutId": "sixPlayer",
+      "numPlayers": 6
+    },
+    {
+      "label": "1 (all hands visible)",
+      "layoutId": "allHandsVisible",
+      "numPlayers": 1
+    },
+    {
+      "label": "2 (all hands visible)",
+      "layoutId": "allHandsVisible",
+      "numPlayers": 2
+    },
+    {
+      "label": "3 (all hands visible)",
+      "layoutId": "allHandsVisible",
+      "numPlayers": 3
+    },
+    {
+      "label": "4 (all hands visible)",
+      "layoutId": "allHandsVisible",
+      "numPlayers": 4
+    },
+    {
+      "label": "2 (epic duel)",
+      "layoutId": "epicDuel",
+      "numPlayers": 2
+    }
+  ],
+  "backgroundUrl": "https://toybox.hundredacre.club/cards/war-of-the-ring-card-game/_plugin/WarOfTheRingCardGame-Background.jpg",
+  "clearTableOptions": [
+    {
+      "actionList": [
+        "SET",
+        "/victoryState",
+        "FreePeoples"
+      ],
+      "label": "id:labelMarkAsFreePeoplesVictory"
+    },
+    {
+      "actionList": [
+        "SET",
+        "/victoryState",
+        "Shadow"
+      ],
+      "label": "id:labelMarkAsShadowVictory"
+    },
+    {
+      "actionList": [
+        "SET",
+        "/victoryState",
+        "Incomplete"
+      ],
+      "label": "id:labelMarkAsIncomplete"
+    }
+  ],
+  "vacantSeatOnNewGame": false,
+  "stepReminderRegex": [],
+  "stepOrder": [
+    "1.1",
+    "1.2",
+    "2.1",
+    "3.0",
+    "3.1",
+    "3.2",
+    "3.3",
+    "3.4",
+    "3.5",
+    "3.6",
+    "3.7",
+    "4.1",
+    "4.2",
+    "5.1",
+    "5.2"
+  ],
+  "loadPreBuiltOnNewGame": true,
+  "tutorialUrl": "youtube.com",
+  "phaseOrder": [
+    "Location",
+    "Action",
+    "Combat",
+    "Victory",
+    "Draw"
+  ],
+  "closeRoomOptions": [
+    {
+      "actionList": [
+        "SET",
+        "/victoryState",
+        "FreePeoples"
+      ],
+      "label": "id:labelMarkAsFreePeoplesVictory"
+    },
+    {
+      "actionList": [
+        "SET",
+        "/victoryState",
+        "Shadow"
+      ],
+      "label": "id:labelMarkAsShadowVictory"
+    },
+    {
+      "actionList": [
+        "SET",
+        "/victoryState",
+        "Incomplete"
+      ],
+      "label": "id:labelMarkAsIncomplete"
+    }
+  ],
+  "touchBar": [
+    [
+      {
+        "actionList": "zeroTokens",
+        "actionType": "card",
+        "id": "removeTokens",
+        "label": "id:removeTokens"
+      },
+      {
+        "actionType": "token",
+        "id": "incrementBlueAttack",
+        "imageUrl": "https://toybox.hundredacre.club/cards/war-of-the-ring-card-game/_plugin/WarOfTheRingCardGame-TokenAttackBlue.png",
+        "label": "",
+        "tokenType": "attackBlue"
+      },
+      {
+        "actionType": "token",
+        "id": "incrementBlueDefense",
+        "imageUrl": "https://toybox.hundredacre.club/cards/war-of-the-ring-card-game/_plugin/WarOfTheRingCardGame-TokenDefenseBlue.png",
+        "label": "",
+        "tokenType": "defenseBlue"
+      },
+      {
+        "actionType": "token",
+        "id": "incrementRedAttack",
+        "imageUrl": "https://toybox.hundredacre.club/cards/war-of-the-ring-card-game/_plugin/WarOfTheRingCardGame-TokenAttackRed.png",
+        "label": "",
+        "tokenType": "attackRed"
+      },
+      {
+        "actionType": "token",
+        "id": "incrementRedDefense",
+        "imageUrl": "https://toybox.hundredacre.club/cards/war-of-the-ring-card-game/_plugin/WarOfTheRingCardGame-TokenDefenseRed.png",
+        "label": "",
+        "tokenType": "defenseRed"
+      },
+      {
+        "actionType": "token",
+        "id": "incrementBluePath",
+        "imageUrl": "https://toybox.hundredacre.club/cards/war-of-the-ring-card-game/_plugin/WarOfTheRingCardGame-TokenPathBlue.png",
+        "label": "",
+        "tokenType": "pathBlue"
+      },
+      {
+        "actionType": "token",
+        "id": "incrementRedPath",
+        "imageUrl": "https://toybox.hundredacre.club/cards/war-of-the-ring-card-game/_plugin/WarOfTheRingCardGame-TokenPathRed.png",
+        "label": "",
+        "tokenType": "pathRed"
+      },
+      {
+        "actionType": "token",
+        "id": "incrementCorruption",
+        "imageUrl": "https://toybox.hundredacre.club/cards/war-of-the-ring-card-game/_plugin/WarOfTheRingCardGame-TokenCorruption.png",
+        "label": "",
+        "tokenType": "corruption"
+      },
+      {
+        "actionList": "toggleRotate",
+        "actionType": "card",
+        "id": "toggleRotate",
+        "label": "id:rotate"
+      },
+      {
+        "actionList": "flipCard",
+        "actionType": "card",
+        "id": "flip",
+        "label": "id:flip"
+      },
+      {
+        "actionList": "cycleCard",
+        "actionType": "card",
+        "id": "cycle",
+        "label": "id:cycle"
+      },
+      {
+        "actionList": "eliminateCard",
+        "actionType": "card",
+        "id": "eliminate",
+        "label": "id:eliminate"
+      },
+      {
+        "actionList": "targetCard",
+        "actionType": "card",
+        "id": "target",
+        "label": "id:target"
+      },
+      {
+        "actionList": "scoreLocation",
+        "actionType": "card",
+        "id": "scoreLocation",
+        "label": "id:scoreLocation"
+      },
+      {
+        "actionList": "drawArrow",
+        "actionType": "card",
+        "id": "drawArrow",
+        "label": "id:drawArrow"
+      }
+    ],
+    [
+      {
+        "actionList": "drawCard",
+        "actionType": "game",
+        "id": "drawCard",
+        "label": "id:draw"
+      },
+      {
+        "actionList": "clearTargets",
+        "actionType": "game",
+        "id": "clearTargets",
+        "label": "id:clearTargets"
+      },
+      {
+        "actionList": "undo",
+        "actionType": "engine",
+        "id": "undo",
+        "label": "id:undo"
+      },
+      {
+        "actionList": "undoMany",
+        "actionType": "engine",
+        "id": "undoMany",
+        "label": "id:undoMany"
+      },
+      {
+        "actionList": "nextStep",
+        "actionType": "game",
+        "id": "nextStep",
+        "label": "id:nextStep"
+      },
+      {
+        "actionList": "save",
+        "actionType": "engine",
+        "id": "save",
+        "label": "id:save"
+      }
+    ]
+  ],
+  "bannerUrl": "https://toybox.hundredacre.club/cards/war-of-the-ring-card-game/_plugin/banner.jpg",
+  "logoUrl": "https://toybox.hundredacre.club/cards/war-of-the-ring-card-game/_plugin/logo.jpg"
+}

@@ -1,0 +1,24 @@
+{
+  "browse": {
+    "filterPropertySideA": "type",
+    "filterValuesSideA": [
+      "Challenge",
+      "Core Crew",
+      "Core Episode Discovery",
+      "Core Episode Mission",
+      "Core Episode Plot",
+      "Core Info Card",
+      "Crew",
+      "Effect",
+      "Episode Discovery",
+      "Episode Mission",
+      "Episode Plot",
+      "Permanent Wild",
+      "Wild"
+    ],
+    "textPropertiesSideA": [
+      "name",
+      "packName"
+    ]
+  }
+}

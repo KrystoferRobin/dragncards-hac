@@ -1,0 +1,48 @@
+{
+  "cardMenu": {
+    "moveToGroupIds": [
+      "playerNHand",
+      "playerNDeck",
+      "playerNDiscard",
+      "playerNPlay",
+      "playerNDomains",
+      "playerNWon",
+      "playerN+1Play",
+      "playerN+1Domains",
+      "playerN+1Won",
+      "sharedStories",
+      "sharedStoryDeck",
+      "sharedSetAside"
+    ],
+    "options": [
+      {
+        "label": "Exhaust",
+        "actionList": "exhaustCard"
+      },
+      {
+        "label": "Insane",
+        "actionList": "insaneCard"
+      },
+      {
+        "label": "Refresh",
+        "actionList": "readyCard"
+      },
+      {
+        "label": "Flip",
+        "actionList": "flipCard"
+      },
+      {
+        "label": "Discard",
+        "actionList": "discardCard"
+      },
+      {
+        "label": "Detach",
+        "actionList": "detachCard"
+      },
+      {
+        "label": "Shuffle into deck",
+        "actionList": "shuffleIntoDeck"
+      }
+    ]
+  }
+}

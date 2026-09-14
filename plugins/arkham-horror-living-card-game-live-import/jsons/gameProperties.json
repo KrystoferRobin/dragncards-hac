@@ -1,0 +1,9 @@
+{
+  "gameProperties": {
+    "loopUntilInvestigatorsDone": {
+      "default": true,
+      "label": "id:loopUntilInvestigatorsDone",
+      "type": "boolean"
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "steps": {
+    "drawStep": {"phaseId": "draw", "label": "Draw"},
+    "treasureStep": {"phaseId": "treasure", "label": "Treasure"},
+    "movementStep": {"phaseId": "movement", "label": "Movement"},
+    "actionStep": {"phaseId": "action", "label": "Action"},
+    "battleStep": {"phaseId": "battle", "label": "Battle"},
+    "secondActionStep": {"phaseId": "secondAction", "label": "Second Action"},
+    "discardStep": {"phaseId": "discard", "label": "Discard"}
+  },
+  "stepOrder": [
+    "drawStep",
+    "treasureStep",
+    "movementStep",
+    "actionStep",
+    "battleStep",
+    "secondActionStep",
+    "discardStep"
+  ]
+}

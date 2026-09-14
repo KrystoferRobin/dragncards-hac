@@ -1,0 +1,172 @@
+{
+  "functions": {
+    "DISCARD": {
+      "args": [
+        "$CARD_ID"
+      ],
+      "code": [
+        [
+          "VAR",
+          "$CARD",
+          "$GAME.cardById.$CARD_ID"
+        ],
+        [
+          "COND",
+          [
+            "EQUAL",
+            "$CARD.discardGroupId",
+            null
+          ],
+          [
+            "LOG",
+            "{{$ALIAS_N}} failed to put {{$CARD.currentFace.name}} in the graveyard."
+          ],
+          [
+            "TRUE"
+          ],
+          [
+            [
+              "LOG",
+              "{{$ALIAS_N}} put {{$CARD.sides.A.name}} into the graveyard."
+            ],
+            [
+              "MOVE_CARD",
+              "$CARD.id",
+              "$CARD.discardGroupId",
+              0
+            ]
+          ]
+        ]
+      ]
+    },
+    "FLIP": {
+      "args": [
+        "$CARD_ID"
+      ],
+      "code": [
+        [
+          "VAR",
+          "$CARD",
+          "$GAME.cardById.$CARD_ID"
+        ],
+        [
+          "COND",
+          [
+            "EQUAL",
+            "$CARD.currentSide",
+            "A"
+          ],
+          [
+            [
+              "LOG",
+              "{{$ALIAS_N}} flipped {{$CARD.currentFace.name}} facedown."
+            ],
+            [
+              "SET",
+              "/cardById/$CARD.id/currentSide",
+              "B"
+            ]
+          ],
+          [
+            "TRUE"
+          ],
+          [
+            [
+              "SET",
+              "/cardById/$CARD.id/currentSide",
+              "A"
+            ],
+            [
+              "LOG",
+              "{{$ALIAS_N}} flipped {{$CARD.currentFace.name}} faceup."
+            ]
+          ]
+        ]
+      ]
+    },
+    "DETACH": {
+      "args": [
+        "$CARD_ID"
+      ],
+      "code": [
+        [
+          "VAR",
+          "$CARD",
+          "$GAME.cardById.$CARD_ID"
+        ],
+        [
+          "COND",
+          [
+            "GREATER_THAN",
+            "$CARD.cardIndex",
+            0
+          ],
+          [
+            [
+              "MOVE_CARD",
+              "$CARD.id",
+              "$CARD.groupId",
+              [
+                "ADD",
+                "$CARD.stackIndex",
+                1
+              ]
+            ],
+            [
+              "LOG",
+              "{{$ALIAS_N}} detached {{$CARD.currentFace.name}}."
+            ]
+          ]
+        ]
+      ]
+    },
+    "SHUFFLE_INTO_DECK": {
+      "args": [
+        "$CARD_ID"
+      ],
+      "code": [
+        [
+          "VAR",
+          "$CARD",
+          "$GAME.cardById.$CARD_ID"
+        ],
+        [
+          "VAR",
+          "$GROUP_ID",
+          "$CARD.deckGroupId"
+        ],
+        [
+          "COND",
+          [
+            "EQUAL",
+            "$GROUP_ID",
+            null
+          ],
+          [
+            "LOG",
+            "{{$ALIAS_N}} failed to shuffle {{$CARD.currentFace.name}} into a library."
+          ],
+          [
+            "TRUE"
+          ],
+          [
+            [
+              "MOVE_CARD",
+              "$CARD.id",
+              "$CARD.deckGroupId",
+              0
+            ],
+            [
+              "SHUFFLE_GROUP",
+              "$GROUP_ID"
+            ],
+            [
+              "LOG",
+              "{{$ALIAS_N}} shuffled {{$CARD.currentFace.name}} into {{$GAME.groupById.$GROUP_ID.label}}."
+            ]
+          ]
+        ]
+      ]
+    }
+  }
+}

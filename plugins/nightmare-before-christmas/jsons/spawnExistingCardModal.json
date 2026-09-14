@@ -1,0 +1,18 @@
+{
+  "spawnExistingCardModal": {
+    "columnProperties": [
+      "name",
+      "type",
+      "scare",
+      "packName"
+    ],
+    "loadGroupIds": [
+      "player1Deck",
+      "player1Locale",
+      "player1StartingLocale",
+      "player1Aids",
+      "player1Hand",
+      "player2Hand"
+    ]
+  }
+}

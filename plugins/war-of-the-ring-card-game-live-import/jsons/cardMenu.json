@@ -1,0 +1,15 @@
+{
+  "cardMenu": {
+    "moveToGroupIds": [],
+    "options": [
+      {
+        "actionList": "toggleRotate",
+        "label": "id:toggleRotate"
+      },
+      {
+        "actionList": "scoreLocation",
+        "label": "id:scoreLocation"
+      }
+    ]
+  }
+}

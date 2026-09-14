@@ -1,0 +1,175 @@
+{
+  "cardTypes": {
+    "Artifact": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "green",
+        "red",
+        "blue"
+      ]
+    },
+    "Battle": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "green",
+        "red",
+        "blue"
+      ]
+    },
+    "Conspiracy": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "green",
+        "red",
+        "blue"
+      ]
+    },
+    "Creature": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "green",
+        "red",
+        "blue"
+      ]
+    },
+    "Dungeon": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "green",
+        "red",
+        "blue"
+      ]
+    },
+    "Emblem": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "green",
+        "red",
+        "blue"
+      ]
+    },
+    "Enchantment": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "green",
+        "red",
+        "blue"
+      ]
+    },
+    "Hero": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "green",
+        "red",
+        "blue"
+      ]
+    },
+    "Hero Stickers": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "green",
+        "red",
+        "blue"
+      ]
+    },
+    "Instant": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "green",
+        "red",
+        "blue"
+      ]
+    },
+    "Land": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "green",
+        "red",
+        "blue"
+      ]
+    },
+    "Phenomenon": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "green",
+        "red",
+        "blue"
+      ]
+    },
+    "Plane": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "green",
+        "red",
+        "blue"
+      ]
+    },
+    "Planeswalker": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "green",
+        "red",
+        "blue"
+      ]
+    },
+    "Scheme": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "green",
+        "red",
+        "blue"
+      ]
+    },
+    "Sorcery": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "green",
+        "red",
+        "blue"
+      ]
+    },
+    "Stickers": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "green",
+        "red",
+        "blue"
+      ]
+    },
+    "Token": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "green",
+        "red",
+        "blue"
+      ]
+    },
+    "Vanguard": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "green",
+        "red",
+        "blue"
+      ]
+    }
+  }
+}

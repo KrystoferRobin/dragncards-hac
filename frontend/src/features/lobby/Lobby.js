@@ -64,7 +64,7 @@ export const Lobby = () => {
   };
 
   return (
-    <LobbyContainer>
+    <LobbyContainer maxWidth="1265px">
       <WhatsNewModal isOpen={showWhatsNew} closeModal={() => setShowWhatsNew(false)} user={user} />
       <div className="w-full" style={{minHeight: "600px"}}>
         {/* <div className="bg-red-600-30 p-4 rounded-lg mb-4 text-white text-sm">A recent DragnCards update has impacted the performance of some plugins</div> */}
@@ -82,6 +82,16 @@ export const Lobby = () => {
           </span>
           <span 
             className="mx-4 p-2 rounded-lg hover:bg-gray-600-30 cursor-pointer"
+            onClick={() => togglePluginsType("decks")}
+          >
+            <span style={{ 
+              borderBottom: pluginsType === "decks" ? "3px solid rgba(153, 27, 27, 0.7)" : "none"
+            }}>
+            Deck Editor
+            </span>
+          </span>
+          <span 
+            className="mx-4 p-2 rounded-lg hover:bg-gray-600-30 cursor-pointer"
             onClick={() => togglePluginsType("private")}
           >
             <span style={{ 
@@ -92,6 +102,11 @@ export const Lobby = () => {
           </span>
         </div>
         {pluginsType === "public" && <PluginsTable plugins={publicPlugins}/>}
+        {pluginsType === "decks" && (
+          user?.id
+            ? <PluginsTable plugins={allPlugins} hrefForPlugin={(plugin) => `/deck-editor/${plugin.id}`} />
+            : <div className="text-center text-white mt-8">Log in to open the deck editor.</div>
+        )}
         {pluginsType === "private" && <PluginsTable plugins={privatePlugins}/>}
       </div>
     </LobbyContainer>

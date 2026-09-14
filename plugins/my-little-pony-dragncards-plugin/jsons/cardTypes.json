@@ -1,0 +1,46 @@
+{
+  "cardTypes": {
+    "Character": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "green"
+      ]
+    },
+    "Event": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "green"
+      ]
+    },
+    "Item": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "green"
+      ]
+    },
+    "Main Character": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "green"
+      ]
+    },
+    "Scene": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "green"
+      ]
+    },
+    "Story": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "green"
+      ]
+    }
+  }
+}

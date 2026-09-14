@@ -1,0 +1,17 @@
+{
+  "spawnExistingCardModal": {
+    "columnProperties": [
+      "name",
+      "type",
+      "color",
+      "strength",
+      "packName"
+    ],
+    "loadGroupIds": [
+      "player1Deck",
+      "player1NetNavi",
+      "player1Hand",
+      "player2Hand"
+    ]
+  }
+}

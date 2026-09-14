@@ -1,0 +1,36 @@
+{
+  "steps": {
+    "actionsStep": {
+      "phaseId": "actions",
+      "label": "Actions"
+    },
+    "commitMonsterStep": {
+      "phaseId": "commitMonster",
+      "label": "Commit Monster"
+    },
+    "commitAlliesStep": {
+      "phaseId": "commitAllies",
+      "label": "Commit Allies"
+    },
+    "spellsArtifactsStep": {
+      "phaseId": "spellsArtifacts",
+      "label": "Spells/Artifacts"
+    },
+    "combatStep": {
+      "phaseId": "combat",
+      "label": "Combat"
+    },
+    "endRoundStep": {
+      "phaseId": "endRound",
+      "label": "End of Round"
+    }
+  },
+  "stepOrder": [
+    "actionsStep",
+    "commitMonsterStep",
+    "commitAlliesStep",
+    "spellsArtifactsStep",
+    "combatStep",
+    "endRoundStep"
+  ]
+}

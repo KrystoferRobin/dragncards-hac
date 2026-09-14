@@ -1,0 +1,28 @@
+{
+  "groupMenu": {
+    "moveToGroupIds": [
+      "sharedSetAsideHand",
+      "sharedSetAsidePile1",
+      "sharedSetAsidePile2"
+    ],
+    "options": [
+      {
+        "actionList": "shuffleGroupIntoDeck",
+        "label": "id:shuffleGroupIntoDeck"
+      },
+      {
+        "actionList": "flipThemAll",
+        "label": "id:flipThemAll"
+      }
+    ],
+    "peekAtTopN": [
+      1,
+      3,
+      5,
+      7
+    ],
+    "suppress": [
+      "Look at top X"
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "steps": {
+    "discardStep": {
+      "phaseId": "discard",
+      "label": "Discard"
+    },
+    "drawStep": {
+      "phaseId": "draw",
+      "label": "Draw"
+    },
+    "crewStep": {
+      "phaseId": "crew",
+      "label": "Crew"
+    },
+    "episodeStep": {
+      "phaseId": "episode",
+      "label": "Episode"
+    },
+    "resolutionStep": {
+      "phaseId": "resolution",
+      "label": "Resolution"
+    },
+    "changeStep": {
+      "phaseId": "change",
+      "label": "Change Player"
+    }
+  },
+  "stepOrder": [
+    "discardStep",
+    "drawStep",
+    "crewStep",
+    "episodeStep",
+    "resolutionStep",
+    "changeStep"
+  ]
+}

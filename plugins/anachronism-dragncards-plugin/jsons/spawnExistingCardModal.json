@@ -1,0 +1,27 @@
+{
+  "spawnExistingCardModal": {
+    "columnProperties": ["name", "type", "culture", "initiative", "life"],
+    "loadGroupIds": [
+      "playerNWarrior",
+      "playerNPool",
+      "playerNDiscard",
+      "sharedArenaR1C1",
+      "sharedArenaR1C2",
+      "sharedArenaR1C3",
+      "sharedArenaR1C4",
+      "sharedArenaR2C1",
+      "sharedArenaR2C2",
+      "sharedArenaR2C3",
+      "sharedArenaR2C4",
+      "sharedArenaR3C1",
+      "sharedArenaR3C2",
+      "sharedArenaR3C3",
+      "sharedArenaR3C4",
+      "sharedArenaR4C1",
+      "sharedArenaR4C2",
+      "sharedArenaR4C3",
+      "sharedArenaR4C4",
+      "sharedSetAside"
+    ]
+  }
+}

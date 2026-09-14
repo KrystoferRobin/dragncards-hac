@@ -1,0 +1,19 @@
+{
+  "groupMenu": {
+    "moveToGroupIds": [
+      "playerNHand",
+      "playerNLane1",
+      "playerNLane2",
+      "playerNLane3",
+      "playerNScenes",
+      "playerNStory",
+      "playerNMC",
+      "playerNRetire",
+      "playerNPlans",
+      "playerNDeck",
+      "playerNSceneDeck",
+      "playerNStoryDeck"
+    ],
+    "options": []
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "deckbuilder": {
+    "addButtons": [1, 2, 3, 4],
+    "columns": [
+      {"propName": "name", "label": "Name"},
+      {"propName": "type", "label": "Type"},
+      {"propName": "set", "label": "Set"},
+      {"propName": "gold", "label": "Gold"},
+      {"propName": "strength", "label": "Strength"},
+      {"propName": "text", "label": "Text"}
+    ],
+    "spawnGroups": [
+      {"loadGroupId": "playerNTreasureHorde", "label": "My Treasure Horde"},
+      {"loadGroupId": "playerNDragonLair", "label": "My Dragon Lair"}
+    ]
+  }
+}

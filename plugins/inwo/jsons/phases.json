@@ -1,0 +1,36 @@
+{
+  "phases": {
+    "draw": {
+      "label": "(1–2) Draw Plot or Group",
+      "height": "14%"
+    },
+    "takeover": {
+      "label": "(3) Automatic Takeover",
+      "height": "14%"
+    },
+    "tokens": {
+      "label": "(4) Place Action Tokens",
+      "height": "14%"
+    },
+    "attack": {
+      "label": "(5) Attack / Main",
+      "height": "20%"
+    },
+    "plots": {
+      "label": "(6) Use Plot / Other",
+      "height": "19%"
+    },
+    "endTurn": {
+      "label": "(7) Knock / End Turn",
+      "height": "19%"
+    }
+  },
+  "phaseOrder": [
+    "draw",
+    "takeover",
+    "tokens",
+    "attack",
+    "plots",
+    "endTurn"
+  ]
+}

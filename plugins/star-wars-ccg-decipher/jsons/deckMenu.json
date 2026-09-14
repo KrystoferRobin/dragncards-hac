@@ -1,0 +1,317 @@
+{
+  "deckMenu": {
+    "subMenus": [
+      {
+        "label": "Preconstructed",
+        "deckLists": [
+          {
+            "deckListId": "precon-open-demo-deck-dark",
+            "label": "Precon Open Demo Deck (Dark)"
+          },
+          {
+            "deckListId": "precon-open-demo-deck-light",
+            "label": "Precon Open Demo Deck (Light)"
+          },
+          {
+            "deckListId": "precon-p-dsii-death-star-ii-starter-dark",
+            "label": "Precon P-DSII Death Star II Starter (Dark)"
+          },
+          {
+            "deckListId": "precon-p-dsii-death-star-ii-starter-light",
+            "label": "Precon P-DSII Death Star II Starter (Light)"
+          },
+          {
+            "deckListId": "precon-premiere-intro-2pg-dark",
+            "label": "Precon Premiere Intro 2PG (Dark)"
+          },
+          {
+            "deckListId": "precon-premiere-intro-2pg-light",
+            "label": "Precon Premiere Intro 2PG (Light)"
+          }
+        ]
+      },
+      {
+        "label": "Classic",
+        "deckLists": [
+          {
+            "deckListId": "classic-no-v-bring-him-before-me",
+            "label": "Classic (no V) Bring Him Before Me"
+          },
+          {
+            "deckListId": "classic-no-v-court-of-the-vile-gangster",
+            "label": "Classic (no V) Court Of The Vile Gangster"
+          },
+          {
+            "deckListId": "classic-no-v-hunt-down-dueling",
+            "label": "Classic (no V) Hunt Down Dueling"
+          },
+          {
+            "deckListId": "classic-no-v-isb-operations",
+            "label": "Classic (no V) ISB Operations"
+          },
+          {
+            "deckListId": "classic-no-v-kessel-run",
+            "label": "Classic (no V) Kessel Run"
+          },
+          {
+            "deckListId": "classic-no-v-ralltiir-operations",
+            "label": "Classic (no V) Ralltiir Operations"
+          },
+          {
+            "deckListId": "classic-no-v-tatooine-celebration",
+            "label": "Classic (no V) Tatooine Celebration"
+          },
+          {
+            "deckListId": "classic-ebo",
+            "label": "Classic EBO"
+          },
+          {
+            "deckListId": "classic-hoth-attack",
+            "label": "Classic Hoth Attack"
+          },
+          {
+            "deckListId": "classic-profit",
+            "label": "Classic Profit"
+          },
+          {
+            "deckListId": "classic-qmc",
+            "label": "Classic QMC"
+          },
+          {
+            "deckListId": "classic-rebel-strike-team",
+            "label": "Classic Rebel Strike Team"
+          },
+          {
+            "deckListId": "classic-rescue-the-princess",
+            "label": "Classic Rescue The Princess"
+          },
+          {
+            "deckListId": "classic-there-is-good-in-him",
+            "label": "Classic There Is Good In Him"
+          }
+        ]
+      },
+      {
+        "label": "Decipher Only",
+        "deckLists": [
+          {
+            "deckListId": "decipher-only-5th-marker-ymsyl-zinn",
+            "label": "Decipher Only 5th Marker YMSYL - Zinn"
+          },
+          {
+            "deckListId": "decipher-only-all-your-base-winkelhaus",
+            "label": "Decipher Only All Your Base - Winkelhaus"
+          },
+          {
+            "deckListId": "decipher-only-dark-combat-thorp",
+            "label": "Decipher Only Dark Combat - Thorp"
+          },
+          {
+            "deckListId": "decipher-only-dark-senate-jurcovic",
+            "label": "Decipher Only Dark Senate - Jurcovic"
+          },
+          {
+            "deckListId": "decipher-only-hunt-down-warren",
+            "label": "Decipher Only Hunt Down - Warren"
+          },
+          {
+            "deckListId": "decipher-only-invasion",
+            "label": "Decipher Only Invasion"
+          },
+          {
+            "deckListId": "decipher-only-light-combat-reinhold",
+            "label": "Decipher Only Light Combat - Reinhold"
+          },
+          {
+            "deckListId": "decipher-only-light-senate-hunter",
+            "label": "Decipher Only Light Senate - Hunter"
+          },
+          {
+            "deckListId": "decipher-only-ten-numb-superstar-gemme",
+            "label": "Decipher Only Ten Numb Superstar - Gemme"
+          },
+          {
+            "deckListId": "decipher-only-wys-jim-li",
+            "label": "Decipher Only WYS - Jim Li"
+          }
+        ]
+      },
+      {
+        "label": "Legacy",
+        "deckLists": [
+          {
+            "deckListId": "legacy-communing-worlds-2014",
+            "label": "Legacy Communing - Worlds 2014"
+          },
+          {
+            "deckListId": "legacy-hdv-worlds-2014",
+            "label": "Legacy HDv - Worlds 2014"
+          },
+          {
+            "deckListId": "legacy-mistryl-mpc-2012",
+            "label": "Legacy Mistryl - MPC 2012"
+          },
+          {
+            "deckListId": "legacy-slavers-worlds-2014",
+            "label": "Legacy Slavers - Worlds 2014"
+          },
+          {
+            "deckListId": "legacy-whap",
+            "label": "Legacy WHAP"
+          }
+        ]
+      },
+      {
+        "label": "Open",
+        "deckLists": [
+          {
+            "deckListId": "open-wend-s-anh-tatooine-diplo",
+            "label": "Open - Wend's ANH (Tatooine-Diplo)"
+          },
+          {
+            "deckListId": "open-wend-s-anh-tatooine-ie",
+            "label": "Open - Wend's ANH (Tatooine-IE)"
+          },
+          {
+            "deckListId": "open-40-card-beginner-dark",
+            "label": "Open 40 card - Beginner Dark"
+          },
+          {
+            "deckListId": "open-40-card-beginner-light",
+            "label": "Open 40 card - Beginner Light"
+          }
+        ]
+      },
+      {
+        "label": "Period constructed",
+        "deckLists": [
+          {
+            "deckListId": "p-anh-dark",
+            "label": "P-ANH (Dark)"
+          },
+          {
+            "deckListId": "p-anh-light",
+            "label": "P-ANH (Light)"
+          },
+          {
+            "deckListId": "p-anh-1996-world-champion-dark",
+            "label": "P-ANH 1996 World Champion (Dark)"
+          },
+          {
+            "deckListId": "p-anh-1996-world-champion-light",
+            "label": "P-ANH 1996 World Champion (Light)"
+          },
+          {
+            "deckListId": "p-dsii-bhbm-matt-sokol",
+            "label": "P-DSII BHBM-Matt Sokol"
+          },
+          {
+            "deckListId": "p-dsii-dark-deal-brian-hunter",
+            "label": "P-DSII Dark Deal-Brian Hunter"
+          },
+          {
+            "deckListId": "p-dsii-ebo-jim-li",
+            "label": "P-DSII EBO-Jim Li"
+          },
+          {
+            "deckListId": "p-dsii-hb-x-wings-jonny-chu",
+            "label": "P-DSII HB X-wings-Jonny Chu"
+          },
+          {
+            "deckListId": "p-dsii-hidden-mains-brian-hunter",
+            "label": "P-DSII Hidden Mains-Brian Hunter"
+          },
+          {
+            "deckListId": "p-dsii-hunt-down-justin-warren",
+            "label": "P-DSII Hunt Down-Justin Warren"
+          },
+          {
+            "deckListId": "p-dsii-profit-mike-pistone",
+            "label": "P-DSII Profit-Mike Pistone"
+          },
+          {
+            "deckListId": "p-dsii-rops-kevin-shannon",
+            "label": "P-DSII ROps-Kevin Shannon"
+          },
+          {
+            "deckListId": "p-dsii-sycfa-brangus-bastian-winkelhaus",
+            "label": "P-DSII SYCFA Brangus-Bastian Winkelhaus"
+          },
+          {
+            "deckListId": "p-dsii-trm-nudjs-hayes-hunter",
+            "label": "P-DSII TRM Nudjs-Hayes Hunter"
+          },
+          {
+            "deckListId": "p-refii-aobs-alex-tennet",
+            "label": "P-RefII AOBS-Alex Tennet"
+          },
+          {
+            "deckListId": "p-refii-bhbm-steven-lewis",
+            "label": "P-RefII BHBM-Steven Lewis"
+          },
+          {
+            "deckListId": "p-refii-court-scum-joe-olson",
+            "label": "P-RefII Court Scum-Joe Olson"
+          },
+          {
+            "deckListId": "p-refii-ebo-nate-meeker",
+            "label": "P-RefII EBO-Nate Meeker"
+          },
+          {
+            "deckListId": "p-refii-hb-mains-hayes-hunter",
+            "label": "P-RefII HB Mains-Hayes Hunter"
+          },
+          {
+            "deckListId": "p-refii-hunt-down-justin-warren",
+            "label": "P-RefII Hunt Down-Justin Warren"
+          },
+          {
+            "deckListId": "p-refii-rst-eric-hunter",
+            "label": "P-RefII RST-Eric Hunter"
+          },
+          {
+            "deckListId": "p-refii-wys-bastian-winkelhaus",
+            "label": "P-RefII WYS-Bastian Winkelhaus"
+          },
+          {
+            "deckListId": "p-se-1998-world-champion-dark",
+            "label": "P-SE 1998 World Champion (Dark)"
+          },
+          {
+            "deckListId": "p-se-1998-world-champion-light",
+            "label": "P-SE 1998 World Champion (Light)"
+          }
+        ]
+      },
+      {
+        "label": "Utinni",
+        "deckLists": [
+          {
+            "deckListId": "utinni-dark-lotso-jawas",
+            "label": "Utinni - DARK - Lotso Jawas"
+          },
+          {
+            "deckListId": "utinni-light-lotso-jawas",
+            "label": "Utinni - LIGHT - Lotso Jawas"
+          },
+          {
+            "deckListId": "utinni-dark-expand-the-jawas",
+            "label": "Utinni - DARK - Expand the Jawas"
+          },
+          {
+            "deckListId": "utinni-light-jawa-kessel-run",
+            "label": "Utinni - LIGHT - Jawa Kessel Run"
+          },
+          {
+            "deckListId": "utinni-dark-jawas-feed-the-rancor",
+            "label": "Utinni - DARK - Jawas feed the Rancor"
+          },
+          {
+            "deckListId": "utinni-light-jawas-remote-lasers",
+            "label": "Utinni - LIGHT - Jawas Remote Lasers"
+          }
+        ]
+      }
+    ]
+  }
+}

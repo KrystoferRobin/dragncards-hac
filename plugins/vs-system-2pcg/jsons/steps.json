@@ -1,0 +1,21 @@
+{
+  "steps": {
+    "buildStep": {
+      "phaseId": "build",
+      "label": "Build"
+    },
+    "mainStep": {
+      "phaseId": "main",
+      "label": "Main"
+    },
+    "combatStep": {
+      "phaseId": "combat",
+      "label": "Combat"
+    }
+  },
+  "stepOrder": [
+    "buildStep",
+    "mainStep",
+    "combatStep"
+  ]
+}

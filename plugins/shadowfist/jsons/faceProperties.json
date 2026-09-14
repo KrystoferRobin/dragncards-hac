@@ -1,0 +1,74 @@
+{
+  "faceProperties": {
+    "faction": {
+      "label": "Faction",
+      "type": "string",
+      "default": ""
+    },
+    "subtitle": {
+      "label": "Subtitle",
+      "type": "string",
+      "default": ""
+    },
+    "cost": {
+      "label": "Cost",
+      "type": "string",
+      "default": ""
+    },
+    "requires": {
+      "label": "Requires",
+      "type": "string",
+      "default": ""
+    },
+    "provides": {
+      "label": "Provides",
+      "type": "string",
+      "default": ""
+    },
+    "fighting": {
+      "label": "Fighting",
+      "type": "string",
+      "default": ""
+    },
+    "power": {
+      "label": "Power",
+      "type": "string",
+      "default": ""
+    },
+    "body": {
+      "label": "Body",
+      "type": "string",
+      "default": ""
+    },
+    "rarity": {
+      "label": "Rarity",
+      "type": "string",
+      "default": ""
+    },
+    "designators": {
+      "label": "Designators",
+      "type": "string",
+      "default": ""
+    },
+    "text": {
+      "label": "Text",
+      "type": "string",
+      "default": ""
+    },
+    "packName": {
+      "label": "Set",
+      "type": "string",
+      "default": ""
+    },
+    "set": {
+      "label": "Lackey Set",
+      "type": "string",
+      "default": ""
+    },
+    "loadGroupId": {
+      "label": "Load Group",
+      "type": "string",
+      "default": ""
+    }
+  }
+}

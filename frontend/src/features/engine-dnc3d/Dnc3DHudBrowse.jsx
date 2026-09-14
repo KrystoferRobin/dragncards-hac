@@ -8,6 +8,7 @@ import { usePlayerN } from '../engine/hooks/usePlayerN';
 import { setValues } from '../store/gameUiSlice';
 import { setDropdownMenu, setTyping } from '../store/playerUiSlice';
 import { getParentCardsInGroup } from '../engine/functions/common';
+import { BrowseHudFrame } from '../engine/BrowseHudFrame';
 
 const isNormalInteger = (val) => {
   const n = Math.floor(Number(val));
@@ -161,26 +162,32 @@ export const Dnc3DHudBrowse = ({ onFilterChange }) => {
   };
 
   return (
-    <div style={{
-      '--hud-u': '0.1dvh',
-      position: 'absolute', bottom: `calc(${u(8)} + 5%)`, left: '50%',
-      transform: 'translateX(-50%)',
-      background: 'rgba(22, 22, 28, 0.97)', color: 'white',
-      borderRadius: u(10), fontFamily: 'system-ui', fontSize: u(13),
-      zIndex: 10000, width: u(640), maxWidth: '92vw',
-      boxShadow: `0 ${u(4)} ${u(24)} rgba(0,0,0,0.85)`, userSelect: 'none',
-      border: '1px solid rgba(255,255,255,0.08)', pointerEvents: 'auto',
-    }}>
-      {/* Header */}
-      <div style={{
-        display: 'flex', alignItems: 'center', gap: u(10),
-        padding: `${u(7)} ${u(12)}`,
-        background: 'rgba(50, 50, 58, 0.9)',
-        borderTopLeftRadius: u(10), borderTopRightRadius: u(10),
-        borderBottom: '1px solid rgba(255,255,255,0.07)',
-      }}>
+    <BrowseHudFrame
+      resetKey={groupId}
+      style={{
+        '--hud-u': '0.1dvh',
+        background: 'rgba(22, 22, 28, 0.97)', color: 'white',
+        borderRadius: u(10), fontFamily: 'system-ui', fontSize: u(13),
+        width: u(640), maxWidth: '92vw',
+        boxShadow: `0 ${u(4)} ${u(24)} rgba(0,0,0,0.85)`, userSelect: 'none',
+        border: '1px solid rgba(255,255,255,0.08)',
+      }}
+    >
+      {/* Header — drag handle. Buttons opt out via browse-hud-no-drag. */}
+      <div
+        className="browse-hud-handle"
+        style={{
+          display: 'flex', alignItems: 'center', gap: u(10),
+          padding: `${u(7)} ${u(12)}`,
+          background: 'rgba(50, 50, 58, 0.9)',
+          borderTopLeftRadius: u(10), borderTopRightRadius: u(10),
+          borderBottom: '1px solid rgba(255,255,255,0.07)',
+          cursor: 'grab', flexShrink: 0,
+        }}
+      >
         <span style={{ fontWeight: 'bold', fontSize: u(14) }}>{gameL10n(group.label)}</span>
         <div
+          className="browse-hud-no-drag"
           onClick={handleBarsClick}
           style={{
             cursor: 'pointer', fontSize: u(11), padding: `${u(3)} ${u(8)}`,
@@ -194,81 +201,107 @@ export const Dnc3DHudBrowse = ({ onFilterChange }) => {
           More Options
         </div>
         <div style={{ flex: '1 1 auto' }} />
-        <label style={{ fontSize: u(11), opacity: 0.6, flexShrink: 0 }}>Looking at side:</label>
+        <label className="browse-hud-no-drag" style={{ fontSize: u(11), opacity: 0.6, flexShrink: 0 }}>Looking at side:</label>
         {[['A', 'All'], ['B', 'None']].map(([label, topNValue]) => {
           const active = label === 'A' ? isPeeking : !isPeeking;
           return (
-            <div key={label} onClick={() => browseTopN(groupId, topNValue)} style={{
-              padding: `${u(3)} ${u(12)}`, borderRadius: u(4), cursor: 'pointer',
-              background: active ? '#1d4ed8' : 'rgba(255,255,255,0.08)',
-              border: active ? '1px solid #3b82f6' : '1px solid transparent',
-              fontSize: u(13), fontWeight: 'bold', flexShrink: 0, transition: 'background 0.1s',
-            }}>
+            <div
+              key={label}
+              className="browse-hud-no-drag"
+              onClick={() => browseTopN(groupId, topNValue)}
+              style={{
+                padding: `${u(3)} ${u(12)}`, borderRadius: u(4), cursor: 'pointer',
+                background: active ? '#1d4ed8' : 'rgba(255,255,255,0.08)',
+                border: active ? '1px solid #3b82f6' : '1px solid transparent',
+                fontSize: u(13), fontWeight: 'bold', flexShrink: 0, transition: 'background 0.1s',
+              }}
+            >
               {label}
             </div>
           );
         })}
       </div>
 
-      {/* Search row */}
-      <div style={{ padding: `${u(6)} ${u(10)}`, borderBottom: '1px solid rgba(255,255,255,0.06)' }}>
-        <input
-          type="text"
-          placeholder="🔍  Search cards..."
-          value={searchForText}
-          style={{
-            background: darkBg, border: 'none', color: 'white',
-            padding: `${u(5)} ${u(10)}`, borderRadius: u(4), fontSize: u(12),
-            outline: 'none', cursor: 'text', width: '100%', boxSizing: 'border-box', opacity: 0.9,
-          }}
-          onFocus={() => dispatch(setTyping(true))}
-          onBlur={() => dispatch(setTyping(false))}
-          onChange={e => setSearchForText(e.target.value)}
-        />
-      </div>
-
-      {/* Body: filter buttons + close actions */}
-      <div style={{ display: 'flex', gap: '0', padding: `${u(8)} ${u(10)}`, alignItems: 'flex-start' }}>
-        {/* Filter button grid */}
-        <div style={{ display: 'flex', flexDirection: 'column', gap: u(4), flex: '1 1 auto' }}>
-          {pairedFilterButtons.map((row, rowIndex) => (
-            <div key={rowIndex} style={{ display: 'flex', gap: u(4) }}>
-              {row.map((item, itemIndex) => item != null && (
-                <div
-                  key={itemIndex}
-                  style={btnStyle(searchForProperty === item)}
-                  onClick={() => setSearchForProperty(item)}
-                  onMouseEnter={e => { if (searchForProperty !== item) e.currentTarget.style.background = hoverBg; }}
-                  onMouseLeave={e => { if (searchForProperty !== item) e.currentTarget.style.background = midBg; }}
-                >
-                  {gameL10n(item)}
-                </div>
-              ))}
-            </div>
-          ))}
+      <div className="browse-hud-body" style={{ overflowY: 'auto', minHeight: 0, flex: '1 1 auto' }}>
+        {/* Search row */}
+        <div style={{
+          padding: `${u(6)} ${u(10)}`, borderBottom: '1px solid rgba(255,255,255,0.06)',
+          display: 'flex', gap: u(6), alignItems: 'center',
+        }}>
+          <select
+            className="browse-hud-no-drag"
+            value={isNormalInteger(browseGroupTopN) ? String(browseGroupTopN) : (isPeeking ? 'All' : 'None')}
+            onChange={e => browseTopN(groupId, e.target.value)}
+            style={{
+              background: darkBg, border: 'none', color: 'white',
+              padding: `${u(5)} ${u(8)}`, borderRadius: u(4), fontSize: u(12),
+              outline: 'none', cursor: 'pointer', flex: '0 0 auto',
+            }}
+          >
+            <option value="None">{gameL10n('None')}</option>
+            <option value="All">{gameL10n('All')}</option>
+            <option value="5">{gameL10n('Top 5')}</option>
+            <option value="10">{gameL10n('Top 10')}</option>
+          </select>
+          <input
+            type="text"
+            placeholder="🔍  Search cards..."
+            value={searchForText}
+            style={{
+              background: darkBg, border: 'none', color: 'white',
+              padding: `${u(5)} ${u(10)}`, borderRadius: u(4), fontSize: u(12),
+              outline: 'none', cursor: 'text', flex: '1 1 auto', minWidth: 0,
+              boxSizing: 'border-box', opacity: 0.9,
+            }}
+            onFocus={() => dispatch(setTyping(true))}
+            onBlur={() => dispatch(setTyping(false))}
+            onChange={e => setSearchForText(e.target.value)}
+          />
         </div>
 
-        {/* Divider */}
-        <div style={{ width: '1px', background: 'rgba(255,255,255,0.08)', margin: `0 ${u(10)}`, alignSelf: 'stretch' }} />
-
-        {/* Close actions */}
-        <div style={{ display: 'flex', flexDirection: 'column', gap: u(4), flex: '0 0 auto', width: u(100) }}>
-          <div style={{ fontSize: u(10), opacity: 0.5, textAlign: 'center', marginBottom: u(1), textTransform: 'uppercase', letterSpacing: '0.05em' }}>
-            Close &amp;
+        {/* Body: filter buttons + close actions */}
+        <div style={{ display: 'flex', gap: '0', padding: `${u(8)} ${u(10)}`, alignItems: 'flex-start' }}>
+          {/* Filter button grid */}
+          <div style={{ display: 'flex', flexDirection: 'column', gap: u(4), flex: '1 1 auto' }}>
+            {pairedFilterButtons.map((row, rowIndex) => (
+              <div key={rowIndex} style={{ display: 'flex', gap: u(4) }}>
+                {row.map((item, itemIndex) => item != null && (
+                  <div
+                    key={itemIndex}
+                    style={btnStyle(searchForProperty === item)}
+                    onClick={() => setSearchForProperty(item)}
+                    onMouseEnter={e => { if (searchForProperty !== item) e.currentTarget.style.background = hoverBg; }}
+                    onMouseLeave={e => { if (searchForProperty !== item) e.currentTarget.style.background = midBg; }}
+                  >
+                    {gameL10n(item)}
+                  </div>
+                ))}
+              </div>
+            ))}
           </div>
-          {[['Shuffle', 'shuffle'], ['Keep order', 'order'], ['Keep peeking', 'peeking']].map(([label, opt]) => (
-            <div
-              key={opt}
-              style={closeBtnStyle}
-              onClick={() => handleCloseClick(opt)}
-              onMouseEnter={e => e.currentTarget.style.background = hoverBg}
-              onMouseLeave={e => e.currentTarget.style.background = midBg}
-            >
-              {gameL10n(label)}
+
+          {/* Divider */}
+          <div style={{ width: '1px', background: 'rgba(255,255,255,0.08)', margin: `0 ${u(10)}`, alignSelf: 'stretch' }} />
+
+          {/* Close actions */}
+          <div style={{ display: 'flex', flexDirection: 'column', gap: u(4), flex: '0 0 auto', width: u(100) }}>
+            <div style={{ fontSize: u(10), opacity: 0.5, textAlign: 'center', marginBottom: u(1), textTransform: 'uppercase', letterSpacing: '0.05em' }}>
+              Close &amp;
             </div>
-          ))}
+            {[['Shuffle', 'shuffle'], ['Keep order', 'order'], ['Keep peeking', 'peeking']].map(([label, opt]) => (
+              <div
+                key={opt}
+                style={closeBtnStyle}
+                onClick={() => handleCloseClick(opt)}
+                onMouseEnter={e => e.currentTarget.style.background = hoverBg}
+                onMouseLeave={e => e.currentTarget.style.background = midBg}
+              >
+                {gameL10n(label)}
+              </div>
+            ))}
+          </div>
         </div>
       </div>
-    </div>
+    </BrowseHudFrame>
   );
 };

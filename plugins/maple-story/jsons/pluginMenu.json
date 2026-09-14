@@ -1,0 +1,42 @@
+{
+  "pluginMenu": {
+    "options": [
+      {
+        "label": "Draw",
+        "actionList": "drawDeck"
+      },
+      {
+        "label": "Shuffle deck",
+        "actionList": "shuffleDeck"
+      },
+      {
+        "label": "Ready all",
+        "actionList": "readyAll"
+      },
+      {
+        "label": "Flip coin",
+        "actionList": "flipCoin"
+      },
+      {
+        "label": "Level +1",
+        "actionList": "increase_level"
+      },
+      {
+        "label": "Level -1",
+        "actionList": "decrease_level"
+      },
+      {
+        "label": "HP +1",
+        "actionList": "increase_hitPoints"
+      },
+      {
+        "label": "HP -1",
+        "actionList": "decrease_hitPoints"
+      },
+      {
+        "label": "Feed pet",
+        "actionList": "feedPet"
+      }
+    ]
+  }
+}

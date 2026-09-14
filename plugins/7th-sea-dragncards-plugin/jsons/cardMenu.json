@@ -1,0 +1,29 @@
+{
+  "cardMenu": {
+    "moveToGroupIds": [
+      "playerNHand",
+      "playerNCrew",
+      "playerNShip",
+      "playerNCaptain",
+      "playerNAdventures",
+      "playerNDiscard",
+      "playerNSunk",
+      "playerNDeck",
+      "sharedTradeSea",
+      "sharedFrothingSea",
+      "sharedLaBoca",
+      "sharedForbiddenSea",
+      "sharedTheMirror",
+      "sharedSetAside"
+    ],
+    "options": [
+      {"label": "Flip", "actionList": "flipCard"},
+      {"label": "Tack", "actionList": "tackCard"},
+      {"label": "Untack", "actionList": "untackCard"},
+      {"label": "Discard", "actionList": "discardCard"},
+      {"label": "Sink", "actionList": "sinkCard"},
+      {"label": "Detach", "actionList": "detachCard"},
+      {"label": "Shuffle into deck", "actionList": "shuffleIntoDeck"}
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "pluginName": "The X-Files CCG",
+  "author": "OCTGN / StormyWaters2021",
+  "tutorialUrl": "https://mandalornl.github.io/x-files-ccg/",
+  "announcements": [
+    "Tabletop plugin from the OCTGN X-Files CCG set. No rules engine — Agents, X-File, Resources, and Conspiracy are shortcuts.",
+    "D = draw. X-Files load facedown to the X-File pile. Agents load to the Agents row."
+  ],
+  "loadPreBuiltOnNewGame": false,
+  "bannerUrl": "https://toybox.hundredacre.club/cards/x-files-ccg/_plugin/banner2.jpg",
+  "logoUrl": "https://toybox.hundredacre.club/cards/x-files-ccg/_plugin/logo2.jpg"
+}

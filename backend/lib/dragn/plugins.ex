@@ -62,6 +62,9 @@ defmodule DragnCards.Plugins do
         p.updated_at,
         p.game_def["announcements"],
         p.game_def["tutorialUrl"],
+        p.game_def["bannerUrl"],
+        p.game_def["logoUrl"],
+        p.game_def["author"],
         gc24hr.count,
         gc30d.count
       }
@@ -95,7 +98,10 @@ defmodule DragnCards.Plugins do
       p.public,
       p.updated_at,
       p.game_def["announcements"],
-      p.game_def["tutorialUrl"]
+      p.game_def["tutorialUrl"],
+      p.game_def["bannerUrl"],
+      p.game_def["logoUrl"],
+      p.game_def["author"]
     }
     Repo.one(query)
   end

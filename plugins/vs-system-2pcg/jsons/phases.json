@@ -1,0 +1,21 @@
+{
+  "phases": {
+    "build": {
+      "label": "Build",
+      "height": "33%"
+    },
+    "main": {
+      "label": "Main",
+      "height": "34%"
+    },
+    "combat": {
+      "label": "Combat",
+      "height": "33%"
+    }
+  },
+  "phaseOrder": [
+    "build",
+    "main",
+    "combat"
+  ]
+}

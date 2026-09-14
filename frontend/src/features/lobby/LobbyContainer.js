@@ -4,17 +4,14 @@ import CreateRoomModal from "./CreateRoomModal";
 import LobbyTable from "./LobbyTable";
 import useDataApi from "../../hooks/useDataApi";
 import useProfile from "../../hooks/useProfile";
-import useIsLoggedIn from "../../hooks/useIsLoggedIn";
 import { Announcements } from "./Announcements";
 import { PluginsTable } from "./PluginsTable";
-import { PatreonModal } from "../store/support/PatreonModal";
 import { LobbyButton } from "../../components/basic/LobbyButton";
 import { TermsOfServiceModal } from "./TermsOfServiceModal";
 import { PluginLobby } from "./PluginLobby";
 import { Footer } from "./Footer";
 
 export const LobbyContainer = ({ children, maxWidth = "600px" }) => {
-  const isLoggedIn = useIsLoggedIn();
   const [showModal, setShowModal] = useState(null);
   const [showTermsOfService, setShowTermsOfService] = useState(false);
   const [replayId, setReplayId] = useState("");
@@ -80,7 +77,7 @@ export const LobbyContainer = ({ children, maxWidth = "600px" }) => {
             </div>
             <div className="w-1/2 h-full float-right">
               <div className="w-full h-1/3 p-2">
-                <LobbyButton onClick={() => setShowModal("patreon")}>
+                <LobbyButton onClick={() => window.open('https://www.patreon.com/dragncards', '_blank')}>
                   Patreon
                 </LobbyButton>
               </div>
@@ -109,11 +106,6 @@ export const LobbyContainer = ({ children, maxWidth = "600px" }) => {
           closeModal={() => setShowTermsOfService(false)}
         />
         
-        <PatreonModal
-          isOpen={showModal === "patreon"}
-          isLoggedIn={isLoggedIn}
-          closeModal={() => setShowModal(null)}
-        />
       </div>
   );
 };

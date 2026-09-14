@@ -1,0 +1,16 @@
+{
+  "groupMenu": {
+    "moveToGroupIds": [
+      "playerNHand",
+      "playerNDeck",
+      "playerNDiscard",
+      "playerNCharacter",
+      "playerNFight",
+      "playerNDamage",
+      "playerN+1Character",
+      "sharedDrop",
+      "sharedSetAside"
+    ],
+    "options": []
+  }
+}

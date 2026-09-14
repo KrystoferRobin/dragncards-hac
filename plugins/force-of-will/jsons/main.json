@@ -1,0 +1,13 @@
+{
+  "pluginName": "Force of Will",
+  "author": "FoWind / TCG Arena FoW / official catalog",
+  "tutorialUrl": "https://www.youtube.com/watch?v=hOmFf5XqqD0",
+  "announcements": [
+    "Tabletop plugin from the FoWind / official Force of Will catalog. No rules engine — life, judgment, stones, and recover are shortcuts.",
+    "D = draw. T = draw a magic stone. R = recover all. F = flip / judgment. L = life +100. X = graveyard."
+  ],
+  "loadPreBuiltOnNewGame": false,
+  "backgroundUrl": "https://toybox.hundredacre.club/cards/force-of-will/_plugin/ForceOfWill-Background.png",
+  "bannerUrl": "https://toybox.hundredacre.club/cards/force-of-will/_plugin/banner2.jpg",
+  "logoUrl": "https://toybox.hundredacre.club/cards/force-of-will/_plugin/logo2.jpg"
+}

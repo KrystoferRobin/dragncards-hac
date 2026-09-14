@@ -1,0 +1,9 @@
+Built 2026-09-12 20:30 UTC from LackeyCCG shadowfist.
+Source: /Users/krystoferrobin/Downloads/lackeyplugins/shadowfist
+Art: https://github.com/NoSoup4you/Shadowfist-LackeyCCG raw setimages.
+Author credit: Lackey / NoSoup4you
+
+Tabletop plugin only — Lackey has no rules engine to port.
+TSV rows: 3018  skipped (no image URL or duplicate): 0
+Prebuilts: 25 Lackey decks.
+GitHub is missing shurikensandsixguns/military_commandant_ssg.jpg (HTML soft-404); used the Netherworld 2 face for that promo reprint.

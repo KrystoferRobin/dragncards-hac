@@ -1,0 +1,862 @@
+{
+  "functions": {
+    "ACTIVATE_ENERGY": {
+      "args": [],
+      "code": [
+        [
+          "COND",
+          [
+            "GROUP_NOT_EMPTY",
+            "{{$PLAYER_N}}Reserve"
+          ],
+          [
+            [
+              "MOVE_STACKS",
+              "{{$PLAYER_N}}Reserve",
+              "{{$PLAYER_N}}Active",
+              1,
+              "top"
+            ],
+            [
+              "LOG",
+              "{{$ALIAS_N}} Activated 1 Energy from Reserve to Active."
+            ]
+          ],
+          [
+            "true"
+          ],
+          [
+            "LOG",
+            "{{$ALIAS_N}} Reserve Pile has no cards. Load a deck first using Menu-> Load -> Prebuilt; or build a custom deck. You lose the game if you have no cards in your Active, Reserve, and Used Piles.  Online rules and tutorial are available at https://warstcg.org"
+          ]
+        ]
+      ]
+    },
+    "ACTIVE_TO_LOST": {
+      "args": [],
+      "code": [
+        [
+          "COND",
+          [
+            "GROUP_NOT_EMPTY",
+            "{{$PLAYER_N}}Active"
+          ],
+          [
+            [
+              "MOVE_STACKS",
+              "{{$PLAYER_N}}Active",
+              "{{$PLAYER_N}}Lost",
+              1,
+              "top"
+            ],
+            [
+              "LOG",
+              "{{$ALIAS_N}} Lost 1 Energy from Active Pile to Lost."
+            ]
+          ],
+          [
+            "true"
+          ],
+          [
+            "LOG",
+            "{{$ALIAS_N}} Active Pile has no cards. You must lose Energy from Reserve or Used instead. You lose the game if you have no cards in your Active, Reserve, and Used Piles.  Online rules and tutorial are available at https://warstcg.org"
+          ]
+        ]
+      ]
+    },
+    "DECLARE_BATTLE": {
+      "args": [],
+      "code": [
+        [
+          "LOG",
+          "{{$ALIAS_N}} declared a Battle at Location: ",
+          "$ACTIVE_FACE.name"
+        ]
+      ]
+    },
+    "DETACH": {
+      "args": [
+        "$CARD_ID"
+      ],
+      "code": [
+        [
+          "VAR",
+          "$CARD",
+          "$GAME.cardById.$CARD_ID"
+        ],
+        [
+          "COND",
+          [
+            "GREATER_THAN",
+            "$CARD.cardIndex",
+            0
+          ],
+          [
+            [
+              "MOVE_CARD",
+              "$CARD.id",
+              "$CARD.groupId",
+              [
+                "ADD",
+                "$CARD.stackIndex",
+                1
+              ]
+            ],
+            [
+              "LOG",
+              "{{$ALIAS_N}} detached {{$CARD.currentFace.name}}."
+            ]
+          ]
+        ]
+      ]
+    },
+    "DISCARD": {
+      "args": [
+        "$CARD_ID"
+      ],
+      "code": [
+        [
+          "COND",
+          [
+            "EQUAL",
+            "$CARD.discardGroupId",
+            null
+          ],
+          [
+            "LOG",
+            "{{ALIAS_N}} failed to discard {{CARD.currentFace.name}} because it is not associated with a discard pile. Please drag the card instead."
+          ],
+          [
+            "TRUE"
+          ],
+          [
+            [
+              "LOG",
+              "{{$ALIAS_N}} discarded {{$CARD.sides.A.name}}."
+            ],
+            [
+              "MOVE_CARD",
+              "$CARD.id",
+              "$CARD.discardGroupId",
+              0
+            ]
+          ]
+        ]
+      ]
+    },
+    "DRAW_ONE_CARD": {
+      "args": [],
+      "code": [
+        [
+          "COND",
+          [
+            "GROUP_NOT_EMPTY",
+            "{{$PLAYER_N}}Active"
+          ],
+          [
+            [
+              "MOVE_CARD",
+              [
+                "GET_CARD_ID",
+                "{{$PLAYER_N}}Active",
+                0,
+                0
+              ],
+              "{{$PLAYER_N}}Hand",
+              -1
+            ],
+            [
+              "LOG",
+              "{{$ALIAS_N}} drew 1 Card from their Active Pile."
+            ]
+          ],
+          [
+            "true"
+          ],
+          [
+            "LOG",
+            "{{$ALIAS_N}} Active Pile has no cards. Activate Energy first during your Activation Phase by using HotKey A. You get 1 Energy for each Energy Icon on your side of Location Cards, plus 1 Additional.  Online rules and tutorial are available at https://warstcg.org"
+          ]
+        ]
+      ]
+    },
+    "DRAW_STARTING_HAND": {
+      "args": [],
+      "code": [
+        [
+          "COND",
+          [
+            "GROUP_NOT_EMPTY",
+            "{{$PLAYER_N}}Reserve"
+          ],
+          [
+            [
+              "MOVE_STACKS",
+              "{{$PLAYER_N}}Reserve",
+              "{{$PLAYER_N}}Hand",
+              8,
+              "bottom"
+            ],
+            [
+              "LOG",
+              "{{$ALIAS_N}} drew a Starting hand of 8 cards from their Reserve."
+            ]
+          ],
+          [
+            "true"
+          ],
+          [
+            "LOG",
+            "{{$ALIAS_N}} Reserve Pile has no cards. Load a deck first using Menu-> Load -> Prebuilt; or build a custom deck.  Online rules and tutorial are available at https://warstcg.org"
+          ]
+        ]
+      ]
+    },
+    "FLIP": {
+      "args": [
+        "$CARD_ID"
+      ],
+      "code": [
+        [
+          "VAR",
+          "$CARD",
+          "$GAME.cardById.$CARD_ID"
+        ],
+        [
+          "COND",
+          [
+            "EQUAL",
+            "$CARD.currentSide",
+            "A"
+          ],
+          [
+            [
+              "LOG",
+              "{{$ALIAS_N}} flipped {{$CARD.currentFace.name}} facedown."
+            ],
+            [
+              "SET",
+              "/cardById/$CARD.id/currentSide",
+              "B"
+            ]
+          ],
+          [
+            "TRUE"
+          ],
+          [
+            [
+              "SET",
+              "/cardById/$CARD.id/currentSide",
+              "A"
+            ],
+            [
+              "LOG",
+              "{{$ALIAS_N}} flipped {{$CARD.currentFace.name}} faceup."
+            ]
+          ]
+        ]
+      ]
+    },
+    "INVERT_CARD": {
+      "args": [],
+      "code": [
+        [
+          "COND",
+          [
+            "EQUAL",
+            "$ACTIVE_CARD.currentSide",
+            "A"
+          ],
+          [
+            [
+              "COND",
+              [
+                "MAP_HAS_KEY",
+                "$ACTIVE_CARD.sides",
+                "C"
+              ],
+              [
+                [
+                  "LOG",
+                  "$ALIAS_N",
+                  " inverted ",
+                  "$ACTIVE_FACE.name",
+                  "."
+                ],
+                [
+                  "SET",
+                  "/cardById/$ACTIVE_CARD_ID/currentSide",
+                  "C"
+                ]
+              ],
+              [
+                "TRUE"
+              ],
+              [
+                [
+                  "LOG",
+                  "$ALIAS_N",
+                  " — that card has no inverted face."
+                ]
+              ]
+            ]
+          ],
+          true,
+          [
+            [
+              "SET",
+              "/cardById/$ACTIVE_CARD_ID/currentSide",
+              "A"
+            ],
+            [
+              "LOG",
+              "$ALIAS_N",
+              " reverted ",
+              "$ACTIVE_FACE.name",
+              "."
+            ]
+          ]
+        ]
+      ]
+    },
+    "LOG_ACTIVATION": {
+      "args": [],
+      "code": [
+        [
+          "LOG",
+          "{{$ALIAS_N}} activated an ability of ",
+          "$ACTIVE_FACE.name"
+        ]
+      ]
+    },
+    "P1END_TURN": {
+      "args": [],
+      "code": [
+        [
+          "VAR",
+          "$HALT",
+          false
+        ],
+        [
+          "VAR",
+          "$STOP_STEP_ID",
+          "1.0"
+        ],
+        [
+          "WHILE",
+          [
+            "NOT",
+            "$HALT"
+          ],
+          [
+            [
+              "NEXT_STEP"
+            ],
+            [
+              "VAR",
+              "$STEP",
+              "$GAME.stepId"
+            ],
+            [
+              "COND",
+              [
+                "EQUAL",
+                "$STEP",
+                "$STOP_STEP_ID"
+              ],
+              [
+                "UPDATE_VAR",
+                "$HALT",
+                true
+              ]
+            ]
+          ]
+        ],
+        [
+          "LOG",
+          "*******BREAK*******"
+        ],
+        [
+          "USED_TO_RESERVE_P1"
+        ],
+        [
+          "USED_TO_RESERVE_P2"
+        ],
+        [
+          "LOG",
+          "{{$ALIAS_N}} ended their turn."
+        ],
+        [
+          "LOG",
+          "*******BREAK*******"
+        ],
+        [
+          "LOG",
+          "Player 2 it is now your turn."
+        ],
+        [
+          "LOG",
+          "*******BREAK*******"
+        ]
+      ]
+    },
+    "P1START_TURN": {
+      "args": [],
+      "code": [
+        [
+          "LOG",
+          "*******BREAK*******"
+        ],
+        [
+          "LOG",
+          "{{$ALIAS_N}} Started their Turn."
+        ],
+        [
+          "LOG",
+          "*******BREAK*******"
+        ]
+      ]
+    },
+    "P2END_TURN": {
+      "args": [],
+      "code": [
+        [
+          "VAR",
+          "$HALT",
+          false
+        ],
+        [
+          "VAR",
+          "$STOP_STEP_ID",
+          "1.0"
+        ],
+        [
+          "WHILE",
+          [
+            "NOT",
+            "$HALT"
+          ],
+          [
+            [
+              "NEXT_STEP"
+            ],
+            [
+              "VAR",
+              "$STEP",
+              "$GAME.stepId"
+            ],
+            [
+              "COND",
+              [
+                "EQUAL",
+                "$STEP",
+                "$STOP_STEP_ID"
+              ],
+              [
+                "UPDATE_VAR",
+                "$HALT",
+                true
+              ]
+            ]
+          ]
+        ],
+        [
+          "LOG",
+          "*******BREAK*******"
+        ],
+        [
+          "USED_TO_RESERVE_P2"
+        ],
+        [
+          "USED_TO_RESERVE_P1"
+        ],
+        [
+          "LOG",
+          "{{$ALIAS_N}} ended their turn."
+        ],
+        [
+          "LOG",
+          "*******BREAK*******"
+        ],
+        [
+          "LOG",
+          "Player 1 it is now your turn."
+        ],
+        [
+          "LOG",
+          "*******BREAK*******"
+        ]
+      ]
+    },
+    "P2START_TURN": {
+      "args": [],
+      "code": [
+        [
+          "LOG",
+          "*******BREAK*******"
+        ],
+        [
+          "LOG",
+          "{{$ALIAS_N}} Started their Turn."
+        ],
+        [
+          "LOG",
+          "*******BREAK*******"
+        ]
+      ]
+    },
+    "PAY_ENERGY": {
+      "args": [],
+      "code": [
+        [
+          "COND",
+          [
+            "GROUP_NOT_EMPTY",
+            "{{$PLAYER_N}}Active"
+          ],
+          [
+            [
+              "MOVE_STACKS",
+              "{{$PLAYER_N}}Active",
+              "{{$PLAYER_N}}Used",
+              1,
+              "top"
+            ],
+            [
+              "LOG",
+              "{{$ALIAS_N}} paid 1 Energy from Active to Used."
+            ]
+          ],
+          [
+            "true"
+          ],
+          [
+            "LOG",
+            "{{$ALIAS_N}} Active Pile has no cards. Activate Energy first during your Activation Phase by using HotKey A. You get 1 Energy for each Energy Icon on your side of Location Cards, plus 1 Additional.  Online rules and tutorial are available at https://warstcg.org"
+          ]
+        ]
+      ]
+    },
+    "RESERVE_TO_LOST": {
+      "args": [],
+      "code": [
+        [
+          "COND",
+          [
+            "GROUP_NOT_EMPTY",
+            "{{$PLAYER_N}}Reserve"
+          ],
+          [
+            [
+              "MOVE_STACKS",
+              "{{$PLAYER_N}}Reserve",
+              "{{$PLAYER_N}}Lost",
+              1,
+              "top"
+            ],
+            [
+              "LOG",
+              "{{$ALIAS_N}} Lost 1 Energy from Reserve Pile to Lost."
+            ]
+          ],
+          [
+            "true"
+          ],
+          [
+            "LOG",
+            "{{$ALIAS_N}} Reserve Pile has no cards. You must lose Energy from Active or Used instead.  Online rules and tutorial are available at https://warstcg.org"
+          ]
+        ]
+      ]
+    },
+    "SEND_TO_LOST": {
+      "args": [
+        "$CARD_ID"
+      ],
+      "code": [
+        [
+          "VAR",
+          "$CARD",
+          "$GAME.cardById.$CARD_ID"
+        ],
+        [
+          "MOVE_CARD",
+          "$CARD.id",
+          "{{$PLAYER_N}}Lost",
+          0,
+          "top"
+        ],
+        [
+          "LOG",
+          "{{$ALIAS_N}} sent {{$CARD.currentFace.name}} to their Lost Pile."
+        ]
+      ]
+    },
+    "SEND_TO_LOST_CARD": {
+      "args": [],
+      "code": [
+        [
+          "MOVE_CARD",
+          "$ACTIVE_CARD_ID",
+          "{{$PLAYER_N}}Lost",
+          0,
+          "top"
+        ],
+        [
+          "LOG",
+          "{{$ALIAS_N}} sent ",
+          "$ACTIVE_FACE.name",
+          " to their Lost Pile."
+        ]
+      ]
+    },
+    "SEND_TO_USED": {
+      "args": [
+        "$CARD_ID"
+      ],
+      "code": [
+        [
+          "VAR",
+          "$CARD",
+          "$GAME.cardById.$CARD_ID"
+        ],
+        [
+          "MOVE_CARD",
+          "$CARD.id",
+          "{{$PLAYER_N}}Used",
+          0,
+          "top"
+        ],
+        [
+          "LOG",
+          "{{$ALIAS_N}} sent {{$CARD.currentFace.name}} to their Used Pile."
+        ]
+      ]
+    },
+    "SEND_TO_USED_CARD": {
+      "args": [],
+      "code": [
+        [
+          "MOVE_CARD",
+          "$ACTIVE_CARD_ID",
+          "{{$PLAYER_N}}Used",
+          0,
+          "top"
+        ],
+        [
+          "LOG",
+          "{{$ALIAS_N}} sent ",
+          "$ACTIVE_CARD.sides.A.name",
+          " to their Used Pile."
+        ]
+      ]
+    },
+    "SHUFFLE_INTO_DECK": {
+      "args": [
+        "$CARD_ID"
+      ],
+      "code": [
+        [
+          "VAR",
+          "$CARD",
+          "$GAME.cardById.$CARD_ID"
+        ],
+        [
+          "VAR",
+          "$GROUP_ID",
+          "$CARD.deckGroupId"
+        ],
+        [
+          "COND",
+          [
+            "EQUAL",
+            "$GROUP_ID",
+            null
+          ],
+          [
+            "LOG",
+            "{{$ALIAS_N}} failed to shuffle {{$CARD.currentFace.name}} into a deck because it is not associated with a deck."
+          ],
+          [
+            "TRUE"
+          ],
+          [
+            [
+              "MOVE_CARD",
+              "$CARD.id",
+              "$CARD.deckGroupId",
+              0
+            ],
+            [
+              "SHUFFLE_GROUP",
+              "$GROUP_ID"
+            ],
+            [
+              "LOG",
+              "{{$ALIAS_N}} shuffled {{$CARD.currentFace.name}} into {{$GAME.groupById.$GROUP_ID.label}}."
+            ]
+          ]
+        ]
+      ]
+    },
+    "TOGGLE_ROTATE": {
+      "args": [
+        "$CARD_ID"
+      ],
+      "code": [
+        [
+          "VAR",
+          "$CARD",
+          "$GAME.cardById.$CARD_ID"
+        ],
+        [
+          "COND",
+          [
+            "AND",
+            [
+              "EQUAL",
+              "$CARD.rotation",
+              90
+            ],
+            "$CARD.inPlay"
+          ],
+          [
+            [
+              "LOG",
+              "{{$ALIAS_N}} rotated {{$CARD.currentFace.name}}."
+            ],
+            [
+              "SET",
+              "/cardById/$CARD.id/rotation",
+              0
+            ]
+          ],
+          [
+            "AND",
+            [
+              "EQUAL",
+              "$CARD.rotation",
+              0
+            ],
+            "$CARD.inPlay"
+          ],
+          [
+            [
+              "LOG",
+              "{{$ALIAS_N}} straightened {{$CARD.currentFace.name}}."
+            ],
+            [
+              "SET",
+              "/cardById/$CARD.id/rotation",
+              90
+            ]
+          ]
+        ]
+      ]
+    },
+    "UPDATE_HELPER_TEXT_VISIBILITY": {
+      "args": [],
+      "code": [
+        "COND",
+        [
+          "EQUAL",
+          "$GAME.gameStepAutomation",
+          false
+        ],
+        [
+          "UPDATE_LAYOUT",
+          "/layout/textBoxes/roundAdvancement/visible",
+          false
+        ],
+        [
+          "TRUE"
+        ],
+        [
+          "UPDATE_LAYOUT",
+          "/layout/textBoxes/roundAdvancement/visible",
+          true
+        ]
+      ]
+    },
+    "USED_TO_LOST": {
+      "args": [],
+      "code": [
+        [
+          "COND",
+          [
+            "GROUP_NOT_EMPTY",
+            "{{$PLAYER_N}}Used"
+          ],
+          [
+            [
+              "MOVE_STACKS",
+              "{{$PLAYER_N}}Used",
+              "{{$PLAYER_N}}Lost",
+              1,
+              "top"
+            ],
+            [
+              "LOG",
+              "{{$ALIAS_N}} Lost 1 Energy from Used Pile to Lost."
+            ]
+          ],
+          [
+            "true"
+          ],
+          [
+            "LOG",
+            "{{$ALIAS_N}} Used Pile has no cards. You must lose Energy from Active or Reserve instead.  Online rules and tutorial are available at https://warstcg.org"
+          ]
+        ]
+      ]
+    },
+    "USED_TO_RESERVE": {
+      "args": [],
+      "code": [
+        [
+          "MOVE_STACKS",
+          "{{$PLAYER_N}}Used",
+          "{{$PLAYER_N}}Reserve",
+          -1,
+          "bottom"
+        ],
+        [
+          "LOG",
+          "{{$ALIAS_N}} sent their Used Pile to Bottom of Reserve."
+        ]
+      ]
+    },
+    "USED_TO_RESERVE_P1": {
+      "args": [],
+      "code": [
+        [
+          "MOVE_STACKS",
+          "player1Used",
+          "player1Reserve",
+          -1,
+          "bottom"
+        ],
+        [
+          "LOG",
+          "Player 1 sent their Used Pile to Bottom of Reserve."
+        ]
+      ]
+    },
+    "USED_TO_RESERVE_P2": {
+      "args": [],
+      "code": [
+        [
+          "MOVE_STACKS",
+          "player2Used",
+          "player2Reserve",
+          -1,
+          "bottom"
+        ],
+        [
+          "LOG",
+          "Player 2 sent their Used Pile to Bottom of Reserve."
+        ]
+      ]
+    }
+  }
+}

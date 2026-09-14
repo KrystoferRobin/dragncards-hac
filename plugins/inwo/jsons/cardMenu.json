@@ -1,0 +1,51 @@
+{
+  "cardMenu": {
+    "moveToGroupIds": [
+      "playerNHand",
+      "playerNGroupDeck",
+      "playerNPlotDeck",
+      "playerNLead",
+      "playerNPlay",
+      "playerNDiscard",
+      "playerNRemoved",
+      "playerN+1Play",
+      "sharedGroups",
+      "sharedPlots",
+      "sharedSetAside"
+    ],
+    "options": [
+      {
+        "label": "Rotate",
+        "actionList": "rotateCard"
+      },
+      {
+        "label": "Unrotate",
+        "actionList": "unrotateCard"
+      },
+      {
+        "label": "Flip",
+        "actionList": "flipCard"
+      },
+      {
+        "label": "Discard",
+        "actionList": "discardCard"
+      },
+      {
+        "label": "Remove from game",
+        "actionList": "toRemoved"
+      },
+      {
+        "label": "Move to Lead",
+        "actionList": "toLead"
+      },
+      {
+        "label": "Detach",
+        "actionList": "detachCard"
+      },
+      {
+        "label": "Shuffle into deck",
+        "actionList": "shuffleIntoDeck"
+      }
+    ]
+  }
+}

@@ -4,9 +4,6 @@
 *.swp
 *.swo
 
-# Built Tailwind
-src/css/tailwind.compiled.css
-
 # dependencies
 /node_modules
 /.pnp

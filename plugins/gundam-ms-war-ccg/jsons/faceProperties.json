@@ -1,0 +1,59 @@
+{
+  "faceProperties": {
+    "corps": {
+      "label": "CorpsSymbol",
+      "type": "string",
+      "default": ""
+    },
+    "price": {
+      "label": "Price",
+      "type": "string",
+      "default": ""
+    },
+    "clash": {
+      "label": "ClashPoints",
+      "type": "string",
+      "default": ""
+    },
+    "msType": {
+      "label": "MSType",
+      "type": "string",
+      "default": ""
+    },
+    "dockPilot": {
+      "label": "Dock Pilot",
+      "type": "string",
+      "default": ""
+    },
+    "limited": {
+      "label": "Limited",
+      "type": "string",
+      "default": ""
+    },
+    "unique": {
+      "label": "Unique",
+      "type": "string",
+      "default": ""
+    },
+    "preemptive": {
+      "label": "Preemptive Strike",
+      "type": "string",
+      "default": ""
+    },
+    "packName": {
+      "label": "Set",
+      "type": "string",
+      "default": ""
+    },
+    "set": {
+      "label": "Lackey Set",
+      "type": "string",
+      "default": ""
+    },
+    "loadGroupId": {
+      "label": "Load Group",
+      "type": "string",
+      "default": ""
+    }
+  }
+}

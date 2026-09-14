@@ -1,0 +1,12 @@
+{
+  "pluginMenu": {
+    "options": [
+      {"label": "Attack roll (2d6)", "actionList": "rollAttack"},
+      {"label": "Defense roll (2d6)", "actionList": "rollDefense"},
+      {"label": "Roll 1d6", "actionList": "roll1d6"},
+      {"label": "Roll 3d6 (choose two)", "actionList": "roll3d6"},
+      {"label": "Gain 1 life", "actionList": "increaseLife"},
+      {"label": "Lose 1 life", "actionList": "decreaseLife"}
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "browse": {
+    "filterPropertySideA": "type",
+    "filterValuesSideA": [
+      "All",
+      "Black",
+      "Blue",
+      "Brown",
+      "Colorless",
+      "Cyan",
+      "Green",
+      "Purple",
+      "Red",
+      "Red/Blue",
+      "Special",
+      "Token",
+      "White",
+      "White/Black",
+      "Yellow"
+    ],
+    "textPropertiesSideA": [
+      "name",
+      "packName",
+      "text"
+    ]
+  }
+}

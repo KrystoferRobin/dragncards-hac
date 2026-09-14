@@ -30,12 +30,34 @@ defmodule DragnCards.Users do
   """
   def get_user(id), do: Repo.get(User, id)
 
+  @doc """
+  Looks up a user by nickname (case-insensitive). Used for invite-code logins.
+  """
+  def get_user_by_alias(nil), do: nil
+
+  def get_user_by_alias(alias) when is_binary(alias) do
+    trimmed = String.trim(alias)
+
+    if trimmed == "" do
+      nil
+    else
+      from(u in User, where: fragment("lower(?)", u.alias) == ^String.downcase(trimmed))
+      |> Repo.one()
+    end
+  end
+
+  def get_user_by_alias(_), do: nil
+
+  # Private club instance: unlock every supporter-gated feature (favorites,
+  # full replays, custom backgrounds, 7-day idle rooms) without Patreon.
+  @unlocked_supporter_level 10
+
   def get_supporter_level(user_id) do
     user = get_user(user_id)
-    if user == nil or user.supporter_level == nil do
+    if user == nil do
       0
     else
-      user.supporter_level
+      max(user.supporter_level || 0, @unlocked_supporter_level)
     end
   end
 

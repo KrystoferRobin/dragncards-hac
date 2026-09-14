@@ -1,0 +1,23 @@
+{
+  "hotkeys": {
+    "game": [
+      {"key": "A", "actionList": "rollAttack", "label": "Attack 2d6"},
+      {"key": "D", "actionList": "rollDefense", "label": "Defense 2d6"},
+      {"key": "R", "actionList": "roll1d6", "label": "Roll 1d6"},
+      {"key": "3", "actionList": "roll3d6", "label": "Roll 3d6"},
+      {"key": "G", "actionList": "increaseLife", "label": "Gain 1 life"},
+      {"key": "T", "actionList": "decreaseLife", "label": "Lose 1 life"}
+    ],
+    "card": [
+      {"key": "F", "actionList": ["FLIP", "$ACTIVE_CARD_ID"], "label": "Flip card"},
+      {"key": "X", "actionList": ["DISCARD", "$ACTIVE_CARD_ID"], "label": "Discard"},
+      {"key": "N", "actionList": "faceNorth", "label": "Face North"},
+      {"key": "E", "actionList": "faceEast", "label": "Face East"},
+      {"key": "S", "actionList": "faceSouth", "label": "Face South"},
+      {"key": "W", "actionList": "faceWest", "label": "Face West"}
+    ],
+    "token": [
+      {"key": "1", "tokenType": "green", "label": "Counter"}
+    ]
+  }
+}

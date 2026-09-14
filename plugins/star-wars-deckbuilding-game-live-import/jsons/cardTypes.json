@@ -1,0 +1,46 @@
+{
+  "cardTypes": {
+    "Base": {
+      "height": 0.72,
+      "tokens": [
+        "damage"
+      ],
+      "width": 1
+    },
+    "CapitalShip": {
+      "height": 0.72,
+      "tokens": [
+        "damage",
+        "attackModifier"
+      ],
+      "width": 1
+    },
+    "Rules": {
+      "height": 1.25,
+      "tokens": [],
+      "width": 1,
+      "zoomFactor": 1
+    },
+    "Tracker": {
+      "height": 2.16,
+      "tokens": [
+        "force0",
+        "forceE1",
+        "forceE2",
+        "forceE3",
+        "forceR1",
+        "forceR2",
+        "forceR3"
+      ],
+      "width": 0.72
+    },
+    "Unit": {
+      "height": 1,
+      "tokens": [
+        "damage",
+        "attackModifier"
+      ],
+      "width": 0.72
+    }
+  }
+}

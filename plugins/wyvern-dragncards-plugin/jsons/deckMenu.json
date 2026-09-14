@@ -1,0 +1,23 @@
+{
+  "deckMenu": {
+    "subMenus": [
+      {
+        "label": "Sample Decks",
+        "deckLists": [
+          {
+            "label": "1995 World Champ Deck",
+            "deckListId": "worldChamp1995"
+          },
+          {
+            "label": "Theme Deck: Help",
+            "deckListId": "themeHelp"
+          },
+          {
+            "label": "Theme Deck: Native Terrain",
+            "deckListId": "themeNativeTerrain"
+          }
+        ]
+      }
+    ]
+  }
+}

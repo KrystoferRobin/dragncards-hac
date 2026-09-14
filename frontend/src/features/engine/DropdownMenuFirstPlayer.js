@@ -1,9 +1,8 @@
 import React from "react";
 import { useSelector } from 'react-redux';
 import { CSSTransition } from 'react-transition-group';
-import { DropdownItem } from "./DropdownMenuHelpers";
+import { DropdownItem, DropdownShell } from "./DropdownMenuHelpers";
 import "../../css/custom-dropdown.css";
-import { Z_INDEX } from "./functions/common";
 
 export const DropdownMenuFirstPlayer = React.memo(({
   mouseX,
@@ -16,15 +15,8 @@ export const DropdownMenuFirstPlayer = React.memo(({
   const numPlayers = useSelector(state => state.gameUi.game.numPlayers);  
   const dropdownMenu = useSelector(state => state?.playerUi?.dropdownMenu)
 
-  const windowHeight = window.innerHeight;
-  const left = mouseX < (window.innerWidth/2)  ? mouseX + windowHeight * 0.01 : mouseX - windowHeight * 0.36;
-  const top = mouseY < (window.innerHeight/2) ? mouseY - windowHeight * 0.1 : mouseY - windowHeight * 0.35;
-
   return (
-    <div 
-      className="dropdown" 
-      style={{ height: menuHeight, zIndex: Z_INDEX.DropdownMenu, top: top, left: left }}
-      >
+    <DropdownShell mouseX={mouseX} mouseY={mouseY} measureKey={activeMenu}>
       <div className="menu-title">{dropdownMenu.title}</div>
 
       <CSSTransition onEnter={calcHeight} timeout={500} classNames="menu-primary" unmountOnExit
@@ -42,6 +34,6 @@ export const DropdownMenuFirstPlayer = React.memo(({
         </div>
       </CSSTransition>
       
-    </div>
+    </DropdownShell>
   );
 })

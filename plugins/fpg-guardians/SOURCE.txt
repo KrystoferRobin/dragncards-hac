@@ -1,0 +1,8 @@
+Built 2026-09-12 17:33 UTC from LackeyCCG FPGGuardians.
+Source: /Users/krystoferrobin/Downloads/lackeyplugins/FPGGuardians
+Art: https://github.com/wishmstr/FPGGuardians raw setimages.
+Author credit: Lackey / wishmstr
+
+Tabletop plugin only — Lackey has no rules engine to port.
+TSV rows: 723  skipped (no image URL or duplicate): 0
+Prebuilts: 12 Lackey decks.

@@ -1,0 +1,136 @@
+{
+  "cardTypes": {
+    "Assassination": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "red",
+        "white",
+        "blue",
+        "green",
+        "yellow"
+      ]
+    },
+    "Disaster": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "red",
+        "white",
+        "blue",
+        "green",
+        "yellow"
+      ]
+    },
+    "Goal": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "red",
+        "white",
+        "blue",
+        "green",
+        "yellow"
+      ]
+    },
+    "Illuminati": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "red",
+        "white",
+        "blue",
+        "green",
+        "yellow"
+      ]
+    },
+    "NWO (Blue)": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "red",
+        "white",
+        "blue",
+        "green",
+        "yellow"
+      ]
+    },
+    "NWO (Red)": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "red",
+        "white",
+        "blue",
+        "green",
+        "yellow"
+      ]
+    },
+    "NWO (Yellow)": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "red",
+        "white",
+        "blue",
+        "green",
+        "yellow"
+      ]
+    },
+    "Organization": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "red",
+        "white",
+        "blue",
+        "green",
+        "yellow"
+      ]
+    },
+    "Personality": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "red",
+        "white",
+        "blue",
+        "green",
+        "yellow"
+      ]
+    },
+    "Place": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "red",
+        "white",
+        "blue",
+        "green",
+        "yellow"
+      ]
+    },
+    "Plot": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "red",
+        "white",
+        "blue",
+        "green",
+        "yellow"
+      ]
+    },
+    "Resource": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "red",
+        "white",
+        "blue",
+        "green",
+        "yellow"
+      ]
+    }
+  }
+}

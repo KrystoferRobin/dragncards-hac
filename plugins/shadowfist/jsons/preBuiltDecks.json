@@ -1,0 +1,4194 @@
+{
+  "preBuiltDecks": {
+    "10-000-bullets-architects": {
+      "label": "10,000 Bullets — Architects",
+      "cards": [
+        {
+          "databaseId": "10kbullets_vivisector_10kb",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_the_reconstructed_10kb",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_test_subjects_10kb",
+          "quantity": 5,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_temple_of_celestial_mercy_10kb",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_tank_warfare_10kb",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_nine_dragon_temple_10kb",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_nightclub_10kb",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_night_market_10kb",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_neutron_bomb_10kb",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_nerve_gas_10kb",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_magog_10kb",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_jade_valley_10kb",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_helix_rethread_10kb",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_genghis_x_10kb",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_garden_of_bronze_10kb",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_floating_restaurant_10kb",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_fireworks_factory_10kb",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_family_home_10kb",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_dangerous_experiment_10kb",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_curio_shop_10kb",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_city_park_10kb",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_city_hospital_10kb",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_char_10kb",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_cdca_scientist_10kb",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_buro_godhammer_10kb",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_blood_reaver_10kb",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_assault_squad_10kb",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_arcanotank_10kb",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_abominable_lab_10kb",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        }
+      ]
+    },
+    "10-000-bullets-ascended": {
+      "label": "10,000 Bullets — Ascended",
+      "cards": [
+        {
+          "databaseId": "10kbullets_swat_team_10kb",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_suicide_mission_10kb",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_submachine_gun_10kb",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_student_of_the_bear_10kb",
+          "quantity": 5,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_stone_garden_10kb",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_sports_car_10kb",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_shadowy_mentor_10kb",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_security_10kb",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_realpolitik_10kb",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_rachel_mcshane_10kb",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_pumpaction_shotgun_10kb",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_phillipe_benoit_10kb",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_operation_killdeer_10kb",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_nine_dragon_temple_10kb",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_nightclub_10kb",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_mole_network_10kb",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_liquidators_10kb",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_jaded_cop_10kb",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_jade_valley_10kb",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_gruff_lieutenant_10kb",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_golden_mile_10kb",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_garden_of_bronze_10kb",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_fireworks_factory_10kb",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_family_home_10kb",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_family_estate_10kb",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_faked_death_10kb",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_curio_shop_10kb",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_city_park_10kb",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_city_hospital_10kb",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_captain_liu_10kb",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_bull_market_10kb",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_bleys_fontaine_10kb",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_birdhouse_cafe_10kb",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        }
+      ]
+    },
+    "10-000-bullets-dragons": {
+      "label": "10,000 Bullets — Dragons",
+      "cards": [
+        {
+          "databaseId": "10kbullets_tricia_kwok_10kb",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_ting_ting_10kb",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_temple_of_celestial_mercy_10kb",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_submachine_gun_10kb",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_steven_wu_10kb",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_redeemed_gunman_10kb",
+          "quantity": 5,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_pumpaction_shotgun_10kb",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_now_youve_made_us_mad_10kb",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_nine_dragon_temple_10kb",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_nightclub_10kb",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_karate_cop_10kb",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_kar_fais_crib_10kb",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_johnny_tso_10kb",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_jade_valley_10kb",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_hacker_10kb",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_golden_comeback_10kb",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_garden_of_bronze_10kb",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_gambling_house_10kb",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_fireworks_factory_10kb",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_final_brawl_10kb",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_festival_circle_10kb",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_excommando_10kb",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_everyday_hero_10kb",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_dirk_wiselys_gambit_10kb",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_city_park_10kb",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_cave_network_10kb",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_both_guns_blazing_10kb",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_bird_sanctuary_10kb",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_bag_full_of_guns_10kb",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        }
+      ]
+    },
+    "10-000-bullets-guiding-hand": {
+      "label": "10,000 Bullets — Guiding Hand",
+      "cards": [
+        {
+          "databaseId": "10kbullets_yellow_geomancer_10kb",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_virtuous_hood_10kb",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_the_iron_monkey_10kb",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_stone_garden_10kb",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_shih_ho_kuai_10kb",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_shield_of_pure_soul_10kb",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_shaolin_sanctuary_10kb",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_nine_dragon_temple_10kb",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_nightclub_10kb",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_kung_fu_student_10kb",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_jade_valley_10kb",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_iron_and_silk_10kb",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_instrument_of_the_hand_10kb",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_hidden_sanctuary_10kb",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_heat_of_battle_10kb",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_healing_earth_10kb",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_hands_without_shadow_10kb",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_golden_mile_10kb",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_golden_candle_society_10kb",
+          "quantity": 5,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_flying_sword_stance_10kb",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_fireworks_factory_10kb",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_field_of_tentacles_10kb",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_festival_circle_10kb",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_derek_han_10kb",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_curio_shop_10kb",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_confucian_stability_10kb",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_city_park_10kb",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_bulletproof_monk_10kb",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_blue_monk_10kb",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_blade_palm_10kb",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_bird_sanctuary_10kb",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        }
+      ]
+    },
+    "10-000-bullets-jammers": {
+      "label": "10,000 Bullets — Jammers",
+      "cards": [
+        {
+          "databaseId": "10kbullets_whos_the_monkey_now_10kb",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_street_riot_10kb",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_scrounging_10kb",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_rust_garden_10kb",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_resistance_squad_10kb",
+          "quantity": 5,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_professional_killer_10kb",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_payback_time_10kb",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_nine_dragon_temple_10kb",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_nightclub_10kb",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_napalm_addict_10kb",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_just_another_consumer_10kb",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_jade_valley_10kb",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_homemade_tank_10kb",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_gorilla_fighter_10kb",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_garden_of_bronze_10kb",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_gambling_house_10kb",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_furious_george_10kb",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_fireworks_factory_10kb",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_festival_circle_10kb",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_explosives_10kb",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_edge_warrior_10kb",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_drug_lab_10kb",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_deathorama_10kb",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_dallas_rocket_10kb",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_close_call_10kb",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_city_square_10kb",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_bomb_factory_10kb",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_birdhouse_cafe_10kb",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_bird_sanctuary_10kb",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        }
+      ]
+    },
+    "10-000-bullets-lotus": {
+      "label": "10,000 Bullets — Lotus",
+      "cards": [
+        {
+          "databaseId": "10kbullets_white_disciple_10kb",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_walking_corpses_10kb",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_vassals_of_the_lotus_10kb",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_turtle_beach_10kb",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_tortured_memories_10kb",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_tommy_hsu_10kb",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_submachine_gun_10kb",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_sports_car_10kb",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_sinister_priest_10kb",
+          "quantity": 5,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_pumpaction_shotgun_10kb",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_poison_thorns_10kb",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_pocket_demon_10kb",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_nine_dragon_temple_10kb",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_nightclub_10kb",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_night_market_10kb",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_kan_li_10kb",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_jade_valley_10kb",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_glimpse_of_the_abyss_10kb",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_four_burning_fists_10kb",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_flying_sleeves_10kb",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_floating_restaurant_10kb",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_fireworks_factory_10kb",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_field_of_tentacles_10kb",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_family_home_10kb",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_explosives_10kb",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_drug_lab_10kb",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_die_10kb",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_claw_of_fury_10kb",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_city_park_10kb",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_city_hospital_10kb",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_birdhouse_cafe_10kb",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_big_brother_tsien_10kb",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        }
+      ]
+    },
+    "10-000-bullets-monarchs": {
+      "label": "10,000 Bullets — Monarchs",
+      "cards": [
+        {
+          "databaseId": "10kbullets_turtle_island_10kb",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_thunder_sword_10kb",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_thunder_bishop_10kb",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_the_legacy_10kb",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_pocket_demon_10kb",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_nine_dragon_temple_10kb",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_nightclub_10kb",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_mark_of_fire_10kb",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_lord_shi_10kb",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_lord_hawksmoor_10kb",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_kinoshita_house_10kb",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_ice_healer_10kb",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_ice_diadem_10kb",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_garden_of_bronze_10kb",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_gambling_house_10kb",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_fireworks_factory_10kb",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_fire_mystic_10kb",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_fire_acolytes_10kb",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_field_of_tentacles_10kb",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_family_home_10kb",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_discerning_fire_10kb",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_darkness_warriors_10kb",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_claws_of_darkness_10kb",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_city_park_10kb",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_city_hospital_10kb",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_butterfly_knight_10kb",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_brain_fire_10kb",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_blade_of_darkness_10kb",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_avenging_thunder_10kb",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        }
+      ]
+    },
+    "10-000-bullets-purists": {
+      "label": "10,000 Bullets — Purists",
+      "cards": [
+        {
+          "databaseId": "10kbullets_void_sorcerer_10kb",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_stone_garden_10kb",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_quantum_sorcery_10kb",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_purist_aspirant_10kb",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_pocket_demon_10kb",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_paradox_garden_10kb",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_pain_feedback_10kb",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_nine_dragon_temple_10kb",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_nightclub_10kb",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_mathemagician_10kb",
+          "quantity": 5,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_kallisti_10kb",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_isomorphic_spirit_10kb",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_inoue_oram_10kb",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_inner_sanctum_10kb",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_garden_of_bronze_10kb",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_gambling_house_10kb",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_fox_pass_10kb",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_floating_restaurant_10kb",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_fireworks_factory_10kb",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_father_of_chaos_10kb",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_entropy_tap_10kb",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_entropy_sphere_10kb",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_discerning_fire_10kb",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_cognitive_spirit_10kb",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_city_park_10kb",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_bird_sanctuary_10kb",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_arcane_scientist_10kb",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_amulet_of_the_turtle_10kb",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "10kbullets_alabaster_javelin_10kb",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        }
+      ]
+    },
+    "back-for-seconds-jammers": {
+      "label": "Back for Seconds — Jammers",
+      "cards": [
+        {
+          "databaseId": "backforseconds_turbo_boost_bfs_400",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "backforseconds_thousand_sword_mountain_bfs_400",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "backforseconds_the_ape_is_loose_bfs_400",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "backforseconds_street_riot_bfs_400",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "backforseconds_stolen_plans_bfs_400",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "backforseconds_steel_woolley_bfs_400",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "backforseconds_steam-powered_tricycle_bfs_400",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "backforseconds_sonic_reducer_bfs_400",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "backforseconds_software_pirate_bfs_400",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "backforseconds_simian_sneaker_bfs_400",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "backforseconds_scrounging_bfs_400",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "backforseconds_punks_bfs_400",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "backforseconds_potlatch_bfs_400",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "backforseconds_po_toi_islands_bfs_400",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "backforseconds_payback_time_bfs_400",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "backforseconds_out_of_the_barrel_bfs_400",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "backforseconds_nightclub_bfs_400",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "backforseconds_monkey_house_bfs_400",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "backforseconds_marmojet_bfs_400",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "backforseconds_manufactured_island_bfs_400",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "backforseconds_mad_scientist_bfs_400",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "backforseconds_lagrange_four_bfs_400",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "backforseconds_flying_monkey_squad_bfs_400",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "backforseconds_fireworks_factory_bfs_400",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "backforseconds_dump_scrounger_bfs_400",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "backforseconds_desolate_ridge_bfs_400",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "backforseconds_cocktail_waiters_bfs_400",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "backforseconds_city_center_bfs_400",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "backforseconds_chi_seeking_missile_bfs_400",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "backforseconds_bomb_factory_bfs_400",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "backforseconds_billy_zed_bfs_400",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "twofistedtales_torch_the_place_2ft",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "backforseconds_ba-boom_bfs_400",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "backforseconds_booby-trapped_tomb_bfs_400",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "backforseconds_brass_monkey_bfs_400",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "backforseconds_curtis_graham_bfs_400",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "backforseconds_electro-gauntlet_bfs_400",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "backforseconds_entropy_is_your_friend_bfs_400",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        }
+      ]
+    },
+    "back-for-seconds-monarchs": {
+      "label": "Back for Seconds — Monarchs",
+      "cards": [
+        {
+          "databaseId": "backforseconds_summer_fire_palace_bfs_400",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "backforseconds_stone_spirals_bfs_400",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "backforseconds_shattering_fire_bfs_400",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "backforseconds_pocket_demon_bfs_400",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "backforseconds_plots_and_intrigues_bfs_400",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "backforseconds_phlogiston_mine_bfs_400",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "backforseconds_mouth_of_the_fire_righteous_bfs_400",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "backforseconds_mobius_gardens_bfs_400",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "backforseconds_maze_of_stairs_bfs_400",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "backforseconds_martyr's_tomb_bfs_400",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "backforseconds_mark_of_fire_bfs_400",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "backforseconds_larcenous_mist_bfs_400",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "backforseconds_kowloon_gate_bfs_400",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "backforseconds_khalid_al-haddad_bfs_400",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "backforseconds_johnny_red_bfs_400",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "backforseconds_hartwell_iron_works_bfs_400",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "backforseconds_fire_sword_bfs_400",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "backforseconds_fire_sled_bfs_400",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "backforseconds_fire_serpent_bfs_400",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "backforseconds_fire_mystic_bfs_400",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "backforseconds_fire_horse_bfs_400",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "backforseconds_fire_dancer_bfs_400",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "backforseconds_fire_cadets_bfs_400",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "backforseconds_dockyard_bfs_400",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "backforseconds_city_center_bfs_400",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "backforseconds_armorer_bfs_400",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "backforseconds_armies_of_the_monarchs_bfs_400",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "backforseconds_avenging_fire_bfs_400",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "backforseconds_blood_lust_bfs_400",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "backforseconds_brain_fire_bfs_400",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "backforseconds_earth_wind_and_fire_bfs_400",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "backforseconds_fakhir-al-din_bfs_400",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "backforseconds_feeding_the_fires_bfs_400",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "backforseconds_fire_warriors_bfs_400",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        }
+      ]
+    },
+    "combat-in-kowloon-ascended": {
+      "label": "Combat in Kowloon — Ascended",
+      "cards": [
+        {
+          "databaseId": "combatinkowloon_wolf_den_cik_400",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "combatinkowloon_wolf_clan_hunters_cik_400",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "combatinkowloon_walk_on_the_wild_side_cik_400",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "combatinkowloon_treasure_cache_cik_400",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "combatinkowloon_the_great_wastes_cik_400",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "combatinkowloon_tears_of_the_crocodile_cik_400",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "combatinkowloon_tail_of_the_lizard_cik_400",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "combatinkowloon_smiling_heaven_lake_cik_400",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "combatinkowloon_serena_chase_cik_400",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "combatinkowloon_seal_team_cik_400",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "combatinkowloon_rat_clan_spies_cik_400",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "combatinkowloon_po_toi_islands_cik_400",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "combatinkowloon_murder_of_crows_cik_400",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "combatinkowloon_medicinal_flower_garden_cik_400",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "combatinkowloon_mantis_fighter_cik_400",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "combatinkowloon_fox_on_the_run_cik_400",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "combatinkowloon_everything_falls_apart_cik_400",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "combatinkowloon_diamond_beach_cik_400",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "combatinkowloon_city_park_cik_400",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "combatinkowloon_city_center_cik_400",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "combatinkowloon_butterfly_swords_cik_400",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "combatinkowloon_blade_palm_cik_400",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "combatinkowloon_monkey_chang_cik_400",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "combatinkowloon_bite_of_the_jellyfish_cik_400",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "combatinkowloon_bull_market_cik_400",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "combatinkowloon_grey_mountain_cik_400",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "combatinkowloon_maze_of_stairs_cik_400",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "combatinkowloon_mirrored_lake_cik_400",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "combatinkowloon_moonlight_raid_cik_400",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "combatinkowloon_night_moves_cik_400",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "combatinkowloon_operation_killdeer_cik_400",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "combatinkowloon_realpolitik_cik_400",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "combatinkowloon_robbing_the_kong_cik_400",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "combatinkowloon_the_she-wolf_cik_400",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthedragon_violet_meditation_yotd",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "combatinkowloon_wall_of_a_thousand_eyes_cik_400",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        }
+      ]
+    },
+    "combat-in-kowloon-dragons": {
+      "label": "Combat in Kowloon — Dragons",
+      "cards": [
+        {
+          "databaseId": "combatinkowloon_you_xia_the_avenger_cik_400",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "combatinkowloon_wrench_slinger_cik_400",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "combatinkowloon_vale_of_tears_cik_400",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "combatinkowloon_tech_squad_cik_400",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "combatinkowloon_student_of_the_dragon_cik_400",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "combatinkowloon_seamus_cik_400",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "combatinkowloon_reluctant_hero_cik_400",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "combatinkowloon_plain_white_panel_van_cik_400",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "combatinkowloon_never_surrender_cik_400",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "combatinkowloon_never_found_the_body_cik_400",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "combatinkowloon_manufactured_island_cik_400",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "combatinkowloon_lightning_patrol_cik_400",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "combatinkowloon_junkyard_boys_cik_400",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "combatinkowloon_inspector_will_zhurong_cik_400",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "combatinkowloon_grease_monkey_cik_400",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "combatinkowloon_fireworks_factory_cik_400",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "combatinkowloon_dragon_graveyard_cik_400",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "combatinkowloon_dr._amanda_snow_cik_400",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "combatinkowloon_dirk_wisely's_gambit_cik_400",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "combatinkowloon_city_center_cik_400",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "combatinkowloon_cb_radio_cik_400",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "combatinkowloon_car_wash_cik_400",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "combatinkowloon_big_ass_car_cik_400",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "combatinkowloon_battle_suit_cik_400",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "combatinkowloon_back_for_seconds_cik_400",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "combatinkowloon_cataract_gorge_cik_400",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "combatinkowloon_chop_shop_cik_400",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "combatinkowloon_final_brawl_cik_400",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "combatinkowloon_gambling_house_cik_400",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "combatinkowloon_hover_tank_cik_400",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "combatinkowloon_life_in_the_fast_lane_cik_400",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "combatinkowloon_master_mechanic_cik_400",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "combatinkowloon_maverick_trucker_cik_400",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "combatinkowloon_mobius_gardens_cik_400",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "combatinkowloon_muscle_car_cik_400",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "combatinkowloon_nine_dragon_temple_cik_400",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "combatinkowloon_scrounging_cik_400",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "combatinkowloon_spit_and_baling_wire_cik_400",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "combatinkowloon_stone_dolmens_cik_400",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        }
+      ]
+    },
+    "combat-in-kowloon-guiding-hand": {
+      "label": "Combat in Kowloon — Guiding Hand",
+      "cards": [
+        {
+          "databaseId": "combatinkowloon_youn_wha_cik_400",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "combatinkowloon_venerable_apothecary_cik_400",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "combatinkowloon_temple_guards_cik_400",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "combatinkowloon_sifu_beumer_cik_400",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "combatinkowloon_shaolin_supplicants_cik_400",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "combatinkowloon_shaolin_student_cik_400",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "combatinkowloon_precious_lotus_monastery_cik_400",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "combatinkowloon_po_toi_islands_cik_400",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "combatinkowloon_medicinal_flower_garden_cik_400",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "combatinkowloon_master_hao_cik_400",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "combatinkowloon_kung_fu_master_cik_400",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "combatinkowloon_jade_dragon_monk_cik_400",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "combatinkowloon_humble_dojo_cik_400",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "combatinkowloon_confucian_stability_cik_400",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "combatinkowloon_city_center_cik_400",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "combatinkowloon_chinese_connection_cik_400",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "combatinkowloon_buddhist_monk_cik_400",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "combatinkowloon_breath_of_the_dragon_cik_400",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "combatinkowloon_bamboo_cane_cik_400",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "combatinkowloon_18_bronze_men_cik_400",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "combatinkowloon_blue_monk_cik_400",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "combatinkowloon_healing_earth_cik_400",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "combatinkowloon_heat_of_battle_cik_400",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "combatinkowloon_iron_and_silk_cik_400",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "combatinkowloon_mobius_gardens_cik_400",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "combatinkowloon_nine_dragon_temple_cik_400",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "combatinkowloon_puzzle_garden_cik_400",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "combatinkowloon_secrets_of_shaolin_cik_400",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "combatinkowloon_shaking_the_mountain_cik_400",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "combatinkowloon_shield_of_pure_soul_cik_400",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "combatinkowloon_superior_kung_fu_cik_400",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "combatinkowloon_taiko_drummer_cik_400",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "combatinkowloon_the_iron_monkey_cik_400",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "combatinkowloon_the_jade_dragon_cik_400",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthedragon_violet_meditation_yotd",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "combatinkowloon_waterfall_sanctuary_cik_400",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        }
+      ]
+    },
+    "combat-in-kowloon-lotus": {
+      "label": "Combat in Kowloon — Lotus",
+      "cards": [
+        {
+          "databaseId": "combatinkowloon_undead_horrors_cik_400",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "combatinkowloon_soul_theft_cik_400",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "combatinkowloon_sewer_scum_cik_400",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "combatinkowloon_reggie_mortis_cik_400",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "combatinkowloon_ravenous_devourer_cik_400",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "combatinkowloon_long_shadows_cik_400",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "combatinkowloon_long_black_hearse_cik_400",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "combatinkowloon_imperial_champion_cik_400",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "combatinkowloon_imp_cik_400",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "combatinkowloon_hungry_ghosts_cik_400",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "combatinkowloon_forgotten_temple_cik_400",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "combatinkowloon_forgotten_shrine_cik_400",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "combatinkowloon_feeding_the_hungry_cik_400",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "combatinkowloon_eater_of_fortune_cik_400",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "combatinkowloon_dockyard_cik_400",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "combatinkowloon_discerning_fire_cik_400",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "combatinkowloon_die_cik_400",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "combatinkowloon_desolate_ridge_cik_400",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "combatinkowloon_cries_in_the_night_cik_400",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "combatinkowloon_city_center_cik_400",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "combatinkowloon_bribery_cik_400",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "combatinkowloon_bite_of_the_long_teeth_cik_400",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "combatinkowloon_1_000_corpses_cik_400",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "combatinkowloon_inauspicious_return_cik_400",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "combatinkowloon_killing_rain_cik_400",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "combatinkowloon_pocket_demon_cik_400",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "combatinkowloon_proving_ground_cik_400",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "combatinkowloon_rainforest_ruins_cik_400",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "combatinkowloon_the_iron_palace_cik_400",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "combatinkowloon_the_twisted_gardens_cik_400",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "combatinkowloon_underworld_coronation_cik_400",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "combatinkowloon_walking_corpses_cik_400",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "combatinkowloon_whirlpool_of_blood_cik_400",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "combatinkowloon_xin_ji_yang_cik_400",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        }
+      ]
+    },
+    "year-of-the-dragon-architects": {
+      "label": "Year of the Dragon — Architects",
+      "cards": [
+        {
+          "databaseId": "yearofthedragon_vivisector_yotd",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthedragon_test_subjects_yotd",
+          "quantity": 5,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthedragon_stone_garden_yotd",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthedragon_satellite_intelligence_yotd",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthedragon_robot_arm_yotd",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthedragon_pubord_officer_yotd",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthedragon_prototype_x_yotd",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthedragon_plasma_trooper_yotd",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthedragon_perpetual_motion_machine_yotd",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthedragon_nine_dragon_temple_yotd",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthedragon_neutron_bomb_yotd",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthedragon_nerve_gas_yotd",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthedragon_jade_valley_yotd",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthedragon_helix_rethread_yotd",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthedragon_helix_chewer_yotd",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthedragon_floating_restaurant_yotd",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthedragon_field_of_tentacles_yotd",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthedragon_festival_circle_yotd",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthedragon_curio_shop_yotd",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthedragon_city_square_yotd",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthedragon_city_park_yotd",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthedragon_cdca_scientist_yotd",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthedragon_birdhouse_cafe_yotd",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthedragon_arcanowave_reinforcer_yotd",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthedragon_abominable_lab_yotd",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthedragon_buro_godhammer_yotd",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthedragon_char_yotd",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthedragon_dangerous_experiment_yotd",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthedragon_homo_omega_yotd",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        }
+      ]
+    },
+    "year-of-the-dragon-ascended": {
+      "label": "Year of the Dragon — Ascended",
+      "cards": [
+        {
+          "databaseId": "yearofthedragon_the_pledged_yotd",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthedragon_suicide_mission_yotd",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthedragon_student_of_the_shark_yotd",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthedragon_student_of_the_bear_yotd",
+          "quantity": 5,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthedragon_stone_garden_yotd",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthedragon_secret_headquarters_yotd",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthedragon_sam_mallory_yotd",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthedragon_rat_fink_yotd",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthedragon_paper_trail_yotd",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthedragon_operation_killdeer_yotd",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthedragon_nine_dragon_temple_yotd",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthedragon_jagged_cliffs_yotd",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthedragon_jade_valley_yotd",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthedragon_floating_restaurant_yotd",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthedragon_family_estate_yotd",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthedragon_city_park_yotd",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthedragon_blessed_orchard_yotd",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthedragon_birdhouse_cafe_yotd",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthedragon_covert_operation_yotd",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthedragon_draco_yotd",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthedragon_explosives_yotd",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthedragon_kinoshita_house_yotd",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthedragon_mole_network_yotd",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthedragon_pumpaction_shotgun_yotd",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "criticalshift_shadowy_mentor_cs",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "combatinkowloon_bull_market_cik_400",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthedragon_sting_of_the_scorpion_yotd",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        }
+      ]
+    },
+    "year-of-the-dragon-dragons": {
+      "label": "Year of the Dragon — Dragons",
+      "cards": [
+        {
+          "databaseId": "yearofthedragon_tricia_kwok_yotd",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthedragon_surprise_surprise_yotd",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthedragon_stone_garden_yotd",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthedragon_sacred_heart_hospital_yotd",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthedragon_redeemed_gunman_yotd",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthedragon_perpetual_motion_machine_yotd",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthedragon_nine_dragon_temple_yotd",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthedragon_netherworld_vet_yotd",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthedragon_maverick_cop_yotd",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthedragon_little_jim_yotd",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthedragon_jane_q_public_yotd",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthedragon_jade_valley_yotd",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthedragon_house_on_the_hill_yotd",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthedragon_hacker_yotd",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthedragon_golden_comeback_yotd",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthedragon_gambling_house_yotd",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthedragon_final_brawl_yotd",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthedragon_dirk_wiselys_gambit_yotd",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthedragon_curio_shop_yotd",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthedragon_claw_of_the_dragon_yotd",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthedragon_city_park_yotd",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthedragon_cave_network_yotd",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthedragon_bronze_sentinel_yotd",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthedragon_birdhouse_cafe_yotd",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthedragon_friends_of_the_dragon_yotd",
+          "quantity": 5,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthedragon_pumpaction_shotgun_yotd",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthedragon_ting_ting_yotd",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        }
+      ]
+    },
+    "year-of-the-dragon-guiding-hand": {
+      "label": "Year of the Dragon — Guiding Hand",
+      "cards": [
+        {
+          "databaseId": "yearofthedragon_turtle_beach_yotd",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthedragon_the_iron_monkey_yotd",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthedragon_stone_garden_yotd",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthedragon_shield_of_pure_soul_yotd",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthedragon_shaolin_sanctuary_yotd",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthedragon_shan_tsu_yotd",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthedragon_shadowfist_yotd",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthedragon_righteous_fist_yotd",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthedragon_nine_dragon_temple_yotd",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthedragon_kung_fu_student_yotd",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthedragon_jade_valley_yotd",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthedragon_iron_and_silk_yotd",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthedragon_inner_sanctum_yotd",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthedragon_golden_candle_society_yotd",
+          "quantity": 5,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthedragon_gardener_yotd",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthedragon_gambling_house_yotd",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthedragon_floating_restaurant_yotd",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthedragon_curio_shop_yotd",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthedragon_confucian_stability_yotd",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthedragon_city_park_yotd",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthedragon_cave_network_yotd",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthedragon_blue_monk_yotd",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthedragon_blood_of_the_valiant_yotd",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthedragon_blessed_orchard_yotd",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthedragon_blade_palm_yotd",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthedragon_hands_without_shadow_yotd",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthedragon_red_monk_yotd",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthedragon_rigorous_discipline_yotd",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthedragon_violet_meditation_yotd",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthedragon_wong_fei_hong_yotd",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        }
+      ]
+    },
+    "year-of-the-dragon-lotus": {
+      "label": "Year of the Dragon — Lotus",
+      "cards": [
+        {
+          "databaseId": "yearofthedragon_white_disciple_yotd",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthedragon_walking_corpses_yotd",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthedragon_vassals_of_the_lotus_yotd",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthedragon_tortured_memories_yotd",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthedragon_sinister_priest_yotd",
+          "quantity": 5,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthedragon_shattering_fire_yotd",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthedragon_nine_dragon_temple_yotd",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthedragon_kun_kan_yotd",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthedragon_jagged_cliffs_yotd",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthedragon_jade_valley_yotd",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthedragon_inexorable_corruption_yotd",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthedragon_glimpse_of_the_abyss_yotd",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthedragon_gambling_house_yotd",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthedragon_four_burning_fists_yotd",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthedragon_field_of_tentacles_yotd",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthedragon_festival_circle_yotd",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthedragon_discerning_fire_yotd",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthedragon_curio_shop_yotd",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthedragon_city_park_yotd",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthedragon_cave_network_yotd",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthedragon_amulet_of_the_turtle_yotd",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthedragon_abysmal_absorber_yotd",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthedragon_thing_with_a_1000_tongues_yotd",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthedragon_the_hungry_yotd",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthedragon_pocket_demon_yotd",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthedragon_infernal_temple_yotd",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthedragon_fox_pass_yotd",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthedragon_evil_twin_yotd",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthedragon_eunuch_underling_yotd",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        }
+      ]
+    },
+    "year-of-the-goat-ascended": {
+      "label": "Year of the Goat — Ascended",
+      "cards": [
+        {
+          "databaseId": "yearofthegoat_44_kincaid_magnum_yotg",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_agency_support_yotg",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_agent_provocateur_yotg",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_arcane_vault_yotg",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_bear_market_yotg",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_betrayers_of_the_crane_yotg",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_bustling_metro_station_yotg",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_campaign_manager_yotg",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_cargo_plane_yotg",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_city_hall_yotg",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_commander_roger_keyes_yotg",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_contract_assassin_yotg",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_extortion_yotg",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_eyes_of_the_magpie_yotg",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_faith_in_the_halls_of_power_yotg",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_hidden_sanctum_yotg",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_horseshoe_island_yotg",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_house_arrest_yotg",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_humble_beginnings_yotg",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_martial_focus_yotg",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_maze_of_little_passages_yotg",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_nicole_dorca_yotg",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_operation_hidden_tiger_yotg",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_operation_tethered_goat_yotg",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_police_escort_yotg",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_political_favors_yotg",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_quanqiu_wishing_well_yotg",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_rainforest_bridge_yotg",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_roar_of_the_lion_yotg",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_serge_gardinier_yotg",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_shadowed_yotg",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_snap_of_the_crocodile_yotg",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_sulphurous_cenote_yotg",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_tranquil_peaks_yotg",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_yanuario_garcia_yotg",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        }
+      ]
+    },
+    "year-of-the-goat-dragons": {
+      "label": "Year of the Goat — Dragons",
+      "cards": [
+        {
+          "databaseId": "yearofthegoat_angie_dao_yotg",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_ancestral_river_home_yotg",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_balancing_stones_yotg",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_baxters_irregulars_yotg",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_chun_qi_shuan_yotg",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_clueless_heroes_yotg",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_chthonian_lake_yotg",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_double_feature_yotg",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_ejector_seat_malfunction_yotg",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_grease_shack_yotg",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_heroic_rematch_yotg",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_heroic_shoulder_wound_yotg",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_hidden_sanctum_yotg",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_hong_kongs_finest_yotg",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_hovercraft_yotg",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_innocent_convict_yotg",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_inspector_dee_yotg",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_jade_jones_yotg",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_junkyard_engineer_yotg",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_just_gettin'_riled_up_yotg",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_monster_truck_ambulance_yotg",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_mountain_falls_yotg",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_netherworld_trickster_yotg",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_on_the_wire_yotg",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_remix_artist_yotg",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_remote_temple_yotg",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_rewired_robot_yotg",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_river_of_lights_yotg",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_rocket_launcher_yotg",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_sea_turtle_cove_yotg",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_sulphurous_cenote_yotg",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_tai_chi_ascension_yotg",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_the_leong_brothers_yotg",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_tom_baxter_yotg",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_turf_war_yotg",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_up_before_breakfast_yotg",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        }
+      ]
+    },
+    "year-of-the-goat-guiding-hand": {
+      "label": "Year of the Goat — Guiding Hand",
+      "cards": [
+        {
+          "databaseId": "yearofthegoat_ancestral_river_home_yotg",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_arcane_vault_yotg",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_austere_monks_yotg",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_balancing_stones_yotg",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_blue_flower_society_yotg",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_bountiful_master_yotg",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_buddhist_bellringer_yotg",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_bustling_metro_station_yotg",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_cat_stance_yotg",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_corners_of_the_mouth_yotg",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_chthonian_lake_yotg",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_gao_family_banquet_hall_yotg",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_garden_of_eternal_spring_yotg",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_highway_ronin_yotg",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_huang_yi_yotg",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_humble_beginnings_yotg",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_journeys_reward_yotg",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_kitsune_yotg",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_martial_focus_yotg",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_meteor_hammer_yotg",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_mountain_falls_yotg",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_pacifists_yotg",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_quixotic_defense_yotg",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_reformed_bandit_yotg",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_renewal_yotg",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_returning_to_your_roots_yotg",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_rivers_path_yotg",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_sky_burial_yotg",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_song_of_the_nightingale_yotg",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_sulphurous_cenote_yotg",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_the_legacy_of_shaolin_yotg",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_tranquil_peaks_yotg",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_undisturbed_meditation_yotg",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_village_defenders_yotg",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_wei_tian_yotg",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_yanyeudao_blade_yotg",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        }
+      ]
+    },
+    "year-of-the-goat-jammers": {
+      "label": "Year of the Goat — Jammers",
+      "cards": [
+        {
+          "databaseId": "yearofthegoat_a_clockwork_orangutan_yotg",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_aimee_sprigg_yotg",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_ancestral_river_home_yotg",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_cheap_baboon_trick_yotg",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_chi_bomb_yotg",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_christopher_colobus_yotg",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_coordinated_sabotage_yotg",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_damned_dirty_apes_yotg",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_desolate_mountain_yotg",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_disgruntled_techie_yotg",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_ejector_seat_malfunction_yotg",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_exo_skeleton_yotg",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_fireworks_display_yotg",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_full_metal_nutball_yotg",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_guerilla_nihilists_yotg",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_joe_yeung_yotg",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_m.a.d._yotg",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_maze_of_little_passages_yotg",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_mostly_dead_zone_yotg",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_mountain_falls_yotg",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_on_the_wire_yotg",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_personal_assault_vehicle_yotg",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_proximi_chi_scanner_yotg",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_pyromaniac_yotg",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_rainforest_bridge_yotg",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_razor_clad_fanatic_yotg",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_remote_temple_yotg",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_renewed_manifesto_yotg",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_river_of_lights_yotg",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_robo_bonobo_yotg",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_rocket_launcher_yotg",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_sonic_boomer_yotg",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_sulphurous_cenote_yotg",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_the_blackboard_yotg",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_tunnel_fighter_yotg",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_weird_scientist_yotg",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_wired_to_blow_yotg",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        }
+      ]
+    },
+    "year-of-the-goat-lotus": {
+      "label": "Year of the Goat — Lotus",
+      "cards": [
+        {
+          "databaseId": "yearofthegoat_arcane_vault_yotg",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_ba_jiao_gui_yotg",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_balancing_stones_yotg",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_board_of_punishments_yotg",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_bustling_metro_station_yotg",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_charnel_ground_yotg",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_chthonian_lake_yotg",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_death_masque_yotg",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_desolate_mountain_yotg",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_empire_of_evil_yotg",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_familiar_spirit_yotg",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_grave_robbers_yotg",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_harati_yotg",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_horseshoe_island_yotg",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_incendiary_blast_yotg",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_jian_yotg",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_little_flower_yotg",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_mesmerism_yotg",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_mogwai_yotg",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_ominous_cave_mouth_yotg",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_plague_of_moths_yotg",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_remote_temple_yotg",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_scroll_of_pain_yotg",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_sorcerous_return_yotg",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_spirit_in_a_bottle_yotg",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_stone_gargoyle_yotg",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_sublime_melancholy_yotg",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_sulphurous_cenote_yotg",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_surfeit_of_minions_yotg",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_the_leashed_yotg",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_the_mantle_yotg",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_touch_of_the_abyss_yotg",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_yu_canghai_yotg",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_zhenmushou_yotg",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_zhuha_yotg",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        }
+      ]
+    },
+    "year-of-the-goat-monarchs": {
+      "label": "Year of the Goat — Monarchs",
+      "cards": [
+        {
+          "databaseId": "yearofthegoat_aleut_herbalist_yotg",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_alfar_yotg",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_ancient_lineage_yotg",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_barbarian_yotg",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_craft_and_might_yotg",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_desolate_mountain_yotg",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_familiar_spirit_yotg",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_fire_breather_yotg",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_frenzy_yotg",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_hidden_sanctum_yotg",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_honor_and_glory_yotg",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_horseshoe_island_yotg",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_incendiary_blast_yotg",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_knight_templar_yotg",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_master_fletcher_yotg",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_maze_of_little_passages_yotg",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_mobius_portal_yotg",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_origami_fortress_yotg",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_pi_yin_yotg",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_rainforest_bridge_yotg",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_river_of_lights_yotg",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_salamalah_sade_yotg",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_shock_troops_yotg",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_sir_james_lamb_yotg",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_spirit_in_a_bottle_yotg",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_spontaneous_combustion_yotg",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_sulphurous_cenote_yotg",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_tears_of_hsi_ho_yotg",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_tranquil_peaks_yotg",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_twenty_lashes_yotg",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_twin_thunders_yotg",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_viking_burial_yotg",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_white_wolf_yotg",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "yearofthegoat_william_franklin_yotg",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,11 @@
+Built 2026-09-14 02:49 UTC from /Volumes/Expand/HEX SHARDS OF FATE (HEX 1.1.0.086).
+CardTemplate + ChampionTemplate from Data/gamedata (gzip JSON).
+Portraits from AssetBundles/cardsets/*.harc (Unity 5.6 Texture2D).
+Keywords from Data/Localization/hex_uidata_en.xml.
+Faces stamped with client NGUI chrome (hex_mse_style.render_face). Kitchen-table hex_compose is lobby/back only.
+Hex TCG Browser CSV is a check only (hex_browser.py --compare-browser). Do not rebuild from it.
+Leave the HEX install where it is. Do not copy it into plugins/.
+Cards: 7715  Composed: 7715  Decks: 74  Keywords: 64  (faces-only restamp)
+Types: {'Choice': 200, 'Constant': 399, 'Troop': 4004, 'Quick Action': 811, 'Basic Action': 1010, 'Artifact': 329, 'Bane': 6, 'Troop Artifact': 285, 'Resource': 105, 'Mod': 1, 'Rules': 16, 'Champion': 549}
+Sets: {'AI Only': 375, 'Basic Shards': 10, 'PvE AZ1': 229, 'PvE AZ1 Equipment': 217, 'PvE AZ2': 215, 'PvE AZ2 Equipment': 181, 'PvE AZ1 Effects': 70, 'PvE AZ2 Effects': 63, 'Shards of Fate': 455, 'Shards of Fate (Alt)': 328, 'PvE Arena': 230, 'PvE Arena (Alt)': 292, 'PvE Talents': 17, 'PvE Talents (Alt)': 150, 'PvE Talents 2': 21, 'PvE Talents 2 (Alt)': 3, 'Shattered Destiny': 307, 'Shattered Destiny (Alt)': 240, 'Armies of Myth (Promo)': 25, 'Armies of Myth (Promo Alt)': 72, 'Armies of Myth': 326, 'Armies of Myth (Alt)': 216, 'Primal Dawn (Promo)': 10, 'Primal Dawn (Promo Alt)': 28, 'Primal Dawn': 335, 'Primal Dawn (Alt)': 172, 'Herofall (Promo)': 11, 'Herofall (Promo Alt)': 33, 'Herofall': 356, 'Herofall (Alt)': 139, 'Scars of War (Promo)': 16, 'Scars of War (Promo Alt)': 48, 'Scars of War': 346, 'Scars of War (Alt)': 151, 'Frostheart (Promo)': 22, 'Frostheart (Promo Alt)': 48, 'Frostheart': 354, 'Frostheart (Core)': 78, 'Frostheart (Core Alt)': 30, 'Frostheart (Alt)': 123, 'Dead of Winter (Promo)': 11, 'Dead of Winter (Promo Alt)': 33, 'Dead of Winter': 330, 'Dead of Winter (Alt)': 165, 'Doombringer (Promo)': 16, 'Doombringer (Promo Alt)': 48, 'Doombringer': 436, 'Doombringer (Core)': 75, 'Doombringer (Core Alt)': 31, 'Doombringer (Alt)': 155, 'Rules': 16, 'Created Champions': 57}
+Tabletop plugin only — no rules engine.

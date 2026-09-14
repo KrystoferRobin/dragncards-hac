@@ -1,0 +1,295 @@
+{
+  "groups": {
+    "player1Base": {
+      "canHaveAttachments": true,
+      "groupType": "inPlay",
+      "label": "Player 1 Base",
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1DBase",
+        "discardGroupId": "player2VictoryPile",
+        "rotation": 0,
+        "rotationByPlayer": {}
+      },
+      "tableLabel": "Base"
+    },
+    "player1BaseDeck": {
+      "canHaveAttachments": true,
+      "groupType": "outOfPlay",
+      "label": "Player 1 Base Deck",
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1BaseDeck",
+        "discardGroupId": "player2VictoryPile",
+        "rotation": 0,
+        "rotationByPlayer": {}
+      },
+      "tableLabel": "Base Deck"
+    },
+    "player1Deck": {
+      "canHaveAttachments": false,
+      "groupType": "deck",
+      "label": "Player 1 Deck",
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1Deck",
+        "discardGroupId": "player1Discard",
+        "rotation": 0,
+        "rotationByPlayer": {}
+      },
+      "shuffleOnLoad": true,
+      "tableLabel": "Deck"
+    },
+    "player1Discard": {
+      "canHaveAttachments": false,
+      "groupType": "discard",
+      "label": "Player 1 Discard",
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1Deck",
+        "discardGroupId": "player1Discard",
+        "rotation": 0,
+        "rotationByPlayer": {}
+      },
+      "tableLabel": "Discard"
+    },
+    "player1Hand": {
+      "canHaveAttachments": false,
+      "groupType": "hand",
+      "label": "Player 1 Hand",
+      "onCardEnter": {
+        "controller": "player1",
+        "peeking": {
+          "player1": true
+        },
+        "rotation": 0,
+        "rotationByPlayer": {}
+      },
+      "tableLabel": "Hand"
+    },
+    "player1Play": {
+      "canHaveAttachments": true,
+      "groupType": "inPlay",
+      "label": "Player 1 Play",
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1Deck",
+        "discardGroupId": "player1Discard",
+        "rotation": 0,
+        "rotationByPlayer": {}
+      },
+      "tableLabel": "Play Area"
+    },
+    "player1VictoryPile": {
+      "canHaveAttachments": false,
+      "groupType": "discard",
+      "label": "Player 1 Victory Pile",
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player2Base",
+        "discardGroupId": "player1VictoryPile",
+        "rotation": 0,
+        "rotationByPlayer": {}
+      },
+      "shuffleOnLoad": false,
+      "tableLabel": "Victory Pile"
+    },
+    "player2Base": {
+      "canHaveAttachments": true,
+      "groupType": "inPlay",
+      "label": "Player 2 Base",
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2BaseDeck",
+        "discardGroupId": "player1VictoryPile",
+        "rotation": 0,
+        "rotationByPlayer": {}
+      },
+      "tableLabel": "Base"
+    },
+    "player2BaseDeck": {
+      "canHaveAttachments": true,
+      "groupType": "outOfPlay",
+      "label": "Player 2 Base Deck",
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2BaseDeck",
+        "discardGroupId": "player1VictoryPile",
+        "rotation": 0,
+        "rotationByPlayer": {}
+      },
+      "tableLabel": "Base Deck"
+    },
+    "player2Deck": {
+      "canHaveAttachments": false,
+      "groupType": "deck",
+      "label": "Player 2 Deck",
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2Deck",
+        "discardGroupId": "player2Discard",
+        "rotation": 0,
+        "rotationByPlayer": {}
+      },
+      "shuffleOnLoad": true,
+      "tableLabel": "Deck"
+    },
+    "player2Discard": {
+      "canHaveAttachments": false,
+      "groupType": "discard",
+      "label": "Player 2 Discard",
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2Deck",
+        "discardGroupId": "player2Discard",
+        "rotation": 0,
+        "rotationByPlayer": {}
+      },
+      "tableLabel": "Discard"
+    },
+    "player2Hand": {
+      "canHaveAttachments": false,
+      "groupType": "hand",
+      "label": "Player 2 Hand",
+      "onCardEnter": {
+        "controller": "player2",
+        "peeking": {
+          "player2": true
+        },
+        "rotation": 0,
+        "rotationByPlayer": {}
+      },
+      "tableLabel": "Hand"
+    },
+    "player2Play": {
+      "canHaveAttachments": true,
+      "groupType": "inPlay",
+      "label": "Player 2 Play",
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2Deck",
+        "discardGroupId": "player2Discard",
+        "rotation": 0,
+        "rotationByPlayer": {}
+      },
+      "tableLabel": "Play Area"
+    },
+    "player2VictoryPile": {
+      "canHaveAttachments": false,
+      "groupType": "discard",
+      "label": "Player 2 Victory Pile",
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player1Base",
+        "discardGroupId": "player2VictoryPile",
+        "rotation": 0,
+        "rotationByPlayer": {}
+      },
+      "shuffleOnLoad": false,
+      "tableLabel": "Victory Pile"
+    },
+    "sharedExiled": {
+      "canHaveAttachments": false,
+      "groupType": "discard",
+      "label": "Exiled",
+      "onCardEnter": {
+        "controller": "shared",
+        "rotation": 0,
+        "rotationByPlayer": {}
+      },
+      "shuffleOnLoad": false,
+      "tableLabel": "Exiled"
+    },
+    "sharedGalaxyDeck": {
+      "canHaveAttachments": false,
+      "groupType": "deck",
+      "label": "Galaxy Deck",
+      "onCardEnter": {
+        "controller": "shared",
+        "deckGroupId": "sharedGalaxyDeck",
+        "discardGroupId": "sharedGalaxyDiscard",
+        "rotation": 0,
+        "rotationByPlayer": {}
+      },
+      "shuffleOnLoad": true,
+      "tableLabel": "Galaxy Deck"
+    },
+    "sharedGalaxyDiscard": {
+      "canHaveAttachments": false,
+      "groupType": "discard",
+      "label": "Galaxy Discard",
+      "onCardEnter": {
+        "controller": "shared",
+        "deckGroupId": "sharedGalaxyDeck",
+        "discardGroupId": "sharedGalaxyDiscard",
+        "rotation": 0,
+        "rotationByPlayer": {}
+      },
+      "tableLabel": "Galaxy Discard"
+    },
+    "sharedGalaxyRow": {
+      "canHaveAttachments": false,
+      "groupType": "outOfPlay",
+      "label": "Galaxy Row",
+      "onCardEnter": {
+        "controller": "shared"
+      },
+      "onCardLeave": {
+        "borderColor": null
+      },
+      "tableLabel": "Galaxy Row"
+    },
+    "sharedOuterRimPilotDeck": {
+      "canHaveAttachments": false,
+      "groupType": "discard",
+      "label": "Outer Rim Pilot Deck",
+      "onCardEnter": {
+        "controller": "shared",
+        "rotation": 90,
+        "rotationByPlayer": {}
+      },
+      "onCardLeave": {
+        "borderColor": null
+      },
+      "shuffleOnLoad": false,
+      "tableLabel": "Outer Rim Pilots"
+    },
+    "sharedRules": {
+      "canHaveAttachments": false,
+      "groupType": "discard",
+      "label": "Rules",
+      "onCardEnter": {
+        "controller": "shared",
+        "rotation": 0,
+        "rotationByPlayer": {}
+      },
+      "shuffleOnLoad": false,
+      "tableLabel": "Rules"
+    },
+    "sharedSetAside": {
+      "canHaveAttachments": false,
+      "groupType": "deck",
+      "label": "Set Aside",
+      "onCardEnter": {
+        "controller": "shared",
+        "rotation": 0,
+        "rotationByPlayer": {}
+      },
+      "shuffleOnLoad": false,
+      "tableLabel": "Set Aside"
+    },
+    "sharedTracker": {
+      "canHaveAttachments": true,
+      "groupType": "inPlay",
+      "label": "Tracker",
+      "onCardEnter": {
+        "controller": "shared",
+        "rotationByPlayer": {
+          "player1": 180,
+          "player2": 0
+        }
+      },
+      "tableLabel": "Tracker"
+    }
+  }
+}

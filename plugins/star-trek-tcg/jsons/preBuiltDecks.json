@@ -1,0 +1,54 @@
+{
+  "preBuiltDecks": {
+    "starting-deck": {
+      "label": "Starting Deck",
+      "cards": [
+        {
+          "databaseId": "Base_Captain_James_T_Kirk_Core_Crew",
+          "quantity": 1,
+          "loadGroupId": "playerNStarting"
+        },
+        {
+          "databaseId": "Base_Dr_Leonard_H_Bones_McCoy_Core_Crew",
+          "quantity": 1,
+          "loadGroupId": "playerNStarting"
+        },
+        {
+          "databaseId": "Base_Commander_Spock_Core_Crew",
+          "quantity": 1,
+          "loadGroupId": "playerNStarting"
+        },
+        {
+          "databaseId": "Base_USS_Enterprise_Core_Crew",
+          "quantity": 1,
+          "loadGroupId": "playerNStarting"
+        },
+        {
+          "databaseId": "Base_CORE_EPISODE_Default_Mission",
+          "quantity": 1,
+          "loadGroupId": "playerNStarting"
+        },
+        {
+          "databaseId": "Base_CORE_EPISODE_Default_Discovery",
+          "quantity": 1,
+          "loadGroupId": "playerNStarting"
+        },
+        {
+          "databaseId": "Base_CORE_EPISODE_Default_Plot",
+          "quantity": 1,
+          "loadGroupId": "playerNStarting"
+        },
+        {
+          "databaseId": "Base_Info_Card_Info_Card",
+          "quantity": 1,
+          "loadGroupId": "playerNStarting"
+        },
+        {
+          "databaseId": "Base_Info_Card_Info_Card2",
+          "quantity": 1,
+          "loadGroupId": "playerNStarting"
+        }
+      ]
+    }
+  }
+}

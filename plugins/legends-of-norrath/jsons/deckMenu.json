@@ -1,0 +1,258 @@
+{
+  "deckMenu": {
+    "subMenus": [
+      {
+        "label": "Oathbound",
+        "deckLists": [
+          {
+            "deckListId": "oathbound-fighter-terin",
+            "label": "Fighter — Terin"
+          },
+          {
+            "deckListId": "oathbound-mage-karlemayn",
+            "label": "Mage — Karlemayn"
+          },
+          {
+            "deckListId": "oathbound-priest-eluviel",
+            "label": "Priest — Eluviel"
+          },
+          {
+            "deckListId": "oathbound-scout-cyndra",
+            "label": "Scout — Cyndra"
+          }
+        ]
+      },
+      {
+        "label": "Forsworn",
+        "deckLists": [
+          {
+            "deckListId": "forsworn-fighter-terin",
+            "label": "Fighter — Terin"
+          },
+          {
+            "deckListId": "forsworn-mage-karlemayn",
+            "label": "Mage — Karlemayn"
+          },
+          {
+            "deckListId": "forsworn-priest-eluviel",
+            "label": "Priest — Eluviel"
+          },
+          {
+            "deckListId": "forsworn-scout-cyndra",
+            "label": "Scout — Cyndra"
+          }
+        ]
+      },
+      {
+        "label": "Inquisitor",
+        "deckLists": [
+          {
+            "deckListId": "inquisitor-fighter-terin",
+            "label": "Fighter — Terin"
+          },
+          {
+            "deckListId": "inquisitor-mage-karlemayn",
+            "label": "Mage — Karlemayn"
+          },
+          {
+            "deckListId": "inquisitor-priest-eluviel",
+            "label": "Priest — Eluviel"
+          },
+          {
+            "deckListId": "inquisitor-scout-cyndra",
+            "label": "Scout — Cyndra"
+          }
+        ]
+      },
+      {
+        "label": "Oathbreaker",
+        "deckLists": [
+          {
+            "deckListId": "oathbreaker-fighter-terin",
+            "label": "Fighter — Terin"
+          },
+          {
+            "deckListId": "oathbreaker-mage-karlemayn",
+            "label": "Mage — Karlemayn"
+          },
+          {
+            "deckListId": "oathbreaker-priest-eluviel",
+            "label": "Priest — Eluviel"
+          },
+          {
+            "deckListId": "oathbreaker-scout-cyndra",
+            "label": "Scout — Cyndra"
+          }
+        ]
+      },
+      {
+        "label": "Ethernauts",
+        "deckLists": [
+          {
+            "deckListId": "ethernauts-fighter-bayle",
+            "label": "Fighter — Bayle"
+          },
+          {
+            "deckListId": "ethernauts-mage-asharae",
+            "label": "Mage — Asharae"
+          },
+          {
+            "deckListId": "ethernauts-priest-kaltuk",
+            "label": "Priest — Kaltuk"
+          },
+          {
+            "deckListId": "ethernauts-scout-illisia",
+            "label": "Scout — Illisia"
+          }
+        ]
+      },
+      {
+        "label": "Against the Void",
+        "deckLists": [
+          {
+            "deckListId": "against-the-void-priest-bayle",
+            "label": "Priest — Bayle"
+          },
+          {
+            "deckListId": "against-the-void-scout-asharae",
+            "label": "Scout — Asharae"
+          },
+          {
+            "deckListId": "against-the-void-6900006-kaltuk",
+            "label": "6900006 — Kaltuk"
+          },
+          {
+            "deckListId": "against-the-void-6900007-illisia",
+            "label": "6900007 — Illisia"
+          }
+        ]
+      },
+      {
+        "label": "Storm Break",
+        "deckLists": [
+          {
+            "deckListId": "storm-break-fighter-bayle",
+            "label": "Fighter — Bayle"
+          },
+          {
+            "deckListId": "storm-break-mage-asharae",
+            "label": "Mage — Asharae"
+          },
+          {
+            "deckListId": "storm-break-priest-kaltuk",
+            "label": "Priest — Kaltuk"
+          },
+          {
+            "deckListId": "storm-break-scout-illisia",
+            "label": "Scout — Illisia"
+          }
+        ]
+      },
+      {
+        "label": "Travelers",
+        "deckLists": [
+          {
+            "deckListId": "travelers-fighter-arith-theana",
+            "label": "Fighter — Arith Theana"
+          },
+          {
+            "deckListId": "travelers-mage-gaxan-bakar",
+            "label": "Mage — Gaxan Bakar"
+          },
+          {
+            "deckListId": "travelers-priest-rinaya-zishlin",
+            "label": "Priest — Rinaya Zishlin"
+          },
+          {
+            "deckListId": "travelers-scout-kenoch-macdunham",
+            "label": "Scout — Kenoch MacDunham"
+          }
+        ]
+      },
+      {
+        "label": "Vengeful Gods",
+        "deckLists": [
+          {
+            "deckListId": "vengeful-gods-fighter-arith-theana",
+            "label": "Fighter — Arith Theana"
+          },
+          {
+            "deckListId": "vengeful-gods-mage-gaxan-bakar",
+            "label": "Mage — Gaxan Bakar"
+          },
+          {
+            "deckListId": "vengeful-gods-priest-rinaya-zishlin",
+            "label": "Priest — Rinaya Zishlin"
+          },
+          {
+            "deckListId": "vengeful-gods-scout-kenoch-macdunham",
+            "label": "Scout — Kenoch MacDunham"
+          }
+        ]
+      },
+      {
+        "label": "Doom of the Ancient Ones",
+        "deckLists": [
+          {
+            "deckListId": "doom-of-the-ancient-ones-fighter-arith-theana",
+            "label": "Fighter — Arith Theana"
+          },
+          {
+            "deckListId": "doom-of-the-ancient-ones-mage-thrall-of-the-void",
+            "label": "Mage — Thrall of the Void"
+          },
+          {
+            "deckListId": "doom-of-the-ancient-ones-priest-rinaya-zishlin",
+            "label": "Priest — Rinaya Zishlin"
+          },
+          {
+            "deckListId": "doom-of-the-ancient-ones-scout-kenoch-macdunham",
+            "label": "Scout — Kenoch MacDunham"
+          }
+        ]
+      },
+      {
+        "label": "Dragonbrood",
+        "deckLists": [
+          {
+            "deckListId": "dragonbrood-fighter-tahka",
+            "label": "Fighter — Tahka"
+          },
+          {
+            "deckListId": "dragonbrood-mage-meleen",
+            "label": "Mage — Meleen"
+          },
+          {
+            "deckListId": "dragonbrood-priest-balebri-estarim",
+            "label": "Priest — Balebri Estarim"
+          },
+          {
+            "deckListId": "dragonbrood-scout-rhyan-estarim",
+            "label": "Scout — Rhyan Estarim"
+          }
+        ]
+      },
+      {
+        "label": "Legacies",
+        "deckLists": [
+          {
+            "deckListId": "legacies-fighter-arith-theana",
+            "label": "Fighter — Arith Theana"
+          },
+          {
+            "deckListId": "legacies-mage-asharae",
+            "label": "Mage — Asharae"
+          },
+          {
+            "deckListId": "legacies-priest-eluviel",
+            "label": "Priest — Eluviel"
+          },
+          {
+            "deckListId": "legacies-scout-rhyan-estarim",
+            "label": "Scout — Rhyan Estarim"
+          }
+        ]
+      }
+    ]
+  }
+}

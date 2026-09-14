@@ -1,0 +1,12 @@
+{
+  "pluginName": "MapleStory TCG",
+  "author": "Lackey / wishmstr",
+  "tutorialUrl": "https://github.com/wishmstr/MapleStory",
+  "announcements": [
+    "Tabletop plugin from the Lackey MapleStory set. No rules engine — Level, HP, Starting, and Feed Pet are shortcuts.",
+    "D = draw. R = ready all. L / H = Level / HP +1. P = feed pet (top of deck facedown)."
+  ],
+  "loadPreBuiltOnNewGame": false,
+  "bannerUrl": "https://toybox.hundredacre.club/cards/maple-story/_plugin/banner2.jpg",
+  "logoUrl": "https://toybox.hundredacre.club/cards/maple-story/_plugin/logo2.jpg"
+}

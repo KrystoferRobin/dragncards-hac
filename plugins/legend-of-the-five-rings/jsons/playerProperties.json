@@ -1,0 +1,21 @@
+{
+  "playerProperties": {
+    "honor": {
+      "label": "Honor",
+      "type": "integer",
+      "default": 0,
+      "min": 0
+    },
+    "gold": {
+      "label": "Gold",
+      "type": "integer",
+      "default": 0,
+      "min": 0
+    },
+    "clan": {
+      "label": "Clan",
+      "type": "string",
+      "default": ""
+    }
+  }
+}

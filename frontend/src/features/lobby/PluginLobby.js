@@ -11,6 +11,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowLeft } from "@fortawesome/free-solid-svg-icons";
 import axios from "axios";
 import LfgSection from "./LfgSection";
+import { pluginDisplayAuthor } from "./pluginDisplayAuthor";
 
 
 export const PluginLobby = () => {
@@ -89,7 +90,7 @@ export const PluginLobby = () => {
         </div>
         <div>
           {plugin?.name}
-          <div className="text-xs">by {plugin?.author_alias}</div>
+          <div className="text-xs">by {pluginDisplayAuthor(plugin)}</div>
         </div>
       </div>
 

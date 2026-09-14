@@ -1,0 +1,76 @@
+{
+  "labels": {
+    "attackModifierIcon": {
+      "English": "icon(https://toybox.hundredacre.club/cards/star-wars-deckbuilding-game/_plugin/StarWarsDeckbuildingGame-TokenAttackModifier.png)"
+    },
+    "attackOnCard": {
+      "English": "Attack on card"
+    },
+    "attackWithCard": {
+      "English": "Attack with card"
+    },
+    "buyCard": {
+      "English": "Buy card"
+    },
+    "commitToAttack": {
+      "English": "Commit To Attack"
+    },
+    "damage": {
+      "English": "Damage"
+    },
+    "damageIcon": {
+      "English": "icon(https://toybox.hundredacre.club/cards/star-wars-deckbuilding-game/_plugin/StarWarsDeckbuildingGame-TokenDamage.png)"
+    },
+    "discard": {
+      "English": "Discard"
+    },
+    "drawCard": {
+      "English": "Draw Card"
+    },
+    "endTurn": {
+      "English": "End turn"
+    },
+    "exileCard": {
+      "English": "Exile card"
+    },
+    "flip": {
+      "English": "Flip"
+    },
+    "gain1Force": {
+      "English": "Gain 1 Force"
+    },
+    "hpModifierIcon": {
+      "English": "Hit Point Modifier Icon"
+    },
+    "labelMarkAsEmpireVictory": {
+      "English": "Label Mark As Empire Victory"
+    },
+    "labelMarkAsIncomplete": {
+      "English": "Label Mark As Incomplete"
+    },
+    "labelMarkAsRebelVictory": {
+      "English": "Label Mark As Rebel Victory"
+    },
+    "myDeck": {
+      "English": "My Deck"
+    },
+    "playAllCards": {
+      "English": "Play all the cards in your hand"
+    },
+    "playCard": {
+      "English": "Play card"
+    },
+    "resource": {
+      "English": "Resource"
+    },
+    "round": {
+      "English": "Round"
+    },
+    "standard": {
+      "English": "Standard"
+    },
+    "useAbility": {
+      "English": "Use Ability"
+    }
+  }
+}

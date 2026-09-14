@@ -1,0 +1,66 @@
+{
+  "deckbuilder": {
+    "addButtons": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "columns": [
+      {
+        "propName": "name",
+        "label": "Name"
+      },
+      {
+        "propName": "type",
+        "label": "Type"
+      },
+      {
+        "propName": "cost",
+        "label": "Cost"
+      },
+      {
+        "propName": "threshold",
+        "label": "Threshold"
+      },
+      {
+        "propName": "attack",
+        "label": "ATK"
+      },
+      {
+        "propName": "defense",
+        "label": "DEF"
+      },
+      {
+        "propName": "packName",
+        "label": "Set"
+      }
+    ],
+    "spawnGroups": [
+      {
+        "loadGroupId": "playerNDeck",
+        "label": "My Deck"
+      },
+      {
+        "loadGroupId": "playerNHand",
+        "label": "My Hand"
+      },
+      {
+        "loadGroupId": "playerNChampion",
+        "label": "My Champion"
+      },
+      {
+        "loadGroupId": "playerNResources",
+        "label": "My Resources"
+      },
+      {
+        "loadGroupId": "playerNPlay",
+        "label": "My Troops"
+      },
+      {
+        "loadGroupId": "playerNSupport",
+        "label": "My Support"
+      }
+    ]
+  }
+}

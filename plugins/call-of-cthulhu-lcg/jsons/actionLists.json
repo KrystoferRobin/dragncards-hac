@@ -1,0 +1,210 @@
+{
+  "actionLists": {
+    "drawDeck": [
+      [
+        "COND",
+        [
+          "GROUP_EMPTY",
+          "{{$PLAYER_N}}Deck"
+        ],
+        [
+          "LOG",
+          "{{$ALIAS_N}} tried to draw from an empty deck."
+        ],
+        [
+          "TRUE"
+        ],
+        [
+          [
+            "MOVE_STACKS",
+            "{{$PLAYER_N}}Deck",
+            "{{$PLAYER_N}}Hand",
+            1,
+            "bottom"
+          ],
+          [
+            "LOG",
+            "{{$ALIAS_N}} drew a card."
+          ]
+        ]
+      ]
+    ],
+    "shuffleDeck": [
+      [
+        "SHUFFLE_GROUP",
+        "{{$PLAYER_N}}Deck"
+      ],
+      [
+        "LOG",
+        "{{$ALIAS_N}} shuffled their deck."
+      ]
+    ],
+    "drawStory": [
+      [
+        "COND",
+        [
+          "GROUP_EMPTY",
+          "sharedStoryDeck"
+        ],
+        [
+          "LOG",
+          "{{$ALIAS_N}} tried to draw a story from an empty story deck."
+        ],
+        [
+          "TRUE"
+        ],
+        [
+          [
+            "MOVE_STACKS",
+            "sharedStoryDeck",
+            "sharedStories",
+            1,
+            "bottom"
+          ],
+          [
+            "LOG",
+            "{{$ALIAS_N}} revealed a story."
+          ]
+        ]
+      ]
+    ],
+    "readyAll": [
+      [
+        "FOR_EACH_KEY_VAL",
+        "$CARD_ID",
+        "$CARD",
+        "$GAME.cardById",
+        [
+          "COND",
+          [
+            "EQUAL",
+            "$CARD.controller",
+            "$PLAYER_N"
+          ],
+          [
+            "SET",
+            "/cardById/{{$CARD_ID}}/rotation",
+            0
+          ]
+        ]
+      ],
+      [
+        "LOG",
+        "{{$ALIAS_N}} refreshed all their cards."
+      ]
+    ],
+    "exhaustCard": [
+      [
+        "SET",
+        "/cardById/$ACTIVE_CARD_ID/rotation",
+        90
+      ],
+      [
+        "LOG",
+        "{{$ALIAS_N}} exhausted {{$ACTIVE_FACE.name}}."
+      ]
+    ],
+    "insaneCard": [
+      [
+        "SET",
+        "/cardById/$ACTIVE_CARD_ID/rotation",
+        180
+      ],
+      [
+        "LOG",
+        "{{$ALIAS_N}} drove {{$ACTIVE_FACE.name}} insane."
+      ]
+    ],
+    "readyCard": [
+      [
+        "SET",
+        "/cardById/$ACTIVE_CARD_ID/rotation",
+        0
+      ],
+      [
+        "LOG",
+        "{{$ALIAS_N}} refreshed {{$ACTIVE_FACE.name}}."
+      ]
+    ],
+    "increaseStories": [
+      [
+        "INCREASE_VAL",
+        "/playerData/$PLAYER_N/storiesWon",
+        1
+      ],
+      [
+        "LOG",
+        "{{$ALIAS_N}} won a story."
+      ]
+    ],
+    "decreaseStories": [
+      [
+        "COND",
+        [
+          "GREATER_THAN",
+          "$GAME.playerData.$PLAYER_N.storiesWon",
+          0
+        ],
+        [
+          [
+            "DECREASE_VAL",
+            "/playerData/$PLAYER_N/storiesWon",
+            1
+          ],
+          [
+            "LOG",
+            "{{$ALIAS_N}} lost a story victory."
+          ]
+        ],
+        [
+          "TRUE"
+        ],
+        [
+          "LOG",
+          "{{$ALIAS_N}} has no story victories to remove."
+        ]
+      ]
+    ],
+    "flipCard": [
+      [
+        "FLIP",
+        "$ACTIVE_CARD_ID"
+      ]
+    ],
+    "discardCard": [
+      [
+        "DISCARD",
+        "$ACTIVE_CARD_ID"
+      ]
+    ],
+    "detachCard": [
+      [
+        "DETACH",
+        "$ACTIVE_CARD_ID"
+      ]
+    ],
+    "shuffleIntoDeck": [
+      [
+        "SHUFFLE_INTO_DECK",
+        "$ACTIVE_CARD_ID"
+      ]
+    ],
+    "mulligan": [
+      [
+        "MOVE_STACKS",
+        "{{$PLAYER_N}}Hand",
+        "{{$PLAYER_N}}Deck",
+        99,
+        "bottom"
+      ],
+      [
+        "SHUFFLE_GROUP",
+        "{{$PLAYER_N}}Deck"
+      ],
+      [
+        "LOG",
+        "{{$ALIAS_N}} mulliganed (hand to bottom of deck, shuffle)."
+      ]
+    ]
+  }
+}

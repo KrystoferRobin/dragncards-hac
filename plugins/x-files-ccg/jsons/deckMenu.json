@@ -1,0 +1,39 @@
+{
+  "deckMenu": {
+    "subMenus": [
+      {
+        "label": "OCTGN Decks",
+        "deckLists": [
+          {
+            "deckListId": "sample-deck-1-paranormal",
+            "label": "Sample Deck 1 Paranormal"
+          },
+          {
+            "deckListId": "sample-deck-2-bureaucracy",
+            "label": "Sample Deck 2 Bureaucracy"
+          },
+          {
+            "deckListId": "sample-deck-3-computer",
+            "label": "Sample Deck 3 Computer"
+          },
+          {
+            "deckListId": "sample-deck-4-travel",
+            "label": "Sample Deck 4 Travel"
+          },
+          {
+            "deckListId": "sample-deck-5-kryceks-subterfuge",
+            "label": "Sample Deck 5 Kryceks Subterfuge"
+          },
+          {
+            "deckListId": "sample-deck-6-scullys-sciences",
+            "label": "Sample Deck 6 Scullys Sciences"
+          },
+          {
+            "deckListId": "sample-deck-7-alien-themed",
+            "label": "Sample Deck 7 Alien Themed"
+          }
+        ]
+      }
+    ]
+  }
+}

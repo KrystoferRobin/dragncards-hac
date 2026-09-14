@@ -1,0 +1,50 @@
+{
+  "deckbuilder": {
+    "addButtons": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "columns": [
+      {
+        "propName": "name",
+        "label": "Name"
+      },
+      {
+        "propName": "type",
+        "label": "Type"
+      },
+      {
+        "propName": "subtype",
+        "label": "Subtype"
+      },
+      {
+        "propName": "rarity",
+        "label": "Rarity"
+      },
+      {
+        "propName": "packName",
+        "label": "Set"
+      }
+    ],
+    "spawnGroups": [
+      {
+        "loadGroupId": "playerNDeck",
+        "label": "My Deck"
+      },
+      {
+        "loadGroupId": "playerNStarting",
+        "label": "My Starting"
+      },
+      {
+        "loadGroupId": "playerNEpisode",
+        "label": "My Episode"
+      },
+      {
+        "loadGroupId": "playerNChallenges",
+        "label": "My Challenges"
+      }
+    ]
+  }
+}

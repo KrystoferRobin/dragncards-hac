@@ -1,0 +1,12 @@
+{
+  "pluginName": "Monty Python and the Holy Grail CCG",
+  "author": "OCTGN / StormyWaters2021",
+  "tutorialUrl": "http://www.TCGBuilder.net",
+  "announcements": [
+    "Tabletop plugin from the OCTGN Monty Python and the Holy Grail CCG set. No rules engine — draw, Dead Cart, and Extra are shortcuts.",
+    "D = draw. Discard goes to the Dead Cart."
+  ],
+  "loadPreBuiltOnNewGame": false,
+  "bannerUrl": "https://toybox.hundredacre.club/cards/monty-python-ccg/_plugin/banner2.jpg",
+  "logoUrl": "https://toybox.hundredacre.club/cards/monty-python-ccg/_plugin/logo2.jpg"
+}

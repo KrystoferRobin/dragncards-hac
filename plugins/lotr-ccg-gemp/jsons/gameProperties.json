@@ -1,0 +1,13 @@
+{
+  "gameProperties": {
+    "gameStepAutomation": {
+      "default": true,
+      "label": "gameStepAutomation",
+      "type": "boolean"
+    },
+    "victoryState": {
+      "default": "",
+      "type": "string"
+    }
+  }
+}

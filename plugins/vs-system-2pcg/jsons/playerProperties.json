@@ -1,0 +1,16 @@
+{
+  "playerProperties": {
+    "resourceLocations": {
+      "label": "Resource Locations",
+      "type": "integer",
+      "default": 0,
+      "min": 0
+    },
+    "recruit": {
+      "label": "Recruit",
+      "type": "integer",
+      "default": 0,
+      "min": 0
+    }
+  }
+}

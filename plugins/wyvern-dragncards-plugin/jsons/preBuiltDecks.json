@@ -1,0 +1,629 @@
+{
+  "preBuiltDecks": {
+    "worldChamp1995": {
+      "label": "1995 World Champ Deck",
+      "cards": [
+        {
+          "databaseId": "02Kingdom_K070",
+          "quantity": 2,
+          "loadGroupId": "playerNTreasureHorde"
+        },
+        {
+          "databaseId": "02Kingdom_K072",
+          "quantity": 3,
+          "loadGroupId": "playerNTreasureHorde"
+        },
+        {
+          "databaseId": "02Kingdom_K078",
+          "quantity": 2,
+          "loadGroupId": "playerNTreasureHorde"
+        },
+        {
+          "databaseId": "02Kingdom_K082",
+          "quantity": 4,
+          "loadGroupId": "playerNTreasureHorde"
+        },
+        {
+          "databaseId": "02Kingdom_K084",
+          "quantity": 4,
+          "loadGroupId": "playerNTreasureHorde"
+        },
+        {
+          "databaseId": "02Kingdom_K127",
+          "quantity": 4,
+          "loadGroupId": "playerNTreasureHorde"
+        },
+        {
+          "databaseId": "02Kingdom_K180",
+          "quantity": 2,
+          "loadGroupId": "playerNTreasureHorde"
+        },
+        {
+          "databaseId": "02Kingdom_K198",
+          "quantity": 2,
+          "loadGroupId": "playerNTreasureHorde"
+        },
+        {
+          "databaseId": "02Kingdom_K229",
+          "quantity": 1,
+          "loadGroupId": "playerNTreasureHorde"
+        },
+        {
+          "databaseId": "02Kingdom_K074",
+          "quantity": 4,
+          "loadGroupId": "playerNTreasureHorde"
+        },
+        {
+          "databaseId": "02Kingdom_K079",
+          "quantity": 4,
+          "loadGroupId": "playerNTreasureHorde"
+        },
+        {
+          "databaseId": "02Kingdom_K085",
+          "quantity": 1,
+          "loadGroupId": "playerNTreasureHorde"
+        },
+        {
+          "databaseId": "02Kingdom_K086",
+          "quantity": 1,
+          "loadGroupId": "playerNTreasureHorde"
+        },
+        {
+          "databaseId": "02Kingdom_K088",
+          "quantity": 2,
+          "loadGroupId": "playerNTreasureHorde"
+        },
+        {
+          "databaseId": "02Kingdom_K089",
+          "quantity": 2,
+          "loadGroupId": "playerNTreasureHorde"
+        },
+        {
+          "databaseId": "02Kingdom_K090",
+          "quantity": 1,
+          "loadGroupId": "playerNTreasureHorde"
+        },
+        {
+          "databaseId": "02Kingdom_K123",
+          "quantity": 4,
+          "loadGroupId": "playerNTreasureHorde"
+        },
+        {
+          "databaseId": "02Kingdom_K124",
+          "quantity": 2,
+          "loadGroupId": "playerNTreasureHorde"
+        },
+        {
+          "databaseId": "02Kingdom_K128",
+          "quantity": 4,
+          "loadGroupId": "playerNTreasureHorde"
+        },
+        {
+          "databaseId": "02Kingdom_K201",
+          "quantity": 1,
+          "loadGroupId": "playerNTreasureHorde"
+        },
+        {
+          "databaseId": "02Kingdom_K228",
+          "quantity": 2,
+          "loadGroupId": "playerNTreasureHorde"
+        },
+        {
+          "databaseId": "02Kingdom_K053",
+          "quantity": 1,
+          "loadGroupId": "playerNTreasureHorde"
+        },
+        {
+          "databaseId": "02Kingdom_K057",
+          "quantity": 2,
+          "loadGroupId": "playerNTreasureHorde"
+        },
+        {
+          "databaseId": "02Kingdom_K112",
+          "quantity": 2,
+          "loadGroupId": "playerNTreasureHorde"
+        },
+        {
+          "databaseId": "02Kingdom_K116",
+          "quantity": 1,
+          "loadGroupId": "playerNTreasureHorde"
+        },
+        {
+          "databaseId": "02Kingdom_K120",
+          "quantity": 1,
+          "loadGroupId": "playerNTreasureHorde"
+        },
+        {
+          "databaseId": "02Kingdom_K002",
+          "quantity": 1,
+          "loadGroupId": "playerNDragonLair"
+        },
+        {
+          "databaseId": "02Kingdom_K003",
+          "quantity": 1,
+          "loadGroupId": "playerNDragonLair"
+        },
+        {
+          "databaseId": "02Kingdom_K010",
+          "quantity": 1,
+          "loadGroupId": "playerNDragonLair"
+        },
+        {
+          "databaseId": "02Kingdom_K016",
+          "quantity": 1,
+          "loadGroupId": "playerNDragonLair"
+        },
+        {
+          "databaseId": "02Kingdom_K018",
+          "quantity": 1,
+          "loadGroupId": "playerNDragonLair"
+        },
+        {
+          "databaseId": "02Kingdom_K019",
+          "quantity": 1,
+          "loadGroupId": "playerNDragonLair"
+        },
+        {
+          "databaseId": "02Kingdom_K024",
+          "quantity": 1,
+          "loadGroupId": "playerNDragonLair"
+        },
+        {
+          "databaseId": "02Kingdom_K094",
+          "quantity": 1,
+          "loadGroupId": "playerNDragonLair"
+        },
+        {
+          "databaseId": "02Kingdom_K098",
+          "quantity": 1,
+          "loadGroupId": "playerNDragonLair"
+        },
+        {
+          "databaseId": "02Kingdom_K100",
+          "quantity": 1,
+          "loadGroupId": "playerNDragonLair"
+        },
+        {
+          "databaseId": "02Kingdom_K105",
+          "quantity": 1,
+          "loadGroupId": "playerNDragonLair"
+        },
+        {
+          "databaseId": "02Kingdom_K139",
+          "quantity": 1,
+          "loadGroupId": "playerNDragonLair"
+        },
+        {
+          "databaseId": "02Kingdom_K140",
+          "quantity": 1,
+          "loadGroupId": "playerNDragonLair"
+        },
+        {
+          "databaseId": "02Kingdom_K149",
+          "quantity": 1,
+          "loadGroupId": "playerNDragonLair"
+        },
+        {
+          "databaseId": "02Kingdom_K154",
+          "quantity": 1,
+          "loadGroupId": "playerNDragonLair"
+        },
+        {
+          "databaseId": "02Kingdom_K163",
+          "quantity": 1,
+          "loadGroupId": "playerNDragonLair"
+        },
+        {
+          "databaseId": "02Kingdom_K169",
+          "quantity": 1,
+          "loadGroupId": "playerNDragonLair"
+        },
+        {
+          "databaseId": "02Kingdom_K196",
+          "quantity": 3,
+          "loadGroupId": "playerNDragonLair"
+        },
+        {
+          "databaseId": "02Kingdom_K106",
+          "quantity": 1,
+          "loadGroupId": "playerNDragonLair"
+        }
+      ]
+    },
+    "themeHelp": {
+      "label": "Theme Deck: Help",
+      "cards": [
+        {
+          "databaseId": "02Kingdom_K057",
+          "quantity": 2,
+          "loadGroupId": "playerNTreasureHorde"
+        },
+        {
+          "databaseId": "02Kingdom_K111",
+          "quantity": 2,
+          "loadGroupId": "playerNTreasureHorde"
+        },
+        {
+          "databaseId": "02Kingdom_K112",
+          "quantity": 4,
+          "loadGroupId": "playerNTreasureHorde"
+        },
+        {
+          "databaseId": "02Kingdom_K114",
+          "quantity": 2,
+          "loadGroupId": "playerNTreasureHorde"
+        },
+        {
+          "databaseId": "02Kingdom_K118",
+          "quantity": 2,
+          "loadGroupId": "playerNTreasureHorde"
+        },
+        {
+          "databaseId": "02Kingdom_K214",
+          "quantity": 2,
+          "loadGroupId": "playerNTreasureHorde"
+        },
+        {
+          "databaseId": "02Kingdom_K074",
+          "quantity": 1,
+          "loadGroupId": "playerNTreasureHorde"
+        },
+        {
+          "databaseId": "02Kingdom_K123",
+          "quantity": 1,
+          "loadGroupId": "playerNTreasureHorde"
+        },
+        {
+          "databaseId": "02Kingdom_K124",
+          "quantity": 4,
+          "loadGroupId": "playerNTreasureHorde"
+        },
+        {
+          "databaseId": "02Kingdom_K184",
+          "quantity": 2,
+          "loadGroupId": "playerNTreasureHorde"
+        },
+        {
+          "databaseId": "02Kingdom_K189",
+          "quantity": 2,
+          "loadGroupId": "playerNTreasureHorde"
+        },
+        {
+          "databaseId": "02Kingdom_K201",
+          "quantity": 1,
+          "loadGroupId": "playerNTreasureHorde"
+        },
+        {
+          "databaseId": "02Kingdom_K228",
+          "quantity": 2,
+          "loadGroupId": "playerNTreasureHorde"
+        },
+        {
+          "databaseId": "02Kingdom_K086",
+          "quantity": 1,
+          "loadGroupId": "playerNTreasureHorde"
+        },
+        {
+          "databaseId": "02Kingdom_K090",
+          "quantity": 1,
+          "loadGroupId": "playerNTreasureHorde"
+        },
+        {
+          "databaseId": "02Kingdom_K070",
+          "quantity": 4,
+          "loadGroupId": "playerNTreasureHorde"
+        },
+        {
+          "databaseId": "02Kingdom_K078",
+          "quantity": 1,
+          "loadGroupId": "playerNTreasureHorde"
+        },
+        {
+          "databaseId": "02Kingdom_K082",
+          "quantity": 4,
+          "loadGroupId": "playerNTreasureHorde"
+        },
+        {
+          "databaseId": "02Kingdom_K084",
+          "quantity": 4,
+          "loadGroupId": "playerNTreasureHorde"
+        },
+        {
+          "databaseId": "02Kingdom_K186",
+          "quantity": 4,
+          "loadGroupId": "playerNTreasureHorde"
+        },
+        {
+          "databaseId": "02Kingdom_K088",
+          "quantity": 2,
+          "loadGroupId": "playerNTreasureHorde"
+        },
+        {
+          "databaseId": "02Kingdom_K128",
+          "quantity": 4,
+          "loadGroupId": "playerNTreasureHorde"
+        },
+        {
+          "databaseId": "02Kingdom_K002",
+          "quantity": 1,
+          "loadGroupId": "playerNDragonLair"
+        },
+        {
+          "databaseId": "02Kingdom_K010",
+          "quantity": 1,
+          "loadGroupId": "playerNDragonLair"
+        },
+        {
+          "databaseId": "02Kingdom_K014",
+          "quantity": 1,
+          "loadGroupId": "playerNDragonLair"
+        },
+        {
+          "databaseId": "02Kingdom_K015",
+          "quantity": 1,
+          "loadGroupId": "playerNDragonLair"
+        },
+        {
+          "databaseId": "02Kingdom_K024",
+          "quantity": 1,
+          "loadGroupId": "playerNDragonLair"
+        },
+        {
+          "databaseId": "02Kingdom_K027",
+          "quantity": 1,
+          "loadGroupId": "playerNDragonLair"
+        },
+        {
+          "databaseId": "02Kingdom_K028",
+          "quantity": 1,
+          "loadGroupId": "playerNDragonLair"
+        },
+        {
+          "databaseId": "02Kingdom_K029",
+          "quantity": 1,
+          "loadGroupId": "playerNDragonLair"
+        },
+        {
+          "databaseId": "02Kingdom_K094",
+          "quantity": 1,
+          "loadGroupId": "playerNDragonLair"
+        },
+        {
+          "databaseId": "02Kingdom_K105",
+          "quantity": 1,
+          "loadGroupId": "playerNDragonLair"
+        },
+        {
+          "databaseId": "02Kingdom_K137",
+          "quantity": 1,
+          "loadGroupId": "playerNDragonLair"
+        },
+        {
+          "databaseId": "02Kingdom_K157",
+          "quantity": 1,
+          "loadGroupId": "playerNDragonLair"
+        },
+        {
+          "databaseId": "02Kingdom_K168",
+          "quantity": 1,
+          "loadGroupId": "playerNDragonLair"
+        },
+        {
+          "databaseId": "02Kingdom_K273",
+          "quantity": 1,
+          "loadGroupId": "playerNDragonLair"
+        },
+        {
+          "databaseId": "02Kingdom_K033",
+          "quantity": 2,
+          "loadGroupId": "playerNDragonLair"
+        },
+        {
+          "databaseId": "02Kingdom_K040",
+          "quantity": 3,
+          "loadGroupId": "playerNDragonLair"
+        },
+        {
+          "databaseId": "02Kingdom_K196",
+          "quantity": 1,
+          "loadGroupId": "playerNDragonLair"
+        }
+      ]
+    },
+    "themeNativeTerrain": {
+      "label": "Theme Deck: Native Terrain",
+      "cards": [
+        {
+          "databaseId": "02Kingdom_K111",
+          "quantity": 2,
+          "loadGroupId": "playerNTreasureHorde"
+        },
+        {
+          "databaseId": "02Kingdom_K112",
+          "quantity": 4,
+          "loadGroupId": "playerNTreasureHorde"
+        },
+        {
+          "databaseId": "02Kingdom_K174",
+          "quantity": 3,
+          "loadGroupId": "playerNTreasureHorde"
+        },
+        {
+          "databaseId": "02Kingdom_K175",
+          "quantity": 2,
+          "loadGroupId": "playerNTreasureHorde"
+        },
+        {
+          "databaseId": "04Chameleon_c80",
+          "quantity": 3,
+          "loadGroupId": "playerNTreasureHorde"
+        },
+        {
+          "databaseId": "02Kingdom_K123",
+          "quantity": 1,
+          "loadGroupId": "playerNTreasureHorde"
+        },
+        {
+          "databaseId": "02Kingdom_K189",
+          "quantity": 2,
+          "loadGroupId": "playerNTreasureHorde"
+        },
+        {
+          "databaseId": "02Kingdom_K201",
+          "quantity": 2,
+          "loadGroupId": "playerNTreasureHorde"
+        },
+        {
+          "databaseId": "03Phoenix_p41",
+          "quantity": 3,
+          "loadGroupId": "playerNTreasureHorde"
+        },
+        {
+          "databaseId": "02Kingdom_K262",
+          "quantity": 4,
+          "loadGroupId": "playerNTreasureHorde"
+        },
+        {
+          "databaseId": "04Chameleon_c36",
+          "quantity": 4,
+          "loadGroupId": "playerNTreasureHorde"
+        },
+        {
+          "databaseId": "02Kingdom_K085",
+          "quantity": 2,
+          "loadGroupId": "playerNTreasureHorde"
+        },
+        {
+          "databaseId": "02Kingdom_K086",
+          "quantity": 4,
+          "loadGroupId": "playerNTreasureHorde"
+        },
+        {
+          "databaseId": "02Kingdom_K132",
+          "quantity": 4,
+          "loadGroupId": "playerNTreasureHorde"
+        },
+        {
+          "databaseId": "02Kingdom_K078",
+          "quantity": 2,
+          "loadGroupId": "playerNTreasureHorde"
+        },
+        {
+          "databaseId": "02Kingdom_K084",
+          "quantity": 4,
+          "loadGroupId": "playerNTreasureHorde"
+        },
+        {
+          "databaseId": "02Kingdom_K127",
+          "quantity": 2,
+          "loadGroupId": "playerNTreasureHorde"
+        },
+        {
+          "databaseId": "02Kingdom_K088",
+          "quantity": 2,
+          "loadGroupId": "playerNTreasureHorde"
+        },
+        {
+          "databaseId": "02Kingdom_K128",
+          "quantity": 2,
+          "loadGroupId": "playerNTreasureHorde"
+        },
+        {
+          "databaseId": "02Kingdom_K193",
+          "quantity": 2,
+          "loadGroupId": "playerNTreasureHorde"
+        },
+        {
+          "databaseId": "03Phoenix_p53",
+          "quantity": 3,
+          "loadGroupId": "playerNTreasureHorde"
+        },
+        {
+          "databaseId": "03Phoenix_p57",
+          "quantity": 1,
+          "loadGroupId": "playerNTreasureHorde"
+        },
+        {
+          "databaseId": "02Kingdom_K002",
+          "quantity": 1,
+          "loadGroupId": "playerNDragonLair"
+        },
+        {
+          "databaseId": "02Kingdom_K010",
+          "quantity": 1,
+          "loadGroupId": "playerNDragonLair"
+        },
+        {
+          "databaseId": "02Kingdom_K094",
+          "quantity": 1,
+          "loadGroupId": "playerNDragonLair"
+        },
+        {
+          "databaseId": "02Kingdom_K102",
+          "quantity": 1,
+          "loadGroupId": "playerNDragonLair"
+        },
+        {
+          "databaseId": "02Kingdom_K273",
+          "quantity": 1,
+          "loadGroupId": "playerNDragonLair"
+        },
+        {
+          "databaseId": "04Chameleon_c20",
+          "quantity": 1,
+          "loadGroupId": "playerNDragonLair"
+        },
+        {
+          "databaseId": "04Chameleon_c21",
+          "quantity": 1,
+          "loadGroupId": "playerNDragonLair"
+        },
+        {
+          "databaseId": "04Chameleon_c24",
+          "quantity": 1,
+          "loadGroupId": "playerNDragonLair"
+        },
+        {
+          "databaseId": "02Kingdom_K034",
+          "quantity": 4,
+          "loadGroupId": "playerNDragonLair"
+        },
+        {
+          "databaseId": "02Kingdom_K035",
+          "quantity": 2,
+          "loadGroupId": "playerNDragonLair"
+        },
+        {
+          "databaseId": "02Kingdom_K043",
+          "quantity": 4,
+          "loadGroupId": "playerNDragonLair"
+        },
+        {
+          "databaseId": "02Kingdom_K108",
+          "quantity": 2,
+          "loadGroupId": "playerNDragonLair"
+        },
+        {
+          "databaseId": "02Kingdom_K044",
+          "quantity": 2,
+          "loadGroupId": "playerNDragonLair"
+        },
+        {
+          "databaseId": "02Kingdom_K049",
+          "quantity": 4,
+          "loadGroupId": "playerNDragonLair"
+        },
+        {
+          "databaseId": "04Chameleon_c64",
+          "quantity": 3,
+          "loadGroupId": "playerNDragonLair"
+        },
+        {
+          "databaseId": "04Chameleon_c65",
+          "quantity": 3,
+          "loadGroupId": "playerNDragonLair"
+        }
+      ]
+    }
+  }
+}

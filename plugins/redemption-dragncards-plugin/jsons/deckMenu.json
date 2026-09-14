@@ -1,0 +1,85 @@
+{
+  "deckMenu": {
+    "subMenus": [
+      {
+        "label": "Starters",
+        "deckLists": [
+          {
+            "label": "Starter E",
+            "deckListId": "starterE"
+          },
+          {
+            "label": "Starter F",
+            "deckListId": "starterF"
+          },
+          {
+            "label": "Starter G",
+            "deckListId": "starterG"
+          },
+          {
+            "label": "Starter H",
+            "deckListId": "starterH"
+          },
+          {
+            "label": "Starter I",
+            "deckListId": "starterI"
+          },
+          {
+            "label": "Starter J",
+            "deckListId": "starterJ"
+          },
+          {
+            "label": "Starter K",
+            "deckListId": "starterK"
+          },
+          {
+            "label": "Starter L",
+            "deckListId": "starterL"
+          }
+        ]
+      },
+      {
+        "label": "Limited / Unlimited",
+        "deckLists": [
+          {
+            "label": "Limited A",
+            "deckListId": "limitedA"
+          },
+          {
+            "label": "Limited B",
+            "deckListId": "limitedB"
+          },
+          {
+            "label": "Unlimited A",
+            "deckListId": "unlimitedA"
+          },
+          {
+            "label": "Unlimited B",
+            "deckListId": "unlimitedB"
+          }
+        ]
+      },
+      {
+        "label": "C / D Decks",
+        "deckLists": [
+          {
+            "label": "C Deck 1st print",
+            "deckListId": "cDeck1st"
+          },
+          {
+            "label": "C Deck 2nd print",
+            "deckListId": "cDeck2nd"
+          },
+          {
+            "label": "D Deck 1st print",
+            "deckListId": "dDeck1st"
+          },
+          {
+            "label": "D Deck 2nd print",
+            "deckListId": "dDeck2nd"
+          }
+        ]
+      }
+    ]
+  }
+}

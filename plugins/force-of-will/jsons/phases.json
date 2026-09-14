@@ -1,0 +1,26 @@
+{
+  "phases": {
+    "draw": {
+      "label": "Draw",
+      "height": "25%"
+    },
+    "recovery": {
+      "label": "Recovery",
+      "height": "25%"
+    },
+    "main": {
+      "label": "Main",
+      "height": "25%"
+    },
+    "end": {
+      "label": "End",
+      "height": "25%"
+    }
+  },
+  "phaseOrder": [
+    "draw",
+    "recovery",
+    "main",
+    "end"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "cardBacks": {
+    "Concealed Card": {
+      "height": 0.72,
+      "imageUrl": "arkham-horror-living-card-game/_plugin/ArkhamHorrorLivingCardGame-CardbackConcealedCard.webp",
+      "width": 0.47
+    },
+    "Encounter Card": {
+      "height": 1,
+      "imageUrl": "arkham-horror-living-card-game/_plugin/ArkhamHorrorLivingCardGame-CardbackEncounterCard.webp",
+      "width": 0.69
+    },
+    "Player Card": {
+      "height": 1,
+      "imageUrl": "arkham-horror-living-card-game/_plugin/ArkhamHorrorLivingCardGame-CardbackPlayerCard.webp",
+      "width": 0.69
+    },
+    "Upgrade Card": {
+      "height": 1,
+      "imageUrl": "arkham-horror-living-card-game/_plugin/ArkhamHorrorLivingCardGame-CardbackUpgradeCard.webp",
+      "width": 0.69
+    }
+  }
+}

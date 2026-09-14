@@ -1,0 +1,59 @@
+{
+  "deckMenu": {
+    "subMenus": [
+      {
+        "label": "OCTGN Decks",
+        "deckLists": [
+          {
+            "deckListId": "applejack-theme-enhanced",
+            "label": "Applejack Theme Enhanced"
+          },
+          {
+            "deckListId": "fluttershy-theme-enhanced",
+            "label": "Fluttershy Theme Enhanced"
+          },
+          {
+            "deckListId": "pinkie-pie-theme-enhanced-fixed",
+            "label": "Pinkie Pie Theme Enhanced (fixed)"
+          },
+          {
+            "deckListId": "rainbow-dash-theme-enhanced",
+            "label": "Rainbow Dash Theme Enhanced"
+          },
+          {
+            "deckListId": "rarity-theme-deck-enhanced-fixed",
+            "label": "Rarity Theme Deck Enhanced (fixed)"
+          },
+          {
+            "deckListId": "twilight-sparkle-theme-enhanced",
+            "label": "Twilight Sparkle Theme Enhanced"
+          },
+          {
+            "deckListId": "applejack-theme-deck",
+            "label": "Applejack Theme Deck"
+          },
+          {
+            "deckListId": "fluttershy-theme-deck",
+            "label": "Fluttershy Theme Deck"
+          },
+          {
+            "deckListId": "pinkie-pie-theme-deck",
+            "label": "Pinkie Pie Theme Deck"
+          },
+          {
+            "deckListId": "rainbow-dash-theme-deck",
+            "label": "Rainbow Dash Theme Deck"
+          },
+          {
+            "deckListId": "rarity-theme-deck",
+            "label": "Rarity Theme Deck"
+          },
+          {
+            "deckListId": "twilight-sparkle-theme-deck",
+            "label": "Twilight Sparkle Theme Deck"
+          }
+        ]
+      }
+    ]
+  }
+}

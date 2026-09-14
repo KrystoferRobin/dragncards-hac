@@ -1,0 +1,11 @@
+{
+  "automation": {
+    "postNewGameActionList": [
+      [
+        "LOG",
+        "Sailor Moon TCG table created. Load a character deck from Menu → Load. No rules are enforced."
+      ]
+    ],
+    "gameRules": {}
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "cardMenu": {
+    "moveToGroupIds": [
+      "playerNDeck",
+      "playerNStoneDeck",
+      "playerNHand",
+      "playerNRuler",
+      "playerNStones",
+      "playerNPlay",
+      "playerNStandby",
+      "playerNGraveyard",
+      "playerNRemoved",
+      "playerN+1Play",
+      "sharedSetAside"
+    ],
+    "options": [
+      {
+        "label": "Recover",
+        "actionList": "readyCard"
+      },
+      {
+        "label": "Rest",
+        "actionList": "spendCard"
+      },
+      {
+        "label": "Rotate 180",
+        "actionList": "invertCard"
+      },
+      {
+        "label": "Flip / Judgment",
+        "actionList": "flipCard"
+      },
+      {
+        "label": "Graveyard",
+        "actionList": "discardCard"
+      },
+      {
+        "label": "Detach",
+        "actionList": "detachCard"
+      },
+      {
+        "label": "Shuffle into deck",
+        "actionList": "shuffleIntoDeck"
+      }
+    ]
+  }
+}

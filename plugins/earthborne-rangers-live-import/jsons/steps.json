@@ -1,0 +1,44 @@
+{
+  "steps": {
+    "1": {
+      "label": "id:step-1",
+      "phaseId": "PathCards"
+    },
+    "2": {
+      "label": "id:step-2",
+      "phaseId": "RangerPhase"
+    },
+    "3.1": {
+      "label": "id:step-3.1",
+      "phaseId": "Travel"
+    },
+    "3.2": {
+      "label": "id:step-3.2",
+      "phaseId": "Travel"
+    },
+    "3.3": {
+      "label": "id:step-3.3",
+      "phaseId": "Travel"
+    },
+    "3.4": {
+      "label": "id:step-3.4",
+      "phaseId": "Travel"
+    },
+    "3.5": {
+      "label": "id:step-3.5",
+      "phaseId": "Travel"
+    },
+    "4.1": {
+      "label": "id:step-4.1",
+      "phaseId": "Refresh"
+    },
+    "4.2": {
+      "label": "id:step-4.2",
+      "phaseId": "Refresh"
+    },
+    "4.3": {
+      "label": "id:step-4.3",
+      "phaseId": "Refresh"
+    }
+  }
+}

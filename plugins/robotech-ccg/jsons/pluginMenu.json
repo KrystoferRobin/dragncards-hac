@@ -1,0 +1,34 @@
+{
+  "pluginMenu": {
+    "options": [
+      {
+        "label": "Draw",
+        "actionList": "drawDeck"
+      },
+      {
+        "label": "Shuffle deck",
+        "actionList": "shuffleDeck"
+      },
+      {
+        "label": "Ready all",
+        "actionList": "readyAll"
+      },
+      {
+        "label": "Flip a coin",
+        "actionList": "flipCoin"
+      },
+      {
+        "label": "Battle Point +1",
+        "actionList": "increaseBattle"
+      },
+      {
+        "label": "Battle Point -1",
+        "actionList": "decreaseBattle"
+      },
+      {
+        "label": "Mulligan",
+        "actionList": "mulligan"
+      }
+    ]
+  }
+}

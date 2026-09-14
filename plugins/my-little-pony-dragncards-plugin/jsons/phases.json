@@ -1,0 +1,9 @@
+{
+  "phases": {
+    "start": {"label": "1 Start", "height": "25%"},
+    "main": {"label": "2 Main", "height": "25%"},
+    "contact": {"label": "3 Contact", "height": "25%"},
+    "end": {"label": "4 End", "height": "25%"}
+  },
+  "phaseOrder": ["start", "main", "contact", "end"]
+}

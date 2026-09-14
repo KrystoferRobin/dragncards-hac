@@ -1,0 +1,31 @@
+{
+  "phases": {
+    "start": {
+      "label": "Start",
+      "height": "20%"
+    },
+    "bond": {
+      "label": "Bond",
+      "height": "20%"
+    },
+    "deploy": {
+      "label": "Deploy",
+      "height": "20%"
+    },
+    "action": {
+      "label": "Action",
+      "height": "20%"
+    },
+    "end": {
+      "label": "End",
+      "height": "20%"
+    }
+  },
+  "phaseOrder": [
+    "start",
+    "bond",
+    "deploy",
+    "action",
+    "end"
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "phases": {
+    "refresh": {
+      "label": "Refresh",
+      "height": "7%"
+    },
+    "draw": {
+      "label": "Draw",
+      "height": "7%"
+    },
+    "resource": {
+      "label": "Resource",
+      "height": "7%"
+    },
+    "operations": {
+      "label": "Operations",
+      "height": "7%"
+    },
+    "youCommit": {
+      "label": "You Commit",
+      "height": "7%"
+    },
+    "enemyCommit": {
+      "label": "Enemy Commits",
+      "height": "7%"
+    },
+    "terror": {
+      "label": "Terror",
+      "height": "7%"
+    },
+    "combat": {
+      "label": "Combat",
+      "height": "7%"
+    },
+    "arcane": {
+      "label": "Arcane",
+      "height": "7%"
+    },
+    "investigation": {
+      "label": "Investigation",
+      "height": "7%"
+    },
+    "success": {
+      "label": "Determine Success",
+      "height": "7%"
+    },
+    "responses": {
+      "label": "Responses/Actions",
+      "height": "7%"
+    },
+    "uncommit": {
+      "label": "Uncommit",
+      "height": "7%"
+    },
+    "end": {
+      "label": "End",
+      "height": "7%"
+    }
+  },
+  "phaseOrder": [
+    "refresh",
+    "draw",
+    "resource",
+    "operations",
+    "youCommit",
+    "enemyCommit",
+    "terror",
+    "combat",
+    "arcane",
+    "investigation",
+    "success",
+    "responses",
+    "uncommit",
+    "end"
+  ]
+}

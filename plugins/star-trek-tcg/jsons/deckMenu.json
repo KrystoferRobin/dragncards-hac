@@ -1,0 +1,15 @@
+{
+  "deckMenu": {
+    "subMenus": [
+      {
+        "label": "Lackey Decks",
+        "deckLists": [
+          {
+            "deckListId": "starting-deck",
+            "label": "Starting Deck"
+          }
+        ]
+      }
+    ]
+  }
+}

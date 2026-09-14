@@ -1,0 +1,291 @@
+{
+  "deckMenu": {
+    "subMenus": [
+      {
+        "label": "Grimm",
+        "deckLists": [
+          {
+            "deckListId": "alice-vs-dracula",
+            "label": "Alice vs Dracula"
+          },
+          {
+            "deckListId": "lumia-vs-snow-white",
+            "label": "Lumia vs Snow White"
+          }
+        ]
+      },
+      {
+        "label": "Alice",
+        "deckLists": [
+          {
+            "deckListId": "arla-the-winged-lord",
+            "label": "Arla, the Winged Lord"
+          },
+          {
+            "deckListId": "machina-the-machine-lord",
+            "label": "Machina, the Machine Lord"
+          },
+          {
+            "deckListId": "pricia-the-beast-lady",
+            "label": "Pricia, the Beast Lady"
+          },
+          {
+            "deckListId": "rezzard-the-undead-lord",
+            "label": "Rezzard, the Undead Lord"
+          },
+          {
+            "deckListId": "valentina-the-princess-of-love",
+            "label": "Valentina, the Princess of Love"
+          }
+        ],
+        "subMenus": [
+          {
+            "label": "Faria, the Sacred Queen and Melgis, the Flame King",
+            "deckLists": [
+              {
+                "deckListId": "faria-the-sacred-queen-and-melgis-the-flame-king-faria-the-sacred-queen",
+                "label": "Faria, the Sacred Queen"
+              },
+              {
+                "deckListId": "faria-the-sacred-queen-and-melgis-the-flame-king-melgis-the-flame-king",
+                "label": "Melgis, the Flame King"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Lapis",
+        "deckLists": [
+          {
+            "deckListId": "fairy-tale-force",
+            "label": "Fairy Tale Force"
+          },
+          {
+            "deckListId": "malefic-ice",
+            "label": "Malefic Ice"
+          },
+          {
+            "deckListId": "rage-of-r-lyeh",
+            "label": "Rage of R'lyeh"
+          },
+          {
+            "deckListId": "swarming-elves",
+            "label": "Swarming Elves"
+          },
+          {
+            "deckListId": "vampiric-hunger",
+            "label": "Vampiric Hunger"
+          }
+        ]
+      },
+      {
+        "label": "Reiya",
+        "deckLists": [
+          {
+            "deckListId": "below-the-waves",
+            "label": "Below the Waves"
+          },
+          {
+            "deckListId": "blood-of-dragons",
+            "label": "Blood of Dragons"
+          },
+          {
+            "deckListId": "children-of-the-night",
+            "label": "Children of the Night"
+          },
+          {
+            "deckListId": "elemental-surge",
+            "label": "Elemental Surge"
+          },
+          {
+            "deckListId": "king-of-the-mountain",
+            "label": "King of the Mountain"
+          },
+          {
+            "deckListId": "the-lost-tomes",
+            "label": "The Lost Tomes"
+          }
+        ]
+      },
+      {
+        "label": "New Valhalla",
+        "deckLists": [
+          {
+            "deckListId": "new-valhalla-entry-set-darkness",
+            "label": "New Valhalla Entry Set Darkness"
+          },
+          {
+            "deckListId": "new-valhalla-entry-set-fire",
+            "label": "New Valhalla Entry Set Fire"
+          },
+          {
+            "deckListId": "new-valhalla-entry-set-light",
+            "label": "New Valhalla Entry Set Light"
+          },
+          {
+            "deckListId": "new-valhalla-entry-set-water",
+            "label": "New Valhalla Entry Set Water"
+          },
+          {
+            "deckListId": "new-valhalla-entry-set-wind",
+            "label": "New Valhalla Entry Set Wind"
+          }
+        ]
+      },
+      {
+        "label": "Alice Origin",
+        "deckLists": [
+          {
+            "deckListId": "alice-origin-faria-starter-deck",
+            "label": "Alice Origin Faria Starter Deck"
+          },
+          {
+            "deckListId": "alice-origin-melgis-starter-deck",
+            "label": "Alice Origin Melgis Starter Deck"
+          },
+          {
+            "deckListId": "alice-origin-pricia-starter-deck",
+            "label": "Alice Origin Pricia Starter Deck"
+          },
+          {
+            "deckListId": "alice-origin-valentina-starter-deck",
+            "label": "Alice Origin Valentina Starter Deck"
+          },
+          {
+            "deckListId": "ghost-in-the-shell-sac-2045",
+            "label": "GHOST IN THE SHELL SAC 2045"
+          }
+        ]
+      },
+      {
+        "label": "Duel",
+        "deckLists": [
+          {
+            "deckListId": "duel-cluster-tales-deck",
+            "label": "Duel Cluster Tales Deck"
+          },
+          {
+            "deckListId": "duel-cluster-villains-deck",
+            "label": "Duel Cluster Villains Deck"
+          }
+        ]
+      },
+      {
+        "label": "Hero",
+        "deckLists": [
+          {
+            "deckListId": "hero-cluster-aristella-deck",
+            "label": "Hero Cluster Aristella Deck"
+          },
+          {
+            "deckListId": "hero-cluster-asuka-deck",
+            "label": "Hero Cluster Asuka Deck"
+          }
+        ]
+      },
+      {
+        "label": "Trinity",
+        "deckLists": [
+          {
+            "deckListId": "trinity-cluster-lehen-deck",
+            "label": "Trinity Cluster Lehen Deck"
+          },
+          {
+            "deckListId": "trinity-cluster-yokoshima-deck",
+            "label": "Trinity Cluster Yokoshima Deck"
+          }
+        ]
+      },
+      {
+        "label": "Arcana Battle Colosseum",
+        "deckLists": [
+          {
+            "deckListId": "abc-duel-deck-06-void-deck-vs-void-deck-void",
+            "label": "ABC Duel Deck 06 Void Deck Vs. Void Deck"
+          }
+        ],
+        "subMenus": [
+          {
+            "label": "ABC Duel Deck 01 Elektra Vs. The Lich King",
+            "deckLists": [
+              {
+                "deckListId": "abc-duel-deck-01-elektra-vs-the-lich-king-elektra",
+                "label": "Elektra"
+              },
+              {
+                "deckListId": "abc-duel-deck-01-elektra-vs-the-lich-king-the-lich-king",
+                "label": "The Lich King"
+              }
+            ]
+          },
+          {
+            "label": "ABC Duel Deck 02 Replicant: Aristella Vs. Ki Lua",
+            "deckLists": [
+              {
+                "deckListId": "abc-duel-deck-02-replicant-aristella-vs-ki-lua-replicant-aristella",
+                "label": "Replicant: Aristella"
+              },
+              {
+                "deckListId": "abc-duel-deck-02-replicant-aristella-vs-ki-lua-ki-lua",
+                "label": "Ki Lua"
+              }
+            ]
+          },
+          {
+            "label": "ABC Duel Deck 03 Gnome Vs. Reinhardt",
+            "deckLists": [
+              {
+                "deckListId": "abc-duel-deck-03-gnome-vs-reinhardt-gnome",
+                "label": "Gnome"
+              },
+              {
+                "deckListId": "abc-duel-deck-03-gnome-vs-reinhardt-reinhardt",
+                "label": "Reinhardt"
+              }
+            ]
+          },
+          {
+            "label": "ABC Duel Deck 04 Hyde Vs. Undine",
+            "deckLists": [
+              {
+                "deckListId": "abc-duel-deck-04-hyde-vs-undine-hyde",
+                "label": "Hyde"
+              },
+              {
+                "deckListId": "abc-duel-deck-04-hyde-vs-undine-undine",
+                "label": "Undine"
+              }
+            ]
+          },
+          {
+            "label": "ABC Duel Deck 05 Efreet Vs. Falchion",
+            "deckLists": [
+              {
+                "deckListId": "abc-duel-deck-05-efreet-vs-falchion-efreet",
+                "label": "Efreet"
+              },
+              {
+                "deckListId": "abc-duel-deck-05-efreet-vs-falchion-falchion",
+                "label": "Falchion"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Evil",
+        "deckLists": [
+          {
+            "deckListId": "evil-cluster-matelda-deck",
+            "label": "Evil Cluster Matelda Deck"
+          },
+          {
+            "deckListId": "evil-cluster-valgott-deck",
+            "label": "Evil Cluster Valgott Deck"
+          }
+        ]
+      }
+    ]
+  }
+}

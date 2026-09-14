@@ -1,0 +1,270 @@
+{
+  "actionLists": {
+    "drawPlot": [
+      [
+        "COND",
+        [
+          "GROUP_EMPTY",
+          "{{$PLAYER_N}}PlotDeck"
+        ],
+        [
+          "LOG",
+          "{{$ALIAS_N}} tried to draw from an empty Plot Deck."
+        ],
+        [
+          "TRUE"
+        ],
+        [
+          [
+            "MOVE_STACKS",
+            "{{$PLAYER_N}}PlotDeck",
+            "{{$PLAYER_N}}Hand",
+            1,
+            "bottom"
+          ],
+          [
+            "LOG",
+            "{{$ALIAS_N}} drew a Plot."
+          ]
+        ]
+      ]
+    ],
+    "drawGroup": [
+      [
+        "COND",
+        [
+          "GROUP_EMPTY",
+          "{{$PLAYER_N}}GroupDeck"
+        ],
+        [
+          "LOG",
+          "{{$ALIAS_N}} tried to draw from an empty Group Deck."
+        ],
+        [
+          "TRUE"
+        ],
+        [
+          [
+            "MOVE_STACKS",
+            "{{$PLAYER_N}}GroupDeck",
+            "{{$PLAYER_N}}Hand",
+            1,
+            "bottom"
+          ],
+          [
+            "LOG",
+            "{{$ALIAS_N}} drew a Group."
+          ]
+        ]
+      ]
+    ],
+    "drawSharedPlot": [
+      [
+        "COND",
+        [
+          "GROUP_EMPTY",
+          "sharedPlots"
+        ],
+        [
+          "LOG",
+          "{{$ALIAS_N}} tried to draw from an empty Shared Plots deck."
+        ],
+        [
+          "TRUE"
+        ],
+        [
+          [
+            "MOVE_STACKS",
+            "sharedPlots",
+            "{{$PLAYER_N}}Hand",
+            1,
+            "bottom"
+          ],
+          [
+            "LOG",
+            "{{$ALIAS_N}} drew a shared Plot."
+          ]
+        ]
+      ]
+    ],
+    "drawSharedGroup": [
+      [
+        "COND",
+        [
+          "GROUP_EMPTY",
+          "sharedGroups"
+        ],
+        [
+          "LOG",
+          "{{$ALIAS_N}} tried to draw from an empty Shared Groups deck."
+        ],
+        [
+          "TRUE"
+        ],
+        [
+          [
+            "MOVE_STACKS",
+            "sharedGroups",
+            "{{$PLAYER_N}}Hand",
+            1,
+            "bottom"
+          ],
+          [
+            "LOG",
+            "{{$ALIAS_N}} drew a shared Group."
+          ]
+        ]
+      ]
+    ],
+    "shuffleGroupDeck": [
+      [
+        "SHUFFLE_GROUP",
+        "{{$PLAYER_N}}GroupDeck"
+      ],
+      [
+        "LOG",
+        "{{$ALIAS_N}} shuffled their Group Deck."
+      ]
+    ],
+    "shufflePlotDeck": [
+      [
+        "SHUFFLE_GROUP",
+        "{{$PLAYER_N}}PlotDeck"
+      ],
+      [
+        "LOG",
+        "{{$ALIAS_N}} shuffled their Plot Deck."
+      ]
+    ],
+    "readyAll": [
+      [
+        "FOR_EACH_KEY_VAL",
+        "$CARD_ID",
+        "$CARD",
+        "$GAME.cardById",
+        [
+          "COND",
+          [
+            "EQUAL",
+            "$CARD.controller",
+            "$PLAYER_N"
+          ],
+          [
+            "SET",
+            "/cardById/{{$CARD_ID}}/rotation",
+            0
+          ]
+        ]
+      ],
+      [
+        "LOG",
+        "{{$ALIAS_N}} readied all their cards."
+      ]
+    ],
+    "rotateCard": [
+      [
+        "VAR",
+        "$CARD",
+        "$GAME.cardById.$ACTIVE_CARD_ID"
+      ],
+      [
+        "SET",
+        "/cardById/$ACTIVE_CARD_ID/rotation",
+        [
+          "MODULO",
+          [
+            "ADD",
+            "$CARD.rotation",
+            90
+          ],
+          360
+        ]
+      ],
+      [
+        "LOG",
+        "{{$ALIAS_N}} rotated {{$ACTIVE_FACE.name}}."
+      ]
+    ],
+    "unrotateCard": [
+      [
+        "SET",
+        "/cardById/$ACTIVE_CARD_ID/rotation",
+        0
+      ],
+      [
+        "LOG",
+        "{{$ALIAS_N}} unrotated {{$ACTIVE_FACE.name}}."
+      ]
+    ],
+    "increaseAttack": [
+      [
+        "INCREASE_VAL",
+        "/attackBonus",
+        1
+      ],
+      [
+        "LOG",
+        "{{$ALIAS_N}} raised the attack bonus by 1."
+      ]
+    ],
+    "decreaseAttack": [
+      [
+        "DECREASE_VAL",
+        "/attackBonus",
+        1
+      ],
+      [
+        "LOG",
+        "{{$ALIAS_N}} lowered the attack bonus by 1."
+      ]
+    ],
+    "flipCard": [
+      [
+        "FLIP",
+        "$ACTIVE_CARD_ID"
+      ]
+    ],
+    "discardCard": [
+      [
+        "DISCARD",
+        "$ACTIVE_CARD_ID"
+      ]
+    ],
+    "detachCard": [
+      [
+        "DETACH",
+        "$ACTIVE_CARD_ID"
+      ]
+    ],
+    "shuffleIntoDeck": [
+      [
+        "SHUFFLE_INTO_DECK",
+        "$ACTIVE_CARD_ID"
+      ]
+    ],
+    "toRemoved": [
+      [
+        "MOVE_CARD",
+        "$ACTIVE_CARD_ID",
+        "{{$PLAYER_N}}Removed",
+        0
+      ],
+      [
+        "LOG",
+        "{{$ALIAS_N}} removed a card from the game."
+      ]
+    ],
+    "toLead": [
+      [
+        "MOVE_CARD",
+        "$ACTIVE_CARD_ID",
+        "{{$PLAYER_N}}Lead",
+        0
+      ],
+      [
+        "LOG",
+        "{{$ALIAS_N}} moved a card to Lead."
+      ]
+    ]
+  }
+}

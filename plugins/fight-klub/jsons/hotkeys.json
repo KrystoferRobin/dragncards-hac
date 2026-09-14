@@ -1,0 +1,71 @@
+{
+  "hotkeys": {
+    "game": [
+      {
+        "key": "D",
+        "actionList": "drawDeck",
+        "label": "Draw"
+      },
+      {
+        "key": "S",
+        "actionList": "shuffleDeck",
+        "label": "Shuffle draw stack"
+      },
+      {
+        "key": "R",
+        "actionList": "readyAll",
+        "label": "Refresh all"
+      }
+    ],
+    "card": [
+      {
+        "key": "T",
+        "actionList": "spendCard",
+        "label": "Activate"
+      },
+      {
+        "key": "K",
+        "actionList": "readyCard",
+        "label": "Refresh"
+      },
+      {
+        "key": "I",
+        "actionList": "invertCard",
+        "label": "Invert"
+      },
+      {
+        "key": "F",
+        "actionList": [
+          "FLIP",
+          "$ACTIVE_CARD_ID"
+        ],
+        "label": "Flip"
+      },
+      {
+        "key": "X",
+        "actionList": [
+          "DISCARD",
+          "$ACTIVE_CARD_ID"
+        ],
+        "label": "Discard"
+      },
+      {
+        "key": "A",
+        "actionList": [
+          "DETACH",
+          "$ACTIVE_CARD_ID"
+        ],
+        "label": "Detach"
+      },
+      {
+        "key": "H",
+        "actionList": [
+          "SHUFFLE_INTO_DECK",
+          "$ACTIVE_CARD_ID"
+        ],
+        "label": "Shuffle into draw stack"
+      }
+    ],
+    "token": []
+  }
+}

@@ -18,11 +18,11 @@ export const Login: React.FC<Props> = () => {
   const { setAuthAndRenewToken } = useAuth();
 
   // Autofocus effect
-  const emailRef = useRef(null);
+  const aliasRef = useRef(null);
   useEffect(() => {
-    if (emailRef != null && emailRef.current != null) {
+    if (aliasRef != null && aliasRef.current != null) {
       // @ts-ignore: Object is possibly 'null'.
-      emailRef.current.focus();
+      aliasRef.current.focus();
     }
   }, []);
 
@@ -32,7 +32,7 @@ export const Login: React.FC<Props> = () => {
       setIsError(false);
       const data = {
         user: {
-          email: inputs.email,
+          alias: inputs.alias,
           password: inputs.password,
         },
       };
@@ -81,16 +81,17 @@ export const Login: React.FC<Props> = () => {
           <fieldset disabled={isLoading} aria-busy={isLoading}>
             <div className="mb-4">
               <label className="block text-white text-sm font-bold mb-2">
-                email
+                nickname
               </label>
               <input
-                type="email"
-                name="email"
-                placeholder="email"
+                type="text"
+                name="alias"
+                placeholder="nickname"
+                autoComplete="username"
                 className="form-control w-full bg-gray-900 text-white"
                 onChange={handleInputChange}
-                value={inputs.email || ""}
-                ref={emailRef}
+                value={inputs.alias || ""}
+                ref={aliasRef}
               />
             </div>
             <div className="mb-6">
@@ -118,17 +119,9 @@ export const Login: React.FC<Props> = () => {
         )}
         <div className="mt-2">
           <div className="mt-4">
-            <Link
-              className="text-blue-500 hover:text-blue-800"
-              to="/reset-password"
-            >
-              Forgot Password?
-            </Link>
-          </div>
-          <div className="mt-2">
             <Link className="text-blue-300" to="/signup">
               Don't have an account?
-            </Link>       
+            </Link>
           </div>
         </div>
       </div>

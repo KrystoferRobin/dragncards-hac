@@ -1,0 +1,62 @@
+"""Twenty Festivals + Onyx/ShE keyword reminders for GiantCard hover.
+
+Sources:
+  Emerald/Rules Documents/Comprehensive Rules…Twenty Festivals (anchors)
+  Rulebook-L5R-TwentyFestivals-adv_rulebook.pdf (Game Terms & Keywords)
+  Onyx_ShE Rules Datasheet.docx (boldface / ability keywords that 20F later changed)
+"""
+
+from __future__ import annotations
+
+# Name → short reminder. Skip timing words (Battle, Open, Limited, Reaction)
+# and clan/profession tags (Samurai, Lion Clan) that have no rulebook ability.
+REMINDERS: dict[str, str] = {
+    "Absent": "An Absent ability may be used during battle even if you have no units at the current battlefield.",
+    "Armor": "A Personality cannot have more than one Armor attached.",
+    "Cavalry": "Once per turn, Absent Engage: move your unbowed Personality in a Cavalry unit to the current battlefield. A Cavalry unit is one where the Personality and all Followers have Cavalry.",
+    "Conqueror": "Cards in a Conqueror’s unit do not bow from battle resolution (returning home).",
+    "Courage": "Repeatable Interrupt: discard a Courage card from hand to give one of the action’s Fear effects +2 or −2 strength.",
+    "Courtesy": "Courtesy traits do not apply if you went first this game.",
+    "Destined": "After your Destined card enters play, draw a Fate card.",
+    "Discipline": "You may play a Discipline Strategy from your discard pile for one of its actions, paying the Discipline gold as an extra cost. After the action ends, remove it from the game.",
+    "Duty": "Duty Open: discard a card to reshuffle a face-up card in a Province and refill it with a discarded (not dead) Duty card.",
+    "Elite": "Elite cards contribute Force even if bowed during battle resolution.",
+    "Expendable": "After your Expendable card is destroyed, you draw a card.",
+    "Experienced": "Experienced with no number is level 1. You may overlay it onto a same-title Personality with a lower level as a Dynasty action (no gold or honor req). The new card keeps attachments, tokens, and states; the old one is removed from the game.",
+    "Fear": "Fear X: target an enemy Follower, or Personality without Followers, and bow it if its Force is X or less. Fear from the same unit can combine.",
+    "Fortification": "Enters play attached to the Province it came from (or any of yours). Destroyed if that Province is. During battle it is at that Province’s battlefield.",
+    "Home": "A Home ability may be used during battle even if its card is at home. It still needs presence unless it is also Absent.",
+    "Invest": "Before you pay to bring a non-Strategy Invest card into play, you may add its Invest gold to the card’s cost and get the Invest effect after it enters play. On Strategies, paying the extra gold adds the Invest effects at the end of the action.",
+    "Kensai": "A Kensai may attach two Weapons if neither is Two-Handed.",
+    "Kharmic": "Kharmic Repeatable: pay 2 Gold to discard a Kharmic card from hand and draw, or discard one from a Province and refill that Province face-up. (Onyx uses Open instead of Limited.)",
+    "Legacy": "Dynasty: remove a card in your hand from the game to search your deck and Provinces for a Legacy Holding and Recruit it. If you fail, you lose the game.",
+    "Lobby": "No player may take more than one Lobby action per turn. This does not replace the rulebook Lobby player ability.",
+    "Loyal": "A Loyal Personality cannot join a player who does not share its Clan Alignment, by entering play or by changing control.",
+    "Melee Attack": "Melee X Attack: target an enemy Follower, or Personality without Followers, and destroy it if its Force is X or less. Melee Attacks from the same unit can combine with other Melee Attacks.",
+    "Naval": "Engage: once per Attack Phase, the Attacker gets the first Battle action if it comes from a Naval Personality’s unit. Passing that action does not count toward ending the round.",
+    "Ranged Attack": "Ranged X Attack: target an enemy Follower, or Personality without Followers, and destroy it if its Force is X or less. Ranged Attacks from the same unit can combine with other Ranged Attacks.",
+    "Remote": "A Remote ability may be used if the card is at home or another battlefield. It still needs presence unless it is also Absent.",
+    "Renew": "After a Renew card enters play from a Province, refill that Province face-up.",
+    "Repeatable": "A Repeatable ability may be used any number of times per turn (Repeatable Interrupts/Responses still once per action unless they say otherwise).",
+    "Reserve": "Absent Repeatable Battle: if they would be opposed, Recruit your target Reserve Personality into the current battlefield. Repeatable Battle: if it would be opposed, Equip a target Reserve attachment to your Personality there.",
+    "Resilient": "Once per game per card, before the first time battle resolution would destroy a Resilient card, negate that destruction.",
+    "Sincerity": "Before your turn ends, give each Sincerity card in your Provinces a Sincerity token. After that card enters play, remove those tokens, then resolve its Sincerity trait.",
+    "Singular": "Only one copy of a Singular card may be in play at a time.",
+    "Soul of": "Soul of [older title] counts as that older card for deck construction. You may proxy the Soul of printing with the older card; the Soul of text is what is played.",
+    "Tactical": "Each Tactician may use one Tactical ability per turn. A Tactical ability not printed on them requires targeting your unbowed Tactician.",
+    "Tactician": "Tactical Advantage — Tactical Battle: discard a card to give this Personality +F equal to the discarded card’s Focus Value. That ability cannot be removed or copied from them.",
+    "Terrain": "A Terrain Strategy represents the battlefield. After the battle ends, discard any Terrain at that battlefield.",
+    "Tireless": "A Tireless ability may be used even if its card is bowed.",
+    "Two-Handed": "A Personality can attach only one Weapon. Kensai may attach two if neither is Two-Handed.",
+    "Unique": "You cannot bring into play or take control of a Unique card if you already control a Unique card with the same title (except overlaying Experienced). Only one copy by title in your decks.",
+    "Unstoppable": "Other players may not play Interrupts during your Unstoppable action.",
+    "Weapon": "A Personality can attach only one Weapon. Exception: Kensai may attach two if neither is Two-Handed.",
+    "Yu": "Before this card is destroyed by another player’s action during battle or during resolution, resolve its Yu effect (mandatory). Negating or substituting the destruction happens first and stops Yu.",
+    "Honesty": "Honesty traits and abilities work while the card is face-up in your hand. Focused Honesty cards stay face-up. Honesty Repeatable Battle: turn a face-down Honesty card in your hand face-up.",
+    "Interrupt": "Played during another action, after costs are paid and before that action’s effects resolve. You may play several Interrupts to one action, but not an Interrupt during another Interrupt.",
+    "Response": "Taken in the Response Step after an action finishes resolving (before discard). The text says what it responds to.",
+}
+
+
+def reminder_glossary() -> dict[str, str]:
+    return dict(REMINDERS)

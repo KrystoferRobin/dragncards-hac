@@ -1,0 +1,307 @@
+databaseId	name	imageUrl	cardBack	type	rarity	number	packName	set	loadGroupId
+One_1_001_R_AshWilliams	Ash Williams	fight-klub/one/FightKlub-One-AshWilliams.jpg	default	Card	Rare	001	One	One	playerNDeck
+One_1_002_C_AnEyeOnMyShoulder	An Eye On My Shoulder	fight-klub/one/FightKlub-One-AnEyeOnMyShoulder.jpg	default	Card	Common	002	One	One	playerNDeck
+One_1_003_U_AshsChainsaw	Ashs Chainsaw	fight-klub/one/FightKlub-One-AshsChainsaw.jpg	default	Card	Uncommon	003	One	One	playerNDeck
+One_1_004_U_IntoMyHand	Into My Hand	fight-klub/one/FightKlub-One-IntoMyHand.jpg	default	Card	Uncommon	004	One	One	playerNDeck
+One_1_005_U_NewHand	New Hand	fight-klub/one/FightKlub-One-NewHand.jpg	default	Card	Uncommon	005	One	One	playerNDeck
+One_1_006_U_NotLookinForAnyTrouble	Not Lookin For Any Trouble	fight-klub/one/FightKlub-One-NotLookinForAnyTrouble.jpg	default	Card	Uncommon	006	One	One	playerNDeck
+One_1_007_U_PitFiend	Pit Fiend	fight-klub/one/FightKlub-One-PitFiend.jpg	default	Card	Uncommon	007	One	One	playerNDeck
+One_1_008_U_SomethingDarkInTheWoods	Something Dark In The Woods	fight-klub/one/FightKlub-One-SomethingDarkInTheWoods.jpg	default	Card	Uncommon	008	One	One	playerNDeck
+One_1_009_U_TheNecronomicon	The Necronomicon	fight-klub/one/FightKlub-One-TheNecronomicon.jpg	default	Card	Uncommon	009	One	One	playerNDeck
+One_1_010_U_ThisIsMyBoomstick	This Is My Boomstick	fight-klub/one/FightKlub-One-ThisIsMyBoomstick.jpg	default	Card	Uncommon	010	One	One	playerNDeck
+One_1_011_U_WhoWantsSome	Who Wants Some	fight-klub/one/FightKlub-One-WhoWantsSome.jpg	default	Card	Uncommon	011	One	One	playerNDeck
+One_1_012_C_WrongBook	Wrong Book	fight-klub/one/FightKlub-One-WrongBook.jpg	default	Card	Common	012	One	One	playerNDeck
+One_1_013_U_YoureGoingDown	Youre Going Down	fight-klub/one/FightKlub-One-YoureGoingDown.jpg	default	Card	Uncommon	013	One	One	playerNDeck
+One_1_014_R_ChevChelios	Chev Chelios	fight-klub/one/FightKlub-One-ChevChelios.jpg	default	Card	Rare	014	One	One	playerNDeck
+One_1_015_U_Congratulations	Congratulations	fight-klub/one/FightKlub-One-Congratulations.jpg	default	Card	Uncommon	015	One	One	playerNDeck
+One_1_016_U_Eve	Eve	fight-klub/one/FightKlub-One-Eve.jpg	default	Card	Uncommon	016	One	One	playerNDeck
+One_1_017_U_ExcitementFearDanger	Excitement Fear Danger	fight-klub/one/FightKlub-One-ExcitementFearDanger.jpg	default	Card	Uncommon	017	One	One	playerNDeck
+One_1_018_U_HaitianVoodoo	Haitian Voodoo	fight-klub/one/FightKlub-One-HaitianVoodoo.jpg	default	Card	Uncommon	018	One	One	playerNDeck
+One_1_019_U_HaveYourselfANiceDeath	Have Yourself ANice Death	fight-klub/one/FightKlub-One-HaveYourselfANiceDeath.jpg	default	Card	Uncommon	019	One	One	playerNDeck
+One_1_020_U_ImTheTerminator	Im The Terminator	fight-klub/one/FightKlub-One-ImTheTerminator.jpg	default	Card	Uncommon	020	One	One	playerNDeck
+One_1_021_U_KeepingYouAlive	Keeping You Alive	fight-klub/one/FightKlub-One-KeepingYouAlive.jpg	default	Card	Uncommon	021	One	One	playerNDeck
+One_1_022_U_StainlessSteelMeatCleaver	Stainless Steel Meat Cleaver	fight-klub/one/FightKlub-One-StainlessSteelMeatCleaver.jpg	default	Card	Uncommon	022	One	One	playerNDeck
+One_1_023_U_StayinAlive	Stayin Alive	fight-klub/one/FightKlub-One-StayinAlive.jpg	default	Card	Uncommon	023	One	One	playerNDeck
+One_1_024_U_TheJob	The Job	fight-klub/one/FightKlub-One-TheJob.jpg	default	Card	Uncommon	024	One	One	playerNDeck
+One_1_025_U_TheWhiteManIsCool	The White Man Is Cool	fight-klub/one/FightKlub-One-TheWhiteManIsCool.jpg	default	Card	Uncommon	025	One	One	playerNDeck
+One_1_026_U_WantToHoldHands	Want To Hold Hands	fight-klub/one/FightKlub-One-WantToHoldHands.jpg	default	Card	Uncommon	026	One	One	playerNDeck
+One_1_027_R_JohnRambo	John Rambo	fight-klub/one/FightKlub-One-JohnRambo.jpg	default	Card	Rare	027	One	One	playerNDeck
+One_1_028_C_AGoodSupplyOfBodyBags	AGood Supply Of Body Bags	fight-klub/one/FightKlub-One-AGoodSupplyOfBodyBags.jpg	default	Card	Common	028	One	One	playerNDeck
+One_1_029_C_AttackDogs	Attack Dogs	fight-klub/one/FightKlub-One-AttackDogs.jpg	default	Card	Common	029	One	One	playerNDeck
+One_1_030_U_BreakingTheRoadBlock	Breaking The Road Block	fight-klub/one/FightKlub-One-BreakingTheRoadBlock.jpg	default	Card	Uncommon	030	One	One	playerNDeck
+One_1_031_C_ColonelSamuelTrautman	Colonel Samuel Trautman	fight-klub/one/FightKlub-One-ColonelSamuelTrautman.jpg	default	Card	Common	031	One	One	playerNDeck
+One_1_032_U_DontPushIt	Dont Push It	fight-klub/one/FightKlub-One-DontPushIt.jpg	default	Card	Uncommon	032	One	One	playerNDeck
+One_1_033_U_HoytEastonCompoundBow	Hoyt Easton Compound Bow	fight-klub/one/FightKlub-One-HoytEastonCompoundBow.jpg	default	Card	Uncommon	033	One	One	playerNDeck
+One_1_034_C_MissionAccomplished	Mission Accomplished	fight-klub/one/FightKlub-One-MissionAccomplished.jpg	default	Card	Common	034	One	One	playerNDeck
+One_1_035_U_Preparation	Preparation	fight-klub/one/FightKlub-One-Preparation.jpg	default	Card	Uncommon	035	One	One	playerNDeck
+One_1_036_U_RightOnHisTail	Right On His Tail	fight-klub/one/FightKlub-One-RightOnHisTail.jpg	default	Card	Uncommon	036	One	One	playerNDeck
+One_1_037_U_TheyDrewFirstBlood	They Drew First Blood	fight-klub/one/FightKlub-One-TheyDrewFirstBlood.jpg	default	Card	Uncommon	037	One	One	playerNDeck
+One_1_038_C_YoureFinished	Youre Finished	fight-klub/one/FightKlub-One-YoureFinished.jpg	default	Card	Common	038	One	One	playerNDeck
+One_1_039_U_M1	M 1	fight-klub/one/FightKlub-One-M1.jpg	default	Card	Uncommon	039	One	One	playerNDeck
+One_1_040_U_M2	M 2	fight-klub/one/FightKlub-One-M2.jpg	default	Card	Uncommon	040	One	One	playerNDeck
+One_1_041_U_M3	M 3	fight-klub/one/FightKlub-One-M3.jpg	default	Card	Uncommon	041	One	One	playerNDeck
+One_1_042_U_M4	M 4	fight-klub/one/FightKlub-One-M4.jpg	default	Card	Uncommon	042	One	One	playerNDeck
+One_1_043_C_P1	P 1	fight-klub/one/FightKlub-One-P1.jpg	default	Card	Common	043	One	One	playerNDeck
+One_1_044_C_P2	P 2	fight-klub/one/FightKlub-One-P2.jpg	default	Card	Common	044	One	One	playerNDeck
+One_1_045_C_P3	P 3	fight-klub/one/FightKlub-One-P3.jpg	default	Card	Common	045	One	One	playerNDeck
+One_1_046_U_P4	P 4	fight-klub/one/FightKlub-One-P4.jpg	default	Card	Uncommon	046	One	One	playerNDeck
+One_1_047_U_S1	S 1	fight-klub/one/FightKlub-One-S1.jpg	default	Card	Uncommon	047	One	One	playerNDeck
+One_1_048_U_S2	S 2	fight-klub/one/FightKlub-One-S2.jpg	default	Card	Uncommon	048	One	One	playerNDeck
+One_1_049_U_S3	S 3	fight-klub/one/FightKlub-One-S3.jpg	default	Card	Uncommon	049	One	One	playerNDeck
+One_1_050_U_S4	S 4	fight-klub/one/FightKlub-One-S4.jpg	default	Card	Uncommon	050	One	One	playerNDeck
+One_1_051_R_HannibalLecter	Hannibal Lecter	fight-klub/one/FightKlub-One-HannibalLecter.jpg	default	Card	Rare	051	One	One	playerNDeck
+One_1_052_U_ANiceChianti	ANice Chianti	fight-klub/one/FightKlub-One-ANiceChianti.jpg	default	Card	Uncommon	052	One	One	playerNDeck
+One_1_053_U_BonAppetit	Bon Appetit	fight-klub/one/FightKlub-One-BonAppetit.jpg	default	Card	Uncommon	053	One	One	playerNDeck
+One_1_054_C_BuffaloBillsGun	Buffalo Bills Gun	fight-klub/one/FightKlub-One-BuffaloBillsGun.jpg	default	Card	Common	054	One	One	playerNDeck
+One_1_055_U_Clubbed	Clubbed	fight-klub/one/FightKlub-One-Clubbed.jpg	default	Card	Uncommon	055	One	One	playerNDeck
+One_1_056_C_ItRubsTheLotionOnItsSkin	It Rubs The Lotion On Its Skin	fight-klub/one/FightKlub-One-ItRubsTheLotionOnItsSkin.jpg	default	Card	Common	056	One	One	playerNDeck
+One_1_057_C_Mementos	Mementos	fight-klub/one/FightKlub-One-Mementos.jpg	default	Card	Common	057	One	One	playerNDeck
+One_1_058_C_NightVision	Night Vision	fight-klub/one/FightKlub-One-NightVision.jpg	default	Card	Common	058	One	One	playerNDeck
+One_1_059_U_PrisonSurveillance	Prison Surveillance	fight-klub/one/FightKlub-One-PrisonSurveillance.jpg	default	Card	Uncommon	059	One	One	playerNDeck
+One_1_060_U_QuidProQuo	Quid Pro Quo	fight-klub/one/FightKlub-One-QuidProQuo.jpg	default	Card	Uncommon	060	One	One	playerNDeck
+One_1_061_C_TheDeathsHeadMoth	The Deaths Head Moth	fight-klub/one/FightKlub-One-TheDeathsHeadMoth.jpg	default	Card	Common	061	One	One	playerNDeck
+One_1_062_C_Transformation	Transformation	fight-klub/one/FightKlub-One-Transformation.jpg	default	Card	Common	062	One	One	playerNDeck
+One_1_063_U_Trophy	Trophy	fight-klub/one/FightKlub-One-Trophy.jpg	default	Card	Uncommon	063	One	One	playerNDeck
+One_1_064_R_JasonVoorhees	Jason Voorhees	fight-klub/one/FightKlub-One-JasonVoorhees.jpg	default	Card	Rare	064	One	One	playerNDeck
+One_1_065_U_ChildsEnd	Childs End	fight-klub/one/FightKlub-One-ChildsEnd.jpg	default	Card	Uncommon	065	One	One	playerNDeck
+One_1_066_U_Fear	Fear	fight-klub/one/FightKlub-One-Fear.jpg	default	Card	Uncommon	066	One	One	playerNDeck
+One_1_067_U_HomeFieldAdvantage	Home Field Advantage	fight-klub/one/FightKlub-One-HomeFieldAdvantage.jpg	default	Card	Uncommon	067	One	One	playerNDeck
+One_1_068_U_HorrificRage	Horrific Rage	fight-klub/one/FightKlub-One-HorrificRage.jpg	default	Card	Uncommon	068	One	One	playerNDeck
+One_1_069_U_LairOfTheBeast	Lair Of The Beast	fight-klub/one/FightKlub-One-LairOfTheBeast.jpg	default	Card	Uncommon	069	One	One	playerNDeck
+One_1_070_U_LoudAndClear	Loud And Clear	fight-klub/one/FightKlub-One-LoudAndClear.jpg	default	Card	Uncommon	070	One	One	playerNDeck
+One_1_071_U_PossibleHomicide	Possible Homicide	fight-klub/one/FightKlub-One-PossibleHomicide.jpg	default	Card	Uncommon	071	One	One	playerNDeck
+One_1_072_U_RottingMemories	Rotting Memories	fight-klub/one/FightKlub-One-RottingMemories.jpg	default	Card	Uncommon	072	One	One	playerNDeck
+One_1_073_U_VileMachete	Vile Machete	fight-klub/one/FightKlub-One-VileMachete.jpg	default	Card	Uncommon	073	One	One	playerNDeck
+One_1_074_C_Waiting	Waiting	fight-klub/one/FightKlub-One-Waiting.jpg	default	Card	Common	074	One	One	playerNDeck
+One_1_075_C_WhatJasonWants	What Jason Wants	fight-klub/one/FightKlub-One-WhatJasonWants.jpg	default	Card	Common	075	One	One	playerNDeck
+One_1_076_R_Jigsaw	Jigsaw	fight-klub/one/FightKlub-One-Jigsaw.jpg	default	Card	Rare	076	One	One	playerNDeck
+One_1_077_U_DeathMask	Death Mask	fight-klub/one/FightKlub-One-DeathMask.jpg	default	Card	Uncommon	077	One	One	playerNDeck
+One_1_078_U_FurnaceTrap	Furnace Trap	fight-klub/one/FightKlub-One-FurnaceTrap.jpg	default	Card	Uncommon	078	One	One	playerNDeck
+One_1_079_U_HandTrap	Hand Trap	fight-klub/one/FightKlub-One-HandTrap.jpg	default	Card	Uncommon	079	One	One	playerNDeck
+One_1_080_U_IWantToPlayAGame	IWant To Play AGame	fight-klub/one/FightKlub-One-IWantToPlayAGame.jpg	default	Card	Uncommon	080	One	One	playerNDeck
+One_1_081_U_InTheBackOfYourMind	In The Back Of Your Mind	fight-klub/one/FightKlub-One-InTheBackOfYourMind.jpg	default	Card	Uncommon	081	One	One	playerNDeck
+One_1_082_U_LetTheGamesBegin	Let The Games Begin	fight-klub/one/FightKlub-One-LetTheGamesBegin.jpg	default	Card	Uncommon	082	One	One	playerNDeck
+One_1_083_C_LiveOrDie	Live Or Die	fight-klub/one/FightKlub-One-LiveOrDie.jpg	default	Card	Common	083	One	One	playerNDeck
+One_1_084_U_MagnumEyeholeTrap	Magnum Eyehole Trap	fight-klub/one/FightKlub-One-MagnumEyeholeTrap.jpg	default	Card	Uncommon	084	One	One	playerNDeck
+One_1_085_U_NeedleInAHaystack	Needle In AHaystack	fight-klub/one/FightKlub-One-NeedleInAHaystack.jpg	default	Card	Uncommon	085	One	One	playerNDeck
+One_1_086_U_PuzzlePiece	Puzzle Piece	fight-klub/one/FightKlub-One-PuzzlePiece.jpg	default	Card	Uncommon	086	One	One	playerNDeck
+One_1_087_U_ReverseBearTrap	Reverse Bear Trap	fight-klub/one/FightKlub-One-ReverseBearTrap.jpg	default	Card	Uncommon	087	One	One	playerNDeck
+One_1_088_U_Twist	Twist	fight-klub/one/FightKlub-One-Twist.jpg	default	Card	Uncommon	088	One	One	playerNDeck
+One_1_089_C_M5	M 5	fight-klub/one/FightKlub-One-M5.jpg	default	Card	Common	089	One	One	playerNDeck
+One_1_090_C_M6	M 6	fight-klub/one/FightKlub-One-M6.jpg	default	Card	Common	090	One	One	playerNDeck
+One_1_091_U_M7	M 7	fight-klub/one/FightKlub-One-M7.jpg	default	Card	Uncommon	091	One	One	playerNDeck
+One_1_092_U_M8	M 8	fight-klub/one/FightKlub-One-M8.jpg	default	Card	Uncommon	092	One	One	playerNDeck
+One_1_093_U_P5	P 5	fight-klub/one/FightKlub-One-P5.jpg	default	Card	Uncommon	093	One	One	playerNDeck
+One_1_094_U_P6	P 6	fight-klub/one/FightKlub-One-P6.jpg	default	Card	Uncommon	094	One	One	playerNDeck
+One_1_095_U_P7	P 7	fight-klub/one/FightKlub-One-P7.jpg	default	Card	Uncommon	095	One	One	playerNDeck
+One_1_096_U_P8	P 8	fight-klub/one/FightKlub-One-P8.jpg	default	Card	Uncommon	096	One	One	playerNDeck
+One_1_097_U_S5	S 5	fight-klub/one/FightKlub-One-S5.jpg	default	Card	Uncommon	097	One	One	playerNDeck
+One_1_098_U_S6	S 6	fight-klub/one/FightKlub-One-S6.jpg	default	Card	Uncommon	098	One	One	playerNDeck
+One_1_099_U_S7	S 7	fight-klub/one/FightKlub-One-S7.jpg	default	Card	Uncommon	099	One	One	playerNDeck
+One_1_100_U_S8	S 8	fight-klub/one/FightKlub-One-S8.jpg	default	Card	Uncommon	100	One	One	playerNDeck
+One_1_101_R_TheDrop	The Drop	fight-klub/one/FightKlub-One-TheDrop.jpg	default	Card	Rare	101	One	One	playerNDeck
+Two_2_001_R_MajorScottMcCoy	Major Scott Mc Coy	fight-klub/two/FightKlub-Two-MajorScottMcCoy.jpg	default	Card	Rare	001	Two	Two	playerNDeck
+Two_2_002_R_AmericanAmbush	American Ambush	fight-klub/two/FightKlub-Two-AmericanAmbush.jpg	default	Card	Rare	002	Two	Two	playerNDeck
+Two_2_003_R_AmphibiousTeam	Amphibious Team	fight-klub/two/FightKlub-Two-AmphibiousTeam.jpg	default	Card	Rare	003	Two	Two	playerNDeck
+Two_2_004_C_BadReception	Bad Reception	fight-klub/two/FightKlub-Two-BadReception.jpg	default	Card	Common	004	Two	Two	playerNDeck
+Two_2_005_R_Bullseye	Bullseye	fight-klub/two/FightKlub-Two-Bullseye.jpg	default	Card	Rare	005	Two	Two	playerNDeck
+Two_2_006_U_DelayTheirReinforcements	Delay Their Reinforcements	fight-klub/two/FightKlub-Two-DelayTheirReinforcements.jpg	default	Card	Uncommon	006	Two	Two	playerNDeck
+Two_2_007_U_GetYourBadgesOn	Get Your Badges On	fight-klub/two/FightKlub-Two-GetYourBadgesOn.jpg	default	Card	Uncommon	007	Two	Two	playerNDeck
+Two_2_008_C_Headlines	Headlines	fight-klub/two/FightKlub-Two-Headlines.jpg	default	Card	Common	008	Two	Two	playerNDeck
+Two_2_009_R_HijackersWeapons	Hijackers Weapons	fight-klub/two/FightKlub-Two-HijackersWeapons.jpg	default	Card	Rare	009	Two	Two	playerNDeck
+Two_2_010_U_PartingShot	Parting Shot	fight-klub/two/FightKlub-Two-PartingShot.jpg	default	Card	Uncommon	010	Two	Two	playerNDeck
+Two_2_011_R_RocketLauncher	Rocket Launcher	fight-klub/two/FightKlub-Two-RocketLauncher.jpg	default	Card	Rare	011	Two	Two	playerNDeck
+Two_2_012_U_SleepTightSucker	Sleep Tight Sucker	fight-klub/two/FightKlub-Two-SleepTightSucker.jpg	default	Card	Uncommon	012	Two	Two	playerNDeck
+Two_2_013_C_SmashingMelons	Smashing Melons	fight-klub/two/FightKlub-Two-SmashingMelons.jpg	default	Card	Common	013	Two	Two	playerNDeck
+Two_2_014_R_SomethingToSay	Something To Say	fight-klub/two/FightKlub-Two-SomethingToSay.jpg	default	Card	Rare	014	Two	Two	playerNDeck
+Two_2_015_R_TargetDummies	Target Dummies	fight-klub/two/FightKlub-Two-TargetDummies.jpg	default	Card	Rare	015	Two	Two	playerNDeck
+Two_2_016_R_MichaelEmerson	Michael Emerson	fight-klub/two/FightKlub-Two-MichaelEmerson.jpg	default	Card	Rare	016	Two	Two	playerNDeck
+Two_2_017_C_ASurvivalManual	ASurvival Manual	fight-klub/two/FightKlub-Two-ASurvivalManual.jpg	default	Card	Common	017	Two	Two	playerNDeck
+Two_2_018_C_CreatureOfTheNight	Creature Of The Night	fight-klub/two/FightKlub-Two-CreatureOfTheNight.jpg	default	Card	Common	018	Two	Two	playerNDeck
+Two_2_019_U_GarlicBath	Garlic Bath	fight-klub/two/FightKlub-Two-GarlicBath.jpg	default	Card	Uncommon	019	Two	Two	playerNDeck
+Two_2_020_C_LookoutPoint	Lookout Point	fight-klub/two/FightKlub-Two-LookoutPoint.jpg	default	Card	Common	020	Two	Two	playerNDeck
+Two_2_021_U_NowYouKnow	Now You Know	fight-klub/two/FightKlub-Two-NowYouKnow.jpg	default	Card	Uncommon	021	Two	Two	playerNDeck
+Two_2_022_C_Regeneration	Regeneration	fight-klub/two/FightKlub-Two-Regeneration.jpg	default	Card	Common	022	Two	Two	playerNDeck
+Two_2_023_R_SantaCarlasMissing	Santa Carlas Missing	fight-klub/two/FightKlub-Two-SantaCarlasMissing.jpg	default	Card	Rare	023	Two	Two	playerNDeck
+Two_2_024_U_SeriousVampireActivity	Serious Vampire Activity	fight-klub/two/FightKlub-Two-SeriousVampireActivity.jpg	default	Card	Uncommon	024	Two	Two	playerNDeck
+Two_2_025_U_TheElixirOfBlood	The Elixir Of Blood	fight-klub/two/FightKlub-Two-TheElixirOfBlood.jpg	default	Card	Uncommon	025	Two	Two	playerNDeck
+Two_2_026_U_TrySomeNoodles	Try Some Noodles	fight-klub/two/FightKlub-Two-TrySomeNoodles.jpg	default	Card	Uncommon	026	Two	Two	playerNDeck
+Two_2_027_C_WoodenStake	Wooden Stake	fight-klub/two/FightKlub-Two-WoodenStake.jpg	default	Card	Common	027	Two	Two	playerNDeck
+Two_2_028_C_YouAreOneOfUs	You Are One Of Us	fight-klub/two/FightKlub-Two-YouAreOneOfUs.jpg	default	Card	Common	028	Two	Two	playerNDeck
+Two_2_029_U_YouMustFeed	You Must Feed	fight-klub/two/FightKlub-Two-YouMustFeed.jpg	default	Card	Uncommon	029	Two	Two	playerNDeck
+Two_2_030_R_TankGirl	Tank Girl	fight-klub/two/FightKlub-Two-TankGirl.jpg	default	Card	Rare	030	Two	Two	playerNDeck
+Two_2_031_R_Crunch	Crunch	fight-klub/two/FightKlub-Two-Crunch.jpg	default	Card	Rare	031	Two	Two	playerNDeck
+Two_2_032_R_CybergenicArm	Cybergenic Arm	fight-klub/two/FightKlub-Two-CybergenicArm.jpg	default	Card	Rare	032	Two	Two	playerNDeck
+Two_2_033_C_DangerBall	Danger Ball	fight-klub/two/FightKlub-Two-DangerBall.jpg	default	Card	Common	033	Two	Two	playerNDeck
+Two_2_034_C_DropSomething	Drop Something	fight-klub/two/FightKlub-Two-DropSomething.jpg	default	Card	Common	034	Two	Two	playerNDeck
+Two_2_035_C_GearUp	Gear Up	fight-klub/two/FightKlub-Two-GearUp.jpg	default	Card	Common	035	Two	Two	playerNDeck
+Two_2_036_U_ILikePain	ILike Pain	fight-klub/two/FightKlub-Two-ILikePain.jpg	default	Card	Uncommon	036	Two	Two	playerNDeck
+Two_2_037_U_JetGirl	Jet Girl	fight-klub/two/FightKlub-Two-JetGirl.jpg	default	Card	Uncommon	037	Two	Two	playerNDeck
+Two_2_038_C_JetGirlsJet	Jet Girls Jet	fight-klub/two/FightKlub-Two-JetGirlsJet.jpg	default	Card	Common	038	Two	Two	playerNDeck
+Two_2_039_C_Ripper	Ripper	fight-klub/two/FightKlub-Two-Ripper.jpg	default	Card	Common	039	Two	Two	playerNDeck
+Two_2_040_C_RoughedUp	Roughed Up	fight-klub/two/FightKlub-Two-RoughedUp.jpg	default	Card	Common	040	Two	Two	playerNDeck
+Two_2_041_U_SayIt	Say It	fight-klub/two/FightKlub-Two-SayIt.jpg	default	Card	Uncommon	041	Two	Two	playerNDeck
+Two_2_042_U_TankGirlsTank	Tank Girls Tank	fight-klub/two/FightKlub-Two-TankGirlsTank.jpg	default	Card	Uncommon	042	Two	Two	playerNDeck
+Two_2_043_R_YouFaceHasBeenGutted	You Face Has Been Gutted	fight-klub/two/FightKlub-Two-YouFaceHasBeenGutted.jpg	default	Card	Rare	043	Two	Two	playerNDeck
+Two_2_044_U_YouveBeenStealingVater	Youve Been Stealing Vater	fight-klub/two/FightKlub-Two-YouveBeenStealingVater.jpg	default	Card	Uncommon	044	Two	Two	playerNDeck
+Two_2_045_C_M9	M 9	fight-klub/two/FightKlub-Two-M9.jpg	default	Card	Common	045	Two	Two	playerNDeck
+Two_2_046_R_M10	M 10	fight-klub/two/FightKlub-Two-M10.jpg	default	Card	Rare	046	Two	Two	playerNDeck
+Two_2_047_C_P9	P 9	fight-klub/two/FightKlub-Two-P9.jpg	default	Card	Common	047	Two	Two	playerNDeck
+Two_2_048_C_P10	P 10	fight-klub/two/FightKlub-Two-P10.jpg	default	Card	Common	048	Two	Two	playerNDeck
+Two_2_049_C_S9	S 9	fight-klub/two/FightKlub-Two-S9.jpg	default	Card	Common	049	Two	Two	playerNDeck
+Two_2_050_C_S10	S 10	fight-klub/two/FightKlub-Two-S10.jpg	default	Card	Common	050	Two	Two	playerNDeck
+Two_2_051_R_CaptainSpaulding	Captain Spaulding	fight-klub/two/FightKlub-Two-CaptainSpaulding.jpg	default	Card	Rare	051	Two	Two	playerNDeck
+Two_2_052_U_BabyFirefly	Baby Firefly	fight-klub/two/FightKlub-Two-BabyFirefly.jpg	default	Card	Uncommon	052	Two	Two	playerNDeck
+Two_2_053_U_DontYaLikeClowns	Dont Ya Like Clowns	fight-klub/two/FightKlub-Two-DontYaLikeClowns.jpg	default	Card	Uncommon	053	Two	Two	playerNDeck
+Two_2_054_C_FireflysEnd	Fireflys End	fight-klub/two/FightKlub-Two-FireflysEnd.jpg	default	Card	Common	054	Two	Two	playerNDeck
+Two_2_055_C_HomemadeArmor	Homemade Armor	fight-klub/two/FightKlub-Two-HomemadeArmor.jpg	default	Card	Common	055	Two	Two	playerNDeck
+Two_2_056_R_Hustle	Hustle	fight-klub/two/FightKlub-Two-Hustle.jpg	default	Card	Rare	056	Two	Two	playerNDeck
+Two_2_057_U_Nailed	Nailed	fight-klub/two/FightKlub-Two-Nailed.jpg	default	Card	Uncommon	057	Two	Two	playerNDeck
+Two_2_058_C_NonstopCarnage	Nonstop Carnage	fight-klub/two/FightKlub-Two-NonstopCarnage.jpg	default	Card	Common	058	Two	Two	playerNDeck
+Two_2_059_C_OtisBDriftwood	Otis BDriftwood	fight-klub/two/FightKlub-Two-OtisBDriftwood.jpg	default	Card	Common	059	Two	Two	playerNDeck
+Two_2_060_C_OtisSixshooter	Otis Sixshooter	fight-klub/two/FightKlub-Two-OtisSixshooter.jpg	default	Card	Common	060	Two	Two	playerNDeck
+Two_2_061_R_RoadKill	Road Kill	fight-klub/two/FightKlub-Two-RoadKill.jpg	default	Card	Rare	061	Two	Two	playerNDeck
+Two_2_062_R_TheDevilsRejects	The Devils Rejects	fight-klub/two/FightKlub-Two-TheDevilsRejects.jpg	default	Card	Rare	062	Two	Two	playerNDeck
+Two_2_063_U_TopSecretClownBusiness	Top Secret Clown Business	fight-klub/two/FightKlub-Two-TopSecretClownBusiness.jpg	default	Card	Uncommon	063	Two	Two	playerNDeck
+Two_2_064_R_TwoFaced	Two Faced	fight-klub/two/FightKlub-Two-TwoFaced.jpg	default	Card	Rare	064	Two	Two	playerNDeck
+Two_2_065_R_MrBlonde	Mr Blonde	fight-klub/two/FightKlub-Two-MrBlonde.jpg	default	Card	Rare	065	Two	Two	playerNDeck
+Two_2_066_C_ActingLikeAProfessional	Acting Like AProfessional	fight-klub/two/FightKlub-Two-ActingLikeAProfessional.jpg	default	Card	Common	066	Two	Two	playerNDeck
+Two_2_067_U_BamBamBamBamBam	Bam Bam Bam Bam Bam	fight-klub/two/FightKlub-Two-BamBamBamBamBam.jpg	default	Card	Uncommon	067	Two	Two	playerNDeck
+Two_2_068_U_BarkAllDay	Bark All Day	fight-klub/two/FightKlub-Two-BarkAllDay.jpg	default	Card	Uncommon	068	Two	Two	playerNDeck
+Two_2_069_U_BoyInBlue	Boy In Blue	fight-klub/two/FightKlub-Two-BoyInBlue.jpg	default	Card	Uncommon	069	Two	Two	playerNDeck
+Two_2_070_R_GasolineDanger	Gasoline Danger	fight-klub/two/FightKlub-Two-GasolineDanger.jpg	default	Card	Rare	070	Two	Two	playerNDeck
+Two_2_071_U_ImGonnaTortureYouAnyway	Im Gonna Torture You Anyway	fight-klub/two/FightKlub-Two-ImGonnaTortureYouAnyway.jpg	default	Card	Uncommon	071	Two	Two	playerNDeck
+Two_2_072_R_LousyTipper	Lousy Tipper	fight-klub/two/FightKlub-Two-LousyTipper.jpg	default	Card	Rare	072	Two	Two	playerNDeck
+Two_2_073_C_MrPinks357Magnum	Mr Pinks 357Magnum	fight-klub/two/FightKlub-Two-MrPinks357Magnum.jpg	default	Card	Common	073	Two	Two	playerNDeck
+Two_2_074_C_RememberTheFantasticFour	Remember The Fantastic Four	fight-klub/two/FightKlub-Two-RememberTheFantasticFour.jpg	default	Card	Common	074	Two	Two	playerNDeck
+Two_2_075_U_SomebodysGonnaStartCrying	Somebodys Gonna Start Crying	fight-klub/two/FightKlub-Two-SomebodysGonnaStartCrying.jpg	default	Card	Uncommon	075	Two	Two	playerNDeck
+Two_2_076_R_TheOnlyOneIWasnt100On	The Only One IWasnt 100On	fight-klub/two/FightKlub-Two-TheOnlyOneIWasnt100On.jpg	default	Card	Rare	076	Two	Two	playerNDeck
+Two_2_077_C_TortureYouThatsAGoodIdea	Torture You Thats AGood Idea	fight-klub/two/FightKlub-Two-TortureYouThatsAGoodIdea.jpg	default	Card	Common	077	Two	Two	playerNDeck
+Two_2_078_R_UnderNoCircumstances	Under No Circumstances	fight-klub/two/FightKlub-Two-UnderNoCircumstances.jpg	default	Card	Rare	078	Two	Two	playerNDeck
+Two_2_079_C_WhatsGoingOn	Whats Going On	fight-klub/two/FightKlub-Two-WhatsGoingOn.jpg	default	Card	Common	079	Two	Two	playerNDeck
+Two_2_080_R_Sil	Sil	fight-klub/two/FightKlub-Two-Sil.jpg	default	Card	Rare	080	Two	Two	playerNDeck
+Two_2_081_C_Cocoon	Cocoon	fight-klub/two/FightKlub-Two-Cocoon.jpg	default	Card	Common	081	Two	Two	playerNDeck
+Two_2_082_C_CyanideGas	Cyanide Gas	fight-klub/two/FightKlub-Two-CyanideGas.jpg	default	Card	Common	082	Two	Two	playerNDeck
+Two_2_083_U_DocileAndControllable	Docile And Controllable	fight-klub/two/FightKlub-Two-DocileAndControllable.jpg	default	Card	Uncommon	083	Two	Two	playerNDeck
+Two_2_084_R_Escape	Escape	fight-klub/two/FightKlub-Two-Escape.jpg	default	Card	Rare	084	Two	Two	playerNDeck
+Two_2_085_U_FormulaFromOuterSpace	Formula From Outer Space	fight-klub/two/FightKlub-Two-FormulaFromOuterSpace.jpg	default	Card	Uncommon	085	Two	Two	playerNDeck
+Two_2_086_U_IWantABaby	IWant ABaby	fight-klub/two/FightKlub-Two-IWantABaby.jpg	default	Card	Uncommon	086	Two	Two	playerNDeck
+Two_2_087_U_ImForeign	Im Foreign	fight-klub/two/FightKlub-Two-ImForeign.jpg	default	Card	Uncommon	087	Two	Two	playerNDeck
+Two_2_088_C_ItStarted	It Started	fight-klub/two/FightKlub-Two-ItStarted.jpg	default	Card	Common	088	Two	Two	playerNDeck
+Two_2_089_C_LifeIsPersistent	Life Is Persistent	fight-klub/two/FightKlub-Two-LifeIsPersistent.jpg	default	Card	Common	089	Two	Two	playerNDeck
+Two_2_090_U_NewLife	New Life	fight-klub/two/FightKlub-Two-NewLife.jpg	default	Card	Uncommon	090	Two	Two	playerNDeck
+Two_2_091_C_Regeneration	Regeneration	fight-klub/two/FightKlub-Two-Regeneration-2.jpg	default	Card	Common	091	Two	Two	playerNDeck
+Two_2_092_R_SharpTongue	Sharp Tongue	fight-klub/two/FightKlub-Two-SharpTongue.jpg	default	Card	Rare	092	Two	Two	playerNDeck
+Two_2_093_U_ShesAPredator	Shes APredator	fight-klub/two/FightKlub-Two-ShesAPredator.jpg	default	Card	Uncommon	093	Two	Two	playerNDeck
+Two_2_094_C_WhateverItTakes	Whatever It Takes	fight-klub/two/FightKlub-Two-WhateverItTakes.jpg	default	Card	Common	094	Two	Two	playerNDeck
+Two_2_095_C_M11	M 11	fight-klub/two/FightKlub-Two-M11.jpg	default	Card	Common	095	Two	Two	playerNDeck
+Two_2_096_R_M12	M 12	fight-klub/two/FightKlub-Two-M12.jpg	default	Card	Rare	096	Two	Two	playerNDeck
+Two_2_097_C_P11	P 11	fight-klub/two/FightKlub-Two-P11.jpg	default	Card	Common	097	Two	Two	playerNDeck
+Two_2_098_C_P12	P 12	fight-klub/two/FightKlub-Two-P12.jpg	default	Card	Common	098	Two	Two	playerNDeck
+Two_2_099_C_S11	S 11	fight-klub/two/FightKlub-Two-S11.jpg	default	Card	Common	099	Two	Two	playerNDeck
+Two_2_100_R_S12	S 12	fight-klub/two/FightKlub-Two-S12.jpg	default	Card	Rare	100	Two	Two	playerNDeck
+BlackBeauty2_2_BB1_R_GoNow	Go Now	fight-klub/blackbeauty2/FightKlub-BlackBeauty2-GoNow.jpg	default	Card	Rare	BB1	BlackBeauty2	BlackBeauty2	playerNDeck
+BlackBeauty2_2_BB2_R_MimeticPolyalloy	Mimetic Polyalloy	fight-klub/blackbeauty2/FightKlub-BlackBeauty2-MimeticPolyalloy.jpg	default	Card	Rare	BB2	BlackBeauty2	BlackBeauty2	playerNDeck
+BlackBeauty2_2_BB3_R_DecipherThis	Decipher This	fight-klub/blackbeauty2/FightKlub-BlackBeauty2-DecipherThis.jpg	default	Card	Rare	BB3	BlackBeauty2	BlackBeauty2	playerNDeck
+Three_3_001_R_RoboCop	Robo Cop	fight-klub/three/FightKlub-Three-RoboCop.jpg	default	Card	Rare	001	Three	Three	playerNDeck
+Three_3_002_C_Adjust	Adjust	fight-klub/three/FightKlub-Three-Adjust.jpg	default	Card	Common	002	Three	Three	playerNDeck
+Three_3_003_C_BucketBoysOnline	Bucket Boys Online	fight-klub/three/FightKlub-Three-BucketBoysOnline.jpg	default	Card	Common	003	Three	Three	playerNDeck
+Three_3_004_U_BulletAndHeatProofSoftArmor	Bullet And Heat Proof Soft Armor	fight-klub/three/FightKlub-Three-BulletAndHeatProofSoftArmor.jpg	default	Card	Uncommon	004	Three	Three	playerNDeck
+Three_3_005_U_DickYoureFired	Dick Youre Fired	fight-klub/three/FightKlub-Three-DickYoureFired.jpg	default	Card	Uncommon	005	Three	Three	playerNDeck
+Three_3_006_R_ED209	ED 209	fight-klub/three/FightKlub-Three-ED209.jpg	default	Card	Rare	006	Three	Three	playerNDeck
+Three_3_007_R_IBroughtYouSomeFood	Ibrought You Some Food	fight-klub/three/FightKlub-Three-IbroughtYouSomeFood.jpg	default	Card	Rare	007	Three	Three	playerNDeck
+Three_3_008_U_RetractableInterfaceSpike	Retractable Interface Spike	fight-klub/three/FightKlub-Three-RetractableInterfaceSpike.jpg	default	Card	Uncommon	008	Three	Three	playerNDeck
+Three_3_010_R_Thermograph	Thermograph	fight-klub/three/FightKlub-Three-Thermograph.jpg	default	Card	Rare	010	Three	Three	playerNDeck
+Three_3_011_C_ThisGuyIsReallyGood	This Guy Is Really Good	fight-klub/three/FightKlub-Three-ThisGuyIsReallyGood.jpg	default	Card	Common	011	Three	Three	playerNDeck
+Three_3_012_C_ToxicWaste	Toxic Waste	fight-klub/three/FightKlub-Three-ToxicWaste.jpg	default	Card	Common	012	Three	Three	playerNDeck
+Three_3_013_U_YouAreUnderArrest	You Are Under Arrest	fight-klub/three/FightKlub-Three-YouAreUnderArrest.jpg	default	Card	Uncommon	013	Three	Three	playerNDeck
+Three_3_014_U_YourMoveCreep	Your Move Creep	fight-klub/three/FightKlub-Three-YourMoveCreep.jpg	default	Card	Uncommon	014	Three	Three	playerNDeck
+Three_3_015_R_SergeantEliasGrodin	Sergeant Elias Grodin	fight-klub/three/FightKlub-Three-SergeantEliasGrodin.jpg	default	Card	Rare	015	Three	Three	playerNDeck
+Three_3_016_U_FeelingGoodsGoodEnough	Feeling Goods Good Enough	fight-klub/three/FightKlub-Three-FeelingGoodsGoodEnough.jpg	default	Card	Uncommon	016	Three	Three	playerNDeck
+Three_3_017_R_InTheEyes	In The Eyes	fight-klub/three/FightKlub-Three-InTheEyes.jpg	default	Card	Rare	017	Three	Three	playerNDeck
+Three_3_018_C_JustTheBeginning	Just The Beginning	fight-klub/three/FightKlub-Three-JustTheBeginning.jpg	default	Card	Common	018	Three	Three	playerNDeck
+Three_3_019_C_MakeWarNotPeace	Make War Not Peace	fight-klub/three/FightKlub-Three-MakeWarNotPeace.jpg	default	Card	Common	019	Three	Three	playerNDeck
+Three_3_020_C_MedivacSupport	Medivac Support	fight-klub/three/FightKlub-Three-MedivacSupport.jpg	default	Card	Common	020	Three	Three	playerNDeck
+Three_3_021_C_PlatoonOrdnance	Platoon Ordnance	fight-klub/three/FightKlub-Three-PlatoonOrdnance.jpg	default	Card	Common	021	Three	Three	playerNDeck
+Three_3_022_U_TakeABreak	Take ABreak	fight-klub/three/FightKlub-Three-TakeABreak.jpg	default	Card	Uncommon	022	Three	Three	playerNDeck
+Three_3_023_C_TorchThisPlace	Torch This Place	fight-klub/three/FightKlub-Three-TorchThisPlace.jpg	default	Card	Common	023	Three	Three	playerNDeck
+Three_3_024_C_Tripwire	Tripwire	fight-klub/three/FightKlub-Three-Tripwire.jpg	default	Card	Common	024	Three	Three	playerNDeck
+Three_3_025_U_WarCry	War Cry	fight-klub/three/FightKlub-Three-WarCry.jpg	default	Card	Uncommon	025	Three	Three	playerNDeck
+Three_3_026_U_WereGonnaRunIntoSomething	Were Gonna Run Into Something	fight-klub/three/FightKlub-Three-WereGonnaRunIntoSomething.jpg	default	Card	Uncommon	026	Three	Three	playerNDeck
+Three_3_027_R_WhatMeWorry	What Me Worry	fight-klub/three/FightKlub-Three-WhatMeWorry.jpg	default	Card	Rare	027	Three	Three	playerNDeck
+Three_3_028_R_TheTerminator	The Terminator	fight-klub/three/FightKlub-Three-TheTerminator.jpg	default	Card	Rare	028	Three	Three	playerNDeck
+Three_3_029_R_Burned	Burned	fight-klub/three/FightKlub-Three-Burned.jpg	default	Card	Rare	029	Three	Three	playerNDeck
+Three_3_030_R_Glitching	Glitching	fight-klub/three/FightKlub-Three-Glitching.jpg	default	Card	Rare	030	Three	Three	playerNDeck
+Three_3_031_R_HammerTime	Hammer Time	fight-klub/three/FightKlub-Three-HammerTime.jpg	default	Card	Rare	031	Three	Three	playerNDeck
+Three_3_032_U_HastaLaVistaBaby	Hasta La Vista Baby	fight-klub/three/FightKlub-Three-HastaLaVistaBaby.jpg	default	Card	Uncommon	032	Three	Three	playerNDeck
+Three_3_033_C_InTheLineOfSight	In The Line Of Sight	fight-klub/three/FightKlub-Three-InTheLineOfSight.jpg	default	Card	Common	033	Three	Three	playerNDeck
+Three_3_034_C_LeaderOfTheHumanResistance	Leader Of The Human Resistance	fight-klub/three/FightKlub-Three-LeaderOfTheHumanResistance.jpg	default	Card	Common	034	Three	Three	playerNDeck
+Three_3_035_U_LiquidRooter	Liquid Rooter	fight-klub/three/FightKlub-Three-LiquidRooter.jpg	default	Card	Uncommon	035	Three	Three	playerNDeck
+Three_3_036_R_NoFate	No Fate	fight-klub/three/FightKlub-Three-NoFate.jpg	default	Card	Rare	036	Three	Three	playerNDeck
+Three_3_037_U_Terminated	Terminated	fight-klub/three/FightKlub-Three-Terminated.jpg	default	Card	Uncommon	037	Three	Three	playerNDeck
+Three_3_038_C_TerminatorRelics	Terminator Relics	fight-klub/three/FightKlub-Three-TerminatorRelics.jpg	default	Card	Common	038	Three	Three	playerNDeck
+Three_3_039_C_WeKnowThisGuysInvolved	We Know This Guys Involved	fight-klub/three/FightKlub-Three-WeKnowThisGuysInvolved.jpg	default	Card	Common	039	Three	Three	playerNDeck
+Three_3_040_U_WeaponsCache	Weapons Cache	fight-klub/three/FightKlub-Three-WeaponsCache.jpg	default	Card	Uncommon	040	Three	Three	playerNDeck
+Three_3_041_U_YoureATerminator	Youre ATerminator	fight-klub/three/FightKlub-Three-YoureATerminator.jpg	default	Card	Uncommon	041	Three	Three	playerNDeck
+Three_3_042_C_M13	M 13	fight-klub/three/FightKlub-Three-M13.jpg	default	Card	Common	042	Three	Three	playerNDeck
+Three_3_043_R_M14	M 14	fight-klub/three/FightKlub-Three-M14.jpg	default	Card	Rare	043	Three	Three	playerNDeck
+Three_3_044_C_M15	M 15	fight-klub/three/FightKlub-Three-M15.jpg	default	Card	Common	044	Three	Three	playerNDeck
+Three_3_045_C_P13	P 13	fight-klub/three/FightKlub-Three-P13.jpg	default	Card	Common	045	Three	Three	playerNDeck
+Three_3_046_C_P14	P 14	fight-klub/three/FightKlub-Three-P14.jpg	default	Card	Common	046	Three	Three	playerNDeck
+Three_3_047_R_P15	P 15	fight-klub/three/FightKlub-Three-P15.jpg	default	Card	Rare	047	Three	Three	playerNDeck
+Three_3_048_C_S13	S 13	fight-klub/three/FightKlub-Three-S13.jpg	default	Card	Common	048	Three	Three	playerNDeck
+Three_3_049_U_S14	S 14	fight-klub/three/FightKlub-Three-S14.jpg	default	Card	Uncommon	049	Three	Three	playerNDeck
+Three_3_050_C_S15	S 15	fight-klub/three/FightKlub-Three-S15.jpg	default	Card	Common	050	Three	Three	playerNDeck
+Three_3_051_R_GaearGrimsrudNCarlShowalter	Gaear Grimsrud NCarl Showalter	fight-klub/three/FightKlub-Three-GaearGrimsrudNCarlShowalter.jpg	default	Card	Rare	051	Three	Three	playerNDeck
+Three_3_052_U_BloodHasBeenShed	Blood Has Been Shed	fight-klub/three/FightKlub-Three-BloodHasBeenShed.jpg	default	Card	Uncommon	052	Three	Three	playerNDeck
+Three_3_053_R_ForPetesSake	For Petes Sake	fight-klub/three/FightKlub-Three-ForPetesSake.jpg	default	Card	Rare	053	Three	Three	playerNDeck
+Three_3_054_C_HappenedToHer	Happened To Her	fight-klub/three/FightKlub-Three-HappenedToHer.jpg	default	Card	Common	054	Three	Three	playerNDeck
+Three_3_055_C_JerryLundegaard	Jerry Lundegaard	fight-klub/three/FightKlub-Three-JerryLundegaard.jpg	default	Card	Common	055	Three	Three	playerNDeck
+Three_3_056_C_PaulBunyan	Paul Bunyan	fight-klub/three/FightKlub-Three-PaulBunyan.jpg	default	Card	Common	056	Three	Three	playerNDeck
+Three_3_057_R_PlugMeIntoTheOzoneBaby	Plug Me Into The Ozone Baby	fight-klub/three/FightKlub-Three-PlugMeIntoTheOzoneBaby.jpg	default	Card	Rare	057	Three	Three	playerNDeck
+Three_3_058_R_RunningBlind	Running Blind	fight-klub/three/FightKlub-Three-RunningBlind.jpg	default	Card	Rare	058	Three	Three	playerNDeck
+Three_3_059_C_WhereIsPancakesHause	Where Is Pancakes Hause	fight-klub/three/FightKlub-Three-WhereIsPancakesHause.jpg	default	Card	Common	059	Three	Three	playerNDeck
+Three_3_060_U_WhoaWhoaDaddy	Whoa Whoa Daddy	fight-klub/three/FightKlub-Three-WhoaWhoaDaddy.jpg	default	Card	Uncommon	060	Three	Three	playerNDeck
+Three_3_061_C_WoodChipper	Wood Chipper	fight-klub/three/FightKlub-Three-WoodChipper.jpg	default	Card	Common	061	Three	Three	playerNDeck
+Three_3_062_U_YahGottaFrontCominIn	Yah Gotta Front Comin In	fight-klub/three/FightKlub-Three-YahGottaFrontCominIn.jpg	default	Card	Uncommon	062	Three	Three	playerNDeck
+Three_3_063_R_YouShouldSeeTheOtherGuy	You Should See The Other Guy	fight-klub/three/FightKlub-Three-YouShouldSeeTheOtherGuy.jpg	default	Card	Rare	063	Three	Three	playerNDeck
+Three_3_064_U_YouWantUsToKidnapYourWife	You Want Us To Kidnap Your Wife	fight-klub/three/FightKlub-Three-YouWantUsToKidnapYourWife.jpg	default	Card	Uncommon	064	Three	Three	playerNDeck
+Three_3_065_R_T1000	T 1000	fight-klub/three/FightKlub-Three-T1000.jpg	default	Card	Rare	065	Three	Three	playerNDeck
+Three_3_066_U_Fingered	Fingered	fight-klub/three/FightKlub-Three-Fingered.jpg	default	Card	Uncommon	066	Three	Three	playerNDeck
+Three_3_067_C_FocusedPursuit	Focused Pursuit	fight-klub/three/FightKlub-Three-FocusedPursuit.jpg	default	Card	Common	067	Three	Three	playerNDeck
+Three_3_068_C_HKPatrolMachine	HKPatrol Machine	fight-klub/three/FightKlub-Three-HKPatrolMachine.jpg	default	Card	Common	068	Three	Three	playerNDeck
+Three_3_069_C_Investigation	Investigation	fight-klub/three/FightKlub-Three-Investigation.jpg	default	Card	Common	069	Three	Three	playerNDeck
+Three_3_070_U_KnivesAndStabbingWeapons	Knives And Stabbing Weapons	fight-klub/three/FightKlub-Three-KnivesAndStabbingWeapons.jpg	default	Card	Uncommon	070	Three	Three	playerNDeck
+Three_3_071_R_OnTheRun	On The Run	fight-klub/three/FightKlub-Three-OnTheRun.jpg	default	Card	Rare	071	Three	Three	playerNDeck
+Three_3_072_R_Pinioned	Pinioned	fight-klub/three/FightKlub-Three-Pinioned.jpg	default	Card	Rare	072	Three	Three	playerNDeck
+Three_3_073_U_PolymorphicKiller	Polymorphic Killer	fight-klub/three/FightKlub-Three-PolymorphicKiller.jpg	default	Card	Uncommon	073	Three	Three	playerNDeck
+Three_3_074_U_Relentless	Relentless	fight-klub/three/FightKlub-Three-Relentless.jpg	default	Card	Uncommon	074	Three	Three	playerNDeck
+Three_3_075_U_SarahConnor1000	Sarah Connor 1000	fight-klub/three/FightKlub-Three-SarahConnor1000.jpg	default	Card	Uncommon	075	Three	Three	playerNDeck
+Three_3_076_R_Series800	Series 800	fight-klub/three/FightKlub-Three-Series800.jpg	default	Card	Rare	076	Three	Three	playerNDeck
+Three_3_077_R_SomethingsWrong	Somethings Wrong	fight-klub/three/FightKlub-Three-SomethingsWrong.jpg	default	Card	Rare	077	Three	Three	playerNDeck
+Three_3_078_U_TheFourHorsemen	The Four Horsemen	fight-klub/three/FightKlub-Three-TheFourHorsemen.jpg	default	Card	Uncommon	078	Three	Three	playerNDeck
+Three_3_079_R_TheCreeper	The Creeper	fight-klub/three/FightKlub-Three-TheCreeper.jpg	default	Card	Rare	079	Three	Three	playerNDeck
+Three_3_080_C_AdeadBoyToldMe	Adead Boy Told Me	fight-klub/three/FightKlub-Three-AdeadBoyToldMe.jpg	default	Card	Common	080	Three	Three	playerNDeck
+Three_3_081_U_BannonCountysDeathMachine	Bannon Countys Death Machine	fight-klub/three/FightKlub-Three-BannonCountysDeathMachine.jpg	default	Card	Uncommon	081	Three	Three	playerNDeck
+Three_3_082_U_BatOutOfHell	Bat Out Of Hell	fight-klub/three/FightKlub-Three-BatOutOfHell.jpg	default	Card	Uncommon	082	Three	Three	playerNDeck
+Three_3_083_U_HeKnowsNoMercy	He Knows No Mercy	fight-klub/three/FightKlub-Three-HeKnowsNoMercy.jpg	default	Card	Uncommon	083	Three	Three	playerNDeck
+Three_3_084_C_HeLostHisHead	He Lost His Head	fight-klub/three/FightKlub-Three-HeLostHisHead.jpg	default	Card	Common	084	Three	Three	playerNDeck
+Three_3_085_R_NoExit	No Exit	fight-klub/three/FightKlub-Three-NoExit.jpg	default	Card	Rare	085	Three	Three	playerNDeck
+Three_3_086_R_NoOneIsSafe	No One Is Safe	fight-klub/three/FightKlub-Three-NoOneIsSafe.jpg	default	Card	Rare	086	Three	Three	playerNDeck
+Three_3_087_R_Pinned	Pinned	fight-klub/three/FightKlub-Three-Pinned.jpg	default	Card	Rare	087	Three	Three	playerNDeck
+Three_3_088_U_ShurikenOfFlesh	Shuriken Of Flesh	fight-klub/three/FightKlub-Three-ShurikenOfFlesh.jpg	default	Card	Uncommon	088	Three	Three	playerNDeck
+Three_3_089_U_SmellInOurFear	Smell In Our Fear	fight-klub/three/FightKlub-Three-SmellInOurFear.jpg	default	Card	Uncommon	089	Three	Three	playerNDeck
+Three_3_090_U_SniffedYouOut	Sniffed You Out	fight-klub/three/FightKlub-Three-SniffedYouOut.jpg	default	Card	Uncommon	090	Three	Three	playerNDeck
+Three_3_091_C_TapestryOfTortureAndSadism	Tapestry Of Torture And Sadism	fight-klub/three/FightKlub-Three-TapestryOfTortureAndSadism.jpg	default	Card	Common	091	Three	Three	playerNDeck
+Three_3_092_R_M16	M 16	fight-klub/three/FightKlub-Three-M16.jpg	default	Card	Rare	092	Three	Three	playerNDeck
+Three_3_093_C_M17	M 17	fight-klub/three/FightKlub-Three-M17.jpg	default	Card	Common	093	Three	Three	playerNDeck
+Three_3_094_C_M18	M 18	fight-klub/three/FightKlub-Three-M18.jpg	default	Card	Common	094	Three	Three	playerNDeck
+Three_3_095_C_P16	P 16	fight-klub/three/FightKlub-Three-P16.jpg	default	Card	Common	095	Three	Three	playerNDeck
+Three_3_096_C_P17	P 17	fight-klub/three/FightKlub-Three-P17.jpg	default	Card	Common	096	Three	Three	playerNDeck
+Three_3_097_C_P18	P 18	fight-klub/three/FightKlub-Three-P18.jpg	default	Card	Common	097	Three	Three	playerNDeck
+Three_3_098_C_S16	S 16	fight-klub/three/FightKlub-Three-S16.jpg	default	Card	Common	098	Three	Three	playerNDeck
+Three_3_099_C_S17	S 17	fight-klub/three/FightKlub-Three-S17.jpg	default	Card	Common	099	Three	Three	playerNDeck
+Three_3_100_C_S18	S 18	fight-klub/three/FightKlub-Three-S18.jpg	default	Card	Common	100	Three	Three	playerNDeck
+BlackBeauty3_3_BB1_R_JohnConnor	John Connor	fight-klub/blackbeauty3/FightKlub-BlackBeauty3-JohnConnor.jpg	default	Card	Rare	BB1	BlackBeauty3	BlackBeauty3	playerNDeck
+BlackBeauty3_3_BB2_R_DontEvenThinkAboutIt	Dont Even Think About It	fight-klub/blackbeauty3/FightKlub-BlackBeauty3-DontEvenThinkAboutIt.jpg	default	Card	Rare	BB2	BlackBeauty3	BlackBeauty3	playerNDeck
+BlackBeauty3_3_BB3_R_TheEdge	The Edge	fight-klub/blackbeauty3/FightKlub-BlackBeauty3-TheEdge.jpg	default	Card	Rare	BB3	BlackBeauty3	BlackBeauty3	playerNDeck

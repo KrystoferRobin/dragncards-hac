@@ -1,0 +1,8 @@
+Built 2026-09-11 06:26 UTC from LackeyCCG Mythos (Sillywiz04).
+Source clone: plugins/mythos-lackey-source (https://github.com/Sillywiz04/Mythos)
+Author credit: Lackey / Sillywiz04
+
+Tabletop plugin only — Lackey has no rules engine to port.
+TSV rows: 1336  missing art: 0  still remote: 0
+Prebuilts: 11 Lackey sample/standard decks.
+Lobby banner.jpg / logo.jpg live in images/mythos/_plugin/.

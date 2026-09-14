@@ -1,0 +1,12 @@
+.browse-hud-handle {
+  cursor: grab;
+  touch-action: none;
+}
+
+.browse-hud-handle:active {
+  cursor: grabbing;
+}
+
+.browse-options-hud .browse-hud-no-drag {
+  cursor: pointer;
+}

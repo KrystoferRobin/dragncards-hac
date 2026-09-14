@@ -1,56 +1,106 @@
 defmodule DragnCardsWeb.API.V1.RegistrationController do
   use DragnCardsWeb, :controller
 
+  import Ecto.Query
   alias Ecto.Changeset
   alias Plug.Conn
+  alias DragnCards.Repo
+  alias DragnCards.Users.User
 
   @spec create(Conn.t(), map()) :: Conn.t()
   def create(conn, %{"user" => user_params}) do
-    conn
-    |> Pow.Plug.create_user(user_params)
-    |> case do
-      {:ok, user, conn} ->
-        send_confirmation_email(user, conn)
+    invite_code = Map.get(user_params, "invite_code") || Map.get(user_params, "inviteCode")
 
-        json(conn, %{
-          data: %{
-            token: conn.private[:api_auth_token],
-            renew_token: conn.private[:api_renew_token]
-          }
+    cond do
+      not invite_configured?() ->
+        conn
+        |> put_status(403)
+        |> json(%{
+          error: %{status: 403, message: "Sign-up is disabled (no invite code configured)."}
         })
 
-      {:error, changeset, conn} ->
+      not invite_valid?(invite_code) ->
+        conn
+        |> put_status(403)
+        |> json(%{error: %{status: 403, message: "Invalid Haven invite code."}})
+
+      true ->
+        alias_name = user_params["alias"] || ""
+
+        params =
+          user_params
+          |> Map.drop(["invite_code", "inviteCode"])
+          |> Map.put("email", invite_email(alias_name))
 
         conn
-        |> put_status(500)
-        |> json(%{error: %{status: 500, message: "Couldn't create user"}})
+        |> Pow.Plug.create_user(params)
+        |> case do
+          {:ok, user, conn} ->
+            confirm_user(user)
+
+            json(conn, %{
+              data: %{
+                token: conn.private[:api_auth_token],
+                renew_token: conn.private[:api_renew_token]
+              }
+            })
+
+          {:error, changeset, conn} ->
+            conn
+            |> put_status(500)
+            |> json(%{
+              error: %{
+                status: 500,
+                message: "Couldn't create user",
+                errors: traverse_errors(changeset)
+              }
+            })
+        end
     end
   end
 
-  _ = """
-  *** Next two functions are copied and modified from
-  ./lib/extensions/email_confirmation/phoenix/controllers/controller_callbacks.ex
-  in the 'pow' library.
-  REASON: Customize the url sent to include the front-end. ***
-  """
-
-  @doc """
-  Sends a confirmation e-mail to the user.
-
-  The user struct passed to the mailer will have the `:email` set to the
-  `:unconfirmed_email` value if `:unconfirmed_email` is set.
-  """
-  @spec send_confirmation_email(map(), Conn.t()) :: any()
-  def send_confirmation_email(user, conn) do
-    url = confirmation_url(conn, user)
-    unconfirmed_user = %{user | email: user.unconfirmed_email || user.email}
-    email = PowEmailConfirmation.Phoenix.Mailer.email_confirmation(conn, unconfirmed_user, url)
-    Pow.Phoenix.Mailer.deliver(conn, email)
+  defp invite_configured? do
+    String.trim(System.get_env("DRAGN_INVITE_CODE") || "") != ""
   end
 
-  defp confirmation_url(conn, user) do
-    token = PowEmailConfirmation.Plug.sign_confirmation_token(conn, user)
-    Application.get_env(:dragncards, DragnCardsWeb.Endpoint)[:front_end_email_confirm_url]
-    |> String.replace("{token}", token)
+  defp invite_valid?(given) do
+    expected = String.trim(System.get_env("DRAGN_INVITE_CODE") || "")
+    given = given |> to_string() |> String.trim()
+
+    expected != "" and given != "" and
+      Plug.Crypto.secure_compare(
+        :crypto.hash(:sha256, expected),
+        :crypto.hash(:sha256, given)
+      )
+  end
+
+  defp invite_email(alias) do
+    slug =
+      alias
+      |> to_string()
+      |> String.trim()
+      |> String.downcase()
+      |> String.replace(~r/[^a-z0-9]+/u, "-")
+      |> String.trim("-")
+
+    slug = if slug == "", do: "player-#{System.unique_integer([:positive])}", else: slug
+    "#{slug}@haven.invite"
+  end
+
+  defp confirm_user(%{id: id}) when is_integer(id) do
+    now = DateTime.utc_now() |> DateTime.truncate(:second)
+
+    from(u in User, where: u.id == ^id)
+    |> Repo.update_all(set: [email_confirmed_at: now])
+  end
+
+  defp confirm_user(_), do: :ok
+
+  defp traverse_errors(changeset) do
+    Changeset.traverse_errors(changeset, fn {msg, opts} ->
+      Enum.reduce(opts, msg, fn {key, value}, acc ->
+        String.replace(acc, "%{#{key}}", to_string(value))
+      end)
+    end)
   end
 end

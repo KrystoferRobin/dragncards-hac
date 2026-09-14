@@ -1,0 +1,53 @@
+{
+  "deckbuilder": {
+    "addButtons": [
+      1,
+      2,
+      3
+    ],
+    "columns": [
+      {
+        "propName": "name",
+        "label": "Name"
+      },
+      {
+        "propName": "type",
+        "label": "Type"
+      },
+      {
+        "propName": "power",
+        "label": "Power"
+      },
+      {
+        "propName": "packName",
+        "label": "Set"
+      },
+      {
+        "propName": "deck",
+        "label": "Deck"
+      }
+    ],
+    "spawnGroups": [
+      {
+        "loadGroupId": "playerNPlotDeck",
+        "label": "My Plot Deck"
+      },
+      {
+        "loadGroupId": "playerNGroupDeck",
+        "label": "My Group Deck"
+      },
+      {
+        "loadGroupId": "playerNLead",
+        "label": "My Lead"
+      },
+      {
+        "loadGroupId": "sharedPlots",
+        "label": "Shared Plots"
+      },
+      {
+        "loadGroupId": "sharedGroups",
+        "label": "Shared Groups"
+      }
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "groupMenu": {
+    "moveToGroupIds": [
+      "playerNHand",
+      "playerNDeck",
+      "playerNKO",
+      "playerNPlay",
+      "playerNMain",
+      "playerNLocations",
+      "playerNRemoved",
+      "playerNMisc",
+      "playerN+1Play",
+      "sharedSetAside"
+    ],
+    "options": []
+  }
+}

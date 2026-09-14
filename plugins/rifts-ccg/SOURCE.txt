@@ -1,0 +1,8 @@
+Built 2026-09-12 17:33 UTC from LackeyCCG RiftsCCG.
+Source: /Users/krystoferrobin/Downloads/lackeyplugins/RiftsCCG
+Art: https://github.com/wishmstr/RiftsCCG raw setimages.
+Author credit: Lackey / wishmstr
+
+Tabletop plugin only — Lackey has no rules engine to port.
+TSV rows: 288  skipped (no image URL or duplicate): 0
+Prebuilts: 1 Lackey decks.

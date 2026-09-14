@@ -1,0 +1,34 @@
+mse version: 2.1.2
+short name: HEX symbols
+full name: HEX inline symbols
+version: 0.1.1
+image font size: 40
+horizontal space: 0.15
+
+symbol:
+	code: blood
+	image: blood.png
+
+symbol:
+	code: diamond
+	image: diamond.png
+
+symbol:
+	code: ruby
+	image: ruby.png
+
+symbol:
+	code: sapphire
+	image: sapphire.png
+
+symbol:
+	code: wild
+	image: wild.png
+
+symbol:
+	code: atk
+	image: atk.png
+
+symbol:
+	code: def
+	image: def.png

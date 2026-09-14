@@ -1,0 +1,46 @@
+{
+  "phases": {
+    "untap": {
+      "label": "Untap",
+      "height": "12%"
+    },
+    "upkeep": {
+      "label": "Upkeep",
+      "height": "12%"
+    },
+    "draw": {
+      "label": "Draw",
+      "height": "12%"
+    },
+    "main1": {
+      "label": "Main 1",
+      "height": "13%"
+    },
+    "combat": {
+      "label": "Combat",
+      "height": "13%"
+    },
+    "main2": {
+      "label": "Main 2",
+      "height": "13%"
+    },
+    "end": {
+      "label": "End",
+      "height": "13%"
+    },
+    "cleanup": {
+      "label": "Discard",
+      "height": "12%"
+    }
+  },
+  "phaseOrder": [
+    "untap",
+    "upkeep",
+    "draw",
+    "main1",
+    "combat",
+    "main2",
+    "end",
+    "cleanup"
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "cardMenu": {
+    "moveToGroupIds": [
+      "playerNHand",
+      "playerNDeck",
+      "playerNDiscard",
+      "playerNCharacter",
+      "playerNFight",
+      "playerNDamage",
+      "playerN+1Character",
+      "sharedDrop",
+      "sharedSetAside"
+    ],
+    "options": [
+      {
+        "label": "Activate",
+        "actionList": "spendCard"
+      },
+      {
+        "label": "Refresh",
+        "actionList": "readyCard"
+      },
+      {
+        "label": "Invert",
+        "actionList": "invertCard"
+      },
+      {
+        "label": "Flip",
+        "actionList": "flipCard"
+      },
+      {
+        "label": "Discard",
+        "actionList": "discardCard"
+      },
+      {
+        "label": "Detach",
+        "actionList": "detachCard"
+      },
+      {
+        "label": "Shuffle into draw stack",
+        "actionList": "shuffleIntoDeck"
+      }
+    ]
+  }
+}

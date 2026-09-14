@@ -1,0 +1,10 @@
+{
+  "playerProperties": {
+    "xc": {
+      "label": "XC",
+      "type": "integer",
+      "default": 0,
+      "min": 0
+    }
+  }
+}

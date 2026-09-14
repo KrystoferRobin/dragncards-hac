@@ -1,0 +1,92 @@
+{
+  "hotkeys": {
+    "game": [
+      {
+        "key": "D",
+        "actionList": "drawDeck",
+        "label": "Draw"
+      },
+      {
+        "key": "S",
+        "actionList": "shuffleDeck",
+        "label": "Shuffle deck"
+      },
+      {
+        "key": "R",
+        "actionList": "readyAll",
+        "label": "Ready all"
+      },
+      {
+        "key": "C",
+        "actionList": "flipCoin",
+        "label": "JKP / coin"
+      },
+      {
+        "key": "V",
+        "actionList": "increaseVp",
+        "label": "VP +1"
+      }
+    ],
+    "card": [
+      {
+        "key": "I",
+        "actionList": "rotateCard",
+        "label": "Rotate 180"
+      },
+      {
+        "key": "K",
+        "actionList": "readyCard",
+        "label": "Ready"
+      },
+      {
+        "key": "F",
+        "actionList": [
+          "FLIP",
+          "$ACTIVE_CARD_ID"
+        ],
+        "label": "Flip"
+      },
+      {
+        "key": "X",
+        "actionList": [
+          "DISCARD",
+          "$ACTIVE_CARD_ID"
+        ],
+        "label": "Discard"
+      },
+      {
+        "key": "A",
+        "actionList": [
+          "DETACH",
+          "$ACTIVE_CARD_ID"
+        ],
+        "label": "Detach"
+      },
+      {
+        "key": "H",
+        "actionList": [
+          "SHUFFLE_INTO_DECK",
+          "$ACTIVE_CARD_ID"
+        ],
+        "label": "Shuffle into deck"
+      }
+    ],
+    "token": [
+      {
+        "key": "1",
+        "tokenType": "dmg10",
+        "label": "+10 damage"
+      },
+      {
+        "key": "2",
+        "tokenType": "dmg30",
+        "label": "+30 damage"
+      },
+      {
+        "key": "3",
+        "tokenType": "dmg100",
+        "label": "+100 damage"
+      }
+    ]
+  }
+}

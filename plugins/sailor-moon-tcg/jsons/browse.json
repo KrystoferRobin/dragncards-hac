@@ -1,0 +1,22 @@
+{
+  "browse": {
+    "filterPropertySideA": "type",
+    "filterValuesSideA": [
+      "Event",
+      "Item",
+      "Location",
+      "Monster",
+      "Person",
+      "Power",
+      "Scout/Knight",
+      "Token",
+      "Villain"
+    ],
+    "textPropertiesSideA": [
+      "name",
+      "faction",
+      "text",
+      "packName"
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "steps": {
+    "0.0": {
+      "label": "id:step-0.0",
+      "phaseId": "Beginning"
+    },
+    "0.1": {
+      "label": "id:step-0.1",
+      "phaseId": "End"
+    },
+    "1.1": {
+      "label": "id:step-1.1",
+      "phaseId": "Player"
+    },
+    "1.2": {
+      "label": "id:step-1.2",
+      "phaseId": "Player"
+    },
+    "2.1": {
+      "label": "id:step-2.1",
+      "phaseId": "Villain"
+    },
+    "2.2": {
+      "label": "id:step-2.2",
+      "phaseId": "Villain"
+    },
+    "2.3": {
+      "label": "id:step-2.3",
+      "phaseId": "Villain"
+    },
+    "2.4": {
+      "label": "id:step-2.4",
+      "phaseId": "Villain"
+    },
+    "2.5": {
+      "label": "id:step-2.5",
+      "phaseId": "Villain"
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "phases": {
+    "startOfRound": {"label": "Start of Round", "height": "33%"},
+    "playerActions": {"label": "Player Actions", "height": "34%"},
+    "endOfRound": {"label": "End of Round", "height": "33%"}
+  },
+  "phaseOrder": ["startOfRound", "playerActions", "endOfRound"]
+}

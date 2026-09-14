@@ -1,0 +1,30 @@
+{
+  "pluginMenu": {
+    "options": [
+      {
+        "label": "Draw",
+        "actionList": "drawDeck"
+      },
+      {
+        "label": "Shuffle deck",
+        "actionList": "shuffleDeck"
+      },
+      {
+        "label": "Ready all",
+        "actionList": "readyAll"
+      },
+      {
+        "label": "Flip coin",
+        "actionList": "flipCoin"
+      },
+      {
+        "label": "Day -1",
+        "actionList": "decreaseDays"
+      },
+      {
+        "label": "Day +1",
+        "actionList": "increaseDays"
+      }
+    ]
+  }
+}

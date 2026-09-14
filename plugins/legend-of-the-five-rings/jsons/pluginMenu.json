@@ -1,0 +1,30 @@
+{
+  "pluginMenu": {
+    "options": [
+      {
+        "label": "Draw fate",
+        "actionList": "drawFate"
+      },
+      {
+        "label": "Refill provinces",
+        "actionList": "refillDynasty"
+      },
+      {
+        "label": "Unbow + flip provinces",
+        "actionList": "refresh"
+      },
+      {
+        "label": "Shuffle both decks",
+        "actionList": "shuffleBoth"
+      },
+      {
+        "label": "Claim Imperial Favor",
+        "actionList": "claimFavor"
+      },
+      {
+        "label": "Return Imperial Favor",
+        "actionList": "returnFavor"
+      }
+    ]
+  }
+}

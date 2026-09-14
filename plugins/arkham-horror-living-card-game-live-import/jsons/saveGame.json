@@ -1,0 +1,122 @@
+{
+  "saveGame": {
+    "metadata": {
+      "Campaign - Scenario": "{{$GAME.arkham.campaignName}} - {{$GAME.arkham.scenarioName}}",
+      "Difficulty": "{{$GAME.arkham.scenarioDifficulty}}",
+      "Investigators": [
+        [
+          "VAR",
+          "$INVESTIGATORS",
+          ""
+        ],
+        [
+          "VAR",
+          "$SEPARATOR",
+          ""
+        ],
+        [
+          "FOR_EACH_VAL",
+          "$PLAYER_I",
+          "$PLAYER_ORDER",
+          [
+            [
+              "VAR",
+              "$SUFFIX",
+              ""
+            ],
+            [
+              "COND",
+              [
+                "EQUAL",
+                "$PLAYER_I",
+                "$PLAYER_N"
+              ],
+              [
+                "UPDATE_VAR",
+                "$SUFFIX",
+                " (you)"
+              ]
+            ],
+            [
+              "VAR",
+              "$MINI_INVESTIGATOR",
+              [
+                "GET_MINI_INVESTIGATOR",
+                "$PLAYER_I"
+              ]
+            ],
+            [
+              "VAR",
+              "$INVESTIGATOR",
+              [
+                "GET_INVESTIGATOR",
+                "$PLAYER_I"
+              ]
+            ],
+            [
+              "COND",
+              [
+                "NOT_EQUAL",
+                "$MINI_INVESTIGATOR",
+                null
+              ],
+              [
+                [
+                  "VAR",
+                  "$NAME",
+                  "$MINI_INVESTIGATOR.sides.A.name"
+                ],
+                [
+                  "UPDATE_VAR",
+                  "$INVESTIGATORS",
+                  "{{$INVESTIGATORS}}{{$SEPARATOR}}{{$NAME}}{{$SUFFIX}}"
+                ],
+                [
+                  "UPDATE_VAR",
+                  "$SEPARATOR",
+                  ", "
+                ]
+              ],
+              [
+                "NOT_EQUAL",
+                "$INVESTIGATOR",
+                null
+              ],
+              [
+                [
+                  "VAR",
+                  "$NAME",
+                  "$INVESTIGATOR.sides.A.name"
+                ],
+                [
+                  "UPDATE_VAR",
+                  "$INVESTIGATORS",
+                  "{{$INVESTIGATORS}}{{$SEPARATOR}}{{$NAME}}{{$SUFFIX}}"
+                ],
+                [
+                  "UPDATE_VAR",
+                  "$SEPARATOR",
+                  ", "
+                ]
+              ]
+            ]
+          ]
+        ],
+        [
+          "COND",
+          [
+            "EQUAL",
+            "$INVESTIGATORS",
+            ""
+          ],
+          "No Investigators",
+          [
+            "TRUE"
+          ],
+          "$INVESTIGATORS"
+        ]
+      ],
+      "Round": "{{$GAME.roundNumber}}"
+    }
+  }
+}

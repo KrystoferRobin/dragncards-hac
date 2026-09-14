@@ -1,0 +1,24 @@
+{
+  "phases": {
+    "Action": {
+      "height": "10%",
+      "label": "action"
+    },
+    "Combat": {
+      "height": "60%",
+      "label": "combat"
+    },
+    "Draw": {
+      "height": "10%",
+      "label": "drawPhase"
+    },
+    "Location": {
+      "height": "10%",
+      "label": "location"
+    },
+    "Victory": {
+      "height": "10%",
+      "label": "victory"
+    }
+  }
+}

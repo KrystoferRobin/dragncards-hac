@@ -1,46 +1,77 @@
+# DragnCards on toybox.hundredacre.club
+#
+# Card art (the bulky bit) on the big drives — nginx serves it at /cards/:
+#   /fileshare/services/dragncards/images
+#
+# Postgres stays in a Docker volume on the OS disk. Plugin JSON is small;
+# the fileshare typically will not honor uid 999, and Postgres then dies with
+# "data directory has wrong ownership".
+#
+# Override the images root in `.env` if your fileshare path differs:
+#   DRAGNCARDS_DATA=/fileshare/services/dragncards
+#
+# On the host, once:
+#   mkdir -p /fileshare/services/dragncards/images
+
 services:
   postgres:
     image: docker.io/library/postgres:16
+    hostname: postgres
+    restart: unless-stopped
     environment:
       - POSTGRES_USER=postgres
       - POSTGRES_PASSWORD=postgres
       - POSTGRES_DB=postgres
     ports:
-      - "5433:5432"
+      - "127.0.0.1:5433:5432"
     volumes:
       - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres"]
+      interval: 5s
+      timeout: 5s
+      retries: 30
+      start_period: 20s
   backend:
     image: elixir:1.14.4
-    depends_on: 
-      - postgres
+    restart: unless-stopped
+    depends_on:
+      postgres:
+        condition: service_healthy
     ports:
-      - "4000:4000"
+      - "127.0.0.1:4000:4000"
     volumes:
       - ./backend:/app
     entrypoint: /app/scripts/local-dev.sh
     working_dir: /app
     environment:
       - DB_HOSTNAME=postgres
+      # One shared club invite. Change this, restart backend, post the new code in TCG chat.
+      - DRAGN_INVITE_CODE=${DRAGN_INVITE_CODE:-changeme}
+      # Haven Bots webhook URL. New LFG posts land in that chat with a link back here.
+      - HAVEN_LFG_WEBHOOK_URL=${HAVEN_LFG_WEBHOOK_URL:-}
+      # Public site URL for LFG link-backs (nginx vhost toybox.hundredacre.club).
+      - DRAGNCARDS_PUBLIC_URL=${DRAGNCARDS_PUBLIC_URL:-https://toybox.hundredacre.club}
   frontend:
     image: node:20
     depends_on: 
       - backend
     ports:
-      - "3000:3000"
+      - "127.0.0.1:3000:3000"
     volumes:
       - ./frontend:/app
     entrypoint: /app/scripts/local-dev.sh
     working_dir: /app
     environment:
       - REACT_APP_BE_HOSTNAME=backend
-#uncomment apache if you're running pure offline mode. Other steps required
-#   apache:
-#     image: httpd:latest
-#     container_name: my-apache-app
-#     ports:
-#     - '8080:80'
-#     volumes:
-#     - ./images:/usr/local/apache2/htdocs
+      # Relative socket so the browser uses wss://toybox…/be/socket (not localhost:4000).
+      - REACT_APP_WS_URL=/be/socket
+      - HOST=0.0.0.0
+      - DANGEROUSLY_DISABLE_HOST_CHECK=true
+      - WDS_SOCKET_PORT=0
+  # Card art is served by host nginx (toybox /cards/), not this stack.
+  # Drop files in ${DRAGNCARDS_DATA}/images/ then set the plugin's
+  # imageUrlPrefix to https://toybox.hundredacre.club/cards/
+
 volumes:
   pgdata:
-# images:

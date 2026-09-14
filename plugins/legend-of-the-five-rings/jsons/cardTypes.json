@@ -1,0 +1,160 @@
+{
+  "cardTypes": {
+    "Ancestor": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "stayBowed",
+        "stayFlip",
+        "green",
+        "red"
+      ]
+    },
+    "Celestial": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "stayBowed",
+        "stayFlip",
+        "green",
+        "red"
+      ]
+    },
+    "Event": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "stayBowed",
+        "stayFlip",
+        "green",
+        "red"
+      ]
+    },
+    "Follower": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "stayBowed",
+        "stayFlip",
+        "green",
+        "red"
+      ]
+    },
+    "Holding": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "stayBowed",
+        "stayFlip",
+        "green",
+        "red"
+      ]
+    },
+    "Item": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "stayBowed",
+        "stayFlip",
+        "green",
+        "red"
+      ]
+    },
+    "Personality": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "stayBowed",
+        "stayFlip",
+        "green",
+        "red"
+      ]
+    },
+    "Playmat": {
+      "width": 3.4,
+      "height": 0.55,
+      "tokens": [],
+      "zoomFactor": 0.35
+    },
+    "Region": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "stayBowed",
+        "stayFlip",
+        "green",
+        "red"
+      ]
+    },
+    "Ring": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "stayBowed",
+        "stayFlip",
+        "green",
+        "red"
+      ]
+    },
+    "Sensei": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "stayBowed",
+        "stayFlip",
+        "green",
+        "red"
+      ]
+    },
+    "Spell": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "stayBowed",
+        "stayFlip",
+        "green",
+        "red"
+      ]
+    },
+    "Strategy": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "stayBowed",
+        "stayFlip",
+        "green",
+        "red"
+      ]
+    },
+    "Stronghold": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "stayBowed",
+        "stayFlip",
+        "green",
+        "red"
+      ]
+    },
+    "Token": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "stayBowed",
+        "stayFlip",
+        "green",
+        "red"
+      ]
+    },
+    "Wind": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "stayBowed",
+        "stayFlip",
+        "green",
+        "red"
+      ]
+    }
+  }
+}

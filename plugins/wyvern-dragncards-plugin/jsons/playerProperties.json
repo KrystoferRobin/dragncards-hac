@@ -1,0 +1,10 @@
+{
+  "playerProperties": {
+    "gold": {
+      "label": "Gold",
+      "type": "integer",
+      "default": 25,
+      "min": 0
+    }
+  }
+}

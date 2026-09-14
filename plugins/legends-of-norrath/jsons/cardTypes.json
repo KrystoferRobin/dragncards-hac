@@ -1,0 +1,60 @@
+{
+  "cardTypes": {
+    "Ability": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "damage",
+        "plus"
+      ]
+    },
+    "Avatar": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "damage",
+        "plus"
+      ]
+    },
+    "Card": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "damage",
+        "plus"
+      ]
+    },
+    "Item": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "damage",
+        "plus"
+      ]
+    },
+    "Quest": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "damage",
+        "plus"
+      ]
+    },
+    "Tactic": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "damage",
+        "plus"
+      ]
+    },
+    "Unit": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "damage",
+        "plus"
+      ]
+    }
+  }
+}

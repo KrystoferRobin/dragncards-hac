@@ -1,0 +1,2304 @@
+{
+  "layouts": {
+    "layout1Player": {
+      "cardSize": 14,
+      "chat": {
+        "height": "1/6",
+        "left": "60%",
+        "top": "5/6",
+        "width": "40%"
+      },
+      "regions": {
+        "sharedAgendaStory": {
+          "direction": "horizontal",
+          "disableDroppableAttachments": true,
+          "groupId": "sharedAgendaStory",
+          "height": "1/6",
+          "left": "58%",
+          "top": "0%",
+          "type": "pile",
+          "width": "11%"
+        },
+        "sharedActStory": {
+          "direction": "horizontal",
+          "disableDroppableAttachments": true,
+          "groupId": "sharedActStory",
+          "height": "1/6",
+          "left": "69%",
+          "top": "0%",
+          "type": "pile",
+          "width": "11%"
+        },
+        "player1Threat": {
+          "direction": "horizontal",
+          "disableDroppableAttachments": true,
+          "groupId": "{playerN}Threat",
+          "height": "1/6",
+          "left": "51%",
+          "top": "3/6",
+          "type": "row",
+          "width": "49%"
+        },
+        "sharedDeckB": {
+          "direction": "horizontal",
+          "disableDroppableAttachments": true,
+          "groupId": "sharedDeckB",
+          "height": "1/6",
+          "layerIndex": 1,
+          "left": "15%",
+          "showMenu": true,
+          "style": {
+            "background": "rgba(55, 65, 81)",
+            "borderRadius": "1vh",
+            "boxShadow": "0 0 0.5vh 0.5vh rgba(0, 0, 0, 1)"
+          },
+          "top": "42%",
+          "type": "pile",
+          "visible": false,
+          "width": "9%"
+        },
+        "sharedDiscardB": {
+          "direction": "horizontal",
+          "disableDroppableAttachments": true,
+          "groupId": "sharedDiscardB",
+          "height": "1/6",
+          "layerIndex": 1,
+          "left": "15%",
+          "showMenu": true,
+          "style": {
+            "background": "rgba(55, 65, 81)",
+            "borderRadius": "1vh",
+            "boxShadow": "0 0 0.5vh 0.5vh rgba(0, 0, 0, 1)"
+          },
+          "top": "61%",
+          "type": "pile",
+          "visible": false,
+          "width": "9%"
+        },
+        "playerNHand": {
+          "direction": "horizontal",
+          "disableDroppableAttachments": true,
+          "groupId": "{playerN}Hand",
+          "height": "1/6",
+          "left": "0%",
+          "showMenu": true,
+          "style": {
+            "background": "rgba(0, 0, 0, 0.3)"
+          },
+          "top": "5/6",
+          "type": "fan",
+          "width": "44%"
+        },
+        "sharedPileA": {
+          "direction": "horizontal",
+          "disableDroppableAttachments": true,
+          "groupId": "sharedPileA",
+          "height": "1/6",
+          "layerIndex": 1,
+          "left": "76%",
+          "showMenu": true,
+          "style": {
+            "background": "rgba(55, 65, 81)",
+            "borderRadius": "1vh",
+            "boxShadow": "0 0 0.5vh 0.5vh rgba(0, 0, 0, 1)"
+          },
+          "top": "42%",
+          "type": "pile",
+          "visible": false,
+          "width": "9%"
+        },
+        "sharedActStoryE": {
+          "direction": "horizontal",
+          "disableDroppableAttachments": true,
+          "groupId": "sharedActStoryE",
+          "height": "1/6",
+          "layerIndex": 1,
+          "left": "85%",
+          "showMenu": true,
+          "style": {
+            "background": "rgba(55, 65, 81)",
+            "borderRadius": "1vh",
+            "boxShadow": "0 0 0.5vh 0.5vh rgba(0, 0, 0, 1)"
+          },
+          "top": "4%",
+          "type": "pile",
+          "visible": false,
+          "width": "11%"
+        },
+        "playerNDeck": {
+          "direction": "horizontal",
+          "disableDroppableAttachments": true,
+          "groupId": "{playerN}Deck",
+          "height": "1/6",
+          "left": "44%",
+          "style": {
+            "background": "rgba(0, 0, 0, 0.3)"
+          },
+          "top": "5/6",
+          "type": "pile",
+          "width": "8%"
+        },
+        "sharedDiscardA": {
+          "direction": "horizontal",
+          "disableDroppableAttachments": true,
+          "groupId": "sharedDiscardA",
+          "height": "1/6",
+          "layerIndex": 1,
+          "left": "4%",
+          "showMenu": true,
+          "style": {
+            "background": "rgba(55, 65, 81)",
+            "borderRadius": "1vh",
+            "boxShadow": "0 0 0.5vh 0.5vh rgba(0, 0, 0, 1)"
+          },
+          "top": "61%",
+          "type": "pile",
+          "visible": false,
+          "width": "9%"
+        },
+        "sharedDeckA": {
+          "direction": "horizontal",
+          "disableDroppableAttachments": true,
+          "groupId": "sharedDeckA",
+          "height": "1/6",
+          "layerIndex": 1,
+          "left": "4%",
+          "showMenu": true,
+          "style": {
+            "background": "rgba(55, 65, 81)",
+            "borderRadius": "1vh",
+            "boxShadow": "0 0 0.5vh 0.5vh rgba(0, 0, 0, 1)"
+          },
+          "top": "42%",
+          "type": "pile",
+          "visible": false,
+          "width": "9%"
+        },
+        "sharedPileD": {
+          "direction": "horizontal",
+          "disableDroppableAttachments": true,
+          "groupId": "sharedPileD",
+          "height": "1/6",
+          "layerIndex": 1,
+          "left": "76%",
+          "showMenu": true,
+          "style": {
+            "background": "rgba(55, 65, 81)",
+            "borderRadius": "1vh",
+            "boxShadow": "0 0 0.5vh 0.5vh rgba(0, 0, 0, 1)"
+          },
+          "top": "61%",
+          "type": "pile",
+          "visible": false,
+          "width": "9%"
+        },
+        "player1Investigator": {
+          "direction": "horizontal",
+          "disableDroppableAttachments": true,
+          "groupId": "{playerN}Investigator",
+          "height": "1/6",
+          "left": "40%",
+          "top": "3/6",
+          "type": "row",
+          "width": "11%"
+        },
+        "sharedPileB": {
+          "direction": "horizontal",
+          "disableDroppableAttachments": true,
+          "groupId": "sharedPileB",
+          "height": "1/6",
+          "layerIndex": 1,
+          "left": "87%",
+          "showMenu": true,
+          "style": {
+            "background": "rgba(55, 65, 81)",
+            "borderRadius": "1vh",
+            "boxShadow": "0 0 0.5vh 0.5vh rgba(0, 0, 0, 1)"
+          },
+          "top": "42%",
+          "type": "pile",
+          "visible": false,
+          "width": "9%"
+        },
+        "sharedDiscardC": {
+          "direction": "horizontal",
+          "disableDroppableAttachments": true,
+          "groupId": "sharedDiscardC",
+          "height": "1/6",
+          "layerIndex": 1,
+          "left": "26%",
+          "showMenu": true,
+          "style": {
+            "background": "rgba(55, 65, 81)",
+            "borderRadius": "1vh",
+            "boxShadow": "0 0 0.5vh 0.5vh rgba(0, 0, 0, 1)"
+          },
+          "top": "61%",
+          "type": "pile",
+          "visible": false,
+          "width": "9%"
+        },
+        "sharedTokens": {
+          "direction": "horizontal",
+          "disableDroppableAttachments": true,
+          "groupId": "sharedTokens",
+          "height": "1/6",
+          "layerIndex": 1,
+          "left": "37%",
+          "showMenu": false,
+          "style": {
+            "background": "rgba(55, 65, 81)",
+            "borderRadius": "1vh",
+            "boxShadow": "0 0 0.5vh 0.5vh rgba(0, 0, 0, 1)"
+          },
+          "top": "61%",
+          "type": "fan",
+          "visible": false,
+          "width": "26%"
+        },
+        "playerNSelection": {
+          "direction": "horizontal",
+          "disableDroppableAttachments": true,
+          "groupId": "{playerN}Selection",
+          "height": "1/6",
+          "layerIndex": 2,
+          "left": "0%",
+          "showMenu": false,
+          "style": {
+            "background": "rgba(55, 65, 81)"
+          },
+          "top": "5/6",
+          "type": "fan",
+          "visible": false,
+          "width": "44%"
+        },
+        "sharedVictoryDisplay": {
+          "direction": "horizontal",
+          "disableDroppableAttachments": true,
+          "groupId": "sharedVictoryDisplay",
+          "height": "1/6",
+          "layerIndex": 1,
+          "left": "37%",
+          "showMenu": true,
+          "style": {
+            "background": "rgba(55, 65, 81)",
+            "borderRadius": "1vh",
+            "boxShadow": "0 0 0.5vh 0.5vh rgba(0, 0, 0, 1)"
+          },
+          "top": "42%",
+          "type": "row",
+          "visible": false,
+          "width": "37%"
+        },
+        "sharedEncounterDiscard": {
+          "direction": "horizontal",
+          "disableDroppableAttachments": true,
+          "groupId": "sharedEncounterDiscard",
+          "height": "1/6",
+          "left": "40%",
+          "top": "0%",
+          "type": "pile",
+          "width": "9%"
+        },
+        "sharedPileC": {
+          "direction": "horizontal",
+          "disableDroppableAttachments": true,
+          "groupId": "sharedPileC",
+          "height": "1/6",
+          "layerIndex": 1,
+          "left": "65%",
+          "showMenu": true,
+          "style": {
+            "background": "rgba(55, 65, 81)",
+            "borderRadius": "1vh",
+            "boxShadow": "0 0 0.5vh 0.5vh rgba(0, 0, 0, 1)"
+          },
+          "top": "61%",
+          "type": "pile",
+          "visible": false,
+          "width": "9%"
+        },
+        "sharedDeckC": {
+          "direction": "horizontal",
+          "disableDroppableAttachments": true,
+          "groupId": "sharedDeckC",
+          "height": "1/6",
+          "layerIndex": 1,
+          "left": "26%",
+          "showMenu": true,
+          "style": {
+            "background": "rgba(55, 65, 81)",
+            "borderRadius": "1vh",
+            "boxShadow": "0 0 0.5vh 0.5vh rgba(0, 0, 0, 1)"
+          },
+          "top": "42%",
+          "type": "pile",
+          "visible": false,
+          "width": "9%"
+        },
+        "sharedLocations": {
+          "direction": "horizontal",
+          "disableDroppableAttachments": true,
+          "groupId": "sharedLocations",
+          "height": "5/6",
+          "left": "0%",
+          "top": "0%",
+          "type": "free",
+          "width": "40%"
+        },
+        "playerNExtraDeck": {
+          "direction": "horizontal",
+          "disableDroppableAttachments": true,
+          "groupId": "{playerN}ExtraDeck",
+          "height": "1/6",
+          "left": "36%",
+          "style": {
+            "background": "rgba(0, 0, 0, 0.3)"
+          },
+          "top": "5/6",
+          "type": "pile",
+          "visible": false,
+          "width": "8%"
+        },
+        "playerNDiscard": {
+          "direction": "horizontal",
+          "disableDroppableAttachments": true,
+          "groupId": "{playerN}Discard",
+          "height": "1/6",
+          "left": "52%",
+          "style": {
+            "background": "rgba(0, 0, 0, 0.3)"
+          },
+          "top": "5/6",
+          "type": "pile",
+          "width": "8%"
+        },
+        "sharedNotInPlay": {
+          "direction": "horizontal",
+          "disableDroppableAttachments": true,
+          "groupId": "sharedNotInPlay",
+          "height": "1/6",
+          "layerIndex": 1,
+          "left": "4%",
+          "showMenu": false,
+          "style": {
+            "background": "rgba(55, 65, 81)",
+            "borderRadius": "1vh",
+            "boxShadow": "0 0 0.5vh 0.5vh rgba(0, 0, 0, 1)"
+          },
+          "top": "23%",
+          "type": "row",
+          "visible": false,
+          "width": "92%"
+        },
+        "sharedOffMap": {
+          "direction": "horizontal",
+          "disableDroppableAttachments": true,
+          "groupId": "sharedOffMap",
+          "height": "1/6",
+          "layerIndex": 1,
+          "left": "4%",
+          "showMenu": false,
+          "style": {
+            "background": "rgba(55, 65, 81)",
+            "borderRadius": "1vh",
+            "boxShadow": "0 0 0.5vh 0.5vh rgba(0, 0, 0, 1)"
+          },
+          "top": "4%",
+          "type": "row",
+          "visible": false,
+          "width": "40%"
+        },
+        "sharedActStoryD": {
+          "direction": "horizontal",
+          "disableDroppableAttachments": true,
+          "groupId": "sharedActStoryD",
+          "height": "1/6",
+          "layerIndex": 1,
+          "left": "72%",
+          "showMenu": true,
+          "style": {
+            "background": "rgba(55, 65, 81)",
+            "borderRadius": "1vh",
+            "boxShadow": "0 0 0.5vh 0.5vh rgba(0, 0, 0, 1)"
+          },
+          "top": "4%",
+          "type": "pile",
+          "visible": false,
+          "width": "11%"
+        },
+        "sharedEncounterDeck": {
+          "direction": "horizontal",
+          "disableDroppableAttachments": true,
+          "groupId": "sharedEncounterDeck",
+          "height": "1/6",
+          "left": "49%",
+          "top": "0%",
+          "type": "pile",
+          "width": "9%"
+        },
+        "sharedActStoryB": {
+          "direction": "horizontal",
+          "disableDroppableAttachments": true,
+          "groupId": "sharedActStoryB",
+          "height": "1/6",
+          "layerIndex": 1,
+          "left": "46%",
+          "showMenu": true,
+          "style": {
+            "background": "rgba(55, 65, 81)",
+            "borderRadius": "1vh",
+            "boxShadow": "0 0 0.5vh 0.5vh rgba(0, 0, 0, 1)"
+          },
+          "top": "4%",
+          "type": "pile",
+          "visible": false,
+          "width": "11%"
+        },
+        "sharedVoid": {
+          "direction": "horizontal",
+          "disableDroppableAttachments": true,
+          "groupId": "sharedVoid",
+          "height": "1/6",
+          "left": "89%",
+          "showMenu": true,
+          "style": {
+            "background": "rgba(0, 0, 0, 0.3)"
+          },
+          "top": "0%",
+          "type": "fan",
+          "width": "11%"
+        },
+        "player1Play": {
+          "direction": "horizontal",
+          "disableDroppableAttachments": true,
+          "groupId": "{playerN}Play",
+          "height": "1/6",
+          "left": "40%",
+          "top": "4/6",
+          "type": "row",
+          "width": "60%"
+        },
+        "sharedScenarioReference": {
+          "direction": "horizontal",
+          "disableDroppableAttachments": true,
+          "groupId": "sharedScenarioReference",
+          "height": "1/6",
+          "left": "80%",
+          "showMenu": true,
+          "top": "0%",
+          "type": "fan",
+          "width": "9%"
+        },
+        "sharedActStoryC": {
+          "direction": "horizontal",
+          "disableDroppableAttachments": true,
+          "groupId": "sharedActStoryC",
+          "height": "1/6",
+          "layerIndex": 1,
+          "left": "59%",
+          "showMenu": true,
+          "style": {
+            "background": "rgba(55, 65, 81)",
+            "borderRadius": "1vh",
+            "boxShadow": "0 0 0.5vh 0.5vh rgba(0, 0, 0, 1)"
+          },
+          "top": "4%",
+          "type": "pile",
+          "visible": false,
+          "width": "11%"
+        },
+        "sharedPileE": {
+          "direction": "horizontal",
+          "disableDroppableAttachments": true,
+          "groupId": "sharedPileE",
+          "height": "1/6",
+          "layerIndex": 1,
+          "left": "87%",
+          "showMenu": true,
+          "style": {
+            "background": "rgba(55, 65, 81)",
+            "borderRadius": "1vh",
+            "boxShadow": "0 0 0.5vh 0.5vh rgba(0, 0, 0, 1)"
+          },
+          "top": "61%",
+          "type": "pile",
+          "visible": false,
+          "width": "9%"
+        }
+      },
+      "rowSpacing": 2,
+      "tableButtons": {}
+    },
+    "layout2Player": {
+      "cardSize": 14,
+      "chat": {
+        "height": "1/6",
+        "left": "60%",
+        "top": "5/6",
+        "width": "40%"
+      },
+      "regions": {
+        "sharedAgendaStory": {
+          "direction": "horizontal",
+          "disableDroppableAttachments": true,
+          "groupId": "sharedAgendaStory",
+          "height": "1/6",
+          "left": "58%",
+          "top": "0%",
+          "type": "pile",
+          "width": "11%"
+        },
+        "sharedActStory": {
+          "direction": "horizontal",
+          "disableDroppableAttachments": true,
+          "groupId": "sharedActStory",
+          "height": "1/6",
+          "left": "69%",
+          "top": "0%",
+          "type": "pile",
+          "width": "11%"
+        },
+        "player1Threat": {
+          "direction": "horizontal",
+          "disableDroppableAttachments": true,
+          "groupId": "{playerN}Threat",
+          "height": "1/6",
+          "left": "51%",
+          "top": "3/6",
+          "type": "row",
+          "width": "49%"
+        },
+        "player2Threat": {
+          "direction": "horizontal",
+          "disableDroppableAttachments": true,
+          "groupId": "{playerN+1}Threat",
+          "height": "1/6",
+          "left": "51%",
+          "top": "1/6",
+          "type": "row",
+          "width": "49%"
+        },
+        "sharedDeckB": {
+          "direction": "horizontal",
+          "disableDroppableAttachments": true,
+          "groupId": "sharedDeckB",
+          "height": "1/6",
+          "layerIndex": 1,
+          "left": "15%",
+          "showMenu": true,
+          "style": {
+            "background": "rgba(55, 65, 81)",
+            "borderRadius": "1vh",
+            "boxShadow": "0 0 0.5vh 0.5vh rgba(0, 0, 0, 1)"
+          },
+          "top": "42%",
+          "type": "pile",
+          "visible": false,
+          "width": "9%"
+        },
+        "sharedDiscardB": {
+          "direction": "horizontal",
+          "disableDroppableAttachments": true,
+          "groupId": "sharedDiscardB",
+          "height": "1/6",
+          "layerIndex": 1,
+          "left": "15%",
+          "showMenu": true,
+          "style": {
+            "background": "rgba(55, 65, 81)",
+            "borderRadius": "1vh",
+            "boxShadow": "0 0 0.5vh 0.5vh rgba(0, 0, 0, 1)"
+          },
+          "top": "61%",
+          "type": "pile",
+          "visible": false,
+          "width": "9%"
+        },
+        "playerNHand": {
+          "direction": "horizontal",
+          "disableDroppableAttachments": true,
+          "groupId": "{playerN}Hand",
+          "height": "1/6",
+          "left": "0%",
+          "showMenu": true,
+          "style": {
+            "background": "rgba(0, 0, 0, 0.3)"
+          },
+          "top": "5/6",
+          "type": "fan",
+          "width": "44%"
+        },
+        "sharedPileA": {
+          "direction": "horizontal",
+          "disableDroppableAttachments": true,
+          "groupId": "sharedPileA",
+          "height": "1/6",
+          "layerIndex": 1,
+          "left": "76%",
+          "showMenu": true,
+          "style": {
+            "background": "rgba(55, 65, 81)",
+            "borderRadius": "1vh",
+            "boxShadow": "0 0 0.5vh 0.5vh rgba(0, 0, 0, 1)"
+          },
+          "top": "42%",
+          "type": "pile",
+          "visible": false,
+          "width": "9%"
+        },
+        "sharedActStoryE": {
+          "direction": "horizontal",
+          "disableDroppableAttachments": true,
+          "groupId": "sharedActStoryE",
+          "height": "1/6",
+          "layerIndex": 1,
+          "left": "85%",
+          "showMenu": true,
+          "style": {
+            "background": "rgba(55, 65, 81)",
+            "borderRadius": "1vh",
+            "boxShadow": "0 0 0.5vh 0.5vh rgba(0, 0, 0, 1)"
+          },
+          "top": "4%",
+          "type": "pile",
+          "visible": false,
+          "width": "11%"
+        },
+        "playerNDeck": {
+          "direction": "horizontal",
+          "disableDroppableAttachments": true,
+          "groupId": "{playerN}Deck",
+          "height": "1/6",
+          "left": "44%",
+          "style": {
+            "background": "rgba(0, 0, 0, 0.3)"
+          },
+          "top": "5/6",
+          "type": "pile",
+          "width": "8%"
+        },
+        "sharedDiscardA": {
+          "direction": "horizontal",
+          "disableDroppableAttachments": true,
+          "groupId": "sharedDiscardA",
+          "height": "1/6",
+          "layerIndex": 1,
+          "left": "4%",
+          "showMenu": true,
+          "style": {
+            "background": "rgba(55, 65, 81)",
+            "borderRadius": "1vh",
+            "boxShadow": "0 0 0.5vh 0.5vh rgba(0, 0, 0, 1)"
+          },
+          "top": "61%",
+          "type": "pile",
+          "visible": false,
+          "width": "9%"
+        },
+        "sharedDeckA": {
+          "direction": "horizontal",
+          "disableDroppableAttachments": true,
+          "groupId": "sharedDeckA",
+          "height": "1/6",
+          "layerIndex": 1,
+          "left": "4%",
+          "showMenu": true,
+          "style": {
+            "background": "rgba(55, 65, 81)",
+            "borderRadius": "1vh",
+            "boxShadow": "0 0 0.5vh 0.5vh rgba(0, 0, 0, 1)"
+          },
+          "top": "42%",
+          "type": "pile",
+          "visible": false,
+          "width": "9%"
+        },
+        "sharedPileD": {
+          "direction": "horizontal",
+          "disableDroppableAttachments": true,
+          "groupId": "sharedPileD",
+          "height": "1/6",
+          "layerIndex": 1,
+          "left": "76%",
+          "showMenu": true,
+          "style": {
+            "background": "rgba(55, 65, 81)",
+            "borderRadius": "1vh",
+            "boxShadow": "0 0 0.5vh 0.5vh rgba(0, 0, 0, 1)"
+          },
+          "top": "61%",
+          "type": "pile",
+          "visible": false,
+          "width": "9%"
+        },
+        "player1Investigator": {
+          "direction": "horizontal",
+          "disableDroppableAttachments": true,
+          "groupId": "{playerN}Investigator",
+          "height": "1/6",
+          "left": "40%",
+          "top": "3/6",
+          "type": "row",
+          "width": "11%"
+        },
+        "sharedPileB": {
+          "direction": "horizontal",
+          "disableDroppableAttachments": true,
+          "groupId": "sharedPileB",
+          "height": "1/6",
+          "layerIndex": 1,
+          "left": "87%",
+          "showMenu": true,
+          "style": {
+            "background": "rgba(55, 65, 81)",
+            "borderRadius": "1vh",
+            "boxShadow": "0 0 0.5vh 0.5vh rgba(0, 0, 0, 1)"
+          },
+          "top": "42%",
+          "type": "pile",
+          "visible": false,
+          "width": "9%"
+        },
+        "sharedDiscardC": {
+          "direction": "horizontal",
+          "disableDroppableAttachments": true,
+          "groupId": "sharedDiscardC",
+          "height": "1/6",
+          "layerIndex": 1,
+          "left": "26%",
+          "showMenu": true,
+          "style": {
+            "background": "rgba(55, 65, 81)",
+            "borderRadius": "1vh",
+            "boxShadow": "0 0 0.5vh 0.5vh rgba(0, 0, 0, 1)"
+          },
+          "top": "61%",
+          "type": "pile",
+          "visible": false,
+          "width": "9%"
+        },
+        "sharedTokens": {
+          "direction": "horizontal",
+          "disableDroppableAttachments": true,
+          "groupId": "sharedTokens",
+          "height": "1/6",
+          "layerIndex": 1,
+          "left": "37%",
+          "showMenu": false,
+          "style": {
+            "background": "rgba(55, 65, 81)",
+            "borderRadius": "1vh",
+            "boxShadow": "0 0 0.5vh 0.5vh rgba(0, 0, 0, 1)"
+          },
+          "top": "61%",
+          "type": "fan",
+          "visible": false,
+          "width": "26%"
+        },
+        "playerNSelection": {
+          "direction": "horizontal",
+          "disableDroppableAttachments": true,
+          "groupId": "{playerN}Selection",
+          "height": "1/6",
+          "layerIndex": 2,
+          "left": "0%",
+          "showMenu": false,
+          "style": {
+            "background": "rgba(55, 65, 81)"
+          },
+          "top": "5/6",
+          "type": "fan",
+          "visible": false,
+          "width": "44%"
+        },
+        "sharedVictoryDisplay": {
+          "direction": "horizontal",
+          "disableDroppableAttachments": true,
+          "groupId": "sharedVictoryDisplay",
+          "height": "1/6",
+          "layerIndex": 1,
+          "left": "37%",
+          "showMenu": true,
+          "style": {
+            "background": "rgba(55, 65, 81)",
+            "borderRadius": "1vh",
+            "boxShadow": "0 0 0.5vh 0.5vh rgba(0, 0, 0, 1)"
+          },
+          "top": "42%",
+          "type": "row",
+          "visible": false,
+          "width": "37%"
+        },
+        "sharedEncounterDiscard": {
+          "direction": "horizontal",
+          "disableDroppableAttachments": true,
+          "groupId": "sharedEncounterDiscard",
+          "height": "1/6",
+          "left": "40%",
+          "top": "0%",
+          "type": "pile",
+          "width": "9%"
+        },
+        "sharedPileC": {
+          "direction": "horizontal",
+          "disableDroppableAttachments": true,
+          "groupId": "sharedPileC",
+          "height": "1/6",
+          "layerIndex": 1,
+          "left": "65%",
+          "showMenu": true,
+          "style": {
+            "background": "rgba(55, 65, 81)",
+            "borderRadius": "1vh",
+            "boxShadow": "0 0 0.5vh 0.5vh rgba(0, 0, 0, 1)"
+          },
+          "top": "61%",
+          "type": "pile",
+          "visible": false,
+          "width": "9%"
+        },
+        "sharedDeckC": {
+          "direction": "horizontal",
+          "disableDroppableAttachments": true,
+          "groupId": "sharedDeckC",
+          "height": "1/6",
+          "layerIndex": 1,
+          "left": "26%",
+          "showMenu": true,
+          "style": {
+            "background": "rgba(55, 65, 81)",
+            "borderRadius": "1vh",
+            "boxShadow": "0 0 0.5vh 0.5vh rgba(0, 0, 0, 1)"
+          },
+          "top": "42%",
+          "type": "pile",
+          "visible": false,
+          "width": "9%"
+        },
+        "player2Play": {
+          "direction": "horizontal",
+          "disableDroppableAttachments": true,
+          "groupId": "{playerN+1}Play",
+          "height": "1/6",
+          "left": "40%",
+          "top": "2/6",
+          "type": "row",
+          "width": "60%"
+        },
+        "sharedLocations": {
+          "direction": "horizontal",
+          "disableDroppableAttachments": true,
+          "groupId": "sharedLocations",
+          "height": "5/6",
+          "left": "0%",
+          "top": "0%",
+          "type": "free",
+          "width": "40%"
+        },
+        "playerNExtraDeck": {
+          "direction": "horizontal",
+          "disableDroppableAttachments": true,
+          "groupId": "{playerN}ExtraDeck",
+          "height": "1/6",
+          "left": "36%",
+          "style": {
+            "background": "rgba(0, 0, 0, 0.3)"
+          },
+          "top": "5/6",
+          "type": "pile",
+          "visible": false,
+          "width": "8%"
+        },
+        "player2Investigator": {
+          "direction": "horizontal",
+          "disableDroppableAttachments": true,
+          "groupId": "{playerN+1}Investigator",
+          "height": "1/6",
+          "left": "40%",
+          "top": "1/6",
+          "type": "row",
+          "width": "11%"
+        },
+        "playerNDiscard": {
+          "direction": "horizontal",
+          "disableDroppableAttachments": true,
+          "groupId": "{playerN}Discard",
+          "height": "1/6",
+          "left": "52%",
+          "style": {
+            "background": "rgba(0, 0, 0, 0.3)"
+          },
+          "top": "5/6",
+          "type": "pile",
+          "width": "8%"
+        },
+        "sharedNotInPlay": {
+          "direction": "horizontal",
+          "disableDroppableAttachments": true,
+          "groupId": "sharedNotInPlay",
+          "height": "1/6",
+          "layerIndex": 1,
+          "left": "4%",
+          "showMenu": false,
+          "style": {
+            "background": "rgba(55, 65, 81)",
+            "borderRadius": "1vh",
+            "boxShadow": "0 0 0.5vh 0.5vh rgba(0, 0, 0, 1)"
+          },
+          "top": "23%",
+          "type": "row",
+          "visible": false,
+          "width": "92%"
+        },
+        "sharedOffMap": {
+          "direction": "horizontal",
+          "disableDroppableAttachments": true,
+          "groupId": "sharedOffMap",
+          "height": "1/6",
+          "layerIndex": 1,
+          "left": "4%",
+          "showMenu": false,
+          "style": {
+            "background": "rgba(55, 65, 81)",
+            "borderRadius": "1vh",
+            "boxShadow": "0 0 0.5vh 0.5vh rgba(0, 0, 0, 1)"
+          },
+          "top": "4%",
+          "type": "row",
+          "visible": false,
+          "width": "40%"
+        },
+        "sharedActStoryD": {
+          "direction": "horizontal",
+          "disableDroppableAttachments": true,
+          "groupId": "sharedActStoryD",
+          "height": "1/6",
+          "layerIndex": 1,
+          "left": "72%",
+          "showMenu": true,
+          "style": {
+            "background": "rgba(55, 65, 81)",
+            "borderRadius": "1vh",
+            "boxShadow": "0 0 0.5vh 0.5vh rgba(0, 0, 0, 1)"
+          },
+          "top": "4%",
+          "type": "pile",
+          "visible": false,
+          "width": "11%"
+        },
+        "sharedEncounterDeck": {
+          "direction": "horizontal",
+          "disableDroppableAttachments": true,
+          "groupId": "sharedEncounterDeck",
+          "height": "1/6",
+          "left": "49%",
+          "top": "0%",
+          "type": "pile",
+          "width": "9%"
+        },
+        "sharedActStoryB": {
+          "direction": "horizontal",
+          "disableDroppableAttachments": true,
+          "groupId": "sharedActStoryB",
+          "height": "1/6",
+          "layerIndex": 1,
+          "left": "46%",
+          "showMenu": true,
+          "style": {
+            "background": "rgba(55, 65, 81)",
+            "borderRadius": "1vh",
+            "boxShadow": "0 0 0.5vh 0.5vh rgba(0, 0, 0, 1)"
+          },
+          "top": "4%",
+          "type": "pile",
+          "visible": false,
+          "width": "11%"
+        },
+        "sharedVoid": {
+          "direction": "horizontal",
+          "disableDroppableAttachments": true,
+          "groupId": "sharedVoid",
+          "height": "1/6",
+          "left": "89%",
+          "showMenu": true,
+          "style": {
+            "background": "rgba(0, 0, 0, 0.3)"
+          },
+          "top": "0%",
+          "type": "fan",
+          "width": "11%"
+        },
+        "player1Play": {
+          "direction": "horizontal",
+          "disableDroppableAttachments": true,
+          "groupId": "{playerN}Play",
+          "height": "1/6",
+          "left": "40%",
+          "top": "4/6",
+          "type": "row",
+          "width": "60%"
+        },
+        "sharedScenarioReference": {
+          "direction": "horizontal",
+          "disableDroppableAttachments": true,
+          "groupId": "sharedScenarioReference",
+          "height": "1/6",
+          "left": "80%",
+          "showMenu": true,
+          "top": "0%",
+          "type": "fan",
+          "width": "9%"
+        },
+        "sharedActStoryC": {
+          "direction": "horizontal",
+          "disableDroppableAttachments": true,
+          "groupId": "sharedActStoryC",
+          "height": "1/6",
+          "layerIndex": 1,
+          "left": "59%",
+          "showMenu": true,
+          "style": {
+            "background": "rgba(55, 65, 81)",
+            "borderRadius": "1vh",
+            "boxShadow": "0 0 0.5vh 0.5vh rgba(0, 0, 0, 1)"
+          },
+          "top": "4%",
+          "type": "pile",
+          "visible": false,
+          "width": "11%"
+        },
+        "sharedPileE": {
+          "direction": "horizontal",
+          "disableDroppableAttachments": true,
+          "groupId": "sharedPileE",
+          "height": "1/6",
+          "layerIndex": 1,
+          "left": "87%",
+          "showMenu": true,
+          "style": {
+            "background": "rgba(55, 65, 81)",
+            "borderRadius": "1vh",
+            "boxShadow": "0 0 0.5vh 0.5vh rgba(0, 0, 0, 1)"
+          },
+          "top": "61%",
+          "type": "pile",
+          "visible": false,
+          "width": "9%"
+        }
+      },
+      "rowSpacing": 2,
+      "tableButtons": {}
+    },
+    "layout3Player": {
+      "cardSize": 14,
+      "chat": {
+        "height": "1/6",
+        "left": "60%",
+        "top": "5/6",
+        "width": "40%"
+      },
+      "regions": {
+        "sharedAgendaStory": {
+          "direction": "horizontal",
+          "disableDroppableAttachments": true,
+          "groupId": "sharedAgendaStory",
+          "height": "1/6",
+          "left": "58%",
+          "top": "0%",
+          "type": "pile",
+          "width": "11%"
+        },
+        "sharedActStory": {
+          "direction": "horizontal",
+          "disableDroppableAttachments": true,
+          "groupId": "sharedActStory",
+          "height": "1/6",
+          "left": "69%",
+          "top": "0%",
+          "type": "pile",
+          "width": "11%"
+        },
+        "player1Threat": {
+          "direction": "horizontal",
+          "disableDroppableAttachments": true,
+          "groupId": "{playerN}Threat",
+          "height": "1/6",
+          "left": "40%",
+          "top": "4/6",
+          "type": "row",
+          "width": "18%"
+        },
+        "player2Threat": {
+          "direction": "horizontal",
+          "disableDroppableAttachments": true,
+          "groupId": "{playerN+1}Threat",
+          "height": "1/6",
+          "left": "40%",
+          "top": "3/6",
+          "type": "row",
+          "width": "18%"
+        },
+        "sharedDeckB": {
+          "direction": "horizontal",
+          "disableDroppableAttachments": true,
+          "groupId": "sharedDeckB",
+          "height": "1/6",
+          "layerIndex": 1,
+          "left": "15%",
+          "showMenu": true,
+          "style": {
+            "background": "rgba(55, 65, 81)",
+            "borderRadius": "1vh",
+            "boxShadow": "0 0 0.5vh 0.5vh rgba(0, 0, 0, 1)"
+          },
+          "top": "42%",
+          "type": "pile",
+          "visible": false,
+          "width": "9%"
+        },
+        "sharedDiscardB": {
+          "direction": "horizontal",
+          "disableDroppableAttachments": true,
+          "groupId": "sharedDiscardB",
+          "height": "1/6",
+          "layerIndex": 1,
+          "left": "15%",
+          "showMenu": true,
+          "style": {
+            "background": "rgba(55, 65, 81)",
+            "borderRadius": "1vh",
+            "boxShadow": "0 0 0.5vh 0.5vh rgba(0, 0, 0, 1)"
+          },
+          "top": "61%",
+          "type": "pile",
+          "visible": false,
+          "width": "9%"
+        },
+        "playerNHand": {
+          "direction": "horizontal",
+          "disableDroppableAttachments": true,
+          "groupId": "{playerN}Hand",
+          "height": "1/6",
+          "left": "0%",
+          "showMenu": true,
+          "style": {
+            "background": "rgba(0, 0, 0, 0.3)"
+          },
+          "top": "5/6",
+          "type": "fan",
+          "width": "44%"
+        },
+        "sharedPileA": {
+          "direction": "horizontal",
+          "disableDroppableAttachments": true,
+          "groupId": "sharedPileA",
+          "height": "1/6",
+          "layerIndex": 1,
+          "left": "76%",
+          "showMenu": true,
+          "style": {
+            "background": "rgba(55, 65, 81)",
+            "borderRadius": "1vh",
+            "boxShadow": "0 0 0.5vh 0.5vh rgba(0, 0, 0, 1)"
+          },
+          "top": "42%",
+          "type": "pile",
+          "visible": false,
+          "width": "9%"
+        },
+        "player3Play": {
+          "direction": "horizontal",
+          "disableDroppableAttachments": true,
+          "groupId": "{playerN+2}Play",
+          "height": "1/6",
+          "left": "69%",
+          "top": "2/6",
+          "type": "row",
+          "width": "31%"
+        },
+        "sharedActStoryE": {
+          "direction": "horizontal",
+          "disableDroppableAttachments": true,
+          "groupId": "sharedActStoryE",
+          "height": "1/6",
+          "layerIndex": 1,
+          "left": "85%",
+          "showMenu": true,
+          "style": {
+            "background": "rgba(55, 65, 81)",
+            "borderRadius": "1vh",
+            "boxShadow": "0 0 0.5vh 0.5vh rgba(0, 0, 0, 1)"
+          },
+          "top": "4%",
+          "type": "pile",
+          "visible": false,
+          "width": "11%"
+        },
+        "playerNDeck": {
+          "direction": "horizontal",
+          "disableDroppableAttachments": true,
+          "groupId": "{playerN}Deck",
+          "height": "1/6",
+          "left": "44%",
+          "style": {
+            "background": "rgba(0, 0, 0, 0.3)"
+          },
+          "top": "5/6",
+          "type": "pile",
+          "width": "8%"
+        },
+        "sharedDiscardA": {
+          "direction": "horizontal",
+          "disableDroppableAttachments": true,
+          "groupId": "sharedDiscardA",
+          "height": "1/6",
+          "layerIndex": 1,
+          "left": "4%",
+          "showMenu": true,
+          "style": {
+            "background": "rgba(55, 65, 81)",
+            "borderRadius": "1vh",
+            "boxShadow": "0 0 0.5vh 0.5vh rgba(0, 0, 0, 1)"
+          },
+          "top": "61%",
+          "type": "pile",
+          "visible": false,
+          "width": "9%"
+        },
+        "sharedDeckA": {
+          "direction": "horizontal",
+          "disableDroppableAttachments": true,
+          "groupId": "sharedDeckA",
+          "height": "1/6",
+          "layerIndex": 1,
+          "left": "4%",
+          "showMenu": true,
+          "style": {
+            "background": "rgba(55, 65, 81)",
+            "borderRadius": "1vh",
+            "boxShadow": "0 0 0.5vh 0.5vh rgba(0, 0, 0, 1)"
+          },
+          "top": "42%",
+          "type": "pile",
+          "visible": false,
+          "width": "9%"
+        },
+        "player3Investigator": {
+          "direction": "horizontal",
+          "disableDroppableAttachments": true,
+          "groupId": "{playerN+2}Investigator",
+          "height": "1/6",
+          "left": "58%",
+          "top": "2/6",
+          "type": "row",
+          "width": "11%"
+        },
+        "sharedPileD": {
+          "direction": "horizontal",
+          "disableDroppableAttachments": true,
+          "groupId": "sharedPileD",
+          "height": "1/6",
+          "layerIndex": 1,
+          "left": "76%",
+          "showMenu": true,
+          "style": {
+            "background": "rgba(55, 65, 81)",
+            "borderRadius": "1vh",
+            "boxShadow": "0 0 0.5vh 0.5vh rgba(0, 0, 0, 1)"
+          },
+          "top": "61%",
+          "type": "pile",
+          "visible": false,
+          "width": "9%"
+        },
+        "player1Investigator": {
+          "direction": "horizontal",
+          "disableDroppableAttachments": true,
+          "groupId": "{playerN}Investigator",
+          "height": "1/6",
+          "left": "58%",
+          "top": "4/6",
+          "type": "row",
+          "width": "11%"
+        },
+        "sharedPileB": {
+          "direction": "horizontal",
+          "disableDroppableAttachments": true,
+          "groupId": "sharedPileB",
+          "height": "1/6",
+          "layerIndex": 1,
+          "left": "87%",
+          "showMenu": true,
+          "style": {
+            "background": "rgba(55, 65, 81)",
+            "borderRadius": "1vh",
+            "boxShadow": "0 0 0.5vh 0.5vh rgba(0, 0, 0, 1)"
+          },
+          "top": "42%",
+          "type": "pile",
+          "visible": false,
+          "width": "9%"
+        },
+        "sharedDiscardC": {
+          "direction": "horizontal",
+          "disableDroppableAttachments": true,
+          "groupId": "sharedDiscardC",
+          "height": "1/6",
+          "layerIndex": 1,
+          "left": "26%",
+          "showMenu": true,
+          "style": {
+            "background": "rgba(55, 65, 81)",
+            "borderRadius": "1vh",
+            "boxShadow": "0 0 0.5vh 0.5vh rgba(0, 0, 0, 1)"
+          },
+          "top": "61%",
+          "type": "pile",
+          "visible": false,
+          "width": "9%"
+        },
+        "sharedTokens": {
+          "direction": "horizontal",
+          "disableDroppableAttachments": true,
+          "groupId": "sharedTokens",
+          "height": "1/6",
+          "layerIndex": 1,
+          "left": "37%",
+          "showMenu": false,
+          "style": {
+            "background": "rgba(55, 65, 81)",
+            "borderRadius": "1vh",
+            "boxShadow": "0 0 0.5vh 0.5vh rgba(0, 0, 0, 1)"
+          },
+          "top": "61%",
+          "type": "fan",
+          "visible": false,
+          "width": "26%"
+        },
+        "playerNSelection": {
+          "direction": "horizontal",
+          "disableDroppableAttachments": true,
+          "groupId": "{playerN}Selection",
+          "height": "1/6",
+          "layerIndex": 2,
+          "left": "0%",
+          "showMenu": false,
+          "style": {
+            "background": "rgba(55, 65, 81)"
+          },
+          "top": "5/6",
+          "type": "fan",
+          "visible": false,
+          "width": "44%"
+        },
+        "sharedVictoryDisplay": {
+          "direction": "horizontal",
+          "disableDroppableAttachments": true,
+          "groupId": "sharedVictoryDisplay",
+          "height": "1/6",
+          "layerIndex": 1,
+          "left": "37%",
+          "showMenu": true,
+          "style": {
+            "background": "rgba(55, 65, 81)",
+            "borderRadius": "1vh",
+            "boxShadow": "0 0 0.5vh 0.5vh rgba(0, 0, 0, 1)"
+          },
+          "top": "42%",
+          "type": "row",
+          "visible": false,
+          "width": "37%"
+        },
+        "sharedEncounterDiscard": {
+          "direction": "horizontal",
+          "disableDroppableAttachments": true,
+          "groupId": "sharedEncounterDiscard",
+          "height": "1/6",
+          "left": "40%",
+          "top": "0%",
+          "type": "pile",
+          "width": "9%"
+        },
+        "sharedPileC": {
+          "direction": "horizontal",
+          "disableDroppableAttachments": true,
+          "groupId": "sharedPileC",
+          "height": "1/6",
+          "layerIndex": 1,
+          "left": "65%",
+          "showMenu": true,
+          "style": {
+            "background": "rgba(55, 65, 81)",
+            "borderRadius": "1vh",
+            "boxShadow": "0 0 0.5vh 0.5vh rgba(0, 0, 0, 1)"
+          },
+          "top": "61%",
+          "type": "pile",
+          "visible": false,
+          "width": "9%"
+        },
+        "sharedDeckC": {
+          "direction": "horizontal",
+          "disableDroppableAttachments": true,
+          "groupId": "sharedDeckC",
+          "height": "1/6",
+          "layerIndex": 1,
+          "left": "26%",
+          "showMenu": true,
+          "style": {
+            "background": "rgba(55, 65, 81)",
+            "borderRadius": "1vh",
+            "boxShadow": "0 0 0.5vh 0.5vh rgba(0, 0, 0, 1)"
+          },
+          "top": "42%",
+          "type": "pile",
+          "visible": false,
+          "width": "9%"
+        },
+        "player2Play": {
+          "direction": "horizontal",
+          "disableDroppableAttachments": true,
+          "groupId": "{playerN+1}Play",
+          "height": "1/6",
+          "left": "69%",
+          "top": "3/6",
+          "type": "row",
+          "width": "31%"
+        },
+        "sharedLocations": {
+          "direction": "horizontal",
+          "disableDroppableAttachments": true,
+          "groupId": "sharedLocations",
+          "height": "5/6",
+          "left": "0%",
+          "top": "0%",
+          "type": "free",
+          "width": "40%"
+        },
+        "playerNExtraDeck": {
+          "direction": "horizontal",
+          "disableDroppableAttachments": true,
+          "groupId": "{playerN}ExtraDeck",
+          "height": "1/6",
+          "left": "36%",
+          "style": {
+            "background": "rgba(0, 0, 0, 0.3)"
+          },
+          "top": "5/6",
+          "type": "pile",
+          "visible": false,
+          "width": "8%"
+        },
+        "player2Investigator": {
+          "direction": "horizontal",
+          "disableDroppableAttachments": true,
+          "groupId": "{playerN+1}Investigator",
+          "height": "1/6",
+          "left": "58%",
+          "top": "3/6",
+          "type": "row",
+          "width": "11%"
+        },
+        "playerNDiscard": {
+          "direction": "horizontal",
+          "disableDroppableAttachments": true,
+          "groupId": "{playerN}Discard",
+          "height": "1/6",
+          "left": "52%",
+          "style": {
+            "background": "rgba(0, 0, 0, 0.3)"
+          },
+          "top": "5/6",
+          "type": "pile",
+          "width": "8%"
+        },
+        "sharedNotInPlay": {
+          "direction": "horizontal",
+          "disableDroppableAttachments": true,
+          "groupId": "sharedNotInPlay",
+          "height": "1/6",
+          "layerIndex": 1,
+          "left": "4%",
+          "showMenu": false,
+          "style": {
+            "background": "rgba(55, 65, 81)",
+            "borderRadius": "1vh",
+            "boxShadow": "0 0 0.5vh 0.5vh rgba(0, 0, 0, 1)"
+          },
+          "top": "23%",
+          "type": "row",
+          "visible": false,
+          "width": "92%"
+        },
+        "player3Threat": {
+          "direction": "horizontal",
+          "disableDroppableAttachments": true,
+          "groupId": "{playerN+2}Threat",
+          "height": "1/6",
+          "left": "40%",
+          "top": "2/6",
+          "type": "row",
+          "width": "18%"
+        },
+        "sharedOffMap": {
+          "direction": "horizontal",
+          "disableDroppableAttachments": true,
+          "groupId": "sharedOffMap",
+          "height": "1/6",
+          "layerIndex": 1,
+          "left": "4%",
+          "showMenu": false,
+          "style": {
+            "background": "rgba(55, 65, 81)",
+            "borderRadius": "1vh",
+            "boxShadow": "0 0 0.5vh 0.5vh rgba(0, 0, 0, 1)"
+          },
+          "top": "4%",
+          "type": "row",
+          "visible": false,
+          "width": "40%"
+        },
+        "sharedActStoryD": {
+          "direction": "horizontal",
+          "disableDroppableAttachments": true,
+          "groupId": "sharedActStoryD",
+          "height": "1/6",
+          "layerIndex": 1,
+          "left": "72%",
+          "showMenu": true,
+          "style": {
+            "background": "rgba(55, 65, 81)",
+            "borderRadius": "1vh",
+            "boxShadow": "0 0 0.5vh 0.5vh rgba(0, 0, 0, 1)"
+          },
+          "top": "4%",
+          "type": "pile",
+          "visible": false,
+          "width": "11%"
+        },
+        "sharedEncounterDeck": {
+          "direction": "horizontal",
+          "disableDroppableAttachments": true,
+          "groupId": "sharedEncounterDeck",
+          "height": "1/6",
+          "left": "49%",
+          "top": "0%",
+          "type": "pile",
+          "width": "9%"
+        },
+        "sharedActStoryB": {
+          "direction": "horizontal",
+          "disableDroppableAttachments": true,
+          "groupId": "sharedActStoryB",
+          "height": "1/6",
+          "layerIndex": 1,
+          "left": "46%",
+          "showMenu": true,
+          "style": {
+            "background": "rgba(55, 65, 81)",
+            "borderRadius": "1vh",
+            "boxShadow": "0 0 0.5vh 0.5vh rgba(0, 0, 0, 1)"
+          },
+          "top": "4%",
+          "type": "pile",
+          "visible": false,
+          "width": "11%"
+        },
+        "sharedVoid": {
+          "direction": "horizontal",
+          "disableDroppableAttachments": true,
+          "groupId": "sharedVoid",
+          "height": "1/6",
+          "left": "89%",
+          "showMenu": true,
+          "style": {
+            "background": "rgba(0, 0, 0, 0.3)"
+          },
+          "top": "0%",
+          "type": "fan",
+          "width": "11%"
+        },
+        "player1Play": {
+          "direction": "horizontal",
+          "disableDroppableAttachments": true,
+          "groupId": "{playerN}Play",
+          "height": "1/6",
+          "left": "69%",
+          "top": "4/6",
+          "type": "row",
+          "width": "31%"
+        },
+        "sharedScenarioReference": {
+          "direction": "horizontal",
+          "disableDroppableAttachments": true,
+          "groupId": "sharedScenarioReference",
+          "height": "1/6",
+          "left": "80%",
+          "showMenu": true,
+          "top": "0%",
+          "type": "fan",
+          "width": "9%"
+        },
+        "sharedActStoryC": {
+          "direction": "horizontal",
+          "disableDroppableAttachments": true,
+          "groupId": "sharedActStoryC",
+          "height": "1/6",
+          "layerIndex": 1,
+          "left": "59%",
+          "showMenu": true,
+          "style": {
+            "background": "rgba(55, 65, 81)",
+            "borderRadius": "1vh",
+            "boxShadow": "0 0 0.5vh 0.5vh rgba(0, 0, 0, 1)"
+          },
+          "top": "4%",
+          "type": "pile",
+          "visible": false,
+          "width": "11%"
+        },
+        "sharedPileE": {
+          "direction": "horizontal",
+          "disableDroppableAttachments": true,
+          "groupId": "sharedPileE",
+          "height": "1/6",
+          "layerIndex": 1,
+          "left": "87%",
+          "showMenu": true,
+          "style": {
+            "background": "rgba(55, 65, 81)",
+            "borderRadius": "1vh",
+            "boxShadow": "0 0 0.5vh 0.5vh rgba(0, 0, 0, 1)"
+          },
+          "top": "61%",
+          "type": "pile",
+          "visible": false,
+          "width": "9%"
+        }
+      },
+      "rowSpacing": 2,
+      "tableButtons": {}
+    },
+    "layout4Player": {
+      "cardSize": 14,
+      "chat": {
+        "height": "1/6",
+        "left": "60%",
+        "top": "5/6",
+        "width": "40%"
+      },
+      "regions": {
+        "sharedAgendaStory": {
+          "direction": "horizontal",
+          "disableDroppableAttachments": true,
+          "groupId": "sharedAgendaStory",
+          "height": "1/6",
+          "left": "58%",
+          "top": "0%",
+          "type": "pile",
+          "width": "11%"
+        },
+        "sharedActStory": {
+          "direction": "horizontal",
+          "disableDroppableAttachments": true,
+          "groupId": "sharedActStory",
+          "height": "1/6",
+          "left": "69%",
+          "top": "0%",
+          "type": "pile",
+          "width": "11%"
+        },
+        "player1Threat": {
+          "direction": "horizontal",
+          "disableDroppableAttachments": true,
+          "groupId": "{playerN}Threat",
+          "height": "1/6",
+          "left": "40%",
+          "top": "4/6",
+          "type": "row",
+          "width": "18%"
+        },
+        "player2Threat": {
+          "direction": "horizontal",
+          "disableDroppableAttachments": true,
+          "groupId": "{playerN+1}Threat",
+          "height": "1/6",
+          "left": "40%",
+          "top": "3/6",
+          "type": "row",
+          "width": "18%"
+        },
+        "sharedDeckB": {
+          "direction": "horizontal",
+          "disableDroppableAttachments": true,
+          "groupId": "sharedDeckB",
+          "height": "1/6",
+          "layerIndex": 1,
+          "left": "15%",
+          "showMenu": true,
+          "style": {
+            "background": "rgba(55, 65, 81)",
+            "borderRadius": "1vh",
+            "boxShadow": "0 0 0.5vh 0.5vh rgba(0, 0, 0, 1)"
+          },
+          "top": "42%",
+          "type": "pile",
+          "visible": false,
+          "width": "9%"
+        },
+        "sharedDiscardB": {
+          "direction": "horizontal",
+          "disableDroppableAttachments": true,
+          "groupId": "sharedDiscardB",
+          "height": "1/6",
+          "layerIndex": 1,
+          "left": "15%",
+          "showMenu": true,
+          "style": {
+            "background": "rgba(55, 65, 81)",
+            "borderRadius": "1vh",
+            "boxShadow": "0 0 0.5vh 0.5vh rgba(0, 0, 0, 1)"
+          },
+          "top": "61%",
+          "type": "pile",
+          "visible": false,
+          "width": "9%"
+        },
+        "playerNHand": {
+          "direction": "horizontal",
+          "disableDroppableAttachments": true,
+          "groupId": "{playerN}Hand",
+          "height": "1/6",
+          "left": "0%",
+          "showMenu": true,
+          "style": {
+            "background": "rgba(0, 0, 0, 0.3)"
+          },
+          "top": "5/6",
+          "type": "fan",
+          "width": "44%"
+        },
+        "sharedPileA": {
+          "direction": "horizontal",
+          "disableDroppableAttachments": true,
+          "groupId": "sharedPileA",
+          "height": "1/6",
+          "layerIndex": 1,
+          "left": "76%",
+          "showMenu": true,
+          "style": {
+            "background": "rgba(55, 65, 81)",
+            "borderRadius": "1vh",
+            "boxShadow": "0 0 0.5vh 0.5vh rgba(0, 0, 0, 1)"
+          },
+          "top": "42%",
+          "type": "pile",
+          "visible": false,
+          "width": "9%"
+        },
+        "player3Play": {
+          "direction": "horizontal",
+          "disableDroppableAttachments": true,
+          "groupId": "{playerN+2}Play",
+          "height": "1/6",
+          "left": "69%",
+          "top": "2/6",
+          "type": "row",
+          "width": "31%"
+        },
+        "sharedActStoryE": {
+          "direction": "horizontal",
+          "disableDroppableAttachments": true,
+          "groupId": "sharedActStoryE",
+          "height": "1/6",
+          "layerIndex": 1,
+          "left": "85%",
+          "showMenu": true,
+          "style": {
+            "background": "rgba(55, 65, 81)",
+            "borderRadius": "1vh",
+            "boxShadow": "0 0 0.5vh 0.5vh rgba(0, 0, 0, 1)"
+          },
+          "top": "4%",
+          "type": "pile",
+          "visible": false,
+          "width": "11%"
+        },
+        "playerNDeck": {
+          "direction": "horizontal",
+          "disableDroppableAttachments": true,
+          "groupId": "{playerN}Deck",
+          "height": "1/6",
+          "left": "44%",
+          "style": {
+            "background": "rgba(0, 0, 0, 0.3)"
+          },
+          "top": "5/6",
+          "type": "pile",
+          "width": "8%"
+        },
+        "sharedDiscardA": {
+          "direction": "horizontal",
+          "disableDroppableAttachments": true,
+          "groupId": "sharedDiscardA",
+          "height": "1/6",
+          "layerIndex": 1,
+          "left": "4%",
+          "showMenu": true,
+          "style": {
+            "background": "rgba(55, 65, 81)",
+            "borderRadius": "1vh",
+            "boxShadow": "0 0 0.5vh 0.5vh rgba(0, 0, 0, 1)"
+          },
+          "top": "61%",
+          "type": "pile",
+          "visible": false,
+          "width": "9%"
+        },
+        "sharedDeckA": {
+          "direction": "horizontal",
+          "disableDroppableAttachments": true,
+          "groupId": "sharedDeckA",
+          "height": "1/6",
+          "layerIndex": 1,
+          "left": "4%",
+          "showMenu": true,
+          "style": {
+            "background": "rgba(55, 65, 81)",
+            "borderRadius": "1vh",
+            "boxShadow": "0 0 0.5vh 0.5vh rgba(0, 0, 0, 1)"
+          },
+          "top": "42%",
+          "type": "pile",
+          "visible": false,
+          "width": "9%"
+        },
+        "player4Threat": {
+          "direction": "horizontal",
+          "disableDroppableAttachments": true,
+          "groupId": "{playerN+3}Threat",
+          "height": "1/6",
+          "left": "40%",
+          "top": "1/6",
+          "type": "row",
+          "width": "18%"
+        },
+        "player3Investigator": {
+          "direction": "horizontal",
+          "disableDroppableAttachments": true,
+          "groupId": "{playerN+2}Investigator",
+          "height": "1/6",
+          "left": "58%",
+          "top": "2/6",
+          "type": "row",
+          "width": "11%"
+        },
+        "sharedPileD": {
+          "direction": "horizontal",
+          "disableDroppableAttachments": true,
+          "groupId": "sharedPileD",
+          "height": "1/6",
+          "layerIndex": 1,
+          "left": "76%",
+          "showMenu": true,
+          "style": {
+            "background": "rgba(55, 65, 81)",
+            "borderRadius": "1vh",
+            "boxShadow": "0 0 0.5vh 0.5vh rgba(0, 0, 0, 1)"
+          },
+          "top": "61%",
+          "type": "pile",
+          "visible": false,
+          "width": "9%"
+        },
+        "player1Investigator": {
+          "direction": "horizontal",
+          "disableDroppableAttachments": true,
+          "groupId": "{playerN}Investigator",
+          "height": "1/6",
+          "left": "58%",
+          "top": "4/6",
+          "type": "row",
+          "width": "11%"
+        },
+        "sharedPileB": {
+          "direction": "horizontal",
+          "disableDroppableAttachments": true,
+          "groupId": "sharedPileB",
+          "height": "1/6",
+          "layerIndex": 1,
+          "left": "87%",
+          "showMenu": true,
+          "style": {
+            "background": "rgba(55, 65, 81)",
+            "borderRadius": "1vh",
+            "boxShadow": "0 0 0.5vh 0.5vh rgba(0, 0, 0, 1)"
+          },
+          "top": "42%",
+          "type": "pile",
+          "visible": false,
+          "width": "9%"
+        },
+        "player4Play": {
+          "direction": "horizontal",
+          "disableDroppableAttachments": true,
+          "groupId": "{playerN+3}Play",
+          "height": "1/6",
+          "left": "69%",
+          "top": "1/6",
+          "type": "row",
+          "width": "31%"
+        },
+        "sharedDiscardC": {
+          "direction": "horizontal",
+          "disableDroppableAttachments": true,
+          "groupId": "sharedDiscardC",
+          "height": "1/6",
+          "layerIndex": 1,
+          "left": "26%",
+          "showMenu": true,
+          "style": {
+            "background": "rgba(55, 65, 81)",
+            "borderRadius": "1vh",
+            "boxShadow": "0 0 0.5vh 0.5vh rgba(0, 0, 0, 1)"
+          },
+          "top": "61%",
+          "type": "pile",
+          "visible": false,
+          "width": "9%"
+        },
+        "sharedTokens": {
+          "direction": "horizontal",
+          "disableDroppableAttachments": true,
+          "groupId": "sharedTokens",
+          "height": "1/6",
+          "layerIndex": 1,
+          "left": "37%",
+          "showMenu": false,
+          "style": {
+            "background": "rgba(55, 65, 81)",
+            "borderRadius": "1vh",
+            "boxShadow": "0 0 0.5vh 0.5vh rgba(0, 0, 0, 1)"
+          },
+          "top": "61%",
+          "type": "fan",
+          "visible": false,
+          "width": "26%"
+        },
+        "playerNSelection": {
+          "direction": "horizontal",
+          "disableDroppableAttachments": true,
+          "groupId": "{playerN}Selection",
+          "height": "1/6",
+          "layerIndex": 2,
+          "left": "0%",
+          "showMenu": false,
+          "style": {
+            "background": "rgba(55, 65, 81)"
+          },
+          "top": "5/6",
+          "type": "fan",
+          "visible": false,
+          "width": "44%"
+        },
+        "sharedVictoryDisplay": {
+          "direction": "horizontal",
+          "disableDroppableAttachments": true,
+          "groupId": "sharedVictoryDisplay",
+          "height": "1/6",
+          "layerIndex": 1,
+          "left": "37%",
+          "showMenu": true,
+          "style": {
+            "background": "rgba(55, 65, 81)",
+            "borderRadius": "1vh",
+            "boxShadow": "0 0 0.5vh 0.5vh rgba(0, 0, 0, 1)"
+          },
+          "top": "42%",
+          "type": "row",
+          "visible": false,
+          "width": "37%"
+        },
+        "sharedEncounterDiscard": {
+          "direction": "horizontal",
+          "disableDroppableAttachments": true,
+          "groupId": "sharedEncounterDiscard",
+          "height": "1/6",
+          "left": "40%",
+          "top": "0%",
+          "type": "pile",
+          "width": "9%"
+        },
+        "sharedPileC": {
+          "direction": "horizontal",
+          "disableDroppableAttachments": true,
+          "groupId": "sharedPileC",
+          "height": "1/6",
+          "layerIndex": 1,
+          "left": "65%",
+          "showMenu": true,
+          "style": {
+            "background": "rgba(55, 65, 81)",
+            "borderRadius": "1vh",
+            "boxShadow": "0 0 0.5vh 0.5vh rgba(0, 0, 0, 1)"
+          },
+          "top": "61%",
+          "type": "pile",
+          "visible": false,
+          "width": "9%"
+        },
+        "sharedDeckC": {
+          "direction": "horizontal",
+          "disableDroppableAttachments": true,
+          "groupId": "sharedDeckC",
+          "height": "1/6",
+          "layerIndex": 1,
+          "left": "26%",
+          "showMenu": true,
+          "style": {
+            "background": "rgba(55, 65, 81)",
+            "borderRadius": "1vh",
+            "boxShadow": "0 0 0.5vh 0.5vh rgba(0, 0, 0, 1)"
+          },
+          "top": "42%",
+          "type": "pile",
+          "visible": false,
+          "width": "9%"
+        },
+        "player2Play": {
+          "direction": "horizontal",
+          "disableDroppableAttachments": true,
+          "groupId": "{playerN+1}Play",
+          "height": "1/6",
+          "left": "69%",
+          "top": "3/6",
+          "type": "row",
+          "width": "31%"
+        },
+        "sharedLocations": {
+          "direction": "horizontal",
+          "disableDroppableAttachments": true,
+          "groupId": "sharedLocations",
+          "height": "5/6",
+          "left": "0%",
+          "top": "0%",
+          "type": "free",
+          "width": "40%"
+        },
+        "playerNExtraDeck": {
+          "direction": "horizontal",
+          "disableDroppableAttachments": true,
+          "groupId": "{playerN}ExtraDeck",
+          "height": "1/6",
+          "left": "36%",
+          "style": {
+            "background": "rgba(0, 0, 0, 0.3)"
+          },
+          "top": "5/6",
+          "type": "pile",
+          "visible": false,
+          "width": "8%"
+        },
+        "player2Investigator": {
+          "direction": "horizontal",
+          "disableDroppableAttachments": true,
+          "groupId": "{playerN+1}Investigator",
+          "height": "1/6",
+          "left": "58%",
+          "top": "3/6",
+          "type": "row",
+          "width": "11%"
+        },
+        "playerNDiscard": {
+          "direction": "horizontal",
+          "disableDroppableAttachments": true,
+          "groupId": "{playerN}Discard",
+          "height": "1/6",
+          "left": "52%",
+          "style": {
+            "background": "rgba(0, 0, 0, 0.3)"
+          },
+          "top": "5/6",
+          "type": "pile",
+          "width": "8%"
+        },
+        "sharedNotInPlay": {
+          "direction": "horizontal",
+          "disableDroppableAttachments": true,
+          "groupId": "sharedNotInPlay",
+          "height": "1/6",
+          "layerIndex": 1,
+          "left": "4%",
+          "showMenu": false,
+          "style": {
+            "background": "rgba(55, 65, 81)",
+            "borderRadius": "1vh",
+            "boxShadow": "0 0 0.5vh 0.5vh rgba(0, 0, 0, 1)"
+          },
+          "top": "23%",
+          "type": "row",
+          "visible": false,
+          "width": "92%"
+        },
+        "player3Threat": {
+          "direction": "horizontal",
+          "disableDroppableAttachments": true,
+          "groupId": "{playerN+2}Threat",
+          "height": "1/6",
+          "left": "40%",
+          "top": "2/6",
+          "type": "row",
+          "width": "18%"
+        },
+        "sharedOffMap": {
+          "direction": "horizontal",
+          "disableDroppableAttachments": true,
+          "groupId": "sharedOffMap",
+          "height": "1/6",
+          "layerIndex": 1,
+          "left": "4%",
+          "showMenu": false,
+          "style": {
+            "background": "rgba(55, 65, 81)",
+            "borderRadius": "1vh",
+            "boxShadow": "0 0 0.5vh 0.5vh rgba(0, 0, 0, 1)"
+          },
+          "top": "4%",
+          "type": "row",
+          "visible": false,
+          "width": "40%"
+        },
+        "sharedActStoryD": {
+          "direction": "horizontal",
+          "disableDroppableAttachments": true,
+          "groupId": "sharedActStoryD",
+          "height": "1/6",
+          "layerIndex": 1,
+          "left": "72%",
+          "showMenu": true,
+          "style": {
+            "background": "rgba(55, 65, 81)",
+            "borderRadius": "1vh",
+            "boxShadow": "0 0 0.5vh 0.5vh rgba(0, 0, 0, 1)"
+          },
+          "top": "4%",
+          "type": "pile",
+          "visible": false,
+          "width": "11%"
+        },
+        "player4Investigator": {
+          "direction": "horizontal",
+          "disableDroppableAttachments": true,
+          "groupId": "{playerN+3}Investigator",
+          "height": "1/6",
+          "left": "58%",
+          "top": "1/6",
+          "type": "row",
+          "width": "11%"
+        },
+        "sharedEncounterDeck": {
+          "direction": "horizontal",
+          "disableDroppableAttachments": true,
+          "groupId": "sharedEncounterDeck",
+          "height": "1/6",
+          "left": "49%",
+          "top": "0%",
+          "type": "pile",
+          "width": "9%"
+        },
+        "sharedActStoryB": {
+          "direction": "horizontal",
+          "disableDroppableAttachments": true,
+          "groupId": "sharedActStoryB",
+          "height": "1/6",
+          "layerIndex": 1,
+          "left": "46%",
+          "showMenu": true,
+          "style": {
+            "background": "rgba(55, 65, 81)",
+            "borderRadius": "1vh",
+            "boxShadow": "0 0 0.5vh 0.5vh rgba(0, 0, 0, 1)"
+          },
+          "top": "4%",
+          "type": "pile",
+          "visible": false,
+          "width": "11%"
+        },
+        "sharedVoid": {
+          "direction": "horizontal",
+          "disableDroppableAttachments": true,
+          "groupId": "sharedVoid",
+          "height": "1/6",
+          "left": "89%",
+          "showMenu": true,
+          "style": {
+            "background": "rgba(0, 0, 0, 0.3)"
+          },
+          "top": "0%",
+          "type": "fan",
+          "width": "11%"
+        },
+        "player1Play": {
+          "direction": "horizontal",
+          "disableDroppableAttachments": true,
+          "groupId": "{playerN}Play",
+          "height": "1/6",
+          "left": "69%",
+          "top": "4/6",
+          "type": "row",
+          "width": "31%"
+        },
+        "sharedScenarioReference": {
+          "direction": "horizontal",
+          "disableDroppableAttachments": true,
+          "groupId": "sharedScenarioReference",
+          "height": "1/6",
+          "left": "80%",
+          "showMenu": true,
+          "top": "0%",
+          "type": "fan",
+          "width": "9%"
+        },
+        "sharedActStoryC": {
+          "direction": "horizontal",
+          "disableDroppableAttachments": true,
+          "groupId": "sharedActStoryC",
+          "height": "1/6",
+          "layerIndex": 1,
+          "left": "59%",
+          "showMenu": true,
+          "style": {
+            "background": "rgba(55, 65, 81)",
+            "borderRadius": "1vh",
+            "boxShadow": "0 0 0.5vh 0.5vh rgba(0, 0, 0, 1)"
+          },
+          "top": "4%",
+          "type": "pile",
+          "visible": false,
+          "width": "11%"
+        },
+        "sharedPileE": {
+          "direction": "horizontal",
+          "disableDroppableAttachments": true,
+          "groupId": "sharedPileE",
+          "height": "1/6",
+          "layerIndex": 1,
+          "left": "87%",
+          "showMenu": true,
+          "style": {
+            "background": "rgba(55, 65, 81)",
+            "borderRadius": "1vh",
+            "boxShadow": "0 0 0.5vh 0.5vh rgba(0, 0, 0, 1)"
+          },
+          "top": "61%",
+          "type": "pile",
+          "visible": false,
+          "width": "9%"
+        }
+      },
+      "rowSpacing": 2,
+      "tableButtons": {}
+    }
+  }
+}

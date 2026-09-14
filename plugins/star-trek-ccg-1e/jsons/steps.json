@@ -1,0 +1,21 @@
+{
+  "steps": {
+    "playStep": {
+      "phaseId": "play",
+      "label": "Play"
+    },
+    "orderStep": {
+      "phaseId": "order",
+      "label": "Execute Orders"
+    },
+    "drawStep": {
+      "phaseId": "draw",
+      "label": "Draw"
+    }
+  },
+  "stepOrder": [
+    "playStep",
+    "orderStep",
+    "drawStep"
+  ]
+}

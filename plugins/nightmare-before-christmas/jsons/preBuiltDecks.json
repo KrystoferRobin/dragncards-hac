@@ -1,0 +1,1424 @@
+{
+  "preBuiltDecks": {
+    "king-of-the-pumpkin-patch": {
+      "label": "King of the Pumpkin Patch",
+      "cards": [
+        {
+          "databaseId": "Premiere_jack1",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_zero",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_sally1",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_accordion_player",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_bass_player",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_sax_player",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_corpse_dad",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_corpse_kid",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_corpse_mom",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_black_cat",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_decomposing_guy",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_igor",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_mummy_boy",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_mr_hyde",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_mr_hyde_ii",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_mr_hyde_iii",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_christmas_tree_bats",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_eager_anaconda",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_fender_bender",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_marie_antoinette",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_jingle_bells",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_road_kill",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_sandy_claws_outfit",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_scary_teddy",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_scorpion_surprise",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_fetch",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_deadly_nightshade",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_hello_oogie",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_mellow_trio",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_my_fantasies",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_halloweentown_gates",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_look_what_youve_done",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_pull_yourself_together",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_pumpkin_patch",
+          "quantity": 1,
+          "loadGroupId": "playerNLocale"
+        },
+        {
+          "databaseId": "Premiere_sallys_room",
+          "quantity": 1,
+          "loadGroupId": "playerNLocale"
+        },
+        {
+          "databaseId": "Premiere_the_crypt",
+          "quantity": 1,
+          "loadGroupId": "playerNLocale"
+        },
+        {
+          "databaseId": "Premiere_the_fountain",
+          "quantity": 1,
+          "loadGroupId": "playerNLocale"
+        },
+        {
+          "databaseId": "Premiere_town_hall",
+          "quantity": 1,
+          "loadGroupId": "playerNLocale"
+        },
+        {
+          "databaseId": "Premiere_jacks_house",
+          "quantity": 1,
+          "loadGroupId": "playerNStartingLocale"
+        },
+        {
+          "databaseId": "PlayerAids_pumpkin_points",
+          "quantity": 1,
+          "loadGroupId": "playerNAids"
+        },
+        {
+          "databaseId": "PlayerAids_pumpkin_king",
+          "quantity": 1,
+          "loadGroupId": "playerNAids"
+        }
+      ]
+    },
+    "mrs-claus-pie-factory": {
+      "label": "Mrs Claus Pie Factory",
+      "cards": [
+        {
+          "databaseId": "ChristmasTown_jack5",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "ChristmasTown_the_bass",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_accordion_player",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_bass_player",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_sax_player",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_corpse_dad",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_corpse_kid",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_corpse_mom",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_mayor2",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_monster_under_bed",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "ChristmasTown_sally3",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "ChristmasTown_finklestein3",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_black_cat",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_decomposing_guy",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_hanging_tree",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "ChristmasTown_mrs_claus",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "ChristmasTown_eddy",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "ChristmasTown_suzy",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "ChristmasTown_nelly",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "ChristmasTown_languid_larry",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "ChristmasTown_weary_willy",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "ChristmasTown_barry",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "ChristmasTown_chucky",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "ChristmasTown_iggy",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "ChristmasTown_pauly",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "ChristmasTown_timmy",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_christmas_tree_bats",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_road_kill",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_jingle_bells",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "ChristmasTown_here_comes_sandy",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_eager_anaconda",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_takeoff_ramp",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_sandy_claws_outfit",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_christmas_casket",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_halloweentown_gates",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "ChristmasTown_bone_daddy",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "ChristmasTown_christmas_town_gates",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "ChristmasTown_choo_choo_train",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "ChristmasTown_subordinate_claus",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "ChristmasTown_how_dare_you",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "ChristmasTown_sound_the_alarms",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_town_square",
+          "quantity": 1,
+          "loadGroupId": "playerNLocale"
+        },
+        {
+          "databaseId": "ChristmasTown_the_courtyard",
+          "quantity": 1,
+          "loadGroupId": "playerNLocale"
+        },
+        {
+          "databaseId": "ChristmasTown_the_bakery",
+          "quantity": 1,
+          "loadGroupId": "playerNLocale"
+        },
+        {
+          "databaseId": "ChristmasTown_cookie_factory",
+          "quantity": 1,
+          "loadGroupId": "playerNLocale"
+        },
+        {
+          "databaseId": "ChristmasTown_elven_bedchamber",
+          "quantity": 1,
+          "loadGroupId": "playerNLocale"
+        },
+        {
+          "databaseId": "Premiere_oogies_lair",
+          "quantity": 1,
+          "loadGroupId": "playerNStartingLocale"
+        },
+        {
+          "databaseId": "PlayerAids_pumpkin_points",
+          "quantity": 1,
+          "loadGroupId": "playerNAids"
+        },
+        {
+          "databaseId": "PlayerAids_pumpkin_king",
+          "quantity": 1,
+          "loadGroupId": "playerNAids"
+        }
+      ]
+    },
+    "starter-deck-dr-finklestein": {
+      "label": "Starter Deck - Dr Finklestein",
+      "cards": [
+        {
+          "databaseId": "Premiere_igor",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_jack3",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_sally1",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_wolfman",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_corpse_dad",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_corpse_mom",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_corpse_kid",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_decomposing_guy",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_skeletal_reindeer",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_fender_bender",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_scary_teddy",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_road_kill",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_sandy_claws_outfit",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_thats_our_job",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_organ_donor",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_master_the_plans",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_mad_genius",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_i_never_realized",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_making_christmas",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_finklestein1",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_sallys_room",
+          "quantity": 1,
+          "loadGroupId": "playerNLocale"
+        },
+        {
+          "databaseId": "Premiere_tree_circle",
+          "quantity": 1,
+          "loadGroupId": "playerNLocale"
+        },
+        {
+          "databaseId": "Premiere_the_laboratory",
+          "quantity": 1,
+          "loadGroupId": "playerNLocale"
+        },
+        {
+          "databaseId": "Premiere_back_alley",
+          "quantity": 1,
+          "loadGroupId": "playerNLocale"
+        },
+        {
+          "databaseId": "Premiere_town_square",
+          "quantity": 1,
+          "loadGroupId": "playerNLocale"
+        },
+        {
+          "databaseId": "Premiere_finklestein_hall",
+          "quantity": 1,
+          "loadGroupId": "playerNStartingLocale"
+        },
+        {
+          "databaseId": "PlayerAids_pumpkin_points",
+          "quantity": 1,
+          "loadGroupId": "playerNAids"
+        },
+        {
+          "databaseId": "PlayerAids_pumpkin_king",
+          "quantity": 1,
+          "loadGroupId": "playerNAids"
+        }
+      ]
+    },
+    "starter-deck-jack-skellington": {
+      "label": "Starter Deck - Jack Skellington",
+      "cards": [
+        {
+          "databaseId": "Premiere_jack1",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_sally1",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_mayor1",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_zero",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_sax_player",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_accordion_player",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_bass_player",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_behemoth",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_mr_hyde",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_jingle_bells",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_nutcracker",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_sandy_claws_outfit",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_takeoff_ramp",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_scorpion_surprise",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_fetch",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_halloweentown_gates",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_my_fantasies",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_deadly_nightshade",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_mellow_trio",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_somethings_up_with_jack",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_i_never_realized",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_jacks_bedroom",
+          "quantity": 1,
+          "loadGroupId": "playerNLocale"
+        },
+        {
+          "databaseId": "Premiere_town_hall",
+          "quantity": 1,
+          "loadGroupId": "playerNLocale"
+        },
+        {
+          "databaseId": "Premiere_tree_circle",
+          "quantity": 1,
+          "loadGroupId": "playerNLocale"
+        },
+        {
+          "databaseId": "Premiere_town_square",
+          "quantity": 1,
+          "loadGroupId": "playerNLocale"
+        },
+        {
+          "databaseId": "Premiere_sallys_room",
+          "quantity": 1,
+          "loadGroupId": "playerNLocale"
+        },
+        {
+          "databaseId": "Premiere_jacks_house",
+          "quantity": 1,
+          "loadGroupId": "playerNStartingLocale"
+        },
+        {
+          "databaseId": "PlayerAids_pumpkin_king",
+          "quantity": 1,
+          "loadGroupId": "playerNAids"
+        },
+        {
+          "databaseId": "PlayerAids_pumpkin_points",
+          "quantity": 1,
+          "loadGroupId": "playerNAids"
+        }
+      ]
+    },
+    "starter-deck-oogie-boogie": {
+      "label": "Starter Deck - Oogie Boogie",
+      "cards": [
+        {
+          "databaseId": "Premiere_oogie1",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_lock1",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_shock1",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_barrel1",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_igor",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_decomposing_guy",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_harlequin_demon",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_wolfman",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_delightful_hat",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_jumbo_treat_bag",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_oogies_dice",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_road_kill",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_skeletal_reindeer",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_three_of_a_kind",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_master_the_plans",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_i_told_you",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_i_wanna_do_it",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_im_not_the_dumb_one",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_making_christmas",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_im_the_boogie_man",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_the_best_i_can",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_finklestein1",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_back_alley",
+          "quantity": 1,
+          "loadGroupId": "playerNLocale"
+        },
+        {
+          "databaseId": "Premiere_castle_finklestein",
+          "quantity": 1,
+          "loadGroupId": "playerNLocale"
+        },
+        {
+          "databaseId": "Premiere_the_laboratory",
+          "quantity": 1,
+          "loadGroupId": "playerNLocale"
+        },
+        {
+          "databaseId": "Premiere_the_tree_house",
+          "quantity": 1,
+          "loadGroupId": "playerNLocale"
+        },
+        {
+          "databaseId": "Premiere_the_well",
+          "quantity": 1,
+          "loadGroupId": "playerNLocale"
+        },
+        {
+          "databaseId": "Premiere_oogies_lair",
+          "quantity": 1,
+          "loadGroupId": "playerNStartingLocale"
+        },
+        {
+          "databaseId": "PlayerAids_pumpkin_points",
+          "quantity": 1,
+          "loadGroupId": "playerNAids"
+        },
+        {
+          "databaseId": "PlayerAids_pumpkin_king",
+          "quantity": 1,
+          "loadGroupId": "playerNAids"
+        }
+      ]
+    },
+    "starter-deck-the-mayor": {
+      "label": "Starter Deck - The Mayor",
+      "cards": [
+        {
+          "databaseId": "Premiere_mayor1",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_accordion_player",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_bass_player",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_sax_player",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_lock1",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_shock1",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_barrel1",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_mr_hyde",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_harlequin_demon",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_jack3",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_wolfman",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_jingle_bells",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_jumbo_treat_bag",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_delightful_hat",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_scorpion_surprise",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_takeoff_ramp",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_hitch_a_ride",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_public_transportation",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_town_meeting",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_halloween_plans",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_moody_mayor",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_the_tree_house",
+          "quantity": 1,
+          "loadGroupId": "playerNLocale"
+        },
+        {
+          "databaseId": "Premiere_town_hall",
+          "quantity": 1,
+          "loadGroupId": "playerNLocale"
+        },
+        {
+          "databaseId": "Premiere_back_alley",
+          "quantity": 1,
+          "loadGroupId": "playerNLocale"
+        },
+        {
+          "databaseId": "Premiere_tree_circle",
+          "quantity": 1,
+          "loadGroupId": "playerNLocale"
+        },
+        {
+          "databaseId": "Premiere_town_square",
+          "quantity": 1,
+          "loadGroupId": "playerNLocale"
+        },
+        {
+          "databaseId": "Premiere_mayor-mobile",
+          "quantity": 1,
+          "loadGroupId": "playerNStartingLocale"
+        },
+        {
+          "databaseId": "PlayerAids_pumpkin_king",
+          "quantity": 1,
+          "loadGroupId": "playerNAids"
+        },
+        {
+          "databaseId": "PlayerAids_pumpkin_points",
+          "quantity": 1,
+          "loadGroupId": "playerNAids"
+        }
+      ]
+    },
+    "the-minion-engine": {
+      "label": "The Minion Engine",
+      "cards": [
+        {
+          "databaseId": "Premiere_behemoth",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_big_witch",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_clown",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_corpse_kid",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_devil",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "ChristmasTown_finklestein3",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_hanging_tree",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_harlequin_demon",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "ChristmasTown_jack4",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_monster_under_bed",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_monster_under_stairs",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "ChristmasTown_oogie4",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_reaper",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "ChristmasTown_sally3",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "ChristmasTown_siamese_shadow",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "ChristmasTown_mayor3",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_undersea_gal",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_vampire_baron",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_vampire_count",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_vampire_lord",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_vampire_prince",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "ChristmasTown_wolf_shadow",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_wolfman",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_im_the_boogie_man",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_this_is_halloween",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_castle_finklestein",
+          "quantity": 1,
+          "loadGroupId": "playerNLocale"
+        },
+        {
+          "databaseId": "ChristmasTown_sewing_hut",
+          "quantity": 1,
+          "loadGroupId": "playerNLocale"
+        },
+        {
+          "databaseId": "ChristmasTown_the_courtyard",
+          "quantity": 1,
+          "loadGroupId": "playerNLocale"
+        },
+        {
+          "databaseId": "Premiere_town_hall",
+          "quantity": 1,
+          "loadGroupId": "playerNLocale"
+        },
+        {
+          "databaseId": "Premiere_tree_circle",
+          "quantity": 1,
+          "loadGroupId": "playerNLocale"
+        },
+        {
+          "databaseId": "Premiere_mayor-mobile",
+          "quantity": 1,
+          "loadGroupId": "playerNStartingLocale"
+        },
+        {
+          "databaseId": "PlayerAids_pumpkin_points",
+          "quantity": 1,
+          "loadGroupId": "playerNAids"
+        },
+        {
+          "databaseId": "PlayerAids_pumpkin_king",
+          "quantity": 1,
+          "loadGroupId": "playerNAids"
+        }
+      ]
+    },
+    "weapons-of-mass-destruction": {
+      "label": "Weapons of Mass Destruction",
+      "cards": [
+        {
+          "databaseId": "Premiere_oogie1",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_clown",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_corpse_dad",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_corpse_kid",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_corpse_mom",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_devil",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_big_witch",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_hanging_tree",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_harlequin_demon",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_little_witch",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_monster_under_bed",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_mayor2",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_undersea_gal",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_winged_demon",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_wolfman",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_dead_head",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_delightful_hat",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_eager_anaconda",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_oogies_dice",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_scary_teddy",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_takeoff_ramp",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_fire",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_sound_of_rollin_dice",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_lets_play",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_search_lights",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_gate_keeper",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_halloweentown_gates",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_shadow_on_the_moon",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_the_best_i_can",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_back_alley",
+          "quantity": 1,
+          "loadGroupId": "playerNLocale"
+        },
+        {
+          "databaseId": "Premiere_castle_finklestein",
+          "quantity": 1,
+          "loadGroupId": "playerNLocale"
+        },
+        {
+          "databaseId": "Premiere_the_tree_house",
+          "quantity": 1,
+          "loadGroupId": "playerNLocale"
+        },
+        {
+          "databaseId": "Premiere_tree_circle",
+          "quantity": 1,
+          "loadGroupId": "playerNLocale"
+        },
+        {
+          "databaseId": "Premiere_town_square",
+          "quantity": 1,
+          "loadGroupId": "playerNLocale"
+        },
+        {
+          "databaseId": "Premiere_oogies_lair",
+          "quantity": 1,
+          "loadGroupId": "playerNStartingLocale"
+        },
+        {
+          "databaseId": "PlayerAids_pumpkin_points",
+          "quantity": 1,
+          "loadGroupId": "playerNAids"
+        },
+        {
+          "databaseId": "PlayerAids_pumpkin_king",
+          "quantity": 1,
+          "loadGroupId": "playerNAids"
+        }
+      ]
+    }
+  }
+}

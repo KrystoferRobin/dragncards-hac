@@ -1,0 +1,5811 @@
+{
+  "deckMenu": {
+    "subMenus": [
+      {
+        "label": "Ivory starters",
+        "deckLists": [
+          {
+            "deckListId": "crab",
+            "label": "Crab"
+          },
+          {
+            "deckListId": "crane",
+            "label": "Crane"
+          },
+          {
+            "deckListId": "dragon",
+            "label": "Dragon"
+          },
+          {
+            "deckListId": "lion",
+            "label": "Lion"
+          },
+          {
+            "deckListId": "mantis",
+            "label": "Mantis"
+          },
+          {
+            "deckListId": "phoenix",
+            "label": "Phoenix"
+          },
+          {
+            "deckListId": "scorpion",
+            "label": "Scorpion"
+          },
+          {
+            "deckListId": "spider",
+            "label": "Spider"
+          },
+          {
+            "deckListId": "unicorn",
+            "label": "Unicorn"
+          }
+        ]
+      },
+      {
+        "label": "Shattered Empire starters",
+        "deckLists": [
+          {
+            "deckListId": "she-starter-crab",
+            "label": "Crab"
+          },
+          {
+            "deckListId": "she-starter-crane",
+            "label": "Crane"
+          },
+          {
+            "deckListId": "she-starter-dragon",
+            "label": "Dragon"
+          },
+          {
+            "deckListId": "she-starter-lion",
+            "label": "Lion"
+          },
+          {
+            "deckListId": "she-starter-mantis-ichido",
+            "label": "Mantis (Ichido)"
+          },
+          {
+            "deckListId": "she-starter-mantis-minoko",
+            "label": "Mantis (Minoko)"
+          },
+          {
+            "deckListId": "she-starter-phoenix",
+            "label": "Phoenix"
+          },
+          {
+            "deckListId": "she-starter-scorpion",
+            "label": "Scorpion"
+          },
+          {
+            "deckListId": "she-starter-spider",
+            "label": "Spider"
+          },
+          {
+            "deckListId": "she-starter-unicorn",
+            "label": "Unicorn"
+          }
+        ]
+      },
+      {
+        "label": "Crab",
+        "subMenus": [
+          {
+            "label": "Imperial",
+            "deckLists": [
+              {
+                "deckListId": "l5rdb-9ab420ce",
+                "label": "1996 IE CB Gencon Winner"
+              }
+            ]
+          },
+          {
+            "label": "Jade",
+            "deckLists": [
+              {
+                "deckListId": "l5rdb-3bb88701",
+                "label": "Kaiu Walls Honor Runner — Akodo War College"
+              }
+            ]
+          },
+          {
+            "label": "Jade Extended",
+            "deckLists": [
+              {
+                "deckListId": "l5rdb-c0b882cb",
+                "label": "Taka Tricks honor runner"
+              }
+            ]
+          },
+          {
+            "label": "Gold",
+            "deckLists": [
+              {
+                "deckListId": "l5rdb-3d8e338b",
+                "label": "GE CB Kyuden Hida Winner Kotei Madrid 2003 — Rodrigo"
+              }
+            ]
+          },
+          {
+            "label": "Diamond",
+            "deckLists": [
+              {
+                "deckListId": "l5rdb-832a94e5",
+                "label": "2004 DE CB Gencon Winner"
+              },
+              {
+                "deckListId": "l5rdb-287e7c73",
+                "label": "2004 Legion of the Dead — Salman Barakat"
+              },
+              {
+                "deckListId": "l5rdb-2e9aa3e1",
+                "label": "Razor's Edge – 4th Place Athens Greece Kotei — Panos Geoirgopoulos"
+              }
+            ]
+          },
+          {
+            "label": "Lotus",
+            "deckLists": [
+              {
+                "deckListId": "l5rdb-2d35bb33",
+                "label": "KS CB Lotus Uniques Top 4 SnM — Kairok"
+              },
+              {
+                "deckListId": "l5rdb-49ce8eb7",
+                "label": "KT CB Military 1st Kotei"
+              }
+            ]
+          },
+          {
+            "label": "Samurai",
+            "deckLists": [
+              {
+                "deckListId": "l5rdb-97af96dc",
+                "label": "CB Kill Kotei 1st"
+              },
+              {
+                "deckListId": "l5rdb-4026d763",
+                "label": "CB RotDC Military — Salman"
+              },
+              {
+                "deckListId": "l5rdb-078a4c34",
+                "label": "ROTDC CB RotDC Hero Shout Military 1st Kotei"
+              },
+              {
+                "deckListId": "l5rdb-947335a6",
+                "label": "Samurai Crab Heroes — Akodo War College"
+              },
+              {
+                "deckListId": "l5rdb-5834c21d",
+                "label": "SPC CB Follower Military Top Clan Kotei"
+              },
+              {
+                "deckListId": "l5rdb-c0050163",
+                "label": "TST EC 2007 SE CB Euro Winner"
+              }
+            ]
+          },
+          {
+            "label": "Celestial",
+            "deckLists": [
+              {
+                "deckListId": "l5rdb-93e70550",
+                "label": "Celestial Crab Berserkers — Robyn Pavlakovich"
+              },
+              {
+                "deckListId": "l5rdb-e4a67e37",
+                "label": "Crab Scouts – Eoin Burke"
+              },
+              {
+                "deckListId": "l5rdb-5d225825",
+                "label": "Crab Scouts – Jeff Williams"
+              },
+              {
+                "deckListId": "l5rdb-1062f312",
+                "label": "Crab Scouts – Kostas Adamopoulos"
+              },
+              {
+                "deckListId": "l5rdb-5dd9395e",
+                "label": "Crab Scouts – Robyn Pavlakovich"
+              },
+              {
+                "deckListId": "l5rdb-457ef3c6",
+                "label": "Crab Scouts/Berserkers — Strange Assembly"
+              },
+              {
+                "deckListId": "l5rdb-974c1b83",
+                "label": "Daniel Chlebowczyk's More of that Item Stuff"
+              },
+              {
+                "deckListId": "l5rdb-e7ec7a41",
+                "label": "Jeff Williamson's Crab Dueling"
+              },
+              {
+                "deckListId": "l5rdb-ebbe9977",
+                "label": "Joe Bartolik's Big Guys Carrying Stuff"
+              },
+              {
+                "deckListId": "l5rdb-e9254c1d",
+                "label": "SPC Crab EaW Bamboo Hayabusa"
+              },
+              {
+                "deckListId": "l5rdb-606c5ec1",
+                "label": "SPC Crab Followers"
+              },
+              {
+                "deckListId": "l5rdb-1c8076c9",
+                "label": "SPC Crab IG3 BerserkerControl Palmer"
+              },
+              {
+                "deckListId": "l5rdb-3e4e6641",
+                "label": "SPC Crab PotD Giants Nina kempy"
+              },
+              {
+                "deckListId": "l5rdb-7bcaff13",
+                "label": "SPC Crab PotD ScoutParty kempy"
+              },
+              {
+                "deckListId": "l5rdb-dc1ef836",
+                "label": "SPC Crab SPV FL TheLastOne — The Last One"
+              },
+              {
+                "deckListId": "l5rdb-10dc5d74",
+                "label": "SPC Crab TH hero Faber"
+              },
+              {
+                "deckListId": "l5rdb-22c42289",
+                "label": "SPC Crab TH TheresNoOneLikeYou angry crab — angry_crab"
+              },
+              {
+                "deckListId": "l5rdb-61f38de9",
+                "label": "SPC Crab TheLastOneShug Siri"
+              },
+              {
+                "deckListId": "l5rdb-0c9dc73e",
+                "label": "SPC EC 2009 CE CB Euro Winner"
+              },
+              {
+                "deckListId": "l5rdb-7c05bc70",
+                "label": "SPC Scouts"
+              }
+            ]
+          },
+          {
+            "label": "Emperor",
+            "deckLists": [
+              {
+                "deckListId": "l5rdb-87f18134",
+                "label": "1st Dishonor Vasquez 1st Second Chance EC 2013"
+              },
+              {
+                "deckListId": "l5rdb-5896e985",
+                "label": "2012 Scion of the Colonies – Crab Berserker Blitz — Johann Sliva"
+              },
+              {
+                "deckListId": "l5rdb-6753ce47",
+                "label": "Berserkers (Torian Chisolm, Atlanta Kotei)"
+              },
+              {
+                "deckListId": "l5rdb-61ebda6c",
+                "label": "CC DarkCrabV2 Hayabusa"
+              },
+              {
+                "deckListId": "l5rdb-f8f5a367",
+                "label": "Corey Monson – \"Sleeper Hold\" (13th Place, Atlanta Kotei)"
+              },
+              {
+                "deckListId": "l5rdb-dbf5fe1f",
+                "label": "Crab Berserker Blitz — Johann Sliva"
+              },
+              {
+                "deckListId": "l5rdb-3f65638c",
+                "label": "Crab Scouts (Hiruma-based, Bushi League) — Strange Assembly"
+              },
+              {
+                "deckListId": "l5rdb-d50f44e7",
+                "label": "Crab Scouts (Steven DeBirk)"
+              },
+              {
+                "deckListId": "l5rdb-d8df89a2",
+                "label": "Crab Zerkers – Danny Walker"
+              },
+              {
+                "deckListId": "l5rdb-8f8f6d5a",
+                "label": "Crab Zerkers – Roby Swan"
+              },
+              {
+                "deckListId": "l5rdb-5df61f16",
+                "label": "Darrell Haddock – \"Not As Many Friends Berserkers\" (4th Place, Atlanta Kotei)"
+              },
+              {
+                "deckListId": "l5rdb-2283fdcd",
+                "label": "HOTF 2012 EE CB Barcelona Winner"
+              },
+              {
+                "deckListId": "l5rdb-d5347a27",
+                "label": "HotF EE Berk PakuvsKurga"
+              },
+              {
+                "deckListId": "l5rdb-7c8773c2",
+                "label": "HOTF HotF TSE BKx BHx WChamp"
+              },
+              {
+                "deckListId": "l5rdb-59957311",
+                "label": "Robyn Pavlakovich – \"My Love For You Is Ticking Clock\" (2nd Place, Atlanta Kotei)"
+              },
+              {
+                "deckListId": "l5rdb-876d14e1",
+                "label": "TSE BKx Zerks Hero"
+              }
+            ]
+          },
+          {
+            "label": "Ivory",
+            "deckLists": [
+              {
+                "deckListId": "l5rdb-1eb7c4ca",
+                "label": "AMOH CB"
+              },
+              {
+                "deckListId": "l5rdb-52d15085",
+                "label": "On the Cheap: Ivory Crab — Strange Assembly"
+              }
+            ]
+          },
+          {
+            "label": "Twenty Festivals",
+            "deckLists": [
+              {
+                "deckListId": "l5rdb-e0048cc9",
+                "label": "EP Siege D"
+              },
+              {
+                "deckListId": "l5rdb-fed721af",
+                "label": "EP TactMilitary P 1st"
+              },
+              {
+                "deckListId": "l5rdb-1cdfb892",
+                "label": "EP TactMilitary SnM 1st Tandyys"
+              },
+              {
+                "deckListId": "l5rdb-271d1954",
+                "label": "TBS Siege D"
+              },
+              {
+                "deckListId": "l5rdb-62a2ff10",
+                "label": "TBS Siege D2"
+              },
+              {
+                "deckListId": "l5rdb-15ad86eb",
+                "label": "ThA 4 2"
+              },
+              {
+                "deckListId": "l5rdb-47de8ff2",
+                "label": "ThA Strategy CB"
+              }
+            ]
+          },
+          {
+            "label": "OBH (The Obsidian Hand) Legacy",
+            "deckLists": [
+              {
+                "deckListId": "l5rdb-8c944856",
+                "label": "LG OBH CB Force Dueling — shockaboyob"
+              },
+              {
+                "deckListId": "l5rdb-cc2abcc8",
+                "label": "LG OBH CB GWoK Kaiu Control 2nd SnM — Ikkuhyu"
+              },
+              {
+                "deckListId": "l5rdb-280049ed",
+                "label": "LG OBH CB GWoK Kaiu Refill 2nd SnM — Ikkuhyu"
+              },
+              {
+                "deckListId": "l5rdb-8fe166ca",
+                "label": "TH LG OBH CB Top 4 SnM — Kairok"
+              }
+            ]
+          },
+          {
+            "label": "Modern",
+            "deckLists": [
+              {
+                "deckListId": "l5rdb-8ebf9bb4",
+                "label": "CB 1st Touluse"
+              },
+              {
+                "deckListId": "l5rdb-b87ec179",
+                "label": "CB BestGuys Milton 1st SnM"
+              },
+              {
+                "deckListId": "l5rdb-2c0476bf",
+                "label": "CB Crab Uniques Top 4 — Kairok"
+              },
+              {
+                "deckListId": "l5rdb-c1ccd3ab",
+                "label": "Crab Berserkers — PlayCCG"
+              }
+            ]
+          },
+          {
+            "label": "Open",
+            "deckLists": [
+              {
+                "deckListId": "l5rdb-3d683236",
+                "label": "The Razor's Edge — Yoriagami"
+              }
+            ]
+          },
+          {
+            "label": "Clan Wars",
+            "deckLists": [
+              {
+                "deckListId": "l5rdb-9804d7b6",
+                "label": "1996 Sword of the Hantei – Crab Oni — Akodo War College"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Crane",
+        "subMenus": [
+          {
+            "label": "Jade",
+            "deckLists": [
+              {
+                "deckListId": "l5rdb-0771393b",
+                "label": "Crane Tacticians — Akodo War College"
+              },
+              {
+                "deckListId": "l5rdb-db71679a",
+                "label": "Turbo Crane Honor — Akodo War College"
+              }
+            ]
+          },
+          {
+            "label": "Gold",
+            "deckLists": [
+              {
+                "deckListId": "l5rdb-163fc413",
+                "label": "2002 European Championships – Surprise of the Crane — Akodo War College"
+              },
+              {
+                "deckListId": "l5rdb-756e81c4",
+                "label": "GE CN Kosaten Shiro Winner Greek Kotei 2003 — Kakita Shimazu"
+              },
+              {
+                "deckListId": "l5rdb-a0269d7e",
+                "label": "KS EC 2002 GE CN Euro Winner"
+              }
+            ]
+          },
+          {
+            "label": "Diamond",
+            "deckLists": [
+              {
+                "deckListId": "l5rdb-68aa5a8c",
+                "label": "2004 Euro Championships – Dimas Miura (Kakita Dueling Academy) — Akodo War College"
+              },
+              {
+                "deckListId": "l5rdb-6990cd5f",
+                "label": "2005 UK Kotei Winner – Dave Rudock — Akodo War College"
+              },
+              {
+                "deckListId": "l5rdb-66710a26",
+                "label": "KD 2005 DE CN Gencon Winner"
+              },
+              {
+                "deckListId": "l5rdb-43540051",
+                "label": "KDA EC 2004 DE CN Euro Winner"
+              },
+              {
+                "deckListId": "l5rdb-e9afc83f",
+                "label": "Otomo-Gozoku Alliance — Dimas Miura"
+              }
+            ]
+          },
+          {
+            "label": "Lotus",
+            "deckLists": [
+              {
+                "deckListId": "l5rdb-99a596a1",
+                "label": "2005 The Fate of Lotus — Scott Rixson"
+              },
+              {
+                "deckListId": "l5rdb-0dcddd3d",
+                "label": "ST CN Control Duel 1st Kotei"
+              },
+              {
+                "deckListId": "l5rdb-fa9b6164",
+                "label": "TSGOTK CN SGotK Dueler"
+              }
+            ]
+          },
+          {
+            "label": "Samurai",
+            "deckLists": [
+              {
+                "deckListId": "l5rdb-63d6db43",
+                "label": "2008 Light of the Moon — Kamil Magda"
+              },
+              {
+                "deckListId": "l5rdb-2a9c43a7",
+                "label": "CN Duel Control 1st Kotei — Ysarion"
+              },
+              {
+                "deckListId": "l5rdb-77014097",
+                "label": "CN Duel Play In SnM — Andrew"
+              },
+              {
+                "deckListId": "l5rdb-11107bb9",
+                "label": "CN Honor Duel — Aoshi"
+              },
+              {
+                "deckListId": "l5rdb-1a2741f2",
+                "label": "CN Honor Duel — Olo"
+              },
+              {
+                "deckListId": "l5rdb-8fb9d3ab",
+                "label": "CN ST Turbo Honor Duelist Control Top 4 SnM — ThePainUFeel"
+              },
+              {
+                "deckListId": "l5rdb-8eee4480",
+                "label": "Crane Scouts by Chris Russell"
+              },
+              {
+                "deckListId": "l5rdb-7f2a1336",
+                "label": "KK 2008 SE CN Karlsruhe Winner"
+              },
+              {
+                "deckListId": "l5rdb-cba2f66c",
+                "label": "KK CN Honor Duel Top Clan Kotei"
+              },
+              {
+                "deckListId": "l5rdb-69b5b338",
+                "label": "SFP CN Honor Duel Top Clan Kotei"
+              }
+            ]
+          },
+          {
+            "label": "Celestial",
+            "deckLists": [
+              {
+                "deckListId": "l5rdb-0aba988b",
+                "label": "Benjamin Higgins' Embassy Honor"
+              },
+              {
+                "deckListId": "l5rdb-f19ee248",
+                "label": "Brandon Kern's Embassy Honor"
+              },
+              {
+                "deckListId": "l5rdb-0b872bd1",
+                "label": "CE CN EotC Embassy Crane  1st — L5R Chan"
+              },
+              {
+                "deckListId": "l5rdb-d6395716",
+                "label": "Celestial Embassy Honor — Akodo War College"
+              },
+              {
+                "deckListId": "l5rdb-340719f9",
+                "label": "Crane Honor – Dario"
+              },
+              {
+                "deckListId": "l5rdb-4bae825a",
+                "label": "Crane Honor – Joshua Crisp"
+              },
+              {
+                "deckListId": "l5rdb-fd16a247",
+                "label": "Crane Honor — Mark Kwek"
+              },
+              {
+                "deckListId": "l5rdb-f68ce005",
+                "label": "David Winner (Austin Kotei Winner)"
+              },
+              {
+                "deckListId": "l5rdb-0a0088a5",
+                "label": "Embassy Honor – Chris Russel"
+              },
+              {
+                "deckListId": "l5rdb-3bf3d32c",
+                "label": "Embassy Honor – Ermis Pyrlis"
+              },
+              {
+                "deckListId": "l5rdb-97a9beb6",
+                "label": "EOTC EotC FL DuelHonor Rixxon"
+              },
+              {
+                "deckListId": "l5rdb-5da07d04",
+                "label": "EOTC EotC FL Honormagistrate"
+              },
+              {
+                "deckListId": "l5rdb-8d9a03c8",
+                "label": "EOTC Grulla 1 Kotei 2011 Rockville 68 Personas Embassy of the Crane Andrew Moul"
+              },
+              {
+                "deckListId": "l5rdb-f591628b",
+                "label": "EOTC Grulla Top16 Kotei 2011 Tacoma 82 Personas Embassy of the Crane Case Kiyonaga"
+              },
+              {
+                "deckListId": "l5rdb-a9fce567",
+                "label": "John DiGiovanni (Tucson Kotei, 2nd Place)"
+              },
+              {
+                "deckListId": "l5rdb-51c75594",
+                "label": "SC TPW SwarmDefense Reese"
+              },
+              {
+                "deckListId": "l5rdb-1d419039",
+                "label": "SD Dueling"
+              },
+              {
+                "deckListId": "l5rdb-74ed2823",
+                "label": "SD TH ScoutSwitch jesse"
+              },
+              {
+                "deckListId": "l5rdb-eaf9d820",
+                "label": "SFP 7FP EaW Dishonor Akira"
+              },
+              {
+                "deckListId": "l5rdb-4edb87f3",
+                "label": "SFP 7FP EaW Dishonor AkiraVsKempy"
+              },
+              {
+                "deckListId": "l5rdb-58cdd622",
+                "label": "SFP 7FP EaW Dueling Reese"
+              }
+            ]
+          },
+          {
+            "label": "Emperor",
+            "deckLists": [
+              {
+                "deckListId": "l5rdb-720494ec",
+                "label": "CN CoM Honor Rocket v2"
+              },
+              {
+                "deckListId": "l5rdb-99dfd4f4",
+                "label": "CN EE HonorDuel Chikao 4th Charity"
+              },
+              {
+                "deckListId": "l5rdb-1426a966",
+                "label": "CN EoW BKx Scouts PinukiPai 2nd FB"
+              },
+              {
+                "deckListId": "l5rdb-e074fe0a",
+                "label": "CN GoC BKX BHx Military Chord"
+              },
+              {
+                "deckListId": "l5rdb-e422792a",
+                "label": "CN KOx SoD BKx BHx Honor crowded"
+              },
+              {
+                "deckListId": "l5rdb-f6830b21",
+                "label": "CN KOx SoD BKx DisHonorBomb Pinkupai"
+              },
+              {
+                "deckListId": "l5rdb-6082d1ea",
+                "label": "CN SA SoD BKx KKombo"
+              },
+              {
+                "deckListId": "l5rdb-82fecb08",
+                "label": "CN SoD BKx BHx HonorRocket Tetsuro"
+              },
+              {
+                "deckListId": "l5rdb-306302eb",
+                "label": "CN SoD HonorRocket Tetsuro"
+              },
+              {
+                "deckListId": "l5rdb-7abcd1d5",
+                "label": "CN TSE Duel Anjjui"
+              },
+              {
+                "deckListId": "l5rdb-1c84291e",
+                "label": "Crane Courtiers (Ciaran Brosnan)"
+              },
+              {
+                "deckListId": "l5rdb-f2854364",
+                "label": "Crane Courtiers (Neal Ayungo)"
+              },
+              {
+                "deckListId": "l5rdb-f3a29b5b",
+                "label": "Crane Dueling — Daniel Dreiszinger"
+              },
+              {
+                "deckListId": "l5rdb-9c3f8e79",
+                "label": "Crane Scout Blitz — José Esteban"
+              },
+              {
+                "deckListId": "l5rdb-ecfc0949",
+                "label": "CrOni — Tomasz Gala"
+              },
+              {
+                "deckListId": "l5rdb-cc68b7cf",
+                "label": "Emperor Crane Courtiers — Neal Ayungo"
+              },
+              {
+                "deckListId": "l5rdb-59dfdace",
+                "label": "Emperor Crane Oni Summoner — Akodo War College"
+              },
+              {
+                "deckListId": "l5rdb-6d205115",
+                "label": "Honor Dueling (Jeff Bowers, Atlanta Kotei)"
+              },
+              {
+                "deckListId": "l5rdb-f8ab9f47",
+                "label": "KO CN KOx EoW BHx Honor Yukimura 2nd"
+              },
+              {
+                "deckListId": "l5rdb-8a8cfe78",
+                "label": "KO CN KOx SoD BKx BHx Honor"
+              },
+              {
+                "deckListId": "l5rdb-edb7c2d8",
+                "label": "SA CN CoM Honor Rocket"
+              },
+              {
+                "deckListId": "l5rdb-35fb2b72",
+                "label": "SA CN EE CrOni Kempy"
+              },
+              {
+                "deckListId": "l5rdb-56f71915",
+                "label": "SA CN EoW BKxp CrOni Tetsuro"
+              },
+              {
+                "deckListId": "l5rdb-976f23ca",
+                "label": "SA CN SoD BKx KinoCroni — Kino Croni"
+              },
+              {
+                "deckListId": "l5rdb-505c053d",
+                "label": "SA CN TSE BKx Croni Tetsuro"
+              },
+              {
+                "deckListId": "l5rdb-2ac39f7a",
+                "label": "SA CN xx EE CrOni Tetsuro"
+              },
+              {
+                "deckListId": "l5rdb-c428d9ed",
+                "label": "SA CN xx EE CrOni2 Kempy"
+              },
+              {
+                "deckListId": "l5rdb-55492378",
+                "label": "TA CN EE HonorMilitary T8 Dionysus"
+              },
+              {
+                "deckListId": "l5rdb-99d260b2",
+                "label": "TA CN TSE Honor T16 SC Gencon"
+              },
+              {
+                "deckListId": "l5rdb-38195b17",
+                "label": "TFC CN TSE Duel Pinukipai"
+              },
+              {
+                "deckListId": "l5rdb-3e6efb0a",
+                "label": "The Aerie (David Szeto)"
+              }
+            ]
+          },
+          {
+            "label": "Emperor Extended",
+            "deckLists": [
+              {
+                "deckListId": "l5rdb-496be64f",
+                "label": "CN Anj Loves Scouts Play In SnM — King Anj"
+              },
+              {
+                "deckListId": "l5rdb-036176b1",
+                "label": "CN EotC Crane Dishonor Top 4 SnM — Andrew"
+              }
+            ]
+          },
+          {
+            "label": "Ivory",
+            "deckLists": [
+              {
+                "deckListId": "l5rdb-1b95ee6b",
+                "label": "Ivory Crane Scouts — Brian Methe"
+              },
+              {
+                "deckListId": "l5rdb-fb9d3579",
+                "label": "Ivory Crane Starter — AEG"
+              },
+              {
+                "deckListId": "l5rdb-15785df2",
+                "label": "Ivory Crane – \"Poorly Placed Garden\" — Strange Assembly"
+              }
+            ]
+          },
+          {
+            "label": "Twenty Festivals",
+            "deckLists": [
+              {
+                "deckListId": "l5rdb-d5fa315a",
+                "label": "CN EP Tadanobu Duel Tandyys"
+              },
+              {
+                "deckListId": "l5rdb-4159d6f7",
+                "label": "CN ThA GenCon T16 Duel"
+              },
+              {
+                "deckListId": "l5rdb-3b8a1d80",
+                "label": "CN ThA Military Kotei 1st Darren"
+              },
+              {
+                "deckListId": "l5rdb-98e3faed",
+                "label": "CN ThA Military Winner Balthis"
+              },
+              {
+                "deckListId": "l5rdb-78190551",
+                "label": "CN ThA Political Standoff Kilava"
+              },
+              {
+                "deckListId": "l5rdb-99143905",
+                "label": "CN ThA Sachina Military Kotei 1st Dare"
+              },
+              {
+                "deckListId": "l5rdb-4beb66f9",
+                "label": "CN ThA Strategy C"
+              },
+              {
+                "deckListId": "l5rdb-6586034f",
+                "label": "CN ThA Tadanobu Honor Duel GenCon Top16 Onimaru"
+              },
+              {
+                "deckListId": "l5rdb-d0a2d8e8",
+                "label": "CN ThA Thunder Dueling Darren"
+              },
+              {
+                "deckListId": "l5rdb-13cd0034",
+                "label": "CN ThA Weapon Military Osan"
+              },
+              {
+                "deckListId": "l5rdb-13767a4d",
+                "label": "The Currency of War - Crane"
+              }
+            ]
+          },
+          {
+            "label": "OBH (The Obsidian Hand) Legacy",
+            "deckLists": [
+              {
+                "deckListId": "l5rdb-a671c149",
+                "label": "EOTC LG OBH CN EotC Ambush Honor — shockaboyob"
+              },
+              {
+                "deckListId": "l5rdb-3aadf8be",
+                "label": "EOTC LG OBH CN EotC Midrange Duel Honor ver3"
+              },
+              {
+                "deckListId": "l5rdb-b5f67b85",
+                "label": "EOTC LG OBH CN EotC Toshimoko Honor Bomb Top 4 SnM — Makyu"
+              },
+              {
+                "deckListId": "l5rdb-4b780dc1",
+                "label": "KO LG OBH CN KOx Dont Attack, I Panic 2"
+              },
+              {
+                "deckListId": "l5rdb-bfa41020",
+                "label": "LG OBH CN EotC Blue Eyes White Dragon"
+              },
+              {
+                "deckListId": "l5rdb-28c3760a",
+                "label": "LG OBH CN EotC Dueling Play In SnM — Jackson"
+              },
+              {
+                "deckListId": "l5rdb-797bd017",
+                "label": "TOH Crane Honor Blitz — Paul Natividad"
+              }
+            ]
+          },
+          {
+            "label": "Modern",
+            "deckLists": [
+              {
+                "deckListId": "l5rdb-a2275db0",
+                "label": "CN EotC Duel Play In SnM — Jackson"
+              },
+              {
+                "deckListId": "l5rdb-b634a5fc",
+                "label": "CN EotC Honor Duel Joel 1st SnM"
+              },
+              {
+                "deckListId": "l5rdb-8b4ebaea",
+                "label": "Crane Scouts — PlayCCG"
+              }
+            ]
+          },
+          {
+            "label": "Open",
+            "deckLists": [
+              {
+                "deckListId": "l5rdb-ee826020",
+                "label": "Embassy Honor Rocket — Yoriagami"
+              }
+            ]
+          },
+          {
+            "label": "Clan Wars",
+            "deckLists": [
+              {
+                "deckListId": "l5rdb-41df5396",
+                "label": "Crane Honor Rocket — Akodo War College"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Dragon",
+        "subMenus": [
+          {
+            "label": "Jade",
+            "deckLists": [
+              {
+                "deckListId": "l5rdb-33f9e059",
+                "label": "Dragon Dueling Technique (D.D.T.) — Akodo War College"
+              }
+            ]
+          },
+          {
+            "label": "Gold",
+            "deckLists": [
+              {
+                "deckListId": "l5rdb-a9c984ac",
+                "label": "GE DG Shiro Mirumoto Winner Melbourne Kotei 2003 — Glenn Morris"
+              }
+            ]
+          },
+          {
+            "label": "Lotus",
+            "deckLists": [
+              {
+                "deckListId": "l5rdb-6b3a82fb",
+                "label": "DG 2nd SnM — shockaboyob"
+              },
+              {
+                "deckListId": "l5rdb-e1444a4a",
+                "label": "DG THHoL Mil Enl Switch 4th Kotei"
+              },
+              {
+                "deckListId": "l5rdb-39e7d339",
+                "label": "SK DG 1st SnM — Rogi"
+              },
+              {
+                "deckListId": "l5rdb-7b631691",
+                "label": "SK EC 2005 LE DG Euro Winner"
+              }
+            ]
+          },
+          {
+            "label": "Samurai",
+            "deckLists": [
+              {
+                "deckListId": "l5rdb-fd0ce29d",
+                "label": "DG Military Top Dragon Kotei — Horror"
+              },
+              {
+                "deckListId": "l5rdb-d219d877",
+                "label": "DG Monk Military"
+              },
+              {
+                "deckListId": "l5rdb-5e5cfe4e",
+                "label": "DG The Power of Sharing 1st SnM — Rogi"
+              },
+              {
+                "deckListId": "l5rdb-efbf407d",
+                "label": "Dragon Ring Honor — Akodo War College"
+              },
+              {
+                "deckListId": "l5rdb-da3422bb",
+                "label": "GFC DG Kensai 1st Kotei"
+              },
+              {
+                "deckListId": "l5rdb-33837cf0",
+                "label": "GFC DG Military Top Dragon Kotei"
+              },
+              {
+                "deckListId": "l5rdb-a4df319b",
+                "label": "MST DG Monk Honor 3rd Kotei"
+              }
+            ]
+          },
+          {
+            "label": "Celestial",
+            "deckLists": [
+              {
+                "deckListId": "l5rdb-09059abd",
+                "label": "Beke David LSC (T4 Budapest Kotei)"
+              },
+              {
+                "deckListId": "l5rdb-d5584c82",
+                "label": "CE DG Duel Honor 2nd — shockaboyob"
+              },
+              {
+                "deckListId": "l5rdb-0a54da17",
+                "label": "Celestial Dragon Dueling Honor — Beke David"
+              },
+              {
+                "deckListId": "l5rdb-3fdb8b33",
+                "label": "Celestial Dragon Enlightenment — Mike Petke"
+              },
+              {
+                "deckListId": "l5rdb-848c8b8e",
+                "label": "Celestial Dragon Kensai — Corey Beahen"
+              },
+              {
+                "deckListId": "l5rdb-f0ff7c57",
+                "label": "Corey Beahen's Kensai"
+              },
+              {
+                "deckListId": "l5rdb-050d6bcf",
+                "label": "Frédéric Capbert's Dragon Kensai"
+              },
+              {
+                "deckListId": "l5rdb-3fa2054f",
+                "label": "Jon Hanna's Monks"
+              },
+              {
+                "deckListId": "l5rdb-4dfa7896",
+                "label": "Kensai (Ottawa Kotei T8) — Strange Assembly"
+              },
+              {
+                "deckListId": "l5rdb-70afefb9",
+                "label": "LSC Dragon FL honor ornatov"
+              },
+              {
+                "deckListId": "l5rdb-3ca2669c",
+                "label": "LSC Dragon TH Honor2nd Sean"
+              },
+              {
+                "deckListId": "l5rdb-9f228763",
+                "label": "LSC Dueling Honor — Strange Assembly"
+              },
+              {
+                "deckListId": "l5rdb-a7982f15",
+                "label": "LSC Honor — Kevin Christopher"
+              },
+              {
+                "deckListId": "l5rdb-bad3f2f2",
+                "label": "LSC Kotei 2011 Bacolod City 53 Personas Last Step Castle — Marlon Duron"
+              },
+              {
+                "deckListId": "l5rdb-86193bc2",
+                "label": "LSC – Carl Boyle"
+              },
+              {
+                "deckListId": "l5rdb-e4315afd",
+                "label": "LSC – Monjoni Osso"
+              },
+              {
+                "deckListId": "l5rdb-0f955b7c",
+                "label": "Marlon Duron's LSC"
+              },
+              {
+                "deckListId": "l5rdb-5b7ab252",
+                "label": "Mike Petke's Dragon Monk Military/Enlightenment"
+              },
+              {
+                "deckListId": "l5rdb-faf543d3",
+                "label": "Pakomonk Enlightenment (T16 Barcelona Kotei) — Strange Assembly"
+              },
+              {
+                "deckListId": "l5rdb-173cdaf2",
+                "label": "POV BOKT CE DG BoKT"
+              },
+              {
+                "deckListId": "l5rdb-8081f74a",
+                "label": "POV Dragon PoV FL monks AkodoTenrou — Akodo Tenrou"
+              },
+              {
+                "deckListId": "l5rdb-7decac3b",
+                "label": "Robbi Robison's Last Step"
+              },
+              {
+                "deckListId": "l5rdb-4bd60ea1",
+                "label": "Stillwater TKM Kensai (Dragon, 5th Place) — Strange Assembly"
+              },
+              {
+                "deckListId": "l5rdb-75809dc4",
+                "label": "TKM Magistrates – Diego Vergara"
+              }
+            ]
+          },
+          {
+            "label": "Emperor",
+            "deckLists": [
+              {
+                "deckListId": "l5rdb-85535154",
+                "label": "DBC DG SoD BKx BHx FacelessHonor Tenrou"
+              },
+              {
+                "deckListId": "l5rdb-57a50345",
+                "label": "DBC DG TA BKx BHx NinjaHOnor"
+              },
+              {
+                "deckListId": "l5rdb-14893d60",
+                "label": "DBC DG Tamori Yamabushi Top 4 — Technogashi"
+              },
+              {
+                "deckListId": "l5rdb-df3658dc",
+                "label": "DG Kensai 2nd — shockaboyob"
+              },
+              {
+                "deckListId": "l5rdb-cf9f3b27",
+                "label": "DG TSE BKx BHx FacelessHonor DouglassDee — Douglass Dee"
+              },
+              {
+                "deckListId": "l5rdb-9de8db44",
+                "label": "Dragon Faceless — David Rodriguez Sanfiorenzo"
+              },
+              {
+                "deckListId": "l5rdb-9a345e61",
+                "label": "Dragon Kensai (Alex Nagelvort)"
+              },
+              {
+                "deckListId": "l5rdb-42d38c35",
+                "label": "Dragon Kensai (Greg Osbourne)"
+              },
+              {
+                "deckListId": "l5rdb-4186a901",
+                "label": "Emperor Dragon Dueling Kensai — Greg Wong"
+              },
+              {
+                "deckListId": "l5rdb-a2ce2f50",
+                "label": "FK DG Kensai Top 4 — Tenchuu"
+              },
+              {
+                "deckListId": "l5rdb-e456bf16",
+                "label": "Kensai (Andrew Magee, Atlanta Kotei)"
+              },
+              {
+                "deckListId": "l5rdb-dc8eec33",
+                "label": "Tamori Honor — Michael Stocks"
+              },
+              {
+                "deckListId": "l5rdb-4f046371",
+                "label": "WED DG EE Duel Jo"
+              },
+              {
+                "deckListId": "l5rdb-db735cab",
+                "label": "WED DG EE DuelHonor Szymala"
+              },
+              {
+                "deckListId": "l5rdb-5135dc86",
+                "label": "WED DG EE KitsukiDuel BlackLotus — Black Lotus"
+              },
+              {
+                "deckListId": "l5rdb-459933da",
+                "label": "WED DG EoW Magistrate 1st Paris Kiralyfi"
+              }
+            ]
+          },
+          {
+            "label": "Emperor Extended",
+            "deckLists": [
+              {
+                "deckListId": "l5rdb-80e25dd0",
+                "label": "DBC DG Come At Me, Bro 1st SnM — Technogashi"
+              },
+              {
+                "deckListId": "l5rdb-45ed1e77",
+                "label": "LSC Magistrates 2nd SnM — shockaboyob"
+              },
+              {
+                "deckListId": "l5rdb-03ef3de5",
+                "label": "PoV Become One Top 4 SnM — Technogashi"
+              }
+            ]
+          },
+          {
+            "label": "Ivory",
+            "deckLists": [
+              {
+                "deckListId": "l5rdb-9a905044",
+                "label": "Ivory Dragon Dueling Military — Akodo War College"
+              },
+              {
+                "deckListId": "l5rdb-ced5f64d",
+                "label": "The Remote Monastery of the Dragon (Two Hands) — Strange Assembly"
+              }
+            ]
+          },
+          {
+            "label": "Twenty Festivals",
+            "deckLists": [
+              {
+                "deckListId": "l5rdb-720e326f",
+                "label": "20F Dragon Dueling — Akodo War College"
+              },
+              {
+                "deckListId": "l5rdb-97030794",
+                "label": "DG EP Military SnM 1st Tandyys"
+              },
+              {
+                "deckListId": "l5rdb-a4f96424",
+                "label": "DG EP SnM Winner Magistrate"
+              },
+              {
+                "deckListId": "l5rdb-5ac45eb4",
+                "label": "DG EP Tamori Commanders"
+              },
+              {
+                "deckListId": "l5rdb-a9277e84",
+                "label": "DG EP Top4 Kensai Daisuke"
+              },
+              {
+                "deckListId": "l5rdb-4f689220",
+                "label": "DG EP Top4 Oni"
+              },
+              {
+                "deckListId": "l5rdb-ba3337c1",
+                "label": "DG EP Top4 Oni M vs K"
+              },
+              {
+                "deckListId": "l5rdb-91f2af07",
+                "label": "DG EP Yodo Honor SnM 1st Luke"
+              },
+              {
+                "deckListId": "l5rdb-2142e4ab",
+                "label": "DG SCW SnM Winner Kensai Furking"
+              },
+              {
+                "deckListId": "l5rdb-769b3fdc",
+                "label": "DG TBS Dragon Law and Order Top 4 SnM — Technogashi"
+              },
+              {
+                "deckListId": "l5rdb-c2e0c672",
+                "label": "DG TBS Duel Monk Military Top 4 SnM — Nimuro"
+              },
+              {
+                "deckListId": "l5rdb-f3a8864c",
+                "label": "DG TBS Oni Play In SnM — kempy"
+              },
+              {
+                "deckListId": "l5rdb-aaf00f81",
+                "label": "DG ThA 2nd Enlight Palumbo"
+              },
+              {
+                "deckListId": "l5rdb-306a378c",
+                "label": "DG ThA 3rd Euro Enlight"
+              },
+              {
+                "deckListId": "l5rdb-be4950c7",
+                "label": "TFMOTD DG EP Top4 Oni M vs K T"
+              },
+              {
+                "deckListId": "l5rdb-7ed5c7de",
+                "label": "TFMOTD DG ThA Gencon Top4 Duel J"
+              },
+              {
+                "deckListId": "l5rdb-84827e64",
+                "label": "TFMOTD DG ThA Strategy D"
+              }
+            ]
+          },
+          {
+            "label": "OBH (The Obsidian Hand) Legacy",
+            "deckLists": [
+              {
+                "deckListId": "l5rdb-86f6fe74",
+                "label": "LG OBH DG FMotD 1st GenCon25 — shockaboyob"
+              },
+              {
+                "deckListId": "l5rdb-197481eb",
+                "label": "LG OBH DG FMotD Dueling 1st — shockaboyob"
+              },
+              {
+                "deckListId": "l5rdb-cf1081c8",
+                "label": "LG OBH DG RMotD Honored Hostage"
+              },
+              {
+                "deckListId": "l5rdb-a4dc00e4",
+                "label": "OBH DG FMotD Cursed Moons Play-In SnM — CasperTheFriendlyGhost"
+              },
+              {
+                "deckListId": "l5rdb-55b8d3e0",
+                "label": "TFMOTD LG OBH DG FMotD Dark Dragon 2nd — shockaboyob"
+              },
+              {
+                "deckListId": "l5rdb-bd02dd47",
+                "label": "TFMOTD LG OBH DG FMotD Military Top 4 — shockaboyob"
+              }
+            ]
+          },
+          {
+            "label": "Modern",
+            "deckLists": [
+              {
+                "deckListId": "l5rdb-fc5b91bf",
+                "label": "DG Blitz Bobo 1st"
+              },
+              {
+                "deckListId": "l5rdb-0b963095",
+                "label": "DG Kensai 1st SnM — shockaboyob"
+              },
+              {
+                "deckListId": "l5rdb-a3a55f14",
+                "label": "DG MoNT Monks Jasper 1st Tanuki"
+              },
+              {
+                "deckListId": "l5rdb-22875b5a",
+                "label": "DG Tamori Honor 1st SnM - Top 4 Gencon — Technogashi"
+              }
+            ]
+          },
+          {
+            "label": "Open",
+            "deckLists": [
+              {
+                "deckListId": "l5rdb-b6abd2f2",
+                "label": "SK Dark Enlightenment — Yoriagami"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Lion",
+        "subMenus": [
+          {
+            "label": "Imperial",
+            "deckLists": [
+              {
+                "deckListId": "l5rdb-812bfd41",
+                "label": "1997 IE Lion Winner"
+              }
+            ]
+          },
+          {
+            "label": "Jade",
+            "deckLists": [
+              {
+                "deckListId": "l5rdb-9a51b691",
+                "label": "1998 JE Lion Winner"
+              },
+              {
+                "deckListId": "l5rdb-6cd413c4",
+                "label": "1998 Test of the Jade Championship World Championship – Akuma's Army — Akodo War College"
+              },
+              {
+                "deckListId": "l5rdb-cbf354a0",
+                "label": "The Shadowlion — Akodo War College"
+              }
+            ]
+          },
+          {
+            "label": "Gold",
+            "deckLists": [
+              {
+                "deckListId": "l5rdb-e6d50e4a",
+                "label": "Tibbles Tacticians — Akodo War College"
+              }
+            ]
+          },
+          {
+            "label": "Diamond",
+            "deckLists": [
+              {
+                "deckListId": "l5rdb-1a434128",
+                "label": "KG EC 2003 DE LN Euro Winner"
+              }
+            ]
+          },
+          {
+            "label": "Lotus",
+            "deckLists": [
+              {
+                "deckListId": "l5rdb-6e5304e4",
+                "label": "COTSS LN CotSS Honor Bomb 2nd Kotei"
+              },
+              {
+                "deckListId": "l5rdb-870ca48b",
+                "label": "LN HoA Ashigaru Blitz 1st Kotei — Owen"
+              },
+              {
+                "deckListId": "l5rdb-7cde43e0",
+                "label": "LN HoA Blitz 2nd SnM — Efirm"
+              }
+            ]
+          },
+          {
+            "label": "Samurai",
+            "deckLists": [
+              {
+                "deckListId": "l5rdb-8519b556",
+                "label": "2008 World Championship – Top Lion (HoA Military) — Draconic"
+              },
+              {
+                "deckListId": "l5rdb-09e3e9d2",
+                "label": "A Well-Manicured Lawn — Akodo War College"
+              },
+              {
+                "deckListId": "l5rdb-6de1276c",
+                "label": "LN Bushido Attack — Case"
+              },
+              {
+                "deckListId": "l5rdb-46110919",
+                "label": "LN HoA Toolbox"
+              },
+              {
+                "deckListId": "l5rdb-45ae5806",
+                "label": "LN HoA Toolbox Top Clan Kotei"
+              },
+              {
+                "deckListId": "l5rdb-c764cc1e",
+                "label": "LN Swarm Sachika — Itz"
+              },
+              {
+                "deckListId": "l5rdb-55b254e2",
+                "label": "LN Switch — Case"
+              },
+              {
+                "deckListId": "l5rdb-0313d8ef",
+                "label": "LN VPoI Attack"
+              },
+              {
+                "deckListId": "l5rdb-518b85f8",
+                "label": "LN VPoI Pekkle Def Honor — Reda"
+              },
+              {
+                "deckListId": "l5rdb-b30bee28",
+                "label": "LN VPoI Tempered Military"
+              },
+              {
+                "deckListId": "l5rdb-cf13f7dd",
+                "label": "SE LN CF The Last One"
+              },
+              {
+                "deckListId": "l5rdb-a93350db",
+                "label": "VK NA 2008 SE LN North America Winner — Case"
+              }
+            ]
+          },
+          {
+            "label": "Celestial",
+            "deckLists": [
+              {
+                "deckListId": "l5rdb-c08b439a",
+                "label": "Albert Mialet – Toulouse – 2nd Place (Lion)"
+              },
+              {
+                "deckListId": "l5rdb-15ab7312",
+                "label": "Anthony Lawrence – Feeding Hills – T8 (Lion)"
+              },
+              {
+                "deckListId": "l5rdb-d149c3ea",
+                "label": "CC DieByTheSword kempy"
+              },
+              {
+                "deckListId": "l5rdb-8d93e3a1",
+                "label": "CC EaW BattleControl Klepek"
+              },
+              {
+                "deckListId": "l5rdb-3bd2e850",
+                "label": "CC EaW CommTact Kusamoto"
+              },
+              {
+                "deckListId": "l5rdb-4138158f",
+                "label": "CC EaW Enlight"
+              },
+              {
+                "deckListId": "l5rdb-874e199f",
+                "label": "CC EaW ParagonTact Kurisu"
+              },
+              {
+                "deckListId": "l5rdb-dbff5ae9",
+                "label": "CC EaW Tacticians Arasou"
+              },
+              {
+                "deckListId": "l5rdb-4bc504ac",
+                "label": "CC EC2009Winner Anjo"
+              },
+              {
+                "deckListId": "l5rdb-e50f7d45",
+                "label": "CC FL Tact Tenrou"
+              },
+              {
+                "deckListId": "l5rdb-c9d817c0",
+                "label": "CC IG3 Unique 1stOzCon Gadilos"
+              },
+              {
+                "deckListId": "l5rdb-8b7b3075",
+                "label": "CC Military Fuji"
+              },
+              {
+                "deckListId": "l5rdb-b1aa7533",
+                "label": "CC MilitaryGencon Ryan"
+              },
+              {
+                "deckListId": "l5rdb-3a37bd18",
+                "label": "CC PotD Military Kempy"
+              },
+              {
+                "deckListId": "l5rdb-83107ac7",
+                "label": "CC SC TactWeapons Goblin"
+              },
+              {
+                "deckListId": "l5rdb-64ecb4ed",
+                "label": "CC Tact"
+              },
+              {
+                "deckListId": "l5rdb-ed3c1345",
+                "label": "CC Tacticians (Lion) – Lon Schlittenhart"
+              },
+              {
+                "deckListId": "l5rdb-c1110c7c",
+                "label": "CC TDoW Tact Panzerboy"
+              },
+              {
+                "deckListId": "l5rdb-0b658a62",
+                "label": "CC TH FollowerTact sliver"
+              },
+              {
+                "deckListId": "l5rdb-c5a25d36",
+                "label": "CC TH Hero Kempy"
+              },
+              {
+                "deckListId": "l5rdb-49808378",
+                "label": "CC TH Military FantasticSix Kempy"
+              },
+              {
+                "deckListId": "l5rdb-37400a96",
+                "label": "CC TH Military4th Sakyamuni"
+              },
+              {
+                "deckListId": "l5rdb-c914818b",
+                "label": "CC TH Tact kempy"
+              },
+              {
+                "deckListId": "l5rdb-62d79e7d",
+                "label": "CC TH West mlund"
+              },
+              {
+                "deckListId": "l5rdb-08b5bf29",
+                "label": "CC TH WestSide MLund"
+              },
+              {
+                "deckListId": "l5rdb-7d4b1f69",
+                "label": "CC TheLastSeichii Tye"
+              },
+              {
+                "deckListId": "l5rdb-96e7593d",
+                "label": "CC Violence MlundVsKempy"
+              },
+              {
+                "deckListId": "l5rdb-9eda0ee0",
+                "label": "CC Wjazd Hivis"
+              },
+              {
+                "deckListId": "l5rdb-6d20b358",
+                "label": "Celestial Lion Military — Akodo War College"
+              },
+              {
+                "deckListId": "l5rdb-3559387e",
+                "label": "Celestial Lion Paragons — Tim Wells"
+              },
+              {
+                "deckListId": "l5rdb-76687ddf",
+                "label": "Celestial Lion Tactician Kensai — Akodo War College"
+              },
+              {
+                "deckListId": "l5rdb-46a44aa6",
+                "label": "Celestial Naked Lion — Akodo War College"
+              },
+              {
+                "deckListId": "l5rdb-6e96c92a",
+                "label": "EaW Cavalry 1st SC WC Tenrou"
+              },
+              {
+                "deckListId": "l5rdb-a4e55a72",
+                "label": "EaW CycleKill GoblinVSkempy"
+              },
+              {
+                "deckListId": "l5rdb-4a5a9a0c",
+                "label": "EaW ParagonTact Goblin"
+              },
+              {
+                "deckListId": "l5rdb-34e8d128",
+                "label": "EaW ParagonTact KurisuVSkempy"
+              },
+              {
+                "deckListId": "l5rdb-ee1e92cb",
+                "label": "EaW Unique Kusamoto"
+              },
+              {
+                "deckListId": "l5rdb-9b903332",
+                "label": "GHOR BOKT CE LN BoKT"
+              },
+              {
+                "deckListId": "l5rdb-6ada173b",
+                "label": "GHOR CC TH TURD Ryroma"
+              },
+              {
+                "deckListId": "l5rdb-0fba74ed",
+                "label": "GHOR GHoR ComeAndDieWithMe Kusamoto"
+              },
+              {
+                "deckListId": "l5rdb-d0ee30e3",
+                "label": "GHOR GHoR EaW DeatseekersHonor Velo75"
+              },
+              {
+                "deckListId": "l5rdb-d14a7acb",
+                "label": "GHOR GHoR EaW DeatseekersHonor Velo75VsKempy"
+              },
+              {
+                "deckListId": "l5rdb-0456489d",
+                "label": "GHOR GHoR EaW Hero Blitz Iowatrackrunner"
+              },
+              {
+                "deckListId": "l5rdb-8b70aee8",
+                "label": "GHOR GHoR EaW Honor 1stNameaItem Rei"
+              },
+              {
+                "deckListId": "l5rdb-e290c4c2",
+                "label": "GHOR GHoR EaW MAD Djaku"
+              },
+              {
+                "deckListId": "l5rdb-93b36949",
+                "label": "GHOR GhoR IG3 Naked 3rd WinnersChoice Koitashi"
+              },
+              {
+                "deckListId": "l5rdb-27502078",
+                "label": "GHOR GhoR IG3 Weapon 3rd WinnersChoce Koitashi"
+              },
+              {
+                "deckListId": "l5rdb-479d59b6",
+                "label": "GHOR GHoR SC Hero Tenrou"
+              },
+              {
+                "deckListId": "l5rdb-593efd1c",
+                "label": "GHOR GHoR TDoW DSBreeder Daikichi"
+              },
+              {
+                "deckListId": "l5rdb-94565642",
+                "label": "GHOR GHoR TDoW Honor Velo75"
+              },
+              {
+                "deckListId": "l5rdb-e4d82f29",
+                "label": "GHOR GHoR TDoW WeaponsTact Klepek"
+              },
+              {
+                "deckListId": "l5rdb-baa32c69",
+                "label": "GHOR GHoR TPW Followers Velo75"
+              },
+              {
+                "deckListId": "l5rdb-ef038cb9",
+                "label": "GHOR GHoR TPW Hero AkodoJacek — Akodo Jacek"
+              },
+              {
+                "deckListId": "l5rdb-6c0eccc0",
+                "label": "GHoR TPW Hero AkodoJacekVsKempy"
+              },
+              {
+                "deckListId": "l5rdb-8112d23e",
+                "label": "HonorCourtier Jaku"
+              },
+              {
+                "deckListId": "l5rdb-5a39c2b8",
+                "label": "IG3 Weapon Case"
+              },
+              {
+                "deckListId": "l5rdb-d3220b7c",
+                "label": "Mike Dickinson – Dublin – 2nd Place (Lion)"
+              },
+              {
+                "deckListId": "l5rdb-12353916",
+                "label": "Military KlepekVsKempy"
+              },
+              {
+                "deckListId": "l5rdb-54446f4a",
+                "label": "Paragons (Tim Wells)"
+              },
+              {
+                "deckListId": "l5rdb-338a8101",
+                "label": "PotD Hero kempy"
+              },
+              {
+                "deckListId": "l5rdb-dd342919",
+                "label": "SC Tact Morgoth"
+              },
+              {
+                "deckListId": "l5rdb-7ff6c1d6",
+                "label": "Scott Hadsall (Winner, South Sioux City Kotei)"
+              },
+              {
+                "deckListId": "l5rdb-d990e629",
+                "label": "SK BtD DefHonor Klepek"
+              },
+              {
+                "deckListId": "l5rdb-5d0652cc",
+                "label": "SK BtD Military Barto"
+              },
+              {
+                "deckListId": "l5rdb-6c669c8b",
+                "label": "SK BtD Switch Kusamoto"
+              },
+              {
+                "deckListId": "l5rdb-4b0cd6ca",
+                "label": "SK FL SeichTLO Tenrou"
+              },
+              {
+                "deckListId": "l5rdb-48bb8ba1",
+                "label": "SK SC Enlionment Kurisu"
+              },
+              {
+                "deckListId": "l5rdb-89c80857",
+                "label": "SK SC Paragon Lestat"
+              },
+              {
+                "deckListId": "l5rdb-babd79c6",
+                "label": "SK SC T16 Jade Lestat"
+              },
+              {
+                "deckListId": "l5rdb-fb1ffb31",
+                "label": "TDoW Paliza MLund"
+              },
+              {
+                "deckListId": "l5rdb-ee8ad847",
+                "label": "TH 4thBarcelona"
+              },
+              {
+                "deckListId": "l5rdb-cd11a199",
+                "label": "Timothy Wells (2nd Place, Louisville Kotei)"
+              },
+              {
+                "deckListId": "l5rdb-64121ae9",
+                "label": "VPOTI DefHonor kempy"
+              },
+              {
+                "deckListId": "l5rdb-511bc552",
+                "label": "VPOTI Dumpster reinoe"
+              },
+              {
+                "deckListId": "l5rdb-728a4efc",
+                "label": "VPOTI Fusion kusamoto"
+              },
+              {
+                "deckListId": "l5rdb-f0d7b38c",
+                "label": "VPOTI Ikoma'sRevenge Kusamoto"
+              },
+              {
+                "deckListId": "l5rdb-72102aa0",
+                "label": "VPOTI PotD Experiment Domotai"
+              },
+              {
+                "deckListId": "l5rdb-5c226b13",
+                "label": "VPOTI PotD Switch Samuraiko"
+              },
+              {
+                "deckListId": "l5rdb-3d955d80",
+                "label": "VPOTI TH HonorParagonDeath Jaku"
+              },
+              {
+                "deckListId": "l5rdb-287e5e35",
+                "label": "VPOTI TH HonorParagonDeath JakuVsKempy"
+              },
+              {
+                "deckListId": "l5rdb-b9c5dfec",
+                "label": "VPOTI VPoI TDoW ParagonHonor Kenzihen"
+              }
+            ]
+          },
+          {
+            "label": "Emperor",
+            "deckLists": [
+              {
+                "deckListId": "l5rdb-9a634b31",
+                "label": "Ancestors (Alex Iartsev)"
+              },
+              {
+                "deckListId": "l5rdb-afbeda94",
+                "label": "Brendan Quigley Lion (T16)"
+              },
+              {
+                "deckListId": "l5rdb-98da0a4e",
+                "label": "Double Dip — Strange Assembly"
+              },
+              {
+                "deckListId": "l5rdb-8ac4a252",
+                "label": "EE BKx Blitz Rawion"
+              },
+              {
+                "deckListId": "l5rdb-282eda94",
+                "label": "EE BKx Party Monster Ryroma"
+              },
+              {
+                "deckListId": "l5rdb-40dc815d",
+                "label": "EE Swarm DouglasDee — Douglas Dee"
+              },
+              {
+                "deckListId": "l5rdb-1b708a52",
+                "label": "EE TactCavalry Tenrou"
+              },
+              {
+                "deckListId": "l5rdb-364dab0e",
+                "label": "EoW Blitz real kempy"
+              },
+              {
+                "deckListId": "l5rdb-8f4bf7aa",
+                "label": "Evan Paul's Naked Lion (Winner, Atlanta Kotei)"
+              },
+              {
+                "deckListId": "l5rdb-d59b9b72",
+                "label": "EVD CoM BKx BHx Breeder"
+              },
+              {
+                "deckListId": "l5rdb-71956fe8",
+                "label": "EVD CoM BKx BHx Harsh Tenrou"
+              },
+              {
+                "deckListId": "l5rdb-1dd17fb0",
+                "label": "EVD CoM BKX ChiBlitz"
+              },
+              {
+                "deckListId": "l5rdb-bb540c32",
+                "label": "EVD CoM BKx Tactagons Toturi"
+              },
+              {
+                "deckListId": "l5rdb-c828b069",
+                "label": "EVD EE Blitz D"
+              },
+              {
+                "deckListId": "l5rdb-e2a17d29",
+                "label": "EVD EE Blitz kempy"
+              },
+              {
+                "deckListId": "l5rdb-6671223c",
+                "label": "EVD EE Blitz kempy real"
+              },
+              {
+                "deckListId": "l5rdb-a8678d56",
+                "label": "EVD EE Blitz Klepek"
+              },
+              {
+                "deckListId": "l5rdb-42619e2c",
+                "label": "EVD EE Blitz MLund"
+              },
+              {
+                "deckListId": "l5rdb-438a716f",
+                "label": "EVD EE Blitz Will"
+              },
+              {
+                "deckListId": "l5rdb-69645f49",
+                "label": "EVD EE Enlight Kempy"
+              },
+              {
+                "deckListId": "l5rdb-25c632f9",
+                "label": "EVD EE Enlight Klepek"
+              },
+              {
+                "deckListId": "l5rdb-9b8e956f",
+                "label": "EVD EE Tactagons sb305198"
+              },
+              {
+                "deckListId": "l5rdb-e3292108",
+                "label": "EVD EE Tactagons Slaven 2nd Atlanta"
+              },
+              {
+                "deckListId": "l5rdb-7f561c8f",
+                "label": "EVD EoW Blitz kempy"
+              },
+              {
+                "deckListId": "l5rdb-de18f0cc",
+                "label": "EVD EoW Blitz real2 kempy"
+              },
+              {
+                "deckListId": "l5rdb-440764e5",
+                "label": "EVD GoC BKx BHx Duel Toturi"
+              },
+              {
+                "deckListId": "l5rdb-d5055fb2",
+                "label": "EVD GoC BKx2 Tactagons Goblin"
+              },
+              {
+                "deckListId": "l5rdb-5ad1c2ff",
+                "label": "EVD SoD BKx Enlight AkodoGilador — Akodo Gilador"
+              },
+              {
+                "deckListId": "l5rdb-035b4828",
+                "label": "EVD SoD BKx Tact Tenrou"
+              },
+              {
+                "deckListId": "l5rdb-720fe8b3",
+                "label": "EVD SoD BKx TactBlitz Koitashi"
+              },
+              {
+                "deckListId": "l5rdb-a7556bff",
+                "label": "EVD TA BKx AshigaruBlitz RawionVsKempy"
+              },
+              {
+                "deckListId": "l5rdb-def30350",
+                "label": "EVD TA BKx BattleDishonor Chukles"
+              },
+              {
+                "deckListId": "l5rdb-1706910e",
+                "label": "EVD TA BKx BHx ChiNonhuman — Chi Nonhuman"
+              },
+              {
+                "deckListId": "l5rdb-bdc83faf",
+                "label": "EVD TA BKx BHx ChiNonhumanTenrouVsKempy"
+              },
+              {
+                "deckListId": "l5rdb-caa9dbb1",
+                "label": "EVD TA BKx BHx ChiNonhumanTenrouVsKempy2"
+              },
+              {
+                "deckListId": "l5rdb-1c76ee81",
+                "label": "EVD TA BKx Blitz Toturi"
+              },
+              {
+                "deckListId": "l5rdb-75288a2b",
+                "label": "EVD TA BKx Followers AkodoGilador — Akodo Gilador"
+              },
+              {
+                "deckListId": "l5rdb-e0a58055",
+                "label": "EVD TA BKx KingDragon Tenrou"
+              },
+              {
+                "deckListId": "l5rdb-704cd3ae",
+                "label": "EVD TA BKx KingDragon2 Tenrou"
+              },
+              {
+                "deckListId": "l5rdb-eacf46f2",
+                "label": "EVD TSE BKx BHx Dishonor Chuckles"
+              },
+              {
+                "deckListId": "l5rdb-387959ff",
+                "label": "EVD TSE BKx BHx Enligh Klepek"
+              },
+              {
+                "deckListId": "l5rdb-0f8cfb05",
+                "label": "EVD TSE BKx BHx Military Grover"
+              },
+              {
+                "deckListId": "l5rdb-117be10d",
+                "label": "EVD TSE BKx Tactagons Goblin"
+              },
+              {
+                "deckListId": "l5rdb-568a27f0",
+                "label": "GoC Bkx BlitzFilipiny — Blitz Filipiny"
+              },
+              {
+                "deckListId": "l5rdb-223cb24e",
+                "label": "Good Stuff Mish-Mash — Strange Assembly"
+              },
+              {
+                "deckListId": "l5rdb-c96f9c48",
+                "label": "HoM EE BKx BHx Ancestor Mishka 1st BuenosAires — Buenos Aires"
+              },
+              {
+                "deckListId": "l5rdb-8a50d042",
+                "label": "HOM Hom BKx2 BHx MokshaPatam — Moksha Patam"
+              },
+              {
+                "deckListId": "l5rdb-14604838",
+                "label": "HOM HoM CoM Ancestors"
+              },
+              {
+                "deckListId": "l5rdb-22d6a0c4",
+                "label": "HOM HoM CoM BKx2 Ancestors Owen"
+              },
+              {
+                "deckListId": "l5rdb-791e120e",
+                "label": "HOM HoM EE BKx BHx Ancestor Klepek"
+              },
+              {
+                "deckListId": "l5rdb-6159bd9d",
+                "label": "HOM HoM EE Kitsu Bihama 4th"
+              },
+              {
+                "deckListId": "l5rdb-7a15463a",
+                "label": "HOM HoM EE Kitsu Jimbo"
+              },
+              {
+                "deckListId": "l5rdb-10032e55",
+                "label": "HOM HoM EE Kitsu kempy"
+              },
+              {
+                "deckListId": "l5rdb-e33c0b51",
+                "label": "HOM HoM EE Kitsu Tenrou"
+              },
+              {
+                "deckListId": "l5rdb-9dc377a6",
+                "label": "HOM HoM EE KitsuCourtier Azote"
+              },
+              {
+                "deckListId": "l5rdb-12014720",
+                "label": "HOM HoM EoW BKx BHx Kitsu Lestat 1st"
+              },
+              {
+                "deckListId": "l5rdb-5c712734",
+                "label": "HOM HoM EoW BKx BHx Owen 1st"
+              },
+              {
+                "deckListId": "l5rdb-fc5770df",
+                "label": "HOM HoM GoC BKx2 Ancestors"
+              },
+              {
+                "deckListId": "l5rdb-648a2604",
+                "label": "HOM HoM SoD BKx BHx Courtier Tenrou"
+              },
+              {
+                "deckListId": "l5rdb-d9d9d54f",
+                "label": "HOM HoM SoD BKx KitsuKombo — Kitsu Kombo"
+              },
+              {
+                "deckListId": "l5rdb-0d02f23b",
+                "label": "HOM HoM TA BKx BHx CourtierHonor Tenrou"
+              },
+              {
+                "deckListId": "l5rdb-40c1a924",
+                "label": "HOM HoM TA BKx BHx Honor Tenrou"
+              },
+              {
+                "deckListId": "l5rdb-7ceee21d",
+                "label": "HOM HoM TSE Ancestors T16Gencon Copper"
+              },
+              {
+                "deckListId": "l5rdb-144fd277",
+                "label": "HoM TA BKx KingDragon Tenrouvskempy"
+              },
+              {
+                "deckListId": "l5rdb-18d833d1",
+                "label": "James Spencer's Naked Lion (10th Place, Atlanta Kotei)"
+              },
+              {
+                "deckListId": "l5rdb-a7d52680",
+                "label": "Lion Hero — Strange Assembly"
+              },
+              {
+                "deckListId": "l5rdb-a66d9075",
+                "label": "Lion Paragons (2) — Lon"
+              },
+              {
+                "deckListId": "l5rdb-b38dcc20",
+                "label": "Lion TactaGons — Anthony Lawrence"
+              },
+              {
+                "deckListId": "l5rdb-14afdf10",
+                "label": "Paragons (Daniel Long, Atlanta Kotei)"
+              },
+              {
+                "deckListId": "l5rdb-361f24fa",
+                "label": "Polish Kotei (Great Halls) — Strange Assembly"
+              },
+              {
+                "deckListId": "l5rdb-1b1d78af",
+                "label": "SK CoM BKx BHx Parascouts Lestat"
+              },
+              {
+                "deckListId": "l5rdb-2b98030b",
+                "label": "SK CoM BKx Paraweapons Coopernicus"
+              },
+              {
+                "deckListId": "l5rdb-8b79fe81",
+                "label": "SK EE BHx HonorBomb Jimbo"
+              },
+              {
+                "deckListId": "l5rdb-aa570490",
+                "label": "SK EE BKx ParagonKitsuHonor Dragonic 2nd Rennes"
+              },
+              {
+                "deckListId": "l5rdb-e185cce8",
+                "label": "SK EE KitsuParagon T8 Klepek"
+              },
+              {
+                "deckListId": "l5rdb-21516843",
+                "label": "SK EE ParagonHonor Stsung"
+              },
+              {
+                "deckListId": "l5rdb-a85a107b",
+                "label": "SK EE Switch Lestat 1st Lvl15"
+              },
+              {
+                "deckListId": "l5rdb-79ca52ee",
+                "label": "SK EVD TA BKx Blitz Tenrou"
+              },
+              {
+                "deckListId": "l5rdb-43d67e38",
+                "label": "SK GoC BKx blitz"
+              },
+              {
+                "deckListId": "l5rdb-259345df",
+                "label": "SK GoC BKx blitz2 ktm"
+              },
+              {
+                "deckListId": "l5rdb-134bb3e3",
+                "label": "SK GoC BKx blitz3"
+              },
+              {
+                "deckListId": "l5rdb-4ea95c6d",
+                "label": "SK GoC BKx paragons"
+              },
+              {
+                "deckListId": "l5rdb-6985a38e",
+                "label": "SK GoC BKx2 Paraweapons Coopernicus"
+              },
+              {
+                "deckListId": "l5rdb-bb42c31d",
+                "label": "SK GoC BKxp2 Paragons Lestat"
+              },
+              {
+                "deckListId": "l5rdb-dc6f1eac",
+                "label": "SK NA 2012 EE LN North America Winner"
+              },
+              {
+                "deckListId": "l5rdb-3cce32d2",
+                "label": "SK SoD BKx BHx FullHonor Tenrou"
+              },
+              {
+                "deckListId": "l5rdb-1a5a6c47",
+                "label": "SK SoD BKx BHx ResParagon Tenrou"
+              },
+              {
+                "deckListId": "l5rdb-1cd22e95",
+                "label": "SK SoD BKx BHx ResParagon2 Tenrou"
+              },
+              {
+                "deckListId": "l5rdb-b0d1af8a",
+                "label": "SK SoD BKx BHx SamuraiZooSwarm Tetsuo"
+              },
+              {
+                "deckListId": "l5rdb-cc0b3527",
+                "label": "SK SoD BKx BHx SwarmAncestor"
+              },
+              {
+                "deckListId": "l5rdb-0ab5512c",
+                "label": "SK SoD BKx Parafollower Klepek"
+              },
+              {
+                "deckListId": "l5rdb-6e02c650",
+                "label": "SK SoD BKx PureHonorParagon Tenrou"
+              },
+              {
+                "deckListId": "l5rdb-8b7b8e0f",
+                "label": "SK SoD BKx Uniques Toturi"
+              },
+              {
+                "deckListId": "l5rdb-57741487",
+                "label": "SK SoD Moksha Sejmitar"
+              },
+              {
+                "deckListId": "l5rdb-cd040e78",
+                "label": "SK TA BKx AshigaruBlitz"
+              },
+              {
+                "deckListId": "l5rdb-cee221fa",
+                "label": "SK TA BKx Paragon Wells"
+              },
+              {
+                "deckListId": "l5rdb-65221e05",
+                "label": "SK TSE BKx Paragon Arasou Gencon2012"
+              },
+              {
+                "deckListId": "l5rdb-831cbbc6",
+                "label": "SK TSE BKx Paragon Tenrou"
+              },
+              {
+                "deckListId": "l5rdb-d386fcaa",
+                "label": "SK TSE BKx Parascouts Klepek"
+              },
+              {
+                "deckListId": "l5rdb-97a857d6",
+                "label": "SK TSE Parascout Klepek"
+              },
+              {
+                "deckListId": "l5rdb-9279780d",
+                "label": "Steve Bewley's Naked Lion (9th Place, Atlanta Kotei)"
+              },
+              {
+                "deckListId": "l5rdb-3f436ebd",
+                "label": "TA BKx BHx Ancestors SeidaiCircutT8 — Seidai Circut T8"
+              },
+              {
+                "deckListId": "l5rdb-fbabc4b0",
+                "label": "TactaGons (Randy Slaven, Atlanta Kotei)"
+              },
+              {
+                "deckListId": "l5rdb-077ec36a",
+                "label": "TGP CoM BKx TactScouts Yoda"
+              },
+              {
+                "deckListId": "l5rdb-a52e2ca1",
+                "label": "TGP EE AggressiveScout Tenrou"
+              },
+              {
+                "deckListId": "l5rdb-3fda2909",
+                "label": "TGP EE BKx BHx Scouts Tenrou"
+              },
+              {
+                "deckListId": "l5rdb-65149d40",
+                "label": "TGP EE BKx Blitz RawionVsKempy"
+              },
+              {
+                "deckListId": "l5rdb-0fefd215",
+                "label": "TGP EE ScoutNonhuman Tenrou"
+              },
+              {
+                "deckListId": "l5rdb-a0d3900d",
+                "label": "TGP GoC BKx TactScouts Yoda"
+              },
+              {
+                "deckListId": "l5rdb-1512b7c1",
+                "label": "TGP SoD BKx Madagascar"
+              },
+              {
+                "deckListId": "l5rdb-d72a8246",
+                "label": "TGP TSE MilContr Klepek"
+              },
+              {
+                "deckListId": "l5rdb-7343b60c",
+                "label": "TMF AM Bkx BlitzFilipiny — Blitz Filipiny"
+              },
+              {
+                "deckListId": "l5rdb-f004d9d3",
+                "label": "TMF CoM Blitz Schwartz"
+              },
+              {
+                "deckListId": "l5rdb-e0b9cc99",
+                "label": "TMF CoM LiOni Gilador"
+              },
+              {
+                "deckListId": "l5rdb-ea18ed4c",
+                "label": "TMF EoW NonhumanSwarm Lestat"
+              },
+              {
+                "deckListId": "l5rdb-110a1f82",
+                "label": "TMF EoW NonhumanSwarmParis — Nonhuman Swarm Paris"
+              },
+              {
+                "deckListId": "l5rdb-1b5e0b02",
+                "label": "TMF EoW Scout Starter"
+              },
+              {
+                "deckListId": "l5rdb-92088873",
+                "label": "TMF EoW ScoutBlitz Slaven"
+              },
+              {
+                "deckListId": "l5rdb-1bc59018",
+                "label": "TMF EoW ScoutBlitz Will"
+              },
+              {
+                "deckListId": "l5rdb-bb9be60d",
+                "label": "TMF EoW ScoutBlitz Willvskempy"
+              },
+              {
+                "deckListId": "l5rdb-b3bf43f5",
+                "label": "TMF GoC Bkx Nonhuman Swarm"
+              },
+              {
+                "deckListId": "l5rdb-6e271b54",
+                "label": "TMF GoC Blitz Rawion"
+              },
+              {
+                "deckListId": "l5rdb-a5c207b4",
+                "label": "TMF PR 2013 EE LN Pacific Rim Winner"
+              },
+              {
+                "deckListId": "l5rdb-7bc5ecda",
+                "label": "TMF SoD Ancestors Copper"
+              },
+              {
+                "deckListId": "l5rdb-0e9c9e4e",
+                "label": "TMF SoD Breeder Tenrou"
+              },
+              {
+                "deckListId": "l5rdb-8e69de7d",
+                "label": "TMF SoD Light Klepek"
+              },
+              {
+                "deckListId": "l5rdb-11ec0651",
+                "label": "TMF TA BKx Scouts Rawion 4th"
+              },
+              {
+                "deckListId": "l5rdb-eb09d350",
+                "label": "TMF TA BKx Scouts RawionVsKempy"
+              },
+              {
+                "deckListId": "l5rdb-846e3426",
+                "label": "TMF TA BKx Scouts Tenrou"
+              },
+              {
+                "deckListId": "l5rdb-d4c372f0",
+                "label": "TMF TA scouts naga"
+              },
+              {
+                "deckListId": "l5rdb-d887734b",
+                "label": "TMF TSE BKx NonhumanSwarm Lestat"
+              },
+              {
+                "deckListId": "l5rdb-3b15df73",
+                "label": "TMF TSE Blitz 3rdSC Gencon Akuto"
+              },
+              {
+                "deckListId": "l5rdb-c5cb52ef",
+                "label": "TMF TSE NonhumanSwarm Klepek"
+              },
+              {
+                "deckListId": "l5rdb-30e92998",
+                "label": "TMF TSE ScoutBlitz Willvskempy2"
+              },
+              {
+                "deckListId": "l5rdb-c530bc16",
+                "label": "TMF TSE ScoutShooter Domotai"
+              },
+              {
+                "deckListId": "l5rdb-d7714e61",
+                "label": "TSE ScoutBlitz Akuto 3rd SC"
+              },
+              {
+                "deckListId": "l5rdb-03b4b35a",
+                "label": "VeloClone — Strange Assembly"
+              }
+            ]
+          },
+          {
+            "label": "Ivory",
+            "deckLists": [
+              {
+                "deckListId": "l5rdb-5bb0de65",
+                "label": "AMOH LN"
+              },
+              {
+                "deckListId": "l5rdb-35bdf298",
+                "label": "On the Cheap – Lion Ashigaru — Strange Assembly"
+              }
+            ]
+          },
+          {
+            "label": "Twenty Festivals",
+            "deckLists": [
+              {
+                "deckListId": "l5rdb-3fc9c757",
+                "label": "EP Aggro Milosz vs K"
+              },
+              {
+                "deckListId": "l5rdb-baec5507",
+                "label": "EP Beast"
+              },
+              {
+                "deckListId": "l5rdb-baea5df1",
+                "label": "EP Beasts"
+              },
+              {
+                "deckListId": "l5rdb-c32eeafd",
+                "label": "EP Blitz"
+              },
+              {
+                "deckListId": "l5rdb-48d727d8",
+                "label": "EP Blitz 20f Tourney winner"
+              },
+              {
+                "deckListId": "l5rdb-09071f05",
+                "label": "EP Blitz SnM 1st Kempy"
+              },
+              {
+                "deckListId": "l5rdb-ec7ea19a",
+                "label": "EP Duel Gilador"
+              },
+              {
+                "deckListId": "l5rdb-75c2eda0",
+                "label": "EP Duel Honor Daiu 1st Kotei"
+              },
+              {
+                "deckListId": "l5rdb-360cf675",
+                "label": "EP Duel Sacramento 2nd Brandon"
+              },
+              {
+                "deckListId": "l5rdb-8fbe0d9f",
+                "label": "EP FortSpirit — Fort Spirit"
+              },
+              {
+                "deckListId": "l5rdb-507993aa",
+                "label": "EP Honor Duel DvsK"
+              },
+              {
+                "deckListId": "l5rdb-c25cb4d2",
+                "label": "EP Kagako Honor Duel Kotei 1st Daiu"
+              },
+              {
+                "deckListId": "l5rdb-01fc6e5f",
+                "label": "EP Rat"
+              },
+              {
+                "deckListId": "l5rdb-432ce830",
+                "label": "EP Tact Blitz T"
+              },
+              {
+                "deckListId": "l5rdb-b27fe970",
+                "label": "EP Tact Duel in 20F Arc Tourney"
+              },
+              {
+                "deckListId": "l5rdb-feb3b23f",
+                "label": "EP Tact Duel O vs K"
+              },
+              {
+                "deckListId": "l5rdb-fa89741b",
+                "label": "EP TactDuel Top"
+              },
+              {
+                "deckListId": "l5rdb-c6ea84fb",
+                "label": "Strict Beastmaster"
+              },
+              {
+                "deckListId": "l5rdb-e2c2881d",
+                "label": "Strict Duel"
+              },
+              {
+                "deckListId": "l5rdb-d90a5bd8",
+                "label": "TBS Top 4 Lion Followers — Wynce"
+              },
+              {
+                "deckListId": "l5rdb-1405db1f",
+                "label": "TGHOTL EP Beasts Swarm T"
+              },
+              {
+                "deckListId": "l5rdb-35f34ea3",
+                "label": "TGHOTL EP Honor Military Paul vs K"
+              },
+              {
+                "deckListId": "l5rdb-71a24842",
+                "label": "TGHOTL ThA Ambush Ichigo L"
+              },
+              {
+                "deckListId": "l5rdb-d2c4b8c7",
+                "label": "TGHOTL ThA Big Followers B"
+              },
+              {
+                "deckListId": "l5rdb-6ea4c020",
+                "label": "TGHOTL ThA Duel R"
+              },
+              {
+                "deckListId": "l5rdb-c7d65dcd",
+                "label": "TGHOTL ThA Kitsu 2"
+              },
+              {
+                "deckListId": "l5rdb-28f1a248",
+                "label": "TGHOTL ThA Kitsu 4"
+              },
+              {
+                "deckListId": "l5rdb-f4c7beab",
+                "label": "TGHOTL ThA Kitsu 5 O"
+              },
+              {
+                "deckListId": "l5rdb-71fa0480",
+                "label": "TGHOTL ThA Kitsu Honor A vs K 2"
+              },
+              {
+                "deckListId": "l5rdb-768d5996",
+                "label": "TGHOTL ThA Tact Duel O"
+              },
+              {
+                "deckListId": "l5rdb-149748b6",
+                "label": "TGHOTL ThA Tact Duel O 2"
+              },
+              {
+                "deckListId": "l5rdb-8f8998b6",
+                "label": "ThA Aggro Milosz"
+              },
+              {
+                "deckListId": "l5rdb-2d59236f",
+                "label": "ThA Beast Panku"
+              },
+              {
+                "deckListId": "l5rdb-35c30c24",
+                "label": "ThA Big Foll B"
+              },
+              {
+                "deckListId": "l5rdb-9c1b3d07",
+                "label": "ThA Foll O"
+              },
+              {
+                "deckListId": "l5rdb-e6f5dd76",
+                "label": "ThA Gencon Top8 Bill"
+              },
+              {
+                "deckListId": "l5rdb-f6f1bcc3",
+                "label": "ThA Gencon Top8 Bill vs K"
+              },
+              {
+                "deckListId": "l5rdb-f20a2f1d",
+                "label": "ThA Honor Duel Daiu"
+              },
+              {
+                "deckListId": "l5rdb-5a8d1979",
+                "label": "ThA Kill Toolbox Paul"
+              },
+              {
+                "deckListId": "l5rdb-1447eeb7",
+                "label": "ThA Kitsu in 20F Arc Tourney"
+              },
+              {
+                "deckListId": "l5rdb-ff581ae3",
+                "label": "ThA Kitsu O vs K"
+              },
+              {
+                "deckListId": "l5rdb-18ca3fb7",
+                "label": "ThA Kitsu Owen"
+              },
+              {
+                "deckListId": "l5rdb-24252caa",
+                "label": "ThA Kitsu Owen Rush"
+              },
+              {
+                "deckListId": "l5rdb-19ebade7",
+                "label": "ThA Strategy L"
+              },
+              {
+                "deckListId": "l5rdb-de73d5b2",
+                "label": "ThA Tact Duel O vs K"
+              },
+              {
+                "deckListId": "l5rdb-6e2cdbdb",
+                "label": "ThA Tact T"
+              }
+            ]
+          },
+          {
+            "label": "OBH (The Obsidian Hand) Legacy",
+            "deckLists": [
+              {
+                "deckListId": "l5rdb-e4a888c1",
+                "label": "LG OBH LN Blitz — kempy"
+              },
+              {
+                "deckListId": "l5rdb-d115dedb",
+                "label": "OBH LN SM No Luxuries Blitz 1st SnM — kempy"
+              }
+            ]
+          },
+          {
+            "label": "Modern",
+            "deckLists": [
+              {
+                "deckListId": "l5rdb-b962af5f",
+                "label": "Lion Paragons — PlayCCG"
+              },
+              {
+                "deckListId": "l5rdb-b9e7c8f5",
+                "label": "LN HoM Ancestors Kempy 1st SnM"
+              },
+              {
+                "deckListId": "l5rdb-daf4d8fd",
+                "label": "LN Tacticians Palmer"
+              }
+            ]
+          },
+          {
+            "label": "Open",
+            "deckLists": [
+              {
+                "deckListId": "l5rdb-1bf6bd1c",
+                "label": "Eternal Event: First Turn Taker — Yoriagami"
+              },
+              {
+                "deckListId": "l5rdb-9e85b552",
+                "label": "EVD Eternal Victory Blitz — Yoriagami"
+              }
+            ]
+          },
+          {
+            "label": "Clan Wars",
+            "deckLists": [
+              {
+                "deckListId": "l5rdb-23e2e63c",
+                "label": "Clan Wars Classic Lion Blitz — Akodo War College"
+              },
+              {
+                "deckListId": "l5rdb-368fcca4",
+                "label": "Clan Wars Shadow Lion — Akodo War College"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Mantis",
+        "subMenus": [
+          {
+            "label": "Jade",
+            "deckLists": [
+              {
+                "deckListId": "l5rdb-f0686e14",
+                "label": "Fox Oni Ratling Deck (FORD) — Akodo War College"
+              },
+              {
+                "deckListId": "l5rdb-ef0ed08a",
+                "label": "Mantis Empty the Hand — Akodo War College"
+              }
+            ]
+          },
+          {
+            "label": "Gold",
+            "deckLists": [
+              {
+                "deckListId": "l5rdb-35c26967",
+                "label": "GE MN City of Lightning Top Swiss Gencon 2003"
+              }
+            ]
+          },
+          {
+            "label": "Lotus",
+            "deckLists": [
+              {
+                "deckListId": "l5rdb-173c0651",
+                "label": "AP Mantis Naval Aggro — Ono Sendai"
+              },
+              {
+                "deckListId": "l5rdb-c447a326",
+                "label": "AP MN Shoot Raid 4th Kotei"
+              },
+              {
+                "deckListId": "l5rdb-5710c1e4",
+                "label": "COTW MN CotW Shooter 4th Kotei"
+              },
+              {
+                "deckListId": "l5rdb-e8397fe9",
+                "label": "Mantis Storm Riders — Akodo War College"
+              },
+              {
+                "deckListId": "l5rdb-23e70812",
+                "label": "MN CotW Die Little Turkey Die 1st SnM — ThePainUFeel"
+              },
+              {
+                "deckListId": "l5rdb-f63aebc6",
+                "label": "MN CotW Wasp Control Top 4 SnM — Jackson"
+              }
+            ]
+          },
+          {
+            "label": "Samurai",
+            "deckLists": [
+              {
+                "deckListId": "l5rdb-7c20b125",
+                "label": "MN Followers 2nd Kotei"
+              },
+              {
+                "deckListId": "l5rdb-70b85213",
+                "label": "MN Magistrates"
+              }
+            ]
+          },
+          {
+            "label": "Celestial",
+            "deckLists": [
+              {
+                "deckListId": "l5rdb-c278be1f",
+                "label": "AV Magistrates – Alex Demian"
+              },
+              {
+                "deckListId": "l5rdb-521230dc",
+                "label": "AV Mantis BtD MilitaryControl SN toter — SN_toter"
+              },
+              {
+                "deckListId": "l5rdb-812fa0c9",
+                "label": "AV Mantis FL swarm blitz beaniac"
+              },
+              {
+                "deckListId": "l5rdb-04b9ba7b",
+                "label": "AV Mantis SC swarm blitz Ornatov"
+              },
+              {
+                "deckListId": "l5rdb-a82e36de",
+                "label": "AV Mantis TDoW T8Vancouver Ornatov"
+              },
+              {
+                "deckListId": "l5rdb-636934a2",
+                "label": "AV Swarm – Andrew Ornatov"
+              },
+              {
+                "deckListId": "l5rdb-00a2178d",
+                "label": "AV Swarm – Pablo Palacios"
+              },
+              {
+                "deckListId": "l5rdb-f311f641",
+                "label": "Celestial Mantis Commanders — Bradley Webb"
+              },
+              {
+                "deckListId": "l5rdb-5c25d17d",
+                "label": "DGC CE MN My Twenty Best Top 4 — Arin"
+              },
+              {
+                "deckListId": "l5rdb-dc03fd22",
+                "label": "KK Mantis SC Faceless"
+              },
+              {
+                "deckListId": "l5rdb-56e3944a",
+                "label": "KK Mantis SC FacelessMil — Faceless Mil"
+              },
+              {
+                "deckListId": "l5rdb-ad120a38",
+                "label": "Mac Attack — Strange Assembly"
+              },
+              {
+                "deckListId": "l5rdb-0a5180b2",
+                "label": "SSP Blitz (Mantis) – Nick Jones"
+              },
+              {
+                "deckListId": "l5rdb-a5324d7b",
+                "label": "SSP Blitz – Matthew Paddon"
+              },
+              {
+                "deckListId": "l5rdb-d2a9e877",
+                "label": "SSP Mantis FL Blitz Veers"
+              }
+            ]
+          },
+          {
+            "label": "Emperor",
+            "deckLists": [
+              {
+                "deckListId": "l5rdb-4d7b8901",
+                "label": "Economic Warfare (Lee Steele, Atlanta Kotei)"
+              },
+              {
+                "deckListId": "l5rdb-e525457b",
+                "label": "Emperor Mantis Money Magistrates — Eric Gardiner"
+              },
+              {
+                "deckListId": "l5rdb-bcb61fc9",
+                "label": "Kalani's Landing (Chris Medico)"
+              },
+              {
+                "deckListId": "l5rdb-92065456",
+                "label": "KK MN EE BKx BHx Shooting Itz"
+              },
+              {
+                "deckListId": "l5rdb-a55e25bc",
+                "label": "KK MN KKx EE Honor Beaniac"
+              },
+              {
+                "deckListId": "l5rdb-b1d98722",
+                "label": "KK MN KKx EoW ZooHonor Valentine"
+              },
+              {
+                "deckListId": "l5rdb-1a71f0fb",
+                "label": "KK MN KKx TSE ZooHonor PewPew — Pew Pew"
+              },
+              {
+                "deckListId": "l5rdb-2b05c3b5",
+                "label": "KL Mantis Broken Alliance Control — Ono Sendai"
+              },
+              {
+                "deckListId": "l5rdb-092056e6",
+                "label": "KL MN BKx BHx EoW Money BFox"
+              },
+              {
+                "deckListId": "l5rdb-19c45893",
+                "label": "KL MN EE Magistrate Rose"
+              },
+              {
+                "deckListId": "l5rdb-0455de19",
+                "label": "KL MN EE MagistrateMilitary DDreischmeyer"
+              },
+              {
+                "deckListId": "l5rdb-eeb57a18",
+                "label": "KL MN EE Swarm Beaniac"
+              },
+              {
+                "deckListId": "l5rdb-5ca2efdd",
+                "label": "KL MN EoW BKx BHx Money Ayumu 1st"
+              },
+              {
+                "deckListId": "l5rdb-5e290c01",
+                "label": "KL MN SoD BKx FacelessMilitary BigRemy — Big Remy"
+              },
+              {
+                "deckListId": "l5rdb-0628a4a0",
+                "label": "KL MN TA BKx BHx Kill Dan"
+              },
+              {
+                "deckListId": "l5rdb-04f6ed9e",
+                "label": "KL MN TA BKx Superdule Dr"
+              },
+              {
+                "deckListId": "l5rdb-ae080f0e",
+                "label": "Mantis Kalani's Landing – Chris Medico"
+              },
+              {
+                "deckListId": "l5rdb-1e56ad85",
+                "label": "Mantis KL – Will Abbott"
+              },
+              {
+                "deckListId": "l5rdb-41822626",
+                "label": "MN EoW BKx BHx Money DDreischmeyer 2nd"
+              },
+              {
+                "deckListId": "l5rdb-0efb619b",
+                "label": "Money Money Money (Andrew Ornatov)"
+              },
+              {
+                "deckListId": "l5rdb-5f0b083b",
+                "label": "Money Money Money (Ben Vanderveer)"
+              },
+              {
+                "deckListId": "l5rdb-7aeda68c",
+                "label": "ST MN EE ThunderBitches Dineen"
+              },
+              {
+                "deckListId": "l5rdb-12733959",
+                "label": "Thunder (Jeremy Spencer, Atlanta Kotei)"
+              }
+            ]
+          },
+          {
+            "label": "Emperor Extended",
+            "deckLists": [
+              {
+                "deckListId": "l5rdb-08e144a4",
+                "label": "AL MN Mantis Control 1st SnM — Modoru"
+              },
+              {
+                "deckListId": "l5rdb-58b9a9f2",
+                "label": "AV MN Mantis Rush Top 4 SnM — ThePainUFeel"
+              }
+            ]
+          },
+          {
+            "label": "Ivory",
+            "deckLists": [
+              {
+                "deckListId": "l5rdb-8a359124",
+                "label": "Ivory Mantis Starter — AEG"
+              },
+              {
+                "deckListId": "l5rdb-f2b2ca29",
+                "label": "Siege HoD Mantis"
+              },
+              {
+                "deckListId": "l5rdb-bbf507ab",
+                "label": "The Crashing Wave — Akodo War College"
+              },
+              {
+                "deckListId": "l5rdb-65cad559",
+                "label": "Thunder Bugs on Boats (The Fruitful Port of the Mantis) — Strange Assembly"
+              }
+            ]
+          },
+          {
+            "label": "Twenty Festivals",
+            "deckLists": [
+              {
+                "deckListId": "l5rdb-41d12b13",
+                "label": "2015 The Thirteenth Black Scroll — Issac Cynova"
+              },
+              {
+                "deckListId": "l5rdb-508e1f6d",
+                "label": "MN EP Ashigaru"
+              },
+              {
+                "deckListId": "l5rdb-fa158ab7",
+                "label": "MN EP Honor Bomb"
+              },
+              {
+                "deckListId": "l5rdb-599b25c7",
+                "label": "MN EP Honor Courtier Bomb"
+              },
+              {
+                "deckListId": "l5rdb-52fe5a88",
+                "label": "MN EP Kobi Military Good Stuff Kotei 1st Tandyys"
+              },
+              {
+                "deckListId": "l5rdb-91f6b1b5",
+                "label": "MN EP Oni"
+              },
+              {
+                "deckListId": "l5rdb-72992e9a",
+                "label": "MN TBS Shoot To Kill 1st SnM — ThePainUFeel"
+              },
+              {
+                "deckListId": "l5rdb-8378618d",
+                "label": "MN ThA Aranai Military Euro 1st Alex"
+              },
+              {
+                "deckListId": "l5rdb-01a8fbd5",
+                "label": "MN ThA Euro winner"
+              },
+              {
+                "deckListId": "l5rdb-3b1e53a8",
+                "label": "MN ThA Kotei Winner BFoll"
+              },
+              {
+                "deckListId": "l5rdb-35cb0eab",
+                "label": "MN ThA Strategy M"
+              },
+              {
+                "deckListId": "l5rdb-23307a32",
+                "label": "TFPOTM 2015 20F MN Gencon Winner"
+              },
+              {
+                "deckListId": "l5rdb-e40f9e0e",
+                "label": "TFPOTM EC 2015 20F MN Euro Winner"
+              },
+              {
+                "deckListId": "l5rdb-5792c36f",
+                "label": "TFPOTM MN ThA Gencon 1st Shika I"
+              },
+              {
+                "deckListId": "l5rdb-b8057fbd",
+                "label": "The Currency of War - Mantis"
+              }
+            ]
+          },
+          {
+            "label": "OBH (The Obsidian Hand) Legacy",
+            "deckLists": [
+              {
+                "deckListId": "l5rdb-f7d52cba",
+                "label": "AP LG OBH MN Raid Shooter"
+              },
+              {
+                "deckListId": "l5rdb-8c4daa24",
+                "label": "AV LG OBH MN AL Ashigaru Swarm WiP — kempy"
+              },
+              {
+                "deckListId": "l5rdb-fc080941",
+                "label": "KL LG OBH MN Holding Hate 2nd SnM — Runninronin"
+              },
+              {
+                "deckListId": "l5rdb-5160edad",
+                "label": "LG OBH MN Orochi"
+              },
+              {
+                "deckListId": "l5rdb-f49fdf47",
+                "label": "LG OBH MN piRATS 1st SnM — shockaboyob"
+              },
+              {
+                "deckListId": "l5rdb-abe06c3f",
+                "label": "Mantis Orochis — PlayCCG"
+              },
+              {
+                "deckListId": "l5rdb-20d6de71",
+                "label": "OBH MN KL Kalani's Landing Rats 1st GenCon26 by shockaboyob"
+              }
+            ]
+          },
+          {
+            "label": "Modern",
+            "deckLists": [
+              {
+                "deckListId": "l5rdb-29a31e18",
+                "label": "MN Magistrates 2nd — ThePainUFeel"
+              }
+            ]
+          },
+          {
+            "label": "Open",
+            "deckLists": [
+              {
+                "deckListId": "l5rdb-ac3f391f",
+                "label": "KL Kalani's Landing — Yoriagami"
+              },
+              {
+                "deckListId": "l5rdb-a819e22c",
+                "label": "Mantis Ranged Attack (Wasp/RA) — Ono Sendai"
+              }
+            ]
+          },
+          {
+            "label": "Siege",
+            "deckLists": [
+              {
+                "deckListId": "l5rdb-d08e889e",
+                "label": "Siege CW Alliance"
+              }
+            ]
+          },
+          {
+            "label": "Unspecified",
+            "deckLists": [
+              {
+                "deckListId": "l5rdb-08f6f548",
+                "label": "Koshin Keep Mantis Aggro (2nd at Local Kotei Prep) — Ono Sendai"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Phoenix",
+        "subMenus": [
+          {
+            "label": "Jade",
+            "deckLists": [
+              {
+                "deckListId": "l5rdb-3687b246",
+                "label": "2000 Battle at Oblivion's Gate – Phoenix Accelerated Gold Open Dragon Attack (PAGODA) — Akodo War College"
+              },
+              {
+                "deckListId": "l5rdb-7d2040c2",
+                "label": "2000 JE Phoenix Gencon Winner"
+              },
+              {
+                "deckListId": "l5rdb-3f0c23b5",
+                "label": "Finding Enlightenment Through Air (FETA) — Akodo War College"
+              }
+            ]
+          },
+          {
+            "label": "Gold",
+            "deckLists": [
+              {
+                "deckListId": "l5rdb-6ca398cf",
+                "label": "2003 Fight For Tomorrow – Phoenix Ratling — Bryan Reese"
+              },
+              {
+                "deckListId": "l5rdb-c8503b37",
+                "label": "2003 GE PX Gencon Winner"
+              },
+              {
+                "deckListId": "l5rdb-33e45ba6",
+                "label": "GE PX Towers of the Asako 3rd Gencon UK 2002 — Michel Streng"
+              }
+            ]
+          },
+          {
+            "label": "Lotus",
+            "deckLists": [
+              {
+                "deckListId": "l5rdb-ad186256",
+                "label": "POC PX honor 4th Kotei"
+              },
+              {
+                "deckListId": "l5rdb-e38ad3d7",
+                "label": "T8G Dragon Military Top8"
+              }
+            ]
+          },
+          {
+            "label": "Samurai",
+            "deckLists": [
+              {
+                "deckListId": "l5rdb-1d1b9880",
+                "label": "KA PX Pekkle Honor 1st Kotei"
+              },
+              {
+                "deckListId": "l5rdb-a621f971",
+                "label": "PX Blitz — Laroche"
+              },
+              {
+                "deckListId": "l5rdb-454eac7f",
+                "label": "PX CoT Enlightenment 1st Kotei"
+              },
+              {
+                "deckListId": "l5rdb-46e062a0",
+                "label": "PX CoT Military Top 4 Kotei 1"
+              },
+              {
+                "deckListId": "l5rdb-4a0a64ec",
+                "label": "PX CoT Military Top 4 Kotei 2"
+              },
+              {
+                "deckListId": "l5rdb-0fcb31e4",
+                "label": "PX CoT Military Top 4 Kotei 3"
+              },
+              {
+                "deckListId": "l5rdb-62ef8638",
+                "label": "PX Honor 2nd Kotei"
+              }
+            ]
+          },
+          {
+            "label": "Celestial",
+            "deckLists": [
+              {
+                "deckListId": "l5rdb-b7831824",
+                "label": "2010 CE PH Lyon Winner"
+              },
+              {
+                "deckListId": "l5rdb-f7fa46a0",
+                "label": "2010 Love and Madness — Maxime Despretz"
+              },
+              {
+                "deckListId": "l5rdb-0ff5b24c",
+                "label": "Case Kiyonaga's The Last One"
+              },
+              {
+                "deckListId": "l5rdb-e7b30776",
+                "label": "Celestial Phoenix Dueling — Akodo War College"
+              },
+              {
+                "deckListId": "l5rdb-63180a1d",
+                "label": "COT CoT Blitz Jeffy"
+              },
+              {
+                "deckListId": "l5rdb-0b116fce",
+                "label": "COT CoT CavbBlitz Isawa Hiniku"
+              },
+              {
+                "deckListId": "l5rdb-5cbdac1b",
+                "label": "COT CoT EaW Military Hinomura"
+              },
+              {
+                "deckListId": "l5rdb-3f3ab8da",
+                "label": "COT CoT EaW Military nezumi"
+              },
+              {
+                "deckListId": "l5rdb-ccbf4b9f",
+                "label": "COT CoT MCOrzel Orzel"
+              },
+              {
+                "deckListId": "l5rdb-f264d072",
+                "label": "COT CoT PotD Blitz Finn"
+              },
+              {
+                "deckListId": "l5rdb-5e0e1047",
+                "label": "COT CoT SC Blitz Oscar"
+              },
+              {
+                "deckListId": "l5rdb-28615b2f",
+                "label": "COT CoT SC Cavalry Kevin"
+              },
+              {
+                "deckListId": "l5rdb-21e776ce",
+                "label": "COT CoT SC Military Keikan 6th EC"
+              },
+              {
+                "deckListId": "l5rdb-bd22a718",
+                "label": "COT CoT TDoW 1stVancouver Case"
+              },
+              {
+                "deckListId": "l5rdb-04fdf8c5",
+                "label": "COT CoT TDoW Blitz Nezumi"
+              },
+              {
+                "deckListId": "l5rdb-c24c7795",
+                "label": "COT CoT TDOW Blitz Reinoe"
+              },
+              {
+                "deckListId": "l5rdb-1fa39092",
+                "label": "COT CoT TDoW Military 2nd Barcelona"
+              },
+              {
+                "deckListId": "l5rdb-374cf4c6",
+                "label": "COT CoT WholeLottaSpella Qwal"
+              },
+              {
+                "deckListId": "l5rdb-8fcbb86e",
+                "label": "CoT Military – Oscar Cooper"
+              },
+              {
+                "deckListId": "l5rdb-473d8a43",
+                "label": "Javier España's Inquisitors"
+              },
+              {
+                "deckListId": "l5rdb-840dcbb8",
+                "label": "Kevin Kennedy – Phoenix (Top 16, Atlanta Kotei)"
+              },
+              {
+                "deckListId": "l5rdb-585c838c",
+                "label": "Kevin Kennedy's Spell Military"
+              },
+              {
+                "deckListId": "l5rdb-d726527f",
+                "label": "Kyle Anderson's TST Dueling"
+              },
+              {
+                "deckListId": "l5rdb-92034f42",
+                "label": "My Name Is The One (Case Kiyonaga, Vancouver Kotei Winner)"
+              },
+              {
+                "deckListId": "l5rdb-97e44ed4",
+                "label": "SOC CoT TH NoHoldingBlitz Erukai"
+              },
+              {
+                "deckListId": "l5rdb-a9f82fb1",
+                "label": "SOC SoC EaW Honor HinikuVsKempy"
+              },
+              {
+                "deckListId": "l5rdb-a9dd32a7",
+                "label": "SOC SoC IG3 Honor Gencon2010 9th Hiniku"
+              },
+              {
+                "deckListId": "l5rdb-70a63684",
+                "label": "SOC SoC IG3 Jankenlightement Hiniku"
+              },
+              {
+                "deckListId": "l5rdb-5dbfc4cd",
+                "label": "SOC SoC PotD HonorSpainWinner Pikachu"
+              },
+              {
+                "deckListId": "l5rdb-296171c6",
+                "label": "SOC SoC TDoW Dishonor Nezumi"
+              },
+              {
+                "deckListId": "l5rdb-1ca49339",
+                "label": "SOC SoC TDoW Dishonor Nezumi v2"
+              },
+              {
+                "deckListId": "l5rdb-5bcaa5b1",
+                "label": "SOC SoC TDoW Dishonor NezumiVsMozarrelli"
+              },
+              {
+                "deckListId": "l5rdb-4a241b0e",
+                "label": "SOC SoC TDoW Faceless Siern"
+              },
+              {
+                "deckListId": "l5rdb-ecc35914",
+                "label": "SOC SoC TDoW Faceless SiernVsKempy"
+              },
+              {
+                "deckListId": "l5rdb-19c4ce4b",
+                "label": "SOC SoC TDoW Honor Hiniku"
+              },
+              {
+                "deckListId": "l5rdb-b2af326d",
+                "label": "Spell Military (unnamed pilot) — Strange Assembly"
+              },
+              {
+                "deckListId": "l5rdb-3e2ae3d9",
+                "label": "ToP Dueling Honor – Brandon Smith"
+              },
+              {
+                "deckListId": "l5rdb-e5600d39",
+                "label": "TOP ToP BtD dishonor inheritance"
+              },
+              {
+                "deckListId": "l5rdb-68cb81ee",
+                "label": "TOP ToP FL dishonor grendel"
+              },
+              {
+                "deckListId": "l5rdb-b36c6552",
+                "label": "TOP ToP FL honor kousei"
+              },
+              {
+                "deckListId": "l5rdb-91c18fe9",
+                "label": "TOP ToP honor"
+              },
+              {
+                "deckListId": "l5rdb-a85365b9",
+                "label": "TOP ToP honor Hiniku"
+              },
+              {
+                "deckListId": "l5rdb-c4be1b92",
+                "label": "TOP ToP SC dishonor nobu"
+              },
+              {
+                "deckListId": "l5rdb-ae5f3cf9",
+                "label": "TST Dueling – Kyle Anderson"
+              },
+              {
+                "deckListId": "l5rdb-5c792331",
+                "label": "TST EaW ShibaSmash Kevin"
+              },
+              {
+                "deckListId": "l5rdb-382cdcc9",
+                "label": "TST TDoW Duel kfde"
+              },
+              {
+                "deckListId": "l5rdb-47ede101",
+                "label": "TST TH Blitz Gali"
+              },
+              {
+                "deckListId": "l5rdb-896de0b3",
+                "label": "TST TH Military koteiwinner Whatever"
+              }
+            ]
+          },
+          {
+            "label": "Emperor",
+            "deckLists": [
+              {
+                "deckListId": "l5rdb-eed3eea7",
+                "label": "George Bishop T4 Phoenix Honor Deck"
+              },
+              {
+                "deckListId": "l5rdb-97b97c7e",
+                "label": "LoR Blitz (Aaron Donahue)"
+              },
+              {
+                "deckListId": "l5rdb-b34ad2d1",
+                "label": "LoR Blitz-ish (Kyle Anderson)"
+              },
+              {
+                "deckListId": "l5rdb-bf21baba",
+                "label": "LOR LoR EE Rain Nezumi"
+              },
+              {
+                "deckListId": "l5rdb-2496866f",
+                "label": "LOR LoR TSE Blitz Paris"
+              },
+              {
+                "deckListId": "l5rdb-08a113be",
+                "label": "LOR LoR TSE Blitz ParisVsKempy"
+              },
+              {
+                "deckListId": "l5rdb-e1d1126f",
+                "label": "LOR LoR TSE Naganja Patrick"
+              },
+              {
+                "deckListId": "l5rdb-8ac82c01",
+                "label": "LOR PH EE BKx Military 2nd Barcelona"
+              },
+              {
+                "deckListId": "l5rdb-e40a8ab5",
+                "label": "Phoenix LoR – Anthony Calabrese"
+              },
+              {
+                "deckListId": "l5rdb-e3c58c41",
+                "label": "Phoenix ToP Lizard Wizards – Case Kiyonaga"
+              },
+              {
+                "deckListId": "l5rdb-095b2242",
+                "label": "Phoenix ToP Lizard Wizards — Akodo War College"
+              },
+              {
+                "deckListId": "l5rdb-0d68e857",
+                "label": "Temple of Purity Honor (ToP Honor) — Strange Assembly"
+              },
+              {
+                "deckListId": "l5rdb-8899b948",
+                "label": "Temple of Purity Honor Dueling (Javier España)"
+              },
+              {
+                "deckListId": "l5rdb-8fb53600",
+                "label": "ToP Enlightenment (Than Ahmad)"
+              },
+              {
+                "deckListId": "l5rdb-a5ab8775",
+                "label": "ToP Honor (James Donnithorne-Tait, Atlanta Kotei)"
+              },
+              {
+                "deckListId": "l5rdb-a9f59253",
+                "label": "ToP Honor (James Donnithorne-Tait, Shadow's Embrace)"
+              },
+              {
+                "deckListId": "l5rdb-0eb7aaa7",
+                "label": "ToP Honor (Jeff Halladay, Atlanta Kotei)"
+              },
+              {
+                "deckListId": "l5rdb-e6a48123",
+                "label": "ToP Honor (Onyx Championships T16) — Strange Assembly"
+              },
+              {
+                "deckListId": "l5rdb-e9042cd7",
+                "label": "TOP PH ToP GoC BKxp Santos"
+              },
+              {
+                "deckListId": "l5rdb-3b17ef7e",
+                "label": "ToP Spell Military — Strange Assembly"
+              },
+              {
+                "deckListId": "l5rdb-e9485270",
+                "label": "TOP ToP EE BKx BHx Enlight Samoshii"
+              },
+              {
+                "deckListId": "l5rdb-61011853",
+                "label": "TOP ToP EE Dishonor Tenrou"
+              },
+              {
+                "deckListId": "l5rdb-05ee3f6f",
+                "label": "TOP ToP EE Honor Samoshii 3rd Atlanta"
+              },
+              {
+                "deckListId": "l5rdb-5ca34c2e",
+                "label": "TOP ToP SoD BKx BHx DishBomb — Dish Bomb"
+              },
+              {
+                "deckListId": "l5rdb-45d8c9b5",
+                "label": "TOP ToP SoD BKx Nonhumans"
+              },
+              {
+                "deckListId": "l5rdb-92007456",
+                "label": "TOP ToP TSE BKx HenshinBlitz Top Chuckles"
+              },
+              {
+                "deckListId": "l5rdb-23ef17d2",
+                "label": "TSTOTPI Honor and Treachery - Phoenix"
+              },
+              {
+                "deckListId": "l5rdb-780a5f8f",
+                "label": "WOTP PH WoP TSE Military Mofo"
+              },
+              {
+                "deckListId": "l5rdb-0e79f1c0",
+                "label": "WOTP WotP EE AccidentalEnl Hiniku"
+              },
+              {
+                "deckListId": "l5rdb-eb008957",
+                "label": "WOTP WotP EE Henshin Zmobie"
+              }
+            ]
+          },
+          {
+            "label": "Ivory",
+            "deckLists": [
+              {
+                "deckListId": "l5rdb-b5bf95ac",
+                "label": "Ivory Brand Fire Chickens — Strange Assembly"
+              },
+              {
+                "deckListId": "l5rdb-8466fcac",
+                "label": "Siege HoD Phoenix"
+              }
+            ]
+          },
+          {
+            "label": "Twenty Festivals",
+            "deckLists": [
+              {
+                "deckListId": "l5rdb-65fba364",
+                "label": "20F Phoenix Turbo Honor — Akodo War College"
+              },
+              {
+                "deckListId": "l5rdb-a7fd15f0",
+                "label": "EP AT Phoenix 2nd SnM — Ishiken"
+              },
+              {
+                "deckListId": "l5rdb-74ac870b",
+                "label": "EP Izuna Honor Kotei 1st James"
+              },
+              {
+                "deckListId": "l5rdb-505eee25",
+                "label": "EP Izuna Honor Winner James"
+              },
+              {
+                "deckListId": "l5rdb-79294e0d",
+                "label": "EP Izuna Honor Winner James 2"
+              },
+              {
+                "deckListId": "l5rdb-ccb2f7c4",
+                "label": "EP Military"
+              },
+              {
+                "deckListId": "l5rdb-ab48a12b",
+                "label": "EP Military Akey"
+              },
+              {
+                "deckListId": "l5rdb-f1ef3c69",
+                "label": "TBS  1st Tea and Cookies — Jim"
+              },
+              {
+                "deckListId": "l5rdb-4d8fb8c4",
+                "label": "TBS 2nd Unexpected Inquisition — Shiba Kanzen"
+              },
+              {
+                "deckListId": "l5rdb-c1ed6dda",
+                "label": "ThA Gencon Honor 2nd J"
+              },
+              {
+                "deckListId": "l5rdb-40b0b885",
+                "label": "ThA Gencon Honor Top4 B"
+              },
+              {
+                "deckListId": "l5rdb-5d9f553b",
+                "label": "ThA Military Top8"
+              },
+              {
+                "deckListId": "l5rdb-901c1168",
+                "label": "ThA Strategy P"
+              }
+            ]
+          },
+          {
+            "label": "OBH (The Obsidian Hand) Legacy",
+            "deckLists": [
+              {
+                "deckListId": "l5rdb-8c75843e",
+                "label": "LG OBH PX Karachu Top 4 SnM — Jackson"
+              },
+              {
+                "deckListId": "l5rdb-75d1475e",
+                "label": "LG OBH PX RoIC Henshin Blitz Top 4 — Jackson"
+              },
+              {
+                "deckListId": "l5rdb-1f842ca5",
+                "label": "LG OBH PX Tactical Ponnies — Micon"
+              },
+              {
+                "deckListId": "l5rdb-5fade9fd",
+                "label": "TOH Void Tactical Ponies — Akodo War College"
+              }
+            ]
+          },
+          {
+            "label": "Modern",
+            "deckLists": [
+              {
+                "deckListId": "l5rdb-ce0bd717",
+                "label": "Phoenix Military — PlayCCG"
+              },
+              {
+                "deckListId": "l5rdb-bbdda792",
+                "label": "PX CoT Military Geoff"
+              },
+              {
+                "deckListId": "l5rdb-8621b48f",
+                "label": "PX ToP Inquisition Hinomura"
+              }
+            ]
+          },
+          {
+            "label": "Open",
+            "deckLists": [
+              {
+                "deckListId": "l5rdb-a8c9de17",
+                "label": "Pure Corruption — Yoriagami"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Scorpion",
+        "subMenus": [
+          {
+            "label": "Jade",
+            "deckLists": [
+              {
+                "deckListId": "l5rdb-090fad86",
+                "label": "Bow Before the Scorpion — Akodo War College"
+              }
+            ]
+          },
+          {
+            "label": "Gold",
+            "deckLists": [
+              {
+                "deckListId": "l5rdb-8d762df7",
+                "label": "2002 Revelations of the Dark Lord – The Lesser of Two Evils — Akodo War College"
+              },
+              {
+                "deckListId": "l5rdb-7e8eaafc",
+                "label": "TTOTY 2002 GE SC Gencon Winner"
+              }
+            ]
+          },
+          {
+            "label": "Lotus",
+            "deckLists": [
+              {
+                "deckListId": "l5rdb-7ee89f27",
+                "label": "SC TCoL Dishonor"
+              },
+              {
+                "deckListId": "l5rdb-16e13658",
+                "label": "SC THCotS dishonor 1st Hoath"
+              }
+            ]
+          },
+          {
+            "label": "Samurai",
+            "deckLists": [
+              {
+                "deckListId": "l5rdb-0e2e6728",
+                "label": "2007 SE SC Gencon Winner"
+              },
+              {
+                "deckListId": "l5rdb-8a8eb14b",
+                "label": "2007 Test of the Emerald Championship — Eugene Earnshaw-White"
+              },
+              {
+                "deckListId": "l5rdb-75f8f246",
+                "label": "Samurai Scorpion Seven Stings Keep Switch — Akodo War College"
+              },
+              {
+                "deckListId": "l5rdb-a5cbf7bb",
+                "label": "SC Dishonor Top 8 SC — Palomo"
+              },
+              {
+                "deckListId": "l5rdb-0d9900a5",
+                "label": "SC Dishonor Top Scorpion Kotei — Rafciu"
+              },
+              {
+                "deckListId": "l5rdb-14f7733e",
+                "label": "SC DVD Samurai Dishonor Bomb 2nd SnM — oskuro69"
+              },
+              {
+                "deckListId": "l5rdb-ef347e6b",
+                "label": "SC Military 2nd Nationals"
+              },
+              {
+                "deckListId": "l5rdb-5c504e3a",
+                "label": "SC Switch — Bolt"
+              }
+            ]
+          },
+          {
+            "label": "Celestial",
+            "deckLists": [
+              {
+                "deckListId": "l5rdb-919b53a1",
+                "label": "Celestial Scorpion Ninja — Akodo War College"
+              },
+              {
+                "deckListId": "l5rdb-fd632c21",
+                "label": "Chicken PoCS – Ken Curran"
+              },
+              {
+                "deckListId": "l5rdb-21aaea5b",
+                "label": "Dan Juleff's FoBS Ninja"
+              },
+              {
+                "deckListId": "l5rdb-3c3ba9d6",
+                "label": "HMD Kotei 2011 Szczecin 61 Personas Hidden Moon Dojo — Jakub Baranski"
+              },
+              {
+                "deckListId": "l5rdb-d220bf3c",
+                "label": "HMD Ninja – Matt Sherry"
+              },
+              {
+                "deckListId": "l5rdb-5aae700e",
+                "label": "HMD NinjaZombies NavalRatVskempy"
+              },
+              {
+                "deckListId": "l5rdb-649c666f",
+                "label": "Josh Van Natter's FoBS Ninja"
+              },
+              {
+                "deckListId": "l5rdb-503ca4be",
+                "label": "Ken Curran's Dishonor"
+              },
+              {
+                "deckListId": "l5rdb-d7f6ab40",
+                "label": "Lowell Barton's Dishonor"
+              },
+              {
+                "deckListId": "l5rdb-7f7dae39",
+                "label": "Ninja"
+              },
+              {
+                "deckListId": "l5rdb-251bc7b2",
+                "label": "POCS Kotei 2011 Bacolod City 53 Personas Palace of Crimsom Shadows — Lowell Barton"
+              },
+              {
+                "deckListId": "l5rdb-5a5c5af6",
+                "label": "POCS PoCS FL dishonor Akai"
+              },
+              {
+                "deckListId": "l5rdb-d26a40db",
+                "label": "POCS PoCS FL dishonor tenrou"
+              },
+              {
+                "deckListId": "l5rdb-b836adac",
+                "label": "POCS PoCS TH controloni Reese"
+              },
+              {
+                "deckListId": "l5rdb-0510f01b",
+                "label": "SSK Reese"
+              },
+              {
+                "deckListId": "l5rdb-6cafdcbc",
+                "label": "Tyson Watkins' No Such Thing As (Ninja)"
+              }
+            ]
+          },
+          {
+            "label": "Emperor",
+            "deckLists": [
+              {
+                "deckListId": "l5rdb-0df3eebb",
+                "label": "Californication"
+              },
+              {
+                "deckListId": "l5rdb-a361ef46",
+                "label": "Emperor Scorpion Dishonor LDD — Paul Adams"
+              },
+              {
+                "deckListId": "l5rdb-43608aee",
+                "label": "Fernando Lobos' FoBS Ninja"
+              },
+              {
+                "deckListId": "l5rdb-368b6c75",
+                "label": "Flores' Dishonor Burn"
+              },
+              {
+                "deckListId": "l5rdb-f5556258",
+                "label": "Jakub Baranski's Hidden Moon Dojo"
+              },
+              {
+                "deckListId": "l5rdb-ca80a818",
+                "label": "Justin Lee's Hidden Moon Dojo"
+              },
+              {
+                "deckListId": "l5rdb-19582ebc",
+                "label": "LDD Dishonor (Azver Hussain)"
+              },
+              {
+                "deckListId": "l5rdb-e26a39bc",
+                "label": "LDD Dishonor (Jon Butler)"
+              },
+              {
+                "deckListId": "l5rdb-d5dd31f5",
+                "label": "LDD Dishonor (Paul Adams)"
+              },
+              {
+                "deckListId": "l5rdb-bf924888",
+                "label": "LoDD Dishonor (Geoff Prugh)"
+              },
+              {
+                "deckListId": "l5rdb-0c1215ce",
+                "label": "LODD LoDD TA BKx Dishonor Butler"
+              },
+              {
+                "deckListId": "l5rdb-56edb600",
+                "label": "LODD TSE BKx BHx BattleDishonor TopGencon Akai"
+              },
+              {
+                "deckListId": "l5rdb-cb96f867",
+                "label": "LODD TSE Dishonor Cranky"
+              },
+              {
+                "deckListId": "l5rdb-b8c1f5ed",
+                "label": "Loyalists (Mark Zohn, Atlanta Kotei)"
+              },
+              {
+                "deckListId": "l5rdb-0404cd01",
+                "label": "Loyalists (Paul Li, Atlanta Kotei)"
+              },
+              {
+                "deckListId": "l5rdb-fdda3533",
+                "label": "Majlat's FoBS Ninja"
+              },
+              {
+                "deckListId": "l5rdb-472a0a3b",
+                "label": "Massachusetts' FoBS Ninja"
+              },
+              {
+                "deckListId": "l5rdb-c4599dcb",
+                "label": "MSC EE BKx BHx Dishonor Centurion T4"
+              },
+              {
+                "deckListId": "l5rdb-c7cb74a9",
+                "label": "MSC TSE BHx FacelessDishonor MonjiO"
+              },
+              {
+                "deckListId": "l5rdb-0e34ca32",
+                "label": "SC EE Paragons Akai"
+              },
+              {
+                "deckListId": "l5rdb-62c6baf0",
+                "label": "SC PR 2012 EE Pacific Rim Winner"
+              },
+              {
+                "deckListId": "l5rdb-be60f3a3",
+                "label": "The Other Philippines' Ninja"
+              },
+              {
+                "deckListId": "l5rdb-54641338",
+                "label": "TTOTY Honor and Treachery - Scorpion"
+              },
+              {
+                "deckListId": "l5rdb-09d0bedb",
+                "label": "TTOTY TTotY GoC BKx BHx swarm"
+              }
+            ]
+          },
+          {
+            "label": "Emperor Extended",
+            "deckLists": [
+              {
+                "deckListId": "l5rdb-9ad0a530",
+                "label": "SC Ninja — kempy"
+              }
+            ]
+          },
+          {
+            "label": "Ivory",
+            "deckLists": [
+              {
+                "deckListId": "l5rdb-64619ffb",
+                "label": "Siege HoD Scorpion"
+              },
+              {
+                "deckListId": "l5rdb-e008c2f7",
+                "label": "The Shadowed Estate of the Scorpion — Strange Assembly"
+              }
+            ]
+          },
+          {
+            "label": "Twenty Festivals",
+            "deckLists": [
+              {
+                "deckListId": "l5rdb-4adb6800",
+                "label": "EP 1st Touluse dishonor"
+              },
+              {
+                "deckListId": "l5rdb-c2f95a98",
+                "label": "EP Shibata Dishonor Kotei 1st Karibu"
+              },
+              {
+                "deckListId": "l5rdb-afb61d94",
+                "label": "TBS Dishonor vs K"
+              },
+              {
+                "deckListId": "l5rdb-1c0e648a",
+                "label": "ThA Kensai Military Kotei Top4 Akai"
+              },
+              {
+                "deckListId": "l5rdb-4ce428ef",
+                "label": "ThA Strategy SC"
+              },
+              {
+                "deckListId": "l5rdb-e3c1affd",
+                "label": "ThA Top4 Kensai"
+              },
+              {
+                "deckListId": "l5rdb-312be624",
+                "label": "ThA Winner Military"
+              }
+            ]
+          },
+          {
+            "label": "OBH (The Obsidian Hand) Legacy",
+            "deckLists": [
+              {
+                "deckListId": "l5rdb-849ba3e5",
+                "label": "LG OBH SC HCotS Dishonor Top 4 SnM — yoshina"
+              },
+              {
+                "deckListId": "l5rdb-4f1731a2",
+                "label": "LG OBH SC TTotY Swarm Top 4 SnM — kempy"
+              },
+              {
+                "deckListId": "l5rdb-0d4fd798",
+                "label": "OBH SC TTotY Scorpion Rats Top 4 SnM — Jackson"
+              },
+              {
+                "deckListId": "l5rdb-43787163",
+                "label": "THCOTS LG OBH SC HCotS Dishonor 1st SnM — Jackson"
+              }
+            ]
+          },
+          {
+            "label": "Modern",
+            "deckLists": [
+              {
+                "deckListId": "l5rdb-fd005fe1",
+                "label": "SC BattleDishonor TEK"
+              },
+              {
+                "deckListId": "l5rdb-4541fdb4",
+                "label": "Scorpion Kensai — PlayCCG"
+              }
+            ]
+          },
+          {
+            "label": "Open",
+            "deckLists": [
+              {
+                "deckListId": "l5rdb-fb978eab",
+                "label": "Gozoku Control — Yoriagami"
+              }
+            ]
+          },
+          {
+            "label": "Clan Wars",
+            "deckLists": [
+              {
+                "deckListId": "l5rdb-0bd97047",
+                "label": "Clan Wars Scorpion Control/Dishonor — Ron Jacob"
+              },
+              {
+                "deckListId": "l5rdb-014d6290",
+                "label": "Clan Wars Sneaky Ninja — Paul Bularan"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Unicorn",
+        "subMenus": [
+          {
+            "label": "Jade",
+            "deckLists": [
+              {
+                "deckListId": "l5rdb-63adef76",
+                "label": "Province Crushing Ponies — Akodo War College"
+              }
+            ]
+          },
+          {
+            "label": "Gold",
+            "deckLists": [
+              {
+                "deckListId": "l5rdb-a4b34a78",
+                "label": "GE UN Shiro Ide 2nd Kotei Elizabeth NJ 2003 — Ralph Tropeano"
+              }
+            ]
+          },
+          {
+            "label": "Lotus",
+            "deckLists": [
+              {
+                "deckListId": "l5rdb-5c752a56",
+                "label": "TKW UN Honor Top 8 Kotei"
+              },
+              {
+                "deckListId": "l5rdb-6878f2cb",
+                "label": "UN Uniqua"
+              }
+            ]
+          },
+          {
+            "label": "Samurai",
+            "deckLists": [
+              {
+                "deckListId": "l5rdb-d303d8d3",
+                "label": "Temple of Death Unicorn Military — Akodo War College"
+              },
+              {
+                "deckListId": "l5rdb-df52b5a4",
+                "label": "The Western Steppes Unicorn Blitz — AJ Valle"
+              },
+              {
+                "deckListId": "l5rdb-5afa426f",
+                "label": "TWS SC 2008 SE UN Samurai Champ Winner"
+              },
+              {
+                "deckListId": "l5rdb-b1ac541c",
+                "label": "UN Maidens — Ertai"
+              },
+              {
+                "deckListId": "l5rdb-711f7962",
+                "label": "UN Military 1st Topaz Championships"
+              },
+              {
+                "deckListId": "l5rdb-bf3676bf",
+                "label": "UN ToD Military Reda"
+              },
+              {
+                "deckListId": "l5rdb-11764bde",
+                "label": "UN ToD Military Top 16 Kotei"
+              },
+              {
+                "deckListId": "l5rdb-d62299cf",
+                "label": "UN ToD Shugenja Blitz 1st Kotei — Jabbas"
+              }
+            ]
+          },
+          {
+            "label": "Celestial",
+            "deckLists": [
+              {
+                "deckListId": "l5rdb-1f9f5725",
+                "label": "A.J. Valle's Battle Maidens"
+              },
+              {
+                "deckListId": "l5rdb-6c64e09c",
+                "label": "Battle Maidens"
+              },
+              {
+                "deckListId": "l5rdb-9c943bbf",
+                "label": "Battle Maidens – Bryan Murphy"
+              },
+              {
+                "deckListId": "l5rdb-c91bfde3",
+                "label": "Battle Maidens – Justin Ownby"
+              },
+              {
+                "deckListId": "l5rdb-3383dabd",
+                "label": "Brisbane Battle Maidens — Strange Assembly"
+              },
+              {
+                "deckListId": "l5rdb-b0ebb0f0",
+                "label": "Celestial Unicorn Commanders — David Ehrlich"
+              },
+              {
+                "deckListId": "l5rdb-4ccadff2",
+                "label": "Celestial Unicorn Switch — Andrea Civera"
+              },
+              {
+                "deckListId": "l5rdb-76f4c31e",
+                "label": "David Ehrlich's UniComm"
+              },
+              {
+                "deckListId": "l5rdb-4343358a",
+                "label": "FL Blitz KoziuVsKempy"
+              },
+              {
+                "deckListId": "l5rdb-2be6997a",
+                "label": "MWK Blitz Hughes"
+              },
+              {
+                "deckListId": "l5rdb-8b6cb90c",
+                "label": "MWK EaW ForTheKhan IdeMarth — Ide Marth"
+              },
+              {
+                "deckListId": "l5rdb-5533810d",
+                "label": "MWK PotD ScoutParty Kempy"
+              },
+              {
+                "deckListId": "l5rdb-3056eac8",
+                "label": "MWK TDoW ScoutBreed various"
+              },
+              {
+                "deckListId": "l5rdb-d279fd41",
+                "label": "MWK TH CorruptShuga Hughes"
+              },
+              {
+                "deckListId": "l5rdb-c2ae5166",
+                "label": "OK BtD Shugenja Damasko"
+              },
+              {
+                "deckListId": "l5rdb-bfcb4a0e",
+                "label": "OK BtD Weapons"
+              },
+              {
+                "deckListId": "l5rdb-37fdc975",
+                "label": "OK EaW Enlight Eiji"
+              },
+              {
+                "deckListId": "l5rdb-a4d8a04c",
+                "label": "OK EaW Enlight Gecko"
+              },
+              {
+                "deckListId": "l5rdb-775e935f",
+                "label": "OK EaW ProtectingTheEmpire Damasko"
+              },
+              {
+                "deckListId": "l5rdb-8fc5766a",
+                "label": "OK EaW Tact"
+              },
+              {
+                "deckListId": "l5rdb-b2ef30ea",
+                "label": "OK EaW Tact Vagoneta TopTopaz — Top Topaz"
+              },
+              {
+                "deckListId": "l5rdb-7af99e85",
+                "label": "OK FL Blitz koziu"
+              },
+              {
+                "deckListId": "l5rdb-f0000c3a",
+                "label": "OK Ok TDoW ScoutBliz 4th ShinjoLoic — Shinjo Loic"
+              },
+              {
+                "deckListId": "l5rdb-5dea6754",
+                "label": "OK TDoW ScoutBlitz Hidaki"
+              },
+              {
+                "deckListId": "l5rdb-ef40b6b7",
+                "label": "OK TDoW ScoutBlitz Yesugei"
+              },
+              {
+                "deckListId": "l5rdb-d2cc648a",
+                "label": "OK TDoW T8Barcelona Rojo"
+              },
+              {
+                "deckListId": "l5rdb-3ef9d142",
+                "label": "Outsider Keep Tacticians/Blitz – KC Wong"
+              },
+              {
+                "deckListId": "l5rdb-79f29057",
+                "label": "PJ Torres, Irvine Kotei 2011"
+              },
+              {
+                "deckListId": "l5rdb-d5a87581",
+                "label": "TDoW ScoutBlitz YesugeiVsKempy"
+              },
+              {
+                "deckListId": "l5rdb-5f13d902",
+                "label": "TFOTW CommanderSwarm Iain"
+              },
+              {
+                "deckListId": "l5rdb-15da3ece",
+                "label": "TFOTW FotW Commander kempy"
+              },
+              {
+                "deckListId": "l5rdb-b1991830",
+                "label": "TFOTW FotW EaW SmallFollowers Candles"
+              },
+              {
+                "deckListId": "l5rdb-59348487",
+                "label": "TFOTW FotW EaW WC Followers Gregg"
+              },
+              {
+                "deckListId": "l5rdb-268799ee",
+                "label": "TFOTW FotW EaW WC Followers GreggVsKempy"
+              },
+              {
+                "deckListId": "l5rdb-293715c1",
+                "label": "TFOTW FotW Military Dun"
+              },
+              {
+                "deckListId": "l5rdb-52158d15",
+                "label": "TFOTW FotW TPW Followers Slade"
+              },
+              {
+                "deckListId": "l5rdb-44276afc",
+                "label": "TFOTW FotW TPW Followers SladeVSkempy"
+              },
+              {
+                "deckListId": "l5rdb-855147bb",
+                "label": "TFOTW TFotW BtD Commander Hughes"
+              },
+              {
+                "deckListId": "l5rdb-2f76057a",
+                "label": "TFOTW TFotW BtD Commander kempy"
+              },
+              {
+                "deckListId": "l5rdb-f4692241",
+                "label": "TFOTW TFotW SC Commander kempy"
+              },
+              {
+                "deckListId": "l5rdb-ce126f4a",
+                "label": "TFOTW TFotW SC Commander MotoAmdir — Moto Amdir"
+              },
+              {
+                "deckListId": "l5rdb-c09c1761",
+                "label": "TH MaidenBlitz JabbasVSKempy"
+              },
+              {
+                "deckListId": "l5rdb-21b74564",
+                "label": "TPW Civility IronHorse — Iron Horse"
+              },
+              {
+                "deckListId": "l5rdb-10a97bb0",
+                "label": "TUP EaW Enlight Naraanbathar"
+              },
+              {
+                "deckListId": "l5rdb-424d50d1",
+                "label": "TUP EaW Enlightenment"
+              },
+              {
+                "deckListId": "l5rdb-3f9c620f",
+                "label": "TUP EaW MaidenAttrition Hughes"
+              },
+              {
+                "deckListId": "l5rdb-d7d34547",
+                "label": "TUP EaW T2BMaiden Kyusuken"
+              },
+              {
+                "deckListId": "l5rdb-cc594950",
+                "label": "TUP EC 2011 CE UN Euro Winner"
+              },
+              {
+                "deckListId": "l5rdb-7309133d",
+                "label": "TUP FL ArmyOfMan Maidens MotoSeals — Moto Seals"
+              },
+              {
+                "deckListId": "l5rdb-11bde4aa",
+                "label": "TUP FL BlitzParagon Hughes"
+              },
+              {
+                "deckListId": "l5rdb-257ecd46",
+                "label": "TUP FL MaidenS Hughes"
+              },
+              {
+                "deckListId": "l5rdb-5990f38e",
+                "label": "TUP IG3 Military Gecko"
+              },
+              {
+                "deckListId": "l5rdb-63ff1f56",
+                "label": "TUP Maidens kempy"
+              },
+              {
+                "deckListId": "l5rdb-98e99993",
+                "label": "TUP Maidens Voitagi"
+              },
+              {
+                "deckListId": "l5rdb-34e9b77d",
+                "label": "TUP Maidens2 kempy"
+              },
+              {
+                "deckListId": "l5rdb-834744a4",
+                "label": "TUP PotD Duel MotoGato — Moto Gato"
+              },
+              {
+                "deckListId": "l5rdb-c24e586f",
+                "label": "TUP PotD Honor Slade kempy"
+              },
+              {
+                "deckListId": "l5rdb-ab1b3a13",
+                "label": "TUP SC Enlight"
+              },
+              {
+                "deckListId": "l5rdb-7e26dcc5",
+                "label": "TUP SC Maiden Tenrou"
+              },
+              {
+                "deckListId": "l5rdb-8260e136",
+                "label": "TUP TDoW Enlight"
+              },
+              {
+                "deckListId": "l5rdb-9ebbc6ff",
+                "label": "TUP TDoW Maidens Kang"
+              },
+              {
+                "deckListId": "l5rdb-f2b51335",
+                "label": "TUP TDoW MaidenSwitch Hughes"
+              },
+              {
+                "deckListId": "l5rdb-258357fa",
+                "label": "TUP TDoW ParagonMaiden"
+              },
+              {
+                "deckListId": "l5rdb-687eb032",
+                "label": "TUP TH BM Gato"
+              },
+              {
+                "deckListId": "l5rdb-b294535d",
+                "label": "TUP TH BMSwitch Hughes"
+              },
+              {
+                "deckListId": "l5rdb-b7030f29",
+                "label": "TUP TH Enlight"
+              },
+              {
+                "deckListId": "l5rdb-0494a80d",
+                "label": "TUP TH Enlight2"
+              },
+              {
+                "deckListId": "l5rdb-0deeb788",
+                "label": "TUP TH Hero Case"
+              },
+              {
+                "deckListId": "l5rdb-e3d05838",
+                "label": "TUP TH MaidenBlitz"
+              },
+              {
+                "deckListId": "l5rdb-b7e392d3",
+                "label": "TUP TH MaidenBlitz JabbasVSKempy2"
+              },
+              {
+                "deckListId": "l5rdb-983451a3",
+                "label": "TUP TH MaidenBlitz Rhead"
+              },
+              {
+                "deckListId": "l5rdb-32ede041",
+                "label": "TUP TH UniSuma evilmerlin"
+              },
+              {
+                "deckListId": "l5rdb-39383f38",
+                "label": "TUP Top4 Kotei 2011 Lille 91 Personas Utaku Plains — Romain de Ruyck"
+              },
+              {
+                "deckListId": "l5rdb-3f31bdb7",
+                "label": "TUP TPW Hee YoungBlitz Naayer"
+              },
+              {
+                "deckListId": "l5rdb-033c7c66",
+                "label": "TUP TPW Hee YoungBlitz NaayerVskempy"
+              },
+              {
+                "deckListId": "l5rdb-8377d5d9",
+                "label": "TUP TPW MaidenAttrition Hughes"
+              },
+              {
+                "deckListId": "l5rdb-f807bd58",
+                "label": "TUP WoH mil enl Superczhunk"
+              },
+              {
+                "deckListId": "l5rdb-6e88b585",
+                "label": "TUP Wpierdol kempy"
+              }
+            ]
+          },
+          {
+            "label": "Emperor",
+            "deckLists": [
+              {
+                "deckListId": "l5rdb-2cf8705a",
+                "label": "2013 Face the Madness – Imperial Faceless Honor — Akodo War College"
+              },
+              {
+                "deckListId": "l5rdb-a32ef192",
+                "label": "Andrea Civera's Faster Pussycat! Kill! Kill!"
+              },
+              {
+                "deckListId": "l5rdb-c6e60826",
+                "label": "Battle Maidens (Patrick Vicens, Atlanta Kotei)"
+              },
+              {
+                "deckListId": "l5rdb-fa2a332a",
+                "label": "CoM BKx2 Maidens Koziu"
+              },
+              {
+                "deckListId": "l5rdb-00eb092c",
+                "label": "EE TactParagon Vitoy 2nd Storyline"
+              },
+              {
+                "deckListId": "l5rdb-2d22ee7f",
+                "label": "Emperor Unicorn Death Priests — Ben Cumming"
+              },
+              {
+                "deckListId": "l5rdb-65de2bad",
+                "label": "Imperial Faceless Honor – Melissa Bowers"
+              },
+              {
+                "deckListId": "l5rdb-096e9cef",
+                "label": "Imperial Faceless Honor – Tom Kirchgensner"
+              },
+              {
+                "deckListId": "l5rdb-b6d35e0d",
+                "label": "JEK CoM BKx2 BHx Swarm"
+              },
+              {
+                "deckListId": "l5rdb-d9cb9186",
+                "label": "JEK JEKx TA BKx HonorParagon"
+              },
+              {
+                "deckListId": "l5rdb-83775ba7",
+                "label": "JEK Paragons — John Seals"
+              },
+              {
+                "deckListId": "l5rdb-6048bc64",
+                "label": "JEK SoD BKx BHx Commanders Eiji"
+              },
+              {
+                "deckListId": "l5rdb-2ecce6d1",
+                "label": "JEK SoD BKx Wcisk Klepek"
+              },
+              {
+                "deckListId": "l5rdb-15eec710",
+                "label": "JEK TA BKx Paragons KCI"
+              },
+              {
+                "deckListId": "l5rdb-5f3cf0f5",
+                "label": "JEK TSE BKx Followers 1st Draveth"
+              },
+              {
+                "deckListId": "l5rdb-a36259e8",
+                "label": "Jon Palmer (T8)"
+              },
+              {
+                "deckListId": "l5rdb-683b8886",
+                "label": "PotM EE Maidens Yoee 3rd Rennes"
+              },
+              {
+                "deckListId": "l5rdb-bd8fb2bc",
+                "label": "POTM PotD EoW BKx Maiden Tarathiel 1st"
+              },
+              {
+                "deckListId": "l5rdb-8d575245",
+                "label": "POTM PotM EE BKx BHx Maidens Hughes 16th Evansville"
+              },
+              {
+                "deckListId": "l5rdb-9797569c",
+                "label": "POTM PotM EE BKx Maidens Shakti T8 Evansville"
+              },
+              {
+                "deckListId": "l5rdb-7f880e34",
+                "label": "POTM PotM EE Maidens Gecko"
+              },
+              {
+                "deckListId": "l5rdb-f654a067",
+                "label": "POTM PotM EE Maidens Kempy"
+              },
+              {
+                "deckListId": "l5rdb-b853f953",
+                "label": "POTM PotM EoW BKx BHx Maiden Hughes"
+              },
+              {
+                "deckListId": "l5rdb-d951739e",
+                "label": "POTM PotM EoW BKx BHx Maiden Slime"
+              },
+              {
+                "deckListId": "l5rdb-d5c4c6a6",
+                "label": "POTM PotM SoD Honor Maiden"
+              },
+              {
+                "deckListId": "l5rdb-ed1b6f5e",
+                "label": "PotM SoD BKx MaidenMil Koziu"
+              },
+              {
+                "deckListId": "l5rdb-27685c39",
+                "label": "PotM TSE MaidenHonor Hughes"
+              },
+              {
+                "deckListId": "l5rdb-3c89c3c0",
+                "label": "SoD BKx ScoutCommander — Scout Commander"
+              },
+              {
+                "deckListId": "l5rdb-84a797c7",
+                "label": "TactParagonWeapon — Tact Paragon Weapon"
+              },
+              {
+                "deckListId": "l5rdb-86f102a7",
+                "label": "TKE EE TactParagon Evilmerlin"
+              },
+              {
+                "deckListId": "l5rdb-44be62a9",
+                "label": "TKE TactParWeapon kempy"
+              },
+              {
+                "deckListId": "l5rdb-de0cfe36",
+                "label": "ToDx EE Shugenja Kempy"
+              },
+              {
+                "deckListId": "l5rdb-df1201c6",
+                "label": "ToDx SoD NonhumanShugenja Radagast"
+              },
+              {
+                "deckListId": "l5rdb-5f6fc2e8",
+                "label": "ToDxp EE Shugenja Damasko"
+              },
+              {
+                "deckListId": "l5rdb-0ee49ad4",
+                "label": "TTOD ToDx EE BKx Blitz kempy"
+              },
+              {
+                "deckListId": "l5rdb-575aed04",
+                "label": "TTOD ToDx EE Shugenja Damasko"
+              },
+              {
+                "deckListId": "l5rdb-129b8f35",
+                "label": "TTOD ToDx EoW BKx Shug Meimei 2nd"
+              },
+              {
+                "deckListId": "l5rdb-32b737e6",
+                "label": "TTOD ToDx EoW ShugMilitary 1st Irc 1st"
+              },
+              {
+                "deckListId": "l5rdb-c9338903",
+                "label": "TTOD ToDx TA BKx Shugs T4"
+              },
+              {
+                "deckListId": "l5rdb-c246cb73",
+                "label": "TTOD ToDxp EE Shugenja Kempy"
+              },
+              {
+                "deckListId": "l5rdb-0c8b0e50",
+                "label": "TTOD ToDxp GoC Jabbas"
+              },
+              {
+                "deckListId": "l5rdb-24bb4ab9",
+                "label": "Unicorn Battle Maiden Honor – John \"Ogre\" Seals — John Seals"
+              },
+              {
+                "deckListId": "l5rdb-7a89f16f",
+                "label": "Unicorn Good Stuff Military – Josh Bow"
+              }
+            ]
+          },
+          {
+            "label": "Emperor Extended",
+            "deckLists": [
+              {
+                "deckListId": "l5rdb-1d751634",
+                "label": "Khan's Commander Blitz — Ono Sendai"
+              },
+              {
+                "deckListId": "l5rdb-72e77eda",
+                "label": "UN TUP ParaGirls Blitz WiP"
+              },
+              {
+                "deckListId": "l5rdb-476567cb",
+                "label": "UN Unicorn Tactician 2nd SnM — DexterM"
+              }
+            ]
+          },
+          {
+            "label": "Ivory",
+            "deckLists": [
+              {
+                "deckListId": "l5rdb-e7e243b7",
+                "label": "2014 Regent to the Throne — Akodo War College"
+              },
+              {
+                "deckListId": "l5rdb-fae76367",
+                "label": "Ivory Unicorn Military — Akodo War College"
+              },
+              {
+                "deckListId": "l5rdb-dfcca5fd",
+                "label": "TGPOTU 2014 IvE UN Sheffield Winner"
+              },
+              {
+                "deckListId": "l5rdb-7294bc01",
+                "label": "The Endless Plains of the Unicorn (Jacob Hampton, T8)"
+              },
+              {
+                "deckListId": "l5rdb-76b138c0",
+                "label": "The Golden Plains of the Unicorn — Strange Assembly"
+              }
+            ]
+          },
+          {
+            "label": "Twenty Festivals",
+            "deckLists": [
+              {
+                "deckListId": "l5rdb-8509e534",
+                "label": "20F DeathPriests Hughes"
+              },
+              {
+                "deckListId": "l5rdb-c212e904",
+                "label": "20F Madrid Taitaken 1st"
+              },
+              {
+                "deckListId": "l5rdb-203ba4ba",
+                "label": "20F Unicorn Tactical Military — Akodo War College"
+              },
+              {
+                "deckListId": "l5rdb-6a460f57",
+                "label": "EP A Matter of Honor"
+              },
+              {
+                "deckListId": "l5rdb-dd2de8e7",
+                "label": "EP BM CM Switch"
+              },
+              {
+                "deckListId": "l5rdb-9ac9ac51",
+                "label": "EP Harpoon Combo Bobo"
+              },
+              {
+                "deckListId": "l5rdb-cd8a3975",
+                "label": "EP Meimei Military"
+              },
+              {
+                "deckListId": "l5rdb-891221a5",
+                "label": "EP Space Wizard Dragons vs K"
+              },
+              {
+                "deckListId": "l5rdb-b7646e54",
+                "label": "TEPOTU ThA Follower Winner"
+              },
+              {
+                "deckListId": "l5rdb-541e3af9",
+                "label": "ThA Aranai Gencon Top8 Palmer"
+              },
+              {
+                "deckListId": "l5rdb-9955e1e9",
+                "label": "ThA Bride 2nd Richisom"
+              },
+              {
+                "deckListId": "l5rdb-4419bd8a",
+                "label": "ThA Follower  Top — Darturo"
+              },
+              {
+                "deckListId": "l5rdb-4a49eec1",
+                "label": "ThA Gencon Top8 Tact P"
+              },
+              {
+                "deckListId": "l5rdb-15481d0e",
+                "label": "ThA Strategy"
+              }
+            ]
+          },
+          {
+            "label": "OBH (The Obsidian Hand) Legacy",
+            "deckLists": [
+              {
+                "deckListId": "l5rdb-d24e46d4",
+                "label": "LG OBH UN ToDx 2nd GenCon25 — Qalyar"
+              },
+              {
+                "deckListId": "l5rdb-674fd7bb",
+                "label": "OBH UN JE Chagatai Top 4 SnM — Remi"
+              },
+              {
+                "deckListId": "l5rdb-7b6f313e",
+                "label": "OBH UN TSH Unicorn Ratling Plague 2nd SnM — DexterM"
+              },
+              {
+                "deckListId": "l5rdb-3b678498",
+                "label": "SS LG OBH UN TactDuel WiP — Kwek"
+              }
+            ]
+          },
+          {
+            "label": "Modern",
+            "deckLists": [
+              {
+                "deckListId": "l5rdb-e62450d1",
+                "label": "UN Maidens KFDE 1st UnTap"
+              },
+              {
+                "deckListId": "l5rdb-41074c25",
+                "label": "Unicorn Tacticians — PlayCCG"
+              }
+            ]
+          },
+          {
+            "label": "Open",
+            "deckLists": [
+              {
+                "deckListId": "l5rdb-5951a859",
+                "label": "JEK Imperial Faceless — Yoriagami"
+              },
+              {
+                "deckListId": "l5rdb-645fa9ee",
+                "label": "SI Eternal Event: Shiro Ide Midrange/Super Uniques — Yoriagami"
+              }
+            ]
+          },
+          {
+            "label": "Clan Wars",
+            "deckLists": [
+              {
+                "deckListId": "l5rdb-d2a525c1",
+                "label": "Clan Wars Unicorn Hybrid — Akodo War College"
+              },
+              {
+                "deckListId": "l5rdb-447246f0",
+                "label": "Stranglehold - Unicorn Control — Akodo War College"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Spider",
+        "subMenus": [
+          {
+            "label": "Samurai",
+            "deckLists": [
+              {
+                "deckListId": "l5rdb-d643f3c3",
+                "label": "BSC SP Rats — kempy"
+              },
+              {
+                "deckListId": "l5rdb-d9c45672",
+                "label": "SP Breeder 2nd Kotei — Walec"
+              },
+              {
+                "deckListId": "l5rdb-0b16e255",
+                "label": "SP Dishonor Top Clan Kotei"
+              },
+              {
+                "deckListId": "l5rdb-fc2a65d7",
+                "label": "SP SLut Swarm — Ornatov"
+              },
+              {
+                "deckListId": "l5rdb-c132c902",
+                "label": "SP TSL SLut Swarm Top 4 SnM — kempy"
+              }
+            ]
+          },
+          {
+            "label": "Celestial",
+            "deckLists": [
+              {
+                "deckListId": "l5rdb-75099a3e",
+                "label": "Andrzej Wrobel's Breeder (Winner, Bielsko Kotei)"
+              },
+              {
+                "deckListId": "l5rdb-826ebef9",
+                "label": "Angus Campbell's Breeder (T4, Vancouver Kotei)"
+              },
+              {
+                "deckListId": "l5rdb-dd703309",
+                "label": "Breeder (GenCon 2011 Second Chance T16) — Strange Assembly"
+              },
+              {
+                "deckListId": "l5rdb-cb4cb1d6",
+                "label": "Chile Breeder (T8, Santiago Kotei) — Strange Assembly"
+              },
+              {
+                "deckListId": "l5rdb-7b5d19a4",
+                "label": "Chris Slazinski's Breeder (T2, Rockville Kotei)"
+              },
+              {
+                "deckListId": "l5rdb-2c71557c",
+                "label": "FOTD 2009 CE SP Gencon Winner"
+              },
+              {
+                "deckListId": "l5rdb-3ddf6ad2",
+                "label": "FOTD FotD IG3 Goblins — Sparks"
+              },
+              {
+                "deckListId": "l5rdb-7e054673",
+                "label": "FOTD oni"
+              },
+              {
+                "deckListId": "l5rdb-561e2a14",
+                "label": "FOTD Spider FotD EaW FacelessHonor Sharka"
+              },
+              {
+                "deckListId": "l5rdb-f6fcdbe4",
+                "label": "FOTD Spider FotD Goblins Layne"
+              },
+              {
+                "deckListId": "l5rdb-aadc5991",
+                "label": "FOTD Spider FotD Goblins Ornatov"
+              },
+              {
+                "deckListId": "l5rdb-28132378",
+                "label": "FOTD Spider FotD Goblins2 Ornatov"
+              },
+              {
+                "deckListId": "l5rdb-b1182897",
+                "label": "FOTD Spider FotD Goblins2 shugas"
+              },
+              {
+                "deckListId": "l5rdb-e7e6f252",
+                "label": "FOTD Spider FotD Gobo"
+              },
+              {
+                "deckListId": "l5rdb-71d51b71",
+                "label": "FOTD Spider FotD PotD Honor Facedownninja"
+              },
+              {
+                "deckListId": "l5rdb-ecd5995a",
+                "label": "FOTD Spider FotD Swarm0kempy"
+              },
+              {
+                "deckListId": "l5rdb-f64069f5",
+                "label": "FOTD Spider FotD TDoW ChiBreeder BigRemy — Big Remy"
+              },
+              {
+                "deckListId": "l5rdb-6237a313",
+                "label": "FOTD Spider FotD TDoW Enlight BigRemy — Big Remy"
+              },
+              {
+                "deckListId": "l5rdb-ea7e03de",
+                "label": "FOTD Spider FotD TDoW GoboBreeder Spark"
+              },
+              {
+                "deckListId": "l5rdb-de2684e1",
+                "label": "FOTD Spider FotD TDoW NinjaChi Cielago"
+              },
+              {
+                "deckListId": "l5rdb-762eb930",
+                "label": "FOTD Spider FotD TDoW Oni DM"
+              },
+              {
+                "deckListId": "l5rdb-42653a59",
+                "label": "FOTD Spider FotD TDoW Oni Kempy"
+              },
+              {
+                "deckListId": "l5rdb-c00e5402",
+                "label": "FOTD Spider FotD TDoW Oni Kempy Control"
+              },
+              {
+                "deckListId": "l5rdb-1954e333",
+                "label": "FOTD Spider FotD TDoW TheLastOne Cambeul"
+              },
+              {
+                "deckListId": "l5rdb-38f7c772",
+                "label": "FOTD Spider FotD TH Breeder 10L"
+              },
+              {
+                "deckListId": "l5rdb-6956ad62",
+                "label": "FOTD Spider FotD TH DarkEnlightenment BigRemy — Big Remy"
+              },
+              {
+                "deckListId": "l5rdb-f0b42a5c",
+                "label": "FOTD Spider FotD TH Oni 2ndMaastricht BelgianKyofu — Belgian Kyofu"
+              },
+              {
+                "deckListId": "l5rdb-b0e33d8e",
+                "label": "FOTD Spider FotD TH Oni 2ndSheffield Jakimaru"
+              },
+              {
+                "deckListId": "l5rdb-c563b669",
+                "label": "FOTD Spider FotD TH Oni Ornatov"
+              },
+              {
+                "deckListId": "l5rdb-e7f2b55a",
+                "label": "FOTD Spider FotD TPW Breeder Walec"
+              },
+              {
+                "deckListId": "l5rdb-31f2cf81",
+                "label": "FOTD Spider Gobo"
+              },
+              {
+                "deckListId": "l5rdb-a12922fe",
+                "label": "FOTD Spider honor"
+              },
+              {
+                "deckListId": "l5rdb-215345b2",
+                "label": "FOTD Spider KS TDoW TheLastOne Cambeul"
+              },
+              {
+                "deckListId": "l5rdb-b8d8040c",
+                "label": "FOTD Top4 Kotei 2011 Cincinnati 71 Personas Fields of the Dead — Paul Ashman"
+              },
+              {
+                "deckListId": "l5rdb-df6343eb",
+                "label": "KS Spider BtD ParagonBlitz Tenrou"
+              },
+              {
+                "deckListId": "l5rdb-79333121",
+                "label": "KS Spider FL Duel"
+              },
+              {
+                "deckListId": "l5rdb-ee4cd1f1",
+                "label": "KS Spider FL Paragon Tenrou"
+              },
+              {
+                "deckListId": "l5rdb-f464252a",
+                "label": "KS Spider SC Paragons Nixon"
+              },
+              {
+                "deckListId": "l5rdb-508b32f0",
+                "label": "KS Spider SC Paragons Remi"
+              },
+              {
+                "deckListId": "l5rdb-48b281c5",
+                "label": "KS Spider SC Paragons RemiVsKempy"
+              },
+              {
+                "deckListId": "l5rdb-dd0f56f2",
+                "label": "KS Spider TDoW Monksai Reese"
+              },
+              {
+                "deckListId": "l5rdb-09671112",
+                "label": "KS Spider TDoW Paragon ChrisSharka — Chris Sharka"
+              },
+              {
+                "deckListId": "l5rdb-eff9ecf6",
+                "label": "Monksai (Top Spider) — Strange Assembly"
+              },
+              {
+                "deckListId": "l5rdb-fa09af44",
+                "label": "Paragons – Justin Walsh"
+              },
+              {
+                "deckListId": "l5rdb-6d9318e0",
+                "label": "Richard Walling's Breeder"
+              },
+              {
+                "deckListId": "l5rdb-d24d9065",
+                "label": "TFOB Spider FoB"
+              },
+              {
+                "deckListId": "l5rdb-e19f29e2",
+                "label": "TFOB Spider FoB BreedControl System"
+              },
+              {
+                "deckListId": "l5rdb-b69499de",
+                "label": "TFOB Spider FoB IG3 Honor Serraphim"
+              },
+              {
+                "deckListId": "l5rdb-1a787c53",
+                "label": "TFOB Spider FoB PotD BreedControl Nixon"
+              },
+              {
+                "deckListId": "l5rdb-a851be67",
+                "label": "TFOB Spider FoB PotD BreedControl System"
+              },
+              {
+                "deckListId": "l5rdb-5b175762",
+                "label": "TFOB Spider FoB TH BreedHonor ZombieMaster — Zombie Master"
+              },
+              {
+                "deckListId": "l5rdb-240999b2",
+                "label": "TFOB Spider FoB TH NonhumanBreedControl Hachrt"
+              },
+              {
+                "deckListId": "l5rdb-04b97576",
+                "label": "TSD Spider BV DAramasu"
+              },
+              {
+                "deckListId": "l5rdb-0d7d076a",
+                "label": "TSD Spider EaW Enlight Hinomura"
+              },
+              {
+                "deckListId": "l5rdb-7eb38721",
+                "label": "TSD Spider EaW Followers kempy"
+              },
+              {
+                "deckListId": "l5rdb-d3e8932c",
+                "label": "TSD Spider EaW Oni"
+              },
+              {
+                "deckListId": "l5rdb-981498d9",
+                "label": "TSD Spider EaW Paragon Centipede"
+              },
+              {
+                "deckListId": "l5rdb-930c7d4a",
+                "label": "TSD Spider EaW Paragon Hachrt"
+              },
+              {
+                "deckListId": "l5rdb-475f03ce",
+                "label": "TSD Spider IG3 Paragons Chuck"
+              },
+              {
+                "deckListId": "l5rdb-3157e10a",
+                "label": "TSD Spider ParagonDV kempy"
+              },
+              {
+                "deckListId": "l5rdb-cfaa08da",
+                "label": "TSD Spider TH Enlight Tsubaki"
+              },
+              {
+                "deckListId": "l5rdb-98697ab9",
+                "label": "TSD Spider TH Paragon Hachrt"
+              },
+              {
+                "deckListId": "l5rdb-a06b6bfb",
+                "label": "TSD Spider TPW Kensai kempy"
+              },
+              {
+                "deckListId": "l5rdb-ba7e6c02",
+                "label": "TSD Spider TPW KensaiWeapon kempy"
+              },
+              {
+                "deckListId": "l5rdb-88db4eb6",
+                "label": "TSD Spider TPW ParagonUnique Mouth"
+              }
+            ]
+          },
+          {
+            "label": "Emperor",
+            "deckLists": [
+              {
+                "deckListId": "l5rdb-e48afc45",
+                "label": "Adam Gaitaud's Breeder"
+              },
+              {
+                "deckListId": "l5rdb-1c6f87c5",
+                "label": "Chi-Death Breeder — Strange Assembly"
+              },
+              {
+                "deckListId": "l5rdb-8dd3f0d7",
+                "label": "Cody Smallwood's Monksai"
+              },
+              {
+                "deckListId": "l5rdb-b3ca3760",
+                "label": "Dark Paragons (Mike D'Ottavio, Atlanta Kotei)"
+              },
+              {
+                "deckListId": "l5rdb-d89956e7",
+                "label": "Emperor Goju Ninja — Justin Walsh"
+              },
+              {
+                "deckListId": "l5rdb-142f67c7",
+                "label": "Przemek Kowalczyk's Breeder"
+              },
+              {
+                "deckListId": "l5rdb-d780acd7",
+                "label": "Sohei (Colin DeBernardo, Atlanta Kotei)"
+              },
+              {
+                "deckListId": "l5rdb-86910a63",
+                "label": "SP AM BKx BHx Honor"
+              },
+              {
+                "deckListId": "l5rdb-ec6fed67",
+                "label": "SP CoM BKx Ninja Sparks"
+              },
+              {
+                "deckListId": "l5rdb-3a3b2e23",
+                "label": "SP EE BKx BHx NinjaBlitz Tenrou"
+              },
+              {
+                "deckListId": "l5rdb-6c0cc931",
+                "label": "SP EE MonkEnl SpiderSohei — Spider Sohei"
+              },
+              {
+                "deckListId": "l5rdb-45ec88fc",
+                "label": "SP SoD BKx Followers Wedge"
+              },
+              {
+                "deckListId": "l5rdb-1ed3eff9",
+                "label": "SP TA BKx BHx Ninja SparksVsKempy"
+              },
+              {
+                "deckListId": "l5rdb-58fee526",
+                "label": "SP TA BKx Paragons Obsidian T8"
+              },
+              {
+                "deckListId": "l5rdb-82788915",
+                "label": "SP TA Paragons Sneakor"
+              },
+              {
+                "deckListId": "l5rdb-1a477880",
+                "label": "SP TSE BKx BHx Paragons kempy"
+              },
+              {
+                "deckListId": "l5rdb-65134e09",
+                "label": "SP TSE BKx BHx ParagonsShoot kempy"
+              },
+              {
+                "deckListId": "l5rdb-eedab9c9",
+                "label": "Spider Commanders — Strange Assembly"
+              },
+              {
+                "deckListId": "l5rdb-ca000eda",
+                "label": "Spider Ninja — Jason Pere"
+              },
+              {
+                "deckListId": "l5rdb-43002880",
+                "label": "SSD SP EE BKx BHx Paragons Echo42"
+              },
+              {
+                "deckListId": "l5rdb-db87e74b",
+                "label": "SSD SP EE Paragons Kempy"
+              },
+              {
+                "deckListId": "l5rdb-39c5bb8f",
+                "label": "SSD SP GoC BKx Paragons Obsidian T8"
+              },
+              {
+                "deckListId": "l5rdb-9e03af95",
+                "label": "SSD SP SoD BKx Paragons"
+              },
+              {
+                "deckListId": "l5rdb-02b67ca6",
+                "label": "SSD SP TA Bkx BHx Paragons Habayusa"
+              },
+              {
+                "deckListId": "l5rdb-912decb8",
+                "label": "SSD SP TSE BKx BHx Paragons"
+              },
+              {
+                "deckListId": "l5rdb-6c3c4c28",
+                "label": "SSD SP TSE BKx BHx Paragons Sinso"
+              },
+              {
+                "deckListId": "l5rdb-f67c94e2",
+                "label": "SSD SP TSE Paragons Coop"
+              },
+              {
+                "deckListId": "l5rdb-d8ad075e",
+                "label": "TSL SP CoM BKx NinjOni"
+              },
+              {
+                "deckListId": "l5rdb-1aa27e2a",
+                "label": "TSL SP EE BKx BHx Light Gali"
+              },
+              {
+                "deckListId": "l5rdb-b15985cf",
+                "label": "TSL SP EE Bkx BHx Ninja Top Sparks"
+              },
+              {
+                "deckListId": "l5rdb-b2afc6dd",
+                "label": "TSL SP EE Eraser2.0 Graham"
+              },
+              {
+                "deckListId": "l5rdb-a95fa66e",
+                "label": "TSL SP EoW BKx BHx NinjaWeapons Nixon T8"
+              },
+              {
+                "deckListId": "l5rdb-6dce8533",
+                "label": "TSL SP GoC BKx BHx Ninja Sparks"
+              },
+              {
+                "deckListId": "l5rdb-a8b2b6f6",
+                "label": "TSL SP TA BKx BHx Ninja Ornatov"
+              },
+              {
+                "deckListId": "l5rdb-22452e4f",
+                "label": "TSL SP TA BKx BHx Ninja Sparks"
+              },
+              {
+                "deckListId": "l5rdb-97108a9f",
+                "label": "TSL SP TSE BHx HonorMirika Hitaro"
+              },
+              {
+                "deckListId": "l5rdb-ed371de0",
+                "label": "TSL SP TSE BKx BHx Ninja Sparks"
+              },
+              {
+                "deckListId": "l5rdb-423cc72c",
+                "label": "TSL SP TSE BKx Kensai TopGencon Inquisitor"
+              },
+              {
+                "deckListId": "l5rdb-b030689b",
+                "label": "TSW SP EE BKx Monksai Inquisitor 2nd FeedingHills — Feeding Hills"
+              },
+              {
+                "deckListId": "l5rdb-9e657796",
+                "label": "TSW SP EE Monksai Tsuruchis 1st Lvl10"
+              },
+              {
+                "deckListId": "l5rdb-b06dd2f6",
+                "label": "TSW SP TSL GoC BKx Monk Sai Blitz"
+              }
+            ]
+          },
+          {
+            "label": "Emperor Extended",
+            "deckLists": [
+              {
+                "deckListId": "l5rdb-2bea81b1",
+                "label": "TSL SP Ninja Top 4 SnM — kempy"
+              }
+            ]
+          },
+          {
+            "label": "Ivory",
+            "deckLists": [
+              {
+                "deckListId": "l5rdb-ca7c6960",
+                "label": "Fear Me! (Ivory Spider) — Strange Assembly"
+              }
+            ]
+          },
+          {
+            "label": "Twenty Festivals",
+            "deckLists": [
+              {
+                "deckListId": "l5rdb-2c61560a",
+                "label": "SP EP Goju Attrition Tandyys"
+              },
+              {
+                "deckListId": "l5rdb-d96be2e7",
+                "label": "SP EP Honor"
+              },
+              {
+                "deckListId": "l5rdb-f859e6d8",
+                "label": "SP EP Ninja Sparks"
+              },
+              {
+                "deckListId": "l5rdb-56b6273d",
+                "label": "SP EP Yaijinden Ninja Kotei 1st Sparks"
+              },
+              {
+                "deckListId": "l5rdb-1196ce79",
+                "label": "SP TBS Goju"
+              },
+              {
+                "deckListId": "l5rdb-1264144b",
+                "label": "SP TBS Goju in TBS Tourney"
+              },
+              {
+                "deckListId": "l5rdb-d2bc6452",
+                "label": "SP TBS Top 4 Sahara — King Anj"
+              },
+              {
+                "deckListId": "l5rdb-fb30eed0",
+                "label": "SP ThA Ashigaru Brnn"
+              },
+              {
+                "deckListId": "l5rdb-15263f6a",
+                "label": "SP ThA Fear Undead Sparks"
+              },
+              {
+                "deckListId": "l5rdb-4c26ab50",
+                "label": "SP ThA Gencon Case"
+              },
+              {
+                "deckListId": "l5rdb-80dc3d8c",
+                "label": "SP ThA Ninja Swarm Walsh"
+              },
+              {
+                "deckListId": "l5rdb-796b0413",
+                "label": "SP ThA Strategy S"
+              },
+              {
+                "deckListId": "l5rdb-c3ca5574",
+                "label": "SP ThA Swarm Top4 Tuscon Echo"
+              },
+              {
+                "deckListId": "l5rdb-80d56cbb",
+                "label": "SP ThA Undead Choice O"
+              },
+              {
+                "deckListId": "l5rdb-a5bb982d",
+                "label": "SP ThA Yaijinden Military Kotei 1st Yurishi"
+              },
+              {
+                "deckListId": "l5rdb-ed0648b5",
+                "label": "SP ThA Yajinden Fear Winner Mark"
+              },
+              {
+                "deckListId": "l5rdb-afbb8468",
+                "label": "THBOTS SP EP Honor K"
+              }
+            ]
+          },
+          {
+            "label": "OBH (The Obsidian Hand) Legacy",
+            "deckLists": [
+              {
+                "deckListId": "l5rdb-54d2c34f",
+                "label": "LG OBH SP FotD Honor Oni no El vs kempy"
+              }
+            ]
+          },
+          {
+            "label": "Modern",
+            "deckLists": [
+              {
+                "deckListId": "l5rdb-eee4b671",
+                "label": "Honor 2nd SnM — King Anj"
+              },
+              {
+                "deckListId": "l5rdb-56d0ad81",
+                "label": "SP Dueling Military Top 4 SnM — King Anj"
+              },
+              {
+                "deckListId": "l5rdb-4c5e391b",
+                "label": "SP FotD Breeder Palmer"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Shadowlands",
+        "subMenus": [
+          {
+            "label": "Jade",
+            "deckLists": [
+              {
+                "deckListId": "l5rdb-58d0840f",
+                "label": "Shadowlands Oni Lock Deck — Akodo War College"
+              }
+            ]
+          },
+          {
+            "label": "Gold",
+            "deckLists": [
+              {
+                "deckListId": "l5rdb-f72c551b",
+                "label": "2001 GE SH Gencon Winner"
+              },
+              {
+                "deckListId": "l5rdb-2e67f95c",
+                "label": "2001 Secrets on the Wind – Goblin Swarm — Akodo War College"
+              }
+            ]
+          },
+          {
+            "label": "Lotus",
+            "deckLists": [
+              {
+                "deckListId": "l5rdb-43e3ba08",
+                "label": "SH Goblins"
+              },
+              {
+                "deckListId": "l5rdb-b1346fb8",
+                "label": "SH HotD Control Walec"
+              },
+              {
+                "deckListId": "l5rdb-0d6226ac",
+                "label": "SH Oni 1st Kotei — Palmer"
+              }
+            ]
+          },
+          {
+            "label": "OBH (The Obsidian Hand) Legacy",
+            "deckLists": [
+              {
+                "deckListId": "l5rdb-504abeb2",
+                "label": "LG OBH SH IPoFL Control"
+              },
+              {
+                "deckListId": "l5rdb-40b02f5f",
+                "label": "TIPOFL LG OBH SH IPoFL Goblins 1st SnM — Efirm"
+              },
+              {
+                "deckListId": "l5rdb-bb893972",
+                "label": "TOH Shadowlands Control — Ron Jacob"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Imperial",
+        "subMenus": [
+          {
+            "label": "Emperor",
+            "deckLists": [
+              {
+                "deckListId": "l5rdb-69807aca",
+                "label": "2013 EE UL Gencon Winner"
+              },
+              {
+                "deckListId": "l5rdb-9caa374b",
+                "label": "JEK JEKx TA BHx Honor Reese"
+              },
+              {
+                "deckListId": "l5rdb-d8de1955",
+                "label": "JEK JEKx TA BKx ChiHonor — Chi Honor"
+              },
+              {
+                "deckListId": "l5rdb-e6b2bc7c",
+                "label": "JEK JEKx TA BKx Dragon"
+              },
+              {
+                "deckListId": "l5rdb-2c3abdfb",
+                "label": "JEK JEKx TA BKx HoldingBlitz"
+              },
+              {
+                "deckListId": "l5rdb-2d701f04",
+                "label": "JEK JEKx TA BKx HoldingBlitz Erukai"
+              },
+              {
+                "deckListId": "l5rdb-7f0a1449",
+                "label": "JEK JEKxp Barcelona"
+              },
+              {
+                "deckListId": "l5rdb-97eb992f",
+                "label": "JEK JEKxp Barcelona uzupelnione"
+              },
+              {
+                "deckListId": "l5rdb-f6802d33",
+                "label": "JEK JEKxp Barcelona uzupelnione2"
+              },
+              {
+                "deckListId": "l5rdb-a884f042",
+                "label": "JEK JEKxp Barcelona uzupelnione3"
+              },
+              {
+                "deckListId": "l5rdb-2100715e",
+                "label": "JEK JEKxp Barcelona Winner"
+              },
+              {
+                "deckListId": "l5rdb-31c40071",
+                "label": "JEK UL CoM BKx Faceless Honor"
+              },
+              {
+                "deckListId": "l5rdb-f129745d",
+                "label": "JEKxp Barcelona uzupelnioneBan"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Naga",
+        "subMenus": [
+          {
+            "label": "OBH (The Obsidian Hand) Legacy",
+            "deckLists": [
+              {
+                "deckListId": "l5rdb-d029b0a1",
+                "label": "LG OBH NG HotSF 2nd GenCon23 — Qalyar"
+              }
+            ]
+          },
+          {
+            "label": "Open",
+            "deckLists": [
+              {
+                "deckListId": "l5rdb-d0139a10",
+                "label": "HOTSF Eternal Event: Qalyar's Lockdown Blitz — Yoriagami"
+              }
+            ]
+          },
+          {
+            "label": "Siege",
+            "deckLists": [
+              {
+                "deckListId": "l5rdb-5d8f1378",
+                "label": "Siege HoD Naga"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Unaligned",
+        "subMenus": [
+          {
+            "label": "Samurai",
+            "deckLists": [
+              {
+                "deckListId": "l5rdb-ac8e94f5",
+                "label": "HR Hare Ashigaru v2.0 — kempy"
+              },
+              {
+                "deckListId": "l5rdb-4ebbc4be",
+                "label": "UL Oni On Tour 2nd SnM — kempy"
+              },
+              {
+                "deckListId": "l5rdb-8e9771fe",
+                "label": "UL TMG Shadowlands 1st SnM — Efirm"
+              }
+            ]
+          },
+          {
+            "label": "Celestial",
+            "deckLists": [
+              {
+                "deckListId": "l5rdb-224531eb",
+                "label": "2011 The Imperial Governor — Daniel Walker"
+              },
+              {
+                "deckListId": "l5rdb-07328f71",
+                "label": "Celestial Ronin Surprise — Akodo War College"
+              },
+              {
+                "deckListId": "l5rdb-a88cb6f3",
+                "label": "Dragon Kensai"
+              },
+              {
+                "deckListId": "l5rdb-5d04e6e3",
+                "label": "Forest no Oni – Daniel Walker"
+              },
+              {
+                "deckListId": "l5rdb-01cba4e8",
+                "label": "LTC Ronin Glory"
+              },
+              {
+                "deckListId": "l5rdb-346142c5",
+                "label": "LTC Ronin Honor"
+              },
+              {
+                "deckListId": "l5rdb-154bec92",
+                "label": "LTC Ronin honorrunner dan"
+              },
+              {
+                "deckListId": "l5rdb-d60e91a0",
+                "label": "Pheonix Military"
+              },
+              {
+                "deckListId": "l5rdb-5e146f7f",
+                "label": "POTBD Ronin PotBD BtD duel Tenrou"
+              },
+              {
+                "deckListId": "l5rdb-724752ab",
+                "label": "POTBD Ronin PotBD SC Cavalry"
+              },
+              {
+                "deckListId": "l5rdb-ff505441",
+                "label": "POTBD Ronin PotBD TPW Swarm Medalliah"
+              },
+              {
+                "deckListId": "l5rdb-4cde500e",
+                "label": "SK Ronin PotD RoninBlitz Nezumi"
+              },
+              {
+                "deckListId": "l5rdb-9503daa6",
+                "label": "SK Ronin PotD RoninBlitz NezumiVsKempy"
+              },
+              {
+                "deckListId": "l5rdb-9254a934",
+                "label": "SK Ronin Swarm BadgerMonkey — Badger Monkey"
+              },
+              {
+                "deckListId": "l5rdb-2b789b6f",
+                "label": "Spider Breeder"
+              },
+              {
+                "deckListId": "l5rdb-89dc19d4",
+                "label": "TFT 2011 CE UL Gencon Winner"
+              },
+              {
+                "deckListId": "l5rdb-3003af8a",
+                "label": "TFT CE UL Oni Play In — Rawtooth"
+              },
+              {
+                "deckListId": "l5rdb-8673059c",
+                "label": "TFT FL Goblins Sparks"
+              },
+              {
+                "deckListId": "l5rdb-5099c857",
+                "label": "TFT FL NonhumanBlitz Tenrou"
+              },
+              {
+                "deckListId": "l5rdb-11b0f76d",
+                "label": "TFT FL Oni DB"
+              },
+              {
+                "deckListId": "l5rdb-3f565bac",
+                "label": "TFT FL Oni Gencon"
+              },
+              {
+                "deckListId": "l5rdb-f6ec3283",
+                "label": "TFT FL Oni IkomaHivis — Ikoma Hivis"
+              }
+            ]
+          },
+          {
+            "label": "Emperor",
+            "deckLists": [
+              {
+                "deckListId": "l5rdb-315f7588",
+                "label": "Chris Pepe Ronin Surprise"
+              },
+              {
+                "deckListId": "l5rdb-1ee8c89d",
+                "label": "EE BKx BHx Oni DM SB — DM_SB"
+              },
+              {
+                "deckListId": "l5rdb-dd4c1302",
+                "label": "EoW Bkx BHx Oni T16 Chuckles Tops"
+              },
+              {
+                "deckListId": "l5rdb-0eed3366",
+                "label": "EoW Oni T16 Filipiny"
+              },
+              {
+                "deckListId": "l5rdb-00a387eb",
+                "label": "EoW Oni T8 Benelux post"
+              },
+              {
+                "deckListId": "l5rdb-f9b01ecf",
+                "label": "FOTM EC 2013 EE UL Euro Winner"
+              },
+              {
+                "deckListId": "l5rdb-ff5a2354",
+                "label": "FOTM FotM BHx2 duel Case"
+              },
+              {
+                "deckListId": "l5rdb-f330e59a",
+                "label": "FOTM FotM GoC BKx BHx Iatzek"
+              },
+              {
+                "deckListId": "l5rdb-9fca2308",
+                "label": "FOTM FotM GoC BKx PortOni"
+              },
+              {
+                "deckListId": "l5rdb-b3879465",
+                "label": "FOTM FotM GoC BKx RiceOni — Rice Oni"
+              },
+              {
+                "deckListId": "l5rdb-423c5613",
+                "label": "FOTM FotM Holding Blitz"
+              },
+              {
+                "deckListId": "l5rdb-3b81e692",
+                "label": "FOTM FotM Holding Blitz Detroit"
+              },
+              {
+                "deckListId": "l5rdb-f99e794a",
+                "label": "P'an Ku Holding Blitz — Jacek Jachymowski"
+              },
+              {
+                "deckListId": "l5rdb-8f77e39a",
+                "label": "POTBD PotBD SoD BKx RoninDuel Hayabusa"
+              },
+              {
+                "deckListId": "l5rdb-9a34b2aa",
+                "label": "POTBD RN PotBD EE BKx Superfriends Samoshii"
+              },
+              {
+                "deckListId": "l5rdb-0dbe6e6e",
+                "label": "POTBD RN PotBD TSE BKx Ronin"
+              },
+              {
+                "deckListId": "l5rdb-4a4906ba",
+                "label": "SoD BHx Oni Shawn"
+              },
+              {
+                "deckListId": "l5rdb-eb9864d9",
+                "label": "SoD BKx Oni 4th"
+              },
+              {
+                "deckListId": "l5rdb-18f38426",
+                "label": "TFT EE Oni T16 Vegas Ryan"
+              },
+              {
+                "deckListId": "l5rdb-ab8771bb",
+                "label": "TFT EE Oni T8 Benelux"
+              },
+              {
+                "deckListId": "l5rdb-6a4d9dc4",
+                "label": "TFT EoW Bkx BHx Oni T16 Filipiny"
+              },
+              {
+                "deckListId": "l5rdb-42ff6385",
+                "label": "TFT Oni Kempy"
+              },
+              {
+                "deckListId": "l5rdb-c67a5dd0",
+                "label": "TFT Oni — Andrew Ornatov"
+              },
+              {
+                "deckListId": "l5rdb-48b3431b",
+                "label": "TFT SoD BKx BHx Oni"
+              },
+              {
+                "deckListId": "l5rdb-6456dec6",
+                "label": "TFT SoD BKx BHx Oni Azathoth"
+              },
+              {
+                "deckListId": "l5rdb-9ce9deb0",
+                "label": "TFT SoD BKx Oni"
+              },
+              {
+                "deckListId": "l5rdb-d5815d1d",
+                "label": "TFT TA BKx BHx Oni DouglasDee — Douglas Dee"
+              },
+              {
+                "deckListId": "l5rdb-fb53f6bc",
+                "label": "TFT TA BKx BHx Oni DouglasDeeV2 — Douglas Dee"
+              },
+              {
+                "deckListId": "l5rdb-7f52d889",
+                "label": "TFT TA BKx BHx Oni DouglasDeeVskempy"
+              },
+              {
+                "deckListId": "l5rdb-cb595077",
+                "label": "TFT TSE BKx Oni Ornatov"
+              },
+              {
+                "deckListId": "l5rdb-46dcada5",
+                "label": "TFT TSE BKx OniEnlight Remy"
+              }
+            ]
+          },
+          {
+            "label": "Emperor Extended",
+            "deckLists": [
+              {
+                "deckListId": "l5rdb-ce490336",
+                "label": "UL Oni — kempy"
+              },
+              {
+                "deckListId": "l5rdb-ff677fd8",
+                "label": "UL PotD Unaligned Ronin Blitz V2.0 — DexterM"
+              }
+            ]
+          },
+          {
+            "label": "OBH (The Obsidian Hand) Legacy",
+            "deckLists": [
+              {
+                "deckListId": "l5rdb-92d88e06",
+                "label": "FOTM LG OBH UL FotM 1st GenCon23 — shockaboyob"
+              },
+              {
+                "deckListId": "l5rdb-ff2178c9",
+                "label": "LG OBH UL Run Fast or Loss 3rd — Olinor"
+              }
+            ]
+          },
+          {
+            "label": "Modern",
+            "deckLists": [
+              {
+                "deckListId": "l5rdb-50ce065e",
+                "label": "UL Big Kempy 2nd SnM"
+              }
+            ]
+          },
+          {
+            "label": "Siege",
+            "deckLists": [
+              {
+                "deckListId": "l5rdb-7a733613",
+                "label": "Siege CW FuLeng"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Brotherhood of Shinsei",
+        "subMenus": [
+          {
+            "label": "Jade",
+            "deckLists": [
+              {
+                "deckListId": "l5rdb-52f54620",
+                "label": "1999 War in the Heavens World Championship – Brotherhood Beatdown — Akodo War College"
+              },
+              {
+                "deckListId": "l5rdb-2f29a470",
+                "label": "Monk En-\"lightning\"-ment (WC 1999 Runner Up) — Akodo War College"
+              },
+              {
+                "deckListId": "l5rdb-c1f6c941",
+                "label": "THOT 1999 JE BoS Gencon Winner"
+              }
+            ]
+          },
+          {
+            "label": "Siege",
+            "deckLists": [
+              {
+                "deckListId": "l5rdb-a4ebf179",
+                "label": "Siege CW Brotherhood"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Ninja",
+        "subMenus": [
+          {
+            "label": "Jade",
+            "deckLists": [
+              {
+                "deckListId": "l5rdb-16b43e5a",
+                "label": "Ninja Abandoning the Fortunes — Akodo War College"
+              }
+            ]
+          },
+          {
+            "label": "OBH (The Obsidian Hand) Legacy",
+            "deckLists": [
+              {
+                "deckListId": "l5rdb-fceb2925",
+                "label": "LG OBH NJ DPoS Chi ninja"
+              },
+              {
+                "deckListId": "l5rdb-608ef1d1",
+                "label": "LG OBH NJ Orbital Cannon — Kwek"
+              }
+            ]
+          },
+          {
+            "label": "Open",
+            "deckLists": [
+              {
+                "deckListId": "l5rdb-6f8ccb08",
+                "label": "TDPOS The Many Shadows of Death — Yoriagami"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Ratling",
+        "subMenus": [
+          {
+            "label": "Lotus",
+            "deckLists": [
+              {
+                "deckListId": "l5rdb-4ba2f7e3",
+                "label": "2006 The Battle at the Tomb – Tomorrow's Honor — Faber Van Krannan"
+              },
+              {
+                "deckListId": "l5rdb-06051a14",
+                "label": "DOTS RL DotS Today is Tomorrow's Yesterday 4th SnM — Zen Cynic"
+              },
+              {
+                "deckListId": "l5rdb-06895052",
+                "label": "RL 1st Amethyst — Palmer"
+              },
+              {
+                "deckListId": "l5rdb-36927aa7",
+                "label": "RL DotS Blitz 1st Kotei — Iatzek"
+              },
+              {
+                "deckListId": "l5rdb-c15c1578",
+                "label": "RL WoOT Tomorrow Foil"
+              },
+              {
+                "deckListId": "l5rdb-2a391711",
+                "label": "WOTOT 2006 LE RL Brussels Winner"
+              }
+            ]
+          },
+          {
+            "label": "OBH (The Obsidian Hand) Legacy",
+            "deckLists": [
+              {
+                "deckListId": "l5rdb-c96a479a",
+                "label": "LG OBH RL DotS Play In SnM — Frwa"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Spider Clan",
+        "subMenus": [
+          {
+            "label": "Celestial",
+            "deckLists": [
+              {
+                "deckListId": "l5rdb-9785c63c",
+                "label": "2009 The Burden of Duty — Akodo War College"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Spirit",
+        "subMenus": [
+          {
+            "label": "Jade",
+            "deckLists": [
+              {
+                "deckListId": "l5rdb-c4808751",
+                "label": "Broken @$$ Spirit Honor - B.A.S.H. — Akodo War College"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Toturi's Army",
+        "subMenus": [
+          {
+            "label": "Jade",
+            "deckLists": [
+              {
+                "deckListId": "l5rdb-fe17b5c2",
+                "label": "Corrupt Toturi Blitz — Akodo War College"
+              },
+              {
+                "deckListId": "l5rdb-1ec0497f",
+                "label": "Monkey Dueling — Akodo War College"
+              }
+            ]
+          },
+          {
+            "label": "Siege",
+            "deckLists": [
+              {
+                "deckListId": "l5rdb-f731c19a",
+                "label": "Siege CW Toturi"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

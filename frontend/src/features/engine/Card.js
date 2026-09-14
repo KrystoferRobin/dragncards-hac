@@ -75,16 +75,16 @@ export const Card = React.memo(({
 
     if (!cardCurrentSide) return;
 
-    console.log('Rendering Card ',currentFace.name, shouldGlow);
+    console.log('Rendering Card ',currentFace?.name, shouldGlow);
 
     const handleMouseLeave = (_event) => {
         if (!dropdownMenuVisible) dispatch(setActiveCardId(null))
     }
 
-    var [height, width] = [cardVisibleFace.height, cardVisibleFace.width];
+    var [height, width] = [cardVisibleFace?.height, cardVisibleFace?.width];
     if (!height || !width) {
-        height = gameDef?.cardBacks?.[cardVisibleFace.name]?.height;
-        width = gameDef?.cardBacks?.[cardVisibleFace.name]?.width;
+        height = gameDef?.cardBacks?.[cardVisibleFace?.name]?.height;
+        width = gameDef?.cardBacks?.[cardVisibleFace?.name]?.width;
     }
     // FIXME: display error if height and width still not defined?
 

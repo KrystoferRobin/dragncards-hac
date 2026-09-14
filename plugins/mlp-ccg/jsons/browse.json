@@ -1,0 +1,18 @@
+{
+  "browse": {
+    "filterPropertySideA": "type",
+    "filterValuesSideA": [
+      "Event",
+      "Friend",
+      "Mane Character",
+      "Problem",
+      "Resource",
+      "Troublemaker"
+    ],
+    "textPropertiesSideA": [
+      "name",
+      "packName",
+      "text"
+    ]
+  }
+}

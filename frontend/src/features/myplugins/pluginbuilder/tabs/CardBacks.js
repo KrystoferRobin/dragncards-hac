@@ -5,7 +5,10 @@ export const CardBacks = ({ inputs, setInputs }) => {
   const siteL10n = useSiteL10n();
   const cardDb = inputs?.cardDb || {};
   const listOfBacks = Object.keys(cardDb).map((cardId) => cardDb[cardId]?.A?.cardBack).filter(Boolean);
-  const uniqueCardBacks = Array.from(new Set(listOfBacks)).sort();
+  const uniqueCardBacks = Array.from(new Set([
+    ...listOfBacks,
+    ...Object.keys(inputs?.cardBacks || {}),
+  ])).sort();
   const filteredCardBacks = uniqueCardBacks.filter((type) => type !== "multi_sided");
 
   const cardBacks = inputs?.cardBacks || {};

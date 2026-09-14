@@ -1,0 +1,59 @@
+{
+  "cardMenu": {
+    "moveToGroupIds": [
+      "playerSHand",
+      "playerSDeck",
+      "playerSGraveyard",
+      "playerSExile",
+      "playerSPlay",
+      "playerSCommand",
+      "playerSEmblem",
+      "playerSTokens",
+      "playerSSideboard",
+      "playerLPlay",
+      "sharedSetAside"
+    ],
+    "options": [
+      {
+        "label": "Tap",
+        "actionList": "tapCard"
+      },
+      {
+        "label": "Untap",
+        "actionList": "untapCard"
+      },
+      {
+        "label": "Flip",
+        "actionList": "flipCard"
+      },
+      {
+        "label": "Graveyard",
+        "actionList": "discardCard"
+      },
+      {
+        "label": "Exile",
+        "actionList": "exileCard"
+      },
+      {
+        "label": "To command",
+        "actionList": "toCommand"
+      },
+      {
+        "label": "To emblems",
+        "actionList": "toEmblem"
+      },
+      {
+        "label": "To tokens",
+        "actionList": "toTokens"
+      },
+      {
+        "label": "Detach",
+        "actionList": "detachCard"
+      },
+      {
+        "label": "Shuffle into library",
+        "actionList": "shuffleIntoDeck"
+      }
+    ]
+  }
+}

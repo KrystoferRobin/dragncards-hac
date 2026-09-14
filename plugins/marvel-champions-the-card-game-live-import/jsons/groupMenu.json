@@ -1,0 +1,9 @@
+{
+  "groupMenu": {
+    "moveToGroupIds": [
+      "sharedEncounterDeck",
+      "sharedEncounterDiscard"
+    ],
+    "options": []
+  }
+}

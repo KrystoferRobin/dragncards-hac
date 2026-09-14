@@ -1,0 +1,42 @@
+{
+  "saveGame": {
+    "metadata": {
+      "Player1": [
+        "COND",
+        [
+          "DEFINED",
+          "$GAME.playerData.player1.alias"
+        ],
+        "$GAME.playerData.player1.alias",
+        [
+          "TRUE"
+        ],
+        "Unknown"
+      ],
+      "Player2": [
+        "COND",
+        [
+          "DEFINED",
+          "$GAME.playerData.player2.alias"
+        ],
+        "$GAME.playerData.player2.alias",
+        [
+          "TRUE"
+        ],
+        "Unknown"
+      ],
+      "Results": [
+        "COND",
+        [
+          "DEFINED",
+          "$GAME.victoryState"
+        ],
+        "$GAME.victoryState",
+        [
+          "TRUE"
+        ],
+        "Incomplete"
+      ]
+    }
+  }
+}

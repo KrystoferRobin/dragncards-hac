@@ -1,0 +1,19 @@
+{
+  "browse": {
+    "filterPropertySideA": "type",
+    "filterValuesSideA": [
+      "Unit",
+      "Command",
+      "Mission",
+      "Box Power"
+    ],
+    "textPropertiesSideA": [
+      "name",
+      "text",
+      "keywords",
+      "affiliation",
+      "set",
+      "cost"
+    ]
+  }
+}

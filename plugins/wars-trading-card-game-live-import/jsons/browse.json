@@ -1,0 +1,20 @@
+{
+  "browse": {
+    "filterPropertySideA": "type",
+    "filterValuesSideA": [
+      "ASSET",
+      "CHARACTER",
+      "INTERRUPT",
+      "NOBOT",
+      "ORDER",
+      "SECTOR",
+      "SHIP",
+      "SITE",
+      "VEHICLE",
+      "WEAPON"
+    ],
+    "textPropertiesSideA": [
+      "name"
+    ]
+  }
+}

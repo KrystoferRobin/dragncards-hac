@@ -1,0 +1,238 @@
+{
+  "actionLists": {
+    "drawDeck": [
+      [
+        "COND",
+        [
+          "GROUP_EMPTY",
+          "{{$PLAYER_N}}Deck"
+        ],
+        [
+          "LOG",
+          "{{$ALIAS_N}} tried to draw from an empty deck."
+        ],
+        [
+          "TRUE"
+        ],
+        [
+          [
+            "MOVE_STACKS",
+            "{{$PLAYER_N}}Deck",
+            "{{$PLAYER_N}}Hand",
+            1,
+            "bottom"
+          ],
+          [
+            "LOG",
+            "{{$ALIAS_N}} drew a card."
+          ]
+        ]
+      ]
+    ],
+    "shuffleDeck": [
+      [
+        "SHUFFLE_GROUP",
+        "{{$PLAYER_N}}Deck"
+      ],
+      [
+        "LOG",
+        "{{$ALIAS_N}} shuffled their deck."
+      ]
+    ],
+    "probeDeck": [
+      [
+        "COND",
+        [
+          "GROUP_EMPTY",
+          "{{$PLAYER_N}}Deck"
+        ],
+        [
+          "LOG",
+          "{{$ALIAS_N}} tried to probe an empty deck."
+        ],
+        [
+          "TRUE"
+        ],
+        [
+          [
+            "MOVE_STACKS",
+            "{{$PLAYER_N}}Deck",
+            "{{$PLAYER_N}}Play",
+            1,
+            "bottom"
+          ],
+          [
+            "LOG",
+            "{{$ALIAS_N}} probed."
+          ]
+        ]
+      ]
+    ],
+    "discardFromDeck": [
+      [
+        "COND",
+        [
+          "GROUP_EMPTY",
+          "{{$PLAYER_N}}Deck"
+        ],
+        [
+          "LOG",
+          "{{$ALIAS_N}} tried to discard from an empty deck."
+        ],
+        [
+          "TRUE"
+        ],
+        [
+          [
+            "MOVE_STACKS",
+            "{{$PLAYER_N}}Deck",
+            "{{$PLAYER_N}}Discard",
+            1,
+            "bottom"
+          ],
+          [
+            "LOG",
+            "{{$ALIAS_N}} discarded from deck."
+          ]
+        ]
+      ]
+    ],
+    "seedSpaceline": [
+      [
+        "COND",
+        [
+          "GROUP_EMPTY",
+          "{{$PLAYER_N}}Missions"
+        ],
+        [
+          "LOG",
+          "{{$ALIAS_N}} has no missions to seed."
+        ],
+        [
+          "TRUE"
+        ],
+        [
+          [
+            "MOVE_STACKS",
+            "{{$PLAYER_N}}Missions",
+            "sharedSpaceline",
+            99,
+            "bottom"
+          ],
+          [
+            "LOG",
+            "{{$ALIAS_N}} seeded missions onto the spaceline."
+          ]
+        ]
+      ]
+    ],
+    "increasePoints": [
+      [
+        "INCREASE_VAL",
+        "/playerData/$PLAYER_N/points",
+        5
+      ],
+      [
+        "LOG",
+        "{{$ALIAS_N}} scored 5 points."
+      ]
+    ],
+    "decreasePoints": [
+      [
+        "COND",
+        [
+          "GREATER_THAN",
+          "$GAME.playerData.$PLAYER_N.points",
+          0
+        ],
+        [
+          [
+            "DECREASE_VAL",
+            "/playerData/$PLAYER_N/points",
+            5
+          ],
+          [
+            "LOG",
+            "{{$ALIAS_N}} lost 5 points."
+          ]
+        ],
+        [
+          "TRUE"
+        ],
+        [
+          "LOG",
+          "{{$ALIAS_N}} has no points to lose."
+        ]
+      ]
+    ],
+    "rotate90": [
+      [
+        "SET",
+        "/cardById/$ACTIVE_CARD_ID/rotation",
+        90
+      ],
+      [
+        "LOG",
+        "{{$ALIAS_N}} rotated {{$ACTIVE_FACE.name}}."
+      ]
+    ],
+    "rotate180": [
+      [
+        "SET",
+        "/cardById/$ACTIVE_CARD_ID/rotation",
+        180
+      ],
+      [
+        "LOG",
+        "{{$ALIAS_N}} rotated {{$ACTIVE_FACE.name}} 180."
+      ]
+    ],
+    "readyCard": [
+      [
+        "SET",
+        "/cardById/$ACTIVE_CARD_ID/rotation",
+        0
+      ],
+      [
+        "LOG",
+        "{{$ALIAS_N}} straightened {{$ACTIVE_FACE.name}}."
+      ]
+    ],
+    "moveToSpaceline": [
+      [
+        "MOVE_CARD",
+        "$ACTIVE_CARD_ID",
+        "sharedSpaceline",
+        -1
+      ],
+      [
+        "LOG",
+        "{{$ALIAS_N}} put {{$ACTIVE_FACE.name}} on the spaceline."
+      ]
+    ],
+    "flipCard": [
+      [
+        "FLIP",
+        "$ACTIVE_CARD_ID"
+      ]
+    ],
+    "discardCard": [
+      [
+        "DISCARD",
+        "$ACTIVE_CARD_ID"
+      ]
+    ],
+    "detachCard": [
+      [
+        "DETACH",
+        "$ACTIVE_CARD_ID"
+      ]
+    ],
+    "shuffleIntoDeck": [
+      [
+        "SHUFFLE_INTO_DECK",
+        "$ACTIVE_CARD_ID"
+      ]
+    ]
+  }
+}

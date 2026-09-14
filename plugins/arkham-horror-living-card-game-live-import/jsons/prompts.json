@@ -1,0 +1,6165 @@
+{
+  "prompts": {
+    "filmFataleChooseAndreController": {
+      "args": [],
+      "message": "Select the investigator to take control of André Patel.",
+      "options": []
+    },
+    "upg09060Prompt": {
+      "args": [
+        "$TARGET_PLAYER",
+        "$TARGET_CARD_ID",
+        "$CODE",
+        "$TABOO_ID"
+      ],
+      "message": "Change {{$CARD_BY_ID.$TARGET_CARD_ID.sides.A.name}}.",
+      "options": [
+        {
+          "code": [
+            [
+              "DO_CHANGE_EXT",
+              "$TARGET_PLAYER",
+              "$TARGET_CARD_ID",
+              "$CODE",
+              "$TABOO_ID",
+              "chosen trait #1",
+              "0",
+              0,
+              "trait",
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "A",
+          "label": "Change chosen trait #1."
+        },
+        {
+          "code": [
+            [
+              "DO_CHANGE_CUSTOMIZABLE_CARD",
+              "$TARGET_PLAYER",
+              "$TARGET_CARD_ID",
+              "$CODE",
+              "$TABOO_ID",
+              "Helpful",
+              "1",
+              0,
+              1,
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "1",
+          "label": "Change Helpful."
+        },
+        {
+          "code": [
+            [
+              "DO_CHANGE_CUSTOMIZABLE_CARD",
+              "$TARGET_PLAYER",
+              "$TARGET_CARD_ID",
+              "$CODE",
+              "$TABOO_ID",
+              "Versatile",
+              "2",
+              0,
+              2,
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "2",
+          "label": "Change Versatile."
+        },
+        {
+          "code": [
+            [
+              "DO_CHANGE_EXT",
+              "$TARGET_PLAYER",
+              "$TARGET_CARD_ID",
+              "$CODE",
+              "$TABOO_ID",
+              "chosen trait #2",
+              "2",
+              0,
+              "trait",
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "B",
+          "label": "Change chosen trait #2."
+        },
+        {
+          "code": [
+            [
+              "DO_CHANGE_CUSTOMIZABLE_CARD",
+              "$TARGET_PLAYER",
+              "$TARGET_CARD_ID",
+              "$CODE",
+              "$TABOO_ID",
+              "Bolstering",
+              "3",
+              0,
+              2,
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "3",
+          "label": "Change Bolstering."
+        },
+        {
+          "code": [
+            [
+              "DO_CHANGE_CUSTOMIZABLE_CARD",
+              "$TARGET_PLAYER",
+              "$TARGET_CARD_ID",
+              "$CODE",
+              "$TABOO_ID",
+              "Clever",
+              "4",
+              0,
+              2,
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "4",
+          "label": "Change Clever."
+        },
+        {
+          "code": [
+            [
+              "DO_CHANGE_CUSTOMIZABLE_CARD",
+              "$TARGET_PLAYER",
+              "$TARGET_CARD_ID",
+              "$CODE",
+              "$TABOO_ID",
+              "Prompt",
+              "5",
+              0,
+              2,
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "5",
+          "label": "Change Prompt."
+        },
+        {
+          "code": [
+            [
+              "DO_CHANGE_CUSTOMIZABLE_CARD",
+              "$TARGET_PLAYER",
+              "$TARGET_CARD_ID",
+              "$CODE",
+              "$TABOO_ID",
+              "Experienced",
+              "6",
+              0,
+              3,
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "6",
+          "label": "Change Experienced."
+        },
+        {
+          "code": [
+            [
+              "DO_CHANGE_CUSTOMIZABLE_CARD",
+              "$TARGET_PLAYER",
+              "$TARGET_CARD_ID",
+              "$CODE",
+              "$TABOO_ID",
+              "Swift",
+              "7",
+              0,
+              3,
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "7",
+          "label": "Change Swift."
+        },
+        {
+          "code": [
+            [
+              "DO_RESET_CUSTOMIZABLE_CARD",
+              "$TARGET_PLAYER",
+              "$TARGET_CARD_ID",
+              "$CODE",
+              "$TABOO_ID",
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "R",
+          "label": "Reset."
+        },
+        {
+          "hotkey": "X",
+          "label": "Cancel."
+        }
+      ]
+    },
+    "calculatorPrompt": {
+      "args": [
+        "$MESSAGE"
+      ],
+      "message": "{{$MESSAGE}}",
+      "options": []
+    },
+    "upg09059Prompt": {
+      "args": [
+        "$TARGET_PLAYER",
+        "$TARGET_CARD_ID",
+        "$CODE",
+        "$TABOO_ID"
+      ],
+      "message": "Change {{$CARD_BY_ID.$TARGET_CARD_ID.sides.A.name}}.",
+      "options": [
+        {
+          "code": [
+            [
+              "DO_CHANGE_CUSTOMIZABLE_CARD",
+              "$TARGET_PLAYER",
+              "$TARGET_CARD_ID",
+              "$CODE",
+              "$TABOO_ID",
+              "Search Warrant",
+              "0",
+              0,
+              1,
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "1",
+          "label": "Change Search Warrant."
+        },
+        {
+          "code": [
+            [
+              "DO_CHANGE_CUSTOMIZABLE_CARD",
+              "$TARGET_PLAYER",
+              "$TARGET_CARD_ID",
+              "$CODE",
+              "$TABOO_ID",
+              "Fabricated Evidence",
+              "1",
+              0,
+              2,
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "2",
+          "label": "Change Fabricated Evidence."
+        },
+        {
+          "code": [
+            [
+              "DO_CHANGE_CUSTOMIZABLE_CARD",
+              "$TARGET_PLAYER",
+              "$TARGET_CARD_ID",
+              "$CODE",
+              "$TABOO_ID",
+              "Blackmail",
+              "2",
+              0,
+              2,
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "3",
+          "label": "Change Blackmail."
+        },
+        {
+          "code": [
+            [
+              "DO_CHANGE_CUSTOMIZABLE_CARD",
+              "$TARGET_PLAYER",
+              "$TARGET_CARD_ID",
+              "$CODE",
+              "$TABOO_ID",
+              "Extort",
+              "3",
+              0,
+              3,
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "4",
+          "label": "Change Extort."
+        },
+        {
+          "code": [
+            [
+              "DO_CHANGE_CUSTOMIZABLE_CARD",
+              "$TARGET_PLAYER",
+              "$TARGET_CARD_ID",
+              "$CODE",
+              "$TABOO_ID",
+              "Surveil",
+              "4",
+              0,
+              3,
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "5",
+          "label": "Change Surveil."
+        },
+        {
+          "code": [
+            [
+              "DO_CHANGE_CUSTOMIZABLE_CARD",
+              "$TARGET_PLAYER",
+              "$TARGET_CARD_ID",
+              "$CODE",
+              "$TABOO_ID",
+              "Expose",
+              "5",
+              0,
+              4,
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "6",
+          "label": "Change Expose."
+        },
+        {
+          "code": [
+            [
+              "DO_RESET_CUSTOMIZABLE_CARD",
+              "$TARGET_PLAYER",
+              "$TARGET_CARD_ID",
+              "$CODE",
+              "$TABOO_ID",
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "R",
+          "label": "Reset."
+        },
+        {
+          "hotkey": "X",
+          "label": "Cancel."
+        }
+      ]
+    },
+    "beyondTheGatesOfSleepChooseDream": {
+      "args": [],
+      "message": "Choose your dream.",
+      "options": []
+    },
+    "edgeOfTheEarthChooseLocationStatus": {
+      "args": [
+        "$DATABASE_ID",
+        "$CARD_NAME",
+        "$CONTINUE_ACTION"
+      ],
+      "message": "Is “{{$CARD_NAME}}” listed under “Locations Revealed”?",
+      "options": [
+        {
+          "code": [
+            [
+              "EDGE_OF_THE_EARTH_LOCATION_STATUS_CHOICE_DONE",
+              "$PLAYER_N",
+              "$CONTINUE_ACTION",
+              "$DATABASE_ID",
+              "revealed"
+            ]
+          ],
+          "hotkey": "Y",
+          "label": "Yes."
+        },
+        {
+          "code": [
+            [
+              "EDGE_OF_THE_EARTH_LOCATION_STATUS_CHOICE_DONE",
+              "$PLAYER_N",
+              "$CONTINUE_ACTION",
+              "$DATABASE_ID",
+              "unrevealed"
+            ]
+          ],
+          "hotkey": "N",
+          "label": "No."
+        }
+      ]
+    },
+    "upg09080Prompt": {
+      "args": [
+        "$TARGET_PLAYER",
+        "$TARGET_CARD_ID",
+        "$CODE",
+        "$TABOO_ID"
+      ],
+      "message": "Change {{$CARD_BY_ID.$TARGET_CARD_ID.sides.A.name}}.",
+      "options": [
+        {
+          "code": [
+            [
+              "DO_CHANGE_CUSTOMIZABLE_CARD",
+              "$TARGET_PLAYER",
+              "$TARGET_CARD_ID",
+              "$CODE",
+              "$TABOO_ID",
+              "Armored Carapace",
+              "0",
+              0,
+              1,
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "1",
+          "label": "Change Armored Carapace."
+        },
+        {
+          "code": [
+            [
+              "DO_CHANGE_CUSTOMIZABLE_CARD",
+              "$TARGET_PLAYER",
+              "$TARGET_CARD_ID",
+              "$CODE",
+              "$TABOO_ID",
+              "Claws that Catch",
+              "1",
+              0,
+              1,
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "2",
+          "label": "Change Claws that Catch."
+        },
+        {
+          "code": [
+            [
+              "DO_CHANGE_CUSTOMIZABLE_CARD",
+              "$TARGET_PLAYER",
+              "$TARGET_CARD_ID",
+              "$CODE",
+              "$TABOO_ID",
+              "Jaws that Snatch",
+              "2",
+              0,
+              1,
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "3",
+          "label": "Change Jaws that Snatch."
+        },
+        {
+          "code": [
+            [
+              "DO_CHANGE_CUSTOMIZABLE_CARD",
+              "$TARGET_PLAYER",
+              "$TARGET_CARD_ID",
+              "$CODE",
+              "$TABOO_ID",
+              "Eyes of Flame",
+              "3",
+              0,
+              1,
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "4",
+          "label": "Change Eyes of Flame."
+        },
+        {
+          "code": [
+            [
+              "DO_CHANGE_CUSTOMIZABLE_CARD",
+              "$TARGET_PLAYER",
+              "$TARGET_CARD_ID",
+              "$CODE",
+              "$TABOO_ID",
+              "Wings of Night",
+              "4",
+              0,
+              1,
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "5",
+          "label": "Change Wings of Night."
+        },
+        {
+          "code": [
+            [
+              "DO_CHANGE_CUSTOMIZABLE_CARD",
+              "$TARGET_PLAYER",
+              "$TARGET_CARD_ID",
+              "$CODE",
+              "$TABOO_ID",
+              "Dominance",
+              "5",
+              0,
+              2,
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "6",
+          "label": "Change Dominance."
+        },
+        {
+          "code": [
+            [
+              "DO_CHANGE_EXT",
+              "$TARGET_PLAYER",
+              "$TARGET_CARD_ID",
+              "$CODE",
+              "$TABOO_ID",
+              "circled slot",
+              "5",
+              0,
+              "slot",
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "A",
+          "label": "Change circled slot."
+        },
+        {
+          "code": [
+            [
+              "DO_CHANGE_CUSTOMIZABLE_CARD",
+              "$TARGET_PLAYER",
+              "$TARGET_CARD_ID",
+              "$CODE",
+              "$TABOO_ID",
+              "Dreaming Call",
+              "6",
+              0,
+              3,
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "7",
+          "label": "Change Dreaming Call."
+        },
+        {
+          "code": [
+            [
+              "DO_CHANGE_CUSTOMIZABLE_CARD",
+              "$TARGET_PLAYER",
+              "$TARGET_CARD_ID",
+              "$CODE",
+              "$TABOO_ID",
+              "Dæmonic Influence",
+              "7",
+              0,
+              5,
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "8",
+          "label": "Change Dæmonic Influence."
+        },
+        {
+          "code": [
+            [
+              "DO_RESET_CUSTOMIZABLE_CARD",
+              "$TARGET_PLAYER",
+              "$TARGET_CARD_ID",
+              "$CODE",
+              "$TABOO_ID",
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "R",
+          "label": "Reset."
+        },
+        {
+          "hotkey": "X",
+          "label": "Cancel."
+        }
+      ]
+    },
+    "underworldMarketChoice": {
+      "args": [
+        "$TARGET_CARD_ID"
+      ],
+      "message": "Do you want to choose 10 Illicit cards from your deck to shuffle them together as your market deck?",
+      "options": [
+        {
+          "code": [
+            [
+              "UNDERWORLD_MARKET_CHOICE",
+              "$PLAYER_N",
+              "$TARGET_CARD_ID",
+              true
+            ]
+          ],
+          "hotkey": "Y",
+          "label": "Yes."
+        },
+        {
+          "code": [
+            [
+              "UNDERWORLD_MARKET_CHOICE",
+              "$PLAYER_N",
+              "$TARGET_CARD_ID",
+              false
+            ]
+          ],
+          "hotkey": "N",
+          "label": "No."
+        }
+      ]
+    },
+    "upg09099Prompt": {
+      "args": [
+        "$TARGET_PLAYER",
+        "$TARGET_CARD_ID",
+        "$CODE",
+        "$TABOO_ID"
+      ],
+      "message": "Change {{$CARD_BY_ID.$TARGET_CARD_ID.sides.A.name}}.",
+      "options": [
+        {
+          "code": [
+            [
+              "DO_CHANGE_CUSTOMIZABLE_CARD",
+              "$TARGET_PLAYER",
+              "$TARGET_CARD_ID",
+              "$CODE",
+              "$TABOO_ID",
+              "Detachable",
+              "0",
+              0,
+              1,
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "1",
+          "label": "Change Detachable."
+        },
+        {
+          "code": [
+            [
+              "DO_CHANGE_CUSTOMIZABLE_CARD",
+              "$TARGET_PLAYER",
+              "$TARGET_CARD_ID",
+              "$CODE",
+              "$TABOO_ID",
+              "Pry Bar",
+              "1",
+              0,
+              1,
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "2",
+          "label": "Change Pry Bar."
+        },
+        {
+          "code": [
+            [
+              "DO_CHANGE_CUSTOMIZABLE_CARD",
+              "$TARGET_PLAYER",
+              "$TARGET_CARD_ID",
+              "$CODE",
+              "$TABOO_ID",
+              "Sharpened Knife",
+              "2",
+              0,
+              2,
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "3",
+          "label": "Change Sharpened Knife."
+        },
+        {
+          "code": [
+            [
+              "DO_CHANGE_CUSTOMIZABLE_CARD",
+              "$TARGET_PLAYER",
+              "$TARGET_CARD_ID",
+              "$CODE",
+              "$TABOO_ID",
+              "Signal Mirror",
+              "3",
+              0,
+              2,
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "4",
+          "label": "Change Signal Mirror."
+        },
+        {
+          "code": [
+            [
+              "DO_CHANGE_CUSTOMIZABLE_CARD",
+              "$TARGET_PLAYER",
+              "$TARGET_CARD_ID",
+              "$CODE",
+              "$TABOO_ID",
+              "Magnifying Lens",
+              "4",
+              0,
+              2,
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "5",
+          "label": "Change Magnifying Lens."
+        },
+        {
+          "code": [
+            [
+              "DO_CHANGE_CUSTOMIZABLE_CARD",
+              "$TARGET_PLAYER",
+              "$TARGET_CARD_ID",
+              "$CODE",
+              "$TABOO_ID",
+              "Lucky Charm",
+              "5",
+              0,
+              3,
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "6",
+          "label": "Change Lucky Charm."
+        },
+        {
+          "code": [
+            [
+              "DO_CHANGE_CUSTOMIZABLE_CARD",
+              "$TARGET_PLAYER",
+              "$TARGET_CARD_ID",
+              "$CODE",
+              "$TABOO_ID",
+              "Spring-Loaded",
+              "6",
+              0,
+              4,
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "7",
+          "label": "Change Spring-Loaded."
+        },
+        {
+          "code": [
+            [
+              "DO_RESET_CUSTOMIZABLE_CARD",
+              "$TARGET_PLAYER",
+              "$TARGET_CARD_ID",
+              "$CODE",
+              "$TABOO_ID",
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "R",
+          "label": "Reset."
+        },
+        {
+          "hotkey": "X",
+          "label": "Cancel."
+        }
+      ]
+    },
+    "nameChaosTokenNumeric": {
+      "args": [],
+      "message": "Pick a Chaos Token to name.",
+      "options": [
+        {
+          "code": [
+            [
+              "DO_NAME_CHAOS_TOKEN",
+              "$PLAYER_N",
+              "chaos_p1",
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "I",
+          "label": "+1."
+        },
+        {
+          "code": [
+            [
+              "DO_NAME_CHAOS_TOKEN",
+              "$PLAYER_N",
+              "chaos_p0",
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "0",
+          "label": "0."
+        },
+        {
+          "code": [
+            [
+              "DO_NAME_CHAOS_TOKEN",
+              "$PLAYER_N",
+              "chaos_m1",
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "1",
+          "label": "-1."
+        },
+        {
+          "code": [
+            [
+              "DO_NAME_CHAOS_TOKEN",
+              "$PLAYER_N",
+              "chaos_m2",
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "2",
+          "label": "-2."
+        },
+        {
+          "code": [
+            [
+              "DO_NAME_CHAOS_TOKEN",
+              "$PLAYER_N",
+              "chaos_m3",
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "3",
+          "label": "-3."
+        },
+        {
+          "code": [
+            [
+              "DO_NAME_CHAOS_TOKEN",
+              "$PLAYER_N",
+              "chaos_m4",
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "4",
+          "label": "-4."
+        },
+        {
+          "code": [
+            [
+              "DO_NAME_CHAOS_TOKEN",
+              "$PLAYER_N",
+              "chaos_m5",
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "5",
+          "label": "-5."
+        },
+        {
+          "code": [
+            [
+              "DO_NAME_CHAOS_TOKEN",
+              "$PLAYER_N",
+              "chaos_m6",
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "6",
+          "label": "-6."
+        },
+        {
+          "code": [
+            [
+              "DO_NAME_CHAOS_TOKEN",
+              "$PLAYER_N",
+              "chaos_m7",
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "7",
+          "label": "-7."
+        },
+        {
+          "code": [
+            [
+              "DO_NAME_CHAOS_TOKEN",
+              "$PLAYER_N",
+              "chaos_m8",
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "8",
+          "label": "-8."
+        },
+        {
+          "hotkey": "X",
+          "label": "Cancel."
+        }
+      ]
+    },
+    "enoughClues": {
+      "args": [
+        "$TARGET_GROUP_ID",
+        "$TOP_CARD_ID",
+        "$LOG_EVENT",
+        "$ACTOR_PLAYER",
+        "$CLUES_REQUIRED",
+        "$CLUES_PRESENT",
+        "$CLUES_COLLECTED"
+      ],
+      "message": "{{$CARD_BY_ID.$TOP_CARD_ID.currentFace.name}} requires {{$CLUES_REQUIRED}} clues to advance. Clues on the Act card: {{$CLUES_PRESENT}}. Clues on investigators: {{$CLUES_COLLECTED}}.",
+      "options": [
+        {
+          "code": [
+            [
+              "DO_REMOVE_CLUES_FROM_CARD",
+              "$PLAYER_N",
+              "$TOP_CARD_ID",
+              "$CLUES_REQUIRED",
+              "$LOG_EVENT",
+              "$ACTOR_PLAYER"
+            ],
+            [
+              "DO_ADVANCE_STORY_FINAL",
+              "$PLAYER_N",
+              "$TARGET_GROUP_ID",
+              "$TOP_CARD_ID",
+              "$LOG_EVENT",
+              "$ACTOR_PLAYER"
+            ]
+          ],
+          "hotkey": "C",
+          "label": "Spend clues from the Act card and advance (follow the rules)."
+        },
+        {
+          "code": [
+            [
+              "LOG",
+              "└── {{$ALIAS_N}} skips spending clues to advance the Act card."
+            ],
+            [
+              "DO_ADVANCE_STORY_FINAL",
+              "$PLAYER_N",
+              "$TARGET_GROUP_ID",
+              "$TOP_CARD_ID",
+              "$LOG_EVENT",
+              "$ACTOR_PLAYER"
+            ]
+          ],
+          "hotkey": "A",
+          "label": "Advance (ignore the rules)."
+        },
+        {
+          "hotkey": "X",
+          "label": "Cancel."
+        }
+      ]
+    },
+    "chooseNewLeadInvestigator": {
+      "args": [],
+      "message": "Choose a new lead investigator.",
+      "options": []
+    },
+    "beyondTheGatesOfSleepChooseInvestigator": {
+      "args": [],
+      "message": "Choose the investigator to get 2 additional resources and 1 additional card in their opening hand.",
+      "options": []
+    },
+    "darkSideOfTheMoonChooseCaptured": {
+      "args": [],
+      "message": "Check Campaign Log.",
+      "options": []
+    },
+    "upg09041Prompt": {
+      "args": [
+        "$TARGET_PLAYER",
+        "$TARGET_CARD_ID",
+        "$CODE",
+        "$TABOO_ID"
+      ],
+      "message": "Change {{$CARD_BY_ID.$TARGET_CARD_ID.sides.A.name}}.",
+      "options": [
+        {
+          "code": [
+            [
+              "DO_CHANGE_CUSTOMIZABLE_CARD",
+              "$TARGET_PLAYER",
+              "$TARGET_CARD_ID",
+              "$CODE",
+              "$TABOO_ID",
+              "Pessimistic Outlook",
+              "0",
+              0,
+              1,
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "1",
+          "label": "Change Pessimistic Outlook."
+        },
+        {
+          "code": [
+            [
+              "DO_CHANGE_CUSTOMIZABLE_CARD",
+              "$TARGET_PLAYER",
+              "$TARGET_CARD_ID",
+              "$CODE",
+              "$TABOO_ID",
+              "Trial and Error",
+              "1",
+              0,
+              1,
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "2",
+          "label": "Change Trial and Error."
+        },
+        {
+          "code": [
+            [
+              "DO_CHANGE_CUSTOMIZABLE_CARD",
+              "$TARGET_PLAYER",
+              "$TARGET_CARD_ID",
+              "$CODE",
+              "$TABOO_ID",
+              "Independent Variable",
+              "2",
+              0,
+              1,
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "3",
+          "label": "Change Independent Variable."
+        },
+        {
+          "code": [
+            [
+              "DO_CHANGE_CUSTOMIZABLE_CARD",
+              "$TARGET_PLAYER",
+              "$TARGET_CARD_ID",
+              "$CODE",
+              "$TABOO_ID",
+              "Field Research",
+              "3",
+              0,
+              1,
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "4",
+          "label": "Change Field Research."
+        },
+        {
+          "code": [
+            [
+              "DO_CHANGE_CUSTOMIZABLE_CARD",
+              "$TARGET_PLAYER",
+              "$TARGET_CARD_ID",
+              "$CODE",
+              "$TABOO_ID",
+              "Peer Review",
+              "4",
+              0,
+              2,
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "5",
+          "label": "Change Peer Review."
+        },
+        {
+          "code": [
+            [
+              "DO_CHANGE_CUSTOMIZABLE_CARD",
+              "$TARGET_PLAYER",
+              "$TARGET_CARD_ID",
+              "$CODE",
+              "$TABOO_ID",
+              "Research Grant",
+              "5",
+              0,
+              2,
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "6",
+          "label": "Change Research Grant."
+        },
+        {
+          "code": [
+            [
+              "DO_CHANGE_CUSTOMIZABLE_CARD",
+              "$TARGET_PLAYER",
+              "$TARGET_CARD_ID",
+              "$CODE",
+              "$TABOO_ID",
+              "Irrefutable Proof",
+              "6",
+              0,
+              3,
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "7",
+          "label": "Change Irrefutable Proof."
+        },
+        {
+          "code": [
+            [
+              "DO_CHANGE_CUSTOMIZABLE_CARD",
+              "$TARGET_PLAYER",
+              "$TARGET_CARD_ID",
+              "$CODE",
+              "$TABOO_ID",
+              "Alternative Hypothesis",
+              "7",
+              0,
+              4,
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "8",
+          "label": "Change Alternative Hypothesis."
+        },
+        {
+          "code": [
+            [
+              "DO_RESET_CUSTOMIZABLE_CARD",
+              "$TARGET_PLAYER",
+              "$TARGET_CARD_ID",
+              "$CODE",
+              "$TABOO_ID",
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "R",
+          "label": "Reset."
+        },
+        {
+          "hotkey": "X",
+          "label": "Cancel."
+        }
+      ]
+    },
+    "loadChaosBag": {
+      "args": [],
+      "input": {
+        "type": "text"
+      },
+      "message": "Paste encoded bag from https://ahlcg.derwinski.pl/ or leave empty to use default.",
+      "options": [
+        {
+          "code": [
+            [
+              "COND",
+              [
+                "EQUAL",
+                [
+                  "DEFINED",
+                  "$PROMPT_INPUT"
+                ],
+                true
+              ],
+              [
+                "LOAD_CHAOS_BAG",
+                "$PROMPT_INPUT"
+              ],
+              [
+                "TRUE"
+              ],
+              [
+                "LOAD_CHAOS_BAG",
+                null
+              ]
+            ]
+          ],
+          "hotkey": "P",
+          "label": "Proceed."
+        }
+      ]
+    },
+    "intoTheMaelstromChooseDivingSuit": {
+      "args": [],
+      "message": "Check Campaign Log.",
+      "options": []
+    },
+    "chooseNextMythosPhasePlayer": {
+      "args": [],
+      "message": "Choose the next investigator to draw an encounter card.",
+      "options": []
+    },
+    "addChaosToken": {
+      "args": [],
+      "message": "Pick a Chaos Token to add to the Chaos Bag.",
+      "options": [
+        {
+          "code": [
+            [
+              "DO_ADD_CHAOS_TOKEN_ACTION",
+              "$PLAYER_N",
+              "chaos_elder_thing",
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "E",
+          "label": "Elder Thing."
+        },
+        {
+          "code": [
+            [
+              "DO_ADD_CHAOS_TOKEN_ACTION",
+              "$PLAYER_N",
+              "chaos_cultist",
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "U",
+          "label": "Cultist."
+        },
+        {
+          "code": [
+            [
+              "DO_ADD_CHAOS_TOKEN_ACTION",
+              "$PLAYER_N",
+              "chaos_skull",
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "S",
+          "label": "Skull."
+        },
+        {
+          "code": [
+            [
+              "DO_ADD_CHAOS_TOKEN_ACTION",
+              "$PLAYER_N",
+              "chaos_tablet",
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "T",
+          "label": "Tablet."
+        },
+        {
+          "code": [
+            [
+              "DO_ADD_CHAOS_TOKEN_ACTION",
+              "$PLAYER_N",
+              "chaos_bless",
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "B",
+          "label": "Bless."
+        },
+        {
+          "code": [
+            [
+              "DO_ADD_CHAOS_TOKEN_ACTION",
+              "$PLAYER_N",
+              "chaos_curse",
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "C",
+          "label": "Curse."
+        },
+        {
+          "code": [
+            [
+              "DO_ADD_CHAOS_TOKEN_ACTION",
+              "$PLAYER_N",
+              "chaos_frost",
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "F",
+          "label": "Frost."
+        },
+        {
+          "code": [
+            [
+              "PROMPT",
+              "$PLAYER_N",
+              "addChaosTokenNumeric"
+            ]
+          ],
+          "hotkey": "N",
+          "label": "Numeric."
+        },
+        {
+          "hotkey": "X",
+          "label": "Cancel."
+        }
+      ]
+    },
+    "startingMentalTrauma": {
+      "args": [],
+      "message": "State the mental trauma of your investigator.",
+      "options": []
+    },
+    "filmFataleTheForgottenIslandAbilityB": {
+      "args": [],
+      "message": "Do you want to setup Act 3?",
+      "options": [
+        {
+          "code": [
+            [
+              "FILM_FATALE_RETURN_FROM_THE_JUNGLE",
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "Y",
+          "label": "Yes."
+        },
+        {
+          "hotkey": "N",
+          "label": "No."
+        }
+      ]
+    },
+    "upg09079Prompt": {
+      "args": [
+        "$TARGET_PLAYER",
+        "$TARGET_CARD_ID",
+        "$CODE",
+        "$TABOO_ID"
+      ],
+      "message": "Change {{$CARD_BY_ID.$TARGET_CARD_ID.sides.A.name}}.",
+      "options": [
+        {
+          "code": [
+            [
+              "DO_CHANGE_EXT",
+              "$TARGET_PLAYER",
+              "$TARGET_CARD_ID",
+              "$CODE",
+              "$TABOO_ID",
+              "chosen skill #1",
+              "0",
+              0,
+              "skill",
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "A",
+          "label": "Change chosen skill #1."
+        },
+        {
+          "code": [
+            [
+              "DO_CHANGE_CUSTOMIZABLE_CARD",
+              "$TARGET_PLAYER",
+              "$TARGET_CARD_ID",
+              "$CODE",
+              "$TABOO_ID",
+              "Shifting Ink",
+              "1",
+              0,
+              1,
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "1",
+          "label": "Change Shifting Ink."
+        },
+        {
+          "code": [
+            [
+              "DO_CHANGE_CUSTOMIZABLE_CARD",
+              "$TARGET_PLAYER",
+              "$TARGET_CARD_ID",
+              "$CODE",
+              "$TABOO_ID",
+              "Subtle Depiction",
+              "2",
+              0,
+              1,
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "2",
+          "label": "Change Subtle Depiction."
+        },
+        {
+          "code": [
+            [
+              "DO_CHANGE_CUSTOMIZABLE_CARD",
+              "$TARGET_PLAYER",
+              "$TARGET_CARD_ID",
+              "$CODE",
+              "$TABOO_ID",
+              "Imbued Ink",
+              "3",
+              0,
+              2,
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "3",
+          "label": "Change Imbued Ink."
+        },
+        {
+          "code": [
+            [
+              "DO_CHANGE_CUSTOMIZABLE_CARD",
+              "$TARGET_PLAYER",
+              "$TARGET_CARD_ID",
+              "$CODE",
+              "$TABOO_ID",
+              "Eldritch Ink #1",
+              "4",
+              0,
+              2,
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "4",
+          "label": "Change Eldritch Ink #1."
+        },
+        {
+          "code": [
+            [
+              "DO_CHANGE_EXT",
+              "$TARGET_PLAYER",
+              "$TARGET_CARD_ID",
+              "$CODE",
+              "$TABOO_ID",
+              "chosen skill #2",
+              "4",
+              0,
+              "skill",
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "B",
+          "label": "Change chosen skill #2."
+        },
+        {
+          "code": [
+            [
+              "DO_CHANGE_CUSTOMIZABLE_CARD",
+              "$TARGET_PLAYER",
+              "$TARGET_CARD_ID",
+              "$CODE",
+              "$TABOO_ID",
+              "Eldritch Ink #2",
+              "5",
+              0,
+              3,
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "5",
+          "label": "Change Eldritch Ink #2."
+        },
+        {
+          "code": [
+            [
+              "DO_CHANGE_EXT",
+              "$TARGET_PLAYER",
+              "$TARGET_CARD_ID",
+              "$CODE",
+              "$TABOO_ID",
+              "chosen skill #3",
+              "5",
+              0,
+              "skill",
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "C",
+          "label": "Change chosen skill #3."
+        },
+        {
+          "code": [
+            [
+              "DO_CHANGE_CUSTOMIZABLE_CARD",
+              "$TARGET_PLAYER",
+              "$TARGET_CARD_ID",
+              "$CODE",
+              "$TABOO_ID",
+              "Macabre Depiction",
+              "6",
+              0,
+              3,
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "6",
+          "label": "Change Macabre Depiction."
+        },
+        {
+          "code": [
+            [
+              "DO_CHANGE_CUSTOMIZABLE_CARD",
+              "$TARGET_PLAYER",
+              "$TARGET_CARD_ID",
+              "$CODE",
+              "$TABOO_ID",
+              "Vibrancy",
+              "7",
+              0,
+              3,
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "7",
+          "label": "Change Vibrancy."
+        },
+        {
+          "code": [
+            [
+              "DO_RESET_CUSTOMIZABLE_CARD",
+              "$TARGET_PLAYER",
+              "$TARGET_CARD_ID",
+              "$CODE",
+              "$TABOO_ID",
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "R",
+          "label": "Reset."
+        },
+        {
+          "hotkey": "X",
+          "label": "Cancel."
+        }
+      ]
+    },
+    "cardLiveSelectPromptNoForce": {
+      "args": [
+        "$ALLOWED_CARD_IDS",
+        "$MESSAGE_TEMPLATE",
+        "$MIN",
+        "$MAX",
+        "$UNIQUE_TITLES",
+        "$CALLBACK_FUNCTION",
+        "$SOURCE_CARD_ID",
+        "$MESSAGE"
+      ],
+      "input": {
+        "type": "selectCards"
+      },
+      "message": "{{$MESSAGE}}",
+      "options": [
+        {
+          "code": [
+            [
+              "DO_MAKE_LIVE_SELECTION",
+              "$PLAYER_N",
+              "$ALLOWED_CARD_IDS",
+              "$MESSAGE_TEMPLATE",
+              "$MIN",
+              "$MAX",
+              "$UNIQUE_TITLES",
+              "$CALLBACK_FUNCTION",
+              "$SOURCE_CARD_ID",
+              false,
+              [
+                "GET_SELECTED_CARDS_FROM_LIST",
+                "$ALLOWED_CARD_IDS",
+                "$PROMPT_INPUT"
+              ],
+              true
+            ]
+          ],
+          "hotkey": "S",
+          "label": "Select."
+        }
+      ]
+    },
+    "saveChaosBag": {
+      "args": [
+        "$TOKENS"
+      ],
+      "input": {
+        "type": "text"
+      },
+      "message": "Copy encoded bag for use with https://ahlcg.derwinski.pl/ : {{$TOKENS}}",
+      "options": [
+        {
+          "code": [
+            [
+              "LOGF",
+              "└── {0} exported Chaos Bag: {1}",
+              "$PLAYER_N",
+              "$TOKENS"
+            ]
+          ],
+          "hotkey": "X",
+          "label": "Close."
+        }
+      ]
+    },
+    "ancestralKnowledgeChoice": {
+      "args": [
+        "$TARGET_CARD_ID"
+      ],
+      "message": "Do you want to attach 5 random non-weakness skills from your deck facedown to Ancestral Knowledge?",
+      "options": [
+        {
+          "code": [
+            [
+              "ANCESTRAL_KNOWLEDGE_CHOICE",
+              "$PLAYER_N",
+              "$TARGET_CARD_ID",
+              true
+            ]
+          ],
+          "hotkey": "Y",
+          "label": "Yes."
+        },
+        {
+          "code": [
+            [
+              "ANCESTRAL_KNOWLEDGE_CHOICE",
+              "$PLAYER_N",
+              "$TARGET_CARD_ID",
+              false
+            ]
+          ],
+          "hotkey": "N",
+          "label": "No."
+        }
+      ]
+    },
+    "withoutATraceChooseAlikiOwner": {
+      "args": [],
+      "message": "Select the investigator to take control of Aliki Zoni Uperetria.",
+      "options": []
+    },
+    "filmFataleTheAbominableContessaAbilityB": {
+      "args": [],
+      "message": "Do you want to setup Act 3?",
+      "options": [
+        {
+          "code": [
+            [
+              "FILM_FATALE_RETURN_FROM_THE_CASTLE",
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "Y",
+          "label": "Yes."
+        },
+        {
+          "hotkey": "N",
+          "label": "No."
+        }
+      ]
+    },
+    "beyondTheGatesOfSleepChooseTrauma": {
+      "args": [],
+      "message": "Choose trauma to suffer.",
+      "options": [
+        {
+          "code": [
+            [
+              "BEYOND_THE_GATES_OF_SLEEP_DRIFTER_TRAUMA",
+              "$PLAYER_N",
+              "physical"
+            ]
+          ],
+          "hotkey": "P",
+          "label": "Physical."
+        },
+        {
+          "code": [
+            [
+              "BEYOND_THE_GATES_OF_SLEEP_DRIFTER_TRAUMA",
+              "$PLAYER_N",
+              "mental"
+            ]
+          ],
+          "hotkey": "M",
+          "label": "Mental."
+        }
+      ]
+    },
+    "askHowManyToSelect": {
+      "args": [
+        "$LOG_EVENT",
+        "$ACTOR_PLAYER"
+      ],
+      "message": "How many random cards do you want to target in hand?",
+      "options": []
+    },
+    "startingPhysicalTrauma": {
+      "args": [],
+      "message": "State the physical trauma of your investigator.",
+      "options": []
+    },
+    "upg09100Prompt": {
+      "args": [
+        "$TARGET_PLAYER",
+        "$TARGET_CARD_ID",
+        "$CODE",
+        "$TABOO_ID"
+      ],
+      "message": "Change {{$CARD_BY_ID.$TARGET_CARD_ID.sides.A.name}}.",
+      "options": [
+        {
+          "code": [
+            [
+              "DO_CHANGE_CUSTOMIZABLE_CARD",
+              "$TARGET_PLAYER",
+              "$TARGET_CARD_ID",
+              "$CODE",
+              "$TABOO_ID",
+              "Improved Timer",
+              "0",
+              0,
+              1,
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "1",
+          "label": "Change Improved Timer."
+        },
+        {
+          "code": [
+            [
+              "DO_CHANGE_CUSTOMIZABLE_CARD",
+              "$TARGET_PLAYER",
+              "$TARGET_CARD_ID",
+              "$CODE",
+              "$TABOO_ID",
+              "Tripwire",
+              "1",
+              0,
+              1,
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "2",
+          "label": "Change Tripwire."
+        },
+        {
+          "code": [
+            [
+              "DO_CHANGE_CUSTOMIZABLE_CARD",
+              "$TARGET_PLAYER",
+              "$TARGET_CARD_ID",
+              "$CODE",
+              "$TABOO_ID",
+              "Simple",
+              "2",
+              0,
+              2,
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "3",
+          "label": "Change Simple."
+        },
+        {
+          "code": [
+            [
+              "DO_CHANGE_CUSTOMIZABLE_CARD",
+              "$TARGET_PLAYER",
+              "$TARGET_CARD_ID",
+              "$CODE",
+              "$TABOO_ID",
+              "Poisonous",
+              "3",
+              0,
+              2,
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "4",
+          "label": "Change Poisonous."
+        },
+        {
+          "code": [
+            [
+              "DO_CHANGE_CUSTOMIZABLE_CARD",
+              "$TARGET_PLAYER",
+              "$TARGET_CARD_ID",
+              "$CODE",
+              "$TABOO_ID",
+              "Remote Configuration",
+              "4",
+              0,
+              2,
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "5",
+          "label": "Change Remote Configuration."
+        },
+        {
+          "code": [
+            [
+              "DO_CHANGE_CUSTOMIZABLE_CARD",
+              "$TARGET_PLAYER",
+              "$TARGET_CARD_ID",
+              "$CODE",
+              "$TABOO_ID",
+              "Net",
+              "5",
+              0,
+              3,
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "6",
+          "label": "Change Net."
+        },
+        {
+          "code": [
+            [
+              "DO_CHANGE_CUSTOMIZABLE_CARD",
+              "$TARGET_PLAYER",
+              "$TARGET_CARD_ID",
+              "$CODE",
+              "$TABOO_ID",
+              "Explosive Device",
+              "6",
+              0,
+              4,
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "7",
+          "label": "Change Explosive Device."
+        },
+        {
+          "code": [
+            [
+              "DO_RESET_CUSTOMIZABLE_CARD",
+              "$TARGET_PLAYER",
+              "$TARGET_CARD_ID",
+              "$CODE",
+              "$TABOO_ID",
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "R",
+          "label": "Reset."
+        },
+        {
+          "hotkey": "X",
+          "label": "Cancel."
+        }
+      ]
+    },
+    "filmFataleACosmicJourneyAbilityB": {
+      "args": [],
+      "message": "Do you want to setup Act 3?",
+      "options": [
+        {
+          "code": [
+            [
+              "FILM_FATALE_RETURN_FROM_THE_COSMOS",
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "Y",
+          "label": "Yes."
+        },
+        {
+          "hotkey": "N",
+          "label": "No."
+        }
+      ]
+    },
+    "withoutATraceChooseQuinnOwner": {
+      "args": [],
+      "message": "Select the investigator to add Agent Ari Quinn to their deck.",
+      "options": []
+    },
+    "edgeOfTheEarthChoosePartner": {
+      "args": [
+        "$EXTRA_MESSAGE"
+      ],
+      "message": "Choose one member of the expedition to join you.{{$EXTRA_MESSAGE}}",
+      "options": []
+    },
+    "edgeOfTheEarthChoosePartnerStatusResolute": {
+      "args": [
+        "$DATABASE_ID",
+        "$CARD_NAME",
+        "$CONTINUE_ACTION"
+      ],
+      "message": "State the current status of {{$CARD_NAME}}.",
+      "options": [
+        {
+          "code": [
+            [
+              "EDGE_OF_THE_EARTH_PARTNER_STATUS_CHOICE_DONE",
+              "$PLAYER_N",
+              "Resolute",
+              "$CONTINUE_ACTION",
+              "$DATABASE_ID",
+              "resolute"
+            ]
+          ],
+          "hotkey": "R",
+          "label": "Alive and resolute (checkmark)."
+        },
+        {
+          "code": [
+            [
+              "EDGE_OF_THE_EARTH_PARTNER_STATUS_CHOICE_DONE",
+              "$PLAYER_N",
+              "Resolute",
+              "$CONTINUE_ACTION",
+              "$DATABASE_ID",
+              "alive"
+            ]
+          ],
+          "hotkey": "A",
+          "label": "Alive."
+        },
+        {
+          "code": [
+            [
+              "EDGE_OF_THE_EARTH_PARTNER_STATUS_CHOICE_DONE",
+              "$PLAYER_N",
+              "Resolute",
+              "$CONTINUE_ACTION",
+              "$DATABASE_ID",
+              "KIA"
+            ]
+          ],
+          "hotkey": "K",
+          "label": "KIA (crossed off)."
+        }
+      ]
+    },
+    "dancingMadChooseDesiController": {
+      "args": [],
+      "message": "Select the investigator to take control of Desiderio Delgado Álvarez.",
+      "options": []
+    },
+    "dealingsInTheDarkChooseEceController": {
+      "args": [],
+      "message": "Select the investigator to take control of Ece Şahin.",
+      "options": []
+    },
+    "pickAgendaToPlaceDoomOn": {
+      "args": [
+        "$NUMBER"
+      ],
+      "message": "Pick current agenda to place {{$NUMBER}} doom on.",
+      "options": []
+    },
+    "askToReadyAllCards": {
+      "args": [],
+      "message": "You should now ready exhausted cards.",
+      "options": [
+        {
+          "code": [
+            [
+              "DO_READY_ALL_CARDS",
+              "$PLAYER_N",
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "Y",
+          "label": "Yes, proceed (follow the rules)."
+        },
+        {
+          "code": [
+            [
+              "LOG",
+              "└── {{$ALIAS_N}} skips readying exhausted cards."
+            ]
+          ],
+          "hotkey": "N",
+          "label": "No, skip that (ignore the rules)."
+        }
+      ]
+    },
+    "askToDiscardExcessCards": {
+      "args": [
+        "$CARDS_TO_DISCARD"
+      ],
+      "input": {
+        "type": "selectCards"
+      },
+      "message": "You should discard {{$CARDS_TO_DISCARD}} excess card(s) from hand. Select cards to discard.",
+      "options": [
+        {
+          "code": [
+            [
+              "DISCARD_EXCESS_CARDS",
+              "$PLAYER_N",
+              "$CARDS_TO_DISCARD",
+              [
+                "GET_SELECTED_CARDS_IN_GROUP",
+                [
+                  "GET_CONTROLLER_HAND",
+                  "$PLAYER_N"
+                ],
+                "$PROMPT_INPUT"
+              ]
+            ]
+          ],
+          "hotkey": "Y",
+          "label": "Yes, discard selected cards (follow the rules)."
+        },
+        {
+          "code": [
+            [
+              "LOGF",
+              "{0} skips discarding {1} excess card{1:S} from hand.",
+              "$PLAYER_N",
+              "$CARDS_TO_DISCARD"
+            ],
+            [
+              "DO_CHECK_HAND_SIZE",
+              [
+                "GET_NEXT_ACTIVE_PLAYER",
+                "$PLAYER_N"
+              ]
+            ]
+          ],
+          "hotkey": "N",
+          "label": "No, skip that (ignore the rules)."
+        }
+      ]
+    },
+    "upg09023Prompt": {
+      "args": [
+        "$TARGET_PLAYER",
+        "$TARGET_CARD_ID",
+        "$CODE",
+        "$TABOO_ID"
+      ],
+      "message": "Change {{$CARD_BY_ID.$TARGET_CARD_ID.sides.A.name}}.",
+      "options": [
+        {
+          "code": [
+            [
+              "DO_CHANGE_CUSTOMIZABLE_CARD",
+              "$TARGET_PLAYER",
+              "$TARGET_CARD_ID",
+              "$CODE",
+              "$TABOO_ID",
+              "Notched Sight",
+              "0",
+              0,
+              1,
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "1",
+          "label": "Change Notched Sight."
+        },
+        {
+          "code": [
+            [
+              "DO_CHANGE_CUSTOMIZABLE_CARD",
+              "$TARGET_PLAYER",
+              "$TARGET_CARD_ID",
+              "$CODE",
+              "$TABOO_ID",
+              "Extended Stock",
+              "1",
+              0,
+              2,
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "2",
+          "label": "Change Extended Stock."
+        },
+        {
+          "code": [
+            [
+              "DO_CHANGE_CUSTOMIZABLE_CARD",
+              "$TARGET_PLAYER",
+              "$TARGET_CARD_ID",
+              "$CODE",
+              "$TABOO_ID",
+              "Counterbalance",
+              "2",
+              0,
+              2,
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "3",
+          "label": "Change Counterbalance."
+        },
+        {
+          "code": [
+            [
+              "DO_CHANGE_CUSTOMIZABLE_CARD",
+              "$TARGET_PLAYER",
+              "$TARGET_CARD_ID",
+              "$CODE",
+              "$TABOO_ID",
+              "Leather Grip",
+              "3",
+              0,
+              3,
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "4",
+          "label": "Change Leather Grip."
+        },
+        {
+          "code": [
+            [
+              "DO_CHANGE_CUSTOMIZABLE_CARD",
+              "$TARGET_PLAYER",
+              "$TARGET_CARD_ID",
+              "$CODE",
+              "$TABOO_ID",
+              "Extended Magazine",
+              "4",
+              0,
+              3,
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "5",
+          "label": "Change Extended Magazine."
+        },
+        {
+          "code": [
+            [
+              "DO_CHANGE_CUSTOMIZABLE_CARD",
+              "$TARGET_PLAYER",
+              "$TARGET_CARD_ID",
+              "$CODE",
+              "$TABOO_ID",
+              "Quicksilver Bullets",
+              "5",
+              0,
+              4,
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "6",
+          "label": "Change Quicksilver Bullets."
+        },
+        {
+          "code": [
+            [
+              "DO_RESET_CUSTOMIZABLE_CARD",
+              "$TARGET_PLAYER",
+              "$TARGET_CARD_ID",
+              "$CODE",
+              "$TABOO_ID",
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "R",
+          "label": "Reset."
+        },
+        {
+          "hotkey": "X",
+          "label": "Cancel."
+        }
+      ]
+    },
+    "intoTheMaelstromBackIntoTheDepthsAbilityB": {
+      "args": [],
+      "message": "Do you want to setup Act 2? Discard each card at locations other than Gateway to Y'ha-nthlei first.",
+      "options": [
+        {
+          "code": [
+            [
+              "INTO_THE_MAELSTROM_SETUP_ACT_2",
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "Y",
+          "label": "Yes."
+        },
+        {
+          "hotkey": "N",
+          "label": "No."
+        }
+      ]
+    },
+    "upg09022Prompt": {
+      "args": [
+        "$TARGET_PLAYER",
+        "$TARGET_CARD_ID",
+        "$CODE",
+        "$TABOO_ID"
+      ],
+      "message": "Change {{$CARD_BY_ID.$TARGET_CARD_ID.sides.A.name}}.",
+      "options": [
+        {
+          "code": [
+            [
+              "DO_CHANGE_CUSTOMIZABLE_CARD",
+              "$TARGET_PLAYER",
+              "$TARGET_CARD_ID",
+              "$CODE",
+              "$TABOO_ID",
+              "Heirloom",
+              "0",
+              0,
+              1,
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "1",
+          "label": "Change Heirloom."
+        },
+        {
+          "code": [
+            [
+              "DO_CHANGE_CUSTOMIZABLE_CARD",
+              "$TARGET_PLAYER",
+              "$TARGET_CARD_ID",
+              "$CODE",
+              "$TABOO_ID",
+              "Inscription of Glory",
+              "1",
+              0,
+              1,
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "2",
+          "label": "Change Inscription of Glory."
+        },
+        {
+          "code": [
+            [
+              "DO_CHANGE_CUSTOMIZABLE_CARD",
+              "$TARGET_PLAYER",
+              "$TARGET_CARD_ID",
+              "$CODE",
+              "$TABOO_ID",
+              "Inscription of the Elders",
+              "2",
+              0,
+              1,
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "3",
+          "label": "Change Inscription of the Elders."
+        },
+        {
+          "code": [
+            [
+              "DO_CHANGE_CUSTOMIZABLE_CARD",
+              "$TARGET_PLAYER",
+              "$TARGET_CARD_ID",
+              "$CODE",
+              "$TABOO_ID",
+              "Inscription of the Hunt",
+              "3",
+              0,
+              [
+                "INLINE_IF",
+                [
+                  "GREATER_EQUAL",
+                  "$TABOO_ID",
+                  6
+                ],
+                2,
+                1
+              ],
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "4",
+          "label": "Change Inscription of the Hunt."
+        },
+        {
+          "code": [
+            [
+              "DO_CHANGE_CUSTOMIZABLE_CARD",
+              "$TARGET_PLAYER",
+              "$TARGET_CARD_ID",
+              "$CODE",
+              "$TABOO_ID",
+              "Inscription of Fury",
+              "4",
+              0,
+              1,
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "5",
+          "label": "Change Inscription of Fury."
+        },
+        {
+          "code": [
+            [
+              "DO_CHANGE_CUSTOMIZABLE_CARD",
+              "$TARGET_PLAYER",
+              "$TARGET_CARD_ID",
+              "$CODE",
+              "$TABOO_ID",
+              "Ancient Power",
+              "5",
+              0,
+              3,
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "6",
+          "label": "Change Ancient Power."
+        },
+        {
+          "code": [
+            [
+              "DO_CHANGE_CUSTOMIZABLE_CARD",
+              "$TARGET_PLAYER",
+              "$TARGET_CARD_ID",
+              "$CODE",
+              "$TABOO_ID",
+              "Saga",
+              "6",
+              0,
+              3,
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "7",
+          "label": "Change Saga."
+        },
+        {
+          "code": [
+            [
+              "DO_CHANGE_CUSTOMIZABLE_CARD",
+              "$TARGET_PLAYER",
+              "$TARGET_CARD_ID",
+              "$CODE",
+              "$TABOO_ID",
+              "Scriptweaver",
+              "7",
+              0,
+              4,
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "8",
+          "label": "Change Scriptweaver."
+        },
+        {
+          "code": [
+            [
+              "DO_RESET_CUSTOMIZABLE_CARD",
+              "$TARGET_PLAYER",
+              "$TARGET_CARD_ID",
+              "$CODE",
+              "$TABOO_ID",
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "R",
+          "label": "Reset."
+        },
+        {
+          "hotkey": "X",
+          "label": "Cancel."
+        }
+      ]
+    },
+    "whereTheGodsDwellBeyondDreamsAbilityB": {
+      "args": [],
+      "message": "Do you want to setup Act 4?",
+      "options": [
+        {
+          "code": [
+            [
+              "WHERE_THE_GODS_DWELL_SETUP_ACT_4",
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "Y",
+          "label": "Yes."
+        },
+        {
+          "hotkey": "N",
+          "label": "No."
+        }
+      ]
+    },
+    "victoryOrDiscardPlay": {
+      "args": [
+        "$TARGET_CARD_ID",
+        "$LOG_EVENT",
+        "$ACTOR_PLAYER"
+      ],
+      "message": "{{$CARD_BY_ID.$TARGET_CARD_ID.currentFace.name}} is Victory or Vengeance card. Select destination.",
+      "options": [
+        {
+          "code": [
+            [
+              "VAR",
+              "$TARGET_CARD",
+              "$CARD_BY_ID.$TARGET_CARD_ID"
+            ],
+            [
+              "DO_LOG",
+              "$LOG_EVENT",
+              "$ACTOR_PLAYER",
+              "$PLAYER_N",
+              "move {{$TARGET_CARD.currentFace.name}} to the Victory Display.",
+              "moves {{$TARGET_CARD.currentFace.name}} to the Victory Display."
+            ],
+            [
+              "DO_FORCE_DISCARD_ALL_ATTACHED_CARDS",
+              "$PLAYER_N",
+              "$TARGET_CARD_ID",
+              "$LOG_EVENT",
+              null
+            ],
+            [
+              "MOVE_CARD",
+              "$TARGET_CARD_ID",
+              "sharedVictoryDisplay",
+              -1
+            ]
+          ],
+          "hotkey": "V",
+          "label": "Victory Display."
+        },
+        {
+          "code": [
+            [
+              "DO_DISCARD_CARD_FINAL",
+              "$PLAYER_N",
+              "$TARGET_CARD_ID",
+              "",
+              "$LOG_EVENT",
+              "$ACTOR_PLAYER"
+            ]
+          ],
+          "hotkey": "D",
+          "label": "Discard Pile."
+        }
+      ]
+    },
+    "shadesOfSufferingChooseFlintOwner": {
+      "args": [],
+      "message": "Select the investigator to add Inspector Flint to their deck.",
+      "options": []
+    },
+    "fortuneAndFollyPt2ChooseRole": {
+      "args": [],
+      "message": "Choose your Role.",
+      "options": []
+    },
+    "removeChaosToken": {
+      "args": [],
+      "message": "Pick a Chaos Token to remove from the Chaos Bag.",
+      "options": [
+        {
+          "code": [
+            [
+              "DO_REMOVE_CHAOS_TOKEN_ACTION",
+              "$PLAYER_N",
+              "chaos_elder_thing",
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "E",
+          "label": "Elder Thing."
+        },
+        {
+          "code": [
+            [
+              "DO_REMOVE_CHAOS_TOKEN_ACTION",
+              "$PLAYER_N",
+              "chaos_cultist",
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "U",
+          "label": "Cultist."
+        },
+        {
+          "code": [
+            [
+              "DO_REMOVE_CHAOS_TOKEN_ACTION",
+              "$PLAYER_N",
+              "chaos_skull",
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "S",
+          "label": "Skull."
+        },
+        {
+          "code": [
+            [
+              "DO_REMOVE_CHAOS_TOKEN_ACTION",
+              "$PLAYER_N",
+              "chaos_tablet",
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "T",
+          "label": "Tablet."
+        },
+        {
+          "code": [
+            [
+              "DO_REMOVE_CHAOS_TOKEN_ACTION",
+              "$PLAYER_N",
+              "chaos_bless",
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "B",
+          "label": "Bless."
+        },
+        {
+          "code": [
+            [
+              "DO_REMOVE_CHAOS_TOKEN_ACTION",
+              "$PLAYER_N",
+              "chaos_curse",
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "C",
+          "label": "Curse."
+        },
+        {
+          "code": [
+            [
+              "DO_REMOVE_CHAOS_TOKEN_ACTION",
+              "$PLAYER_N",
+              "chaos_frost",
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "F",
+          "label": "Frost."
+        },
+        {
+          "code": [
+            [
+              "PROMPT",
+              "$PLAYER_N",
+              "removeChaosTokenNumeric"
+            ]
+          ],
+          "hotkey": "N",
+          "label": "Numeric."
+        },
+        {
+          "hotkey": "X",
+          "label": "Cancel."
+        }
+      ]
+    },
+    "upg09061Prompt": {
+      "args": [
+        "$TARGET_PLAYER",
+        "$TARGET_CARD_ID",
+        "$CODE",
+        "$TABOO_ID"
+      ],
+      "message": "Change {{$CARD_BY_ID.$TARGET_CARD_ID.sides.A.name}}.",
+      "options": [
+        {
+          "code": [
+            [
+              "DO_CHANGE_CUSTOMIZABLE_CARD",
+              "$TARGET_PLAYER",
+              "$TARGET_CARD_ID",
+              "$CODE",
+              "$TABOO_ID",
+              "Reflex Response",
+              "0",
+              0,
+              1,
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "1",
+          "label": "Change Reflex Response."
+        },
+        {
+          "code": [
+            [
+              "DO_CHANGE_CUSTOMIZABLE_CARD",
+              "$TARGET_PLAYER",
+              "$TARGET_CARD_ID",
+              "$CODE",
+              "$TABOO_ID",
+              "Situational Awareness",
+              "1",
+              0,
+              1,
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "2",
+          "label": "Change Situational Awareness."
+        },
+        {
+          "code": [
+            [
+              "DO_CHANGE_CUSTOMIZABLE_CARD",
+              "$TARGET_PLAYER",
+              "$TARGET_CARD_ID",
+              "$CODE",
+              "$TABOO_ID",
+              "Killer Instinct",
+              "2",
+              0,
+              1,
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "3",
+          "label": "Change Killer Instinct."
+        },
+        {
+          "code": [
+            [
+              "DO_CHANGE_CUSTOMIZABLE_CARD",
+              "$TARGET_PLAYER",
+              "$TARGET_CARD_ID",
+              "$CODE",
+              "$TABOO_ID",
+              "Gut Reaction",
+              "3",
+              0,
+              1,
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "4",
+          "label": "Change Gut Reaction."
+        },
+        {
+          "code": [
+            [
+              "DO_CHANGE_CUSTOMIZABLE_CARD",
+              "$TARGET_PLAYER",
+              "$TARGET_CARD_ID",
+              "$CODE",
+              "$TABOO_ID",
+              "Muscle Memory",
+              "4",
+              0,
+              1,
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "5",
+          "label": "Change Muscle Memory."
+        },
+        {
+          "code": [
+            [
+              "DO_CHANGE_CUSTOMIZABLE_CARD",
+              "$TARGET_PLAYER",
+              "$TARGET_CARD_ID",
+              "$CODE",
+              "$TABOO_ID",
+              "Sharpened Talent",
+              "5",
+              0,
+              2,
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "6",
+          "label": "Change Sharpened Talent."
+        },
+        {
+          "code": [
+            [
+              "DO_CHANGE_CUSTOMIZABLE_CARD",
+              "$TARGET_PLAYER",
+              "$TARGET_CARD_ID",
+              "$CODE",
+              "$TABOO_ID",
+              "Impulse Control",
+              "6",
+              0,
+              3,
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "7",
+          "label": "Change Impulse Control."
+        },
+        {
+          "code": [
+            [
+              "DO_CHANGE_CUSTOMIZABLE_CARD",
+              "$TARGET_PLAYER",
+              "$TARGET_CARD_ID",
+              "$CODE",
+              "$TABOO_ID",
+              "Force of Habit",
+              "7",
+              0,
+              5,
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "8",
+          "label": "Change Force of Habit."
+        },
+        {
+          "code": [
+            [
+              "DO_RESET_CUSTOMIZABLE_CARD",
+              "$TARGET_PLAYER",
+              "$TARGET_CARD_ID",
+              "$CODE",
+              "$TABOO_ID",
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "R",
+          "label": "Reset."
+        },
+        {
+          "hotkey": "X",
+          "label": "Cancel."
+        }
+      ]
+    },
+    "upg09040Prompt": {
+      "args": [
+        "$TARGET_PLAYER",
+        "$TARGET_CARD_ID",
+        "$CODE",
+        "$TABOO_ID"
+      ],
+      "message": "Change {{$CARD_BY_ID.$TARGET_CARD_ID.sides.A.name}}.",
+      "options": [
+        {
+          "code": [
+            [
+              "DO_CHANGE_CUSTOMIZABLE_CARD",
+              "$TARGET_PLAYER",
+              "$TARGET_CARD_ID",
+              "$CODE",
+              "$TABOO_ID",
+              "Mending Distillate",
+              "0",
+              0,
+              1,
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "1",
+          "label": "Change Mending Distillate."
+        },
+        {
+          "code": [
+            [
+              "DO_CHANGE_CUSTOMIZABLE_CARD",
+              "$TARGET_PLAYER",
+              "$TARGET_CARD_ID",
+              "$CODE",
+              "$TABOO_ID",
+              "Calming Distillate",
+              "1",
+              0,
+              1,
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "2",
+          "label": "Change Calming Distillate."
+        },
+        {
+          "code": [
+            [
+              "DO_CHANGE_CUSTOMIZABLE_CARD",
+              "$TARGET_PLAYER",
+              "$TARGET_CARD_ID",
+              "$CODE",
+              "$TABOO_ID",
+              "Enlightening Distillate",
+              "2",
+              0,
+              1,
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "3",
+          "label": "Change Enlightening Distillate."
+        },
+        {
+          "code": [
+            [
+              "DO_CHANGE_CUSTOMIZABLE_CARD",
+              "$TARGET_PLAYER",
+              "$TARGET_CARD_ID",
+              "$CODE",
+              "$TABOO_ID",
+              "Quickening Distillate",
+              "3",
+              0,
+              1,
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "4",
+          "label": "Change Quickening Distillate."
+        },
+        {
+          "code": [
+            [
+              "DO_CHANGE_CUSTOMIZABLE_CARD",
+              "$TARGET_PLAYER",
+              "$TARGET_CARD_ID",
+              "$CODE",
+              "$TABOO_ID",
+              "Refined",
+              "4",
+              0,
+              2,
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "5",
+          "label": "Change Refined."
+        },
+        {
+          "code": [
+            [
+              "DO_CHANGE_CUSTOMIZABLE_CARD",
+              "$TARGET_PLAYER",
+              "$TARGET_CARD_ID",
+              "$CODE",
+              "$TABOO_ID",
+              "Empowered",
+              "5",
+              0,
+              4,
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "6",
+          "label": "Change Empowered."
+        },
+        {
+          "code": [
+            [
+              "DO_CHANGE_CUSTOMIZABLE_CARD",
+              "$TARGET_PLAYER",
+              "$TARGET_CARD_ID",
+              "$CODE",
+              "$TABOO_ID",
+              "Perfected",
+              "6",
+              0,
+              5,
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "7",
+          "label": "Change Perfected."
+        },
+        {
+          "code": [
+            [
+              "DO_RESET_CUSTOMIZABLE_CARD",
+              "$TARGET_PLAYER",
+              "$TARGET_CARD_ID",
+              "$CODE",
+              "$TABOO_ID",
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "R",
+          "label": "Reset."
+        },
+        {
+          "hotkey": "X",
+          "label": "Cancel."
+        }
+      ]
+    },
+    "fortuneAndFollyPt1ChooseRole": {
+      "args": [],
+      "message": "Choose your Role.",
+      "options": []
+    },
+    "edgeOfTheEarthChooseCamp": {
+      "args": [],
+      "message": "Choose one revealed location to be the expedition's camp.",
+      "options": []
+    },
+    "theSearchForKadathChooseDestination": {
+      "args": [],
+      "message": "Which place do you want to visit?",
+      "options": []
+    },
+    "selectTabooPrompt": {
+      "args": [],
+      "message": "Pick Taboo version used.",
+      "options": [
+        {
+          "code": [
+            [
+              "DO_SET_TABOO_VALUE",
+              "$PLAYER_N",
+              10,
+              "2.5",
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "1",
+          "label": "Taboo 2.5 (2026-02-21)"
+        },
+        {
+          "code": [
+            [
+              "DO_SET_TABOO_VALUE",
+              "$PLAYER_N",
+              9,
+              "2.4",
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "2",
+          "label": "Taboo 2.4 (2025-07-11)"
+        },
+        {
+          "code": [
+            [
+              "DO_SET_TABOO_VALUE",
+              "$PLAYER_N",
+              8,
+              "2.3",
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "3",
+          "label": "Taboo 2.3 (2024-10-23)"
+        },
+        {
+          "code": [
+            [
+              "DO_SET_TABOO_VALUE",
+              "$PLAYER_N",
+              7,
+              "2.2",
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "4",
+          "label": "Taboo 2.2 (2024-02-20)"
+        },
+        {
+          "code": [
+            [
+              "DO_SET_TABOO_VALUE",
+              "$PLAYER_N",
+              6,
+              "2.1",
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "5",
+          "label": "Taboo 2.1 (2023-08-30)"
+        },
+        {
+          "code": [
+            [
+              "DO_SET_TABOO_VALUE",
+              "$PLAYER_N",
+              5,
+              "2.0",
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "6",
+          "label": "Taboo 2.0 (2022-08-26)"
+        },
+        {
+          "code": [
+            [
+              "DO_SET_TABOO_VALUE",
+              "$PLAYER_N",
+              4,
+              "1.9",
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "7",
+          "label": "Taboo 1.9 (2021-06-28)"
+        },
+        {
+          "code": [
+            [
+              "DO_SET_TABOO_VALUE",
+              "$PLAYER_N",
+              3,
+              "1.8",
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "8",
+          "label": "Taboo 1.8 (2020-10-15)"
+        },
+        {
+          "code": [
+            [
+              "DO_SET_TABOO_VALUE",
+              "$PLAYER_N",
+              2,
+              "1.6",
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "9",
+          "label": "Taboo 1.6 (2019-09-27)"
+        },
+        {
+          "code": [
+            [
+              "DO_SET_TABOO_VALUE",
+              "$PLAYER_N",
+              1,
+              "1.5",
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "A",
+          "label": "Taboo 1.5 (2019-04-20)"
+        },
+        {
+          "code": [
+            [
+              "DO_SET_TABOO_VALUE",
+              "$PLAYER_N",
+              0,
+              "None",
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "0",
+          "label": "None"
+        },
+        {
+          "hotkey": "X",
+          "label": "Cancel."
+        }
+      ]
+    },
+    "theForgottenAgeChooseBody": {
+      "args": [
+        "$CONTINUE_ACTION"
+      ],
+      "message": "Do you have to use the Body of a Yithian as your investigator?",
+      "options": [
+        {
+          "code": [
+            [
+              "THE_FORGOTTEN_AGE_BODY_CHOICE_DONE",
+              "$PLAYER_N",
+              true,
+              "$CONTINUE_ACTION"
+            ]
+          ],
+          "hotkey": "Y",
+          "label": "Yes."
+        },
+        {
+          "code": [
+            [
+              "THE_FORGOTTEN_AGE_BODY_CHOICE_DONE",
+              "$PLAYER_N",
+              false,
+              "$CONTINUE_ACTION"
+            ]
+          ],
+          "hotkey": "N",
+          "label": "No."
+        }
+      ]
+    },
+    "askToPutPlayerDeckCardIntoPlay": {
+      "args": [
+        "$TARGET_CARD_ID",
+        "$SCENARIO_ACTION"
+      ],
+      "message": "Do you want to put {{$CARD_BY_ID.$TARGET_CARD_ID.sides.A.name}} from your deck into play?",
+      "options": [
+        {
+          "code": [
+            [
+              "DO_PUT_INTO_PLAY_FROM_PLAYER_DECK_SCN",
+              "$TARGET_CARD_ID"
+            ],
+            [
+              "ACTION_LIST",
+              "$SCENARIO_ACTION"
+            ]
+          ],
+          "hotkey": "Y",
+          "label": "Yes."
+        },
+        {
+          "code": [
+            [
+              "DO_LOG",
+              true,
+              "$PLAYER_N",
+              "$PLAYER_N",
+              "decide not to put {{$CARD_BY_ID.$TARGET_CARD_ID.sides.A.name}} from their deck into play.",
+              "decides not to put {{$CARD_BY_ID.$TARGET_CARD_ID.sides.A.name}} from their deck into play."
+            ],
+            [
+              "ACTION_LIST",
+              "$SCENARIO_ACTION"
+            ]
+          ],
+          "hotkey": "N",
+          "label": "No."
+        }
+      ]
+    },
+    "scenarioQuestion": {
+      "args": [
+        "$MESSAGE"
+      ],
+      "message": "{{$MESSAGE}}",
+      "options": []
+    },
+    "chooseScenarioDifficulty": {
+      "args": [],
+      "message": "Choose {{$GAME.arkham.scenarioName}} difficulty.",
+      "options": [
+        {
+          "code": [
+            [
+              "SET_SCENARIO_DIFFICULTY",
+              "Easy",
+              1
+            ]
+          ],
+          "hotkey": "E",
+          "label": "Easy."
+        },
+        {
+          "code": [
+            [
+              "SET_SCENARIO_DIFFICULTY",
+              "Standard",
+              2
+            ]
+          ],
+          "hotkey": "S",
+          "label": "Standard."
+        },
+        {
+          "code": [
+            [
+              "SET_SCENARIO_DIFFICULTY",
+              "Hard",
+              3
+            ]
+          ],
+          "hotkey": "H",
+          "label": "Hard."
+        },
+        {
+          "code": [
+            [
+              "SET_SCENARIO_DIFFICULTY",
+              "Expert",
+              4
+            ]
+          ],
+          "hotkey": "X",
+          "label": "Expert."
+        }
+      ]
+    },
+    "askToGainResource": {
+      "args": [
+        "$NUMBER",
+        "$TEXT"
+      ],
+      "message": "You should now gain {{$TEXT}}.",
+      "options": [
+        {
+          "code": [
+            [
+              "COND",
+              [
+                "GREATER_THAN",
+                "$NUMBER",
+                0
+              ],
+              [
+                "DO_GAIN_RESOURCES",
+                "$PLAYER_N",
+                "$NUMBER",
+                true,
+                "$PLAYER_N"
+              ]
+            ],
+            [
+              "PROMPT_NEXT_ACTIVE_PLAYER",
+              "$PLAYER_N",
+              "askToGainResource",
+              null
+            ]
+          ],
+          "hotkey": "Y",
+          "label": "Yes, proceed (follow the rules)."
+        },
+        {
+          "code": [
+            [
+              "LOG",
+              "└── {{$ALIAS_N}} skips gaining {{$TEXT}}."
+            ],
+            [
+              "PROMPT_NEXT_ACTIVE_PLAYER",
+              "$PLAYER_N",
+              "askToGainResource",
+              null
+            ]
+          ],
+          "hotkey": "N",
+          "label": "No, skip that (ignore the rules)."
+        }
+      ]
+    },
+    "fatalMirageChooseMemoryDiscoveredStatus": {
+      "args": [
+        "$DATABASE_ID",
+        "$CARD_NAME",
+        "$CONTINUE_ACTION"
+      ],
+      "message": "Is “{{$CARD_NAME}}” listed under “Memories Discovered”?",
+      "options": [
+        {
+          "code": [
+            [
+              "FATAL_MIRAGE_MEMORY_DISCOVERED_STATUS_CHOICE_DONE",
+              "$PLAYER_N",
+              "$CONTINUE_ACTION",
+              "$DATABASE_ID",
+              "discovered"
+            ]
+          ],
+          "hotkey": "Y",
+          "label": "Yes."
+        },
+        {
+          "code": [
+            [
+              "FATAL_MIRAGE_MEMORY_DISCOVERED_STATUS_CHOICE_DONE",
+              "$PLAYER_N",
+              "$CONTINUE_ACTION",
+              "$DATABASE_ID",
+              "not discovered"
+            ]
+          ],
+          "hotkey": "N",
+          "label": "No."
+        }
+      ]
+    },
+    "choosePlayIntentWithCommit": {
+      "args": [
+        "$TARGET_CARD_ID"
+      ],
+      "message": "State the intent of {{$CARD_BY_ID.$TARGET_CARD_ID.currentFace.name}} entering play.",
+      "options": [
+        {
+          "code": [
+            [
+              "DO_PLAY_INTENT_DECLARED",
+              "$PLAYER_N",
+              "$TARGET_CARD_ID",
+              "play"
+            ]
+          ],
+          "hotkey": "P",
+          "label": "Play."
+        },
+        {
+          "code": [
+            [
+              "DO_PLAY_INTENT_DECLARED",
+              "$PLAYER_N",
+              "$TARGET_CARD_ID",
+              "putIntoPlay"
+            ]
+          ],
+          "hotkey": "U",
+          "label": "Put into play."
+        },
+        {
+          "code": [
+            [
+              "DO_PLAY_INTENT_DECLARED",
+              "$PLAYER_N",
+              "$TARGET_CARD_ID",
+              "commit"
+            ]
+          ],
+          "hotkey": "C",
+          "label": "Commit."
+        }
+      ]
+    },
+    "weaverOfTheCosmosJourneyAcrossTheBridgeAbilityB": {
+      "args": [],
+      "message": "Do you want to setup Act 2?",
+      "options": [
+        {
+          "code": [
+            [
+              "WEAVER_OF_THE_COSMOS_SETUP_ACT_2",
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "Y",
+          "label": "Yes."
+        },
+        {
+          "hotkey": "N",
+          "label": "No."
+        }
+      ]
+    },
+    "theMidwinterGalaChooseLeaderController": {
+      "args": [],
+      "message": "Select the investigator to take control of allied faction's Leader.",
+      "options": []
+    },
+    "upg09119Prompt": {
+      "args": [
+        "$TARGET_PLAYER",
+        "$TARGET_CARD_ID",
+        "$CODE",
+        "$TABOO_ID"
+      ],
+      "message": "Change {{$CARD_BY_ID.$TARGET_CARD_ID.sides.A.name}}.",
+      "options": [
+        {
+          "code": [
+            [
+              "DO_CHANGE_CUSTOMIZABLE_CARD",
+              "$TARGET_PLAYER",
+              "$TARGET_CARD_ID",
+              "$CODE",
+              "$TABOO_ID",
+              "Railshooter",
+              "0",
+              0,
+              2,
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "1",
+          "label": "Change Railshooter."
+        },
+        {
+          "code": [
+            [
+              "DO_CHANGE_CUSTOMIZABLE_CARD",
+              "$TARGET_PLAYER",
+              "$TARGET_CARD_ID",
+              "$CODE",
+              "$TABOO_ID",
+              "Telescanner",
+              "1",
+              0,
+              2,
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "2",
+          "label": "Change Telescanner."
+        },
+        {
+          "code": [
+            [
+              "DO_CHANGE_CUSTOMIZABLE_CARD",
+              "$TARGET_PLAYER",
+              "$TARGET_CARD_ID",
+              "$CODE",
+              "$TABOO_ID",
+              "Translocator",
+              "2",
+              0,
+              2,
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "3",
+          "label": "Change Translocator."
+        },
+        {
+          "code": [
+            [
+              "DO_CHANGE_CUSTOMIZABLE_CARD",
+              "$TARGET_PLAYER",
+              "$TARGET_CARD_ID",
+              "$CODE",
+              "$TABOO_ID",
+              "Realitycollapser",
+              "3",
+              0,
+              2,
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "4",
+          "label": "Change Realitycollapser."
+        },
+        {
+          "code": [
+            [
+              "DO_CHANGE_CUSTOMIZABLE_CARD",
+              "$TARGET_PLAYER",
+              "$TARGET_CARD_ID",
+              "$CODE",
+              "$TABOO_ID",
+              "Matterweaver",
+              "4",
+              0,
+              2,
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "5",
+          "label": "Change Matterweaver."
+        },
+        {
+          "code": [
+            [
+              "DO_CHANGE_CUSTOMIZABLE_CARD",
+              "$TARGET_PLAYER",
+              "$TARGET_CARD_ID",
+              "$CODE",
+              "$TABOO_ID",
+              "Aetheric Link",
+              "5",
+              0,
+              4,
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "6",
+          "label": "Change Aetheric Link."
+        },
+        {
+          "code": [
+            [
+              "DO_CHANGE_CUSTOMIZABLE_CARD",
+              "$TARGET_PLAYER",
+              "$TARGET_CARD_ID",
+              "$CODE",
+              "$TABOO_ID",
+              "Empowered Configuration",
+              "6",
+              0,
+              4,
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "7",
+          "label": "Change Empowered Configuration."
+        },
+        {
+          "code": [
+            [
+              "DO_RESET_CUSTOMIZABLE_CARD",
+              "$TARGET_PLAYER",
+              "$TARGET_CARD_ID",
+              "$CODE",
+              "$TABOO_ID",
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "R",
+          "label": "Reset."
+        },
+        {
+          "hotkey": "X",
+          "label": "Cancel."
+        }
+      ]
+    },
+    "upg09101Prompt": {
+      "args": [
+        "$TARGET_PLAYER",
+        "$TARGET_CARD_ID",
+        "$CODE",
+        "$TABOO_ID"
+      ],
+      "message": "Change {{$CARD_BY_ID.$TARGET_CARD_ID.sides.A.name}}.",
+      "options": [
+        {
+          "code": [
+            [
+              "DO_CHANGE_EXT",
+              "$TARGET_PLAYER",
+              "$TARGET_CARD_ID",
+              "$CODE",
+              "$TABOO_ID",
+              "chosen trait #1",
+              "0",
+              0,
+              "trait",
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "A",
+          "label": "Change chosen trait #1."
+        },
+        {
+          "code": [
+            [
+              "DO_CHANGE_EXT",
+              "$TARGET_PLAYER",
+              "$TARGET_CARD_ID",
+              "$CODE",
+              "$TABOO_ID",
+              "chosen trait #2",
+              "0",
+              1,
+              "trait",
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "B",
+          "label": "Change chosen trait #2."
+        },
+        {
+          "code": [
+            [
+              "DO_CHANGE_CUSTOMIZABLE_CARD",
+              "$TARGET_PLAYER",
+              "$TARGET_CARD_ID",
+              "$CODE",
+              "$TABOO_ID",
+              "Specialist #1",
+              "1",
+              0,
+              1,
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "1",
+          "label": "Change Specialist #1."
+        },
+        {
+          "code": [
+            [
+              "DO_CHANGE_EXT",
+              "$TARGET_PLAYER",
+              "$TARGET_CARD_ID",
+              "$CODE",
+              "$TABOO_ID",
+              "chosen trait #3",
+              "1",
+              0,
+              "trait",
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "C",
+          "label": "Change chosen trait #3."
+        },
+        {
+          "code": [
+            [
+              "DO_CHANGE_CUSTOMIZABLE_CARD",
+              "$TARGET_PLAYER",
+              "$TARGET_CARD_ID",
+              "$CODE",
+              "$TABOO_ID",
+              "Specialist #2",
+              "2",
+              0,
+              2,
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "2",
+          "label": "Change Specialist #2."
+        },
+        {
+          "code": [
+            [
+              "DO_CHANGE_EXT",
+              "$TARGET_PLAYER",
+              "$TARGET_CARD_ID",
+              "$CODE",
+              "$TABOO_ID",
+              "chosen trait #4",
+              "2",
+              0,
+              "trait",
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "D",
+          "label": "Change chosen trait #4."
+        },
+        {
+          "code": [
+            [
+              "DO_CHANGE_CUSTOMIZABLE_CARD",
+              "$TARGET_PLAYER",
+              "$TARGET_CARD_ID",
+              "$CODE",
+              "$TABOO_ID",
+              "Nemesis",
+              "3",
+              0,
+              3,
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "3",
+          "label": "Change Nemesis."
+        },
+        {
+          "code": [
+            [
+              "DO_CHANGE_CUSTOMIZABLE_CARD",
+              "$TARGET_PLAYER",
+              "$TARGET_CARD_ID",
+              "$CODE",
+              "$TABOO_ID",
+              "Mythos-Hardened",
+              "4",
+              0,
+              4,
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "4",
+          "label": "Change Mythos-Hardened."
+        },
+        {
+          "code": [
+            [
+              "DO_CHANGE_CUSTOMIZABLE_CARD",
+              "$TARGET_PLAYER",
+              "$TARGET_CARD_ID",
+              "$CODE",
+              "$TABOO_ID",
+              "Always Prepared",
+              "5",
+              0,
+              5,
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "5",
+          "label": "Change Always Prepared."
+        },
+        {
+          "code": [
+            [
+              "DO_RESET_CUSTOMIZABLE_CARD",
+              "$TARGET_PLAYER",
+              "$TARGET_CARD_ID",
+              "$CODE",
+              "$TABOO_ID",
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "R",
+          "label": "Reset."
+        },
+        {
+          "hotkey": "X",
+          "label": "Cancel."
+        }
+      ]
+    },
+    "filmFataleChoosePropToSetAside": {
+      "args": [],
+      "message": "Select one Prop to set aside.",
+      "options": [
+        {
+          "code": [
+            [
+              "FILM_FATALE_SET_PROP_ASIDE",
+              "$PLAYER_N",
+              "72005"
+            ]
+          ],
+          "hotkey": "T",
+          "label": "Helios Telescope."
+        },
+        {
+          "code": [
+            [
+              "FILM_FATALE_SET_PROP_ASIDE",
+              "$PLAYER_N",
+              "72006"
+            ]
+          ],
+          "hotkey": "S",
+          "label": "Staff of the Serpent."
+        },
+        {
+          "code": [
+            [
+              "FILM_FATALE_SET_PROP_ASIDE",
+              "$PLAYER_N",
+              "72007"
+            ]
+          ],
+          "hotkey": "C",
+          "label": "Accursed Cape."
+        }
+      ]
+    },
+    "removeChaosTokenNumeric": {
+      "args": [],
+      "message": "Pick a Chaos Token to remove from the Chaos Bag.",
+      "options": [
+        {
+          "code": [
+            [
+              "DO_REMOVE_CHAOS_TOKEN_ACTION",
+              "$PLAYER_N",
+              "chaos_p1",
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "I",
+          "label": "+1."
+        },
+        {
+          "code": [
+            [
+              "DO_REMOVE_CHAOS_TOKEN_ACTION",
+              "$PLAYER_N",
+              "chaos_p0",
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "0",
+          "label": "0."
+        },
+        {
+          "code": [
+            [
+              "DO_REMOVE_CHAOS_TOKEN_ACTION",
+              "$PLAYER_N",
+              "chaos_m1",
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "1",
+          "label": "-1."
+        },
+        {
+          "code": [
+            [
+              "DO_REMOVE_CHAOS_TOKEN_ACTION",
+              "$PLAYER_N",
+              "chaos_m2",
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "2",
+          "label": "-2."
+        },
+        {
+          "code": [
+            [
+              "DO_REMOVE_CHAOS_TOKEN_ACTION",
+              "$PLAYER_N",
+              "chaos_m3",
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "3",
+          "label": "-3."
+        },
+        {
+          "code": [
+            [
+              "DO_REMOVE_CHAOS_TOKEN_ACTION",
+              "$PLAYER_N",
+              "chaos_m4",
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "4",
+          "label": "-4."
+        },
+        {
+          "code": [
+            [
+              "DO_REMOVE_CHAOS_TOKEN_ACTION",
+              "$PLAYER_N",
+              "chaos_m5",
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "5",
+          "label": "-5."
+        },
+        {
+          "code": [
+            [
+              "DO_REMOVE_CHAOS_TOKEN_ACTION",
+              "$PLAYER_N",
+              "chaos_m6",
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "6",
+          "label": "-6."
+        },
+        {
+          "code": [
+            [
+              "DO_REMOVE_CHAOS_TOKEN_ACTION",
+              "$PLAYER_N",
+              "chaos_m7",
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "7",
+          "label": "-7."
+        },
+        {
+          "code": [
+            [
+              "DO_REMOVE_CHAOS_TOKEN_ACTION",
+              "$PLAYER_N",
+              "chaos_m8",
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "8",
+          "label": "-8."
+        },
+        {
+          "hotkey": "X",
+          "label": "Cancel."
+        }
+      ]
+    },
+    "askHowManyToShuffle": {
+      "args": [
+        "$TARGET_GROUP_ID",
+        "$LOG_EVENT",
+        "$ACTOR_PLAYER"
+      ],
+      "message": "How many top cards do you want to shuffle?",
+      "options": []
+    },
+    "eliminateInvestigator": {
+      "args": [
+        "$TARGET_PLAYER",
+        "$TARGET_CARD_ID"
+      ],
+      "message": "Select fate of {{$CARD_BY_ID.$TARGET_CARD_ID.currentFace.name}}.",
+      "options": [
+        {
+          "code": [
+            [
+              "DO_ELIMINATE_INVESTIGATOR",
+              "$TARGET_PLAYER",
+              "$TARGET_CARD_ID",
+              "resignation",
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "R",
+          "label": "Resigned."
+        },
+        {
+          "code": [
+            [
+              "DO_ELIMINATE_INVESTIGATOR",
+              "$TARGET_PLAYER",
+              "$TARGET_CARD_ID",
+              "damage",
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "D",
+          "label": "Defated by damage."
+        },
+        {
+          "code": [
+            [
+              "DO_ELIMINATE_INVESTIGATOR",
+              "$TARGET_PLAYER",
+              "$TARGET_CARD_ID",
+              "horror",
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "H",
+          "label": "Defated by horror."
+        },
+        {
+          "code": [
+            [
+              "DO_ELIMINATE_INVESTIGATOR",
+              "$TARGET_PLAYER",
+              "$TARGET_CARD_ID",
+              "other reasons",
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "O",
+          "label": "Other."
+        },
+        {
+          "hotkey": "X",
+          "label": "Cancel."
+        }
+      ]
+    },
+    "askToPlaceDoomOnCurrentAgenda": {
+      "args": [
+        "$MESSAGE"
+      ],
+      "message": "You should now place 1 doom on {{$MESSAGE}}.",
+      "options": [
+        {
+          "code": [
+            [
+              "DO_PLACE_DOOM_ON_CURRENT_AGENDA",
+              "$PLAYER_N",
+              1,
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "Y",
+          "label": "Yes, proceed (follow the rules)."
+        },
+        {
+          "code": [
+            [
+              "LOG",
+              "└── {{$ALIAS_N}} skips placing 1 doom on the current agenda."
+            ]
+          ],
+          "hotkey": "N",
+          "label": "No, skip that (ignore the rules)."
+        }
+      ]
+    },
+    "addChaosTokenNumeric": {
+      "args": [],
+      "message": "Pick a Chaos Token to add to the Chaos Bag.",
+      "options": [
+        {
+          "code": [
+            [
+              "DO_ADD_CHAOS_TOKEN_ACTION",
+              "$PLAYER_N",
+              "chaos_p1",
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "I",
+          "label": "+1."
+        },
+        {
+          "code": [
+            [
+              "DO_ADD_CHAOS_TOKEN_ACTION",
+              "$PLAYER_N",
+              "chaos_p0",
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "0",
+          "label": "0."
+        },
+        {
+          "code": [
+            [
+              "DO_ADD_CHAOS_TOKEN_ACTION",
+              "$PLAYER_N",
+              "chaos_m1",
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "1",
+          "label": "-1."
+        },
+        {
+          "code": [
+            [
+              "DO_ADD_CHAOS_TOKEN_ACTION",
+              "$PLAYER_N",
+              "chaos_m2",
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "2",
+          "label": "-2."
+        },
+        {
+          "code": [
+            [
+              "DO_ADD_CHAOS_TOKEN_ACTION",
+              "$PLAYER_N",
+              "chaos_m3",
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "3",
+          "label": "-3."
+        },
+        {
+          "code": [
+            [
+              "DO_ADD_CHAOS_TOKEN_ACTION",
+              "$PLAYER_N",
+              "chaos_m4",
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "4",
+          "label": "-4."
+        },
+        {
+          "code": [
+            [
+              "DO_ADD_CHAOS_TOKEN_ACTION",
+              "$PLAYER_N",
+              "chaos_m5",
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "5",
+          "label": "-5."
+        },
+        {
+          "code": [
+            [
+              "DO_ADD_CHAOS_TOKEN_ACTION",
+              "$PLAYER_N",
+              "chaos_m6",
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "6",
+          "label": "-6."
+        },
+        {
+          "code": [
+            [
+              "DO_ADD_CHAOS_TOKEN_ACTION",
+              "$PLAYER_N",
+              "chaos_m7",
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "7",
+          "label": "-7."
+        },
+        {
+          "code": [
+            [
+              "DO_ADD_CHAOS_TOKEN_ACTION",
+              "$PLAYER_N",
+              "chaos_m8",
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "8",
+          "label": "-8."
+        },
+        {
+          "hotkey": "X",
+          "label": "Cancel."
+        }
+      ]
+    },
+    "selectPipsPrompt": {
+      "args": [
+        "$UPGRADE_NAME"
+      ],
+      "message": "Change {{$UPGRADE_NAME}}.",
+      "options": []
+    },
+    "notEnoughDoom": {
+      "args": [
+        "$TARGET_GROUP_ID",
+        "$TOP_CARD_ID",
+        "$LOG_EVENT",
+        "$ACTOR_PLAYER",
+        "$DOOM_REQUIRED",
+        "$DOOM_ACCRUED"
+      ],
+      "message": "{{$DOOM_ACCRUED}} of {{$DOOM_REQUIRED}} doom required by {{$CARD_BY_ID.$TOP_CARD_ID.currentFace.name}} to advance was accrued.",
+      "options": [
+        {
+          "code": [
+            [
+              "LOG",
+              "└── {{$ALIAS_N}} skips clearing doom to advance the Agenda card."
+            ],
+            [
+              "DO_ADVANCE_STORY_FINAL",
+              "$PLAYER_N",
+              "$TARGET_GROUP_ID",
+              "$TOP_CARD_ID",
+              "$LOG_EVENT",
+              "$ACTOR_PLAYER"
+            ]
+          ],
+          "hotkey": "A",
+          "label": "Advance (ignore the rules)."
+        },
+        {
+          "hotkey": "X",
+          "label": "Cancel."
+        }
+      ]
+    },
+    "selectTarotReadingMode": {
+      "args": [],
+      "message": "Pick tarot reading type.",
+      "options": [
+        {
+          "code": [
+            [
+              "DO_TAROT_CARD_READING",
+              "$PLAYER_N",
+              "CHAOS"
+            ]
+          ],
+          "hotkey": "1",
+          "label": "1-Card Reading (“Chaos”)."
+        },
+        {
+          "code": [
+            [
+              "DO_TAROT_CARD_READING",
+              "$PLAYER_N",
+              "BALANCE"
+            ]
+          ],
+          "hotkey": "2",
+          "label": "2-Card Reading (“Balance”)."
+        },
+        {
+          "code": [
+            [
+              "DO_TAROT_CARD_READING",
+              "$PLAYER_N",
+              "CHOICE"
+            ]
+          ],
+          "hotkey": "3",
+          "label": "3-Card Reading (“Choice”)."
+        },
+        {
+          "code": [
+            [
+              "DO_TAROT_CARD_READING",
+              "$PLAYER_N",
+              "DESTINY"
+            ]
+          ],
+          "hotkey": "C",
+          "label": "Campaign Reading (“Destiny”)."
+        },
+        {
+          "hotkey": "X",
+          "label": "Cancel."
+        }
+      ]
+    },
+    "notEnoughClues": {
+      "args": [
+        "$TARGET_GROUP_ID",
+        "$TOP_CARD_ID",
+        "$LOG_EVENT",
+        "$ACTOR_PLAYER",
+        "$CLUES_REQUIRED",
+        "$CLUES_PRESENT",
+        "$CLUES_COLLECTED"
+      ],
+      "message": "{{$CARD_BY_ID.$TOP_CARD_ID.currentFace.name}} requires {{$CLUES_REQUIRED}} clues to advance. Clues on the Act card: {{$CLUES_PRESENT}}. Clues on investigators: {{$CLUES_COLLECTED}}.",
+      "options": [
+        {
+          "code": [
+            [
+              "LOG",
+              "└── {{$ALIAS_N}} skips spending clues to advance the Act card."
+            ],
+            [
+              "DO_ADVANCE_STORY_FINAL",
+              "$PLAYER_N",
+              "$TARGET_GROUP_ID",
+              "$TOP_CARD_ID",
+              "$LOG_EVENT",
+              "$ACTOR_PLAYER"
+            ]
+          ],
+          "hotkey": "A",
+          "label": "Advance (ignore the rules)."
+        },
+        {
+          "hotkey": "X",
+          "label": "Cancel."
+        }
+      ]
+    },
+    "askToDrawEncounterCard": {
+      "args": [],
+      "message": "You should now draw 1 encounter card.",
+      "options": [
+        {
+          "code": [
+            [
+              "DO_DRAW_CARDS",
+              "$PLAYER_N",
+              "sharedEncounterDeck",
+              1,
+              true,
+              "$PLAYER_N"
+            ],
+            [
+              "PROMPT_NEXT_ACTIVE_PLAYER_MYTHOS_PHASE",
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "Y",
+          "label": "Yes, proceed (follow the rules)."
+        },
+        {
+          "code": [
+            [
+              "LOG",
+              "└── {{$ALIAS_N}} skips drawing 1 encounter card."
+            ],
+            [
+              "PROMPT_NEXT_ACTIVE_PLAYER_MYTHOS_PHASE",
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "N",
+          "label": "No, skip that (ignore the rules)."
+        }
+      ]
+    },
+    "edgeOfTheEarthChooseSuppliesStatus": {
+      "args": [
+        "$DATABASE_ID",
+        "$CARD_NAME",
+        "$CONTINUE_ACTION"
+      ],
+      "message": "Is “{{$CARD_NAME}}” listed under “Supplies Recovered”?",
+      "options": [
+        {
+          "code": [
+            [
+              "EDGE_OF_THE_EARTH_SUPPLIES_STATUS_CHOICE_DONE",
+              "$PLAYER_N",
+              "$CONTINUE_ACTION",
+              "$DATABASE_ID",
+              "recovered"
+            ]
+          ],
+          "hotkey": "Y",
+          "label": "Yes."
+        },
+        {
+          "code": [
+            [
+              "EDGE_OF_THE_EARTH_SUPPLIES_STATUS_CHOICE_DONE",
+              "$PLAYER_N",
+              "$CONTINUE_ACTION",
+              "$DATABASE_ID",
+              "lost"
+            ]
+          ],
+          "hotkey": "N",
+          "label": "No."
+        }
+      ]
+    },
+    "choosePlayX": {
+      "args": [
+        "$TARGET_CARD_ID",
+        "$INTENT",
+        "$COST",
+        "$USES"
+      ],
+      "message": "State X for {{$CARD_BY_ID.$TARGET_CARD_ID.currentFace.name}}.",
+      "options": [
+        {
+          "code": [
+            [
+              "DO_PLAY_INTENT_AND_X_DECLARED",
+              "$PLAYER_N",
+              "$TARGET_CARD_ID",
+              "$INTENT",
+              "$COST",
+              "$USES",
+              0
+            ]
+          ],
+          "hotkey": "0",
+          "label": "X is 0."
+        },
+        {
+          "code": [
+            [
+              "DO_PLAY_INTENT_AND_X_DECLARED",
+              "$PLAYER_N",
+              "$TARGET_CARD_ID",
+              "$INTENT",
+              "$COST",
+              "$USES",
+              1
+            ]
+          ],
+          "hotkey": "1",
+          "label": "X is 1."
+        },
+        {
+          "code": [
+            [
+              "DO_PLAY_INTENT_AND_X_DECLARED",
+              "$PLAYER_N",
+              "$TARGET_CARD_ID",
+              "$INTENT",
+              "$COST",
+              "$USES",
+              2
+            ]
+          ],
+          "hotkey": "2",
+          "label": "X is 2."
+        },
+        {
+          "code": [
+            [
+              "DO_PLAY_INTENT_AND_X_DECLARED",
+              "$PLAYER_N",
+              "$TARGET_CARD_ID",
+              "$INTENT",
+              "$COST",
+              "$USES",
+              3
+            ]
+          ],
+          "hotkey": "3",
+          "label": "X is 3."
+        },
+        {
+          "code": [
+            [
+              "DO_PLAY_INTENT_AND_X_DECLARED",
+              "$PLAYER_N",
+              "$TARGET_CARD_ID",
+              "$INTENT",
+              "$COST",
+              "$USES",
+              4
+            ]
+          ],
+          "hotkey": "4",
+          "label": "X is 4."
+        },
+        {
+          "code": [
+            [
+              "DO_PLAY_INTENT_AND_X_DECLARED",
+              "$PLAYER_N",
+              "$TARGET_CARD_ID",
+              "$INTENT",
+              "$COST",
+              "$USES",
+              5
+            ]
+          ],
+          "hotkey": "5",
+          "label": "X is 5."
+        },
+        {
+          "code": [
+            [
+              "DO_PLAY_INTENT_AND_X_DECLARED",
+              "$PLAYER_N",
+              "$TARGET_CARD_ID",
+              "$INTENT",
+              "$COST",
+              "$USES",
+              6
+            ]
+          ],
+          "hotkey": "6",
+          "label": "X is 6."
+        },
+        {
+          "code": [
+            [
+              "DO_PLAY_INTENT_AND_X_DECLARED",
+              "$PLAYER_N",
+              "$TARGET_CARD_ID",
+              "$INTENT",
+              "$COST",
+              "$USES",
+              7
+            ]
+          ],
+          "hotkey": "7",
+          "label": "X is 7."
+        },
+        {
+          "code": [
+            [
+              "DO_PLAY_INTENT_AND_X_DECLARED",
+              "$PLAYER_N",
+              "$TARGET_CARD_ID",
+              "$INTENT",
+              "$COST",
+              "$USES",
+              8
+            ]
+          ],
+          "hotkey": "8",
+          "label": "X is 8."
+        },
+        {
+          "code": [
+            [
+              "DO_PLAY_INTENT_AND_X_DECLARED",
+              "$PLAYER_N",
+              "$TARGET_CARD_ID",
+              "$INTENT",
+              "$COST",
+              "$USES",
+              9
+            ]
+          ],
+          "hotkey": "9",
+          "label": "X is 9."
+        }
+      ]
+    },
+    "askHowManyToLookAt": {
+      "args": [
+        "$TARGET_GROUP_ID",
+        "$LOG_EVENT",
+        "$ACTOR_PLAYER"
+      ],
+      "message": "At how many top cards do you want to look?",
+      "options": []
+    },
+    "dealingsInTheDarkSearchForTheManuscriptAbilityB": {
+      "args": [],
+      "message": "Do you want to setup Act 2?",
+      "options": [
+        {
+          "code": [
+            [
+              "DEALINGS_IN_THE_DARK_SETUP_ACT_2",
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "Y",
+          "label": "Yes."
+        },
+        {
+          "hotkey": "N",
+          "label": "No."
+        }
+      ]
+    },
+    "subject5U21Devouring": {
+      "args": [],
+      "message": "Please devour a non-weakness player card in your hand.",
+      "options": [
+        {
+          "code": [
+            [
+              "PLAYER_EVENT_LOOP",
+              "$PLAYER_N",
+              "UpkeepDraw"
+            ]
+          ],
+          "hotkey": "D",
+          "label": "Done."
+        }
+      ]
+    },
+    "choosePlayIntent": {
+      "args": [
+        "$TARGET_CARD_ID"
+      ],
+      "message": "State the intent of {{$CARD_BY_ID.$TARGET_CARD_ID.currentFace.name}} entering play.",
+      "options": [
+        {
+          "code": [
+            [
+              "DO_PLAY_INTENT_DECLARED",
+              "$PLAYER_N",
+              "$TARGET_CARD_ID",
+              "play"
+            ]
+          ],
+          "hotkey": "P",
+          "label": "Play."
+        },
+        {
+          "code": [
+            [
+              "DO_PLAY_INTENT_DECLARED",
+              "$PLAYER_N",
+              "$TARGET_CARD_ID",
+              "putIntoPlay"
+            ]
+          ],
+          "hotkey": "U",
+          "label": "Put into play."
+        }
+      ]
+    },
+    "askForCustomSpawnChoice": {
+      "args": [],
+      "message": "Where do you want to begin the game?",
+      "options": []
+    },
+    "upg09021Prompt": {
+      "args": [
+        "$TARGET_PLAYER",
+        "$TARGET_CARD_ID",
+        "$CODE",
+        "$TABOO_ID"
+      ],
+      "message": "Change {{$CARD_BY_ID.$TARGET_CARD_ID.sides.A.name}}.",
+      "options": [
+        {
+          "code": [
+            [
+              "DO_CHANGE_CUSTOMIZABLE_CARD",
+              "$TARGET_PLAYER",
+              "$TARGET_CARD_ID",
+              "$CODE",
+              "$TABOO_ID",
+              "Enchanted",
+              "0",
+              0,
+              1,
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "1",
+          "label": "Change Enchanted."
+        },
+        {
+          "code": [
+            [
+              "DO_CHANGE_CUSTOMIZABLE_CARD",
+              "$TARGET_PLAYER",
+              "$TARGET_CARD_ID",
+              "$CODE",
+              "$TABOO_ID",
+              "Protective Runes",
+              "1",
+              0,
+              2,
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "2",
+          "label": "Change Protective Runes."
+        },
+        {
+          "code": [
+            [
+              "DO_CHANGE_CUSTOMIZABLE_CARD",
+              "$TARGET_PLAYER",
+              "$TARGET_CARD_ID",
+              "$CODE",
+              "$TABOO_ID",
+              "Durable",
+              "2",
+              0,
+              2,
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "3",
+          "label": "Change Durable."
+        },
+        {
+          "code": [
+            [
+              "DO_CHANGE_CUSTOMIZABLE_CARD",
+              "$TARGET_PLAYER",
+              "$TARGET_CARD_ID",
+              "$CODE",
+              "$TABOO_ID",
+              "Hallowed",
+              "3",
+              0,
+              2,
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "4",
+          "label": "Change Hallowed."
+        },
+        {
+          "code": [
+            [
+              "DO_CHANGE_CUSTOMIZABLE_CARD",
+              "$TARGET_PLAYER",
+              "$TARGET_CARD_ID",
+              "$CODE",
+              "$TABOO_ID",
+              "Lightweight",
+              "4",
+              0,
+              2,
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "5",
+          "label": "Change Lightweight."
+        },
+        {
+          "code": [
+            [
+              "DO_CHANGE_CUSTOMIZABLE_CARD",
+              "$TARGET_PLAYER",
+              "$TARGET_CARD_ID",
+              "$CODE",
+              "$TABOO_ID",
+              "Hexdrinker",
+              "5",
+              0,
+              3,
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "6",
+          "label": "Change Hexdrinker."
+        },
+        {
+          "code": [
+            [
+              "DO_CHANGE_CUSTOMIZABLE_CARD",
+              "$TARGET_PLAYER",
+              "$TARGET_CARD_ID",
+              "$CODE",
+              "$TABOO_ID",
+              "Armor of Thorns",
+              "6",
+              0,
+              3,
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "7",
+          "label": "Change Armor of Thorns."
+        },
+        {
+          "code": [
+            [
+              "DO_RESET_CUSTOMIZABLE_CARD",
+              "$TARGET_PLAYER",
+              "$TARGET_CARD_ID",
+              "$CODE",
+              "$TABOO_ID",
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "R",
+          "label": "Reset."
+        },
+        {
+          "hotkey": "X",
+          "label": "Cancel."
+        }
+      ]
+    },
+    "upg09081Prompt": {
+      "args": [
+        "$TARGET_PLAYER",
+        "$TARGET_CARD_ID",
+        "$CODE",
+        "$TABOO_ID"
+      ],
+      "message": "Change {{$CARD_BY_ID.$TARGET_CARD_ID.sides.A.name}}.",
+      "options": [
+        {
+          "code": [
+            [
+              "DO_CHANGE_CUSTOMIZABLE_CARD",
+              "$TARGET_PLAYER",
+              "$TARGET_CARD_ID",
+              "$CODE",
+              "$TABOO_ID",
+              "Betray",
+              "0",
+              0,
+              1,
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "1",
+          "label": "Change Betray."
+        },
+        {
+          "code": [
+            [
+              "DO_CHANGE_CUSTOMIZABLE_CARD",
+              "$TARGET_PLAYER",
+              "$TARGET_CARD_ID",
+              "$CODE",
+              "$TABOO_ID",
+              "Mercy",
+              "1",
+              0,
+              1,
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "2",
+          "label": "Change Mercy."
+        },
+        {
+          "code": [
+            [
+              "DO_CHANGE_CUSTOMIZABLE_CARD",
+              "$TARGET_PLAYER",
+              "$TARGET_CARD_ID",
+              "$CODE",
+              "$TABOO_ID",
+              "Confess",
+              "2",
+              0,
+              1,
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "3",
+          "label": "Change Confess."
+        },
+        {
+          "code": [
+            [
+              "DO_CHANGE_CUSTOMIZABLE_CARD",
+              "$TARGET_PLAYER",
+              "$TARGET_CARD_ID",
+              "$CODE",
+              "$TABOO_ID",
+              "Distract",
+              "3",
+              0,
+              1,
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "4",
+          "label": "Change Distract."
+        },
+        {
+          "code": [
+            [
+              "DO_CHANGE_CUSTOMIZABLE_CARD",
+              "$TARGET_PLAYER",
+              "$TARGET_CARD_ID",
+              "$CODE",
+              "$TABOO_ID",
+              "Greater Control",
+              "4",
+              0,
+              2,
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "5",
+          "label": "Change Greater Control."
+        },
+        {
+          "code": [
+            [
+              "DO_CHANGE_CUSTOMIZABLE_CARD",
+              "$TARGET_PLAYER",
+              "$TARGET_CARD_ID",
+              "$CODE",
+              "$TABOO_ID",
+              "Bonded",
+              "5",
+              0,
+              3,
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "6",
+          "label": "Change Bonded."
+        },
+        {
+          "code": [
+            [
+              "DO_CHANGE_CUSTOMIZABLE_CARD",
+              "$TARGET_PLAYER",
+              "$TARGET_CARD_ID",
+              "$CODE",
+              "$TABOO_ID",
+              "Tonguetwister",
+              "6",
+              0,
+              3,
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "7",
+          "label": "Change Tonguetwister."
+        },
+        {
+          "code": [
+            [
+              "DO_CHANGE_CUSTOMIZABLE_CARD",
+              "$TARGET_PLAYER",
+              "$TARGET_CARD_ID",
+              "$CODE",
+              "$TABOO_ID",
+              "Thrice Spoken",
+              "7",
+              0,
+              3,
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "8",
+          "label": "Change Thrice Spoken."
+        },
+        {
+          "code": [
+            [
+              "DO_RESET_CUSTOMIZABLE_CARD",
+              "$TARGET_PLAYER",
+              "$TARGET_CARD_ID",
+              "$CODE",
+              "$TABOO_ID",
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "R",
+          "label": "Reset."
+        },
+        {
+          "hotkey": "X",
+          "label": "Cancel."
+        }
+      ]
+    },
+    "filmFataleChooseTelescopeController": {
+      "args": [],
+      "message": "Select the investigator to take control of the Helios Telescope.",
+      "options": []
+    },
+    "cardLiveSelectPromptForce": {
+      "args": [
+        "$ALLOWED_CARD_IDS",
+        "$MESSAGE_TEMPLATE",
+        "$MIN",
+        "$MAX",
+        "$UNIQUE_TITLES",
+        "$CALLBACK_FUNCTION",
+        "$SOURCE_CARD_ID",
+        "$MESSAGE"
+      ],
+      "input": {
+        "type": "selectCards"
+      },
+      "message": "{{$MESSAGE}}",
+      "options": [
+        {
+          "code": [
+            [
+              "DO_MAKE_LIVE_SELECTION",
+              "$PLAYER_N",
+              "$ALLOWED_CARD_IDS",
+              "$MESSAGE_TEMPLATE",
+              "$MIN",
+              "$MAX",
+              "$UNIQUE_TITLES",
+              "$CALLBACK_FUNCTION",
+              "$SOURCE_CARD_ID",
+              false,
+              [
+                "GET_SELECTED_CARDS_FROM_LIST",
+                "$ALLOWED_CARD_IDS",
+                "$PROMPT_INPUT"
+              ],
+              false
+            ]
+          ],
+          "hotkey": "S",
+          "label": "Select (follow the rules)."
+        },
+        {
+          "code": [
+            [
+              "DO_MAKE_LIVE_SELECTION",
+              "$PLAYER_N",
+              "$ALLOWED_CARD_IDS",
+              "$MESSAGE_TEMPLATE",
+              "$MIN",
+              "$MAX",
+              "$UNIQUE_TITLES",
+              "$CALLBACK_FUNCTION",
+              "$SOURCE_CARD_ID",
+              true,
+              [
+                "GET_SELECTED_CARDS_FROM_LIST",
+                "$ALLOWED_CARD_IDS",
+                "$PROMPT_INPUT"
+              ],
+              false
+            ]
+          ],
+          "hotkey": "F",
+          "label": "Force (ignore the rules)."
+        }
+      ]
+    },
+    "pagingPrompt": {
+      "args": [
+        "$MESSAGE"
+      ],
+      "message": "{{$MESSAGE}}",
+      "options": []
+    },
+    "upg09042Prompt": {
+      "args": [
+        "$TARGET_PLAYER",
+        "$TARGET_CARD_ID",
+        "$CODE",
+        "$TABOO_ID"
+      ],
+      "message": "Change {{$CARD_BY_ID.$TARGET_CARD_ID.sides.A.name}}.",
+      "options": [
+        {
+          "code": [
+            [
+              "DO_CHANGE_EXT",
+              "$TARGET_PLAYER",
+              "$TARGET_CARD_ID",
+              "$CODE",
+              "$TABOO_ID",
+              "named Tome or Spell asset #1",
+              "0",
+              0,
+              "ravenQuill",
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "A",
+          "label": "Change named asset #1."
+        },
+        {
+          "code": [
+            [
+              "DO_CHANGE_CUSTOMIZABLE_CARD",
+              "$TARGET_PLAYER",
+              "$TARGET_CARD_ID",
+              "$CODE",
+              "$TABOO_ID",
+              "Living Quill",
+              "1",
+              0,
+              1,
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "1",
+          "label": "Change Living Quill."
+        },
+        {
+          "code": [
+            [
+              "DO_CHANGE_CUSTOMIZABLE_CARD",
+              "$TARGET_PLAYER",
+              "$TARGET_CARD_ID",
+              "$CODE",
+              "$TABOO_ID",
+              "Spectral Binding",
+              "2",
+              0,
+              1,
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "2",
+          "label": "Change Spectral Binding."
+        },
+        {
+          "code": [
+            [
+              "DO_CHANGE_CUSTOMIZABLE_CARD",
+              "$TARGET_PLAYER",
+              "$TARGET_CARD_ID",
+              "$CODE",
+              "$TABOO_ID",
+              "Mystic Vane",
+              "3",
+              0,
+              2,
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "3",
+          "label": "Change Mystic Vane."
+        },
+        {
+          "code": [
+            [
+              "DO_CHANGE_CUSTOMIZABLE_CARD",
+              "$TARGET_PLAYER",
+              "$TARGET_CARD_ID",
+              "$CODE",
+              "$TABOO_ID",
+              "Endless Inkwell",
+              "4",
+              0,
+              2,
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "4",
+          "label": "Change Endless Inkwell."
+        },
+        {
+          "code": [
+            [
+              "DO_CHANGE_EXT",
+              "$TARGET_PLAYER",
+              "$TARGET_CARD_ID",
+              "$CODE",
+              "$TABOO_ID",
+              "named Tome or Spell asset #2",
+              "4",
+              0,
+              "ravenQuill",
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "B",
+          "label": "Change named asset #2."
+        },
+        {
+          "code": [
+            [
+              "DO_CHANGE_EXT",
+              "$TARGET_PLAYER",
+              "$TARGET_CARD_ID",
+              "$CODE",
+              "$TABOO_ID",
+              "named Tome or Spell asset #3",
+              "4",
+              1,
+              "ravenQuill",
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "C",
+          "label": "Change named asset #3."
+        },
+        {
+          "code": [
+            [
+              "DO_CHANGE_CUSTOMIZABLE_CARD",
+              "$TARGET_PLAYER",
+              "$TARGET_CARD_ID",
+              "$CODE",
+              "$TABOO_ID",
+              "Energy Sap",
+              "5",
+              0,
+              2,
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "5",
+          "label": "Change Energy Sap."
+        },
+        {
+          "code": [
+            [
+              "DO_CHANGE_CUSTOMIZABLE_CARD",
+              "$TARGET_PLAYER",
+              "$TARGET_CARD_ID",
+              "$CODE",
+              "$TABOO_ID",
+              "Interwoven Ink",
+              "6",
+              0,
+              3,
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "6",
+          "label": "Change Interwoven Ink."
+        },
+        {
+          "code": [
+            [
+              "DO_CHANGE_CUSTOMIZABLE_CARD",
+              "$TARGET_PLAYER",
+              "$TARGET_CARD_ID",
+              "$CODE",
+              "$TABOO_ID",
+              "Supernatural Record",
+              "7",
+              0,
+              4,
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "7",
+          "label": "Change Supernatural Record."
+        },
+        {
+          "code": [
+            [
+              "DO_RESET_CUSTOMIZABLE_CARD",
+              "$TARGET_PLAYER",
+              "$TARGET_CARD_ID",
+              "$CODE",
+              "$TABOO_ID",
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "R",
+          "label": "Reset."
+        },
+        {
+          "hotkey": "X",
+          "label": "Cancel."
+        }
+      ]
+    },
+    "askToDrawPlayerCard": {
+      "args": [
+        "$NUMBER",
+        "$TEXT"
+      ],
+      "message": "You should now draw {{$TEXT}}.",
+      "options": [
+        {
+          "code": [
+            [
+              "COND",
+              [
+                "GREATER_THAN",
+                "$NUMBER",
+                0
+              ],
+              [
+                "DO_DRAW_CARDS",
+                "$PLAYER_N",
+                [
+                  "GET_CONTROLLER_DECK",
+                  "$PLAYER_N"
+                ],
+                "$NUMBER",
+                true,
+                "$PLAYER_N"
+              ]
+            ],
+            [
+              "PROMPT_NEXT_ACTIVE_PLAYER",
+              "$PLAYER_N",
+              "askToDrawPlayerCard",
+              "askToGainResource"
+            ]
+          ],
+          "hotkey": "Y",
+          "label": "Yes, proceed (follow the rules)."
+        },
+        {
+          "code": [
+            [
+              "LOG",
+              "└── {{$ALIAS_N}} skips drawing {{$TEXT}}."
+            ],
+            [
+              "PROMPT_NEXT_ACTIVE_PLAYER",
+              "$PLAYER_N",
+              "askToDrawPlayerCard",
+              "askToGainResource"
+            ]
+          ],
+          "hotkey": "N",
+          "label": "No, skip that (ignore the rules)."
+        }
+      ]
+    },
+    "askHowManyToDiscard": {
+      "args": [
+        "$LOG_EVENT",
+        "$ACTOR_PLAYER"
+      ],
+      "message": "How many random cards do you want to discard from hand?",
+      "options": []
+    },
+    "edgeOfTheEarthChoosePartnerStatusOK": {
+      "args": [
+        "$DATABASE_ID",
+        "$CARD_NAME",
+        "$CONTINUE_ACTION"
+      ],
+      "message": "State the current status of {{$CARD_NAME}}.",
+      "options": [
+        {
+          "code": [
+            [
+              "EDGE_OF_THE_EARTH_PARTNER_STATUS_CHOICE_DONE",
+              "$PLAYER_N",
+              "OK",
+              "$CONTINUE_ACTION",
+              "$DATABASE_ID",
+              "alive"
+            ]
+          ],
+          "hotkey": "A",
+          "label": "Alive."
+        },
+        {
+          "code": [
+            [
+              "EDGE_OF_THE_EARTH_PARTNER_STATUS_CHOICE_DONE",
+              "$PLAYER_N",
+              "OK",
+              "$CONTINUE_ACTION",
+              "$DATABASE_ID",
+              "KIA"
+            ]
+          ],
+          "hotkey": "K",
+          "label": "KIA (crossed off)."
+        }
+      ]
+    },
+    "cardSelectPrompt": {
+      "args": [
+        "$SOURCE_GROUP_ID",
+        "$MESSAGE_TEMPLATE",
+        "$MIN",
+        "$MAX",
+        "$UNIQUE_TITLES",
+        "$CALLBACK_FUNCTION",
+        "$SOURCE_CARD_ID",
+        "$MESSAGE"
+      ],
+      "input": {
+        "type": "selectCards"
+      },
+      "message": "{{$MESSAGE}}",
+      "options": [
+        {
+          "code": [
+            [
+              "DO_MAKE_SELECTION",
+              "$PLAYER_N",
+              "$SOURCE_GROUP_ID",
+              "$MESSAGE_TEMPLATE",
+              "$MIN",
+              "$MAX",
+              "$UNIQUE_TITLES",
+              "$CALLBACK_FUNCTION",
+              "$SOURCE_CARD_ID",
+              false,
+              [
+                "GET_SELECTED_CARDS_IN_GROUP",
+                [
+                  "GET_CONTROLLER_SELECTION",
+                  "$PLAYER_N"
+                ],
+                "$PROMPT_INPUT"
+              ],
+              [
+                "GET_NOT_SELECTED_CARDS_IN_GROUP",
+                [
+                  "GET_CONTROLLER_SELECTION",
+                  "$PLAYER_N"
+                ],
+                "$PROMPT_INPUT"
+              ]
+            ]
+          ],
+          "hotkey": "S",
+          "label": "Select (follow the rules)."
+        },
+        {
+          "code": [
+            [
+              "DO_MAKE_SELECTION",
+              "$PLAYER_N",
+              "$SOURCE_GROUP_ID",
+              "$MESSAGE_TEMPLATE",
+              "$MIN",
+              "$MAX",
+              "$UNIQUE_TITLES",
+              "$CALLBACK_FUNCTION",
+              "$SOURCE_CARD_ID",
+              true,
+              [
+                "GET_SELECTED_CARDS_IN_GROUP",
+                [
+                  "GET_CONTROLLER_SELECTION",
+                  "$PLAYER_N"
+                ],
+                "$PROMPT_INPUT"
+              ],
+              [
+                "GET_NOT_SELECTED_CARDS_IN_GROUP",
+                [
+                  "GET_CONTROLLER_SELECTION",
+                  "$PLAYER_N"
+                ],
+                "$PROMPT_INPUT"
+              ]
+            ]
+          ],
+          "hotkey": "F",
+          "label": "Force (ignore the rules)."
+        }
+      ]
+    },
+    "enoughDoom": {
+      "args": [
+        "$TARGET_GROUP_ID",
+        "$TOP_CARD_ID",
+        "$LOG_EVENT",
+        "$ACTOR_PLAYER",
+        "$DOOM_REQUIRED",
+        "$DOOM_ACCRUED"
+      ],
+      "message": "{{$DOOM_ACCRUED}} of {{$DOOM_REQUIRED}} doom required by {{$CARD_BY_ID.$TOP_CARD_ID.currentFace.name}} to advance was accrued.",
+      "options": [
+        {
+          "code": [
+            [
+              "DO_CLEAR_DOOM",
+              "$PLAYER_N",
+              "$TOP_CARD_ID",
+              "$LOG_EVENT",
+              "$ACTOR_PLAYER"
+            ],
+            [
+              "DO_ADVANCE_STORY_FINAL",
+              "$PLAYER_N",
+              "$TARGET_GROUP_ID",
+              "$TOP_CARD_ID",
+              "$LOG_EVENT",
+              "$ACTOR_PLAYER"
+            ]
+          ],
+          "hotkey": "D",
+          "label": "Clear doom from cards in play and advance (follow the rules)."
+        },
+        {
+          "code": [
+            [
+              "LOG",
+              "└── {{$ALIAS_N}} skips clearing doom to advance the Agenda card."
+            ],
+            [
+              "DO_ADVANCE_STORY_FINAL",
+              "$PLAYER_N",
+              "$TARGET_GROUP_ID",
+              "$TOP_CARD_ID",
+              "$LOG_EVENT",
+              "$ACTOR_PLAYER"
+            ]
+          ],
+          "hotkey": "A",
+          "label": "Advance (ignore the rules)."
+        },
+        {
+          "hotkey": "X",
+          "label": "Cancel."
+        }
+      ]
+    },
+    "fatalMirageChooseMemoryBanishedStatus": {
+      "args": [
+        "$DATABASE_ID",
+        "$CARD_NAME",
+        "$CONTINUE_ACTION"
+      ],
+      "message": "Is “{{$CARD_NAME}}” listed under “Memories Banished”?",
+      "options": [
+        {
+          "code": [
+            [
+              "FATAL_MIRAGE_MEMORY_BANISHED_STATUS_CHOICE_DONE",
+              "$PLAYER_N",
+              "$CONTINUE_ACTION",
+              "$DATABASE_ID",
+              "banished"
+            ]
+          ],
+          "hotkey": "Y",
+          "label": "Yes."
+        },
+        {
+          "code": [
+            [
+              "FATAL_MIRAGE_MEMORY_BANISHED_STATUS_CHOICE_DONE",
+              "$PLAYER_N",
+              "$CONTINUE_ACTION",
+              "$DATABASE_ID",
+              "not banished"
+            ]
+          ],
+          "hotkey": "N",
+          "label": "No."
+        }
+      ]
+    },
+    "horrorInHighGearChooseVehicle": {
+      "args": [],
+      "message": "Choose a vehicle to board.",
+      "options": []
+    },
+    "edgeOfTheEarthChoosePartnerStatusMIA": {
+      "args": [
+        "$DATABASE_ID",
+        "$CARD_NAME",
+        "$CONTINUE_ACTION"
+      ],
+      "message": "State the current status of {{$CARD_NAME}}.",
+      "options": [
+        {
+          "code": [
+            [
+              "EDGE_OF_THE_EARTH_PARTNER_STATUS_CHOICE_DONE",
+              "$PLAYER_N",
+              "MIA",
+              "$CONTINUE_ACTION",
+              "$DATABASE_ID",
+              "alive"
+            ]
+          ],
+          "hotkey": "A",
+          "label": "Alive."
+        },
+        {
+          "code": [
+            [
+              "EDGE_OF_THE_EARTH_PARTNER_STATUS_CHOICE_DONE",
+              "$PLAYER_N",
+              "MIA",
+              "$CONTINUE_ACTION",
+              "$DATABASE_ID",
+              "MIA"
+            ]
+          ],
+          "hotkey": "M",
+          "label": "MIA."
+        },
+        {
+          "code": [
+            [
+              "EDGE_OF_THE_EARTH_PARTNER_STATUS_CHOICE_DONE",
+              "$PLAYER_N",
+              "MIA",
+              "$CONTINUE_ACTION",
+              "$DATABASE_ID",
+              "KIA"
+            ]
+          ],
+          "hotkey": "K",
+          "label": "KIA (crossed off)."
+        }
+      ]
+    },
+    "nameChaosToken": {
+      "args": [],
+      "message": "Pick a Chaos Token to name.",
+      "options": [
+        {
+          "code": [
+            [
+              "DO_NAME_CHAOS_TOKEN",
+              "$PLAYER_N",
+              "chaos_elder_thing",
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "E",
+          "label": "Elder Thing."
+        },
+        {
+          "code": [
+            [
+              "DO_NAME_CHAOS_TOKEN",
+              "$PLAYER_N",
+              "chaos_cultist",
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "U",
+          "label": "Cultist."
+        },
+        {
+          "code": [
+            [
+              "DO_NAME_CHAOS_TOKEN",
+              "$PLAYER_N",
+              "chaos_skull",
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "S",
+          "label": "Skull."
+        },
+        {
+          "code": [
+            [
+              "DO_NAME_CHAOS_TOKEN",
+              "$PLAYER_N",
+              "chaos_tablet",
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "T",
+          "label": "Tablet."
+        },
+        {
+          "code": [
+            [
+              "DO_NAME_CHAOS_TOKEN",
+              "$PLAYER_N",
+              "chaos_bless",
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "B",
+          "label": "Bless."
+        },
+        {
+          "code": [
+            [
+              "DO_NAME_CHAOS_TOKEN",
+              "$PLAYER_N",
+              "chaos_curse",
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "C",
+          "label": "Curse."
+        },
+        {
+          "code": [
+            [
+              "DO_NAME_CHAOS_TOKEN",
+              "$PLAYER_N",
+              "chaos_frost",
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "F",
+          "label": "Frost."
+        },
+        {
+          "code": [
+            [
+              "PROMPT",
+              "$PLAYER_N",
+              "nameChaosTokenNumeric"
+            ]
+          ],
+          "hotkey": "N",
+          "label": "Numeric."
+        },
+        {
+          "hotkey": "X",
+          "label": "Cancel."
+        }
+      ]
+    },
+    "victoryOrDiscardHand": {
+      "args": [
+        "$TARGET_CARD_ID",
+        "$LOG_EVENT",
+        "$ACTOR_PLAYER"
+      ],
+      "message": "{{$CARD_BY_ID.$TARGET_CARD_ID.sides.A.name}} is Victory or Vengeance card. Select destination.",
+      "options": [
+        {
+          "code": [
+            [
+              "VAR",
+              "$TARGET_CARD",
+              "$CARD_BY_ID.$TARGET_CARD_ID"
+            ],
+            [
+              "DO_LOG",
+              "$LOG_EVENT",
+              "$ACTOR_PLAYER",
+              "$PLAYER_N",
+              "move {{$TARGET_CARD.sides.A.name}} from hand to the Victory Display.",
+              "moves {{$TARGET_CARD.sides.A.name}} from hand to the Victory Display."
+            ],
+            [
+              "MOVE_CARD",
+              "$TARGET_CARD_ID",
+              "sharedVictoryDisplay",
+              -1
+            ]
+          ],
+          "hotkey": "V",
+          "label": "Victory Display."
+        },
+        {
+          "code": [
+            [
+              "DO_DISCARD_CARD_FINAL",
+              "$PLAYER_N",
+              "$TARGET_CARD_ID",
+              " from hand",
+              "$LOG_EVENT",
+              "$ACTOR_PLAYER"
+            ]
+          ],
+          "hotkey": "D",
+          "label": "Discard Pile."
+        }
+      ]
+    },
+    "pickAgendaToAdvance": {
+      "args": [],
+      "message": "Pick current agenda to advance.",
+      "options": []
+    },
+    "disappearanceAtTheTwilightEstateChooseInvestigator": {
+      "args": [],
+      "message": "Choose your investigator.",
+      "options": []
+    },
+    "decideAboutMulligan": {
+      "args": [],
+      "input": {
+        "type": "selectCards"
+      },
+      "message": "Do you want to take a mulligan? Select cards in hand to mulligan.",
+      "options": [
+        {
+          "code": [
+            [
+              "DRAW_MULLIGAN_HAND",
+              "$PLAYER_N",
+              [
+                "GET_SELECTED_CARDS_IN_GROUP",
+                [
+                  "GET_CONTROLLER_HAND",
+                  "$PLAYER_N"
+                ],
+                "$PROMPT_INPUT"
+              ]
+            ]
+          ],
+          "hotkey": "Y",
+          "label": "Yes, mulligan selected cards."
+        },
+        {
+          "code": [
+            [
+              "DRAW_MULLIGAN_HAND",
+              "$PLAYER_N",
+              null
+            ]
+          ],
+          "hotkey": "N",
+          "label": "No."
+        }
+      ]
+    },
+    "filmFataleAndresRequestAbilityB": {
+      "args": [],
+      "message": "Do you want to setup Act 2?",
+      "options": [
+        {
+          "code": [
+            [
+              "FILM_FATALE_SETUP_ACT_2",
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "Y",
+          "label": "Yes."
+        },
+        {
+          "hotkey": "N",
+          "label": "No."
+        }
+      ]
+    },
+    "upg09081-6Prompt": {
+      "args": [
+        "$TARGET_PLAYER",
+        "$TARGET_CARD_ID",
+        "$CODE",
+        "$TABOO_ID"
+      ],
+      "message": "Change {{$CARD_BY_ID.$TARGET_CARD_ID.sides.A.name}}.",
+      "options": [
+        {
+          "code": [
+            [
+              "DO_CHANGE_CUSTOMIZABLE_CARD",
+              "$TARGET_PLAYER",
+              "$TARGET_CARD_ID",
+              "$CODE",
+              "$TABOO_ID",
+              "Betray",
+              "0",
+              0,
+              1,
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "1",
+          "label": "Change Betray."
+        },
+        {
+          "code": [
+            [
+              "DO_CHANGE_CUSTOMIZABLE_CARD",
+              "$TARGET_PLAYER",
+              "$TARGET_CARD_ID",
+              "$CODE",
+              "$TABOO_ID",
+              "Cower",
+              "1",
+              0,
+              1,
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "2",
+          "label": "Change Cower."
+        },
+        {
+          "code": [
+            [
+              "DO_CHANGE_CUSTOMIZABLE_CARD",
+              "$TARGET_PLAYER",
+              "$TARGET_CARD_ID",
+              "$CODE",
+              "$TABOO_ID",
+              "Confess",
+              "2",
+              0,
+              1,
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "3",
+          "label": "Change Confess."
+        },
+        {
+          "code": [
+            [
+              "DO_CHANGE_CUSTOMIZABLE_CARD",
+              "$TARGET_PLAYER",
+              "$TARGET_CARD_ID",
+              "$CODE",
+              "$TABOO_ID",
+              "Distract",
+              "3",
+              0,
+              1,
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "4",
+          "label": "Change Distract."
+        },
+        {
+          "code": [
+            [
+              "DO_CHANGE_CUSTOMIZABLE_CARD",
+              "$TARGET_PLAYER",
+              "$TARGET_CARD_ID",
+              "$CODE",
+              "$TABOO_ID",
+              "Greater Control",
+              "4",
+              0,
+              2,
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "5",
+          "label": "Change Greater Control."
+        },
+        {
+          "code": [
+            [
+              "DO_CHANGE_CUSTOMIZABLE_CARD",
+              "$TARGET_PLAYER",
+              "$TARGET_CARD_ID",
+              "$CODE",
+              "$TABOO_ID",
+              "Bonded",
+              "5",
+              0,
+              3,
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "6",
+          "label": "Change Bonded."
+        },
+        {
+          "code": [
+            [
+              "DO_CHANGE_CUSTOMIZABLE_CARD",
+              "$TARGET_PLAYER",
+              "$TARGET_CARD_ID",
+              "$CODE",
+              "$TABOO_ID",
+              "Tonguetwister",
+              "6",
+              0,
+              3,
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "7",
+          "label": "Change Tonguetwister."
+        },
+        {
+          "code": [
+            [
+              "DO_CHANGE_CUSTOMIZABLE_CARD",
+              "$TARGET_PLAYER",
+              "$TARGET_CARD_ID",
+              "$CODE",
+              "$TABOO_ID",
+              "Thrice Spoken",
+              "7",
+              0,
+              3,
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "8",
+          "label": "Change Thrice Spoken."
+        },
+        {
+          "code": [
+            [
+              "DO_RESET_CUSTOMIZABLE_CARD",
+              "$TARGET_PLAYER",
+              "$TARGET_CARD_ID",
+              "$CODE",
+              "$TABOO_ID",
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "R",
+          "label": "Reset."
+        },
+        {
+          "hotkey": "X",
+          "label": "Cancel."
+        }
+      ]
+    },
+    "weaverOfTheCosmosAtlachNachaAbilityA": {
+      "args": [],
+      "message": "Do you want to spin Atlach-Nacha?",
+      "options": [
+        {
+          "code": [
+            [
+              "WEAVER_OF_THE_COSMOS_SPIN_ATLACH_NACHA_CLOCKWISE",
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "C",
+          "label": "Yes, clockwise."
+        },
+        {
+          "code": [
+            [
+              "WEAVER_OF_THE_COSMOS_SPIN_ATLACH_NACHA_COUNTERCLOCKWISE",
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "R",
+          "label": "Yes, counterclockwise."
+        },
+        {
+          "hotkey": "N",
+          "label": "No."
+        }
+      ]
+    },
+    "askToTakeHorrorAfterDraw": {
+      "args": [],
+      "message": "You should now take one horror due to empty deck during draw.",
+      "options": [
+        {
+          "code": [
+            [
+              "VAR",
+              "$INVESTIGATOR",
+              [
+                "GET_INVESTIGATOR",
+                "$PLAYER_N"
+              ]
+            ],
+            [
+              "DO_PLACE_HORROR_ON_CARD",
+              "$PLAYER_N",
+              "$INVESTIGATOR.id",
+              1,
+              true,
+              "$PLAYER_N"
+            ]
+          ],
+          "hotkey": "Y",
+          "label": "Yes, proceed (follow the rules)."
+        },
+        {
+          "code": [
+            [
+              "LOG",
+              "└── {{$ALIAS_N}} skips taking one horror due to empty deck during draw."
+            ]
+          ],
+          "hotkey": "N",
+          "label": "No, skip that (ignore the rules)."
+        }
+      ]
+    }
+  }
+}

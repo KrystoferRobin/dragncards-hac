@@ -1,0 +1,28 @@
+{
+  "browse": {
+    "filterPropertySideA": "type",
+    "filterValuesSideA": [
+      "CHARACTER",
+      "LOCATION",
+      "STARSHIP",
+      "VEHICLE",
+      "WEAPON",
+      "DEVICE",
+      "INTERRUPT",
+      "EFFECT",
+      "OBJECTIVE",
+      "ADMIRALS_ORDER",
+      "EPIC_EVENT",
+      "JEDI_TEST",
+      "DEFENSIVE_SHIELD",
+      "CREATURE",
+      "PODRACER",
+      "GAME_AID"
+    ],
+    "textPropertiesSideA": [
+      "name",
+      "text",
+      "lore"
+    ]
+  }
+}

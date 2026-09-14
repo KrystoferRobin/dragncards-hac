@@ -1,0 +1,15 @@
+{
+  "groupMenu": {
+    "moveToGroupIds": [],
+    "options": [],
+    "suppress": [
+      "Shuffle",
+      "Browse",
+      "Look at top",
+      "Look at top X",
+      "Choose Random",
+      "Set Visibility",
+      "Move To"
+    ]
+  }
+}

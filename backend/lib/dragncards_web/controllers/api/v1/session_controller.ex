@@ -1,13 +1,15 @@
 defmodule DragnCardsWeb.API.V1.SessionController do
   use DragnCardsWeb, :controller
 
+  alias DragnCards.Users
   alias DragnCardsWeb.APIAuthPlug
   alias Plug.Conn
 
   @spec create(Conn.t(), map()) :: Conn.t()
   def create(conn, %{"user" => user_params}) do
-    IO.puts("session create 1")
-    conn = conn
+    user_params = resolve_login_identity(user_params)
+
+    conn
     |> Pow.Plug.authenticate_user(user_params)
     |> case do
       {:ok, conn} ->
@@ -21,11 +23,33 @@ defmodule DragnCardsWeb.API.V1.SessionController do
       {:error, conn} ->
         conn
         |> put_status(401)
-        |> json(%{error: %{status: 401, message: "Invalid email or password"}})
+        |> json(%{error: %{status: 401, message: "Invalid nickname or password"}})
     end
+  end
 
-    IO.puts("session create 2")
-    conn
+  # Login is by nickname. Pow still authenticates on email, so we resolve alias → email.
+  # A value that looks like an email is left alone (existing accounts / tests).
+  defp resolve_login_identity(params) do
+    alias_name = Map.get(params, "alias") || Map.get(params, "nickname")
+    email = Map.get(params, "email")
+
+    cond do
+      is_binary(alias_name) and String.trim(alias_name) != "" ->
+        put_email_from_alias(params, alias_name)
+
+      is_binary(email) and not String.contains?(email, "@") ->
+        put_email_from_alias(params, email)
+
+      true ->
+        params
+    end
+  end
+
+  defp put_email_from_alias(params, alias_name) do
+    case Users.get_user_by_alias(alias_name) do
+      %{email: email} when is_binary(email) -> Map.put(params, "email", email)
+      _ -> params
+    end
   end
 
   @spec renew(Conn.t(), map()) :: Conn.t()

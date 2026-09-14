@@ -1,0 +1,12 @@
+{
+  "phases": {
+    "player1Turn": {
+      "height": "50%",
+      "label": "Player 1 Turn"
+    },
+    "player2Turn": {
+      "height": "50%",
+      "label": "Player 2 Turn"
+    }
+  }
+}

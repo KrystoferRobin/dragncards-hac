@@ -1,0 +1,26 @@
+{
+  "spawnExistingCardModal": {
+    "columnProperties": [
+      "name",
+      "type",
+      "clan",
+      "legal",
+      "cost",
+      "force",
+      "chi",
+      "packName"
+    ],
+    "loadGroupIds": [
+      "player1Dynasty",
+      "player1Fate",
+      "player1Stronghold",
+      "player1Sensei",
+      "player1Play",
+      "player1Holdings",
+      "player1Wind",
+      "player1Hand",
+      "player1Province1",
+      "sharedFavor"
+    ]
+  }
+}

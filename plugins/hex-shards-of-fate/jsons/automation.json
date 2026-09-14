@@ -1,0 +1,44 @@
+{
+  "automation": {
+    "postNewGameActionList": [
+      [
+        "LOG",
+        "HEX table created. Load a starter or a 60-card deck plus a champion. Health starts at 20. No rules are enforced."
+      ]
+    ],
+    "postLoadActionList": [
+      [
+        "SHUFFLE_GROUP",
+        "{{$PLAYER_N}}Deck"
+      ],
+      [
+        "COND",
+        [
+          "GROUP_EMPTY",
+          "{{$PLAYER_N}}Deck"
+        ],
+        [
+          "LOG",
+          "{{$ALIAS_N}} has an empty deck."
+        ],
+        [
+          "TRUE"
+        ],
+        [
+          [
+            "MOVE_STACKS",
+            "{{$PLAYER_N}}Deck",
+            "{{$PLAYER_N}}Hand",
+            7,
+            "bottom"
+          ]
+        ]
+      ],
+      [
+        "LOG",
+        "{{$ALIAS_N}} shuffled and drew seven."
+      ]
+    ],
+    "gameRules": {}
+  }
+}

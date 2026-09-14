@@ -1,0 +1,17 @@
+{
+  "pluginMenu": {
+    "options": [
+      {"label": "Draw library", "actionList": "drawLibrary"},
+      {"label": "Draw crypt", "actionList": "drawCrypt"},
+      {"label": "Shuffle library", "actionList": "shuffleLibrary"},
+      {"label": "Shuffle crypt", "actionList": "shuffleCrypt"},
+      {"label": "Unlock all", "actionList": "unlockAll"},
+      {"label": "Gain 1 pool", "actionList": "increasePool"},
+      {"label": "Burn 1 pool", "actionList": "decreasePool"},
+      {"label": "Gain 1 VP", "actionList": "increaseVp"},
+      {"label": "Lose 1 VP", "actionList": "decreaseVp"},
+      {"label": "Roll 1d6", "actionList": "roll1d6"},
+      {"label": "Flip a coin", "actionList": "flipCoin"}
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "hotkeys": {
+    "game": [
+      {"key": "D", "actionList": "drawCard", "label": "Draw"},
+      {"key": "8", "actionList": "drawEight", "label": "Draw 8"},
+      {"key": "S", "actionList": "shuffleDeck", "label": "Shuffle deck"},
+      {"key": "R", "actionList": "roll1d6", "label": "Roll 1d6"},
+      {"key": "I", "actionList": "flipCoin", "label": "Flip a coin"},
+      {"key": "G", "actionList": "increaseSouls", "label": "Gain 1 Redeemed Soul"},
+      {"key": "T", "actionList": "decreaseSouls", "label": "Lose 1 Redeemed Soul"}
+    ],
+    "card": [
+      {"key": "F", "actionList": ["FLIP", "$ACTIVE_CARD_ID"], "label": "Flip card"},
+      {"key": "X", "actionList": ["DISCARD", "$ACTIVE_CARD_ID"], "label": "Discard"},
+      {"key": "A", "actionList": ["DETACH", "$ACTIVE_CARD_ID"], "label": "Detach"},
+      {"key": "H", "actionList": ["SHUFFLE_INTO_DECK", "$ACTIVE_CARD_ID"], "label": "Shuffle into deck"},
+      {"key": "M", "actionList": "meekify", "label": "Meekify"},
+      {"key": "U", "actionList": "unmeekify", "label": "Un-meekify"}
+    ],
+    "token": [
+      {"key": "1", "tokenType": "green", "label": "Exp"},
+      {"key": "2", "tokenType": "red", "label": "Set Aside"}
+    ]
+  }
+}

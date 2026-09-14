@@ -1,0 +1,279 @@
+{
+  "preBuiltDecks": {
+    "oz-starter-deck": {
+      "label": "Oz Starter Deck",
+      "cards": [
+        {
+          "databaseId": "set1_BF_025_C421_space_colony",
+          "quantity": 2,
+          "loadGroupId": "playerNSupplyBase"
+        },
+        {
+          "databaseId": "set1_EV_041_Camouflage",
+          "quantity": 1,
+          "loadGroupId": "playerNSupplyBase"
+        },
+        {
+          "databaseId": "set1_EV_043_Rose_Essence",
+          "quantity": 3,
+          "loadGroupId": "playerNSupplyBase"
+        },
+        {
+          "databaseId": "set1_EV_045_the_alliance_summit",
+          "quantity": 2,
+          "loadGroupId": "playerNSupplyBase"
+        },
+        {
+          "databaseId": "set1_EV_034_Vanquished",
+          "quantity": 3,
+          "loadGroupId": "playerNSupplyBase"
+        },
+        {
+          "databaseId": "set2_EV_061_13th_constellation",
+          "quantity": 3,
+          "loadGroupId": "playerNSupplyBase"
+        },
+        {
+          "databaseId": "set2_EV_065_Barton_Foundation",
+          "quantity": 2,
+          "loadGroupId": "playerNSupplyBase"
+        },
+        {
+          "databaseId": "set1_PL_036_Duke_dermail",
+          "quantity": 2,
+          "loadGroupId": "playerNSupplyBase"
+        },
+        {
+          "databaseId": "set1_MS_062_Taurus_flying_mode",
+          "quantity": 2,
+          "loadGroupId": "playerNSupplyBase"
+        },
+        {
+          "databaseId": "set2_MS_082_Serpent_Transport_Ship",
+          "quantity": 3,
+          "loadGroupId": "playerNSupplyBase"
+        },
+        {
+          "databaseId": "set1_PL_032_Dorothy_catalonia",
+          "quantity": 1,
+          "loadGroupId": "playerNSupplyBase"
+        },
+        {
+          "databaseId": "set1_PL_011_lady_une",
+          "quantity": 1,
+          "loadGroupId": "playerNSupplyBase"
+        },
+        {
+          "databaseId": "set1_PL_012_lucrezia_noin",
+          "quantity": 1,
+          "loadGroupId": "playerNSupplyBase"
+        },
+        {
+          "databaseId": "set1_PL_033_Tubarov",
+          "quantity": 1,
+          "loadGroupId": "playerNSupplyBase"
+        },
+        {
+          "databaseId": "set2_PL_043_Chang_Wufei",
+          "quantity": 1,
+          "loadGroupId": "playerNSupplyBase"
+        },
+        {
+          "databaseId": "set1_PL_009_zechs_merquise",
+          "quantity": 1,
+          "loadGroupId": "playerNSupplyBase"
+        },
+        {
+          "databaseId": "set1_MS_014_Tallgeese",
+          "quantity": 2,
+          "loadGroupId": "playerNSupplyBase"
+        },
+        {
+          "databaseId": "set1_MS_061_Taurus",
+          "quantity": 2,
+          "loadGroupId": "playerNSupplyBase"
+        },
+        {
+          "databaseId": "set1_MS_051_Leo",
+          "quantity": 3,
+          "loadGroupId": "playerNSupplyBase"
+        },
+        {
+          "databaseId": "set1_MS_052_Leo",
+          "quantity": 3,
+          "loadGroupId": "playerNSupplyBase"
+        },
+        {
+          "databaseId": "set1_MS_015_Tallgeese_II",
+          "quantity": 2,
+          "loadGroupId": "playerNSupplyBase"
+        },
+        {
+          "databaseId": "set2_MS_076_Taurus",
+          "quantity": 2,
+          "loadGroupId": "playerNSupplyBase"
+        },
+        {
+          "databaseId": "set2_MS_081_Serpent",
+          "quantity": 3,
+          "loadGroupId": "playerNSupplyBase"
+        },
+        {
+          "databaseId": "set2_MS_079_Leo",
+          "quantity": 3,
+          "loadGroupId": "playerNSupplyBase"
+        },
+        {
+          "databaseId": "set1_PL_010_treize_khushrenada",
+          "quantity": 1,
+          "loadGroupId": "playerNSupplyBase"
+        }
+      ]
+    },
+    "wing-gundam-starter-deck": {
+      "label": "Wing Gundam Starter Deck",
+      "cards": [
+        {
+          "databaseId": "set1_BF_010_ST.Gabriela_school",
+          "quantity": 2,
+          "loadGroupId": "playerNSupplyBase"
+        },
+        {
+          "databaseId": "set1_EV_026_Mercenary",
+          "quantity": 2,
+          "loadGroupId": "playerNSupplyBase"
+        },
+        {
+          "databaseId": "set1_EV_001_operation_meteor",
+          "quantity": 2,
+          "loadGroupId": "playerNSupplyBase"
+        },
+        {
+          "databaseId": "set1_EV_017_the_peacecrafts",
+          "quantity": 1,
+          "loadGroupId": "playerNSupplyBase"
+        },
+        {
+          "databaseId": "set1_EV_023_zero_system",
+          "quantity": 1,
+          "loadGroupId": "playerNSupplyBase"
+        },
+        {
+          "databaseId": "set2_EV_064_Gundam_Recovery",
+          "quantity": 3,
+          "loadGroupId": "playerNSupplyBase"
+        },
+        {
+          "databaseId": "set2_EV_071_The_Pinch",
+          "quantity": 3,
+          "loadGroupId": "playerNSupplyBase"
+        },
+        {
+          "databaseId": "set2_EV_052_Preventer",
+          "quantity": 2,
+          "loadGroupId": "playerNSupplyBase"
+        },
+        {
+          "databaseId": "set1_EV_020_part_thieves",
+          "quantity": 2,
+          "loadGroupId": "playerNSupplyBase"
+        },
+        {
+          "databaseId": "set1_PL_008_doctor_j",
+          "quantity": 2,
+          "loadGroupId": "playerNSupplyBase"
+        },
+        {
+          "databaseId": "set1_MS_037_Vayeate_Incomplete",
+          "quantity": 1,
+          "loadGroupId": "playerNSupplyBase"
+        },
+        {
+          "databaseId": "set1_MS_038_Mercurius_Incomplete",
+          "quantity": 1,
+          "loadGroupId": "playerNSupplyBase"
+        },
+        {
+          "databaseId": "set2_MS_072_Tallgeese_III",
+          "quantity": 3,
+          "loadGroupId": "playerNSupplyBase"
+        },
+        {
+          "databaseId": "set2_MS_074_Preventer_Shuttle",
+          "quantity": 3,
+          "loadGroupId": "playerNSupplyBase"
+        },
+        {
+          "databaseId": "set1_MS_045_Transport_Trailer",
+          "quantity": 3,
+          "loadGroupId": "playerNSupplyBase"
+        },
+        {
+          "databaseId": "set1_PL_005_chang_wufei",
+          "quantity": 1,
+          "loadGroupId": "playerNSupplyBase"
+        },
+        {
+          "databaseId": "set1_PL_002_Duo_maxwell",
+          "quantity": 1,
+          "loadGroupId": "playerNSupplyBase"
+        },
+        {
+          "databaseId": "set1_PL_001_heero_yuy",
+          "quantity": 1,
+          "loadGroupId": "playerNSupplyBase"
+        },
+        {
+          "databaseId": "set1_PL_004_Quatre_raberba_winner",
+          "quantity": 1,
+          "loadGroupId": "playerNSupplyBase"
+        },
+        {
+          "databaseId": "set1_PL_003_trowa_barton",
+          "quantity": 1,
+          "loadGroupId": "playerNSupplyBase"
+        },
+        {
+          "databaseId": "set1_MS_003_Gundam_Deathscythe",
+          "quantity": 1,
+          "loadGroupId": "playerNSupplyBase"
+        },
+        {
+          "databaseId": "set1_MS_004_Gundam_Heavyarms",
+          "quantity": 1,
+          "loadGroupId": "playerNSupplyBase"
+        },
+        {
+          "databaseId": "set1_MS_005_Gundam_Sandrock",
+          "quantity": 1,
+          "loadGroupId": "playerNSupplyBase"
+        },
+        {
+          "databaseId": "set1_MS_042_Leo",
+          "quantity": 3,
+          "loadGroupId": "playerNSupplyBase"
+        },
+        {
+          "databaseId": "set1_MS_006_Shenlong_Gundam",
+          "quantity": 1,
+          "loadGroupId": "playerNSupplyBase"
+        },
+        {
+          "databaseId": "set1_MS_010_Taurus",
+          "quantity": 3,
+          "loadGroupId": "playerNSupplyBase"
+        },
+        {
+          "databaseId": "set1_MS_001_Wing_Gundam",
+          "quantity": 1,
+          "loadGroupId": "playerNSupplyBase"
+        },
+        {
+          "databaseId": "set2_MS_073_Taurus",
+          "quantity": 3,
+          "loadGroupId": "playerNSupplyBase"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "steps": {
+    "drawStep": {
+      "phaseId": "draw",
+      "label": "Draw"
+    },
+    "fightStep": {
+      "phaseId": "fight",
+      "label": "Fight"
+    },
+    "cleanupStep": {
+      "phaseId": "cleanup",
+      "label": "Cleanup"
+    }
+  },
+  "stepOrder": [
+    "drawStep",
+    "fightStep",
+    "cleanupStep"
+  ]
+}

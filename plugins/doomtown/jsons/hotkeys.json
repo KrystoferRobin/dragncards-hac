@@ -1,0 +1,87 @@
+{
+  "hotkeys": {
+    "game": [
+      {
+        "key": "D",
+        "actionList": "drawDeck",
+        "label": "Draw"
+      },
+      {
+        "key": "S",
+        "actionList": "shuffleDeck",
+        "label": "Shuffle deck"
+      },
+      {
+        "key": "R",
+        "actionList": "readyAll",
+        "label": "Ready all"
+      },
+      {
+        "key": "C",
+        "actionList": "flipCoin",
+        "label": "Flip coin"
+      },
+      {
+        "key": "P",
+        "actionList": "pullDrawHand",
+        "label": "Pull to Draw Hand"
+      }
+    ],
+    "card": [
+      {
+        "key": "K",
+        "actionList": "readyCard",
+        "label": "Ready"
+      },
+      {
+        "key": "E",
+        "actionList": "spendCard",
+        "label": "Exert / boot"
+      },
+      {
+        "key": "F",
+        "actionList": [
+          "FLIP",
+          "$ACTIVE_CARD_ID"
+        ],
+        "label": "Flip"
+      },
+      {
+        "key": "X",
+        "actionList": [
+          "DISCARD",
+          "$ACTIVE_CARD_ID"
+        ],
+        "label": "Discard"
+      },
+      {
+        "key": "A",
+        "actionList": [
+          "DETACH",
+          "$ACTIVE_CARD_ID"
+        ],
+        "label": "Detach"
+      },
+      {
+        "key": "H",
+        "actionList": [
+          "SHUFFLE_INTO_DECK",
+          "$ACTIVE_CARD_ID"
+        ],
+        "label": "Shuffle into deck"
+      }
+    ],
+    "token": [
+      {
+        "key": "1",
+        "tokenType": "green",
+        "label": "Green +1"
+      },
+      {
+        "key": "2",
+        "tokenType": "red",
+        "label": "Red +1"
+      }
+    ]
+  }
+}

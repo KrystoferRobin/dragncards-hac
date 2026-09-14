@@ -1,0 +1,39 @@
+{
+  "browse": {
+    "filterPropertySideA": "type",
+    "filterValuesSideA": [
+      "Artifact",
+      "Damage Marker",
+      "Dilemma",
+      "Doorway",
+      "Equipment",
+      "Event",
+      "Facility",
+      "Incident",
+      "Interrupt",
+      "Interrupt/Event",
+      "Mission",
+      "Objective",
+      "Overlay",
+      "Personnel",
+      "Q Artifact",
+      "Q Dilemma",
+      "Q Event",
+      "Q Interrupt",
+      "Q Mission",
+      "Ship",
+      "Site",
+      "Tactic",
+      "Time Location",
+      "Tribble",
+      "Trouble"
+    ],
+    "textPropertiesSideA": [
+      "name",
+      "affiliation",
+      "classification",
+      "text",
+      "packName"
+    ]
+  }
+}

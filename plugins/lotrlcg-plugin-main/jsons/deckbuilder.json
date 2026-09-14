@@ -1,0 +1,35 @@
+{
+    "deckbuilder": {
+        "addButtons": [1,2,3],
+        "colorKey": "sphere",
+        "colorValues": {
+            "Leadership": "#9600b9",
+            "Lore": "#09b900",
+            "Spirit": "#00ccee",
+            "Tactics": "#ff0000"
+        },
+        "columns": [
+            {"propName": "name", "label": "id:name"},
+            {"propName": "sphere", "label": "id:sphere"},
+            {"propName": "type", "label": "id:type"},
+            {"propName": "traits", "label": "id:traits"},
+            {"propName": "packName", "label": "id:pack"},
+            {"propName": "numberInPack", "label": "id:number"}
+        ],
+        "spawnGroups": [
+            {"loadGroupId": "playerNPlay1", "label": "id:myPlayArea"},
+            {"loadGroupId": "playerNDeck", "label": "id:myDeck"},
+            {"loadGroupId": "sharedQuestDeck","label": "id:sharedQuestDeck"},
+            {"loadGroupId": "sharedQuestDeck2","label": "id:sharedQuestDeck2"},
+            {"loadGroupId": "sharedActiveLocation", "label": "id:sharedActiveLocation"},
+            {"loadGroupId": "sharedStagingArea", "label": "id:sharedStagingArea"},
+            {"loadGroupId": "sharedEncounterDeck", "label": "id:sharedEncounterDeck"},
+            {"loadGroupId": "sharedEncounterDeck2", "label": "id:sharedEncounterDeck2"},
+            {"loadGroupId": "sharedEncounterDeck3", "label": "id:sharedEncounterDeck3"},
+            {"loadGroupId": "sharedExtra1", "label": "id:sharedExtra1"},
+            {"loadGroupId": "sharedExtra2", "label": "id:sharedExtra2"},
+            {"loadGroupId": "sharedExtra3", "label": "id:sharedExtra3"},
+            {"loadGroupId": "sharedExtra4", "label": "id:sharedExtra4"}
+        ]
+    }
+}

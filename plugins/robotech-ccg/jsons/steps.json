@@ -1,0 +1,26 @@
+{
+  "steps": {
+    "regroupStep": {
+      "phaseId": "regroup",
+      "label": "Regroup"
+    },
+    "protoStep": {
+      "phaseId": "proto",
+      "label": "Proto"
+    },
+    "mobilizeStep": {
+      "phaseId": "mobilize",
+      "label": "Mobilize"
+    },
+    "battleStep": {
+      "phaseId": "battle",
+      "label": "Battle"
+    }
+  },
+  "stepOrder": [
+    "regroupStep",
+    "protoStep",
+    "mobilizeStep",
+    "battleStep"
+  ]
+}

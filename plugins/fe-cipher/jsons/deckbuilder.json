@@ -1,0 +1,54 @@
+{
+  "deckbuilder": {
+    "addButtons": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "columns": [
+      {
+        "propName": "name",
+        "label": "Name"
+      },
+      {
+        "propName": "type",
+        "label": "Color"
+      },
+      {
+        "propName": "klass",
+        "label": "Class"
+      },
+      {
+        "propName": "cost",
+        "label": "Cost"
+      },
+      {
+        "propName": "attack",
+        "label": "ATK"
+      },
+      {
+        "propName": "packName",
+        "label": "Set"
+      }
+    ],
+    "spawnGroups": [
+      {
+        "loadGroupId": "playerNDeck",
+        "label": "My Deck"
+      },
+      {
+        "loadGroupId": "playerNStarting",
+        "label": "My Starting"
+      },
+      {
+        "loadGroupId": "playerNBonds",
+        "label": "My Bonds"
+      },
+      {
+        "loadGroupId": "playerNMisc",
+        "label": "My Misc"
+      }
+    ]
+  }
+}

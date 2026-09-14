@@ -1,7 +1,7 @@
 import React from "react";
 import { faArrowUp, faArrowDown, faRandom, faChevronRight, faCheck } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { DropdownItem, GoBack } from "./DropdownMenuHelpers";
+import { DropdownItem, DropdownShell, GoBack } from "./DropdownMenuHelpers";
 import "../../css/custom-dropdown.css";
 import { useDispatch, useSelector, shallowEqual } from "react-redux";
 import { useGameDefinition } from "./hooks/useGameDefinition";
@@ -11,7 +11,6 @@ import { dragnActionLists } from "./functions/dragnActionLists";
 import { setDropdownMenu } from "../store/playerUiSlice";
 import { useSiteL10n } from "../../hooks/useSiteL10n";
 import { useGameL10n } from "./hooks/useGameL10n";
-import { Z_INDEX } from "./functions/common";
 
 const DropdownMoveTo = ({ destGroupId, origGroupId, numStacks, handleDropdownClick, siteL10n }) => {
   return (
@@ -71,10 +70,6 @@ export const DropdownMenuGroup = React.memo(({
     return null;
   }, shallowEqual);
 
-  const windowHeight = window.innerHeight;
-  const left = mouseX < (window.innerWidth/2)  ? mouseX + windowHeight * 0.01 : mouseX - windowHeight * 0.36;
-  const rawTop = mouseY < (window.innerHeight/2) ? mouseY - windowHeight * 0.1 : mouseY - windowHeight * 0.5;
-  const top = Math.min(rawTop, window.innerHeight - (menuHeight || 0) - 8);
 
   const actionListShuffle = [
     ["SHUFFLE_GROUP", menuGroup.id],
@@ -88,9 +83,7 @@ export const DropdownMenuGroup = React.memo(({
   
 
   return (
-    <div 
-      className="dropdown" 
-      style={{ height: menuHeight, zIndex: Z_INDEX.DropdownMenu, top: top, left: left }}>
+    <DropdownShell mouseX={mouseX} mouseY={mouseY} measureKey={activeMenu}>
         <div className="menu-title">{dropdownMenu.title}</div>
         {activeMenu === "main" &&
         <div className="menu">
@@ -231,6 +224,6 @@ export const DropdownMenuGroup = React.memo(({
             siteL10n={siteL10n}
           />;
         })}
-    </div>
+    </DropdownShell>
   );
 })

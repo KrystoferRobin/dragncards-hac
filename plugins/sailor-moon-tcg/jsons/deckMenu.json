@@ -1,0 +1,61 @@
+{
+  "deckMenu": {
+    "subMenus": [
+      {
+        "label": "Character Decks",
+        "deckLists": [
+          {
+            "deckListId": "sailor-jupiter-character-deck",
+            "label": "Sailor Jupiter Character Deck"
+          },
+          {
+            "deckListId": "sailor-mars-character-deck",
+            "label": "Sailor Mars Character Deck"
+          },
+          {
+            "deckListId": "sailor-mercury-character-deck",
+            "label": "Sailor Mercury Character Deck"
+          },
+          {
+            "deckListId": "sailor-moon-character-deck",
+            "label": "Sailor Moon Character Deck"
+          },
+          {
+            "deckListId": "sailor-venus-character-deck",
+            "label": "Sailor Venus Character Deck"
+          },
+          {
+            "deckListId": "tuxedo-mask-character-deck",
+            "label": "Tuxedo Mask Character Deck"
+          }
+        ]
+      },
+      {
+        "label": "2-Player Starters",
+        "deckLists": [
+          {
+            "deckListId": "2-player-starter-mercury-venus",
+            "label": "2 Player Starter Mercury Venus"
+          },
+          {
+            "deckListId": "2-player-starter-moon-mars",
+            "label": "2 Player Starter Moon Mars"
+          }
+        ]
+      },
+      {
+        "label": "Theme Decks",
+        "deckLists": [
+          {
+            "deckListId": "future-deck",
+            "label": "Future Deck"
+          },
+          {
+            "deckListId": "past-deck",
+            "label": "Past Deck"
+          }
+        ]
+      }
+    ]
+  }
+}

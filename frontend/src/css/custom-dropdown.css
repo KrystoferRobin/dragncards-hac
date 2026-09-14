@@ -53,12 +53,12 @@
   
   /* Icon Button */
   .icon-button {
-    width: 3.5dvh;
-    height: 3.5dvh;
+    width: 2.6dvh;
+    height: 2.6dvh;
     background-color: #484a4d;
     border-radius: 50%;
-    padding: 0.5dvh;
-    margin: 0.25dvh;
+    padding: 0.35dvh;
+    margin: 0.15dvh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -71,8 +71,8 @@
 
   .icon-button svg {
     fill: var(--text-color);
-    width: 2dvh;
-    height: 2dvh;
+    width: 1.5dvh;
+    height: 1.5dvh;
   }
   
   
@@ -85,8 +85,9 @@
     background-color: var(--bg);
     border: var(--border);
     border-radius: var(--border-radius);
-    padding: 1dvh;
-    overflow: hidden;
+    padding: 0.7dvh;
+    overflow-x: hidden;
+    overflow-y: auto;
     transition: height var(--speed) ease;
   }
 
@@ -107,30 +108,31 @@
   }
   
   .menu-title {
-    height: 4dvh;
+    height: 2.8dvh;
     width: 100%;
     font-weight: bold;
     align-items: center;
     text-align: center;
-    font-size: 2.5dvh;
+    font-size: 1.875dvh;
     border-radius: var(--border-radius);
     padding: 0px;
-    margin-bottom: 1dvh;
+    margin-bottom: 0.7dvh;
     color: white;
     text-decoration: none;
     vertical-align: text-top;
-    overflow-x: visible;
+    overflow: hidden;
+    text-overflow: ellipsis;
     white-space: nowrap;
   }
 
   .menu-item {
-    height: 4dvh;
+    height: 2.8dvh;
     display: flex;
     align-items: center;
-    font-size: 2dvh;
+    font-size: 1.5dvh;
     border-radius: var(--border-radius);
     transition: background var(--speed);
-    padding: 1dvh;
+    padding: 0.7dvh;
     margin: 0dvh;
     color: white;
     text-decoration: none;

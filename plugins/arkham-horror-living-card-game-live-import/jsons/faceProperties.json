@@ -1,0 +1,200 @@
+{
+  "faceProperties": {
+    "health": {
+      "default": null,
+      "type": "integer"
+    },
+    "healthPerInvestigator": {
+      "default": false,
+      "type": "boolean"
+    },
+    "cost": {
+      "default": null,
+      "type": "integer"
+    },
+    "exceptional": {
+      "default": false,
+      "type": "boolean"
+    },
+    "concealedId": {
+      "default": null,
+      "type": "string"
+    },
+    "uses": {
+      "default": null,
+      "type": "integer"
+    },
+    "enemyEvade": {
+      "default": null,
+      "type": "integer"
+    },
+    "tabooName": {
+      "default": "None",
+      "type": "string"
+    },
+    "sanity": {
+      "default": null,
+      "type": "integer"
+    },
+    "encounterNumber": {
+      "default": 0,
+      "type": "integer"
+    },
+    "deckbuilderQuantity": {
+      "default": 0,
+      "type": "integer"
+    },
+    "skillCombat": {
+      "default": null,
+      "type": "integer"
+    },
+    "xp": {
+      "default": null,
+      "type": "integer"
+    },
+    "side": {
+      "default": "",
+      "type": "string"
+    },
+    "concealed": {
+      "default": 0,
+      "type": "integer"
+    },
+    "permanent": {
+      "default": false,
+      "type": "boolean"
+    },
+    "myriad": {
+      "default": false,
+      "type": "boolean"
+    },
+    "tabooId": {
+      "default": 0,
+      "type": "integer"
+    },
+    "tabooXp": {
+      "default": 0,
+      "type": "integer"
+    },
+    "action": {
+      "default": false,
+      "type": "boolean"
+    },
+    "free": {
+      "default": false,
+      "type": "boolean"
+    },
+    "text": {
+      "default": "",
+      "type": "string"
+    },
+    "skillWillpower": {
+      "default": null,
+      "type": "integer"
+    },
+    "code": {
+      "default": null,
+      "type": "string"
+    },
+    "hasBonded": {
+      "default": false,
+      "type": "boolean"
+    },
+    "clues": {
+      "default": null,
+      "type": "integer"
+    },
+    "enemyFight": {
+      "default": null,
+      "type": "integer"
+    },
+    "traits": {
+      "default": "",
+      "type": "string"
+    },
+    "shroud": {
+      "default": null,
+      "type": "integer"
+    },
+    "skillIntellect": {
+      "default": null,
+      "type": "integer"
+    },
+    "numberInPack": {
+      "default": 0,
+      "type": "integer"
+    },
+    "reaction": {
+      "default": false,
+      "type": "boolean"
+    },
+    "starting": {
+      "default": false,
+      "type": "boolean"
+    },
+    "doom": {
+      "default": null,
+      "type": "integer"
+    },
+    "victoryPoints": {
+      "default": null,
+      "type": "integer"
+    },
+    "enemyHorror": {
+      "default": null,
+      "type": "integer"
+    },
+    "setUuid": {
+      "default": "",
+      "type": "string"
+    },
+    "packName": {
+      "default": "",
+      "type": "string"
+    },
+    "vengeance": {
+      "default": null,
+      "type": "integer"
+    },
+    "enemyDamage": {
+      "default": null,
+      "type": "integer"
+    },
+    "unique": {
+      "default": false,
+      "type": "boolean"
+    },
+    "cluesFixed": {
+      "default": false,
+      "type": "boolean"
+    },
+    "parallelContent": {
+      "default": false,
+      "type": "boolean"
+    },
+    "skillAgility": {
+      "default": null,
+      "type": "integer"
+    },
+    "skillWild": {
+      "default": null,
+      "type": "integer"
+    },
+    "encounterSet": {
+      "default": "",
+      "type": "string"
+    },
+    "faction": {
+      "default": "",
+      "type": "string"
+    },
+    "stage": {
+      "default": null,
+      "type": "integer"
+    },
+    "subtype": {
+      "default": "",
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "pluginName": "Vampire: The Eternal Struggle",
+  "author": "KRCG",
+  "tutorialUrl": "https://static.krcg.org/",
+  "backgroundUrl": "",
+  "bannerUrl": "https://toybox.hundredacre.club/cards/vampire-the-eternal-struggle/_plugin/banner.jpg",
+  "logoUrl": "https://toybox.hundredacre.club/cards/vampire-the-eternal-struggle/_plugin/logo.jpg",
+  "loadPreBuiltOnNewGame": false
+}

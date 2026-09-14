@@ -1,0 +1,16 @@
+{
+  "playerProperties": {
+    "sanity": {
+      "label": "Sanity",
+      "type": "integer",
+      "default": 20,
+      "min": 0
+    },
+    "actionPoints": {
+      "label": "APs",
+      "type": "integer",
+      "default": 0,
+      "min": 0
+    }
+  }
+}

@@ -1,7 +1,7 @@
 import React from "react";
 import { faArrowUp, faArrowDown, faRandom, faChevronRight, faCheck, faExternalLinkAlt } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { DropdownItem, GoBack } from "./DropdownMenuHelpers";
+import { DropdownItem, DropdownShell, GoBack } from "./DropdownMenuHelpers";
 import "../../css/custom-dropdown.css";
 import { useDispatch, useSelector } from "react-redux";
 import { useGameDefinition } from "./hooks/useGameDefinition";
@@ -20,7 +20,6 @@ import { setActiveCardId, setDropdownMenu, setShowModal } from "../store/playerU
 import { usePlayerIList } from "./hooks/usePlayerIList";
 import { evaluate } from "./hooks/evaluate";
 import store from "../../store";
-import { Z_INDEX } from "./functions/common";
 
 export const DropdownMenuCard = React.memo(({
   mouseX,
@@ -134,15 +133,8 @@ export const DropdownMenuCard = React.memo(({
     )
   }
 
-  const windowHeight = window.innerHeight;
-  const left = mouseX < (window.innerWidth/2)  ? mouseX + windowHeight * 0.01 : mouseX - windowHeight * 0.36;
-  const rawTop = mouseY < (window.innerHeight/2) ? mouseY - windowHeight * 0.1 : mouseY - windowHeight * 0.35;
-  const top = Math.min(rawTop, window.innerHeight - (menuHeight || 0) - 8);
-
   return (
-    <div 
-      className="dropdown" 
-      style={{ height: menuHeight, zIndex: Z_INDEX.DropdownMenu, top: top, left: left }}>
+    <DropdownShell mouseX={mouseX} mouseY={mouseY} measureKey={activeMenu}>
         <div className="menu-title">{dropdownMenu.title}</div>
 
         {activeMenu === "main" &&
@@ -338,7 +330,7 @@ export const DropdownMenuCard = React.memo(({
           ))}
         </div>}
 
-      {activeMenu === "attachmentDirection" &&
+        {activeMenu === "attachmentDirection" &&
         <div className="menu">
           <GoBack goToMenu="main" clickCallback={handleDropdownClick}/>
           {["right", "left", "top", "bottom", "behind"].map((dir, _rotIndex) => (
@@ -352,6 +344,6 @@ export const DropdownMenuCard = React.memo(({
           ))}
         </div>}
 
-    </div>
+    </DropdownShell>
   );
 })

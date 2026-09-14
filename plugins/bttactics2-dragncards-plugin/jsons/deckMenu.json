@@ -1,0 +1,148 @@
+{
+  "deckMenu": {
+    "subMenus": [
+      {
+        "label": "Beginner Decks",
+        "deckLists": [
+          {
+            "label": "Comstar",
+            "deckListId": "beginnerComstar"
+          },
+          {
+            "label": "Davion",
+            "deckListId": "beginnerDavion"
+          },
+          {
+            "label": "GB",
+            "deckListId": "beginnerGb"
+          },
+          {
+            "label": "JF",
+            "deckListId": "beginnerJf"
+          },
+          {
+            "label": "Kurita",
+            "deckListId": "beginnerKurita"
+          },
+          {
+            "label": "Liao",
+            "deckListId": "beginnerLiao"
+          },
+          {
+            "label": "Marik",
+            "deckListId": "beginnerMarik"
+          },
+          {
+            "label": "Rasalhague",
+            "deckListId": "beginnerRasalhague"
+          },
+          {
+            "label": "SJ",
+            "deckListId": "beginnerSj"
+          },
+          {
+            "label": "St Ives",
+            "deckListId": "beginnerStIves"
+          },
+          {
+            "label": "Steiner",
+            "deckListId": "beginnerSteiner"
+          },
+          {
+            "label": "SV",
+            "deckListId": "beginnerSv"
+          },
+          {
+            "label": "Wolf",
+            "deckListId": "beginnerWolf"
+          }
+        ]
+      },
+      {
+        "label": "F20 Decks",
+        "deckLists": [
+          {
+            "label": "Comstar Top10",
+            "deckListId": "f20ComstarTop10"
+          },
+          {
+            "label": "Davion OH",
+            "deckListId": "f20DavionOh"
+          },
+          {
+            "label": "Diamond Shark Big Resources",
+            "deckListId": "f20DiamondSharkBigResources"
+          },
+          {
+            "label": "Ghost Bear Elementals",
+            "deckListId": "f20GhostBearElementals"
+          },
+          {
+            "label": "Hell s Horses",
+            "deckListId": "f20HellSHorses"
+          },
+          {
+            "label": "Jade Falcon Big Pilot",
+            "deckListId": "f20JadeFalconBigPilot"
+          },
+          {
+            "label": "Kurita C3 Missile Tag",
+            "deckListId": "f20KuritaC3MissileTag"
+          },
+          {
+            "label": "Liao Pilot",
+            "deckListId": "f20LiaoPilot"
+          },
+          {
+            "label": "Marik LR",
+            "deckListId": "f20MarikLr"
+          },
+          {
+            "label": "Nova Cat Proto Big Mech",
+            "deckListId": "f20NovaCatProtoBigMech"
+          },
+          {
+            "label": "Rasalhague Missiles",
+            "deckListId": "f20RasalhagueMissiles"
+          },
+          {
+            "label": "Smoke Jaguar Kitty Conundrum",
+            "deckListId": "f20SmokeJaguarKittyConundrum"
+          },
+          {
+            "label": "StarAdder Protomech",
+            "deckListId": "f20StaradderProtomech"
+          },
+          {
+            "label": "Steel Viper Moderate Heavies",
+            "deckListId": "f20SteelViperModerateHeavies"
+          },
+          {
+            "label": "Steiner AX",
+            "deckListId": "f20SteinerAx"
+          },
+          {
+            "label": "StIves Media Campaign",
+            "deckListId": "f20StivesMediaCampaign"
+          },
+          {
+            "label": "Wolf Hunter",
+            "deckListId": "f20WolfHunter"
+          },
+          {
+            "label": "Wolf in Exile Tap to Play",
+            "deckListId": "f20WolfInExileTapToPlay"
+          },
+          {
+            "label": "Wolf s Dragoons Big Pilot",
+            "deckListId": "f20WolfSDragoonsBigPilot"
+          },
+          {
+            "label": "Word of Blake C3I",
+            "deckListId": "f20WordOfBlakeC3I"
+          }
+        ]
+      }
+    ]
+  }
+}

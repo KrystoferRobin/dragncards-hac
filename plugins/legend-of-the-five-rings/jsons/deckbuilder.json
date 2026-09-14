@@ -1,0 +1,73 @@
+{
+  "deckbuilder": {
+    "addButtons": [
+      1,
+      2,
+      3
+    ],
+    "columns": [
+      {
+        "propName": "name",
+        "label": "Name"
+      },
+      {
+        "propName": "type",
+        "label": "Type"
+      },
+      {
+        "propName": "clan",
+        "label": "Clan"
+      },
+      {
+        "propName": "legal",
+        "label": "Legality"
+      },
+      {
+        "propName": "cost",
+        "label": "Gold"
+      },
+      {
+        "propName": "force",
+        "label": "Force"
+      },
+      {
+        "propName": "chi",
+        "label": "Chi"
+      },
+      {
+        "propName": "packName",
+        "label": "Set"
+      }
+    ],
+    "spawnGroups": [
+      {
+        "loadGroupId": "playerNDynasty",
+        "label": "My Dynasty"
+      },
+      {
+        "loadGroupId": "playerNFate",
+        "label": "My Fate"
+      },
+      {
+        "loadGroupId": "playerNStronghold",
+        "label": "My Stronghold"
+      },
+      {
+        "loadGroupId": "playerNSensei",
+        "label": "My Sensei"
+      },
+      {
+        "loadGroupId": "playerNPlay",
+        "label": "My Play"
+      },
+      {
+        "loadGroupId": "playerNHoldings",
+        "label": "My Holdings"
+      },
+      {
+        "loadGroupId": "playerNWind",
+        "label": "My Wind"
+      }
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "spawnExistingCardModal": {
+    "columnProperties": ["name", "type", "set", "gold"],
+    "loadGroupIds": [
+      "playerNTreasureHorde",
+      "playerNDragonLair",
+      "playerNBattlefield",
+      "playerNHand",
+      "playerNDragonLairHand",
+      "sharedSetAside"
+    ]
+  }
+}

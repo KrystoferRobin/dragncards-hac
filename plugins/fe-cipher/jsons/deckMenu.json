@@ -1,0 +1,59 @@
+{
+  "deckMenu": {
+    "subMenus": [
+      {
+        "label": "Lackey Decks",
+        "deckLists": [
+          {
+            "deckListId": "blazing-blade-starter",
+            "label": "Blazing Blade Starter"
+          },
+          {
+            "deckListId": "warriors-of-bonds-starter",
+            "label": "Warriors of Bonds Starter"
+          },
+          {
+            "deckListId": "three-houses-starter",
+            "label": "Three Houses Starter"
+          },
+          {
+            "deckListId": "war-of-shadows-starter",
+            "label": "War of Shadows Starter"
+          },
+          {
+            "deckListId": "awakening-starter",
+            "label": "Awakening Starter"
+          },
+          {
+            "deckListId": "hoshido-starter",
+            "label": "Hoshido Starter"
+          },
+          {
+            "deckListId": "nohr-starter",
+            "label": "Nohr Starter"
+          },
+          {
+            "deckListId": "path-of-radiance-starter",
+            "label": "Path of Radiance Starter"
+          },
+          {
+            "deckListId": "mirage-starter",
+            "label": "Mirage Starter"
+          },
+          {
+            "deckListId": "binding-disturbance-starter",
+            "label": "Binding Disturbance Starter"
+          },
+          {
+            "deckListId": "genealogy-starter",
+            "label": "Genealogy Starter"
+          },
+          {
+            "deckListId": "land-of-the-gods-starter",
+            "label": "Land of The Gods Starter"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "steps": {
+    "preliminaryStep": {
+      "phaseId": "preliminary",
+      "label": "Preliminary"
+    },
+    "attackStep": {
+      "phaseId": "attack",
+      "label": "Attack"
+    },
+    "strategicStep": {
+      "phaseId": "strategic",
+      "label": "Strategic"
+    },
+    "recuperationStep": {
+      "phaseId": "recuperation",
+      "label": "Recuperation"
+    }
+  },
+  "stepOrder": [
+    "preliminaryStep",
+    "attackStep",
+    "strategicStep",
+    "recuperationStep"
+  ]
+}

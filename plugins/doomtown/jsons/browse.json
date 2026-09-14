@@ -1,0 +1,20 @@
+{
+  "browse": {
+    "filterPropertySideA": "type",
+    "filterValuesSideA": [
+      "Action",
+      "Deed",
+      "Dude",
+      "Event",
+      "Good",
+      "Joker",
+      "Outfit",
+      "Spell"
+    ],
+    "textPropertiesSideA": [
+      "name",
+      "packName",
+      "text"
+    ]
+  }
+}

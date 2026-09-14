@@ -1,0 +1,50 @@
+{
+  "pluginMenu": {
+    "options": [
+      {
+        "label": "Draw",
+        "actionList": "drawDeck"
+      },
+      {
+        "label": "Shuffle deck",
+        "actionList": "shuffleDeck"
+      },
+      {
+        "label": "Ready all",
+        "actionList": "readyAll"
+      },
+      {
+        "label": "Flip coin",
+        "actionList": "flipCoin"
+      },
+      {
+        "label": "Ghost Rock +1",
+        "actionList": "increase_ghostRock"
+      },
+      {
+        "label": "Ghost Rock -1",
+        "actionList": "decrease_ghostRock"
+      },
+      {
+        "label": "Influence +1",
+        "actionList": "increase_influence"
+      },
+      {
+        "label": "Influence -1",
+        "actionList": "decrease_influence"
+      },
+      {
+        "label": "Control +1",
+        "actionList": "increase_control"
+      },
+      {
+        "label": "Control -1",
+        "actionList": "decrease_control"
+      },
+      {
+        "label": "Pull to Draw Hand",
+        "actionList": "pullDrawHand"
+      }
+    ]
+  }
+}

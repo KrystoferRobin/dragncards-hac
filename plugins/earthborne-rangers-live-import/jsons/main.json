@@ -1,0 +1,581 @@
+{
+  "pluginName": "Earthborne Rangers",
+  "defaultActions": [
+    {
+      "actionList": [],
+      "condition": [
+        "EQUAL",
+        "$ACTIVE_CARD.layoutType",
+        "horizontalFan"
+      ],
+      "label": ""
+    },
+    {
+      "actionList": "flipCard",
+      "condition": [
+        "AND",
+        [
+          "EQUAL",
+          "$ACTIVE_CARD.rotation",
+          -30
+        ],
+        [
+          "EQUAL",
+          "$ACTIVE_CARD.currentSide",
+          "B"
+        ]
+      ],
+      "label": "id:flip",
+      "position": "bottom"
+    },
+    {
+      "actionList": "discardCard",
+      "condition": [
+        "AND",
+        [
+          "EQUAL",
+          "$ACTIVE_CARD.rotation",
+          -30
+        ],
+        [
+          "EQUAL",
+          "$ACTIVE_CARD.currentSide",
+          "A"
+        ]
+      ],
+      "label": "id:discard",
+      "position": "bottom"
+    },
+    {
+      "actionList": "shuffleIntoDeck",
+      "condition": [
+        "EQUAL",
+        "$ACTIVE_CARD.layoutType",
+        "pile"
+      ],
+      "label": "id:shuffle"
+    },
+    {
+      "actionList": "flipCard",
+      "condition": [
+        "AND",
+        [
+          "EQUAL",
+          "$ACTIVE_FACE.type",
+          "Quest"
+        ],
+        [
+          "EQUAL",
+          "$ACTIVE_CARD.currentSide",
+          "A"
+        ]
+      ],
+      "label": "id:flip"
+    },
+    {
+      "actionList": "addProgress",
+      "condition": [
+        "AND",
+        [
+          "EQUAL",
+          "$ACTIVE_FACE.type",
+          "Quest"
+        ],
+        [
+          "LESS_EQUAL",
+          "$ACTIVE_CARD.tokens.progress",
+          "$ACTIVE_FACE.questPoints"
+        ]
+      ],
+      "label": "id:progress"
+    },
+    {
+      "actionList": "discardCard",
+      "condition": [
+        "AND",
+        [
+          "EQUAL",
+          "$ACTIVE_FACE.type",
+          "Quest"
+        ],
+        [
+          "GREATER_EQUAL",
+          "$ACTIVE_CARD.tokens.progress",
+          "$ACTIVE_FACE.questPoints"
+        ]
+      ],
+      "label": "id:discard"
+    },
+    {
+      "actionList": "flipCard",
+      "condition": [
+        "AND",
+        [
+          "EQUAL",
+          "$ACTIVE_CARD.currentSide",
+          "B"
+        ],
+        "$ACTIVE_CARD.inPlay"
+      ],
+      "label": "id:flip"
+    },
+    {
+      "actionList": "addDamage",
+      "condition": [
+        "AND",
+        [
+          "EQUAL",
+          "$ACTIVE_FACE.type",
+          "Enemy"
+        ],
+        [
+          "LESS_THAN",
+          "$ACTIVE_CARD.tokens.damage",
+          "$ACTIVE_FACE.hitPoints"
+        ]
+      ],
+      "label": "id:damage"
+    },
+    {
+      "actionList": "addToVictoryDisplay",
+      "condition": [
+        "AND",
+        [
+          "EQUAL",
+          "$ACTIVE_FACE.type",
+          "Enemy"
+        ],
+        [
+          "GREATER_EQUAL",
+          "$ACTIVE_CARD.tokens.damage",
+          "$ACTIVE_FACE.hitPoints"
+        ],
+        "$ACTIVE_FACE.victoryPoints",
+        [
+          "GREATHER_THAN",
+          "$ACTIVE_FACE.victoryPoints",
+          0
+        ]
+      ],
+      "label": "id:add to VD"
+    },
+    {
+      "actionList": "discardCard",
+      "condition": [
+        "AND",
+        [
+          "EQUAL",
+          "$ACTIVE_FACE.type",
+          "Enemy"
+        ],
+        [
+          "GREATER_EQUAL",
+          "$ACTIVE_CARD.tokens.damage",
+          "$ACTIVE_FACE.hitPoints"
+        ]
+      ],
+      "label": "id:discard"
+    },
+    {
+      "actionList": "discardCard",
+      "condition": [
+        "EQUAL",
+        "$ACTIVE_FACE.type",
+        "Treachery"
+      ],
+      "label": "id:discard"
+    },
+    {
+      "actionList": "addProgress",
+      "condition": [
+        "AND",
+        [
+          "EQUAL",
+          "$ACTIVE_FACE.type",
+          "Location"
+        ],
+        [
+          "LESS_THAN",
+          "$ACTIVE_CARD.tokens.progress",
+          "$ACTIVE_FACE.questPoints"
+        ]
+      ],
+      "label": "id:progress"
+    },
+    {
+      "actionList": "addToVictoryDisplay",
+      "condition": [
+        "AND",
+        [
+          "EQUAL",
+          "$ACTIVE_FACE.type",
+          "Location"
+        ],
+        [
+          "GREATER_EQUAL",
+          "$ACTIVE_CARD.tokens.progress",
+          "$ACTIVE_FACE.questPoints"
+        ],
+        "$ACTIVE_FACE.victoryPoints",
+        [
+          "GREATHER_THAN",
+          "$ACTIVE_FACE.victoryPoints",
+          0
+        ]
+      ],
+      "label": "id:add to VD"
+    },
+    {
+      "actionList": "discardCard",
+      "condition": [
+        "AND",
+        [
+          "EQUAL",
+          "$ACTIVE_FACE.type",
+          "Location"
+        ],
+        [
+          "GREATER_EQUAL",
+          "$ACTIVE_CARD.tokens.progress",
+          "$ACTIVE_FACE.questPoints"
+        ]
+      ],
+      "label": "id:discard"
+    },
+    {
+      "actionList": "discardCard",
+      "condition": [
+        "EQUAL",
+        "$ACTIVE_FACE.type",
+        "Event"
+      ],
+      "label": "id:discard"
+    },
+    {
+      "actionList": "toggleExhaust",
+      "condition": [
+        "EQUAL",
+        "$ACTIVE_CARD.rotation",
+        0
+      ],
+      "label": "id:exhaust"
+    },
+    {
+      "actionList": "toggleExhaust",
+      "condition": [
+        "EQUAL",
+        "$ACTIVE_CARD.rotation",
+        90
+      ],
+      "label": "id:ready"
+    }
+  ],
+  "announcements": [
+    "21/08/2026: 🗺️ Load Campaign from earthborne.build & RangersDB!",
+    "24/06/2026: 🏔️Shadow of the Storm available❄️",
+    "11/01/2026: Solo 2-handed layout 🤝",
+    "01/11/2025: 🌻Spire in Bloom available🌸",
+    "05/09/2025: Legacy of the Ancestors campaign is Live!",
+    "24/08/2025: Shift+M: shuffle Moments into the Path Deck!",
+    "05/06/2025: Stewards of the Valley is now available!",
+    "23/10/2024: Added mission cards for \"Animal Rescue\"",
+    "11/09/2024: Energy tokens on ranger cards",
+    "26/03/2024: Shift+T: travel to a nearby location!",
+    "24/03/2024: Deck import from RangersDB (thanks Seastan)",
+    "26/10/2023: EBR plugin development begun"
+  ],
+  "playerCountMenu": [
+    {
+      "label": "1",
+      "layoutId": "layout1Player",
+      "numPlayers": 1
+    },
+    {
+      "label": "2",
+      "layoutId": "layout2Player",
+      "numPlayers": 2
+    },
+    {
+      "label": "3",
+      "layoutId": "layout3Player",
+      "numPlayers": 3
+    },
+    {
+      "label": "4",
+      "layoutId": "layout4Player",
+      "numPlayers": 4
+    },
+    {
+      "label": "id:2-handed",
+      "layoutId": "layout2Handed",
+      "numPlayers": 2
+    }
+  ],
+  "backgroundUrl": "https://toybox.hundredacre.club/cards/earthborne-rangers/_plugin/EarthborneRangers-Background.jpg",
+  "clearTableOptions": [
+    {
+      "actionList": [
+        "SET",
+        "/victoryState",
+        "victory"
+      ],
+      "label": "id:labelMarkAsVictory"
+    },
+    {
+      "actionList": [
+        "SET",
+        "/victoryState",
+        "defeat"
+      ],
+      "label": "id:labelMarkAsDefeat"
+    },
+    {
+      "actionList": [
+        "SET",
+        "/victoryState",
+        "incomplete"
+      ],
+      "label": "id:labelMarkAsIncomplete"
+    }
+  ],
+  "stepReminderRegex": [
+    {
+      "faceProperty": "text",
+      "regex": "Arrival Setup",
+      "stepId": "3.5"
+    },
+    {
+      "faceProperty": "text",
+      "regex": "Refresh",
+      "stepId": "4.1"
+    }
+  ],
+  "stepOrder": [
+    "1",
+    "2",
+    "3.1",
+    "3.2",
+    "3.3",
+    "3.4",
+    "3.5",
+    "4.1",
+    "4.2",
+    "4.3"
+  ],
+  "tutorialUrl": "https://youtu.be/I0Y9HQsZy14?si=0cA3qYdbnFQQ4FhW",
+  "phaseOrder": [
+    "PathCards",
+    "RangerPhase",
+    "Travel",
+    "Refresh"
+  ],
+  "closeRoomOptions": [
+    {
+      "actionList": [
+        "SET",
+        "/victoryState",
+        "victory"
+      ],
+      "label": "id:labelMarkAsVictory"
+    },
+    {
+      "actionList": [
+        "SET",
+        "/victoryState",
+        "defeat"
+      ],
+      "label": "id:labelMarkAsDefeat"
+    },
+    {
+      "actionList": [
+        "SET",
+        "/victoryState",
+        "incomplete"
+      ],
+      "label": "id:labelMarkAsIncomplete"
+    }
+  ],
+  "touchBar": [
+    [
+      {
+        "actionList": "zeroTokens",
+        "actionType": "card",
+        "id": "removeTokens",
+        "label": "id:removeTokens"
+      },
+      {
+        "actionType": "token",
+        "id": "incrementProgress",
+        "imageUrl": "https://toybox.hundredacre.club/cards/earthborne-rangers/_plugin/EarthborneRangers-TokenProgress.png",
+        "label": "",
+        "tokenType": "progress"
+      },
+      {
+        "actionType": "token",
+        "id": "incrementHarm",
+        "imageUrl": "https://toybox.hundredacre.club/cards/earthborne-rangers/_plugin/EarthborneRangers-TokenHarm.png",
+        "label": "",
+        "tokenType": "harm"
+      },
+      {
+        "actionType": "token",
+        "id": "incrementGeneral",
+        "imageUrl": "https://toybox.hundredacre.club/cards/earthborne-rangers/_plugin/EarthborneRangers-TokenGeneral.png",
+        "label": "",
+        "tokenType": "general"
+      },
+      {
+        "actionList": "rangerToken",
+        "actionType": "card",
+        "id": "addRangerToken",
+        "label": "id:addRangerToken2"
+      },
+      {
+        "actionType": "token",
+        "id": "incrementAwareness",
+        "imageUrl": "https://toybox.hundredacre.club/cards/earthborne-rangers/_plugin/EarthborneRangers-TokenAwareness2.png",
+        "label": "",
+        "tokenType": "awareness"
+      },
+      {
+        "actionType": "token",
+        "id": "incrementSpirit",
+        "imageUrl": "https://toybox.hundredacre.club/cards/earthborne-rangers/_plugin/EarthborneRangers-TokenSpirit2.png",
+        "label": "",
+        "tokenType": "spirit"
+      },
+      {
+        "actionType": "token",
+        "id": "incrementFitness",
+        "imageUrl": "https://toybox.hundredacre.club/cards/earthborne-rangers/_plugin/EarthborneRangers-TokenFitness2.png",
+        "label": "",
+        "tokenType": "fitness"
+      },
+      {
+        "actionType": "token",
+        "id": "incrementFocus",
+        "imageUrl": "https://toybox.hundredacre.club/cards/earthborne-rangers/_plugin/EarthborneRangers-TokenFocus2.png",
+        "label": "",
+        "tokenType": "focus"
+      },
+      {
+        "actionList": "toggleExhaust",
+        "actionType": "card",
+        "id": "toggleExhaust",
+        "label": "id:exhaustReady"
+      },
+      {
+        "actionList": "shuffleIntoDeck",
+        "actionType": "card",
+        "id": "shuffleIntoDeck",
+        "label": "id:shuffle"
+      },
+      {
+        "actionList": "flipCard",
+        "actionType": "card",
+        "id": "flipTouchButton",
+        "label": "id:flip"
+      },
+      {
+        "actionList": "discardCard",
+        "actionType": "card",
+        "id": "discardTouchButton",
+        "label": "id:discard"
+      },
+      {
+        "actionList": "SetAside",
+        "actionType": "card",
+        "id": "setAside",
+        "label": "id:setAside"
+      }
+    ],
+    [
+      {
+        "actionList": "drawCard",
+        "actionType": "game",
+        "id": "drawCard",
+        "label": "id:draw"
+      },
+      {
+        "actionList": "detach",
+        "actionType": "card",
+        "id": "detach",
+        "label": "id:detach"
+      },
+      {
+        "actionList": "revealPathFaceup",
+        "actionType": "game",
+        "id": "revealPathCard",
+        "label": "id:revealPathCard"
+      },
+      {
+        "actionList": "revealPathFacedown",
+        "actionType": "game",
+        "id": "revealPathFacedown",
+        "label": "id:revealPathFacedown"
+      },
+      {
+        "actionList": "newRound",
+        "actionType": "game",
+        "id": "newRound",
+        "label": "id:newRound"
+      },
+      {
+        "actionList": "undo",
+        "actionType": "engine",
+        "id": "undo",
+        "label": "id:undo"
+      },
+      {
+        "actionList": "revealSecondaryFaceup",
+        "actionType": "game",
+        "id": "revealDeck2",
+        "label": "id:reveal2"
+      },
+      {
+        "actionList": "revealSecondaryFacedown",
+        "actionType": "game",
+        "id": "revealDeck2",
+        "label": "id:reveal2down"
+      },
+      {
+        "actionList": "sufferFatigue",
+        "actionType": "game",
+        "id": "sufferFatigue",
+        "label": "id:sufferFatigue"
+      },
+      {
+        "actionList": "sootheFatigue",
+        "actionType": "game",
+        "id": "sootheFatigue",
+        "label": "id:sootheFatigue"
+      },
+      {
+        "actionList": "makePersistent",
+        "actionType": "card",
+        "id": "makePersistent",
+        "label": "id:makePersistent"
+      },
+      {
+        "actionList": "revealChallenge",
+        "actionType": "game",
+        "id": "revealChallenge",
+        "label": "id:revealChallenge"
+      },
+      {
+        "actionList": "shuffleChallenge",
+        "actionType": "game",
+        "id": "shuffleChallenge",
+        "label": "id:shuffleChallenge"
+      },
+      {
+        "actionList": "travelPhase",
+        "actionType": "game",
+        "id": "travelTouchButton",
+        "label": "id:travel"
+      }
+    ]
+  ],
+  "bannerUrl": "https://toybox.hundredacre.club/cards/earthborne-rangers/_plugin/banner.jpg",
+  "logoUrl": "https://toybox.hundredacre.club/cards/earthborne-rangers/_plugin/logo.jpg"
+}

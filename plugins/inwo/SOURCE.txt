@@ -1,0 +1,9 @@
+Built 2026-09-11 06:50 UTC from LackeyCCG INWO.
+Source: /Volumes/Expand/MegaNZ/LackeyCCG/plugins/INWO
+Art: GitHub MightyBullMoose/LackeyCCG-INWO raw setimages.
+Author credit: Lackey / MightyBullMoose
+
+Tabletop plugin only — Lackey has no rules engine to port.
+TSV rows: 768  missing image URLs: 0
+Prebuilts: 139 Lackey decks (DOTW, OWE sets, One Big Deck).
+Lobby banner is the Limited double starter; logo is the Lackey bot pyramid eye.

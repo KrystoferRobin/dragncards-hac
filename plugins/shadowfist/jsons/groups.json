@@ -1,0 +1,204 @@
+{
+  "groups": {
+    "sharedSetAside": {
+      "groupType": "aside",
+      "label": "Set Aside",
+      "tableLabel": "Set Aside",
+      "onCardEnter": {
+        "controller": "shared"
+      }
+    },
+    "player1Deck": {
+      "groupType": "deck",
+      "label": "Player 1 Deck",
+      "tableLabel": "Deck",
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1Deck",
+        "discardGroupId": "player1Smoked"
+      }
+    },
+    "player1Smoked": {
+      "groupType": "discard",
+      "label": "Player 1 Smoked",
+      "tableLabel": "Smoked",
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1Deck",
+        "discardGroupId": "player1Smoked"
+      }
+    },
+    "player1Hand": {
+      "groupType": "hand",
+      "label": "Player 1 Hand",
+      "tableLabel": "Hand",
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1Deck",
+        "discardGroupId": "player1Smoked"
+      }
+    },
+    "player1Play": {
+      "groupType": "inPlay",
+      "label": "Player 1 Play",
+      "tableLabel": "Play",
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1Deck",
+        "discardGroupId": "player1Smoked",
+        "inPlay": true
+      },
+      "canHaveAttachments": true
+    },
+    "player1Sites": {
+      "groupType": "inPlay",
+      "label": "Player 1 Sites",
+      "tableLabel": "Sites",
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1Deck",
+        "discardGroupId": "player1Smoked",
+        "inPlay": true
+      },
+      "canHaveAttachments": true
+    },
+    "player1Edges": {
+      "groupType": "inPlay",
+      "label": "Player 1 Edges",
+      "tableLabel": "Edges",
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1Deck",
+        "discardGroupId": "player1Smoked",
+        "inPlay": true
+      },
+      "canHaveAttachments": true
+    },
+    "player1Burned": {
+      "groupType": "aside",
+      "label": "Player 1 Burned for Victory",
+      "tableLabel": "Burned for Victory",
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1Deck",
+        "discardGroupId": "player1Smoked"
+      }
+    },
+    "player1Toasted": {
+      "groupType": "aside",
+      "label": "Player 1 Toasted",
+      "tableLabel": "Toasted",
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1Deck",
+        "discardGroupId": "player1Smoked"
+      }
+    },
+    "player1Misc": {
+      "groupType": "aside",
+      "label": "Player 1 Misc",
+      "tableLabel": "Misc",
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1Deck",
+        "discardGroupId": "player1Smoked"
+      }
+    },
+    "player2Deck": {
+      "groupType": "deck",
+      "label": "Player 2 Deck",
+      "tableLabel": "Deck",
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2Deck",
+        "discardGroupId": "player2Smoked"
+      }
+    },
+    "player2Smoked": {
+      "groupType": "discard",
+      "label": "Player 2 Smoked",
+      "tableLabel": "Smoked",
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2Deck",
+        "discardGroupId": "player2Smoked"
+      }
+    },
+    "player2Hand": {
+      "groupType": "hand",
+      "label": "Player 2 Hand",
+      "tableLabel": "Hand",
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2Deck",
+        "discardGroupId": "player2Smoked"
+      }
+    },
+    "player2Play": {
+      "groupType": "inPlay",
+      "label": "Player 2 Play",
+      "tableLabel": "Play",
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2Deck",
+        "discardGroupId": "player2Smoked",
+        "inPlay": true
+      },
+      "canHaveAttachments": true
+    },
+    "player2Sites": {
+      "groupType": "inPlay",
+      "label": "Player 2 Sites",
+      "tableLabel": "Sites",
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2Deck",
+        "discardGroupId": "player2Smoked",
+        "inPlay": true
+      },
+      "canHaveAttachments": true
+    },
+    "player2Edges": {
+      "groupType": "inPlay",
+      "label": "Player 2 Edges",
+      "tableLabel": "Edges",
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2Deck",
+        "discardGroupId": "player2Smoked",
+        "inPlay": true
+      },
+      "canHaveAttachments": true
+    },
+    "player2Burned": {
+      "groupType": "aside",
+      "label": "Player 2 Burned for Victory",
+      "tableLabel": "Burned for Victory",
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2Deck",
+        "discardGroupId": "player2Smoked"
+      }
+    },
+    "player2Toasted": {
+      "groupType": "aside",
+      "label": "Player 2 Toasted",
+      "tableLabel": "Toasted",
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2Deck",
+        "discardGroupId": "player2Smoked"
+      }
+    },
+    "player2Misc": {
+      "groupType": "aside",
+      "label": "Player 2 Misc",
+      "tableLabel": "Misc",
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2Deck",
+        "discardGroupId": "player2Smoked"
+      }
+    }
+  }
+}

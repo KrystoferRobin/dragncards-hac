@@ -1,0 +1,53 @@
+{
+  "groupTypes": {
+    "arena": {
+      "canHaveAttachments": false,
+      "canHaveTokens": true,
+      "shuffleOnLoad": false,
+      "onCardEnter": {
+        "currentSide": "A",
+        "inPlay": true
+      }
+    },
+    "pool": {
+      "canHaveAttachments": true,
+      "canHaveTokens": true,
+      "shuffleOnLoad": false,
+      "onCardEnter": {
+        "currentSide": "B",
+        "inPlay": true,
+        "rotation": 0
+      }
+    },
+    "pile": {
+      "canHaveAttachments": false,
+      "canHaveTokens": false,
+      "shuffleOnLoad": false,
+      "onCardEnter": {
+        "currentSide": "A",
+        "inPlay": false,
+        "rotation": 0
+      }
+    },
+    "discard": {
+      "canHaveAttachments": false,
+      "canHaveTokens": false,
+      "shuffleOnLoad": false,
+      "onCardEnter": {
+        "currentSide": "A",
+        "inPlay": false,
+        "rotation": 0
+      }
+    },
+    "aside": {
+      "canHaveAttachments": false,
+      "canHaveTokens": false,
+      "shuffleOnLoad": false,
+      "onCardEnter": {
+        "currentSide": "A",
+        "inPlay": false,
+        "rotation": 0
+      }
+    }
+  }
+}

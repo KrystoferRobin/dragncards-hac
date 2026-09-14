@@ -1,0 +1,11 @@
+{
+  "automation": {
+    "postNewGameActionList": [
+      [
+        "LOG",
+        "Monty Python and the Holy Grail CCG table created. Load a deck from Menu → Load if one is listed. No rules are enforced."
+      ]
+    ],
+    "gameRules": {}
+  }
+}

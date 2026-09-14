@@ -1,0 +1,54 @@
+{
+  "deckbuilder": {
+    "addButtons": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "columns": [
+      {
+        "propName": "name",
+        "label": "Name"
+      },
+      {
+        "propName": "type",
+        "label": "Type"
+      },
+      {
+        "propName": "faction",
+        "label": "Faction"
+      },
+      {
+        "propName": "cost",
+        "label": "Cost"
+      },
+      {
+        "propName": "fighting",
+        "label": "Fight"
+      },
+      {
+        "propName": "packName",
+        "label": "Set"
+      }
+    ],
+    "spawnGroups": [
+      {
+        "loadGroupId": "playerNDeck",
+        "label": "My Deck"
+      },
+      {
+        "loadGroupId": "playerNSites",
+        "label": "My Sites"
+      },
+      {
+        "loadGroupId": "playerNEdges",
+        "label": "My Edges"
+      },
+      {
+        "loadGroupId": "playerNMisc",
+        "label": "My Misc"
+      }
+    ]
+  }
+}

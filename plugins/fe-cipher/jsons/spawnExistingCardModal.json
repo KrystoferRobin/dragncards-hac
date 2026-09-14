@@ -1,0 +1,20 @@
+{
+  "spawnExistingCardModal": {
+    "columnProperties": [
+      "name",
+      "type",
+      "klass",
+      "cost",
+      "attack",
+      "packName"
+    ],
+    "loadGroupIds": [
+      "player1Deck",
+      "player1Starting",
+      "player1Bonds",
+      "player1Misc",
+      "player1Hand",
+      "player2Hand"
+    ]
+  }
+}

@@ -52,7 +52,11 @@ export const Tokens = ({ inputs, setInputs }) => {
         {/* Background card image */}
         {(() => {
           const firstCardId = Object.keys(inputs.cardDb || {})[0];
-          const cardImage = firstCardId && inputs.cardDb[firstCardId]?.A?.imageUrl;
+          const rawImage = firstCardId && inputs.cardDb[firstCardId]?.A?.imageUrl;
+          const prefix = inputs.imageUrlPrefix?.Default || inputs.imageUrlPrefix?.English || "";
+          const cardImage = rawImage && !/^https?:\/\//i.test(rawImage) && prefix
+            ? `${prefix.replace(/\/?$/, "/")}${rawImage.replace(/^\//, "")}`
+            : rawImage;
           return cardImage ? (
             <img
               src={cardImage}

@@ -1,0 +1,94 @@
+{
+  "preBuiltDecks": {
+    "achilles": {
+      "label": "Sample: Achilles",
+      "cards": [
+        {
+          "databaseId": "set1_01-091",
+          "quantity": 1,
+          "loadGroupId": "playerNWarrior"
+        },
+        {
+          "databaseId": "set1_01-002",
+          "quantity": 1,
+          "loadGroupId": "playerNPool"
+        },
+        {
+          "databaseId": "set1_01-013",
+          "quantity": 1,
+          "loadGroupId": "playerNPool"
+        },
+        {
+          "databaseId": "set1_01-004",
+          "quantity": 1,
+          "loadGroupId": "playerNPool"
+        },
+        {
+          "databaseId": "set1_01-010",
+          "quantity": 1,
+          "loadGroupId": "playerNPool"
+        }
+      ]
+    },
+    "musashi": {
+      "label": "Sample: Miyamoto Musashi",
+      "cards": [
+        {
+          "databaseId": "set1_01-039",
+          "quantity": 1,
+          "loadGroupId": "playerNWarrior"
+        },
+        {
+          "databaseId": "set1_01-034",
+          "quantity": 1,
+          "loadGroupId": "playerNPool"
+        },
+        {
+          "databaseId": "set1_01-035",
+          "quantity": 1,
+          "loadGroupId": "playerNPool"
+        },
+        {
+          "databaseId": "set1_01-024",
+          "quantity": 1,
+          "loadGroupId": "playerNPool"
+        },
+        {
+          "databaseId": "set1_01-029",
+          "quantity": 1,
+          "loadGroupId": "playerNPool"
+        }
+      ]
+    },
+    "caesar": {
+      "label": "Sample: Julius Caesar",
+      "cards": [
+        {
+          "databaseId": "set1_01-069",
+          "quantity": 1,
+          "loadGroupId": "playerNWarrior"
+        },
+        {
+          "databaseId": "set1_01-070",
+          "quantity": 1,
+          "loadGroupId": "playerNPool"
+        },
+        {
+          "databaseId": "set1_01-071",
+          "quantity": 1,
+          "loadGroupId": "playerNPool"
+        },
+        {
+          "databaseId": "set1_01-084",
+          "quantity": 1,
+          "loadGroupId": "playerNPool"
+        },
+        {
+          "databaseId": "set1_01-085",
+          "quantity": 1,
+          "loadGroupId": "playerNPool"
+        }
+      ]
+    }
+  }
+}

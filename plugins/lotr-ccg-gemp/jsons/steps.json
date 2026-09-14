@@ -1,0 +1,32 @@
+{
+  "steps": {
+    "1.0": {
+      "label": "id:step-1.0",
+      "phaseId": "Fellowship"
+    },
+    "2.0": {
+      "label": "id:step-2.0",
+      "phaseId": "Shadow"
+    },
+    "3.0": {
+      "label": "id:step-3.0",
+      "phaseId": "Maneuver"
+    },
+    "4.0": {
+      "label": "id:step-4.0",
+      "phaseId": "Archery"
+    },
+    "5.0": {
+      "label": "id:step-5.0",
+      "phaseId": "Assignment"
+    },
+    "6.0": {
+      "label": "id:step-6.0",
+      "phaseId": "Skirmish"
+    },
+    "7.0": {
+      "label": "id:step-7.0",
+      "phaseId": "Regroup"
+    }
+  }
+}

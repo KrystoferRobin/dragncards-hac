@@ -1,0 +1,34 @@
+{
+  "pluginMenu": {
+    "options": [
+      {
+        "label": "Draw",
+        "actionList": "drawDeck"
+      },
+      {
+        "label": "Shuffle deck",
+        "actionList": "shuffleDeck"
+      },
+      {
+        "label": "Ready all",
+        "actionList": "readyAll"
+      },
+      {
+        "label": "Recruit +1",
+        "actionList": "increaseRecruit"
+      },
+      {
+        "label": "Recruit -1",
+        "actionList": "decreaseRecruit"
+      },
+      {
+        "label": "Resource +1",
+        "actionList": "increaseResource"
+      },
+      {
+        "label": "Resource -1",
+        "actionList": "decreaseResource"
+      }
+    ]
+  }
+}

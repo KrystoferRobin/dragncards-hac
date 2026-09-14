@@ -91,7 +91,7 @@ defmodule DragnCardsGame.Evaluate.Functions.MOVE_STACK do
         Evaluate.evaluate(game, [
           ["MULTI_VAR",
             "$ORIG_STACK_ID", stack_id,
-            "$ORIG_GROUP_ID", dest_group_id,
+            "$ORIG_GROUP_ID", orig_group_id,
             "$ORIG_PARENT_CARD", orig_parent_card,
             "$DEST_STACK_ID", dest_stack_id,
             "$DEST_GROUP_ID", dest_group_id,

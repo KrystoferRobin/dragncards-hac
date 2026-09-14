@@ -1,0 +1,116 @@
+{
+  "groups": {
+    "sharedSetAside": {
+      "groupType": "aside",
+      "label": "Set Aside",
+      "tableLabel": "Set Aside",
+      "onCardEnter": {
+        "controller": "shared"
+      }
+    },
+    "player1MainDeck": {
+      "groupType": "deck",
+      "label": "Player 1 Main Deck",
+      "tableLabel": "Main Deck",
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1MainDeck",
+        "discardGroupId": "player1Discard"
+      }
+    },
+    "player1CharacterDeck": {
+      "groupType": "deck",
+      "label": "Player 1 Character Deck",
+      "tableLabel": "Character Deck",
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1MainDeck",
+        "discardGroupId": "player1Discard"
+      }
+    },
+    "player1Discard": {
+      "groupType": "discard",
+      "label": "Player 1 Discard",
+      "tableLabel": "Discard",
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1MainDeck",
+        "discardGroupId": "player1Discard"
+      }
+    },
+    "player1Hand": {
+      "groupType": "hand",
+      "label": "Player 1 Hand",
+      "tableLabel": "Hand",
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1MainDeck",
+        "discardGroupId": "player1Discard"
+      }
+    },
+    "player1Play": {
+      "groupType": "inPlay",
+      "label": "Player 1 Play",
+      "tableLabel": "Play",
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1MainDeck",
+        "discardGroupId": "player1Discard",
+        "inPlay": true
+      },
+      "canHaveAttachments": true
+    },
+    "player2MainDeck": {
+      "groupType": "deck",
+      "label": "Player 2 Main Deck",
+      "tableLabel": "Main Deck",
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2MainDeck",
+        "discardGroupId": "player2Discard"
+      }
+    },
+    "player2CharacterDeck": {
+      "groupType": "deck",
+      "label": "Player 2 Character Deck",
+      "tableLabel": "Character Deck",
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2MainDeck",
+        "discardGroupId": "player2Discard"
+      }
+    },
+    "player2Discard": {
+      "groupType": "discard",
+      "label": "Player 2 Discard",
+      "tableLabel": "Discard",
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2MainDeck",
+        "discardGroupId": "player2Discard"
+      }
+    },
+    "player2Hand": {
+      "groupType": "hand",
+      "label": "Player 2 Hand",
+      "tableLabel": "Hand",
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2MainDeck",
+        "discardGroupId": "player2Discard"
+      }
+    },
+    "player2Play": {
+      "groupType": "inPlay",
+      "label": "Player 2 Play",
+      "tableLabel": "Play",
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2MainDeck",
+        "discardGroupId": "player2Discard",
+        "inPlay": true
+      },
+      "canHaveAttachments": true
+    }
+  }
+}

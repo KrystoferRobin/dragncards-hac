@@ -1,0 +1,94 @@
+{
+  "hotkeys": {
+    "game": [
+      {
+        "key": "D",
+        "actionList": "drawFate",
+        "label": "Draw fate"
+      },
+      {
+        "key": "Y",
+        "actionList": "refillDynasty",
+        "label": "Refill provinces"
+      },
+      {
+        "key": "R",
+        "actionList": "refresh",
+        "label": "Unbow + flip provinces"
+      },
+      {
+        "key": "S",
+        "actionList": "shuffleBoth",
+        "label": "Shuffle both decks"
+      },
+      {
+        "key": "V",
+        "actionList": "claimFavor",
+        "label": "Claim Imperial Favor"
+      }
+    ],
+    "card": [
+      {
+        "key": "B",
+        "actionList": "spendCard",
+        "label": "Bow"
+      },
+      {
+        "key": "U",
+        "actionList": "readyCard",
+        "label": "Straighten"
+      },
+      {
+        "key": "I",
+        "actionList": "invertCard",
+        "label": "Dishonor / honor"
+      },
+      {
+        "key": "F",
+        "actionList": [
+          "FLIP",
+          "$ACTIVE_CARD_ID"
+        ],
+        "label": "Flip"
+      },
+      {
+        "key": "X",
+        "actionList": [
+          "DISCARD",
+          "$ACTIVE_CARD_ID"
+        ],
+        "label": "Discard"
+      },
+      {
+        "key": "A",
+        "actionList": [
+          "DETACH",
+          "$ACTIVE_CARD_ID"
+        ],
+        "label": "Detach"
+      },
+      {
+        "key": "H",
+        "actionList": "toggleStayBowed",
+        "label": "Hold bow"
+      },
+      {
+        "key": "J",
+        "actionList": "toggleStayFlip",
+        "label": "Hold flip"
+      }
+    ],
+    "token": [
+      {
+        "key": "1",
+        "tokenType": "green",
+        "label": "Green +1"
+      },
+      {
+        "key": "2",
+        "tokenType": "red",
+        "label": "Red +1"
+      }
+    ]
+  }
+}

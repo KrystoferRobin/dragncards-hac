@@ -1,0 +1,199 @@
+{
+  "actionLists": {
+    "drawDeck": [
+      [
+        "COND",
+        [
+          "GROUP_EMPTY",
+          "{{$PLAYER_N}}Deck"
+        ],
+        [
+          "LOG",
+          "{{$ALIAS_N}} tried to draw from an empty deck."
+        ],
+        [
+          "TRUE"
+        ],
+        [
+          [
+            "MOVE_STACKS",
+            "{{$PLAYER_N}}Deck",
+            "{{$PLAYER_N}}Hand",
+            1,
+            "bottom"
+          ],
+          [
+            "LOG",
+            "{{$ALIAS_N}} drew a card."
+          ]
+        ]
+      ]
+    ],
+    "shuffleDeck": [
+      [
+        "SHUFFLE_GROUP",
+        "{{$PLAYER_N}}Deck"
+      ],
+      [
+        "LOG",
+        "{{$ALIAS_N}} shuffled their deck."
+      ]
+    ],
+    "readyAll": [
+      [
+        "FOR_EACH_KEY_VAL",
+        "$CARD_ID",
+        "$CARD",
+        "$GAME.cardById",
+        [
+          "COND",
+          [
+            "EQUAL",
+            "$CARD.controller",
+            "$PLAYER_N"
+          ],
+          [
+            "SET",
+            "/cardById/{{$CARD_ID}}/rotation",
+            0
+          ]
+        ]
+      ],
+      [
+        "LOG",
+        "{{$ALIAS_N}} readied all their cards."
+      ]
+    ],
+    "spendCard": [
+      [
+        "SET",
+        "/cardById/$ACTIVE_CARD_ID/rotation",
+        90
+      ],
+      [
+        "LOG",
+        "{{$ALIAS_N}} exerted {{$ACTIVE_FACE.name}}."
+      ]
+    ],
+    "readyCard": [
+      [
+        "SET",
+        "/cardById/$ACTIVE_CARD_ID/rotation",
+        0
+      ],
+      [
+        "LOG",
+        "{{$ALIAS_N}} readied {{$ACTIVE_FACE.name}}."
+      ]
+    ],
+    "invertCard": [
+      [
+        "SET",
+        "/cardById/$ACTIVE_CARD_ID/rotation",
+        180
+      ],
+      [
+        "LOG",
+        "{{$ALIAS_N}} inverted {{$ACTIVE_FACE.name}}."
+      ]
+    ],
+    "flipCard": [
+      [
+        "FLIP",
+        "$ACTIVE_CARD_ID"
+      ]
+    ],
+    "discardCard": [
+      [
+        "DISCARD",
+        "$ACTIVE_CARD_ID"
+      ]
+    ],
+    "detachCard": [
+      [
+        "DETACH",
+        "$ACTIVE_CARD_ID"
+      ]
+    ],
+    "shuffleIntoDeck": [
+      [
+        "SHUFFLE_INTO_DECK",
+        "$ACTIVE_CARD_ID"
+      ]
+    ],
+    "flipCoin": [
+      [
+        "VAR",
+        "$FLIP",
+        [
+          "RANDOM_INT",
+          1,
+          2
+        ]
+      ],
+      [
+        "COND",
+        [
+          "EQUAL",
+          "$FLIP",
+          1
+        ],
+        [
+          "LOG",
+          "{{$ALIAS_N}} flipped heads."
+        ],
+        [
+          "TRUE"
+        ],
+        [
+          "LOG",
+          "{{$ALIAS_N}} flipped tails."
+        ]
+      ]
+    ],
+    "increase_points": [
+      [
+        "INCREASE_VAL",
+        "/playerData/$PLAYER_N/points",
+        1
+      ],
+      [
+        "LOG",
+        "{{$ALIAS_N}} gained 1 Points."
+      ]
+    ],
+    "decrease_points": [
+      [
+        "DECREASE_VAL",
+        "/playerData/$PLAYER_N/points",
+        1
+      ],
+      [
+        "LOG",
+        "{{$ALIAS_N}} lost 1 Points."
+      ]
+    ],
+    "increase_actions": [
+      [
+        "INCREASE_VAL",
+        "/playerData/$PLAYER_N/actions",
+        1
+      ],
+      [
+        "LOG",
+        "{{$ALIAS_N}} gained 1 Action Tokens."
+      ]
+    ],
+    "decrease_actions": [
+      [
+        "DECREASE_VAL",
+        "/playerData/$PLAYER_N/actions",
+        1
+      ],
+      [
+        "LOG",
+        "{{$ALIAS_N}} lost 1 Action Tokens."
+      ]
+    ]
+  }
+}

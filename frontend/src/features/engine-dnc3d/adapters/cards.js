@@ -55,7 +55,7 @@ export function resolveFaceImage(card, sideName, gameDef, language, altArt) {
 //                     one per card in game.cardById
 //   assignments     — { [groupId]: [{ cardIds: [int,...], attachmentDirections, lookingUnder, fracX, fracY }] }
 //   idMap           — Map<dcCardId, dnc3dIndex> for mapping action callbacks back
-export function adaptGameState(game, layoutRegions, gameDef, language, observingPlayerN, numPlayers, altArt) {
+export function adaptGameState(game, layoutRegions, gameDef, language, observingPlayerN, numPlayers, altArt, seatedPlayerN = null) {
   const { cardById = {}, stackById = {}, groupById = {} } = game || {};
 
   // 1. Build an integer index mapping for EVERY card in the game, not just the
@@ -78,8 +78,9 @@ export function adaptGameState(game, layoutRegions, gameDef, language, observing
     // angle 0 → front visible, angle 180 → back visible.
     const sideA = sideKeys.includes('A') ? 'A' : (sideKeys[0] || 'A');
     const sideB = sideKeys.find(s => s !== sideA) || sideA;
-    // The observing player peeking at a face-down card sees its front (side A).
-    const peeking = !!(observingPlayerN && card.peeking && card.peeking[observingPlayerN]);
+    // Peek as the seated player so Look does not hide your own hand.
+    const peekAs = seatedPlayerN || observingPlayerN;
+    const peeking = !!(peekAs && card.peeking && card.peeking[peekAs]);
     const visibleSide = peeking ? sideA : (card.currentSide || sideA);
     const backSide = (visibleSide !== sideA) ? visibleSide : sideB;
     const angle = (visibleSide !== sideA) ? 180 : 0;
@@ -114,7 +115,7 @@ export function adaptGameState(game, layoutRegions, gameDef, language, observing
     if (region.visible === false) return;
     const rawGroupId = region.groupId;
     if (!rawGroupId) return;
-    const groupId = formatGroupId(rawGroupId, observingPlayerN, numPlayers);
+    const groupId = formatGroupId(rawGroupId, observingPlayerN, numPlayers, seatedPlayerN);
     if (!groupById[groupId]) return;
 
     const group = groupById[groupId];

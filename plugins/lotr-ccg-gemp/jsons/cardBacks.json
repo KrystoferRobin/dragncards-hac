@@ -1,0 +1,9 @@
+{
+  "cardBacks": {
+    "normal": {
+      "height": 1,
+      "imageUrl": "lord-of-the-rings-ccg/_plugin/LordOfTheRingsTcg-CardbackNormal.jpg",
+      "width": 0.72
+    }
+  }
+}

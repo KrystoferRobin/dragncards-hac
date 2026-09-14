@@ -1,0 +1,115 @@
+{
+  "cardMenu": {
+    "moveToGroupIds": [],
+    "options": [
+      {
+        "actionList": [
+          [
+            "LOG",
+            "{{$ALIAS_N}} moved the force tracker toward {{$GAME.playerData.player2.label}}."
+          ],
+          [
+            "FADE_TEXT_PLAYER",
+            "player1",
+            "+1 force"
+          ],
+          [
+            "SET_TRACKER_VALUE",
+            [
+              "MAX",
+              [
+                "LIST",
+                [
+                  "SUBTRACT",
+                  "$GAME.trackerValue",
+                  1
+                ],
+                -3
+              ]
+            ]
+          ]
+        ],
+        "label": "Move toward Red",
+        "showIf": [
+          "EQUAL",
+          "$ACTIVE_FACE.name",
+          "Force Tracker"
+        ]
+      },
+      {
+        "actionList": [
+          [
+            "LOG",
+            "{{$ALIAS_N}} moved the force tracker toward {{$GAME.playerData.player1.label}}."
+          ],
+          [
+            "FADE_TEXT_PLAYER",
+            "player2",
+            "+1 force"
+          ],
+          [
+            "SET_TRACKER_VALUE",
+            [
+              "MIN",
+              [
+                "LIST",
+                [
+                  "ADD",
+                  "$GAME.trackerValue",
+                  1
+                ],
+                3
+              ]
+            ]
+          ]
+        ],
+        "label": "Move toward Blue",
+        "showIf": [
+          "EQUAL",
+          "$ACTIVE_FACE.name",
+          "Force Tracker"
+        ]
+      },
+      {
+        "actionList": [
+          [
+            "ATTACK_WITH_CARD_ID",
+            "$ACTIVE_CARD_ID"
+          ]
+        ],
+        "label": "Attack with card"
+      },
+      {
+        "actionList": [
+          [
+            "ATTACK_ON_CARD_ID",
+            "$ACTIVE_CARD_ID"
+          ]
+        ],
+        "label": "Attack on card"
+      },
+      {
+        "actionList": [
+          [
+            "BUY_CARD_ID",
+            "$ACTIVE_CARD_ID"
+          ]
+        ],
+        "label": "Buy card",
+        "showIf": [
+          "OR",
+          [
+            "EQUAL",
+            "$ACTIVE_CARD.groupId",
+            "sharedGalaxyRow"
+          ],
+          [
+            "EQUAL",
+            "$ACTIVE_CARD.groupId",
+            "sharedOuterRimPilotDeck"
+          ]
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "cardBacks": {
+    "default": {
+      "width": 0.72,
+      "height": 1.0,
+      "imageUrl": "star-trek-tcg/_plugin/StarTrekTcg-CardbackDefault.jpg"
+    },
+    "silverback": {
+      "width": 0.72,
+      "height": 1.0,
+      "imageUrl": "star-trek-tcg/_plugin/StarTrekTcg-CardbackSilverback.jpg"
+    }
+  }
+}

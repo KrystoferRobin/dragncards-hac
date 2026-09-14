@@ -1,0 +1,12 @@
+{
+  "topBarCounters": {
+    "shared": [
+      {
+        "label": "Days",
+        "imageUrl": "",
+        "gameProperty": "daysUntilChristmas"
+      }
+    ],
+    "player": []
+  }
+}

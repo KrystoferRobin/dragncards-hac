@@ -1,0 +1,18 @@
+{
+  "groupMenu": {
+    "moveToGroupIds": [
+      "playerSHand",
+      "playerSDeck",
+      "playerSGraveyard",
+      "playerSExile",
+      "playerSPlay",
+      "playerSCommand",
+      "playerSEmblem",
+      "playerSTokens",
+      "playerSSideboard",
+      "playerLPlay",
+      "sharedSetAside"
+    ],
+    "options": []
+  }
+}

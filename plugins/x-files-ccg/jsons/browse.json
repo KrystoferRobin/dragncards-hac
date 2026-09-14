@@ -1,0 +1,22 @@
+{
+  "browse": {
+    "filterPropertySideA": "type",
+    "filterValuesSideA": [
+      "Adversary",
+      "Agent",
+      "Bluff",
+      "Combat",
+      "Credits",
+      "Equipment",
+      "Event",
+      "Site",
+      "Witness",
+      "X-File"
+    ],
+    "textPropertiesSideA": [
+      "name",
+      "packName",
+      "text"
+    ]
+  }
+}

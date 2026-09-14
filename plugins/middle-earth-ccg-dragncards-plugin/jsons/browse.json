@@ -1,0 +1,29 @@
+{
+  "browse": {
+    "filterPropertySideA": "type",
+    "filterValuesSideA": [
+      "Hero Character",
+      "Hero Resource",
+      "Hero Site",
+      "Minion Character",
+      "Minion Resource",
+      "Minion Site",
+      "Hazard",
+      "Region",
+      "Stage Resource",
+      "Fallen-wizard Character",
+      "Fallen-wizard Site",
+      "Balrog Character",
+      "Balrog Site"
+    ],
+    "textPropertiesSideA": [
+      "name",
+      "text",
+      "class",
+      "race",
+      "skills",
+      "set",
+      "playable"
+    ]
+  }
+}

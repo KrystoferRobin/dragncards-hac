@@ -1,0 +1,13 @@
+{
+  "pluginName": "HEX: Shards of Fate",
+  "author": "Hundred Acre Club / Cryptozoic",
+  "tutorialUrl": "",
+  "announcements": [
+    "HEX: Shards of Fate, final client 1.1.0.086. Faces composed from client portraits + printed stats. Shortcuts only.",
+    "D draw. R ready all. S shuffle. E exhaust. U ready. X crypt. V void. Champion / Resources / Troops / Support."
+  ],
+  "loadPreBuiltOnNewGame": false,
+  "backgroundUrl": "https://toybox.hundredacre.club/cards/hex-shards-of-fate/_plugin/HexShardsOfFate-Background.jpg",
+  "bannerUrl": "https://toybox.hundredacre.club/cards/hex-shards-of-fate/_plugin/banner2.jpg",
+  "logoUrl": "https://toybox.hundredacre.club/cards/hex-shards-of-fate/_plugin/logo2.jpg"
+}

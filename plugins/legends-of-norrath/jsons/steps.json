@@ -1,0 +1,31 @@
+{
+  "steps": {
+    "readyStep": {
+      "phaseId": "ready",
+      "label": "Ready"
+    },
+    "questStep": {
+      "phaseId": "quest",
+      "label": "Quest"
+    },
+    "mainStep": {
+      "phaseId": "main",
+      "label": "Main"
+    },
+    "combatStep": {
+      "phaseId": "combat",
+      "label": "Combat"
+    },
+    "endStep": {
+      "phaseId": "end",
+      "label": "End"
+    }
+  },
+  "stepOrder": [
+    "readyStep",
+    "questStep",
+    "mainStep",
+    "combatStep",
+    "endStep"
+  ]
+}

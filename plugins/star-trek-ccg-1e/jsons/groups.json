@@ -1,0 +1,325 @@
+{
+  "groups": {
+    "sharedSetAside": {
+      "groupType": "aside",
+      "label": "Set Aside",
+      "tableLabel": "Set Aside",
+      "onCardEnter": {
+        "controller": "shared"
+      }
+    },
+    "sharedSpaceline": {
+      "groupType": "spaceline",
+      "label": "Spaceline",
+      "tableLabel": "Spaceline",
+      "canHaveAttachments": true,
+      "onCardEnter": {
+        "controller": "shared",
+        "inPlay": true,
+        "currentSide": "A"
+      }
+    },
+    "player1Deck": {
+      "groupType": "deck",
+      "label": "Player 1 Deck",
+      "tableLabel": "Deck",
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1Deck",
+        "discardGroupId": "player1Discard"
+      }
+    },
+    "player1Discard": {
+      "groupType": "discard",
+      "label": "Player 1 Discard",
+      "tableLabel": "Discard",
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1Deck",
+        "discardGroupId": "player1Discard"
+      }
+    },
+    "player1Hand": {
+      "groupType": "hand",
+      "label": "Player 1 Hand",
+      "tableLabel": "Hand",
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1Deck",
+        "discardGroupId": "player1Discard"
+      }
+    },
+    "player1Play": {
+      "groupType": "inPlay",
+      "label": "Player 1 Play",
+      "tableLabel": "Play",
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1Deck",
+        "discardGroupId": "player1Discard"
+      },
+      "canHaveAttachments": true
+    },
+    "player1Seed": {
+      "groupType": "aside",
+      "label": "Player 1 Seed",
+      "tableLabel": "Seed",
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1Deck",
+        "discardGroupId": "player1Discard"
+      }
+    },
+    "player1Missions": {
+      "groupType": "aside",
+      "label": "Player 1 Missions",
+      "tableLabel": "Missions",
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1Deck",
+        "discardGroupId": "player1Discard"
+      }
+    },
+    "player1Sites": {
+      "groupType": "aside",
+      "label": "Player 1 Sites",
+      "tableLabel": "Sites",
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1Deck",
+        "discardGroupId": "player1Discard"
+      }
+    },
+    "player1Tent": {
+      "groupType": "aside",
+      "label": "Player 1 Q's Tent",
+      "tableLabel": "Q's Tent",
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1Deck",
+        "discardGroupId": "player1Discard"
+      }
+    },
+    "player1Flash": {
+      "groupType": "deck",
+      "label": "Player 1 Q-Flash",
+      "tableLabel": "Q-Flash",
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1Deck",
+        "discardGroupId": "player1Discard"
+      }
+    },
+    "player1Tactics": {
+      "groupType": "deck",
+      "label": "Player 1 Battle Bridge",
+      "tableLabel": "Battle Bridge",
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1Deck",
+        "discardGroupId": "player1Discard"
+      }
+    },
+    "player1Tribbles": {
+      "groupType": "deck",
+      "label": "Player 1 Tribbles",
+      "tableLabel": "Tribbles",
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1Deck",
+        "discardGroupId": "player1Discard"
+      }
+    },
+    "player1Dyson": {
+      "groupType": "aside",
+      "label": "Player 1 Dyson Sphere",
+      "tableLabel": "Dyson Sphere",
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1Deck",
+        "discardGroupId": "player1Discard"
+      }
+    },
+    "player1Ref": {
+      "groupType": "aside",
+      "label": "Player 1 Ref",
+      "tableLabel": "Ref",
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1Deck",
+        "discardGroupId": "player1Discard"
+      }
+    },
+    "player1Removed": {
+      "groupType": "discard",
+      "label": "Player 1 Removed",
+      "tableLabel": "Removed",
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1Deck",
+        "discardGroupId": "player1Discard"
+      }
+    },
+    "player1Aside": {
+      "groupType": "aside",
+      "label": "Player 1 Aside",
+      "tableLabel": "Aside",
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1Deck",
+        "discardGroupId": "player1Discard"
+      }
+    },
+    "player2Deck": {
+      "groupType": "deck",
+      "label": "Player 2 Deck",
+      "tableLabel": "Deck",
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2Deck",
+        "discardGroupId": "player2Discard"
+      }
+    },
+    "player2Discard": {
+      "groupType": "discard",
+      "label": "Player 2 Discard",
+      "tableLabel": "Discard",
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2Deck",
+        "discardGroupId": "player2Discard"
+      }
+    },
+    "player2Hand": {
+      "groupType": "hand",
+      "label": "Player 2 Hand",
+      "tableLabel": "Hand",
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2Deck",
+        "discardGroupId": "player2Discard"
+      }
+    },
+    "player2Play": {
+      "groupType": "inPlay",
+      "label": "Player 2 Play",
+      "tableLabel": "Play",
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2Deck",
+        "discardGroupId": "player2Discard"
+      },
+      "canHaveAttachments": true
+    },
+    "player2Seed": {
+      "groupType": "aside",
+      "label": "Player 2 Seed",
+      "tableLabel": "Seed",
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2Deck",
+        "discardGroupId": "player2Discard"
+      }
+    },
+    "player2Missions": {
+      "groupType": "aside",
+      "label": "Player 2 Missions",
+      "tableLabel": "Missions",
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2Deck",
+        "discardGroupId": "player2Discard"
+      }
+    },
+    "player2Sites": {
+      "groupType": "aside",
+      "label": "Player 2 Sites",
+      "tableLabel": "Sites",
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2Deck",
+        "discardGroupId": "player2Discard"
+      }
+    },
+    "player2Tent": {
+      "groupType": "aside",
+      "label": "Player 2 Q's Tent",
+      "tableLabel": "Q's Tent",
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2Deck",
+        "discardGroupId": "player2Discard"
+      }
+    },
+    "player2Flash": {
+      "groupType": "deck",
+      "label": "Player 2 Q-Flash",
+      "tableLabel": "Q-Flash",
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2Deck",
+        "discardGroupId": "player2Discard"
+      }
+    },
+    "player2Tactics": {
+      "groupType": "deck",
+      "label": "Player 2 Battle Bridge",
+      "tableLabel": "Battle Bridge",
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2Deck",
+        "discardGroupId": "player2Discard"
+      }
+    },
+    "player2Tribbles": {
+      "groupType": "deck",
+      "label": "Player 2 Tribbles",
+      "tableLabel": "Tribbles",
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2Deck",
+        "discardGroupId": "player2Discard"
+      }
+    },
+    "player2Dyson": {
+      "groupType": "aside",
+      "label": "Player 2 Dyson Sphere",
+      "tableLabel": "Dyson Sphere",
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2Deck",
+        "discardGroupId": "player2Discard"
+      }
+    },
+    "player2Ref": {
+      "groupType": "aside",
+      "label": "Player 2 Ref",
+      "tableLabel": "Ref",
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2Deck",
+        "discardGroupId": "player2Discard"
+      }
+    },
+    "player2Removed": {
+      "groupType": "discard",
+      "label": "Player 2 Removed",
+      "tableLabel": "Removed",
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2Deck",
+        "discardGroupId": "player2Discard"
+      }
+    },
+    "player2Aside": {
+      "groupType": "aside",
+      "label": "Player 2 Aside",
+      "tableLabel": "Aside",
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2Deck",
+        "discardGroupId": "player2Discard"
+      }
+    }
+  }
+}

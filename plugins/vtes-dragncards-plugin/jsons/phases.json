@@ -1,0 +1,10 @@
+{
+  "phases": {
+    "unlock": {"label": "Unlock", "height": "20%"},
+    "master": {"label": "Master", "height": "20%"},
+    "minion": {"label": "Minion", "height": "20%"},
+    "influence": {"label": "Influence", "height": "20%"},
+    "discard": {"label": "Discard", "height": "20%"}
+  },
+  "phaseOrder": ["unlock", "master", "minion", "influence", "discard"]
+}

@@ -1,0 +1,11 @@
+{
+  "automation": {
+    "postNewGameActionList": [
+      [
+        "LOG",
+        "Force of Will table created. Load a starter from Menu → Load, or build a deck. No rules are enforced."
+      ]
+    ],
+    "gameRules": {}
+  }
+}

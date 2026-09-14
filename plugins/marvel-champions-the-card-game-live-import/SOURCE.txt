@@ -1,0 +1,11 @@
+Imported 2026-09-12 15:17 UTC from a live DragnCards table dump.
+Dump file: live_dumps/Marvel_Champions_The_Card_Game-live-dump.json
+Official plugin id: 2
+Official name: Marvel Champions: The Card Game
+Official version: 241
+repo_url:
+
+This is a compiled snapshot (merged game_def + card_db), not original source files.
+Collected 2026-09-12: card art, backs, SVG tokens, and top-bar icons retargeted to toybox.
+Drop banner.jpg and logo.jpg into images/marvel-champions/_plugin/ before Load Game Definition.
+Art lives under images/marvel-champions/ (hero/villain set folders; empty-set cards under official/).

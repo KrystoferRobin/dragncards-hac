@@ -1,0 +1,16 @@
+{
+  "browse": {
+    "filterPropertySideA": "type",
+    "filterValuesSideA": [
+      "Asset",
+      "Base Unit",
+      "Event",
+      "Field Unit",
+      "Nation Card"
+    ],
+    "textPropertiesSideA": [
+      "name",
+      "packName"
+    ]
+  }
+}

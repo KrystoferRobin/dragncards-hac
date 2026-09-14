@@ -1,0 +1,200 @@
+{
+  "actionLists": {
+    "drawDeck": [
+      [
+        "COND",
+        [
+          "GROUP_EMPTY",
+          "{{$PLAYER_N}}Deck"
+        ],
+        [
+          "LOG",
+          "{{$ALIAS_N}} tried to draw from an empty deck."
+        ],
+        [
+          "TRUE"
+        ],
+        [
+          [
+            "MOVE_STACKS",
+            "{{$PLAYER_N}}Deck",
+            "{{$PLAYER_N}}Hand",
+            1,
+            "bottom"
+          ],
+          [
+            "LOG",
+            "{{$ALIAS_N}} drew a card."
+          ]
+        ]
+      ]
+    ],
+    "shuffleDeck": [
+      [
+        "SHUFFLE_GROUP",
+        "{{$PLAYER_N}}Deck"
+      ],
+      [
+        "LOG",
+        "{{$ALIAS_N}} shuffled their deck."
+      ]
+    ],
+    "readyAll": [
+      [
+        "FOR_EACH_KEY_VAL",
+        "$CARD_ID",
+        "$CARD",
+        "$GAME.cardById",
+        [
+          "COND",
+          [
+            "EQUAL",
+            "$CARD.controller",
+            "$PLAYER_N"
+          ],
+          [
+            "SET",
+            "/cardById/{{$CARD_ID}}/rotation",
+            0
+          ]
+        ]
+      ],
+      [
+        "LOG",
+        "{{$ALIAS_N}} readied all their cards."
+      ]
+    ],
+    "spendCard": [
+      [
+        "SET",
+        "/cardById/$ACTIVE_CARD_ID/rotation",
+        90
+      ],
+      [
+        "LOG",
+        "{{$ALIAS_N}} spent {{$ACTIVE_FACE.name}}."
+      ]
+    ],
+    "readyCard": [
+      [
+        "SET",
+        "/cardById/$ACTIVE_CARD_ID/rotation",
+        0
+      ],
+      [
+        "LOG",
+        "{{$ALIAS_N}} readied {{$ACTIVE_FACE.name}}."
+      ]
+    ],
+    "flipCoin": [
+      [
+        "VAR",
+        "$FLIP",
+        [
+          "RANDOM_INT",
+          0,
+          1
+        ]
+      ],
+      [
+        "COND",
+        [
+          "EQUAL",
+          "$FLIP",
+          0
+        ],
+        [
+          "LOG",
+          "{{$ALIAS_N}} flipped a coin: Heads."
+        ],
+        [
+          "TRUE"
+        ],
+        [
+          "LOG",
+          "{{$ALIAS_N}} flipped a coin: Tails."
+        ]
+      ]
+    ],
+    "increaseBattle": [
+      [
+        "INCREASE_VAL",
+        "/playerData/$PLAYER_N/battlePoints",
+        1
+      ],
+      [
+        "LOG",
+        "{{$ALIAS_N}} gained 1 Battle Point."
+      ]
+    ],
+    "decreaseBattle": [
+      [
+        "COND",
+        [
+          "GREATER_THAN",
+          "$GAME.playerData.$PLAYER_N.battlePoints",
+          0
+        ],
+        [
+          [
+            "DECREASE_VAL",
+            "/playerData/$PLAYER_N/battlePoints",
+            1
+          ],
+          [
+            "LOG",
+            "{{$ALIAS_N}} spent 1 Battle Point."
+          ]
+        ],
+        [
+          "TRUE"
+        ],
+        [
+          "LOG",
+          "{{$ALIAS_N}} has no Battle Points to spend."
+        ]
+      ]
+    ],
+    "flipCard": [
+      [
+        "FLIP",
+        "$ACTIVE_CARD_ID"
+      ]
+    ],
+    "discardCard": [
+      [
+        "DISCARD",
+        "$ACTIVE_CARD_ID"
+      ]
+    ],
+    "detachCard": [
+      [
+        "DETACH",
+        "$ACTIVE_CARD_ID"
+      ]
+    ],
+    "shuffleIntoDeck": [
+      [
+        "SHUFFLE_INTO_DECK",
+        "$ACTIVE_CARD_ID"
+      ]
+    ],
+    "mulligan": [
+      [
+        "MOVE_STACKS",
+        "{{$PLAYER_N}}Hand",
+        "{{$PLAYER_N}}Deck",
+        99,
+        "bottom"
+      ],
+      [
+        "SHUFFLE_GROUP",
+        "{{$PLAYER_N}}Deck"
+      ],
+      [
+        "LOG",
+        "{{$ALIAS_N}} mulliganed (hand to bottom of deck, shuffle)."
+      ]
+    ]
+  }
+}

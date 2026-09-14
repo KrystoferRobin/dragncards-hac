@@ -1,0 +1,12 @@
+{
+  "pluginName": "Guardians (FPG)",
+  "author": "Lackey / wishmstr",
+  "tutorialUrl": "https://github.com/wishmstr/FPGGuardians",
+  "announcements": [
+    "Tabletop plugin from the Lackey FPG Guardians set. No rules engine — Starting, Adventure, Storage Depot, Creature Pen, and Reinforce are shortcuts.",
+    "D = draw. A = draw adventure. G = roll a d6. Guardians load to Starting; Adventure cards load to the Adventure deck."
+  ],
+  "loadPreBuiltOnNewGame": false,
+  "bannerUrl": "https://toybox.hundredacre.club/cards/fpg-guardians/_plugin/banner2.jpg",
+  "logoUrl": "https://toybox.hundredacre.club/cards/fpg-guardians/_plugin/logo2.jpg"
+}

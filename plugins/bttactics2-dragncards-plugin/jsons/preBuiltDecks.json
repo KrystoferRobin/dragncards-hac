@@ -1,0 +1,5769 @@
+{
+  "preBuiltDecks": {
+    "beginnerComstar": {
+      "label": "Comstar",
+      "cards": [
+        {
+          "databaseId": "CEBlackKnightBL6-KNT",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CR021",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CECrockettCRN-5003-1",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CEFlashmanFLS-8K",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CS047",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CS053",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CELancelotLNC25-01",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CEMongooseMON-66",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CR074",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "AR072",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "AR018",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "AR086",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CEComGuardResponseTeam",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CR017",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "LT189",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "ME082",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CS039",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "ME019",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "AR103",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "LT239",
+          "quantity": 8,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "LT251",
+          "quantity": 8,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "LT248",
+          "quantity": 5,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "LT203",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CR025",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CETopple",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CEHeroicSacrifice",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        }
+      ]
+    },
+    "beginnerDavion": {
+      "label": "Davion",
+      "cards": [
+        {
+          "databaseId": "LT139",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CR073",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "MW022",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CS035",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "MW023",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CELuckoftheFox",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CS011",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CEBlackjackBJ-2",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "MW105",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CR081",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CEWhitworthWTH-1",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CR015",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "LT015",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "LT104",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CENightskyrevisedNGS-4S",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "AR104",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CR107",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CEWolfhoundWLF-2",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CEZeusZEU-9S",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "LT149",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "LT239",
+          "quantity": 8,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "LT251",
+          "quantity": 8,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "MW084",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CEThinkTank",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CERepairFacility",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CR006",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CETeachingsoftheUnfinishedBook",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        }
+      ]
+    },
+    "beginnerGb": {
+      "label": "GB",
+      "cards": [
+        {
+          "databaseId": "CEDasherBFireMoth",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "LT061",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "LT062",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "LT063",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "AR044",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "AR023",
+          "quantity": 3,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CEDasherPrimeFireMoth",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CEKoshiPrimeMistLynx",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "AR083",
+          "quantity": 3,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "AR006",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CR049",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CR088",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "AR089",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CERiskyCombatJump",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "LT202",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "MW001",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "LT005",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "LT128",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CS038",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "ME085",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "AR103",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "LT239",
+          "quantity": 8,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "LT242",
+          "quantity": 5,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "LT251",
+          "quantity": 5,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "LT258",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CEAlethaKabrinski",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "LT018",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        }
+      ]
+    },
+    "beginnerJf": {
+      "label": "JF",
+      "cards": [
+        {
+          "databaseId": "AR008",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CR038",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "AR038",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CR039",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "AR088",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CEDasherPrimeFireMoth",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "AR039",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CR048",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CR049",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "LT138",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CR076",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "MW073",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CR086",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "LT284",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CR066",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "LT005",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "MW023",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CEForgedMissionOrders",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "LT109",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CEMovetoPartialCover",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "LT205",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "AR103",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "LT239",
+          "quantity": 8,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "LT251",
+          "quantity": 8,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CR056",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CEThinkTank",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "AR065",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CS039",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CEManO_WarPrimeGargoyle",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        }
+      ]
+    },
+    "beginnerKurita": {
+      "label": "Kurita",
+      "cards": [
+        {
+          "databaseId": "ME036",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "LT102",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CESacrificefortheDragon",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CEShinYodama",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "LT235",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "AR017",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "MW009",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "AR001",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "LT149",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "LT242",
+          "quantity": 6,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "LT251",
+          "quantity": 6,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "AR103",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CEThinkTank",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CEIntimidatingPaintJob",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CS096",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CEFog-ShroudedMoors",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "LT247",
+          "quantity": 6,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CEAtlasRevisedAS7-K",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CR082",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CEDaikyuDA1-01",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CEDaimyoDMO-1K",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CS025",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CESpiderSDR-7M",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "AR041",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CEGrandDragonDRG-5K",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CEDouble-TimeOffense",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "LT119",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "ME093",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "AR078",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        }
+      ]
+    },
+    "beginnerLiao": {
+      "label": "Liao",
+      "cards": [
+        {
+          "databaseId": "CEFortheChancellor",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CR067",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CR102",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CR003",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CR023",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CEClintRevisedCLNT-2-3U",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CEVindicatorRevisedVND-3L",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CR018",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CEWraithTR1",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CR094",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CR022",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CECatapultCPLT-C3",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CS005",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "AR066",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "AR086",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "LT036",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CEEarthwerksLimited",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CEDeathCommandoStrike",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "AR103",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CEThinkTank",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CESupportAssembly1",
+          "quantity": 8,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CESupportTactics1",
+          "quantity": 6,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CESupportPolitics1",
+          "quantity": 5,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "LT030",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "LT160",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "ME053",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        }
+      ]
+    },
+    "beginnerMarik": {
+      "label": "Marik",
+      "cards": [
+        {
+          "databaseId": "CEBlitzkrieg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "AR019",
+          "quantity": 3,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CEAnvilRevisedANV-3M",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CEWraithTR1",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CECenturionCN9-D",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "AR086",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CESupportAssembly1",
+          "quantity": 8,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CESupportTactics1",
+          "quantity": 6,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "AR103",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CEThinkTank",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "MW001",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CEHeavyFog",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CEOverwhelm",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "LT220",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "LT247",
+          "quantity": 6,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CEHerculesHRC-LS-9000",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CECicadaCDA-3M",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CR108",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CEDifficultTerrain",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "AR078",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CEAlbatrossRevisedALB-3U",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CR054",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CEAwesomeRevisedAWS-9M",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CETempestRevisedTMP-3M",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CEBaitandSwitch",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CEForgedMissionOrders",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        }
+      ]
+    },
+    "beginnerRasalhague": {
+      "label": "Rasalhague",
+      "cards": [
+        {
+          "databaseId": "CEAirstrikesClosetoHome",
+          "quantity": 4,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CEAssassinASN-23",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "AR017",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "AR042",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "AR066",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "LT030",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CS050",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CESpiderSDR-7M",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "AR056",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CECyclopsCP10-Z",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "AR029",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CEGrasshopperGHR-5H",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CEAwesomeAWS-8Q",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "ME064",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CR089",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "MW078",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CR034",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CESupportLogistics1",
+          "quantity": 8,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CESupportTactics1",
+          "quantity": 5,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CESupportPolitics1",
+          "quantity": 5,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CEThinkTank",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "AR103",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CEHiddenReserves",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        }
+      ]
+    },
+    "beginnerSj": {
+      "label": "SJ",
+      "cards": [
+        {
+          "databaseId": "CR047",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CR046",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CERyokenDStormcrow",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "MW041",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "LT137",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CEPeregrineHornedOwl",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "LT196",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "LT197",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CR085",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "MW077",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "LT082",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CEGrendelPrime",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CETargetingAce",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "MW054",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "LT209",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "AR064",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CR091",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CEFeint",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CEHeavyFog",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CS091",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "LT239",
+          "quantity": 7,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "LT245",
+          "quantity": 7,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "LT251",
+          "quantity": 6,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CEThinkTank",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "AR103",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "MW096",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "AR047",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        }
+      ]
+    },
+    "beginnerStIves": {
+      "label": "St Ives",
+      "cards": [
+        {
+          "databaseId": "CEWorkStoppage",
+          "quantity": 3,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CESt.IvesSalvageCrew",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "AR054",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CEAssassinASN-23",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "LT126",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "AR013",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "AR042",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "LT030",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CESpiderSDR-7M",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CEGrasshopperGHR-5H",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CS043",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CEAwesomeAWS-8Q",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CECyclopsCP10-Z",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "AR029",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "ME085",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "AR021",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CS060",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CR037",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CEHiddenReserves",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CESupportLogistics1",
+          "quantity": 8,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CESupportPolitics1",
+          "quantity": 6,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CESupportTactics1",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "AR103",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CEThinkTank",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CECivilianSettlement",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        }
+      ]
+    },
+    "beginnerSteiner": {
+      "label": "Steiner",
+      "cards": [
+        {
+          "databaseId": "CEAdamSteiner",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CEBearerofMcKennsyHammer",
+          "quantity": 3,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CEBansheeBNC-5S",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CEGunslingerGUN-1ERD",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "LT104",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CENightskyrevisedNGS-4S",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CR090",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CR094",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CR107",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CEWolfhoundWLF-2",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CEZeusZEU-9S",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "AR086",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "AR066",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "AR104",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CESupportAssembly1",
+          "quantity": 8,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "LT251",
+          "quantity": 6,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "LT248",
+          "quantity": 4,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CEThinkTank",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "AR103",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CEFieldCommandPost",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CEInsideJob",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CEUnopposed",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "LT149",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "LT222",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CEMisroutedCommand",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CEComGuardResponseTeam",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        }
+      ]
+    },
+    "beginnerSv": {
+      "label": "SV",
+      "cards": [
+        {
+          "databaseId": "CR092",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CR078",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CR028",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CR029",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CR027",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CR007",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CR008",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "AR081",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CR009",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CR048",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CR049",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CEKoshiPrimeMistLynx",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CEDasherPrimeFireMoth",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CR017",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "LT203",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CS031",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "LT181",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "ME088",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CERedlinePilot",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "AR103",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "LT258",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "LT239",
+          "quantity": 8,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "LT251",
+          "quantity": 8,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "AR001",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "ME076",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CEECMRetrofit",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CR076",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CENobori-NinAHuntsman",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CR105",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        }
+      ]
+    },
+    "beginnerWolf": {
+      "label": "Wolf",
+      "cards": [
+        {
+          "databaseId": "LT079",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CS037",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "LT080",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "ME069",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CS098",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CECorvis",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "AR096",
+          "quantity": 4,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "LT151",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "AR063",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CEDasherPrimeFireMoth",
+          "quantity": 3,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CEThinkTank",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "AR103",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "LT239",
+          "quantity": 8,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CESupportTactics1",
+          "quantity": 6,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "LT245",
+          "quantity": 4,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CEPushingtheEnvelope",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "LT094",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CS085",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "LT088",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CS067",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "AR040",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "LT082",
+          "quantity": 3,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "MW031",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "LT001",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CELinebackerB",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CERistarMechWarrior",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CEManO_WarBGargoyle",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        }
+      ]
+    },
+    "f20ComstarTop10": {
+      "label": "Comstar Top10",
+      "cards": [
+        {
+          "databaseId": "mCaughtintheOpen_JI_R.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aShadowHawkSHD-2Ht_LU_C.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aPhoenixHawkPHX-1b_LU_C.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aBlackKnightBL-9-KNT_LU_R.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aMarauderMAD-5CS_LU_U.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aNightstar9J_LU_U.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aWarhammerWHM-6R_SW_C.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "crNewEarthTradingCo_SC_U.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "mRedlineBerserker_SW_U.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "pTheArsonist_SC_C.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CESupportAssembly3",
+          "quantity": 5,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CESupportTactics3",
+          "quantity": 5,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CESupportLogistics3",
+          "quantity": 8,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "AR103",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CEBlackMarketConnections",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "vSavannahMasterLance_SW_C.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "mGlancingBlow_LU_C.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "ucsPowerofComStar_LU_R.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "vPegasus_SW_C.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aHeliosHEL-4A_XS_C.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aKingCrabKGC-001_LU_R.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CEThinkTank",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "mReinforceFlank_LU_U.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "mLastSecondPowerUp_LU_U.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aLocustLCT-3V_SW_C.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aWolverineWVR-6R_SW_C.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aOstrocOSR-2C_SW_R.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "ssPiratePoint_CW_R.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "mHeavyDamage_HU_C.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "mNightMission_XS_C.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "AFTomahawkTHK-63_SC_U.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "mPrecisionAttack_SC_R.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "mSurpriseBlockers_SC_R.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "AFTridentTRN-3T_LU_R.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "ssDaisyCutterMinefield_XS_C.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "ssROMInfiltration_SW_U.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "mIntelligenceFailure_XS_C.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "mUnexpectedSupport_SC_R.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        }
+      ]
+    },
+    "f20DavionOh": {
+      "label": "Davion OH",
+      "cards": [
+        {
+          "databaseId": "crAchernarBattleMechs_SW_U.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "mAwaitingOrders_HU_R.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "mDodgingTheBullet_NA_R.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "csSimultaneousCombatDrop_SW_R_p1.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "mUnconventionalTactics_JI_U.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aOstsolOTL-6D_CW_U.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "AR103",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CESupportAssembly1",
+          "quantity": 5,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CESupportLogistics2",
+          "quantity": 6,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CESupportTactics1",
+          "quantity": 7,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aOsirisOSR-3D_XS_U.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "mRedlineBerserker_SW_U.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "pTheArsonist_SC_C.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aRavenRVN-2X_SW_U.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aWarhammerWHM-6K_SW_U.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aMarauderMAD-3D_SW_U.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aDevastatorDVS-1D_SW_R.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aRiflemanRFL-3N_SW_C.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aLineholderKW1-LH2_BU_C.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aPhoenixHawkPXH-3M_LU_C.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CEBlackMarketConnections",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aTarantulaZPH-1_BU_C.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aCicadaCDA-3F_LU_C.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aOstrocOSR-2C_SW_R.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "mSomethingOldManSaid_BU_C.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "uIanMcKinnon_SW_R.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "pLazerBrain_BU_R.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CEThinkTank",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "AFSparrowhawkSPR-7D_CW_C.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "csSalvagedClanDblHeatSinks_BU_U.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "upArcherChristifori_HU_R.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "auArchersPenetrator_HU_R.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "mTacticalWithdrawal_NA_R.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "mLikeaSecondSkin_SW_C_p2.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "mAwaitingOrders_HU_R.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "mSomethingOldManSaid_BU_C.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "pTheMarksman_XS_U.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "aSagittaireSGT-8R_CW_R.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        }
+      ]
+    },
+    "f20DiamondSharkBigResources": {
+      "label": "Diamond Shark Big Resources",
+      "cards": [
+        {
+          "databaseId": "uAngusLabov_XS_R.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "uBarbaraSennet_XS_R.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "uclDamonClarkesLegacy_XS_R.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "mHuntingTheWaters_HU_R.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "upIanHawker_LU_R.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "ucsTeethoftheDiamondShark_JI_R.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "mAcquiringResources_JI_R.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "pTheShark_CW_U.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "mPivotToTheFlank_HU_R.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aCrimsonHawk_NA_C.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aARCTICCHEETAHE_NA_C.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aSolitaire_XS_C.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aARCTICCHEETAHH_CW_C.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aViperG_NA_C.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aGrendelF_JI_C.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aHellionPrime_HU_C.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aHuntsmanB_BU_C.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aNovaCatC_BU_C.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aMadCatMkII_CW_C.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aAdderJ_JI_C.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aKitFoxH_SC_C.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CEBlackMarketConnections",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CESupportAssembly1",
+          "quantity": 8,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CESupportTactics3",
+          "quantity": 6,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CESupportPolitics3",
+          "quantity": 4,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CEThinkTank",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "AR103",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "crBackChannels_XS_C.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "csWellBargainedandDone_XS_U.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "mDropshipRaid_CW_U.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "mPivotToTheFlank_HU_R.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "mHiddenSentry_BU_U.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "uDiamondSharkHC_JI_R.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "mCoveringtheRetreat_BU_U.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "aCrimsonLangurPrime_NA_C.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "aNovaCatA_BU_C.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "ukEmeraldKeshik_JI_R.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "mHoldAtAllCosts_NA_R.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "ssPiratePoint_CW_R.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNSideboard"
+        }
+      ]
+    },
+    "f20GhostBearElementals": {
+      "label": "Ghost Bear Elementals",
+      "cards": [
+        {
+          "databaseId": "baJakeKabrinski_XS_R.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "baTheresaDelVillar_LU_R.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "baAnti-MechElementalPoint_LU_U.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "baInfiltrationElementalPoint_XS_U_p1.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "baGNOMEElementalPoint_HU_R.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "baElementalReserveGuard_BU_U.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aFireMothH_XS_C.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aFireMothF_NA_C.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aViperF_NA_C.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aStoopingHawkPrime_SC_C.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aStormcrowH_SC_C.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aExecutionerH_HU_C.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "mStalkYourPrey_NA_U.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "mElementalSwarm_LU_U.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "mDutyHonorDeath_JI_R.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "mElementalSupport_CW_U.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "AR103",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CEThinkTank",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CEBlackMarketConnections",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CESupportAssembly1",
+          "quantity": 4,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CESupportLogistics2",
+          "quantity": 7,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CESupportTactics3",
+          "quantity": 6,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "pTheFanatic_LU_U.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "pThePatronizer_JI_U.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "crStarAssignmentOfficer_LU_C.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aARCTICCHEETAHB_LU_C.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "mNightMission_XS_C.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "mPokingtheBear_NA_U.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "mKeepingUpThePressure_BU_R.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "mKeepingUpThePressure_BU_R.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "aViperI_JI_C.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "uRagnarMagnusson_XS_R.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "csAdvancedTraining_XS_C.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "vSvantovitMasada_SW_C_p2.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "pClawoftheBear_SW_U.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "mElementalSwarm_LU_U.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "ucsWRATHOFTHEGHOSTBEAR_NA_R.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        }
+      ]
+    },
+    "f20HellSHorses": {
+      "label": "Hell s Horses",
+      "cards": [
+        {
+          "databaseId": "ucsChargeoftheHellsHorses_XS_R.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "mBringUpTheBigGuns_XS_R.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "vEponaE_NA_U.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "csTemperedAdvance_JI_U.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aHellbringerE_JI_C.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "vMARSATM_CW_U.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "pTankLeader_BU_U.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "vPikeC_BU_U.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aARCTICCHEETAHB_LU_C.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CESupportLogistics1",
+          "quantity": 5,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CESupportAssembly2",
+          "quantity": 7,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CESupportTactics3",
+          "quantity": 6,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "AR103",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "vEponaPrime_SW_U.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "uJamesCobb_CW_R.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aStoopingHawkPrime_SC_C.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CEThinkTank",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CEBlackMarketConnections",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "pTheYoungGun_CW_U.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "mCombinedArms_JI_U.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "ppCentaur2ProtomechPoint_XS_U.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "mVehicleAmbush_SC_R.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "mSpeedMatters_SC_C.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aKitFoxE_HU_C.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aPhoenixHawkIIC_SW_C.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "vHephaestusD_JI_U.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aBaliusPrime_NA_U.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "crClanMechFactory_XS_C.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aIncubus4_CW_R.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "mTheLuckyShot_JI_R.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "mWithSabreDrawn_XS_R.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "uHellsHorsesHC_BU_R.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "cdGroundForceCommand_CW_R.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "aViperF_NA_C.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "mBlindingRage_LU_U.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "baJakeKabrinski_XS_R.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "baMalavaiFletcher_BU_R.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "mCombinedArms_JI_U.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "mBringUpTheBigGuns_XS_R.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "mForcedMarch_XS_R.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "csCoordinatedDeployment_BU_U_p1.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNSideboard"
+        }
+      ]
+    },
+    "f20JadeFalconBigPilot": {
+      "label": "Jade Falcon Big Pilot",
+      "cards": [
+        {
+          "databaseId": "upAidanPryde_LU_R.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "upJoanna_LU_R.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aLocustIIC4_CW_C.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aCrimsonHawk_NA_C.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aPinion_CW_R.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aBlackLannerH_HU_U.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "mBladeoftheJadeFalcon_XS_R.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "mCaughtInTheFieldOfFire_LU_R.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "ucsFlightoftheJadeFalcon_JI_R_p1.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "crClanMechFactory_XS_C.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "AR103",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CEThinkTank",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CEBlackMarketConnections",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CESupportAssembly1",
+          "quantity": 6,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CESupportTactics1",
+          "quantity": 6,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "mSuperiorityComplex_HU_R.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "mCoveringtheRetreat_BU_U.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aCougarPrime_BU_C.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aKitFoxG_SC_C.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CESupportMunitions3",
+          "quantity": 6,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aNightGyrF_JI_R.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aSummonerF_SC_U.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "mIamJadeFalcon_SC_R.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "csFlexibleBattlePlan_NA_U.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aFireFalconE_HU_C.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aSpirit_CW_U.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "upDianaPryde_XS_R.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "upHorseJadeFalcon_XS_R.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "mPrideoftheTrueborn_HU_U.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aKitFoxE_HU_C.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aNovaF_JI_C.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aBlackLannerC_LU_C.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "mUnconventionalTactics_JI_U.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "eEjectionSystem_SW_C.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "aPhoenixHawkIIC_SW_C.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "mCoveringtheRetreat_BU_U.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "CS085",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "csFlexibleBattlePlan_NA_U.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "mCaughtInTheFieldOfFire_LU_R.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "cAssaultCadre_BU_C.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        }
+      ]
+    },
+    "f20KuritaC3MissileTag": {
+      "label": "Kurita C3 Missile Tag",
+      "cards": [
+        {
+          "databaseId": "aOwensOW-1E_HU_U.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aOwensOW-1F_NA_R.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aOwensOW-1A_BU_R.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aStriderSR1-OD_BU_U.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aLongbowLGB-0W_SW_C.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "baVoidBattleArmor_SC_U.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aDragonDRG-5N_SW_C.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "mOverconfidence_LU_R.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "mArmorBreach_SW_U.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "mEffectiveSalvo_SC_C.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "mOne-TwoPunch_CW_U.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "pTheAssassin_LU_U.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "crAmmunitionStockpiles_SW_U.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CESupportMunitions3",
+          "quantity": 7,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CESupportTactics3",
+          "quantity": 6,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CESupportLogistics3",
+          "quantity": 4,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CEThinkTank",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "AR103",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "mEspritDeCorps_CW_C.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "mNightMission_XS_C.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "mC3NetworkSpotter_SC_U.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "mNightWatch_XS_C.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CEBlackMarketConnections",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "vLRMCarrier_SW_C_p2.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "vLRMCarrier3055_BU_C_p2.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aTarantulaZPH-1_BU_C.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aWarhammerWHM-6K_SW_U.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "btt2aBlackHawkBHKU-OModified.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aLongbowLGB-12C_SC_C.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "crResupplyCommand_HU_U.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "mLayoftheLand_SW_U.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "csResurrection_NA_C.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "pTheSamurai_SW_U.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "mLuckyGrouping_HU_C_p2.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "ucsFireofKurita_BU_R.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "cdWayoftheSword_CW_R.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "aStriderSR1-OA_BU_C.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "baKanazuchiBattleArmor_BU_U.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNSideboard"
+        }
+      ]
+    },
+    "f20LiaoPilot": {
+      "label": "Liao Pilot",
+      "cards": [
+        {
+          "databaseId": "pSang-Wei_XS_U.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aRavenRVN-1X_SW_U.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "ucsWillofLiao_XS_R.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aPhoenixHawkPXH-4L_XS_U.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aSpectorSPR-ST_JI_C.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aCicadaCDA-3G_SC_C.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aWraithTR2_SC_C.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aTiTsangTSG-9H_XS_C.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aVictorVTR-10L_CW_R.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "crTaoMechworks_SW_U.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aOstrocOSR-4L_JI_R.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "crSolarisContactsModified.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CESupportAssembly3",
+          "quantity": 8,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "AR103",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CESupportTactics2",
+          "quantity": 8,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "mToBecomeInvisible_JI_R.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CS010",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "pSlick_NA_U_p1.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aAnubisABS-3T_JI_R.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "mRopeADope_JI_C_p1.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aDuanGungD9-G9_HU_U.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aMarauderMAD-3L_SW_U.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "pVeteranSergeant_NA_U.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "mAttackFromTheRear_XS_R.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aVictorVTR-9D_XS_C.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "mLikeaSecondSkin_SW_C_p2.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "mTheSwordofHonor_XS_C.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aCyclopsCP-11-B_JI_C.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CEThinkTank",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "mUnpredictableTactics_XS_U.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "pSeasonedMechwarrior_XS_U.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "mOldSchool_NA_C.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "aPhoenixHawkPXH-1_SW_C.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "mEspritDeCorps_CW_C.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "mCriticalSystemHit_XS_R.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "aMarshalMHL-2L_BU_R.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "uacCapellaWarCollege_SW_R.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "uLiaoHC_XS_R.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        }
+      ]
+    },
+    "f20MarikLr": {
+      "label": "Marik LR",
+      "cards": [
+        {
+          "databaseId": "pDeadEye_SC_U.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "ucsCourageofMarik_BU_R.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "crIrianTechnologies_SW_U.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aLocustLCT-6M_NA_C.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aCicadaCDA-3MA_JI_R.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aCicadaCDA-3P_NA_C.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aWraithTR2_SC_C.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aWolverineWVR-6M_SW_U.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aBansheeBNC-3M_SW_R.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aWarhammerWHM-7M_SW_U.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aAwesomeAWS-10KM_SC_C.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "AR103",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CEThinkTank",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CEBlackMarketConnections",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "mPlayingPossum_LU_R.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "mStreetFighting_CW_R.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aBattlemasterBLR-5M_JI_U.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aOstsolOTL-7M_CW_C.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "AFStingrayF-95_JI_U.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CESupportAssembly1",
+          "quantity": 7,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CESupportTactics3",
+          "quantity": 7,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "mSnipingFromtheHighGround_XS_R.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "mStandYourGround_LU_C.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "mSuperiorNumbers_HU_C.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CESupportLogistics2",
+          "quantity": 4,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "uacOrloffMilitaryAcademy_SC_R.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "pThePathfinder_HU_U.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aChameleonCLN-7Z_HU_C.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "upPaulMasters_HU_R.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "mPlayingPossum_LU_R.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "mStreetFighting_CW_R.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "mSnipingFromtheHighGround_XS_R.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "mNightWatch_XS_C.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "aFalconHawk9K_SC_C.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "csLongRangeSniping_NA_C.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "etMountainRange_HU_C.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "aPhoenixHawkPXH-3M_LU_C.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNSideboard"
+        }
+      ]
+    },
+    "f20NovaCatProtoBigMech": {
+      "label": "Nova Cat Proto Big Mech",
+      "cards": [
+        {
+          "databaseId": "mVisionsFulfilled_HU_R.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "mWaysofSeeing_CW_R.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "baSantinWest_HU_R.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "ppCentaur2ProtomechPoint_XS_U.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aARCTICCHEETAHH_CW_C.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aOcelot_JI_R.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aMarauderMAD-3RC_HU_C.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "ppRoc3ProtomechPoint_CW_C.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "mInnerSpirit_LU_R.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "AR103",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CEBlackMarketConnections",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CESupportAssembly2",
+          "quantity": 7,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CESupportTactics3",
+          "quantity": 7,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aARCTICCHEETAHE_NA_C.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aARCTICCHEETAHB_LU_C.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aRiflemanIIC-7_NA_U.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "crRU-Kappa_CW_C.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aNovaCatA_BU_C.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CESupportLogistics3",
+          "quantity": 4,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aNovaCatPrime_BU_C.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "pTheMarksman_XS_U.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "mCoveringtheRetreat_BU_U.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "mLayoftheLand_SW_U.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "ppRoc2ProtomechPoint_XS_C.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "pTheArsonist_SC_C.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aNovaCatD_XS_C.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "mRedlineBerserker_SW_U.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "mNoRecognitionCode_HU_U.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "upLucianCarns_LU_R.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CEThinkTank",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "uSeverenLeroux_LU_R.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "mTheSacrifice_BU_R.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "mDawnRaid_HU_R.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "mRedlineBerserker_SW_U.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "aAdderH_HU_C.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "aPhoenixHawkIIC_SW_C.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "csRiteoftheVision_XS_U.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "uNovaCatHC_LU_R.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        }
+      ]
+    },
+    "f20RasalhagueMissiles": {
+      "label": "Rasalhague Missiles",
+      "cards": [
+        {
+          "databaseId": "aLongbowLGB-12C_SC_C.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aLongbowLGB-0W_SW_C.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "vLRMCarrier_SW_C_p2.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "cTacticalSatelliteFeed_NA_U.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "pMissileWizard_HU_U_p2.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "pTheAssassin_LU_U.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "mGaugingtheWind_NA_C.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "mEffectiveSalvo_SC_C.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CESupportMunitions3",
+          "quantity": 8,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "AR103",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CEBlackMarketConnections",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CESupportTactics1",
+          "quantity": 6,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "mHoldTheHighGround_LU_R.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aCrusaderCRD-3K_SW_U.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aCicadaCDA-3F_LU_C.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aTarantulaZPH-1_BU_C.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "mLuckyGrouping_HU_C_p2.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "ucsShieldofRasalhague_LU_R.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aArcherARC-2R_SW_C.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aMAULERMAL-2R_HU_C.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aVikingVKG-2F_XS_C.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aBeowulfBEO-12_XS_C.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CESupportAssembly1",
+          "quantity": 4,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aDragonDRG-5N_SW_C.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "csStrategicAirStrike_LU_U.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CEThinkTank",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "cramIncendiaryLRMDepot_CW_U.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aArcherARC-5R_LU_R.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "mHiddenSentry_BU_U.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "mEffectiveSalvo_SC_C.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "csStrategicAirStrike_LU_U.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "AFSlayerSL-15K_CW_C.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "uRasalhagueHC_LU_R.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "cramSmokeMissileDepot_BU_U.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "cramThunderLRMDepot_BU_U.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "aArcherARC-4M_LU_C.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "mBuyingTime_BU_U.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        }
+      ]
+    },
+    "f20SmokeJaguarKittyConundrum": {
+      "label": "Smoke Jaguar Kitty Conundrum",
+      "cards": [
+        {
+          "databaseId": "aMistLynxE_HU_U.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aMistLynxP_HU_C.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aCougarB_BU_C.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aCougarD_HU_C.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "AR103",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aARCTICCHEETAHB_LU_C.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CEThinkTank",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CEBlackMarketConnections",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CESupportAssembly1",
+          "quantity": 6,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CESupportTactics3",
+          "quantity": 6,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "mPrideoftheTrueborn_HU_U.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "mSuperiorityComplex_HU_R.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "mUptheCenter_HU_U.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "mSpeedBump_BU_R.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "csDoubleOvertimeModified.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "crRU-Theta_CW_C.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aMistLynxH_HU_U.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aCougarPrime_BU_C.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aCougarA_BU_C.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CESupportMunitions3",
+          "quantity": 6,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aEbonJaguarD_BU_R.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "btt2aDaishiBModified.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aStormcrowE_BU_C.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "mDetermination_HU_R.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "mDisdainForFreebirths_LU_R.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aMadDogF_JI_C.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "vOro_BU_U.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "uBrandonHowell_BU_R.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "mSpeedMatters_SC_C.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "mBlindingRage_LU_U.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "csDeathandRebirth_HU_U.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "aCougarC_BU_C.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "aShadowCatC_HU_C.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "ukJaguarsSpiritKeshik_LU_R.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "mPrideoftheTrueborn_HU_U.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "mSuperiorityComplex_HU_R.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "baLincolnOsis_HU_R.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        }
+      ]
+    },
+    "f20StaradderProtomech": {
+      "label": "StarAdder Protomech",
+      "cards": [
+        {
+          "databaseId": "mOverwhelmingForce_NA_R.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "ssConfiscation_JI_U.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "ucsFangsoftheStarAdder_NA_R.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "csRemoteAssignment_XS_U.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "uStarAdderHC_HU_R.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "upCarlosHutchinson_HU_R.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "ppSiren2ProtomechPoint_XS_R.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "ppSirenProtomechPoint_HU_R.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "vHephaestusB_CW_U.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aKitFoxH_SC_C.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "ppMinotaurProtomechPoint_HU_U.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "ppGorgon2ProtomechPoint_XS_U.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aAdderH_HU_C.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aViperI_JI_C.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aBloodAspD_HU_U.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aGlassSpider3_SC_U.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "uHannibalBanacek_NA_R.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "mNoRecognitionCode_HU_U.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "AR103",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CEBlackMarketConnections",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CEThinkTank",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CESupportLogistics2",
+          "quantity": 8,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CESupportAssembly1",
+          "quantity": 4,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CESupportTactics1",
+          "quantity": 6,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "mTheUnseenBlade_HU_U.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "crClanMechFactory_XS_C.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aBurrock_SC_R.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "mTenacity_NA_R.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "mConcentratedFire_NA_R.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aCrimsonLangurPrime_NA_C.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aStormcrowH_SC_C.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "uCassiusNButa_HU_R.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "aHellionPrime_HU_C.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "mOverwhelmingForce_NA_R.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "pFangoftheAdder_CW_U.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "mNoRecognitionCode_HU_U.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "csRemoteAssignment_XS_U.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "mTheUnseenBlade_HU_U.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "aAdderJ_JI_C.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "mTenacity_NA_R.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        }
+      ]
+    },
+    "f20SteelViperModerateHeavies": {
+      "label": "Steel Viper Moderate Heavies",
+      "cards": [
+        {
+          "databaseId": "pTheSpecialist_XS_U_p1.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "csStayWithWhatWorks_XS_U.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "uNatalieBreen_SC_R.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "uclNatalieBreensLegacy_JI_R.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "uSteelViperHC_LU_R.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "mPrideoftheTrueborn_HU_U.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aBattleCobraF_SC_U.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aMistLynxF_CW_R.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aBattleCobraH_SC_U.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aCougarB_BU_C.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aHellionPrime_HU_C.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aBlackLannerE_XS_C.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aBlackPython2_SC_C.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aHowler2_NA_U.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aMistLynxE_HU_U.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aAdderH_HU_C.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "AR103",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CEBlackMarketConnections",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CESupportAssembly1",
+          "quantity": 8,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CESupportTactics3",
+          "quantity": 6,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CESupportPolitics3",
+          "quantity": 4,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "mPlannedManeuver_SC_R.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "mAdvanceInEchelon_SW_U.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aMatador_SC_C.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aBlackPython3_CW_U.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CEThinkTank",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "mNightMission_XS_C.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "mTheSwordofHonor_XS_C.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "crRU-Theta_CW_C.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "mConcentratedFire_NA_R.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "upBrettAndrews_HU_R.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "mPrideoftheTrueborn_HU_U.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "etFortifiedStrongpoints_SW_U.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "afIssus2_NA_C.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "aBlackLannerH_HU_U.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "mPlannedManeuver_SC_R.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "mEspritDeCorps_CW_C.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "ucsEyeotSteelViper_JI_R.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "mSpeedMatters_SC_C.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        }
+      ]
+    },
+    "f20SteinerAx": {
+      "label": "Steiner AX",
+      "cards": [
+        {
+          "databaseId": "aGoliath4S_CW_U.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aHauptmannHA1-OB_XS_U.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aHunchbackHBK-5S_BU_C.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aBarghestBGS-1T_SC_U.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aBlitzkreigBTZ-3F_CW_C.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aShadowHawkSHD-2D_SW_C.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "vPegasus3058_BU_C.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "vDemolisherII_HU_U.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aEmperorEMP-6S_JI_U.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "upGeneralAdamSteiner_CW_R.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "ucsFistofSteiner_CW_R.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "mShotgunBerserker_SW_U.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "mFireEverything_SC_R.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "crDefianceIndustries_SW_U.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "pHawkeye_LU_C.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "pTheMarksman_XS_U.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "AR103",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CEThinkTank",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CEBlackMarketConnections",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CESupportMunitions3",
+          "quantity": 8,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CESupportTactics3",
+          "quantity": 6,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CESupportLogistics2",
+          "quantity": 4,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "mAmmoDrop_SW_C.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "mValiantDefender_SW_R.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "cramForward-DeployedAmmo_BU_U.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aUzielUZL-3S_CW_C.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "vManticore3055_BU_U.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aStilettoSTO-4A_XS_C.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aHollanderBZK-G1_SC_C.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "mFireEverything_SC_R.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "mAmmoDrop_SW_C.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "mShotgunBerserker_SW_U.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "aHighlanderHGN-733C_SW_R.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "upJacksonDavion_NA_R.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "cramACClusterAmmoDepot_BU_U.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "aHauptmannHA1-O_XS_C.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "csUnexpectedAmmo_HU_C.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "mOhYeahTakeThat_XS_U.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        }
+      ]
+    },
+    "f20StivesMediaCampaign": {
+      "label": "StIves Media Campaign",
+      "cards": [
+        {
+          "databaseId": "mBuyingTime_BU_U.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "mEarlyWarning_XS_R.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aVindicatorVND-1SIC_SW_U.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aRavenRVN-2X_SW_U.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aTarantulaZPH-1_BU_C.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "AR103",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CEBlackMarketConnections",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CEThinkTank",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CESupportTactics3",
+          "quantity": 6,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aCicadaCDA-3F_LU_C.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "sMediaCampaign_XS_R_p1.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CESupportPolitics3",
+          "quantity": 4,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "ucsResolveofStIves_HU_R.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aMarauderMAD-3L_SW_U.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "mTheSacrifice_BU_R.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "crPoliticalConnections_XS_U.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "ePillbox_SW_U.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aCicadaCDA-3C_SW_U.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "cInsurgents_NA_C.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aHunchbackHBK-4P_SW_C.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CESupportLogistics3",
+          "quantity": 7,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "crResupplyCommand_HU_U.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "crCommandReserves_LU_U.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "sWeakSpot_NA_C.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aAwesomeAWS-9Q_SC_C.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "vPegasus_SW_C.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aBattlemasterBLR-1G_SW_C.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aOstrocOSR-2C_SW_R.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aCataphractCTF-2X_SW_U.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "mHiddenSentry_BU_U.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "mLastManStanding_BU_R.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "mLastInLine_HU_R.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "uclJustinAllardsLegacy_XS_R.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "mBuyingTime_BU_U.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "vManticore_SW_C.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "btt2aBlackHawkBHKU-OModified.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "etHardenedDefenses_LU_U_p2.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "uDuchessCandaceLiao_XS_R.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        }
+      ]
+    },
+    "f20WolfHunter": {
+      "label": "Wolf Hunter",
+      "cards": [
+        {
+          "databaseId": "pQuicksilver_SW_U.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aIceFerretE_HU_C.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aPhantomE_HU_U.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aIceFerretH_HU_U.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aPhantomF_JI_C.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "vAres_HU_U.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aPouncerH_CW_C.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "ucsSpeedoftheWolf_BU_R.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "upMarialleRadick_SC_R.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "mCaughtInTheFieldOfFire_LU_R.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "mLayoftheLand_SW_U.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "mDrivingIn_XS_R.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "mLightningAssault_SC_R.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "mWolfPack_SC_U.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "mPackHunting_NA_U.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "AR103",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "LT258",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CEBlackMarketConnections",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CESupportAssembly1",
+          "quantity": 7,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CESupportMunitions3",
+          "quantity": 5,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CESupportTactics3",
+          "quantity": 6,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aARCTICCHEETAHB_LU_C.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aAdderJ_JI_C.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aKitFoxE_HU_C.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "crStarAssignmentOfficer_LU_C.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "pTheBrawler_JI_U.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aStormcrowG_NA_C.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aGrendelH_CW_C.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aPouncerE_HU_C.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "mCaughtInTheFieldOfFire_LU_R.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "mLightningAssault_SC_R.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "mPackHunting_NA_U.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "csDoubleOvertimeModified.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "mIntimidation_SW_R_p2.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "btt2aMadCatDModified.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "pTheScalpel_NA_U.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "upTheAnomaly_NA_R.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "vZoryaATM_JI_U.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNSideboard"
+        }
+      ]
+    },
+    "f20WolfInExileTapToPlay": {
+      "label": "Wolf in Exile Tap to Play",
+      "cards": [
+        {
+          "databaseId": "aCrimsonHawk_NA_C.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aMarauderMAD-3RC_HU_C.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aGargoyleM_JI_C.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "uclUlricKerenskysLegacy_SC_R.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "ucsHeartoftheWolfinExile_NA_R.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "uWolf-in-ExileHC_SC_R.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "uKhanPhelanKell_JI_R.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "upJeraCarns_SC_R.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "pStoneWarrior_SC_U.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "auGrinnerWolfhoundIIC_HU_R.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aIceFerretE_HU_C.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aIceFerretH_HU_U.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aPouncerE_HU_C.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aLinebackerE_HU_U.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aPackHunter_XS_C.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aWolfhoundWLF-4W_JI_C.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aGargoyleH_HU_C.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CESupportAssembly2",
+          "quantity": 8,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CESupportTactics3",
+          "quantity": 6,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CESupportPolitics2",
+          "quantity": 4,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "AR103",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "crClanMechFactory_XS_C.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CS010",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aPhantomE_HU_U.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "mFromOutoftheWhite_NA_U.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "mPackHunting_NA_U.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "mStalkYourPrey_NA_U.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "mTheSwordofHonor_XS_C.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CEThinkTank",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aAdderJ_JI_C.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "mTurnTheTrap_NA_R.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "ssTheHowl_SC_U.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "upMarcoHall_SC_R.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "mStalkYourPrey_NA_U.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "mGlancingBlow_LU_C.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "mWolfPack_SC_U.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "aPackHunter3_JI_C.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "aAdderH_HU_C.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "mDefensiveRotation_XS_R.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "btt2uLeoShowers.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        }
+      ]
+    },
+    "f20WolfSDragoonsBigPilot": {
+      "label": "Wolf s Dragoons Big Pilot",
+      "cards": [
+        {
+          "databaseId": "aFleaFLE-15_SW_U.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "ucsTacticsofWolfsDragoons_BU_R.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "auNatashasWarhammerWHM-6R_SW_R.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aFalconFLC-6C_JI_R.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aWolfhoundWLF-4W_JI_C.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "crBlackwellHeavyInd_LU_U.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "upCaptainNatashaKerensky_SW_R.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aGallowglasWD_BU_R.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aGallowglasGAL-3GLS_CW_U.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "mWeveGotYourBack_LU_R.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aCicadaCDA-3F_LU_C.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aWarhammerWHM-6R_SW_C.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aPhoenixHawkPXH-3M_LU_C.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aTarantulaZPH-1_BU_C.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CESupportAssembly2",
+          "quantity": 6,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CESupportTactics3",
+          "quantity": 7,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CEBlackMarketConnections",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "AR103",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "mTheTightSpot_SW_R.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "mLikeaSecondSkin_SW_C_p2.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "mMercenaryIntelBriefing_LU_U.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aLineholderKW1-LH2_BU_C.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CEThinkTank",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "btt2uJaimeWolf.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aMarauderIIMAD-5A_SW_R.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "uWolfsDragoonsHC_SW_R.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CESupportLogistics2",
+          "quantity": 4,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "upStacyChurch_SC_R.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "upMaeveWolf_SC_R.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aScorpionSCP-1TB_NA_U.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "mBareKnuckles_NA_R.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "mKneecapTeam_JI_C.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "mUnpredictableTactics_XS_U.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "AFSparrowhawkSPR-7D_CW_C.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "cSpySatelliteUplink_CW_C.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "csFreshReplacements_BU_C.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "aMarauderIIMAD-4S_CW_C.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "mWidowsWeb_SC_R.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "mIntelligenceFailure_XS_C.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "mEvade_SC_C.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        }
+      ]
+    },
+    "f20WordOfBlakeC3I": {
+      "label": "Word of Blake C3I",
+      "cards": [
+        {
+          "databaseId": "vtPintoWoB_SC_U.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aMalakC-MK-OADominus_NA_C.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aMalakC-MK-OInvictus_JI_C.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aMalakC-MK-OBInfernus_JI_U.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aPretaC-PRT-OBInfernus_NA_U.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aPretaC-PRT-OADominus_JI_U.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aDevaC-DVA-OADominus_NA_U.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aDevaC-DVA-OBInfernus_NA_C.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "baPhalanxBattleArmor_CW_U.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "baAsuraBattleArmor_JI_U.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CESupportAssembly3",
+          "quantity": 6,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CESupportLogistics2",
+          "quantity": 6,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CESupportTactics3",
+          "quantity": 5,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "AR103",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "crCyberneticControlNode_JI_U.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "crKruppArmamentWorks_XS_U.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "mCombinedArms_JI_U.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "mCovertMovements_JI_R.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "mDefenseGridHacked_JI_R.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "mNightCrossingDenied_JI_R.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aGrigoriC-GRG-OADominus_JI_U.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "baNephilimBattleArmor_NA_R.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aMarauderIIMAD-5W_SC_U.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "aBattleCobraBTL-C-20_SC_C.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CEComGuardResponseTeam",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "mSomethingOldManSaid_BU_C.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CEBlackMarketConnections",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "CEThinkTank",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "mC3NetworkSpotter_SC_U.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "pVeteranSergeant_NA_U.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "upTheBallerina_NA_R.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "csFreshReplacements_BU_C.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNStockpile"
+        },
+        {
+          "databaseId": "AFShadeS-HA-OInvictus_NA_C.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "baPurifierBattleArmor_SC_U.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "upPrecentorAvitue_NA_R.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "uWordofBlakeHC_JI_R.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "mThePerfectMoment_JI_R.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "mC3NetworkSpotter_SC_U.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "mDefenseGridHacked_JI_R.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "mNightWatch_XS_C.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "pManeiDominiPilot_JI_U.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        },
+        {
+          "databaseId": "ucsSecretsoftheWordoftheBlake_JI_R.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNSideboard"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "faceProperties": {
+    "zoomImageUrl": {
+      "label": "Preview art",
+      "type": "string",
+      "default": ""
+    },
+    "subtitle": {
+      "label": "Subtitle",
+      "type": "string",
+      "default": ""
+    },
+    "faction": {
+      "label": "Faction",
+      "type": "string",
+      "default": ""
+    },
+    "rarity": {
+      "label": "Rarity",
+      "type": "string",
+      "default": ""
+    },
+    "cost": {
+      "label": "Cost",
+      "type": "string",
+      "default": ""
+    },
+    "threshold": {
+      "label": "Threshold",
+      "type": "string",
+      "default": ""
+    },
+    "attack": {
+      "label": "Attack",
+      "type": "string",
+      "default": ""
+    },
+    "defense": {
+      "label": "Defense",
+      "type": "string",
+      "default": ""
+    },
+    "health": {
+      "label": "Health",
+      "type": "string",
+      "default": ""
+    },
+    "artist": {
+      "label": "Artist",
+      "type": "string",
+      "default": ""
+    },
+    "flavour": {
+      "label": "Flavor",
+      "type": "string",
+      "default": ""
+    },
+    "text": {
+      "label": "Text",
+      "type": "string",
+      "default": ""
+    },
+    "packName": {
+      "label": "Set",
+      "type": "string",
+      "default": ""
+    },
+    "set": {
+      "label": "Set code",
+      "type": "string",
+      "default": ""
+    },
+    "loadGroupId": {
+      "label": "Load group",
+      "type": "string",
+      "default": ""
+    }
+  }
+}

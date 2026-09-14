@@ -1,0 +1,31 @@
+{
+  "phases": {
+    "ready": {
+      "label": "Ready",
+      "height": "20%"
+    },
+    "quest": {
+      "label": "Quest",
+      "height": "20%"
+    },
+    "main": {
+      "label": "Main",
+      "height": "20%"
+    },
+    "combat": {
+      "label": "Combat",
+      "height": "20%"
+    },
+    "end": {
+      "label": "End",
+      "height": "20%"
+    }
+  },
+  "phaseOrder": [
+    "ready",
+    "quest",
+    "main",
+    "combat",
+    "end"
+  ]
+}

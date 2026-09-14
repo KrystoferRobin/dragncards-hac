@@ -1,0 +1,31 @@
+{
+  "steps": {
+    "lowballStep": {
+      "phaseId": "lowball",
+      "label": "Lowball"
+    },
+    "upkeepStep": {
+      "phaseId": "upkeep",
+      "label": "Upkeep"
+    },
+    "highNoonStep": {
+      "phaseId": "highNoon",
+      "label": "High Noon"
+    },
+    "sundownStep": {
+      "phaseId": "sundown",
+      "label": "Sundown"
+    },
+    "nightfallStep": {
+      "phaseId": "nightfall",
+      "label": "Nightfall"
+    }
+  },
+  "stepOrder": [
+    "lowballStep",
+    "upkeepStep",
+    "highNoonStep",
+    "sundownStep",
+    "nightfallStep"
+  ]
+}

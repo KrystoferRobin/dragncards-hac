@@ -1,0 +1,26 @@
+{
+  "browse": {
+    "filterPropertySideA": "type",
+    "filterValuesSideA": [
+      "Assassination",
+      "Disaster",
+      "Goal",
+      "Illuminati",
+      "NWO (Blue)",
+      "NWO (Red)",
+      "NWO (Yellow)",
+      "Organization",
+      "Personality",
+      "Place",
+      "Plot",
+      "Resource"
+    ],
+    "textPropertiesSideA": [
+      "name",
+      "alignment",
+      "attribute",
+      "text",
+      "packName"
+    ]
+  }
+}

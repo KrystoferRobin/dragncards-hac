@@ -1,0 +1,18 @@
+{
+  "topBarCounters": {
+    "shared": [
+      {
+        "label": "Round",
+        "imageUrl": "",
+        "gameProperty": "roundNumber"
+      }
+    ],
+    "player": [
+      {
+        "label": "Power",
+        "imageUrl": "",
+        "playerProperty": "power"
+      }
+    ]
+  }
+}

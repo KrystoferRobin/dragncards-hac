@@ -1,0 +1,1849 @@
+{
+  "preBuiltDecks": {
+    "core_neutral": {
+      "cards": [
+        {
+          "databaseId": "g32",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 2
+        },
+        {
+          "databaseId": "g33",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 2
+        },
+        {
+          "databaseId": "g34",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 2
+        },
+        {
+          "databaseId": "g35",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 2
+        },
+        {
+          "databaseId": "g36",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "g37",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "g38",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 2
+        },
+        {
+          "databaseId": "g39",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 2
+        },
+        {
+          "databaseId": "g40",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "g41",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 2
+        },
+        {
+          "databaseId": "g42",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 2
+        },
+        {
+          "databaseId": "g43",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "g44",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "g45",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "g46",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "ncs1",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 2
+        },
+        {
+          "databaseId": "ncs2",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 3
+        },
+        {
+          "databaseId": "ncs3",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 2
+        },
+        {
+          "databaseId": "orp1",
+          "loadGroupId": "sharedOuterRimPilotDeck",
+          "quantity": 10
+        }
+      ],
+      "label": "Core Neutral Deck"
+    },
+    "cw_neutral": {
+      "cards": [
+        {
+          "databaseId": "cw_g31",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "cw_g32",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "cw_g33",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "cw_g34",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "cw_g35",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "cw_g36",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "cw_g37",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "cw_g38",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "cw_g39",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "cw_g40",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 2
+        },
+        {
+          "databaseId": "cw_g41",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 2
+        },
+        {
+          "databaseId": "cw_g42",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 2
+        },
+        {
+          "databaseId": "cw_g43",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 2
+        },
+        {
+          "databaseId": "cw_g44",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 2
+        },
+        {
+          "databaseId": "cw_g45",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 2
+        },
+        {
+          "databaseId": "cw_g46",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 2
+        },
+        {
+          "databaseId": "cw_ncs1",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 2
+        },
+        {
+          "databaseId": "cw_ncs2",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 2
+        },
+        {
+          "databaseId": "cw_ncs3",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 3
+        },
+        {
+          "databaseId": "cw_orp1",
+          "loadGroupId": "sharedOuterRimPilotDeck",
+          "quantity": 10
+        }
+      ],
+      "label": "Clone Wars Neutral Deck"
+    },
+    "empire_p1": {
+      "cards": [
+        {
+          "databaseId": "es1",
+          "loadGroupId": "player1Deck",
+          "quantity": 7
+        },
+        {
+          "databaseId": "es2",
+          "loadGroupId": "player1Deck",
+          "quantity": 2
+        },
+        {
+          "databaseId": "es3",
+          "loadGroupId": "player1Deck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "eb1",
+          "loadGroupId": "player1Base",
+          "quantity": 1
+        },
+        {
+          "databaseId": "eb2",
+          "loadGroupId": "player1BaseDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "eb3",
+          "loadGroupId": "player1BaseDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "eb4",
+          "loadGroupId": "player1BaseDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "eb5",
+          "loadGroupId": "player1BaseDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "eb6",
+          "loadGroupId": "player1BaseDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "eb7",
+          "loadGroupId": "player1BaseDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "eb8",
+          "loadGroupId": "player1BaseDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "eb9",
+          "loadGroupId": "player1BaseDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "eb10",
+          "loadGroupId": "player1BaseDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "g17",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 3
+        },
+        {
+          "databaseId": "g18",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "g19",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 2
+        },
+        {
+          "databaseId": "g20",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 2
+        },
+        {
+          "databaseId": "g21",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 2
+        },
+        {
+          "databaseId": "g22",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 2
+        },
+        {
+          "databaseId": "g23",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "g24",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "g25",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 2
+        },
+        {
+          "databaseId": "g26",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 2
+        },
+        {
+          "databaseId": "g27",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "g28",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "g29",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "g30",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "g31",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "ecs1",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 3
+        },
+        {
+          "databaseId": "ecs2",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 2
+        },
+        {
+          "databaseId": "ecs3",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 2
+        }
+      ],
+      "label": "Empire (Player 1)"
+    },
+    "empire_p2": {
+      "cards": [
+        {
+          "databaseId": "es1",
+          "loadGroupId": "player2Deck",
+          "quantity": 7
+        },
+        {
+          "databaseId": "es2",
+          "loadGroupId": "player2Deck",
+          "quantity": 2
+        },
+        {
+          "databaseId": "es3",
+          "loadGroupId": "player2Deck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "eb1",
+          "loadGroupId": "player2Base",
+          "quantity": 1
+        },
+        {
+          "databaseId": "eb2",
+          "loadGroupId": "player2BaseDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "eb3",
+          "loadGroupId": "player2BaseDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "eb4",
+          "loadGroupId": "player2BaseDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "eb5",
+          "loadGroupId": "player2BaseDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "eb6",
+          "loadGroupId": "player2BaseDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "eb7",
+          "loadGroupId": "player2BaseDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "eb8",
+          "loadGroupId": "player2BaseDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "eb9",
+          "loadGroupId": "player2BaseDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "eb10",
+          "loadGroupId": "player2BaseDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "g17",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 3
+        },
+        {
+          "databaseId": "g18",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "g19",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 2
+        },
+        {
+          "databaseId": "g20",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 2
+        },
+        {
+          "databaseId": "g21",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 2
+        },
+        {
+          "databaseId": "g22",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 2
+        },
+        {
+          "databaseId": "g23",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "g24",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "g25",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 2
+        },
+        {
+          "databaseId": "g26",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 2
+        },
+        {
+          "databaseId": "g27",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "g28",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "g29",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "g30",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "g31",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "ecs1",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 3
+        },
+        {
+          "databaseId": "ecs2",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 2
+        },
+        {
+          "databaseId": "ecs3",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 2
+        }
+      ],
+      "label": "Empire (Player 2)"
+    },
+    "mandalorian_p1": {
+      "cards": [
+        {
+          "databaseId": "mandalorian_soldier",
+          "loadGroupId": "player1Deck",
+          "quantity": 2
+        },
+        {
+          "databaseId": "child_of_the_watch",
+          "loadGroupId": "player1Deck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "mandalorian_shuttle",
+          "loadGroupId": "player1Deck",
+          "quantity": 7
+        },
+        {
+          "databaseId": "concord_dawn",
+          "loadGroupId": "player1Base",
+          "quantity": 1
+        },
+        {
+          "databaseId": "arvala_VII",
+          "loadGroupId": "player1BaseDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "mandalore",
+          "loadGroupId": "player1BaseDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "concordia",
+          "loadGroupId": "player1BaseDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "glavis_ringworld",
+          "loadGroupId": "player1BaseDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "kalevala",
+          "loadGroupId": "player1BaseDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "nevarro",
+          "loadGroupId": "player1BaseDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "tattooine",
+          "loadGroupId": "player1BaseDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "trask",
+          "loadGroupId": "player1BaseDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "tython",
+          "loadGroupId": "player1BaseDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "foundling",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "balutar_swoop_rider",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "clan_kryze_commando",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "paz_vizsla",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "axe_woves",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "mandalorian_hunter",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "survivor_langskib",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "koska_reeves",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "mandalorian_hijacker",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "protectorate_fighter",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "gauntlet_dropship",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "grogu",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "the_mandalorian",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "din's_starfighter",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "the_armorer",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "razorcrest",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "bo-katan",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "arquitens_command_cruiser",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "captured_gozanti_cruiser",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 1
+        }
+      ],
+      "label": "The Mandalorian (Player 1)"
+    },
+    "mandalorian_p2": {
+      "cards": [
+        {
+          "databaseId": "mandalorian_soldier",
+          "loadGroupId": "player2Deck",
+          "quantity": 2
+        },
+        {
+          "databaseId": "child_of_the_watch",
+          "loadGroupId": "player2Deck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "mandalorian_shuttle",
+          "loadGroupId": "player2Deck",
+          "quantity": 7
+        },
+        {
+          "databaseId": "concord_dawn",
+          "loadGroupId": "player2Base",
+          "quantity": 1
+        },
+        {
+          "databaseId": "arvala_VII",
+          "loadGroupId": "player2BaseDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "mandalore",
+          "loadGroupId": "player2BaseDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "concordia",
+          "loadGroupId": "player2BaseDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "glavis_ringworld",
+          "loadGroupId": "player2BaseDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "kalevala",
+          "loadGroupId": "player2BaseDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "nevarro",
+          "loadGroupId": "player2BaseDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "tattooine",
+          "loadGroupId": "player2BaseDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "trask",
+          "loadGroupId": "player2BaseDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "tython",
+          "loadGroupId": "player2BaseDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "foundling",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "balutar_swoop_rider",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "clan_kryze_commando",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "paz_vizsla",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "axe_woves",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "mandalorian_hunter",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "survivor_langskib",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "koska_reeves",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "mandalorian_hijacker",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "protectorate_fighter",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "gauntlet_dropship",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "grogu",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "the_mandalorian",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "din's_starfighter",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "the_armorer",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "razorcrest",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "bo-katan",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "arquitens_command_cruiser",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "captured_gozanti_cruiser",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 1
+        }
+      ],
+      "label": "The Mandalorian (Player 2)"
+    },
+    "rebel_p1": {
+      "cards": [
+        {
+          "databaseId": "rs1",
+          "loadGroupId": "player1Deck",
+          "quantity": 7
+        },
+        {
+          "databaseId": "rs2",
+          "loadGroupId": "player1Deck",
+          "quantity": 2
+        },
+        {
+          "databaseId": "rs3",
+          "loadGroupId": "player1Deck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "rb1",
+          "loadGroupId": "player1Base",
+          "quantity": 1
+        },
+        {
+          "databaseId": "rb2",
+          "loadGroupId": "player1BaseDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "rb3",
+          "loadGroupId": "player1BaseDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "rb4",
+          "loadGroupId": "player1BaseDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "rb5",
+          "loadGroupId": "player1BaseDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "rb6",
+          "loadGroupId": "player1BaseDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "rb7",
+          "loadGroupId": "player1BaseDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "rb8",
+          "loadGroupId": "player1BaseDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "rb9",
+          "loadGroupId": "player1BaseDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "rb10",
+          "loadGroupId": "player1BaseDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "g1",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 2
+        },
+        {
+          "databaseId": "g2",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "g3",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 2
+        },
+        {
+          "databaseId": "g4",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 2
+        },
+        {
+          "databaseId": "g5",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "g6",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 2
+        },
+        {
+          "databaseId": "g7",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 3
+        },
+        {
+          "databaseId": "g8",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "g9",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "g10",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 2
+        },
+        {
+          "databaseId": "g11",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "g12",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "g13",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 2
+        },
+        {
+          "databaseId": "g14",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "g15",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "g16",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "rcs1",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 2
+        },
+        {
+          "databaseId": "rcs2",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 2
+        },
+        {
+          "databaseId": "rcs3",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 2
+        }
+      ],
+      "label": "Rebel Alliance (Player 1)"
+    },
+    "rebel_p2": {
+      "cards": [
+        {
+          "databaseId": "rs1",
+          "loadGroupId": "player2Deck",
+          "quantity": 7
+        },
+        {
+          "databaseId": "rs2",
+          "loadGroupId": "player2Deck",
+          "quantity": 2
+        },
+        {
+          "databaseId": "rs3",
+          "loadGroupId": "player2Deck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "rb1",
+          "loadGroupId": "player2Base",
+          "quantity": 1
+        },
+        {
+          "databaseId": "rb2",
+          "loadGroupId": "player2BaseDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "rb3",
+          "loadGroupId": "player2BaseDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "rb4",
+          "loadGroupId": "player2BaseDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "rb5",
+          "loadGroupId": "player2BaseDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "rb6",
+          "loadGroupId": "player2BaseDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "rb7",
+          "loadGroupId": "player2BaseDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "rb8",
+          "loadGroupId": "player2BaseDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "rb9",
+          "loadGroupId": "player2BaseDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "rb10",
+          "loadGroupId": "player2BaseDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "g1",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 2
+        },
+        {
+          "databaseId": "g2",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "g3",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 2
+        },
+        {
+          "databaseId": "g4",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 2
+        },
+        {
+          "databaseId": "g5",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "g6",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 2
+        },
+        {
+          "databaseId": "g7",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 3
+        },
+        {
+          "databaseId": "g8",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "g9",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "g10",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 2
+        },
+        {
+          "databaseId": "g11",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "g12",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "g13",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 2
+        },
+        {
+          "databaseId": "g14",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "g15",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "g16",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "rcs1",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 2
+        },
+        {
+          "databaseId": "rcs2",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 2
+        },
+        {
+          "databaseId": "rcs3",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 2
+        }
+      ],
+      "label": "Rebel Alliance (Player 2)"
+    },
+    "republic_p1": {
+      "cards": [
+        {
+          "databaseId": "cw_rs1",
+          "loadGroupId": "player1Deck",
+          "quantity": 7
+        },
+        {
+          "databaseId": "cw_rs2",
+          "loadGroupId": "player1Deck",
+          "quantity": 2
+        },
+        {
+          "databaseId": "cw_rs3",
+          "loadGroupId": "player1Deck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "cw_rb1",
+          "loadGroupId": "player1Base",
+          "quantity": 1
+        },
+        {
+          "databaseId": "cw_rb2",
+          "loadGroupId": "player1BaseDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "cw_rb3",
+          "loadGroupId": "player1BaseDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "cw_rb4",
+          "loadGroupId": "player1BaseDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "cw_rb5",
+          "loadGroupId": "player1BaseDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "cw_rb6",
+          "loadGroupId": "player1BaseDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "cw_rb7",
+          "loadGroupId": "player1BaseDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "cw_rb8",
+          "loadGroupId": "player1BaseDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "cw_rb9",
+          "loadGroupId": "player1BaseDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "cw_rb10",
+          "loadGroupId": "player1BaseDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "cw_g15",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "cw_g16",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "cw_g17",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "cw_g18",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "cw_g19",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "cw_g20",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "cw_g21",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "cw_g22",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "cw_g23",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "cw_g24",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 2
+        },
+        {
+          "databaseId": "cw_g25",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 2
+        },
+        {
+          "databaseId": "cw_g26",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 2
+        },
+        {
+          "databaseId": "cw_g27",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 2
+        },
+        {
+          "databaseId": "cw_g28",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 2
+        },
+        {
+          "databaseId": "cw_g29",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 2
+        },
+        {
+          "databaseId": "cw_g30",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 3
+        },
+        {
+          "databaseId": "cw_rcs1",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 2
+        },
+        {
+          "databaseId": "cw_rcs2",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 2
+        },
+        {
+          "databaseId": "cw_rcs3",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 2
+        }
+      ],
+      "label": "Galactic Republic (Player 1)"
+    },
+    "republic_p2": {
+      "cards": [
+        {
+          "databaseId": "cw_rs1",
+          "loadGroupId": "player2Deck",
+          "quantity": 7
+        },
+        {
+          "databaseId": "cw_rs2",
+          "loadGroupId": "player2Deck",
+          "quantity": 2
+        },
+        {
+          "databaseId": "cw_rs3",
+          "loadGroupId": "player2Deck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "cw_rb1",
+          "loadGroupId": "player2Base",
+          "quantity": 1
+        },
+        {
+          "databaseId": "cw_rb2",
+          "loadGroupId": "player2BaseDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "cw_rb3",
+          "loadGroupId": "player2BaseDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "cw_rb4",
+          "loadGroupId": "player2BaseDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "cw_rb5",
+          "loadGroupId": "player2BaseDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "cw_rb6",
+          "loadGroupId": "player2BaseDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "cw_rb7",
+          "loadGroupId": "player2BaseDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "cw_rb8",
+          "loadGroupId": "player2BaseDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "cw_rb9",
+          "loadGroupId": "player2BaseDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "cw_rb10",
+          "loadGroupId": "player2BaseDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "cw_g15",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "cw_g16",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "cw_g17",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "cw_g18",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "cw_g19",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "cw_g20",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "cw_g21",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "cw_g22",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "cw_g23",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "cw_g24",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 2
+        },
+        {
+          "databaseId": "cw_g25",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 2
+        },
+        {
+          "databaseId": "cw_g26",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 2
+        },
+        {
+          "databaseId": "cw_g27",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 2
+        },
+        {
+          "databaseId": "cw_g28",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 2
+        },
+        {
+          "databaseId": "cw_g29",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 2
+        },
+        {
+          "databaseId": "cw_g30",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 3
+        },
+        {
+          "databaseId": "cw_rcs1",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 2
+        },
+        {
+          "databaseId": "cw_rcs2",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 2
+        },
+        {
+          "databaseId": "cw_rcs3",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 2
+        }
+      ],
+      "label": "Galactic Republic (Player 2)"
+    },
+    "separatist_p1": {
+      "cards": [
+        {
+          "databaseId": "cw_ss1",
+          "loadGroupId": "player1Deck",
+          "quantity": 7
+        },
+        {
+          "databaseId": "cw_ss2",
+          "loadGroupId": "player1Deck",
+          "quantity": 2
+        },
+        {
+          "databaseId": "cw_ss3",
+          "loadGroupId": "player1Deck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "cw_sb1",
+          "loadGroupId": "player1Base",
+          "quantity": 1
+        },
+        {
+          "databaseId": "cw_sb2",
+          "loadGroupId": "player1BaseDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "cw_sb3",
+          "loadGroupId": "player1BaseDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "cw_sb4",
+          "loadGroupId": "player1BaseDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "cw_sb5",
+          "loadGroupId": "player1BaseDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "cw_sb6",
+          "loadGroupId": "player1BaseDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "cw_sb7",
+          "loadGroupId": "player1BaseDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "cw_sb8",
+          "loadGroupId": "player1BaseDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "cw_sb9",
+          "loadGroupId": "player1BaseDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "cw_sb10",
+          "loadGroupId": "player1BaseDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "cw_g1",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "cw_g2",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "cw_g3",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "cw_g4",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "cw_g5",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "cw_g6",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "cw_g7",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "cw_g8",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 2
+        },
+        {
+          "databaseId": "cw_g9",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 2
+        },
+        {
+          "databaseId": "cw_g10",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 2
+        },
+        {
+          "databaseId": "cw_g11",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 2
+        },
+        {
+          "databaseId": "cw_g12",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 2
+        },
+        {
+          "databaseId": "cw_g13",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 3
+        },
+        {
+          "databaseId": "cw_g14",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 3
+        },
+        {
+          "databaseId": "cw_scs1",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 2
+        },
+        {
+          "databaseId": "cw_scs2",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 2
+        },
+        {
+          "databaseId": "cw_scs3",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 3
+        }
+      ],
+      "label": "Separatist Alliance (Player 1)"
+    },
+    "separatist_p2": {
+      "cards": [
+        {
+          "databaseId": "cw_ss1",
+          "loadGroupId": "player2Deck",
+          "quantity": 7
+        },
+        {
+          "databaseId": "cw_ss2",
+          "loadGroupId": "player2Deck",
+          "quantity": 2
+        },
+        {
+          "databaseId": "cw_ss3",
+          "loadGroupId": "player2Deck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "cw_sb1",
+          "loadGroupId": "player2Base",
+          "quantity": 1
+        },
+        {
+          "databaseId": "cw_sb2",
+          "loadGroupId": "player2BaseDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "cw_sb3",
+          "loadGroupId": "player2BaseDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "cw_sb4",
+          "loadGroupId": "player2BaseDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "cw_sb5",
+          "loadGroupId": "player2BaseDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "cw_sb6",
+          "loadGroupId": "player2BaseDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "cw_sb7",
+          "loadGroupId": "player2BaseDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "cw_sb8",
+          "loadGroupId": "player2BaseDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "cw_sb9",
+          "loadGroupId": "player2BaseDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "cw_sb10",
+          "loadGroupId": "player2BaseDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "cw_g1",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "cw_g2",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "cw_g3",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "cw_g4",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "cw_g5",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "cw_g6",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "cw_g7",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 1
+        },
+        {
+          "databaseId": "cw_g8",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 2
+        },
+        {
+          "databaseId": "cw_g9",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 2
+        },
+        {
+          "databaseId": "cw_g10",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 2
+        },
+        {
+          "databaseId": "cw_g11",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 2
+        },
+        {
+          "databaseId": "cw_g12",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 2
+        },
+        {
+          "databaseId": "cw_g13",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 3
+        },
+        {
+          "databaseId": "cw_g14",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 3
+        },
+        {
+          "databaseId": "cw_scs1",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 2
+        },
+        {
+          "databaseId": "cw_scs2",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 2
+        },
+        {
+          "databaseId": "cw_scs3",
+          "loadGroupId": "sharedGalaxyDeck",
+          "quantity": 3
+        }
+      ],
+      "label": "Separatist Alliance (Player 2)"
+    },
+    "shared": {
+      "cards": [
+        {
+          "databaseId": "quick_reference_1",
+          "loadGroupId": "sharedRules",
+          "quantity": 2
+        },
+        {
+          "databaseId": "quick_reference_2",
+          "loadGroupId": "sharedRules",
+          "quantity": 1
+        },
+        {
+          "databaseId": "force_tracker",
+          "loadGroupId": "sharedTracker",
+          "quantity": 1
+        }
+      ],
+      "label": "Shared Cards"
+    }
+  }
+}

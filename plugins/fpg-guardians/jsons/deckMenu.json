@@ -1,0 +1,59 @@
+{
+  "deckMenu": {
+    "subMenus": [
+      {
+        "label": "Lackey Decks",
+        "deckLists": [
+          {
+            "deckListId": "advanced-richards-pirates",
+            "label": "Advanced Richards Pirates"
+          },
+          {
+            "deckListId": "advanced-the-bad-luck-13-pirate-extravaganza",
+            "label": "Advanced The Bad Luck 13 Pirate Extravaganza"
+          },
+          {
+            "deckListId": "advanced-undead-and-slag-beast",
+            "label": "Advanced Undead and Slag Beast"
+          },
+          {
+            "deckListId": "basic-giants-and-fairies-theme",
+            "label": "Basic Giants and Fairies Theme"
+          },
+          {
+            "deckListId": "basic-knights-theme",
+            "label": "Basic Knights Theme"
+          },
+          {
+            "deckListId": "basic-pirates-theme",
+            "label": "Basic Pirates Theme"
+          },
+          {
+            "deckListId": "basic-slag-beast-theme",
+            "label": "Basic Slag Beast Theme"
+          },
+          {
+            "deckListId": "basic-undead-theme",
+            "label": "Basic Undead Theme"
+          },
+          {
+            "deckListId": "guidebook-knights-and-angels",
+            "label": "Guidebook Knights and Angels"
+          },
+          {
+            "deckListId": "guidebook-rock-paper-and-scissors",
+            "label": "Guidebook Rock Paper and Scissors"
+          },
+          {
+            "deckListId": "guidebook-the-deck",
+            "label": "Guidebook The Deck"
+          },
+          {
+            "deckListId": "guidebook-the-fast-flying-attack-deck",
+            "label": "Guidebook The Fast Flying Attack Deck"
+          }
+        ]
+      }
+    ]
+  }
+}

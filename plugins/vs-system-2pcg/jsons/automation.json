@@ -1,0 +1,11 @@
+{
+  "automation": {
+    "postNewGameActionList": [
+      [
+        "LOG",
+        "VS System 2PCG table created. Load a tournament list from Menu → Load. No rules are enforced."
+      ]
+    ],
+    "gameRules": {}
+  }
+}

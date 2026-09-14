@@ -1,0 +1,38 @@
+{
+  "pluginMenu": {
+    "options": [
+      {
+        "label": "Draw",
+        "actionList": "drawDeck"
+      },
+      {
+        "label": "Shuffle deck",
+        "actionList": "shuffleDeck"
+      },
+      {
+        "label": "Ready all",
+        "actionList": "readyAll"
+      },
+      {
+        "label": "Flip coin",
+        "actionList": "flipCoin"
+      },
+      {
+        "label": "Support",
+        "actionList": "drawSupport"
+      },
+      {
+        "label": "Add orb",
+        "actionList": "addOrb"
+      },
+      {
+        "label": "Take orb",
+        "actionList": "takeOrb"
+      },
+      {
+        "label": "Roll d6",
+        "actionList": "rollD6"
+      }
+    ]
+  }
+}

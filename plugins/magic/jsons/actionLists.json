@@ -1,0 +1,362 @@
+{
+  "actionLists": {
+    "drawDeck": [
+      [
+        "COND",
+        [
+          "GROUP_EMPTY",
+          "{{$PLAYER_N}}Deck"
+        ],
+        [
+          "LOG",
+          "{{$ALIAS_N}} tried to draw from an empty library."
+        ],
+        [
+          "TRUE"
+        ],
+        [
+          [
+            "MOVE_STACKS",
+            "{{$PLAYER_N}}Deck",
+            "{{$PLAYER_N}}Hand",
+            1,
+            "bottom"
+          ],
+          [
+            "LOG",
+            "{{$ALIAS_N}} drew a card."
+          ]
+        ]
+      ]
+    ],
+    "shuffleDeck": [
+      [
+        "SHUFFLE_GROUP",
+        "{{$PLAYER_N}}Deck"
+      ],
+      [
+        "LOG",
+        "{{$ALIAS_N}} shuffled their library."
+      ]
+    ],
+    "untapAll": [
+      [
+        "FOR_EACH_KEY_VAL",
+        "$CARD_ID",
+        "$CARD",
+        "$GAME.cardById",
+        [
+          "COND",
+          [
+            "EQUAL",
+            "$CARD.controller",
+            "$PLAYER_N"
+          ],
+          [
+            "SET",
+            "/cardById/{{$CARD_ID}}/rotation",
+            0
+          ]
+        ]
+      ],
+      [
+        "LOG",
+        "{{$ALIAS_N}} untapped all their permanents."
+      ]
+    ],
+    "tapAll": [
+      [
+        "FOR_EACH_KEY_VAL",
+        "$CARD_ID",
+        "$CARD",
+        "$GAME.cardById",
+        [
+          "COND",
+          [
+            "EQUAL",
+            "$CARD.controller",
+            "$PLAYER_N"
+          ],
+          [
+            "SET",
+            "/cardById/{{$CARD_ID}}/rotation",
+            90
+          ]
+        ]
+      ],
+      [
+        "LOG",
+        "{{$ALIAS_N}} tapped all their permanents."
+      ]
+    ],
+    "tapCard": [
+      [
+        "SET",
+        "/cardById/$ACTIVE_CARD_ID/rotation",
+        90
+      ],
+      [
+        "LOG",
+        "{{$ALIAS_N}} tapped {{$ACTIVE_FACE.name}}."
+      ]
+    ],
+    "untapCard": [
+      [
+        "SET",
+        "/cardById/$ACTIVE_CARD_ID/rotation",
+        0
+      ],
+      [
+        "LOG",
+        "{{$ALIAS_N}} untapped {{$ACTIVE_FACE.name}}."
+      ]
+    ],
+    "mill": [
+      [
+        "COND",
+        [
+          "GROUP_EMPTY",
+          "{{$PLAYER_N}}Deck"
+        ],
+        [
+          "LOG",
+          "{{$ALIAS_N}} tried to mill an empty library."
+        ],
+        [
+          "TRUE"
+        ],
+        [
+          [
+            "MOVE_STACKS",
+            "{{$PLAYER_N}}Deck",
+            "{{$PLAYER_N}}Graveyard",
+            1,
+            "top"
+          ],
+          [
+            "LOG",
+            "{{$ALIAS_N}} milled a card."
+          ]
+        ]
+      ]
+    ],
+    "playCommand": [
+      [
+        "COND",
+        [
+          "GROUP_EMPTY",
+          "{{$PLAYER_N}}Command"
+        ],
+        [
+          "LOG",
+          "{{$ALIAS_N}} has no card in the command zone."
+        ],
+        [
+          "TRUE"
+        ],
+        [
+          [
+            "MOVE_STACKS",
+            "{{$PLAYER_N}}Command",
+            "{{$PLAYER_N}}Play",
+            1,
+            "top"
+          ],
+          [
+            "LOG",
+            "{{$ALIAS_N}} moved their commander onto the battlefield."
+          ]
+        ]
+      ]
+    ],
+    "increaseLife": [
+      [
+        "INCREASE_VAL",
+        "/playerData/$PLAYER_N/life",
+        1
+      ],
+      [
+        "LOG",
+        "{{$ALIAS_N}} gained 1 life."
+      ]
+    ],
+    "decreaseLife": [
+      [
+        "DECREASE_VAL",
+        "/playerData/$PLAYER_N/life",
+        1
+      ],
+      [
+        "LOG",
+        "{{$ALIAS_N}} lost 1 life."
+      ]
+    ],
+    "rollD6": [
+      [
+        "VAR",
+        "$D1",
+        [
+          "RANDOM_INT",
+          1,
+          6
+        ]
+      ],
+      [
+        "LOG",
+        "{{$ALIAS_N}} rolled 1d6: {{$D1}}."
+      ]
+    ],
+    "rollD20": [
+      [
+        "VAR",
+        "$D1",
+        [
+          "RANDOM_INT",
+          1,
+          20
+        ]
+      ],
+      [
+        "LOG",
+        "{{$ALIAS_N}} rolled 1d20: {{$D1}}."
+      ]
+    ],
+    "flipCoin": [
+      [
+        "VAR",
+        "$FLIP",
+        [
+          "RANDOM_INT",
+          0,
+          1
+        ]
+      ],
+      [
+        "COND",
+        [
+          "EQUAL",
+          "$FLIP",
+          0
+        ],
+        [
+          "LOG",
+          "{{$ALIAS_N}} flipped a coin: Heads."
+        ],
+        [
+          "TRUE"
+        ],
+        [
+          "LOG",
+          "{{$ALIAS_N}} flipped a coin: Tails."
+        ]
+      ]
+    ],
+    "toggleCommanderSlots": [
+      [
+        "COND",
+        [
+          "EQUAL",
+          "$GAME.layoutId",
+          "commander"
+        ],
+        [
+          [
+            "SET_LAYOUT",
+            "shared",
+            "standard"
+          ],
+          [
+            "LOG",
+            "{{$ALIAS_N}} hid commander and emblem slots for both players."
+          ]
+        ],
+        [
+          "TRUE"
+        ],
+        [
+          [
+            "SET_LAYOUT",
+            "shared",
+            "commander"
+          ],
+          [
+            "LOG",
+            "{{$ALIAS_N}} showed commander and emblem slots for both players."
+          ]
+        ]
+      ]
+    ],
+    "flipCard": [
+      [
+        "FLIP",
+        "$ACTIVE_CARD_ID"
+      ]
+    ],
+    "discardCard": [
+      [
+        "DISCARD",
+        "$ACTIVE_CARD_ID"
+      ]
+    ],
+    "exileCard": [
+      [
+        "MOVE_CARD",
+        "$ACTIVE_CARD_ID",
+        "{{$PLAYER_N}}Exile",
+        0
+      ],
+      [
+        "LOG",
+        "{{$ALIAS_N}} exiled {{$ACTIVE_FACE.name}}."
+      ]
+    ],
+    "toCommand": [
+      [
+        "MOVE_CARD",
+        "$ACTIVE_CARD_ID",
+        "{{$PLAYER_N}}Command",
+        0
+      ],
+      [
+        "LOG",
+        "{{$ALIAS_N}} moved a card to the command zone."
+      ]
+    ],
+    "toEmblem": [
+      [
+        "MOVE_CARD",
+        "$ACTIVE_CARD_ID",
+        "{{$PLAYER_N}}Emblem",
+        0
+      ],
+      [
+        "LOG",
+        "{{$ALIAS_N}} moved a card to emblems."
+      ]
+    ],
+    "toTokens": [
+      [
+        "MOVE_CARD",
+        "$ACTIVE_CARD_ID",
+        "{{$PLAYER_N}}Tokens",
+        0
+      ],
+      [
+        "LOG",
+        "{{$ALIAS_N}} moved a card to the token pile."
+      ]
+    ],
+    "detachCard": [
+      [
+        "DETACH",
+        "$ACTIVE_CARD_ID"
+      ]
+    ],
+    "shuffleIntoDeck": [
+      [
+        "SHUFFLE_INTO_DECK",
+        "$ACTIVE_CARD_ID"
+      ]
+    ]
+  }
+}

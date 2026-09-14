@@ -94,6 +94,7 @@ export default function Dnc3DTable({
   const handleTouchAction     = useHandleTouchAction();
   const getDefaultActionForCard = useGetDefaultActionForCard();
   const observingPlayerN = useSelector(s => s?.playerUi?.observingPlayerN);
+  const seatedPlayerN    = useSelector(s => s?.playerUi?.playerN);
   // The user's alt art choices for this plugin, keyed by databaseId + side (or by
   // card back name). The 2D renderer reads these in useVisibleFaceSrc.
   const userProfile      = useProfile();
@@ -151,6 +152,7 @@ export default function Dnc3DTable({
   const altArtRef          = useRef(altArt);
   const doActionListRef    = useRef(doActionList);
   const observingPlayerRef = useRef(observingPlayerN);
+  const seatedPlayerRef    = useRef(seatedPlayerN);
   const numPlayersRef      = useRef(numPlayers);
   const cardSizeRef           = useRef(cardSize);
   const zoomFactorRef         = useRef(zoomFactor);
@@ -171,6 +173,7 @@ export default function Dnc3DTable({
   altArtRef.current          = altArt;
   doActionListRef.current    = doActionList;
   observingPlayerRef.current = observingPlayerN;
+  seatedPlayerRef.current    = seatedPlayerN;
   numPlayersRef.current      = numPlayers;
   cardSizeRef.current           = cardSize;
   zoomFactorRef.current         = zoomFactor;
@@ -222,8 +225,8 @@ export default function Dnc3DTable({
       })
       .filter(Boolean)
       .sort()
-      .join(';') + `#${observingPlayerN}#${numPlayers}`;
-  }, [layoutRegions, observingPlayerN, numPlayers]);
+      .join(';') + `#${observingPlayerN}#${seatedPlayerN}#${numPlayers}`;
+  }, [layoutRegions, observingPlayerN, seatedPlayerN, numPlayers]);
 
   useEffect(() => {
     const tiltEl = tiltRef.current;
@@ -240,11 +243,12 @@ export default function Dnc3DTable({
 
     if (connected) {
       const playerN    = observingPlayerRef.current;
+      const seatedN    = seatedPlayerRef.current;
       const nPlayers   = numPlayersRef.current;
       const gd         = gameDefRef.current;
-      const regions = adaptRegions(lr, playerN, nPlayers, g?.groupById || {}, gd, languageRef.current);
+      const regions = adaptRegions(lr, playerN, nPlayers, g?.groupById || {}, gd, languageRef.current, seatedN);
       const { cardDescriptors, assignments, idMap } = adaptGameState(
-        g, lr, gd, languageRef.current, playerN, nPlayers, altArtRef.current
+        g, lr, gd, languageRef.current, playerN, nPlayers, altArtRef.current, seatedN
       );
       reverseIdMap = new Map([...idMap.entries()].map(([k, v]) => [v, k]));
       const callbacks    = buildEngineCallbacks(doActionListRef.current, reverseIdMap);
@@ -264,7 +268,7 @@ export default function Dnc3DTable({
       };
       engineOptions = {
         regions, ...callbacks,
-        playerN:            observingPlayerRef.current,
+        playerN:            seatedPlayerRef.current || observingPlayerRef.current,
         cardSize:           cardSizeRef.current,
         zoomFactor:         zoomFactorRef.current,
         tableBackgroundUrl: tableBackgroundUrlRef.current,
@@ -349,6 +353,20 @@ export default function Dnc3DTable({
         // a seat change (observingPlayerN moves optimistically on the click,
         // playerN only once the server confirms - no re-init in between).
         onGroupBrowse: (groupId) => browseTopNRef.current(groupId, 'All'),
+        onProvinceDestroyedToggle: (groupId) => {
+          if (!seatedPlayerRef.current) return;
+          doActionListRef.current(
+            ["TOGGLE_PROVINCE_DESTROYED", groupId],
+            `Toggle destroyed on ${groupId}`
+          );
+        },
+        onClaimFavor: () => {
+          if (!seatedPlayerRef.current) return;
+          doActionListRef.current(
+            ["CLAIM_FAVOR", seatedPlayerRef.current],
+            "Claim Imperial Favor"
+          );
+        },
         onGroupMenu:   (groupId, clientX, clientY) => {
           const group = gameRef.current?.groupById?.[groupId];
           if (!group) return;

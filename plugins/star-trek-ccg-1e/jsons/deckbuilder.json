@@ -1,0 +1,77 @@
+{
+  "deckbuilder": {
+    "addButtons": [
+      1,
+      2,
+      3
+    ],
+    "columns": [
+      {
+        "propName": "name",
+        "label": "Name"
+      },
+      {
+        "propName": "type",
+        "label": "Type"
+      },
+      {
+        "propName": "affiliation",
+        "label": "Affiliation"
+      },
+      {
+        "propName": "classification",
+        "label": "Class"
+      },
+      {
+        "propName": "integrity",
+        "label": "Int/Rng"
+      },
+      {
+        "propName": "cunning",
+        "label": "Cun/Wpn"
+      },
+      {
+        "propName": "strength",
+        "label": "Str/Shd"
+      },
+      {
+        "propName": "points",
+        "label": "Pts"
+      },
+      {
+        "propName": "packName",
+        "label": "Set"
+      }
+    ],
+    "spawnGroups": [
+      {
+        "loadGroupId": "playerNDeck",
+        "label": "Draw Deck"
+      },
+      {
+        "loadGroupId": "playerNSeed",
+        "label": "Seed"
+      },
+      {
+        "loadGroupId": "playerNMissions",
+        "label": "Missions"
+      },
+      {
+        "loadGroupId": "playerNSites",
+        "label": "Sites"
+      },
+      {
+        "loadGroupId": "sharedSpaceline",
+        "label": "Spaceline"
+      },
+      {
+        "loadGroupId": "playerNTent",
+        "label": "Q's Tent"
+      },
+      {
+        "loadGroupId": "playerNTactics",
+        "label": "Battle Bridge"
+      }
+    ]
+  }
+}

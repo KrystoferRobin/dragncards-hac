@@ -1,0 +1,19 @@
+{
+  "spawnExistingCardModal": {
+    "columnProperties": [
+      "name",
+      "type",
+      "cost",
+      "affiliation",
+      "packName"
+    ],
+    "loadGroupIds": [
+      "player1Deck",
+      "player1Starting",
+      "player1XFile",
+      "player1Side",
+      "player1Hand",
+      "player2Hand"
+    ]
+  }
+}

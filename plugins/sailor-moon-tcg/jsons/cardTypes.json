@@ -1,0 +1,85 @@
+{
+  "cardTypes": {
+    "Event": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "dmg10",
+        "dmg30",
+        "dmg100"
+      ]
+    },
+    "Item": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "dmg10",
+        "dmg30",
+        "dmg100"
+      ]
+    },
+    "Location": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "dmg10",
+        "dmg30",
+        "dmg100"
+      ]
+    },
+    "Monster": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "dmg10",
+        "dmg30",
+        "dmg100"
+      ]
+    },
+    "Person": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "dmg10",
+        "dmg30",
+        "dmg100"
+      ]
+    },
+    "Power": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "dmg10",
+        "dmg30",
+        "dmg100"
+      ]
+    },
+    "Scout/Knight": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "dmg10",
+        "dmg30",
+        "dmg100"
+      ]
+    },
+    "Token": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "dmg10",
+        "dmg30",
+        "dmg100"
+      ]
+    },
+    "Villain": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "dmg10",
+        "dmg30",
+        "dmg100"
+      ]
+    }
+  }
+}

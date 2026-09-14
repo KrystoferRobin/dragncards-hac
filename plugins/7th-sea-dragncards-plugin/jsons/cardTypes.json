@@ -1,0 +1,68 @@
+{
+  "cardTypes": {
+    "Action": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "hits",
+        "generic"
+      ]
+    },
+    "Adventure": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "hits",
+        "generic"
+      ]
+    },
+    "Attachment": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "hits",
+        "generic"
+      ]
+    },
+    "Captain": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "hits",
+        "generic"
+      ]
+    },
+    "Chantey": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "hits",
+        "generic"
+      ]
+    },
+    "Crew": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "hits",
+        "generic"
+      ]
+    },
+    "Sea": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "hits",
+        "generic"
+      ]
+    },
+    "Ship": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "hits",
+        "generic"
+      ]
+    }
+  }
+}

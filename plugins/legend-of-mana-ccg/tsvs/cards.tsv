@@ -1,0 +1,151 @@
+databaseId	name	imageUrl	cardBack	type	packName	set	loadGroupId	cost	attribute	attributeCondition	basicMana	landName	strength	defense	usageTiming	specialSkill
+core_C001ed	Mailbox	legend-of-mana-ccg/core/LegendOfManaCcg-Core-Mailbox.jpg	default	Land/Artifact	Core	core	playerNMainDeck	6	None		1	Home				
+core_C002ed	Broken Doll	legend-of-mana-ccg/core/LegendOfManaCcg-Core-BrokenDoll.jpg	default	Land/Artifact	Core	core	playerNMainDeck	6	Fire		2	Junkyard				
+core_C003ed	Flame	legend-of-mana-ccg/core/LegendOfManaCcg-Core-Flame.jpg	default	Land/Artifact	Core	core	playerNMainDeck	6	Fire		1	Gato Grottoes				
+core_C004ed	Tome of Magic	legend-of-mana-ccg/core/LegendOfManaCcg-Core-TomeOfMagic.jpg	default	Land/Artifact	Core	core	playerNMainDeck	5	Fire		1	Geo				
+core_C005ed	The Flames	legend-of-mana-ccg/core/LegendOfManaCcg-Core-TheFlames.jpg	default	Land/Artifact	Core	core	playerNMainDeck		Fire		2	The Flames				
+core_C006ed	Jade Egg	legend-of-mana-ccg/core/LegendOfManaCcg-Core-JadeEgg.jpg	default	Land/Artifact	Core	core	playerNMainDeck	6	Water		1	Mekiv Caverns				
+core_C007ed	Torch of Coral	legend-of-mana-ccg/core/LegendOfManaCcg-Core-TorchOfCoral.jpg	default	Land/Artifact	Core	core	playerNMainDeck	6	Water		1	Madora Beach				
+core_C008ed	Rusty Anchor	legend-of-mana-ccg/core/LegendOfManaCcg-Core-RustyAnchor.jpg	default	Land/Artifact	Core	core	playerNMainDeck	4	Water		1	Polpota Harbor				
+core_C009ed	Pirate's Hook	legend-of-mana-ccg/core/LegendOfManaCcg-Core-PiratesHook.jpg	default	Land/Artifact	Core	core	playerNMainDeck	8	Water		1	SS Buccaneer				
+core_C010ed	Skull Lantern	legend-of-mana-ccg/core/LegendOfManaCcg-Core-SkullLantern.jpg	default	Land/Artifact	Core	core	playerNMainDeck	5	Earth		1	Gato Grottoes				
+core_C011ed	Bottled Spirit	legend-of-mana-ccg/core/LegendOfManaCcg-Core-BottledSpirit.jpg	default	Land/Artifact	Core	core	playerNMainDeck	6	Earth		1	Mekiv Caverns				
+core_C012ed	Ancient Tablet	legend-of-mana-ccg/core/LegendOfManaCcg-Core-AncientTablet.jpg	default	Land/Artifact	Core	core	playerNMainDeck	5	Earth		1	Mindas Ruins				
+core_C013ed	Medallion	legend-of-mana-ccg/core/LegendOfManaCcg-Core-Medallion.jpg	default	Land/Artifact	Core	core	playerNMainDeck	4	Gnome		1	Jungle				
+core_C014ed	Wheel	legend-of-mana-ccg/core/LegendOfManaCcg-Core-Wheel.jpg	default	Land/Artifact	Core	core	playerNMainDeck	4	Wind		1	Luon Highway				
+core_C015ed	Sand Rose	legend-of-mana-ccg/core/LegendOfManaCcg-Core-SandRose.jpg	default	Land/Artifact	Core	core	playerNMainDeck	5	Wind		1	Duma Desert				
+core_C016ed	Moon's Mirror	legend-of-mana-ccg/core/LegendOfManaCcg-Core-MoonsMirror.jpg	default	Land/Artifact	Core	core	playerNMainDeck	6	Wind		1	Tower of Leires				
+core_C017ed	Frozen Heart	legend-of-mana-ccg/core/LegendOfManaCcg-Core-FrozenHeart.jpg	default	Land/Artifact	Core	core	playerNMainDeck	5	Wind		1	Fieg Snowfields				
+core_C018ed	Firefly Lamp	legend-of-mana-ccg/core/LegendOfManaCcg-Core-FireflyLamp.jpg	default	Land/Artifact	Core	core	playerNMainDeck	5	Light		1	Lumina				
+core_C019ed	Stone Eye	legend-of-mana-ccg/core/LegendOfManaCcg-Core-StoneEye.jpg	default	Land/Artifact	Core	core	playerNMainDeck	7	Light		1	Lake Kilma				
+core_C020ed	Trembling Spoon	legend-of-mana-ccg/core/LegendOfManaCcg-Core-TremblingSpoon.jpg	default	Land/Artifact	Core	core	playerNMainDeck	4	Dark		1	Underworld				
+core_C021ed	Dragon Bone	legend-of-mana-ccg/core/LegendOfManaCcg-Core-DragonBone.jpg	default	Land/Artifact	Core	core	playerNMainDeck	5	Dark		1	Bone Fortress				
+core_C022ed	Brooch of Love	legend-of-mana-ccg/core/LegendOfManaCcg-Core-BroochOfLove.jpg	default	Land/Artifact	Core	core	playerNMainDeck	7	Wind		0	Lucemia				
+core_C023ed	Green Cane	legend-of-mana-ccg/core/LegendOfManaCcg-Core-GreenCane.jpg	default	Land/Artifact	Core	core	playerNMainDeck	5	Wood		1	White Forest				
+core_C024ed	Color Blocks	legend-of-mana-ccg/core/LegendOfManaCcg-Core-ColorBlocks.jpg	default	Land/Artifact	Core	core	playerNMainDeck	2	Gold		1	Domina				
+core_C025ed	Jumi's Staff	legend-of-mana-ccg/core/LegendOfManaCcg-Core-JumisStaff.jpg	default	Land/Artifact	Core	core	playerNMainDeck	4	Gold		2	Bejewled City				
+core_C026ed	Golden Seed	legend-of-mana-ccg/core/LegendOfManaCcg-Core-GoldenSeed.jpg	default	Land/Artifact	Core	core	playerNMainDeck	1	Special		0	Orchard				
+core_C027ed	Sword of Mana	legend-of-mana-ccg/core/LegendOfManaCcg-Core-SwordOfMana.jpg	default	Land/Artifact	Core	core	playerNMainDeck	7	Special		1	Tree of Mana				
+core_C028ed	Hitodama	legend-of-mana-ccg/core/LegendOfManaCcg-Core-Hitodama.jpg	default	Monster	Core	core	playerNMainDeck	3	Fire				*	3	Hell's Keeper	
+core_C029ed	Drakonis	legend-of-mana-ccg/core/LegendOfManaCcg-Core-Drakonis.jpg	default	Monster	Core	core	playerNMainDeck	5	Fire				6	5	Disaster	
+core_C030ed	Beholder	legend-of-mana-ccg/core/LegendOfManaCcg-Core-Beholder.jpg	default	Monster	Core	core	playerNMainDeck	2	Fire				4	2	Glare	
+core_C031ed	Fierce Face	legend-of-mana-ccg/core/LegendOfManaCcg-Core-FierceFace.jpg	default	Monster	Core	core	playerNMainDeck	1	Fire				3	4	Scary Face	
+core_C032ed	Tomato Man	legend-of-mana-ccg/core/LegendOfManaCcg-Core-TomatoMan.jpg	default	Monster	Core	core	playerNMainDeck	1	Fire				0	4	Curse of Fire	
+core_C033ed	Kid Dragon	legend-of-mana-ccg/core/LegendOfManaCcg-Core-KidDragon.jpg	default	Monster	Core	core	playerNMainDeck	0	Fire				*	1	Petit Breath	
+core_C034ed	Du'Cate	legend-of-mana-ccg/core/LegendOfManaCcg-Core-DuCate.jpg	default	Monster	Core	core	playerNMainDeck	3	Earth				4	6		Sluggish
+core_C035ed	Boreal Hound	legend-of-mana-ccg/core/LegendOfManaCcg-Core-BorealHound.jpg	default	Monster	Core	core	playerNMainDeck	4	Earth				4	4		Howling
+core_C036ed	Narcissos	legend-of-mana-ccg/core/LegendOfManaCcg-Core-Narcissos.jpg	default	Monster	Core	core	playerNMainDeck	2	Earth				3	4		
+core_C037ed	Malboro	legend-of-mana-ccg/core/LegendOfManaCcg-Core-Malboro.jpg	default	Monster	Core	core	playerNMainDeck	1	Earth				1	3		Stinky Breath
+core_C038ed	Goblin	legend-of-mana-ccg/core/LegendOfManaCcg-Core-Goblin.jpg	default	Monster	Core	core	playerNMainDeck	1	Earth				2	2		Call for Backup
+core_C039ed	Molebear	legend-of-mana-ccg/core/LegendOfManaCcg-Core-Molebear.jpg	default	Monster	Core	core	playerNMainDeck	0	Earth				0	3		Hidden Bear
+core_C040ed	Akravator	legend-of-mana-ccg/core/LegendOfManaCcg-Core-Akravator.jpg	default	Monster	Core	core	playerNMainDeck	4	Wind				5	3		First Strike
+core_C041ed	Iron Centaur	legend-of-mana-ccg/core/LegendOfManaCcg-Core-IronCentaur.jpg	default	Monster	Core	core	playerNMainDeck	3	Wind				4	3		Devastation
+core_C042ed	Sky Dragon	legend-of-mana-ccg/core/LegendOfManaCcg-Core-SkyDragon.jpg	default	Monster	Core	core	playerNMainDeck	3	Wind				*	3		Gliding Attack
+core_C043ed	Punkster	legend-of-mana-ccg/core/LegendOfManaCcg-Core-Punkster.jpg	default	Monster	Core	core	playerNMainDeck	1	Wind				4	1		Tornado
+core_C044ed	Basilisk	legend-of-mana-ccg/core/LegendOfManaCcg-Core-Basilisk.jpg	default	Monster	Core	core	playerNMainDeck	3	Wind				2	2		Evil Eye of Petrification
+core_C045ed	Teedie	legend-of-mana-ccg/core/LegendOfManaCcg-Core-Teedie.jpg	default	Monster	Core	core	playerNMainDeck	1	Wind				2	2		Floating
+core_c046ed	Fullmetal Haggar	legend-of-mana-ccg/core/LegendOfManaCcg-Core-FullmetalHaggar.jpg	default	Monster	Core	core	playerNMainDeck	4	Water				4	4		Iron Shell
+core_c047ed	Gorgon Eye	legend-of-mana-ccg/core/LegendOfManaCcg-Core-GorgonEye.jpg	default	Monster	Core	core	playerNMainDeck	3	Water				0	5		Evil Eye of Death
+core_C048ed	Big Baby	legend-of-mana-ccg/core/LegendOfManaCcg-Core-BigBaby.jpg	default	Monster	Core	core	playerNMainDeck	2	Water				3	*		Water Guardian
+core_C049ed	Lizardon	legend-of-mana-ccg/core/LegendOfManaCcg-Core-Lizardon.jpg	default	Monster	Core	core	playerNMainDeck	1	Water				2	1		Glutton
+core_C050ed	Sahagin	legend-of-mana-ccg/core/LegendOfManaCcg-Core-Sahagin.jpg	default	Monster	Core	core	playerNMainDeck	0	Water				2	2		
+core_C051ed	Tonpole	legend-of-mana-ccg/core/LegendOfManaCcg-Core-Tonpole.jpg	default	Monster	Core	core	playerNMainDeck	1	Water				2	3		Metamorphosis
+core_C052ed	Vadise	legend-of-mana-ccg/core/LegendOfManaCcg-Core-Vadise.jpg	default	Monster	Core	core	playerNMainDeck	4	Light				3	4		Resurrection Song
+core_C053ed	Eye Spy	legend-of-mana-ccg/core/LegendOfManaCcg-Core-EyeSpy.jpg	default	Monster	Core	core	playerNMainDeck	2	Light				3	3		Good Luck
+core_C054ed	Chocobo	legend-of-mana-ccg/core/LegendOfManaCcg-Core-Chocobo.jpg	default	Monster	Core	core	playerNMainDeck	1	Light				3	2		High Speed
+core_C055ed	Mad Mallard	legend-of-mana-ccg/core/LegendOfManaCcg-Core-MadMallard.jpg	default	Monster	Core	core	playerNMainDeck	2	Light				2	2		Helmet
+core_C056ed	Jajara	legend-of-mana-ccg/core/LegendOfManaCcg-Core-Jajara.jpg	default	Monster	Core	core	playerNMainDeck	2	Dark				5	5		Sacrifice
+core_C057ed	Deathbringer	legend-of-mana-ccg/core/LegendOfManaCcg-Core-Deathbringer.jpg	default	Monster	Core	core	playerNMainDeck	5	Dark				5	4		Curse of Darkness
+core_C058ed	Succubus	legend-of-mana-ccg/core/LegendOfManaCcg-Core-Succubus.jpg	default	Monster	Core	core	playerNMainDeck	2	Dark				4	1		Immortality
+core_C059ed	Shadow Zero	legend-of-mana-ccg/core/LegendOfManaCcg-Core-ShadowZero.jpg	default	Monster	Core	core	playerNMainDeck	1	Dark				0	0		Unwilling Companion
+core_C060ed	Lord of Jewels 999	legend-of-mana-ccg/core/LegendOfManaCcg-Core-LordOfJewels999.jpg	default	Monster	Core	core	playerNMainDeck	3	Gold				4	3		Mana Stone
+core_C061ed	Jewel Beast	legend-of-mana-ccg/core/LegendOfManaCcg-Core-JewelBeast.jpg	default	Monster	Core	core	playerNMainDeck	3	Gold				*	3		Mana Power
+core_C062ed	Springball	legend-of-mana-ccg/core/LegendOfManaCcg-Core-Springball.jpg	default	Monster	Core	core	playerNMainDeck	0	Gold				4	4		Bounty on its Head
+core_C063ed	Polter Box	legend-of-mana-ccg/core/LegendOfManaCcg-Core-PolterBox.jpg	default	Monster	Core	core	playerNMainDeck	1	Gold				1	4		Treasure Chest
+core_C064ed	Labanne	legend-of-mana-ccg/core/LegendOfManaCcg-Core-Labanne.jpg	default	Monster	Core	core	playerNMainDeck	4	Wood				*	*		Power of the Earth
+core_C065ed	Kima	legend-of-mana-ccg/core/LegendOfManaCcg-Core-Kima.jpg	default	Monster	Core	core	playerNMainDeck	3	Wood				2	5		Regeneration
+core_C066ed	Chobin Hood	legend-of-mana-ccg/core/LegendOfManaCcg-Core-ChobinHood.jpg	default	Monster	Core	core	playerNMainDeck	1	Wood				2	3		Hidden in Leaves
+core_C067ed	Lullabud	legend-of-mana-ccg/core/LegendOfManaCcg-Core-Lullabud.jpg	default	Monster	Core	core	playerNMainDeck	1	Wood				0	3		Regeneration
+core_C068ed	Useless Putty	legend-of-mana-ccg/core/LegendOfManaCcg-Core-UselessPutty.jpg	default	Support	Core	core	playerNMainDeck	2	Fire	F					Main Phase	
+core_C069ed	Professor Kathinja's Rage	legend-of-mana-ccg/core/LegendOfManaCcg-Core-ProfessorKathinjasRage.jpg	default	Support	Core	core	playerNMainDeck	3	Fire	FF					Main Phase	
+core_C070ed	Golem Craftsman Bomb	legend-of-mana-ccg/core/LegendOfManaCcg-Core-GolemCraftsmanBomb.jpg	default	Support	Core	core	playerNMainDeck	1	Fire	FF					Main Phase	
+core_C071ed	Magnolia's Fire Stone	legend-of-mana-ccg/core/LegendOfManaCcg-Core-MagnoliasFireStone.jpg	default	Support	Core	core	playerNMainDeck	2	Fire	F					In Battle	
+core_C072ed	Professor Mephianse's Dangerous Experiment	legend-of-mana-ccg/core/LegendOfManaCcg-Core-ProfessorMephiansesDangerousExperiment.jpg	default	Support	Core	core	playerNMainDeck	4	Fire	FF					Main Phase	
+core_C073ed	Junkyard Louie	legend-of-mana-ccg/core/LegendOfManaCcg-Core-JunkyardLouie.jpg	default	Support	Core	core	playerNMainDeck	1	Fire	F					In Battle	
+core_C074ed	Rosiotti's Teaching	legend-of-mana-ccg/core/LegendOfManaCcg-Core-RosiottisTeaching.jpg	default	Support	Core	core	playerNMainDeck	2	Earth	EE					Main Phase	
+core_C075ed	Lilipea's Illusion	legend-of-mana-ccg/core/LegendOfManaCcg-Core-LilipeasIllusion.jpg	default	Support	Core	core	playerNMainDeck	2	Earth	EE					Main Phase	
+core_C076ed	Stubborn Craftsman Watts	legend-of-mana-ccg/core/LegendOfManaCcg-Core-StubbornCraftsmanWatts.jpg	default	Support	Core	core	playerNMainDeck	2	Earth	E					In Battle	
+core_C077ed	Meimei's Fruit Divination	legend-of-mana-ccg/core/LegendOfManaCcg-Core-MeimeisFruitDivination.jpg	default	Support	Core	core	playerNMainDeck	2	Earth	E					Main Phase	
+core_C078ed	Gaeus's Pulse	legend-of-mana-ccg/core/LegendOfManaCcg-Core-GaeussPulse.jpg	default	Support	Core	core	playerNMainDeck	6	Earth	E					Main Phase	
+core_C079ed	Master Excavator Dudbear	legend-of-mana-ccg/core/LegendOfManaCcg-Core-MasterExcavatorDudbear.jpg	default	Support	Core	core	playerNMainDeck	1	Earth	E					Main Phase	
+core_C080ed	Duelle's Battle Arena	legend-of-mana-ccg/core/LegendOfManaCcg-Core-DuellesBattleArena.jpg	default	Support	Core	core	playerNMainDeck	3	Wind	Wi					Main Phase	
+core_c081ed	Master of Mantras Pokiehl	legend-of-mana-ccg/core/LegendOfManaCcg-Core-MasterOfMantrasPokiehl.jpg	default	Support	Core	core	playerNMainDeck	3	Wind	WiWi					In Battle	
+core_c082ed	Capella's Trick Revealed	legend-of-mana-ccg/core/LegendOfManaCcg-Core-CapellasTrickRevealed.jpg	default	Support	Core	core	playerNMainDeck	4	Wind	Wi					Cancel	
+core_c083ed	King of the Winds Selva	legend-of-mana-ccg/core/LegendOfManaCcg-Core-KingOfTheWindsSelva.jpg	default	Support	Core	core	playerNMainDeck	2	Wind	WiWi					Main Phase	
+core_c084ed	Inspector Boyd's Investigation	legend-of-mana-ccg/core/LegendOfManaCcg-Core-InspectorBoydsInvestigation.jpg	default	Support	Core	core	playerNMainDeck	X	Wind	Wi					Main Phase	
+core_c085ed	Windcaller's Anger	legend-of-mana-ccg/core/LegendOfManaCcg-Core-WindcallersAnger.jpg	default	Support	Core	core	playerNMainDeck	3	Wind	WiWi					Main Phase	
+core_c086ed	Crystalle's Freezing Sigh	legend-of-mana-ccg/core/LegendOfManaCcg-Core-CrystallesFreezingSigh.jpg	default	Support	Core	core	playerNMainDeck	3	Water	Wa					In Battle	
+core_c087ed	Sage Tote's Mediation	legend-of-mana-ccg/core/LegendOfManaCcg-Core-SageTotesMediation.jpg	default	Support	Core	core	playerNMainDeck	3	Water	WaWa					In Battle	
+core_c088ed	Flameshe's Singing	legend-of-mana-ccg/core/LegendOfManaCcg-Core-FlameshesSinging.jpg	default	Support	Core	core	playerNMainDeck	X	Water	Wa					Cancel	
+core_c089ed	The Manager Dandyism's	legend-of-mana-ccg/core/LegendOfManaCcg-Core-TheManagerDandyisms.jpg	default	Support	Core	core	playerNMainDeck	4	Water	Wa					Main Phase	
+core_c090ed	Precocious Basket Fish	legend-of-mana-ccg/core/LegendOfManaCcg-Core-PrecociousBasketFish.jpg	default	Support	Core	core	playerNMainDeck	1	Water	Wa					Cancel	
+core_c091ed	Pirate Penguin Raid	legend-of-mana-ccg/core/LegendOfManaCcg-Core-PiratePenguinRaid.jpg	default	Support	Core	core	playerNMainDeck	3	Water	WaWa					Main Phase	
+core_c092ed	Diana's Slumber	legend-of-mana-ccg/core/LegendOfManaCcg-Core-DianasSlumber.jpg	default	Support	Core	core	playerNMainDeck	3	Light	L					Main Phase	
+core_c093ed	Florina's Teardrop Crystal	legend-of-mana-ccg/core/LegendOfManaCcg-Core-FlorinasTeardropCrystal.jpg	default	Support	Core	core	playerNMainDeck	3	Light	L					Main Phase	
+core_c094ed	Miss Yuka's Retort	legend-of-mana-ccg/core/LegendOfManaCcg-Core-MissYukasRetort.jpg	default	Support	Core	core	playerNMainDeck	1	Light	L					Main Phase	
+core_c095ed	Nouvelle's Prayer	legend-of-mana-ccg/core/LegendOfManaCcg-Core-NouvellesPrayer.jpg	default	Support	Core	core	playerNMainDeck	1	Light	L					In Battle	
+core_c096ed	Olbohn's Judgement	legend-of-mana-ccg/core/LegendOfManaCcg-Core-OlbohnsJudgement.jpg	default	Support	Core	core	playerNMainDeck	3	Dark	D					Main Phase	
+core_c097ed	Professor Thesenis's Unexpected Appearance	legend-of-mana-ccg/core/LegendOfManaCcg-Core-ProfessorThesenissUnexpectedAppearance.jpg	default	Support	Core	core	playerNMainDeck	3	Dark	D					In Battle	
+core_c098ed	Belle's Selfish Nightmare	legend-of-mana-ccg/core/LegendOfManaCcg-Core-BellesSelfishNightmare.jpg	default	Support	Core	core	playerNMainDeck	4	Dark	D					Cancel	
+core_c099ed	Shadole's Invitation to Death	legend-of-mana-ccg/core/LegendOfManaCcg-Core-ShadolesInvitationToDeath.jpg	default	Support	Core	core	playerNMainDeck	1	Dark	D					In Battle	
+core_c100ed	Teapo's Afternoon Tea	legend-of-mana-ccg/core/LegendOfManaCcg-Core-TeaposAfternoonTea.jpg	default	Support	Core	core	playerNMainDeck	2	Gold	G					Main Phase	
+core_c101ed	Alex's Jewelry Appraisal	legend-of-mana-ccg/core/LegendOfManaCcg-Core-AlexsJewelryAppraisal.jpg	default	Support	Core	core	playerNMainDeck	1	Gold	G					Main Phase	
+core_c102ed	Summoner Nunuzac	legend-of-mana-ccg/core/LegendOfManaCcg-Core-SummonerNunuzac.jpg	default	Support	Core	core	playerNMainDeck	3	Gold	G					Main Phase	
+core_c103ed	Kristie's Auction Time	legend-of-mana-ccg/core/LegendOfManaCcg-Core-KristiesAuctionTime.jpg	default	Support	Core	core	playerNMainDeck	2	Gold	G					In Battle	
+core_c104ed	Lil' Cactus Dairy	legend-of-mana-ccg/core/LegendOfManaCcg-Core-LilCactusDairy.jpg	default	Support	Core	core	playerNMainDeck	2	Wood	Wo					Main Phase	
+core_c105ed	Sproutling's Returning Place	legend-of-mana-ccg/core/LegendOfManaCcg-Core-SproutlingsReturningPlace.jpg	default	Support	Core	core	playerNMainDeck	4	Wood	Wo					Main Phase	
+core_c106ed	Boink	legend-of-mana-ccg/core/LegendOfManaCcg-Core-Boink.jpg	default	Support	Core	core	playerNMainDeck	1	Wood	Wo					Main Phase	
+core_c107ed	Trent's Fruiting Time	legend-of-mana-ccg/core/LegendOfManaCcg-Core-TrentsFruitingTime.jpg	default	Support	Core	core	playerNMainDeck	3	Wood	Wo					Main Phase	
+core_c108ed	Hero	legend-of-mana-ccg/core/LegendOfManaCcg-Core-Hero.jpg	character	Character	Core	core	playerNCharacterDeck						4	2	Replenishment	
+core_c109ed	Heroine	legend-of-mana-ccg/core/LegendOfManaCcg-Core-Heroine.jpg	character	Character	Core	core	playerNCharacterDeck						3	3	Replenishment	
+core_c110ed	Niccolo	legend-of-mana-ccg/core/LegendOfManaCcg-Core-Niccolo.jpg	character	Character	Core	core	playerNCharacterDeck						1	4	End of Battle	
+core_c111ed	Escad	legend-of-mana-ccg/core/LegendOfManaCcg-Core-Escad.jpg	character	Character	Core	core	playerNCharacterDeck						4	4	In Battle	
+core_c112ed	Daena	legend-of-mana-ccg/core/LegendOfManaCcg-Core-Daena.jpg	character	Character	Core	core	playerNCharacterDeck						3	3	In Battle	
+core_c113ed	Larc	legend-of-mana-ccg/core/LegendOfManaCcg-Core-Larc.jpg	character	Character	Core	core	playerNCharacterDeck						4	2	End of Battle	
+core_c114ed	Sierra	legend-of-mana-ccg/core/LegendOfManaCcg-Core-Sierra.jpg	character	Character	Core	core	playerNCharacterDeck						4	3	In Battle	
+core_c115ed	Princess Pearl	legend-of-mana-ccg/core/LegendOfManaCcg-Core-PrincessPearl.jpg	character	Character	Core	core	playerNCharacterDeck						2	2	In Battle	
+core_c116ed	Lady Blackpearl	legend-of-mana-ccg/core/LegendOfManaCcg-Core-LadyBlackpearl.jpg	character	Character	Core	core	playerNCharacterDeck						3	3	Always	
+core_c117ed	Elazul	legend-of-mana-ccg/core/LegendOfManaCcg-Core-Elazul.jpg	character	Character	Core	core	playerNCharacterDeck						3	2	In Battle	
+core_c118ed	Elle	legend-of-mana-ccg/core/LegendOfManaCcg-Core-Elle.jpg	character	Character	Core	core	playerNCharacterDeck						3	1	Main Phase	
+core_c119ed	Bud	legend-of-mana-ccg/core/LegendOfManaCcg-Core-Bud.jpg	character	Character	Core	core	playerNCharacterDeck						2	1	Always	
+core_c120ed	Lisa	legend-of-mana-ccg/core/LegendOfManaCcg-Core-Lisa.jpg	character	Character	Core	core	playerNCharacterDeck						1	2	Always	
+core_c121ed	Matilda	legend-of-mana-ccg/core/LegendOfManaCcg-Core-Matilda.jpg	character	Character	Core	core	playerNCharacterDeck						2	2	Always	
+core_c122ed	Sandra	legend-of-mana-ccg/core/LegendOfManaCcg-Core-Sandra.jpg	character	Character	Core	core	playerNCharacterDeck						4	1	End of Battle	
+core_c123ed	Rabite	legend-of-mana-ccg/core/LegendOfManaCcg-Core-Rabite.jpg	character	Character	Core	core	playerNCharacterDeck						2	3	Main Phase	
+core_c124ed	Gilbert	legend-of-mana-ccg/core/LegendOfManaCcg-Core-Gilbert.jpg	character	Character	Core	core	playerNCharacterDeck						0	4	Cancel	
+core_c125ed	Rubens	legend-of-mana-ccg/core/LegendOfManaCcg-Core-Rubens.jpg	character	Character	Core	core	playerNCharacterDeck						3	3	In Battle	
+core_c126ed	Roger	legend-of-mana-ccg/core/LegendOfManaCcg-Core-Roger.jpg	character	Character	Core	core	playerNCharacterDeck						3	4	Main Phase	
+core_c127ed	Cap'n Tusk	legend-of-mana-ccg/core/LegendOfManaCcg-Core-CapnTusk.jpg	character	Character	Core	core	playerNCharacterDeck						4	3	End of Battle	
+core_c128ed	Skippie	legend-of-mana-ccg/core/LegendOfManaCcg-Core-Skippie.jpg	character	Character	Core	core	playerNCharacterDeck						2	3	Main Phase	
+core_c129ed	Hamson	legend-of-mana-ccg/core/LegendOfManaCcg-Core-Hamson.jpg	character	Character	Core	core	playerNCharacterDeck						6	2		
+core_c130ed	Machine Golem Mark I	legend-of-mana-ccg/core/LegendOfManaCcg-Core-MachineGolemMarkI.jpg	character	Character	Core	core	playerNCharacterDeck						3	3	In Battle	
+core_c131ed	Machine Golem Mark 44	legend-of-mana-ccg/core/LegendOfManaCcg-Core-MachineGolemMark44.jpg	character	Character	Core	core	playerNCharacterDeck						1	5	In Battle	
+core_c132ed	Laurent Knife	legend-of-mana-ccg/core/LegendOfManaCcg-Core-LaurentKnife.jpg	default	Item	Core	core	playerNMainDeck	1								
+core_c133ed	Orichalcum Sword	legend-of-mana-ccg/core/LegendOfManaCcg-Core-OrichalcumSword.jpg	default	Item	Core	core	playerNMainDeck	3								
+core_c134ed	Jacobini Axe	legend-of-mana-ccg/core/LegendOfManaCcg-Core-JacobiniAxe.jpg	default	Item	Core	core	playerNMainDeck	2								
+core_c135ed	Scale 2H Sword	legend-of-mana-ccg/core/LegendOfManaCcg-Core-Scale2HSword.jpg	default	Item	Core	core	playerNMainDeck	3								
+core_c136ed	Vinek 2H Axe	legend-of-mana-ccg/core/LegendOfManaCcg-Core-Vinek2HAxe.jpg	default	Item	Core	core	playerNMainDeck	1								
+core_c137ed	Bone Hammer	legend-of-mana-ccg/core/LegendOfManaCcg-Core-BoneHammer.jpg	default	Item	Core	core	playerNMainDeck	1								
+core_c138ed	Fullmetal Spear	legend-of-mana-ccg/core/LegendOfManaCcg-Core-FullmetalSpear.jpg	default	Item	Core	core	playerNMainDeck	2								
+core_c139ed	Ishe Staff	legend-of-mana-ccg/core/LegendOfManaCcg-Core-IsheStaff.jpg	default	Item	Core	core	playerNMainDeck	1								
+core_c140ed	Swifty Gloves	legend-of-mana-ccg/core/LegendOfManaCcg-Core-SwiftyGloves.jpg	default	Item	Core	core	playerNMainDeck	4								
+core_c141ed	Wendel Flail	legend-of-mana-ccg/core/LegendOfManaCcg-Core-WendelFlail.jpg	default	Item	Core	core	playerNMainDeck	2								
+core_c142ed	Obsidian Bow	legend-of-mana-ccg/core/LegendOfManaCcg-Core-ObsidianBow.jpg	default	Item	Core	core	playerNMainDeck	1								
+core_c143ed	Wyvern Flute	legend-of-mana-ccg/core/LegendOfManaCcg-Core-WyvernFlute.jpg	default	Item	Core	core	playerNMainDeck	2	Fire							
+core_c144ed	Beiser Harp	legend-of-mana-ccg/core/LegendOfManaCcg-Core-BeiserHarp.jpg	default	Item	Core	core	playerNMainDeck	2	Light							
+core_c145ed	Ivory Flute	legend-of-mana-ccg/core/LegendOfManaCcg-Core-IvoryFlute.jpg	default	Item	Core	core	playerNMainDeck	2	Earth							
+core_c146ed	Dior Harp	legend-of-mana-ccg/core/LegendOfManaCcg-Core-DiorHarp.jpg	default	Item	Core	core	playerNMainDeck	2	Dark							
+core_c147ed	Lizard Marimba	legend-of-mana-ccg/core/LegendOfManaCcg-Core-LizardMarimba.jpg	default	Item	Core	core	playerNMainDeck	2	Wind							
+core_c148ed	Beiser Drum	legend-of-mana-ccg/core/LegendOfManaCcg-Core-BeiserDrum.jpg	default	Item	Core	core	playerNMainDeck	2	Wood							
+core_c149ed	Teardrop Marimba	legend-of-mana-ccg/core/LegendOfManaCcg-Core-TeardropMarimba.jpg	default	Item	Core	core	playerNMainDeck	2	Water							
+core_c150ed	Stone Drum	legend-of-mana-ccg/core/LegendOfManaCcg-Core-StoneDrum.jpg	default	Item	Core	core	playerNMainDeck	2	Gold							

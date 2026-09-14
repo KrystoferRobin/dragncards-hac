@@ -1,0 +1,15 @@
+{
+  "groupMenu": {
+    "moveToGroupIds": [
+      "playerNHand",
+      "playerNDragonLairHand",
+      "playerNTreasureHorde",
+      "playerNTreasureDiscard",
+      "playerNDragonLair",
+      "playerNDragonLairDiscard",
+      "playerNBattlefield",
+      "sharedSetAside"
+    ],
+    "options": []
+  }
+}

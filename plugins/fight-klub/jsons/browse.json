@@ -1,0 +1,17 @@
+{
+  "browse": {
+    "filterPropertySideA": "packName",
+    "filterValuesSideA": [
+      "BlackBeauty2",
+      "BlackBeauty3",
+      "One",
+      "Three",
+      "Two"
+    ],
+    "textPropertiesSideA": [
+      "name",
+      "rarity",
+      "packName"
+    ]
+  }
+}

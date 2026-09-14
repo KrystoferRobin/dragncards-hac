@@ -1,0 +1,60 @@
+{
+  "deckMenu": {
+    "subMenus": [
+      {
+        "label": "Standard",
+        "deckLists": [
+          {
+            "deckListId": "standard-corrupted-deck",
+            "label": "Standard Corrupted Deck"
+          },
+          {
+            "deckListId": "standard-steadfast-deck",
+            "label": "Standard Steadfast Deck"
+          }
+        ]
+      },
+      {
+        "label": "Sample Decks",
+        "deckLists": [
+          {
+            "deckListId": "sample-aldebaran-also-rises",
+            "label": "Sample: Aldebaran Also Rises"
+          },
+          {
+            "deckListId": "sample-cthulhu-rising",
+            "label": "Sample: Cthulhu Rising"
+          },
+          {
+            "deckListId": "sample-down-in-the-valley",
+            "label": "Sample: Down in The Valley"
+          },
+          {
+            "deckListId": "sample-head-for-the-stars",
+            "label": "Sample: Head For The Stars"
+          },
+          {
+            "deckListId": "sample-malpractice",
+            "label": "Sample: Malpractice"
+          },
+          {
+            "deckListId": "sample-red-skies-in-the-morning",
+            "label": "Sample: Red Skies In The Morning"
+          },
+          {
+            "deckListId": "sample-the-cat-in-the-hat",
+            "label": "Sample: The Cat In The Hat"
+          },
+          {
+            "deckListId": "sample-the-dunwich-horror",
+            "label": "Sample: The Dunwich Horror"
+          },
+          {
+            "deckListId": "sample-the-lurking-fear",
+            "label": "Sample: The Lurking Fear"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "phases": {
+    "play": {
+      "label": "Play",
+      "height": "34%"
+    },
+    "order": {
+      "label": "Execute Orders",
+      "height": "33%"
+    },
+    "draw": {
+      "label": "Draw",
+      "height": "33%"
+    }
+  },
+  "phaseOrder": [
+    "play",
+    "order",
+    "draw"
+  ]
+}

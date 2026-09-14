@@ -1,0 +1,64 @@
+{
+  "faceProperties": {
+    "deck": {
+      "label": "Deck",
+      "type": "string",
+      "default": ""
+    },
+    "alignment": {
+      "label": "Alignment",
+      "type": "string",
+      "default": ""
+    },
+    "attribute": {
+      "label": "Attribute",
+      "type": "string",
+      "default": ""
+    },
+    "power": {
+      "label": "Power",
+      "type": "string",
+      "default": ""
+    },
+    "resistance": {
+      "label": "Resistance",
+      "type": "string",
+      "default": ""
+    },
+    "control": {
+      "label": "Control",
+      "type": "string",
+      "default": ""
+    },
+    "rarity": {
+      "label": "Rarity",
+      "type": "string",
+      "default": ""
+    },
+    "errata": {
+      "label": "Errata",
+      "type": "string",
+      "default": ""
+    },
+    "text": {
+      "label": "Text",
+      "type": "string",
+      "default": ""
+    },
+    "packName": {
+      "label": "Set",
+      "type": "string",
+      "default": ""
+    },
+    "set": {
+      "label": "Lackey Set",
+      "type": "string",
+      "default": ""
+    },
+    "loadGroupId": {
+      "label": "Load Group",
+      "type": "string",
+      "default": ""
+    }
+  }
+}

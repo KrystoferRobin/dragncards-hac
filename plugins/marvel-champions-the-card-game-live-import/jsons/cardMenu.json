@@ -1,0 +1,23 @@
+{
+  "cardMenu": {
+    "moveToGroupIds": [
+      "sharedEncounterDeck",
+      "sharedEncounterDiscard",
+      "sharedVictoryDisplay",
+      "sharedOutOfPlay"
+    ],
+    "options": [
+      {
+        "actionList": "toggleExhaust",
+        "label": "id:exhaustReady"
+      },
+      {
+        "actionList": [
+          "DISCARD_CARD",
+          "$ACTIVE_CARD_ID"
+        ],
+        "label": "id:discard"
+      }
+    ]
+  }
+}

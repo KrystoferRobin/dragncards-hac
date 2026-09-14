@@ -1,0 +1,64 @@
+{
+  "cardTypes": {
+    "Character": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "success",
+        "struggle",
+        "wound",
+        "drain"
+      ]
+    },
+    "Conspiracy": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "success",
+        "struggle",
+        "wound",
+        "drain"
+      ]
+    },
+    "Domain": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "success",
+        "struggle",
+        "wound",
+        "drain"
+      ]
+    },
+    "Event": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "success",
+        "struggle",
+        "wound",
+        "drain"
+      ]
+    },
+    "Story": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "success",
+        "struggle",
+        "wound",
+        "drain"
+      ]
+    },
+    "Support": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "success",
+        "struggle",
+        "wound",
+        "drain"
+      ]
+    }
+  }
+}

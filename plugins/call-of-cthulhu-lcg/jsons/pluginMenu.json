@@ -1,0 +1,34 @@
+{
+  "pluginMenu": {
+    "options": [
+      {
+        "label": "Draw",
+        "actionList": "drawDeck"
+      },
+      {
+        "label": "Shuffle deck",
+        "actionList": "shuffleDeck"
+      },
+      {
+        "label": "Refresh all",
+        "actionList": "readyAll"
+      },
+      {
+        "label": "Draw story",
+        "actionList": "drawStory"
+      },
+      {
+        "label": "Story +1",
+        "actionList": "increaseStories"
+      },
+      {
+        "label": "Story -1",
+        "actionList": "decreaseStories"
+      },
+      {
+        "label": "Mulligan",
+        "actionList": "mulligan"
+      }
+    ]
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "cardTypes": {
+    "Card": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": []
+    }
+  }
+}

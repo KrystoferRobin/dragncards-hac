@@ -1,0 +1,9 @@
+{
+  "cardTypes": {
+    "Warrior": {"width": 0.72, "height": 1.0, "tokens": ["green"]},
+    "Inspiration": {"width": 0.72, "height": 1.0, "tokens": ["green"]},
+    "Armor": {"width": 0.72, "height": 1.0, "tokens": ["green"]},
+    "Weapon": {"width": 0.72, "height": 1.0, "tokens": ["green"]},
+    "Special": {"width": 0.72, "height": 1.0, "tokens": ["green"]}
+  }
+}

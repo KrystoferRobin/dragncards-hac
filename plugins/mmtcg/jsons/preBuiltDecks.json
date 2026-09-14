@@ -1,0 +1,699 @@
+{
+  "preBuiltDecks": {
+    "bass-starter-deck": {
+      "label": "Bass Starter Deck",
+      "cards": [
+        {
+          "databaseId": "PowerUp_1c48focus.jpg",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Grave_3c26OtT.jpg",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Grave_3c14CarbCraving.jpg",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Grave_3r72atfault.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Grave_3r73flawless.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Grave_3c21interconnected.jpg",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Grave_3c18firmbarrier.jpg",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Grave_3u59Settowin.jpg",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "PowerUp_1c61readyforbattle.jpg",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Grave_3c17EE.jpg",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Grave_3u61UP.jpg",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "GrandPrix_2c14chipjunkie.jpg",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Grave_3c11WIU.jpg",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Grave_3st82DeletionInevitable.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Grave_3u50QC.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "PowerUp_1c9boomer2.jpg",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "GrandPrix_2c5boomer1.jpg",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "GrandPrix_2c9hicannon.jpg",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "PowerUp_1c8Areasteal.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Grave_3c6Vulcan3.JPG",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "PowerUp_1c14laserblast.jpg",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "GrandPrix_2c12Vulcan2.jpg",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Grave_3st80Bass.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNNetNavi"
+        }
+      ]
+    },
+    "megaman-starter-deck": {
+      "label": "MegaMan Starter Deck",
+      "cards": [
+        {
+          "databaseId": "PowerUp_1c53inoy.jpg",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "PowerUp_1c46EMF.jpg",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "PowerUp_1c62rata.JPG",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "PowerUp_1c43determined.jpg",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "PowerUp_1c68sup.jpg",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "PowerUp_1c73WOpp.jpg",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "PowerUp_1c32BCG.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "PowerUp_1r98ST.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "PowerUp_1st104richkid.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "PowerUp_1r94HeDe.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "PowerUp_1c59PoPa.jpg",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "PowerUp_1c30tte.JPG",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "PowerUp_1c25IB.jpg",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "PowerUp_1c31uncommonnetbattler.jpg",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "PowerUp_1c16rockcube.jpg",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "PowerUp_1c11cannonball.jpg",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "PowerUp_1c17timebomb.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "PowerUp_1c19vulcan1.jpg",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "PowerUp_1c14laserblast.jpg",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "PowerUp_1c8Areasteal.jpg",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "PowerUp_1st101MM1.PNG",
+          "quantity": 1,
+          "loadGroupId": "playerNNetNavi"
+        }
+      ]
+    },
+    "pharaohman-starter-deck": {
+      "label": "PharaohMan Starter Deck",
+      "cards": [
+        {
+          "databaseId": "PowerUp_1c72winninghand.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "PowerUp_1c73WOpp.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "GrandPrix_2c50weepers.jpg",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "GrandPrix_2c21CEO.jpg",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "PowerUp_1c48focus.jpg",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "GrandPrix_2st80OtD.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "GrandPrix_2c34PR.jpg",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "PowerUp_1c61readyforbattle.jpg",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "GrandPrix_2c29itselectric.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "GrandPrix_2c37RTT.jpg",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "GrandPrix_2r70FO.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "GrandPrix_2r75Petrify.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "GrandPrix_2c20ChargeForward.jpg",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "PowerUp_1c23FI.jpg",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "GrandPrix_2c14chipjunkie.jpg",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "GrandPrix_2c5boomer1.jpg",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "PowerUp_1c8Areasteal.jpg",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "GrandPrix_2c9hicannon.jpg",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "PowerUp_1c14laserblast.jpg",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "PowerUp_1c9boomer2.jpg",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "GrandPrix_2c12Vulcan2.jpg",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "GrandPrix_2st78pharaohman.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNNetNavi"
+        }
+      ]
+    },
+    "protoman-starter-deck": {
+      "label": "ProtoMan Starter Deck",
+      "cards": [
+        {
+          "databaseId": "PowerUp_1c49greatsurprise.jpg",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Grave_3c27Requital.jpg",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Grave_3u52FE.jpg",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Grave_3c31surprisetransfer.jpg",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "GrandPrix_2c22doggeddeterm.jpg",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Grave_3u53GotF.jpg",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "PowerUp_1c37Clevertrick.jpg",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Grave_3c16eliminate.jpg",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Grave_3u51ConnectionInterrupted.jpg",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Grave_3c20GIA.jpg",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Grave_3r77SurSha.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Grave_3u48FrozenOut.jpg",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Grave_3r68OutofWater.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "GrandPrix_2c17lac.jpg",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Grave_3st83NoAlternatives.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "GrandPrix_2c8guard2.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "PowerUp_1c13guard1.jpg",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "PowerUp_1c12cybersword.jpg",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "PowerUp_1c11cannonball.jpg",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "GrandPrix_2c9hicannon.jpg",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Grave_3c5Recov10.JPG",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "PowerUp_1c15MEB.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Grave_3st81Sharkman.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNNetNavi"
+        }
+      ]
+    },
+    "sharkman-starter-deck": {
+      "label": "SharkMan Starter Deck",
+      "cards": [
+        {
+          "databaseId": "PowerUp_1c49greatsurprise.jpg",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Grave_3c27Requital.jpg",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Grave_3u52FE.jpg",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Grave_3c31surprisetransfer.jpg",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "GrandPrix_2c22doggeddeterm.jpg",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Grave_3u53GotF.jpg",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "PowerUp_1c37Clevertrick.jpg",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Grave_3c16eliminate.jpg",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Grave_3u51ConnectionInterrupted.jpg",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Grave_3c20GIA.jpg",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Grave_3r77SurSha.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Grave_3u48FrozenOut.jpg",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Grave_3r68OutofWater.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "GrandPrix_2c17lac.jpg",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Grave_3st83NoAlternatives.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "GrandPrix_2c8guard2.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "PowerUp_1c13guard1.jpg",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "PowerUp_1c12cybersword.jpg",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "PowerUp_1c11cannonball.jpg",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "GrandPrix_2c9hicannon.jpg",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Grave_3c5Recov10.JPG",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "PowerUp_1c15MEB.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Grave_3st81Sharkman.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNNetNavi"
+        }
+      ]
+    },
+    "torchman-starter-deck": {
+      "label": "TorchMan Starter Deck",
+      "cards": [
+        {
+          "databaseId": "PowerUp_1c49greatsurprise.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "PowerUp_1c33BigTrouble.JPG",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "PowerUp_1c47fierynetnavi.jpg",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "PowerUp_1c59PoPa.jpg",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "PowerUp_1c44dip.jpg",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "PowerUp_1r99ToweringInferno.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "PowerUp_1r92FlameBrain.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "PowerUp_1c73WOpp.jpg",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "PowerUp_1st103fireitup.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "PowerUp_1c43determined.jpg",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "PowerUp_1c28pgm.jpg",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "PowerUp_1c21cancelled.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "PowerUp_1c24fotb.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "PowerUp_1c25IB.jpg",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "PowerUp_1c13guard1.jpg",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "PowerUp_1c8Areasteal.jpg",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "PowerUp_1c12cybersword.jpg",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "PowerUp_1c19vulcan1.jpg",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "PowerUp_1c14laserblast.jpg",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "PowerUp_1c7airshot.jpg",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "PowerUp_1st102Torchman.JPG",
+          "quantity": 1,
+          "loadGroupId": "playerNNetNavi"
+        }
+      ]
+    }
+  }
+}

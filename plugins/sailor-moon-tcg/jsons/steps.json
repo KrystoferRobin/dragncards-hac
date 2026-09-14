@@ -1,0 +1,31 @@
+{
+  "steps": {
+    "drawStep": {
+      "phaseId": "draw",
+      "label": "Draw 1 Card"
+    },
+    "playStep": {
+      "phaseId": "play",
+      "label": "Play Cards"
+    },
+    "useStep": {
+      "phaseId": "use",
+      "label": "Use Cards"
+    },
+    "attackStep": {
+      "phaseId": "attack",
+      "label": "Scout / Knight Action"
+    },
+    "discardStep": {
+      "phaseId": "discard",
+      "label": "Discard / Balance to 5"
+    }
+  },
+  "stepOrder": [
+    "drawStep",
+    "playStep",
+    "useStep",
+    "attackStep",
+    "discardStep"
+  ]
+}

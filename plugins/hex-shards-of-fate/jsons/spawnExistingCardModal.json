@@ -1,0 +1,21 @@
+{
+  "spawnExistingCardModal": {
+    "columnProperties": [
+      "name",
+      "type",
+      "cost",
+      "threshold",
+      "attack",
+      "defense",
+      "packName"
+    ],
+    "loadGroupIds": [
+      "player1Deck",
+      "player1Hand",
+      "player1Champion",
+      "player1Resources",
+      "player1Play",
+      "player1Support"
+    ]
+  }
+}

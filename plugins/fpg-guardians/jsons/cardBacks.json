@@ -1,0 +1,9 @@
+{
+  "cardBacks": {
+    "default": {
+      "width": 0.72,
+      "height": 1.0,
+      "imageUrl": "fpg-guardians/_plugin/FpgGuardians-CardbackDefault.png"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "browse": {
+    "filterPropertySideA": "type",
+    "filterValuesSideA": [
+      "Equipment",
+      "Facehugger Pile",
+      "Location",
+      "Main Character",
+      "Plot Twist",
+      "Supporting Character",
+      "Supporting Character - Token"
+    ],
+    "textPropertiesSideA": [
+      "name",
+      "team",
+      "keyword",
+      "packName",
+      "text"
+    ]
+  }
+}

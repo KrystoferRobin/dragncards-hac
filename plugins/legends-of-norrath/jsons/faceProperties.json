@@ -1,0 +1,89 @@
+{
+  "faceProperties": {
+    "zoomImageUrl": {
+      "label": "Preview art",
+      "type": "string",
+      "default": ""
+    },
+    "subtitle": {
+      "label": "Subtitle",
+      "type": "string",
+      "default": ""
+    },
+    "archetype": {
+      "label": "Archetype",
+      "type": "string",
+      "default": ""
+    },
+    "faction": {
+      "label": "Faction",
+      "type": "string",
+      "default": ""
+    },
+    "cost": {
+      "label": "Cost",
+      "type": "string",
+      "default": ""
+    },
+    "attack": {
+      "label": "Attack",
+      "type": "string",
+      "default": ""
+    },
+    "defense": {
+      "label": "Defense",
+      "type": "string",
+      "default": ""
+    },
+    "health": {
+      "label": "Health",
+      "type": "string",
+      "default": ""
+    },
+    "damage": {
+      "label": "Damage",
+      "type": "string",
+      "default": ""
+    },
+    "level": {
+      "label": "Level",
+      "type": "string",
+      "default": ""
+    },
+    "artId": {
+      "label": "Art id",
+      "type": "string",
+      "default": ""
+    },
+    "frame": {
+      "label": "Frame",
+      "type": "string",
+      "default": ""
+    },
+    "flavour": {
+      "label": "Flavor",
+      "type": "string",
+      "default": ""
+    },
+    "text": {
+      "label": "Text",
+      "type": "string",
+      "default": ""
+    },
+    "packName": {
+      "label": "Set",
+      "type": "string",
+      "default": ""
+    },
+    "set": {
+      "label": "Set code",
+      "type": "string",
+      "default": ""
+    },
+    "loadGroupId": {
+      "label": "Load group",
+      "type": "string",
+      "default": ""
+    }
+  }
+}

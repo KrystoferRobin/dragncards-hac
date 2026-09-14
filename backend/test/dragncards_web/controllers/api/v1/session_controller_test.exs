@@ -11,6 +11,7 @@ defmodule DragnCardsWeb.API.V1.SessionControllerTest do
     user =
       Repo.insert!(%User{
         email: "test@example.com",
+        alias: "TestUser",
         password_hash: Password.pbkdf2_hash("secret1234")
       })
 
@@ -29,12 +30,20 @@ defmodule DragnCardsWeb.API.V1.SessionControllerTest do
       assert json["data"]["renew_token"]
     end
 
+    test "with nickname", %{conn: conn} do
+      params = %{"user" => %{"alias" => "TestUser", "password" => "secret1234"}}
+      conn = post(conn, Routes.api_v1_session_path(conn, :create, params))
+
+      assert json = json_response(conn, 200)
+      assert json["data"]["token"]
+    end
+
     test "with invalid params", %{conn: conn} do
       conn = post(conn, Routes.api_v1_session_path(conn, :create, @invalid_params))
 
       assert json = json_response(conn, 401)
 
-      assert json["error"]["message"] == "Invalid email or password"
+      assert json["error"]["message"] == "Invalid nickname or password"
       assert json["error"]["status"] == 401
     end
   end

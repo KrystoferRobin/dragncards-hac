@@ -1,0 +1,88 @@
+{
+  "actionLists": {
+    "damageCard": [
+      [
+        "COND",
+        [
+          "EQUAL",
+          "$ACTIVE_CARD.rotation",
+          0
+        ],
+        [
+          [
+            "LOG",
+            "$ALIAS_N",
+            " damaged ",
+            "$ACTIVE_FACE.name",
+            "."
+          ],
+          [
+            "SET",
+            "/cardById/$ACTIVE_CARD_ID/rotation",
+            90
+          ]
+        ],
+        true,
+        [
+          [
+            "SET",
+            "/cardById/$ACTIVE_CARD_ID/rotation",
+            0
+          ],
+          [
+            "LOG",
+            "$ALIAS_N",
+            " undamaged ",
+            "$ACTIVE_FACE.name",
+            "."
+          ]
+        ]
+      ]
+    ],
+    "drawoneCard": [
+      [
+        "DRAW_ONE_CARD"
+      ]
+    ],
+    "drawstartingHand": [
+      [
+        "DRAW_STARTING_HAND"
+      ]
+    ],
+    "menuAddTwilight": [
+      [
+        "ADD_TWILIGHT"
+      ]
+    ],
+    "menuRemoveTwilight": [
+      [
+        "REMOVE_TWILIGHT"
+      ]
+    ],
+    "menulog_activation": [
+      [
+        "LOG_ACTIVATION"
+      ]
+    ],
+    "menu_declareskirmish": [
+      [
+        "DECLARE_SKIRMISH"
+      ]
+    ],
+    "menusendcardtodiscard": [
+      [
+        "SEND_TO_DISCARD_CARD"
+      ]
+    ],
+    "menusendcardtodead": [
+      [
+        "SEND_TO_DEAD"
+      ]
+    ],
+    "flipCard": [
+      [
+        "FLIP"
+      ]
+    ]
+  }
+}

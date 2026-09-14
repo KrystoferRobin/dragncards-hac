@@ -1,0 +1,18 @@
+{
+  "topBarCounters": {
+    "shared": [
+      {
+        "label": "Round",
+        "imageUrl": "",
+        "gameProperty": "roundNumber"
+      }
+    ],
+    "player": [
+      {
+        "label": "Life",
+        "imageUrl": "https://dragncards-lotrlcg.s3.amazonaws.com/tokens/damage.png",
+        "playerProperty": "life"
+      }
+    ]
+  }
+}

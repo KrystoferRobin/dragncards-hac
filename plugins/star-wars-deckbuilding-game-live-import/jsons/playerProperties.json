@@ -1,0 +1,31 @@
+{
+  "playerProperties": {
+    "attack": {
+      "default": 0,
+      "min": 0,
+      "type": "integer"
+    },
+    "nextPurchaseOnTopOfDeck": {
+      "default": false,
+      "type": "boolean"
+    },
+    "purchasedCardThisTurn": {
+      "default": false,
+      "type": "boolean"
+    },
+    "purchasedNeutralCardThisTurn": {
+      "default": false,
+      "type": "boolean"
+    },
+    "resources": {
+      "default": 0,
+      "min": 0,
+      "type": "integer"
+    },
+    "score": {
+      "default": 0,
+      "min": 0,
+      "type": "integer"
+    }
+  }
+}

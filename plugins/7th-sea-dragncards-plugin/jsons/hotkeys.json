@@ -1,0 +1,24 @@
+{
+  "hotkeys": {
+    "game": [
+      {"key": "D", "actionList": "drawDeck", "label": "Draw"},
+      {"key": "S", "actionList": "shuffleDeck", "label": "Shuffle deck"},
+      {"key": "U", "actionList": "untackAll", "label": "Untack all"},
+      {"key": "R", "actionList": "roll1d6", "label": "Roll 1d6"},
+      {"key": "C", "actionList": "discardTop", "label": "Discard top of deck"}
+    ],
+    "card": [
+      {"key": "T", "actionList": "tackCard", "label": "Tack"},
+      {"key": "K", "actionList": "untackCard", "label": "Untack"},
+      {"key": "F", "actionList": ["FLIP", "$ACTIVE_CARD_ID"], "label": "Flip card"},
+      {"key": "X", "actionList": ["DISCARD", "$ACTIVE_CARD_ID"], "label": "Discard"},
+      {"key": "G", "actionList": "sinkCard", "label": "Sink"},
+      {"key": "A", "actionList": ["DETACH", "$ACTIVE_CARD_ID"], "label": "Detach"},
+      {"key": "H", "actionList": ["SHUFFLE_INTO_DECK", "$ACTIVE_CARD_ID"], "label": "Shuffle into deck"}
+    ],
+    "token": [
+      {"key": "1", "tokenType": "hits", "label": "Hits"},
+      {"key": "2", "tokenType": "generic", "label": "Generic counter"}
+    ]
+  }
+}

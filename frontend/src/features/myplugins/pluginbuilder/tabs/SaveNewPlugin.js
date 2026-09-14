@@ -8,6 +8,8 @@ import useProfile from "../../../../hooks/useProfile";
 import { useAuthOptions } from "../../../../hooks/useAuthOptions";
 import axios from "axios";
 import { downloadGameDefinitionAsZip } from "../DownloadPlugin";
+import { pluginCardDbFields, pluginSaveErrorMessage } from "../../uploadPluginFunctions";
+import { applyBuilderInputsToGameDef } from "../builderPluginLoad";
 
 
 
@@ -594,14 +596,17 @@ const processInputsIntoGameDefinition = (inputs) => {
     topBarCounters: defaultTopBarCounters,
     touchBar: [],
     pluginName: inputs.pluginName || "My Game",
+    author: inputs.author || "",
     backgroundUrl: inputs.backgroundUrl || "",
+    bannerUrl: inputs.bannerUrl || "",
+    logoUrl: inputs.logoUrl || "",
   };
 
   return gameDefinition;
 };
 
 
-export const SaveNewPlugin = ({ inputs }) => {
+export const SaveNewPlugin = ({ inputs, setInputs }) => {
   const siteL10n = useSiteL10n();
   const user = useProfile();
   const authOptions = useAuthOptions();
@@ -610,31 +615,64 @@ export const SaveNewPlugin = ({ inputs }) => {
   const [successMessage, setSuccessMessage] = useState("");
   const [errorMessage, setErrorMessage] = useState("");
 
-  const gameDef = processInputsIntoGameDefinition(inputs);
+  const editing = !!inputs.sourcePlugin?.id;
+  const canUpdate = editing && (user?.admin || inputs.sourcePlugin.author_id === user?.id);
+  const gameDef = canUpdate
+    ? applyBuilderInputsToGameDef(inputs.sourceGameDef, inputs)
+    : processInputsIntoGameDefinition(inputs);
 
   const handleCreateAndExport = async () => {
     setSuccessMessage("");
     setErrorMessage("");
-    setLoadingMessage("Creating plugin...");
+    setLoadingMessage(canUpdate ? "Updating plugin..." : "Creating plugin...");
 
-    const updateData = {
-      plugin: {
-        name: gameDef.pluginName,
-        author_id: user?.id,
-        game_def: gameDef,
-        card_db: inputs.cardDb,
-        public: false, 
-      },
-    };
+    const uploadedCards = Array.isArray(inputs.cardDbTsvs) && inputs.cardDbTsvs.length > 0;
 
     try {
-      const res = await axios.post("/be/api/myplugins", updateData, authOptions);
-      setLoadingMessage("");
-
-      setSuccessMessage("Plugin created.");
+      if (canUpdate) {
+        const updateData = {
+          plugin: {
+            id: inputs.sourcePlugin.id,
+            version: (inputs.sourcePlugin.version || 1) + 1,
+            name: gameDef.pluginName,
+            public: inputs.sourcePlugin.public,
+            repo_url: inputs.sourcePlugin.repo_url,
+            game_def: gameDef,
+            ...(uploadedCards ? pluginCardDbFields(inputs) : {}),
+          },
+        };
+        await axios.patch(`/be/api/myplugins/${inputs.sourcePlugin.id}`, updateData, authOptions);
+        setLoadingMessage("");
+        setSuccessMessage("Plugin updated.");
+        if (setInputs) {
+          setInputs((current) => ({
+            ...current,
+            cardDbTsvs: undefined,
+            sourceGameDef: gameDef,
+            sourcePlugin: {
+              ...current.sourcePlugin,
+              version: (current.sourcePlugin?.version || 1) + 1,
+              name: gameDef.pluginName,
+            },
+          }));
+        }
+      } else {
+        const updateData = {
+          plugin: {
+            name: gameDef.pluginName,
+            author_id: user?.id,
+            game_def: gameDef,
+            public: false,
+            ...pluginCardDbFields(inputs),
+          },
+        };
+        await axios.post("/be/api/myplugins", updateData, authOptions);
+        setLoadingMessage("");
+        setSuccessMessage("Plugin created.");
+      }
     } catch (err) {
       setLoadingMessage("");
-      setErrorMessage("Failed to create plugin or export files.");
+      setErrorMessage(pluginSaveErrorMessage(err, canUpdate ? "Failed to update plugin." : "Failed to create plugin or export files."));
       console.error(err);
     }
   };
@@ -642,8 +680,15 @@ export const SaveNewPlugin = ({ inputs }) => {
   return (
     <div className="max-w-3xl p-6 m-4 bg-gray-800 rounded-lg text-white">
       <p className="text-sm text-gray-300 mb-4">
-        {siteL10n("Click below to export your game definition and create your plugin. Once complete, visit 'My Plugins' to test and manage your plugin.")}
+        {canUpdate
+          ? siteL10n("Save writes these builder changes back onto the loaded plugin. Automation, hotkeys, and other JSON the builder does not show are kept.")
+          : siteL10n("Click below to export your game definition and create your plugin. Once complete, visit 'My Plugins' to test and manage your plugin.")}
       </p>
+      {canUpdate && (
+        <p className="text-sm text-green-300 mb-4">
+          {siteL10n("Updating")} <span className="font-semibold">{inputs.sourcePlugin.name}</span>
+        </p>
+      )}
 
       {loadingMessage && <p className="text-yellow-300 mb-2">{loadingMessage}</p>}
       {successMessage && (
@@ -665,7 +710,7 @@ export const SaveNewPlugin = ({ inputs }) => {
         onClick={handleCreateAndExport}
         className="px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white rounded text-sm"
       >
-        Create Plugin
+        {canUpdate ? siteL10n("Update Plugin") : siteL10n("Create Plugin")}
       </button>
     </div>
   );

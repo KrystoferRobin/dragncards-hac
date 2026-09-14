@@ -1,0 +1,39 @@
+{
+  "cardBacks": {
+    "library": {
+      "width": 0.72,
+      "height": 1.0,
+      "imageUrl": "vampire-the-eternal-struggle/_plugin/Vtes-CardbackLibrary.jpg"
+    },
+    "crypt": {
+      "width": 0.72,
+      "height": 1.0,
+      "imageUrl": "vampire-the-eternal-struggle/_plugin/Vtes-CardbackCrypt.jpg"
+    },
+    "token": {
+      "width": 0.72,
+      "height": 1.0,
+      "imageUrl": "vampire-the-eternal-struggle/_plugin/Vtes-CardbackToken.jpg"
+    },
+    "cultist": {
+      "width": 0.72,
+      "height": 1.0,
+      "imageUrl": "vampire-the-eternal-struggle/_plugin/Vtes-CardbackCultist.jpg"
+    },
+    "cultistCrypt": {
+      "width": 0.72,
+      "height": 1.0,
+      "imageUrl": "vampire-the-eternal-struggle/_plugin/Vtes-CardbackCultistCrypt.jpg"
+    },
+    "nergal": {
+      "width": 0.72,
+      "height": 1.0,
+      "imageUrl": "vampire-the-eternal-struggle/_plugin/Vtes-CardbackNergal.jpg"
+    },
+    "nergalCrypt": {
+      "width": 0.72,
+      "height": 1.0,
+      "imageUrl": "vampire-the-eternal-struggle/_plugin/Vtes-CardbackNergalCrypt.jpg"
+    }
+  }
+}

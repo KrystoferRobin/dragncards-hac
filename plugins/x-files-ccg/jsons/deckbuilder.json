@@ -1,0 +1,50 @@
+{
+  "deckbuilder": {
+    "addButtons": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "columns": [
+      {
+        "propName": "name",
+        "label": "Name"
+      },
+      {
+        "propName": "type",
+        "label": "Type"
+      },
+      {
+        "propName": "cost",
+        "label": "Cost"
+      },
+      {
+        "propName": "affiliation",
+        "label": "Affiliation"
+      },
+      {
+        "propName": "packName",
+        "label": "Set"
+      }
+    ],
+    "spawnGroups": [
+      {
+        "loadGroupId": "playerNDeck",
+        "label": "My Deck"
+      },
+      {
+        "loadGroupId": "playerNStarting",
+        "label": "My Starting"
+      },
+      {
+        "loadGroupId": "playerNXFile",
+        "label": "My XFile"
+      },
+      {
+        "loadGroupId": "playerNSide",
+        "label": "My Side"
+      }
+    ]
+  }
+}

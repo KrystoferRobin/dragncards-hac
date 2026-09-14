@@ -1,0 +1,71 @@
+{
+  "deckbuilder": {
+    "addButtons": [
+      1,
+      2
+    ],
+    "colorKey": "sphere_code",
+    "colorValues": {
+      "awareness": "#7dd158",
+      "fitness": "#f83527",
+      "focus": "#2986cc",
+      "spirit": "#ffd966"
+    },
+    "columns": [
+      {
+        "label": "id:name",
+        "propName": "name"
+      },
+      {
+        "label": "id:sphere_code",
+        "propName": "sphere_cost"
+      },
+      {
+        "label": "id:type",
+        "propName": "type"
+      },
+      {
+        "label": "id:traits",
+        "propName": "traits"
+      },
+      {
+        "label": "id:set",
+        "propName": "set"
+      },
+      {
+        "label": "id:pack_name",
+        "propName": "pack_name"
+      }
+    ],
+    "spawnGroups": [
+      {
+        "label": "id:sharedMissions",
+        "loadGroupId": "sharedMissions"
+      },
+      {
+        "label": "id:sharedPathDeck3",
+        "loadGroupId": "sharedPathDeck3"
+      },
+      {
+        "label": "id:sharedLocation",
+        "loadGroupId": "sharedLocation"
+      },
+      {
+        "label": "id:myPlayArea",
+        "loadGroupId": "playerNPlay"
+      },
+      {
+        "label": "id:myDeck",
+        "loadGroupId": "playerNDeck"
+      },
+      {
+        "label": "id:myRole",
+        "loadGroupId": "playerNRole"
+      },
+      {
+        "label": "id:myAspect",
+        "loadGroupId": "playerNAspect"
+      }
+    ]
+  }
+}

@@ -1,0 +1,200 @@
+{
+  "groups": {
+    "player1Hand": {
+      "groupType": "hand",
+      "label": "Player 1 Hand",
+      "tableLabel": "Player 1 Hand",
+      "onCardEnter": {
+        "controller": "player1",
+        "currentSide": "B",
+        "peeking": {
+          "player1": true
+        },
+        "rotation": 0,
+        "rotationByPlayer": {}
+      }
+    },
+    "player1Fellowship": {
+      "groupType": "inPlay",
+      "label": "Player 1 Fellowship",
+      "tableLabel": "Player 1 Fellowship",
+      "onCardEnter": {
+        "controller": "player1",
+        "discardGroupId": "player1Discard"
+      }
+    },
+    "player1Support": {
+      "groupType": "inPlay",
+      "label": "Player 1 Support",
+      "tableLabel": "Player 1 Support",
+      "onCardEnter": {
+        "controller": "player1",
+        "discardGroupId": "player1Discard"
+      }
+    },
+    "player1Deck": {
+      "groupType": "deck",
+      "label": "Player 1 Deck",
+      "tableLabel": "Player 1 Deck",
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1Deck",
+        "discardGroupId": "player1Discard",
+        "peeking": {
+          "player2": false
+        }
+      },
+      "shuffleOnLoad": true
+    },
+    "player1Discard": {
+      "groupType": "discard",
+      "label": "Player 1 Discard",
+      "tableLabel": "Player 1 Discard",
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1Deck",
+        "peeking": {
+          "player1": true,
+          "player2": false
+        }
+      }
+    },
+    "player1Dead": {
+      "groupType": "discard",
+      "label": "Player 1 Dead Pile",
+      "tableLabel": "Player 1 Dead Pile",
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1Deck",
+        "peeking": {
+          "player1": true,
+          "player2": true
+        }
+      }
+    },
+    "player1AdventureDeck": {
+      "groupType": "deck",
+      "label": "Player 1 Adventure Deck",
+      "tableLabel": "Player 1 Adventure Deck",
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1AdventureDeck",
+        "discardGroupId": "player1Discard",
+        "peeking": {
+          "player2": false
+        }
+      },
+      "shuffleOnLoad": false
+    },
+    "player2Hand": {
+      "groupType": "hand",
+      "label": "Player 2 Hand",
+      "tableLabel": "Player 2 Hand",
+      "onCardEnter": {
+        "controller": "player2",
+        "currentSide": "B",
+        "peeking": {
+          "player2": true
+        },
+        "rotation": 0,
+        "rotationByPlayer": {}
+      }
+    },
+    "player2Fellowship": {
+      "groupType": "inPlay",
+      "label": "Player 2 Fellowship",
+      "tableLabel": "Player 2 Fellowship",
+      "onCardEnter": {
+        "controller": "player2",
+        "discardGroupId": "player2Discard"
+      }
+    },
+    "player2Support": {
+      "groupType": "inPlay",
+      "label": "Player 2 Support",
+      "tableLabel": "Player 2 Support",
+      "onCardEnter": {
+        "controller": "player2",
+        "discardGroupId": "player2Discard"
+      }
+    },
+    "player2Deck": {
+      "groupType": "deck",
+      "label": "Player 2 Deck",
+      "tableLabel": "Player 2 Deck",
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2Deck",
+        "discardGroupId": "player2Discard",
+        "peeking": {
+          "player1": false
+        }
+      },
+      "shuffleOnLoad": true
+    },
+    "player2Discard": {
+      "groupType": "discard",
+      "label": "Player 2 Discard",
+      "tableLabel": "Player 2 Discard",
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2Deck",
+        "peeking": {
+          "player2": true,
+          "player1": false
+        }
+      }
+    },
+    "player2Dead": {
+      "groupType": "discard",
+      "label": "Player 2 Dead Pile",
+      "tableLabel": "Player 2 Dead Pile",
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2Deck",
+        "peeking": {
+          "player2": true,
+          "player1": true
+        }
+      }
+    },
+    "player2AdventureDeck": {
+      "groupType": "deck",
+      "label": "Player 2 Adventure Deck",
+      "tableLabel": "Player 2 Adventure Deck",
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2AdventureDeck",
+        "discardGroupId": "player2Discard",
+        "peeking": {
+          "player1": false
+        }
+      },
+      "shuffleOnLoad": false
+    },
+    "sharedAdventurePath": {
+      "groupType": "inPlay",
+      "label": "Adventure Path",
+      "tableLabel": "Adventure Path",
+      "onCardEnter": {
+        "controller": "shared"
+      }
+    },
+    "sharedShadow": {
+      "groupType": "inPlay",
+      "label": "Shadow / Minions",
+      "tableLabel": "Shadow / Minions",
+      "onCardEnter": {
+        "controller": "shared"
+      }
+    },
+    "sharedSkirmish": {
+      "groupType": "inPlay",
+      "label": "Skirmish",
+      "tableLabel": "Skirmish",
+      "onCardEnter": {
+        "controller": "shared"
+      }
+    }
+  }
+}

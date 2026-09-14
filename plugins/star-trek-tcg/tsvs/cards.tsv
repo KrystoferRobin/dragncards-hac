@@ -1,0 +1,480 @@
+databaseId	name	imageUrl	cardBack	type	packName	set	loadGroupId	subtype	rarity
+Base_Alice_in_Wonderland_Challenge	Alice in Wonderland	star-trek-tcg/base-set/StarTrekTcg-BaseSet-AliceInWonderland.jpg	default	Challenge	Base Set	Base	playerNChallenges	Enigma	C
+Base_Alien_Savages_Challenge	Alien Savages	star-trek-tcg/base-set/StarTrekTcg-BaseSet-AlienSavages.jpg	default	Challenge	Base Set	Base	playerNChallenges	Ambush	C
+Base_Andorians_Challenge	Andorians	star-trek-tcg/base-set/StarTrekTcg-BaseSet-Andorians.jpg	default	Challenge	Base Set	Base	playerNChallenges	Capture	C
+Base_Android_Duplicate_Challenge	Android Duplicate!	star-trek-tcg/base-set/StarTrekTcg-BaseSet-AndroidDuplicate.jpg	default	Challenge	Base Set	Base	playerNChallenges	Attack	V
+Base_Ayelborne_Challenge	Ayelborne	star-trek-tcg/base-set/StarTrekTcg-BaseSet-Ayelborne.jpg	default	Challenge	Base Set	Base	playerNChallenges	Enigma or Negotiate	R
+Base_Balok_Challenge	Balok	star-trek-tcg/base-set/StarTrekTcg-BaseSet-Balok.jpg	default	Challenge	Base Set	Base	playerNChallenges	Enigma or Negotiate	R
+Base_Bele_Challenge	Bele	star-trek-tcg/base-set/StarTrekTcg-BaseSet-Bele.jpg	default	Challenge	Base Set	Base	playerNChallenges	Capture or Argue	R
+Base_Ben_Childress_Challenge	Ben Childress	star-trek-tcg/base-set/StarTrekTcg-BaseSet-BenChildress.jpg	default	Challenge	Base Set	Base	playerNChallenges	Negotiate	U
+Base_Bilar_Challenge	Bilar	star-trek-tcg/base-set/StarTrekTcg-BaseSet-Bilar.jpg	default	Challenge	Base Set	Base	playerNChallenges	Attack or Capture	U
+Base_Black_Knight_Challenge	Black Knight	star-trek-tcg/base-set/StarTrekTcg-BaseSet-BlackKnight.jpg	default	Challenge	Base Set	Base	playerNChallenges	Attack	U
+Base_Capellans_Challenge	Capellans	star-trek-tcg/base-set/StarTrekTcg-BaseSet-Capellans.jpg	default	Challenge	Base Set	Base	playerNChallenges	Capture	C
+Base_Claudius_Marcus_Challenge	Claudius Marcus	star-trek-tcg/base-set/StarTrekTcg-BaseSet-ClaudiusMarcus.jpg	default	Challenge	Base Set	Base	playerNChallenges	Conquer or Command or Argue	R
+Base_Colonel_Green_Challenge	Colonel Green	star-trek-tcg/base-set/StarTrekTcg-BaseSet-ColonelGreen.jpg	default	Challenge	Base Set	Base	playerNChallenges	Ambush or Capture or Outwit	C
+Base_Commodore_Jose_Mendez_Challenge	Commodore Jose' Mendez	star-trek-tcg/base-set/StarTrekTcg-BaseSet-CommodoreJoseMendez.jpg	default	Challenge	Base Set	Base	playerNChallenges	Command or Enigma	V
+Base_Commodore_Stone_Challenge	Commodore Stone	star-trek-tcg/base-set/StarTrekTcg-BaseSet-CommodoreStone.jpg	default	Challenge	Base Set	Base	playerNChallenges	Command or Negotiate	U
+Base_Decius_Challenge	Decius	star-trek-tcg/base-set/StarTrekTcg-BaseSet-Decius.jpg	default	Challenge	Base Set	Base	playerNChallenges	Capture	C
+Base_Denevan_Neural_Parasites_Challenge	Denevan Neural Parasites	star-trek-tcg/base-set/StarTrekTcg-BaseSet-DenevanNeuralParasites.jpg	default	Challenge	Base Set	Base	playerNChallenges	Conquer	R
+Base_Dikironium_Cloud_Creature_Challenge	Dikironium Cloud Creature	star-trek-tcg/base-set/StarTrekTcg-BaseSet-DikironiumCloudCreature.jpg	default	Challenge	Base Set	Base	playerNChallenges	Ambush or Outwit	V
+Base_Don_Juan_Challenge	Don Juan	star-trek-tcg/base-set/StarTrekTcg-BaseSet-DonJuan.jpg	default	Challenge	Base Set	Base	playerNChallenges	Enigma or Capture	C
+Base_Dr_Brown_Challenge	Dr. Brown	star-trek-tcg/base-set/StarTrekTcg-BaseSet-DrBrown.jpg	default	Challenge	Base Set	Base	playerNChallenges	Capture or Enigma	C
+Base_Dr_Elizabeth_Dehner_Challenge	Dr. Elizabeth Dehner*	star-trek-tcg/base-set/StarTrekTcg-BaseSet-DrElizabethDehner.jpg	default	Challenge	Base Set	Base	playerNChallenges	Negotiate or Mind Control	V
+Base_Dr_Roger_Korby_Challenge	Dr. Roger Korby	star-trek-tcg/base-set/StarTrekTcg-BaseSet-DrRogerKorby.jpg	default	Challenge	Base Set	Base	playerNChallenges	Outwit or Argue	R
+Base_Dr_Simon_Van_Gelder_Challenge	Dr. Simon Van Gelder	star-trek-tcg/base-set/StarTrekTcg-BaseSet-DrSimonVanGelder.jpg	default	Challenge	Base Set	Base	playerNChallenges	Ambush or Enigma	C
+Base_Dr_Tristan_Adams_Challenge	Dr. Tristan Adams	star-trek-tcg/base-set/StarTrekTcg-BaseSet-DrTristanAdams.jpg	default	Challenge	Base Set	Base	playerNChallenges	Mind Control or Command	U
+Base_Elias_Sandoval_Challenge	Elias Sandoval	star-trek-tcg/base-set/StarTrekTcg-BaseSet-EliasSandoval.jpg	default	Challenge	Base Set	Base	playerNChallenges	Argue or Enigma	U
+Base_Eve_McHuron_Challenge	Eve McHuron	star-trek-tcg/base-set/StarTrekTcg-BaseSet-EveMcHuron.jpg	default	Challenge	Base Set	Base	playerNChallenges	Tempt	U
+Base_Former_Love_Challenge	Former Love	star-trek-tcg/base-set/StarTrekTcg-BaseSet-FormerLove.jpg	default	Challenge	Base Set	Base	playerNChallenges	Enigma or Tempt	V
+Base_Former_Rival_Finnegan_Challenge	Former Rival Finnegan	star-trek-tcg/base-set/StarTrekTcg-BaseSet-FormerRivalFinnegan.jpg	default	Challenge	Base Set	Base	playerNChallenges	Enigma or Capture	V
+Base_Galactic_High_Commissioner_Ferris_Challenge	Galactic High Commissioner Ferris	star-trek-tcg/base-set/StarTrekTcg-BaseSet-GalacticHighCommissionerFerris.jpg	default	Challenge	Base Set	Base	playerNChallenges	Argue or Command	V
+Base_Genghis_Khan_Challenge	Genghis Khan	star-trek-tcg/base-set/StarTrekTcg-BaseSet-GenghisKhan.jpg	default	Challenge	Base Set	Base	playerNChallenges	Attack or Conquer	U
+Base_Gorn_Captain_Challenge	Gorn Captain	star-trek-tcg/base-set/StarTrekTcg-BaseSet-GornCaptain.jpg	default	Challenge	Base Set	Base	playerNChallenges	Attack	C
+Base_Hacom_Challenge	Hacom	star-trek-tcg/base-set/StarTrekTcg-BaseSet-Hacom.jpg	default	Challenge	Base Set	Base	playerNChallenges	Capture or Outwit	R
+Base_Horta_Challenge	Horta	star-trek-tcg/base-set/StarTrekTcg-BaseSet-Horta.jpg	default	Challenge	Base Set	Base	playerNChallenges	Attack	U
+Base_Hostile_Miners_Challenge	Hostile Miners	star-trek-tcg/base-set/StarTrekTcg-BaseSet-HostileMiners.jpg	default	Challenge	Base Set	Base	playerNChallenges	Capture or Negotiate	C
+Base_Insane_Colonists_Challenge	Insane Colonists	star-trek-tcg/base-set/StarTrekTcg-BaseSet-InsaneColonists.jpg	default	Challenge	Base Set	Base	playerNChallenges	Attack	C
+Base_Jahn_Challenge	Jahn	star-trek-tcg/base-set/StarTrekTcg-BaseSet-Jahn.jpg	default	Challenge	Base Set	Base	playerNChallenges	Capture	R
+Base_Joaquin_Challenge	Joaquin	star-trek-tcg/base-set/StarTrekTcg-BaseSet-Joaquin.jpg	default	Challenge	Base Set	Base	playerNChallenges	Capture	U
+Base_Kahless_Challenge	Kahless	star-trek-tcg/base-set/StarTrekTcg-BaseSet-Kahless.jpg	default	Challenge	Base Set	Base	playerNChallenges	Attack or Outwit	R
+Base_Kang_Challenge	Kang	star-trek-tcg/base-set/StarTrekTcg-BaseSet-Kang.jpg	default	Challenge	Base Set	Base	playerNChallenges	Attack or Command	U
+Base_Khan_Noonien_Singh_Challenge	Khan Noonien Singh	star-trek-tcg/base-set/StarTrekTcg-BaseSet-KhanNoonienSingh.jpg	default	Challenge	Base Set	Base	playerNChallenges	Capture or Outwit or Conquer	R
+Base_Klingon_Landing_Party_Challenge	Klingon Landing Party	star-trek-tcg/base-set/StarTrekTcg-BaseSet-KlingonLandingParty.jpg	default	Challenge	Base Set	Base	playerNChallenges	Capture	C
+Base_Klingon_Sniper_Challenge	Klingon Sniper	star-trek-tcg/base-set/StarTrekTcg-BaseSet-KlingonSniper.jpg	default	Challenge	Base Set	Base	playerNChallenges	Ambush	V
+Base_Klingon_Warrior_Challenge	Klingon Warrior	star-trek-tcg/base-set/StarTrekTcg-BaseSet-KlingonWarrior.jpg	default	Challenge	Base Set	Base	playerNChallenges	Attack	U
+Base_Kor_Challenge	Kor	star-trek-tcg/base-set/StarTrekTcg-BaseSet-Kor.jpg	default	Challenge	Base Set	Base	playerNChallenges	Capture	U
+Base_Landru_Challenge	Landru	star-trek-tcg/base-set/StarTrekTcg-BaseSet-Landru.jpg	default	Challenge	Base Set	Base	playerNChallenges	Command or Conquer	R
+Base_Lawgivers_Challenge	Lawgivers	star-trek-tcg/base-set/StarTrekTcg-BaseSet-Lawgivers.jpg	default	Challenge	Base Set	Base	playerNChallenges	Capture	C
+Base_Lazarus_Challenge	Lazarus	star-trek-tcg/base-set/StarTrekTcg-BaseSet-Lazarus.jpg	default	Challenge	Base Set	Base	playerNChallenges	Enigma or Argue	C
+Base_Leila_Kalomi_Challenge	Leila Kalomi	star-trek-tcg/base-set/StarTrekTcg-BaseSet-LeilaKalomi.jpg	default	Challenge	Base Set	Base	playerNChallenges	Tempt	U
+Base_Lenore_Karidian_Challenge	Lenore Karidian	star-trek-tcg/base-set/StarTrekTcg-BaseSet-LenoreKaridian.jpg	default	Challenge	Base Set	Base	playerNChallenges	Ambush or Fatal Allure	R
+Base_Lethe_Challenge	Lethe	star-trek-tcg/base-set/StarTrekTcg-BaseSet-Lethe.jpg	default	Challenge	Base Set	Base	playerNChallenges	Enigma	R
+Base_Lieutenant_Commander_Gary_Mitchell_Challenge	Lieutenant Commander Gary Mitchell*	star-trek-tcg/base-set/StarTrekTcg-BaseSet-LieutenantCommanderGaryMitchell.jpg	default	Challenge	Base Set	Base	playerNChallenges	Capture or Mind Control	V
+Base_M-113_Monster_(Crewman_Green_Form)_Challenge	M-113 Monster (Crewman Green Form)	star-trek-tcg/base-set/StarTrekTcg-BaseSet-M113MonsterCrewmanGreenForm.jpg	default	Challenge	Base Set	Base	playerNChallenges	Fatal Allure or Attack	V
+Base_M-113_Monster_(Natural_Form)_Challenge	M-113 Monster (Natural Form)	star-trek-tcg/base-set/StarTrekTcg-BaseSet-M113MonsterNaturalForm.jpg	default	Challenge	Base Set	Base	playerNChallenges	Fatal Allure or Attack	V
+Base_Magda_Kovacs_Challenge	Magda Kovacs	star-trek-tcg/base-set/StarTrekTcg-BaseSet-MagdaKovacs.jpg	default	Challenge	Base Set	Base	playerNChallenges	Tempt	C
+Base_Mara_Challenge	Mara	star-trek-tcg/base-set/StarTrekTcg-BaseSet-Mara.jpg	default	Challenge	Base Set	Base	playerNChallenges	Capture or Tempt	U
+Base_Melkotians_Challenge	Melkotians	star-trek-tcg/base-set/StarTrekTcg-BaseSet-Melkotians.jpg	default	Challenge	Base Set	Base	playerNChallenges	Outwit or Enigma	U
+Base_Metron_Challenge	Metron	star-trek-tcg/base-set/StarTrekTcg-BaseSet-Metron.jpg	default	Challenge	Base Set	Base	playerNChallenges	* or Enigma	R
+Base_Military_Officers_20th_Century_Challenge	Military Officers, 20th Century	star-trek-tcg/base-set/StarTrekTcg-BaseSet-MilitaryOfficers20thCentury.jpg	default	Challenge	Base Set	Base	playerNChallenges	Capture or Negotiate	U
+Base_Miri_Challenge	Miri	star-trek-tcg/base-set/StarTrekTcg-BaseSet-Miri.jpg	default	Challenge	Base Set	Base	playerNChallenges	Argue or Enigma	U
+Base_Mudds_Women_Challenge	Mudd's Women	star-trek-tcg/base-set/StarTrekTcg-BaseSet-MuddsWomen.jpg	default	Challenge	Base Set	Base	playerNChallenges	Tempt	U
+Base_Mugato_Challenge	Mugato	star-trek-tcg/base-set/StarTrekTcg-BaseSet-Mugato.jpg	default	Challenge	Base Set	Base	playerNChallenges	Ambush	R
+Base_Nomad_Challenge	Nomad	star-trek-tcg/base-set/StarTrekTcg-BaseSet-Nomad.jpg	default	Challenge	Base Set	Base	playerNChallenges	Outwit or Command	V
+Base_Onlies_Challenge	Onlies	star-trek-tcg/base-set/StarTrekTcg-BaseSet-Onlies.jpg	default	Challenge	Base Set	Base	playerNChallenges	Capture	C
+Base_Organian_Council_of_Elders_Challenge	Organian Council of Elders	star-trek-tcg/base-set/StarTrekTcg-BaseSet-OrganianCouncilOfElders.jpg	default	Challenge	Base Set	Base	playerNChallenges	Enigma or Negotiate	V
+Base_Otto_Challenge	Otto	star-trek-tcg/base-set/StarTrekTcg-BaseSet-Otto.jpg	default	Challenge	Base Set	Base	playerNChallenges	Capture	U
+Base_Planetary_Guards_Challenge	Planetary Guards	star-trek-tcg/base-set/StarTrekTcg-BaseSet-PlanetaryGuards.jpg	default	Challenge	Base Set	Base	playerNChallenges	Capture	C
+Base_Plasus_Challenge	Plasus	star-trek-tcg/base-set/StarTrekTcg-BaseSet-Plasus.jpg	default	Challenge	Base Set	Base	playerNChallenges	Negotiate or Argue	U
+Base_Rojan_Challenge	Rojan	star-trek-tcg/base-set/StarTrekTcg-BaseSet-Rojan.jpg	default	Challenge	Base Set	Base	playerNChallenges	Outwit or Conquer	R
+Base_Romulan_Battle_Cruiser_Commander_Challenge	Romulan Battle Cruiser Commander	star-trek-tcg/base-set/StarTrekTcg-BaseSet-RomulanBattleCruiserCommander.jpg	default	Challenge	Base Set	Base	playerNChallenges	Capture or Tempt	U
+Base_Romulan_Bird-of-Prey_Commander_Challenge	Romulan Bird-of-Prey Commander	star-trek-tcg/base-set/StarTrekTcg-BaseSet-RomulanBirdOfPreyCommander.jpg	default	Challenge	Base Set	Base	playerNChallenges	Capture or Outwit	C
+Base_Romulan_Centurion_Challenge	Romulan Centurion	star-trek-tcg/base-set/StarTrekTcg-BaseSet-RomulanCenturion.jpg	default	Challenge	Base Set	Base	playerNChallenges	Capture or Argue	U
+Base_Ruk_Challenge	Ruk	star-trek-tcg/base-set/StarTrekTcg-BaseSet-Ruk.jpg	default	Challenge	Base Set	Base	playerNChallenges	Attack	C
+Base_Ruth_Bonaventure_Challenge	Ruth Bonaventure	star-trek-tcg/base-set/StarTrekTcg-BaseSet-RuthBonaventure.jpg	default	Challenge	Base Set	Base	playerNChallenges	Tempt	C
+Base_Samurai_Warrior_Challenge	Samurai Warrior	star-trek-tcg/base-set/StarTrekTcg-BaseSet-SamuraiWarrior.jpg	default	Challenge	Base Set	Base	playerNChallenges	Attack or Enigma	C
+Base_Talosians_Challenge	Talosians	star-trek-tcg/base-set/StarTrekTcg-BaseSet-Talosians.jpg	default	Challenge	Base Set	Base	playerNChallenges	Outwit or Enigma	U
+Base_Tellarites_Challenge	Tellarites	star-trek-tcg/base-set/StarTrekTcg-BaseSet-Tellarites.jpg	default	Challenge	Base Set	Base	playerNChallenges	Befuddle or Argue	C
+Base_The_Kaylar_Challenge	The Kaylar	star-trek-tcg/base-set/StarTrekTcg-BaseSet-TheKaylar.jpg	default	Challenge	Base Set	Base	playerNChallenges	Attack	C
+Base_The_Keeper_Challenge	The Keeper	star-trek-tcg/base-set/StarTrekTcg-BaseSet-TheKeeper.jpg	default	Challenge	Base Set	Base	playerNChallenges	Outwit or Tempt	V
+Base_Transporter_Duplicate_Challenge	Transporter Duplicate	star-trek-tcg/base-set/StarTrekTcg-BaseSet-TransporterDuplicate.jpg	default	Challenge	Base Set	Base	playerNChallenges	Attack or Outwit	V
+Base_Trefayne_Challenge	Trefayne	star-trek-tcg/base-set/StarTrekTcg-BaseSet-Trefayne.jpg	default	Challenge	Base Set	Base	playerNChallenges	Enigma or Negotiate	U
+Base_Trelane_Challenge	Trelane	star-trek-tcg/base-set/StarTrekTcg-BaseSet-Trelane.jpg	default	Challenge	Base Set	Base	playerNChallenges	Capture or Befuddle	C
+Base_Vina_Challenge	Vina	star-trek-tcg/base-set/StarTrekTcg-BaseSet-Vina.jpg	default	Challenge	Base Set	Base	playerNChallenges	Enigma or Tempt	U
+Base_Vina_the_Orion_Dancer_Challenge	Vina, the Orion Dancer	star-trek-tcg/base-set/StarTrekTcg-BaseSet-VinaTheOrionDancer.jpg	default	Challenge	Base Set	Base	playerNChallenges	Tempt	R
+Base_White_Rabbit_Challenge	White Rabbit	star-trek-tcg/base-set/StarTrekTcg-BaseSet-WhiteRabbit.jpg	default	Challenge	Base Set	Base	playerNChallenges	Befuddle	C
+Base_Witch_Challenge	Witch	star-trek-tcg/base-set/StarTrekTcg-BaseSet-Witch.jpg	default	Challenge	Base Set	Base	playerNChallenges	Enigma	U
+Base_Wyatt_Earp_Challenge	Wyatt Earp	star-trek-tcg/base-set/StarTrekTcg-BaseSet-WyattEarp.jpg	default	Challenge	Base Set	Base	playerNChallenges	Attack	U
+Base_Yarnek_Challenge	Yarnek	star-trek-tcg/base-set/StarTrekTcg-BaseSet-Yarnek.jpg	default	Challenge	Base Set	Base	playerNChallenges	Outwit	R
+Base_Captain_James_T_Kirk_Core_Crew	Captain James T. Kirk	star-trek-tcg/base-set/StarTrekTcg-BaseSet-CaptainJamesTKirk.jpg	silverback	Core Crew	Base Set	Base	playerNStarting		S
+Base_Commander_Spock_Core_Crew	Commander Spock	star-trek-tcg/base-set/StarTrekTcg-BaseSet-CommanderSpock.jpg	silverback	Core Crew	Base Set	Base	playerNStarting		S
+Base_Dr_Leonard_H_Bones_McCoy_Core_Crew	Dr. Leonard H. Bones McCoy	star-trek-tcg/base-set/StarTrekTcg-BaseSet-DrLeonardHBonesMcCoy.jpg	silverback	Core Crew	Base Set	Base	playerNStarting		S
+Base_USS_Enterprise_Core_Crew	U.S.S. Enterprise	star-trek-tcg/base-set/StarTrekTcg-BaseSet-USSEnterprise.jpg	silverback	Core Crew	Base Set	Base	playerNStarting		S
+Base_Dr_Elizabeth_Dehner_Crew	Dr. Elizabeth Dehner	star-trek-tcg/base-set/StarTrekTcg-BaseSet-DrElizabethDehner-2.jpg	default	Crew	Base Set	Base	playerNDeck		U
+Base_Dr_Mark_Piper_Crew	Dr. Mark Piper	star-trek-tcg/base-set/StarTrekTcg-BaseSet-DrMarkPiper.jpg	default	Crew	Base Set	Base	playerNDeck		R
+Base_Ensign_Angela_Martine_Crew	Ensign Angela Martine	star-trek-tcg/base-set/StarTrekTcg-BaseSet-EnsignAngelaMartine.jpg	default	Crew	Base Set	Base	playerNDeck		C
+Base_Ensign_Matthews_Crew	Ensign Matthews	star-trek-tcg/base-set/StarTrekTcg-BaseSet-EnsignMatthews.jpg	default	Crew	Base Set	Base	playerNDeck		C
+Base_Ensign_Pavel_A_Chekov_Crew	Ensign Pavel A. Chekov	star-trek-tcg/base-set/StarTrekTcg-BaseSet-EnsignPavelAChekov.jpg	default	Crew	Base Set	Base	playerNDeck		U
+Base_Ensign_Rayburn_Crew	Ensign Rayburn	star-trek-tcg/base-set/StarTrekTcg-BaseSet-EnsignRayburn.jpg	default	Crew	Base Set	Base	playerNDeck		C
+Base_Geological_Technician_Fisher_Crew	Geological Technician Fisher	star-trek-tcg/base-set/StarTrekTcg-BaseSet-GeologicalTechnicianFisher.jpg	default	Crew	Base Set	Base	playerNDeck		R
+Base_Lieutenant_(jg)_Joe_Tormolen_Crew	Lieutenant (j.g.) Joe Tormolen	star-trek-tcg/base-set/StarTrekTcg-BaseSet-LieutenantJGJoeTormolen.jpg	default	Crew	Base Set	Base	playerNDeck		C
+Base_Lieutenant_Alden_Crew	Lieutenant Alden	star-trek-tcg/base-set/StarTrekTcg-BaseSet-LieutenantAlden.jpg	default	Crew	Base Set	Base	playerNDeck		R
+Base_Lieutenant_Charlene_Masters_Crew	Lieutenant Charlene Masters	star-trek-tcg/base-set/StarTrekTcg-BaseSet-LieutenantCharleneMasters.jpg	default	Crew	Base Set	Base	playerNDeck		C
+Base_Lieutenant_Commander_Benjamin_Finney_Crew	Lieutenant Commander Benjamin Finney	star-trek-tcg/base-set/StarTrekTcg-BaseSet-LieutenantCommanderBenjaminFinney.jpg	default	Crew	Base Set	Base	playerNDeck		R
+Base_Lieutenant_Commander_Gary_Mitchell_Crew	Lieutenant Commander Gary Mitchell	star-trek-tcg/base-set/StarTrekTcg-BaseSet-LieutenantCommanderGaryMitchell-2.jpg	default	Crew	Base Set	Base	playerNDeck		R
+Base_Lieutenant_Commander_Giotto_Crew	Lieutenant Commander Giotto	star-trek-tcg/base-set/StarTrekTcg-BaseSet-LieutenantCommanderGiotto.jpg	default	Crew	Base Set	Base	playerNDeck		C
+Base_Lieutenant_Commander_Kelowitz_Crew	Lieutenant Commander Kelowitz	star-trek-tcg/base-set/StarTrekTcg-BaseSet-LieutenantCommanderKelowitz.jpg	default	Crew	Base Set	Base	playerNDeck		C
+Base_Lieutenant_Commander_Montgomery_Scott_Crew	Lieutenant Commander Montgomery Scott	star-trek-tcg/base-set/StarTrekTcg-BaseSet-LieutenantCommanderMontgomeryScott.jpg	default	Crew	Base Set	Base	playerNDeck		U
+Base_Lieutenant_DAmato_Crew	Lieutenant D'Amato	star-trek-tcg/base-set/StarTrekTcg-BaseSet-LieutenantDAmato.jpg	default	Crew	Base Set	Base	playerNDeck		C
+Base_Lieutenant_DePaul_Crew	Lieutenant DePaul	star-trek-tcg/base-set/StarTrekTcg-BaseSet-LieutenantDePaul.jpg	default	Crew	Base Set	Base	playerNDeck		U
+Base_Lieutenant_DeSalle_Crew	Lieutenant DeSalle	star-trek-tcg/base-set/StarTrekTcg-BaseSet-LieutenantDeSalle.jpg	default	Crew	Base Set	Base	playerNDeck		R
+Base_Lieutenant_Esteban_Rodriguez_Crew	Lieutenant Esteban Rodriguez	star-trek-tcg/base-set/StarTrekTcg-BaseSet-LieutenantEstebanRodriguez.jpg	default	Crew	Base Set	Base	playerNDeck		C
+Base_Lieutenant_Gaetano_Crew	Lieutenant Gaetano	star-trek-tcg/base-set/StarTrekTcg-BaseSet-LieutenantGaetano.jpg	default	Crew	Base Set	Base	playerNDeck		C
+Base_Lieutenant_Hikaru_Sulu_Crew	Lieutenant Hikaru Sulu	star-trek-tcg/base-set/StarTrekTcg-BaseSet-LieutenantHikaruSulu.jpg	default	Crew	Base Set	Base	playerNDeck		U
+Base_Lieutenant_Karl_Jaeger_Crew	Lieutenant Karl Jaeger	star-trek-tcg/base-set/StarTrekTcg-BaseSet-LieutenantKarlJaeger.jpg	default	Crew	Base Set	Base	playerNDeck		R
+Base_Lieutenant_Kevin_T_Riley_Crew	Lieutenant Kevin T. Riley	star-trek-tcg/base-set/StarTrekTcg-BaseSet-LieutenantKevinTRiley.jpg	default	Crew	Base Set	Base	playerNDeck		R
+Base_Lieutenant_Kyle_Crew	Lieutenant Kyle	star-trek-tcg/base-set/StarTrekTcg-BaseSet-LieutenantKyle.jpg	default	Crew	Base Set	Base	playerNDeck		V
+Base_Lieutenant_Lang_Crew	Lieutenant Lang	star-trek-tcg/base-set/StarTrekTcg-BaseSet-LieutenantLang.jpg	default	Crew	Base Set	Base	playerNDeck		C
+Base_Lieutenant_Latimer_Crew	Lieutenant Latimer	star-trek-tcg/base-set/StarTrekTcg-BaseSet-LieutenantLatimer.jpg	default	Crew	Base Set	Base	playerNDeck		U
+Base_Lieutenant_Lee_Kelso_Crew	Lieutenant Lee Kelso	star-trek-tcg/base-set/StarTrekTcg-BaseSet-LieutenantLeeKelso.jpg	default	Crew	Base Set	Base	playerNDeck		U
+Base_Lieutenant_Leslie_Crew	Lieutenant Leslie	star-trek-tcg/base-set/StarTrekTcg-BaseSet-LieutenantLeslie.jpg	default	Crew	Base Set	Base	playerNDeck		U
+Base_Lieutenant_Lindstrom_Crew	Lieutenant Lindstrom	star-trek-tcg/base-set/StarTrekTcg-BaseSet-LieutenantLindstrom.jpg	default	Crew	Base Set	Base	playerNDeck		U
+Base_Lieutenant_Marla_McGivers_Crew	Lieutenant Marla McGivers	star-trek-tcg/base-set/StarTrekTcg-BaseSet-LieutenantMarlaMcGivers.jpg	default	Crew	Base Set	Base	playerNDeck		V
+Base_Lieutenant_Mira_Romaine_Crew	Lieutenant Mira Romaine	star-trek-tcg/base-set/StarTrekTcg-BaseSet-LieutenantMiraRomaine.jpg	default	Crew	Base Set	Base	playerNDeck		R
+Base_Lieutenant_ONeil_Crew	Lieutenant O'Neil	star-trek-tcg/base-set/StarTrekTcg-BaseSet-LieutenantONeil.jpg	default	Crew	Base Set	Base	playerNDeck		C
+Base_Lieutenant_Painter_Crew	Lieutenant Painter	star-trek-tcg/base-set/StarTrekTcg-BaseSet-LieutenantPainter.jpg	default	Crew	Base Set	Base	playerNDeck		U
+Base_Lieutenant_Robert_Tomlinson_Crew	Lieutenant Robert Tomlinson	star-trek-tcg/base-set/StarTrekTcg-BaseSet-LieutenantRobertTomlinson.jpg	default	Crew	Base Set	Base	playerNDeck		C
+Base_Lieutenant_Spinelli_Crew	Lieutenant Spinelli	star-trek-tcg/base-set/StarTrekTcg-BaseSet-LieutenantSpinelli.jpg	default	Crew	Base Set	Base	playerNDeck		C
+Base_Lieutenant_Thom_Parham_Crew	Lieutenant Thom Parham	star-trek-tcg/base-set/StarTrekTcg-BaseSet-LieutenantThomParham.jpg	default	Crew	Base Set	Base	playerNDeck		V
+Base_Lieutenant_Uhura_Crew	Lieutenant Uhura	star-trek-tcg/base-set/StarTrekTcg-BaseSet-LieutenantUhura.jpg	default	Crew	Base Set	Base	playerNDeck		U
+Base_Nurse_Christine_Chapel_Crew	Nurse Christine Chapel	star-trek-tcg/base-set/StarTrekTcg-BaseSet-NurseChristineChapel.jpg	default	Crew	Base Set	Base	playerNDeck		U
+Base_Transporter_Technician_Wilson_Crew	Transporter Technician Wilson	star-trek-tcg/base-set/StarTrekTcg-BaseSet-TransporterTechnicianWilson.jpg	default	Crew	Base Set	Base	playerNDeck		R
+Base_Yeoman_Janice_Rand_Crew	Yeoman Janice Rand	star-trek-tcg/base-set/StarTrekTcg-BaseSet-YeomanJaniceRand.jpg	default	Crew	Base Set	Base	playerNDeck		U
+Base_Yeoman_Karen_Greene_Crew	Yeoman Karen Greene	star-trek-tcg/base-set/StarTrekTcg-BaseSet-YeomanKarenGreene.jpg	default	Crew	Base Set	Base	playerNDeck		C
+Base_Yeoman_Martha_Landon_Crew	Yeoman Martha Landon	star-trek-tcg/base-set/StarTrekTcg-BaseSet-YeomanMarthaLandon.jpg	default	Crew	Base Set	Base	playerNDeck		R
+Base_Yeoman_Mears_Crew	Yeoman Mears	star-trek-tcg/base-set/StarTrekTcg-BaseSet-YeomanMears.jpg	default	Crew	Base Set	Base	playerNDeck		C
+Base_Yeoman_Smith_Crew	Yeoman Smith	star-trek-tcg/base-set/StarTrekTcg-BaseSet-YeomanSmith.jpg	default	Crew	Base Set	Base	playerNDeck		C
+Base_Yeoman_Teresa_Ross_Crew	Yeoman Teresa Ross	star-trek-tcg/base-set/StarTrekTcg-BaseSet-YeomanTeresaRoss.jpg	default	Crew	Base Set	Base	playerNDeck		C
+Base_Yeoman_Tina_Lawton_Crew	Yeoman Tina Lawton	star-trek-tcg/base-set/StarTrekTcg-BaseSet-YeomanTinaLawton.jpg	default	Crew	Base Set	Base	playerNDeck		U
+Base_CORE_EPISODE_Default_Discovery	Default Discovery	star-trek-tcg/base-set/StarTrekTcg-BaseSet-DefaultDiscovery.jpg	silverback	Core Episode Discovery	Base Set	Base	playerNStarting		S
+Base_CORE_EPISODE_Default_Mission	Default Mission	star-trek-tcg/base-set/StarTrekTcg-BaseSet-DefaultMission.jpg	silverback	Core Episode Mission	Base Set	Base	playerNStarting		S
+Base_CORE_EPISODE_Default_Plot	Default Plot	star-trek-tcg/base-set/StarTrekTcg-BaseSet-DefaultPlot.jpg	silverback	Core Episode Plot	Base Set	Base	playerNStarting		S
+Base_A_Taste_of_Armageddon_Discovery	A Taste of Armageddon [D]	star-trek-tcg/base-set/StarTrekTcg-BaseSet-ATasteOfArmageddonD.jpg	default	Episode Discovery	Base Set	Base	playerNEpisode		R
+Base_Arena_Discovery	Arena [D]	star-trek-tcg/base-set/StarTrekTcg-BaseSet-ArenaD.jpg	default	Episode Discovery	Base Set	Base	playerNEpisode		U
+Base_Balance_of_Terror_Discovery	Balance of Terror [D]	star-trek-tcg/base-set/StarTrekTcg-BaseSet-BalanceOfTerrorD.jpg	default	Episode Discovery	Base Set	Base	playerNEpisode		C
+Base_Charlie_X_Discovery	Charlie X [D]	star-trek-tcg/base-set/StarTrekTcg-BaseSet-CharlieXD.jpg	default	Episode Discovery	Base Set	Base	playerNEpisode		C
+Base_Court-Martial_Discovery	Court-Martial [D]	star-trek-tcg/base-set/StarTrekTcg-BaseSet-CourtMartialD.jpg	default	Episode Discovery	Base Set	Base	playerNEpisode		R
+Base_Dagger_of_the_Mind_Discovery	Dagger of the Mind [D]	star-trek-tcg/base-set/StarTrekTcg-BaseSet-DaggerOfTheMindD.jpg	default	Episode Discovery	Base Set	Base	playerNEpisode		U
+Base_Errand_of_Mercy_Discovery	Errand of Mercy [D]	star-trek-tcg/base-set/StarTrekTcg-BaseSet-ErrandOfMercyD.jpg	default	Episode Discovery	Base Set	Base	playerNEpisode		U
+Base_Miri_Discovery	Miri [D]	star-trek-tcg/base-set/StarTrekTcg-BaseSet-MiriD.jpg	default	Episode Discovery	Base Set	Base	playerNEpisode		U
+Base_Mudds_Women_Discovery	Mudd's Women [D]	star-trek-tcg/base-set/StarTrekTcg-BaseSet-MuddsWomenD.jpg	default	Episode Discovery	Base Set	Base	playerNEpisode		C
+Base_Operation-_Annihilate_Discovery	Operation: Annihilate! [D]	star-trek-tcg/base-set/StarTrekTcg-BaseSet-OperationAnnihilateD.jpg	default	Episode Discovery	Base Set	Base	playerNEpisode		C
+Base_Return_of_the_Archons_Discovery	Return of the Archons [D]	star-trek-tcg/base-set/StarTrekTcg-BaseSet-ReturnOfTheArchonsD.jpg	default	Episode Discovery	Base Set	Base	playerNEpisode		U
+Base_Shore_Leave_Discovery	Shore Leave [D]	star-trek-tcg/base-set/StarTrekTcg-BaseSet-ShoreLeaveD.jpg	default	Episode Discovery	Base Set	Base	playerNEpisode		C
+Base_Space_Seed_Discovery	Space Seed [D]	star-trek-tcg/base-set/StarTrekTcg-BaseSet-SpaceSeedD.jpg	default	Episode Discovery	Base Set	Base	playerNEpisode		C
+Base_The_Alternative_Factor_Discovery	The Alternative Factor [D]	star-trek-tcg/base-set/StarTrekTcg-BaseSet-TheAlternativeFactorD.jpg	default	Episode Discovery	Base Set	Base	playerNEpisode		C
+Base_The_Cage_Discovery	The Cage [D]	star-trek-tcg/base-set/StarTrekTcg-BaseSet-TheCageD.jpg	default	Episode Discovery	Base Set	Base	playerNEpisode		C
+Base_The_City_on_the_Edge_of_Forever_Discovery	The City on the Edge of Forever [D]	star-trek-tcg/base-set/StarTrekTcg-BaseSet-TheCityOnTheEdgeOfForeverD.jpg	default	Episode Discovery	Base Set	Base	playerNEpisode		C
+Base_The_Conscience_of_the_King_Discovery	The Conscience of the King [D]	star-trek-tcg/base-set/StarTrekTcg-BaseSet-TheConscienceOfTheKingD.jpg	default	Episode Discovery	Base Set	Base	playerNEpisode		R
+Base_The_Corbomite_Maneuver_Discovery	The Corbomite Maneuver [D]	star-trek-tcg/base-set/StarTrekTcg-BaseSet-TheCorbomiteManeuverD.jpg	default	Episode Discovery	Base Set	Base	playerNEpisode		C
+Base_The_Devil_in_the_Dark_Discovery	The Devil in the Dark [D]	star-trek-tcg/base-set/StarTrekTcg-BaseSet-TheDevilInTheDarkD.jpg	default	Episode Discovery	Base Set	Base	playerNEpisode		C
+Base_The_Enemy_Within_Discovery	The Enemy Within [D]	star-trek-tcg/base-set/StarTrekTcg-BaseSet-TheEnemyWithinD.jpg	default	Episode Discovery	Base Set	Base	playerNEpisode		U
+Base_The_GALILEO_Seven_Discovery	The GALILEO Seven [D]	star-trek-tcg/base-set/StarTrekTcg-BaseSet-TheGALILEOSevenD.jpg	default	Episode Discovery	Base Set	Base	playerNEpisode		C
+Base_The_Man_Trap_Discovery	The Man Trap [D]	star-trek-tcg/base-set/StarTrekTcg-BaseSet-TheManTrapD.jpg	default	Episode Discovery	Base Set	Base	playerNEpisode		C
+Base_The_Menagerie_Discovery	The Menagerie [D]	star-trek-tcg/base-set/StarTrekTcg-BaseSet-TheMenagerieD.jpg	default	Episode Discovery	Base Set	Base	playerNEpisode		C
+Base_The_Naked_Time_Discovery	The Naked Time [D]	star-trek-tcg/base-set/StarTrekTcg-BaseSet-TheNakedTimeD.jpg	default	Episode Discovery	Base Set	Base	playerNEpisode		R
+Base_The_Squire_of_Gothos_Discovery	The Squire of Gothos [D]	star-trek-tcg/base-set/StarTrekTcg-BaseSet-TheSquireOfGothosD.jpg	default	Episode Discovery	Base Set	Base	playerNEpisode		C
+Base_This_Side_of_Paradise_Discovery	This Side of Paradise [D]	star-trek-tcg/base-set/StarTrekTcg-BaseSet-ThisSideOfParadiseD.jpg	default	Episode Discovery	Base Set	Base	playerNEpisode		C
+Base_Tomorrow_is_Yesterday_Discovery	Tomorrow is Yesterday [D]	star-trek-tcg/base-set/StarTrekTcg-BaseSet-TomorrowIsYesterdayD.jpg	default	Episode Discovery	Base Set	Base	playerNEpisode		C
+Base_What_Are_Little_Girls_Made_Of_Discovery	What Are Little Girls Made Of? [D]	star-trek-tcg/base-set/StarTrekTcg-BaseSet-WhatAreLittleGirlsMadeOfD.jpg	default	Episode Discovery	Base Set	Base	playerNEpisode		U
+Base_Where_No_Man_Has_Gone_Before_Discovery	Where No Man Has Gone Before [D]	star-trek-tcg/base-set/StarTrekTcg-BaseSet-WhereNoManHasGoneBeforeD.jpg	default	Episode Discovery	Base Set	Base	playerNEpisode		U
+Base_Disruptor_Blast_Effect	Disruptor Blast	star-trek-tcg/base-set/StarTrekTcg-BaseSet-DisruptorBlast.jpg	default	Effect	Base Set	Base	playerNDeck		U
+Base_Dose_of_the_Venus_Drug_Effect	Dose of the Venus Drug	star-trek-tcg/base-set/StarTrekTcg-BaseSet-DoseOfTheVenusDrug.jpg	default	Effect	Base Set	Base	playerNDeck		R
+Base_Have_Some_Tranya_Effect	Have Some Tranya	star-trek-tcg/base-set/StarTrekTcg-BaseSet-HaveSomeTranya.jpg	default	Effect	Base Set	Base	playerNDeck		U
+Base_IDIC_Effect	IDIC	star-trek-tcg/base-set/StarTrekTcg-BaseSet-IDIC.jpg	default	Effect	Base Set	Base	playerNDeck		R
+Base_Makeshift_Weapons_Effect	Makeshift Weapons	star-trek-tcg/base-set/StarTrekTcg-BaseSet-MakeshiftWeapons.jpg	default	Effect	Base Set	Base	playerNDeck		U
+Base_Medical_Readout_Effect	Medical Readout	star-trek-tcg/base-set/StarTrekTcg-BaseSet-MedicalReadout.jpg	default	Effect	Base Set	Base	playerNDeck		R
+Base_Medikit_(Blue_Icon)_Effect	Medikit [L]	star-trek-tcg/base-set/StarTrekTcg-BaseSet-MedikitL.jpg	default	Effect	Base Set	Base	playerNDeck	Logic	C
+Base_Medikit_(Red_Icon)_Effect	Medikit [C]	star-trek-tcg/base-set/StarTrekTcg-BaseSet-MedikitC.jpg	default	Effect	Base Set	Base	playerNDeck	Combat	C
+Base_Mind-Sifter_Effect	Mind-Sifter	star-trek-tcg/base-set/StarTrekTcg-BaseSet-MindSifter.jpg	default	Effect	Base Set	Base	playerNDeck		R
+Base_Phaser_Blast_(Blue_Icon)_Effect	Phaser Blast [L]	star-trek-tcg/base-set/StarTrekTcg-BaseSet-PhaserBlastL.jpg	default	Effect	Base Set	Base	playerNDeck	Logic	C
+Base_Phaser_Blast_(Yellow_Icon)_Effect	Phaser Blast [H]	star-trek-tcg/base-set/StarTrekTcg-BaseSet-PhaserBlastH.jpg	default	Effect	Base Set	Base	playerNDeck	Humanity	C
+Base_Phaser_on_Overload_Effect	Phaser on Overload	star-trek-tcg/base-set/StarTrekTcg-BaseSet-PhaserOnOverload.jpg	default	Effect	Base Set	Base	playerNDeck		R
+Base_Phaser_Rifle_Fire_Effect	Phaser Rifle Fire	star-trek-tcg/base-set/StarTrekTcg-BaseSet-PhaserRifleFire.jpg	default	Effect	Base Set	Base	playerNDeck		R
+Base_Slug_of_Saurian_Brandy_Effect	Slug of Saurian Brandy	star-trek-tcg/base-set/StarTrekTcg-BaseSet-SlugOfSaurianBrandy.jpg	default	Effect	Base Set	Base	playerNDeck		C
+Base_Song_of_a_Vulcan_Harp_Effect	Song of a Vulcan Harp	star-trek-tcg/base-set/StarTrekTcg-BaseSet-SongOfAVulcanHarp.jpg	default	Effect	Base Set	Base	playerNDeck		R
+Base_Tricorder_Reading_(Red_Icon)_Effect	Tricorder Reading [C]	star-trek-tcg/base-set/StarTrekTcg-BaseSet-TricorderReadingC.jpg	default	Effect	Base Set	Base	playerNDeck	Combat	C
+Base_Tricorder_Reading_(Yellow_Icon)_Effect	Tricorder Reading [H]	star-trek-tcg/base-set/StarTrekTcg-BaseSet-TricorderReadingH.jpg	default	Effect	Base Set	Base	playerNDeck	Humanity	C
+Base_Info_Card_Info_Card	Info Card 1	star-trek-tcg/base-set/StarTrekTcg-BaseSet-InfoCard1.jpg	silverback	Core Info Card	Base Set	Base	playerNStarting		S
+Base_Info_Card_Info_Card2	Info Card 2	star-trek-tcg/base-set/StarTrekTcg-BaseSet-InfoCard2.jpg	silverback	Core Info Card	Base Set	Base	playerNStarting		S
+Base_A_Taste_of_Armageddon_Mission	A Taste of Armageddon [M]	star-trek-tcg/base-set/StarTrekTcg-BaseSet-ATasteOfArmageddonM.jpg	default	Episode Mission	Base Set	Base	playerNEpisode		U
+Base_Arena_Mission	Arena [M]	star-trek-tcg/base-set/StarTrekTcg-BaseSet-ArenaM.jpg	default	Episode Mission	Base Set	Base	playerNEpisode		C
+Base_Balance_of_Terror_Mission	Balance of Terror [M]	star-trek-tcg/base-set/StarTrekTcg-BaseSet-BalanceOfTerrorM.jpg	default	Episode Mission	Base Set	Base	playerNEpisode		C
+Base_Charlie_X_Mission	Charlie X [M]	star-trek-tcg/base-set/StarTrekTcg-BaseSet-CharlieXM.jpg	default	Episode Mission	Base Set	Base	playerNEpisode		U
+Base_Court-Martial_Mission	Court-Martial [M]	star-trek-tcg/base-set/StarTrekTcg-BaseSet-CourtMartialM.jpg	default	Episode Mission	Base Set	Base	playerNEpisode		U
+Base_Dagger_of_the_Mind_Mission	Dagger of the Mind [M]	star-trek-tcg/base-set/StarTrekTcg-BaseSet-DaggerOfTheMindM.jpg	default	Episode Mission	Base Set	Base	playerNEpisode		R
+Base_Errand_of_Mercy_Mission	Errand of Mercy [M]	star-trek-tcg/base-set/StarTrekTcg-BaseSet-ErrandOfMercyM.jpg	default	Episode Mission	Base Set	Base	playerNEpisode		C
+Base_Miri_Mission	Miri [M]	star-trek-tcg/base-set/StarTrekTcg-BaseSet-MiriM.jpg	default	Episode Mission	Base Set	Base	playerNEpisode		C
+Base_Mudds_Women_Mission	Mudd's Women [M]	star-trek-tcg/base-set/StarTrekTcg-BaseSet-MuddsWomenM.jpg	default	Episode Mission	Base Set	Base	playerNEpisode		C
+Base_Operation-_Annihilate_Mission	Operation: Annihilate! [M]	star-trek-tcg/base-set/StarTrekTcg-BaseSet-OperationAnnihilateM.jpg	default	Episode Mission	Base Set	Base	playerNEpisode		C
+Base_Return_of_the_Archons_Mission	Return of the Archons [M]	star-trek-tcg/base-set/StarTrekTcg-BaseSet-ReturnOfTheArchonsM.jpg	default	Episode Mission	Base Set	Base	playerNEpisode		U
+Base_Shore_Leave_Mission	Shore Leave [M]	star-trek-tcg/base-set/StarTrekTcg-BaseSet-ShoreLeaveM.jpg	default	Episode Mission	Base Set	Base	playerNEpisode		C
+Base_Space_Seed_Mission	Space Seed [M]	star-trek-tcg/base-set/StarTrekTcg-BaseSet-SpaceSeedM.jpg	default	Episode Mission	Base Set	Base	playerNEpisode		C
+Base_The_Alternative_Factor_Mission	The Alternative Factor [M]	star-trek-tcg/base-set/StarTrekTcg-BaseSet-TheAlternativeFactorM.jpg	default	Episode Mission	Base Set	Base	playerNEpisode		C
+Base_The_Cage_Mission	The Cage [M]	star-trek-tcg/base-set/StarTrekTcg-BaseSet-TheCageM.jpg	default	Episode Mission	Base Set	Base	playerNEpisode		C
+Base_The_City_on_the_Edge_of_Forever_Mission	The City on the Edge of Forever [M]	star-trek-tcg/base-set/StarTrekTcg-BaseSet-TheCityOnTheEdgeOfForeverM.jpg	default	Episode Mission	Base Set	Base	playerNEpisode		U
+Base_The_Conscience_of_the_King_Mission	The Conscience of the King [M]	star-trek-tcg/base-set/StarTrekTcg-BaseSet-TheConscienceOfTheKingM.jpg	default	Episode Mission	Base Set	Base	playerNEpisode		U
+Base_The_Corbomite_Maneuver_Mission	The Corbomite Maneuver [M]	star-trek-tcg/base-set/StarTrekTcg-BaseSet-TheCorbomiteManeuverM.jpg	default	Episode Mission	Base Set	Base	playerNEpisode		C
+Base_The_Devil_in_the_Dark_Mission	The Devil in the Dark [M]	star-trek-tcg/base-set/StarTrekTcg-BaseSet-TheDevilInTheDarkM.jpg	default	Episode Mission	Base Set	Base	playerNEpisode		C
+Base_The_Enemy_Within_Mission	The Enemy Within [M]	star-trek-tcg/base-set/StarTrekTcg-BaseSet-TheEnemyWithinM.jpg	default	Episode Mission	Base Set	Base	playerNEpisode		R
+Base_The_GALILEO_Seven_Mission	The GALILEO Seven [M]	star-trek-tcg/base-set/StarTrekTcg-BaseSet-TheGALILEOSevenM.jpg	default	Episode Mission	Base Set	Base	playerNEpisode		U
+Base_The_Man_Trap_Mission	The Man Trap [M]	star-trek-tcg/base-set/StarTrekTcg-BaseSet-TheManTrapM.jpg	default	Episode Mission	Base Set	Base	playerNEpisode		C
+Base_The_Menagerie_Mission	The Menagerie [M]	star-trek-tcg/base-set/StarTrekTcg-BaseSet-TheMenagerieM.jpg	default	Episode Mission	Base Set	Base	playerNEpisode		C
+Base_The_Naked_Time_Mission	The Naked Time [M]	star-trek-tcg/base-set/StarTrekTcg-BaseSet-TheNakedTimeM.jpg	default	Episode Mission	Base Set	Base	playerNEpisode		U
+Base_The_Squire_of_Gothos_Mission	The Squire of Gothos [M]	star-trek-tcg/base-set/StarTrekTcg-BaseSet-TheSquireOfGothosM.jpg	default	Episode Mission	Base Set	Base	playerNEpisode		C
+Base_This_Side_of_Paradise_Mission	This Side of Paradise [M]	star-trek-tcg/base-set/StarTrekTcg-BaseSet-ThisSideOfParadiseM.jpg	default	Episode Mission	Base Set	Base	playerNEpisode		U
+Base_Tomorrow_is_Yesterday_Mission	Tomorrow is Yesterday [M]	star-trek-tcg/base-set/StarTrekTcg-BaseSet-TomorrowIsYesterdayM.jpg	default	Episode Mission	Base Set	Base	playerNEpisode		C
+Base_What_Are_Little_Girls_Made_Of_Mission	What Are Little Girls Made Of? [M]	star-trek-tcg/base-set/StarTrekTcg-BaseSet-WhatAreLittleGirlsMadeOfM.jpg	default	Episode Mission	Base Set	Base	playerNEpisode		C
+Base_Where_No_Man_Has_Gone_Before_Mission	Where No Man Has Gone Before [M]	star-trek-tcg/base-set/StarTrekTcg-BaseSet-WhereNoManHasGoneBeforeM.jpg	default	Episode Mission	Base Set	Base	playerNEpisode		C
+Base_Ion_Storm_Permanent_Wild	Ion Storm	star-trek-tcg/base-set/StarTrekTcg-BaseSet-IonStorm.jpg	default	Permanent Wild	Base Set	Base	playerNDeck		U
+Base_New_Life_and_New_Civilizations_Permanent_Wild	New Life and New Civilizations	star-trek-tcg/base-set/StarTrekTcg-BaseSet-NewLifeAndNewCivilizations.jpg	default	Permanent Wild	Base Set	Base	playerNDeck		C
+Base_Romulan_Bird-of-Prey_Permanent_Wild	Romulan Bird-of-Prey	star-trek-tcg/base-set/StarTrekTcg-BaseSet-RomulanBirdOfPrey.jpg	default	Permanent Wild	Base Set	Base	playerNDeck		U
+Base_SS_FESARIUS_Permanent_Wild	S.S. FESARIUS	star-trek-tcg/base-set/StarTrekTcg-BaseSet-SSFESARIUS.jpg	default	Permanent Wild	Base Set	Base	playerNDeck		V
+Base_SHUTTLECRAFT_GALILEO_Permanent_Wild	SHUTTLECRAFT GALILEO	star-trek-tcg/base-set/StarTrekTcg-BaseSet-SHUTTLECRAFTGALILEO.jpg	default	Permanent Wild	Base Set	Base	playerNDeck		C
+Base_Starbase_11_Permanent_Wild	Starbase 11	star-trek-tcg/base-set/StarTrekTcg-BaseSet-Starbase11.jpg	default	Permanent Wild	Base Set	Base	playerNDeck		R
+Base_Talos_IV_Permanent_Wild	Talos IV	star-trek-tcg/base-set/StarTrekTcg-BaseSet-TalosIV.jpg	default	Permanent Wild	Base Set	Base	playerNDeck		V
+Base_A_Taste_of_Armageddon_Plot	A Taste of Armageddon [P]	star-trek-tcg/base-set/StarTrekTcg-BaseSet-ATasteOfArmageddonP.jpg	default	Episode Plot	Base Set	Base	playerNEpisode		U
+Base_Arena_Plot	Arena [P]	star-trek-tcg/base-set/StarTrekTcg-BaseSet-ArenaP.jpg	default	Episode Plot	Base Set	Base	playerNEpisode		C
+Base_Balance_of_Terror_Plot	Balance of Terror [P]	star-trek-tcg/base-set/StarTrekTcg-BaseSet-BalanceOfTerrorP.jpg	default	Episode Plot	Base Set	Base	playerNEpisode		C
+Base_Charlie_X_Plot	Charlie X [P]	star-trek-tcg/base-set/StarTrekTcg-BaseSet-CharlieXP.jpg	default	Episode Plot	Base Set	Base	playerNEpisode		C
+Base_Court-Martial_Plot	Court-Martial [P]	star-trek-tcg/base-set/StarTrekTcg-BaseSet-CourtMartialP.jpg	default	Episode Plot	Base Set	Base	playerNEpisode		U
+Base_Dagger_of_the_Mind_Plot	Dagger of the Mind [P]	star-trek-tcg/base-set/StarTrekTcg-BaseSet-DaggerOfTheMindP.jpg	default	Episode Plot	Base Set	Base	playerNEpisode		U
+Base_Errand_of_Mercy_Plot	Errand of Mercy [P]	star-trek-tcg/base-set/StarTrekTcg-BaseSet-ErrandOfMercyP.jpg	default	Episode Plot	Base Set	Base	playerNEpisode		C
+Base_Miri_Plot	Miri [P]	star-trek-tcg/base-set/StarTrekTcg-BaseSet-MiriP.jpg	default	Episode Plot	Base Set	Base	playerNEpisode		C
+Base_Mudds_Women_Plot	Mudd's Women [P]	star-trek-tcg/base-set/StarTrekTcg-BaseSet-MuddsWomenP.jpg	default	Episode Plot	Base Set	Base	playerNEpisode		U
+Base_Operation-_Annihilate_Plot	Operation: Annihilate! [P]	star-trek-tcg/base-set/StarTrekTcg-BaseSet-OperationAnnihilateP.jpg	default	Episode Plot	Base Set	Base	playerNEpisode		U
+Base_Return_of_the_Archons_Plot	Return of the Archons [P]	star-trek-tcg/base-set/StarTrekTcg-BaseSet-ReturnOfTheArchonsP.jpg	default	Episode Plot	Base Set	Base	playerNEpisode		R
+Base_Shore_Leave_Plot	Shore Leave [P]	star-trek-tcg/base-set/StarTrekTcg-BaseSet-ShoreLeaveP.jpg	default	Episode Plot	Base Set	Base	playerNEpisode		U
+Base_Space_Seed_Plot	Space Seed [P]	star-trek-tcg/base-set/StarTrekTcg-BaseSet-SpaceSeedP.jpg	default	Episode Plot	Base Set	Base	playerNEpisode		U
+Base_The_Alternative_Factor_Plot	The Alternative Factor [P]	star-trek-tcg/base-set/StarTrekTcg-BaseSet-TheAlternativeFactorP.jpg	default	Episode Plot	Base Set	Base	playerNEpisode		U
+Base_The_Cage_Plot	The Cage [P]	star-trek-tcg/base-set/StarTrekTcg-BaseSet-TheCageP.jpg	default	Episode Plot	Base Set	Base	playerNEpisode		C
+Base_The_City_on_the_Edge_of_Forever_Plot	The City on the Edge of Forever [P]	star-trek-tcg/base-set/StarTrekTcg-BaseSet-TheCityOnTheEdgeOfForeverP.jpg	default	Episode Plot	Base Set	Base	playerNEpisode		C
+Base_The_Conscience_of_the_King_Plot	The Conscience of the King [P]	star-trek-tcg/base-set/StarTrekTcg-BaseSet-TheConscienceOfTheKingP.jpg	default	Episode Plot	Base Set	Base	playerNEpisode		U
+Base_The_Corbomite_Maneuver_Plot	The Corbomite Maneuver [P]	star-trek-tcg/base-set/StarTrekTcg-BaseSet-TheCorbomiteManeuverP.jpg	default	Episode Plot	Base Set	Base	playerNEpisode		C
+Base_The_Devil_in_the_Dark_Plot	The Devil in the Dark [P]	star-trek-tcg/base-set/StarTrekTcg-BaseSet-TheDevilInTheDarkP.jpg	default	Episode Plot	Base Set	Base	playerNEpisode		C
+Base_The_Enemy_Within_Plot	The Enemy Within [P]	star-trek-tcg/base-set/StarTrekTcg-BaseSet-TheEnemyWithinP.jpg	default	Episode Plot	Base Set	Base	playerNEpisode		U
+Base_The_GALILEO_Seven_Plot	The GALILEO Seven [P]	star-trek-tcg/base-set/StarTrekTcg-BaseSet-TheGALILEOSevenP.jpg	default	Episode Plot	Base Set	Base	playerNEpisode		C
+Base_The_Man_Trap_Plot	The Man Trap [P]	star-trek-tcg/base-set/StarTrekTcg-BaseSet-TheManTrapP.jpg	default	Episode Plot	Base Set	Base	playerNEpisode		C
+Base_The_Menagerie_Plot	The Menagerie [P]	star-trek-tcg/base-set/StarTrekTcg-BaseSet-TheMenagerieP.jpg	default	Episode Plot	Base Set	Base	playerNEpisode		C
+Base_The_Naked_Time_Plot	The Naked Time [P]	star-trek-tcg/base-set/StarTrekTcg-BaseSet-TheNakedTimeP.jpg	default	Episode Plot	Base Set	Base	playerNEpisode		U
+Base_The_Squire_of_Gothos_Plot	The Squire of Gothos [P]	star-trek-tcg/base-set/StarTrekTcg-BaseSet-TheSquireOfGothosP.jpg	default	Episode Plot	Base Set	Base	playerNEpisode		C
+Base_This_Side_of_Paradise_Plot	This Side of Paradise [P]	star-trek-tcg/base-set/StarTrekTcg-BaseSet-ThisSideOfParadiseP.jpg	default	Episode Plot	Base Set	Base	playerNEpisode		C
+Base_Tomorrow_is_Yesterday_Plot	Tomorrow is Yesterday [P]	star-trek-tcg/base-set/StarTrekTcg-BaseSet-TomorrowIsYesterdayP.jpg	default	Episode Plot	Base Set	Base	playerNEpisode		U
+Base_What_Are_Little_Girls_Made_Of_Plot	What Are Little Girls Made Of? [P]	star-trek-tcg/base-set/StarTrekTcg-BaseSet-WhatAreLittleGirlsMadeOfP.jpg	default	Episode Plot	Base Set	Base	playerNEpisode		C
+Base_Where_No_Man_Has_Gone_Before_Plot	Where No Man Has Gone Before [P]	star-trek-tcg/base-set/StarTrekTcg-BaseSet-WhereNoManHasGoneBeforeP.jpg	default	Episode Plot	Base Set	Base	playerNEpisode		C
+Base_Ambassador_Robert_Fox_Wild	Ambassador Robert Fox	star-trek-tcg/base-set/StarTrekTcg-BaseSet-AmbassadorRobertFox.jpg	default	Wild	Base Set	Base	playerNDeck		V
+Base_Are_You_of_the_Body_Wild	Are You of the Body?	star-trek-tcg/base-set/StarTrekTcg-BaseSet-AreYouOfTheBody.jpg	default	Wild	Base Set	Base	playerNDeck		C
+Base_Beam_Me_Up_Scotty_Wild	Beam Me Up, Scotty!	star-trek-tcg/base-set/StarTrekTcg-BaseSet-BeamMeUpScotty.jpg	default	Wild	Base Set	Base	playerNDeck		U
+Base_Boot_Scene_Wild	Boot Scene	star-trek-tcg/base-set/StarTrekTcg-BaseSet-BootScene.jpg	default	Wild	Base Set	Base	playerNDeck		R
+Base_Captain_John_Christopher_Wild	Captain John Christopher	star-trek-tcg/base-set/StarTrekTcg-BaseSet-CaptainJohnChristopher.jpg	default	Wild	Base Set	Base	playerNDeck		U
+Base_Caretaker_Wild	Caretaker	star-trek-tcg/base-set/StarTrekTcg-BaseSet-Caretaker.jpg	default	Wild	Base Set	Base	playerNDeck		R
+Base_Communicators_Jammed_Wild	Communicators Jammed!	star-trek-tcg/base-set/StarTrekTcg-BaseSet-CommunicatorsJammed.jpg	default	Wild	Base Set	Base	playerNDeck		C
+Base_Corbomite_Maneuver_Wild	Corbomite Maneuver	star-trek-tcg/base-set/StarTrekTcg-BaseSet-CorbomiteManeuver.jpg	default	Wild	Base Set	Base	playerNDeck		C
+Base_Court-Martial_Wild	Court-Martial	star-trek-tcg/base-set/StarTrekTcg-BaseSet-CourtMartial.jpg	default	Wild	Base Set	Base	playerNDeck		C
+Base_Cultural_Envoy_Wild	Cultural Envoy	star-trek-tcg/base-set/StarTrekTcg-BaseSet-CulturalEnvoy.jpg	default	Wild	Base Set	Base	playerNDeck		V
+Base_Decisive_Action_Wild	Decisive Action	star-trek-tcg/base-set/StarTrekTcg-BaseSet-DecisiveAction.jpg	default	Wild	Base Set	Base	playerNDeck		R
+Base_Deflector_Shields_at_Maximum_Wild	Deflector Shields at Maximum!	star-trek-tcg/base-set/StarTrekTcg-BaseSet-DeflectorShieldsAtMaximum.jpg	default	Wild	Base Set	Base	playerNDeck		C
+Base_Direct_Hit_Wild	Direct Hit!	star-trek-tcg/base-set/StarTrekTcg-BaseSet-DirectHit.jpg	default	Wild	Base Set	Base	playerNDeck		U
+Base_Distraction_Wild	Distraction	star-trek-tcg/base-set/StarTrekTcg-BaseSet-Distraction.jpg	default	Wild	Base Set	Base	playerNDeck		C
+Base_Edge_of_the_Galaxy_Wild	Edge of the Galaxy	star-trek-tcg/base-set/StarTrekTcg-BaseSet-EdgeOfTheGalaxy.jpg	default	Wild	Base Set	Base	playerNDeck		V
+Base_Edith_Keeler_20th_Century_Reformer_Wild	Edith Keeler, 20th Century Reformer	star-trek-tcg/base-set/StarTrekTcg-BaseSet-EdithKeeler20thCenturyReformer.jpg	default	Wild	Base Set	Base	playerNDeck		V
+Base_Great_Bird_of_the_Galaxy_Wild	Great Bird of the Galaxy	star-trek-tcg/base-set/StarTrekTcg-BaseSet-GreatBirdOfTheGalaxy.jpg	default	Wild	Base Set	Base	playerNDeck		C
+Base_Guardian_of_Forever_Wild	Guardian of Forever	star-trek-tcg/base-set/StarTrekTcg-BaseSet-GuardianOfForever.jpg	default	Wild	Base Set	Base	playerNDeck		U
+Base_Heroic_Sacrifice_Wild	Heroic Sacrifice	star-trek-tcg/base-set/StarTrekTcg-BaseSet-HeroicSacrifice.jpg	default	Wild	Base Set	Base	playerNDeck		C
+Base_HypoSpray_Wild	HypoSpray	star-trek-tcg/base-set/StarTrekTcg-BaseSet-HypoSpray.jpg	default	Wild	Base Set	Base	playerNDeck		C
+Base_Im_a_Doctor_Not_a_Wild	I'm a Doctor, Not a . . .	star-trek-tcg/base-set/StarTrekTcg-BaseSet-ImADoctorNotA.jpg	default	Wild	Base Set	Base	playerNDeck		V
+Base_Jim_-_This_mans_a_Klingon_Wild	Jim - This man's a Klingon!	star-trek-tcg/base-set/StarTrekTcg-BaseSet-JimThisMansAKlingon.jpg	default	Wild	Base Set	Base	playerNDeck		U
+Base_Klingon_Arms_Suppliers_Wild	Klingon Arms Suppliers	star-trek-tcg/base-set/StarTrekTcg-BaseSet-KlingonArmsSuppliers.jpg	default	Wild	Base Set	Base	playerNDeck		R
+Base_Lay_in_New_Course_Wild	Lay in New Course	star-trek-tcg/base-set/StarTrekTcg-BaseSet-LayInNewCourse.jpg	default	Wild	Base Set	Base	playerNDeck		C
+Base_Logical_Argument_Wild	Logical Argument	star-trek-tcg/base-set/StarTrekTcg-BaseSet-LogicalArgument.jpg	default	Wild	Base Set	Base	playerNDeck		C
+Base_Long-Winded_Speech_Wild	Long-Winded Speech	star-trek-tcg/base-set/StarTrekTcg-BaseSet-LongWindedSpeech.jpg	default	Wild	Base Set	Base	playerNDeck		C
+Base_Miraculous_Recovery_Wild	Miraculous Recovery	star-trek-tcg/base-set/StarTrekTcg-BaseSet-MiraculousRecovery.jpg	default	Wild	Base Set	Base	playerNDeck		R
+Base_Oddly_Familiar_Culture_Wild	Oddly Familiar Culture	star-trek-tcg/base-set/StarTrekTcg-BaseSet-OddlyFamiliarCulture.jpg	default	Wild	Base Set	Base	playerNDeck		R
+Base_Omicron_Ceti_III_Spores_Wild	Omicron Ceti III Spores	star-trek-tcg/base-set/StarTrekTcg-BaseSet-OmicronCetiIIISpores.jpg	default	Wild	Base Set	Base	playerNDeck		U
+Base_Orders_from_Starfleet_Wild	Orders from Starfleet	star-trek-tcg/base-set/StarTrekTcg-BaseSet-OrdersFromStarfleet.jpg	default	Wild	Base Set	Base	playerNDeck		R
+Base_Personal_Challenge_Wild	Personal Challenge	star-trek-tcg/base-set/StarTrekTcg-BaseSet-PersonalChallenge.jpg	default	Wild	Base Set	Base	playerNDeck		C
+Base_Phasers_from_Space_Wild	Phasers from Space	star-trek-tcg/base-set/StarTrekTcg-BaseSet-PhasersFromSpace.jpg	default	Wild	Base Set	Base	playerNDeck		C
+Base_Photon_Torpedoes_Wild	Photon Torpedoes	star-trek-tcg/base-set/StarTrekTcg-BaseSet-PhotonTorpedoes.jpg	default	Wild	Base Set	Base	playerNDeck		U
+Base_Psi_2000_Virus_Wild	Psi 2000 Virus	star-trek-tcg/base-set/StarTrekTcg-BaseSet-Psi2000Virus.jpg	default	Wild	Base Set	Base	playerNDeck		R
+Base_Red_Alert_Wild	Red Alert!	star-trek-tcg/base-set/StarTrekTcg-BaseSet-RedAlert.jpg	default	Wild	Base Set	Base	playerNDeck		U
+Base_Red_Hour_Wild	Red Hour	star-trek-tcg/base-set/StarTrekTcg-BaseSet-RedHour.jpg	default	Wild	Base Set	Base	playerNDeck		R
+Base_Report_to_the_Bridge_Wild	Report to the Bridge!	star-trek-tcg/base-set/StarTrekTcg-BaseSet-ReportToTheBridge.jpg	default	Wild	Base Set	Base	playerNDeck		R
+Base_Romulan_Cloaking_Device_Wild	Romulan Cloaking Device	star-trek-tcg/base-set/StarTrekTcg-BaseSet-RomulanCloakingDevice.jpg	default	Wild	Base Set	Base	playerNDeck		R
+Base_Romulan_Disguise_Wild	Romulan Disguise	star-trek-tcg/base-set/StarTrekTcg-BaseSet-RomulanDisguise.jpg	default	Wild	Base Set	Base	playerNDeck		U
+Base_Samuel_T_Cogley_Attorney_Wild	Samuel T. Cogley, Attorney	star-trek-tcg/base-set/StarTrekTcg-BaseSet-SamuelTCogleyAttorney.jpg	default	Wild	Base Set	Base	playerNDeck		V
+Base_Shuttlecraft_Crew_Revolt_Wild	Shuttlecraft Crew Revolt	star-trek-tcg/base-set/StarTrekTcg-BaseSet-ShuttlecraftCrewRevolt.jpg	default	Wild	Base Set	Base	playerNDeck		R
+Base_Slingshot_Effect_Wild	Slingshot Effect	star-trek-tcg/base-set/StarTrekTcg-BaseSet-SlingshotEffect.jpg	default	Wild	Base Set	Base	playerNDeck		V
+Base_Standard_Procedures_Wild	Standard Procedures	star-trek-tcg/base-set/StarTrekTcg-BaseSet-StandardProcedures.jpg	default	Wild	Base Set	Base	playerNDeck		U
+Base_Starfleet_Commendation_Wild	Starfleet Commendation	star-trek-tcg/base-set/StarTrekTcg-BaseSet-StarfleetCommendation.jpg	default	Wild	Base Set	Base	playerNDeck		U
+Base_Talosian_Illusion_Wild	Talosian Illusion	star-trek-tcg/base-set/StarTrekTcg-BaseSet-TalosianIllusion.jpg	default	Wild	Base Set	Base	playerNDeck		R
+Base_Tantalus_Chamber_Wild	Tantalus Chamber	star-trek-tcg/base-set/StarTrekTcg-BaseSet-TantalusChamber.jpg	default	Wild	Base Set	Base	playerNDeck		V
+Base_Thasians_Wild	Thasians	star-trek-tcg/base-set/StarTrekTcg-BaseSet-Thasians.jpg	default	Wild	Base Set	Base	playerNDeck		V
+Base_The_Plays_the_Thing_Wild	The Play's the Thing	star-trek-tcg/base-set/StarTrekTcg-BaseSet-ThePlaysTheThing.jpg	default	Wild	Base Set	Base	playerNDeck		U
+Base_Time_Travel_Wild	Time Travel	star-trek-tcg/base-set/StarTrekTcg-BaseSet-TimeTravel.jpg	default	Wild	Base Set	Base	playerNDeck		R
+Base_Tinkering_With_the_Engines_Wild	Tinkering With the Engines	star-trek-tcg/base-set/StarTrekTcg-BaseSet-TinkeringWithTheEngines.jpg	default	Wild	Base Set	Base	playerNDeck		C
+Base_Transporter_Fully_Energized_Wild	Transporter, Fully Energized	star-trek-tcg/base-set/StarTrekTcg-BaseSet-TransporterFullyEnergized.jpg	default	Wild	Base Set	Base	playerNDeck		R
+Base_Transporters_Operational_Wild	Transporters Operational	star-trek-tcg/base-set/StarTrekTcg-BaseSet-TransportersOperational.jpg	default	Wild	Base Set	Base	playerNDeck		C
+Base_Turnabout_Intruder_Wild	Turnabout Intruder	star-trek-tcg/base-set/StarTrekTcg-BaseSet-TurnaboutIntruder.jpg	default	Wild	Base Set	Base	playerNDeck		V
+Base_Unknown_Virus_Wild	Unknown Virus	star-trek-tcg/base-set/StarTrekTcg-BaseSet-UnknownVirus.jpg	default	Wild	Base Set	Base	playerNDeck		U
+Base_Vulcan_Mind-Meld_Wild	Vulcan Mind-Meld	star-trek-tcg/base-set/StarTrekTcg-BaseSet-VulcanMindMeld.jpg	default	Wild	Base Set	Base	playerNDeck		U
+Starfleet Maneuvers_Akuta_Challenge	Akuta	star-trek-tcg/starfleet-maneuvers/StarTrekTcg-StarfleetManeuvers-Akuta.jpg	default	Challenge	Starfleet Maneuvers	Starfleet Maneuvers	playerNChallenges	Argue	C
+Starfleet Maneuvers_Alice_Series_Android_Challenge	Alice Series Android	star-trek-tcg/starfleet-maneuvers/StarTrekTcg-StarfleetManeuvers-AliceSeriesAndroid.jpg	default	Challenge	Starfleet Maneuvers	Starfleet Maneuvers	playerNChallenges	Befuddle or Tempt	C
+Starfleet Maneuvers_Apollo_Challenge	Apollo	star-trek-tcg/starfleet-maneuvers/StarTrekTcg-StarfleetManeuvers-Apollo.jpg	default	Challenge	Starfleet Maneuvers	Starfleet Maneuvers	playerNChallenges	Tempt or Capture or Command	R
+Starfleet Maneuvers_Arne_Darvin_Challenge	Arne Darvin	star-trek-tcg/starfleet-maneuvers/StarTrekTcg-StarfleetManeuvers-ArneDarvin.jpg	default	Challenge	Starfleet Maneuvers	Starfleet Maneuvers	playerNChallenges	Ambush or Outwit	S
+Starfleet Maneuvers_Captain_Koloth_Challenge	Captain Koloth	star-trek-tcg/starfleet-maneuvers/StarTrekTcg-StarfleetManeuvers-CaptainKoloth.jpg	default	Challenge	Starfleet Maneuvers	Starfleet Maneuvers	playerNChallenges	Befuddle or Negotiate	C
+Starfleet Maneuvers_Colonel_Fellini_Challenge	Colonel Fellini	star-trek-tcg/starfleet-maneuvers/StarTrekTcg-StarfleetManeuvers-ColonelFellini.jpg	default	Challenge	Starfleet Maneuvers	Starfleet Maneuvers	playerNChallenges	Capture or Argue	C
+Starfleet Maneuvers_Commodore_Matt_Decker_Challenge	Commodore Matt Decker	star-trek-tcg/starfleet-maneuvers/StarTrekTcg-StarfleetManeuvers-CommodoreMattDecker.jpg	default	Challenge	Starfleet Maneuvers	Starfleet Maneuvers	playerNChallenges	Command or Argue	U
+Starfleet Maneuvers_Companion_Challenge	Companion	star-trek-tcg/starfleet-maneuvers/StarTrekTcg-StarfleetManeuvers-Companion.jpg	default	Challenge	Starfleet Maneuvers	Starfleet Maneuvers	playerNChallenges	Capture or Attack	C
+Starfleet Maneuvers_Deadly_Flora_Challenge	Deadly Flora	star-trek-tcg/starfleet-maneuvers/StarTrekTcg-StarfleetManeuvers-DeadlyFlora.jpg	default	Challenge	Starfleet Maneuvers	Starfleet Maneuvers	playerNChallenges	Ambush	U
+Starfleet Maneuvers_Eleen_Challenge	Eleen	star-trek-tcg/starfleet-maneuvers/StarTrekTcg-StarfleetManeuvers-Eleen.jpg	default	Challenge	Starfleet Maneuvers	Starfleet Maneuvers	playerNChallenges	Ambush or Argue	C
+Starfleet Maneuvers_Feeders_of_Vaal_Challenge	Feeders of Vaal	star-trek-tcg/starfleet-maneuvers/StarTrekTcg-StarfleetManeuvers-FeedersOfVaal.jpg	default	Challenge	Starfleet Maneuvers	Starfleet Maneuvers	playerNChallenges	Ambush or Enigma	C
+Starfleet Maneuvers_Giant_Black_Cat_Challenge	Giant Black Cat	star-trek-tcg/starfleet-maneuvers/StarTrekTcg-StarfleetManeuvers-GiantBlackCat.jpg	default	Challenge	Starfleet Maneuvers	Starfleet Maneuvers	playerNChallenges	Attack	S
+Starfleet Maneuvers_Jarvis_Challenge	Jarvis	star-trek-tcg/starfleet-maneuvers/StarTrekTcg-StarfleetManeuvers-Jarvis.jpg	default	Challenge	Starfleet Maneuvers	Starfleet Maneuvers	playerNChallenges	Argue or Negotiate	C
+Starfleet Maneuvers_Korax_Challenge	Korax	star-trek-tcg/starfleet-maneuvers/StarTrekTcg-StarfleetManeuvers-Korax.jpg	default	Challenge	Starfleet Maneuvers	Starfleet Maneuvers	playerNChallenges	Argue	C
+Starfleet Maneuvers_Korob_Challenge	Korob	star-trek-tcg/starfleet-maneuvers/StarTrekTcg-StarfleetManeuvers-Korob.jpg	default	Challenge	Starfleet Maneuvers	Starfleet Maneuvers	playerNChallenges	Capture or Befuddle	C
+Starfleet Maneuvers_Maab_Challenge	Maab	star-trek-tcg/starfleet-maneuvers/StarTrekTcg-StarfleetManeuvers-Maab.jpg	default	Challenge	Starfleet Maneuvers	Starfleet Maneuvers	playerNChallenges	Argue or Attack	S
+Starfleet Maneuvers_Mirror_Chekov_Challenge	Mirror Chekov	star-trek-tcg/starfleet-maneuvers/StarTrekTcg-StarfleetManeuvers-MirrorChekov.jpg	default	Challenge	Starfleet Maneuvers	Starfleet Maneuvers	playerNChallenges	Ambush	R
+Starfleet Maneuvers_Mirror_Marlena_Challenge	Mirror Marlena	star-trek-tcg/starfleet-maneuvers/StarTrekTcg-StarfleetManeuvers-MirrorMarlena.jpg	default	Challenge	Starfleet Maneuvers	Starfleet Maneuvers	playerNChallenges	Fatal Allure	C
+Starfleet Maneuvers_Mirror_Spock_Challenge	Mirror Spock	star-trek-tcg/starfleet-maneuvers/StarTrekTcg-StarfleetManeuvers-MirrorSpock.jpg	default	Challenge	Starfleet Maneuvers	Starfleet Maneuvers	playerNChallenges	Negotiate or Outwit	R
+Starfleet Maneuvers_Mirror_Sulu_Challenge	Mirror Sulu	star-trek-tcg/starfleet-maneuvers/StarTrekTcg-StarfleetManeuvers-MirrorSulu.jpg	default	Challenge	Starfleet Maneuvers	Starfleet Maneuvers	playerNChallenges	Attack	R
+Starfleet Maneuvers_Nilz_Baris_Challenge	Nilz Baris	star-trek-tcg/starfleet-maneuvers/StarTrekTcg-StarfleetManeuvers-NilzBaris.jpg	default	Challenge	Starfleet Maneuvers	Starfleet Maneuvers	playerNChallenges	Argue or Negotiate	C
+Starfleet Maneuvers_Norman_Challenge	Norman	star-trek-tcg/starfleet-maneuvers/StarTrekTcg-StarfleetManeuvers-Norman.jpg	default	Challenge	Starfleet Maneuvers	Starfleet Maneuvers	playerNChallenges	Ambush or Argue or Command	C
+Starfleet Maneuvers_Redjac_Challenge	Redjac	star-trek-tcg/starfleet-maneuvers/StarTrekTcg-StarfleetManeuvers-Redjac.jpg	default	Challenge	Starfleet Maneuvers	Starfleet Maneuvers	playerNChallenges	Ambush or Mind Control	C
+Starfleet Maneuvers_Stella_Challenge	Stella	star-trek-tcg/starfleet-maneuvers/StarTrekTcg-StarfleetManeuvers-Stella.jpg	default	Challenge	Starfleet Maneuvers	Starfleet Maneuvers	playerNChallenges	Argue or Command	C
+Starfleet Maneuvers_Sylvia_Challenge	Sylvia	star-trek-tcg/starfleet-maneuvers/StarTrekTcg-StarfleetManeuvers-Sylvia.jpg	default	Challenge	Starfleet Maneuvers	Starfleet Maneuvers	playerNChallenges	Tempt or Attack	C
+Starfleet Maneuvers_Teer_Akaar_Challenge	Teer Akaar	star-trek-tcg/starfleet-maneuvers/StarTrekTcg-StarfleetManeuvers-TeerAkaar.jpg	default	Challenge	Starfleet Maneuvers	Starfleet Maneuvers	playerNChallenges	Negotiate	C
+Starfleet Maneuvers_TPau_Challenge	T'Pau	star-trek-tcg/starfleet-maneuvers/StarTrekTcg-StarfleetManeuvers-TPau.jpg	default	Challenge	Starfleet Maneuvers	Starfleet Maneuvers	playerNChallenges	Argue or Command	U
+Starfleet Maneuvers_TPring_Challenge	T'Pring	star-trek-tcg/starfleet-maneuvers/StarTrekTcg-StarfleetManeuvers-TPring.jpg	default	Challenge	Starfleet Maneuvers	Starfleet Maneuvers	playerNChallenges	Command or *	V
+Starfleet Maneuvers_Tribbles_(Blue_Icon)_Challenge	Tribbles [L]	star-trek-tcg/starfleet-maneuvers/StarTrekTcg-StarfleetManeuvers-TribblesL.jpg	default	Challenge	Starfleet Maneuvers	Starfleet Maneuvers	playerNChallenges	Befuddle (Logic)	U
+Starfleet Maneuvers_Tribbles_(Red_Icon)_Challenge	Tribbles [C]	star-trek-tcg/starfleet-maneuvers/StarTrekTcg-StarfleetManeuvers-TribblesC.jpg	default	Challenge	Starfleet Maneuvers	Starfleet Maneuvers	playerNChallenges	Befuddle (Combat)	C
+Starfleet Maneuvers_Tribbles_(Yellow_Icon)_Challenge	Tribbles [H]	star-trek-tcg/starfleet-maneuvers/StarTrekTcg-StarfleetManeuvers-TribblesH.jpg	default	Challenge	Starfleet Maneuvers	Starfleet Maneuvers	playerNChallenges	Befuddle (Humanity)	U/C
+Starfleet Maneuvers_Vaal_Challenge	Vaal	star-trek-tcg/starfleet-maneuvers/StarTrekTcg-StarfleetManeuvers-Vaal.jpg	default	Challenge	Starfleet Maneuvers	Starfleet Maneuvers	playerNChallenges	Attack or Outwit	R
+Starfleet Maneuvers_Zombie_Crew_Challenge	Zombie Crew	star-trek-tcg/starfleet-maneuvers/StarTrekTcg-StarfleetManeuvers-ZombieCrew.jpg	default	Challenge	Starfleet Maneuvers	Starfleet Maneuvers	playerNChallenges	Capture	C
+Starfleet Maneuvers_Admiral_Komack_Crew	Admiral Komack	star-trek-tcg/starfleet-maneuvers/StarTrekTcg-StarfleetManeuvers-AdmiralKomack.jpg	default	Crew	Starfleet Maneuvers	Starfleet Maneuvers	playerNDeck		R
+Starfleet Maneuvers_Captain_Christopher_Pike_Crew	Captain Christopher Pike	star-trek-tcg/starfleet-maneuvers/StarTrekTcg-StarfleetManeuvers-CaptainChristopherPike.jpg	default	Crew	Starfleet Maneuvers	Starfleet Maneuvers	playerNDeck		V
+Starfleet Maneuvers_Captain_Ramart_Crew	Captain Ramart	star-trek-tcg/starfleet-maneuvers/StarTrekTcg-StarfleetManeuvers-CaptainRamart.jpg	default	Crew	Starfleet Maneuvers	Starfleet Maneuvers	playerNDeck		R
+Starfleet Maneuvers_Commodore_Stocker_Crew	Commodore Stocker	star-trek-tcg/starfleet-maneuvers/StarTrekTcg-StarfleetManeuvers-CommodoreStocker.jpg	default	Crew	Starfleet Maneuvers	Starfleet Maneuvers	playerNDeck		V
+Starfleet Maneuvers_Ensign_Freeman_Crew	Ensign Freeman	star-trek-tcg/starfleet-maneuvers/StarTrekTcg-StarfleetManeuvers-EnsignFreeman.jpg	default	Crew	Starfleet Maneuvers	Starfleet Maneuvers	playerNDeck		C
+Starfleet Maneuvers_Ensign_Hendorf_Crew	Ensign Hendorf	star-trek-tcg/starfleet-maneuvers/StarTrekTcg-StarfleetManeuvers-EnsignHendorf.jpg	default	Crew	Starfleet Maneuvers	Starfleet Maneuvers	playerNDeck		U
+Starfleet Maneuvers_Ensign_Montgomery_Crew	Ensign Montgomery	star-trek-tcg/starfleet-maneuvers/StarTrekTcg-StarfleetManeuvers-EnsignMontgomery.jpg	default	Crew	Starfleet Maneuvers	Starfleet Maneuvers	playerNDeck		U
+Starfleet Maneuvers_Lieutenant_Carolyn_Palamas_Crew	Lieutenant Carolyn Palamas	star-trek-tcg/starfleet-maneuvers/StarTrekTcg-StarfleetManeuvers-LieutenantCarolynPalamas.jpg	default	Crew	Starfleet Maneuvers	Starfleet Maneuvers	playerNDeck		U
+Starfleet Maneuvers_Lieutenant_Chip_Carter_Crew	Lieutenant Chip Carter	star-trek-tcg/starfleet-maneuvers/StarTrekTcg-StarfleetManeuvers-LieutenantChipCarter.jpg	default	Crew	Starfleet Maneuvers	Starfleet Maneuvers	playerNDeck		V
+Starfleet Maneuvers_Lieutenant_Hanson_Crew	Lieutenant Hanson	star-trek-tcg/starfleet-maneuvers/StarTrekTcg-StarfleetManeuvers-LieutenantHanson.jpg	default	Crew	Starfleet Maneuvers	Starfleet Maneuvers	playerNDeck		U
+Starfleet Maneuvers_Lieutenant_Jackson_Crew	Lieutenant Jackson	star-trek-tcg/starfleet-maneuvers/StarTrekTcg-StarfleetManeuvers-LieutenantJackson.jpg	default	Crew	Starfleet Maneuvers	Starfleet Maneuvers	playerNDeck		C
+Starfleet Maneuvers_Lieutenant_Jose_Tyler_Crew	Lieutenant Jose' Tyler	star-trek-tcg/starfleet-maneuvers/StarTrekTcg-StarfleetManeuvers-LieutenantJoseTyler.jpg	default	Crew	Starfleet Maneuvers	Starfleet Maneuvers	playerNDeck		U
+Starfleet Maneuvers_Lieutenant_Kaplan_Crew	Lieutenant Kaplan	star-trek-tcg/starfleet-maneuvers/StarTrekTcg-StarfleetManeuvers-LieutenantKaplan.jpg	default	Crew	Starfleet Maneuvers	Starfleet Maneuvers	playerNDeck		R
+Starfleet Maneuvers_Lieutenant_Karen_Tracy_Crew	Lieutenant Karen Tracy	star-trek-tcg/starfleet-maneuvers/StarTrekTcg-StarfleetManeuvers-LieutenantKarenTracy.jpg	default	Crew	Starfleet Maneuvers	Starfleet Maneuvers	playerNDeck		U
+Starfleet Maneuvers_Lieutenant_Marlena_Moreau_Crew	Lieutenant Marlena Moreau	star-trek-tcg/starfleet-maneuvers/StarTrekTcg-StarfleetManeuvers-LieutenantMarlenaMoreau.jpg	default	Crew	Starfleet Maneuvers	Starfleet Maneuvers	playerNDeck		R
+Starfleet Maneuvers_Lieutenant_Palmer_Crew	Lieutenant Palmer	star-trek-tcg/starfleet-maneuvers/StarTrekTcg-StarfleetManeuvers-LieutenantPalmer.jpg	default	Crew	Starfleet Maneuvers	Starfleet Maneuvers	playerNDeck		S
+Starfleet Maneuvers_Lieutenant_Ron_Perazza_Crew	Lieutenant Ron Perazza	star-trek-tcg/starfleet-maneuvers/StarTrekTcg-StarfleetManeuvers-LieutenantRonPerazza.jpg	default	Crew	Starfleet Maneuvers	Starfleet Maneuvers	playerNDeck		V
+Starfleet Maneuvers_Lieutenant_Rowe_Crew	Lieutenant Rowe	star-trek-tcg/starfleet-maneuvers/StarTrekTcg-StarfleetManeuvers-LieutenantRowe.jpg	default	Crew	Starfleet Maneuvers	Starfleet Maneuvers	playerNDeck		U
+Starfleet Maneuvers_Lieutenant_Singh_Crew	Lieutenant Singh	star-trek-tcg/starfleet-maneuvers/StarTrekTcg-StarfleetManeuvers-LieutenantSingh.jpg	default	Crew	Starfleet Maneuvers	Starfleet Maneuvers	playerNDeck		C
+Starfleet Maneuvers_Lieutenant_Steve_Domzalski_Crew	Lieutenant Steve Domzalski	star-trek-tcg/starfleet-maneuvers/StarTrekTcg-StarfleetManeuvers-LieutenantSteveDomzalski.jpg	default	Crew	Starfleet Maneuvers	Starfleet Maneuvers	playerNDeck		V
+Starfleet Maneuvers_Lieutenant_Tonia_Barrows_Crew	Lieutenant Tonia Barrows	star-trek-tcg/starfleet-maneuvers/StarTrekTcg-StarfleetManeuvers-LieutenantToniaBarrows.jpg	default	Crew	Starfleet Maneuvers	Starfleet Maneuvers	playerNDeck		V
+Starfleet Maneuvers_Lieutenant_Washburn_Crew	Lieutenant Washburn	star-trek-tcg/starfleet-maneuvers/StarTrekTcg-StarfleetManeuvers-LieutenantWashburn.jpg	default	Crew	Starfleet Maneuvers	Starfleet Maneuvers	playerNDeck		R
+Starfleet Maneuvers_Number_One_Crew	Number One	star-trek-tcg/starfleet-maneuvers/StarTrekTcg-StarfleetManeuvers-NumberOne.jpg	default	Crew	Starfleet Maneuvers	Starfleet Maneuvers	playerNDeck		C
+Starfleet Maneuvers_Nurse_Cheryl_Thomas_Crew	Nurse Cheryl Thomas	star-trek-tcg/starfleet-maneuvers/StarTrekTcg-StarfleetManeuvers-NurseCherylThomas.jpg	default	Crew	Starfleet Maneuvers	Starfleet Maneuvers	playerNDeck		V
+Starfleet Maneuvers_Yeoman_Colt_Crew	Yeoman Colt	star-trek-tcg/starfleet-maneuvers/StarTrekTcg-StarfleetManeuvers-YeomanColt.jpg	default	Crew	Starfleet Maneuvers	Starfleet Maneuvers	playerNDeck		C
+Starfleet Maneuvers_Amok_Time_Discovery	Amok Time [D]	star-trek-tcg/starfleet-maneuvers/StarTrekTcg-StarfleetManeuvers-AmokTimeD.jpg	default	Episode Discovery	Starfleet Maneuvers	Starfleet Maneuvers	playerNEpisode		U
+Starfleet Maneuvers_Catspaw_Discovery	Catspaw [D]	star-trek-tcg/starfleet-maneuvers/StarTrekTcg-StarfleetManeuvers-CatspawD.jpg	default	Episode Discovery	Starfleet Maneuvers	Starfleet Maneuvers	playerNEpisode		V
+Starfleet Maneuvers_Fridays_Child_Discovery	Friday's Child [D]	star-trek-tcg/starfleet-maneuvers/StarTrekTcg-StarfleetManeuvers-FridaysChildD.jpg	default	Episode Discovery	Starfleet Maneuvers	Starfleet Maneuvers	playerNEpisode		V
+Starfleet Maneuvers_I_Mudd_Discovery	I, Mudd [D]	star-trek-tcg/starfleet-maneuvers/StarTrekTcg-StarfleetManeuvers-IMuddD.jpg	default	Episode Discovery	Starfleet Maneuvers	Starfleet Maneuvers	playerNEpisode		V
+Starfleet Maneuvers_Metamorphosis_Discovery	Metamorphosis [D]	star-trek-tcg/starfleet-maneuvers/StarTrekTcg-StarfleetManeuvers-MetamorphosisD.jpg	default	Episode Discovery	Starfleet Maneuvers	Starfleet Maneuvers	playerNEpisode		V
+Starfleet Maneuvers_Mirror_Mirror_Discovery	Mirror, Mirror [D]	star-trek-tcg/starfleet-maneuvers/StarTrekTcg-StarfleetManeuvers-MirrorMirrorD.jpg	default	Episode Discovery	Starfleet Maneuvers	Starfleet Maneuvers	playerNEpisode		U
+Starfleet Maneuvers_The_Apple_Discovery	The Apple [D]	star-trek-tcg/starfleet-maneuvers/StarTrekTcg-StarfleetManeuvers-TheAppleD.jpg	default	Episode Discovery	Starfleet Maneuvers	Starfleet Maneuvers	playerNEpisode		V
+Starfleet Maneuvers_The_Changeling_Discovery	The Changeling [D]	star-trek-tcg/starfleet-maneuvers/StarTrekTcg-StarfleetManeuvers-TheChangelingD.jpg	default	Episode Discovery	Starfleet Maneuvers	Starfleet Maneuvers	playerNEpisode		R
+Starfleet Maneuvers_The_Deadly_Years_Discovery	The Deadly Years [D]	star-trek-tcg/starfleet-maneuvers/StarTrekTcg-StarfleetManeuvers-TheDeadlyYearsD.jpg	default	Episode Discovery	Starfleet Maneuvers	Starfleet Maneuvers	playerNEpisode		R
+Starfleet Maneuvers_The_Doomsday_Machine_Discovery	The Doomsday Machine [D]	star-trek-tcg/starfleet-maneuvers/StarTrekTcg-StarfleetManeuvers-TheDoomsdayMachineD.jpg	default	Episode Discovery	Starfleet Maneuvers	Starfleet Maneuvers	playerNEpisode		V
+Starfleet Maneuvers_The_Trouble_With_Tribbles_Discovery	The Trouble With Tribbles [D]	star-trek-tcg/starfleet-maneuvers/StarTrekTcg-StarfleetManeuvers-TheTroubleWithTribblesD.jpg	default	Episode Discovery	Starfleet Maneuvers	Starfleet Maneuvers	playerNEpisode		C
+Starfleet Maneuvers_Who_Mourns_For_Adonais_Discovery	Who Mourns For Adonais? [D]	star-trek-tcg/starfleet-maneuvers/StarTrekTcg-StarfleetManeuvers-WhoMournsForAdonaisD.jpg	default	Episode Discovery	Starfleet Maneuvers	Starfleet Maneuvers	playerNEpisode		S
+Starfleet Maneuvers_Wolf_In_The_Fold_Discovery	Wolf In The Fold [D]	star-trek-tcg/starfleet-maneuvers/StarTrekTcg-StarfleetManeuvers-WolfInTheFoldD.jpg	default	Episode Discovery	Starfleet Maneuvers	Starfleet Maneuvers	playerNEpisode		C
+Starfleet Maneuvers_Adrenaline_Effect	Adrenaline	star-trek-tcg/starfleet-maneuvers/StarTrekTcg-StarfleetManeuvers-Adrenaline.jpg	default	Effect	Starfleet Maneuvers	Starfleet Maneuvers	playerNDeck		R
+Starfleet Maneuvers_Agonizer_Effect	Agonizer	star-trek-tcg/starfleet-maneuvers/StarTrekTcg-StarfleetManeuvers-Agonizer.jpg	default	Effect	Starfleet Maneuvers	Starfleet Maneuvers	playerNDeck		R
+Starfleet Maneuvers_Ahn-Woon_Effect	Ahn-Woon	star-trek-tcg/starfleet-maneuvers/StarTrekTcg-StarfleetManeuvers-AhnWoon.jpg	default	Effect	Starfleet Maneuvers	Starfleet Maneuvers	playerNDeck		C
+Starfleet Maneuvers_Highly_Illogical_Behavior_Effect	Highly Illogical Behavior	star-trek-tcg/starfleet-maneuvers/StarTrekTcg-StarfleetManeuvers-HighlyIllogicalBehavior.jpg	default	Effect	Starfleet Maneuvers	Starfleet Maneuvers	playerNDeck		R
+Starfleet Maneuvers_Kligat_Effect	Kligat	star-trek-tcg/starfleet-maneuvers/StarTrekTcg-StarfleetManeuvers-Kligat.jpg	default	Effect	Starfleet Maneuvers	Starfleet Maneuvers	playerNDeck		C
+Starfleet Maneuvers_Lirpa_Effect	Lirpa	star-trek-tcg/starfleet-maneuvers/StarTrekTcg-StarfleetManeuvers-Lirpa.jpg	default	Effect	Starfleet Maneuvers	Starfleet Maneuvers	playerNDeck		C
+Starfleet Maneuvers_Native_Club_Effect	Native Club	star-trek-tcg/starfleet-maneuvers/StarTrekTcg-StarfleetManeuvers-NativeClub.jpg	default	Effect	Starfleet Maneuvers	Starfleet Maneuvers	playerNDeck		S
+Starfleet Maneuvers_Plate_of_Gems_Effect	Plate of Gems	star-trek-tcg/starfleet-maneuvers/StarTrekTcg-StarfleetManeuvers-PlateOfGems.jpg	default	Effect	Starfleet Maneuvers	Starfleet Maneuvers	playerNDeck		C
+Starfleet Maneuvers_Plomeek_Soup_Effect	Plomeek Soup	star-trek-tcg/starfleet-maneuvers/StarTrekTcg-StarfleetManeuvers-PlomeekSoup.jpg	default	Effect	Starfleet Maneuvers	Starfleet Maneuvers	playerNDeck		S
+Starfleet Maneuvers_Quadrotriticale_Effect	Quadrotriticale	star-trek-tcg/starfleet-maneuvers/StarTrekTcg-StarfleetManeuvers-Quadrotriticale.jpg	default	Effect	Starfleet Maneuvers	Starfleet Maneuvers	playerNDeck		S
+Starfleet Maneuvers_Redjaks_Knife_Effect	Redjak's Knife	star-trek-tcg/starfleet-maneuvers/StarTrekTcg-StarfleetManeuvers-RedjaksKnife.jpg	default	Effect	Starfleet Maneuvers	Starfleet Maneuvers	playerNDeck		C
+Starfleet Maneuvers_Sonic_Pulse_Effect	Sonic Pulse	star-trek-tcg/starfleet-maneuvers/StarTrekTcg-StarfleetManeuvers-SonicPulse.jpg	default	Effect	Starfleet Maneuvers	Starfleet Maneuvers	playerNDeck		C
+Starfleet Maneuvers_Taunt_Effect	Taunt	star-trek-tcg/starfleet-maneuvers/StarTrekTcg-StarfleetManeuvers-Taunt.jpg	default	Effect	Starfleet Maneuvers	Starfleet Maneuvers	playerNDeck		S
+Starfleet Maneuvers_Universal_Translator_Effect	Universal Translator	star-trek-tcg/starfleet-maneuvers/StarTrekTcg-StarfleetManeuvers-UniversalTranslator.jpg	default	Effect	Starfleet Maneuvers	Starfleet Maneuvers	playerNDeck		R
+Starfleet Maneuvers_Verifier_Effect	Verifier	star-trek-tcg/starfleet-maneuvers/StarTrekTcg-StarfleetManeuvers-Verifier.jpg	default	Effect	Starfleet Maneuvers	Starfleet Maneuvers	playerNDeck		R
+Starfleet Maneuvers_Amok_Time_Mission	Amok Time [M]	star-trek-tcg/starfleet-maneuvers/StarTrekTcg-StarfleetManeuvers-AmokTimeM.jpg	default	Episode Mission	Starfleet Maneuvers	Starfleet Maneuvers	playerNEpisode		U
+Starfleet Maneuvers_Catspaw_Mission	Catspaw [M]	star-trek-tcg/starfleet-maneuvers/StarTrekTcg-StarfleetManeuvers-CatspawM.jpg	default	Episode Mission	Starfleet Maneuvers	Starfleet Maneuvers	playerNEpisode		V
+Starfleet Maneuvers_Fridays_Child_Mission	Friday's Child [M]	star-trek-tcg/starfleet-maneuvers/StarTrekTcg-StarfleetManeuvers-FridaysChildM.jpg	default	Episode Mission	Starfleet Maneuvers	Starfleet Maneuvers	playerNEpisode		U
+Starfleet Maneuvers_I_Mudd_Mission	I, Mudd [M]	star-trek-tcg/starfleet-maneuvers/StarTrekTcg-StarfleetManeuvers-IMuddM.jpg	default	Episode Mission	Starfleet Maneuvers	Starfleet Maneuvers	playerNEpisode		V
+Starfleet Maneuvers_Metamorphosis_Mission	Metamorphosis [M]	star-trek-tcg/starfleet-maneuvers/StarTrekTcg-StarfleetManeuvers-MetamorphosisM.jpg	default	Episode Mission	Starfleet Maneuvers	Starfleet Maneuvers	playerNEpisode		U
+Starfleet Maneuvers_Mirror_Mirror_Mission	Mirror, Mirror [M]	star-trek-tcg/starfleet-maneuvers/StarTrekTcg-StarfleetManeuvers-MirrorMirrorM.jpg	default	Episode Mission	Starfleet Maneuvers	Starfleet Maneuvers	playerNEpisode		C
+Starfleet Maneuvers_The_Apple_Mission	The Apple [M]	star-trek-tcg/starfleet-maneuvers/StarTrekTcg-StarfleetManeuvers-TheAppleM.jpg	default	Episode Mission	Starfleet Maneuvers	Starfleet Maneuvers	playerNEpisode		U
+Starfleet Maneuvers_The_Changeling_Mission	The Changeling [M]	star-trek-tcg/starfleet-maneuvers/StarTrekTcg-StarfleetManeuvers-TheChangelingM.jpg	default	Episode Mission	Starfleet Maneuvers	Starfleet Maneuvers	playerNEpisode		U
+Starfleet Maneuvers_The_Deadly_Years_Mission	The Deadly Years [M]	star-trek-tcg/starfleet-maneuvers/StarTrekTcg-StarfleetManeuvers-TheDeadlyYearsM.jpg	default	Episode Mission	Starfleet Maneuvers	Starfleet Maneuvers	playerNEpisode		C
+Starfleet Maneuvers_The_Doomsday_Machine_Mission	The Doomsday Machine [M]	star-trek-tcg/starfleet-maneuvers/StarTrekTcg-StarfleetManeuvers-TheDoomsdayMachineM.jpg	default	Episode Mission	Starfleet Maneuvers	Starfleet Maneuvers	playerNEpisode		V
+Starfleet Maneuvers_The_Trouble_With_Tribbles_Mission	The Trouble With Tribbles [M]	star-trek-tcg/starfleet-maneuvers/StarTrekTcg-StarfleetManeuvers-TheTroubleWithTribblesM.jpg	default	Episode Mission	Starfleet Maneuvers	Starfleet Maneuvers	playerNEpisode		U
+Starfleet Maneuvers_Who_Mourns_For_Adonais_Mission	Who Mourns For Adonais? [M]	star-trek-tcg/starfleet-maneuvers/StarTrekTcg-StarfleetManeuvers-WhoMournsForAdonaisM.jpg	default	Episode Mission	Starfleet Maneuvers	Starfleet Maneuvers	playerNEpisode		V
+Starfleet Maneuvers_Wolf_In_The_Fold_Mission	Wolf In The Fold [M]	star-trek-tcg/starfleet-maneuvers/StarTrekTcg-StarfleetManeuvers-WolfInTheFoldM.jpg	default	Episode Mission	Starfleet Maneuvers	Starfleet Maneuvers	playerNEpisode		R
+Starfleet Maneuvers_Agony_Booth_Permanent_Wild	Agony Booth	star-trek-tcg/starfleet-maneuvers/StarTrekTcg-StarfleetManeuvers-AgonyBooth.jpg	default	Permanent Wild	Starfleet Maneuvers	Starfleet Maneuvers	playerNDeck		C
+Starfleet Maneuvers_Apollos_Shrine_Permanent_Wild	Apollo's Shrine	star-trek-tcg/starfleet-maneuvers/StarTrekTcg-StarfleetManeuvers-ApollosShrine.jpg	default	Permanent Wild	Starfleet Maneuvers	Starfleet Maneuvers	playerNDeck		U
+Starfleet Maneuvers_Asteroid_Yonada_Permanent_Wild	Asteroid Yonada	star-trek-tcg/starfleet-maneuvers/StarTrekTcg-StarfleetManeuvers-AsteroidYonada.jpg	default	Permanent Wild	Starfleet Maneuvers	Starfleet Maneuvers	playerNDeck		C
+Starfleet Maneuvers_Aurora_Permanent_Wild	Aurora	star-trek-tcg/starfleet-maneuvers/StarTrekTcg-StarfleetManeuvers-Aurora.jpg	default	Permanent Wild	Starfleet Maneuvers	Starfleet Maneuvers	playerNDeck		R
+Starfleet Maneuvers_Botany_Bay_Permanent_Wild	Botany Bay	star-trek-tcg/starfleet-maneuvers/StarTrekTcg-StarfleetManeuvers-BotanyBay.jpg	default	Permanent Wild	Starfleet Maneuvers	Starfleet Maneuvers	playerNDeck		U
+Starfleet Maneuvers_Captains_Chair_Permanent_Wild	Captain's Chair	star-trek-tcg/starfleet-maneuvers/StarTrekTcg-StarfleetManeuvers-CaptainsChair.jpg	default	Permanent Wild	Starfleet Maneuvers	Starfleet Maneuvers	playerNDeck		U
+Starfleet Maneuvers_Central_Control_Permanent_Wild	Central Control	star-trek-tcg/starfleet-maneuvers/StarTrekTcg-StarfleetManeuvers-CentralControl.jpg	default	Permanent Wild	Starfleet Maneuvers	Starfleet Maneuvers	playerNDeck		R
+Starfleet Maneuvers_DEEP_SPACE_STATION_K-7_Permanent_Wild	DEEP SPACE STATION K-7	star-trek-tcg/starfleet-maneuvers/StarTrekTcg-StarfleetManeuvers-DEEPSPACESTATIONK7.jpg	default	Permanent Wild	Starfleet Maneuvers	Starfleet Maneuvers	playerNDeck		U
+Starfleet Maneuvers_Engineering_Room_Permanent_Wild	Engineering Room	star-trek-tcg/starfleet-maneuvers/StarTrekTcg-StarfleetManeuvers-EngineeringRoom.jpg	default	Permanent Wild	Starfleet Maneuvers	Starfleet Maneuvers	playerNDeck		U
+Starfleet Maneuvers_ISS_ENTERPRISE_Permanent_Wild	I.S.S. ENTERPRISE	star-trek-tcg/starfleet-maneuvers/StarTrekTcg-StarfleetManeuvers-ISSENTERPRISE.jpg	default	Permanent Wild	Starfleet Maneuvers	Starfleet Maneuvers	playerNDeck		R
+Starfleet Maneuvers_Klingon_Battle_Cruiser_Permanent_Wild	Klingon Battle Cruiser	star-trek-tcg/starfleet-maneuvers/StarTrekTcg-StarfleetManeuvers-KlingonBattleCruiser.jpg	default	Permanent Wild	Starfleet Maneuvers	Starfleet Maneuvers	playerNDeck		V
+Starfleet Maneuvers_Magnetic_Storm_Permanent_Wild	Magnetic Storm	star-trek-tcg/starfleet-maneuvers/StarTrekTcg-StarfleetManeuvers-MagneticStorm.jpg	default	Permanent Wild	Starfleet Maneuvers	Starfleet Maneuvers	playerNDeck		U
+Starfleet Maneuvers_Orion_Smugglers_Permanent_Wild	Orion Smugglers	star-trek-tcg/starfleet-maneuvers/StarTrekTcg-StarfleetManeuvers-OrionSmugglers.jpg	default	Permanent Wild	Starfleet Maneuvers	Starfleet Maneuvers	playerNDeck		V
+Starfleet Maneuvers_Planet_Killer_Permanent_Wild	Planet Killer	star-trek-tcg/starfleet-maneuvers/StarTrekTcg-StarfleetManeuvers-PlanetKiller.jpg	default	Permanent Wild	Starfleet Maneuvers	Starfleet Maneuvers	playerNDeck		R
+Starfleet Maneuvers_Romulan_Neutral_Zone_Permanent_Wild	Romulan Neutral Zone	star-trek-tcg/starfleet-maneuvers/StarTrekTcg-StarfleetManeuvers-RomulanNeutralZone.jpg	default	Permanent Wild	Starfleet Maneuvers	Starfleet Maneuvers	playerNDeck		V
+Starfleet Maneuvers_Science_Station_Permanent_Wild	Science Station	star-trek-tcg/starfleet-maneuvers/StarTrekTcg-StarfleetManeuvers-ScienceStation.jpg	default	Permanent Wild	Starfleet Maneuvers	Starfleet Maneuvers	playerNDeck		U
+Starfleet Maneuvers_SHUTTLECRAFT_COLUMBUS_Permanent_Wild	SHUTTLECRAFT COLUMBUS	star-trek-tcg/starfleet-maneuvers/StarTrekTcg-StarfleetManeuvers-SHUTTLECRAFTCOLUMBUS.jpg	default	Permanent Wild	Starfleet Maneuvers	Starfleet Maneuvers	playerNDeck		S
+Starfleet Maneuvers_Sick_Bay_Permanent_Wild	Sick Bay	star-trek-tcg/starfleet-maneuvers/StarTrekTcg-StarfleetManeuvers-SickBay.jpg	default	Permanent Wild	Starfleet Maneuvers	Starfleet Maneuvers	playerNDeck		U
+Starfleet Maneuvers_Star_Charts_Permanent_Wild	Star Charts	star-trek-tcg/starfleet-maneuvers/StarTrekTcg-StarfleetManeuvers-StarCharts.jpg	default	Permanent Wild	Starfleet Maneuvers	Starfleet Maneuvers	playerNDeck		U
+Starfleet Maneuvers_Tantalus_Field_Permanent_Wild	Tantalus Field	star-trek-tcg/starfleet-maneuvers/StarTrekTcg-StarfleetManeuvers-TantalusField.jpg	default	Permanent Wild	Starfleet Maneuvers	Starfleet Maneuvers	playerNDeck		R
+Starfleet Maneuvers_Tholian_Web_Permanent_Wild	Tholian Web	star-trek-tcg/starfleet-maneuvers/StarTrekTcg-StarfleetManeuvers-TholianWeb.jpg	default	Permanent Wild	Starfleet Maneuvers	Starfleet Maneuvers	playerNDeck		U
+Starfleet Maneuvers_Top_Security_Brig_Permanent_Wild	Top Security Brig	star-trek-tcg/starfleet-maneuvers/StarTrekTcg-StarfleetManeuvers-TopSecurityBrig.jpg	default	Permanent Wild	Starfleet Maneuvers	Starfleet Maneuvers	playerNDeck		V
+Starfleet Maneuvers_USS_CONSTELLATION_Permanent_Wild	U.S.S. CONSTELLATION	star-trek-tcg/starfleet-maneuvers/StarTrekTcg-StarfleetManeuvers-USSCONSTELLATION.jpg	default	Permanent Wild	Starfleet Maneuvers	Starfleet Maneuvers	playerNDeck		C
+Starfleet Maneuvers_USS_LEXINGTON_Permanent_Wild	U.S.S. LEXINGTON	star-trek-tcg/starfleet-maneuvers/StarTrekTcg-StarfleetManeuvers-USSLEXINGTON.jpg	default	Permanent Wild	Starfleet Maneuvers	Starfleet Maneuvers	playerNDeck		C
+Starfleet Maneuvers_Warning_Beacon_Permanent_Wild	Warning Beacon	star-trek-tcg/starfleet-maneuvers/StarTrekTcg-StarfleetManeuvers-WarningBeacon.jpg	default	Permanent Wild	Starfleet Maneuvers	Starfleet Maneuvers	playerNDeck		C
+Starfleet Maneuvers_Amok_Time_Plot	Amok Time [P]	star-trek-tcg/starfleet-maneuvers/StarTrekTcg-StarfleetManeuvers-AmokTimeP.jpg	default	Episode Plot	Starfleet Maneuvers	Starfleet Maneuvers	playerNEpisode		R
+Starfleet Maneuvers_Catspaw_Plot	Catspaw [P]	star-trek-tcg/starfleet-maneuvers/StarTrekTcg-StarfleetManeuvers-CatspawP.jpg	default	Episode Plot	Starfleet Maneuvers	Starfleet Maneuvers	playerNEpisode		U
+Starfleet Maneuvers_Fridays_Child_Plot	Friday's Child [P]	star-trek-tcg/starfleet-maneuvers/StarTrekTcg-StarfleetManeuvers-FridaysChildP.jpg	default	Episode Plot	Starfleet Maneuvers	Starfleet Maneuvers	playerNEpisode		V
+Starfleet Maneuvers_I_Mudd_Plot	I, Mudd [P]	star-trek-tcg/starfleet-maneuvers/StarTrekTcg-StarfleetManeuvers-IMuddP.jpg	default	Episode Plot	Starfleet Maneuvers	Starfleet Maneuvers	playerNEpisode		U
+Starfleet Maneuvers_Metamorphosis_Plot	Metamorphosis [P]	star-trek-tcg/starfleet-maneuvers/StarTrekTcg-StarfleetManeuvers-MetamorphosisP.jpg	default	Episode Plot	Starfleet Maneuvers	Starfleet Maneuvers	playerNEpisode		R
+Starfleet Maneuvers_Mirror_Mirror_Plot	Mirror, Mirror [P]	star-trek-tcg/starfleet-maneuvers/StarTrekTcg-StarfleetManeuvers-MirrorMirrorP.jpg	default	Episode Plot	Starfleet Maneuvers	Starfleet Maneuvers	playerNEpisode		V
+Starfleet Maneuvers_The_Apple_Plot	The Apple [P]	star-trek-tcg/starfleet-maneuvers/StarTrekTcg-StarfleetManeuvers-TheAppleP.jpg	default	Episode Plot	Starfleet Maneuvers	Starfleet Maneuvers	playerNEpisode		C
+Starfleet Maneuvers_The_Changeling_Plot	The Changeling [P]	star-trek-tcg/starfleet-maneuvers/StarTrekTcg-StarfleetManeuvers-TheChangelingP.jpg	default	Episode Plot	Starfleet Maneuvers	Starfleet Maneuvers	playerNEpisode		V
+Starfleet Maneuvers_The_Deadly_Years_Plot	The Deadly Years [P]	star-trek-tcg/starfleet-maneuvers/StarTrekTcg-StarfleetManeuvers-TheDeadlyYearsP.jpg	default	Episode Plot	Starfleet Maneuvers	Starfleet Maneuvers	playerNEpisode		V
+Starfleet Maneuvers_The_Doomsday_Machine_Plot	The Doomsday Machine [P]	star-trek-tcg/starfleet-maneuvers/StarTrekTcg-StarfleetManeuvers-TheDoomsdayMachineP.jpg	default	Episode Plot	Starfleet Maneuvers	Starfleet Maneuvers	playerNEpisode		U
+Starfleet Maneuvers_The_Trouble_With_Tribbles_Plot	The Trouble With Tribbles [P]	star-trek-tcg/starfleet-maneuvers/StarTrekTcg-StarfleetManeuvers-TheTroubleWithTribblesP.jpg	default	Episode Plot	Starfleet Maneuvers	Starfleet Maneuvers	playerNEpisode		V
+Starfleet Maneuvers_Who_Mourns_For_Adonais_Plot	Who Mourns For Adonais? [P]	star-trek-tcg/starfleet-maneuvers/StarTrekTcg-StarfleetManeuvers-WhoMournsForAdonaisP.jpg	default	Episode Plot	Starfleet Maneuvers	Starfleet Maneuvers	playerNEpisode		U
+Starfleet Maneuvers_Wolf_In_The_Fold_Plot	Wolf In The Fold [P]	star-trek-tcg/starfleet-maneuvers/StarTrekTcg-StarfleetManeuvers-WolfInTheFoldP.jpg	default	Episode Plot	Starfleet Maneuvers	Starfleet Maneuvers	playerNEpisode		U
+Starfleet Maneuvers_Advanced_Aging_Wild	Advanced Aging	star-trek-tcg/starfleet-maneuvers/StarTrekTcg-StarfleetManeuvers-AdvancedAging.jpg	default	Wild	Starfleet Maneuvers	Starfleet Maneuvers	playerNDeck		V
+Starfleet Maneuvers_Android_Overload_Wild	Android Overload	star-trek-tcg/starfleet-maneuvers/StarTrekTcg-StarfleetManeuvers-AndroidOverload.jpg	default	Wild	Starfleet Maneuvers	Starfleet Maneuvers	playerNDeck		U
+Starfleet Maneuvers_Antigrav_Units_Wild	Antigrav Units	star-trek-tcg/starfleet-maneuvers/StarTrekTcg-StarfleetManeuvers-AntigravUnits.jpg	default	Wild	Starfleet Maneuvers	Starfleet Maneuvers	playerNDeck		R
+Starfleet Maneuvers_Argelian_Empathic_Contact_Wild	Argelian Empathic Contact	star-trek-tcg/starfleet-maneuvers/StarTrekTcg-StarfleetManeuvers-ArgelianEmpathicContact.jpg	default	Wild	Starfleet Maneuvers	Starfleet Maneuvers	playerNDeck		R
+Starfleet Maneuvers_Bows_and_Arrows_Wild	Bows and Arrows	star-trek-tcg/starfleet-maneuvers/StarTrekTcg-StarfleetManeuvers-BowsAndArrows.jpg	default	Wild	Starfleet Maneuvers	Starfleet Maneuvers	playerNDeck		R
+Starfleet Maneuvers_Cavalry_Arrives_Wild	Cavalry Arrives	star-trek-tcg/starfleet-maneuvers/StarTrekTcg-StarfleetManeuvers-CavalryArrives.jpg	default	Wild	Starfleet Maneuvers	Starfleet Maneuvers	playerNDeck		R
+Starfleet Maneuvers_Clean_Slate_Wild	Clean Slate	star-trek-tcg/starfleet-maneuvers/StarTrekTcg-StarfleetManeuvers-CleanSlate.jpg	default	Wild	Starfleet Maneuvers	Starfleet Maneuvers	playerNDeck		V
+Starfleet Maneuvers_Code_2_Wild	Code 2	star-trek-tcg/starfleet-maneuvers/StarTrekTcg-StarfleetManeuvers-Code2.jpg	default	Wild	Starfleet Maneuvers	Starfleet Maneuvers	playerNDeck		U
+Starfleet Maneuvers_Competency_Hearing_Wild	Competency Hearing	star-trek-tcg/starfleet-maneuvers/StarTrekTcg-StarfleetManeuvers-CompetencyHearing.jpg	default	Wild	Starfleet Maneuvers	Starfleet Maneuvers	playerNDeck		R
+Starfleet Maneuvers_Cultural_Taboo_Wild	Cultural Taboo	star-trek-tcg/starfleet-maneuvers/StarTrekTcg-StarfleetManeuvers-CulturalTaboo.jpg	default	Wild	Starfleet Maneuvers	Starfleet Maneuvers	playerNDeck		R
+Starfleet Maneuvers_Friendly_Welcome_Wild	Friendly Welcome	star-trek-tcg/starfleet-maneuvers/StarTrekTcg-StarfleetManeuvers-FriendlyWelcome.jpg	default	Wild	Starfleet Maneuvers	Starfleet Maneuvers	playerNDeck		R
+Starfleet Maneuvers_Kal-if-fee_Wild	Kal-if-fee	star-trek-tcg/starfleet-maneuvers/StarTrekTcg-StarfleetManeuvers-KalIfFee.jpg	default	Wild	Starfleet Maneuvers	Starfleet Maneuvers	playerNDeck		R
+Starfleet Maneuvers_Magnesite-Nitron_Tablet_Wild	Magnesite-Nitron Tablet	star-trek-tcg/starfleet-maneuvers/StarTrekTcg-StarfleetManeuvers-MagnesiteNitronTablet.jpg	default	Wild	Starfleet Maneuvers	Starfleet Maneuvers	playerNDeck		R
+Starfleet Maneuvers_Manual_Override_Wild	Manual Override	star-trek-tcg/starfleet-maneuvers/StarTrekTcg-StarfleetManeuvers-ManualOverride.jpg	default	Wild	Starfleet Maneuvers	Starfleet Maneuvers	playerNDeck		R
+Starfleet Maneuvers_Masiform_D_Wild	Masiform D	star-trek-tcg/starfleet-maneuvers/StarTrekTcg-StarfleetManeuvers-MasiformD.jpg	default	Wild	Starfleet Maneuvers	Starfleet Maneuvers	playerNDeck		U
+Starfleet Maneuvers_Neural_Paralyzer_Wild	Neural Paralyzer	star-trek-tcg/starfleet-maneuvers/StarTrekTcg-StarfleetManeuvers-NeuralParalyzer.jpg	default	Wild	Starfleet Maneuvers	Starfleet Maneuvers	playerNDeck		R
+Starfleet Maneuvers_Plak-tow_Wild	Plak-tow	star-trek-tcg/starfleet-maneuvers/StarTrekTcg-StarfleetManeuvers-PlakTow.jpg	default	Wild	Starfleet Maneuvers	Starfleet Maneuvers	playerNDeck		R
+Starfleet Maneuvers_Pon_farr_Wild	Pon farr	star-trek-tcg/starfleet-maneuvers/StarTrekTcg-StarfleetManeuvers-PonFarr.jpg	default	Wild	Starfleet Maneuvers	Starfleet Maneuvers	playerNDeck		R
+Starfleet Maneuvers_Reeducation_Wild	Reeducation	star-trek-tcg/starfleet-maneuvers/StarTrekTcg-StarfleetManeuvers-Reeducation.jpg	default	Wild	Starfleet Maneuvers	Starfleet Maneuvers	playerNDeck		V
+Starfleet Maneuvers_Suicide_Mission_Wild	Suicide Mission	star-trek-tcg/starfleet-maneuvers/StarTrekTcg-StarfleetManeuvers-SuicideMission.jpg	default	Wild	Starfleet Maneuvers	Starfleet Maneuvers	playerNDeck		R
+Starfleet Maneuvers_Sympathetic_Magic_Wild	Sympathetic Magic	star-trek-tcg/starfleet-maneuvers/StarTrekTcg-StarfleetManeuvers-SympatheticMagic.jpg	default	Wild	Starfleet Maneuvers	Starfleet Maneuvers	playerNDeck		U
+Starfleet Maneuvers_Transmuter_Wild	Transmuter	star-trek-tcg/starfleet-maneuvers/StarTrekTcg-StarfleetManeuvers-Transmuter.jpg	default	Wild	Starfleet Maneuvers	Starfleet Maneuvers	playerNDeck		U
+Starfleet Maneuvers_Transporter_Swap_Wild	Transporter Swap	star-trek-tcg/starfleet-maneuvers/StarTrekTcg-StarfleetManeuvers-TransporterSwap.jpg	default	Wild	Starfleet Maneuvers	Starfleet Maneuvers	playerNDeck		R
+Promo_Arena_Wild	Arena	star-trek-tcg/promo/StarTrekTcg-Promo-Arena.jpg	default	Wild	Promo	Promo	playerNDeck		P
+Promo_Cryogenic_Chambers_Permanent_Wild	Cryogenic Chambers	star-trek-tcg/promo/StarTrekTcg-Promo-CryogenicChambers.jpg	default	Permanent Wild	Promo	Promo	playerNDeck		P
+Promo_Emergency_Distress_Call_Wild	Emergency Distress Call	star-trek-tcg/promo/StarTrekTcg-Promo-EmergencyDistressCall.jpg	default	Wild	Promo	Promo	playerNDeck		P
+Promo_Ensign_Pavel_A_Chekov_Crew_Promo	Ensign Pavel A. Chekov*	star-trek-tcg/promo/StarTrekTcg-Promo-EnsignPavelAChekov.jpg	default	Crew	Promo	Promo	playerNDeck		P
+Promo_Hes_Dead_Jim_Wild	He's Dead Jim	star-trek-tcg/promo/StarTrekTcg-Promo-HesDeadJim.jpg	default	Wild	Promo	Promo	playerNDeck		P
+Promo_Living_In_The_Past_Wild	Living In The Past	star-trek-tcg/promo/StarTrekTcg-Promo-LivingInThePast.jpg	default	Wild	Promo	Promo	playerNDeck		P
+Promo_Organians_Challenge	Organians	star-trek-tcg/promo/StarTrekTcg-Promo-Organians.jpg	default	Challenge	Promo	Promo	playerNChallenges	Enigma	P
+Promo_Phaser_Mishap_Wild	Phaser Mishap	star-trek-tcg/promo/StarTrekTcg-Promo-PhaserMishap.jpg	default	Wild	Promo	Promo	playerNDeck		P
+Promo_Shirtless_Kirk_Wild	Shirtless Kirk	star-trek-tcg/promo/StarTrekTcg-Promo-ShirtlessKirk.jpg	default	Wild	Promo	Promo	playerNDeck		P
+Promo_Turbolift_Doors_Wild	Turbolift Doors	star-trek-tcg/promo/StarTrekTcg-Promo-TurboliftDoors.jpg	default	Wild	Promo	Promo	playerNDeck		P
+Promo_Medikit_Effect	Medikit	star-trek-tcg/promo/StarTrekTcg-Promo-Medikit.jpg	default	Effect	Promo	Promo	playerNDeck		P

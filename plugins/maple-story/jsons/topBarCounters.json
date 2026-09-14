@@ -1,0 +1,23 @@
+{
+  "topBarCounters": {
+    "shared": [
+      {
+        "label": "Round",
+        "imageUrl": "",
+        "gameProperty": "roundNumber"
+      }
+    ],
+    "player": [
+      {
+        "label": "Level",
+        "imageUrl": "",
+        "playerProperty": "level"
+      },
+      {
+        "label": "HP",
+        "imageUrl": "",
+        "playerProperty": "hitPoints"
+      }
+    ]
+  }
+}

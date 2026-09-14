@@ -1,0 +1,1095 @@
+{
+  "deckMenu": {
+    "subMenus": [
+      {
+        "label": "id:starterDecks",
+        "subMenus": [
+          {
+            "deckLists": [
+              {
+                "deckListId": "Roland Banks Starter Deck",
+                "label": "id:rolandBanksStarterDeck"
+              },
+              {
+                "deckListId": "Daisy Walker Starter Deck",
+                "label": "id:daisyWalkerStarterDeck"
+              },
+              {
+                "deckListId": "\"Skids\" O'Toole Starter Deck",
+                "label": "id:skidsOTooleStarterDeck"
+              },
+              {
+                "deckListId": "Agnes Baker Starter Deck",
+                "label": "id:agnesBakerStarterDeck"
+              },
+              {
+                "deckListId": "Wendy Adams Starter Deck",
+                "label": "id:wendyAdamsStarterDeck"
+              }
+            ],
+            "label": "id:coreDecks"
+          },
+          {
+            "deckLists": [
+              {
+                "deckListId": "Revised Roland Banks Starter Deck",
+                "label": "id:rolandBanksStarterDeck"
+              },
+              {
+                "deckListId": "Revised Daisy Walker Starter Deck",
+                "label": "id:daisyWalkerStarterDeck"
+              },
+              {
+                "deckListId": "Revised \"Skids\" O'Toole Starter Deck",
+                "label": "id:skidsOTooleStarterDeck"
+              },
+              {
+                "deckListId": "Revised Agnes Baker Starter Deck",
+                "label": "id:agnesBakerStarterDeck"
+              },
+              {
+                "deckListId": "Revised Wendy Adams Starter Deck",
+                "label": "id:wendyAdamsStarterDeck"
+              }
+            ],
+            "label": "id:revisedCoreDecks"
+          },
+          {
+            "deckLists": [
+              {
+                "deckListId": "Zoey Samaras Starter Deck",
+                "label": "id:zoeySamarasStarterDeck"
+              },
+              {
+                "deckListId": "Rex Murphy Starter Deck",
+                "label": "id:rexMurphyStarterDeck"
+              },
+              {
+                "deckListId": "Jenny Barnes Starter Deck",
+                "label": "id:jennyBarnesStarterDeck"
+              },
+              {
+                "deckListId": "Jim Culver Starter Deck",
+                "label": "id:jimCulverStarterDeck"
+              },
+              {
+                "deckListId": "\"Ashcan\" Pete Starter Deck",
+                "label": "id:ashcanPeteStarterDeck"
+              }
+            ],
+            "label": "id:theDunwichLegacy"
+          },
+          {
+            "deckLists": [
+              {
+                "deckListId": "Mark Harrigan Starter Deck",
+                "label": "id:markHarriganStarterDeck"
+              },
+              {
+                "deckListId": "Minh Thi Phan Starter Deck",
+                "label": "id:minhThiPhanStarterDeck"
+              },
+              {
+                "deckListId": "Sefina Rousseau Starter Deck",
+                "label": "id:sefinaRousseauStarterDeck"
+              },
+              {
+                "deckListId": "Akachi Onyele Starter Deck",
+                "label": "id:akachiOnyeleStarterDeck"
+              },
+              {
+                "deckListId": "William Yorick Starter Deck",
+                "label": "id:williamYorickStarterDeck"
+              },
+              {
+                "deckListId": "Lola Hayes Starter Deck",
+                "label": "id:lolaHayesStarterDeck"
+              }
+            ],
+            "label": "id:thePathToCarcosa"
+          },
+          {
+            "deckLists": [
+              {
+                "deckListId": "Leo Anderson Starter Deck",
+                "label": "id:leoAndersonStarterDeck"
+              },
+              {
+                "deckListId": "Ursula Downs Starter Deck",
+                "label": "id:ursulaDownsStarterDeck"
+              },
+              {
+                "deckListId": "Finn Edwards Starter Deck",
+                "label": "id:finnEdwardsStarterDeck"
+              },
+              {
+                "deckListId": "Father Mateo Starter Deck",
+                "label": "id:fatherMateoStarterDeck"
+              },
+              {
+                "deckListId": "Calvin Wright Starter Deck",
+                "label": "id:calvinWrightStarterDeck"
+              }
+            ],
+            "label": "id:theForgottenAge"
+          },
+          {
+            "deckLists": [
+              {
+                "deckListId": "Carolyn Fern Starter Deck",
+                "label": "id:carolynFernStarterDeck"
+              },
+              {
+                "deckListId": "Joe Diamond Starter Deck",
+                "label": "id:joeDiamondStarterDeck"
+              },
+              {
+                "deckListId": "Preston Fairmont Starter Deck",
+                "label": "id:prestonFairmontStarterDeck"
+              },
+              {
+                "deckListId": "Diana Stanley Starter Deck",
+                "label": "id:dianaStanleyStarterDeck"
+              },
+              {
+                "deckListId": "Rita Young Starter Deck",
+                "label": "id:ritaYoungStarterDeck"
+              },
+              {
+                "deckListId": "Marie Lambeau Starter Deck",
+                "label": "id:marieLambeauStarterDeck"
+              }
+            ],
+            "label": "id:theCircleUndone"
+          },
+          {
+            "deckLists": [
+              {
+                "deckListId": "Tommy Muldoon Starter Deck",
+                "label": "id:tommyMuldoonStarterDeck"
+              },
+              {
+                "deckListId": "Mandy Thompson Starter Deck",
+                "label": "id:mandyThompsonStarterDeck"
+              },
+              {
+                "deckListId": "Tony Morgan Starter Deck",
+                "label": "id:tonyMorganStarterDeck"
+              },
+              {
+                "deckListId": "Luke Robinson Starter Deck",
+                "label": "id:lukeRobinsonStarterDeck"
+              },
+              {
+                "deckListId": "Patrice Hathaway Starter Deck",
+                "label": "id:patriceHathawayStarterDeck"
+              }
+            ],
+            "label": "id:theDreamEaters"
+          },
+          {
+            "deckLists": [
+              {
+                "deckListId": "Sister Mary Starter Deck",
+                "label": "id:sisterMaryStarterDeck"
+              },
+              {
+                "deckListId": "Amanda Sharpe Starter Deck",
+                "label": "id:amandaSharpeStarterDeck"
+              },
+              {
+                "deckListId": "Trish Scarborough Starter Deck",
+                "label": "id:trishScarboroughStarterDeck"
+              },
+              {
+                "deckListId": "Dexter Drake Starter Deck",
+                "label": "id:dexterDrakeStarterDeck"
+              },
+              {
+                "deckListId": "Silas Marsh Starter Deck",
+                "label": "id:silasMarshStarterDeck"
+              }
+            ],
+            "label": "id:theInnsmouthConspiracy"
+          },
+          {
+            "deckLists": [
+              {
+                "deckListId": "Daniela Reyes Starter Deck",
+                "label": "id:danielaReyesStarterDeck"
+              },
+              {
+                "deckListId": "Norman Withers Starter Deck",
+                "label": "id:normanWithersStarterDeck"
+              },
+              {
+                "deckListId": "Monterey Jack Starter Deck",
+                "label": "id:montereyJackStarterDeck"
+              },
+              {
+                "deckListId": "Lily Chen Starter Deck",
+                "label": "id:lilyChenStarterDeck"
+              },
+              {
+                "deckListId": "Bob Jenkins Starter Deck",
+                "label": "id:bobJenkinsStarterDeck"
+              }
+            ],
+            "label": "id:edgeOfTheEarth"
+          },
+          {
+            "deckLists": [
+              {
+                "deckListId": "Carson Sinclair Starter Deck",
+                "label": "id:carsonSinclairStarterDeck"
+              },
+              {
+                "deckListId": "Vincent Lee Starter Deck",
+                "label": "id:vincentLeeStarterDeck"
+              },
+              {
+                "deckListId": "Kymani Jones Starter Deck",
+                "label": "id:kymaniJonesStarterDeck"
+              },
+              {
+                "deckListId": "Amina Zidane Starter Deck",
+                "label": "id:aminaZidaneStarterDeck"
+              },
+              {
+                "deckListId": "Darrell Simmons Starter Deck",
+                "label": "id:darrellSimmonsStarterDeck"
+              },
+              {
+                "deckListId": "Charlie Kane Starter Deck",
+                "label": "id:charlieKaneStarterDeck"
+              }
+            ],
+            "label": "id:theScarletKeys"
+          },
+          {
+            "deckLists": [
+              {
+                "deckListId": "Wilson Richards Starter Deck",
+                "label": "id:wilsonRichardsStarterDeck"
+              },
+              {
+                "deckListId": "Kate Winthrop Starter Deck",
+                "label": "id:kateWinthropStarterDeck"
+              },
+              {
+                "deckListId": "Alessandra Zorzi Starter Deck",
+                "label": "id:alessandraZorziStarterDeck"
+              },
+              {
+                "deckListId": "Kōhaku Narukami Starter Deck",
+                "label": "id:kohakuNarukamiStarterDeck"
+              },
+              {
+                "deckListId": "Hank Samson Starter Deck",
+                "label": "id:hankSamsonStarterDeck"
+              }
+            ],
+            "label": "id:theFeastOfHemlockVale"
+          },
+          {
+            "deckLists": [
+              {
+                "deckListId": "Marion Tavares Starter Deck",
+                "label": "id:marionTavaresStarterDeck"
+              },
+              {
+                "deckListId": "Lucius Galloway Starter Deck",
+                "label": "id:luciusGallowayStarterDeck"
+              },
+              {
+                "deckListId": "Agatha Crane (Seeker) Starter Deck",
+                "label": "id:agathaCraneSeekerStarterDeck"
+              },
+              {
+                "deckListId": "Agatha Crane (Mystic) Starter Deck",
+                "label": "id:agathaCraneMysticStarterDeck"
+              },
+              {
+                "deckListId": "Michael McGlen Starter Deck",
+                "label": "id:michaelMcGlenStarterDeck"
+              },
+              {
+                "deckListId": "Gloria Goldberg Starter Deck",
+                "label": "id:gloriaGoldbergStarterDeck"
+              },
+              {
+                "deckListId": "George Barnaby Starter Deck",
+                "label": "id:georgeBarnabyStarterDeck"
+              }
+            ],
+            "label": "id:theDrownedCity"
+          },
+          {
+            "deckLists": [
+              {
+                "deckListId": "Daniela Reyes (Chapter 2) Starter Deck",
+                "label": "id:danielaReyesChapter2StarterDeck"
+              },
+              {
+                "deckListId": "Joe Diamond (Chapter 2) Starter Deck",
+                "label": "id:joeDiamondChapter2StarterDeck"
+              },
+              {
+                "deckListId": "Trish Scarborough (Chapter 2) Starter Deck",
+                "label": "id:trishScarboroughChapter2StarterDeck"
+              },
+              {
+                "deckListId": "Dexter Drake (Chapter 2) Starter Deck",
+                "label": "id:dexterDrakeChapter2StarterDeck"
+              },
+              {
+                "deckListId": "Isabelle Barnes (Chapter 2) Starter Deck",
+                "label": "id:isabelleBarnesChapter2StarterDeck"
+              }
+            ],
+            "label": "id:chapter2CoreDecks"
+          },
+          {
+            "deckLists": [
+              {
+                "deckListId": "Nathaniel Cho Starter Deck",
+                "label": "id:nathanielChoStarterDeck"
+              },
+              {
+                "deckListId": "Tommy Muldoon (Chapter 2) Starter Deck",
+                "label": "id:tommyMuldoonChapter2StarterDeck"
+              },
+              {
+                "deckListId": "Harvey Walters Starter Deck",
+                "label": "id:harveyWaltersStarterDeck"
+              },
+              {
+                "deckListId": "Carolyn Fern (Chapter 2) Starter Deck",
+                "label": "id:carolynFernChapter2StarterDeck"
+              },
+              {
+                "deckListId": "Winifred Habbamock Starter Deck",
+                "label": "id:winifredHabbamockStarterDeck"
+              },
+              {
+                "deckListId": "André Patel (Chapter 2) Starter Deck",
+                "label": "id:andrePatelChapter2StarterDeck"
+              },
+              {
+                "deckListId": "Jacqueline Fine Starter Deck",
+                "label": "id:jacquelineFineStarterDeck"
+              },
+              {
+                "deckListId": "Marie Lambeau (Chapter 2) Starter Deck",
+                "label": "id:marieLambeauChapter2StarterDeck"
+              },
+              {
+                "deckListId": "Stella Clark Starter Deck",
+                "label": "id:stellaClarkStarterDeck"
+              },
+              {
+                "deckListId": "Miguel de la Cruz (Chapter 2) Starter Deck",
+                "label": "id:miguelDeLaCruzChapter2StarterDeck"
+              }
+            ],
+            "label": "id:standaloneDecks"
+          },
+          {
+            "deckLists": [
+              {
+                "deckListId": "Gloria Goldberg (Promo) Starter Deck",
+                "label": "id:gloriaGoldbergPromoStarterDeck"
+              },
+              {
+                "deckListId": "Subject 5U-21 Starter Deck",
+                "label": "id:subject5U21StarterDeck"
+              }
+            ],
+            "label": "id:otherDecks"
+          }
+        ]
+      },
+      {
+        "label": "id:campaigns",
+        "subMenus": [
+          {
+            "deckLists": [
+              {
+                "deckListId": "The Gathering Scenario",
+                "label": "id:theGathering"
+              },
+              {
+                "deckListId": "The Midnight Masks Scenario",
+                "label": "id:theMidnightMasks"
+              },
+              {
+                "deckListId": "The Devourer Below Scenario",
+                "label": "id:theDevourerBelow"
+              }
+            ],
+            "label": "id:theNightOfTheZealot"
+          },
+          {
+            "deckLists": [
+              {
+                "deckListId": "Extracurricular Activity Scenario",
+                "label": "id:extracurricularActivity"
+              },
+              {
+                "deckListId": "The House Always Wins Scenario",
+                "label": "id:theHouseAlwaysWins"
+              },
+              {
+                "deckListId": "The Miskatonic Museum Scenario",
+                "label": "id:theMiskatonicMuseum"
+              },
+              {
+                "deckListId": "The Essex County Express Scenario",
+                "label": "id:theEssexCountyExpress"
+              },
+              {
+                "deckListId": "Blood on the Altar Scenario",
+                "label": "id:bloodOnTheAltar"
+              },
+              {
+                "deckListId": "Undimensioned and Unseen Scenario",
+                "label": "id:undimensionedAndUnseen"
+              },
+              {
+                "deckListId": "Where Doom Awaits Scenario",
+                "label": "id:whereDoomAwaits"
+              },
+              {
+                "deckListId": "Lost in Time and Space Scenario",
+                "label": "id:lostInTimeAndSpace"
+              }
+            ],
+            "label": "id:theDunwichLegacy"
+          },
+          {
+            "deckLists": [
+              {
+                "deckListId": "Curtain Call Scenario",
+                "label": "id:curtainCall"
+              },
+              {
+                "deckListId": "The Last King Scenario",
+                "label": "id:theLastKing"
+              },
+              {
+                "deckListId": "Echoes of the Past Scenario",
+                "label": "id:echoesOfThePast"
+              },
+              {
+                "deckListId": "The Unspeakable Oath Scenario",
+                "label": "id:theUnspeakableOath"
+              },
+              {
+                "deckListId": "A Phantom of Truth Scenario",
+                "label": "id:aPhantomOfTruth"
+              },
+              {
+                "deckListId": "The Pallid Mask Scenario",
+                "label": "id:thePallidMask"
+              },
+              {
+                "deckListId": "Black Stars Rise Scenario",
+                "label": "id:blackStarsRise"
+              },
+              {
+                "deckListId": "Dim Carcosa Scenario",
+                "label": "id:dimCarcosa"
+              }
+            ],
+            "label": "id:thePathToCarcosa"
+          },
+          {
+            "deckLists": [
+              {
+                "deckListId": "The Untamed Wilds Scenario",
+                "label": "id:theUntamedWilds"
+              },
+              {
+                "deckListId": "The Doom of Eztli Scenario",
+                "label": "id:theDoomOfEztli"
+              },
+              {
+                "deckListId": "Threads of Fate Scenario",
+                "label": "id:threadsOfFate"
+              },
+              {
+                "deckListId": "The Boundary Beyond Scenario",
+                "label": "id:theBoundaryBeyond"
+              },
+              {
+                "deckListId": "Heart of the Elders Pt 1 Scenario",
+                "label": "id:heartOfTheEldersPt1"
+              },
+              {
+                "deckListId": "Heart of the Elders Pt 2 Scenario",
+                "label": "id:heartOfTheEldersPt2"
+              },
+              {
+                "deckListId": "The City of Archives Scenario",
+                "label": "id:theCityOfArchives"
+              },
+              {
+                "deckListId": "The Depths of Yoth Scenario",
+                "label": "id:theDepthsOfYoth"
+              },
+              {
+                "deckListId": "Shattered Aeons Scenario",
+                "label": "id:shatteredAeons"
+              },
+              {
+                "deckListId": "Turn Back Time Scenario",
+                "label": "id:turnBackTime"
+              }
+            ],
+            "label": "id:theForgottenAge"
+          },
+          {
+            "deckLists": [
+              {
+                "deckListId": "Disappearance at the Twilight Estate Scenario",
+                "label": "id:disappearanceAtTheTwilightEstate"
+              },
+              {
+                "deckListId": "The Witching Hour Scenario",
+                "label": "id:theWitchingHour"
+              },
+              {
+                "deckListId": "At Death's Doorstep Scenario",
+                "label": "id:atDeathsDoorstep"
+              },
+              {
+                "deckListId": "The Secret Name Scenario",
+                "label": "id:theSecretName"
+              },
+              {
+                "deckListId": "The Wages of Sin Scenario",
+                "label": "id:theWagesOfSin"
+              },
+              {
+                "deckListId": "For the Greater Good Scenario",
+                "label": "id:forTheGreaterGood"
+              },
+              {
+                "deckListId": "Union and Disillusion Scenario",
+                "label": "id:unionAndDisillusion"
+              },
+              {
+                "deckListId": "In the Clutches of Chaos Scenario",
+                "label": "id:inTheClutchesOfChaos"
+              },
+              {
+                "deckListId": "Before the Black Throne Scenario",
+                "label": "id:beforeTheBlackThrone"
+              }
+            ],
+            "label": "id:theCircleUndone"
+          },
+          {
+            "deckLists": [
+              {
+                "deckListId": "Beyond the Gates of Sleep Scenario",
+                "label": "id:beyondTheGatesOfSleep"
+              },
+              {
+                "deckListId": "The Search for Kadath Scenario",
+                "label": "id:theSearchForKadath"
+              },
+              {
+                "deckListId": "Dark Side of the Moon Scenario",
+                "label": "id:darkSideOfTheMoon"
+              },
+              {
+                "deckListId": "Where the Gods Dwell Scenario",
+                "label": "id:whereTheGodsDwell"
+              }
+            ],
+            "label": "id:theDreamQuest"
+          },
+          {
+            "deckLists": [
+              {
+                "deckListId": "Waking Nightmare Scenario",
+                "label": "id:wakingNightmare"
+              },
+              {
+                "deckListId": "A Thousand Shapes of Horror Scenario",
+                "label": "id:aThousandShapesOfHorror"
+              },
+              {
+                "deckListId": "Point of No Return Scenario",
+                "label": "id:pointOfNoReturn"
+              },
+              {
+                "deckListId": "Weaver of the Cosmos Scenario",
+                "label": "id:weaverOfTheCosmos"
+              }
+            ],
+            "label": "id:theWebOfDreams"
+          },
+          {
+            "deckLists": [
+              {
+                "deckListId": "The Pit of Despair Scenario",
+                "label": "id:thePitOfDespair"
+              },
+              {
+                "deckListId": "The Vanishing of Elina Harper Scenario",
+                "label": "id:theVanishingOfElinaHarper"
+              },
+              {
+                "deckListId": "In Too Deep Scenario",
+                "label": "id:inTooDeep"
+              },
+              {
+                "deckListId": "Devil Reef Scenario",
+                "label": "id:devilReef"
+              },
+              {
+                "deckListId": "Horror in High Gear Scenario",
+                "label": "id:horrorInHighGear"
+              },
+              {
+                "deckListId": "A Light in the Fog Scenario",
+                "label": "id:aLightInTheFog"
+              },
+              {
+                "deckListId": "The Lair of Dagon Scenario",
+                "label": "id:theLairOfDagon"
+              },
+              {
+                "deckListId": "Into the Maelstrom Scenario",
+                "label": "id:intoTheMaelstrom"
+              }
+            ],
+            "label": "id:theInnsmouthConspiracy"
+          },
+          {
+            "deckLists": [
+              {
+                "deckListId": "Ice and Death Pt 1 Scenario",
+                "label": "id:iceAndDeathPt1"
+              },
+              {
+                "deckListId": "Ice and Death Pt 2 Scenario",
+                "label": "id:iceAndDeathPt2"
+              },
+              {
+                "deckListId": "Ice and Death Pt 3 Scenario",
+                "label": "id:iceAndDeathPt3"
+              },
+              {
+                "deckListId": "Fatal Mirage Scenario",
+                "label": "id:fatalMirage"
+              },
+              {
+                "deckListId": "To the Forbidden Peaks Scenario",
+                "label": "id:toTheForbiddenPeaks"
+              },
+              {
+                "deckListId": "City of the Elder Things Scenario",
+                "label": "id:cityOfTheElderThings"
+              },
+              {
+                "deckListId": "The Heart of Madness Pt 1 Scenario",
+                "label": "id:theHeartOfMadnessPt1"
+              },
+              {
+                "deckListId": "The Heart of Madness Pt 2 Scenario",
+                "label": "id:theHeartOfMadnessPt2"
+              }
+            ],
+            "label": "id:edgeOfTheEarth"
+          },
+          {
+            "deckLists": [
+              {
+                "deckListId": "Riddles and Rain Scenario",
+                "label": "id:riddlesAndRain"
+              },
+              {
+                "deckListId": "Dead Heat Scenario",
+                "label": "id:deadHeat"
+              },
+              {
+                "deckListId": "Sanguine Shadows Scenario",
+                "label": "id:sanguineShadows"
+              },
+              {
+                "deckListId": "Dealings in the Dark Scenario",
+                "label": "id:dealingsInTheDark"
+              },
+              {
+                "deckListId": "Dancing Mad Scenario",
+                "label": "id:dancingMad"
+              },
+              {
+                "deckListId": "On Thin Ice Scenario",
+                "label": "id:onThinIce"
+              },
+              {
+                "deckListId": "Dogs of War Scenario",
+                "label": "id:dogsOfWar"
+              },
+              {
+                "deckListId": "Shades of Suffering Scenario",
+                "label": "id:shadesOfSuffering"
+              },
+              {
+                "deckListId": "Without a Trace Scenario",
+                "label": "id:withoutATrace"
+              },
+              {
+                "deckListId": "Congress of the Keys Scenario",
+                "label": "id:congressOfTheKeys"
+              }
+            ],
+            "label": "id:theScarletKeys"
+          },
+          {
+            "deckLists": [
+              {
+                "deckListId": "Spreading Flames Scenario",
+                "label": "id:spreadingFlames"
+              },
+              {
+                "deckListId": "Smoke and Mirrors Scenario",
+                "label": "id:smokeAndMirrors"
+              },
+              {
+                "deckListId": "Queen of Ash Scenario",
+                "label": "id:queenOfAsh"
+              }
+            ],
+            "label": "id:brethrenOfAsh"
+          }
+        ]
+      },
+      {
+        "label": "id:returnToCampaigns",
+        "subMenus": [
+          {
+            "deckLists": [
+              {
+                "deckListId": "Return to The Gathering Scenario",
+                "label": "id:returnToTheGathering"
+              },
+              {
+                "deckListId": "Return to The Midnight Masks Scenario",
+                "label": "id:returnToTheMidnightMasks"
+              },
+              {
+                "deckListId": "Return to The Devourer Below Scenario",
+                "label": "id:returnToTheDevourerBelow"
+              }
+            ],
+            "label": "id:returnToTheNightOfTheZealot"
+          },
+          {
+            "deckLists": [
+              {
+                "deckListId": "Return to Extracurricular Activities Scenario",
+                "label": "id:returnToExtracurricularActivities"
+              },
+              {
+                "deckListId": "Return to The House Always Wins Scenario",
+                "label": "id:returnToTheHouseAlwaysWins"
+              },
+              {
+                "deckListId": "Return to The Miskatonic Museum Scenario",
+                "label": "id:returnToTheMiskatonicMuseum"
+              },
+              {
+                "deckListId": "Return to The Essex County Express Scenario",
+                "label": "id:returnToTheEssexCountyExpress"
+              },
+              {
+                "deckListId": "Return to Blood on the Altar Scenario",
+                "label": "id:returnToBloodOnTheAltar"
+              },
+              {
+                "deckListId": "Return to Undimensioned and Unseen Scenario",
+                "label": "id:returnToUndimensionedAndUnseen"
+              },
+              {
+                "deckListId": "Return to Where Doom Awaits Scenario",
+                "label": "id:returnToWhereDoomAwaits"
+              },
+              {
+                "deckListId": "Return to Lost in Time and Space Scenario",
+                "label": "id:returnToLostInTimeAndSpace"
+              }
+            ],
+            "label": "id:returnToTheDunwichLegacy"
+          },
+          {
+            "deckLists": [
+              {
+                "deckListId": "Return to Curtain Call Scenario",
+                "label": "id:returnToCurtainCall"
+              },
+              {
+                "deckListId": "Return to The Last King Scenario",
+                "label": "id:returnToTheLastKing"
+              },
+              {
+                "deckListId": "Return to Echoes of the Past Scenario",
+                "label": "id:returnToEchoesOfThePast"
+              },
+              {
+                "deckListId": "Return to The Unspeakable Oath Scenario",
+                "label": "id:returnToTheUnspeakableOath"
+              },
+              {
+                "deckListId": "Return to A Phantom of Truth Scenario",
+                "label": "id:returnToAPhantomOfTruth"
+              },
+              {
+                "deckListId": "Return to The Pallid Mask Scenario",
+                "label": "id:returnToThePallidMask"
+              },
+              {
+                "deckListId": "Return to Black Stars Rise Scenario",
+                "label": "id:returnToBlackStarsRise"
+              },
+              {
+                "deckListId": "Return to Dim Carcosa Scenario",
+                "label": "id:returnToDimCarcosa"
+              }
+            ],
+            "label": "id:returnToThePathToCarcosa"
+          },
+          {
+            "deckLists": [
+              {
+                "deckListId": "Return to The Untamed Wilds Scenario",
+                "label": "id:returnToTheUntamedWilds"
+              },
+              {
+                "deckListId": "Return to The Doom of Eztli Scenario",
+                "label": "id:returnToTheDoomOfEztli"
+              },
+              {
+                "deckListId": "Return to Threads of Fate Scenario",
+                "label": "id:returnToThreadsOfFate"
+              },
+              {
+                "deckListId": "Return to The Boundary Beyond Scenario",
+                "label": "id:returnToTheBoundaryBeyond"
+              },
+              {
+                "deckListId": "Return to Heart of the Elders Pt 1 Scenario",
+                "label": "id:returnToHeartOfTheEldersPt1"
+              },
+              {
+                "deckListId": "Return to Heart of the Elders Pt 2 Scenario",
+                "label": "id:returnToHeartOfTheEldersPt2"
+              },
+              {
+                "deckListId": "Return to The City of Archives Scenario",
+                "label": "id:returnToTheCityOfArchives"
+              },
+              {
+                "deckListId": "Return to The Depths of Yoth Scenario",
+                "label": "id:returnToTheDepthsOfYoth"
+              },
+              {
+                "deckListId": "Return to Shattered Aeons Scenario",
+                "label": "id:returnToShatteredAeons"
+              },
+              {
+                "deckListId": "Return to Turn Back Time Scenario",
+                "label": "id:returnToTurnBackTime"
+              }
+            ],
+            "label": "id:returnToTheForgottenAge"
+          },
+          {
+            "deckLists": [
+              {
+                "deckListId": "Return to Disappearance at the Twilight Estate Scenario",
+                "label": "id:returnToDisappearanceAtTheTwilightEstate"
+              },
+              {
+                "deckListId": "Return to The Witching Hour Scenario",
+                "label": "id:returnToTheWitchingHour"
+              },
+              {
+                "deckListId": "Return to At Death's Doorstep Scenario",
+                "label": "id:returnToAtDeathsDoorstep"
+              },
+              {
+                "deckListId": "Return to The Secret Name Scenario",
+                "label": "id:returnToTheSecretName"
+              },
+              {
+                "deckListId": "Return to The Wages of Sin Scenario",
+                "label": "id:returnToTheWagesOfSin"
+              },
+              {
+                "deckListId": "Return to For the Greater Good Scenario",
+                "label": "id:returnToForTheGreaterGood"
+              },
+              {
+                "deckListId": "Return to Union and Disillusion Scenario",
+                "label": "id:returnToUnionAndDisillusion"
+              },
+              {
+                "deckListId": "Return to In the Clutches of Chaos Scenario",
+                "label": "id:returnToInTheClutchesOfChaos"
+              },
+              {
+                "deckListId": "Return to Before the Black Throne Scenario",
+                "label": "id:returnToBeforeTheBlackThrone"
+              }
+            ],
+            "label": "id:returnToTheCircleUndone"
+          }
+        ]
+      },
+      {
+        "deckLists": [
+          {
+            "deckListId": "Curse of the Rougarou Scenario",
+            "label": "id:curseOfTheRougarou"
+          },
+          {
+            "deckListId": "Carnevale of Horrors Scenario",
+            "label": "id:carnevaleOfHorrors"
+          },
+          {
+            "deckListId": "The Labyrinths of Lunacy Scenario",
+            "label": "id:theLabyrinthsOfLunacy"
+          },
+          {
+            "deckListId": "The Eternal Slumber Scenario",
+            "label": "id:theEternalSlumber"
+          },
+          {
+            "deckListId": "The Night's Usurper Scenario",
+            "label": "id:theNightsUsurper"
+          },
+          {
+            "deckListId": "Murder at the Excelsior Hotel Scenario",
+            "label": "id:murderAtTheExcelsiorHotel"
+          },
+          {
+            "deckListId": "The Blob That Ate Everything Scenario",
+            "label": "id:theBlobThatAteEverything"
+          },
+          {
+            "deckListId": "War of the Outer Gods Scenario",
+            "label": "id:warOfTheOuterGods"
+          },
+          {
+            "deckListId": "Machinations Through Time Scenario",
+            "label": "id:machinationsThroughTime"
+          },
+          {
+            "deckListId": "Fortune and Folly Pt 1 Scenario",
+            "label": "id:fortuneAndFollyPt1"
+          },
+          {
+            "deckListId": "Fortune and Folly Pt 2 Scenario",
+            "label": "id:fortuneAndFollyPt2"
+          },
+          {
+            "deckListId": "The Blob That Ate Everything Else Scenario",
+            "label": "id:theBlobThatAteEverythingElse"
+          },
+          {
+            "deckListId": "The Midwinter Gala Scenario",
+            "label": "id:theMidwinterGala"
+          },
+          {
+            "deckListId": "Film Fatale Scenario",
+            "label": "id:filmFatale"
+          }
+        ],
+        "label": "id:sideStories"
+      },
+      {
+        "deckLists": [
+          {
+            "deckListId": "Read or Die Scenario",
+            "label": "id:readOrDie"
+          },
+          {
+            "deckListId": "All or Nothing Scenario",
+            "label": "id:allOrNothing"
+          },
+          {
+            "deckListId": "Bad Blood Scenario",
+            "label": "id:badBlood"
+          },
+          {
+            "deckListId": "By the Book Scenario",
+            "label": "id:byTheBook"
+          },
+          {
+            "deckListId": "Red Tide Rising Scenario",
+            "label": "id:redTideRising"
+          },
+          {
+            "deckListId": "Laid to Rest Scenario",
+            "label": "id:laidToRest"
+          },
+          {
+            "deckListId": "Relics of the Past Scenario",
+            "label": "id:relicsOfThePast"
+          },
+          {
+            "deckListId": "Enthralling Encore Scenario",
+            "label": "id:enthrallingEncore"
+          }
+        ],
+        "label": "id:challengeScenarios"
+      },
+      {
+        "deckLists": [
+          {
+            "deckListId": "Standard Tokens",
+            "label": "id:standardTokens"
+          },
+          {
+            "deckListId": "Key Tokens",
+            "label": "id:keyTokens"
+          },
+          {
+            "deckListId": "Chaos Key Tokens",
+            "label": "id:chaosKeyTokens"
+          },
+          {
+            "deckListId": "Flooded Token",
+            "label": "id:floodedToken"
+          },
+          {
+            "deckListId": "Seal Tokens",
+            "label": "id:sealTokens"
+          },
+          {
+            "deckListId": "The Forgotten Age Supplies",
+            "label": "id:theForgottenAgeSupplies"
+          },
+          {
+            "deckListId": "Return to The Forgotten Age Supplies",
+            "label": "id:returnToTheForgottenAgeSupplies"
+          },
+          {
+            "deckListId": "Tarot Cards - Deck C",
+            "label": "id:tarotCardsDeckC"
+          },
+          {
+            "deckListId": "Tarot Cards - Pile E",
+            "label": "id:tarotCardsPileE"
+          }
+        ],
+        "label": "id:miscellaneous"
+      }
+    ]
+  }
+}

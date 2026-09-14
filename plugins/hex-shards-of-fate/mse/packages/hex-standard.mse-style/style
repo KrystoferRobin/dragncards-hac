@@ -1,0 +1,687 @@
+mse version: 2.1.2
+game: hex
+short name: Standard
+full name: HEX card (client layout)
+version: 0.1.6
+depends on: hex.mse-game 0.1.2
+depends on: hex-inline.mse-symbol-font 0.1.1
+
+card width: 448
+card height: 625
+card dpi: 150
+card background: rgb(8,6,8)
+
+init script:
+	shard_colors := {
+		th := to_lower(card.threshold)
+		(if contains(input: th, match: "blood") then 1 else 0) + (if contains(input: th, match: "ruby") then 1 else 0) + (if contains(input: th, match: "diamond") then 1 else 0) + (if contains(input: th, match: "sapphire") then 1 else 0) + (if contains(input: th, match: "wild") then 1 else 0)
+	}
+	is_champion := { to_lower(card.card_type) == "champion" }
+	is_artifact := { contains(input: to_lower(card.card_type), match: "artifact") }
+	is_troop := { contains(input: to_lower(card.card_type), match: "troop") }
+	is_resource := { to_lower(card.card_type) == "resource" }
+	is_choice := { to_lower(card.card_type) == "choice" }
+	is_bane := { contains(input: to_lower(card.card_type), match: "bane") }
+	is_resource_or_choice := { is_resource() or is_choice() }
+	is_pve := { card.pve == "yes" }
+	is_basic_resource := { is_resource() and contains(input: to_lower(card.subtype), match: "standard") }
+	is_immortal := { card.immortal == "yes" }
+	frame_family := {
+		n := shard_colors()
+		if n == 0 and is_champion() then "Multi"
+		else if n == 0 then "Shardless"
+		else if n > 1 then "Multi"
+		else if is_artifact() then "Artifact"
+		else if contains(input: to_lower(card.threshold), match: "blood") then "Blood"
+		else if contains(input: to_lower(card.threshold), match: "ruby") then "Ruby"
+		else if contains(input: to_lower(card.threshold), match: "diamond") then "Diamond"
+		else if contains(input: to_lower(card.threshold), match: "sapphire") then "Sapphire"
+		else if contains(input: to_lower(card.threshold), match: "wild") then "Wild"
+		else "Shardless"
+	}
+	shard_count := {
+		name := input
+		th := to_lower(card.threshold)
+		if contains(input: th, match: name + " 6") then 6
+		else if contains(input: th, match: name + " 5") then 5
+		else if contains(input: th, match: name + " 4") then 4
+		else if contains(input: th, match: name + " 3") then 3
+		else if contains(input: th, match: name + " 2") then 2
+		else if contains(input: th, match: name) then 1
+		else 0
+	}
+	pip_color := {
+		i := input
+		b := shard_count("blood")
+		d := shard_count("diamond")
+		r := shard_count("ruby")
+		s := shard_count("sapphire")
+		w := shard_count("wild")
+		if i <= 0 then ""
+		else if i <= b then "Blood"
+		else if i <= b + d then "Diamond"
+		else if i <= b + d + r then "Ruby"
+		else if i <= b + d + r + s then "Sapphire"
+		else if i <= b + d + r + s + w then "Wild"
+		else ""
+	}
+
+card style:
+	name:
+		left: { if is_resource() then 20 else 77.0 }
+		top: { if is_resource() then 10 else 12.0 }
+		width: { if is_resource() then 408 else 358.0 }
+		height: { if is_resource() then 52 else 47.0 }
+		z index: 30
+		alignment: { if is_resource() then "center middle shrink-overflow" else "left middle shrink-overflow" }
+		font:
+			name: Hex_Arial_Bold
+			size: { if is_resource() then 23 else 15 }
+			color: rgb(255,255,255)
+			weight: bold
+			shadow color: rgb(0,0,0)
+			shadow displacement x: 0.6
+			shadow displacement y: 0.6
+			shadow blur: 0.25
+	card_type:
+		left: 0
+		top: 0
+		width: 1
+		height: 1
+		z index: 0
+		visible: false
+	subtype:
+		left: 0
+		top: 0
+		width: 1
+		height: 1
+		z index: 0
+		visible: false
+	type_line:
+		left: { if is_resource() then 130.0 else 79.0 }
+		top: { if is_resource() then 493.0 else 392.0 }
+		width: { if is_resource() then 240 else 292.0 }
+		height: { if is_resource() then 45.0 else 30.0 }
+		z index: 30
+		alignment: left middle shrink-overflow
+		font:
+			name: Hex_Arial_Bold
+			size: 12
+			color: rgb(255,255,255)
+			weight: bold
+			shadow color: rgb(0,0,0)
+			shadow displacement x: 0.6
+			shadow displacement y: 0.6
+			shadow blur: 0.25
+	cost:
+		left: 10.0
+		top: 16.0
+		width: 53.0
+		height: 49.0
+		z index: 31
+		alignment: center middle shrink-overflow
+		visible: { not is_choice() and not is_resource() }
+		font:
+			name: Hex_Arial_Bold
+			size: 30
+			color: rgb(255,255,255)
+			weight: bold
+			shadow color: rgb(0,0,0)
+			shadow displacement x: 0.6
+			shadow displacement y: 0.6
+			shadow blur: 0.25
+	threshold:
+		left: 0
+		top: 0
+		width: 1
+		height: 1
+		z index: 0
+		visible: false
+	text:
+		left: { if is_resource() then 130.0 else 20.66 }
+		top: { if is_resource() then 527.0 else 424.24 }
+		width: { if is_resource() then 302.0 else 406.69 }
+		height: { if is_resource() then 96.0 else 114.75999999999999 }
+		z index: 30
+		alignment: top left
+		padding top: 2
+		font:
+			name: Hex_Arial_Bold
+			size: 12
+			color: rgb(255,255,255)
+			weight: bold
+			shadow color: rgb(0,0,0)
+			shadow displacement x: 0.6
+			shadow displacement y: 0.6
+			shadow blur: 0.25
+		symbol font:
+			name: hex-inline
+			size: 13
+			alignment: middle center
+	flavor:
+		left: 92.0
+		top: 565.0
+		width: 264.0
+		height: 32
+		z index: 30
+		alignment: middle center
+		visible: { not is_resource() }
+		font:
+			name: Hex_Arial_Bold
+			size: 9
+			color: rgb(255,255,255)
+			weight: bold
+			style: italic
+			shadow color: rgb(0,0,0)
+			shadow displacement x: 0.6
+			shadow displacement y: 0.6
+			shadow blur: 0.25
+	attack:
+		left: 14.0
+		top: 557.0
+		width: 60.0
+		height: 56.0
+		z index: 32
+		alignment: center middle shrink-overflow
+		padding top: 2
+		visible: { is_troop() }
+		font:
+			name: Hex_Arial_Bold
+			size: 28
+			color: rgb(255,255,255)
+			weight: bold
+			shadow color: rgb(0,0,0)
+			shadow displacement x: 0.6
+			shadow displacement y: 0.6
+			shadow blur: 0.25
+	defense:
+		left: 374.0
+		top: 557.0
+		width: 60.0
+		height: 56.0
+		z index: 32
+		alignment: center middle shrink-overflow
+		padding top: 2
+		visible: { is_troop() }
+		font:
+			name: Hex_Arial_Bold
+			size: 28
+			color: rgb(255,255,255)
+			weight: bold
+			shadow color: rgb(0,0,0)
+			shadow displacement x: 0.6
+			shadow displacement y: 0.6
+			shadow blur: 0.25
+	health:
+		left: 20.0
+		top: 545.0
+		width: 48
+		height: 20
+		z index: 32
+		alignment: center middle
+		visible: { card.health != "" }
+		font:
+			name: Hex_Arial_Bold
+			size: 12
+			color: rgb(255,255,255)
+			weight: bold
+			shadow color: rgb(0,0,0)
+			shadow displacement x: 0.6
+			shadow displacement y: 0.6
+			shadow blur: 0.25
+	rarity:
+		left: { if is_resource() then 397.82 else 407.41 }
+		top: { if is_resource() then 496.94 else 388.44 }
+		width: { if is_resource() then 34.18 else 34.18 }
+		height: { if is_resource() then 35.13 else 35.13 }
+		z index: 29
+		render style: image
+		visible: { card.rarity != "" }
+		choice images:
+			Common: icons/Rarity_Common.png
+			Uncommon: icons/Rarity_Uncommon.png
+			Rare: icons/Rarity_Rare.png
+			Legendary: icons/Rarity_Legendary.png
+			Epic: icons/Rarity_Epic.png
+			Promo: icons/Rarity_Rare.png
+			Land: icons/Rarity_Common.png
+			Champion: icons/Rarity_Legendary.png
+	faction:
+		left: { if is_resource() then 354.87 else 16.52 }
+		top: { if is_resource() then 496.01 else 387.05 }
+		width: { if is_resource() then 36.95 else 36.95 }
+		height: { if is_resource() then 36.98 else 37.91 }
+		z index: 29
+		render style: image
+		visible: { card.faction != "" }
+		choice images:
+			Ardent: icons/Faction_Ardent.png
+			Underworld: icons/Faction_Underworld.png
+			Neutral: icons/Faction_Neutral.png
+	pve:
+		left: 0
+		top: 0
+		width: 1
+		height: 1
+		z index: 0
+		visible: false
+	unique:
+		left: 0
+		top: 0
+		width: 1
+		height: 1
+		z index: 0
+		visible: false
+	immortal:
+		left: 0
+		top: 0
+		width: 1
+		height: 1
+		z index: 0
+		visible: false
+	art:
+		left: { if is_resource() then -88.5 else 33.0 }
+		top: { if is_resource() then 0 else 59.0 }
+		width: { if is_resource() then 625 else 384.0 }
+		height: { if is_resource() then 625 else 329.0 }
+		z index: 2
+extra card field:
+	type: image
+	name: frame_top
+	editable: false
+	save value: false
+
+extra card field:
+	type: image
+	name: frame_bottom
+	editable: false
+	save value: false
+
+extra card field:
+	type: image
+	name: frame_left
+	editable: false
+	save value: false
+
+extra card field:
+	type: image
+	name: frame_right
+	editable: false
+	save value: false
+
+extra card field:
+	type: image
+	name: frame_text
+	editable: false
+	save value: false
+
+extra card field:
+	type: image
+	name: chrome_title
+	editable: false
+	save value: false
+
+extra card field:
+	type: image
+	name: chrome_type
+	editable: false
+	save value: false
+
+extra card field:
+	type: image
+	name: chrome_threshold
+	editable: false
+	save value: false
+
+extra card field:
+	type: image
+	name: pip_1
+	editable: false
+	save value: false
+
+extra card field:
+	type: image
+	name: pip_2
+	editable: false
+	save value: false
+
+extra card field:
+	type: image
+	name: pip_3
+	editable: false
+	save value: false
+
+extra card field:
+	type: image
+	name: pip_4
+	editable: false
+	save value: false
+
+extra card field:
+	type: image
+	name: pip_5
+	editable: false
+	save value: false
+
+extra card field:
+	type: image
+	name: pip_6
+	editable: false
+	save value: false
+
+extra card field:
+	type: image
+	name: pip_7
+	editable: false
+	save value: false
+
+extra card field:
+	type: image
+	name: pip_8
+	editable: false
+	save value: false
+
+extra card field:
+	type: image
+	name: chrome_gembar
+	editable: false
+	save value: false
+
+extra card field:
+	type: image
+	name: chrome_bottom
+	editable: false
+	save value: false
+
+extra card field:
+	type: image
+	name: chrome_mana
+	editable: false
+	save value: false
+
+extra card field:
+	type: image
+	name: chrome_resource_mana
+	editable: false
+	save value: false
+
+extra card field:
+	type: image
+	name: chrome_resource_title
+	editable: false
+	save value: false
+
+extra card field:
+	type: text
+	name: resource_stats
+	editable: false
+	save value: false
+	script: { if to_lower(card.card_type) == "resource" then (if card.attack != "" and card.attack != "0" then card.attack else "1") + "/" + (if card.defense != "" and card.defense != "0" then card.defense else "1") else "" }
+
+extra card field:
+	type: image
+	name: chrome_atkdef
+	editable: false
+	save value: false
+
+extra card field:
+	type: image
+	name: chrome_defframe
+	editable: false
+	save value: false
+
+extra card field:
+	type: image
+	name: chrome_format
+	editable: false
+	save value: false
+
+extra card field:
+	type: image
+	name: sleeve
+	editable: false
+	save value: false
+
+extra card style:
+	frame_top:
+		left: 0.0
+		top: 0.0
+		width: 448.0
+		height: 55.67
+		z index: 8
+		render style: image
+		visible: { not is_resource_or_choice() }
+		image: { "frames/" + frame_family() + "_1.png" }
+	frame_bottom:
+		left: 0.0
+		top: 583.25
+		width: 448.0
+		height: 41.75
+		z index: 8
+		render style: image
+		visible: { not is_resource_or_choice() }
+		image: { "frames/" + frame_family() + "_2.png" }
+	frame_left:
+		left: 0.0
+		top: 46.81
+		width: 34.17
+		height: 546.56
+		z index: 8
+		render style: image
+		visible: { not is_resource_or_choice() }
+		image: { "frames/" + frame_family() + "_3.png" }
+	frame_right:
+		left: 413.83
+		top: 46.81
+		width: 34.17
+		height: 546.56
+		z index: 8
+		render style: image
+		visible: { not is_resource_or_choice() }
+		image: { "frames/" + frame_family() + "_4.png" }
+	frame_text:
+		left: 12.66
+		top: 416.24
+		width: 422.69
+		height: 194.84
+		z index: 7
+		render style: image
+		visible: { not is_resource_or_choice() }
+		image: { "frames/" + frame_family() + "_Text.png" }
+	chrome_title:
+		left: 14.0
+		top: 6.0
+		width: 429.0
+		height: 57.0
+		z index: 12
+		render style: image
+		visible: { not is_resource_or_choice() }
+		image: { if is_pve() then "elements/TitleBarPVE_1.png" else "elements/TitleBar.png" }
+	chrome_type:
+		left: 33.0
+		top: 388.0
+		width: 384.0
+		height: 36.0
+		z index: 12
+		render style: image
+		visible: { not is_resource_or_choice() }
+		image: elements/TypeBar.png
+	chrome_threshold:
+		left: 13.0
+		top: 7.0
+		width: 44.0
+		height: 389.0
+		z index: 11
+		render style: image
+		visible: { not is_resource_or_choice() }
+		image: elements/ThresholdBar.png
+	pip_1:
+		left: 18.47
+		top: 75.81
+		width: 26.79
+		height: 26.81
+		z index: 15
+		render style: image
+		visible: { pip_color(1) != "" and not is_resource_or_choice() }
+		image: { "icons/Threshold_" + pip_color(1) + ".png" }
+	pip_2:
+		left: 18.47
+		top: 104.62
+		width: 26.79
+		height: 26.81
+		z index: 15
+		render style: image
+		visible: { pip_color(2) != "" and not is_resource_or_choice() }
+		image: { "icons/Threshold_" + pip_color(2) + ".png" }
+	pip_3:
+		left: 18.47
+		top: 133.43
+		width: 26.79
+		height: 26.81
+		z index: 15
+		render style: image
+		visible: { pip_color(3) != "" and not is_resource_or_choice() }
+		image: { "icons/Threshold_" + pip_color(3) + ".png" }
+	pip_4:
+		left: 18.47
+		top: 162.24
+		width: 26.79
+		height: 26.81
+		z index: 15
+		render style: image
+		visible: { pip_color(4) != "" and not is_resource_or_choice() }
+		image: { "icons/Threshold_" + pip_color(4) + ".png" }
+	pip_5:
+		left: 18.47
+		top: 191.05
+		width: 26.79
+		height: 26.81
+		z index: 15
+		render style: image
+		visible: { pip_color(5) != "" and not is_resource_or_choice() }
+		image: { "icons/Threshold_" + pip_color(5) + ".png" }
+	pip_6:
+		left: 18.47
+		top: 219.86
+		width: 26.79
+		height: 26.81
+		z index: 15
+		render style: image
+		visible: { pip_color(6) != "" and not is_resource_or_choice() }
+		image: { "icons/Threshold_" + pip_color(6) + ".png" }
+	pip_7:
+		left: 18.47
+		top: 248.67
+		width: 26.79
+		height: 26.81
+		z index: 15
+		render style: image
+		visible: { pip_color(7) != "" and not is_resource_or_choice() }
+		image: { "icons/Threshold_" + pip_color(7) + ".png" }
+	pip_8:
+		left: 18.47
+		top: 277.48
+		width: 26.79
+		height: 26.81
+		z index: 15
+		render style: image
+		visible: { pip_color(8) != "" and not is_resource_or_choice() }
+		image: { "icons/Threshold_" + pip_color(8) + ".png" }
+	chrome_gembar:
+		left: 404.0
+		top: 6.0
+		width: 41.0
+		height: 388.0
+		z index: 11
+		render style: image
+		visible: { not is_resource_or_choice() }
+		image: elements/GemBar.png
+	chrome_bottom:
+		left: 126.0
+		top: 589.0
+		width: 196.0
+		height: 36.0
+		z index: 12
+		render style: image
+		visible: { not is_resource_or_choice() }
+		image: elements/BottomBar.png
+	chrome_mana:
+		left: 0.0
+		top: 0.0
+		width: 73.0
+		height: 69.0
+		z index: 13
+		render style: image
+		visible: { not is_resource_or_choice() }
+		image: { if is_bane() then "elements/BaneSkull.png" else if is_immortal() then "elements/ManaCostImmortal.png" else "elements/ManaCost.png" }
+	chrome_resource_mana:
+		left: 7.0
+		top: 487.0
+		width: 115.0
+		height: 55.0
+		z index: 13
+		render style: image
+		visible: { is_resource() and not is_choice() }
+		image: { if is_immortal() and not is_basic_resource() then "elements/ResourceManaCostImmortal.png" else "elements/ResourceManaCost.png" }
+	chrome_resource_title:
+		left: 0
+		top: 0
+		width: 448
+		height: 108
+		z index: 12
+		render style: image
+		visible: { is_resource() and not is_choice() }
+		image: elements/ResourceTitleBand.png
+	resource_stats:
+		left: 25.0
+		top: 495.0
+		width: 79.0
+		height: 41.0
+		z index: 31
+		alignment: center middle shrink-overflow
+		visible: { is_resource() and not is_choice() }
+		font:
+			name: Hex_Arial_Bold
+			size: 20
+			color: rgb(255,255,255)
+			weight: bold
+			shadow color: rgb(0,0,0)
+			shadow displacement x: 0.6
+			shadow displacement y: 0.6
+			shadow blur: 0.25
+	chrome_atkdef:
+		left: 0.0
+		top: 537.0
+		width: 88.0
+		height: 88.0
+		z index: 13
+		render style: image
+		visible: { is_troop() and not is_resource_or_choice() }
+		image: elements/AtkDefFrame.png
+	chrome_defframe:
+		left: 360.0
+		top: 537.0
+		width: 88.0
+		height: 88.0
+		z index: 13
+		render style: image
+		visible: { is_troop() and not is_resource_or_choice() }
+		image: elements/AtkDefFrame.png
+	chrome_format:
+		left: 0.0
+		top: 56.0
+		width: 28.0
+		height: 30.0
+		z index: 14
+		render style: image
+		visible: { is_pve() or is_immortal() }
+		image: { if is_pve() then "elements/PVE.png" else "elements/Immortal.png" }
+	sleeve:
+		left: 0
+		top: 0
+		width: 448
+		height: 625
+		z index: 0
+		visible: false
+		render style: image
+		image: sleeve.png

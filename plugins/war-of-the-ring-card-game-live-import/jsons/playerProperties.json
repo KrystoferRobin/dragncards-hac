@@ -1,0 +1,23 @@
+{
+  "playerProperties": {
+    "deckSize": {
+      "default": 0,
+      "min": 0,
+      "type": "integer"
+    },
+    "handSize": {
+      "default": 0,
+      "min": 0,
+      "type": "integer"
+    },
+    "ringTokens": {
+      "default": 0,
+      "min": 0,
+      "type": "integer"
+    },
+    "team": {
+      "default": "",
+      "type": "string"
+    }
+  }
+}

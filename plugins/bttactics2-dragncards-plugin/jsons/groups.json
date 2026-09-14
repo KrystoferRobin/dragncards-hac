@@ -1,0 +1,204 @@
+{
+  "groups": {
+    "sharedSetAside": {
+      "groupType": "aside",
+      "label": "Set Aside",
+      "tableLabel": "Set Aside",
+      "onCardEnter": {
+        "controller": "shared"
+      }
+    },
+    "player1Stockpile": {
+      "groupType": "stockpile",
+      "label": "Player 1 Stockpile",
+      "tableLabel": "Stockpile",
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1Stockpile",
+        "discardGroupId": "player1Scrapheap"
+      }
+    },
+    "player1Scrapheap": {
+      "groupType": "scrapheap",
+      "label": "Player 1 Scrapheap",
+      "tableLabel": "Scrap",
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1Stockpile",
+        "discardGroupId": "player1Scrapheap"
+      }
+    },
+    "player1Removed": {
+      "groupType": "removed",
+      "label": "Player 1 Removed",
+      "tableLabel": "RFG",
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1Stockpile",
+        "discardGroupId": "player1Scrapheap"
+      }
+    },
+    "player1Sideboard": {
+      "groupType": "sideboard",
+      "label": "Player 1 Sideboard",
+      "tableLabel": "Side",
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1Stockpile",
+        "discardGroupId": "player1Scrapheap"
+      }
+    },
+    "player1Hand": {
+      "groupType": "hand",
+      "label": "Player 1 Hand",
+      "tableLabel": "Hand",
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1Stockpile",
+        "discardGroupId": "player1Scrapheap"
+      }
+    },
+    "player1Resources": {
+      "groupType": "inPlay",
+      "label": "Player 1 Resources",
+      "tableLabel": "Resources",
+      "canHaveAttachments": false,
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1Stockpile",
+        "discardGroupId": "player1Scrapheap",
+        "inPlay": true
+      }
+    },
+    "player1Units": {
+      "groupType": "inPlay",
+      "label": "Player 1 Units",
+      "tableLabel": "Units",
+      "canHaveAttachments": true,
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1Stockpile",
+        "discardGroupId": "player1Scrapheap",
+        "inPlay": true
+      }
+    },
+    "player1Commands": {
+      "groupType": "inPlay",
+      "label": "Player 1 Commands",
+      "tableLabel": "Cmd",
+      "canHaveAttachments": false,
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1Stockpile",
+        "discardGroupId": "player1Scrapheap",
+        "inPlay": true
+      }
+    },
+    "player1Tokens": {
+      "groupType": "tokens",
+      "label": "Player 1 Tokens",
+      "tableLabel": "Tokens",
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1Stockpile",
+        "discardGroupId": "player1Scrapheap"
+      }
+    },
+    "player2Stockpile": {
+      "groupType": "stockpile",
+      "label": "Player 2 Stockpile",
+      "tableLabel": "Stockpile",
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2Stockpile",
+        "discardGroupId": "player2Scrapheap"
+      }
+    },
+    "player2Scrapheap": {
+      "groupType": "scrapheap",
+      "label": "Player 2 Scrapheap",
+      "tableLabel": "Scrap",
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2Stockpile",
+        "discardGroupId": "player2Scrapheap"
+      }
+    },
+    "player2Removed": {
+      "groupType": "removed",
+      "label": "Player 2 Removed",
+      "tableLabel": "RFG",
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2Stockpile",
+        "discardGroupId": "player2Scrapheap"
+      }
+    },
+    "player2Sideboard": {
+      "groupType": "sideboard",
+      "label": "Player 2 Sideboard",
+      "tableLabel": "Side",
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2Stockpile",
+        "discardGroupId": "player2Scrapheap"
+      }
+    },
+    "player2Hand": {
+      "groupType": "hand",
+      "label": "Player 2 Hand",
+      "tableLabel": "Hand",
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2Stockpile",
+        "discardGroupId": "player2Scrapheap"
+      }
+    },
+    "player2Resources": {
+      "groupType": "inPlay",
+      "label": "Player 2 Resources",
+      "tableLabel": "Resources",
+      "canHaveAttachments": false,
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2Stockpile",
+        "discardGroupId": "player2Scrapheap",
+        "inPlay": true
+      }
+    },
+    "player2Units": {
+      "groupType": "inPlay",
+      "label": "Player 2 Units",
+      "tableLabel": "Units",
+      "canHaveAttachments": true,
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2Stockpile",
+        "discardGroupId": "player2Scrapheap",
+        "inPlay": true
+      }
+    },
+    "player2Commands": {
+      "groupType": "inPlay",
+      "label": "Player 2 Commands",
+      "tableLabel": "Cmd",
+      "canHaveAttachments": false,
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2Stockpile",
+        "discardGroupId": "player2Scrapheap",
+        "inPlay": true
+      }
+    },
+    "player2Tokens": {
+      "groupType": "tokens",
+      "label": "Player 2 Tokens",
+      "tableLabel": "Tokens",
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2Stockpile",
+        "discardGroupId": "player2Scrapheap"
+      }
+    }
+  }
+}

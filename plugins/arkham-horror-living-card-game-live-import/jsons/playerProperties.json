@@ -1,0 +1,21 @@
+{
+  "playerProperties": {
+    "actionsTaken": {
+      "default": 0,
+      "label": "id:actionsTaken",
+      "min": 0,
+      "type": "integer"
+    },
+    "blockUnsafeActions": {
+      "default": true,
+      "label": "id:blockUnsafeActions",
+      "type": "boolean"
+    },
+    "resources": {
+      "default": 0,
+      "label": "id:resources",
+      "min": 0,
+      "type": "integer"
+    }
+  }
+}

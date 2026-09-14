@@ -20,11 +20,11 @@ export const Login: React.FC<Props> = () => {
   const { setAuthAndRenewToken } = useAuth();
 
   // Autofocus effect
-  const emailRef = useRef(null);
+  const inviteRef = useRef(null);
   useEffect(() => {
-    if (emailRef != null && emailRef.current != null) {
+    if (inviteRef != null && inviteRef.current != null) {
       // @ts-ignore: Object is possibly 'null'.
-      emailRef.current.focus();
+      inviteRef.current.focus();
     }
   }, []);
 
@@ -34,7 +34,7 @@ export const Login: React.FC<Props> = () => {
       setIsError(false);
       const data = {
         user: {
-          email: inputs.email,
+          invite_code: inputs.invite_code,
           password: inputs.password,
           password_confirmation: inputs.password_confirmation,
           alias: inputs.alias,
@@ -95,16 +95,17 @@ export const Login: React.FC<Props> = () => {
         <fieldset disabled={isLoading} aria-busy={isLoading}>
           <div className="mb-4">
             <label className="block mb-2 text-sm font-bold text-gray-700">
-              email
+              Haven Invite Code
             </label>
             <input
-              type="email"
-              name="email"
-              placeholder="email"
+              type="text"
+              name="invite_code"
+              placeholder="Haven Invite Code"
+              autoComplete="off"
               className="block w-full mt-2 form-control"
               onChange={handleInputChange}
-              value={inputs.email || ""}
-              ref={emailRef}
+              value={inputs.invite_code || ""}
+              ref={inviteRef}
             />
           </div>
           <div className="mb-4">

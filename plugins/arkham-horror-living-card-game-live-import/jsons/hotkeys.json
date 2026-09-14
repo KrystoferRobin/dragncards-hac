@@ -1,0 +1,295 @@
+{
+  "hotkeys": {
+    "card": [
+      {
+        "actionList": "calculateWillpower",
+        "key": "7",
+        "label": "id:calculateWillpower"
+      },
+      {
+        "actionList": "calculateIntellect",
+        "key": "8",
+        "label": "id:calculateIntellect"
+      },
+      {
+        "actionList": "calculateCombat",
+        "key": "9",
+        "label": "id:calculateCombat"
+      },
+      {
+        "actionList": "calculateAgility",
+        "key": "0",
+        "label": "id:calculateAgility"
+      },
+      {
+        "actionList": "peekCard",
+        "key": "/",
+        "label": "id:peekCard"
+      },
+      {
+        "actionList": "attachCard",
+        "key": "A",
+        "label": "id:attachCard"
+      },
+      {
+        "actionList": "attachCardFacedown",
+        "key": "Ctrl+A",
+        "label": "id:attachCardFacedown"
+      },
+      {
+        "actionList": "detachCard",
+        "key": "D",
+        "label": "id:detachCard"
+      },
+      {
+        "actionList": "exhaustCard",
+        "key": "E",
+        "label": "id:exhaustCard"
+      },
+      {
+        "actionList": "flipCard",
+        "key": "F",
+        "label": "id:flipCard"
+      },
+      {
+        "actionList": "advanceStoryFromCard",
+        "key": "G",
+        "label": "id:advanceStoryFromCard"
+      },
+      {
+        "actionList": "investigatorTurn",
+        "key": "I",
+        "label": "id:investigatorTurn"
+      },
+      {
+        "actionList": "commitCard",
+        "key": "J",
+        "label": "id:commitCard"
+      },
+      {
+        "actionList": "replaceLocation",
+        "key": "L",
+        "label": "id:replaceLocation"
+      },
+      {
+        "actionList": "playCard",
+        "key": "P",
+        "label": "id:playCard"
+      },
+      {
+        "actionList": "putCardIntoPlay",
+        "key": "Ctrl+P",
+        "label": "id:putCardIntoPlay"
+      },
+      {
+        "actionList": "readyCard",
+        "key": "R",
+        "label": "id:readyCard"
+      },
+      {
+        "actionList": "spawnCard",
+        "key": "S",
+        "label": "id:spawnCard"
+      },
+      {
+        "actionList": "discardCard",
+        "key": "X",
+        "label": "id:discardCard"
+      },
+      {
+        "actionList": "putCardBeneath",
+        "key": "Z",
+        "label": "id:putCardBeneath"
+      },
+      {
+        "actionList": "moveClue",
+        "key": "'",
+        "label": "id:moveClue"
+      },
+      {
+        "actionList": "sendToBack",
+        "key": "[",
+        "label": "id:sendToBack"
+      },
+      {
+        "actionList": "bringToFront",
+        "key": "]",
+        "label": "id:bringToFront"
+      },
+      {
+        "actionList": "removeCard",
+        "key": "Delete",
+        "label": "id:removeCard"
+      },
+      {
+        "actionList": "deleteSupplyCard",
+        "key": "Ctrl+Delete",
+        "label": "id:deleteSupplyCard"
+      }
+    ],
+    "game": [
+      {
+        "actionList": "retractAction",
+        "key": "<",
+        "label": "id:retractAction"
+      },
+      {
+        "actionList": "retractAction",
+        "key": ",",
+        "label": "id:retractAction"
+      },
+      {
+        "actionList": "takeAction",
+        "key": ">",
+        "label": "id:takeAction"
+      },
+      {
+        "actionList": "takeAction",
+        "key": ".",
+        "label": "id:takeAction"
+      },
+      {
+        "actionList": "spendResources",
+        "key": "-",
+        "label": "id:spendResources"
+      },
+      {
+        "actionList": "gainResources",
+        "key": "=",
+        "label": "id:gainResources"
+      },
+      {
+        "actionList": "gainResources",
+        "key": "+",
+        "label": "id:gainResources"
+      },
+      {
+        "actionList": "toggleChaosBag",
+        "key": "B",
+        "label": "id:toggleChaosBag"
+      },
+      {
+        "actionList": "revealChaosToken",
+        "key": "C",
+        "label": "id:revealChaosToken"
+      },
+      {
+        "actionList": "nameChaosToken",
+        "key": "H",
+        "label": "id:nameChaosToken"
+      },
+      {
+        "actionList": "toggleTokens",
+        "key": "K",
+        "label": "id:toggleTokens"
+      },
+      {
+        "actionList": "toggleOffMap",
+        "key": "M",
+        "label": "id:toggleOffMap"
+      },
+      {
+        "actionList": "toggleNotInPlay",
+        "key": "N",
+        "label": "id:toggleNotInPlay"
+      },
+      {
+        "actionList": "toggleSideboard",
+        "key": "O",
+        "label": "id:toggleSideboard"
+      },
+      {
+        "actionList": "drawEncounterCard",
+        "key": "Q",
+        "label": "id:drawEncounterCard"
+      },
+      {
+        "actionList": "addCurseToken",
+        "key": "U",
+        "label": "id:addCurseToken"
+      },
+      {
+        "actionList": "removeCurseToken",
+        "key": "Shift+U",
+        "label": "id:removeCurseToken"
+      },
+      {
+        "actionList": "toggleVictoryDisplay",
+        "key": "V",
+        "label": "id:toggleVictoryDisplay"
+      },
+      {
+        "actionList": "drawPlayerCard",
+        "key": "W",
+        "label": "id:drawPlayerCard"
+      },
+      {
+        "actionList": "discardVoid",
+        "key": "Shift+X",
+        "label": "id:discardVoid"
+      },
+      {
+        "actionList": "addBlessToken",
+        "key": "Y",
+        "label": "id:addBlessToken"
+      },
+      {
+        "actionList": "removeBlessToken",
+        "key": "Shift+Y",
+        "label": "id:removeBlessToken"
+      },
+      {
+        "actionList": "moveAllCardsUp",
+        "key": "Ctrl+ArrowUp",
+        "label": "id:moveAllCardsUp"
+      },
+      {
+        "actionList": "moveAllCardsDown",
+        "key": "Ctrl+ArrowDown",
+        "label": "id:moveAllCardsDown"
+      },
+      {
+        "actionList": "moveAllCardsLeft",
+        "key": "Ctrl+ArrowLeft",
+        "label": "id:moveAllCardsLeft"
+      },
+      {
+        "actionList": "moveAllCardsRight",
+        "key": "Ctrl+ArrowRight",
+        "label": "id:moveAllCardsRight"
+      }
+    ],
+    "token": [
+      {
+        "key": "1",
+        "label": "icon(https://toybox.hundredacre.club/cards/arkham-horror-living-card-game/_plugin/ArkhamHorrorLivingCardGame-TokenResource.webp)",
+        "tokenType": "resource"
+      },
+      {
+        "key": "2",
+        "label": "icon(https://toybox.hundredacre.club/cards/arkham-horror-living-card-game/_plugin/ArkhamHorrorLivingCardGame-TokenClue.webp)",
+        "tokenType": "clue"
+      },
+      {
+        "key": "3",
+        "label": "icon(https://toybox.hundredacre.club/cards/arkham-horror-living-card-game/_plugin/ArkhamHorrorLivingCardGame-TokenDoom.webp)",
+        "tokenType": "doom"
+      },
+      {
+        "key": "4",
+        "label": "icon(https://toybox.hundredacre.club/cards/arkham-horror-living-card-game/_plugin/ArkhamHorrorLivingCardGame-TokenDamage.webp)",
+        "tokenType": "damage"
+      },
+      {
+        "key": "5",
+        "label": "icon(https://toybox.hundredacre.club/cards/arkham-horror-living-card-game/_plugin/ArkhamHorrorLivingCardGame-TokenHorror.webp)",
+        "tokenType": "horror"
+      },
+      {
+        "key": "6",
+        "label": "icon(https://toybox.hundredacre.club/cards/arkham-horror-living-card-game/_plugin/ArkhamHorrorLivingCardGame-TokenFreeze.webp)",
+        "tokenType": "freeze"
+      }
+    ]
+  }
+}

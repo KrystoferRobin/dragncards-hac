@@ -1,0 +1,26 @@
+{
+  "groupMenu": {
+    "moveToGroupIds": [
+      "playerSPlay",
+      "playerSHoldings",
+      "playerSStronghold",
+      "playerSSensei",
+      "playerSProvince1",
+      "playerSProvince2",
+      "playerSProvince3",
+      "playerSProvince4",
+      "playerSHand",
+      "playerSDynasty",
+      "playerSFate",
+      "playerSDynastyDiscard",
+      "playerSFateDiscard",
+      "playerSFavor",
+      "playerSRemoved",
+      "playerLPlay",
+      "playerLHoldings",
+      "sharedFavor",
+      "sharedSetAside"
+    ],
+    "options": []
+  }
+}

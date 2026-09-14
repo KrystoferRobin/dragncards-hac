@@ -1,0 +1,114 @@
+{
+  "cardTypes": {
+    "Army": {
+      "height": 1,
+      "tokens": [
+        "attackBlue",
+        "defenseBlue",
+        "attackRed",
+        "defenseRed",
+        "pathRed",
+        "pathBlue",
+        "corruption"
+      ],
+      "width": 0.72
+    },
+    "Battleground": {
+      "height": 1,
+      "tokens": [
+        "attackBlue",
+        "defenseBlue",
+        "attackRed",
+        "defenseRed",
+        "pathRed",
+        "pathBlue",
+        "corruption"
+      ],
+      "width": 1.44
+    },
+    "Character": {
+      "height": 1,
+      "tokens": [
+        "attackBlue",
+        "defenseBlue",
+        "attackRed",
+        "defenseRed",
+        "pathRed",
+        "pathBlue",
+        "corruption"
+      ],
+      "width": 0.72
+    },
+    "Event": {
+      "height": 1,
+      "tokens": [
+        "attackBlue",
+        "defenseBlue",
+        "attackRed",
+        "defenseRed",
+        "pathRed",
+        "pathBlue",
+        "corruption"
+      ],
+      "width": 0.72
+    },
+    "Item": {
+      "height": 1,
+      "tokens": [
+        "attackBlue",
+        "defenseBlue",
+        "attackRed",
+        "defenseRed",
+        "pathRed",
+        "pathBlue",
+        "corruption"
+      ],
+      "width": 0.72
+    },
+    "Path": {
+      "height": 1,
+      "tokens": [
+        "attackBlue",
+        "defenseBlue",
+        "attackRed",
+        "defenseRed",
+        "pathRed",
+        "pathBlue",
+        "corruption"
+      ],
+      "width": 1.44
+    },
+    "Rulebook": {
+      "height": 1.25,
+      "tokens": [],
+      "width": 1,
+      "zoomFactor": 1
+    },
+    "Rules": {
+      "height": 1,
+      "tokens": [
+        "attackBlue",
+        "defenseBlue",
+        "attackRed",
+        "defenseRed",
+        "pathRed",
+        "pathBlue",
+        "corruption"
+      ],
+      "width": 1.44
+    },
+    "Skirmish": {
+      "height": 1,
+      "tokens": [
+        "attackBlue",
+        "defenseBlue",
+        "attackRed",
+        "defenseRed",
+        "pathRed",
+        "pathBlue",
+        "corruption"
+      ],
+      "width": 1.44
+    }
+  }
+}

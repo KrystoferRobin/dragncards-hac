@@ -1,0 +1,20 @@
+{
+  "groupMenu": {
+    "moveToGroupIds": [
+      "playerNDeck",
+      "playerNRetreat",
+      "playerNHand",
+      "playerNStarting",
+      "playerNPlay",
+      "playerNBonds",
+      "playerNSupport",
+      "playerNOrbs",
+      "playerNFaceUpOrbs",
+      "playerNBoundless",
+      "playerNMisc",
+      "playerN+1Play",
+      "sharedSetAside"
+    ],
+    "options": []
+  }
+}

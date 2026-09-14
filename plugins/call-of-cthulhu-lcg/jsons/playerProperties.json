@@ -1,0 +1,10 @@
+{
+  "playerProperties": {
+    "storiesWon": {
+      "label": "Stories",
+      "type": "integer",
+      "default": 0,
+      "min": 0
+    }
+  }
+}

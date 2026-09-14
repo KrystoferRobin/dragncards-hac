@@ -1,0 +1,11 @@
+{
+  "automation": {
+    "postNewGameActionList": [
+      [
+        "LOG",
+        "Star Trek CCG 1E table created. Load a deck, then Seed Line to snap missions onto the spaceline. No rules are enforced."
+      ]
+    ],
+    "gameRules": {}
+  }
+}

@@ -1,0 +1,408 @@
+{
+  "groups": {
+    "sharedSetAside": {
+      "groupType": "aside",
+      "label": "Set Aside",
+      "tableLabel": "Set Aside",
+      "onCardEnter": {
+        "controller": "shared"
+      }
+    },
+    "player1Deck": {
+      "groupType": "deck",
+      "label": "Player 1 Deck",
+      "tableLabel": "Deck",
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1Deck",
+        "discardGroupId": "player1Crypt",
+        "currentSide": "B"
+      }
+    },
+    "player1Crypt": {
+      "groupType": "discard",
+      "label": "Player 1 Crypt",
+      "tableLabel": "Crypt",
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1Deck",
+        "discardGroupId": "player1Crypt",
+        "currentSide": "A"
+      }
+    },
+    "player1Hand": {
+      "groupType": "hand",
+      "label": "Player 1 Hand",
+      "tableLabel": "Hand",
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1Deck",
+        "discardGroupId": "player1Crypt",
+        "currentSide": "B",
+        "peeking": {
+          "player1": true
+        }
+      }
+    },
+    "player1Champion": {
+      "groupType": "inPlay",
+      "label": "Player 1 Champion",
+      "tableLabel": "Champion",
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1Deck",
+        "discardGroupId": "player1Crypt",
+        "currentSide": "A",
+        "inPlay": true
+      },
+      "canHaveAttachments": true
+    },
+    "player1Resources": {
+      "groupType": "inPlay",
+      "label": "Player 1 Resources",
+      "tableLabel": "Resources",
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1Deck",
+        "discardGroupId": "player1Crypt",
+        "currentSide": "A",
+        "inPlay": true
+      },
+      "canHaveAttachments": true
+    },
+    "player1Play": {
+      "groupType": "inPlay",
+      "label": "Player 1 Troops",
+      "tableLabel": "Troops",
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1Deck",
+        "discardGroupId": "player1Crypt",
+        "currentSide": "A",
+        "inPlay": true
+      },
+      "canHaveAttachments": true
+    },
+    "player1Support": {
+      "groupType": "inPlay",
+      "label": "Player 1 Support",
+      "tableLabel": "Support",
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1Deck",
+        "discardGroupId": "player1Crypt",
+        "currentSide": "A",
+        "inPlay": true
+      },
+      "canHaveAttachments": true
+    },
+    "player1Void": {
+      "groupType": "aside",
+      "label": "Player 1 Void",
+      "tableLabel": "Void",
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1Deck",
+        "discardGroupId": "player1Crypt",
+        "currentSide": "A"
+      }
+    },
+    "player2Deck": {
+      "groupType": "deck",
+      "label": "Player 2 Deck",
+      "tableLabel": "Deck",
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2Deck",
+        "discardGroupId": "player2Crypt",
+        "currentSide": "B"
+      }
+    },
+    "player2Crypt": {
+      "groupType": "discard",
+      "label": "Player 2 Crypt",
+      "tableLabel": "Crypt",
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2Deck",
+        "discardGroupId": "player2Crypt",
+        "currentSide": "A"
+      }
+    },
+    "player2Hand": {
+      "groupType": "hand",
+      "label": "Player 2 Hand",
+      "tableLabel": "Hand",
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2Deck",
+        "discardGroupId": "player2Crypt",
+        "currentSide": "B",
+        "peeking": {
+          "player2": true
+        }
+      }
+    },
+    "player2Champion": {
+      "groupType": "inPlay",
+      "label": "Player 2 Champion",
+      "tableLabel": "Champion",
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2Deck",
+        "discardGroupId": "player2Crypt",
+        "currentSide": "A",
+        "inPlay": true
+      },
+      "canHaveAttachments": true
+    },
+    "player2Resources": {
+      "groupType": "inPlay",
+      "label": "Player 2 Resources",
+      "tableLabel": "Resources",
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2Deck",
+        "discardGroupId": "player2Crypt",
+        "currentSide": "A",
+        "inPlay": true
+      },
+      "canHaveAttachments": true
+    },
+    "player2Play": {
+      "groupType": "inPlay",
+      "label": "Player 2 Troops",
+      "tableLabel": "Troops",
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2Deck",
+        "discardGroupId": "player2Crypt",
+        "currentSide": "A",
+        "inPlay": true
+      },
+      "canHaveAttachments": true
+    },
+    "player2Support": {
+      "groupType": "inPlay",
+      "label": "Player 2 Support",
+      "tableLabel": "Support",
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2Deck",
+        "discardGroupId": "player2Crypt",
+        "currentSide": "A",
+        "inPlay": true
+      },
+      "canHaveAttachments": true
+    },
+    "player2Void": {
+      "groupType": "aside",
+      "label": "Player 2 Void",
+      "tableLabel": "Void",
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2Deck",
+        "discardGroupId": "player2Crypt",
+        "currentSide": "A"
+      }
+    },
+    "player3Deck": {
+      "groupType": "deck",
+      "label": "Player 3 Deck",
+      "tableLabel": "Deck",
+      "onCardEnter": {
+        "controller": "player3",
+        "deckGroupId": "player3Deck",
+        "discardGroupId": "player3Crypt",
+        "currentSide": "B"
+      }
+    },
+    "player3Crypt": {
+      "groupType": "discard",
+      "label": "Player 3 Crypt",
+      "tableLabel": "Crypt",
+      "onCardEnter": {
+        "controller": "player3",
+        "deckGroupId": "player3Deck",
+        "discardGroupId": "player3Crypt",
+        "currentSide": "A"
+      }
+    },
+    "player3Hand": {
+      "groupType": "hand",
+      "label": "Player 3 Hand",
+      "tableLabel": "Hand",
+      "onCardEnter": {
+        "controller": "player3",
+        "deckGroupId": "player3Deck",
+        "discardGroupId": "player3Crypt",
+        "currentSide": "B",
+        "peeking": {
+          "player3": true
+        }
+      }
+    },
+    "player3Champion": {
+      "groupType": "inPlay",
+      "label": "Player 3 Champion",
+      "tableLabel": "Champion",
+      "onCardEnter": {
+        "controller": "player3",
+        "deckGroupId": "player3Deck",
+        "discardGroupId": "player3Crypt",
+        "currentSide": "A",
+        "inPlay": true
+      },
+      "canHaveAttachments": true
+    },
+    "player3Resources": {
+      "groupType": "inPlay",
+      "label": "Player 3 Resources",
+      "tableLabel": "Resources",
+      "onCardEnter": {
+        "controller": "player3",
+        "deckGroupId": "player3Deck",
+        "discardGroupId": "player3Crypt",
+        "currentSide": "A",
+        "inPlay": true
+      },
+      "canHaveAttachments": true
+    },
+    "player3Play": {
+      "groupType": "inPlay",
+      "label": "Player 3 Troops",
+      "tableLabel": "Troops",
+      "onCardEnter": {
+        "controller": "player3",
+        "deckGroupId": "player3Deck",
+        "discardGroupId": "player3Crypt",
+        "currentSide": "A",
+        "inPlay": true
+      },
+      "canHaveAttachments": true
+    },
+    "player3Support": {
+      "groupType": "inPlay",
+      "label": "Player 3 Support",
+      "tableLabel": "Support",
+      "onCardEnter": {
+        "controller": "player3",
+        "deckGroupId": "player3Deck",
+        "discardGroupId": "player3Crypt",
+        "currentSide": "A",
+        "inPlay": true
+      },
+      "canHaveAttachments": true
+    },
+    "player3Void": {
+      "groupType": "aside",
+      "label": "Player 3 Void",
+      "tableLabel": "Void",
+      "onCardEnter": {
+        "controller": "player3",
+        "deckGroupId": "player3Deck",
+        "discardGroupId": "player3Crypt",
+        "currentSide": "A"
+      }
+    },
+    "player4Deck": {
+      "groupType": "deck",
+      "label": "Player 4 Deck",
+      "tableLabel": "Deck",
+      "onCardEnter": {
+        "controller": "player4",
+        "deckGroupId": "player4Deck",
+        "discardGroupId": "player4Crypt",
+        "currentSide": "B"
+      }
+    },
+    "player4Crypt": {
+      "groupType": "discard",
+      "label": "Player 4 Crypt",
+      "tableLabel": "Crypt",
+      "onCardEnter": {
+        "controller": "player4",
+        "deckGroupId": "player4Deck",
+        "discardGroupId": "player4Crypt",
+        "currentSide": "A"
+      }
+    },
+    "player4Hand": {
+      "groupType": "hand",
+      "label": "Player 4 Hand",
+      "tableLabel": "Hand",
+      "onCardEnter": {
+        "controller": "player4",
+        "deckGroupId": "player4Deck",
+        "discardGroupId": "player4Crypt",
+        "currentSide": "B",
+        "peeking": {
+          "player4": true
+        }
+      }
+    },
+    "player4Champion": {
+      "groupType": "inPlay",
+      "label": "Player 4 Champion",
+      "tableLabel": "Champion",
+      "onCardEnter": {
+        "controller": "player4",
+        "deckGroupId": "player4Deck",
+        "discardGroupId": "player4Crypt",
+        "currentSide": "A",
+        "inPlay": true
+      },
+      "canHaveAttachments": true
+    },
+    "player4Resources": {
+      "groupType": "inPlay",
+      "label": "Player 4 Resources",
+      "tableLabel": "Resources",
+      "onCardEnter": {
+        "controller": "player4",
+        "deckGroupId": "player4Deck",
+        "discardGroupId": "player4Crypt",
+        "currentSide": "A",
+        "inPlay": true
+      },
+      "canHaveAttachments": true
+    },
+    "player4Play": {
+      "groupType": "inPlay",
+      "label": "Player 4 Troops",
+      "tableLabel": "Troops",
+      "onCardEnter": {
+        "controller": "player4",
+        "deckGroupId": "player4Deck",
+        "discardGroupId": "player4Crypt",
+        "currentSide": "A",
+        "inPlay": true
+      },
+      "canHaveAttachments": true
+    },
+    "player4Support": {
+      "groupType": "inPlay",
+      "label": "Player 4 Support",
+      "tableLabel": "Support",
+      "onCardEnter": {
+        "controller": "player4",
+        "deckGroupId": "player4Deck",
+        "discardGroupId": "player4Crypt",
+        "currentSide": "A",
+        "inPlay": true
+      },
+      "canHaveAttachments": true
+    },
+    "player4Void": {
+      "groupType": "aside",
+      "label": "Player 4 Void",
+      "tableLabel": "Void",
+      "onCardEnter": {
+        "controller": "player4",
+        "deckGroupId": "player4Deck",
+        "discardGroupId": "player4Crypt",
+        "currentSide": "A"
+      }
+    }
+  }
+}

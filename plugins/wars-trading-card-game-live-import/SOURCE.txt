@@ -1,0 +1,9 @@
+Imported 2026-09-11 03:39 UTC from a live DragnCards table dump.
+Dump file: WARS_Trading_Card_Game-live-dump.json
+Official plugin id: 82
+Official name: WARS Trading Card Game
+Official version: 174
+repo_url: https://github.com/warstcgpc/dragncards-warstcg-plugin
+
+This is a compiled snapshot (merged game_def + card_db), not original source files.
+Run collect_hosted_images.py --allow-s3 on this folder so art lives on toybox.

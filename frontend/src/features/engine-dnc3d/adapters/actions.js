@@ -9,6 +9,18 @@
 import store from '../../../store';
 import { dragnActionLists } from '../../engine/functions/dragnActionLists';
 
+function isProvinceGroupId(groupId) {
+  return /Province[1-4]$/.test(groupId || '');
+}
+
+function refillIfProvinceEmptied(doActionList, fromGroupId, toGroupId) {
+  if (!fromGroupId || fromGroupId === toGroupId || !isProvinceGroupId(fromGroupId)) return;
+  doActionList(
+    ["REFILL_PROVINCE", fromGroupId],
+    `Refill empty province ${fromGroupId}`,
+  );
+}
+
 export function buildEngineCallbacks(doActionList, reverseIdMap) {
   function getGame() {
     return store.getState()?.gameUi?.game;
@@ -55,6 +67,7 @@ export function buildEngineCallbacks(doActionList, reverseIdMap) {
       }
 
       doActionList(actionList, `Moved card ${dcCardId} to group ${toRegionId}`);
+      refillIfProvinceEmptied(doActionList, card.groupId, toRegionId);
     },
 
     // Card dropped onto another card — creates an attachment stack.
@@ -79,6 +92,7 @@ export function buildEngineCallbacks(doActionList, reverseIdMap) {
         ["LOG", "$ALIAS_N", " attached a card."],
         ["MOVE_STACK", sourceStackId, targetGroupId, targetStackIndex, { combine: side }],
       ], `Attached card ${dcCardId} to ${dcTargetId} (${side})`);
+      refillIfProvinceEmptied(doActionList, card.groupId, targetGroupId);
     },
 
     // Card clicked to flip — newSide is 'A' (front) or 'B' (back).

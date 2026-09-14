@@ -1,0 +1,77 @@
+{
+  "gameProperties": {
+    "expertSet": {
+      "default": "Expert",
+      "label": "id:expertSet",
+      "options": [
+        {
+          "id": "Expert",
+          "label": "id:expert"
+        },
+        {
+          "id": "Expert II",
+          "label": "id:expertII"
+        }
+      ],
+      "type": "option"
+    },
+    "loadMode": {
+      "default": true,
+      "label": "id:loadMode",
+      "type": "boolean"
+    },
+    "loadRecommends": {
+      "default": true,
+      "label": "id:loadRecommends",
+      "type": "boolean"
+    },
+    "loadRequired": {
+      "default": true,
+      "label": "id:loadRequired",
+      "type": "boolean"
+    },
+    "mode": {
+      "default": "standard",
+      "label": "id:mode",
+      "options": [
+        {
+          "id": "standard",
+          "label": "id:standard"
+        },
+        {
+          "id": "expert",
+          "label": "id:expert"
+        }
+      ],
+      "type": "option"
+    },
+    "standardSet": {
+      "default": "Standard",
+      "label": "id:standardSet",
+      "options": [
+        {
+          "id": "Standard",
+          "label": "id:standard"
+        },
+        {
+          "id": "Standard II",
+          "label": "id:standardII"
+        },
+        {
+          "id": "Standard III",
+          "label": "id:standardIII"
+        },
+        {
+          "id": "Standard PVP",
+          "label": "id:standardPVP"
+        }
+      ],
+      "type": "option"
+    },
+    "villainHitPoints": {
+      "default": 0,
+      "label": "id:villainHitPoints",
+      "type": "integer"
+    }
+  }
+}

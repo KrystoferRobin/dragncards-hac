@@ -1,0 +1,26 @@
+{
+  "pluginMenu": {
+    "options": [
+      {
+        "actionList": "countChaosTokens",
+        "label": "id:countChaosTokensMenu"
+      },
+      {
+        "actionList": "addChaosToken",
+        "label": "id:addChaosTokenMenu"
+      },
+      {
+        "actionList": "removeChaosToken",
+        "label": "id:removeChaosTokenMenu"
+      },
+      {
+        "actionList": "tarotReading",
+        "label": "id:tarotReadingMenu"
+      },
+      {
+        "actionList": "selectTaboo",
+        "label": "id:selectTabooMenu"
+      }
+    ]
+  }
+}

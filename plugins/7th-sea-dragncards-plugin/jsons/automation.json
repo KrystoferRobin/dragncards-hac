@@ -1,0 +1,8 @@
+{
+  "automation": {
+    "postNewGameActionList": [
+      ["LOAD_CARDS", "theahSeas"],
+      ["LOG", "7th Sea table created. Seas of Theah are in the middle. Load a ship, captain, and deck. No rules are enforced."]
+    ]
+  }
+}

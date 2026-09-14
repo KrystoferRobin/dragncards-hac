@@ -1,0 +1,64 @@
+{
+  "cardTypes": {
+    "COMPANION": {
+      "height": 1,
+      "tokens": [],
+      "width": 0.72
+    },
+    "ALLY": {
+      "height": 1,
+      "tokens": [],
+      "width": 0.72
+    },
+    "MINION": {
+      "height": 1,
+      "tokens": [],
+      "width": 0.72
+    },
+    "SITE": {
+      "height": 0.72,
+      "tokens": [],
+      "width": 1
+    },
+    "METASITE": {
+      "height": 0.72,
+      "tokens": [],
+      "width": 1
+    },
+    "EVENT": {
+      "height": 1,
+      "tokens": [],
+      "width": 0.72
+    },
+    "CONDITION": {
+      "height": 1,
+      "tokens": [],
+      "width": 0.72
+    },
+    "POSSESSION": {
+      "height": 1,
+      "tokens": [],
+      "width": 0.72
+    },
+    "ARTIFACT": {
+      "height": 1,
+      "tokens": [],
+      "width": 0.72
+    },
+    "THE_ONE_RING": {
+      "height": 1,
+      "tokens": [],
+      "width": 0.72
+    },
+    "FOLLOWER": {
+      "height": 1,
+      "tokens": [],
+      "width": 0.72
+    },
+    "MAP": {
+      "height": 1,
+      "tokens": [],
+      "width": 0.72
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "phases": {
+    "untap": {"label": "1 Untap", "height": "16%"},
+    "organization": {"label": "2 Organization", "height": "17%"},
+    "longEvent": {"label": "3 Long-Event", "height": "17%"},
+    "movementHazard": {"label": "4 Movement-Hazard", "height": "17%"},
+    "site": {"label": "5 Site", "height": "17%"},
+    "end": {"label": "6 End of Turn", "height": "16%"}
+  },
+  "phaseOrder": ["untap", "organization", "longEvent", "movementHazard", "site", "end"]
+}

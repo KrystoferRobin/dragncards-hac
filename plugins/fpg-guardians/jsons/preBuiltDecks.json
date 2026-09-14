@@ -1,0 +1,2354 @@
+{
+  "preBuiltDecks": {
+    "advanced-richards-pirates": {
+      "label": "Advanced Richards Pirates",
+      "cards": [
+        {
+          "databaseId": "DI_SpikeyCrenalationsStrongholdUpgradeRare2-horizontal.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_FlameCannonStrongholdUpgradeRare1-horizontal.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_ShieldMaitzsInsect13ShieldStarter.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_ShieldMaitzsInsect12ShieldStarter.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_ShieldMaitzsInsect11ShieldStarter.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_ShieldMaitzsInsect102ShieldStarter.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_ShieldMaitzsInsect08ShieldStarter.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_ShieldMaitzsInsect07ShieldStarter.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_ShieldMaitzsInsect06ShieldStarter.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_StandardBearerMaitzsInsect16ShieldRare2.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_RiversandLakesTerrainCommonSp-horizontal.png",
+          "quantity": 8,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "DI_TheGreatBalderoonMagicItemHandCommon1.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_RocksofSkullCrackingMagicItemHandCommon1.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "DI_TheBlackEyeMagicItemCreatureRare3.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_ControlDestinySpellUncommon1.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "DI_PirateRaidingPartySpellCommon3.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_DispelMagicSpellCommon2.png",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "DI_SupermodeloidElementalEvilTwinCommon2.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_WaterSpoutElementalForceCommon1.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "DI_GrottoTrollExternalTrollCommon3.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_WaterNymphExternalNymphCommon2.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_BlackLungExternalCommon1.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_GiantPenguinExternalCommon1.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_LakeSerpentExternalDragonRare2.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_PaulyOfficialParrotMortalPirateRare2.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "DI_EagleEyeMcFinnyMortalPirateRare3.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "DI_LyingScumMortalPirateCommon4.png",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "DI_CabinBoyMortalPirateCommon4.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "DI_ScurvyDogMortalPirateRare3.png",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_YardRatMortalPirateUncommon2.png",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_ClericMortalWizardUncommon1.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_GunnerMortalPirateCommon1.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "DI_FirstMateMuldoonMortalPirateCommon2.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_JibberMortalPirateCommon1.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_MasterGunnerMortalPirateUncommon1.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "DI_CaptainHannibalHawksMortalPirateRare2.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_CaptainRedNoseMortalPirateRare2.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_WatcherMortalUncommon1.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "DI_GrahzueLoverofViceGuardianRare3.png",
+          "quantity": 1,
+          "loadGroupId": "playerNStarting"
+        },
+        {
+          "databaseId": "DI_FreebooterStronghold2skullCenterStrongholdRare3-horizontal.png",
+          "quantity": 1,
+          "loadGroupId": "playerNStarting"
+        },
+        {
+          "databaseId": "DI_FreebooterStronghold1cannonrightStrongholdRare3-horizontal.png",
+          "quantity": 1,
+          "loadGroupId": "playerNStarting"
+        },
+        {
+          "databaseId": "DI_FreebooterStronghold3cannonleftStrongholdRare3-horizontal.png",
+          "quantity": 1,
+          "loadGroupId": "playerNStarting"
+        }
+      ]
+    },
+    "advanced-the-bad-luck-13-pirate-extravaganza": {
+      "label": "Advanced The Bad Luck 13 Pirate Extravaganza",
+      "cards": [
+        {
+          "databaseId": "RE_SacrificialAltarStrongholdUpgradeRare2-horizontal.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "DI_RangedAttackPlatformStrongholdUpgradeRare3-horizontal.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_ShieldMaitzsInsect13ShieldStarter.png",
+          "quantity": 6,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_StandardBearerMaitzsInsect16ShieldRare2.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "DN_MaitzMotelLocationTerrainC2-horizontal.png",
+          "quantity": 6,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "DN_OscartheWonderChimpItemHandR1.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "NP_FootlockerofConflagrationMagicItemAccessoryUncom2.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_HeelsofSpeedMagicItemCreatureUncommon2.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "NP_AncientTomeofDispansationMagicItemAccessoryCommon1.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "DI_PetrifiedHeartMagicItemCreatureCommon3.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_EyeofMissileMayhemMagicItemHandRare2.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "DI_TheGreatBalderoonMagicItemHandCommon1.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "DI_TheBlackEyeMagicItemCreatureRare3.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "DI_ChampstheWonderDogMagicItemHandRare1.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "NP_40000UselessWarhammersMagicItemHandUncom1.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_DispelMagicSpellCommon2.png",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "DN_MasterTacticianSpellC1.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "DI_SoooooooulMirrorSpellRare2.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "NP_DoogoptheGreedyElementalCreatureCommon2.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "DI_SupermodeloidElementalEvilTwinCommon2.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_ThunderHawkElementalSpiritRare2.png",
+          "quantity": 5,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "DN_CaptainSouthAmericaExternalCreatureR1.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "DN_TheAmazingCiderManExternalCreatureU1.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "NP_PreistofHorusExternalCreatureUncom1.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_GiantPenguinExternalCommon1.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "DN_PhilBarFlyMortalCreatureC2.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_PaulyOfficialParrotMortalPirateRare2.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "DI_EagleEyeMcFinnyMortalPirateRare3.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "DI_LyingScumMortalPirateCommon4.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "DI_CabinBoyMortalPirateCommon4.png",
+          "quantity": 5,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_GunnerMortalPirateCommon1.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "DI_ScurvyDogMortalPirateRare3.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_YardRatMortalPirateUncommon2.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "DI_FirstMateMuldoonMortalPirateCommon2.png",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_MasterGunnerMortalPirateUncommon1.png",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_JibberMortalPirateCommon1.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "DI_CaptainHannibalHawksMortalPirateRare2.png",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_CaptainRedNoseMortalPirateRare2.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "DI_GrahzueLoverofViceGuardianRare3.png",
+          "quantity": 1,
+          "loadGroupId": "playerNStarting"
+        },
+        {
+          "databaseId": "DI_FreebooterStronghold2skullCenterStrongholdRare3-horizontal.png",
+          "quantity": 1,
+          "loadGroupId": "playerNStarting"
+        },
+        {
+          "databaseId": "DI_FreebooterStronghold3cannonleftStrongholdRare3-horizontal.png",
+          "quantity": 1,
+          "loadGroupId": "playerNStarting"
+        },
+        {
+          "databaseId": "DI_FreebooterStronghold1cannonrightStrongholdRare3-horizontal.png",
+          "quantity": 1,
+          "loadGroupId": "playerNStarting"
+        }
+      ]
+    },
+    "advanced-undead-and-slag-beast": {
+      "label": "Advanced Undead and Slag Beast",
+      "cards": [
+        {
+          "databaseId": "RE_ShieldBromsDemonic142ShieldStarter.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_ShieldBromsDemonic12ShieldStarter.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_ShieldBromsDemonic103ShieldStarter.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_ShieldBromsDemonic082ShieldStarter.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_ShieldBromsDemonic04ShieldStarter.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_StandardBearerBromsDemonic04ShieldUncommon1.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "DN_MaitzMotelLocationTerrainC2-horizontal.png",
+          "quantity": 9,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_HolyGrailMagicItemHandRare2.png",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "NP_ObeliskofBablosMagicItemHandUncom3.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "NP_FootlockerofConflagrationMagicItemAccessoryUncom2.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_DispelMagicSpellCommon2.png",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "DI_HowloftheDeadSpellCommon1.png",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "NP_TheOlSwitcherooSpellCommon2.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "DN_YouCantSeeMeImaVampireSpellU4.png",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_EnergyEaterSpellCommon1.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_SpiritoftheHuntElementalSpiritRare1.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_GreaterEnergyElementalElementalElementRare1.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "DN_BobSnappingGobElementalCreatureR4.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "NP_SquibbyMortalCreatureUncom1.png",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "NP_IshtarQueenoftheHeapMortalCreatureUncom1.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_SlagBunnyMortalSlagBeastUncommon1.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_GringeCommanderMortalSlagBeastRare2.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_PloogaktheConquerorMortalSlagBeastRare2.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "DI_GroatieMortalSlagBeastRare4.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_SnogwartMortalSlagBeastCommon1.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_SloarchMortalSlagBeastUncommon1.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_GrilbusMortalSlagBeastCommon1.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "DN_CrackhatchatLargeMortalCreatureU1.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_ThackleMortalSlagBeastCommon1.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_NaBoobMortalSlagBeastRare1.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "NP_RyeBeanerMortalCreatureUncom2.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "NP_ScampJonesMortalCreatureUncom2.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "DI_NecromancerMortalWizardRare2.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "DN_CarragtheBlackMortalCreatureR2.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_SlipperySlimeExternalRare2.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_HumungusFungusExternalFungusRare1.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "NP_PharaohDjoserExternalCreatureCommon2.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_WraithExternalUndeadRare2.png",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "DI_BoneFrightExternalUndeadRare3.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_ArmsoftheEarthExternalUndeadRare2.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "NP_PlagueWalkerExternalCreatureCommon2.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "NP_DeadCatsExternalCreatureCommon2.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_BoneShamblerExternalUndeadRare2.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_WailingSpecterExternalUndeadUncommon1.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "NP_PreistofHorusExternalCreatureUncom1.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "NP_HighPriestofSethosExternalCreatureUncom1.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "NP_MoheidraMistressofSoulsExternalCreatureCommon2.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "NP_MummyExternalCreatureCommon2.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "NP_ChiefLectorPriestofSethosExternalCreatureUncom3.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "NP_FanBearerExternalCreatureCommon2.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_PhantomStalkerExternalUndeadRare2.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "NP_EateroftheDeadExternalCreatureCommon2.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_GrimSkullExternalUndeadRare2.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_EternalWitchLordExternalUndeadRare2.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_ThakSteadyHandGuardianRare2.png",
+          "quantity": 1,
+          "loadGroupId": "playerNStarting"
+        },
+        {
+          "databaseId": "NP_NecropolisParkCStrongholdUncom2-horizontal.png",
+          "quantity": 1,
+          "loadGroupId": "playerNStarting"
+        },
+        {
+          "databaseId": "NP_NecropolisParkLStrongholdUncom2-horizontal.png",
+          "quantity": 1,
+          "loadGroupId": "playerNStarting"
+        },
+        {
+          "databaseId": "NP_NecropolisParkRStrongholdUncom2-horizontal.png",
+          "quantity": 1,
+          "loadGroupId": "playerNStarting"
+        }
+      ]
+    },
+    "basic-giants-and-fairies-theme": {
+      "label": "Basic Giants and Fairies Theme",
+      "cards": [
+        {
+          "databaseId": "RE_ShieldPloogsOx07ShieldStarter.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_ShieldPloogsOx08ShieldStarter.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_ShieldPloogsOx09ShieldStarter.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_ShieldPloogsOx103ShieldStarter.png",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_ShieldPloogsOx11ShieldStarter.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_ShieldPloogsOx12ShieldStarter.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_ShieldPloogsOx13ShieldStarter.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_StandardBearerPloogsOx05ShieldUncommon1.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_WoodsTerrainCommonSp-horizontal.png",
+          "quantity": 8,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_ControlDestinySpellUncommon1.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_ForceBarrierSpellRare2.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_PowerLunchSpellCommon2.png",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_DispelMagicSpellCommon2.png",
+          "quantity": 5,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_RockGiantMortalGiantCommon1.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_HugeRockGiantMortalGiantUncommon2.png",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_ElderCaveGiantMortalGiantUncommon2.png",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_DesertGiantMortalGiantCommon1.png",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_CaveGiantMortalGiantCommon1.png",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_MaleTitanExternalTitanUncommon2.png",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_FemaleTitanExternalTitanCommon1.png",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_SleepingSpiritElementalSpiritCommon1.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "DI_GiantAuntsMortalGiantCommon2.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_HairdehobbinsExternalFairyCommon1.png",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_BlackthwaiteJumperExternalFairyUncommon1.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_IronCragBugglerExternalFairyCommon1.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_IronCragBogglerExternalFairyCommon1.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_IronCragBagglerExternalFairyCommon1.png",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_FemalePixieExternalPixieUncommon1.png",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_RakNamLeaderoftheMightyGuardianStarter.png",
+          "quantity": 1,
+          "loadGroupId": "playerNStarting"
+        },
+        {
+          "databaseId": "RE_CarregAmrothStrongholdCStrongholdStarter-horizontal.png",
+          "quantity": 1,
+          "loadGroupId": "playerNStarting"
+        },
+        {
+          "databaseId": "RE_CarregAmrothStrongholdLStrongholdStarter-horizontal.png",
+          "quantity": 1,
+          "loadGroupId": "playerNStarting"
+        },
+        {
+          "databaseId": "RE_CarregAmrothStrongholdRStrongholdStarter-horizontal.png",
+          "quantity": 1,
+          "loadGroupId": "playerNStarting"
+        }
+      ]
+    },
+    "basic-knights-theme": {
+      "label": "Basic Knights Theme",
+      "cards": [
+        {
+          "databaseId": "RE_ShieldMaitzsLightning143ShieldStarter.png",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_ShieldMaitzsLightning12ShieldStarter.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_ShieldMaitzsLightning102ShieldStarter.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_ShieldMaitzsLightning09ShieldStarter.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_ShieldMaitzsLightning05ShieldStarter.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_ShieldMaitzsLightning02ShieldStarter.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_StandardBearerMaitzsLightning04ShieldUncommon1.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_SpiresTerrainCommonSp-horizontal.png",
+          "quantity": 7,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_EyeofMissileMayhemMagicItemHandRare2.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_RoosterMagicItemHandCommon2.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_ForceBarrierSpellRare2.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_St.BallantinesEvocationSpellCommon1.png",
+          "quantity": 5,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_DispelMagicSpellCommon2.png",
+          "quantity": 5,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_VitalesDarkCloudSpellUncommon1.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_BeerBriberyCommon2.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_BabesBriberyCommon2.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_GoldBriberyCommon2.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_ArcherMortalKnightCommon1.png",
+          "quantity": 5,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_AxemanMortalKnightUncommon2.png",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_CaptainMortalKnightCommon1.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_CorporalMortalKnightCommon1.png",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_MarshalMortalKnightUncommon1.png",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_SwordsmanMortalKnightCommon2.png",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_ClericMortalWizardUncommon1.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_HorseMortalBarnyardAnimalCommon1.png",
+          "quantity": 5,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "DI_BoneFrightExternalUndeadRare3.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "DI_RazorSliphExternalSliphRare3.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_RakNamLeaderoftheMightyGuardianStarter.png",
+          "quantity": 1,
+          "loadGroupId": "playerNStarting"
+        },
+        {
+          "databaseId": "RE_CarregAmrothStrongholdCStrongholdStarter-horizontal.png",
+          "quantity": 1,
+          "loadGroupId": "playerNStarting"
+        },
+        {
+          "databaseId": "RE_CarregAmrothStrongholdLStrongholdStarter-horizontal.png",
+          "quantity": 1,
+          "loadGroupId": "playerNStarting"
+        },
+        {
+          "databaseId": "RE_CarregAmrothStrongholdRStrongholdStarter-horizontal.png",
+          "quantity": 1,
+          "loadGroupId": "playerNStarting"
+        }
+      ]
+    },
+    "basic-pirates-theme": {
+      "label": "Basic Pirates Theme",
+      "cards": [
+        {
+          "databaseId": "DI_SpikeyCrenalationsStrongholdUpgradeRare2-horizontal.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "DI_PirateLogPlatformStrongholdUpgradeRare3-horizontal.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_ShieldBromsDemonic04ShieldStarter.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_ShieldBromsDemonic082ShieldStarter.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_ShieldBromsDemonic103ShieldStarter.png",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_ShieldBromsDemonic12ShieldStarter.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_ShieldBromsDemonic142ShieldStarter.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_StandardBearerBromsDemonic04ShieldUncommon1.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_RiversandLakesTerrainCommonSp-horizontal.png",
+          "quantity": 8,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "DI_TheGreatBalderoonMagicItemHandCommon1.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "DI_PirateRaidingPartySpellCommon3.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_RocksofSkullCrackingMagicItemHandCommon1.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "DI_TheBlackEyeMagicItemCreatureRare3.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_ControlDestinySpellUncommon1.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_DispelMagicSpellCommon2.png",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "DI_SupermodeloidElementalEvilTwinCommon2.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_WaterSpoutElementalForceCommon1.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "DI_GrottoTrollExternalTrollCommon3.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_WaterNymphExternalNymphCommon2.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_BlackLungExternalCommon1.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_GiantPenguinExternalCommon1.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_LakeSerpentExternalDragonRare2.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "DI_EagleEyeMcFinnyMortalPirateRare3.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "DI_LyingScumMortalPirateCommon4.png",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "DI_CabinBoyMortalPirateCommon4.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "DI_ScurvyDogMortalPirateRare3.png",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_YardRatMortalPirateUncommon2.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_ClericMortalWizardUncommon1.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_GunnerMortalPirateCommon1.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "DI_FirstMateMuldoonMortalPirateCommon2.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_JibberMortalPirateCommon1.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_MasterGunnerMortalPirateUncommon1.png",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "DI_CaptainHannibalHawksMortalPirateRare2.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_CaptainRedNoseMortalPirateRare2.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_WatcherMortalUncommon1.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "DI_GrahzueLoverofViceGuardianRare3.png",
+          "quantity": 1,
+          "loadGroupId": "playerNStarting"
+        },
+        {
+          "databaseId": "DI_FreebooterStronghold2skullCenterStrongholdRare3-horizontal.png",
+          "quantity": 1,
+          "loadGroupId": "playerNStarting"
+        },
+        {
+          "databaseId": "DI_FreebooterStronghold3cannonleftStrongholdRare3-horizontal.png",
+          "quantity": 1,
+          "loadGroupId": "playerNStarting"
+        },
+        {
+          "databaseId": "DI_FreebooterStronghold1cannonrightStrongholdRare3-horizontal.png",
+          "quantity": 1,
+          "loadGroupId": "playerNStarting"
+        }
+      ]
+    },
+    "basic-slag-beast-theme": {
+      "label": "Basic Slag Beast Theme",
+      "cards": [
+        {
+          "databaseId": "RE_ShieldBromsSkull06ShieldStarter.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_ShieldBromsSkull07ShieldStarter.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_ShieldBromsSkull08ShieldStarter.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_ShieldBromsSkull09ShieldStarter.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_ShieldBromsSkull10ShieldStarter.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_ShieldBromsSkull11ShieldStarter.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_ShieldBromsSkull12ShieldStarter.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_ShieldBromsSkull13ShieldStarter.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_ShieldBromsSkull14ShieldStarter.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_TheDryHeapsTerrainCommonSp-horizontal.png",
+          "quantity": 8,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_BabesBriberyCommon2.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_BeerBriberyCommon2.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_GoldBriberyCommon2.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_PowerLunchSpellCommon2.png",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_PepesSlowDownSpellUncommon2.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_ControlDestinySpellUncommon1.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_DispelMagicSpellCommon2.png",
+          "quantity": 5,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "DI_GroatieMortalSlagBeastRare4.png",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_ThackleMortalSlagBeastCommon1.png",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_SnogwartMortalSlagBeastCommon1.png",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_SloarchMortalSlagBeastUncommon1.png",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_SlagBunnyMortalSlagBeastUncommon1.png",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_GringeCommanderMortalSlagBeastRare2.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_PloogaktheConquerorMortalSlagBeastRare2.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_NaBoobMortalSlagBeastRare1.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_GrilbusMortalSlagBeastCommon1.png",
+          "quantity": 5,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_EarthElementalElementalElementCommon1.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_SandLordElementalElementalLordCommon1.png",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_BantamDrakeExternalDragonUncommon1.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_StandardBearerBromsSkull16ShieldUncommon1.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_RakNamLeaderoftheMightyGuardianStarter.png",
+          "quantity": 1,
+          "loadGroupId": "playerNStarting"
+        },
+        {
+          "databaseId": "RE_SabuAmantekCStrongholdStarter-horizontal.png",
+          "quantity": 1,
+          "loadGroupId": "playerNStarting"
+        },
+        {
+          "databaseId": "RE_SabuAmantekLStrongholdStarter-horizontal.png",
+          "quantity": 1,
+          "loadGroupId": "playerNStarting"
+        },
+        {
+          "databaseId": "RE_SabuAmantekRStrongholdStarter-horizontal.png",
+          "quantity": 1,
+          "loadGroupId": "playerNStarting"
+        }
+      ]
+    },
+    "basic-undead-theme": {
+      "label": "Basic Undead Theme",
+      "cards": [
+        {
+          "databaseId": "RE_ShieldWarholasSnakes093ShieldStarter.png",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_ShieldWarholasSnakes103ShieldStarter.png",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_ShieldWarholasSnakes113ShieldStarter.png",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_StandardBearerWarholasSnakes06ShieldUncommon1.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_WoodsTerrainCommonSp-horizontal.png",
+          "quantity": 8,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_TeleportTowerStrongholdUpgradeUncommon1-horizontal.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_LargeIdolStrongholdUpgradeUncommon1-horizontal.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_AnvilofHeavinessMagicItemHandCommon1.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_PotionofMovementEssenceMagicItemHandUncommon2.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "DI_CurseoftheBetrayedSpellCommon3.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "DI_AssassinofShadowSpellCommon2.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "DI_ArgammondsVisionSpellCommon3.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "DI_HowloftheDeadSpellCommon1.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_DispelMagicSpellCommon2.png",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_PepesSlowDownSpellUncommon2.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_MajorPartyAnimalMortalAnimalUncommon1.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "DI_HookToedGnasherMortalGnasherCommon2.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "DI_FangistheHunterHenchmanMortalHenchmanCommon14.png",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_MagmaElementalElementalElementCommon1.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_MerchantMortalMisc.HumanUncommon1.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_DjinnElementalForceUncommon1.png",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_EmbryonicWitchExternalUndeadUncommon2.png",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "DI_BoneFrightExternalUndeadRare3.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "DI_BarrowWightExternalUndeadCommon3.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_SkeletalMinionExternalUndeadCommon1.png",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_WailingSpecterExternalUndeadUncommon1.png",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_VampireLordExternalUndeadRare2.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_VampireExternalUndeadCommon1.png",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_ZombieExternalUndeadUncommon1.png",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_TesLetLeaderwithForesightGuardianStarter.png",
+          "quantity": 1,
+          "loadGroupId": "playerNStarting"
+        },
+        {
+          "databaseId": "RE_CarregAmrothStrongholdCStrongholdStarter-horizontal.png",
+          "quantity": 1,
+          "loadGroupId": "playerNStarting"
+        },
+        {
+          "databaseId": "RE_CarregAmrothStrongholdLStrongholdStarter-horizontal.png",
+          "quantity": 1,
+          "loadGroupId": "playerNStarting"
+        },
+        {
+          "databaseId": "RE_CarregAmrothStrongholdRStrongholdStarter-horizontal.png",
+          "quantity": 1,
+          "loadGroupId": "playerNStarting"
+        }
+      ]
+    },
+    "guidebook-knights-and-angels": {
+      "label": "Guidebook Knights and Angels",
+      "cards": [
+        {
+          "databaseId": "RE_ShieldMaitzsLightning143ShieldStarter.png",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_ShieldMaitzsLightning12ShieldStarter.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_ShieldMaitzsLightning102ShieldStarter.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_ShieldMaitzsLightning09ShieldStarter.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_ShieldMaitzsLightning05ShieldStarter.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_ShieldMaitzsLightning02ShieldStarter.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_SpiresTerrainCommonSp-horizontal.png",
+          "quantity": 7,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_EyeofMissileMayhemMagicItemHandRare2.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_HammerofDoomMagicItemHandRare2.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_HolyGrailMagicItemHandRare2.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_ForceBarrierSpellRare2.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_St.BallantinesEvocationSpellCommon1.png",
+          "quantity": 5,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_DispelMagicSpellCommon2.png",
+          "quantity": 5,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_VitalesDarkCloudSpellUncommon1.png",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_BeerBriberyCommon2.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_BabesBriberyCommon2.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_GoldBriberyCommon2.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_ArchangelMagnusElementalAngelRare1.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_ArchangelOdessaElementalAngelRare1.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_CherubElementalAngelRare2.png",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_TrumpeterElementalAngelUncommon1.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "DI_HolyAvengerElementalAngelRare2.png",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_WhiteUnicornExternalUnicornRare1.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_ArcherMortalKnightCommon1.png",
+          "quantity": 5,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_AxemanMortalKnightUncommon2.png",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_CaptainMortalKnightCommon1.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_CorporalMortalKnightCommon1.png",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_LancerMortalKnightUncommon1.png",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_MarshalMortalKnightUncommon1.png",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_PaladinMortalKnightRare2.png",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_SwordsmanMortalKnightCommon2.png",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_StandardBearerMaitzsLightning14ShieldRare2.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_GrandAvatarMortalWizardRare1.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_ClericMortalWizardUncommon1.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_FloydtheFlyingPigMortalBarnyardAnimalUncommon2.png",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_HorseMortalBarnyardAnimalCommon1.png",
+          "quantity": 5,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_IdiotMortalMisc.HumanRare2.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_SorcererMortalWizardRare2.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_RakNamLeaderoftheMightyGuardianStarter.png",
+          "quantity": 1,
+          "loadGroupId": "playerNStarting"
+        },
+        {
+          "databaseId": "RE_KhnumianStrongholdCStrongholdStarter-horizontal.png",
+          "quantity": 1,
+          "loadGroupId": "playerNStarting"
+        },
+        {
+          "databaseId": "RE_KhnumianStrongholdLStrongholdStarter-horizontal.png",
+          "quantity": 1,
+          "loadGroupId": "playerNStarting"
+        },
+        {
+          "databaseId": "RE_KhnumianStrongholdRStrongholdStarter-horizontal.png",
+          "quantity": 1,
+          "loadGroupId": "playerNStarting"
+        }
+      ]
+    },
+    "guidebook-rock-paper-and-scissors": {
+      "label": "Guidebook Rock Paper and Scissors",
+      "cards": [
+        {
+          "databaseId": "RE_ShieldMaitzsLightning143ShieldStarter.png",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_ShieldMaitzsLightning12ShieldStarter.png",
+          "quantity": 5,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_ShieldMaitzsLightning102ShieldStarter.png",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_ShieldMaitzsLightning09ShieldStarter.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_ShieldMaitzsLightning05ShieldStarter.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_ShieldMaitzsLightning02ShieldStarter.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_StandardBearerMaitzsLightning04ShieldUncommon1.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_FlameCannonStrongholdUpgradeRare1-horizontal.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_SacrificialAltarStrongholdUpgradeRare2-horizontal.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "DI_SpikeyCrenalationsStrongholdUpgradeRare2-horizontal.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_MountainsTerrainCommonSp-horizontal.png",
+          "quantity": 7,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_SpiresTerrainCommonSp-horizontal.png",
+          "quantity": 8,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "DI_ChampstheWonderDogMagicItemHandRare1.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "DI_OppressedSlavesMagicItemHandCommon2.png",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_ForceBarrierSpellRare2.png",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "DI_PeaceSpellCommon1.png",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_PepesSlowDownSpellUncommon2.png",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_DispelMagicSpellCommon2.png",
+          "quantity": 5,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "DI_SummonDimensionalFireWellSpellRare2.png",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "DI_PhaseAssassinSpellRare3.png",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "DI_SummonLoghammersSapperSpellRare3.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "DI_CuthberttheResurrectorSpellRare4.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_CaptainMortalKnightCommon1.png",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "DI_CastellanKeirElementalMediumCommon1.png",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_JibberMortalPirateCommon1.png",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_LancerMortalKnightUncommon1.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_PolarIceOgreMortalOgreUncommon1.png",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "DI_RottenGuyMortalGuyCommon2.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_VisionaryMortalWizardCommon2.png",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_IceElementalElementalElementCommon1.png",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "DI_MagnateJusticeElementalManifestationCommon4.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_SunSpiritElementalSpiritCommon2.png",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "DI_VensuniInfernoSwarmElementalElementRare1.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_WarriorSpiritElementalSpiritUncommon1.png",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_CyclopsExternalCommon1.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "DI_LandDrakeExternalDragonRare3.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "DI_SchneeboltExternalSchneeCommon2.png",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_MinataurExternalCommon1.png",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "DI_RazorShiefaExternalSliphCommon4.png",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_FemaleTitanExternalTitanCommon1.png",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_SchneebleExternalSchneeUncommon1.png",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "DI_ElandarMightyWizardExternalWandererRare1.png",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_HarkinSpreaderoftheWealthGuardianRare2.png",
+          "quantity": 1,
+          "loadGroupId": "playerNStarting"
+        },
+        {
+          "databaseId": "RE_CarregAmrothStrongholdCStrongholdStarter-horizontal.png",
+          "quantity": 1,
+          "loadGroupId": "playerNStarting"
+        },
+        {
+          "databaseId": "RE_CarregAmrothStrongholdLStrongholdStarter-horizontal.png",
+          "quantity": 1,
+          "loadGroupId": "playerNStarting"
+        },
+        {
+          "databaseId": "RE_CarregAmrothStrongholdRStrongholdStarter-horizontal.png",
+          "quantity": 1,
+          "loadGroupId": "playerNStarting"
+        }
+      ]
+    },
+    "guidebook-the-deck": {
+      "label": "Guidebook The Deck",
+      "cards": [
+        {
+          "databaseId": "DI_SpikeyCrenalationsStrongholdUpgradeRare2-horizontal.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_ShieldBromsAngelic123ShieldStarter.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_ShieldBromsAngelic11ShieldStarter.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_ShieldBromsAngelic10ShieldStarter.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_ShieldBromsAngelic09ShieldStarter.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_ShieldBromsAngelic083ShieldStarter.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "DI_ShieldTerrainBromsAngelicShieldTerrainCommon1.png",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_StandardBearerBromsAngelic13ShieldRare2.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_SpiresTerrainCommonSp-horizontal.png",
+          "quantity": 5,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "DI_OppressedSlavesMagicItemHandCommon2.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_DispelMagicSpellCommon2.png",
+          "quantity": 5,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_ForceBarrierSpellRare2.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_PepesSlowDownSpellUncommon2.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_PowerLunchSpellCommon2.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_VitalesDarkCloudSpellUncommon1.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "DI_WarSpellCommon4.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_GoldBriberyCommon2.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_AncientOgreMortalOgreRare2.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "DI_AngelofDeathElementalAngelCommon1.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "DI_CaptainHannibalHawksMortalPirateRare2.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "DI_CaringGuyMortalGuyCommon4.png",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_ClericMortalWizardUncommon1.png",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "DI_GreatBlackRisharMortalRisharRare3.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_IceOgreMortalOgreCommon1.png",
+          "quantity": 5,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "DI_RazorSliphExternalSliphRare3.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_RikSookExternalWizardRare2.png",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "DI_SchneeboltExternalSchneeCommon2.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_SmokeSpiritElementalSpiritUncommon1.png",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_UglyWartFiendMortalFiendUncommon2.png",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_PolarIceOgreMortalOgreUncommon1.png",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_LancerMortalKnightUncommon1.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_HarkinSpreaderoftheWealthGuardianRare2.png",
+          "quantity": 1,
+          "loadGroupId": "playerNStarting"
+        },
+        {
+          "databaseId": "RE_KhnumianStrongholdCStrongholdStarter-horizontal.png",
+          "quantity": 1,
+          "loadGroupId": "playerNStarting"
+        },
+        {
+          "databaseId": "RE_KhnumianStrongholdLStrongholdStarter-horizontal.png",
+          "quantity": 1,
+          "loadGroupId": "playerNStarting"
+        },
+        {
+          "databaseId": "RE_KhnumianStrongholdRStrongholdStarter-horizontal.png",
+          "quantity": 1,
+          "loadGroupId": "playerNStarting"
+        }
+      ]
+    },
+    "guidebook-the-fast-flying-attack-deck": {
+      "label": "Guidebook The Fast Flying Attack Deck",
+      "cards": [
+        {
+          "databaseId": "RE_SacrificialAltarStrongholdUpgradeRare2-horizontal.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_ShieldWarholasSnakes113ShieldStarter.png",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "DI_ShieldTerrainWarholasSnakesShieldTerrainCommon1.png",
+          "quantity": 5,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_StandardBearerWarholasSnakes17ShieldRare2.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_AnvilofHeavinessMagicItemHandCommon1.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_ForceBarrierSpellRare2.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "DI_WorkCrewSpellRare3.png",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_PowerLunchSpellCommon2.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_DispelMagicSpellCommon2.png",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "DI_OngoAirTrafficControllerSpellRare3.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "DI_CuthberttheResurrectorSpellRare4.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_DoomwingElementalDemonUncommon1.png",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_DragonWingLordExternalDragonRare1.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_FloydtheFlyingPigMortalBarnyardAnimalUncommon2.png",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_DjinnElementalForceUncommon1.png",
+          "quantity": 5,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_GreaterEnergyElementalElementalElementRare1.png",
+          "quantity": 5,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_GreaterAirElementalElementalElementUncommon1.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_BantamDrakeExternalDragonUncommon1.png",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_GorgalSkagElementalDemonCommon1.png",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "DI_BuzzardMortalBarnyardAnimalCommon4.png",
+          "quantity": 4,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "RE_GaarInfluenceroftheMassesGuardianRare1.png",
+          "quantity": 1,
+          "loadGroupId": "playerNStarting"
+        },
+        {
+          "databaseId": "RE_KhnumianStrongholdCStrongholdStarter-horizontal.png",
+          "quantity": 1,
+          "loadGroupId": "playerNStarting"
+        },
+        {
+          "databaseId": "RE_KhnumianStrongholdLStrongholdStarter-horizontal.png",
+          "quantity": 1,
+          "loadGroupId": "playerNStarting"
+        },
+        {
+          "databaseId": "RE_KhnumianStrongholdRStrongholdStarter-horizontal.png",
+          "quantity": 1,
+          "loadGroupId": "playerNStarting"
+        }
+      ]
+    }
+  }
+}

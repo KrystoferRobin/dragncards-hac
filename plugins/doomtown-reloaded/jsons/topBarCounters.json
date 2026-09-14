@@ -1,0 +1,28 @@
+{
+  "topBarCounters": {
+    "shared": [
+      {
+        "label": "Round",
+        "imageUrl": "",
+        "gameProperty": "roundNumber"
+      }
+    ],
+    "player": [
+      {
+        "label": "Ghost Rock",
+        "imageUrl": "",
+        "playerProperty": "ghostRock"
+      },
+      {
+        "label": "Influence",
+        "imageUrl": "",
+        "playerProperty": "influence"
+      },
+      {
+        "label": "Control",
+        "imageUrl": "",
+        "playerProperty": "control"
+      }
+    ]
+  }
+}

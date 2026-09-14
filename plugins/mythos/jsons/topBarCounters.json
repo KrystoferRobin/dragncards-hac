@@ -1,0 +1,23 @@
+{
+  "topBarCounters": {
+    "shared": [
+      {
+        "label": "Round",
+        "imageUrl": "",
+        "gameProperty": "roundNumber"
+      }
+    ],
+    "player": [
+      {
+        "label": "Sanity",
+        "imageUrl": "",
+        "playerProperty": "sanity"
+      },
+      {
+        "label": "APs",
+        "imageUrl": "",
+        "playerProperty": "actionPoints"
+      }
+    ]
+  }
+}

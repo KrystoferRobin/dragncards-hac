@@ -1,0 +1,12 @@
+{
+  "pluginName": "VS System 2PCG",
+  "author": "Lackey / VS 2PCG",
+  "announcements": [
+    "Tabletop plugin from the Lackey VS System 2PCG set. No rules engine — Draw, Exert/Ready, KO, and counters are shortcuts.",
+    "D = draw. R = ready all. T = exert. K = ready one. X = KO. 1–4 = wound / XP / +1 / −1 counters."
+  ],
+  "backgroundUrl": "https://toybox.hundredacre.club/cards/vs-system-2pcg/_plugin/VsSystem2pcg-Background.jpg",
+  "loadPreBuiltOnNewGame": false,
+  "bannerUrl": "https://toybox.hundredacre.club/cards/vs-system-2pcg/_plugin/banner2.jpg",
+  "logoUrl": "https://toybox.hundredacre.club/cards/vs-system-2pcg/_plugin/logo2.jpg"
+}

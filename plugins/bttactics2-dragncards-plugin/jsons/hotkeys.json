@@ -1,0 +1,24 @@
+{
+  "hotkeys": {
+    "game": [
+      {"key": "D", "actionList": "drawStockpile", "label": "Draw"},
+      {"key": "S", "actionList": "shuffleStockpile", "label": "Shuffle stockpile"},
+      {"key": "U", "actionList": "untapAll", "label": "Untap all"},
+      {"key": "R", "actionList": "roll1d6", "label": "Roll 1d6"},
+      {"key": "C", "actionList": "scrapTop", "label": "Scrap top of stockpile"}
+    ],
+    "card": [
+      {"key": "T", "actionList": "tapCard", "label": "Tap"},
+      {"key": "K", "actionList": "untapCard", "label": "Untap"},
+      {"key": "F", "actionList": ["FLIP", "$ACTIVE_CARD_ID"], "label": "Flip card"},
+      {"key": "X", "actionList": ["DISCARD", "$ACTIVE_CARD_ID"], "label": "Scrap"},
+      {"key": "A", "actionList": ["DETACH", "$ACTIVE_CARD_ID"], "label": "Detach"},
+      {"key": "H", "actionList": ["SHUFFLE_INTO_DECK", "$ACTIVE_CARD_ID"], "label": "Shuffle into stockpile"}
+    ],
+    "token": [
+      {"key": "1", "tokenType": "damage", "label": "Damage"},
+      {"key": "2", "tokenType": "construction", "label": "Construction"},
+      {"key": "3", "tokenType": "generic", "label": "Generic counter"}
+    ]
+  }
+}

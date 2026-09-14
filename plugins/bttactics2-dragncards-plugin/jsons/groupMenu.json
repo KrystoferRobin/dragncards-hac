@@ -1,0 +1,16 @@
+{
+  "groupMenu": {
+    "moveToGroupIds": [
+      "playerNHand",
+      "playerNUnits",
+      "playerNResources",
+      "playerNCommands",
+      "playerNScrapheap",
+      "playerNRemoved",
+      "playerNSideboard",
+      "playerNStockpile",
+      "sharedSetAside"
+    ],
+    "options": []
+  }
+}

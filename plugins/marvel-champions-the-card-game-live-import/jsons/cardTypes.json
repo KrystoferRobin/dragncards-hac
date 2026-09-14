@@ -1,0 +1,261 @@
+{
+  "cardTypes": {
+    "Ally": {
+      "height": 1.39,
+      "tokens": [
+        "damage",
+        "threat",
+        "generic",
+        "acceleration",
+        "confused",
+        "stunned",
+        "tough"
+      ],
+      "width": 1
+    },
+    "Alter-Ego": {
+      "height": 1.39,
+      "tokens": [
+        "damage",
+        "threat",
+        "generic",
+        "acceleration",
+        "confused",
+        "stunned",
+        "tough"
+      ],
+      "width": 1
+    },
+    "Attachment": {
+      "height": 1.39,
+      "tokens": [
+        "damage",
+        "threat",
+        "generic",
+        "acceleration",
+        "confused",
+        "stunned",
+        "tough"
+      ],
+      "width": 1
+    },
+    "Environment": {
+      "height": 1.39,
+      "tokens": [
+        "damage",
+        "threat",
+        "generic",
+        "acceleration",
+        "confused",
+        "stunned",
+        "tough"
+      ],
+      "width": 1
+    },
+    "Event": {
+      "height": 1.39,
+      "tokens": [
+        "damage",
+        "threat",
+        "generic",
+        "acceleration",
+        "confused",
+        "stunned",
+        "tough"
+      ],
+      "width": 1
+    },
+    "Evidence - Means": {
+      "height": 1.39,
+      "tokens": [
+        "damage",
+        "threat",
+        "generic",
+        "acceleration",
+        "confused",
+        "stunned",
+        "tough"
+      ],
+      "width": 1
+    },
+    "Evidence - Motive": {
+      "height": 1.39,
+      "tokens": [
+        "damage",
+        "threat",
+        "generic",
+        "acceleration",
+        "confused",
+        "stunned",
+        "tough"
+      ],
+      "width": 1
+    },
+    "Evidence - Opportunity": {
+      "height": 1.39,
+      "tokens": [
+        "damage",
+        "threat",
+        "generic",
+        "acceleration",
+        "confused",
+        "stunned",
+        "tough"
+      ],
+      "width": 1
+    },
+    "Hero": {
+      "height": 1.39,
+      "tokens": [
+        "damage",
+        "threat",
+        "generic",
+        "acceleration",
+        "confused",
+        "stunned",
+        "tough"
+      ],
+      "width": 1
+    },
+    "Leader": {
+      "height": 1.39,
+      "tokens": [
+        "damage",
+        "threat",
+        "generic",
+        "acceleration",
+        "confused",
+        "stunned",
+        "tough"
+      ],
+      "width": 1
+    },
+    "Main Scheme": {
+      "height": 1,
+      "tokens": [
+        "damage",
+        "threat",
+        "generic",
+        "acceleration"
+      ],
+      "width": 1.39
+    },
+    "Minion": {
+      "height": 1.39,
+      "tokens": [
+        "damage",
+        "threat",
+        "generic",
+        "acceleration",
+        "confused",
+        "stunned",
+        "tough"
+      ],
+      "width": 1
+    },
+    "Obligation": {
+      "height": 1.39,
+      "tokens": [
+        "damage",
+        "threat",
+        "generic",
+        "acceleration",
+        "confused",
+        "stunned",
+        "tough"
+      ],
+      "width": 1
+    },
+    "Player Side Scheme": {
+      "height": 1,
+      "tokens": [
+        "damage",
+        "threat",
+        "generic",
+        "acceleration",
+        "confused",
+        "stunned",
+        "tough"
+      ],
+      "width": 1.39
+    },
+    "Resource": {
+      "height": 1.39,
+      "tokens": [
+        "damage",
+        "threat",
+        "generic",
+        "acceleration",
+        "confused",
+        "stunned",
+        "tough"
+      ],
+      "width": 1
+    },
+    "Side Scheme": {
+      "height": 1,
+      "tokens": [
+        "damage",
+        "threat",
+        "generic",
+        "acceleration",
+        "confused",
+        "stunned",
+        "tough"
+      ],
+      "width": 1.39
+    },
+    "Support": {
+      "height": 1.39,
+      "tokens": [
+        "damage",
+        "threat",
+        "generic",
+        "acceleration",
+        "confused",
+        "stunned",
+        "tough"
+      ],
+      "width": 1
+    },
+    "Treachery": {
+      "height": 1.39,
+      "tokens": [
+        "damage",
+        "threat",
+        "generic",
+        "acceleration",
+        "confused",
+        "stunned",
+        "tough"
+      ],
+      "width": 1
+    },
+    "Upgrade": {
+      "height": 1.39,
+      "tokens": [
+        "damage",
+        "threat",
+        "generic",
+        "acceleration",
+        "confused",
+        "stunned",
+        "tough"
+      ],
+      "width": 1
+    },
+    "Villain": {
+      "height": 1.39,
+      "tokens": [
+        "damage",
+        "threat",
+        "generic",
+        "acceleration",
+        "confused",
+        "stunned",
+        "tough"
+      ],
+      "width": 1
+    }
+  }
+}

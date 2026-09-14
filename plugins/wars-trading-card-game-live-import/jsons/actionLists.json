@@ -1,0 +1,184 @@
+{
+  "actionLists": {
+    "damageCard": [
+      [
+        "COND",
+        [
+          "EQUAL",
+          "$ACTIVE_CARD.rotation",
+          0
+        ],
+        [
+          [
+            "LOG",
+            "$ALIAS_N",
+            " damaged ",
+            "$ACTIVE_FACE.name",
+            "."
+          ],
+          [
+            "SET",
+            "/cardById/$ACTIVE_CARD_ID/rotation",
+            90
+          ]
+        ],
+        true,
+        [
+          [
+            "SET",
+            "/cardById/$ACTIVE_CARD_ID/rotation",
+            0
+          ],
+          [
+            "LOG",
+            "$ALIAS_N",
+            " undamaged ",
+            "$ACTIVE_FACE.name",
+            "."
+          ]
+        ]
+      ]
+    ],
+    "drawoneCard": [
+      [
+        "LOG",
+        "$ALIAS_N",
+        " drew 1 Card from Active Pile."
+      ],
+      [
+        "DRAW_ONE_CARD"
+      ]
+    ],
+    "drawstartingHand": [
+      [
+        "LOG",
+        "$ALIAS_N",
+        " drew starting hand of 8 Cards from Reserve."
+      ],
+      [
+        "DRAW_STARTING_HAND"
+      ]
+    ],
+    "flipCard": [
+      [
+        "LOG",
+        "$ALIAS_N",
+        " flipped ",
+        "$ACTIVE_FACE.name",
+        "."
+      ],
+      [
+        "FLIP"
+      ]
+    ],
+    "invertCard": [
+      [
+        "INVERT_CARD"
+      ]
+    ],
+    "menuPayEnergy": [
+      [
+        "PAY_ENERGY"
+      ]
+    ],
+    "menu_declarebattle": [
+      [
+        "DECLARE_BATTLE"
+      ]
+    ],
+    "menuactivateEnergy": [
+      [
+        "ACTIVATE_ENERGY"
+      ]
+    ],
+    "menuactivetoLost": [
+      [
+        "ACTIVE_TO_LOST"
+      ]
+    ],
+    "menulog_activation": [
+      [
+        "LOG_ACTIVATION"
+      ]
+    ],
+    "menureservetoLost": [
+      [
+        "RESERVE_TO_LOST"
+      ]
+    ],
+    "menusendcardtolostPile": [
+      [
+        "SEND_TO_LOST_CARD"
+      ]
+    ],
+    "menusendcardtousedPile": [
+      [
+        "SEND_TO_USED_CARD"
+      ]
+    ],
+    "menuusedtoLost": [
+      [
+        "USED_TO_LOST"
+      ]
+    ],
+    "rotate180": [
+      [
+        "COND",
+        [
+          "EQUAL",
+          "$ACTIVE_CARD.rotation",
+          0
+        ],
+        [
+          [
+            "LOG",
+            "$ALIAS_N",
+            " rotated ",
+            "$ACTIVE_FACE.name",
+            " 180 degrees."
+          ],
+          [
+            "SET",
+            "/cardById/$ACTIVE_CARD_ID/rotation",
+            180
+          ]
+        ],
+        true,
+        [
+          [
+            "SET",
+            "/cardById/$ACTIVE_CARD_ID/rotation",
+            0
+          ],
+          [
+            "LOG",
+            "$ALIAS_N",
+            " unrotated ",
+            "$ACTIVE_FACE.name",
+            "."
+          ]
+        ]
+      ]
+    ],
+    "sendcardtolostPile": [
+      [
+        "SEND_TO_LOST"
+      ]
+    ],
+    "sendcardtousedPile": [
+      [
+        "SEND_TO_USED"
+      ]
+    ],
+    "sendusedtoReserve": [
+      [
+        "LOG",
+        "$ALIAS_N",
+        " sent Used Pile to Bottom of Reserve."
+      ],
+      [
+        "USED_TO_RESERVE"
+      ]
+    ]
+  }
+}

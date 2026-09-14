@@ -1,0 +1,59 @@
+{
+  "faceProperties": {
+    "klass": {
+      "label": "Class",
+      "type": "string",
+      "default": ""
+    },
+    "level": {
+      "label": "Level",
+      "type": "string",
+      "default": ""
+    },
+    "attack": {
+      "label": "Attack",
+      "type": "string",
+      "default": ""
+    },
+    "hp": {
+      "label": "HP",
+      "type": "string",
+      "default": ""
+    },
+    "type2": {
+      "label": "Type2",
+      "type": "string",
+      "default": ""
+    },
+    "text": {
+      "label": "Text",
+      "type": "string",
+      "default": ""
+    },
+    "rarity": {
+      "label": "Rarity",
+      "type": "string",
+      "default": ""
+    },
+    "number": {
+      "label": "Number",
+      "type": "string",
+      "default": ""
+    },
+    "packName": {
+      "label": "Set",
+      "type": "string",
+      "default": ""
+    },
+    "set": {
+      "label": "Lackey Set",
+      "type": "string",
+      "default": ""
+    },
+    "loadGroupId": {
+      "label": "Load Group",
+      "type": "string",
+      "default": ""
+    }
+  }
+}

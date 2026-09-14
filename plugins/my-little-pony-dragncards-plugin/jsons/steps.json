@@ -1,0 +1,9 @@
+{
+  "steps": {
+    "startStep": {"phaseId": "start", "label": "Start"},
+    "mainStep": {"phaseId": "main", "label": "Main"},
+    "contactStep": {"phaseId": "contact", "label": "Contact"},
+    "endStep": {"phaseId": "end", "label": "End"}
+  },
+  "stepOrder": ["startStep", "mainStep", "contactStep", "endStep"]
+}

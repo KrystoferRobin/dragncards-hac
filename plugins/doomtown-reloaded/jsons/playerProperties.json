@@ -1,0 +1,22 @@
+{
+  "playerProperties": {
+    "ghostRock": {
+      "label": "Ghost Rock",
+      "type": "integer",
+      "default": 0,
+      "min": 0
+    },
+    "influence": {
+      "label": "Influence",
+      "type": "integer",
+      "default": 0,
+      "min": 0
+    },
+    "control": {
+      "label": "Control",
+      "type": "integer",
+      "default": 0,
+      "min": 0
+    }
+  }
+}

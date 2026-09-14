@@ -1,0 +1,17 @@
+{
+  "groupMenu": {
+    "moveToGroupIds": [
+      "playerNDeck",
+      "playerNProblemDeck",
+      "playerNDiscard",
+      "playerNBanished",
+      "playerNHand",
+      "playerNStarting",
+      "playerNPlay",
+      "playerNProblems",
+      "playerN+1Play",
+      "sharedSetAside"
+    ],
+    "options": []
+  }
+}

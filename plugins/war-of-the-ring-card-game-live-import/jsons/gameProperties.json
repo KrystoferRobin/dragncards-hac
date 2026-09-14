@@ -1,0 +1,20 @@
+{
+  "gameProperties": {
+    "corruptionScore": {
+      "default": 0,
+      "type": "integer"
+    },
+    "victoryPointsBlue": {
+      "default": 0,
+      "type": "integer"
+    },
+    "victoryPointsRed": {
+      "default": 0,
+      "type": "integer"
+    },
+    "victoryState": {
+      "default": "",
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "spawnExistingCardModal": {
+    "columnProperties": [
+      "name",
+      "type",
+      "element",
+      "power",
+      "packName"
+    ],
+    "loadGroupIds": [
+      "player1Deck",
+      "player1Starting",
+      "player1ProblemDeck",
+      "player1Hand",
+      "player2Hand"
+    ]
+  }
+}

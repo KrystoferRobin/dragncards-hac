@@ -1,0 +1,19 @@
+{
+  "cardBacks": {
+    "challenge": {
+      "height": 1,
+      "imageUrl": "earthborne-rangers/_plugin/EarthborneRangers-CardbackChallenge.jpg",
+      "width": 0.72
+    },
+    "path": {
+      "height": 1,
+      "imageUrl": "earthborne-rangers/_plugin/EarthborneRangers-CardbackPath.jpg",
+      "width": 0.72
+    },
+    "player": {
+      "height": 1,
+      "imageUrl": "earthborne-rangers/_plugin/EarthborneRangers-CardbackPlayer.jpg",
+      "width": 0.72
+    }
+  }
+}

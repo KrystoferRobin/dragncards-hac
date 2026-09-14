@@ -1,0 +1,229 @@
+{
+  "cardTypes": {
+    "Artifact": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "yellow",
+        "countdown",
+        "black"
+      ]
+    },
+    "Damage Marker": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "yellow",
+        "countdown",
+        "black"
+      ]
+    },
+    "Dilemma": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "yellow",
+        "countdown",
+        "black"
+      ]
+    },
+    "Doorway": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "yellow",
+        "countdown",
+        "black"
+      ]
+    },
+    "Equipment": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "yellow",
+        "countdown",
+        "black"
+      ]
+    },
+    "Event": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "yellow",
+        "countdown",
+        "black"
+      ]
+    },
+    "Facility": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "yellow",
+        "countdown",
+        "black"
+      ]
+    },
+    "Incident": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "yellow",
+        "countdown",
+        "black"
+      ]
+    },
+    "Interrupt": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "yellow",
+        "countdown",
+        "black"
+      ]
+    },
+    "Interrupt/Event": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "yellow",
+        "countdown",
+        "black"
+      ]
+    },
+    "Mission": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "yellow",
+        "countdown",
+        "black"
+      ]
+    },
+    "Objective": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "yellow",
+        "countdown",
+        "black"
+      ]
+    },
+    "Overlay": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "yellow",
+        "countdown",
+        "black"
+      ]
+    },
+    "Personnel": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "yellow",
+        "countdown",
+        "black"
+      ]
+    },
+    "Q Artifact": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "yellow",
+        "countdown",
+        "black"
+      ]
+    },
+    "Q Dilemma": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "yellow",
+        "countdown",
+        "black"
+      ]
+    },
+    "Q Event": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "yellow",
+        "countdown",
+        "black"
+      ]
+    },
+    "Q Interrupt": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "yellow",
+        "countdown",
+        "black"
+      ]
+    },
+    "Q Mission": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "yellow",
+        "countdown",
+        "black"
+      ]
+    },
+    "Ship": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "yellow",
+        "countdown",
+        "black"
+      ]
+    },
+    "Site": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "yellow",
+        "countdown",
+        "black"
+      ]
+    },
+    "Tactic": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "yellow",
+        "countdown",
+        "black"
+      ]
+    },
+    "Time Location": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "yellow",
+        "countdown",
+        "black"
+      ]
+    },
+    "Tribble": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "yellow",
+        "countdown",
+        "black"
+      ]
+    },
+    "Trouble": {
+      "width": 0.72,
+      "height": 1.0,
+      "tokens": [
+        "yellow",
+        "countdown",
+        "black"
+      ]
+    }
+  }
+}

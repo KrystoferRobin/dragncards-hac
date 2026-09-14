@@ -1,0 +1,97 @@
+{
+  "hotkeys": {
+    "game": [
+      {
+        "key": "D",
+        "actionList": "drawDeck",
+        "label": "Draw"
+      },
+      {
+        "key": "S",
+        "actionList": "shuffleDeck",
+        "label": "Shuffle deck"
+      },
+      {
+        "key": "R",
+        "actionList": "readyAll",
+        "label": "Ready all"
+      },
+      {
+        "key": "I",
+        "actionList": "flipCoin",
+        "label": "Flip a coin"
+      },
+      {
+        "key": "B",
+        "actionList": "increaseBattle",
+        "label": "Battle Point +1"
+      },
+      {
+        "key": "N",
+        "actionList": "decreaseBattle",
+        "label": "Battle Point -1"
+      },
+      {
+        "key": "M",
+        "actionList": "mulligan",
+        "label": "Mulligan"
+      }
+    ],
+    "card": [
+      {
+        "key": "T",
+        "actionList": "spendCard",
+        "label": "Spend"
+      },
+      {
+        "key": "K",
+        "actionList": "readyCard",
+        "label": "Ready"
+      },
+      {
+        "key": "F",
+        "actionList": [
+          "FLIP",
+          "$ACTIVE_CARD_ID"
+        ],
+        "label": "Flip"
+      },
+      {
+        "key": "X",
+        "actionList": [
+          "DISCARD",
+          "$ACTIVE_CARD_ID"
+        ],
+        "label": "Discard"
+      },
+      {
+        "key": "A",
+        "actionList": [
+          "DETACH",
+          "$ACTIVE_CARD_ID"
+        ],
+        "label": "Detach"
+      },
+      {
+        "key": "H",
+        "actionList": [
+          "SHUFFLE_INTO_DECK",
+          "$ACTIVE_CARD_ID"
+        ],
+        "label": "Shuffle into deck"
+      }
+    ],
+    "token": [
+      {
+        "key": "1",
+        "tokenType": "green",
+        "label": "Green counter"
+      },
+      {
+        "key": "2",
+        "tokenType": "red",
+        "label": "Red counter"
+      }
+    ]
+  }
+}

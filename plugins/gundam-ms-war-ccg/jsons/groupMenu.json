@@ -1,0 +1,14 @@
+{
+  "groupMenu": {
+    "moveToGroupIds": [
+      "playerNSupplyBase",
+      "playerNDefunct",
+      "playerNHand",
+      "playerNDryDock",
+      "playerNPlay",
+      "playerN+1Play",
+      "sharedSetAside"
+    ],
+    "options": []
+  }
+}

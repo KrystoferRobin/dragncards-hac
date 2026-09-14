@@ -18,6 +18,7 @@ import { useSiteL10n } from "../../hooks/useSiteL10n";
 import { getBackEndPlayerUi, getRandomIntInclusive } from "./functions/common";
 import { useImportLoadList } from "./hooks/useImportLoadList";
 import { loadMarvelCdb, loadRingsDb, useImportViaUrl } from "./hooks/useImportViaUrl";
+import axios from "axios";
 import { useIsHost } from "./hooks/useIsHost";
 import { usePlayerN } from "./hooks/usePlayerN";
 import { useCardDb } from "./hooks/useCardDb";
@@ -293,6 +294,18 @@ export const TopBarMenu = React.memo(() => {
         loadRingsDb(importLoadList, doActionList, playerN, "ringsdb", type, id);
       } else if (domain === "marvelcdb") {
         loadMarvelCdb(importLoadList, doActionList, playerN, "marvelcdb", type, id, cardDb);
+      } else if (domain === "dragn" && type === "deck") {
+        const seat = playerN || "player1";
+        axios.get(`/be/api/v1/decks/${user?.id}/${pluginId}`).then((res) => {
+          const deck = (res.data?.my_decks || []).find((d: any) => String(d.id) === String(id));
+          if (!deck) return;
+          importLoadList(
+            (deck.load_list || []).map((item: any) => ({
+              ...item,
+              loadGroupId: String(item.loadGroupId || "").replace(/playerN/g, seat),
+            }))
+          );
+        });
       }
     }
     // isHost is a dep so a profile that resolves after this mounts still lets the

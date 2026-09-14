@@ -1,0 +1,21 @@
+{
+  "groupMenu": {
+    "moveToGroupIds": [
+      "playerNHand",
+      "playerNCrew",
+      "playerNShip",
+      "playerNCaptain",
+      "playerNAdventures",
+      "playerNDiscard",
+      "playerNSunk",
+      "playerNDeck",
+      "sharedTradeSea",
+      "sharedFrothingSea",
+      "sharedLaBoca",
+      "sharedForbiddenSea",
+      "sharedTheMirror",
+      "sharedSetAside"
+    ],
+    "options": []
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "pluginMenu": {
+    "options": [
+      {
+        "label": "Draw",
+        "actionList": "drawDeck"
+      },
+      {
+        "label": "Shuffle deck",
+        "actionList": "shuffleDeck"
+      },
+      {
+        "label": "Ready all",
+        "actionList": "readyAll"
+      },
+      {
+        "label": "Roll d6",
+        "actionList": "rollD6"
+      },
+      {
+        "label": "Roll d20",
+        "actionList": "rollD20"
+      },
+      {
+        "label": "Flip a coin",
+        "actionList": "flipCoin"
+      },
+      {
+        "label": "Sanity +1",
+        "actionList": "increaseSanity"
+      },
+      {
+        "label": "Sanity -1",
+        "actionList": "decreaseSanity"
+      },
+      {
+        "label": "AP +1",
+        "actionList": "increaseAP"
+      },
+      {
+        "label": "AP -1",
+        "actionList": "decreaseAP"
+      }
+    ]
+  }
+}

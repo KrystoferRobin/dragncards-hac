@@ -1,0 +1,20 @@
+{
+  "groupMenu": {
+    "moveToGroupIds": [
+      "playerNHand",
+      "playerNDeck",
+      "playerNDiscard",
+      "playerNPlay",
+      "playerNSeed",
+      "playerNMissions",
+      "playerNSites",
+      "playerNTent",
+      "playerNTactics",
+      "playerNRemoved",
+      "playerN+1Play",
+      "sharedSpaceline",
+      "sharedSetAside"
+    ],
+    "options": []
+  }
+}

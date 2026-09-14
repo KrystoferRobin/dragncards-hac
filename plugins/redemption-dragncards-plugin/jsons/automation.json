@@ -1,0 +1,34 @@
+{
+  "automation": {
+    "postNewGameActionList": [
+      ["LOG", "Redemption table created. Load a deck, shuffle, draw 8. Lost Souls drawn from deck go to Land of Bondage and are replaced. No other rules are enforced."]
+    ],
+    "gameRules": {
+      "drawnLostSoulToBondage": {
+        "_comment": "When a Lost Soul is drawn from deck to hand, put it in Land of Bondage and draw a replacement.",
+        "type": "trigger",
+        "autoRun": {
+          "status": "always",
+          "promptPlayerI": "$TARGET.controller",
+          "promptMessage": "Put this Lost Soul into the Land of Bondage and draw a replacement?"
+        },
+        "listenTo": ["/cardById/*/groupId"],
+        "condition": [
+          "AND",
+          ["IN_STRING", "$TARGET.groupId", "Hand"],
+          ["IN_STRING", ["PREV", "$TARGET.groupId"], "Deck"],
+          ["OR",
+            ["EQUAL", "$TARGET.sides.A.type", "Lost Soul"],
+            ["EQUAL", "$TARGET.sides.A.type", "Lost Soul Token"]
+          ]
+        ],
+        "then": [
+          ["LOG", "{{$TARGET.sides.A.name}} is a Lost Soul and is placed in the Land of Bondage."],
+          ["MOVE_CARD", "$TARGET.id", ["JOIN_STRING", "$TARGET.controller", "LandOfBondage"], -1],
+          ["MOVE_STACKS", ["JOIN_STRING", "$TARGET.controller", "Deck"], ["JOIN_STRING", "$TARGET.controller", "Hand"], 1, "bottom"],
+          ["LOG", "Drew a replacement card."]
+        ]
+      }
+    }
+  }
+}

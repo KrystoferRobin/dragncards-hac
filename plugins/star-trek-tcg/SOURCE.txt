@@ -1,0 +1,9 @@
+Built 2026-09-12 21:17 UTC from LackeyCCG StarTrekTCG.
+Source: /Users/krystoferrobin/Downloads/lackeyplugins/StarTrekTCG
+Art: https://github.com/ericbsmith42/LackeyCCG-StarTrekTCG raw setimages.
+Author credit: Lackey / ericbsmith42
+
+Tabletop plugin only — Lackey has no rules engine to port.
+TSV rows: 479  skipped (no image URL or duplicate): 0
+Prebuilts: 1 Lackey decks.
+This is Decipher 2000 Star Trek TCG, not Star Trek CCG 1E.

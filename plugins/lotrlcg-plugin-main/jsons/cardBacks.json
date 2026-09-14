@@ -1,0 +1,14 @@
+{
+  "cardBacks": {
+    "encounter": {
+      "width": 0.72,
+      "height": 1.0,
+      "imageUrl": "lord-of-the-rings-lcg/_plugin/LordOfTheRingsLcg-CardbackEncounter.jpg"
+    },
+    "player": {
+      "width": 0.72,
+      "height": 1.0,
+      "imageUrl": "lord-of-the-rings-lcg/_plugin/LordOfTheRingsLcg-CardbackPlayer.jpg"
+    }
+  }
+}

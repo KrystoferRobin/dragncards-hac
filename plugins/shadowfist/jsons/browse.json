@@ -1,0 +1,18 @@
+{
+  "browse": {
+    "filterPropertySideA": "type",
+    "filterValuesSideA": [
+      "Character",
+      "Edge",
+      "Event",
+      "Site",
+      "State",
+      "Token"
+    ],
+    "textPropertiesSideA": [
+      "name",
+      "packName",
+      "text"
+    ]
+  }
+}

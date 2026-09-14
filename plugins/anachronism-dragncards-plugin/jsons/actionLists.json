@@ -1,0 +1,87 @@
+{
+  "actionLists": {
+    "roll1d6": [
+      ["VAR", "$D1", ["RANDOM_INT", 1, 6]],
+      ["LOG", "{{$ALIAS_N}} rolled 1d6: {{$D1}}."],
+      ["FADE_TEXT_GAME", "{{$ALIAS_N}} 1d6: {{$D1}}"]
+    ],
+    "rollAttack": [
+      ["VAR", "$D1", ["RANDOM_INT", 1, 6]],
+      ["VAR", "$D2", ["RANDOM_INT", 1, 6]],
+      ["VAR", "$TOTAL", ["ADD", "$D1", "$D2"]],
+      ["COND",
+        ["EQUAL", "$D1", "$D2"],
+        [
+          ["LOG", "{{$ALIAS_N}} attack 2d6: {{$D1}} + {{$D2}} = {{$TOTAL}} (doubles / crit)."],
+          ["FADE_TEXT_GAME", "{{$ALIAS_N}} ATK {{$TOTAL}} doubles"]
+        ],
+        ["TRUE"],
+        [
+          ["LOG", "{{$ALIAS_N}} attack 2d6: {{$D1}} + {{$D2}} = {{$TOTAL}}."],
+          ["FADE_TEXT_GAME", "{{$ALIAS_N}} ATK {{$TOTAL}}"]
+        ]
+      ]
+    ],
+    "rollDefense": [
+      ["VAR", "$D1", ["RANDOM_INT", 1, 6]],
+      ["VAR", "$D2", ["RANDOM_INT", 1, 6]],
+      ["VAR", "$TOTAL", ["ADD", "$D1", "$D2"]],
+      ["COND",
+        ["EQUAL", "$D1", "$D2"],
+        [
+          ["LOG", "{{$ALIAS_N}} defense 2d6: {{$D1}} + {{$D2}} = {{$TOTAL}} (doubles)."],
+          ["FADE_TEXT_GAME", "{{$ALIAS_N}} DEF {{$TOTAL}} doubles"]
+        ],
+        ["TRUE"],
+        [
+          ["LOG", "{{$ALIAS_N}} defense 2d6: {{$D1}} + {{$D2}} = {{$TOTAL}}."],
+          ["FADE_TEXT_GAME", "{{$ALIAS_N}} DEF {{$TOTAL}}"]
+        ]
+      ]
+    ],
+    "roll3d6": [
+      ["VAR", "$D1", ["RANDOM_INT", 1, 6]],
+      ["VAR", "$D2", ["RANDOM_INT", 1, 6]],
+      ["VAR", "$D3", ["RANDOM_INT", 1, 6]],
+      ["LOG", "{{$ALIAS_N}} rolled 3d6: {{$D1}}, {{$D2}}, {{$D3}} (choose two)."],
+      ["FADE_TEXT_GAME", "{{$ALIAS_N}} 3d6: {{$D1}} {{$D2}} {{$D3}}"]
+    ],
+    "increaseLife": [
+      ["INCREASE_VAL", "/playerData/$PLAYER_N/life", 1],
+      ["LOG", "{{$ALIAS_N}} gained 1 life."]
+    ],
+    "decreaseLife": [
+      ["COND",
+        ["GREATER_THAN", "$GAME.playerData.$PLAYER_N.life", 0],
+        [
+          ["DECREASE_VAL", "/playerData/$PLAYER_N/life", 1],
+          ["LOG", "{{$ALIAS_N}} lost 1 life."]
+        ],
+        ["TRUE"],
+        ["LOG", "{{$ALIAS_N}} is already at 0 life."]
+      ]
+    ],
+    "flipCard": [
+      ["FLIP", "$ACTIVE_CARD_ID"]
+    ],
+    "discardCard": [
+      ["DISCARD", "$ACTIVE_CARD_ID"]
+    ],
+    "faceNorth": [
+      ["SET", "/cardById/$ACTIVE_CARD_ID/rotation", 0],
+      ["LOG", "{{$ALIAS_N}} turned {{$ACTIVE_FACE.name}} North."]
+    ],
+    "faceEast": [
+      ["SET", "/cardById/$ACTIVE_CARD_ID/rotation", 90],
+      ["LOG", "{{$ALIAS_N}} turned {{$ACTIVE_FACE.name}} East."]
+    ],
+    "faceSouth": [
+      ["SET", "/cardById/$ACTIVE_CARD_ID/rotation", 180],
+      ["LOG", "{{$ALIAS_N}} turned {{$ACTIVE_FACE.name}} South."]
+    ],
+    "faceWest": [
+      ["SET", "/cardById/$ACTIVE_CARD_ID/rotation", 270],
+      ["LOG", "{{$ALIAS_N}} turned {{$ACTIVE_FACE.name}} West."]
+    ]
+  }
+}

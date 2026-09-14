@@ -1,0 +1,12 @@
+{
+  "pluginName": "The Nightmare Before Christmas CCG",
+  "author": "Lackey / wishmstr",
+  "tutorialUrl": "https://github.com/wishmstr/Nightmare-Before-Christmas-CCG",
+  "announcements": [
+    "Tabletop plugin from the Lackey Nightmare Before Christmas CCG set. No rules engine — locales, player aids, and the day counter are shortcuts.",
+    "D = draw. Y = one day closer to Christmas. Locales and starting locales load to their rows."
+  ],
+  "loadPreBuiltOnNewGame": false,
+  "bannerUrl": "https://toybox.hundredacre.club/cards/nightmare-before-christmas/_plugin/banner2.jpg",
+  "logoUrl": "https://toybox.hundredacre.club/cards/nightmare-before-christmas/_plugin/logo2.jpg"
+}

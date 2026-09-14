@@ -1,0 +1,109 @@
+{
+  "faceProperties": {
+    "attributes": {
+      "label": "Attributes",
+      "type": "string",
+      "default": ""
+    },
+    "languages": {
+      "label": "Languages",
+      "type": "string",
+      "default": ""
+    },
+    "value": {
+      "label": "Value",
+      "type": "string",
+      "default": ""
+    },
+    "sanity": {
+      "label": "Sanity",
+      "type": "string",
+      "default": ""
+    },
+    "summon": {
+      "label": "Summon",
+      "type": "string",
+      "default": ""
+    },
+    "unique": {
+      "label": "Unique",
+      "type": "string",
+      "default": ""
+    },
+    "dimension": {
+      "label": "Dimension",
+      "type": "string",
+      "default": ""
+    },
+    "past": {
+      "label": "Past",
+      "type": "string",
+      "default": ""
+    },
+    "region": {
+      "label": "Region",
+      "type": "string",
+      "default": ""
+    },
+    "city": {
+      "label": "City",
+      "type": "string",
+      "default": ""
+    },
+    "beginningSanity": {
+      "label": "Beginning Sanity",
+      "type": "string",
+      "default": ""
+    },
+    "maxSanity": {
+      "label": "Max Sanity",
+      "type": "string",
+      "default": ""
+    },
+    "education": {
+      "label": "Education",
+      "type": "string",
+      "default": ""
+    },
+    "handSize": {
+      "label": "Hand Size",
+      "type": "string",
+      "default": ""
+    },
+    "minimum": {
+      "label": "Minimum",
+      "type": "string",
+      "default": ""
+    },
+    "maximum": {
+      "label": "Maximum",
+      "type": "string",
+      "default": ""
+    },
+    "rarity": {
+      "label": "Rarity",
+      "type": "string",
+      "default": ""
+    },
+    "text": {
+      "label": "Text",
+      "type": "string",
+      "default": ""
+    },
+    "packName": {
+      "label": "Set",
+      "type": "string",
+      "default": ""
+    },
+    "set": {
+      "label": "Lackey Set",
+      "type": "string",
+      "default": ""
+    },
+    "loadGroupId": {
+      "label": "Load Group",
+      "type": "string",
+      "default": ""
+    }
+  }
+}

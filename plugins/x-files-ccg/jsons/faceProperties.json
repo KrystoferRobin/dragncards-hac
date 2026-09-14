@@ -1,0 +1,59 @@
+{
+  "faceProperties": {
+    "cost": {
+      "label": "Cost",
+      "type": "string",
+      "default": ""
+    },
+    "keywords": {
+      "label": "Keywords",
+      "type": "string",
+      "default": ""
+    },
+    "text": {
+      "label": "Text",
+      "type": "string",
+      "default": ""
+    },
+    "health": {
+      "label": "Health",
+      "type": "string",
+      "default": ""
+    },
+    "affiliation": {
+      "label": "Affiliation",
+      "type": "string",
+      "default": ""
+    },
+    "rarity": {
+      "label": "Rarity",
+      "type": "string",
+      "default": ""
+    },
+    "episode": {
+      "label": "Episode",
+      "type": "string",
+      "default": ""
+    },
+    "number": {
+      "label": "Card Number",
+      "type": "string",
+      "default": ""
+    },
+    "packName": {
+      "label": "Set",
+      "type": "string",
+      "default": ""
+    },
+    "set": {
+      "label": "OCTGN Set",
+      "type": "string",
+      "default": ""
+    },
+    "loadGroupId": {
+      "label": "Load Group",
+      "type": "string",
+      "default": ""
+    }
+  }
+}

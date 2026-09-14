@@ -1,0 +1,56 @@
+{
+  "card": [
+    448,
+    625
+  ],
+  "dpi": 150,
+  "note": "NGUI leftover padding mapped onto the Elements canvas. Conditions are GoCardBuilder.BuildFrame / BuildResourceOrChoiceCard / CardTemplate.Is*.",
+  "client_card_px": [
+    437,
+    608
+  ],
+  "portrait_uv": [
+    0.166015625,
+    0.0322265625,
+    0.8352585,
+    0.9658203
+  ],
+  "art": {
+    "left": 74.38,
+    "top": 20.14,
+    "width": 299.82,
+    "height": 583.5
+  },
+  "atlases": {
+    "Frames": {
+      "canvas": [
+        354,
+        494
+      ],
+      "scale": [
+        1.26554,
+        1.26518
+      ]
+    },
+    "Elements": {
+      "canvas": [
+        448,
+        625
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ]
+    },
+    "Icons": {
+      "canvas": [
+        485,
+        676
+      ],
+      "scale": [
+        0.92371,
+        0.92456
+      ]
+    }
+  }
+}

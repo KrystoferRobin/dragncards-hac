@@ -1,0 +1,26 @@
+{
+  "phases": {
+    "start": {
+      "label": "Start",
+      "height": "25%"
+    },
+    "main": {
+      "label": "Main",
+      "height": "25%"
+    },
+    "monsters": {
+      "label": "Monster Placement",
+      "height": "25%"
+    },
+    "end": {
+      "label": "End",
+      "height": "25%"
+    }
+  },
+  "phaseOrder": [
+    "start",
+    "main",
+    "monsters",
+    "end"
+  ]
+}

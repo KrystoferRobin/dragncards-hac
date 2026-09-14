@@ -1,0 +1,11 @@
+{
+  "automation": {
+    "postNewGameActionList": [
+      [
+        "LOG",
+        "INWO table created. Load a deck from Menu. No rules are enforced. Fnord."
+      ]
+    ],
+    "gameRules": {}
+  }
+}

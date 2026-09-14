@@ -1,0 +1,31 @@
+{
+  "deckMenu": {
+    "subMenus": [
+      {
+        "label": "Lackey Decks",
+        "deckLists": [
+          {
+            "deckListId": "japanese-starter-01-mw",
+            "label": "Japanese Starter 01 MW"
+          },
+          {
+            "deckListId": "japanese-starter-02-bt",
+            "label": "Japanese Starter 02 BT"
+          },
+          {
+            "deckListId": "starter-deck-01-thief",
+            "label": "Starter Deck 01 Thief"
+          },
+          {
+            "deckListId": "starter-deck-02-bowman",
+            "label": "Starter Deck 02 Bowman"
+          },
+          {
+            "deckListId": "starter-deck-03-magician",
+            "label": "Starter Deck 03 Magician"
+          }
+        ]
+      }
+    ]
+  }
+}

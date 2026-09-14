@@ -1,0 +1,14 @@
+{
+  "cardBacks": {
+    "Light": {
+      "height": 1,
+      "imageUrl": "star-wars-ccg/_plugin/StarWarsCcg-CardbackLight.png",
+      "width": 0.72
+    },
+    "Dark": {
+      "height": 1,
+      "imageUrl": "star-wars-ccg/_plugin/StarWarsCcg-CardbackDark.png",
+      "width": 0.72
+    }
+  }
+}

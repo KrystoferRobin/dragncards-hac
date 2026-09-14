@@ -1,0 +1,31 @@
+{
+  "phases": {
+    "lowball": {
+      "label": "Lowball",
+      "height": "20%"
+    },
+    "upkeep": {
+      "label": "Upkeep",
+      "height": "20%"
+    },
+    "highNoon": {
+      "label": "High Noon",
+      "height": "20%"
+    },
+    "sundown": {
+      "label": "Sundown",
+      "height": "20%"
+    },
+    "nightfall": {
+      "label": "Nightfall",
+      "height": "20%"
+    }
+  },
+  "phaseOrder": [
+    "lowball",
+    "upkeep",
+    "highNoon",
+    "sundown",
+    "nightfall"
+  ]
+}

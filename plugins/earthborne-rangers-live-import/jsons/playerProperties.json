@@ -1,0 +1,18 @@
+{
+  "playerProperties": {
+    "cardsDrawn": {
+      "default": 1,
+      "min": 0,
+      "type": "integer"
+    },
+    "rebalanced": {
+      "default": true,
+      "label": "id:rebalanced",
+      "type": "boolean"
+    },
+    "refreshed": {
+      "default": true,
+      "type": "boolean"
+    }
+  }
+}

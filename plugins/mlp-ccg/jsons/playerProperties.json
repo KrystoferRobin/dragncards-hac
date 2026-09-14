@@ -1,0 +1,16 @@
+{
+  "playerProperties": {
+    "points": {
+      "label": "Points",
+      "type": "integer",
+      "default": 0,
+      "min": 0
+    },
+    "actions": {
+      "label": "Action Tokens",
+      "type": "integer",
+      "default": 0,
+      "min": 0
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "cardMenu": {
+    "moveToGroupIds": [
+      "playerNPlay",
+      "playerNAvatar",
+      "playerNAbilities",
+      "playerNItems",
+      "playerNQuest1",
+      "playerNQuest2",
+      "playerNQuest3",
+      "playerNQuest4",
+      "playerNQuests",
+      "playerNHand",
+      "playerNDeck",
+      "playerNDiscard",
+      "playerNRemoved",
+      "sharedSetAside"
+    ],
+    "options": [
+      {
+        "label": "Exert",
+        "actionList": "spendCard"
+      },
+      {
+        "label": "Ready",
+        "actionList": "readyCard"
+      },
+      {
+        "label": "Flip",
+        "actionList": "flipCard"
+      },
+      {
+        "label": "Discard",
+        "actionList": "discardCard"
+      },
+      {
+        "label": "Detach",
+        "actionList": "detachCard"
+      }
+    ]
+  }
+}

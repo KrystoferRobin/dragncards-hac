@@ -1,0 +1,254 @@
+{
+  "groups": {
+    "sharedSetAside": {
+      "groupType": "aside",
+      "label": "Set Aside",
+      "tableLabel": "Set Aside",
+      "onCardEnter": {
+        "controller": "shared"
+      }
+    },
+    "sharedArenaR1C1": {
+      "groupType": "arena",
+      "label": "Arena 1,1",
+      "tableLabel": "1,1",
+      "canHaveAttachments": false,
+      "onCardEnter": {
+        "controller": "shared",
+        "inPlay": true,
+        "currentSide": "A"
+      }
+    },
+    "sharedArenaR1C2": {
+      "groupType": "arena",
+      "label": "Arena 1,2",
+      "tableLabel": "1,2",
+      "canHaveAttachments": false,
+      "onCardEnter": {
+        "controller": "shared",
+        "inPlay": true,
+        "currentSide": "A"
+      }
+    },
+    "sharedArenaR1C3": {
+      "groupType": "arena",
+      "label": "Arena 1,3",
+      "tableLabel": "1,3",
+      "canHaveAttachments": false,
+      "onCardEnter": {
+        "controller": "shared",
+        "inPlay": true,
+        "currentSide": "A"
+      }
+    },
+    "sharedArenaR1C4": {
+      "groupType": "arena",
+      "label": "Arena 1,4",
+      "tableLabel": "1,4",
+      "canHaveAttachments": false,
+      "onCardEnter": {
+        "controller": "shared",
+        "inPlay": true,
+        "currentSide": "A"
+      }
+    },
+    "sharedArenaR2C1": {
+      "groupType": "arena",
+      "label": "Arena 2,1",
+      "tableLabel": "2,1",
+      "canHaveAttachments": false,
+      "onCardEnter": {
+        "controller": "shared",
+        "inPlay": true,
+        "currentSide": "A"
+      }
+    },
+    "sharedArenaR2C2": {
+      "groupType": "arena",
+      "label": "Arena 2,2",
+      "tableLabel": "2,2",
+      "canHaveAttachments": false,
+      "onCardEnter": {
+        "controller": "shared",
+        "inPlay": true,
+        "currentSide": "A"
+      }
+    },
+    "sharedArenaR2C3": {
+      "groupType": "arena",
+      "label": "Arena 2,3",
+      "tableLabel": "2,3",
+      "canHaveAttachments": false,
+      "onCardEnter": {
+        "controller": "shared",
+        "inPlay": true,
+        "currentSide": "A"
+      }
+    },
+    "sharedArenaR2C4": {
+      "groupType": "arena",
+      "label": "Arena 2,4",
+      "tableLabel": "2,4",
+      "canHaveAttachments": false,
+      "onCardEnter": {
+        "controller": "shared",
+        "inPlay": true,
+        "currentSide": "A"
+      }
+    },
+    "sharedArenaR3C1": {
+      "groupType": "arena",
+      "label": "Arena 3,1",
+      "tableLabel": "3,1",
+      "canHaveAttachments": false,
+      "onCardEnter": {
+        "controller": "shared",
+        "inPlay": true,
+        "currentSide": "A"
+      }
+    },
+    "sharedArenaR3C2": {
+      "groupType": "arena",
+      "label": "Arena 3,2",
+      "tableLabel": "3,2",
+      "canHaveAttachments": false,
+      "onCardEnter": {
+        "controller": "shared",
+        "inPlay": true,
+        "currentSide": "A"
+      }
+    },
+    "sharedArenaR3C3": {
+      "groupType": "arena",
+      "label": "Arena 3,3",
+      "tableLabel": "3,3",
+      "canHaveAttachments": false,
+      "onCardEnter": {
+        "controller": "shared",
+        "inPlay": true,
+        "currentSide": "A"
+      }
+    },
+    "sharedArenaR3C4": {
+      "groupType": "arena",
+      "label": "Arena 3,4",
+      "tableLabel": "3,4",
+      "canHaveAttachments": false,
+      "onCardEnter": {
+        "controller": "shared",
+        "inPlay": true,
+        "currentSide": "A"
+      }
+    },
+    "sharedArenaR4C1": {
+      "groupType": "arena",
+      "label": "Arena 4,1",
+      "tableLabel": "4,1",
+      "canHaveAttachments": false,
+      "onCardEnter": {
+        "controller": "shared",
+        "inPlay": true,
+        "currentSide": "A"
+      }
+    },
+    "sharedArenaR4C2": {
+      "groupType": "arena",
+      "label": "Arena 4,2",
+      "tableLabel": "4,2",
+      "canHaveAttachments": false,
+      "onCardEnter": {
+        "controller": "shared",
+        "inPlay": true,
+        "currentSide": "A"
+      }
+    },
+    "sharedArenaR4C3": {
+      "groupType": "arena",
+      "label": "Arena 4,3",
+      "tableLabel": "4,3",
+      "canHaveAttachments": false,
+      "onCardEnter": {
+        "controller": "shared",
+        "inPlay": true,
+        "currentSide": "A"
+      }
+    },
+    "sharedArenaR4C4": {
+      "groupType": "arena",
+      "label": "Arena 4,4",
+      "tableLabel": "4,4",
+      "canHaveAttachments": false,
+      "onCardEnter": {
+        "controller": "shared",
+        "inPlay": true,
+        "currentSide": "A"
+      }
+    },
+    "player1Warrior": {
+      "groupType": "pile",
+      "label": "Player 1 Warrior",
+      "tableLabel": "Warrior",
+      "onCardEnter": {
+        "controller": "player1",
+        "currentSide": "A",
+        "inPlay": false,
+        "discardGroupId": "player1Discard"
+      }
+    },
+    "player1Pool": {
+      "groupType": "pool",
+      "label": "Player 1 Support Pool",
+      "tableLabel": "Pool",
+      "canHaveAttachments": true,
+      "onCardEnter": {
+        "controller": "player1",
+        "currentSide": "B",
+        "inPlay": true,
+        "discardGroupId": "player1Discard"
+      }
+    },
+    "player1Discard": {
+      "groupType": "discard",
+      "label": "Player 1 Discard",
+      "tableLabel": "Discard",
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1Pool",
+        "discardGroupId": "player1Discard"
+      }
+    },
+    "player2Warrior": {
+      "groupType": "pile",
+      "label": "Player 2 Warrior",
+      "tableLabel": "Warrior",
+      "onCardEnter": {
+        "controller": "player2",
+        "currentSide": "A",
+        "inPlay": false,
+        "discardGroupId": "player2Discard"
+      }
+    },
+    "player2Pool": {
+      "groupType": "pool",
+      "label": "Player 2 Support Pool",
+      "tableLabel": "Pool",
+      "canHaveAttachments": true,
+      "onCardEnter": {
+        "controller": "player2",
+        "currentSide": "B",
+        "inPlay": true,
+        "discardGroupId": "player2Discard"
+      }
+    },
+    "player2Discard": {
+      "groupType": "discard",
+      "label": "Player 2 Discard",
+      "tableLabel": "Discard",
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2Pool",
+        "discardGroupId": "player2Discard"
+      }
+    }
+  }
+}

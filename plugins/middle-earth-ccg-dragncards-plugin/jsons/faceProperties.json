@@ -1,0 +1,28 @@
+{
+  "faceProperties": {
+    "set": {"label": "Set", "type": "string", "default": ""},
+    "class": {"label": "Class", "type": "string", "default": ""},
+    "race": {"label": "Race", "type": "string", "default": ""},
+    "skills": {"label": "Skills", "type": "string", "default": ""},
+    "homeSite": {"label": "Home Site", "type": "string", "default": ""},
+    "mind": {"label": "Mind", "type": "string", "default": ""},
+    "influence": {"label": "Influence", "type": "string", "default": ""},
+    "gi": {"label": "GI", "type": "string", "default": ""},
+    "prowess": {"label": "Prowess", "type": "string", "default": ""},
+    "body": {"label": "Body", "type": "string", "default": ""},
+    "strikes": {"label": "Strikes", "type": "string", "default": ""},
+    "playable": {"label": "Playable", "type": "string", "default": ""},
+    "mp": {"label": "MP", "type": "string", "default": ""},
+    "sp": {"label": "SP", "type": "string", "default": ""},
+    "magic": {"label": "Magic", "type": "string", "default": ""},
+    "specific": {"label": "Specific", "type": "string", "default": ""},
+    "corruption": {"label": "Corruption", "type": "string", "default": ""},
+    "region": {"label": "Region", "type": "string", "default": ""},
+    "sitePath": {"label": "Site Path", "type": "string", "default": ""},
+    "draw": {"label": "Draw", "type": "string", "default": ""},
+    "opponentDraw": {"label": "Opponent Draw", "type": "string", "default": ""},
+    "rarity": {"label": "Rarity", "type": "string", "default": ""},
+    "text": {"label": "Text", "type": "string", "default": ""},
+    "loadGroupId": {"label": "Load Group", "type": "string", "default": ""}
+  }
+}

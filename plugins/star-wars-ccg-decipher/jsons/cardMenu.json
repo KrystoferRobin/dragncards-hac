@@ -1,0 +1,42 @@
+{
+  "cardMenu": {
+    "moveToGroupIds": [
+      "playerNReserve",
+      "playerNForce",
+      "playerNLost",
+      "playerNHand",
+      "playerNUsed"
+    ],
+    "options": [
+      {
+        "actionList": "menulog_activation",
+        "label": "id:menulog_activation"
+      },
+      {
+        "actionList": "menu_declarebattle",
+        "label": "id:menu_declarebattle"
+      },
+      {
+        "actionList": "damageCard",
+        "label": "id:damage"
+      },
+      {
+        "actionList": "menusendcardtolostPile",
+        "label": "id:sendcardtolostPile"
+      },
+      {
+        "actionList": "menusendcardtousedPile",
+        "label": "id:sendcardtousedPile"
+      },
+      {
+        "actionList": "rotate180",
+        "label": "id:rotate180"
+      }
+    ],
+    "suppress": [
+      "Delete",
+      "Toggle Trigger",
+      "Set Rotation"
+    ]
+  }
+}

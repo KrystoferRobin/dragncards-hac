@@ -1,0 +1,49 @@
+{
+    "groupTypes": {
+        "deck": {
+            "canHaveAttachments": false,
+            "canHaveTokens": false,
+            "shuffleOnLoad": true,
+            "onCardEnter": {
+                "currentSide": "B",
+                "inPlay": false,
+                "rotation": 0,
+                "exhausted": false,
+                "committed": false
+            }
+        },
+        "discard": {
+            "canHaveAttachments": false,
+            "canHaveTokens": false,
+            "shuffleOnLoad": false,
+            "onCardEnter": {
+                "currentSide": "A",
+                "inPlay": false,
+                "rotation": 0,
+                "exhausted": false,
+                "committed": false
+            }
+        },
+        "hand": {
+            "canHaveAttachments": false,
+            "canHaveTokens": false,
+            "shuffleOnLoad": false,
+            "onCardEnter": {
+                "currentSide": "A",
+                "inPlay": false,
+                "rotation": 0,
+                "exhausted": false,
+                "committed": false
+            }
+        },
+        "inPlay": {
+            "canHaveAttachments": true,
+            "canHaveTokens": true,
+            "shuffleOnLoad": false,
+            "onCardEnter": {
+                "currentSide": "A",
+                "inPlay": true
+            }
+        }
+    }
+}

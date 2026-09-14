@@ -1,0 +1,12 @@
+{
+  "pluginName": "Doomtown",
+  "author": "OCTGN / Db0, jbeast",
+  "tutorialUrl": "http://classic-dtdb.co",
+  "announcements": [
+    "Tabletop plugin from the OCTGN Doomtown (classic) set. No rules engine — Ghost Rock, town, Draw Hand, and Boot Hill are shortcuts.",
+    "D = draw to Play Hand. P = pull to Draw Hand. Outfits load to the Outfit row."
+  ],
+  "loadPreBuiltOnNewGame": false,
+  "bannerUrl": "https://toybox.hundredacre.club/cards/doomtown/_plugin/banner2.jpg",
+  "logoUrl": "https://toybox.hundredacre.club/cards/doomtown/_plugin/logo2.jpg"
+}

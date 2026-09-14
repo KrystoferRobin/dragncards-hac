@@ -1,0 +1,11 @@
+{
+  "automation": {
+    "postNewGameActionList": [
+      [
+        "LOG",
+        "MapleStory TCG table created. Load a deck from Menu → Load if one is listed. No rules are enforced."
+      ]
+    ],
+    "gameRules": {}
+  }
+}

@@ -1,0 +1,1744 @@
+{
+  "labels": {
+    "undo": {
+      "English": "Undo"
+    },
+    "rexMurphyStarterDeck": {
+      "English": "Rex Murphy Starter Deck"
+    },
+    "player2Removed": {
+      "English": "Player 2 Removed"
+    },
+    "lilyChenStarterDeck": {
+      "English": "Lily Chen Starter Deck"
+    },
+    "sharedPileCShort": {
+      "English": "Pile C"
+    },
+    "theDevourerBelow": {
+      "English": "The Devourer Below"
+    },
+    "removeTokens": {
+      "English": "Remove tokens"
+    },
+    "rotateTarotCardMenu": {
+      "English": "Reverse"
+    },
+    "discardVoid": {
+      "English": "Discard Limbo"
+    },
+    "filmFatale": {
+      "English": "Film Fatale"
+    },
+    "player2Selection": {
+      "English": "Player 2 Selection"
+    },
+    "dbName": {
+      "English": "Name"
+    },
+    "roundCounter": {
+      "English": "Round"
+    },
+    "layout1Player": {
+      "English": "1 Player"
+    },
+    "flipCard": {
+      "English": "Flip"
+    },
+    "dancingMad": {
+      "English": "Dancing Mad"
+    },
+    "relicsOfThePast": {
+      "English": "Relics of the Past"
+    },
+    "drawEncounterCard": {
+      "English": "Draw Encounter card"
+    },
+    "moveClueToActMenu": {
+      "English": "Pull clue (')"
+    },
+    "step-I2.E": {
+      "English": "Return to I2 or proceed to I3"
+    },
+    "theWebOfDreams": {
+      "English": "The Web of Dreams (The Dream-Eaters B)"
+    },
+    "sharedAgendaStory": {
+      "English": "Agenda Deck"
+    },
+    "returnToTheCircleUndone": {
+      "English": "Return to The Circle Undone"
+    },
+    "player1ExtraDeck": {
+      "English": "Player 1 Extra Deck"
+    },
+    "resourceToken": {
+      "English": "Resource Token"
+    },
+    "returnToLostInTimeAndSpace": {
+      "English": "Return to Lost in Time and Space"
+    },
+    "withoutATrace": {
+      "English": "Without a Trace"
+    },
+    "williamYorickStarterDeck": {
+      "English": "William Yorick Starter Deck"
+    },
+    "beyondTheGatesOfSleep": {
+      "English": "Beyond the Gates of Sleep"
+    },
+    "putCardIntoPlay": {
+      "English": "Put into play"
+    },
+    "dianaStanleyStarterDeck": {
+      "English": "Diana Stanley Starter Deck"
+    },
+    "investigatorTurn": {
+      "English": "Start/end turn"
+    },
+    "echoesOfThePast": {
+      "English": "Echoes of the Past"
+    },
+    "sharedActStory": {
+      "English": "Act Deck"
+    },
+    "dbMyInvestigator": {
+      "English": "My Investigator"
+    },
+    "amandaSharpeStarterDeck": {
+      "English": "Amanda Sharpe Starter Deck"
+    },
+    "theDoomOfEztli": {
+      "English": "The Doom of Eztli"
+    },
+    "player3SideDeck": {
+      "English": "Player 3 Side Deck"
+    },
+    "sharedVictoryDisplayShort": {
+      "English": "Victory"
+    },
+    "intoTheMaelstrom": {
+      "English": "Into the Maelstrom"
+    },
+    "weaverOfTheCosmos": {
+      "English": "Weaver of the Cosmos"
+    },
+    "pointOfNoReturn": {
+      "English": "Point of No Return"
+    },
+    "theBlobThatAteEverythingElse": {
+      "English": "The Blob That Ate Everything Else"
+    },
+    "theForgottenAgeSupplies": {
+      "English": "The Forgotten Age Supplies"
+    },
+    "murderAtTheExcelsiorHotel": {
+      "English": "Murder at the Excelsior Hotel"
+    },
+    "player1Threat": {
+      "English": "Player 1 Threat"
+    },
+    "theSecretName": {
+      "English": "The Secret Name"
+    },
+    "player2Threat": {
+      "English": "Player 2 Threat"
+    },
+    "ashcanPeteStarterDeck": {
+      "English": "\"Ashcan\" Pete Starter Deck"
+    },
+    "step-I2.1": {
+      "English": "2.2.1 Active investigator takes an action, if able"
+    },
+    "beforeTheBlackThrone": {
+      "English": "Before the Black Throne"
+    },
+    "clearTargets": {
+      "English": "Clear targets"
+    },
+    "thePitOfDespair": {
+      "English": "The Pit of Despair"
+    },
+    "returnToTheMidnightMasks": {
+      "English": "Return to The Midnight Masks"
+    },
+    "shuffleDiscardIntoDeckMenu": {
+      "English": "Shuffle into deck"
+    },
+    "congressOfTheKeys": {
+      "English": "Congress of the Keys"
+    },
+    "sharedActStoryBShort": {
+      "English": "Act B"
+    },
+    "darrellSimmonsStarterDeck": {
+      "English": "Darrell Simmons Starter Deck"
+    },
+    "devilReef": {
+      "English": "Devil Reef"
+    },
+    "lolaNeutralRoleMenu": {
+      "English": "Switch to Neutral"
+    },
+    "sharedDeckB": {
+      "English": "Deck B"
+    },
+    "carnevaleOfHorrors": {
+      "English": "Carnevale of Horrors"
+    },
+    "miguelDeLaCruzChapter2StarterDeck": {
+      "English": "Miguel de la Cruz (Chapter 2) Starter Deck"
+    },
+    "gloriaGoldbergPromoStarterDeck": {
+      "English": "Gloria Goldberg (Promo) Starter Deck"
+    },
+    "dbMySideDeck": {
+      "English": "My Side Deck"
+    },
+    "moveAllCardsLeft": {
+      "English": "Move cards left"
+    },
+    "discardCardMenu": {
+      "English": "Discard (X)"
+    },
+    "resourcesCounter": {
+      "English": "Resources"
+    },
+    "step-U2": {
+      "English": "4.2 Reset actions"
+    },
+    "undoMany": {
+      "English": "Undo many"
+    },
+    "returnToTheDoomOfEztli": {
+      "English": "Return to The Doom of Eztli"
+    },
+    "theCityOfArchives": {
+      "English": "The City of Archives"
+    },
+    "deadHeat": {
+      "English": "Dead Heat"
+    },
+    "joeDiamondChapter2StarterDeck": {
+      "English": "Joe Diamond (Chapter 2) Starter Deck"
+    },
+    "evadeActionMenu": {
+      "English": "Attempt to evade"
+    },
+    "fatalMirage": {
+      "English": "Fatal Mirage"
+    },
+    "sharedDiscardB": {
+      "English": "Discard B"
+    },
+    "returnToExtracurricularActivities": {
+      "English": "Return to Extracurricular Activities"
+    },
+    "toggleChaosBag": {
+      "English": "Toggle Chaos Bag"
+    },
+    "theUnspeakableOath": {
+      "English": "The Unspeakable Oath"
+    },
+    "detachCard": {
+      "English": "Detach"
+    },
+    "allOrNothing": {
+      "English": "All or Nothing"
+    },
+    "advanceStoryFromCardMenu": {
+      "English": "Advance (G)"
+    },
+    "brethrenOfAsh": {
+      "English": "Brethren of Ash"
+    },
+    "attachToCardFacedownMenu": {
+      "English": "Attach facedown to (Ctrl+A)"
+    },
+    "moveAllCardsUp": {
+      "English": "Move cards up"
+    },
+    "montereyJackStarterDeck": {
+      "English": "Monterey Jack Starter Deck"
+    },
+    "moveClue": {
+      "English": "Push / pull clue"
+    },
+    "luciusGallowayStarterDeck": {
+      "English": "Lucius Galloway Starter Deck"
+    },
+    "iceAndDeathPt3": {
+      "English": "Ice and Death, Part III"
+    },
+    "onThinIce": {
+      "English": "On Thin Ice"
+    },
+    "dexterDrakeStarterDeck": {
+      "English": "Dexter Drake Starter Deck"
+    },
+    "extracurricularActivity": {
+      "English": "Extracurricular Activity"
+    },
+    "takeAction": {
+      "English": "Take an action"
+    },
+    "blackStarsRise": {
+      "English": "Black Stars Rise"
+    },
+    "keyTokens": {
+      "English": "Key Tokens"
+    },
+    "theGathering": {
+      "English": "The Gathering"
+    },
+    "coreDecks": {
+      "English": "Core Decks"
+    },
+    "player3Deck": {
+      "English": "Player 3 Deck"
+    },
+    "player1SideDeck": {
+      "English": "Player 1 Side Deck"
+    },
+    "otherDecks": {
+      "English": "Other Decks"
+    },
+    "sharedPileA": {
+      "English": "Pile A"
+    },
+    "layout3Player": {
+      "English": "3 Players"
+    },
+    "player3Play": {
+      "English": "Player 3 Play Area"
+    },
+    "hankSamsonStarterDeck": {
+      "English": "Hank Samson Starter Deck"
+    },
+    "theNightOfTheZealot": {
+      "English": "The Night of the Zealot"
+    },
+    "jennyBarnesStarterDeck": {
+      "English": "Jenny Barnes Starter Deck"
+    },
+    "spawnCardMenu": {
+      "English": "Spawn (S)"
+    },
+    "fatherMateoStarterDeck": {
+      "English": "Father Mateo Starter Deck"
+    },
+    "bloodOnTheAltar": {
+      "English": "Blood on the Altar"
+    },
+    "sharedActStoryE": {
+      "English": "Act Deck E"
+    },
+    "calculateIntellect": {
+      "English": "Calculate intellect"
+    },
+    "aminaZidaneStarterDeck": {
+      "English": "Amina Zidane Starter Deck"
+    },
+    "tarotCardsPileE": {
+      "English": "Tarot Cards - Pile E"
+    },
+    "carolynFernStarterDeck": {
+      "English": "Carolyn Fern Starter Deck"
+    },
+    "browseTokensMenu": {
+      "English": "Toggle Tokens (K)"
+    },
+    "returnToTheForgottenAge": {
+      "English": "Return to the Forgotten Age"
+    },
+    "tommyMuldoonStarterDeck": {
+      "English": "Tommy Muldoon Starter Deck"
+    },
+    "michaelMcGlenStarterDeck": {
+      "English": "Michael McGlen Starter Deck"
+    },
+    "sendCardToHandMenu": {
+      "English": "Take into hand"
+    },
+    "returnToCurtainCall": {
+      "English": "Return to Curtain Call"
+    },
+    "step-I1": {
+      "English": "2.1 Investigation phase begins"
+    },
+    "sharedChaosBagShort": {
+      "English": "Chaos Bag"
+    },
+    "curseOfTheRougarou": {
+      "English": "Curse of the Rougarou"
+    },
+    "unionAndDisillusion": {
+      "English": "Union and Disillusion"
+    },
+    "scarletKeysConcealMenu": {
+      "English": "Conceal"
+    },
+    "returnToForTheGreaterGood": {
+      "English": "Return to For the Greater Good"
+    },
+    "selectTabooMenu": {
+      "English": "Select Taboo"
+    },
+    "sharedRemovedShort": {
+      "English": "Removed"
+    },
+    "tommyMuldoonChapter2StarterDeck": {
+      "English": "Tommy Muldoon (Chapter 2) Starter Deck"
+    },
+    "step-E4": {
+      "English": "3.4 Enemy phase ends"
+    },
+    "detachCardMenu": {
+      "English": "Detach (D)"
+    },
+    "sharedRemoved": {
+      "English": "Scenario Removed"
+    },
+    "actionsTakenCounter": {
+      "English": "Actions Taken"
+    },
+    "sharedOffMapShort": {
+      "English": "Off Map"
+    },
+    "forTheGreaterGood": {
+      "English": "For the Greater Good"
+    },
+    "labelMarkAsDefeat": {
+      "English": "Mark As Defeat"
+    },
+    "step-W6": {
+      "English": "Player Window 6"
+    },
+    "playerDiscardShort": {
+      "English": "Discard"
+    },
+    "moveClueToInvestigatorMenu": {
+      "English": "Push clue (')"
+    },
+    "smokeAndMirrors": {
+      "English": "Smoke and Mirrors"
+    },
+    "sharedDiscardBShort": {
+      "English": "Discard B"
+    },
+    "sharedDiscardA": {
+      "English": "Discard A"
+    },
+    "sefinaRousseauStarterDeck": {
+      "English": "Sefina Rousseau Starter Deck"
+    },
+    "sharedDeckA": {
+      "English": "Deck A"
+    },
+    "player4Threat": {
+      "English": "Player 4 Threat"
+    },
+    "removeCurseTokenMenu": {
+      "English": "Remove Curse (Shift+U)"
+    },
+    "nextStep": {
+      "English": "Next step"
+    },
+    "bringToFrontMenu": {
+      "English": "To front (])"
+    },
+    "peekCard": {
+      "English": "Toggle peeking"
+    },
+    "actionActionMenu": {
+      "English": "Trigger action ability"
+    },
+    "theForgottenAge": {
+      "English": "The Forgotten Age"
+    },
+    "player4ExtraDeck": {
+      "English": "Player 4 Extra Deck"
+    },
+    "dealingsInTheDark": {
+      "English": "Dealings in the Dark"
+    },
+    "dogsOfWar": {
+      "English": "Dogs of War"
+    },
+    "lukeRobinsonStarterDeck": {
+      "English": "Luke Robinson Starter Deck"
+    },
+    "marieLambeauStarterDeck": {
+      "English": "Marie Lambeau Starter Deck"
+    },
+    "agathaCraneSeekerStarterDeck": {
+      "English": "Agatha Crane (Seeker) Starter Deck"
+    },
+    "discardRandomCardsFromHandMenu": {
+      "English": "Discard N random cards"
+    },
+    "player2InvestigatorShort": {
+      "English": "Investigator 2"
+    },
+    "theWitchingHour": {
+      "English": "The Witching Hour"
+    },
+    "player3Investigator": {
+      "English": "Player 3 Investigator"
+    },
+    "gainResources": {
+      "English": "Gain 1 Resource"
+    },
+    "markHarriganStarterDeck": {
+      "English": "Mark Harrigan Starter Deck"
+    },
+    "isabelleBarnesChapter2StarterDeck": {
+      "English": "Isabelle Barnes (Chapter 2) Starter Deck"
+    },
+    "advanceStoryFromCard": {
+      "English": "Advance"
+    },
+    "moveActionMenu": {
+      "English": "Move to"
+    },
+    "spendResources": {
+      "English": "Spend 1 Resource"
+    },
+    "sharedPileD": {
+      "English": "Pile D"
+    },
+    "player1Investigator": {
+      "English": "Player 1 Investigator"
+    },
+    "undimensionedAndUnseen": {
+      "English": "Undimensioned and Unseen"
+    },
+    "player3Hand": {
+      "English": "Player 3 Hand"
+    },
+    "returnToDisappearanceAtTheTwilightEstate": {
+      "English": "Return to Disappearance at the Twilight Estate"
+    },
+    "theDrownedCity": {
+      "English": "The Drowned City"
+    },
+    "theBlobThatAteEverything": {
+      "English": "The Blob That Ate Everything"
+    },
+    "returnToThePallidMask": {
+      "English": "Return to The Pallid Mask"
+    },
+    "mythosPhase": {
+      "English": "Mythos"
+    },
+    "reactionActionMenu": {
+      "English": "Trigger reaction ability"
+    },
+    "theEternalSlumber": {
+      "English": "The Eternal Slumber (Guardians of the Abyss A)"
+    },
+    "warOfTheOuterGods": {
+      "English": "War of the Outer Gods"
+    },
+    "returnToTheDepthsOfYoth": {
+      "English": "Return to The Depths of Yoth"
+    },
+    "player4Aside": {
+      "English": "Player 4 Set Aside"
+    },
+    "ritaYoungStarterDeck": {
+      "English": "Rita Young Starter Deck"
+    },
+    "threadsOfFate": {
+      "English": "Threads of Fate"
+    },
+    "standaloneDecks": {
+      "English": "Standalone Decks"
+    },
+    "replaceLocation": {
+      "English": "Replace"
+    },
+    "theDepthsOfYoth": {
+      "English": "The Depths of Yoth"
+    },
+    "step-I3": {
+      "English": "2.3 Investigation phase ends"
+    },
+    "jacquelineFineStarterDeck": {
+      "English": "Jacqueline Fine Starter Deck"
+    },
+    "jimCulverStarterDeck": {
+      "English": "Jim Culver Starter Deck"
+    },
+    "browseExiledMenu": {
+      "English": "Browse Exiled"
+    },
+    "returnToTheNightOfTheZealot": {
+      "English": "Return to The Night of the Zealot"
+    },
+    "lookAtTopCardsMenu": {
+      "English": "Look at top N cards"
+    },
+    "sharedPileB": {
+      "English": "Pile B"
+    },
+    "scarletKeysRandomizeConcealedMenu": {
+      "English": "Randomize Concealed"
+    },
+    "darkSideOfTheMoon": {
+      "English": "Dark Side of the Moon"
+    },
+    "gloriaGoldbergStarterDeck": {
+      "English": "Gloria Goldberg Starter Deck"
+    },
+    "dbFaction": {
+      "English": "Faction"
+    },
+    "returnToBeforeTheBlackThrone": {
+      "English": "Return to Before the Black Throne"
+    },
+    "returnToTheLastKing": {
+      "English": "Return to The Last King"
+    },
+    "sharedDeckBShort": {
+      "English": "Deck B"
+    },
+    "step-M2": {
+      "English": "1.2 Place 1 doom on the current agenda"
+    },
+    "thePallidMask": {
+      "English": "The Pallid Mask"
+    },
+    "calculateCombat": {
+      "English": "Calculate combat"
+    },
+    "returnToTheBoundaryBeyond": {
+      "English": "Return to The Boundary Beyond"
+    },
+    "browseAsideMenu": {
+      "English": "Browse Set Aside"
+    },
+    "step-U4": {
+      "English": "4.4 Each investigator draws 1 card and gains 1 resource"
+    },
+    "doomToken": {
+      "English": "Doom Token"
+    },
+    "machinationsThroughTime": {
+      "English": "Machinations Through Time"
+    },
+    "iceAndDeathPt2": {
+      "English": "Ice and Death, Part II"
+    },
+    "step-E1": {
+      "English": "3.1 Enemy phase begins"
+    },
+    "harveyWaltersStarterDeck": {
+      "English": "Harvey Walters Starter Deck"
+    },
+    "sharedDiscardCShort": {
+      "English": "Discard C"
+    },
+    "player4Play": {
+      "English": "Player 4 Play Area"
+    },
+    "dbTraits": {
+      "English": "Traits"
+    },
+    "rolandBanksStarterDeck": {
+      "English": "Roland Banks Starter Deck"
+    },
+    "theLastKing": {
+      "English": "The Last King"
+    },
+    "sharedPileDShort": {
+      "English": "Pile D"
+    },
+    "player4Deck": {
+      "English": "Player 4 Deck"
+    },
+    "shuffleDeckTopMenu": {
+      "English": "Shuffle top N cards"
+    },
+    "putBeneathCardMenu": {
+      "English": "Place beneath this (Z)"
+    },
+    "removeBlessToken": {
+      "English": "Remove Bless Chaos Token"
+    },
+    "playerThreatShort": {
+      "English": "Threat"
+    },
+    "returnToEchoesOfThePast": {
+      "English": "Return to Echoes of the Past"
+    },
+    "zoeySamarasStarterDeck": {
+      "English": "Zoey Samaras Starter Deck"
+    },
+    "removeChaosTokenMenu": {
+      "English": "Remove a Chaos Token"
+    },
+    "addBlessTokenMenu": {
+      "English": "Add Bless (Y)"
+    },
+    "theSearchForKadath": {
+      "English": "The Search for Kadath"
+    },
+    "flipCardMenu": {
+      "English": "Flip (F)"
+    },
+    "carolynFernChapter2StarterDeck": {
+      "English": "Carolyn Fern (Chapter 2) Starter Deck"
+    },
+    "investigateActionMenu": {
+      "English": "Attempt to investigate"
+    },
+    "returnToTheGathering": {
+      "English": "Return to The Gathering"
+    },
+    "player3Exiled": {
+      "English": "Player 3 Exiled"
+    },
+    "toggleOffMap": {
+      "English": "Toggle Off Map"
+    },
+    "alessandraZorziStarterDeck": {
+      "English": "Alessandra Zorzi Starter Deck"
+    },
+    "peekCardMenu": {
+      "English": "Toggle peeking (/)"
+    },
+    "drawEncounterCardMenu": {
+      "English": "Draw Encounter card (Q)"
+    },
+    "step-U6": {
+      "English": "4.6 Upkeep phase ends. Round ends"
+    },
+    "blockUnsafeActions": {
+      "English": "Block unsafe actions"
+    },
+    "save": {
+      "English": "Save"
+    },
+    "sharedDiscardC": {
+      "English": "Discard C"
+    },
+    "returnToTheMiskatonicMuseum": {
+      "English": "Return to The Miskatonic Museum"
+    },
+    "riddlesAndRain": {
+      "English": "Riddles and Rain"
+    },
+    "theHeartOfMadnessPt2": {
+      "English": "The Heart of Madness, Part II"
+    },
+    "readyCard": {
+      "English": "Ready"
+    },
+    "sendToBackMenu": {
+      "English": "To back ([)"
+    },
+    "drawPlayerCardMenu": {
+      "English": "Draw Player card (W)"
+    },
+    "step-W1": {
+      "English": "Player Window 1"
+    },
+    "player3ExtraDeck": {
+      "English": "Player 3 Extra Deck"
+    },
+    "lolaSurvivorRoleMenu": {
+      "English": "Switch to Survivor"
+    },
+    "freeActionMenu": {
+      "English": "Trigger free ability"
+    },
+    "horrorToken": {
+      "English": "Horror Token"
+    },
+    "agathaCraneMysticStarterDeck": {
+      "English": "Agatha Crane (Mystic) Starter Deck"
+    },
+    "player3Removed": {
+      "English": "Player 3 Removed"
+    },
+    "step-W4": {
+      "English": "Player Window 4"
+    },
+    "step-I2": {
+      "English": "2.2 Next investigator's turn begins"
+    },
+    "discardVoidMenu": {
+      "English": "Discard Limbo (Shift+X)"
+    },
+    "returnToAPhantomOfTruth": {
+      "English": "Return to A Phantom of Truth"
+    },
+    "wilsonRichardsStarterDeck": {
+      "English": "Wilson Richards Starter Deck"
+    },
+    "sisterMaryStarterDeck": {
+      "English": "Sister Mary Starter Deck"
+    },
+    "sharedPileAShort": {
+      "English": "Pile A"
+    },
+    "floodedToken": {
+      "English": "Flooded Token"
+    },
+    "redTideRising": {
+      "English": "Red Tide Rising"
+    },
+    "player3Discard": {
+      "English": "Player 3 Discard"
+    },
+    "queenOfAsh": {
+      "English": "Queen of Ash"
+    },
+    "exileCardMenu": {
+      "English": "Exile"
+    },
+    "removeCard": {
+      "English": "Remove"
+    },
+    "drawCardMenu": {
+      "English": "Draw a card"
+    },
+    "playerDeckShort": {
+      "English": "Deck"
+    },
+    "replaceLocationMenu": {
+      "English": "Replace (L)"
+    },
+    "theWagesOfSin": {
+      "English": "The Wages of Sin"
+    },
+    "sharedNotInPlayShort": {
+      "English": "Not in Play"
+    },
+    "sharedDeckAShort": {
+      "English": "Deck A"
+    },
+    "step-W3": {
+      "English": "Player Window 3"
+    },
+    "playerExtraDeckShort": {
+      "English": "Extra"
+    },
+    "calculateIntellectMenu": {
+      "English": "Calculate intellect (8)"
+    },
+    "kateWinthropStarterDeck": {
+      "English": "Kate Winthrop Starter Deck"
+    },
+    "browseOffMapMenu": {
+      "English": "Toggle Off Map (M)"
+    },
+    "sharedActStoryCShort": {
+      "English": "Act C"
+    },
+    "returnToTheHouseAlwaysWins": {
+      "English": "Return to The House Always Wins"
+    },
+    "step-U1": {
+      "English": "4.1 Upkeep phase begins"
+    },
+    "sharedTokens": {
+      "English": "Tokens"
+    },
+    "returnToTurnBackTime": {
+      "English": "Return to Secret Scenario IX"
+    },
+    "heartOfTheEldersPt1": {
+      "English": "Heart of the Elders, Part 1"
+    },
+    "player1Discard": {
+      "English": "Player 1 Discard"
+    },
+    "upkeepPhase": {
+      "English": "Upkeep"
+    },
+    "player1Exiled": {
+      "English": "Player 1 Exiled"
+    },
+    "tonyMorganStarterDeck": {
+      "English": "Tony Morgan Starter Deck"
+    },
+    "readOrDie": {
+      "English": "Read or Die"
+    },
+    "replaceLocationWithMenu": {
+      "English": "Replace with (L)"
+    },
+    "calculateWillpower": {
+      "English": "Calculate willpower"
+    },
+    "sharedActStoryDShort": {
+      "English": "Act D"
+    },
+    "sharedPileEShort": {
+      "English": "Pile E"
+    },
+    "theLairOfDagon": {
+      "English": "The Lair of Dagon"
+    },
+    "readyCardMenu": {
+      "English": "Ready (R)"
+    },
+    "sharedActStoryEShort": {
+      "English": "Act E"
+    },
+    "sharedPileBShort": {
+      "English": "Pile B"
+    },
+    "mandyThompsonStarterDeck": {
+      "English": "Mandy Thompson Starter Deck"
+    },
+    "player4Hand": {
+      "English": "Player 4 Hand"
+    },
+    "lolaSeekerRoleMenu": {
+      "English": "Switch to Seeker"
+    },
+    "calculateAgilityMenu": {
+      "English": "Calculate agility (0)"
+    },
+    "putCardBeneathMenu": {
+      "English": "Place beneath (Z)"
+    },
+    "browseRemovedMenu": {
+      "English": "Browse Removed"
+    },
+    "winifredHabbamockStarterDeck": {
+      "English": "Winifred Habbamock Starter Deck"
+    },
+    "investigationPhase": {
+      "English": "Investigation"
+    },
+    "addCurseTokenMenu": {
+      "English": "Add Curse (U)"
+    },
+    "freezeCounter": {
+      "English": "Freeze Counter"
+    },
+    "sendCardToLocationsMenu": {
+      "English": "Move to Locations"
+    },
+    "step-M5": {
+      "English": "1.5 Mythos phase ends"
+    },
+    "sharedVictoryDisplay": {
+      "English": "Victory Display"
+    },
+    "playCard": {
+      "English": "Play"
+    },
+    "browseChaosBagMenu": {
+      "English": "Toggle Chaos Bag (B)"
+    },
+    "whereDoomAwaits": {
+      "English": "Where Doom Awaits"
+    },
+    "marieLambeauChapter2StarterDeck": {
+      "English": "Marie Lambeau (Chapter 2) Starter Deck"
+    },
+    "theDreamQuest": {
+      "English": "The Dream-Quest (The Dream-Eaters A)"
+    },
+    "step-W2": {
+      "English": "Player Window 2"
+    },
+    "sharedEncounterDiscard": {
+      "English": "Encounter Discard"
+    },
+    "returnToAtDeathsDoorstep": {
+      "English": "Return to At Death's Doorstep"
+    },
+    "shuffleDeckMenu": {
+      "English": "Shuffle deck"
+    },
+    "player1Selection": {
+      "English": "Player 1 Selection"
+    },
+    "leoAndersonStarterDeck": {
+      "English": "Leo Anderson Starter Deck"
+    },
+    "lolaMysticRoleMenu": {
+      "English": "Switch to Mystic"
+    },
+    "theDreamEaters": {
+      "English": "The Dream-Eaters"
+    },
+    "enemyPhase": {
+      "English": "Enemy"
+    },
+    "curtainCall": {
+      "English": "Curtain Call"
+    },
+    "returnToTheUnspeakableOath": {
+      "English": "Return to The Unspeakable Oath"
+    },
+    "theDunwichLegacy": {
+      "English": "The Dunwich Legacy"
+    },
+    "spawnMicroCardMenu": {
+      "English": "Spawn counter"
+    },
+    "sharedPileC": {
+      "English": "Pile C"
+    },
+    "dexterDrakeChapter2StarterDeck": {
+      "English": "Dexter Drake (Chapter 2) Starter Deck"
+    },
+    "edgeOfTheEarth": {
+      "English": "Edge of the Earth"
+    },
+    "aLightInTheFog": {
+      "English": "A Light in the Fog"
+    },
+    "attachCardFacedown": {
+      "English": "Attach facedown"
+    },
+    "labelMarkAsVictory": {
+      "English": "Mark As Victory"
+    },
+    "dbPack": {
+      "English": "Pack"
+    },
+    "subject5U21StarterDeck": {
+      "English": "Subject 5U-21 Starter Deck"
+    },
+    "player1Removed": {
+      "English": "Player 1 Removed"
+    },
+    "horrorInHighGear": {
+      "English": "Horror in High Gear"
+    },
+    "returnToThePathToCarcosa": {
+      "English": "Return to The Path to Carcosa"
+    },
+    "sanguineShadows": {
+      "English": "Sanguine Shadows"
+    },
+    "player3Aside": {
+      "English": "Player 3 Set Aside"
+    },
+    "sharedDeckC": {
+      "English": "Deck C"
+    },
+    "calculateVPMenu": {
+      "English": "Calculate Victory Points"
+    },
+    "labelMarkAsIncomplete": {
+      "English": "Mark As Incomplete"
+    },
+    "addChaosTokenMenu": {
+      "English": "Add a Chaos Token"
+    },
+    "layout4Player": {
+      "English": "4 Players"
+    },
+    "player2Play": {
+      "English": "Player 2 Play Area"
+    },
+    "danielaReyesStarterDeck": {
+      "English": "Daniela Reyes Starter Deck"
+    },
+    "sharedEncounterDeckShort": {
+      "English": "Encounter"
+    },
+    "player2Hand": {
+      "English": "Player 2 Hand"
+    },
+    "spreadingFlames": {
+      "English": "Spreading Flames"
+    },
+    "sealTokens": {
+      "English": "Seal Tokens"
+    },
+    "shufflePileMenu": {
+      "English": "Shuffle pile"
+    },
+    "step-I2.2": {
+      "English": "2.2.2 Investigator's turn ends"
+    },
+    "attachToCardMenu": {
+      "English": "Attach to (A)"
+    },
+    "returnToUnionAndDisillusion": {
+      "English": "Return to Union and Disillusion"
+    },
+    "wendyAdamsStarterDeck": {
+      "English": "Wendy Adams Starter Deck"
+    },
+    "player2Aside": {
+      "English": "Player 2 Set Aside"
+    },
+    "sharedLocations": {
+      "English": "Locations"
+    },
+    "atDeathsDoorstep": {
+      "English": "At Death's Doorstep"
+    },
+    "player4Discard": {
+      "English": "Player 4 Discard"
+    },
+    "theScarletKeys": {
+      "English": "The Scarlet Keys"
+    },
+    "sendCardToDeckBottomMenu": {
+      "English": "Move to deck's bottom"
+    },
+    "attachCardFacedownMenu": {
+      "English": "Attach facedown (Ctrl+A)"
+    },
+    "player2ExtraDeck": {
+      "English": "Player 2 Extra Deck"
+    },
+    "moveAllCardsDown": {
+      "English": "Move cards down"
+    },
+    "sharedScenarioReferenceShort": {
+      "English": "Scenario"
+    },
+    "starterDecks": {
+      "English": "Starter Decks"
+    },
+    "toTheForbiddenPeaks": {
+      "English": "To the Forbidden Peaks"
+    },
+    "player3InvestigatorShort": {
+      "English": "Investigator 3"
+    },
+    "step-U5": {
+      "English": "4.5 Each investigator checks hand size"
+    },
+    "sharedDiscardAShort": {
+      "English": "Discard A"
+    },
+    "step-M3": {
+      "English": "1.3 Check doom threshold"
+    },
+    "player2Investigator": {
+      "English": "Player 2 Investigator"
+    },
+    "theInnsmouthConspiracy": {
+      "English": "The Innsmouth Conspiracy"
+    },
+    "calvinWrightStarterDeck": {
+      "English": "Calvin Wright Starter Deck"
+    },
+    "sharedEncounterDiscardShort": {
+      "English": "Discard"
+    },
+    "daisyWalkerStarterDeck": {
+      "English": "Daisy Walker Starter Deck"
+    },
+    "finnEdwardsStarterDeck": {
+      "English": "Finn Edwards Starter Deck"
+    },
+    "eliminateInvestigatorMenu": {
+      "English": "Eliminate"
+    },
+    "shuffleIntoEncounterDeckMenu": {
+      "English": "Shuffle into Encounter Deck"
+    },
+    "target": {
+      "English": "Target"
+    },
+    "kohakuNarukamiStarterDeck": {
+      "English": "Kōhaku Narukami Starter Deck"
+    },
+    "cloneSupplyCardMenu": {
+      "English": "Clone"
+    },
+    "disappearanceAtTheTwilightEstate": {
+      "English": "Disappearance at the Twilight Estate"
+    },
+    "player4Removed": {
+      "English": "Player 4 Removed"
+    },
+    "returnToThreadsOfFate": {
+      "English": "Return to Threads of Fate"
+    },
+    "returnToTheForgottenAgeSupplies": {
+      "English": "Return to The Forgotten Age Supplies"
+    },
+    "returnToShatteredAeons": {
+      "English": "Return to Shattered Aeons"
+    },
+    "loopUntilInvestigatorsDone": {
+      "English": "Loop until investigators done"
+    },
+    "resources": {
+      "English": "Resources"
+    },
+    "bringToFront": {
+      "English": "To front"
+    },
+    "discardCard": {
+      "English": "Discard"
+    },
+    "theNightsUsurper": {
+      "English": "The Night's Usurper (Guardians of the Abyss B)"
+    },
+    "sharedAgendaStoryShort": {
+      "English": "Agenda"
+    },
+    "byTheBook": {
+      "English": "By the Book"
+    },
+    "sharedActStoryShort": {
+      "English": "Act"
+    },
+    "commitCardMenu": {
+      "English": "Commit (J)"
+    },
+    "setAsideCardMenu": {
+      "English": "Set aside"
+    },
+    "returnToBlackStarsRise": {
+      "English": "Return to Black Stars Rise"
+    },
+    "kymaniJonesStarterDeck": {
+      "English": "Kymani Jones Starter Deck"
+    },
+    "attachCardMenu": {
+      "English": "Attach (A)"
+    },
+    "sharedNotInPlay": {
+      "English": "Not in Play"
+    },
+    "returnToHeartOfTheEldersPt1": {
+      "English": "Return to Heart of the Elders, Part 1"
+    },
+    "fortuneAndFollyPt2": {
+      "English": "Fortune and Folly, Part 2"
+    },
+    "returnToWhereDoomAwaits": {
+      "English": "Return to Where Doom Awaits"
+    },
+    "fortuneAndFollyPt1": {
+      "English": "Fortune and Folly, Part 1"
+    },
+    "step-W5": {
+      "English": "Player Window 5"
+    },
+    "player4SideDeck": {
+      "English": "Player 4 Side Deck"
+    },
+    "returnToBloodOnTheAltar": {
+      "English": "Return to Blood on the Altar"
+    },
+    "enthrallingEncore": {
+      "English": "Enthralling Encore"
+    },
+    "scarletKeysSpawnDecoyMenu": {
+      "English": "Spawn Decoy"
+    },
+    "aThousandShapesOfHorror": {
+      "English": "A Thousand Shapes of Horror"
+    },
+    "step-E2": {
+      "English": "3.2 Hunter enemies move"
+    },
+    "exhaustCardMenu": {
+      "English": "Exhaust (E)"
+    },
+    "putCardIntoPlayMenu": {
+      "English": "Put into play (Ctrl+P)"
+    },
+    "lolaGuardianRoleMenu": {
+      "English": "Switch to Guardian"
+    },
+    "tarotReadingMenu": {
+      "English": "Tarot Reading"
+    },
+    "akachiOnyeleStarterDeck": {
+      "English": "Akachi Onyele Starter Deck"
+    },
+    "sideStories": {
+      "English": "Side Stories"
+    },
+    "player2Deck": {
+      "English": "Player 2 Deck"
+    },
+    "browseSideDeckMenu": {
+      "English": "Browse Side Deck"
+    },
+    "playerSideDeckShort": {
+      "English": "Side Deck"
+    },
+    "lolaHayesStarterDeck": {
+      "English": "Lola Hayes Starter Deck"
+    },
+    "calculateAgility": {
+      "English": "Calculate agility"
+    },
+    "returnToDimCarcosa": {
+      "English": "Return to Dim Carcosa"
+    },
+    "marionTavaresStarterDeck": {
+      "English": "Marion Tavares Starter Deck"
+    },
+    "theHeartOfMadnessPt1": {
+      "English": "The Heart of Madness, Part I"
+    },
+    "player1Deck": {
+      "English": "Player 1 Deck"
+    },
+    "inTooDeep": {
+      "English": "In Too Deep"
+    },
+    "engageActionMenu": {
+      "English": "Engage"
+    },
+    "calculateCombatMenu": {
+      "English": "Calculate combat (9)"
+    },
+    "turnBackTime": {
+      "English": "Secret Scenario IX"
+    },
+    "player2Discard": {
+      "English": "Player 2 Discard"
+    },
+    "dbTabooName": {
+      "English": "Taboo"
+    },
+    "player3Threat": {
+      "English": "Player 3 Threat"
+    },
+    "removeBlessTokenMenu": {
+      "English": "Remove Bless (Shift+Y)"
+    },
+    "exhaustCard": {
+      "English": "Exhaust"
+    },
+    "sharedChaosBag": {
+      "English": "Chaos Bag"
+    },
+    "sharedOffMap": {
+      "English": "Off Map"
+    },
+    "sharedActStoryD": {
+      "English": "Act Deck D"
+    },
+    "prestonFairmontStarterDeck": {
+      "English": "Preston Fairmont Starter Deck"
+    },
+    "player4Exiled": {
+      "English": "Player 4 Exiled"
+    },
+    "sendToBack": {
+      "English": "To back"
+    },
+    "player4Investigator": {
+      "English": "Player 4 Investigator"
+    },
+    "addCurseToken": {
+      "English": "Add Curse Chaos Token"
+    },
+    "silasMarshStarterDeck": {
+      "English": "Silas Marsh Starter Deck"
+    },
+    "player2SideDeck": {
+      "English": "Player 2 Side Deck"
+    },
+    "minhThiPhanStarterDeck": {
+      "English": "Minh Thi Phan Starter Deck"
+    },
+    "countChaosTokensMenu": {
+      "English": "Count Chaos Tokens"
+    },
+    "skidsOTooleStarterDeck": {
+      "English": "\"Skids\" O'Toole Starter Deck"
+    },
+    "toggleNotInPlay": {
+      "English": "Toggle Not in Play"
+    },
+    "step-U3": {
+      "English": "4.3 Ready each exhausted card"
+    },
+    "actionsTaken": {
+      "English": "Actions Taken"
+    },
+    "theVanishingOfElinaHarper": {
+      "English": "The Vanishing of Elina Harper"
+    },
+    "drawArrow": {
+      "English": "Draw Arrow"
+    },
+    "moveAllCardsRight": {
+      "English": "Move cards right"
+    },
+    "playCardMenu": {
+      "English": "Play (P)"
+    },
+    "nathanielChoStarterDeck": {
+      "English": "Nathaniel Cho Starter Deck"
+    },
+    "addBlessToken": {
+      "English": "Add Bless Chaos Token"
+    },
+    "dimCarcosa": {
+      "English": "Dim Carcosa"
+    },
+    "playerSelectionShort": {
+      "English": "Selection"
+    },
+    "layout2Player": {
+      "English": "2 Players"
+    },
+    "attachCard": {
+      "English": "Attach"
+    },
+    "lolaRogueRoleMenu": {
+      "English": "Switch to Rogue"
+    },
+    "theEssexCountyExpress": {
+      "English": "The Essex County Express"
+    },
+    "nameChaosTokenMenu": {
+      "English": "Name a Chaos Token (H)"
+    },
+    "shatteredAeons": {
+      "English": "Shattered Aeons"
+    },
+    "chapter2CoreDecks": {
+      "English": "Chapter 2 Core Decks"
+    },
+    "sharedEncounterDeck": {
+      "English": "Encounter Deck"
+    },
+    "clueToken": {
+      "English": "Clue Token"
+    },
+    "theLabyrinthsOfLunacy": {
+      "English": "The Labyrinths of Lunacy"
+    },
+    "returnToTheWagesOfSin": {
+      "English": "Return to The Wages of Sin"
+    },
+    "returnToTheSecretName": {
+      "English": "Return to The Secret Name"
+    },
+    "challengeScenarios": {
+      "English": "Challenge Scenarios"
+    },
+    "wakingNightmare": {
+      "English": "Waking Nightmare"
+    },
+    "playerRemovedShort": {
+      "English": "Removed"
+    },
+    "badBlood": {
+      "English": "Bad Blood"
+    },
+    "returnToInTheClutchesOfChaos": {
+      "English": "Return to In the Clutches of Chaos"
+    },
+    "exportChaosBagMenu": {
+      "English": "Export Chaos Bag"
+    },
+    "fightActionMenu": {
+      "English": "Attempt to fight"
+    },
+    "danielaReyesChapter2StarterDeck": {
+      "English": "Daniela Reyes (Chapter 2) Starter Deck"
+    },
+    "returnToHeartOfTheEldersPt2": {
+      "English": "Return to Heart of the Elders, Part 2"
+    },
+    "theMidwinterGala": {
+      "English": "The Midwinter Gala"
+    },
+    "revisedCoreDecks": {
+      "English": "Revised Core Decks"
+    },
+    "theCircleUndone": {
+      "English": "The Circle Undone"
+    },
+    "theMidnightMasks": {
+      "English": "The Midnight Masks"
+    },
+    "returnToTheUntamedWilds": {
+      "English": "Return to The Untamed Wilds"
+    },
+    "tarotCardsDeckC": {
+      "English": "Tarot Cards - Deck C"
+    },
+    "shadesOfSuffering": {
+      "English": "Shades of Suffering"
+    },
+    "advanceStoryMenu": {
+      "English": "Advance"
+    },
+    "removeCurseToken": {
+      "English": "Remove Curse Chaos Token"
+    },
+    "theFeastOfHemlockVale": {
+      "English": "The Feast of Hemlock Vale"
+    },
+    "commitCard": {
+      "English": "Commit"
+    },
+    "browseSideboardMenu": {
+      "English": "Toggle Sideboard (O)"
+    },
+    "inTheClutchesOfChaos": {
+      "English": "In the Clutches of Chaos"
+    },
+    "spawnCard": {
+      "English": "Spawn"
+    },
+    "campaigns": {
+      "English": "Campaigns"
+    },
+    "investigatorStartTurnMenu": {
+      "English": "Start turn (I)"
+    },
+    "player2Exiled": {
+      "English": "Player 2 Exiled"
+    },
+    "player3Selection": {
+      "English": "Player 3 Selection"
+    },
+    "trishScarboroughChapter2StarterDeck": {
+      "English": "Trish Scarborough (Chapter 2) Starter Deck"
+    },
+    "putCardBeneath": {
+      "English": "Place beneath"
+    },
+    "iceAndDeathPt1": {
+      "English": "Ice and Death, Part I"
+    },
+    "carsonSinclairStarterDeck": {
+      "English": "Carson Sinclair Starter Deck"
+    },
+    "sharedActStoryB": {
+      "English": "Act Deck B"
+    },
+    "joeDiamondStarterDeck": {
+      "English": "Joe Diamond Starter Deck"
+    },
+    "drawPlayerCard": {
+      "English": "Draw Player card"
+    },
+    "vincentLeeStarterDeck": {
+      "English": "Vincent Lee Starter Deck"
+    },
+    "standardTokens": {
+      "English": "Standard Tokens"
+    },
+    "cityOfTheElderThings": {
+      "English": "City of the Elder Things"
+    },
+    "laidToRest": {
+      "English": "Laid to Rest"
+    },
+    "player1InvestigatorShort": {
+      "English": "Investigator 1"
+    },
+    "nameChaosToken": {
+      "English": "Name a Chaos Token"
+    },
+    "miscellaneous": {
+      "English": "Miscellaneous"
+    },
+    "sharedDeckCShort": {
+      "English": "Deck C"
+    },
+    "viewCardInfoMenu": {
+      "English": "Info"
+    },
+    "toggleVictoryDisplay": {
+      "English": "Toggle Victory Display"
+    },
+    "theUntamedWilds": {
+      "English": "The Untamed Wilds"
+    },
+    "normanWithersStarterDeck": {
+      "English": "Norman Withers Starter Deck"
+    },
+    "selectRandomCardsInHandMenu": {
+      "English": "Target N random cards"
+    },
+    "browseVictoryDisplayMenu": {
+      "English": "Toggle Victory Display (V)"
+    },
+    "playerHandShort": {
+      "English": "Hand"
+    },
+    "returnToTheWitchingHour": {
+      "English": "Return to The Witching Hour"
+    },
+    "returnToTheDunwichLegacy": {
+      "English": "Return to The Dunwich Legacy"
+    },
+    "calculateWillpowerMenu": {
+      "English": "Calculate willpower (7)"
+    },
+    "trishScarboroughStarterDeck": {
+      "English": "Trish Scarborough Starter Deck"
+    },
+    "sharedVoid": {
+      "English": "Limbo"
+    },
+    "returnToUndimensionedAndUnseen": {
+      "English": "Return to Undimensioned and Unseen"
+    },
+    "investigatorEndTurnMenu": {
+      "English": "End turn (I)"
+    },
+    "theHouseAlwaysWins": {
+      "English": "The House Always Wins"
+    },
+    "step-E3": {
+      "English": "3.3 Next investigator resolves engaged enemy attacks"
+    },
+    "playerPlayShort": {
+      "English": "Play Area"
+    },
+    "player4Selection": {
+      "English": "Player 4 Selection"
+    },
+    "heartOfTheEldersPt2": {
+      "English": "Heart of the Elders, Part 2"
+    },
+    "deleteSupplyCard": {
+      "English": "Delete"
+    },
+    "toggleTokens": {
+      "English": "Toggle Tokens"
+    },
+    "returnToTheCityOfArchives": {
+      "English": "Return to The City of Archives"
+    },
+    "returnToCampaigns": {
+      "English": "Return to... Campaigns"
+    },
+    "player1Play": {
+      "English": "Player 1 Play Area"
+    },
+    "damageToken": {
+      "English": "Damage Token"
+    },
+    "player1Aside": {
+      "English": "Player 1 Set Aside"
+    },
+    "revealChaosToken": {
+      "English": "Reveal a Chaos Token"
+    },
+    "returnToTheEssexCountyExpress": {
+      "English": "Return to The Essex County Express"
+    },
+    "sharedScenarioReference": {
+      "English": "Scenario Reference"
+    },
+    "retractAction": {
+      "English": "Retract an action"
+    },
+    "sharedActStoryC": {
+      "English": "Act Deck C"
+    },
+    "step-M1": {
+      "English": "1.1 Round begins. Mythos phase begins"
+    },
+    "step-M4": {
+      "English": "1.4 Each investigator draws 1 encounter card"
+    },
+    "returnToTheDevourerBelow": {
+      "English": "Return to The Devourer Below"
+    },
+    "sharedPileE": {
+      "English": "Pile E"
+    },
+    "chaosKeyTokens": {
+      "English": "Chaos Key Tokens"
+    },
+    "theBoundaryBeyond": {
+      "English": "The Boundary Beyond"
+    },
+    "stellaClarkStarterDeck": {
+      "English": "Stella Clark Starter Deck"
+    },
+    "playerAsideShort": {
+      "English": "Set Aside"
+    },
+    "lostInTimeAndSpace": {
+      "English": "Lost in Time and Space"
+    },
+    "thePathToCarcosa": {
+      "English": "The Path to Carcosa"
+    },
+    "dbNumber": {
+      "English": "Number"
+    },
+    "patriceHathawayStarterDeck": {
+      "English": "Patrice Hathaway Starter Deck"
+    },
+    "revealChaosTokenMenu": {
+      "English": "Reveal a Chaos Token (C)"
+    },
+    "charlieKaneStarterDeck": {
+      "English": "Charlie Kane Starter Deck"
+    },
+    "sharedVoidShort": {
+      "English": "Limbo"
+    },
+    "agnesBakerStarterDeck": {
+      "English": "Agnes Baker Starter Deck"
+    },
+    "toggleSideboard": {
+      "English": "Toggle Sideboard"
+    },
+    "browseNotInPlayMenu": {
+      "English": "Toggle Not in Play (N)"
+    },
+    "player1Hand": {
+      "English": "Player 1 Hand"
+    },
+    "dbMyDeck": {
+      "English": "My Deck"
+    },
+    "dbType": {
+      "English": "Type"
+    },
+    "aPhantomOfTruth": {
+      "English": "A Phantom of Truth"
+    },
+    "removeCardMenu": {
+      "English": "Remove (Delete)"
+    },
+    "georgeBarnabyStarterDeck": {
+      "English": "George Barnaby Starter Deck"
+    },
+    "andrePatelChapter2StarterDeck": {
+      "English": "André Patel (Chapter 2) Starter Deck"
+    },
+    "player4InvestigatorShort": {
+      "English": "Investigator 4"
+    },
+    "sharedTokensShort": {
+      "English": "Tokens"
+    },
+    "theMiskatonicMuseum": {
+      "English": "The Miskatonic Museum"
+    },
+    "whereTheGodsDwell": {
+      "English": "Where the Gods Dwell"
+    },
+    "playerExiledShort": {
+      "English": "Exiled"
+    },
+    "deleteSupplyCardMenu": {
+      "English": "Delete (Ctrl+Delete)"
+    },
+    "ursulaDownsStarterDeck": {
+      "English": "Ursula Downs Starter Deck"
+    },
+    "bobJenkinsStarterDeck": {
+      "English": "Bob Jenkins Starter Deck"
+    }
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "deckbuilder": {
+    "addButtons": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "columns": [
+      {
+        "propName": "name",
+        "label": "Name"
+      },
+      {
+        "propName": "subtitle",
+        "label": "Subtitle"
+      },
+      {
+        "propName": "type",
+        "label": "Type"
+      },
+      {
+        "propName": "archetype",
+        "label": "Archetype"
+      },
+      {
+        "propName": "attack",
+        "label": "ATK"
+      },
+      {
+        "propName": "defense",
+        "label": "DEF"
+      },
+      {
+        "propName": "health",
+        "label": "HP"
+      },
+      {
+        "propName": "cost",
+        "label": "Cost"
+      },
+      {
+        "propName": "packName",
+        "label": "Set"
+      }
+    ],
+    "spawnGroups": [
+      {
+        "loadGroupId": "playerNDeck",
+        "label": "My Deck"
+      },
+      {
+        "loadGroupId": "playerNHand",
+        "label": "My Hand"
+      },
+      {
+        "loadGroupId": "playerNAvatar",
+        "label": "My Avatar"
+      },
+      {
+        "loadGroupId": "playerNQuest1",
+        "label": "My Quest 1"
+      },
+      {
+        "loadGroupId": "playerNQuest2",
+        "label": "My Quest 2"
+      },
+      {
+        "loadGroupId": "playerNQuest3",
+        "label": "My Quest 3"
+      },
+      {
+        "loadGroupId": "playerNQuest4",
+        "label": "My Quest 4"
+      },
+      {
+        "loadGroupId": "playerNAbilities",
+        "label": "My Abilities"
+      },
+      {
+        "loadGroupId": "playerNItems",
+        "label": "My Items"
+      },
+      {
+        "loadGroupId": "playerNPlay",
+        "label": "My Combat"
+      }
+    ]
+  }
+}

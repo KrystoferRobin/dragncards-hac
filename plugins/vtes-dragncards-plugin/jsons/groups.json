@@ -1,0 +1,844 @@
+{
+  "groups": {
+    "sharedSetAside": {
+      "groupType": "aside",
+      "label": "Set Aside",
+      "tableLabel": "Set Aside",
+      "onCardEnter": {
+        "controller": "shared"
+      }
+    },
+    "sharedEdge": {
+      "groupType": "edge",
+      "label": "The Edge",
+      "tableLabel": "Edge",
+      "onCardEnter": {
+        "controller": "shared"
+      }
+    },
+    "sharedOverlay": {
+      "groupType": "aside",
+      "label": "Overlay",
+      "tableLabel": "",
+      "onCardEnter": {
+        "controller": "shared"
+      }
+    },
+    "player1Library": {
+      "groupType": "library",
+      "label": "Player 1 Library",
+      "tableLabel": "Library",
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1Library",
+        "discardGroupId": "player1AshHeap"
+      }
+    },
+    "player1Crypt": {
+      "groupType": "crypt",
+      "label": "Player 1 Crypt",
+      "tableLabel": "Crypt",
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1Crypt",
+        "discardGroupId": "player1AshHeap"
+      }
+    },
+    "player1Hand": {
+      "groupType": "hand",
+      "label": "Player 1 Hand",
+      "tableLabel": "Hand",
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1Library",
+        "discardGroupId": "player1AshHeap"
+      }
+    },
+    "player1AshHeap": {
+      "groupType": "ashHeap",
+      "label": "Player 1 Ash Heap",
+      "tableLabel": "Ash",
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1Library",
+        "discardGroupId": "player1AshHeap"
+      }
+    },
+    "player1Removed": {
+      "groupType": "removed",
+      "label": "Player 1 Removed",
+      "tableLabel": "RFG",
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1Library",
+        "discardGroupId": "player1AshHeap"
+      }
+    },
+    "player1Uncontrolled": {
+      "groupType": "uncontrolled",
+      "label": "Player 1 Uncontrolled",
+      "tableLabel": "Unctrl",
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1Library",
+        "discardGroupId": "player1AshHeap"
+      }
+    },
+    "player1Ready": {
+      "groupType": "ready",
+      "label": "Player 1 Ready",
+      "tableLabel": "Ready",
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1Library",
+        "discardGroupId": "player1AshHeap"
+      },
+      "canHaveAttachments": true
+    },
+    "player1Torpor": {
+      "groupType": "torpor",
+      "label": "Player 1 Torpor",
+      "tableLabel": "Torpor",
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1Library",
+        "discardGroupId": "player1AshHeap"
+      },
+      "canHaveAttachments": true
+    },
+    "player1Masters": {
+      "groupType": "masters",
+      "label": "Player 1 Masters",
+      "tableLabel": "Master",
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1Library",
+        "discardGroupId": "player1AshHeap"
+      }
+    },
+    "player1Tokens": {
+      "groupType": "tokens",
+      "label": "Player 1 Tokens",
+      "tableLabel": "Tokens",
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1Library",
+        "discardGroupId": "player1AshHeap"
+      }
+    },
+    "player2Library": {
+      "groupType": "library",
+      "label": "Player 2 Library",
+      "tableLabel": "Library",
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2Library",
+        "discardGroupId": "player2AshHeap"
+      }
+    },
+    "player2Crypt": {
+      "groupType": "crypt",
+      "label": "Player 2 Crypt",
+      "tableLabel": "Crypt",
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2Crypt",
+        "discardGroupId": "player2AshHeap"
+      }
+    },
+    "player2Hand": {
+      "groupType": "hand",
+      "label": "Player 2 Hand",
+      "tableLabel": "Hand",
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2Library",
+        "discardGroupId": "player2AshHeap"
+      }
+    },
+    "player2AshHeap": {
+      "groupType": "ashHeap",
+      "label": "Player 2 Ash Heap",
+      "tableLabel": "Ash",
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2Library",
+        "discardGroupId": "player2AshHeap"
+      }
+    },
+    "player2Removed": {
+      "groupType": "removed",
+      "label": "Player 2 Removed",
+      "tableLabel": "RFG",
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2Library",
+        "discardGroupId": "player2AshHeap"
+      }
+    },
+    "player2Uncontrolled": {
+      "groupType": "uncontrolled",
+      "label": "Player 2 Uncontrolled",
+      "tableLabel": "Unctrl",
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2Library",
+        "discardGroupId": "player2AshHeap"
+      }
+    },
+    "player2Ready": {
+      "groupType": "ready",
+      "label": "Player 2 Ready",
+      "tableLabel": "Ready",
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2Library",
+        "discardGroupId": "player2AshHeap"
+      },
+      "canHaveAttachments": true
+    },
+    "player2Torpor": {
+      "groupType": "torpor",
+      "label": "Player 2 Torpor",
+      "tableLabel": "Torpor",
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2Library",
+        "discardGroupId": "player2AshHeap"
+      },
+      "canHaveAttachments": true
+    },
+    "player2Masters": {
+      "groupType": "masters",
+      "label": "Player 2 Masters",
+      "tableLabel": "Master",
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2Library",
+        "discardGroupId": "player2AshHeap"
+      }
+    },
+    "player2Tokens": {
+      "groupType": "tokens",
+      "label": "Player 2 Tokens",
+      "tableLabel": "Tokens",
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2Library",
+        "discardGroupId": "player2AshHeap"
+      }
+    },
+    "player3Library": {
+      "groupType": "library",
+      "label": "Player 3 Library",
+      "tableLabel": "Library",
+      "onCardEnter": {
+        "controller": "player3",
+        "deckGroupId": "player3Library",
+        "discardGroupId": "player3AshHeap"
+      }
+    },
+    "player3Crypt": {
+      "groupType": "crypt",
+      "label": "Player 3 Crypt",
+      "tableLabel": "Crypt",
+      "onCardEnter": {
+        "controller": "player3",
+        "deckGroupId": "player3Crypt",
+        "discardGroupId": "player3AshHeap"
+      }
+    },
+    "player3Hand": {
+      "groupType": "hand",
+      "label": "Player 3 Hand",
+      "tableLabel": "Hand",
+      "onCardEnter": {
+        "controller": "player3",
+        "deckGroupId": "player3Library",
+        "discardGroupId": "player3AshHeap"
+      }
+    },
+    "player3AshHeap": {
+      "groupType": "ashHeap",
+      "label": "Player 3 Ash Heap",
+      "tableLabel": "Ash",
+      "onCardEnter": {
+        "controller": "player3",
+        "deckGroupId": "player3Library",
+        "discardGroupId": "player3AshHeap"
+      }
+    },
+    "player3Removed": {
+      "groupType": "removed",
+      "label": "Player 3 Removed",
+      "tableLabel": "RFG",
+      "onCardEnter": {
+        "controller": "player3",
+        "deckGroupId": "player3Library",
+        "discardGroupId": "player3AshHeap"
+      }
+    },
+    "player3Uncontrolled": {
+      "groupType": "uncontrolled",
+      "label": "Player 3 Uncontrolled",
+      "tableLabel": "Unctrl",
+      "onCardEnter": {
+        "controller": "player3",
+        "deckGroupId": "player3Library",
+        "discardGroupId": "player3AshHeap"
+      }
+    },
+    "player3Ready": {
+      "groupType": "ready",
+      "label": "Player 3 Ready",
+      "tableLabel": "Ready",
+      "onCardEnter": {
+        "controller": "player3",
+        "deckGroupId": "player3Library",
+        "discardGroupId": "player3AshHeap"
+      },
+      "canHaveAttachments": true
+    },
+    "player3Torpor": {
+      "groupType": "torpor",
+      "label": "Player 3 Torpor",
+      "tableLabel": "Torpor",
+      "onCardEnter": {
+        "controller": "player3",
+        "deckGroupId": "player3Library",
+        "discardGroupId": "player3AshHeap"
+      },
+      "canHaveAttachments": true
+    },
+    "player3Masters": {
+      "groupType": "masters",
+      "label": "Player 3 Masters",
+      "tableLabel": "Master",
+      "onCardEnter": {
+        "controller": "player3",
+        "deckGroupId": "player3Library",
+        "discardGroupId": "player3AshHeap"
+      }
+    },
+    "player3Tokens": {
+      "groupType": "tokens",
+      "label": "Player 3 Tokens",
+      "tableLabel": "Tokens",
+      "onCardEnter": {
+        "controller": "player3",
+        "deckGroupId": "player3Library",
+        "discardGroupId": "player3AshHeap"
+      }
+    },
+    "player4Library": {
+      "groupType": "library",
+      "label": "Player 4 Library",
+      "tableLabel": "Library",
+      "onCardEnter": {
+        "controller": "player4",
+        "deckGroupId": "player4Library",
+        "discardGroupId": "player4AshHeap"
+      }
+    },
+    "player4Crypt": {
+      "groupType": "crypt",
+      "label": "Player 4 Crypt",
+      "tableLabel": "Crypt",
+      "onCardEnter": {
+        "controller": "player4",
+        "deckGroupId": "player4Crypt",
+        "discardGroupId": "player4AshHeap"
+      }
+    },
+    "player4Hand": {
+      "groupType": "hand",
+      "label": "Player 4 Hand",
+      "tableLabel": "Hand",
+      "onCardEnter": {
+        "controller": "player4",
+        "deckGroupId": "player4Library",
+        "discardGroupId": "player4AshHeap"
+      }
+    },
+    "player4AshHeap": {
+      "groupType": "ashHeap",
+      "label": "Player 4 Ash Heap",
+      "tableLabel": "Ash",
+      "onCardEnter": {
+        "controller": "player4",
+        "deckGroupId": "player4Library",
+        "discardGroupId": "player4AshHeap"
+      }
+    },
+    "player4Removed": {
+      "groupType": "removed",
+      "label": "Player 4 Removed",
+      "tableLabel": "RFG",
+      "onCardEnter": {
+        "controller": "player4",
+        "deckGroupId": "player4Library",
+        "discardGroupId": "player4AshHeap"
+      }
+    },
+    "player4Uncontrolled": {
+      "groupType": "uncontrolled",
+      "label": "Player 4 Uncontrolled",
+      "tableLabel": "Unctrl",
+      "onCardEnter": {
+        "controller": "player4",
+        "deckGroupId": "player4Library",
+        "discardGroupId": "player4AshHeap"
+      }
+    },
+    "player4Ready": {
+      "groupType": "ready",
+      "label": "Player 4 Ready",
+      "tableLabel": "Ready",
+      "onCardEnter": {
+        "controller": "player4",
+        "deckGroupId": "player4Library",
+        "discardGroupId": "player4AshHeap"
+      },
+      "canHaveAttachments": true
+    },
+    "player4Torpor": {
+      "groupType": "torpor",
+      "label": "Player 4 Torpor",
+      "tableLabel": "Torpor",
+      "onCardEnter": {
+        "controller": "player4",
+        "deckGroupId": "player4Library",
+        "discardGroupId": "player4AshHeap"
+      },
+      "canHaveAttachments": true
+    },
+    "player4Masters": {
+      "groupType": "masters",
+      "label": "Player 4 Masters",
+      "tableLabel": "Master",
+      "onCardEnter": {
+        "controller": "player4",
+        "deckGroupId": "player4Library",
+        "discardGroupId": "player4AshHeap"
+      }
+    },
+    "player4Tokens": {
+      "groupType": "tokens",
+      "label": "Player 4 Tokens",
+      "tableLabel": "Tokens",
+      "onCardEnter": {
+        "controller": "player4",
+        "deckGroupId": "player4Library",
+        "discardGroupId": "player4AshHeap"
+      }
+    },
+    "player5Library": {
+      "groupType": "library",
+      "label": "Player 5 Library",
+      "tableLabel": "Library",
+      "onCardEnter": {
+        "controller": "player5",
+        "deckGroupId": "player5Library",
+        "discardGroupId": "player5AshHeap"
+      }
+    },
+    "player5Crypt": {
+      "groupType": "crypt",
+      "label": "Player 5 Crypt",
+      "tableLabel": "Crypt",
+      "onCardEnter": {
+        "controller": "player5",
+        "deckGroupId": "player5Crypt",
+        "discardGroupId": "player5AshHeap"
+      }
+    },
+    "player5Hand": {
+      "groupType": "hand",
+      "label": "Player 5 Hand",
+      "tableLabel": "Hand",
+      "onCardEnter": {
+        "controller": "player5",
+        "deckGroupId": "player5Library",
+        "discardGroupId": "player5AshHeap"
+      }
+    },
+    "player5AshHeap": {
+      "groupType": "ashHeap",
+      "label": "Player 5 Ash Heap",
+      "tableLabel": "Ash",
+      "onCardEnter": {
+        "controller": "player5",
+        "deckGroupId": "player5Library",
+        "discardGroupId": "player5AshHeap"
+      }
+    },
+    "player5Removed": {
+      "groupType": "removed",
+      "label": "Player 5 Removed",
+      "tableLabel": "RFG",
+      "onCardEnter": {
+        "controller": "player5",
+        "deckGroupId": "player5Library",
+        "discardGroupId": "player5AshHeap"
+      }
+    },
+    "player5Uncontrolled": {
+      "groupType": "uncontrolled",
+      "label": "Player 5 Uncontrolled",
+      "tableLabel": "Unctrl",
+      "onCardEnter": {
+        "controller": "player5",
+        "deckGroupId": "player5Library",
+        "discardGroupId": "player5AshHeap"
+      }
+    },
+    "player5Ready": {
+      "groupType": "ready",
+      "label": "Player 5 Ready",
+      "tableLabel": "Ready",
+      "onCardEnter": {
+        "controller": "player5",
+        "deckGroupId": "player5Library",
+        "discardGroupId": "player5AshHeap"
+      },
+      "canHaveAttachments": true
+    },
+    "player5Torpor": {
+      "groupType": "torpor",
+      "label": "Player 5 Torpor",
+      "tableLabel": "Torpor",
+      "onCardEnter": {
+        "controller": "player5",
+        "deckGroupId": "player5Library",
+        "discardGroupId": "player5AshHeap"
+      },
+      "canHaveAttachments": true
+    },
+    "player5Masters": {
+      "groupType": "masters",
+      "label": "Player 5 Masters",
+      "tableLabel": "Master",
+      "onCardEnter": {
+        "controller": "player5",
+        "deckGroupId": "player5Library",
+        "discardGroupId": "player5AshHeap"
+      }
+    },
+    "player5Tokens": {
+      "groupType": "tokens",
+      "label": "Player 5 Tokens",
+      "tableLabel": "Tokens",
+      "onCardEnter": {
+        "controller": "player5",
+        "deckGroupId": "player5Library",
+        "discardGroupId": "player5AshHeap"
+      }
+    },
+    "player6Library": {
+      "groupType": "library",
+      "label": "Player 6 Library",
+      "tableLabel": "Library",
+      "onCardEnter": {
+        "controller": "player6",
+        "deckGroupId": "player6Library",
+        "discardGroupId": "player6AshHeap"
+      }
+    },
+    "player6Crypt": {
+      "groupType": "crypt",
+      "label": "Player 6 Crypt",
+      "tableLabel": "Crypt",
+      "onCardEnter": {
+        "controller": "player6",
+        "deckGroupId": "player6Crypt",
+        "discardGroupId": "player6AshHeap"
+      }
+    },
+    "player6Hand": {
+      "groupType": "hand",
+      "label": "Player 6 Hand",
+      "tableLabel": "Hand",
+      "onCardEnter": {
+        "controller": "player6",
+        "deckGroupId": "player6Library",
+        "discardGroupId": "player6AshHeap"
+      }
+    },
+    "player6AshHeap": {
+      "groupType": "ashHeap",
+      "label": "Player 6 Ash Heap",
+      "tableLabel": "Ash",
+      "onCardEnter": {
+        "controller": "player6",
+        "deckGroupId": "player6Library",
+        "discardGroupId": "player6AshHeap"
+      }
+    },
+    "player6Removed": {
+      "groupType": "removed",
+      "label": "Player 6 Removed",
+      "tableLabel": "RFG",
+      "onCardEnter": {
+        "controller": "player6",
+        "deckGroupId": "player6Library",
+        "discardGroupId": "player6AshHeap"
+      }
+    },
+    "player6Uncontrolled": {
+      "groupType": "uncontrolled",
+      "label": "Player 6 Uncontrolled",
+      "tableLabel": "Unctrl",
+      "onCardEnter": {
+        "controller": "player6",
+        "deckGroupId": "player6Library",
+        "discardGroupId": "player6AshHeap"
+      }
+    },
+    "player6Ready": {
+      "groupType": "ready",
+      "label": "Player 6 Ready",
+      "tableLabel": "Ready",
+      "onCardEnter": {
+        "controller": "player6",
+        "deckGroupId": "player6Library",
+        "discardGroupId": "player6AshHeap"
+      },
+      "canHaveAttachments": true
+    },
+    "player6Torpor": {
+      "groupType": "torpor",
+      "label": "Player 6 Torpor",
+      "tableLabel": "Torpor",
+      "onCardEnter": {
+        "controller": "player6",
+        "deckGroupId": "player6Library",
+        "discardGroupId": "player6AshHeap"
+      },
+      "canHaveAttachments": true
+    },
+    "player6Masters": {
+      "groupType": "masters",
+      "label": "Player 6 Masters",
+      "tableLabel": "Master",
+      "onCardEnter": {
+        "controller": "player6",
+        "deckGroupId": "player6Library",
+        "discardGroupId": "player6AshHeap"
+      }
+    },
+    "player6Tokens": {
+      "groupType": "tokens",
+      "label": "Player 6 Tokens",
+      "tableLabel": "Tokens",
+      "onCardEnter": {
+        "controller": "player6",
+        "deckGroupId": "player6Library",
+        "discardGroupId": "player6AshHeap"
+      }
+    },
+    "player7Library": {
+      "groupType": "library",
+      "label": "Player 7 Library",
+      "tableLabel": "Library",
+      "onCardEnter": {
+        "controller": "player7",
+        "deckGroupId": "player7Library",
+        "discardGroupId": "player7AshHeap"
+      }
+    },
+    "player7Crypt": {
+      "groupType": "crypt",
+      "label": "Player 7 Crypt",
+      "tableLabel": "Crypt",
+      "onCardEnter": {
+        "controller": "player7",
+        "deckGroupId": "player7Crypt",
+        "discardGroupId": "player7AshHeap"
+      }
+    },
+    "player7Hand": {
+      "groupType": "hand",
+      "label": "Player 7 Hand",
+      "tableLabel": "Hand",
+      "onCardEnter": {
+        "controller": "player7",
+        "deckGroupId": "player7Library",
+        "discardGroupId": "player7AshHeap"
+      }
+    },
+    "player7AshHeap": {
+      "groupType": "ashHeap",
+      "label": "Player 7 Ash Heap",
+      "tableLabel": "Ash",
+      "onCardEnter": {
+        "controller": "player7",
+        "deckGroupId": "player7Library",
+        "discardGroupId": "player7AshHeap"
+      }
+    },
+    "player7Removed": {
+      "groupType": "removed",
+      "label": "Player 7 Removed",
+      "tableLabel": "RFG",
+      "onCardEnter": {
+        "controller": "player7",
+        "deckGroupId": "player7Library",
+        "discardGroupId": "player7AshHeap"
+      }
+    },
+    "player7Uncontrolled": {
+      "groupType": "uncontrolled",
+      "label": "Player 7 Uncontrolled",
+      "tableLabel": "Unctrl",
+      "onCardEnter": {
+        "controller": "player7",
+        "deckGroupId": "player7Library",
+        "discardGroupId": "player7AshHeap"
+      }
+    },
+    "player7Ready": {
+      "groupType": "ready",
+      "label": "Player 7 Ready",
+      "tableLabel": "Ready",
+      "onCardEnter": {
+        "controller": "player7",
+        "deckGroupId": "player7Library",
+        "discardGroupId": "player7AshHeap"
+      },
+      "canHaveAttachments": true
+    },
+    "player7Torpor": {
+      "groupType": "torpor",
+      "label": "Player 7 Torpor",
+      "tableLabel": "Torpor",
+      "onCardEnter": {
+        "controller": "player7",
+        "deckGroupId": "player7Library",
+        "discardGroupId": "player7AshHeap"
+      },
+      "canHaveAttachments": true
+    },
+    "player7Masters": {
+      "groupType": "masters",
+      "label": "Player 7 Masters",
+      "tableLabel": "Master",
+      "onCardEnter": {
+        "controller": "player7",
+        "deckGroupId": "player7Library",
+        "discardGroupId": "player7AshHeap"
+      }
+    },
+    "player7Tokens": {
+      "groupType": "tokens",
+      "label": "Player 7 Tokens",
+      "tableLabel": "Tokens",
+      "onCardEnter": {
+        "controller": "player7",
+        "deckGroupId": "player7Library",
+        "discardGroupId": "player7AshHeap"
+      }
+    },
+    "player8Library": {
+      "groupType": "library",
+      "label": "Player 8 Library",
+      "tableLabel": "Library",
+      "onCardEnter": {
+        "controller": "player8",
+        "deckGroupId": "player8Library",
+        "discardGroupId": "player8AshHeap"
+      }
+    },
+    "player8Crypt": {
+      "groupType": "crypt",
+      "label": "Player 8 Crypt",
+      "tableLabel": "Crypt",
+      "onCardEnter": {
+        "controller": "player8",
+        "deckGroupId": "player8Crypt",
+        "discardGroupId": "player8AshHeap"
+      }
+    },
+    "player8Hand": {
+      "groupType": "hand",
+      "label": "Player 8 Hand",
+      "tableLabel": "Hand",
+      "onCardEnter": {
+        "controller": "player8",
+        "deckGroupId": "player8Library",
+        "discardGroupId": "player8AshHeap"
+      }
+    },
+    "player8AshHeap": {
+      "groupType": "ashHeap",
+      "label": "Player 8 Ash Heap",
+      "tableLabel": "Ash",
+      "onCardEnter": {
+        "controller": "player8",
+        "deckGroupId": "player8Library",
+        "discardGroupId": "player8AshHeap"
+      }
+    },
+    "player8Removed": {
+      "groupType": "removed",
+      "label": "Player 8 Removed",
+      "tableLabel": "RFG",
+      "onCardEnter": {
+        "controller": "player8",
+        "deckGroupId": "player8Library",
+        "discardGroupId": "player8AshHeap"
+      }
+    },
+    "player8Uncontrolled": {
+      "groupType": "uncontrolled",
+      "label": "Player 8 Uncontrolled",
+      "tableLabel": "Unctrl",
+      "onCardEnter": {
+        "controller": "player8",
+        "deckGroupId": "player8Library",
+        "discardGroupId": "player8AshHeap"
+      }
+    },
+    "player8Ready": {
+      "groupType": "ready",
+      "label": "Player 8 Ready",
+      "tableLabel": "Ready",
+      "onCardEnter": {
+        "controller": "player8",
+        "deckGroupId": "player8Library",
+        "discardGroupId": "player8AshHeap"
+      },
+      "canHaveAttachments": true
+    },
+    "player8Torpor": {
+      "groupType": "torpor",
+      "label": "Player 8 Torpor",
+      "tableLabel": "Torpor",
+      "onCardEnter": {
+        "controller": "player8",
+        "deckGroupId": "player8Library",
+        "discardGroupId": "player8AshHeap"
+      },
+      "canHaveAttachments": true
+    },
+    "player8Masters": {
+      "groupType": "masters",
+      "label": "Player 8 Masters",
+      "tableLabel": "Master",
+      "onCardEnter": {
+        "controller": "player8",
+        "deckGroupId": "player8Library",
+        "discardGroupId": "player8AshHeap"
+      }
+    },
+    "player8Tokens": {
+      "groupType": "tokens",
+      "label": "Player 8 Tokens",
+      "tableLabel": "Tokens",
+      "onCardEnter": {
+        "controller": "player8",
+        "deckGroupId": "player8Library",
+        "discardGroupId": "player8AshHeap"
+      }
+    }
+  }
+}

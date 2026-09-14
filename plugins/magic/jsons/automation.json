@@ -1,0 +1,11 @@
+{
+  "automation": {
+    "postNewGameActionList": [
+      [
+        "LOG",
+        "Magic table created. Load a deck. Commander/emblem slots start hidden — Cmd/Emblem toggles both players."
+      ]
+    ],
+    "gameRules": {}
+  }
+}

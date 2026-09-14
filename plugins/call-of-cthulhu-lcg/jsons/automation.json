@@ -1,0 +1,11 @@
+{
+  "automation": {
+    "postNewGameActionList": [
+      [
+        "LOG",
+        "Call of Cthulhu LCG table created. Load stories and domains from Menu → Load. No rules are enforced."
+      ]
+    ],
+    "gameRules": {}
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "groupMenu": {
+    "moveToGroupIds": [
+      "playerNHand",
+      "playerNReady",
+      "playerNUncontrolled",
+      "playerNTorpor",
+      "playerNMasters",
+      "playerNAshHeap",
+      "playerNRemoved",
+      "sharedSetAside"
+    ],
+    "options": []
+  }
+}

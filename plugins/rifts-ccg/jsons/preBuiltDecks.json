@@ -1,0 +1,159 @@
+{
+  "preBuiltDecks": {
+    "starter-deck": {
+      "label": "Starter deck",
+      "cards": [
+        {
+          "databaseId": "Premiere_Suppression_Fire.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_Naval_Superiority.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_Lockdown.jpg",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_Techno-Wizard_Smiths.jpg",
+          "quantity": 5,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_Houstown.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_Chi-Town_&_Burbs.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_Los_Alamo.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_Dweomer.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_Stormspire.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_City_of_Free_Quebec.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_City_of_Lazlo.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_City_of_Tolkeen.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_Elemental_Warlocks.jpg",
+          "quantity": 5,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_Pre-Rifts_Industrial_Complex.jpg",
+          "quantity": 5,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_Heroism.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_Missile_Salvo.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_Large-Scale_Tactics.jpg",
+          "quantity": 2,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_Head_Shot.jpg",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_NG-V7_Hunter_Mobile_Guns.jpg",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_Spider-Skull_Walkers.jpg",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_Psi-Stalkers.jpg",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_Thornhead_Demons.jpg",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_Cyborg_Enforcers.jpg",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_Golden_Age_Weaponsmiths.jpg",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_Titan_Juicers.jpg",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_Flying_Titan_Power_Armor_Troops.jpg",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_Bursters.jpg",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_Ley_Line_Walkers.jpg",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_Witchlings.jpg",
+          "quantity": 3,
+          "loadGroupId": "playerNDeck"
+        },
+        {
+          "databaseId": "Premiere_Upstart_Warlord.jpg",
+          "quantity": 1,
+          "loadGroupId": "playerNNation"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,145 @@
+{
+  "labels": {
+    "step-4.9": {
+      "English": "4.9: Loss Step."
+    },
+    "sendcardtousedPile": {
+      "English": "•Send to Used Pile."
+    },
+    "invert": {
+      "English": "•Invert/Revert"
+    },
+    "step-4.2": {
+      "English": "4.2: Play interrupts/use activated abilities."
+    },
+    "step-1.0": {
+      "English": "1. ACTIVATE PHASE."
+    },
+    "player2Victory": {
+      "English": "Player 2 Full Win."
+    },
+    "step-4.8": {
+      "English": "4.8: Play interrupts/use activated abilities."
+    },
+    "step-6.1": {
+      "English": "6. DRAW PHASE."
+    },
+    "energy": {
+      "English": "Force"
+    },
+    "menuPayEnergy": {
+      "English": "•Use 1 Force."
+    },
+    "step-4.11": {
+      "English": "4.11: End of Battle. May start a new battle at a new location."
+    },
+    "sendusedtoReserve": {
+      "English": "•Used to Reserve Pile."
+    },
+    "step-5.1": {
+      "English": "5. MOVE PHASE."
+    },
+    "step-4.4": {
+      "English": "4.4: Play interrupts/use activated abilities."
+    },
+    "player1modifiedVictory": {
+      "English": "Player 1 Modified Win."
+    },
+    "End": {
+      "English": "End"
+    },
+    "menu_declarebattle": {
+      "English": "•Declare Battle Here."
+    },
+    "step-4.10": {
+      "English": "4.10: Play interrupts/use activated abilities."
+    },
+    "menuactivateEnergy": {
+      "English": "•Activate 1 Force."
+    },
+    "drawonecard": {
+      "English": "•Draw 1 from Force Pile"
+    },
+    "player1Victory": {
+      "English": "Player 1 Full Win."
+    },
+    "Control": {
+      "English": "Control"
+    },
+    "step-4.7": {
+      "English": "4.7: Power Step."
+    },
+    "rotate180": {
+      "English": "•Rotate 180"
+    },
+    "menureservetoLost": {
+      "English": "•Lose 1 from Reserve."
+    },
+    "drawstartinghand": {
+      "English": "•Draw Destiny (Reserve → Stack)"
+    },
+    "step-3.1": {
+      "English": "3. DEPLOY PHASE."
+    },
+    "Draw": {
+      "English": "Draw"
+    },
+    "menuactivetoLost": {
+      "English": "•Lose 1 from Force."
+    },
+    "step-4.5": {
+      "English": "4.5: Attrition Step."
+    },
+    "Move": {
+      "English": "Move"
+    },
+    "step-4.3": {
+      "English": "4.3: Battle Destiny."
+    },
+    "step-7.0": {
+      "English": "7. END OF TURN PHASE."
+    },
+    "menuusedtoLost": {
+      "English": "•Lose 1 from Used."
+    },
+    "Deploy": {
+      "English": "Deploy"
+    },
+    "step-2.1": {
+      "English": "2. CONTROL PHASE."
+    },
+    "damage": {
+      "English": "•Damage/Undamage"
+    },
+    "sendcardtolostPile": {
+      "English": "•Send to Lost Pile."
+    },
+    "step-4.6": {
+      "English": "4.6: Play interrupts/use activated abilities."
+    },
+    "myDeck": {
+      "English": "My Deck (Reserve)"
+    },
+    "player2modifiedVictory": {
+      "English": "Player 2 Modified Win."
+    },
+    "markasIncomplete": {
+      "English": "Incomplete Game."
+    },
+    "menulog_activation": {
+      "English": "•Activate Card Ability."
+    },
+    "Battle": {
+      "English": "Battle"
+    },
+    "Activate": {
+      "English": "Activate"
+    },
+    "step-4.1": {
+      "English": "4. BATTLE PHASE."
+    },
+    "force": {
+      "English": "Force"
+    }
+  }
+}

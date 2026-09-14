@@ -1,0 +1,23 @@
+{
+  "spawnExistingCardModal": {
+    "columnProperties": [
+      "name",
+      "type",
+      "faction",
+      "cost",
+      "packName"
+    ],
+    "loadGroupIds": [
+      "player1Deck",
+      "player1Play",
+      "player1Hand",
+      "player1Domains",
+      "sharedStories",
+      "sharedStoryDeck",
+      "sharedSetAside",
+      "player2Deck",
+      "player2Play",
+      "player2Domains"
+    ]
+  }
+}

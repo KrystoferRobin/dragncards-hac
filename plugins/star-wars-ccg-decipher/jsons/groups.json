@@ -1,0 +1,170 @@
+{
+  "groups": {
+    "player1Force": {
+      "groupType": "deck",
+      "label": "Player 1 Force",
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1Force",
+        "discardGroupId": "player1Lost",
+        "peeking": {
+          "player2": false
+        }
+      },
+      "tableLabel": "Player 1 Force"
+    },
+    "player1Hand": {
+      "groupType": "hand",
+      "label": "Player 1 Hand",
+      "onCardEnter": {
+        "controller": "player1",
+        "currentSide": "B",
+        "peeking": {
+          "player1": true
+        },
+        "rotation": 0,
+        "rotationByPlayer": {}
+      },
+      "tableLabel": "Player 1 Hand"
+    },
+    "player1Lost": {
+      "groupType": "discard",
+      "label": "Player 1 Lost",
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1Reserve",
+        "peeking": {
+          "player1": true
+        }
+      },
+      "tableLabel": "Player 1 Lost"
+    },
+    "player1PlayArea": {
+      "groupType": "inPlay",
+      "label": "Player 1 Play Area",
+      "onCardEnter": {
+        "controller": "player1",
+        "discardGroupId": "player1Lost"
+      },
+      "tableLabel": "Player 1 Play Area"
+    },
+    "player1Reserve": {
+      "groupType": "deck",
+      "label": "Player 1 Reserve",
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1Reserve",
+        "discardGroupId": "player1Lost",
+        "peeking": {
+          "player2": false
+        }
+      },
+      "shuffleOnLoad": true,
+      "tableLabel": "Player 1 Reserve"
+    },
+    "player1Used": {
+      "groupType": "deck",
+      "label": "Player 1 Used",
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1Used",
+        "discardGroupId": "player1Lost",
+        "peeking": {
+          "player2": false
+        }
+      },
+      "tableLabel": "Player 1 Used"
+    },
+    "player2Force": {
+      "groupType": "deck",
+      "label": "Player 2 Force",
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2Force",
+        "discardGroupId": "player2Lost",
+        "peeking": {
+          "player1": false
+        }
+      },
+      "tableLabel": "Player 2 Force"
+    },
+    "player2Hand": {
+      "groupType": "hand",
+      "label": "Player 2 Hand",
+      "onCardEnter": {
+        "controller": "player2",
+        "currentSide": "B",
+        "peeking": {
+          "player2": true
+        },
+        "rotation": 0,
+        "rotationByPlayer": {}
+      },
+      "tableLabel": "Player 2 Hand"
+    },
+    "player2Lost": {
+      "groupType": "discard",
+      "label": "Player 2 Lost",
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2Reserve",
+        "peeking": {
+          "player1": false
+        }
+      },
+      "tableLabel": "Player 2 Lost"
+    },
+    "player2PlayArea": {
+      "groupType": "inPlay",
+      "label": "Player 2 Play Area",
+      "onCardEnter": {
+        "controller": "player2",
+        "discardGroupId": "player2Lost"
+      },
+      "tableLabel": "Player 2 Play Area"
+    },
+    "player2Reserve": {
+      "groupType": "deck",
+      "label": "Player 2 Reserve",
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2Reserve",
+        "discardGroupId": "player2Lost",
+        "peeking": {
+          "player1": false
+        }
+      },
+      "shuffleOnLoad": true,
+      "tableLabel": "Player 2 Reserve"
+    },
+    "player2Used": {
+      "groupType": "deck",
+      "label": "Player 2 Used",
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2Used",
+        "discardGroupId": "player2Lost",
+        "peeking": {
+          "player1": false
+        }
+      },
+      "tableLabel": "Player 2 Used"
+    },
+    "sharedLocations": {
+      "groupType": "inPlay",
+      "label": "Locations",
+      "onCardEnter": {
+        "controller": "shared"
+      },
+      "tableLabel": "Locations"
+    },
+    "sharedStack": {
+      "groupType": "inPlay",
+      "label": "The Stack",
+      "onCardEnter": {
+        "controller": "shared"
+      },
+      "tableLabel": "The Stack"
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "faceProperties": {
+    "attack": {
+      "default": 0,
+      "type": "integer"
+    },
+    "buckler": {
+      "default": 0,
+      "type": "integer"
+    },
+    "defense": {
+      "default": 0,
+      "type": "integer"
+    },
+    "leadershipAttack": {
+      "default": 0,
+      "type": "integer"
+    },
+    "leadershipDefense": {
+      "default": 0,
+      "type": "integer"
+    },
+    "pathCombat": {
+      "default": 0,
+      "type": "integer"
+    },
+    "skull": {
+      "default": 0,
+      "type": "integer"
+    },
+    "victoryPoints": {
+      "default": 0,
+      "type": "integer"
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "pluginMenu": {
+    "options": [
+      {"label": "Draw", "actionList": "drawStockpile"},
+      {"label": "Shuffle stockpile", "actionList": "shuffleStockpile"},
+      {"label": "Untap all", "actionList": "untapAll"},
+      {"label": "Scrap top of stockpile", "actionList": "scrapTop"},
+      {"label": "Roll 1d6", "actionList": "roll1d6"}
+    ]
+  }
+}

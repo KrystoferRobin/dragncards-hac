@@ -1,0 +1,30 @@
+{
+  "pluginMenu": {
+    "options": [
+      {
+        "label": "Draw",
+        "actionList": "drawDeck"
+      },
+      {
+        "label": "Shuffle deck",
+        "actionList": "shuffleDeck"
+      },
+      {
+        "label": "Probe",
+        "actionList": "probeDeck"
+      },
+      {
+        "label": "Seed spaceline",
+        "actionList": "seedSpaceline"
+      },
+      {
+        "label": "Points +5",
+        "actionList": "increasePoints"
+      },
+      {
+        "label": "Points -5",
+        "actionList": "decreasePoints"
+      }
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "cardProperties": {
+    "abilityUsedThisTurn": {
+      "default": false,
+      "type": "boolean"
+    },
+    "exileAtEndOfTurn": {
+      "default": false,
+      "type": "boolean"
+    },
+    "hasAttackedThisTurn": {
+      "default": false,
+      "type": "boolean"
+    },
+    "isAttacking": {
+      "default": false,
+      "type": "boolean"
+    }
+  }
+}

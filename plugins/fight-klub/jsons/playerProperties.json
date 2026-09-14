@@ -1,0 +1,33 @@
+{
+  "playerProperties": {
+    "life": {
+      "label": "Life",
+      "type": "integer",
+      "default": 0
+    },
+    "hold": {
+      "label": "Hold",
+      "type": "integer",
+      "default": 0,
+      "min": 0
+    },
+    "energyBlue": {
+      "label": "Energy Blue",
+      "type": "integer",
+      "default": 0,
+      "min": 0
+    },
+    "energyGreen": {
+      "label": "Energy Green",
+      "type": "integer",
+      "default": 0,
+      "min": 0
+    },
+    "energyYellow": {
+      "label": "Energy Yellow",
+      "type": "integer",
+      "default": 0,
+      "min": 0
+    }
+  }
+}

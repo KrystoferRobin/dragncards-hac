@@ -1,0 +1,12 @@
+{
+  "pluginName": "Magic The Gathering",
+  "author": "Lackey / normalitycomics",
+  "tutorialUrl": "https://magicplugin.normalitycomics.com/",
+  "announcements": [
+    "Tabletop Magic from the Lackey plugin. No rules engine. Card art stays on the Lackey image host.",
+    "D = draw. T = tap. K = untap. R = untap all. X = graveyard. E = exile. M = mill. Cmd/Emblem toggles both players' slots."
+  ],
+  "loadPreBuiltOnNewGame": false,
+  "bannerUrl": "https://toybox.hundredacre.club/cards/magic/_plugin/banner.jpg",
+  "logoUrl": "https://toybox.hundredacre.club/cards/magic/_plugin/logo.jpg"
+}

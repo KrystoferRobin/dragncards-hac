@@ -1,0 +1,17 @@
+{
+  "browse": {
+    "filterPropertySideA": "type",
+    "filterValuesSideA": [
+      "Character",
+      "Item",
+      "Land/Artifact",
+      "Monster",
+      "Support"
+    ],
+    "textPropertiesSideA": [
+      "name",
+      "packName",
+      "specialSkill"
+    ]
+  }
+}

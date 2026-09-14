@@ -1,0 +1,9 @@
+{
+  "steps": {
+    "turnOrderStep": {"phaseId": "turnOrder", "label": "Determine Turn Order"},
+    "actionsStep": {"phaseId": "actions", "label": "Actions"},
+    "drawStep": {"phaseId": "draw", "label": "Draw Cards"},
+    "untackStep": {"phaseId": "untack", "label": "Untack"}
+  },
+  "stepOrder": ["turnOrderStep", "actionsStep", "drawStep", "untackStep"]
+}

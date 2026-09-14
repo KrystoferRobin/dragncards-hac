@@ -1,0 +1,21 @@
+{
+  "steps": {
+    "levelUpStep": {
+      "phaseId": "levelUp",
+      "label": "Level Up"
+    },
+    "actionsStep": {
+      "phaseId": "actions",
+      "label": "Character Actions"
+    },
+    "attackStep": {
+      "phaseId": "attack",
+      "label": "Attack With Monsters"
+    }
+  },
+  "stepOrder": [
+    "levelUpStep",
+    "actionsStep",
+    "attackStep"
+  ]
+}

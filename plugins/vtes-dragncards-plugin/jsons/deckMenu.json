@@ -1,0 +1,233 @@
+{
+  "deckMenu": {
+    "subMenus": [
+      {
+        "label": "V5 Precons",
+        "deckLists": [
+          {
+            "label": "BanuHaqim V5",
+            "deckListId": "preconBanuhaqimV5"
+          },
+          {
+            "label": "Brujah V5",
+            "deckListId": "preconBrujahV5"
+          },
+          {
+            "label": "Gangrel V5",
+            "deckListId": "preconGangrelV5"
+          },
+          {
+            "label": "Hecata V5",
+            "deckListId": "preconHecataV5"
+          },
+          {
+            "label": "Lasombra V5",
+            "deckListId": "preconLasombraV5"
+          },
+          {
+            "label": "Malkavian V5",
+            "deckListId": "preconMalkavianV5"
+          },
+          {
+            "label": "Ministry V5",
+            "deckListId": "preconMinistryV5"
+          },
+          {
+            "label": "Nosferatu V5",
+            "deckListId": "preconNosferatuV5"
+          },
+          {
+            "label": "Path of Caine V5",
+            "deckListId": "preconPathOfCaineV5"
+          },
+          {
+            "label": "Path of Cathari V5",
+            "deckListId": "preconPathOfCathariV5"
+          },
+          {
+            "label": "Path of Death V5",
+            "deckListId": "preconPathOfDeathV5"
+          },
+          {
+            "label": "Path of Power V5",
+            "deckListId": "preconPathOfPowerV5"
+          },
+          {
+            "label": "Ravnos V5",
+            "deckListId": "preconRavnosV5"
+          },
+          {
+            "label": "Salubri V5",
+            "deckListId": "preconSalubriV5"
+          },
+          {
+            "label": "Toreador V5",
+            "deckListId": "preconToreadorV5"
+          },
+          {
+            "label": "Tremere V5",
+            "deckListId": "preconTremereV5"
+          },
+          {
+            "label": "Tzimisce V5",
+            "deckListId": "preconTzimisceV5"
+          },
+          {
+            "label": "Ventrue V5",
+            "deckListId": "preconVentrueV5"
+          }
+        ]
+      },
+      {
+        "label": "Legacy Precons",
+        "deckLists": [
+          {
+            "label": "Akunanse LoB",
+            "deckListId": "preconAkunanseLob"
+          },
+          {
+            "label": "Assamite FN",
+            "deckListId": "preconAssamiteFn"
+          },
+          {
+            "label": "Assamite LotN",
+            "deckListId": "preconAssamiteLotn"
+          },
+          {
+            "label": "Brujah KoT",
+            "deckListId": "preconBrujahKot"
+          },
+          {
+            "label": "BrujahAnti SW",
+            "deckListId": "preconBrujahantiSw"
+          },
+          {
+            "label": "BrujahAnti Third",
+            "deckListId": "preconBrujahantiThird"
+          },
+          {
+            "label": "Den of-Fiends SP",
+            "deckListId": "preconDenOfFiendsSp"
+          },
+          {
+            "label": "Gargoyle&Tremere HttB",
+            "deckListId": "preconGargoyleTremereHttb"
+          },
+          {
+            "label": "Giovanni FN",
+            "deckListId": "preconGiovanniFn"
+          },
+          {
+            "label": "Giovanni LotN",
+            "deckListId": "preconGiovanniLotn"
+          },
+          {
+            "label": "Guruhi LoB",
+            "deckListId": "preconGuruhiLob"
+          },
+          {
+            "label": "Ishtarri LoB",
+            "deckListId": "preconIshtarriLob"
+          },
+          {
+            "label": "Kyasid&Lasombra HttB",
+            "deckListId": "preconKyasidLasombraHttb"
+          },
+          {
+            "label": "Lasombra SW",
+            "deckListId": "preconLasombraSw"
+          },
+          {
+            "label": "Libertine Ball SP",
+            "deckListId": "preconLibertineBallSp"
+          },
+          {
+            "label": "Malkavian KoT",
+            "deckListId": "preconMalkavianKot"
+          },
+          {
+            "label": "MalkavianAnti Third",
+            "deckListId": "preconMalkavianantiThird"
+          },
+          {
+            "label": "Osebo LoB",
+            "deckListId": "preconOseboLob"
+          },
+          {
+            "label": "Pact with Nephandi SP",
+            "deckListId": "preconPactWithNephandiSp"
+          },
+          {
+            "label": "Parliament of Shadows SP",
+            "deckListId": "preconParliamentOfShadowsSp"
+          },
+          {
+            "label": "Ravnos FN",
+            "deckListId": "preconRavnosFn"
+          },
+          {
+            "label": "Ravnos LotN",
+            "deckListId": "preconRavnosLotn"
+          },
+          {
+            "label": "Reign of Stanislava",
+            "deckListId": "preconReignOfStanislava"
+          },
+          {
+            "label": "Salubri&VentrueAnti HttB",
+            "deckListId": "preconSalubriVentrueantiHttb"
+          },
+          {
+            "label": "Samedi&Nosferatu HttB",
+            "deckListId": "preconSamediNosferatuHttb"
+          },
+          {
+            "label": "Setite FN",
+            "deckListId": "preconSetiteFn"
+          },
+          {
+            "label": "Setite LotN",
+            "deckListId": "preconSetiteLotn"
+          },
+          {
+            "label": "Toreador KoT",
+            "deckListId": "preconToreadorKot"
+          },
+          {
+            "label": "TremereAnti Third",
+            "deckListId": "preconTremereantiThird"
+          },
+          {
+            "label": "Tzimisce SW",
+            "deckListId": "preconTzimisceSw"
+          },
+          {
+            "label": "Tzimisce Third",
+            "deckListId": "preconTzimisceThird"
+          },
+          {
+            "label": "Ventrue KoT",
+            "deckListId": "preconVentrueKot"
+          },
+          {
+            "label": "VentrueAnti SW",
+            "deckListId": "preconVentrueantiSw"
+          }
+        ]
+      },
+      {
+        "label": "Storyline",
+        "deckLists": [
+          {
+            "label": "Millennium Cultist",
+            "deckListId": "millenniumCultist"
+          },
+          {
+            "label": "Prince of Hell",
+            "deckListId": "princeOfHell"
+          }
+        ]
+      }
+    ]
+  }
+}

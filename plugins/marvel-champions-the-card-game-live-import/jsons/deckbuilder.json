@@ -1,0 +1,52 @@
+{
+  "deckbuilder": {
+    "addButtons": [
+      1,
+      2,
+      3
+    ],
+    "colorKey": "classification",
+    "colorValues": {
+      "Aggression": "#ff0000",
+      "Justice": "#ffff00",
+      "Leadership": "#00ccee",
+      "Protection": "#09b900"
+    },
+    "columns": [
+      {
+        "label": "id:name",
+        "propName": "name"
+      },
+      {
+        "label": "id:classification",
+        "propName": "classification"
+      },
+      {
+        "label": "id:type",
+        "propName": "type"
+      }
+    ],
+    "spawnGroups": [
+      {
+        "label": "id:myDeck",
+        "loadGroupId": "playerNDeck"
+      },
+      {
+        "label": "id:player1Deck",
+        "loadGroupId": "player1Deck"
+      },
+      {
+        "label": "id:player2Deck",
+        "loadGroupId": "player2Deck"
+      },
+      {
+        "label": "id:player3Deck",
+        "loadGroupId": "player3Deck"
+      },
+      {
+        "label": "id:player4Deck",
+        "loadGroupId": "player4Deck"
+      }
+    ]
+  }
+}

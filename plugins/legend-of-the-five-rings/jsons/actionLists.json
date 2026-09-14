@@ -1,0 +1,321 @@
+{
+  "actionLists": {
+    "drawFate": [
+      [
+        "COND",
+        [
+          "GROUP_EMPTY",
+          "{{$PLAYER_N}}Fate"
+        ],
+        [
+          "LOG",
+          "{{$ALIAS_N}} tried to draw from an empty fate deck."
+        ],
+        [
+          "TRUE"
+        ],
+        [
+          [
+            "MOVE_STACKS",
+            "{{$PLAYER_N}}Fate",
+            "{{$PLAYER_N}}Hand",
+            1,
+            "bottom"
+          ],
+          [
+            "LOG",
+            "{{$ALIAS_N}} drew a fate card."
+          ]
+        ]
+      ]
+    ],
+    "shuffleBoth": [
+      [
+        "SHUFFLE_GROUP",
+        "{{$PLAYER_N}}Dynasty"
+      ],
+      [
+        "SHUFFLE_GROUP",
+        "{{$PLAYER_N}}Fate"
+      ],
+      [
+        "LOG",
+        "{{$ALIAS_N}} shuffled dynasty and fate."
+      ]
+    ],
+    "refillDynasty": [
+      [
+        "REFILL_PROVINCE",
+        "{{$PLAYER_N}}Province1"
+      ],
+      [
+        "REFILL_PROVINCE",
+        "{{$PLAYER_N}}Province2"
+      ],
+      [
+        "REFILL_PROVINCE",
+        "{{$PLAYER_N}}Province3"
+      ],
+      [
+        "REFILL_PROVINCE",
+        "{{$PLAYER_N}}Province4"
+      ],
+      [
+        "LOG",
+        "{{$ALIAS_N}} refilled empty provinces."
+      ]
+    ],
+    "refresh": [
+      [
+        "START_TURN",
+        "$PLAYER_N"
+      ]
+    ],
+    "spendCard": [
+      [
+        "SET",
+        "/cardById/$ACTIVE_CARD_ID/rotation",
+        90
+      ],
+      [
+        "LOG",
+        "{{$ALIAS_N}} bowed {{$ACTIVE_FACE.name}}."
+      ]
+    ],
+    "readyCard": [
+      [
+        "COND",
+        [
+          "EQUAL",
+          "$ACTIVE_CARD.rotation",
+          180
+        ],
+        [
+          [
+            "SET",
+            "/cardById/$ACTIVE_CARD_ID/rotation",
+            0
+          ],
+          [
+            "SET",
+            "/cardById/$ACTIVE_CARD_ID/tokens/stayBowed",
+            0
+          ],
+          [
+            "LOG",
+            "{{$ALIAS_N}} restored {{$ACTIVE_FACE.name}} to honor."
+          ]
+        ],
+        [
+          "TRUE"
+        ],
+        [
+          [
+            "SET",
+            "/cardById/$ACTIVE_CARD_ID/rotation",
+            0
+          ],
+          [
+            "LOG",
+            "{{$ALIAS_N}} straightened {{$ACTIVE_FACE.name}}."
+          ]
+        ]
+      ]
+    ],
+    "invertCard": [
+      [
+        "COND",
+        [
+          "EQUAL",
+          "$ACTIVE_CARD.rotation",
+          180
+        ],
+        [
+          [
+            "SET",
+            "/cardById/$ACTIVE_CARD_ID/rotation",
+            0
+          ],
+          [
+            "SET",
+            "/cardById/$ACTIVE_CARD_ID/tokens/stayBowed",
+            0
+          ],
+          [
+            "LOG",
+            "{{$ALIAS_N}} restored {{$ACTIVE_FACE.name}} to honor."
+          ]
+        ],
+        [
+          "TRUE"
+        ],
+        [
+          [
+            "SET",
+            "/cardById/$ACTIVE_CARD_ID/rotation",
+            180
+          ],
+          [
+            "SET",
+            "/cardById/$ACTIVE_CARD_ID/tokens/stayBowed",
+            1
+          ],
+          [
+            "LOG",
+            "{{$ALIAS_N}} dishonored {{$ACTIVE_FACE.name}} (will stay bowed)."
+          ]
+        ]
+      ]
+    ],
+    "flipCard": [
+      [
+        "FLIP",
+        "$ACTIVE_CARD_ID"
+      ]
+    ],
+    "discardCard": [
+      [
+        "DISCARD",
+        "$ACTIVE_CARD_ID"
+      ]
+    ],
+    "detachCard": [
+      [
+        "DETACH",
+        "$ACTIVE_CARD_ID"
+      ]
+    ],
+    "toggleStayBowed": [
+      [
+        "COND",
+        [
+          "AND",
+          [
+            "EQUAL",
+            "$ACTIVE_CARD.tokens.stayBowed",
+            1
+          ],
+          [
+            "EQUAL",
+            "$ACTIVE_CARD.rotation",
+            180
+          ]
+        ],
+        [
+          "LOG",
+          "{{$ACTIVE_FACE.name}} is dishonored — honor them (I) before releasing the bow lock."
+        ],
+        [
+          "EQUAL",
+          "$ACTIVE_CARD.tokens.stayBowed",
+          1
+        ],
+        [
+          [
+            "SET",
+            "/cardById/$ACTIVE_CARD_ID/tokens/stayBowed",
+            0
+          ],
+          [
+            "LOG",
+            "{{$ALIAS_N}} will unbow {{$ACTIVE_FACE.name}}."
+          ]
+        ],
+        [
+          "TRUE"
+        ],
+        [
+          [
+            "SET",
+            "/cardById/$ACTIVE_CARD_ID/tokens/stayBowed",
+            1
+          ],
+          [
+            "LOG",
+            "{{$ALIAS_N}} held {{$ACTIVE_FACE.name}} bowed."
+          ]
+        ]
+      ]
+    ],
+    "toggleStayFlip": [
+      [
+        "COND",
+        [
+          "EQUAL",
+          "$ACTIVE_CARD.tokens.stayFlip",
+          1
+        ],
+        [
+          [
+            "SET",
+            "/cardById/$ACTIVE_CARD_ID/tokens/stayFlip",
+            0
+          ],
+          [
+            "LOG",
+            "{{$ALIAS_N}} will flip {{$ACTIVE_FACE.name}}."
+          ]
+        ],
+        [
+          "TRUE"
+        ],
+        [
+          [
+            "SET",
+            "/cardById/$ACTIVE_CARD_ID/tokens/stayFlip",
+            1
+          ],
+          [
+            "LOG",
+            "{{$ALIAS_N}} held {{$ACTIVE_FACE.name}} from flipping."
+          ]
+        ]
+      ]
+    ],
+    "claimFavor": [
+      [
+        "CLAIM_FAVOR",
+        "$PLAYER_N"
+      ]
+    ],
+    "returnFavor": [
+      [
+        "VAR",
+        "$FAVOR",
+        [
+          "ONE_CARD",
+          "$C",
+          [
+            "EQUAL",
+            "$C.databaseId",
+            "l5r-imperial-favor"
+          ]
+        ]
+      ],
+      [
+        "COND",
+        [
+          "NOT_EQUAL",
+          "$FAVOR",
+          null
+        ],
+        [
+          [
+            "MOVE_CARD",
+            "$FAVOR.id",
+            "sharedFavor",
+            0
+          ],
+          [
+            "RESET_FAVOR_ART",
+            "$FAVOR.id"
+          ],
+          [
+            "LOG",
+            "{{$ALIAS_N}} returned the Imperial Favor."
+          ]
+        ]
+      ]
+    ]
+  }
+}

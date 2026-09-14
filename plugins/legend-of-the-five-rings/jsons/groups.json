@@ -1,0 +1,1733 @@
+{
+  "groups": {
+    "sharedSetAside": {
+      "groupType": "aside",
+      "label": "Set Aside",
+      "tableLabel": "Set Aside",
+      "onCardEnter": {
+        "controller": "shared"
+      }
+    },
+    "sharedFavor": {
+      "groupType": "inPlay",
+      "label": "Imperial Favor",
+      "tableLabel": "Favor",
+      "onCardEnter": {
+        "controller": "shared",
+        "inPlay": true
+      }
+    },
+    "player1Dynasty": {
+      "groupType": "deck",
+      "label": "Player 1 Dynasty",
+      "tableLabel": "Dynasty",
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1Dynasty",
+        "discardGroupId": "player1DynastyDiscard",
+        "currentSide": "B"
+      }
+    },
+    "player1DynastyDiscard": {
+      "groupType": "discard",
+      "label": "Player 1 Dynasty Discard",
+      "tableLabel": "Dynasty Discard",
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1Dynasty",
+        "discardGroupId": "player1DynastyDiscard",
+        "currentSide": "A"
+      }
+    },
+    "player1Fate": {
+      "groupType": "deck",
+      "label": "Player 1 Fate",
+      "tableLabel": "Fate",
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1Fate",
+        "discardGroupId": "player1FateDiscard",
+        "currentSide": "B"
+      }
+    },
+    "player1FateDiscard": {
+      "groupType": "discard",
+      "label": "Player 1 Fate Discard",
+      "tableLabel": "Fate Discard",
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1Fate",
+        "discardGroupId": "player1FateDiscard",
+        "currentSide": "A"
+      }
+    },
+    "player1Hand": {
+      "groupType": "hand",
+      "label": "Player 1 Hand",
+      "tableLabel": "Hand",
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1Fate",
+        "discardGroupId": "player1FateDiscard",
+        "currentSide": "B",
+        "peeking": {
+          "player1": true
+        }
+      }
+    },
+    "player1Play": {
+      "groupType": "inPlay",
+      "label": "Player 1 Play",
+      "tableLabel": "Play",
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1Fate",
+        "discardGroupId": "player1FateDiscard",
+        "currentSide": "A",
+        "inPlay": true
+      },
+      "canHaveAttachments": true
+    },
+    "player1Holdings": {
+      "groupType": "inPlay",
+      "label": "Player 1 Holdings",
+      "tableLabel": "Holdings",
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1Dynasty",
+        "discardGroupId": "player1DynastyDiscard",
+        "currentSide": "A",
+        "inPlay": true
+      },
+      "canHaveAttachments": true
+    },
+    "player1Stronghold": {
+      "groupType": "inPlay",
+      "label": "Player 1 Stronghold",
+      "tableLabel": "Stronghold",
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1Dynasty",
+        "discardGroupId": "player1DynastyDiscard",
+        "currentSide": "A",
+        "inPlay": true
+      },
+      "canHaveAttachments": true
+    },
+    "player1Sensei": {
+      "groupType": "inPlay",
+      "label": "Player 1 Sensei",
+      "tableLabel": "Sensei",
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1Dynasty",
+        "discardGroupId": "player1DynastyDiscard",
+        "currentSide": "A",
+        "inPlay": true
+      },
+      "canHaveAttachments": true
+    },
+    "player1Wind": {
+      "groupType": "inPlay",
+      "label": "Player 1 Wind",
+      "tableLabel": "Wind",
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1Dynasty",
+        "discardGroupId": "player1DynastyDiscard",
+        "currentSide": "A",
+        "inPlay": true
+      },
+      "canHaveAttachments": true
+    },
+    "player1Favor": {
+      "groupType": "inPlay",
+      "label": "Player 1 Favor",
+      "tableLabel": "Favor",
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1Fate",
+        "discardGroupId": "player1FateDiscard",
+        "currentSide": "A",
+        "inPlay": true
+      },
+      "canHaveAttachments": true
+    },
+    "player1Mat": {
+      "groupType": "aside",
+      "label": "Player 1 Playmat",
+      "tableLabel": "Playmat",
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1Dynasty",
+        "discardGroupId": "player1DynastyDiscard",
+        "currentSide": "A"
+      }
+    },
+    "player1Removed": {
+      "groupType": "aside",
+      "label": "Player 1 Removed",
+      "tableLabel": "Removed",
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1Fate",
+        "discardGroupId": "player1FateDiscard",
+        "currentSide": "A"
+      }
+    },
+    "player1Province1": {
+      "groupType": "inPlay",
+      "label": "Player 1 Province 1",
+      "tableLabel": "P1",
+      "canHaveAttachments": true,
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1Dynasty",
+        "discardGroupId": "player1DynastyDiscard",
+        "currentSide": "B",
+        "inPlay": true
+      },
+      "destroyed": false
+    },
+    "player1Province2": {
+      "groupType": "inPlay",
+      "label": "Player 1 Province 2",
+      "tableLabel": "P2",
+      "canHaveAttachments": true,
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1Dynasty",
+        "discardGroupId": "player1DynastyDiscard",
+        "currentSide": "B",
+        "inPlay": true
+      },
+      "destroyed": false
+    },
+    "player1Province3": {
+      "groupType": "inPlay",
+      "label": "Player 1 Province 3",
+      "tableLabel": "P3",
+      "canHaveAttachments": true,
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1Dynasty",
+        "discardGroupId": "player1DynastyDiscard",
+        "currentSide": "B",
+        "inPlay": true
+      },
+      "destroyed": false
+    },
+    "player1Province4": {
+      "groupType": "inPlay",
+      "label": "Player 1 Province 4",
+      "tableLabel": "P4",
+      "canHaveAttachments": true,
+      "onCardEnter": {
+        "controller": "player1",
+        "deckGroupId": "player1Dynasty",
+        "discardGroupId": "player1DynastyDiscard",
+        "currentSide": "B",
+        "inPlay": true
+      },
+      "destroyed": false
+    },
+    "player2Dynasty": {
+      "groupType": "deck",
+      "label": "Player 2 Dynasty",
+      "tableLabel": "Dynasty",
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2Dynasty",
+        "discardGroupId": "player2DynastyDiscard",
+        "currentSide": "B"
+      }
+    },
+    "player2DynastyDiscard": {
+      "groupType": "discard",
+      "label": "Player 2 Dynasty Discard",
+      "tableLabel": "Dynasty Discard",
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2Dynasty",
+        "discardGroupId": "player2DynastyDiscard",
+        "currentSide": "A"
+      }
+    },
+    "player2Fate": {
+      "groupType": "deck",
+      "label": "Player 2 Fate",
+      "tableLabel": "Fate",
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2Fate",
+        "discardGroupId": "player2FateDiscard",
+        "currentSide": "B"
+      }
+    },
+    "player2FateDiscard": {
+      "groupType": "discard",
+      "label": "Player 2 Fate Discard",
+      "tableLabel": "Fate Discard",
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2Fate",
+        "discardGroupId": "player2FateDiscard",
+        "currentSide": "A"
+      }
+    },
+    "player2Hand": {
+      "groupType": "hand",
+      "label": "Player 2 Hand",
+      "tableLabel": "Hand",
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2Fate",
+        "discardGroupId": "player2FateDiscard",
+        "currentSide": "B",
+        "peeking": {
+          "player2": true
+        }
+      }
+    },
+    "player2Play": {
+      "groupType": "inPlay",
+      "label": "Player 2 Play",
+      "tableLabel": "Play",
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2Fate",
+        "discardGroupId": "player2FateDiscard",
+        "currentSide": "A",
+        "inPlay": true
+      },
+      "canHaveAttachments": true
+    },
+    "player2Holdings": {
+      "groupType": "inPlay",
+      "label": "Player 2 Holdings",
+      "tableLabel": "Holdings",
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2Dynasty",
+        "discardGroupId": "player2DynastyDiscard",
+        "currentSide": "A",
+        "inPlay": true
+      },
+      "canHaveAttachments": true
+    },
+    "player2Stronghold": {
+      "groupType": "inPlay",
+      "label": "Player 2 Stronghold",
+      "tableLabel": "Stronghold",
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2Dynasty",
+        "discardGroupId": "player2DynastyDiscard",
+        "currentSide": "A",
+        "inPlay": true
+      },
+      "canHaveAttachments": true
+    },
+    "player2Sensei": {
+      "groupType": "inPlay",
+      "label": "Player 2 Sensei",
+      "tableLabel": "Sensei",
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2Dynasty",
+        "discardGroupId": "player2DynastyDiscard",
+        "currentSide": "A",
+        "inPlay": true
+      },
+      "canHaveAttachments": true
+    },
+    "player2Wind": {
+      "groupType": "inPlay",
+      "label": "Player 2 Wind",
+      "tableLabel": "Wind",
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2Dynasty",
+        "discardGroupId": "player2DynastyDiscard",
+        "currentSide": "A",
+        "inPlay": true
+      },
+      "canHaveAttachments": true
+    },
+    "player2Favor": {
+      "groupType": "inPlay",
+      "label": "Player 2 Favor",
+      "tableLabel": "Favor",
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2Fate",
+        "discardGroupId": "player2FateDiscard",
+        "currentSide": "A",
+        "inPlay": true
+      },
+      "canHaveAttachments": true
+    },
+    "player2Mat": {
+      "groupType": "aside",
+      "label": "Player 2 Playmat",
+      "tableLabel": "Playmat",
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2Dynasty",
+        "discardGroupId": "player2DynastyDiscard",
+        "currentSide": "A"
+      }
+    },
+    "player2Removed": {
+      "groupType": "aside",
+      "label": "Player 2 Removed",
+      "tableLabel": "Removed",
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2Fate",
+        "discardGroupId": "player2FateDiscard",
+        "currentSide": "A"
+      }
+    },
+    "player2Province1": {
+      "groupType": "inPlay",
+      "label": "Player 2 Province 1",
+      "tableLabel": "P1",
+      "canHaveAttachments": true,
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2Dynasty",
+        "discardGroupId": "player2DynastyDiscard",
+        "currentSide": "B",
+        "inPlay": true
+      },
+      "destroyed": false
+    },
+    "player2Province2": {
+      "groupType": "inPlay",
+      "label": "Player 2 Province 2",
+      "tableLabel": "P2",
+      "canHaveAttachments": true,
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2Dynasty",
+        "discardGroupId": "player2DynastyDiscard",
+        "currentSide": "B",
+        "inPlay": true
+      },
+      "destroyed": false
+    },
+    "player2Province3": {
+      "groupType": "inPlay",
+      "label": "Player 2 Province 3",
+      "tableLabel": "P3",
+      "canHaveAttachments": true,
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2Dynasty",
+        "discardGroupId": "player2DynastyDiscard",
+        "currentSide": "B",
+        "inPlay": true
+      },
+      "destroyed": false
+    },
+    "player2Province4": {
+      "groupType": "inPlay",
+      "label": "Player 2 Province 4",
+      "tableLabel": "P4",
+      "canHaveAttachments": true,
+      "onCardEnter": {
+        "controller": "player2",
+        "deckGroupId": "player2Dynasty",
+        "discardGroupId": "player2DynastyDiscard",
+        "currentSide": "B",
+        "inPlay": true
+      },
+      "destroyed": false
+    },
+    "player3Dynasty": {
+      "groupType": "deck",
+      "label": "Player 3 Dynasty",
+      "tableLabel": "Dynasty",
+      "onCardEnter": {
+        "controller": "player3",
+        "deckGroupId": "player3Dynasty",
+        "discardGroupId": "player3DynastyDiscard",
+        "currentSide": "B"
+      }
+    },
+    "player3DynastyDiscard": {
+      "groupType": "discard",
+      "label": "Player 3 Dynasty Discard",
+      "tableLabel": "Dynasty Discard",
+      "onCardEnter": {
+        "controller": "player3",
+        "deckGroupId": "player3Dynasty",
+        "discardGroupId": "player3DynastyDiscard",
+        "currentSide": "A"
+      }
+    },
+    "player3Fate": {
+      "groupType": "deck",
+      "label": "Player 3 Fate",
+      "tableLabel": "Fate",
+      "onCardEnter": {
+        "controller": "player3",
+        "deckGroupId": "player3Fate",
+        "discardGroupId": "player3FateDiscard",
+        "currentSide": "B"
+      }
+    },
+    "player3FateDiscard": {
+      "groupType": "discard",
+      "label": "Player 3 Fate Discard",
+      "tableLabel": "Fate Discard",
+      "onCardEnter": {
+        "controller": "player3",
+        "deckGroupId": "player3Fate",
+        "discardGroupId": "player3FateDiscard",
+        "currentSide": "A"
+      }
+    },
+    "player3Hand": {
+      "groupType": "hand",
+      "label": "Player 3 Hand",
+      "tableLabel": "Hand",
+      "onCardEnter": {
+        "controller": "player3",
+        "deckGroupId": "player3Fate",
+        "discardGroupId": "player3FateDiscard",
+        "currentSide": "B",
+        "peeking": {
+          "player3": true
+        }
+      }
+    },
+    "player3Play": {
+      "groupType": "inPlay",
+      "label": "Player 3 Play",
+      "tableLabel": "Play",
+      "onCardEnter": {
+        "controller": "player3",
+        "deckGroupId": "player3Fate",
+        "discardGroupId": "player3FateDiscard",
+        "currentSide": "A",
+        "inPlay": true
+      },
+      "canHaveAttachments": true
+    },
+    "player3Holdings": {
+      "groupType": "inPlay",
+      "label": "Player 3 Holdings",
+      "tableLabel": "Holdings",
+      "onCardEnter": {
+        "controller": "player3",
+        "deckGroupId": "player3Dynasty",
+        "discardGroupId": "player3DynastyDiscard",
+        "currentSide": "A",
+        "inPlay": true
+      },
+      "canHaveAttachments": true
+    },
+    "player3Stronghold": {
+      "groupType": "inPlay",
+      "label": "Player 3 Stronghold",
+      "tableLabel": "Stronghold",
+      "onCardEnter": {
+        "controller": "player3",
+        "deckGroupId": "player3Dynasty",
+        "discardGroupId": "player3DynastyDiscard",
+        "currentSide": "A",
+        "inPlay": true
+      },
+      "canHaveAttachments": true
+    },
+    "player3Sensei": {
+      "groupType": "inPlay",
+      "label": "Player 3 Sensei",
+      "tableLabel": "Sensei",
+      "onCardEnter": {
+        "controller": "player3",
+        "deckGroupId": "player3Dynasty",
+        "discardGroupId": "player3DynastyDiscard",
+        "currentSide": "A",
+        "inPlay": true
+      },
+      "canHaveAttachments": true
+    },
+    "player3Wind": {
+      "groupType": "inPlay",
+      "label": "Player 3 Wind",
+      "tableLabel": "Wind",
+      "onCardEnter": {
+        "controller": "player3",
+        "deckGroupId": "player3Dynasty",
+        "discardGroupId": "player3DynastyDiscard",
+        "currentSide": "A",
+        "inPlay": true
+      },
+      "canHaveAttachments": true
+    },
+    "player3Favor": {
+      "groupType": "inPlay",
+      "label": "Player 3 Favor",
+      "tableLabel": "Favor",
+      "onCardEnter": {
+        "controller": "player3",
+        "deckGroupId": "player3Fate",
+        "discardGroupId": "player3FateDiscard",
+        "currentSide": "A",
+        "inPlay": true
+      },
+      "canHaveAttachments": true
+    },
+    "player3Mat": {
+      "groupType": "aside",
+      "label": "Player 3 Playmat",
+      "tableLabel": "Playmat",
+      "onCardEnter": {
+        "controller": "player3",
+        "deckGroupId": "player3Dynasty",
+        "discardGroupId": "player3DynastyDiscard",
+        "currentSide": "A"
+      }
+    },
+    "player3Removed": {
+      "groupType": "aside",
+      "label": "Player 3 Removed",
+      "tableLabel": "Removed",
+      "onCardEnter": {
+        "controller": "player3",
+        "deckGroupId": "player3Fate",
+        "discardGroupId": "player3FateDiscard",
+        "currentSide": "A"
+      }
+    },
+    "player3Province1": {
+      "groupType": "inPlay",
+      "label": "Player 3 Province 1",
+      "tableLabel": "P1",
+      "canHaveAttachments": true,
+      "onCardEnter": {
+        "controller": "player3",
+        "deckGroupId": "player3Dynasty",
+        "discardGroupId": "player3DynastyDiscard",
+        "currentSide": "B",
+        "inPlay": true
+      },
+      "destroyed": false
+    },
+    "player3Province2": {
+      "groupType": "inPlay",
+      "label": "Player 3 Province 2",
+      "tableLabel": "P2",
+      "canHaveAttachments": true,
+      "onCardEnter": {
+        "controller": "player3",
+        "deckGroupId": "player3Dynasty",
+        "discardGroupId": "player3DynastyDiscard",
+        "currentSide": "B",
+        "inPlay": true
+      },
+      "destroyed": false
+    },
+    "player3Province3": {
+      "groupType": "inPlay",
+      "label": "Player 3 Province 3",
+      "tableLabel": "P3",
+      "canHaveAttachments": true,
+      "onCardEnter": {
+        "controller": "player3",
+        "deckGroupId": "player3Dynasty",
+        "discardGroupId": "player3DynastyDiscard",
+        "currentSide": "B",
+        "inPlay": true
+      },
+      "destroyed": false
+    },
+    "player3Province4": {
+      "groupType": "inPlay",
+      "label": "Player 3 Province 4",
+      "tableLabel": "P4",
+      "canHaveAttachments": true,
+      "onCardEnter": {
+        "controller": "player3",
+        "deckGroupId": "player3Dynasty",
+        "discardGroupId": "player3DynastyDiscard",
+        "currentSide": "B",
+        "inPlay": true
+      },
+      "destroyed": false
+    },
+    "player4Dynasty": {
+      "groupType": "deck",
+      "label": "Player 4 Dynasty",
+      "tableLabel": "Dynasty",
+      "onCardEnter": {
+        "controller": "player4",
+        "deckGroupId": "player4Dynasty",
+        "discardGroupId": "player4DynastyDiscard",
+        "currentSide": "B"
+      }
+    },
+    "player4DynastyDiscard": {
+      "groupType": "discard",
+      "label": "Player 4 Dynasty Discard",
+      "tableLabel": "Dynasty Discard",
+      "onCardEnter": {
+        "controller": "player4",
+        "deckGroupId": "player4Dynasty",
+        "discardGroupId": "player4DynastyDiscard",
+        "currentSide": "A"
+      }
+    },
+    "player4Fate": {
+      "groupType": "deck",
+      "label": "Player 4 Fate",
+      "tableLabel": "Fate",
+      "onCardEnter": {
+        "controller": "player4",
+        "deckGroupId": "player4Fate",
+        "discardGroupId": "player4FateDiscard",
+        "currentSide": "B"
+      }
+    },
+    "player4FateDiscard": {
+      "groupType": "discard",
+      "label": "Player 4 Fate Discard",
+      "tableLabel": "Fate Discard",
+      "onCardEnter": {
+        "controller": "player4",
+        "deckGroupId": "player4Fate",
+        "discardGroupId": "player4FateDiscard",
+        "currentSide": "A"
+      }
+    },
+    "player4Hand": {
+      "groupType": "hand",
+      "label": "Player 4 Hand",
+      "tableLabel": "Hand",
+      "onCardEnter": {
+        "controller": "player4",
+        "deckGroupId": "player4Fate",
+        "discardGroupId": "player4FateDiscard",
+        "currentSide": "B",
+        "peeking": {
+          "player4": true
+        }
+      }
+    },
+    "player4Play": {
+      "groupType": "inPlay",
+      "label": "Player 4 Play",
+      "tableLabel": "Play",
+      "onCardEnter": {
+        "controller": "player4",
+        "deckGroupId": "player4Fate",
+        "discardGroupId": "player4FateDiscard",
+        "currentSide": "A",
+        "inPlay": true
+      },
+      "canHaveAttachments": true
+    },
+    "player4Holdings": {
+      "groupType": "inPlay",
+      "label": "Player 4 Holdings",
+      "tableLabel": "Holdings",
+      "onCardEnter": {
+        "controller": "player4",
+        "deckGroupId": "player4Dynasty",
+        "discardGroupId": "player4DynastyDiscard",
+        "currentSide": "A",
+        "inPlay": true
+      },
+      "canHaveAttachments": true
+    },
+    "player4Stronghold": {
+      "groupType": "inPlay",
+      "label": "Player 4 Stronghold",
+      "tableLabel": "Stronghold",
+      "onCardEnter": {
+        "controller": "player4",
+        "deckGroupId": "player4Dynasty",
+        "discardGroupId": "player4DynastyDiscard",
+        "currentSide": "A",
+        "inPlay": true
+      },
+      "canHaveAttachments": true
+    },
+    "player4Sensei": {
+      "groupType": "inPlay",
+      "label": "Player 4 Sensei",
+      "tableLabel": "Sensei",
+      "onCardEnter": {
+        "controller": "player4",
+        "deckGroupId": "player4Dynasty",
+        "discardGroupId": "player4DynastyDiscard",
+        "currentSide": "A",
+        "inPlay": true
+      },
+      "canHaveAttachments": true
+    },
+    "player4Wind": {
+      "groupType": "inPlay",
+      "label": "Player 4 Wind",
+      "tableLabel": "Wind",
+      "onCardEnter": {
+        "controller": "player4",
+        "deckGroupId": "player4Dynasty",
+        "discardGroupId": "player4DynastyDiscard",
+        "currentSide": "A",
+        "inPlay": true
+      },
+      "canHaveAttachments": true
+    },
+    "player4Favor": {
+      "groupType": "inPlay",
+      "label": "Player 4 Favor",
+      "tableLabel": "Favor",
+      "onCardEnter": {
+        "controller": "player4",
+        "deckGroupId": "player4Fate",
+        "discardGroupId": "player4FateDiscard",
+        "currentSide": "A",
+        "inPlay": true
+      },
+      "canHaveAttachments": true
+    },
+    "player4Mat": {
+      "groupType": "aside",
+      "label": "Player 4 Playmat",
+      "tableLabel": "Playmat",
+      "onCardEnter": {
+        "controller": "player4",
+        "deckGroupId": "player4Dynasty",
+        "discardGroupId": "player4DynastyDiscard",
+        "currentSide": "A"
+      }
+    },
+    "player4Removed": {
+      "groupType": "aside",
+      "label": "Player 4 Removed",
+      "tableLabel": "Removed",
+      "onCardEnter": {
+        "controller": "player4",
+        "deckGroupId": "player4Fate",
+        "discardGroupId": "player4FateDiscard",
+        "currentSide": "A"
+      }
+    },
+    "player4Province1": {
+      "groupType": "inPlay",
+      "label": "Player 4 Province 1",
+      "tableLabel": "P1",
+      "canHaveAttachments": true,
+      "onCardEnter": {
+        "controller": "player4",
+        "deckGroupId": "player4Dynasty",
+        "discardGroupId": "player4DynastyDiscard",
+        "currentSide": "B",
+        "inPlay": true
+      },
+      "destroyed": false
+    },
+    "player4Province2": {
+      "groupType": "inPlay",
+      "label": "Player 4 Province 2",
+      "tableLabel": "P2",
+      "canHaveAttachments": true,
+      "onCardEnter": {
+        "controller": "player4",
+        "deckGroupId": "player4Dynasty",
+        "discardGroupId": "player4DynastyDiscard",
+        "currentSide": "B",
+        "inPlay": true
+      },
+      "destroyed": false
+    },
+    "player4Province3": {
+      "groupType": "inPlay",
+      "label": "Player 4 Province 3",
+      "tableLabel": "P3",
+      "canHaveAttachments": true,
+      "onCardEnter": {
+        "controller": "player4",
+        "deckGroupId": "player4Dynasty",
+        "discardGroupId": "player4DynastyDiscard",
+        "currentSide": "B",
+        "inPlay": true
+      },
+      "destroyed": false
+    },
+    "player4Province4": {
+      "groupType": "inPlay",
+      "label": "Player 4 Province 4",
+      "tableLabel": "P4",
+      "canHaveAttachments": true,
+      "onCardEnter": {
+        "controller": "player4",
+        "deckGroupId": "player4Dynasty",
+        "discardGroupId": "player4DynastyDiscard",
+        "currentSide": "B",
+        "inPlay": true
+      },
+      "destroyed": false
+    },
+    "player5Dynasty": {
+      "groupType": "deck",
+      "label": "Player 5 Dynasty",
+      "tableLabel": "Dynasty",
+      "onCardEnter": {
+        "controller": "player5",
+        "deckGroupId": "player5Dynasty",
+        "discardGroupId": "player5DynastyDiscard",
+        "currentSide": "B"
+      }
+    },
+    "player5DynastyDiscard": {
+      "groupType": "discard",
+      "label": "Player 5 Dynasty Discard",
+      "tableLabel": "Dynasty Discard",
+      "onCardEnter": {
+        "controller": "player5",
+        "deckGroupId": "player5Dynasty",
+        "discardGroupId": "player5DynastyDiscard",
+        "currentSide": "A"
+      }
+    },
+    "player5Fate": {
+      "groupType": "deck",
+      "label": "Player 5 Fate",
+      "tableLabel": "Fate",
+      "onCardEnter": {
+        "controller": "player5",
+        "deckGroupId": "player5Fate",
+        "discardGroupId": "player5FateDiscard",
+        "currentSide": "B"
+      }
+    },
+    "player5FateDiscard": {
+      "groupType": "discard",
+      "label": "Player 5 Fate Discard",
+      "tableLabel": "Fate Discard",
+      "onCardEnter": {
+        "controller": "player5",
+        "deckGroupId": "player5Fate",
+        "discardGroupId": "player5FateDiscard",
+        "currentSide": "A"
+      }
+    },
+    "player5Hand": {
+      "groupType": "hand",
+      "label": "Player 5 Hand",
+      "tableLabel": "Hand",
+      "onCardEnter": {
+        "controller": "player5",
+        "deckGroupId": "player5Fate",
+        "discardGroupId": "player5FateDiscard",
+        "currentSide": "B",
+        "peeking": {
+          "player5": true
+        }
+      }
+    },
+    "player5Play": {
+      "groupType": "inPlay",
+      "label": "Player 5 Play",
+      "tableLabel": "Play",
+      "onCardEnter": {
+        "controller": "player5",
+        "deckGroupId": "player5Fate",
+        "discardGroupId": "player5FateDiscard",
+        "currentSide": "A",
+        "inPlay": true
+      },
+      "canHaveAttachments": true
+    },
+    "player5Holdings": {
+      "groupType": "inPlay",
+      "label": "Player 5 Holdings",
+      "tableLabel": "Holdings",
+      "onCardEnter": {
+        "controller": "player5",
+        "deckGroupId": "player5Dynasty",
+        "discardGroupId": "player5DynastyDiscard",
+        "currentSide": "A",
+        "inPlay": true
+      },
+      "canHaveAttachments": true
+    },
+    "player5Stronghold": {
+      "groupType": "inPlay",
+      "label": "Player 5 Stronghold",
+      "tableLabel": "Stronghold",
+      "onCardEnter": {
+        "controller": "player5",
+        "deckGroupId": "player5Dynasty",
+        "discardGroupId": "player5DynastyDiscard",
+        "currentSide": "A",
+        "inPlay": true
+      },
+      "canHaveAttachments": true
+    },
+    "player5Sensei": {
+      "groupType": "inPlay",
+      "label": "Player 5 Sensei",
+      "tableLabel": "Sensei",
+      "onCardEnter": {
+        "controller": "player5",
+        "deckGroupId": "player5Dynasty",
+        "discardGroupId": "player5DynastyDiscard",
+        "currentSide": "A",
+        "inPlay": true
+      },
+      "canHaveAttachments": true
+    },
+    "player5Wind": {
+      "groupType": "inPlay",
+      "label": "Player 5 Wind",
+      "tableLabel": "Wind",
+      "onCardEnter": {
+        "controller": "player5",
+        "deckGroupId": "player5Dynasty",
+        "discardGroupId": "player5DynastyDiscard",
+        "currentSide": "A",
+        "inPlay": true
+      },
+      "canHaveAttachments": true
+    },
+    "player5Favor": {
+      "groupType": "inPlay",
+      "label": "Player 5 Favor",
+      "tableLabel": "Favor",
+      "onCardEnter": {
+        "controller": "player5",
+        "deckGroupId": "player5Fate",
+        "discardGroupId": "player5FateDiscard",
+        "currentSide": "A",
+        "inPlay": true
+      },
+      "canHaveAttachments": true
+    },
+    "player5Mat": {
+      "groupType": "aside",
+      "label": "Player 5 Playmat",
+      "tableLabel": "Playmat",
+      "onCardEnter": {
+        "controller": "player5",
+        "deckGroupId": "player5Dynasty",
+        "discardGroupId": "player5DynastyDiscard",
+        "currentSide": "A"
+      }
+    },
+    "player5Removed": {
+      "groupType": "aside",
+      "label": "Player 5 Removed",
+      "tableLabel": "Removed",
+      "onCardEnter": {
+        "controller": "player5",
+        "deckGroupId": "player5Fate",
+        "discardGroupId": "player5FateDiscard",
+        "currentSide": "A"
+      }
+    },
+    "player5Province1": {
+      "groupType": "inPlay",
+      "label": "Player 5 Province 1",
+      "tableLabel": "P1",
+      "canHaveAttachments": true,
+      "onCardEnter": {
+        "controller": "player5",
+        "deckGroupId": "player5Dynasty",
+        "discardGroupId": "player5DynastyDiscard",
+        "currentSide": "B",
+        "inPlay": true
+      },
+      "destroyed": false
+    },
+    "player5Province2": {
+      "groupType": "inPlay",
+      "label": "Player 5 Province 2",
+      "tableLabel": "P2",
+      "canHaveAttachments": true,
+      "onCardEnter": {
+        "controller": "player5",
+        "deckGroupId": "player5Dynasty",
+        "discardGroupId": "player5DynastyDiscard",
+        "currentSide": "B",
+        "inPlay": true
+      },
+      "destroyed": false
+    },
+    "player5Province3": {
+      "groupType": "inPlay",
+      "label": "Player 5 Province 3",
+      "tableLabel": "P3",
+      "canHaveAttachments": true,
+      "onCardEnter": {
+        "controller": "player5",
+        "deckGroupId": "player5Dynasty",
+        "discardGroupId": "player5DynastyDiscard",
+        "currentSide": "B",
+        "inPlay": true
+      },
+      "destroyed": false
+    },
+    "player5Province4": {
+      "groupType": "inPlay",
+      "label": "Player 5 Province 4",
+      "tableLabel": "P4",
+      "canHaveAttachments": true,
+      "onCardEnter": {
+        "controller": "player5",
+        "deckGroupId": "player5Dynasty",
+        "discardGroupId": "player5DynastyDiscard",
+        "currentSide": "B",
+        "inPlay": true
+      },
+      "destroyed": false
+    },
+    "player6Dynasty": {
+      "groupType": "deck",
+      "label": "Player 6 Dynasty",
+      "tableLabel": "Dynasty",
+      "onCardEnter": {
+        "controller": "player6",
+        "deckGroupId": "player6Dynasty",
+        "discardGroupId": "player6DynastyDiscard",
+        "currentSide": "B"
+      }
+    },
+    "player6DynastyDiscard": {
+      "groupType": "discard",
+      "label": "Player 6 Dynasty Discard",
+      "tableLabel": "Dynasty Discard",
+      "onCardEnter": {
+        "controller": "player6",
+        "deckGroupId": "player6Dynasty",
+        "discardGroupId": "player6DynastyDiscard",
+        "currentSide": "A"
+      }
+    },
+    "player6Fate": {
+      "groupType": "deck",
+      "label": "Player 6 Fate",
+      "tableLabel": "Fate",
+      "onCardEnter": {
+        "controller": "player6",
+        "deckGroupId": "player6Fate",
+        "discardGroupId": "player6FateDiscard",
+        "currentSide": "B"
+      }
+    },
+    "player6FateDiscard": {
+      "groupType": "discard",
+      "label": "Player 6 Fate Discard",
+      "tableLabel": "Fate Discard",
+      "onCardEnter": {
+        "controller": "player6",
+        "deckGroupId": "player6Fate",
+        "discardGroupId": "player6FateDiscard",
+        "currentSide": "A"
+      }
+    },
+    "player6Hand": {
+      "groupType": "hand",
+      "label": "Player 6 Hand",
+      "tableLabel": "Hand",
+      "onCardEnter": {
+        "controller": "player6",
+        "deckGroupId": "player6Fate",
+        "discardGroupId": "player6FateDiscard",
+        "currentSide": "B",
+        "peeking": {
+          "player6": true
+        }
+      }
+    },
+    "player6Play": {
+      "groupType": "inPlay",
+      "label": "Player 6 Play",
+      "tableLabel": "Play",
+      "onCardEnter": {
+        "controller": "player6",
+        "deckGroupId": "player6Fate",
+        "discardGroupId": "player6FateDiscard",
+        "currentSide": "A",
+        "inPlay": true
+      },
+      "canHaveAttachments": true
+    },
+    "player6Holdings": {
+      "groupType": "inPlay",
+      "label": "Player 6 Holdings",
+      "tableLabel": "Holdings",
+      "onCardEnter": {
+        "controller": "player6",
+        "deckGroupId": "player6Dynasty",
+        "discardGroupId": "player6DynastyDiscard",
+        "currentSide": "A",
+        "inPlay": true
+      },
+      "canHaveAttachments": true
+    },
+    "player6Stronghold": {
+      "groupType": "inPlay",
+      "label": "Player 6 Stronghold",
+      "tableLabel": "Stronghold",
+      "onCardEnter": {
+        "controller": "player6",
+        "deckGroupId": "player6Dynasty",
+        "discardGroupId": "player6DynastyDiscard",
+        "currentSide": "A",
+        "inPlay": true
+      },
+      "canHaveAttachments": true
+    },
+    "player6Sensei": {
+      "groupType": "inPlay",
+      "label": "Player 6 Sensei",
+      "tableLabel": "Sensei",
+      "onCardEnter": {
+        "controller": "player6",
+        "deckGroupId": "player6Dynasty",
+        "discardGroupId": "player6DynastyDiscard",
+        "currentSide": "A",
+        "inPlay": true
+      },
+      "canHaveAttachments": true
+    },
+    "player6Wind": {
+      "groupType": "inPlay",
+      "label": "Player 6 Wind",
+      "tableLabel": "Wind",
+      "onCardEnter": {
+        "controller": "player6",
+        "deckGroupId": "player6Dynasty",
+        "discardGroupId": "player6DynastyDiscard",
+        "currentSide": "A",
+        "inPlay": true
+      },
+      "canHaveAttachments": true
+    },
+    "player6Favor": {
+      "groupType": "inPlay",
+      "label": "Player 6 Favor",
+      "tableLabel": "Favor",
+      "onCardEnter": {
+        "controller": "player6",
+        "deckGroupId": "player6Fate",
+        "discardGroupId": "player6FateDiscard",
+        "currentSide": "A",
+        "inPlay": true
+      },
+      "canHaveAttachments": true
+    },
+    "player6Mat": {
+      "groupType": "aside",
+      "label": "Player 6 Playmat",
+      "tableLabel": "Playmat",
+      "onCardEnter": {
+        "controller": "player6",
+        "deckGroupId": "player6Dynasty",
+        "discardGroupId": "player6DynastyDiscard",
+        "currentSide": "A"
+      }
+    },
+    "player6Removed": {
+      "groupType": "aside",
+      "label": "Player 6 Removed",
+      "tableLabel": "Removed",
+      "onCardEnter": {
+        "controller": "player6",
+        "deckGroupId": "player6Fate",
+        "discardGroupId": "player6FateDiscard",
+        "currentSide": "A"
+      }
+    },
+    "player6Province1": {
+      "groupType": "inPlay",
+      "label": "Player 6 Province 1",
+      "tableLabel": "P1",
+      "canHaveAttachments": true,
+      "onCardEnter": {
+        "controller": "player6",
+        "deckGroupId": "player6Dynasty",
+        "discardGroupId": "player6DynastyDiscard",
+        "currentSide": "B",
+        "inPlay": true
+      },
+      "destroyed": false
+    },
+    "player6Province2": {
+      "groupType": "inPlay",
+      "label": "Player 6 Province 2",
+      "tableLabel": "P2",
+      "canHaveAttachments": true,
+      "onCardEnter": {
+        "controller": "player6",
+        "deckGroupId": "player6Dynasty",
+        "discardGroupId": "player6DynastyDiscard",
+        "currentSide": "B",
+        "inPlay": true
+      },
+      "destroyed": false
+    },
+    "player6Province3": {
+      "groupType": "inPlay",
+      "label": "Player 6 Province 3",
+      "tableLabel": "P3",
+      "canHaveAttachments": true,
+      "onCardEnter": {
+        "controller": "player6",
+        "deckGroupId": "player6Dynasty",
+        "discardGroupId": "player6DynastyDiscard",
+        "currentSide": "B",
+        "inPlay": true
+      },
+      "destroyed": false
+    },
+    "player6Province4": {
+      "groupType": "inPlay",
+      "label": "Player 6 Province 4",
+      "tableLabel": "P4",
+      "canHaveAttachments": true,
+      "onCardEnter": {
+        "controller": "player6",
+        "deckGroupId": "player6Dynasty",
+        "discardGroupId": "player6DynastyDiscard",
+        "currentSide": "B",
+        "inPlay": true
+      },
+      "destroyed": false
+    },
+    "player7Dynasty": {
+      "groupType": "deck",
+      "label": "Player 7 Dynasty",
+      "tableLabel": "Dynasty",
+      "onCardEnter": {
+        "controller": "player7",
+        "deckGroupId": "player7Dynasty",
+        "discardGroupId": "player7DynastyDiscard",
+        "currentSide": "B"
+      }
+    },
+    "player7DynastyDiscard": {
+      "groupType": "discard",
+      "label": "Player 7 Dynasty Discard",
+      "tableLabel": "Dynasty Discard",
+      "onCardEnter": {
+        "controller": "player7",
+        "deckGroupId": "player7Dynasty",
+        "discardGroupId": "player7DynastyDiscard",
+        "currentSide": "A"
+      }
+    },
+    "player7Fate": {
+      "groupType": "deck",
+      "label": "Player 7 Fate",
+      "tableLabel": "Fate",
+      "onCardEnter": {
+        "controller": "player7",
+        "deckGroupId": "player7Fate",
+        "discardGroupId": "player7FateDiscard",
+        "currentSide": "B"
+      }
+    },
+    "player7FateDiscard": {
+      "groupType": "discard",
+      "label": "Player 7 Fate Discard",
+      "tableLabel": "Fate Discard",
+      "onCardEnter": {
+        "controller": "player7",
+        "deckGroupId": "player7Fate",
+        "discardGroupId": "player7FateDiscard",
+        "currentSide": "A"
+      }
+    },
+    "player7Hand": {
+      "groupType": "hand",
+      "label": "Player 7 Hand",
+      "tableLabel": "Hand",
+      "onCardEnter": {
+        "controller": "player7",
+        "deckGroupId": "player7Fate",
+        "discardGroupId": "player7FateDiscard",
+        "currentSide": "B",
+        "peeking": {
+          "player7": true
+        }
+      }
+    },
+    "player7Play": {
+      "groupType": "inPlay",
+      "label": "Player 7 Play",
+      "tableLabel": "Play",
+      "onCardEnter": {
+        "controller": "player7",
+        "deckGroupId": "player7Fate",
+        "discardGroupId": "player7FateDiscard",
+        "currentSide": "A",
+        "inPlay": true
+      },
+      "canHaveAttachments": true
+    },
+    "player7Holdings": {
+      "groupType": "inPlay",
+      "label": "Player 7 Holdings",
+      "tableLabel": "Holdings",
+      "onCardEnter": {
+        "controller": "player7",
+        "deckGroupId": "player7Dynasty",
+        "discardGroupId": "player7DynastyDiscard",
+        "currentSide": "A",
+        "inPlay": true
+      },
+      "canHaveAttachments": true
+    },
+    "player7Stronghold": {
+      "groupType": "inPlay",
+      "label": "Player 7 Stronghold",
+      "tableLabel": "Stronghold",
+      "onCardEnter": {
+        "controller": "player7",
+        "deckGroupId": "player7Dynasty",
+        "discardGroupId": "player7DynastyDiscard",
+        "currentSide": "A",
+        "inPlay": true
+      },
+      "canHaveAttachments": true
+    },
+    "player7Sensei": {
+      "groupType": "inPlay",
+      "label": "Player 7 Sensei",
+      "tableLabel": "Sensei",
+      "onCardEnter": {
+        "controller": "player7",
+        "deckGroupId": "player7Dynasty",
+        "discardGroupId": "player7DynastyDiscard",
+        "currentSide": "A",
+        "inPlay": true
+      },
+      "canHaveAttachments": true
+    },
+    "player7Wind": {
+      "groupType": "inPlay",
+      "label": "Player 7 Wind",
+      "tableLabel": "Wind",
+      "onCardEnter": {
+        "controller": "player7",
+        "deckGroupId": "player7Dynasty",
+        "discardGroupId": "player7DynastyDiscard",
+        "currentSide": "A",
+        "inPlay": true
+      },
+      "canHaveAttachments": true
+    },
+    "player7Favor": {
+      "groupType": "inPlay",
+      "label": "Player 7 Favor",
+      "tableLabel": "Favor",
+      "onCardEnter": {
+        "controller": "player7",
+        "deckGroupId": "player7Fate",
+        "discardGroupId": "player7FateDiscard",
+        "currentSide": "A",
+        "inPlay": true
+      },
+      "canHaveAttachments": true
+    },
+    "player7Mat": {
+      "groupType": "aside",
+      "label": "Player 7 Playmat",
+      "tableLabel": "Playmat",
+      "onCardEnter": {
+        "controller": "player7",
+        "deckGroupId": "player7Dynasty",
+        "discardGroupId": "player7DynastyDiscard",
+        "currentSide": "A"
+      }
+    },
+    "player7Removed": {
+      "groupType": "aside",
+      "label": "Player 7 Removed",
+      "tableLabel": "Removed",
+      "onCardEnter": {
+        "controller": "player7",
+        "deckGroupId": "player7Fate",
+        "discardGroupId": "player7FateDiscard",
+        "currentSide": "A"
+      }
+    },
+    "player7Province1": {
+      "groupType": "inPlay",
+      "label": "Player 7 Province 1",
+      "tableLabel": "P1",
+      "canHaveAttachments": true,
+      "onCardEnter": {
+        "controller": "player7",
+        "deckGroupId": "player7Dynasty",
+        "discardGroupId": "player7DynastyDiscard",
+        "currentSide": "B",
+        "inPlay": true
+      },
+      "destroyed": false
+    },
+    "player7Province2": {
+      "groupType": "inPlay",
+      "label": "Player 7 Province 2",
+      "tableLabel": "P2",
+      "canHaveAttachments": true,
+      "onCardEnter": {
+        "controller": "player7",
+        "deckGroupId": "player7Dynasty",
+        "discardGroupId": "player7DynastyDiscard",
+        "currentSide": "B",
+        "inPlay": true
+      },
+      "destroyed": false
+    },
+    "player7Province3": {
+      "groupType": "inPlay",
+      "label": "Player 7 Province 3",
+      "tableLabel": "P3",
+      "canHaveAttachments": true,
+      "onCardEnter": {
+        "controller": "player7",
+        "deckGroupId": "player7Dynasty",
+        "discardGroupId": "player7DynastyDiscard",
+        "currentSide": "B",
+        "inPlay": true
+      },
+      "destroyed": false
+    },
+    "player7Province4": {
+      "groupType": "inPlay",
+      "label": "Player 7 Province 4",
+      "tableLabel": "P4",
+      "canHaveAttachments": true,
+      "onCardEnter": {
+        "controller": "player7",
+        "deckGroupId": "player7Dynasty",
+        "discardGroupId": "player7DynastyDiscard",
+        "currentSide": "B",
+        "inPlay": true
+      },
+      "destroyed": false
+    },
+    "player8Dynasty": {
+      "groupType": "deck",
+      "label": "Player 8 Dynasty",
+      "tableLabel": "Dynasty",
+      "onCardEnter": {
+        "controller": "player8",
+        "deckGroupId": "player8Dynasty",
+        "discardGroupId": "player8DynastyDiscard",
+        "currentSide": "B"
+      }
+    },
+    "player8DynastyDiscard": {
+      "groupType": "discard",
+      "label": "Player 8 Dynasty Discard",
+      "tableLabel": "Dynasty Discard",
+      "onCardEnter": {
+        "controller": "player8",
+        "deckGroupId": "player8Dynasty",
+        "discardGroupId": "player8DynastyDiscard",
+        "currentSide": "A"
+      }
+    },
+    "player8Fate": {
+      "groupType": "deck",
+      "label": "Player 8 Fate",
+      "tableLabel": "Fate",
+      "onCardEnter": {
+        "controller": "player8",
+        "deckGroupId": "player8Fate",
+        "discardGroupId": "player8FateDiscard",
+        "currentSide": "B"
+      }
+    },
+    "player8FateDiscard": {
+      "groupType": "discard",
+      "label": "Player 8 Fate Discard",
+      "tableLabel": "Fate Discard",
+      "onCardEnter": {
+        "controller": "player8",
+        "deckGroupId": "player8Fate",
+        "discardGroupId": "player8FateDiscard",
+        "currentSide": "A"
+      }
+    },
+    "player8Hand": {
+      "groupType": "hand",
+      "label": "Player 8 Hand",
+      "tableLabel": "Hand",
+      "onCardEnter": {
+        "controller": "player8",
+        "deckGroupId": "player8Fate",
+        "discardGroupId": "player8FateDiscard",
+        "currentSide": "B",
+        "peeking": {
+          "player8": true
+        }
+      }
+    },
+    "player8Play": {
+      "groupType": "inPlay",
+      "label": "Player 8 Play",
+      "tableLabel": "Play",
+      "onCardEnter": {
+        "controller": "player8",
+        "deckGroupId": "player8Fate",
+        "discardGroupId": "player8FateDiscard",
+        "currentSide": "A",
+        "inPlay": true
+      },
+      "canHaveAttachments": true
+    },
+    "player8Holdings": {
+      "groupType": "inPlay",
+      "label": "Player 8 Holdings",
+      "tableLabel": "Holdings",
+      "onCardEnter": {
+        "controller": "player8",
+        "deckGroupId": "player8Dynasty",
+        "discardGroupId": "player8DynastyDiscard",
+        "currentSide": "A",
+        "inPlay": true
+      },
+      "canHaveAttachments": true
+    },
+    "player8Stronghold": {
+      "groupType": "inPlay",
+      "label": "Player 8 Stronghold",
+      "tableLabel": "Stronghold",
+      "onCardEnter": {
+        "controller": "player8",
+        "deckGroupId": "player8Dynasty",
+        "discardGroupId": "player8DynastyDiscard",
+        "currentSide": "A",
+        "inPlay": true
+      },
+      "canHaveAttachments": true
+    },
+    "player8Sensei": {
+      "groupType": "inPlay",
+      "label": "Player 8 Sensei",
+      "tableLabel": "Sensei",
+      "onCardEnter": {
+        "controller": "player8",
+        "deckGroupId": "player8Dynasty",
+        "discardGroupId": "player8DynastyDiscard",
+        "currentSide": "A",
+        "inPlay": true
+      },
+      "canHaveAttachments": true
+    },
+    "player8Wind": {
+      "groupType": "inPlay",
+      "label": "Player 8 Wind",
+      "tableLabel": "Wind",
+      "onCardEnter": {
+        "controller": "player8",
+        "deckGroupId": "player8Dynasty",
+        "discardGroupId": "player8DynastyDiscard",
+        "currentSide": "A",
+        "inPlay": true
+      },
+      "canHaveAttachments": true
+    },
+    "player8Favor": {
+      "groupType": "inPlay",
+      "label": "Player 8 Favor",
+      "tableLabel": "Favor",
+      "onCardEnter": {
+        "controller": "player8",
+        "deckGroupId": "player8Fate",
+        "discardGroupId": "player8FateDiscard",
+        "currentSide": "A",
+        "inPlay": true
+      },
+      "canHaveAttachments": true
+    },
+    "player8Mat": {
+      "groupType": "aside",
+      "label": "Player 8 Playmat",
+      "tableLabel": "Playmat",
+      "onCardEnter": {
+        "controller": "player8",
+        "deckGroupId": "player8Dynasty",
+        "discardGroupId": "player8DynastyDiscard",
+        "currentSide": "A"
+      }
+    },
+    "player8Removed": {
+      "groupType": "aside",
+      "label": "Player 8 Removed",
+      "tableLabel": "Removed",
+      "onCardEnter": {
+        "controller": "player8",
+        "deckGroupId": "player8Fate",
+        "discardGroupId": "player8FateDiscard",
+        "currentSide": "A"
+      }
+    },
+    "player8Province1": {
+      "groupType": "inPlay",
+      "label": "Player 8 Province 1",
+      "tableLabel": "P1",
+      "canHaveAttachments": true,
+      "onCardEnter": {
+        "controller": "player8",
+        "deckGroupId": "player8Dynasty",
+        "discardGroupId": "player8DynastyDiscard",
+        "currentSide": "B",
+        "inPlay": true
+      },
+      "destroyed": false
+    },
+    "player8Province2": {
+      "groupType": "inPlay",
+      "label": "Player 8 Province 2",
+      "tableLabel": "P2",
+      "canHaveAttachments": true,
+      "onCardEnter": {
+        "controller": "player8",
+        "deckGroupId": "player8Dynasty",
+        "discardGroupId": "player8DynastyDiscard",
+        "currentSide": "B",
+        "inPlay": true
+      },
+      "destroyed": false
+    },
+    "player8Province3": {
+      "groupType": "inPlay",
+      "label": "Player 8 Province 3",
+      "tableLabel": "P3",
+      "canHaveAttachments": true,
+      "onCardEnter": {
+        "controller": "player8",
+        "deckGroupId": "player8Dynasty",
+        "discardGroupId": "player8DynastyDiscard",
+        "currentSide": "B",
+        "inPlay": true
+      },
+      "destroyed": false
+    },
+    "player8Province4": {
+      "groupType": "inPlay",
+      "label": "Player 8 Province 4",
+      "tableLabel": "P4",
+      "canHaveAttachments": true,
+      "onCardEnter": {
+        "controller": "player8",
+        "deckGroupId": "player8Dynasty",
+        "discardGroupId": "player8DynastyDiscard",
+        "currentSide": "B",
+        "inPlay": true
+      },
+      "destroyed": false
+    }
+  }
+}

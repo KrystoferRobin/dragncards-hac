@@ -1,0 +1,35 @@
+{
+  "deckMenu": {
+    "subMenus": [
+      {
+        "label": "Starter Decks",
+        "deckLists": [
+          {
+            "label": "Applejack Starter",
+            "deckListId": "applejackStarter"
+          },
+          {
+            "label": "Fluttershy Starter",
+            "deckListId": "fluttershyStarter"
+          },
+          {
+            "label": "Pinkie Pie Starter",
+            "deckListId": "pinkiePieStarter"
+          },
+          {
+            "label": "Rainbow Dash Starter",
+            "deckListId": "rainbowDashStarter"
+          },
+          {
+            "label": "Rarity Starter",
+            "deckListId": "rarityStarter"
+          },
+          {
+            "label": "Twilight Sparkle Starter",
+            "deckListId": "twilightSparkleStarter"
+          }
+        ]
+      }
+    ]
+  }
+}

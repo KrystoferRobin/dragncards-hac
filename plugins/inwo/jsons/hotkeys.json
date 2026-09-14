@@ -1,0 +1,122 @@
+{
+  "hotkeys": {
+    "game": [
+      {
+        "key": "D",
+        "actionList": "drawPlot",
+        "label": "Draw plot"
+      },
+      {
+        "key": "G",
+        "actionList": "drawGroup",
+        "label": "Draw group"
+      },
+      {
+        "key": "S",
+        "actionList": "shufflePlotDeck",
+        "label": "Shuffle plot deck"
+      },
+      {
+        "key": "W",
+        "actionList": "shuffleGroupDeck",
+        "label": "Shuffle group deck"
+      },
+      {
+        "key": "R",
+        "actionList": "readyAll",
+        "label": "Ready all"
+      },
+      {
+        "key": "Y",
+        "actionList": "increaseAttack",
+        "label": "Attack +1"
+      },
+      {
+        "key": "U",
+        "actionList": "decreaseAttack",
+        "label": "Attack -1"
+      }
+    ],
+    "card": [
+      {
+        "key": "T",
+        "actionList": "rotateCard",
+        "label": "Rotate"
+      },
+      {
+        "key": "K",
+        "actionList": "unrotateCard",
+        "label": "Unrotate"
+      },
+      {
+        "key": "F",
+        "actionList": [
+          "FLIP",
+          "$ACTIVE_CARD_ID"
+        ],
+        "label": "Flip"
+      },
+      {
+        "key": "X",
+        "actionList": [
+          "DISCARD",
+          "$ACTIVE_CARD_ID"
+        ],
+        "label": "Discard"
+      },
+      {
+        "key": "A",
+        "actionList": [
+          "DETACH",
+          "$ACTIVE_CARD_ID"
+        ],
+        "label": "Detach"
+      },
+      {
+        "key": "H",
+        "actionList": [
+          "SHUFFLE_INTO_DECK",
+          "$ACTIVE_CARD_ID"
+        ],
+        "label": "Shuffle into deck"
+      },
+      {
+        "key": "Q",
+        "actionList": "toRemoved",
+        "label": "Remove from game"
+      },
+      {
+        "key": "L",
+        "actionList": "toLead",
+        "label": "Move to Lead"
+      }
+    ],
+    "token": [
+      {
+        "key": "1",
+        "tokenType": "red",
+        "label": "Action token"
+      },
+      {
+        "key": "2",
+        "tokenType": "white",
+        "label": "White link"
+      },
+      {
+        "key": "3",
+        "tokenType": "blue",
+        "label": "Blue link"
+      },
+      {
+        "key": "4",
+        "tokenType": "green",
+        "label": "Green link"
+      },
+      {
+        "key": "5",
+        "tokenType": "yellow",
+        "label": "Yellow link"
+      }
+    ]
+  }
+}

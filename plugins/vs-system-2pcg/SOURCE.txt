@@ -1,0 +1,9 @@
+Built 2026-09-12 16:51 UTC from LackeyCCG VS2PCG.
+Source: /Users/krystoferrobin/Downloads/lackeyplugins/VS2PCG
+Art copied from local sets/setimages (no remote host).
+Author credit: Lackey / VS 2PCG
+
+Tabletop plugin only — Lackey has no rules engine to port.
+TSV rows: 353  missing images: 0
+Prebuilts: 7 Lackey tournament decks.
+In Lackey, Player Deck is the 60-card deck; Main Deck holds the main character levels.

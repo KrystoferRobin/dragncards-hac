@@ -1,0 +1,8 @@
+{
+  "cardProperties": {
+    "boost": {
+      "default": false,
+      "type": "boolean"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "browse": {
+    "filterPropertySideA": "type",
+    "filterValuesSideA": [
+      "Ad",
+      "Adversary",
+      "Castle",
+      "Castle, Special Castle",
+      "Event",
+      "Event, Permanent Event",
+      "Item",
+      "Joke",
+      "Knight",
+      "Land",
+      "Land, Special Land",
+      "Page",
+      "Permanent Taunt, Taunt",
+      "Persona",
+      "Questions Three",
+      "Song",
+      "Taunt",
+      "Village",
+      "Village, Special Village"
+    ],
+    "textPropertiesSideA": [
+      "name",
+      "packName",
+      "text"
+    ]
+  }
+}

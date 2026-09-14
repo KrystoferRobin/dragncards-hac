@@ -1,0 +1,94 @@
+{
+  "labels": {
+    "twilight": {
+      "English": "Twilight"
+    },
+    "damage": {
+      "English": "•Wound / Heal"
+    },
+    "drawonecard": {
+      "English": "•Draw 1"
+    },
+    "drawstartinghand": {
+      "English": "•Draw starting hand (8)"
+    },
+    "menuAddTwilight": {
+      "English": "•Add 1 twilight"
+    },
+    "menuRemoveTwilight": {
+      "English": "•Remove 1 twilight"
+    },
+    "menulog_activation": {
+      "English": "•Use ability"
+    },
+    "menu_declareskirmish": {
+      "English": "•Log skirmish here"
+    },
+    "sendcardtodiscard": {
+      "English": "•Discard"
+    },
+    "sendcardtodead": {
+      "English": "•Dead pile"
+    },
+    "myDeck": {
+      "English": "My Draw Deck"
+    },
+    "player1Victory": {
+      "English": "Player 1 Win"
+    },
+    "player2Victory": {
+      "English": "Player 2 Win"
+    },
+    "player1modifiedVictory": {
+      "English": "Player 1 Modified Win"
+    },
+    "player2modifiedVictory": {
+      "English": "Player 2 Modified Win"
+    },
+    "markasIncomplete": {
+      "English": "Incomplete"
+    },
+    "Fellowship": {
+      "English": "Fellowship"
+    },
+    "Shadow": {
+      "English": "Shadow"
+    },
+    "Maneuver": {
+      "English": "Maneuver"
+    },
+    "Archery": {
+      "English": "Archery"
+    },
+    "Assignment": {
+      "English": "Assignment"
+    },
+    "Skirmish": {
+      "English": "Skirmish"
+    },
+    "Regroup": {
+      "English": "Regroup"
+    },
+    "step-1.0": {
+      "English": "1. FELLOWSHIP"
+    },
+    "step-2.0": {
+      "English": "2. SHADOW"
+    },
+    "step-3.0": {
+      "English": "3. MANEUVER"
+    },
+    "step-4.0": {
+      "English": "4. ARCHERY"
+    },
+    "step-5.0": {
+      "English": "5. ASSIGNMENT"
+    },
+    "step-6.0": {
+      "English": "6. SKIRMISH"
+    },
+    "step-7.0": {
+      "English": "7. REGROUP"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "preferences": {
+    "game": [
+      "loadMode",
+      "loadRequired",
+      "loadRecommends",
+      "mode",
+      "standardSet",
+      "expertSet"
+    ],
+    "player": [
+      "heroHandSizeModifier",
+      "alterEgoHandSizeModifier"
+    ]
+  }
+}

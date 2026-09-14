@@ -1,0 +1,29 @@
+{
+  "hotkeys": {
+    "game": [
+      {"key": "D", "actionList": "drawLibrary", "label": "Draw library"},
+      {"key": "C", "actionList": "drawCrypt", "label": "Draw crypt"},
+      {"key": "S", "actionList": "shuffleLibrary", "label": "Shuffle library"},
+      {"key": "U", "actionList": "unlockAll", "label": "Unlock all"},
+      {"key": "R", "actionList": "roll1d6", "label": "Roll 1d6"},
+      {"key": "I", "actionList": "flipCoin", "label": "Flip a coin"},
+      {"key": "G", "actionList": "increasePool", "label": "Gain 1 pool"},
+      {"key": "P", "actionList": "decreasePool", "label": "Burn 1 pool"},
+      {"key": "V", "actionList": "increaseVp", "label": "Gain 1 VP"}
+    ],
+    "card": [
+      {"key": "F", "actionList": ["FLIP", "$ACTIVE_CARD_ID"], "label": "Flip card"},
+      {"key": "L", "actionList": "lockCard", "label": "Lock (tap)"},
+      {"key": "K", "actionList": "unlockCard", "label": "Unlock"},
+      {"key": "X", "actionList": ["DISCARD", "$ACTIVE_CARD_ID"], "label": "Burn to ash heap"},
+      {"key": "A", "actionList": ["DETACH", "$ACTIVE_CARD_ID"], "label": "Detach"},
+      {"key": "H", "actionList": ["SHUFFLE_INTO_DECK", "$ACTIVE_CARD_ID"], "label": "Shuffle into origin deck"}
+    ],
+    "token": [
+      {"key": "1", "tokenType": "blood", "label": "Blood"},
+      {"key": "2", "tokenType": "life", "label": "Life"},
+      {"key": "3", "tokenType": "green", "label": "Green counter"},
+      {"key": "4", "tokenType": "orange", "label": "Orange counter"}
+    ]
+  }
+}
