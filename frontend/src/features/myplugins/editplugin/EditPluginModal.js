@@ -17,7 +17,6 @@ import JSZip from 'jszip';
 
 ReactModal.setAppElement("#root");
 
-
 export const EditPluginModal = ({ plugin, closeModal, doFetchHash}) => {
   console.log("Rendering EditPluginModal", plugin)
   const user = useProfile();
@@ -89,58 +88,61 @@ export const EditPluginModal = ({ plugin, closeModal, doFetchHash}) => {
 
     var res;
 
-    
     try {
-    if (plugin === null) {
-      // Create new plugin
-      const updateData = {
-        plugin: {
-          name: inputs.gameDef.pluginName,
-          author_id: user?.id,
-          game_def: inputs.gameDef,
+      if (plugin === null) {
+        // Create new plugin
+        const updateData = {
+          plugin: {
+            name: inputs.gameDef.pluginName,
+            author_id: user?.id,
+            game_def: inputs.gameDef,
+            repo_url: inputs.repoUrl,
+            public: inputs.public || false,
+            version: 1,
+            ...pluginCardDbFields(inputs),
+          }
+        }
+        res = await axios.post("/be/api/myplugins", updateData, authOptions);
+      } else {
+        // Update existing plugin
+        const newPlugin = {
+          id: plugin.id,
+          version: plugin.version + 1,
           repo_url: inputs.repoUrl,
-          public: inputs.public || false,
-          version: 1,
+          public: inputs.public,
           ...pluginCardDbFields(inputs),
         }
-      }
-      res = await axios.post("/be/api/myplugins", updateData, authOptions);
-    } else {
-      // Update existing plugin
-      const newPlugin = {
-        id: plugin.id,
-        version: plugin.version + 1,
-        repo_url: inputs.repoUrl,
-        public: inputs.public,
-        ...pluginCardDbFields(inputs),
-      }
-      if (inputs.gameDef) newPlugin.game_def = inputs.gameDef;
-      if (inputs.gameDef?.pluginName) newPlugin.name = inputs.gameDef.pluginName;
+        if (inputs.gameDef) newPlugin.game_def = inputs.gameDef;
+        if (inputs.gameDef?.pluginName) newPlugin.name = inputs.gameDef.pluginName;
 
-      const updateData = {
-        plugin: newPlugin
-      };
-      res = await axios.patch("/be/api/myplugins/"+plugin.id, updateData, authOptions);
-    }
+        const updateData = {
+          plugin: newPlugin
+        };
+        res = await axios.patch("/be/api/myplugins/"+plugin.id, updateData, authOptions);
+      }
 
-    if (
-      res.status === 200
-    ) {
-      console.log("res pluginupdate", res);
-      doFetchHash((new Date()).toISOString());
-      setSuccessMessage("Plugin updated.");
-      setErrorMessage("");
-      setLoadingMessage("");
-      if (createRoomAfter) createRoom(res.data.plugin.id, res.data.plugin.name, res.data.plugin.version);
-      else closeModal();
-    } else {
-      setSuccessMessage("");
-      setErrorMessage("Error."); 
-      setLoadingMessage("");
-    }
+      if (
+        res.status === 200
+      ) {
+        console.log("res pluginupdate", res);
+        doFetchHash((new Date()).toISOString());
+        setSuccessMessage("Plugin updated.");
+        setErrorMessage("");
+        setLoadingMessage("");
+        if (createRoomAfter) createRoom(res.data.plugin.id, res.data.plugin.name, res.data.plugin.version);
+        else closeModal();
+      } else {
+        setSuccessMessage("");
+        setErrorMessage("Error."); 
+        setLoadingMessage("");
+      }
     } catch (err) {
-      setLoadingMessage("");
+      // The backend rejects edits to plugins you don't own (403) and
+      // unauthenticated requests (401); axios rejects on any non-2xx, so
+      // without this the modal would sit on "Please wait..." forever.
+      console.log("Error saving plugin", err);
       setSuccessMessage("");
+      setLoadingMessage("");
       setErrorMessage(pluginSaveErrorMessage(err, "Error."));
     }
   });
